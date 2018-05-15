@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Head from "next/head";
 import erasureEmail from "../email-templates/erasure";
 import mailtoLink from "mailto-link";
 
@@ -6,10 +7,9 @@ export default class App extends Component {
   state = {};
   handlers = {};
 
-  handleFormInput = e => {
-    const formIsValid = e.currentTarget.checkValidity();
-    this.setState({ formIsValid });
-  };
+  componentDidMount() {
+    window.$location = window.location;
+  }
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -19,6 +19,11 @@ export default class App extends Component {
       };
     }
     return this.handlers[name];
+  };
+
+  handleFormSubmit = e => {
+    e.preventDefault();
+    window.$location.href = this.renderMailTo();
   };
 
   renderMailTo() {
@@ -32,8 +37,16 @@ export default class App extends Component {
   render() {
     return (
       <main>
+        <Head>
+          <title>Opt-out</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+            key="viewport"
+          />
+        </Head>
         <h1>Opt-out</h1>
-        <form onInput={this.handleFormInput}>
+        <form onSubmit={this.handleFormSubmit}>
           <fieldset>
             <legend>Company</legend>
             <label htmlFor="companyEmail">Company</label>
@@ -57,6 +70,7 @@ export default class App extends Component {
                 required
                 type="text"
                 onInput={this.handleInput("name")}
+                autoComplete="name"
               />
             </p>
             <p>
@@ -67,6 +81,7 @@ export default class App extends Component {
                 required
                 type="email"
                 onInput={this.handleInput("email")}
+                autoComplete="email"
               />
             </p>
             <p>
@@ -76,14 +91,13 @@ export default class App extends Component {
                 id="address"
                 required
                 onInput={this.handleInput("address")}
+                autoComplete="street-address"
               />
             </p>
           </fieldset>
-          {this.state.formIsValid && (
-            <p>
-              <a href={this.renderMailTo()}>Send</a>
-            </p>
-          )}
+          <p>
+            <button type="submit">Send</button>
+          </p>
         </form>
       </main>
     );

@@ -11,13 +11,12 @@ class Page {
     return browser.url(`http://localhost:3001${this.path}`);
   }
 
-  get send() {
-    return browser.element("*=Send");
+  get mailTo() {
+    return browser.getAttribute("body", "data-open-url");
   }
 
-  get mailTo() {
-    const href = this.send.getAttribute("href");
-    const mailTo = this.mailToParser.parse(href);
+  get parsedMailTo() {
+    const mailTo = this.mailToParser.parse(this.mailTo);
     return {
       to: mailTo.to,
       subject: decodeURIComponent(mailTo.attributeKey.subject),
@@ -53,6 +52,10 @@ class Form {
 
   selectOption(labelText, optionText) {
     return this.selectElementByLabel(labelText).selectByVisibleText(optionText);
+  }
+
+  submit() {
+    return browser.click("button=Send");
   }
 }
 

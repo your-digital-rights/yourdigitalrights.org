@@ -11,17 +11,23 @@ describe("When visiting the home page", () => {
     page = new Page({
       path: "/"
     });
+
     page.visit();
+
     browser.execute(function() {
       const OldDate = window.Date;
       window.Date = function() {
         return new OldDate(2022, 4, 23);
       };
+      window.$location = new Proxy(window.location, {
+        set(target, property, value) {
+          if (property === "href") {
+            document.body.setAttribute("data-open-url", value);
+          }
+          return true;
+        }
+      });
     });
-  });
-
-  it("does not show a send link", () => {
-    page.send.isExisting().should.not.be.true;
   });
 
   describe("When filling in the form with invalid data", () => {
@@ -29,10 +35,11 @@ describe("When visiting the home page", () => {
       page.form.fillIn("Name", "Rob");
       page.form.fillIn("Email address", "rob");
       page.form.fillIn("Home address", "10 Downing Street");
+      page.form.submit();
     });
 
-    it("does not show a send link", () => {
-      page.send.isExisting().should.not.be.true;
+    it("does not open a mailto url", () => {
+      (page.mailTo === null).should.be.true;
     });
   });
 
@@ -44,19 +51,14 @@ describe("When visiting the home page", () => {
       page.form.fillIn("Name", "Rob");
       page.form.fillIn("Email address", "rob@test.com");
       page.form.fillIn("Home address", "10 Downing Street");
-      mailTo = page.mailTo;
+      page.form.submit();
+      mailTo = page.parsedMailTo;
     });
 
-    it("shows a send link", () => {
-      page.send.isExisting().should.be.true;
+    it("opens a mailto url", () => {
       mailTo.to.should.be.equal("test@mycompany.com");
       mailTo.subject.should.be.equal("Erasure Request");
       mailTo.body.should.match(/Rob/, "Email body should contain users name");
-      mailTo.body.should.match(
-        /10 Downing Street/,
-        "Email body should contain users home address"
-      );
-
       mailTo.body.should.match(
         /10 Downing Street/,
         "Email body should contain users home address"
