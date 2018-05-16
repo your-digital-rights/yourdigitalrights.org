@@ -57,6 +57,14 @@ class Form {
   submit() {
     return browser.click("button=Send");
   }
+
+  get submitButton() {
+    return $("button=Send");
+  }
+
+  get personalInfoLegend() {
+    return $("legend=Personal information");
+  }
 }
 
 export default Page;
