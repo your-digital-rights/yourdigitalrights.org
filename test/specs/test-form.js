@@ -29,7 +29,7 @@ describe("When visiting the home page", () => {
     });
   });
 
-  describe("When filling in the form with invalid data", () => {
+  describe("When filling in the form with invalid data and submitting", () => {
     beforeEach(() => {
       page.form.fillIn("Name", "Rob");
       page.form.fillIn("Email address", "rob");
@@ -42,7 +42,7 @@ describe("When visiting the home page", () => {
     });
   });
 
-  describe("When filling in the form with valid data", () => {
+  describe("When filling in the form with valid data and submitting", () => {
     let mailTo;
 
     beforeEach(() => {
