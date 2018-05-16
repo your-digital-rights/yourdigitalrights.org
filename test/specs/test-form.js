@@ -15,9 +15,8 @@ describe("When visiting the home page", () => {
     page.visit();
 
     browser.execute(function() {
-      const OldDate = window.Date;
-      window.Date = function() {
-        return new OldDate(2022, 4, 23);
+      window.Date.prototype.toLocaleDateString = function() {
+        return "23/05/2022";
       };
       window.$location = new Proxy(window.location, {
         set(target, property, value) {
