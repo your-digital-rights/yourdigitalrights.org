@@ -13,10 +13,12 @@
     "start": "next start ./src"
   },
   "dependencies": {
+    "babel-plugin-react-intl": "^2.4.0",
     "mailto-link": "^1.0.0",
     "next": "^6.0.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-intl": "^2.4.0"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -33,7 +35,9 @@
     "wdio-spec-reporter": "^0.1.4",
     "webdriverio": "^4.12.0"
   },
-  "engines": { "node": ">=8.0.0" },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "now": {
     "name": "opt-out"
   }
