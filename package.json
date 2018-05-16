@@ -33,6 +33,7 @@
     "wdio-spec-reporter": "^0.1.4",
     "webdriverio": "^4.12.0"
   },
+  "engines" : { "node" : ">=8.0.0" },
   "now": {
     "name": "opt-out"
   }
