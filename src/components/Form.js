@@ -3,8 +3,24 @@ import { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import Head from "next/head";
 import Select from "@material-ui/core/Select";
+import TextField from "@material-ui/core/TextField";
+import Typography from "@material-ui/core/Typography";
+import classNames from "classnames";
 import erasureEmail from "../email-templates/erasure";
 import mailtoLink from "mailto-link";
+import { withStyles } from "@material-ui/core/styles";
+
+const styles = theme => ({
+  hero: {
+    backgroundColor: theme.palette.primary.main,
+    backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
+    color: "white"
+  },
+  formContainer: {
+    display: "flex",
+    flexDirection: "column"
+  }
+});
 
 class Form extends Component {
   state = {};
@@ -37,92 +53,110 @@ class Form extends Component {
     });
   }
 
-  componentDidUpdate(prevProps, prevState) {
-    if (this.state.companyEmail && !prevState.companyEmail) {
-      this.refs.name.focus();
-    }
-  }
-
   render() {
+    const { classes } = this.props;
+
+    const Heading = (
+      <FormattedMessage
+        id="heading"
+        defaultMessage="Erasing {strong} made simple"
+        values={{ strong: <strong>personal data</strong> }}
+      >
+        {(...formattedMessage) => (
+          <Typography variant="display1" color="inherit">
+            {formattedMessage}
+          </Typography>
+        )}
+      </FormattedMessage>
+    );
+
+    const CompanyInput = !this.state.companyEmail && (
+      <div>
+        <TextField
+          select
+          label={
+            <FormattedMessage id="companyLabel" defaultMessage="Company" />
+          }
+          name="companyEmail"
+          id="companyEmail"
+          required
+          onChange={this.handleInput("companyEmail")}
+          SelectProps={{
+            native: true
+          }}
+          value={this.state.companyEmail}
+        >
+          <FormattedMessage
+            id="unselectedCompany"
+            defaultMessage="I'd like to opt out of…"
+          >
+            {message => <option>{message}</option>}
+          </FormattedMessage>
+          <option value="test@mycompany.com">My test company</option>
+        </TextField>
+      </div>
+    );
+
+    const PersonalInfoInput = this.state.companyEmail && (
+      <div className={classNames(classes.formContainer)}>
+        <TextField
+          id="name"
+          label={<FormattedMessage id="nameLabel" defaultMessage="Your name" />}
+          value={this.state.name}
+          onChange={this.handleInput("name")}
+          margin="normal"
+          required
+          autoFocus
+        />
+        <TextField
+          id="email"
+          label={
+            <FormattedMessage
+              id="emailLabel"
+              defaultMessage="Your email address"
+            />
+          }
+          value={this.state.email}
+          onChange={this.handleInput("email")}
+          margin="normal"
+          type="email"
+          required
+        />
+        <TextField
+          id="address"
+          label={
+            <FormattedMessage
+              id="homeAddressLabel"
+              defaultMessage="Your home address"
+            />
+          }
+          value={this.state.address}
+          onChange={this.handleInput("address")}
+          margin="normal"
+          required
+          multiline
+          rows={4}
+        />
+        <div>
+          <Button variant="raised" color="primary" type="submit">
+            <FormattedMessage
+              id="sendButton"
+              defaultMessage="Send your request"
+            />
+          </Button>
+        </div>
+      </div>
+    );
+
     return (
       <form onSubmit={this.handleFormSubmit}>
-        {!this.state.companyEmail ? (
-          <div>
-            <label htmlFor="companyEmail">
-              <FormattedMessage id="companyLabel" defaultMessage="Company" />
-            </label>
-            <Select
-              name="companyEmail"
-              id="companyEmail"
-              required
-              onChange={this.handleInput("companyEmail")}
-              native={true}
-            >
-              <FormattedMessage
-                id="unselectedCompany"
-                defaultMessage="Choose a company"
-              >
-                {message => <option value="">{message}</option>}
-              </FormattedMessage>
-              <option value="test@mycompany.com">My test company</option>
-            </Select>
-          </div>
-        ) : (
-          <div>
-            <p>
-              <label htmlFor="name">
-                <FormattedMessage id="nameLabel" defaultMessage="Name" />
-              </label>
-              <input
-                name="name"
-                id="name"
-                required
-                type="text"
-                onInput={this.handleInput("name")}
-                autoComplete="name"
-                ref="name"
-              />
-            </p>
-            <p>
-              <label htmlFor="email">
-                <FormattedMessage
-                  id="emailAddressLabel"
-                  defaultMessage="Email address"
-                />
-              </label>
-              <input
-                name="email"
-                id="email"
-                required
-                type="email"
-                onInput={this.handleInput("email")}
-                autoComplete="email"
-              />
-            </p>
-            <p>
-              <label htmlFor="address">
-                <FormattedMessage
-                  id="homeAddressLabel"
-                  defaultMessage="Home address"
-                />
-              </label>
-              <textarea
-                name="address"
-                id="address"
-                required
-                onInput={this.handleInput("address")}
-                autoComplete="street-address"
-              />
-            </p>
-            <p>
-              <Button variant="raised" color="primary" type="submit">
-                <FormattedMessage id="sendButton" defaultMessage="Send" />
-              </Button>
-            </p>
-          </div>
-        )}
+        <div className={classNames(classes.hero)}>
+          {Heading}
+          {CompanyInput}
+        </div>
+        {PersonalInfoInput}
       </form>
     );
   }
 }
-export default Form;
+export default withStyles(styles)(Form);

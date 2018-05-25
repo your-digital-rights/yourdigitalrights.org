@@ -42,7 +42,7 @@ class Form {
   selectElementByLabel(labelText) {
     const id = browser
       .element(this.baseSelector)
-      .getAttribute(`label=${labelText}`, "for");
+      .getAttribute(`label*=${labelText}`, "for");
     return $(`#${id}`);
   }
 
@@ -55,11 +55,11 @@ class Form {
   }
 
   submit() {
-    return browser.click("button=Send");
+    return this.submitButton.click();
   }
 
   get submitButton() {
-    return $("button=Send");
+    return $("button=Send your request");
   }
 }
 

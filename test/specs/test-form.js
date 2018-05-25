@@ -35,7 +35,7 @@ describe("When I visit the home page", () => {
     });
 
     it("focuses the name field", () => {
-      page.form.selectElementByLabel("Name").hasFocus().should.be.true;
+      page.form.selectElementByLabel("Your name").hasFocus().should.be.true;
     });
 
     it("reveals the submit button", () => {
@@ -44,9 +44,9 @@ describe("When I visit the home page", () => {
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.form.fillIn("Name", "Rob");
-        page.form.fillIn("Email address", "rob");
-        page.form.fillIn("Home address", "10 Downing Street");
+        page.form.fillIn("Your name", "Rob");
+        page.form.fillIn("Your email address", "rob");
+        page.form.fillIn("Your home address", "10 Downing Street");
         page.form.submit();
       });
 
@@ -59,9 +59,9 @@ describe("When I visit the home page", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.form.fillIn("Name", "Rob");
-        page.form.fillIn("Email address", "rob@test.com");
-        page.form.fillIn("Home address", "10 Downing Street");
+        page.form.fillIn("Your name", "Rob");
+        page.form.fillIn("Your email address", "rob@test.com");
+        page.form.fillIn("Your home address", "10 Downing Street");
         page.form.submit();
         mailTo = page.parsedMailTo;
       });

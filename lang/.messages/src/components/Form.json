@@ -1,26 +1,30 @@
 [
   {
+    "id": "heading",
+    "defaultMessage": "Erasing {strong} made simple"
+  },
+  {
     "id": "companyLabel",
     "defaultMessage": "Company"
   },
   {
     "id": "unselectedCompany",
-    "defaultMessage": "Choose a company"
+    "defaultMessage": "I'd like to opt out of…"
   },
   {
     "id": "nameLabel",
-    "defaultMessage": "Name"
+    "defaultMessage": "Your name"
   },
   {
-    "id": "emailAddressLabel",
-    "defaultMessage": "Email address"
+    "id": "emailLabel",
+    "defaultMessage": "Your email address"
   },
   {
     "id": "homeAddressLabel",
-    "defaultMessage": "Home address"
+    "defaultMessage": "Your home address"
   },
   {
     "id": "sendButton",
-    "defaultMessage": "Send"
+    "defaultMessage": "Send your request"
   }
 ]
