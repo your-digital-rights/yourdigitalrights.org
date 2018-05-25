@@ -35,9 +35,7 @@ describe("When I visit the home page", () => {
     });
 
     it("focuses the name field", () => {
-      page.form.personalInfoLegend
-        .getText()
-        .should.equal(browser.elementActive().getText());
+      page.form.selectElementByLabel("Name").hasFocus().should.be.true;
     });
 
     it("reveals the submit button", () => {

@@ -13,6 +13,7 @@
     "start": "next start ./src"
   },
   "dependencies": {
+    "@material-ui/core": "^1.0.0-rc.1",
     "babel-plugin-react-intl": "^2.4.0",
     "mailto-link": "^1.0.0",
     "next": "^6.0.1",

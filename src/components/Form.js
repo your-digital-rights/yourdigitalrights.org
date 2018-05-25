@@ -1,6 +1,8 @@
+import Button from "@material-ui/core/Button";
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import Head from "next/head";
+import Select from "@material-ui/core/Select";
 import erasureEmail from "../email-templates/erasure";
 import mailtoLink from "mailto-link";
 
@@ -37,7 +39,7 @@ class Form extends Component {
 
   componentDidUpdate(prevProps, prevState) {
     if (this.state.companyEmail && !prevState.companyEmail) {
-      this.refs.personalInfo.focus();
+      this.refs.name.focus();
     }
   }
 
@@ -45,18 +47,16 @@ class Form extends Component {
     return (
       <form onSubmit={this.handleFormSubmit}>
         {!this.state.companyEmail ? (
-          <fieldset>
-            <legend>
-              <FormattedMessage id="companyLegend" defaultMessage="Company" />
-            </legend>
+          <div>
             <label htmlFor="companyEmail">
               <FormattedMessage id="companyLabel" defaultMessage="Company" />
             </label>
-            <select
+            <Select
               name="companyEmail"
               id="companyEmail"
               required
               onChange={this.handleInput("companyEmail")}
+              native={true}
             >
               <FormattedMessage
                 id="unselectedCompany"
@@ -65,66 +65,59 @@ class Form extends Component {
                 {message => <option value="">{message}</option>}
               </FormattedMessage>
               <option value="test@mycompany.com">My test company</option>
-            </select>
-          </fieldset>
+            </Select>
+          </div>
         ) : (
           <div>
-            <fieldset>
-              <legend tabIndex="-1" ref="personalInfo">
-                <FormattedMessage
-                  id="personalInfoLegend"
-                  defaultMessage="Personal information"
-                />
-              </legend>
-              <p>
-                <label htmlFor="name">
-                  <FormattedMessage id="nameLabel" defaultMessage="Name" />
-                </label>
-                <input
-                  name="name"
-                  id="name"
-                  required
-                  type="text"
-                  onInput={this.handleInput("name")}
-                  autoComplete="name"
-                />
-              </p>
-              <p>
-                <label htmlFor="email">
-                  <FormattedMessage
-                    id="emailAddressLabel"
-                    defaultMessage="Email address"
-                  />
-                </label>
-                <input
-                  name="email"
-                  id="email"
-                  required
-                  type="email"
-                  onInput={this.handleInput("email")}
-                  autoComplete="email"
-                />
-              </p>
-              <p>
-                <label htmlFor="address">
-                  <FormattedMessage
-                    id="homeAddressLabel"
-                    defaultMessage="Home address"
-                  />
-                </label>
-                <textarea
-                  name="address"
-                  id="address"
-                  required
-                  onInput={this.handleInput("address")}
-                  autoComplete="street-address"
-                />
-              </p>
-            </fieldset>
             <p>
-              <button type="submit">
+              <label htmlFor="name">
+                <FormattedMessage id="nameLabel" defaultMessage="Name" />
+              </label>
+              <input
+                name="name"
+                id="name"
+                required
+                type="text"
+                onInput={this.handleInput("name")}
+                autoComplete="name"
+                ref="name"
+              />
+            </p>
+            <p>
+              <label htmlFor="email">
+                <FormattedMessage
+                  id="emailAddressLabel"
+                  defaultMessage="Email address"
+                />
+              </label>
+              <input
+                name="email"
+                id="email"
+                required
+                type="email"
+                onInput={this.handleInput("email")}
+                autoComplete="email"
+              />
+            </p>
+            <p>
+              <label htmlFor="address">
+                <FormattedMessage
+                  id="homeAddressLabel"
+                  defaultMessage="Home address"
+                />
+              </label>
+              <textarea
+                name="address"
+                id="address"
+                required
+                onInput={this.handleInput("address")}
+                autoComplete="street-address"
+              />
+            </p>
+            <p>
+              <Button variant="raised" color="primary" type="submit">
                 <FormattedMessage id="sendButton" defaultMessage="Send" />
-              </button>
+              </Button>
             </p>
           </div>
         )}

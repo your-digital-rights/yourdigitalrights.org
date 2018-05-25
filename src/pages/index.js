@@ -1,18 +1,19 @@
-import { Component } from "react";
 import Form from "../components/Form";
 import { FormattedMessage } from "react-intl";
-import Head from "next/head";
-import erasureEmail from "../email-templates/erasure";
-import mailtoLink from "mailto-link";
+import Typography from "@material-ui/core/Typography";
 import pageWithIntl from "../components/PageWithIntl";
+import withRoot from "../withRoot";
+import { withStyles } from "@material-ui/core/styles";
 
-export default pageWithIntl(() => {
+const Index = () => {
   return (
     <main>
-      <h1>
+      <Typography variant="display1">
         <FormattedMessage id="heading" defaultMessage="Opt out" />
-      </h1>
+      </Typography>
       <Form />
     </main>
   );
-});
+};
+
+export default withRoot(withStyles()(pageWithIntl(Index)));

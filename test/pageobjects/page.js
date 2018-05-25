@@ -61,10 +61,6 @@ class Form {
   get submitButton() {
     return $("button=Send");
   }
-
-  get personalInfoLegend() {
-    return $("legend=Personal information");
-  }
 }
 
 export default Page;
