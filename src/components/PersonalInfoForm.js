@@ -11,11 +11,6 @@ import mailtoLink from "mailto-link";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
-  hero: {
-    backgroundColor: theme.palette.primary.main,
-    backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
-    color: "white"
-  },
   formContainer: {
     display: "flex",
     flexDirection: "column"
@@ -25,10 +20,6 @@ const styles = theme => ({
 class Form extends Component {
   state = {};
   handlers = {};
-
-  componentDidMount() {
-    window.$location = window.location;
-  }
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -47,7 +38,7 @@ class Form extends Component {
 
   renderMailTo() {
     return mailtoLink({
-      to: this.state.companyEmail,
+      to: this.props.companyEmail,
       subject: erasureEmail.subject,
       body: erasureEmail.formatBody(this.state)
     });
@@ -56,48 +47,7 @@ class Form extends Component {
   render() {
     const { classes } = this.props;
 
-    const Heading = (
-      <FormattedMessage
-        id="heading"
-        defaultMessage="Erasing {strong} made simple"
-        values={{ strong: <strong>personal data</strong> }}
-      >
-        {(...formattedMessage) => (
-          <Typography variant="display1" color="inherit">
-            {formattedMessage}
-          </Typography>
-        )}
-      </FormattedMessage>
-    );
-
-    const CompanyInput = !this.state.companyEmail && (
-      <div>
-        <TextField
-          select
-          label={
-            <FormattedMessage id="companyLabel" defaultMessage="Company" />
-          }
-          name="companyEmail"
-          id="companyEmail"
-          required
-          onChange={this.handleInput("companyEmail")}
-          SelectProps={{
-            native: true
-          }}
-          value={this.state.companyEmail}
-        >
-          <FormattedMessage
-            id="unselectedCompany"
-            defaultMessage="I'd like to opt out of…"
-          >
-            {message => <option>{message}</option>}
-          </FormattedMessage>
-          <option value="test@mycompany.com">My test company</option>
-        </TextField>
-      </div>
-    );
-
-    const PersonalInfoInput = this.state.companyEmail && (
+    const PersonalInfoInput = (
       <div className={classNames(classes.formContainer)}>
         <TextField
           id="name"
@@ -149,11 +99,7 @@ class Form extends Component {
     );
 
     return (
-      <form onSubmit={this.handleFormSubmit}>
-        <div className={classNames(classes.hero)}>
-          {Heading}
-          {CompanyInput}
-        </div>
+      <form onSubmit={this.handleFormSubmit} method="GET" id="personalInfoForm">
         {PersonalInfoInput}
       </form>
     );

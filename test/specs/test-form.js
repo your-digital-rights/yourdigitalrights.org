@@ -31,23 +31,21 @@ describe("When I visit the home page", () => {
 
   describe("and select a company", () => {
     beforeEach(() => {
-      page.form.selectOption("Company", "My test company");
+      page.searchForm.fillIn("Company", "Sla");
+      page.searchResults[0].click();
     });
 
     it("focuses the name field", () => {
-      page.form.selectElementByLabel("Your name").hasFocus().should.be.true;
-    });
-
-    it("reveals the submit button", () => {
-      page.form.submitButton.should.exist;
+      page.personalInfoForm.selectElementByLabel("Your name").hasFocus().should
+        .be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.form.fillIn("Your name", "Rob");
-        page.form.fillIn("Your email address", "rob");
-        page.form.fillIn("Your home address", "10 Downing Street");
-        page.form.submit();
+        page.personalInfoForm.fillIn("Your name", "Rob");
+        page.personalInfoForm.fillIn("Your email address", "rob");
+        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.submit();
       });
 
       it("does not open a mailto url", () => {
@@ -59,15 +57,15 @@ describe("When I visit the home page", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.form.fillIn("Your name", "Rob");
-        page.form.fillIn("Your email address", "rob@test.com");
-        page.form.fillIn("Your home address", "10 Downing Street");
-        page.form.submit();
+        page.personalInfoForm.fillIn("Your name", "Rob");
+        page.personalInfoForm.fillIn("Your email address", "rob@test.com");
+        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
       it("opens a mailto url", () => {
-        mailTo.to.should.be.equal("test@mycompany.com");
+        mailTo.to.should.be.equal("feedback@slack.com");
         mailTo.subject.should.be.equal("Erasure Request");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(

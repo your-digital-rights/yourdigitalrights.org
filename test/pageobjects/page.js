@@ -3,7 +3,8 @@ import mailToParser from "mailto-parser";
 class Page {
   constructor({ path }) {
     this.path = path;
-    this.form = new Form("form");
+    this.searchForm = new Form("#searchForm");
+    this.personalInfoForm = new Form("#personalInfoForm");
     this.mailToParser = new mailToParser.Parser();
   }
 
@@ -22,6 +23,10 @@ class Page {
       subject: decodeURIComponent(mailTo.attributeKey.subject),
       body: decodeURIComponent(mailTo.attributeKey.body)
     };
+  }
+
+  get searchResults() {
+    return $$(".search-result");
   }
 }
 
@@ -48,10 +53,6 @@ class Form {
 
   fillIn(labelText, value) {
     return this.selectElementByLabel(labelText).setValue(value);
-  }
-
-  selectOption(labelText, optionText) {
-    return this.selectElementByLabel(labelText).selectByVisibleText(optionText);
   }
 
   submit() {
