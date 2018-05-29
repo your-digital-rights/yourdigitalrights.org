@@ -1,10 +1,14 @@
 [
   {
     "id": "heading",
-    "defaultMessage": "Erasing {strong} made simple"
+    "defaultMessage": "Erase your {strong} made simple"
+  },
+  {
+    "id": "intro",
+    "defaultMessage": "The 25th of May 2018, the GDPR took action and  developed a set of legislations that will help you protect and manage your data. We’ve developed a tool for you to be able to reach out to companies that you know they may have your data and take action over it. Please select a company and add your data for us to provide you with a template for your request."
   },
   {
     "id": "companyLabel",
-    "defaultMessage": "Company"
+    "defaultMessage": "Search for a company"
   }
 ]

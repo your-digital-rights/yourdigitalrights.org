@@ -31,8 +31,8 @@ describe("When I visit the home page", () => {
 
   describe("and select a company", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Company", "Sla");
-      page.searchResults[0].click();
+      page.searchForm.fillIn("Search for a company", "Sla");
+      $("button=Slack").click();
     });
 
     it("focuses the name field", () => {
