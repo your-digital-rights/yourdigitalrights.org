@@ -1,7 +1,14 @@
 import { Component } from "react";
+import FormControl from "@material-ui/core/FormControl";
 import { FormattedMessage } from "react-intl";
-import Grid from "@material-ui/core/Grid";
 import Head from "next/head";
+import Icon from "@material-ui/core/Icon";
+import Input from "@material-ui/core/Input";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import InputLabel from "@material-ui/core/InputLabel";
+import List from "@material-ui/core/List";
+import ListItem from "@material-ui/core/ListItem";
+import ListItemText from "@material-ui/core/ListItemText";
 import Paper from "@material-ui/core/Paper";
 import Select from "@material-ui/core/Select";
 import TextField from "@material-ui/core/TextField";
@@ -10,17 +17,9 @@ import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
-  hero: {
-    backgroundColor: theme.palette.primary.main,
-    backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
-    color: "white",
-    padding: "100px 0 80px",
-    textAlign: "center",
-    display: "flex",
-    justifyContent: "center"
-  },
   centeredRow: {
     display: "flex",
+    alignItems: "center",
     justifyContent: "center"
   },
   container: {
@@ -28,15 +27,27 @@ const styles = theme => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    flexDirection: "column"
+    flexDirection: "column",
+    padding: "0 20px"
   },
   containerFill: {
-    alignItems: "stretch"
+    alignItems: "stretch",
+    flex: "1 1 800px"
   },
-  heading: {
-    maxWidth: "400px"
+  searchResult: {},
+  searchInputWrapper: {
+    padding: "6px 10px"
   },
-  searchResult: {}
+  label: {
+    border: 0,
+    clip: "rect(0 0 0 0)",
+    height: "1px",
+    margin: "-1px",
+    overflow: "hidden",
+    padding: 0,
+    position: "absolute",
+    width: "1px"
+  }
 });
 
 class Form extends Component {
@@ -50,9 +61,12 @@ class Form extends Component {
   };
 
   handleInput = e => {
-    const searchResults = this.props.companies.filter(company => {
-      return company.name.toLowerCase().match(e.target.value.toLowerCase());
-    });
+    let searchResults = [];
+    if (e.target.value) {
+      searchResults = this.props.companies.filter(company => {
+        return company.name.toLowerCase().match(e.target.value.toLowerCase());
+      });
+    }
 
     this.setState({
       companyNameSearch: e.target.value,
@@ -70,89 +84,69 @@ class Form extends Component {
       });
     };
 
-    const Heading = (
-      <div className={classNames(classes.heading)}>
-        <FormattedMessage
-          id="heading"
-          defaultMessage="Erase your {strong} made simple"
-          values={{ strong: <strong>personal data</strong> }}
-        >
-          {(...formattedMessage) => (
-            <Typography variant="display1" color="inherit" gutterBottom={true}>
-              {formattedMessage}
-            </Typography>
-          )}
-        </FormattedMessage>
-        <Typography color="inherit">
-          <FormattedMessage
-            id="intro"
-            defaultMessage="The 25th of May 2018, the GDPR took action and  developed a set of legislations that will help you protect and manage your data. We’ve developed a tool for you to be able to reach out to companies that you know they may have your data and take action over it. Please select a company and add your data for us to provide you with a template for your request."
-          />
-        </Typography>
-      </div>
-    );
-
-    const CompanyInput = !this.state.companyEmail && (
-      <div>
-        <TextField
-          label={
-            <FormattedMessage
-              id="companyLabel"
-              defaultMessage="Search for a company"
-            />
-          }
-          name="companyNameSearch"
-          id="companyNameSearch"
-          onInput={this.handleInput}
-          value={this.state.companyNameSearch}
-          InputProps={{
-            disableUnderline: true
-          }}
-          fullWidth={true}
-        />
-      </div>
-    );
-
     return (
-      <div>
-        <div className={classNames(classes.hero)}>
-          <Grid container className={classes.container} spacing={16}>
-            {Heading}
-          </Grid>
-        </div>
-        <form
-          method="GET"
-          id="searchForm"
-          className={classNames(classes.centeredRow)}
-        >
-          <Grid
-            container
-            className={classNames(classes.container, classes.containerFill)}
-            spacing={16}
+      <form
+        method="GET"
+        id="searchForm"
+        className={classNames(classes.centeredRow)}
+      >
+        <div className={classNames(classes.container, classes.containerFill)}>
+          <FormattedMessage
+            id="companyPlaceholder"
+            defaultMessage="Search for a company"
           >
-            <Paper>{CompanyInput}</Paper>
-            {this.state.searchResults.length ? (
-              <ul>
-                {this.state.searchResults.map((result, i) => (
-                  <li key={i}>
-                    <Paper>
-                      <button
-                        type="button"
-                        className={classNames(classes.searchResult)}
-                        onClick={() => onSelected(result)}
-                      >
-                        {result.name}
-                      </button>
-                    </Paper>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              ""
+            {label => (
+              <Paper>
+                <InputLabel
+                  htmlFor="companyNameSearch"
+                  className={classNames(classes.label)}
+                >
+                  {label}
+                </InputLabel>
+                <Input
+                  id="companyNameSearch"
+                  onInput={this.handleInput}
+                  value={this.state.companyNameSearch}
+                  startAdornment={
+                    <InputAdornment position="start">
+                      <Icon>search</Icon>
+                    </InputAdornment>
+                  }
+                  disableUnderline={true}
+                  placeholder={label}
+                  fullWidth={true}
+                  className={classNames(classes.searchInputWrapper)}
+                  autoComplete="off"
+                />
+              </Paper>
             )}
-          </Grid>
-        </form>
-      </div>
+          </FormattedMessage>
+          {this.state.searchResults.length ? (
+            <Paper>
+              <List>
+                {this.state.searchResults.map((result, i) => (
+                  <ListItem
+                    button
+                    key={i}
+                    onClick={() => onSelected(result)}
+                    dense={true}
+                  >
+                    <img
+                      alt="Remy Sharp"
+                      src={`https://www.google.com/s2/favicons?domain=${
+                        result.email.split("@")[1]
+                      }`}
+                    />
+                    <ListItemText primary={result.name} />
+                  </ListItem>
+                ))}
+              </List>
+            </Paper>
+          ) : (
+            ""
+          )}
+        </div>
+      </form>
     );
   }
 }

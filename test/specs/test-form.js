@@ -32,7 +32,7 @@ describe("When I visit the home page", () => {
   describe("and select a company", () => {
     beforeEach(() => {
       page.searchForm.fillIn("Search for a company", "Sla");
-      $("button=Slack").click();
+      $("div=Slack").click();
     });
 
     it("focuses the name field", () => {
