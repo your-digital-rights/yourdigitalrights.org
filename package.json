@@ -10,7 +10,8 @@
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "next ./src",
     "build": "next build ./src",
-    "start": "next start ./src"
+    "start": "next start ./src",
+    "deploy": "now --region bru --public && now alias opt-out"
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0-rc.1",
