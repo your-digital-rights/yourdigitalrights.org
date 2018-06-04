@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Hero from "../components/Hero";
+import Nav from "../components/Nav";
 import PersonalInfoForm from "../components/PersonalInfoForm";
 import SearchForm from "../components/SearchForm";
 import fetchSheetData from "../utils/sheets";
@@ -33,6 +34,7 @@ class Index extends Component {
             companies={this.props.companies}
           />
         </Hero>
+        <Nav />
         {this.state.selectedCompany && (
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}

@@ -1,7 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import classNames from "classnames";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
@@ -45,9 +44,9 @@ const IntroText = (
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
-    <div className={classNames(classes.hero)}>
+    <div className={classes.hero}>
       <div className={classes.container}>
-        <div className={classNames(classes.heading)}>
+        <div className={classes.heading}>
           <Typography variant="display3" color="inherit" gutterBottom={true}>
             opt<strong>out</strong>
           </Typography>
@@ -60,7 +59,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           >
             {SubtitleText}
           </Typography>
-          <Typography color="inherit" className={classNames(classes.intro)}>
+          <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>
           {children}

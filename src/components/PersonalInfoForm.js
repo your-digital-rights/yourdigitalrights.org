@@ -4,7 +4,6 @@ import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
-import classNames from "classnames";
 import erasureEmail from "../email-templates/erasure";
 import mailtoLink from "mailto-link";
 import { withStyles } from "@material-ui/core/styles";
@@ -12,29 +11,58 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   formContainer: {
     maxWidth: "777px",
-    margin: "60px auto",
-    padding: "60px",
+    margin: "auto",
+    padding: "30px",
     display: "flex",
-    flexDirection: "column"
+    flexDirection: "column",
+    [theme.breakpoints.up("sm")]: {
+      padding: "60px",
+      margin: "60px auto"
+    }
+  },
+  input: {
+    backgroundColor: "#f2f2f2"
   }
 });
 
 const IntroText = (
   <FormattedMessage
     id="formIntro"
-    defaultMessage="To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes. Your home address will be used to validate that you are a resident of the European Union."
+    defaultMessage="To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes."
   />
 );
 
 const NameLabelText = (
   <FormattedMessage id="nameLabel" defaultMessage="Your name" />
 );
+
+const NameHelperText = (
+  <FormattedMessage
+    id="nameHelper"
+    defaultMessage="This will be used to by the company to identify you in their systems"
+  />
+);
+
 const EmailLabelText = (
   <FormattedMessage id="emailLabel" defaultMessage="Your email address" />
 );
 
+const EmailHelperText = (
+  <FormattedMessage
+    id="emailHelper"
+    defaultMessage="This will be used to by the company to identify you in their systems and to communicate with you"
+  />
+);
+
 const AddressLabelText = (
   <FormattedMessage id="homeAddressLabel" defaultMessage="Your home address" />
+);
+
+const AddressHelperText = (
+  <FormattedMessage
+    id="addressHelper"
+    defaultMessage="Your home address will be used to validate that you are a resident of the European Union"
+  />
 );
 
 const SubmitButtonText = (
@@ -82,7 +110,7 @@ class Form extends Component {
     return (
       <Paper
         component="form"
-        className={classNames(classes.formContainer)}
+        className={classes.formContainer}
         onSubmit={this.handleFormSubmit}
         id="personalInfoForm"
         elevation={10}
@@ -99,6 +127,10 @@ class Form extends Component {
           margin="normal"
           required
           autoFocus
+          helperText={NameHelperText}
+          InputProps={{
+            className: classes.input
+          }}
         />
         <TextField
           id="email"
@@ -108,6 +140,10 @@ class Form extends Component {
           margin="normal"
           type="email"
           required
+          helperText={EmailHelperText}
+          InputProps={{
+            className: classes.input
+          }}
         />
         <TextField
           id="address"
@@ -118,6 +154,10 @@ class Form extends Component {
           required
           multiline
           rows={4}
+          helperText={AddressHelperText}
+          InputProps={{
+            className: classes.input
+          }}
         />
         <div>
           <Button variant="raised" color="primary" type="submit">

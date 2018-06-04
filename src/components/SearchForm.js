@@ -8,7 +8,6 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Paper from "@material-ui/core/Paper";
-import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
@@ -72,17 +71,14 @@ class Form extends Component {
     const { classes } = this.props;
 
     return (
-      <form id="searchForm" className={classNames(classes.form)}>
+      <form id="searchForm" className={classes.form}>
         <FormattedMessage
           id="companyPlaceholder"
           defaultMessage="Search for a company"
         >
           {label => (
             <Paper>
-              <InputLabel
-                htmlFor="companyNameSearch"
-                className={classNames(classes.label)}
-              >
+              <InputLabel htmlFor="companyNameSearch" className={classes.label}>
                 {label}
               </InputLabel>
               <Input
@@ -97,14 +93,14 @@ class Form extends Component {
                 disableUnderline={true}
                 placeholder={label}
                 fullWidth={true}
-                className={classNames(classes.searchInputWrapper)}
+                className={classes.searchInputWrapper}
                 autoComplete="off"
               />
             </Paper>
           )}
         </FormattedMessage>
         {this.state.searchResults.length ? (
-          <Paper className={classNames(classes.results)}>
+          <Paper className={classes.results}>
             <List>
               {this.state.searchResults.map((result, i) => (
                 <ListItem

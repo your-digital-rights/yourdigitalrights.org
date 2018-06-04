@@ -1,19 +1,31 @@
 [
   {
     "id": "formIntro",
-    "defaultMessage": "To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes. Your home address will be used to validate that you are a resident of the European Union."
+    "defaultMessage": "To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes."
   },
   {
     "id": "nameLabel",
     "defaultMessage": "Your name"
   },
   {
+    "id": "nameHelper",
+    "defaultMessage": "This will be used to by the company to identify you in their systems"
+  },
+  {
     "id": "emailLabel",
     "defaultMessage": "Your email address"
   },
   {
+    "id": "emailHelper",
+    "defaultMessage": "This will be used to by the company to identify you in their systems and to communicate with you"
+  },
+  {
     "id": "homeAddressLabel",
     "defaultMessage": "Your home address"
+  },
+  {
+    "id": "addressHelper",
+    "defaultMessage": "Your home address will be used to validate that you are a resident of the European Union"
   },
   {
     "id": "sendButton",
