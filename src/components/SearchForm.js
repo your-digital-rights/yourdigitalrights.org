@@ -1,7 +1,5 @@
 import { Component } from "react";
-import FormControl from "@material-ui/core/FormControl";
 import { FormattedMessage } from "react-intl";
-import Head from "next/head";
 import Icon from "@material-ui/core/Icon";
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
@@ -10,31 +8,10 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Paper from "@material-ui/core/Paper";
-import Select from "@material-ui/core/Select";
-import TextField from "@material-ui/core/TextField";
-import Typography from "@material-ui/core/Typography";
 import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
-  centeredRow: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center"
-  },
-  container: {
-    maxWidth: "800px",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
-    padding: "0 20px"
-  },
-  containerFill: {
-    alignItems: "stretch",
-    flex: "1 1 800px"
-  },
-  searchResult: {},
   searchInputWrapper: {
     padding: "6px 10px"
   },
@@ -47,6 +24,14 @@ const styles = theme => ({
     padding: 0,
     position: "absolute",
     width: "1px"
+  },
+  form: {
+    position: "relative"
+  },
+  results: {
+    position: "absolute",
+    width: "100%",
+    zIndex: 1000
   }
 });
 
@@ -63,9 +48,11 @@ class Form extends Component {
   handleInput = e => {
     let searchResults = [];
     if (e.target.value) {
-      searchResults = this.props.companies.filter(company => {
-        return company.name.toLowerCase().match(e.target.value.toLowerCase());
-      });
+      searchResults = this.props.companies
+        .filter(company => {
+          return company.name.toLowerCase().match(e.target.value.toLowerCase());
+        })
+        .slice(0, 10);
     }
 
     this.setState({
@@ -74,78 +61,72 @@ class Form extends Component {
     });
   };
 
-  render() {
-    const { classes, onCompanySelected } = this.props;
+  onSelected = company => {
+    this.props.onCompanySelected(company);
+    this.setState({
+      searchResults: []
+    });
+  };
 
-    const onSelected = company => {
-      onCompanySelected(company);
-      this.setState({
-        searchResults: []
-      });
-    };
+  render() {
+    const { classes } = this.props;
 
     return (
-      <form
-        method="GET"
-        id="searchForm"
-        className={classNames(classes.centeredRow)}
-      >
-        <div className={classNames(classes.container, classes.containerFill)}>
-          <FormattedMessage
-            id="companyPlaceholder"
-            defaultMessage="Search for a company"
-          >
-            {label => (
-              <Paper>
-                <InputLabel
-                  htmlFor="companyNameSearch"
-                  className={classNames(classes.label)}
-                >
-                  {label}
-                </InputLabel>
-                <Input
-                  id="companyNameSearch"
-                  onInput={this.handleInput}
-                  value={this.state.companyNameSearch}
-                  startAdornment={
-                    <InputAdornment position="start">
-                      <Icon>search</Icon>
-                    </InputAdornment>
-                  }
-                  disableUnderline={true}
-                  placeholder={label}
-                  fullWidth={true}
-                  className={classNames(classes.searchInputWrapper)}
-                  autoComplete="off"
-                />
-              </Paper>
-            )}
-          </FormattedMessage>
-          {this.state.searchResults.length ? (
+      <form id="searchForm" className={classNames(classes.form)}>
+        <FormattedMessage
+          id="companyPlaceholder"
+          defaultMessage="Search for a company"
+        >
+          {label => (
             <Paper>
-              <List>
-                {this.state.searchResults.map((result, i) => (
-                  <ListItem
-                    button
-                    key={i}
-                    onClick={() => onSelected(result)}
-                    dense={true}
-                  >
-                    <img
-                      role="presentation"
-                      src={`https://www.google.com/s2/favicons?domain=${
-                        result.email.split("@")[1]
-                      }`}
-                    />
-                    <ListItemText primary={result.name} />
-                  </ListItem>
-                ))}
-              </List>
+              <InputLabel
+                htmlFor="companyNameSearch"
+                className={classNames(classes.label)}
+              >
+                {label}
+              </InputLabel>
+              <Input
+                id="companyNameSearch"
+                onInput={this.handleInput}
+                value={this.state.companyNameSearch}
+                startAdornment={
+                  <InputAdornment position="start">
+                    <Icon>search</Icon>
+                  </InputAdornment>
+                }
+                disableUnderline={true}
+                placeholder={label}
+                fullWidth={true}
+                className={classNames(classes.searchInputWrapper)}
+                autoComplete="off"
+              />
             </Paper>
-          ) : (
-            ""
           )}
-        </div>
+        </FormattedMessage>
+        {this.state.searchResults.length ? (
+          <Paper className={classNames(classes.results)}>
+            <List>
+              {this.state.searchResults.map((result, i) => (
+                <ListItem
+                  button
+                  key={i}
+                  onClick={() => this.onSelected(result)}
+                  dense={true}
+                >
+                  <img
+                    role="presentation"
+                    src={`https://www.google.com/s2/favicons?domain=${
+                      result.email.split("@")[1]
+                    }`}
+                  />
+                  <ListItemText primary={result.name} />
+                </ListItem>
+              ))}
+            </List>
+          </Paper>
+        ) : (
+          ""
+        )}
       </form>
     );
   }

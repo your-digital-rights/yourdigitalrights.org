@@ -1,8 +1,7 @@
 import Button from "@material-ui/core/Button";
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import Head from "next/head";
-import Select from "@material-ui/core/Select";
+import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import classNames from "classnames";
@@ -12,10 +11,35 @@ import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   formContainer: {
+    maxWidth: "777px",
+    margin: "60px auto",
+    padding: "60px",
     display: "flex",
     flexDirection: "column"
   }
 });
+
+const IntroText = (
+  <FormattedMessage
+    id="formIntro"
+    defaultMessage="To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes. Your home address will be used to validate that you are a resident of the European Union."
+  />
+);
+
+const NameLabelText = (
+  <FormattedMessage id="nameLabel" defaultMessage="Your name" />
+);
+const EmailLabelText = (
+  <FormattedMessage id="emailLabel" defaultMessage="Your email address" />
+);
+
+const AddressLabelText = (
+  <FormattedMessage id="homeAddressLabel" defaultMessage="Your home address" />
+);
+
+const SubmitButtonText = (
+  <FormattedMessage id="sendButton" defaultMessage="Send your request" />
+);
 
 class Form extends Component {
   state = {};
@@ -38,20 +62,38 @@ class Form extends Component {
 
   renderMailTo() {
     return mailtoLink({
-      to: this.props.companyEmail,
+      to: this.props.selectedCompany.email,
       subject: erasureEmail.subject,
       body: erasureEmail.formatBody(this.state)
     });
   }
 
   render() {
-    const { classes } = this.props;
+    const { classes, selectedCompany } = this.props;
 
-    const PersonalInfoInput = (
-      <div className={classNames(classes.formContainer)}>
+    const HeadingText = (
+      <FormattedMessage
+        id="formHeading"
+        defaultMessage="Opting out of {companyName}"
+        values={{ companyName: selectedCompany.name }}
+      />
+    );
+
+    return (
+      <Paper
+        component="form"
+        className={classNames(classes.formContainer)}
+        onSubmit={this.handleFormSubmit}
+        id="personalInfoForm"
+        elevation={10}
+      >
+        <Typography variant="display1" gutterBottom={true}>
+          {HeadingText}
+        </Typography>
+        <Typography gutterBottom={true}>{IntroText}</Typography>
         <TextField
           id="name"
-          label={<FormattedMessage id="nameLabel" defaultMessage="Your name" />}
+          label={NameLabelText}
           value={this.state.name}
           onChange={this.handleInput("name")}
           margin="normal"
@@ -60,12 +102,7 @@ class Form extends Component {
         />
         <TextField
           id="email"
-          label={
-            <FormattedMessage
-              id="emailLabel"
-              defaultMessage="Your email address"
-            />
-          }
+          label={EmailLabelText}
           value={this.state.email}
           onChange={this.handleInput("email")}
           margin="normal"
@@ -74,12 +111,7 @@ class Form extends Component {
         />
         <TextField
           id="address"
-          label={
-            <FormattedMessage
-              id="homeAddressLabel"
-              defaultMessage="Your home address"
-            />
-          }
+          label={AddressLabelText}
           value={this.state.address}
           onChange={this.handleInput("address")}
           margin="normal"
@@ -89,19 +121,10 @@ class Form extends Component {
         />
         <div>
           <Button variant="raised" color="primary" type="submit">
-            <FormattedMessage
-              id="sendButton"
-              defaultMessage="Send your request"
-            />
+            {SubmitButtonText}
           </Button>
         </div>
-      </div>
-    );
-
-    return (
-      <form onSubmit={this.handleFormSubmit} method="GET" id="personalInfoForm">
-        {PersonalInfoInput}
-      </form>
+      </Paper>
     );
   }
 }

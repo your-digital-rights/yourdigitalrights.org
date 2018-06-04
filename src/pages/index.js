@@ -27,13 +27,14 @@ class Index extends Component {
   render() {
     return (
       <div>
-        <Hero />
-        <SearchForm
-          onCompanySelected={this.onCompanySelected}
-          companies={this.props.companies}
-        />
+        <Hero>
+          <SearchForm
+            onCompanySelected={this.onCompanySelected}
+            companies={this.props.companies}
+          />
+        </Hero>
         {this.state.selectedCompany && (
-          <PersonalInfoForm companyEmail={this.state.selectedCompany.email} />
+          <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
       </div>
     );

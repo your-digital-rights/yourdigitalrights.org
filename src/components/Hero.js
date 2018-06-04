@@ -1,62 +1,69 @@
-import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import Head from "next/head";
 import Paper from "@material-ui/core/Paper";
-import Select from "@material-ui/core/Select";
-import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import classNames from "classnames";
+import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
     backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
-    color: "white",
-    padding: "100px 0 80px",
-    textAlign: "center",
-    display: "flex",
-    justifyContent: "center"
+    color: "white"
   },
   container: {
-    maxWidth: "800px",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    flexDirection: "column",
-    padding: "0 20px"
+    padding: "76px 30px",
+    boxSizing: "border-box",
+    ...container,
+    [theme.breakpoints.up("md")]: {
+      backgroundImage: "url('static/logo.svg')",
+      backgroundPosition: "right 50px top 100px",
+      backgroundRepeat: "no-repeat"
+    }
   },
-  heading: {
-    maxWidth: "400px"
+  intro: {
+    marginBottom: "50px",
+    maxWidth: "530px"
   }
 });
 
-const Hero = ({ classes, onCompanySelected }) => {
+const SubtitleText = (
+  <FormattedMessage
+    id="heading"
+    defaultMessage="We help you {strong}"
+    values={{ strong: <strong>own your data</strong> }}
+  />
+);
+
+const IntroText = (
+  <FormattedMessage
+    id="intro"
+    defaultMessage="Many companies collect, store and process your personal information, often without your consent. Now you can get any organisation to erase your personal data, hassle free. This is a free service. We are a not for profit organization, and do not collect your personal data.
+"
+  />
+);
+
+const Hero = ({ classes, onCompanySelected, children }) => {
   return (
     <div className={classNames(classes.hero)}>
-      <div container className={classes.container}>
+      <div className={classes.container}>
         <div className={classNames(classes.heading)}>
-          <FormattedMessage
-            id="heading"
-            defaultMessage="Erase your {strong} made simple"
-            values={{ strong: <strong>personal data</strong> }}
-          >
-            {(...formattedMessage) => (
-              <Typography
-                variant="display1"
-                color="inherit"
-                gutterBottom={true}
-              >
-                {formattedMessage}
-              </Typography>
-            )}
-          </FormattedMessage>
-          <Typography color="inherit">
-            <FormattedMessage
-              id="intro"
-              defaultMessage="The 25th of May 2018, the GDPR took action and  developed a set of legislations that will help you protect and manage your data. We’ve developed a tool for you to be able to reach out to companies that you know they may have your data and take action over it. Please select a company and add your data for us to provide you with a template for your request."
-            />
+          <Typography variant="display3" color="inherit" gutterBottom={true}>
+            opt<strong>out</strong>
           </Typography>
+
+          <Typography
+            variant="display1"
+            color="inherit"
+            gutterBottom={true}
+            component="p"
+          >
+            {SubtitleText}
+          </Typography>
+          <Typography color="inherit" className={classNames(classes.intro)}>
+            {IntroText}
+          </Typography>
+          {children}
         </div>
       </div>
     </div>
