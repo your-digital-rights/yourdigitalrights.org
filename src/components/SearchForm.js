@@ -132,7 +132,7 @@ class Form extends Component {
                     dense={true}
                   >
                     <img
-                      alt="Remy Sharp"
+                      role="presentation"
                       src={`https://www.google.com/s2/favicons?domain=${
                         result.email.split("@")[1]
                       }`}
