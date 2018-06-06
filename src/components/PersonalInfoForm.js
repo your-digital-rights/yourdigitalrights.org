@@ -19,9 +19,6 @@ const styles = theme => ({
       padding: "60px",
       margin: "60px auto"
     }
-  },
-  input: {
-    backgroundColor: "#f2f2f2"
   }
 });
 
@@ -118,7 +115,9 @@ class Form extends Component {
         <Typography variant="display1" gutterBottom={true}>
           {HeadingText}
         </Typography>
-        <Typography gutterBottom={true}>{IntroText}</Typography>
+        <Typography gutterBottom={true} variant={"body2"}>
+          {IntroText}
+        </Typography>
         <TextField
           id="name"
           label={NameLabelText}
@@ -128,9 +127,6 @@ class Form extends Component {
           required
           autoFocus
           helperText={NameHelperText}
-          InputProps={{
-            className: classes.input
-          }}
         />
         <TextField
           id="email"
@@ -141,9 +137,6 @@ class Form extends Component {
           type="email"
           required
           helperText={EmailHelperText}
-          InputProps={{
-            className: classes.input
-          }}
         />
         <TextField
           id="address"
@@ -155,9 +148,6 @@ class Form extends Component {
           multiline
           rows={4}
           helperText={AddressHelperText}
-          InputProps={{
-            className: classes.input
-          }}
         />
         <div>
           <Button variant="raised" color="primary" type="submit">

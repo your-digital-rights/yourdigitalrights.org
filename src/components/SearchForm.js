@@ -4,9 +4,9 @@ import Icon from "@material-ui/core/Icon";
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import InputLabel from "@material-ui/core/InputLabel";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import MenuItem from "@material-ui/core/MenuItem";
+import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 
@@ -60,6 +60,13 @@ class Form extends Component {
     });
   };
 
+  handleSubmit = e => {
+    if (this.state.searchResults.length) {
+      this.onSelected(this.state.searchResults[0]);
+    }
+    e.preventDefault();
+  };
+
   onSelected = company => {
     this.props.onCompanySelected(company);
     this.setState({
@@ -69,9 +76,14 @@ class Form extends Component {
 
   render() {
     const { classes } = this.props;
+    const focusTextInput = this.focusTextInput;
 
     return (
-      <form id="searchForm" className={classes.form}>
+      <form
+        id="searchForm"
+        className={classes.form}
+        onSubmit={this.handleSubmit}
+      >
         <FormattedMessage
           id="companyPlaceholder"
           defaultMessage="Search for a company"
@@ -95,15 +107,16 @@ class Form extends Component {
                 fullWidth={true}
                 className={classes.searchInputWrapper}
                 autoComplete="off"
+                inputRef={this.setTextInputRef}
               />
             </Paper>
           )}
         </FormattedMessage>
         {this.state.searchResults.length ? (
           <Paper className={classes.results}>
-            <List>
+            <MenuList>
               {this.state.searchResults.map((result, i) => (
-                <ListItem
+                <MenuItem
                   button
                   key={i}
                   onClick={() => this.onSelected(result)}
@@ -116,9 +129,9 @@ class Form extends Component {
                     }`}
                   />
                   <ListItemText primary={result.name} />
-                </ListItem>
+                </MenuItem>
               ))}
-            </List>
+            </MenuList>
           </Paper>
         ) : (
           ""
