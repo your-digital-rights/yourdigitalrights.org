@@ -9,9 +9,10 @@
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "next ./src",
-    "build": "next build ./src",
+    "build": "next build ./src && npm run export",
     "start": "next start ./src",
-    "deploy": "now --region bru --public && now alias opt-out"
+    "deploy": "now src/out --region bru --public && now alias opt-out",
+    "export": "next export ./src"
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0-rc.1",
