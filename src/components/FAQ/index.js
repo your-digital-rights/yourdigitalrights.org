@@ -70,9 +70,7 @@ class FAQ extends Component {
         onChange={this.handleChange(`panel${i}`)}
       >
         <ExpansionPanelSummary expandIcon={<Icon>expand_more</Icon>}>
-          <Typography variant={"body2"}>
-            {`${i + 1}.`} {heading}
-          </Typography>
+          <Typography variant={"body2"}>{heading}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           {this.renderItemBody(body)}
