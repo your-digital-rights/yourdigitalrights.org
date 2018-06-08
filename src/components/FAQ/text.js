@@ -20,34 +20,40 @@ export default [
       <F id="heading2" defaultMessage="When can you request erasure? " />
     ),
     body: [
-      <F
-        id="2a"
-        defaultMessage="The right to erasure is not absolute. The right only applies in the following circumstances:"
-      />,
-      <F
-        id="2b"
-        defaultMessage="The organisation no longer needs your data. Example: after you have cancelled your gym membership, it no longer needs to keep details of your name, address, age and health conditions."
-      />,
-      <F
-        id="2c"
-        defaultMessage="You initially consented to the use of your data, but have now withdrawn your consent. Example: you agreed to take part in a market-research study and now no longer wish to do so."
-      />,
-      <F
-        id="2d"
-        defaultMessage="You have objected to the use of your data, and your interests outweigh those of the organisation using it."
-      />,
-      <F
-        id="2e"
-        defaultMessage="The organisation has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
-      />,
-      <F
-        id="2f"
-        defaultMessage="The organisation has a legal obligation to erase your data."
-      />,
-      <F
-        id="2g"
-        defaultMessage="The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organisations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
-      />
+      {
+        item: (
+          <F
+            id="2a"
+            defaultMessage="The right to erasure is not absolute. The right only applies in the following circumstances:"
+          />
+        ),
+        subItems: [
+          <F
+            id="2b"
+            defaultMessage="The organisation no longer needs your data. Example: after you have cancelled your gym membership, it no longer needs to keep details of your name, address, age and health conditions."
+          />,
+          <F
+            id="2c"
+            defaultMessage="You initially consented to the use of your data, but have now withdrawn your consent. Example: you agreed to take part in a market-research study and now no longer wish to do so."
+          />,
+          <F
+            id="2d"
+            defaultMessage="You have objected to the use of your data, and your interests outweigh those of the organisation using it."
+          />,
+          <F
+            id="2e"
+            defaultMessage="The organisation has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
+          />,
+          <F
+            id="2f"
+            defaultMessage="The organisation has a legal obligation to erase your data."
+          />,
+          <F
+            id="2g"
+            defaultMessage="The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organisations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
+          />
+        ]
+      }
     ]
   },
   {

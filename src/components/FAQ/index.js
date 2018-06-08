@@ -19,12 +19,7 @@ const styles = theme => ({
       margin: "60px auto"
     }
   },
-  alphaList: {
-    listStyleType: "lower-alpha",
-    margin: 0
-  },
-  romanList: {
-    listStyleType: "lower-roman",
+  list: {
     margin: "20px 0"
   }
 });
@@ -44,24 +39,24 @@ class FAQ extends Component {
     const { classes } = this.props;
 
     return (
-      <ol className={classes.alphaList}>
+      <div className={classes.alphaList}>
         {body.map(text => {
           return (
-            <li>
+            <div>
               <Typography>{text.item || text}</Typography>
               {text.subItems && (
-                <ol className={classes.romanList}>
+                <ul className={classes.list}>
                   {text.subItems.map(subItemText => (
                     <li>
                       <Typography>{subItemText}</Typography>
                     </li>
                   ))}
-                </ol>
+                </ul>
               )}
-            </li>
+            </div>
           );
         })}
-      </ol>
+      </div>
     );
   };
 
