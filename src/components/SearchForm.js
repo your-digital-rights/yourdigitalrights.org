@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Downshift from "downshift";
 import { FormattedMessage } from "react-intl";
 import Icon from "@material-ui/core/Icon";
 import Input from "@material-ui/core/Input";
@@ -40,10 +41,6 @@ class Form extends Component {
     companyNameSearch: ""
   };
 
-  handleFormSubmit = e => {
-    e.preventDefault();
-  };
-
   handleInput = e => {
     let searchResults = [];
     if (e.target.value) {
@@ -60,82 +57,114 @@ class Form extends Component {
     });
   };
 
-  handleSubmit = e => {
-    if (this.state.searchResults.length) {
-      this.onSelected(this.state.searchResults[0]);
-    }
-    e.preventDefault();
-  };
-
   onSelected = company => {
     this.props.onCompanySelected(company);
     this.setState({
-      searchResults: []
+      searchResults: [],
+      companyNameSearch: company.name
     });
+  };
+
+  renderInput = InputProps => {
+    const { classes } = this.props;
+
+    return (
+      <FormattedMessage
+        id="companyPlaceholder"
+        defaultMessage="Search for a company"
+      >
+        {label => (
+          <div>
+            <InputLabel htmlFor="companyNameSearch" className={classes.label}>
+              {label}
+            </InputLabel>
+            <Input
+              {...InputProps}
+              id="companyNameSearch"
+              onInput={this.handleInput}
+              value={this.state.companyNameSearch}
+              startAdornment={
+                <InputAdornment position="start">
+                  <Icon>search</Icon>
+                </InputAdornment>
+              }
+              disableUnderline={true}
+              placeholder={label}
+              fullWidth={true}
+              className={classes.searchInputWrapper}
+              autoComplete="off"
+              autoFocus
+            />
+          </div>
+        )}
+      </FormattedMessage>
+    );
+  };
+
+  renderSuggestion = ({
+    result,
+    i,
+    highlightedIndex,
+    selectedItem,
+    itemProps
+  }) => {
+    const isHighlighted = highlightedIndex === i;
+    const isSelected = (selectedItem || "").indexOf(result.name) > -1;
+
+    return (
+      <MenuItem
+        button
+        key={i}
+        selected={isHighlighted}
+        dense={true}
+        {...itemProps}
+      >
+        <img
+          role="presentation"
+          src={`https://www.google.com/s2/favicons?domain=${
+            result.email.split("@")[1]
+          }`}
+        />
+        <ListItemText primary={result.name} />
+      </MenuItem>
+    );
   };
 
   render() {
     const { classes } = this.props;
-    const focusTextInput = this.focusTextInput;
-
     return (
-      <form
-        id="searchForm"
-        className={classes.form}
-        onSubmit={this.handleSubmit}
-      >
-        <FormattedMessage
-          id="companyPlaceholder"
-          defaultMessage="Search for a company"
-        >
-          {label => (
-            <Paper>
-              <InputLabel htmlFor="companyNameSearch" className={classes.label}>
-                {label}
-              </InputLabel>
-              <Input
-                id="companyNameSearch"
-                onInput={this.handleInput}
-                value={this.state.companyNameSearch}
-                startAdornment={
-                  <InputAdornment position="start">
-                    <Icon>search</Icon>
-                  </InputAdornment>
-                }
-                disableUnderline={true}
-                placeholder={label}
-                fullWidth={true}
-                className={classes.searchInputWrapper}
-                autoComplete="off"
-                inputRef={this.setTextInputRef}
-              />
-            </Paper>
+      <form id="searchForm" className={classes.form}>
+        <Downshift onSelect={this.onSelected}>
+          {({
+            getInputProps,
+            getItemProps,
+            isOpen,
+            inputValue,
+            selectedItem,
+            highlightedIndex
+          }) => (
+            <div>
+              <Paper>
+                {this.renderInput(getInputProps())}
+                {isOpen && this.state.searchResults.length ? (
+                  <Paper className={classes.results}>
+                    <MenuList>
+                      {this.state.searchResults.map((result, i) =>
+                        this.renderSuggestion({
+                          result,
+                          i,
+                          itemProps: getItemProps({ item: result }),
+                          highlightedIndex,
+                          selectedItem
+                        })
+                      )}
+                    </MenuList>
+                  </Paper>
+                ) : null}
+              </Paper>
+            </div>
           )}
-        </FormattedMessage>
-        {this.state.searchResults.length ? (
-          <Paper className={classes.results}>
-            <MenuList>
-              {this.state.searchResults.map((result, i) => (
-                <MenuItem
-                  button
-                  key={i}
-                  onClick={() => this.onSelected(result)}
-                  dense={true}
-                >
-                  <img
-                    role="presentation"
-                    src={`https://www.google.com/s2/favicons?domain=${
-                      result.email.split("@")[1]
-                    }`}
-                  />
-                  <ListItemText primary={result.name} />
-                </MenuItem>
-              ))}
-            </MenuList>
-          </Paper>
-        ) : (
-          ""
-        )}
+        </Downshift>
       </form>
     );
   }
