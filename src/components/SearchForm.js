@@ -66,7 +66,7 @@ class Form extends Component {
   };
 
   renderInput = InputProps => {
-    const { classes } = this.props;
+    const { classes, companies } = this.props;
 
     return (
       <FormattedMessage
@@ -94,6 +94,7 @@ class Form extends Component {
               className={classes.searchInputWrapper}
               autoComplete="off"
               autoFocus
+              disabled={!companies}
             />
           </div>
         )}

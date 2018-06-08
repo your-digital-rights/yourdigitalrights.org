@@ -11,13 +11,10 @@ import withRoot from "../withRoot";
 class Index extends Component {
   state = {};
 
-  static async getInitialProps() {
-    let data = await fetchSheetData();
-    return { companies: data };
-  }
-
-  componentDidMount() {
+  async componentDidMount() {
     window.$location = window.location;
+    let companies = await fetchSheetData();
+    this.setState({ companies });
   }
 
   onCompanySelected = selectedCompany => {
@@ -32,7 +29,7 @@ class Index extends Component {
         <Hero>
           <SearchForm
             onCompanySelected={this.onCompanySelected}
-            companies={this.props.companies}
+            companies={this.state.companies}
           />
         </Hero>
         <Nav />

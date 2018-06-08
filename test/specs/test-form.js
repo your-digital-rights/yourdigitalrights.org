@@ -31,6 +31,9 @@ describe("When I visit the home page", () => {
 
   describe("and select a company", () => {
     beforeEach(() => {
+      page.searchForm
+        .selectElementByLabel("Search for a company")
+        .waitForEnabled(3000);
       page.searchForm.fillIn("Search for a company", "Slack");
       $("div=Slack").click();
     });
