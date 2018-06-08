@@ -48,7 +48,7 @@ class Form extends Component {
         .filter(company => {
           return company.name.toLowerCase().match(e.target.value.toLowerCase());
         })
-        .slice(0, 10);
+        .slice(0, 5);
     }
 
     this.setState({
@@ -109,7 +109,7 @@ class Form extends Component {
     itemProps
   }) => {
     const isHighlighted = highlightedIndex === i;
-    const isSelected = (selectedItem || "").indexOf(result.name) > -1;
+    const isSelected = selectedItem && selectedItem.name === result.name;
 
     return (
       <MenuItem
