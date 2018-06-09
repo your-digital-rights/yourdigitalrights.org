@@ -1,5 +1,6 @@
 import { Component } from "react";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
@@ -35,6 +36,7 @@ class Index extends Component {
         <HowItWorks />
         <FAQ />
         <Social />
+        <Footer />
       </div>
     );
   }

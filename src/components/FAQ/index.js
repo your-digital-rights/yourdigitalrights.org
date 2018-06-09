@@ -10,7 +10,7 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   container: {
     maxWidth: "777px",
-    margin: "0 auto -80px",
+    margin: "0 auto -160px",
     padding: "30px",
     paddingBottom: 0,
     display: "flex",
@@ -47,12 +47,14 @@ class FAQ extends Component {
         {body.map(text => {
           return (
             <div>
-              <Typography>{text.item || text}</Typography>
+              <Typography color="textSecondary">{text.item || text}</Typography>
               {text.subItems && (
                 <ul className={classes.list}>
                   {text.subItems.map(subItemText => (
                     <li>
-                      <Typography>{subItemText}</Typography>
+                      <Typography color="textSecondary">
+                        {subItemText}
+                      </Typography>
                     </li>
                   ))}
                 </ul>
