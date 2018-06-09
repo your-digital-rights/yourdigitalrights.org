@@ -163,7 +163,7 @@ class Form extends Component {
               <Paper className={classes.results}>
                 {this.renderInput(getInputProps())}
                 {isOpen && this.state.searchResults.length ? (
-                  <div c>
+                  <div>
                     <MenuList>
                       {this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({

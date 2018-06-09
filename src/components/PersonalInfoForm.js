@@ -67,7 +67,11 @@ const SubmitButtonText = (
 );
 
 class Form extends Component {
-  state = {};
+  state = {
+    name: "",
+    email: "",
+    address: ""
+  };
   handlers = {};
 
   handleInput = name => {
@@ -86,10 +90,14 @@ class Form extends Component {
   };
 
   renderMailTo() {
+    console.log(this.props);
     return mailtoLink({
       to: this.props.selectedCompany.email,
       subject: erasureEmail.subject,
-      body: erasureEmail.formatBody(this.state)
+      body: erasureEmail.formatBody({
+        companyName: this.props.selectedCompany.name,
+        ...this.state
+      })
     });
   }
 
