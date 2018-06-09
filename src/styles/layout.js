@@ -1,5 +1,5 @@
 const container = {
-  maxWidth: "900px",
+  maxWidth: "1000px",
   margin: "auto",
   paddingLeft: "30px",
   paddingRight: "30px"
