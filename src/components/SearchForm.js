@@ -39,9 +39,12 @@ const styles = theme => ({
 class Form extends Component {
   state = {
     searchResults: [],
-    companyNameSearch: "",
-    companies: fetchSheetData()
+    companyNameSearch: ""
   };
+
+  componentDidMount() {
+    this.setState({ companies: fetchSheetData() });
+  }
 
   handleInput = e => {
     this.searchCompanies(e.target.value);
