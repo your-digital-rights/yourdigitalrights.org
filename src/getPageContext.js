@@ -20,7 +20,11 @@ const theme = createMuiTheme({
     }
   },
   typography: {
-    display2: {
+    display1: {
+      fontWeight: "bold",
+      color: "#005ea5"
+    },
+    headline: {
       fontWeight: "bold",
       color: "#005ea5"
     }

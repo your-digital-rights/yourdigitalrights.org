@@ -21,37 +21,80 @@ import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
-  root: { ...container, display: "flex", flexDirection: "column" },
+  root: {
+    display: "flex",
+    flexDirection: "column",
+    paddingTop: "30px",
+    ...container
+  },
   title: {
-    textAlign: "center"
+    textAlign: "center",
+    [theme.breakpoints.up("md")]: {
+      textAlign: "left"
+    }
+  },
+  titleImg: {
+    display: "none",
+    [theme.breakpoints.up("md")]: {
+      display: "block"
+    }
+  },
+  upperContainer: {
+    [theme.breakpoints.up("md")]: {
+      display: "flex",
+      alignItems: "center",
+      margin: "60px 0"
+    }
+  },
+  upperContent: {
+    [theme.breakpoints.up("md")]: {
+      flex: 1,
+      marginLeft: 64
+    }
+  },
+  lowerContainer: {
+    [theme.breakpoints.up("sm")]: {
+      display: "flex",
+      alignItems: "top"
+    }
   }
 });
 
 const HowItWorks = ({ classes }) => {
   return (
     <div className={classes.root} id="howItWorks">
-      <Typography
-        variant="display2"
-        component="h2"
-        className={classes.title}
-        gutterBottom={true}
-      >
-        {Title}
-      </Typography>
-      <img src="static/img-howto.svg" alt={TitleImgAlt} />
-      <UpperSection title={SearchTitle} body={SearchBody} />
-      <UpperSection title={FillInTitle} body={FillInBody} />
-      <UpperSection title={SendTitle} body={SendBody} />
-      <LowerSection
-        title={YourDataTitle}
-        body={YourDataBody}
-        imgSrc="static/ic-happy.svg"
-      />
-      <LowerSection
-        title={WhyTitle}
-        body={WhyBody}
-        imgSrc="static/ic-verified-user.svg"
-      />
+      <div className={classes.upperContainer}>
+        <img
+          src="static/img-howto.svg"
+          alt={TitleImgAlt}
+          className={classes.titleImg}
+        />
+        <div className={classes.upperContent}>
+          <Typography
+            variant="display1"
+            component="h2"
+            className={classes.title}
+            gutterBottom={true}
+          >
+            {Title}
+          </Typography>
+          <UpperSection title={SearchTitle} body={SearchBody} />
+          <UpperSection title={FillInTitle} body={FillInBody} />
+          <UpperSection title={SendTitle} body={SendBody} />
+        </div>
+      </div>
+      <div className={classes.lowerContainer}>
+        <LowerSection
+          title={YourDataTitle}
+          body={YourDataBody}
+          imgSrc="static/ic-happy.svg"
+        />
+        <LowerSection
+          title={WhyTitle}
+          body={WhyBody}
+          imgSrc="static/ic-verified-user.svg"
+        />
+      </div>
     </div>
   );
 };

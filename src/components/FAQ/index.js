@@ -88,7 +88,7 @@ class FAQ extends Component {
     return (
       <div className={classes.container} id="faq">
         <Typography
-          variant={"display2"}
+          variant={"display1"}
           className={classes.title}
           gutterBottom={true}
           component={"h2"}
