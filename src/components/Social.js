@@ -4,7 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
-    padding: "300px 0 75px",
+    padding: "200px 0 75px",
     ...themeBg
   }
 });
