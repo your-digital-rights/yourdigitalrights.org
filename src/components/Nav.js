@@ -1,4 +1,5 @@
 import { FormattedMessage } from "react-intl";
+import Link from "next/link";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
@@ -23,25 +24,41 @@ const styles = theme => ({
   }
 });
 
+const NavItem = ({ href, text, classes }) => {
+  return (
+    <li className={classes.item}>
+      <Link href={href} prefetch>
+        <Typography component="a" href={href} className={classes.link}>
+          {text}
+        </Typography>
+      </Link>
+    </li>
+  );
+};
+
 const Nav = ({ classes }) => {
   return (
     <nav className={classes.nav}>
       <ul className={classes.container}>
-        <li className={classes.item}>
-          <Typography component="a" href="#howItWorks" className={classes.link}>
+        <NavItem
+          href="/#howItWorks"
+          text={
             <FormattedMessage id="howItWorks" defaultMessage="How it works" />
-          </Typography>
-        </li>
-        <li className={classes.item}>
-          <Typography component="a" href="#faq" className={classes.link}>
-            <FormattedMessage id="faq" defaultMessage="FAQs" />
-          </Typography>
-        </li>
-        {/* <li className={classes.item}>
-          <Typography component="a" href="#privacy" className={classes.link}>
-            <FormattedMessage id="privacy" defaultMessage="Privacy" />
-          </Typography>
-        </li> */}
+          }
+          classes={classes}
+        />
+        <NavItem
+          href="/#faq"
+          text={<FormattedMessage id="faq" defaultMessage="FAQs" />}
+          classes={classes}
+        />
+        <NavItem
+          href="/privacy"
+          text={
+            <FormattedMessage id="privacy" defaultMessage="Privacy policy" />
+          }
+          classes={classes}
+        />
       </ul>
     </nav>
   );

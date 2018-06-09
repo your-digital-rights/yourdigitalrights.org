@@ -10,14 +10,14 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   container: {
     maxWidth: "777px",
-    margin: "0 auto -160px",
+    margin: "auto",
     padding: "30px",
     paddingBottom: 0,
     display: "flex",
     flexDirection: "column",
     [theme.breakpoints.up("sm")]: {
       padding: "60px 60px 0",
-      margin: "60px auto -160px"
+      margin: "60px auto 0"
     }
   },
   title: {
