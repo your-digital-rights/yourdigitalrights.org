@@ -27,7 +27,8 @@ const styles = theme => ({
     width: "1px"
   },
   form: {
-    position: "relative"
+    position: "relative",
+    height: "44px"
   },
   results: {
     position: "absolute",
@@ -159,10 +160,10 @@ class Form extends Component {
             highlightedIndex
           }) => (
             <div>
-              <Paper>
+              <Paper className={classes.results}>
                 {this.renderInput(getInputProps())}
                 {isOpen && this.state.searchResults.length ? (
-                  <Paper className={classes.results}>
+                  <div c>
                     <MenuList>
                       {this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({
@@ -174,7 +175,7 @@ class Form extends Component {
                         })
                       )}
                     </MenuList>
-                  </Paper>
+                  </div>
                 ) : null}
               </Paper>
             </div>
