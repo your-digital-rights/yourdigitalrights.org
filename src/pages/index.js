@@ -1,6 +1,7 @@
 import { Component } from "react";
 import FAQ from "../components/FAQ";
 import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import PersonalInfoForm from "../components/PersonalInfoForm";
 import SearchForm from "../components/SearchForm";
@@ -31,6 +32,7 @@ class Index extends Component {
         {this.state.selectedCompany && (
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
+        <HowItWorks />
         <FAQ />
         <Social />
       </div>

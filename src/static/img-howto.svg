@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="351" height="239" viewBox="0 0 351 239">
+    <defs>
+        <rect id="a" width="339" height="227" rx="10"/>
+        <filter id="b" width="105.6%" height="108.4%" x="-2.8%" y="-3.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+        <linearGradient id="c" x1="45.096%" x2="69.472%" y1="42.378%" y2="100%">
+            <stop offset="0%" stop-color="#0973BE"/>
+            <stop offset="100%" stop-color="#005EA5"/>
+        </linearGradient>
+        <path id="f" d="M31 101h278v92H31z"/>
+        <filter id="e" width="106.8%" height="120.7%" x="-3.4%" y="-9.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <path id="h" d="M36 151h267v15H36z"/>
+        <filter id="g" width="106%" height="206.7%" x="-3%" y="-46.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+        <filter id="i" width="140%" height="140%" x="-20%" y="-16.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(6 5)">
+        <mask id="d" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+        <use fill="#FFF" xlink:href="#a"/>
+        <path fill="url(#c)" d="M10 0h319c5.523 0 10 4.477 10 10v124H0V10C0 4.477 4.477 0 10 0z" mask="url(#d)"/>
+        <text fill="#FFF" font-family="SuisseSign-SemiBold, Suisse Sign" font-size="32" font-weight="500" letter-spacing="1.164" mask="url(#d)">
+            <tspan x="31" y="45">opt</tspan> <tspan x="84.923" y="45" font-family="SuisseSign-Regular, Suisse Sign" font-weight="normal">out.eu</tspan>
+        </text>
+        <g mask="url(#d)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#FFF" xlink:href="#f"/>
+        </g>
+        <path fill="#F1F1F1" d="M36 130h267v15H36z" mask="url(#d)"/>
+        <g mask="url(#d)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#E8E8E8" xlink:href="#h"/>
+        </g>
+        <path fill="#F1F1F1" d="M36 172h267v15H36z" mask="url(#d)"/>
+        <text fill="#9B9B9B" font-family="SuisseSign-Regular, Suisse Sign" font-size="10" mask="url(#d)">
+            <tspan x="46" y="120">Search Company</tspan>
+        </text>
+        <g filter="url(#i)" mask="url(#d)">
+            <path fill="#EA9E13" d="M243.806 184.16l6.774-6.774L262.194 189l5.806-5.806-11.617-11.614 6.778-6.774L238 159z"/>
+            <path stroke="#FFF" d="M238 159l5.806 25.16 6.774-6.774L262.194 189l5.806-5.806-11.614-11.614 6.775-6.774z"/>
+        </g>
+        <path fill="#D8D8D8" d="M30 62h151v3H30zM30 68h151v3H30zM30 74h151v3H30zM30 80h151v3H30zM30 56h151v3H30z" mask="url(#d)"/>
+    </g>
+</svg>
