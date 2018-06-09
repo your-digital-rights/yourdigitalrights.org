@@ -9,19 +9,11 @@ import getPageContext from "../getPageContext";
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
 
-const Description = (
-  <FormattedMessage
-    id="description"
-    defaultMessage="Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu"
-  />
-);
-
-const OgDescription = (
-  <FormattedMessage
-    id="ggDescription"
-    defaultMessage="Own your data. Get any organisation to erase your personal data, hassle free"
-  />
-);
+// TODO: Make these string translatable
+const Description =
+  "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
+const OgDescription =
+  "Own your data. Get any organisation to erase your personal data, hassle free";
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
