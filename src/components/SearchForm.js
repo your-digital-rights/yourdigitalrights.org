@@ -14,7 +14,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   searchInputWrapper: {
-    padding: "6px 10px"
+    padding: "6px 16px"
   },
   label: {
     border: 0,
@@ -34,6 +34,12 @@ const styles = theme => ({
     position: "absolute",
     width: "100%",
     zIndex: 1000
+  },
+  searchIcon: {
+    marginRight: "16px"
+  },
+  list: {
+    padding: 0
   }
 });
 
@@ -104,7 +110,7 @@ class Form extends Component {
               onInput={this.handleInput}
               value={this.state.companyNameSearch}
               startAdornment={
-                <InputAdornment position="start">
+                <InputAdornment position="start" className={classes.searchIcon}>
                   <Icon>search</Icon>
                 </InputAdornment>
               }
@@ -141,7 +147,9 @@ class Form extends Component {
       >
         <img
           role="presentation"
-          src={`https://www.google.com/s2/favicons?domain=${result.url}`}
+          src={`https://api.faviconkit.com/${result.url}/24`}
+          width={24}
+          height={24}
         />
         <ListItemText primary={result.name} />
       </MenuItem>
@@ -168,7 +176,7 @@ class Form extends Component {
                   this.state.companyNameSearch && (
                     <div>
                       {this.state.searchResults.length ? (
-                        <MenuList>
+                        <MenuList className={classes.list}>
                           {this.state.searchResults.map((result, i) =>
                             this.renderSuggestion({
                               result,
