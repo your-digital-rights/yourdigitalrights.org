@@ -9,6 +9,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
+import fetchSheetData from "../utils/sheets";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
@@ -38,24 +39,35 @@ const styles = theme => ({
 class Form extends Component {
   state = {
     searchResults: [],
-    companyNameSearch: ""
+    companyNameSearch: "",
+    companies: fetchSheetData()
   };
 
   handleInput = e => {
+    this.searchCompanies(e.target.value);
+    this.setState({
+      companyNameSearch: e.target.value
+    });
+  };
+
+  async searchCompanies(search) {
     let searchResults = [];
-    if (e.target.value) {
-      searchResults = this.props.companies
+
+    if (search) {
+      const companies = await this.state.companies;
+      searchResults = companies
         .filter(company => {
-          return company.name.toLowerCase().match(e.target.value.toLowerCase());
+          return company.name.toLowerCase().match(search.toLowerCase());
         })
         .slice(0, 5);
+    } else {
+      searchResults = [];
     }
 
     this.setState({
-      companyNameSearch: e.target.value,
       searchResults
     });
-  };
+  }
 
   onSelected = company => {
     this.props.onCompanySelected(company);
@@ -94,7 +106,6 @@ class Form extends Component {
               className={classes.searchInputWrapper}
               autoComplete="off"
               autoFocus
-              disabled={!companies}
             />
           </div>
         )}
