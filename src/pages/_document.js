@@ -1,5 +1,6 @@
 import Document, { Head, Main, NextScript } from "next/document";
 
+import { FormattedMessage } from "react-intl";
 import JssProvider from "react-jss/lib/JssProvider";
 import React from "react";
 import flush from "styled-jsx/server";
@@ -7,6 +8,21 @@ import getPageContext from "../getPageContext";
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
+
+const Description = (
+  <FormattedMessage
+    id="description"
+    defaultMessage="Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu"
+  />
+);
+
+const OgDescription = (
+  <FormattedMessage
+    id="ggDescription"
+    defaultMessage="Own your data. Get any organisation to erase your personal data, hassle free"
+  />
+);
+
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
     const pageContext = getPageContext();
@@ -56,12 +72,17 @@ export default class IntlDocument extends Document {
       <html>
         <Head>
           <title>Opt-out</title>
+          <meta name="description" content={Description} />
+          <meta property="og:description" content={OgDescription} />
+          <meta
+            property="og:image"
+            content="https://opt-out.eu/static/img-howto.svg"
+          />
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
             key="viewport"
           />
-          {/* PWA primary color */}
           <meta
             name="theme-color"
             content={pageContext.theme.palette.primary.main}

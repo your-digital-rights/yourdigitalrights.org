@@ -5,7 +5,10 @@ const styles = theme => ({
   root: {
     textAlign: "center",
     margin: "32px 16px",
-    flex: 1
+    flex: 1,
+    [theme.breakpoints.up("md")]: {
+      margin: "32px"
+    }
   },
   img: {
     display: "block",
