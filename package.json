@@ -9,13 +9,13 @@
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "next ./src",
-    "build": "next build ./src && npm run export",
     "start": "next start ./src",
+    "build": "next build ./src && next export ./src",
     "deploy": "now src/out --name opt-out-eu --region bru",
-    "export": "next export ./src",
     "clean": "rm -rf src/out && rm -rf src/.next",
     "alias:staging": "now alias opt-out-eu",
-    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu"
+    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu",
+    "deploy:dev": "npm run clean && npm run build && npm run deploy"
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0-rc.1",
@@ -47,6 +47,6 @@
     "node": ">=8.0.0"
   },
   "now": {
-    "name": "opt-out"
+    "name": "opt-out-eu"
   }
 }
