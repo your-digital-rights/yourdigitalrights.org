@@ -74,6 +74,7 @@ export default class IntlDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <link rel="icon" href="/static/favicon.ico" />
         </Head>
         <body>
           <Main />
