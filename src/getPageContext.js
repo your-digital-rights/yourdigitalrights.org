@@ -18,6 +18,12 @@ const theme = createMuiTheme({
     secondary: {
       main: "#0d47a1"
     }
+  },
+  typography: {
+    display2: {
+      fontWeight: "bold",
+      color: "#005ea5"
+    }
   }
 });
 

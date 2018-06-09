@@ -10,7 +10,7 @@ import { withStyles } from "@material-ui/core/styles";
 const styles = theme => ({
   container: {
     maxWidth: "777px",
-    margin: "auto",
+    margin: "0 auto -80px",
     padding: "30px",
     paddingBottom: 0,
     display: "flex",
@@ -19,6 +19,9 @@ const styles = theme => ({
       padding: "60px 60px 0",
       margin: "60px auto -160px"
     }
+  },
+  title: {
+    textAlign: "center"
   },
   list: {
     margin: "20px 0"
@@ -82,7 +85,19 @@ class FAQ extends Component {
 
   render() {
     const { classes } = this.props;
-    return <div className={classes.container}>{Text.map(this.renderItem)}</div>;
+    return (
+      <div className={classes.container} id="faq">
+        <Typography
+          variant={"display2"}
+          className={classes.title}
+          gutterBottom={true}
+          component={"h2"}
+        >
+          {"Frequently Asked Questions"}
+        </Typography>
+        {Text.map(this.renderItem)}
+      </div>
+    );
   }
 }
 

@@ -11,10 +11,11 @@
     "dev": "next ./src",
     "build": "next build ./src && npm run export",
     "start": "next start ./src",
-    "deploy:temp": "npm run clean && npm run build && now src/out --name opt-out-eu --region bru",
-    "deploy": "now src/out --name opt-out-eu --region bru && now alias opt-out-eu",
+    "deploy": "now src/out --name opt-out-eu --region bru",
     "export": "next export ./src",
-    "clean": "rm -rf src/out && rm -rf src/.next"
+    "clean": "rm -rf src/out && rm -rf src/.next",
+    "alias:staging": "now alias opt-out-eu",
+    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu"
   },
   "dependencies": {
     "@material-ui/core": "^1.0.0-rc.1",

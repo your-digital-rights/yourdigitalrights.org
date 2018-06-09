@@ -27,21 +27,21 @@ const Nav = ({ classes }) => {
   return (
     <nav className={classes.nav}>
       <ul className={classes.container}>
-        <li className={classes.item}>
+        {/* <li className={classes.item}>
           <Typography component="a" href="#howItWorks" className={classes.link}>
             <FormattedMessage id="howItWorks" defaultMessage="How it works" />
           </Typography>
-        </li>
+        </li> */}
         <li className={classes.item}>
           <Typography component="a" href="#faq" className={classes.link}>
             <FormattedMessage id="faq" defaultMessage="FAQs" />
           </Typography>
         </li>
-        <li className={classes.item}>
+        {/* <li className={classes.item}>
           <Typography component="a" href="#privacy" className={classes.link}>
             <FormattedMessage id="privacy" defaultMessage="Privacy" />
           </Typography>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );
