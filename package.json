@@ -11,7 +11,8 @@
     "dev": "next ./src",
     "build": "next build ./src && npm run export",
     "start": "next start ./src",
-    "deploy": "now src/out --region bru --public && now alias opt-out",
+    "deploy":
+      "now src/out --name opt-out --region bru --public && now alias opt-out",
     "export": "next export ./src"
   },
   "dependencies": {
