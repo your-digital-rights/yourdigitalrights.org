@@ -11,10 +11,11 @@ const styles = theme => ({
     ...themeBg
   },
   container: {
-    padding: "76px 30px",
+    padding: "30px",
     boxSizing: "border-box",
     ...container,
     [theme.breakpoints.up("md")]: {
+      padding: "76px 30px",
       backgroundImage: "url('static/logo.svg')",
       backgroundPosition: "right 50px top 100px",
       backgroundRepeat: "no-repeat"
