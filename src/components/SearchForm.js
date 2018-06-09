@@ -40,11 +40,15 @@ const styles = theme => ({
 class Form extends Component {
   state = {
     searchResults: [],
-    companyNameSearch: ""
+    companyNameSearch: "",
+    companiesLoaded: false
   };
 
-  componentDidMount() {
-    this.setState({ companies: fetchSheetData() });
+  async componentDidMount() {
+    const companies = fetchSheetData();
+    this.setState({ companies });
+    await companies;
+    this.setState({ companiesLoaded: true });
   }
 
   handleInput = e => {
@@ -137,9 +141,7 @@ class Form extends Component {
       >
         <img
           role="presentation"
-          src={`https://www.google.com/s2/favicons?domain=${
-            result.email.split("@")[1]
-          }`}
+          src={`https://www.google.com/s2/favicons?domain=${result.url}`}
         />
         <ListItemText primary={result.name} />
       </MenuItem>
@@ -162,21 +164,42 @@ class Form extends Component {
             <div>
               <Paper className={classes.results}>
                 {this.renderInput(getInputProps())}
-                {isOpen && this.state.searchResults.length ? (
-                  <div>
-                    <MenuList>
-                      {this.state.searchResults.map((result, i) =>
-                        this.renderSuggestion({
-                          result,
-                          i,
-                          itemProps: getItemProps({ item: result }),
-                          highlightedIndex,
-                          selectedItem
-                        })
+                {isOpen &&
+                  this.state.companyNameSearch && (
+                    <div>
+                      {this.state.searchResults.length ? (
+                        <MenuList>
+                          {this.state.searchResults.map((result, i) =>
+                            this.renderSuggestion({
+                              result,
+                              i,
+                              itemProps: getItemProps({ item: result }),
+                              highlightedIndex,
+                              selectedItem
+                            })
+                          )}
+                        </MenuList>
+                      ) : this.state.companiesLoaded ? (
+                        <MenuItem>
+                          <ListItemText>
+                            <FormattedMessage
+                              id="noResults"
+                              defaultMessage="No results"
+                            />
+                          </ListItemText>
+                        </MenuItem>
+                      ) : (
+                        <MenuItem>
+                          <ListItemText>
+                            <FormattedMessage
+                              id="loadingCompanies"
+                              defaultMessage="Loading companies"
+                            />
+                          </ListItemText>
+                        </MenuItem>
                       )}
-                    </MenuList>
-                  </div>
-                ) : null}
+                    </div>
+                  )}
               </Paper>
             </div>
           )}

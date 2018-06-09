@@ -8,7 +8,8 @@ export default async function fetchData() {
   data = data.feed.entry.map(company => {
     return {
       name: company["gsx$companyname"]["$t"],
-      email: company["gsx$email"]["$t"]
+      email: company["gsx$email"]["$t"],
+      url: company["gsx$companyurl"]["$t"]
     };
   });
   return data;
