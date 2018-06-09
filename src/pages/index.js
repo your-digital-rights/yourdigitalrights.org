@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Nav from "../components/Nav";
 import PersonalInfoForm from "../components/PersonalInfoForm";
 import SearchForm from "../components/SearchForm";
+import Social from "../components/Social";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 
@@ -31,6 +32,7 @@ class Index extends Component {
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
         <FAQ />
+        <Social />
       </div>
     );
   }

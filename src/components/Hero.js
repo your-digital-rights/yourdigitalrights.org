@@ -2,13 +2,13 @@ import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
+import { themeBg } from "../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
-    backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
-    color: "white"
+    ...themeBg
   },
   container: {
     padding: "76px 30px",

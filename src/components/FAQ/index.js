@@ -12,11 +12,12 @@ const styles = theme => ({
     maxWidth: "777px",
     margin: "auto",
     padding: "30px",
+    paddingBottom: 0,
     display: "flex",
     flexDirection: "column",
     [theme.breakpoints.up("sm")]: {
-      padding: "60px",
-      margin: "60px auto"
+      padding: "60px 60px 0",
+      margin: "60px auto -160px"
     }
   },
   list: {
