@@ -1,31 +1,8 @@
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import { container } from "../styles/layout";
-import { themeBg } from "../styles/theme";
+import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const styles = theme => ({
-  hero: {
-    backgroundColor: theme.palette.primary.main,
-    ...themeBg
-  },
-  container: {
-    padding: "30px",
-    boxSizing: "border-box",
-    ...container,
-    [theme.breakpoints.up("md")]: {
-      padding: "76px 30px",
-      backgroundImage: "url('static/logo.svg')",
-      backgroundPosition: "right 50px top 100px",
-      backgroundRepeat: "no-repeat"
-    }
-  },
-  intro: {
-    marginBottom: "50px",
-    maxWidth: "530px"
-  }
-});
 
 const SubtitleText = (
   <FormattedMessage
@@ -38,8 +15,7 @@ const SubtitleText = (
 const IntroText = (
   <FormattedMessage
     id="intro"
-    defaultMessage="Many companies collect, store and process your personal information, often without your consent. Now you can get any organisation to erase your personal data, hassle free. This is a free service. We are a not for profit organization, and do not collect your personal data.
-"
+    defaultMessage="Many companies collect, store and process your personal information, often without your consent. Now you can get any organisation to erase your personal data, hassle free. This is a free service. We are a not for profit organization, and do not collect your personal data."
   />
 );
 
@@ -48,9 +24,13 @@ const Hero = ({ classes, onCompanySelected, children }) => {
     <div className={classes.hero}>
       <div className={classes.container}>
         <div className={classes.heading}>
-          <Typography variant="display3" color="inherit" gutterBottom={true}>
-            opt<strong>out</strong>
-          </Typography>
+          <h1 className={classes.title}>
+            <img
+              src="static/optout.svg"
+              alt="Opt out"
+              className={classes.titleImg}
+            />
+          </h1>
 
           <Typography
             variant="display1"
