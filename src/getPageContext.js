@@ -27,7 +27,8 @@ const theme = createMuiTheme({
     headline: {
       fontWeight: "bold",
       color: "#005ea5"
-    }
+    },
+    fontFamily: ["Source Sans Pro", "sans-serif"].join(",")
   }
 });
 
