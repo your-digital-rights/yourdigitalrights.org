@@ -19,7 +19,7 @@ const styles = theme => ({
   },
   link: {
     color: "#005ea5",
-    fontWeight: "bold",
+    fontWeight: "600",
     textDecoration: "none"
   }
 });

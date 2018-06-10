@@ -96,6 +96,7 @@ export default class IntlDocument extends Document {
           <link rel="icon" href="/static/favicon.ico" />
         </Head>
         <body>
+          <style dangerouslySetInnerHTML={{ __html: "a { color: #005ea5;}" }} />
           <noscript
             dangerouslySetInnerHTML={{
               __html:

@@ -21,7 +21,8 @@ const styles = theme => ({
     }
   },
   title: {
-    textAlign: "center"
+    textAlign: "center",
+    marginBottom: "1.5em"
   },
   list: {
     margin: "20px 0"
@@ -47,7 +48,9 @@ class FAQ extends Component {
         {body.map(text => {
           return (
             <div>
-              <Typography color="textSecondary">{text.item || text}</Typography>
+              <Typography color="textSecondary" component="p">
+                {text.item || text}
+              </Typography>
               {text.subItems && (
                 <ul className={classes.list}>
                   {text.subItems.map(subItemText => (
