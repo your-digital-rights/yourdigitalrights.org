@@ -4,7 +4,6 @@ export default {
     const date = new Date();
     return `${data.name}
 ${data.address}
-${data.email}
 
 ${date.toLocaleDateString()}
 

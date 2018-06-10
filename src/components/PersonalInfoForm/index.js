@@ -1,80 +1,39 @@
+import {
+  AddressHelperText,
+  AddressLabelText,
+  CompanyEmailHelperText,
+  CompanyEmailLabelText,
+  CompanyNameHelperText,
+  CompanyNameLabelText,
+  EmailHelperText,
+  EmailLabelText,
+  IntroText,
+  NameHelperText,
+  NameLabelText,
+  SubmitButtonText
+} from "./text";
+
 import Button from "@material-ui/core/Button";
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
+import { Fragment } from "react";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
-import erasureEmail from "../email-templates/erasure";
+import erasureEmail from "../../email-templates/erasure";
 import mailtoLink from "mailto-link";
+import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const styles = theme => ({
-  formContainer: {
-    maxWidth: "777px",
-    margin: "auto",
-    padding: "30px",
-    display: "flex",
-    flexDirection: "column",
-    [theme.breakpoints.up("sm")]: {
-      padding: "60px",
-      margin: "60px auto"
-    }
-  },
-  formButton: {
-    marginTop: "2rem"
-  }
-});
-
-const IntroText = (
-  <FormattedMessage
-    id="formIntro"
-    defaultMessage="To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes."
-  />
-);
-
-const NameLabelText = (
-  <FormattedMessage id="nameLabel" defaultMessage="Your name" />
-);
-
-const NameHelperText = (
-  <FormattedMessage
-    id="nameHelper"
-    defaultMessage="This will be used to by the company to identify you in their systems"
-  />
-);
-
-const EmailLabelText = (
-  <FormattedMessage id="emailLabel" defaultMessage="Your email address" />
-);
-
-const EmailHelperText = (
-  <FormattedMessage
-    id="emailHelper"
-    defaultMessage="This will be used to by the company to identify you in their systems and to communicate with you"
-  />
-);
-
-const AddressLabelText = (
-  <FormattedMessage id="homeAddressLabel" defaultMessage="Your home address" />
-);
-
-const AddressHelperText = (
-  <FormattedMessage
-    id="addressHelper"
-    defaultMessage="Your home address will be used to validate that you are a resident of the European Union"
-  />
-);
-
-const SubmitButtonText = (
-  <FormattedMessage id="sendButton" defaultMessage="Send your request" />
-);
 
 class Form extends Component {
   state = {
     name: "",
     email: "",
-    address: ""
+    address: "",
+    companyName: "",
+    companyEmail: ""
   };
+
   handlers = {};
 
   handleInput = name => {
@@ -93,12 +52,21 @@ class Form extends Component {
   };
 
   renderMailTo() {
-    console.log(this.props);
+    const { selectedCompany } = this.props;
+
+    const to = selectedCompany
+      ? selectedCompany.email
+      : this.state.companyEmail;
+
+    const companyName = selectedCompany
+      ? selectedCompany.name
+      : this.state.companyName;
+
     return mailtoLink({
-      to: this.props.selectedCompany.email,
+      to,
       subject: erasureEmail.subject,
       body: erasureEmail.formatBody({
-        companyName: this.props.selectedCompany.name,
+        companyName,
         ...this.state
       })
     });
@@ -107,12 +75,14 @@ class Form extends Component {
   render() {
     const { classes, selectedCompany } = this.props;
 
-    const HeadingText = (
+    const HeadingText = selectedCompany ? (
       <FormattedMessage
         id="formHeading"
         defaultMessage="Opting out of {companyName}"
         values={{ companyName: selectedCompany.name }}
       />
+    ) : (
+      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
     );
 
     return (
@@ -129,6 +99,30 @@ class Form extends Component {
         <Typography gutterBottom={true} variant={"body2"}>
           {IntroText}
         </Typography>
+        {!selectedCompany && (
+          <Fragment>
+            <TextField
+              id="companyName"
+              label={CompanyNameLabelText}
+              value={this.state.companyName}
+              onChange={this.handleInput("companyName")}
+              margin="normal"
+              required
+              autoFocus
+              helperText={CompanyNameHelperText}
+            />
+            <TextField
+              id="companyEmail"
+              label={CompanyEmailLabelText}
+              value={this.state.companyEmail}
+              onChange={this.handleInput("companyEmail")}
+              margin="normal"
+              required
+              type="email"
+              helperText={CompanyEmailHelperText}
+            />
+          </Fragment>
+        )}
         <TextField
           id="name"
           label={NameLabelText}
@@ -136,18 +130,8 @@ class Form extends Component {
           onChange={this.handleInput("name")}
           margin="normal"
           required
-          autoFocus
+          autoFocus={!!selectedCompany}
           helperText={NameHelperText}
-        />
-        <TextField
-          id="email"
-          label={EmailLabelText}
-          value={this.state.email}
-          onChange={this.handleInput("email")}
-          margin="normal"
-          type="email"
-          required
-          helperText={EmailHelperText}
         />
         <TextField
           id="address"

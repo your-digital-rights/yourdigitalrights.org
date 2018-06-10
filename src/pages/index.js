@@ -18,9 +18,15 @@ class Index extends Component {
   }
 
   onCompanySelected = selectedCompany => {
-    this.setState({
-      selectedCompany
-    });
+    if (selectedCompany.name) {
+      this.setState({
+        selectedCompany
+      });
+    } else {
+      this.setState({
+        noCompanySelected: true
+      });
+    }
   };
 
   render() {
@@ -30,7 +36,7 @@ class Index extends Component {
           <SearchForm onCompanySelected={this.onCompanySelected} />
         </Hero>
         <Nav />
-        {this.state.selectedCompany && (
+        {(this.state.selectedCompany || this.state.noCompanySelected) && (
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
         <HowItWorks />

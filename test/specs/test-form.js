@@ -43,9 +43,8 @@ describe("When I visit the home page", () => {
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your email address", "rob");
-        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.fillIn("Your name", "");
+        page.personalInfoForm.fillIn("Your home address", "");
         page.personalInfoForm.submit();
       });
 
@@ -59,7 +58,6 @@ describe("When I visit the home page", () => {
 
       beforeEach(() => {
         page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your email address", "rob@test.com");
         page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
@@ -67,6 +65,44 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("feedback@slack.com");
+        mailTo.subject.should.be.equal("Erasure Request");
+        mailTo.body.should.match(/Rob/, "Email body should contain users name");
+        mailTo.body.should.match(
+          /10 Downing Street/,
+          "Email body should contain users home address"
+        );
+        mailTo.body.should.match(
+          /23\/05\/2022/,
+          "Email body should contain the formatted date"
+        );
+        mailTo.body.should.match(
+          /I am writing to request that you erase all my personal information/,
+          "Email body should contain expected content"
+        );
+      });
+    });
+  });
+
+  describe("and perform a search with no results", () => {
+    beforeEach(() => {
+      page.searchForm.fillIn("Search for a company", "abcxyz123");
+      $("li*=Can't find a company?").click();
+    });
+
+    describe("and fill in the form with valid data and submit", () => {
+      let mailTo;
+
+      beforeEach(() => {
+        page.personalInfoForm.fillIn("Company name", "abcxyz123");
+        page.personalInfoForm.fillIn("Company email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Your name", "Rob");
+        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.submit();
+        mailTo = page.parsedMailTo;
+      });
+
+      it("opens a mailto url", () => {
+        mailTo.to.should.be.equal("dpo@abcxyz123");
         mailTo.subject.should.be.equal("Erasure Request");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
