@@ -15,7 +15,7 @@ const SearchTitle = (
 const SearchBody = (
   <FormattedMessage
     id="search"
-    defaultMessage="Search for a company using the search box below. If the company you are looking for is not on the list, you can add it by providing a contact email."
+    defaultMessage="Search for a company using the search box above. If the company you are looking for is not on the list, you can add it by providing a contact email."
   />
 );
 
@@ -48,7 +48,7 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="yourData"
-    defaultMessage="{link} (GDPR) recently introduced in Europe requires companies to erase personal data upon request. If an organisation does not comply within 30 days it can face steep fees."
+    defaultMessage="{link} (GDPR) recently introduced in Europe require companies to erase personal data upon request. If an organisation does not comply within 30 days it can face steep fines."
     values={{
       link: (
         <a href="https://www.eugdpr.org/">

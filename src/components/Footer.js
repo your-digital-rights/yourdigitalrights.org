@@ -29,7 +29,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="query"
-    defaultMessage="If you have any question, please contact us at {mail}"
+    defaultMessage="© Copyright 2018 optout. If you have any question, please contact us at <strong>{mail}</strong>"
     values={{
       mail: <a href="mailto:info@opt-out.eu">info@opt-out.eu</a>
     }}
