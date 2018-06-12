@@ -19,6 +19,9 @@ const styles = theme => ({
       padding: "60px",
       margin: "60px auto"
     }
+  },
+  formButton: {
+    marginTop: "2rem"
   }
 });
 
@@ -157,7 +160,7 @@ class Form extends Component {
           rows={4}
           helperText={AddressHelperText}
         />
-        <div>
+        <div className={classes.formButton}>
           <Button variant="raised" color="primary" type="submit">
             {SubmitButtonText}
           </Button>
