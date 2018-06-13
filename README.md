@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/robwebdev/opt-out.svg?style=svg)](https://circleci.com/gh/robwebdev/opt-out)
+[![CircleCI](https://circleci.com/gh/opt-out-eu/opt-out.svg?style=svg)](https://circleci.com/gh/opt-out-eu/opt-out)
 
 # Installation
 
