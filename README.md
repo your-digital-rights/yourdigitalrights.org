@@ -24,8 +24,8 @@ Running `npm run deploy:dev` will deploy to a temporary url
 
 ## Staging
 
-`npm run alias:staging` will alias the latest development deployment to http://opt-out-eu.now.sh/
+`npm run alias:staging` will alias the latest **development** deployment to http://opt-out-eu.now.sh/
 
 ## Production
 
-`npm run alias:prod` will alias the latest development deployment to http://opt-out.eu/
+`npm run alias:prod` will alias the latest **staging** deployment to http://opt-out.eu/
