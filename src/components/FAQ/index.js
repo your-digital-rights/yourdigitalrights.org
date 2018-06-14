@@ -1,33 +1,13 @@
+import Text, { Title } from "./text";
+
 import { Component } from "react";
 import ExpansionPanel from "@material-ui/core/ExpansionPanel";
 import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import Icon from "@material-ui/core/Icon";
-import Text from "./text";
 import Typography from "@material-ui/core/Typography";
+import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const styles = theme => ({
-  container: {
-    maxWidth: "777px",
-    margin: "auto",
-    padding: "30px",
-    paddingBottom: 0,
-    display: "flex",
-    flexDirection: "column",
-    [theme.breakpoints.up("sm")]: {
-      padding: "60px 60px 0",
-      margin: "60px auto 0"
-    }
-  },
-  title: {
-    textAlign: "center",
-    marginBottom: "1.5em"
-  },
-  list: {
-    margin: "20px 0"
-  }
-});
 
 class FAQ extends Component {
   state = {
@@ -98,7 +78,7 @@ class FAQ extends Component {
           gutterBottom={true}
           component={"h2"}
         >
-          {"Frequently Asked Questions"}
+          {Title}
         </Typography>
         {Text.map(this.renderItem)}
       </div>

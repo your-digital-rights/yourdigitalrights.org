@@ -17,48 +17,8 @@ import LowerSection from "./LowerSection";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import UpperSection from "./UpperSection";
-import { container } from "../../styles/layout";
+import { indexStyles as styles } from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const styles = theme => ({
-  root: {
-    display: "flex",
-    flexDirection: "column",
-    paddingTop: "30px",
-    ...container
-  },
-  title: {
-    textAlign: "center",
-    [theme.breakpoints.up("md")]: {
-      textAlign: "left"
-    }
-  },
-  titleImg: {
-    display: "none",
-    [theme.breakpoints.up("md")]: {
-      display: "block"
-    }
-  },
-  upperContainer: {
-    [theme.breakpoints.up("md")]: {
-      display: "flex",
-      alignItems: "center",
-      margin: "60px 0"
-    }
-  },
-  upperContent: {
-    [theme.breakpoints.up("md")]: {
-      flex: 1,
-      marginLeft: 64
-    }
-  },
-  lowerContainer: {
-    [theme.breakpoints.up("sm")]: {
-      display: "flex",
-      alignItems: "top"
-    }
-  }
-});
 
 const HowItWorks = ({ classes }) => {
   return (

@@ -1,4 +1,9 @@
 import { FormattedMessage as F } from "react-intl";
+
+export const Title = (
+  <F id="title" defaultMessage="Frequently Asked Questions" />
+);
+
 export default [
   {
     heading: (

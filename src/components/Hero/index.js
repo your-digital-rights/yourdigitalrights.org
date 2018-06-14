@@ -1,23 +1,9 @@
-import { FormattedMessage } from "react-intl";
+import { IntroText, SubtitleText } from "./text";
+
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const SubtitleText = (
-  <FormattedMessage
-    id="heading"
-    defaultMessage="We help you {strong}"
-    values={{ strong: <strong>own your data</strong> }}
-  />
-);
-
-const IntroText = (
-  <FormattedMessage
-    id="intro"
-    defaultMessage="Many companies collect, store and process your personal information, often without your consent. Now you can get any organisation to erase your personal data, hassle free. This is a free service. We are a not for profit organization, and do not collect your personal data."
-  />
-);
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
