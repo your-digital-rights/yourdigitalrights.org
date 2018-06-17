@@ -21,6 +21,7 @@ import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import erasureEmail from "../../email-templates/erasure";
+import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
@@ -48,6 +49,7 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
+    this.addNewCompany();
     window.$location.href = this.renderMailTo();
   };
 
@@ -70,6 +72,23 @@ class Form extends Component {
         ...this.state
       })
     });
+  }
+
+  async addNewCompany() {
+    const response = await fetch(
+      "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
+      {
+        method: "POST",
+        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${
+          this.state.companyName
+        }`,
+        headers: {
+          Accept: "application/xml, text/xml, */*; q=0.01",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+        }
+      }
+    );
+    console.log(respose);
   }
 
   render() {
