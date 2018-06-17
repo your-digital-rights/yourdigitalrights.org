@@ -1,3 +1,4 @@
+import CircularProgress from "@material-ui/core/CircularProgress";
 import { Component } from "react";
 import Downshift from "downshift";
 import { FormattedMessage } from "react-intl";
@@ -9,39 +10,9 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
-import fetchSheetData from "../utils/sheets";
+import fetchSheetData from "../../utils/sheets";
+import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
-const styles = theme => ({
-  searchInputWrapper: {
-    padding: "6px 16px"
-  },
-  label: {
-    border: 0,
-    clip: "rect(0 0 0 0)",
-    height: "1px",
-    margin: "-1px",
-    overflow: "hidden",
-    padding: 0,
-    position: "absolute",
-    width: "1px"
-  },
-  form: {
-    position: "relative",
-    height: "44px"
-  },
-  results: {
-    position: "absolute",
-    width: "100%",
-    zIndex: 1000
-  },
-  searchIcon: {
-    marginRight: "16px"
-  },
-  list: {
-    padding: 0
-  }
-});
 
 class Form extends Component {
   state = {
@@ -71,7 +42,7 @@ class Form extends Component {
       const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
-          return company.name.toLowerCase().match(search.toLowerCase());
+          return company.searchTerms.toLowerCase().match(search.toLowerCase());
         })
         .slice(0, 5);
     } else {
@@ -114,6 +85,11 @@ class Form extends Component {
                   <Icon>search</Icon>
                 </InputAdornment>
               }
+              endAdornment={
+                this.state.companyNameSearch && !this.state.companiesLoaded ? (
+                  <CircularProgress className={classes.progress} size={24} />
+                ) : null
+              }
               disableUnderline={true}
               placeholder={label}
               fullWidth={true}
@@ -135,7 +111,6 @@ class Form extends Component {
     itemProps
   }) => {
     const isHighlighted = highlightedIndex === i;
-    const isSelected = selectedItem && selectedItem.name === result.name;
 
     return (
       <MenuItem
@@ -160,7 +135,10 @@ class Form extends Component {
     const { classes } = this.props;
     return (
       <form id="searchForm" className={classes.form}>
-        <Downshift onSelect={this.onSelected}>
+        <Downshift
+          onSelect={this.onSelected}
+          itemToString={result => result && result.name}
+        >
           {({
             getInputProps,
             getItemProps,
@@ -172,42 +150,40 @@ class Form extends Component {
             <div>
               <Paper className={classes.results}>
                 {this.renderInput(getInputProps())}
-                {isOpen &&
-                  this.state.companyNameSearch && (
-                    <div>
-                      {this.state.searchResults.length ? (
-                        <MenuList className={classes.list}>
-                          {this.state.searchResults.map((result, i) =>
-                            this.renderSuggestion({
-                              result,
-                              i,
-                              itemProps: getItemProps({ item: result }),
-                              highlightedIndex,
-                              selectedItem
-                            })
-                          )}
-                        </MenuList>
-                      ) : this.state.companiesLoaded ? (
-                        <MenuItem>
-                          <ListItemText>
-                            <FormattedMessage
-                              id="noResults"
-                              defaultMessage="No results"
-                            />
-                          </ListItemText>
-                        </MenuItem>
-                      ) : (
-                        <MenuItem>
-                          <ListItemText>
-                            <FormattedMessage
-                              id="loadingCompanies"
-                              defaultMessage="Loading companies"
-                            />
-                          </ListItemText>
-                        </MenuItem>
+                {isOpen && (
+                  <MenuList className={classes.list}>
+                    {this.state.searchResults.length &&
+                      this.state.searchResults.map((result, i) =>
+                        this.renderSuggestion({
+                          result,
+                          i,
+                          itemProps: getItemProps({ item: result }),
+                          highlightedIndex,
+                          selectedItem
+                        })
                       )}
-                    </div>
-                  )}
+                    <MenuItem
+                      button
+                      selected={
+                        highlightedIndex === this.state.searchResults.length
+                      }
+                      {...getItemProps({ item: {} })}
+                    >
+                      <ListItemText>
+                        <strong>
+                          <FormattedMessage
+                            id="noResults"
+                            defaultMessage="Can't find a company?"
+                          />
+                        </strong>{" "}
+                        <FormattedMessage
+                          id="noResultsMore"
+                          defaultMessage="Click here to add a one manually"
+                        />
+                      </ListItemText>
+                    </MenuItem>
+                  </MenuList>
+                )}
               </Paper>
             </div>
           )}
