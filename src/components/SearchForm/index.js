@@ -42,7 +42,7 @@ class Form extends Component {
       const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
-          return company.name.toLowerCase().match(search.toLowerCase());
+          return company.searchTerms.toLowerCase().match(search.toLowerCase());
         })
         .slice(0, 5);
     } else {
