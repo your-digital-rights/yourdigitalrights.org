@@ -1,4 +1,4 @@
-import { themeBg } from "../styles/theme";
+import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({

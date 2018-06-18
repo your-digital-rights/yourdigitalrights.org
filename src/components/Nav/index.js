@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
 import Link from "next/link";
 import Typography from "@material-ui/core/Typography";
-import { container } from "../styles/layout";
+import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
