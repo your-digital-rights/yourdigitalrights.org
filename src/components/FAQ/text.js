@@ -9,8 +9,7 @@ export default [
     heading: (
       <F
         id="heading1"
-        defaultMessage="Which organizations does the GDPR regulation affect?
-        "
+        defaultMessage="Which organizations does the GDPR regulation affect?"
       />
     ),
     body: [
@@ -102,8 +101,7 @@ export default [
       },
       <F
         id="3b"
-        defaultMessage="The organisation can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”.
-      "
+        defaultMessage="The organisation can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
       />
     ]
   },
@@ -111,7 +109,7 @@ export default [
     heading: (
       <F
         id="heading4"
-        defaultMessage="How long does an organisation has to comply with a request?"
+        defaultMessage="How long does an organisation have to comply with a request?"
       />
     ),
     body: [

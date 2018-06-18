@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 export const IntroText = (
   <FormattedMessage
     id="formIntro"
-    defaultMessage="To comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. Please note that all the information you enter will be erased from our systems as soon as the your session concludes."
+    defaultMessage="In order to comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as the your session concludes."
   />
 );
 
