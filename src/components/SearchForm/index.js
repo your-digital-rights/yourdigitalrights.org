@@ -178,7 +178,7 @@ class Form extends Component {
                         </strong>{" "}
                         <FormattedMessage
                           id="noResultsMore"
-                          defaultMessage="Click here to add a one manually"
+                          defaultMessage="Click here to add one"
                         />
                       </ListItemText>
                     </MenuItem>
