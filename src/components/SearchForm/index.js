@@ -115,7 +115,7 @@ class Form extends Component {
     return (
       <MenuItem
         button
-        key={i}
+        key={result.url}
         selected={isHighlighted}
         dense={true}
         {...itemProps}
