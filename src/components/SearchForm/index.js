@@ -138,6 +138,7 @@ class Form extends Component {
         <Downshift
           onSelect={this.onSelected}
           itemToString={result => result && result.name}
+          defaultHighlightedIndex={0}
         >
           {({
             getInputProps,
