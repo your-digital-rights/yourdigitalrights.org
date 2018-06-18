@@ -11,7 +11,10 @@ import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 
 class Index extends Component {
-  state = {};
+  state = {
+    selectedCompany: null,
+    manualCompanyEntryEnabled: false
+  };
 
   async componentDidMount() {
     window.$location = window.location;
@@ -20,11 +23,13 @@ class Index extends Component {
   onCompanySelected = selectedCompany => {
     if (selectedCompany.name) {
       this.setState({
-        selectedCompany
+        selectedCompany,
+        manualCompanyEntryEnabled: false
       });
     } else {
       this.setState({
-        noCompanySelected: true
+        selectedCompany: null,
+        manualCompanyEntryEnabled: true
       });
     }
   };
@@ -36,7 +41,8 @@ class Index extends Component {
           <SearchForm onCompanySelected={this.onCompanySelected} />
         </Hero>
         <Nav />
-        {(this.state.selectedCompany || this.state.noCompanySelected) && (
+        {(this.state.selectedCompany ||
+          this.state.manualCompanyEntryEnabled) && (
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
         <HowItWorks />
