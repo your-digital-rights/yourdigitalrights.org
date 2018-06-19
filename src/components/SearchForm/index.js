@@ -126,7 +126,10 @@ class Form extends Component {
           width={24}
           height={24}
         />
-        <ListItemText primary={result.name} />
+        <ListItemText
+          primary={result.name}
+          id={`search-result-${result.url}`}
+        />
       </MenuItem>
     );
   };
