@@ -163,6 +163,13 @@ class Form extends Component {
           rows={4}
           helperText={AddressHelperText}
         />
+        {this.props.selectedCompany && (
+          <input
+            type="hidden"
+            name="companyUrl"
+            value={this.props.selectedCompany.url}
+          />
+        )}
         <div className={classes.formButton}>
           <Button variant="raised" color="primary" type="submit">
             {SubmitButtonText}
