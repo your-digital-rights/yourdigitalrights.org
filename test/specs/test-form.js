@@ -18,14 +18,9 @@ describe("When I visit the home page", () => {
       window.Date.prototype.toLocaleDateString = function() {
         return "23/05/2022";
       };
-      window.$location = new Proxy(window.location, {
-        set(target, property, value) {
-          if (property === "href") {
-            document.body.setAttribute("data-open-url", value);
-          }
-          return true;
-        }
-      });
+      window.open = function(url) {
+        document.body.setAttribute("data-open-url", url);
+      };
     });
   });
 

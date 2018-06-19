@@ -16,10 +16,6 @@ class Index extends Component {
     manualCompanyEntryEnabled: false
   };
 
-  async componentDidMount() {
-    window.$location = window.location;
-  }
-
   onCompanySelected = selectedCompany => {
     if (selectedCompany.name) {
       this.setState({
