@@ -50,7 +50,7 @@ class Form extends Component {
   handleFormSubmit = e => {
     e.preventDefault();
     this.addNewCompany();
-    window.$location.href = this.renderMailTo();
+    window.open(this.renderMailTo());
   };
 
   renderMailTo() {
