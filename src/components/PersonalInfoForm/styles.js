@@ -11,6 +11,7 @@ export default theme => ({
     }
   },
   formButton: {
-    marginTop: "2rem"
+    marginTop: "2rem",
+    borderRadius:"24px 24px 24px 24px"
   }
 });

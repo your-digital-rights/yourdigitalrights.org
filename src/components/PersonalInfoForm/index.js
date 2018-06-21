@@ -170,8 +170,8 @@ class Form extends Component {
             value={this.props.selectedCompany.url}
           />
         )}
-        <div className={classes.formButton}>
-          <Button variant="raised" color="primary" type="submit">
+        <div>
+          <Button variant="raised" color="primary" type="submit" className={classes.formButton}>
             {SubmitButtonText}
           </Button>
         </div>
