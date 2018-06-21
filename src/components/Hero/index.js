@@ -3,6 +3,7 @@ import { IntroText, SubtitleText } from "./text";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
+import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const Hero = ({ classes, onCompanySelected, children }) => {
@@ -16,6 +17,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
               alt="Opt out"
               className={classes.titleImg}
             />
+            <span style={visuallyHidden}>Opt-out</span>
           </h1>
 
           <Typography
