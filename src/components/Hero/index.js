@@ -16,6 +16,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
               src="static/optout.svg"
               alt="Opt out"
               className={classes.titleImg}
+              role="presentation"
             />
             <span style={visuallyHidden}>Opt-out</span>
           </h1>
