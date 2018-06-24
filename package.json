@@ -14,7 +14,7 @@
     "deploy": "now src/out --name opt-out-eu --region bru",
     "clean": "rm -rf src/out && rm -rf src/.next",
     "alias:staging": "now alias opt-out-eu",
-    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu",
+    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu",
     "deploy:dev": "npm run clean && npm run build && npm run deploy"
   },
   "dependencies": {
