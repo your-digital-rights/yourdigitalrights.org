@@ -9,7 +9,7 @@ ${date.toLocaleDateString()}
 
 To whom it may concern:
 
-I am writing to request that you erase all my personal information from all your information systems pursuant to Article 17 of the General Data Protection Regulation (GDPR). Please confirm that you have erased my personal information, and that you have followed up with any organization with whom my information has been shared with. 
+I am writing to request that you erase all my personal information from all your information systems pursuant to Article 17 of the General Data Protection Regulation (GDPR). Please confirm that you have erased my personal information, and that you have followed up with any organization with whom my information has been shared with.
 
 If you need any more information from me, please let me know as soon as possible. Please note that I have the right to receive this information in a standardized format within 30 days of your receipt of this request.
 

@@ -49,8 +49,10 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    this.addNewCompany();
     window.open(this.renderMailTo());
+    if (this.state.companyEmail) {
+      this.addNewCompany();
+    }
   };
 
   renderMailTo() {
@@ -64,12 +66,13 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    console.log(selectedCompany, this.state);
     return mailtoLink({
       to,
       subject: erasureEmail.subject,
       body: erasureEmail.formatBody({
-        companyName,
-        ...this.state
+        ...this.state,
+        companyName
       })
     });
   }
@@ -88,7 +91,6 @@ class Form extends Component {
         }
       }
     );
-    console.log(respose);
   }
 
   render() {
@@ -171,7 +173,12 @@ class Form extends Component {
           />
         )}
         <div>
-          <Button variant="raised" color="primary" type="submit" className={classes.formButton}>
+          <Button
+            variant="raised"
+            color="primary"
+            type="submit"
+            className={classes.formButton}
+          >
             {SubmitButtonText}
           </Button>
         </div>
