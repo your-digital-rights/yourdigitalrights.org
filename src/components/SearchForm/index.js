@@ -68,7 +68,7 @@ class Form extends Component {
     return (
       <FormattedMessage
         id="companyPlaceholder"
-        defaultMessage="Search for a company"
+        defaultMessage="Search for an organisation"
       >
         {label => (
           <div>
@@ -177,7 +177,7 @@ class Form extends Component {
                         <strong>
                           <FormattedMessage
                             id="noResults"
-                            defaultMessage="Can't find a company?"
+                            defaultMessage="Can't find an organisation?"
                           />
                         </strong>{" "}
                         <FormattedMessage

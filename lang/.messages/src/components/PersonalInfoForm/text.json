@@ -1,23 +1,19 @@
 [
   {
-    "id": "formIntro",
-    "defaultMessage": "In order to comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as the your session concludes."
-  },
-  {
     "id": "companyNameLabel",
-    "defaultMessage": "Company name"
+    "defaultMessage": "Organisation name"
   },
   {
     "id": "companyNameHelper",
-    "defaultMessage": "Some help text"
+    "defaultMessage": "Please enter the name of the organisation you would like to contact."
   },
   {
     "id": "companyEmailLabel",
-    "defaultMessage": "Company email address"
+    "defaultMessage": "Organisation email address"
   },
   {
     "id": "compnayEmailHelper",
-    "defaultMessage": "Some help text"
+    "defaultMessage": "Please enter the email address of the person or department responsible for handling GDPR / privacy / legal requests."
   },
   {
     "id": "nameLabel",
@@ -25,7 +21,7 @@
   },
   {
     "id": "nameHelper",
-    "defaultMessage": "This will be used to by the company to identify you in their systems"
+    "defaultMessage": "This will be used by the organisation to identify you in their systems."
   },
   {
     "id": "homeAddressLabel",
@@ -33,7 +29,7 @@
   },
   {
     "id": "addressHelper",
-    "defaultMessage": "Your home address will be used to validate that you are a resident of the European Union"
+    "defaultMessage": "Your home address will be used to validate that you are a located in the European Union."
   },
   {
     "id": "sendButton",

@@ -1,34 +1,27 @@
 import { FormattedMessage } from "react-intl";
 
-export const IntroText = (
-  <FormattedMessage
-    id="formIntro"
-    defaultMessage="In order to comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as the your session concludes."
-  />
-);
-
 export const CompanyNameLabelText = (
-  <FormattedMessage id="companyNameLabel" defaultMessage="Company name" />
+  <FormattedMessage id="companyNameLabel" defaultMessage="Organisation name" />
 );
 
 export const CompanyNameHelperText = (
   <FormattedMessage
     id="companyNameHelper"
-    defaultMessage="Some help text" // TODO: Update
+    defaultMessage="Please enter the name of the organisation you would like to contact." 
   />
 );
 
 export const CompanyEmailLabelText = (
   <FormattedMessage
     id="companyEmailLabel"
-    defaultMessage="Company email address"
+    defaultMessage="Organisation email address"
   />
 );
 
 export const CompanyEmailHelperText = (
   <FormattedMessage
     id="compnayEmailHelper"
-    defaultMessage="Some help text" // TODO: Update
+    defaultMessage="Please enter the email address of the person or department responsible for handling GDPR / privacy / legal requests."
   />
 );
 
@@ -39,7 +32,7 @@ export const NameLabelText = (
 export const NameHelperText = (
   <FormattedMessage
     id="nameHelper"
-    defaultMessage="This will be used to by the company to identify you in their systems"
+    defaultMessage="This will be used by the organisation to identify you in their systems."
   />
 );
 
@@ -50,7 +43,7 @@ export const AddressLabelText = (
 export const AddressHelperText = (
   <FormattedMessage
     id="addressHelper"
-    defaultMessage="Your home address will be used to validate that you are a resident of the European Union"
+    defaultMessage="Your home address will be used to validate that you are a located in the European Union."
   />
 );
 
