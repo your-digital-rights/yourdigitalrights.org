@@ -88,8 +88,8 @@ describe("When I visit the home page", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Company name", "abcxyz123");
-        page.personalInfoForm.fillIn("Company email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your name", "Rob");
         page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
         page.personalInfoForm.submit();
