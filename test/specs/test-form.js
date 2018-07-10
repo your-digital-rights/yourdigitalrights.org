@@ -24,9 +24,9 @@ describe("When I visit the home page", () => {
     });
   });
 
-  describe("and select a company", () => {
+  describe("and select a organisation", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for a company", "Slack");
+      page.searchForm.fillIn("Search for an organisation", "Slack");
       browser.waitForExist("div=Slack", 3000);
       $("div=Slack").click();
     });
@@ -80,16 +80,16 @@ describe("When I visit the home page", () => {
 
   describe("and perform a search with no results", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for a company", "abcxyz123");
-      $("li*=Can't find a company?").click();
+      page.searchForm.fillIn("Search for an organisation", "abcxyz123");
+      $("li*=Can't find an organisation?").click();
     });
 
     describe("and fill in the form with valid data and submit", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Company name", "abcxyz123");
-        page.personalInfoForm.fillIn("Company email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your name", "Rob");
         page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
         page.personalInfoForm.submit();

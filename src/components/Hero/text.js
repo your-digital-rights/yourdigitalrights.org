@@ -3,14 +3,14 @@ import { FormattedMessage } from "react-intl";
 export const SubtitleText = (
   <FormattedMessage
     id="heading"
-    defaultMessage="We help you {strong}"
-    values={{ strong: <strong>own your data</strong> }}
+    defaultMessage="{strong}"
+    values={{ strong: <strong>Own your data</strong> }}
   />
 );
 
 export const IntroText = (
   <FormattedMessage
     id="intro"
-    defaultMessage="Many companies collect, store and process your personal information, often without your consent. Now you can get any organisation to erase your personal data, hassle free. This is a free service. We are a not for profit organization, and do not collect your personal data."
+    defaultMessage="Many organisations collect your personal data, often without consent. Now you can get any organisation to erase this data, hassle free. Opt Out is a free service which helps you exercise your right to be forgotten under the European General Data Protection Regulations (GDPR). This service does not collect or trade any personal data. "
   />
 );
