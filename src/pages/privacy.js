@@ -44,6 +44,7 @@ const Privacy = ({ classes }) => {
               day="2-digit"
             />
           </Typography>
+          <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage id="promise" defaultMessage="Our Promise" />
           </Typography>
@@ -53,6 +54,7 @@ const Privacy = ({ classes }) => {
               defaultMessage="You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the minimum required to deliver this service. We will not sell or rent your personal information to anyone. We will only share your personal information when it is required to provide our service or as otherwise outlined in this Policy."
             />
           </Typography>
+          <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="personalData"
@@ -65,12 +67,14 @@ const Privacy = ({ classes }) => {
               defaultMessage="We collect Personal Data from you when you use this Website. We process and provide this information to third party service providers, such as Google or an email client, to deliver the Service. We share your Personal Data with these third party service providers, only as necessary for them to provide their service to us. We also share this information with the companies you request to contact so that they can identify you on their systems and contact you directly. We do not retain any of this information on our servers."
             />
           </Typography>
+          <br/>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="personalDataBody2"
               defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of Out-out.eu and the authorized third parties referred to herein."
             />
           </Typography>
+          <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="cookies"
@@ -83,6 +87,7 @@ const Privacy = ({ classes }) => {
               defaultMessage="In operating the Services, we may use a technology called &quot;cookies&quot;. A cookie is a piece of information that the computer hosting our Services gives to your browser when you access the Services. While we do not use cookies to deliver the Service, we do use cookies to help us analyze Services usage more accurately. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a &quot;help&quot; section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
             />
           </Typography>
+          <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage defaultMessage="Contact" id="contact" />
           </Typography>
