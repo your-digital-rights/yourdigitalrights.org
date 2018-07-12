@@ -60,7 +60,7 @@ const About = ({ classes }) => {
               id="missionBody3"
               defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data."
             />
-          </Typography>  
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
@@ -82,7 +82,7 @@ const About = ({ classes }) => {
               id="createdByBody2"
               defaultMessage="{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/rafaprada">Rafa Parada</a>
+                linkedin: <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
               }}
             />
           </Typography>
@@ -91,7 +91,7 @@ const About = ({ classes }) => {
               id="createdByBody3"
               defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chander</a>
+                linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chandler</a>
               }}
             />
           </Typography>
