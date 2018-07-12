@@ -14,6 +14,7 @@ const styles = theme => ({
   container: {
     position: "relative",
     ...container,
+      marginTop: 32,
     [theme.breakpoints.up("md")]: {
       marginTop: 60
     }
@@ -32,11 +33,8 @@ const About = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="aboutTitle"
-              defaultMessage="About Us"
+              defaultMessage="Our mission"
             />
-          </Typography>
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage id="mission" defaultMessage="Our Mission" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage

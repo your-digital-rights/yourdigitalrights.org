@@ -14,6 +14,7 @@ const styles = theme => ({
   container: {
     position: "relative",
     ...container,
+      marginTop: 32,
     [theme.breakpoints.up("md")]: {
       marginTop: 60
     }

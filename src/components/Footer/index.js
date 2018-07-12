@@ -29,8 +29,13 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="query"
-    defaultMessage="© Copyright 2018 Opt-out.eu. Contact us at {mail}."
+    defaultMessage="© Copyright 2018 Opt-out.eu. For more information, please go to our {privacy} or contact us at {mail}."
     values={{
+      privacy: (
+        <a href="/privacy" style={{ fontWeight: "bold" }}>
+          Privacy policy
+        </a>
+      ),
       mail: (
         <a href="mailto:info@opt-out.eu" style={{ fontWeight: "bold" }}>
           info@opt-out.eu
