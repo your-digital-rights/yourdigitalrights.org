@@ -29,11 +29,11 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="query"
-    defaultMessage="© Copyright 2018 Opt-out.eu. For more information, please go to our {privacy} or contact us at {mail}."
+    defaultMessage="For more information, please read our {privacy} or contact us at {mail}."
     values={{
       privacy: (
         <a href="/privacy" style={{ fontWeight: "bold" }}>
-          Privacy policy
+          Privacy Policy
         </a>
       ),
       mail: (
@@ -42,8 +42,9 @@ const QueryText = (
         </a>
       )
     }}
-  />
+  /> 
 );
+
 
 const Footer = ({ classes }) => {
   return (
