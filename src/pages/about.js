@@ -118,7 +118,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="spomnsorsBody2"
-              defaultMessage="{innocraft} - for providing a free subscription to their hosted version of Matomo (Piwiki), the open source and privacy minded web analytics platform."
+              defaultMessage="{innocraft} - for providing a free subscription to their hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
               values={{
                 innocraft: <a href="https://innocraft.cloud">Innocraft</a>
               }}
