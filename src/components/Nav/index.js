@@ -53,9 +53,9 @@ const Nav = ({ classes }) => {
           classes={classes}
         />
         <NavItem
-          href="/privacy"
+          href="/about"
           text={
-            <FormattedMessage id="privacy" defaultMessage="Privacy policy" />
+            <FormattedMessage id="about" defaultMessage="About Us" />
           }
           classes={classes}
         />

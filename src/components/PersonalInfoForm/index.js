@@ -7,7 +7,6 @@ import {
   CompanyNameLabelText,
   EmailHelperText,
   EmailLabelText,
-  IntroText,
   NameHelperText,
   NameLabelText,
   SubmitButtonText
@@ -103,7 +102,14 @@ class Form extends Component {
         values={{ companyName: selectedCompany.name }}
       />
     ) : (
-      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
+      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" 
+      />
+    );
+
+    const IntroText = selectedCompany ? (
+      <FormattedMessage id="IntroTextSelectedCompany" defaultMessage="In order to comply with your request the organisation will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as your session concludes." />
+    ) : (
+      <FormattedMessage id="IntroTextNotSelectedCompany" defaultMessage="To send an Erasure Request to an organisation not on our list you will need to provide the organisation name and a relevant email address. In order to comply with your request the organization will need to locate your data on their systems. To help them do so please enter your name and address. All the information you enter will be erased from our systems as soon as your session concludes." />
     );
 
     return (
@@ -118,7 +124,7 @@ class Form extends Component {
           {HeadingText}
         </Typography>
         <Typography gutterBottom={true} variant={"body2"}>
-          {IntroText}
+            {IntroText}
         </Typography>
         {!selectedCompany && (
           <Fragment>
