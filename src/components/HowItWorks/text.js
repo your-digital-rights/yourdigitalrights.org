@@ -15,7 +15,7 @@ const SearchTitle = (
 const SearchBody = (
   <FormattedMessage
     id="search"
-    defaultMessage="Search for an organisation using the search box above. If the organisation you are looking for is not on the list, you can still send it a request to it by providing a contact email."
+    defaultMessage="Search for an organisation using the search box above. If the organisation you are looking for is not on the list, you can still send it a request by providing a contact email."
   />
 );
 
