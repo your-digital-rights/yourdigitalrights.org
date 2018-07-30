@@ -50,7 +50,7 @@ const styles = theme => ({
     }
   },
   DisclaimerLink: {
-    color: "#f2f2f2",
+    color: "#005ea5",
     fontWeight: "600",
     textDecoration: "none",
     '&:hover': {
@@ -63,34 +63,6 @@ const WishButtonText = (
   <FormattedMessage
     id="WishList"
     defaultMessage="make a wish on our roadmap"
-  />
-);
-
-const PrivacyLink = (
-  <FormattedMessage
-    id="Privacy"
-    defaultMessage="{ToPrivacy}"
-    values={{
-      ToPrivacy: (
-        <a href="/privacy" style={{ textDecoration: "none", fontWeight: "600"}}>
-          Privacy Policy
-        </a>
-      )
-    }}
-  />
-);
-
-const MissionLink = (
-  <FormattedMessage
-    id="Mission"
-    defaultMessage="{ToMission}"
-    values={{
-      ToMission: (
-        <a href="/about" style={{ textDecoration: "none", fontWeight: "600"}}>
-          Mission
-        </a>
-      )
-    }}
   />
 );
 
@@ -113,11 +85,6 @@ const QueryText = (
     id="query"
     defaultMessage="For more information please contact us at {mail}."
     values={{
-      privacy: (
-        <a href="/privacy" style={{ textDecoration: "none", color: "black" }}>
-          Privacy Policy
-        </a>
-      ),
       mail: (
         <a href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
           info@opt-out.eu
@@ -138,11 +105,15 @@ const Footer = ({ classes }) => {
       </div>
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography gutterBottom={true} className={classes.DisclaimerLink}>
-            {PrivacyLink}
+          <Typography>
+            <a href="/privacy" className={classes.DisclaimerLink}>
+              Privacy Policy
+            </a>
           </Typography>
-          <Typography gutterBottom={true} className={classes.DisclaimerLink}>
-            {MissionLink}
+          <Typography>
+            <a href="/about" className={classes.DisclaimerLink}>
+              Mission
+            </a>
           </Typography>
         </div>
         <div className={classes.innerRight}>
