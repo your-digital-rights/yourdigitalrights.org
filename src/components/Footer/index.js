@@ -111,7 +111,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="query"
-    defaultMessage="For more information, please read our {privacy} or contact us at {mail}."
+    defaultMessage="For more information please contact us at {mail}."
     values={{
       privacy: (
         <a href="/privacy" style={{ textDecoration: "none", color: "black" }}>
