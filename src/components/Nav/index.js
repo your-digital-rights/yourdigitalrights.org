@@ -1,3 +1,4 @@
+import Button from "@material-ui/core/Button";
 import { FormattedMessage } from "react-intl";
 import Link from "next/link";
 import Typography from "@material-ui/core/Typography";
@@ -6,21 +7,52 @@ import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   nav: {
-    borderBottom: "5px solid #005ea5"
+    backgroundColor: "#005ea5",
+    position: "fixed",
+    top: "0",
+    width: "100%",
+    zIndex: "1001",
+    borderBottom: "4px solid #0973be"
   },
   container: {
     listStyle: "none",
     display: "flex",
+    justifyContent: "flexEnd",
     ...container
   },
   item: {
-    padding: "26px 0",
-    marginRight: "24px"
+    padding: "20px 0",
+    marginRight: "24px",
+    alignSelf: "center",
   },
   link: {
-    color: "#005ea5",
+    color: "#f2f2f2",
     fontWeight: "600",
-    textDecoration: "none"
+    textDecoration: "none",
+  },
+  OOButton: {
+    margin: "20px 0 20px 20px",
+    borderRadius:"24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    '&:hover': {
+      background: '#cf8600'
+    }
+  },
+  OO: {
+    textAlign: "center",
+  },
+  logoImg: {
+    width: "100px",
+    maxWidth: "75%",
+  },
+  logo: {
+    left: "0px",
+    margin: "31px 0 20px ",
+    alignSelf: "flexStart",
+  },
+  NavItem: {
+    alignSelf: "flexEnd",
   }
 });
 
@@ -36,12 +68,28 @@ const NavItem = ({ href, text, classes }) => {
   );
 };
 
+const OOButtonText = (
+  <FormattedMessage
+    id="WishList"
+    defaultMessage="opt out"
+  />
+);
+
 const Nav = ({ classes }) => {
   return (
     <nav className={classes.nav}>
       <ul className={classes.container}>
+        <div className={classes.logo}>
+          <img
+            src="static/optout.svg"
+            alt="Opt out"
+            className={classes.logoImg}
+            role="presentation"
+          />
+        </div>
         <NavItem
           href="/#howItWorks"
+          className={classes.NavItem}
           text={
             <FormattedMessage id="howItWorks" defaultMessage="How it works" />
           }
@@ -59,6 +107,11 @@ const Nav = ({ classes }) => {
           }
           classes={classes}
         />
+        <div className={classes.OO}>
+          <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.OOButton}>
+            {OOButtonText}
+          </Button>
+        </div>
       </ul>
     </nav>
   );

@@ -33,10 +33,10 @@ class Index extends Component {
   render() {
     return (
       <div>
+        <Nav />
         <Hero>
           <SearchForm onCompanySelected={this.onCompanySelected} />
         </Hero>
-        <Nav />
         {(this.state.selectedCompany ||
           this.state.manualCompanyEntryEnabled) && (
           <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
