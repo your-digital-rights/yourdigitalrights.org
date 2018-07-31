@@ -25,6 +25,7 @@ const styles = theme => ({
     marginBottom: 30,
     [theme.breakpoints.down("sm")]: {
       width: "100%",
+      textAlign: "center",
     }
   },
   innerRight: {
