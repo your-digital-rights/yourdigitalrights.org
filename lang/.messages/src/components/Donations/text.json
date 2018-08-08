@@ -1,14 +1,14 @@
 [
   {
-    "id": "Bitcoin",
-    "defaultMessage": "Donate Bitcoin"
-  },
-  {
     "id": "headingDonate",
     "defaultMessage": "Donate"
   },
   {
-    "id": "Donate",
-    "defaultMessage": "Many organisations collect your personal data, often without consent. Now you can get any organisation to erase this data, hassle free. Opt Out is a free service which helps you exercise your right to be forgotten under the European General Data Protection Regulations (GDPR). This service does not collect or trade any personal data."
+    "id": "intro",
+    "defaultMessage": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time working on improving this service  (we’ve just started). It also allows us to work on new privacy related projects."
+  },
+  {
+    "id": "Bitcoin",
+    "defaultMessage": "Donate Bitcoin"
   }
 ]
