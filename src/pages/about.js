@@ -9,6 +9,7 @@ import { container } from "../styles/layout";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
+import Donations from "../components/Donations";
 
 const styles = theme => ({
   container: {
@@ -137,6 +138,7 @@ const About = ({ classes }) => {
         </Paper>
       </div>
       <Social />
+      <Donations />
       <Footer />
     </div>
   );

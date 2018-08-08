@@ -1,5 +1,5 @@
 export const container = {
-  maxWidth: "1000px",
+  maxWidth: "1100px",
   margin: "auto",
   paddingLeft: "30px",
   paddingRight: "30px"
