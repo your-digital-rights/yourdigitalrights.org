@@ -1,5 +1,4 @@
 import { FormattedMessage } from "react-intl";
-import Link from "next/link";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
@@ -27,11 +26,9 @@ const styles = theme => ({
 const NavItem = ({ href, text, classes }) => {
   return (
     <li className={classes.item}>
-      <Link href={href} prefetch>
-        <Typography component="a" href={href} className={classes.link}>
-          {text}
-        </Typography>
-      </Link>
+      <Typography component="a" href={href} className={classes.link}>
+        {text}
+      </Typography>
     </li>
   );
 };
@@ -54,9 +51,7 @@ const Nav = ({ classes }) => {
         />
         <NavItem
           href="/about"
-          text={
-            <FormattedMessage id="about" defaultMessage="About Us" />
-          }
+          text={<FormattedMessage id="about" defaultMessage="About Us" />}
           classes={classes}
         />
       </ul>
