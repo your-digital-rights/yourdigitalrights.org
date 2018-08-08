@@ -2,10 +2,8 @@ import { container } from "../../styles/layout";
 import { themeBg } from "../../styles/theme";
 
 export default theme => ({
-  hero: {
-    backgroundColor: theme.palette.primary.main,
-    borderTop: "5px black solid",
-    ...themeBg
+  donate: {
+    backgroundColor: "#f2f2f2",
   },
   heading: {
     maxWidth: "850px !important",
@@ -17,10 +15,20 @@ export default theme => ({
     ...container,
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
-      backgroundImage: "url('static/mascot.svg')",
+      backgroundImage: "url('static/QR.svg')",
       backgroundPosition: "right 130px top 120px",
       backgroundRepeat: "no-repeat"
     }
+  },
+  donateButton: {
+    marginTop: "-25px",
+    borderRadius:"24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: '10px 20px',
+    '&:hover': {
+      background: '#04487B'
+    },
   },
   intro: {
     marginBottom: "50px",
@@ -32,5 +40,12 @@ export default theme => ({
   },
   title: {
     marginBottom: 0
+  },
+  bitcoin: {
+    textAlign: 'center',
+    marginBottom: "30px",
+    [theme.breakpoints.up("sm")]: {
+      textAlign: 'left',
+    }
   }
 });

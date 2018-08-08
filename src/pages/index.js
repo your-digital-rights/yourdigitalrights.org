@@ -9,6 +9,7 @@ import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
+import Donations from "../components/Donations";
 
 class Index extends Component {
   state = {
@@ -44,6 +45,7 @@ class Index extends Component {
         <HowItWorks />
         <FAQ />
         <Social />
+        <Donations />
         <Footer />
       </div>
     );
