@@ -57,7 +57,10 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody3"
-              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data."
+              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. The service is {oss}."
+              values={{
+                oss: <a href="https://github.com/opt-out-eu/opt-out">Open Source</a>
+              }}              
             />
           </Typography>
           <br/>
