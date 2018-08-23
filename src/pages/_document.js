@@ -94,6 +94,13 @@ export default class IntlDocument extends Document {
                 "var _paq = _paq || [];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {var u='https://optout.innocraft.cloud/';_paq.push(['setTrackerUrl', u+'piwik.php']);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();"
             }}
           />
+          <script
+            data-cfasync="false" 
+            type="text/javascript" 
+            data-bablic="5b7e74c02615ef00013b76b9" 
+            data-bablic-m="[0,'en','en',1,['es'],0,0,0,0,0,0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]" 
+            src="//cdn2.bablic.com/js/bablic.3.9.js"
+          />
         </Head>
         <body>
           <style dangerouslySetInnerHTML={{ __html: "a { color: #005ea5;}" }} />
