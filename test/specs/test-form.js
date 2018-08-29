@@ -75,6 +75,11 @@ describe("When I visit the home page", () => {
           "Email body should contain expected content"
         );
       });
+
+      it("shows a thank you message", () => {
+        page.thanksMessage.isVisible.should.be.true;
+        console.log(page.thanksMessage.title);
+      });
     });
   });
 

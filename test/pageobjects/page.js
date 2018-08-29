@@ -28,6 +28,17 @@ class Page {
   get searchResults() {
     return $$(".search-result");
   }
+
+  get thanksMessage() {
+    let thanks = $('.thanks-message');
+
+    return {
+      isVisible: thanks.type !== 'NoSuchElement',
+      title: thanks.$('.thanks-message__title').getText(),
+      text: thanks.$('.thanks-message__text').getText(),
+      btn: thanks.$('.thanks-message__cta')
+    };
+  }
 }
 
 class Form {

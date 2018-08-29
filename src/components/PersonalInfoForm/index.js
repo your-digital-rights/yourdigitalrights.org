@@ -24,6 +24,7 @@ import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
+import ThanksMessage from "../ThanksMessage";
 
 class Form extends Component {
   state = {
@@ -31,7 +32,8 @@ class Form extends Component {
     email: "",
     address: "",
     companyName: "",
-    companyEmail: ""
+    companyEmail: "",
+    hasSubmit: false
   };
 
   handlers = {};
@@ -49,6 +51,11 @@ class Form extends Component {
   handleFormSubmit = e => {
     e.preventDefault();
     window.open(this.renderMailTo());
+
+    let state = Object.assign({}, this.state);
+    state.hasSubmit = true;
+    this.setState(state);
+
     if (this.state.companyEmail) {
       this.addNewCompany();
     }
@@ -102,7 +109,7 @@ class Form extends Component {
         values={{ companyName: selectedCompany.name }}
       />
     ) : (
-      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" 
+      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out"
       />
     );
 
@@ -111,6 +118,10 @@ class Form extends Component {
     ) : (
       <FormattedMessage id="IntroTextNotSelectedCompany" defaultMessage="To send an Erasure Request to an organisation not on our list you will need to provide the organisation name and a relevant email address. In order to comply with your request the organization will need to locate your data on their systems. To help them do so please enter your name and address. All the information you enter will be erased from our systems as soon as your session concludes." />
     );
+
+    if (this.state.hasSubmit) {
+      return (<ThanksMessage></ThanksMessage>);
+    }
 
     return (
       <Paper
