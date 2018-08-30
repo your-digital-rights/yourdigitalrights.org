@@ -1,3 +1,4 @@
+import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
@@ -5,7 +6,7 @@ import Button from "@material-ui/core/Button";
 
 const styles = theme => ({
   root: {
-    maxWidth: '1100px',
+    maxWidth: '780px',
     margin: "auto",
     paddingLeft: "30px",
     paddingRight: "30px"
@@ -38,9 +39,12 @@ const ThanksMessage = ({ classes }) => {
         elevation={10}
       >
       <Typography variant="display1" gutterBottom={true}>
-        Thanks
+        <FormattedMessage
+          id="ThanksTitle"
+          defaultMessage="Thank you"
+        />
       </Typography>
-      <Typography component="p" gutterBottom={true} className={classes.text}>Thanks</Typography>
+      <Typography component="p" gutterBottom={true} className={classes.text}></Typography>
       <Button variant="raised"
         color="primary"
         type="submit" className={classes.btn}>Yes</Button>
