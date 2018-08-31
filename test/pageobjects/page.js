@@ -30,13 +30,13 @@ class Page {
   }
 
   get thanksMessage() {
-    let thanks = $('.thanks-message');
+    let thanks = $('#ThanksMessage');
 
     return {
       isVisible: thanks.type !== 'NoSuchElement',
-      title: thanks.$('.thanks-message__title').getText(),
-      text: thanks.$('.thanks-message__text').getText(),
-      btn: thanks.$('.thanks-message__cta')
+      title: thanks.$('#ThanksMessageTitle').getText(),
+      text: thanks.$('#ThanksMessageText').getText(),
+      btn: thanks.$('[class*=ThanksMessage-btn')
     };
   }
 }

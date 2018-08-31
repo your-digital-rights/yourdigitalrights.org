@@ -120,7 +120,7 @@ class Form extends Component {
     );
 
     if (this.state.hasSubmit) {
-      return (<ThanksMessage></ThanksMessage>);
+      return (<ThanksMessage className="thanks-message"></ThanksMessage>);
     }
 
     return (

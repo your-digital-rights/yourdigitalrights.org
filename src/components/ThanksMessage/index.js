@@ -4,12 +4,17 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
+import {
+  ThanksTitleText,
+  ThanksCopyText
+} from './text';
+
 const styles = theme => ({
   root: {
     maxWidth: '780px',
     margin: "auto",
-    paddingLeft: "30px",
-    paddingRight: "30px"
+    marginTop: "30px",
+    padding: "30px"
   },
 
   title: {
@@ -37,17 +42,18 @@ const ThanksMessage = ({ classes }) => {
         component="div"
         className={classes.root}
         elevation={10}
+        id="ThanksMessage"
       >
-      <Typography variant="display1" gutterBottom={true}>
-        <FormattedMessage
-          id="ThanksTitle"
-          defaultMessage="Thank you"
-        />
+      <Typography variant="display1" gutterBottom={true} className={classes.title} id="ThanksMessageTitle">
+        {ThanksTitleText}
       </Typography>
-      <Typography component="p" gutterBottom={true} className={classes.text}></Typography>
+      <Typography component="p" gutterBottom={true} className={classes.text} id="ThanksMessageText">
+        {ThanksCopyText}
+      </Typography>
       <Button variant="raised"
         color="primary"
-        type="submit" className={classes.btn}>Yes</Button>
+        type="submit" className={classes.btn}
+        >Yes</Button>
     </Paper>
   );
 }
