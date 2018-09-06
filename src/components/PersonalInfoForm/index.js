@@ -53,11 +53,16 @@ class Form extends Component {
     window.open(this.renderMailTo());
 
     let state = Object.assign({}, this.state);
-    state.hasSubmit = true;
+
     this.setState(state);
 
     if (this.state.companyEmail) {
       this.addNewCompany();
+    } else {
+      state.hasSubmit = true;
+
+      let t = Piwik.getTracker();
+      t.trackEvent('Send Erasure request', 'complete', this.props.selectedCompany.name);
     }
   };
 
@@ -72,7 +77,6 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
-    console.log(selectedCompany, this.state);
     return mailtoLink({
       to,
       subject: erasureEmail.subject,
@@ -99,6 +103,12 @@ class Form extends Component {
     );
   }
 
+  hideThanks() {
+    let state = Object.assign({}, this.state);
+    state.hasSubmit = false;
+    this.setState(state);
+  }
+
   render() {
     const { classes, selectedCompany } = this.props;
 
@@ -120,7 +130,7 @@ class Form extends Component {
     );
 
     if (this.state.hasSubmit) {
-      return (<ThanksMessage className="thanks-message"></ThanksMessage>);
+      return (<ThanksMessage className="thanks-message" hideThanks={this.hideThanks.bind(this)}></ThanksMessage>);
     }
 
     return (

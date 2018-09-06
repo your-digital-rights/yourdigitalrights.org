@@ -44,7 +44,7 @@ class Index extends Component {
         )}
         <HowItWorks />
         <FAQ />
-        <Social />
+        <Social offset={true} />
         <Donations />
         <Footer />
       </div>

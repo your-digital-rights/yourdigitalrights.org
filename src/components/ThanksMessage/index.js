@@ -3,10 +3,19 @@ import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import Social from '../Social';
+
+import {
+  FacebookShareButton,
+  LinkedinShareButton,
+  TwitterShareButton,
+  EmailShareButton
+} from 'react-share';
 
 import {
   ThanksTitleText,
-  ThanksCopyText
+  ThanksCopyText,
+  FindCompanyText
 } from './text';
 
 const styles = theme => ({
@@ -14,15 +23,20 @@ const styles = theme => ({
     maxWidth: '780px',
     margin: "auto",
     marginTop: "30px",
-    padding: "30px"
+    textAlign: 'center'
+  },
+
+  content: {
+    padding: '60px 77px'
   },
 
   title: {
-
+    textAlign: 'left'
   },
 
   text: {
-    marginBottom: '30px'
+    marginBottom: '30px',
+    textAlign: 'left'
   },
 
   btn: {
@@ -33,10 +47,20 @@ const styles = theme => ({
     '&:hover': {
       background: '#04487B'
     },
+  },
+
+  startAgainBtn: {
+    borderRadius: '24px 24px 24px 24px'
   }
 });
 
-const ThanksMessage = ({ classes }) => {
+const ThanksMessage = (props) => {
+  let { classes } = props;
+
+  let hide = () => {
+    props.hideThanks();
+  };
+
   return (
     <Paper
         component="div"
@@ -44,16 +68,18 @@ const ThanksMessage = ({ classes }) => {
         elevation={10}
         id="ThanksMessage"
       >
-      <Typography variant="display1" gutterBottom={true} className={classes.title} id="ThanksMessageTitle">
-        {ThanksTitleText}
-      </Typography>
-      <Typography component="p" gutterBottom={true} className={classes.text} id="ThanksMessageText">
-        {ThanksCopyText}
-      </Typography>
-      <Button variant="raised"
-        color="primary"
-        type="submit" className={classes.btn}
-        >Yes</Button>
+      <div class={classes.content}>
+        <Typography variant="display1" gutterBottom={true} className={classes.title} id="ThanksMessageTitle">
+          {ThanksTitleText}
+        </Typography>
+        <Typography component="p" gutterBottom={true} className={classes.text} id="ThanksMessageText">
+          {ThanksCopyText}
+        </Typography>
+        <Button variant="raised" color="primary" type="submit" className={classes.startAgainBtn} id="ThanksMessageBtn" onClick={hide}>
+          {FindCompanyText}
+        </Button>
+      </div>
+      <Social />
     </Paper>
   );
 }

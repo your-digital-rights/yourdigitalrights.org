@@ -17,3 +17,10 @@ export const ThanksCopyText = (
     }}
      />
 );
+
+export const FindCompanyText = (
+  <FormattedMessage
+    id="findCompany"
+    defaultMessage="Find another company"
+     />
+);

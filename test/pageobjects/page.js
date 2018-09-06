@@ -33,12 +33,50 @@ class Page {
     let thanks = $('#ThanksMessage');
 
     return {
-      isVisible: thanks.type !== 'NoSuchElement',
-      title: thanks.$('#ThanksMessageTitle').getText(),
-      text: thanks.$('#ThanksMessageText').getText(),
-      btn: thanks.$('[class*=ThanksMessage-btn')
+      get isVisible () { return thanks.type !== 'NoSuchElement' },
+      get title() { return thanks.$('#ThanksMessageTitle').getText(); },
+      get text() { return thanks.$('#ThanksMessageText').getText(); },
+      get btn() {
+        let btn = thanks.$('button');
+
+        return {
+          isVisible: btn.type !== 'NoSuchElement',
+          click: btn.click
+        };
+      },
+      get socialShare() {
+        return new SocialShare('#ThanksMessage');
+      }
     };
   }
+}
+
+class SocialShare {
+  constructor(baseSelector) {
+    this.baseSelector = baseSelector;
+    this.element = browser.element(`${this.baseSelector} .social-share`);
+  }
+
+  get exists() {
+    return this.element.type !== 'NoSuchElement';
+  }
+
+  get linkedIn() {
+    return this.element.$('.SocialMediaShareButton--linkedin');
+  }
+
+  get twitter() {
+    return this.element.$('.SocialMediaShareButton--twitter');
+  }
+
+  get email() {
+    return this.element.$('.SocialMediaShareButton--email');
+  }
+
+  get facebook() {
+    return this.element.$('.SocialMediaShareButton--facebook');
+  }
+
 }
 
 class Form {
@@ -53,6 +91,10 @@ class Form {
 
   get isValid() {
     return !this.isInvalid;
+  }
+
+  get isVisible() {
+    return browser.isVisible(this.baseSelector);
   }
 
   selectElementByLabel(labelText) {
