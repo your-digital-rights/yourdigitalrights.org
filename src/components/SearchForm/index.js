@@ -21,6 +21,19 @@ class Form extends Component {
     companiesLoaded: false
   };
 
+  constructor(props) {
+    super(props);
+
+    this.searchRef = React.createRef();
+  }
+
+  focus() {
+    let state = Object.assign({}, this.state);
+    state.companyNameSearch = '';
+    this.setState(state);
+    this.searchRef.current.focus();
+  }
+
   async componentDidMount() {
     const companies = fetchSheetData();
     this.setState({ companies });
@@ -95,6 +108,7 @@ class Form extends Component {
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
+              inputRef={this.searchRef}
               autoFocus
             />
           </div>

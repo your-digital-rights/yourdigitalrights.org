@@ -31,16 +31,28 @@ class Index extends Component {
     }
   };
 
+  constructor(props) {
+    super(props);
+    this.searchForm = React.createRef();
+  }
+
+  focusSearch() {
+    let state = Object.assign({}, this.state);
+    state.selectedCompany = null;
+    this.setState(state);
+    this.searchForm.current.focus();
+  }
+
   render() {
     return (
       <div>
         <Hero>
-          <SearchForm onCompanySelected={this.onCompanySelected} />
+          <SearchForm onCompanySelected={this.onCompanySelected} innerRef={this.searchForm} />
         </Hero>
         <Nav />
         {(this.state.selectedCompany ||
           this.state.manualCompanyEntryEnabled) && (
-          <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
+          <PersonalInfoForm selectedCompany={this.state.selectedCompany} focusSearch={this.focusSearch.bind(this)} />
         )}
         <HowItWorks />
         <FAQ />

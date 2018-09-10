@@ -25,6 +25,10 @@ class Page {
     };
   }
 
+  get searchIsFocused() {
+    return browser.hasFocus('#companyNameSearch');
+  }
+
   get searchResults() {
     return $$(".search-result");
   }

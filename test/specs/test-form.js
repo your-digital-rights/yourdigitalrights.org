@@ -96,12 +96,14 @@ describe("When I visit the home page", () => {
           page.mailTo.should.contain('facebook.com');
         });
 
-        it("should hide thanks message after clicking 'Find another company'", () => {
+        it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
           page.thanksMessage.isVisible.should.be.true;
 
           page.thanksMessage.btn.click();
 
           page.thanksMessage.isVisible.should.be.false;
+          page.searchIsFocused.should.be.true;
+          page.personalInfoForm.isVisible.should.be.false;
         });
       });
     });

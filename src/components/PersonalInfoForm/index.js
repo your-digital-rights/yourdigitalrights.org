@@ -62,7 +62,7 @@ class Form extends Component {
       state.hasSubmit = true;
 
       let t = Piwik.getTracker();
-      t.trackEvent('Send Erasure request', 'complete', this.props.selectedCompany.name);
+      t.trackEvent('Send Erasure request', 'complete', this.props.selectedCompany.name );
     }
   };
 
@@ -103,12 +103,6 @@ class Form extends Component {
     );
   }
 
-  hideThanks() {
-    let state = Object.assign({}, this.state);
-    state.hasSubmit = false;
-    this.setState(state);
-  }
-
   render() {
     const { classes, selectedCompany } = this.props;
 
@@ -130,7 +124,7 @@ class Form extends Component {
     );
 
     if (this.state.hasSubmit) {
-      return (<ThanksMessage className="thanks-message" hideThanks={this.hideThanks.bind(this)}></ThanksMessage>);
+      return (<ThanksMessage className="thanks-message" hideThanks={this.props.focusSearch}></ThanksMessage>);
     }
 
     return (

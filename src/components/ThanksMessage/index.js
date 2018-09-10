@@ -23,7 +23,9 @@ const styles = theme => ({
     maxWidth: '780px',
     margin: "auto",
     marginTop: "30px",
-    textAlign: 'center'
+    marginBottom: '30px',
+    textAlign: 'center',
+    position: 'relative'
   },
 
   content: {
@@ -46,11 +48,17 @@ const styles = theme => ({
     padding: '10px 20px',
     '&:hover': {
       background: '#04487B'
-    },
+    }
   },
 
   startAgainBtn: {
-    borderRadius: '24px 24px 24px 24px'
+    borderRadius: '24px 24px 24px 24px',
+    position: 'absolute',
+    left: '50%',
+    bottom: 0,
+    transform: 'translate(-50%,50%)',
+    color: 'white',
+    fontWeight: 800
   }
 });
 
@@ -75,7 +83,7 @@ const ThanksMessage = (props) => {
         <Typography component="p" gutterBottom={true} className={classes.text} id="ThanksMessageText">
           {ThanksCopyText}
         </Typography>
-        <Button variant="raised" color="primary" type="submit" className={classes.startAgainBtn} id="ThanksMessageBtn" onClick={hide}>
+        <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="ThanksMessageBtn" onClick={hide}>
           {FindCompanyText}
         </Button>
       </div>
