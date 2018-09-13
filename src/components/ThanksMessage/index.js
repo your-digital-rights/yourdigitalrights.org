@@ -29,11 +29,12 @@ const styles = theme => ({
   },
 
   content: {
-    padding: '60px 77px'
+    padding: '60px 77px',
+    paddingBottom: '20px'
   },
 
   title: {
-    textAlign: 'left'
+    marginBottom: '20px'
   },
 
   text: {

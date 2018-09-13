@@ -1,4 +1,4 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, intlShape, injectIntl } from "react-intl";
 import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -14,7 +14,7 @@ const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
     // marginTop: -160,
-    padding: '30px',
+    padding: '50px',
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
@@ -47,27 +47,38 @@ const styles = theme => ({
 const GITHUB_URL = 'https://github.com/opt-out-eu/opt-out';
 
 const Social = (props) => {
-  let { classes } = props;
+  let { classes, intl } = props;
   let className;
 
   if (props.offset) {
     className = classes.offset;
   }
 
+
+  console.log(props);
+
+  const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
+  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out http://opt-out.eu to know more." });
+  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests" });
+  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu" });
+
   return <div className={classNames(classes.root, className, 'social-share')} style={props.style}>
-    <Typography variant="headline" gutterBottom={true} className={classes.shareHeading}>
+    <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
         id="socialShareHeading"
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-
-    <LinkedinShareButton url="https://opt-out.eu" beforeOnClick={() => console.log('linkedin')} className={classes.shareButton}><img src="static/share/linkedin.svg" /></LinkedinShareButton>
-    <TwitterShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/twitter.svg" /></TwitterShareButton>
-    <EmailShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/mail.svg" /></EmailShareButton>
-    <FacebookShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/facebook.svg" /></FacebookShareButton>
-    <a href={GITHUB_URL} onClick={(e) => { e.preventDefault(); window.open(GITHUB_URL)}}  class={classes.shareButton}><img src="static/share/github.svg" /></a>
+    {console.log(intl.formatMessage({id: 'messageId'}))}
+    <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/linkedin.svg" /></LinkedinShareButton>
+    <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/share/twitter.svg" /></TwitterShareButton>
+    <EmailShareButton url="https://opt-out.eu" subject={emailSubject} body={emailBody} className={classes.shareButton}><img src="static/share/mail.svg" /></EmailShareButton>
+    <FacebookShareButton url="https://opt-out.eu" quote={facebookQuote} className={classes.shareButton}><img src="static/share/facebook.svg" /></FacebookShareButton>
   </div>;
 };
 
-export default withStyles(styles)(Social);
+Social.propTypes = {
+  intl: intlShape.isRequired
+};
+
+export default withStyles(styles)(injectIntl(Social));

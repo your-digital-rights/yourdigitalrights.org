@@ -13,7 +13,7 @@ import getPageContext from "../getPageContext";
 const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
 const OgDescription =
-  "Own your data. Get any organisation to erase your personal data, hassle free";
+  "Opt-out - Own your data. Get any organisation to erase your personal data, hassle free";
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {

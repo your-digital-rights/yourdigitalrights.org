@@ -2,5 +2,21 @@
   {
     "id": "socialShareHeading",
     "defaultMessage": "If you find this service useful, please spread the word"
+  },
+  {
+    "id": "socialEmailSubject",
+    "defaultMessage": "Opt-out - automated GDPR requests"
+  },
+  {
+    "id": "socialEmailBody",
+    "defaultMessage": "Hey there,\\n Did you know that you can get any organisation to erase your personal data for free?\\n Check out http://opt-out.eu to know more."
+  },
+  {
+    "id": "socialTwitterTitle",
+    "defaultMessage": "Get any organisation to erase your personal data - automated GDPR requests"
+  },
+  {
+    "id": "socialFacebookQuote",
+    "defaultMessage": "Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu"
   }
 ]
