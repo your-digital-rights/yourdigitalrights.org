@@ -12,7 +12,8 @@ import getPageContext from "../getPageContext";
 // TODO: Make these string translatable
 const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
-const OgDescription =
+/* global: window */
+  const OgDescription =
   "Opt-out - Own your data. Get any organisation to erase your personal data, hassle free";
 
 export default class IntlDocument extends Document {
@@ -68,7 +69,7 @@ export default class IntlDocument extends Document {
           <meta property="og:description" content={OgDescription} />
           <meta
             property="og:image"
-            content="https://opt-out.eu/static/img-howto.svg"
+            content="https://opt-out.eu/static/opt-out-share.jpg"
           />
           <meta
             name="viewport"

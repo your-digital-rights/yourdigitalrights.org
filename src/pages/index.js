@@ -40,6 +40,7 @@ class Index extends Component {
     let state = Object.assign({}, this.state);
     state.selectedCompany = null;
     this.setState(state);
+    window.location.hash = 'hero';
     this.searchForm.current.focus();
   }
 
