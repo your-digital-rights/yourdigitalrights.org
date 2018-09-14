@@ -2,11 +2,11 @@ import { FormattedMessage, intlShape, injectIntl } from "react-intl";
 import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
   LinkedinShareButton,
-  TwitterShareButton,
-  EmailShareButton
+  TwitterShareButton
 } from 'react-share';
 import classNames from 'classnames';
 
@@ -59,6 +59,12 @@ const Social = (props) => {
   const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out http://opt-out.eu to know more." });
   const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests" });
   const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu" });
+  const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
+
+  const handleEmailClick = (e) => {
+    e.preventDefault();
+    window.open(emailLink);
+  };
 
   return <div className={classNames(classes.root, className, 'social-share')} style={props.style}>
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
@@ -69,7 +75,7 @@ const Social = (props) => {
     </Typography>
     <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/linkedin.svg" /></LinkedinShareButton>
     <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/share/twitter.svg" /></TwitterShareButton>
-    <EmailShareButton url="https://opt-out.eu" subject={emailSubject} body={emailBody} className={classes.shareButton}><img src="static/share/mail.svg" /></EmailShareButton>
+    <a href={emailLink} onClick={handleEmailClick} className={classes.shareButton}><img src="static/share/mail.svg" /></a>
     <FacebookShareButton url="https://opt-out.eu" quote={facebookQuote} className={classes.shareButton}><img src="static/share/facebook.svg" /></FacebookShareButton>
   </div>;
 };
