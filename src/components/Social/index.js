@@ -55,8 +55,6 @@ const Social = (props) => {
   }
 
 
-  console.log(props);
-
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
   const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out http://opt-out.eu to know more." });
   const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests" });
@@ -69,7 +67,6 @@ const Social = (props) => {
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    {console.log(intl.formatMessage({id: 'messageId'}))}
     <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/linkedin.svg" /></LinkedinShareButton>
     <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/share/twitter.svg" /></TwitterShareButton>
     <EmailShareButton url="https://opt-out.eu" subject={emailSubject} body={emailBody} className={classes.shareButton}><img src="static/share/mail.svg" /></EmailShareButton>
