@@ -34,6 +34,15 @@ class Index extends Component {
   constructor(props) {
     super(props);
     this.searchForm = React.createRef();
+
+    if (typeof window !== 'undefined' && window.location.hash !== '') {
+      let hash = window.location.hash;
+
+      setTimeout(() => {
+        window.location.hash = '';
+        window.location.hash = hash;
+      }, 500);
+    }
   }
 
   focusSearch() {
