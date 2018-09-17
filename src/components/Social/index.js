@@ -73,10 +73,10 @@ const Social = (props) => {
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/share/linkedin.svg" /></LinkedinShareButton>
-    <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/share/twitter.svg" /></TwitterShareButton>
-    <a href={emailLink} onClick={handleEmailClick} className={classes.shareButton}><img src="static/share/mail.svg" /></a>
-    <FacebookShareButton url="https://opt-out.eu" quote={facebookQuote} className={classes.shareButton}><img src="static/share/facebook.svg" /></FacebookShareButton>
+    <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <a href={emailLink} onClick={handleEmailClick} className={classes.shareButton}><img src="static/sh/mail.svg" /></a>
+    <FacebookShareButton url="https://opt-out.eu" quote={facebookQuote} className={classes.shareButton}><img src="static/sh/fb.svg" /></FacebookShareButton>
   </div>;
 };
 
