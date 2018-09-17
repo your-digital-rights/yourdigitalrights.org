@@ -53,6 +53,17 @@ class Page {
       }
     };
   }
+
+  get socialShare() {
+    let socialShare = $('#faq + .social-share');
+
+    return {
+      linkedIn: socialShare.$('.SocialMediaShareButton--linkedin'),
+      twitter: socialShare.$('.SocialMediaShareButton--twitter'),
+      facebook: socialShare.$('.SocialMediaShareButton--facebook'),
+      email: socialShare.$('a')
+    };
+  }
 }
 
 class SocialShare {
