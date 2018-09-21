@@ -55,7 +55,7 @@ class Page {
   }
 
   get socialShare() {
-    let socialShare = $('#faq + .social-share');
+    let socialShare = $('#faq + .ss');
 
     return {
       linkedIn: socialShare.$('.SocialMediaShareButton--linkedin'),

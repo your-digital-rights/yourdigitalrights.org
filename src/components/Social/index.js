@@ -34,7 +34,7 @@ const styles = theme => ({
     flex: "1 0 100%"
   },
 
-  shareButton: {
+  btn: {
     padding: '0 20px',
     marginBottom: '20px',
 
@@ -66,15 +66,19 @@ const Social = (props) => {
     window.open(emailLink);
   };
 
-  return <div className={classNames(classes.root, className, 'social-share')} style={props.style}>
+  const shareButtonProps = {
+    class: 'ss-btn'
+  };
+
+  return <div className={classNames(classes.root, className, 'ss')} style={props.style}>
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
         id="socialShareHeading"
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <LinkedinShareButton url="https://opt-out.eu" className={classes.shareButton}><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} url="https://opt-out.eu" className={classes.shareButton}><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton additionalProps={shareButtonProps} url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className={classes.shareButton}><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className={classes.shareButton}><img src="static/sh/mail.svg" /></a>
     <FacebookShareButton url="https://opt-out.eu" quote={facebookQuote} className={classes.shareButton}><img src="static/sh/fb.svg" /></FacebookShareButton>
   </div>;
