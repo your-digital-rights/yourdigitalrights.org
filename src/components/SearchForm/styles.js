@@ -2,7 +2,7 @@ import { visuallyHidden } from "../../styles/layout";
 
 export default theme => ({
   searchInputWrapper: {
-    padding: "6px 16px"
+    padding: "6px 16px",
   },
   label: visuallyHidden,
   form: {

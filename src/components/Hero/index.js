@@ -8,7 +8,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
-    <div className={classes.hero}>
+    <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <div className={classes.heading}>
           <h1 className={classes.title}>

@@ -18,7 +18,7 @@ const styles = theme => ({
       marginTop: 32,
     [theme.breakpoints.up("md")]: {
       marginTop: 60
-    }
+    },
   },
   inner: {
     padding: 30
@@ -140,7 +140,8 @@ const About = ({ classes }) => {
           </Typography>
         </Paper>
       </div>
-      <Social />
+      <div class={classes.share}>
+      </div>
       <Donations />
       <Footer />
     </div>

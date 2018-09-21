@@ -24,6 +24,7 @@ import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
+import ThanksMessage from "../ThanksMessage";
 
 class Form extends Component {
   state = {
@@ -31,7 +32,8 @@ class Form extends Component {
     email: "",
     address: "",
     companyName: "",
-    companyEmail: ""
+    companyEmail: "",
+    hasSubmit: false
   };
 
   handlers = {};
@@ -49,8 +51,18 @@ class Form extends Component {
   handleFormSubmit = e => {
     e.preventDefault();
     window.open(this.renderMailTo());
+
+    let state = Object.assign({}, this.state);
+
+    this.setState(state);
+
     if (this.state.companyEmail) {
       this.addNewCompany();
+    } else {
+      state.hasSubmit = true;
+
+      let t = Piwik.getTracker();
+      t.trackEvent('Send Erasure request', 'complete', this.props.selectedCompany.name );
     }
   };
 
@@ -65,7 +77,6 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
-    console.log(selectedCompany, this.state);
     return mailtoLink({
       to,
       subject: erasureEmail.subject,
@@ -102,7 +113,7 @@ class Form extends Component {
         values={{ companyName: selectedCompany.name }}
       />
     ) : (
-      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" 
+      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out"
       />
     );
 
@@ -111,6 +122,10 @@ class Form extends Component {
     ) : (
       <FormattedMessage id="IntroTextNotSelectedCompany" defaultMessage="To send an Erasure Request to an organisation not on our list you will need to provide the organisation name and a relevant email address. In order to comply with your request the organization will need to locate your data on their systems. To help them do so please enter your name and address. All the information you enter will be erased from our systems as soon as your session concludes." />
     );
+
+    if (this.state.hasSubmit) {
+      return (<ThanksMessage className="thanks-message" hideThanks={this.props.focusSearch}></ThanksMessage>);
+    }
 
     return (
       <Paper

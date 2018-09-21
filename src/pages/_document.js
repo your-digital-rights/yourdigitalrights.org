@@ -12,8 +12,9 @@ import getPageContext from "../getPageContext";
 // TODO: Make these string translatable
 const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
-const OgDescription =
-  "Own your data. Get any organisation to erase your personal data, hassle free";
+/* global: window */
+  const OgDescription =
+  "Opt-out - Own your data. Get any organisation to erase your personal data, hassle free";
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -68,7 +69,7 @@ export default class IntlDocument extends Document {
           <meta property="og:description" content={OgDescription} />
           <meta
             property="og:image"
-            content="https://opt-out.eu/static/img-howto.svg"
+            content="https://opt-out.eu/static/opt-out-share.jpg"
           />
           <meta
             name="viewport"
@@ -87,6 +88,8 @@ export default class IntlDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <link rel="stylesheet" href="/static/mobile.css" />
+          <link rel="stylesheet" media="only screen and (min-width: 600px)" href="/static/desktop.css" />
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
