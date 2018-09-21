@@ -88,7 +88,8 @@ export default class IntlDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
-          <link rel="stylesheet" media="only screen and (max-width: 400px)" href="/static/mobile.css" />
+          <link rel="stylesheet" href="/static/mobile.css" />
+          <link rel="stylesheet" media="only screen and (min-width: 600px)" href="/static/desktop.css" />
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{

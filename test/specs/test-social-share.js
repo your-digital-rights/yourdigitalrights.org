@@ -17,12 +17,6 @@ describe("When I view social sharing", () => {
     });
   });
 
-  beforeEach(() => {
-    page.searchForm.fillIn("Search for an organisation", "Slack");
-    browser.waitForExist("div=Slack", 3000);
-    $("div=Slack").click();
-  });
-
   it("should show facebook, twitter, email and linkedin share links", () => {
     page.socialShare.linkedIn.click();
     page.mailTo.should.be.equal('https://linkedin.com/shareArticle?url=https%3A%2F%2Fopt-out.eu');

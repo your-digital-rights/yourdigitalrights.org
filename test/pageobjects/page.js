@@ -55,21 +55,14 @@ class Page {
   }
 
   get socialShare() {
-    let socialShare = $('#faq + .ss');
-
-    return {
-      linkedIn: socialShare.$('.SocialMediaShareButton--linkedin'),
-      twitter: socialShare.$('.SocialMediaShareButton--twitter'),
-      facebook: socialShare.$('.SocialMediaShareButton--facebook'),
-      email: socialShare.$('a')
-    };
+    return new SocialShare('#faq +');
   }
 }
 
 class SocialShare {
   constructor(baseSelector) {
     this.baseSelector = baseSelector;
-    this.element = browser.element(`${this.baseSelector} .social-share`);
+    this.element = browser.element(`${this.baseSelector} .ss`);
   }
 
   get exists() {
@@ -77,19 +70,19 @@ class SocialShare {
   }
 
   get linkedIn() {
-    return this.element.$('.SocialMediaShareButton--linkedin');
+    return this.element.$('.ss-btn:nth-of-type(1)');
   }
 
   get twitter() {
-    return this.element.$('.SocialMediaShareButton--twitter');
+    return this.element.$('.ss-btn:nth-of-type(2)');
   }
 
   get email() {
-    return this.element.$('.SocialMediaShareButton--email');
+    return this.element.$('a.ss-btn');
   }
 
   get facebook() {
-    return this.element.$('.SocialMediaShareButton--facebook');
+    return this.element.$('.ss-btn:nth-of-type(3)');
   }
 
 }
