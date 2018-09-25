@@ -14,7 +14,7 @@ const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
 /* global: window */
   const OgDescription =
-  "Opt-out - Own your data. Get any organisation to erase your personal data, hassle free";
+  "Own your data. Get any organisation to erase your personal data, hassle free";
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -68,9 +68,21 @@ export default class IntlDocument extends Document {
           <meta name="description" content={Description} />
           <meta property="og:description" content={OgDescription} />
           <meta
+            property="og:title"
+            content="Opt-out"
+          />
+          <meta
             property="og:image"
             content="https://opt-out.eu/static/opt-out-share.jpg"
           />
+          <meta
+            property="og:image:width"
+            content="1200"
+          />
+          <meta
+            property="og:image:height"
+            content="680"
+          />                    
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
