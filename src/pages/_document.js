@@ -13,8 +13,9 @@ import getPageContext from "../getPageContext";
 const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
 /* global: window */
-  const OgDescription =
+const OgDescription =
   "Own your data. Get any organisation to erase your personal data, hassle free";
+const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -64,12 +65,12 @@ export default class IntlDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Opt-out</title>
+          <title>{Title}</title>
           <meta name="description" content={Description} />
           <meta property="og:description" content={OgDescription} />
           <meta
             property="og:title"
-            content="Opt-out"
+            content={Title}
           />
           <meta
             property="og:image"
@@ -82,7 +83,27 @@ export default class IntlDocument extends Document {
           <meta
             property="og:image:height"
             content="680"
-          />                    
+          />
+          <meta 
+            name="twitter:card" 
+            content="summary_large_image"
+          />
+          <meta 
+            name="twitter:site" 
+            content="@OptoutEU"
+          />
+          <meta 
+            name="twitter:title" 
+            content={Title}
+          />
+          <meta 
+            name="twitter:description" 
+            content={OgDescription}
+          />
+          <meta 
+            name="twitter:image" 
+            content="https://opt-out.eu/static/opt-out-share.jpg"
+          />
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
