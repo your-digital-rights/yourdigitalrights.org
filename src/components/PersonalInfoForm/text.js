@@ -26,7 +26,7 @@ export const CompanyEmailHelperText = (
 );
 
 export const NameLabelText = (
-  <FormattedMessage id="nameLabel" defaultMessage="Your name" />
+  <FormattedMessage id="nameLabel" defaultMessage="Your full name" />
 );
 
 export const NameHelperText = (
@@ -36,14 +36,14 @@ export const NameHelperText = (
   />
 );
 
-export const AddressLabelText = (
-  <FormattedMessage id="homeAddressLabel" defaultMessage="Your home address" />
+export const IdentifyingInfoLabelText = (
+  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information" />
 );
 
-export const AddressHelperText = (
+export const IdentifyingInfoHelperText = (
   <FormattedMessage
-    id="addressHelper"
-    defaultMessage="Your home address will be used to validate that you are a located in the European Union."
+    id="IdentifyingInfoHelper"
+    defaultMessage="You can provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number."
   />
 );
 

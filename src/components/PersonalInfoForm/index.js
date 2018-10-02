@@ -1,6 +1,6 @@
 import {
-  AddressHelperText,
-  AddressLabelText,
+  IdentifyingInfoHelperText,
+  IdentifyingInfoLabelText,
   CompanyEmailHelperText,
   CompanyEmailLabelText,
   CompanyNameHelperText,
@@ -30,7 +30,7 @@ class Form extends Component {
   state = {
     name: "",
     email: "",
-    address: "",
+    identifyingInfo: "",
     companyName: "",
     companyEmail: "",
     hasSubmit: false
@@ -176,15 +176,14 @@ class Form extends Component {
           helperText={NameHelperText}
         />
         <TextField
-          id="address"
-          label={AddressLabelText}
-          value={this.state.address}
-          onChange={this.handleInput("address")}
+          id="identifyingInfo"
+          label={IdentifyingInfoLabelText}
+          value={this.state.identifyingInfo}
+          onChange={this.handleInput("identifyingInfo")}
           margin="normal"
-          required
           multiline
           rows={4}
-          helperText={AddressHelperText}
+          helperText={IdentifyingInfoHelperText}
         />
         {this.props.selectedCompany && (
           <input
