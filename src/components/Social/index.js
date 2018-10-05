@@ -56,7 +56,7 @@ const Social = (props) => {
 
   if (props.offset) {
     className = classes.offset;
-  }
+  } 
 
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
