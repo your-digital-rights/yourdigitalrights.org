@@ -13,8 +13,9 @@ import getPageContext from "../getPageContext";
 const Description =
   "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
 /* global: window */
-  const OgDescription =
-  "Opt-out - Own your data. Get any organisation to erase your personal data, hassle free";
+const OgDescription =
+  "Own your data. Get any organisation to erase your personal data, hassle free";
+const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -64,11 +65,43 @@ export default class IntlDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Opt-out</title>
+          <title>{Title}</title>
           <meta name="description" content={Description} />
           <meta property="og:description" content={OgDescription} />
           <meta
+            property="og:title"
+            content={Title}
+          />
+          <meta
             property="og:image"
+            content="https://opt-out.eu/static/opt-out-share.jpg"
+          />
+          <meta
+            property="og:image:width"
+            content="1200"
+          />
+          <meta
+            property="og:image:height"
+            content="680"
+          />
+          <meta 
+            name="twitter:card" 
+            content="summary_large_image"
+          />
+          <meta 
+            name="twitter:site" 
+            content="@OptoutEU"
+          />
+          <meta 
+            name="twitter:title" 
+            content={Title}
+          />
+          <meta 
+            name="twitter:description" 
+            content={OgDescription}
+          />
+          <meta 
+            name="twitter:image" 
             content="https://opt-out.eu/static/opt-out-share.jpg"
           />
           <meta
@@ -101,7 +134,7 @@ export default class IntlDocument extends Document {
             data-cfasync="false" 
             type="text/javascript" 
             data-bablic="5b7e74c02615ef00013b76b9" 
-            data-bablic-m="[0,'en','en',1,['es'],0,0,0,0,0,0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]" 
+            data-bablic-m="[0,'en','en',1,['es'],4,0,0,0,{'es':'es.opt-out.eu'},0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]" 
             src="//cdn2.bablic.com/js/bablic.3.9.js"
           />
         </Head>
