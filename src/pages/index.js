@@ -10,6 +10,7 @@ import Social from "../components/Social";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 import Donations from "../components/Donations";
+import tracking from '../utils/tracking';
 
 class Index extends Component {
   state = {
@@ -23,6 +24,7 @@ class Index extends Component {
         selectedCompany,
         manualCompanyEntryEnabled: false
       });
+      tracking.trackSelectedCompany(selectedCompany.name);
     } else {
       this.setState({
         selectedCompany: null,

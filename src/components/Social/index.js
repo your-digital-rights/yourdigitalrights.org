@@ -9,6 +9,7 @@ import {
   TwitterShareButton
 } from 'react-share';
 import classNames from 'classnames';
+import tracking from '../../utils/tracking';
 
 const styles = theme => ({
   root: {
@@ -56,8 +57,7 @@ const Social = (props) => {
 
   if (props.offset) {
     className = classes.offset;
-  } 
-
+  }
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
   const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out http://opt-out.eu to know more." });
@@ -74,6 +74,10 @@ const Social = (props) => {
     class: 'ss-btn'
   };
 
+  const trackShare = (network) => {
+    tracking.trackSocialShare(network);
+  };
+
   return <div className={classNames(classes.root, className, 'ss')} style={props.style}>
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
@@ -81,9 +85,9 @@ const Social = (props) => {
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <FacebookShareButton additionalProps={shareButtonProps} url="https://opt-out.eu" className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-    <LinkedinShareButton additionalProps={shareButtonProps} url="https://opt-out.eu" className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <FacebookShareButton additionalProps={shareButtonProps} onShareWindowClose={trackShare.bind(null, 'facebook')} url="https://opt-out.eu" className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} onShareWindowClose={trackShare.bind(null, 'linkedin')} url="https://opt-out.eu" className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} onShareWindowClose={trackShare.bind(null, 'twitter')} url="https://opt-out.eu" title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn'><img src="static/sh/mail.svg" /></a>
   </div>;
 };

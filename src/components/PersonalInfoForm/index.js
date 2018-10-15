@@ -25,6 +25,7 @@ import mailtoLink from "mailto-link";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import ThanksMessage from "../ThanksMessage";
+import tracking from '../../utils/tracking';
 
 class Form extends Component {
   state = {
@@ -61,8 +62,7 @@ class Form extends Component {
     } else {
       state.hasSubmit = true;
 
-      let t = Piwik.getTracker();
-      t.trackEvent('Send Erasure request', 'complete', this.props.selectedCompany.name );
+      tracking.trackRequestComplete(this.props.selectedCompany.name);
     }
   };
 
