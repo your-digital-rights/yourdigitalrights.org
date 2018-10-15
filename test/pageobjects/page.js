@@ -70,11 +70,11 @@ class SocialShare {
   }
 
   get linkedIn() {
-    return this.element.$('.ss-btn:nth-of-type(1)');
+    return this.element.$('.ss-btn:nth-of-type(2)');
   }
 
   get twitter() {
-    return this.element.$('.ss-btn:nth-of-type(2)');
+    return this.element.$('.ss-btn:nth-of-type(3)');
   }
 
   get email() {
@@ -82,7 +82,7 @@ class SocialShare {
   }
 
   get facebook() {
-    return this.element.$('.ss-btn:nth-of-type(3)');
+    return this.element.$('.ss-btn:nth-of-type(1)');
   }
 
 }

@@ -33,14 +33,14 @@ describe("When I visit the home page", () => {
     });
 
     it("focuses the name field", () => {
-      page.personalInfoForm.selectElementByLabel("Your name").hasFocus().should
+      page.personalInfoForm.selectElementByLabel("Your full name").hasFocus().should
         .be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your name", "");
-        page.personalInfoForm.fillIn("Your home address", "");
+        page.personalInfoForm.fillIn("Your full name", "");
+        page.personalInfoForm.fillIn("Additional identifying information", "");
         page.personalInfoForm.submit();
       });
 
@@ -53,8 +53,8 @@ describe("When I visit the home page", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn("Additional identifying information", "10 Downing Street");
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
@@ -121,8 +121,8 @@ describe("When I visit the home page", () => {
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
-        page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn("Additional identifying information", "10 Downing Street");
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
