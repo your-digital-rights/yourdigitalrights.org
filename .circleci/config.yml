@@ -12,7 +12,7 @@ jobs:
     steps:
       - checkout
 
-      -run:
+      - run:
         name: Install Chrome
         command: |
           sudo apt install -y libappindicator3-1
