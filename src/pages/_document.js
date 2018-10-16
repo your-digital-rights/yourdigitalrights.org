@@ -84,24 +84,24 @@ export default class IntlDocument extends Document {
             property="og:image:height"
             content="680"
           />
-          <meta 
-            name="twitter:card" 
+          <meta
+            name="twitter:card"
             content="summary_large_image"
           />
-          <meta 
-            name="twitter:site" 
+          <meta
+            name="twitter:site"
             content="@OptoutEU"
           />
-          <meta 
-            name="twitter:title" 
+          <meta
+            name="twitter:title"
             content={Title}
           />
-          <meta 
-            name="twitter:description" 
+          <meta
+            name="twitter:description"
             content={OgDescription}
           />
-          <meta 
-            name="twitter:image" 
+          <meta
+            name="twitter:image"
             content="https://opt-out.eu/static/opt-out-share.jpg"
           />
           <meta
@@ -132,18 +132,18 @@ export default class IntlDocument extends Document {
           />
           <noscript>
             <p>
-              <img 
-                src='https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1' 
-                style={{border: 0}} 
-                alt='' 
+              <img
+                src='https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1'
+                style={{border: 0}}
+                alt=''
               />
             </p>
           </noscript>
           <script
-            data-cfasync="false" 
-            type="text/javascript" 
-            data-bablic="5b7e74c02615ef00013b76b9" 
-            data-bablic-m="[0,'en','en',1,['es'],4,0,0,0,{'es':'es.opt-out.eu'},0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]" 
+            data-cfasync="false"
+            type="text/javascript"
+            data-bablic="5b7e74c02615ef00013b76b9"
+            data-bablic-m="[0,'en','en',1,['es'],4,0,0,0,{'es':'es.opt-out.eu'},0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]"
             src="//cdn2.bablic.com/js/bablic.3.9.js"
           />
         </Head>

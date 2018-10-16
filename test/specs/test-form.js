@@ -22,6 +22,10 @@ describe("When I visit the home page", () => {
       window.open = function(url) {
         document.body.setAttribute("data-open-url", url);
       };
+
+      if (!(window._paq instanceof Array)) {
+        window._paq = [];
+      }
     });
   });
 
@@ -35,6 +39,9 @@ describe("When I visit the home page", () => {
     it("focuses the name field", () => {
       page.personalInfoForm.selectElementByLabel("Your full name").hasFocus().should
         .be.true;
+
+      page.hasTracked('trackSiteSearch', 'Slack').should.be.true;
+      page.hasTracked('trackEvent', 'selectedCompany', 'Slack').should.be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
@@ -75,6 +82,9 @@ describe("When I visit the home page", () => {
           /I am writing to request that you erase all my personal information/,
           "Email body should contain expected content"
         );
+
+
+        page.hasTracked('trackEvent', 'Send Erasure request', 'complete', 'Slack').should.be.true;
       });
 
       describe('thank you message', () => {
@@ -88,12 +98,15 @@ describe("When I visit the home page", () => {
 
           page.thanksMessage.socialShare.linkedIn.click();
           page.mailTo.should.contain('linkedin.com');
+          page.hasTracked('trackEvent', 'Social share', 'linkedin').should.be.true;
 
           page.thanksMessage.socialShare.twitter.click();
           page.mailTo.should.contain('twitter.com');
+          page.hasTracked('trackEvent', 'Social share', 'twitter').should.be.true;
 
           page.thanksMessage.socialShare.facebook.click();
           page.mailTo.should.contain('facebook.com');
+          page.hasTracked('trackEvent', 'Social share', 'facebook').should.be.true;
         });
 
         it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
