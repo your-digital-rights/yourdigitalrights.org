@@ -13,6 +13,8 @@ import Paper from "@material-ui/core/Paper";
 import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
+import tracker from '../../utils/tracking';
+import debounce from '../../utils/debounce';
 
 class Form extends Component {
   state = {
@@ -25,6 +27,9 @@ class Form extends Component {
     super(props);
 
     this.searchRef = React.createRef();
+    this.debounceSearch = debounce((search) => {
+      tracker.trackSearch(search);
+    }, 100);
   }
 
   focus() {
@@ -61,6 +66,8 @@ class Form extends Component {
     } else {
       searchResults = [];
     }
+
+    this.debounceSearch(search);
 
     this.setState({
       searchResults
