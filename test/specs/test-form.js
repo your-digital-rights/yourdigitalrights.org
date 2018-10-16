@@ -1,4 +1,5 @@
 import Page from "../pageobjects/page";
+import { TIMEOUT } from "dns";
 
 browser.addCommand("isInvalid", function() {
   return false;
@@ -21,6 +22,10 @@ describe("When I visit the home page", () => {
       window.open = function(url) {
         document.body.setAttribute("data-open-url", url);
       };
+
+      if (!(window._paq instanceof Array)) {
+        window._paq = [];
+      }
     });
   });
 
@@ -36,14 +41,17 @@ describe("When I visit the home page", () => {
     });
 
     it("focuses the name field", () => {
-      page.personalInfoForm.selectElementByLabel("Your name").hasFocus().should
+      page.personalInfoForm.selectElementByLabel("Your full name").hasFocus().should
         .be.true;
+
+      page.hasTracked('trackSiteSearch', 'Slack').should.be.true;
+      page.hasTracked('trackEvent', 'selectedCompany', 'Slack').should.be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your name", "");
-        page.personalInfoForm.fillIn("Your home address", "");
+        page.personalInfoForm.fillIn("Your full name", "");
+        page.personalInfoForm.fillIn("Additional identifying information", "");
         page.personalInfoForm.submit();
       });
 
@@ -56,8 +64,8 @@ describe("When I visit the home page", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn("Additional identifying information", "10 Downing Street");
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
@@ -78,6 +86,42 @@ describe("When I visit the home page", () => {
           /I am writing to request that you erase all my personal information/,
           "Email body should contain expected content"
         );
+
+
+        page.hasTracked('trackEvent', 'Send Erasure request', 'complete', 'Slack').should.be.true;
+      });
+
+      describe('thank you message', () => {
+        it("shows a thank you message", () => {
+          page.thanksMessage.isVisible.should.be.true;
+          expect(page.thanksMessage.title).to.equal('Thank you');
+          expect(page.thanksMessage.text).to.equal('An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request');
+          page.thanksMessage.btn.isVisible.should.be.true;
+
+          page.thanksMessage.socialShare.exists.should.be.true;
+
+          page.thanksMessage.socialShare.linkedIn.click();
+          page.mailTo.should.contain('linkedin.com');
+          page.hasTracked('trackEvent', 'Social share', 'linkedin').should.be.true;
+
+          page.thanksMessage.socialShare.twitter.click();
+          page.mailTo.should.contain('twitter.com');
+          page.hasTracked('trackEvent', 'Social share', 'twitter').should.be.true;
+
+          page.thanksMessage.socialShare.facebook.click();
+          page.mailTo.should.contain('facebook.com');
+          page.hasTracked('trackEvent', 'Social share', 'facebook').should.be.true;
+        });
+
+        it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
+          page.thanksMessage.isVisible.should.be.true;
+
+          page.thanksMessage.btn.click();
+
+          page.thanksMessage.isVisible.should.be.false;
+          page.searchIsFocused.should.be.true;
+          page.personalInfoForm.isVisible.should.be.false;
+        });
       });
     });
   });
@@ -94,8 +138,8 @@ describe("When I visit the home page", () => {
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
-        page.personalInfoForm.fillIn("Your name", "Rob");
-        page.personalInfoForm.fillIn("Your home address", "10 Downing Street");
+        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn("Additional identifying information", "10 Downing Street");
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });

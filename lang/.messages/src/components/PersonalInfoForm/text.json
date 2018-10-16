@@ -17,19 +17,19 @@
   },
   {
     "id": "nameLabel",
-    "defaultMessage": "Your name"
+    "defaultMessage": "Your full name"
   },
   {
     "id": "nameHelper",
     "defaultMessage": "This will be used by the organisation to identify you in their systems."
   },
   {
-    "id": "homeAddressLabel",
-    "defaultMessage": "Your home address"
+    "id": "identifyingInfoLabel",
+    "defaultMessage": "Additional identifying information"
   },
   {
-    "id": "addressHelper",
-    "defaultMessage": "Your home address will be used to validate that you are a located in the European Union."
+    "id": "IdentifyingInfoHelper",
+    "defaultMessage": "You can provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number."
   },
   {
     "id": "sendButton",

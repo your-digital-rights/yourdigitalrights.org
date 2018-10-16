@@ -1,12 +1,12 @@
 import {
-  AddressHelperText,
-  AddressLabelText,
   CompanyEmailHelperText,
   CompanyEmailLabelText,
   CompanyNameHelperText,
   CompanyNameLabelText,
   EmailHelperText,
   EmailLabelText,
+  IdentifyingInfoHelperText,
+  IdentifyingInfoLabelText,
   NameHelperText,
   NameLabelText,
   SubmitButtonText
@@ -18,20 +18,23 @@ import { FormattedMessage } from "react-intl";
 import { Fragment } from "react";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
+import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
 import erasureEmail from "../../email-templates/erasure";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
+import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 
 class Form extends Component {
   state = {
     name: "",
     email: "",
-    address: "",
+    identifyingInfo: "",
     companyName: "",
-    companyEmail: ""
+    companyEmail: "",
+    hasSubmit: false
   };
 
   handlers = {};
@@ -49,8 +52,17 @@ class Form extends Component {
   handleFormSubmit = e => {
     e.preventDefault();
     window.open(this.renderMailTo());
+
+    let state = Object.assign({}, this.state);
+
+    this.setState(state);
+
     if (this.state.companyEmail) {
       this.addNewCompany();
+    } else {
+      state.hasSubmit = true;
+
+      tracking.trackRequestComplete(this.props.selectedCompany.name);
     }
   };
 
@@ -65,7 +77,6 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
-    console.log(selectedCompany, this.state);
     return mailtoLink({
       to,
       subject: erasureEmail.subject,
@@ -117,6 +128,15 @@ class Form extends Component {
       />
     );
 
+    if (this.state.hasSubmit) {
+      return (
+        <ThanksMessage
+          className="thanks-message"
+          hideThanks={this.props.focusSearch}
+        />
+      );
+    }
+
     return (
       <Paper
         component="form"
@@ -166,15 +186,14 @@ class Form extends Component {
           helperText={NameHelperText}
         />
         <TextField
-          id="address"
-          label={AddressLabelText}
-          value={this.state.address}
-          onChange={this.handleInput("address")}
+          id="identifyingInfo"
+          label={IdentifyingInfoLabelText}
+          value={this.state.identifyingInfo}
+          onChange={this.handleInput("identifyingInfo")}
           margin="normal"
-          required
           multiline
           rows={4}
-          helperText={AddressHelperText}
+          helperText={IdentifyingInfoHelperText}
         />
         {this.props.selectedCompany && (
           <input

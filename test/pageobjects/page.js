@@ -29,9 +29,84 @@ class Page {
     };
   }
 
+  get searchIsFocused() {
+    return browser.hasFocus('#companyNameSearch');
+  }
+
   get searchResults() {
     return $$(".search-result");
   }
+
+  get thanksMessage() {
+    let thanks = $('#ThanksMessage');
+
+    return {
+      get isVisible () { return thanks.type !== 'NoSuchElement' },
+      get title() { return thanks.$('#ThanksMessageTitle').getText(); },
+      get text() { return thanks.$('#ThanksMessageText').getText(); },
+      get btn() {
+        let btn = thanks.$('button');
+
+        return {
+          isVisible: btn.type !== 'NoSuchElement',
+          click: btn.click
+        };
+      },
+      get socialShare() {
+        return new SocialShare('#ThanksMessage');
+      }
+    };
+  }
+
+  get socialShare() {
+    return new SocialShare('#faq +');
+  }
+
+  hasTracked(...row) {
+    let { value: result } = browser.execute(function(row) {
+      let paq = window._paq;
+
+      return {
+        result: paq.some(function(tracked) {
+          return row.every(function (r) {
+            return tracked.includes(r);
+          });
+        }),
+        paq
+      };
+
+    }, row);
+
+    return result.result;
+  }
+}
+
+class SocialShare {
+  constructor(baseSelector) {
+    this.baseSelector = baseSelector;
+    this.element = browser.element(`${this.baseSelector} .ss`);
+  }
+
+  get exists() {
+    return this.element.type !== 'NoSuchElement';
+  }
+
+  get linkedIn() {
+    return this.element.$('.ss-btn:nth-of-type(2)');
+  }
+
+  get twitter() {
+    return this.element.$('.ss-btn:nth-of-type(3)');
+  }
+
+  get email() {
+    return this.element.$('a.ss-btn');
+  }
+
+  get facebook() {
+    return this.element.$('.ss-btn:nth-of-type(1)');
+  }
+
 }
 
 class Form {
@@ -46,6 +121,10 @@ class Form {
 
   get isValid() {
     return !this.isInvalid;
+  }
+
+  get isVisible() {
+    return browser.isVisible(this.baseSelector);
   }
 
   selectElementByLabel(labelText) {

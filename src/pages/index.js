@@ -10,6 +10,7 @@ import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import fetchSheetData from "../utils/sheets";
 import pageWithIntl from "../components/PageWithIntl";
+import tracking from "../utils/tracking";
 import withRoot from "../withRoot";
 
 class Index extends Component {
@@ -33,6 +34,7 @@ class Index extends Component {
         selectedCompany,
         manualCompanyEntryEnabled: false
       });
+      tracking.trackSelectedCompany(selectedCompany.name);
     } else {
       this.setState({
         selectedCompany: null,
@@ -49,6 +51,28 @@ class Index extends Component {
     }
   }
 
+  constructor(props) {
+    super(props);
+    this.searchForm = React.createRef();
+
+    if (typeof window !== "undefined" && window.location.hash !== "") {
+      let hash = window.location.hash;
+
+      setTimeout(() => {
+        window.location.hash = "";
+        window.location.hash = hash;
+      }, 500);
+    }
+  }
+
+  focusSearch() {
+    let state = Object.assign({}, this.state);
+    state.selectedCompany = null;
+    this.setState(state);
+    window.location.hash = "hero";
+    this.searchForm.current.focus();
+  }
+
   render() {
     const { deeplinkedCompany } = this.props;
     const { selectedCompany } = this.state;
@@ -56,15 +80,21 @@ class Index extends Component {
     return (
       <div>
         <Hero>
-          <SearchForm onCompanySelected={this.onCompanySelected} />
+          <SearchForm
+            onCompanySelected={this.onCompanySelected}
+            innerRef={this.searchForm}
+          />
         </Hero>
         <Nav />
         {(company || this.state.manualCompanyEntryEnabled) && (
-          <PersonalInfoForm selectedCompany={company} />
+          <PersonalInfoForm
+            selectedCompany={company}
+            focusSearch={this.focusSearch.bind(this)}
+          />
         )}
         <HowItWorks />
         <FAQ />
-        <Social />
+        <Social offset={true} />
         <Donations />
         <Footer />
       </div>
