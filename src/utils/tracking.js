@@ -1,7 +1,11 @@
 
 export default {
   get tracker() {
-    return window._paq;
+    if (window._paq) {
+      return window._paq;
+    } else {
+      return window._paq = [];
+    }
   },
 
   track(...args) {

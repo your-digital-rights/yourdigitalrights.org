@@ -57,6 +57,24 @@ class Page {
   get socialShare() {
     return new SocialShare('#faq +');
   }
+
+  hasTracked(...row) {
+    let { value: result } = browser.execute(function(row) {
+      let paq = window._paq;
+
+      return {
+        result: paq.some(function(tracked) {
+          return row.every(function (r) {
+            return tracked.includes(r);
+          });
+        }),
+        paq
+      };
+
+    }, row);
+
+    return result.result;
+  }
 }
 
 class SocialShare {
