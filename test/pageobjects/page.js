@@ -12,6 +12,10 @@ class Page {
     return browser.url(`http://localhost:3001${this.path}`);
   }
 
+  get headingText() {
+    return browser.getText("h1");
+  }
+
   get mailTo() {
     return browser.getAttribute("body", "data-open-url");
   }
