@@ -63,7 +63,7 @@ const Social = (props) => {
 
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
-  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out https://opt-out.eu/?pk_campaign=share&pk_kwd=email-" + sourcPage + " to know more." });
+  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\nDid you know that you can get any organisation to erase your personal data for free?\nCheck out opt-out.eu to know more." });
   const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests" });
   const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu" });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
@@ -88,9 +88,9 @@ const Social = (props) => {
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=share&pk_kwd=fb-" + sourcPage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=share&pk_kwd=ln-" + sourcPage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=share&pk_kwd=tw-" + sourcPage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_source=facebook&pk_kwd=" + sourcPage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_source=linkedin&pk_kwd=" + sourcPage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_source=twitter&pk_kwd=" + sourcPage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn'><img src="static/sh/mail.svg" /></a>
   </div>;
 };
