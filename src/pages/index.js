@@ -17,7 +17,9 @@ class Index extends Component {
   static async getInitialProps({ query }) {
     if (query.company) {
       const companies = await fetchSheetData();
-      const deeplinkedCompany = companies.find(({ name }) => query.company);
+      const deeplinkedCompany = companies.find(
+        ({ name }) => query.company === name
+      );
       return { deeplinkedCompany };
     }
   }
