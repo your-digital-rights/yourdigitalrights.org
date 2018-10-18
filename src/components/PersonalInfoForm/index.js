@@ -136,6 +136,12 @@ class Form extends Component {
         elevation={10}
       >
         <Typography variant="display1" gutterBottom={true}>
+          <img
+            role="presentation"
+            src={`https://api.faviconkit.com/${selectedCompany.url}/50`}
+            width={50}
+            height={50}
+          />          
           {HeadingText}
         </Typography>
         <Typography gutterBottom={true} variant={"body2"}>
