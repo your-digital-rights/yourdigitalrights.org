@@ -16,6 +16,7 @@ import { withStyles } from "@material-ui/core/styles";
 import tracker from '../../utils/tracking';
 import debounce from '../../utils/debounce';
 
+
 class Form extends Component {
   state = {
     searchResults: [],
@@ -52,7 +53,7 @@ class Form extends Component {
       companyNameSearch: e.target.value
     });
   };
-
+ 
   async searchCompanies(search) {
     let searchResults = [];
 
@@ -60,7 +61,7 @@ class Form extends Component {
       const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
-          return company.searchTerms.toLowerCase().match(search.toLowerCase());
+          return company.searchTerms.toLowerCase().match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
         })
         .slice(0, 5);
     } else {
