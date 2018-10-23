@@ -36,6 +36,10 @@ describe("When I visit the home page", () => {
       $("div=Slack").click();
     });
 
+    it("updates the url to contain a query query paramter", () => {
+      browser.getUrl().should.match(/\?company=Slack/);
+    });
+
     it("focuses the name field", () => {
       page.personalInfoForm.selectElementByLabel("Your full name").hasFocus().should
         .be.true;
