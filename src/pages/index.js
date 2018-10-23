@@ -49,7 +49,7 @@ class Index extends Component {
     if ("URLSearchParams" in window) {
       var searchParams = new URLSearchParams(window.location.search);
       searchParams.set("company", companyName);
-      history.pushState(null, null, "?" + searchParams.toString());
+      history.pushState(null, null, "?" + searchParams.toString() + "#nav");
     }
   }
 
