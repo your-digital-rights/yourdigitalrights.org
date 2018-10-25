@@ -139,9 +139,7 @@ const About = ({ classes }) => {
             />
           </Typography>
         </Paper>
-      </div>
-      <div class={classes.share}>
-      </div>
+      </div>   
       <Donations />
       <Footer />
     </div>
