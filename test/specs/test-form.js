@@ -37,7 +37,7 @@ describe("When I visit the home page", () => {
     });
 
     it("updates the url to contain a query query paramter", () => {
-      browser.getUrl().should.match(/\?company=Slack#nav/);
+      browser.getUrl().should.match(/\?company=slack.com#nav/);
     });
 
     it("focuses the name field", () => {

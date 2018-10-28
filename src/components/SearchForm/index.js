@@ -10,11 +10,11 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
+import debounce from "../../utils/debounce";
 import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
+import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import tracker from '../../utils/tracking';
-import debounce from '../../utils/debounce';
 
 class Form extends Component {
   state = {
@@ -27,14 +27,14 @@ class Form extends Component {
     super(props);
 
     this.searchRef = React.createRef();
-    this.debounceSearch = debounce((search) => {
+    this.debounceSearch = debounce(search => {
       tracker.trackSearch(search);
     }, 100);
   }
 
   focus() {
     let state = Object.assign({}, this.state);
-    state.companyNameSearch = '';
+    state.companyNameSearch = "";
     this.setState(state);
     this.searchRef.current.focus();
   }
@@ -116,7 +116,6 @@ class Form extends Component {
               className={classes.searchInputWrapper}
               autoComplete="off"
               inputRef={this.searchRef}
-              autoFocus
             />
           </div>
         )}
