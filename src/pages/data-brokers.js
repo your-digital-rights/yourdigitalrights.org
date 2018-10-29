@@ -11,10 +11,17 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
+
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
+
+import GridList from '@material-ui/core/GridList';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+import ListSubheader from '@material-ui/core/ListSubheader';
+import IconButton from '@material-ui/core/IconButton';
 
 
 const styles = theme => ({
@@ -27,16 +34,8 @@ const styles = theme => ({
     },
   },
   inner: {
-    padding: 30
-  },
-  btn: {
-    borderRadius:"24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
-    padding: '10px 20px',
-    '&:hover': {
-      background: '#04487B'
-    }
+    padding: 30,
+    flexGrow: 1,
   },
   startAgainBtn: {
     borderRadius: '24px 24px 24px 24px',
@@ -46,27 +45,29 @@ const styles = theme => ({
     transform: 'translate(-50%,50%)',
     color: 'white',
     fontWeight: 800
-  }  
+  },
+  gridList: {
+    padding: 30,
+    height: 700,
+  },
+  icon: {
+    color: 'rgba(255, 255, 255, 0.54)',
+  },
 });
 
 
-function ListItemCompany(props) {
-  const Icon = "https://api.faviconkit.com/" + props.domain + "/24";
-  const URL = "/?company=" + props.name;
-  return (
-  <ListItem button component="a" href={URL}>
-   <ListItemIcon>
-                <img
-                  role="presentation"
-                  src={Icon}
-                  width={24}
-                  height={24}
-                />
-    </ListItemIcon>
-    <ListItemText primary={props.domain} />
-  </ListItem>
-  );
-}
+const dataBrokers = [
+  {domain: 'acxiom.com', name: 'Axiom'},
+  {domain: 'epsilon.com', name: 'Epsilon'},
+  {domain: 'equifax.com', name: 'Equifax'},
+  {domain: 'experian.com', name: 'Experian'},
+  {domain: 'idanalytics.com', name: 'ID Analytics'},
+  {domain: 'nielsen.com', name: 'Nielsen'},
+  {domain: 'oracle.com', name: 'Oracle'},
+  {domain: 'peekyou.com', name: 'PeekYou'},
+  {domain: 'towerdata.com', name: 'TowerData'},
+  {domain: 'transunion.com', name: 'TransUnion'},
+]
 
 
 const Brokers = ({ classes }) => {
@@ -85,33 +86,29 @@ const Brokers = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokersIntro"
-              defaultMessage="Data Brokers are companies that collect and sell personal data—typically without your knowledge or consent—while providing zero value to you. These are the top 10 data brokers, click each company to have them erase your data by sending a {gdpr} Erasure Request."
+              defaultMessage="Data Brokers are companies that collect and sell personal data—typically without your knowledge or consent—while providing zero value to you. These are the top 10 data brokers, click on each company to have them erase your data by sending a {gdpr} Erasure Request."
               values={{
                 gdpr: <a href="/#faq">GDPR</a>
               }}
             />
           </Typography>
-          <List>
-            <ListItemCompany domain='acxiom.com' name='Axiom'/>
-            <ListItemCompany domain='epsilon.com' name='Epsilon'/>
-            <ListItemCompany domain='equifax.com' name='Equifax'/>
-            <ListItemCompany domain='experian.com' name='BusinessIQ'/>
-            <ListItemCompany domain='idanalytics.com' name='ID Analytics'/>
-            <ListItemCompany domain='nielsen.com' name='Nielsen'/>
-            <ListItemCompany domain='oracle.com' name='Oracle'/>
-            <ListItemCompany domain='peekyou.com' name='PeekYou'/>
-            <ListItemCompany domain='towerdata.com' name='TowerData'/>
-            <ListItemCompany domain='transunion.com' name='TransUnion'/>
-          </List>
-          <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
-            Search for other companies
-          </Button>    
+          <GridList className={classes.gridList} cols={4} spacing={16}>
+            {dataBrokers.map(company => (
+              <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
+                <img src={'https://api.faviconkit.com/'+ company.domain + '/144'} alt={company.name} />
+                <GridListTileBar title={company.name} />
+              </GridListTile>
+            ))}
+          </GridList>            
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokerAfter"
               defaultMessage="While the top 10 data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data, hassle free. We automate the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
             />
-          </Typography>                
+          </Typography>        
+          <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
+            Search for other companies
+          </Button>                    
         </Paper>
       </div>
       <Social />
