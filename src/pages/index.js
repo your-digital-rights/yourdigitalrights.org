@@ -18,7 +18,7 @@ class Index extends Component {
     if (query.company) {
       const companies = await fetchSheetData();
       const deeplinkedCompany = companies.find(
-        ({ name }) => query.company === name
+        ({ url }) => query.company === url
       );
       return { deeplinkedCompany };
     }
@@ -31,7 +31,7 @@ class Index extends Component {
 
   onCompanySelected = selectedCompany => {
     if (selectedCompany.name) {
-      this.updateQueryParams(selectedCompany.name);
+      this.updateQueryParams(selectedCompany.url);
       this.setState({
         selectedCompany,
         manualCompanyEntryEnabled: false
@@ -49,7 +49,7 @@ class Index extends Component {
     if ("URLSearchParams" in window) {
       var searchParams = new URLSearchParams(window.location.search);
       searchParams.set("company", companyName);
-      history.pushState(null, null, "?" + searchParams.toString());
+      history.pushState(null, null, "?" + searchParams.toString() + "#nav");
     }
   }
 
