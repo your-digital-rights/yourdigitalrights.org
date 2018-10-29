@@ -79,7 +79,7 @@ const Brokers = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="aboutTitle"
-              defaultMessage="Opt Out of Top Data Brokers"
+              defaultMessage="Opt Out of The Top Data Brokers"
             />
           </Typography>
           <br/>
