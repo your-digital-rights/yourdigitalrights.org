@@ -14,7 +14,7 @@
     "deploy": "npx now --name opt-out-eu --region bru",
     "clean": "rm -rf src/out && rm -rf src/.next",
     "alias:staging": "npx now alias opt-out-eu",
-    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu",
+    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 10 && now scale opt-out.eu all 0 10",
     "deploy:dev": "npm run deploy"
   },
   "dependencies": {

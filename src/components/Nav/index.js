@@ -35,7 +35,7 @@ const NavItem = ({ href, text, classes }) => {
 
 const Nav = ({ classes }) => {
   return (
-    <nav className={classes.nav}>
+    <nav className={classes.nav} id="nav">
       <ul className={classes.container}>
         <NavItem
           href="/#howItWorks"

@@ -5,13 +5,13 @@ describe("When I visit the home page with a company parameter", () => {
 
   beforeEach(() => {
     page = new Page({
-      path: "/?company=Google"
+      path: "/?company=amazon.co.uk"
     });
 
     page.visit();
   });
 
   it("displays the company name in the page", () => {
-    browser.isExisting("h2=Opting out of Google").should.be.true;
+    browser.isExisting("h2=Opting out of Amazon UK").should.be.true;
   });
 });

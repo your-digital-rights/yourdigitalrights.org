@@ -3,8 +3,6 @@ import {
   CompanyEmailLabelText,
   CompanyNameHelperText,
   CompanyNameLabelText,
-  EmailHelperText,
-  EmailLabelText,
   IdentifyingInfoHelperText,
   IdentifyingInfoLabelText,
   NameHelperText,
