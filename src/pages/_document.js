@@ -141,7 +141,6 @@ export default class IntlDocument extends Document {
           </noscript>
           <script
             data-cfasync="false"
-            type="text/javascript"
             data-bablic="5b7e74c02615ef00013b76b9"
             data-bablic-m="[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu'},0,0,0,[],'opt-out.eu/',[],['_v',2]]"
             src="//cdn2.bablic.com/js/bablic.3.9.js"
