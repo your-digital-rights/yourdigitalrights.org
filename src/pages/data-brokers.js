@@ -12,16 +12,12 @@ import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
 
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
-
+import PropTypes from 'prop-types';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
+
+
 
 
 const styles = theme => ({
@@ -36,6 +32,10 @@ const styles = theme => ({
   inner: {
     padding: 30,
     flexGrow: 1,
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    overflow: 'hidden',
+    backgroundColor: theme.palette.background.paper,    
   },
   startAgainBtn: {
     borderRadius: '24px 24px 24px 24px',
@@ -79,7 +79,7 @@ const Brokers = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="aboutTitle"
-              defaultMessage="Opt Out of The Top Data Brokers"
+              defaultMessage="Opt Out of Top Data Brokers"
             />
           </Typography>
           <br/>
@@ -92,10 +92,10 @@ const Brokers = ({ classes }) => {
               }}
             />
           </Typography>
-          <GridList className={classes.gridList} cols={4} spacing={16}>
+          <GridList className={classes.gridList} cols={4} spacing={28}>
             {dataBrokers.map(company => (
               <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
-                <img src={'https://api.faviconkit.com/'+ company.domain + '/144'} alt={company.name} />
+                <img src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
                 <GridListTileBar title={company.name} />
               </GridListTile>
             ))}
@@ -117,5 +117,10 @@ const Brokers = ({ classes }) => {
     </div>
   );
 };
+
+Brokers.propTypes = {
+  classes: PropTypes.object.isRequired,
+};
+
 
 export default withRoot(pageWithIntl(withStyles(styles)(Brokers)));
