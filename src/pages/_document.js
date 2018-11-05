@@ -11,10 +11,10 @@ import getPageContext from "../getPageContext";
 
 // TODO: Make these string translatable
 const Description =
-  "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free | Opt-out.eu";
 /* global: window */
 const OgDescription =
-  "Own your data. Get any organisation to erase your personal data, hassle free";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free";
 const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
@@ -143,7 +143,7 @@ export default class IntlDocument extends Document {
             data-cfasync="false"
             type="text/javascript"
             data-bablic="5b7e74c02615ef00013b76b9"
-            data-bablic-m="[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu},0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]"
+            data-bablic-m="[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu'},0,0,0,[],'opt-out.eu/',['wishlist.opt-out.eu'],['_v',2]]"
             src="//cdn2.bablic.com/js/bablic.3.9.js"
           />
         </Head>
