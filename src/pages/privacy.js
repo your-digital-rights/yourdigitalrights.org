@@ -34,7 +34,7 @@ const Privacy = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="privacyTitle"
-              defaultMessage="Privacy policy"
+              defaultMessage="Privacy Policy"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -104,7 +104,6 @@ const Privacy = ({ classes }) => {
           </Typography>
         </Paper>
       </div>
-      <Social />
       <Donations />
       <Footer />
     </div>

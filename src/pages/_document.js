@@ -11,10 +11,10 @@ import getPageContext from "../getPageContext";
 
 // TODO: Make these string translatable
 const Description =
-  "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free | Opt-out.eu";
 /* global: window */
 const OgDescription =
-  "Own your data. Get any organisation to erase your personal data, hassle free";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free";
 const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
