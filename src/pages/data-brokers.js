@@ -13,10 +13,10 @@ import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
 
 import PropTypes from 'prop-types';
-import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 
+import Grid from '@material-ui/core/Grid';
 
 
 
@@ -46,13 +46,13 @@ const styles = theme => ({
     color: 'white',
     fontWeight: 800
   },
-  gridList: {
+  paper: {
+    height: 170,
+    width: 170,
+  },
+  grid: {
     padding: 30,
-    height: 700,
-  },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
+  }
 });
 
 
@@ -91,19 +91,27 @@ const Brokers = ({ classes }) => {
                 gdpr: <a href="/#faq">GDPR</a>
               }}
             />
-          </Typography>
-          <GridList className={classes.gridList} cols={4} spacing={28}>
-            {dataBrokers.map(company => (
-              <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
-                <img src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
-                <GridListTileBar title={company.name} />
-              </GridListTile>
-            ))}
-          </GridList>            
+          </Typography> 
+          <Grid container className={classes.grid} spacing={16}>
+            <Grid item xs='auto'>
+              <Grid container justify="center" spacing={16}>
+                {dataBrokers.map(company => (
+                  <Grid key={company.domain} item>
+                    <Paper className={classes.paper} >
+                      <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
+                        <img src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
+                        <GridListTileBar title={company.name} />
+                      </GridListTile>       
+                    </Paper>         
+                  </Grid>
+                ))}
+              </Grid>
+            </Grid>
+          </Grid>          
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokerAfter"
-              defaultMessage="While the top 10 data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data, hassle free. We automate the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
+              defaultMessage="While the top 10 data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data by automating the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
             />
           </Typography>        
           <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
