@@ -20,7 +20,7 @@ const styles = theme => ({
     color: "#005ea5",
     fontWeight: "600",
     textDecoration: "none"
-  }
+  },
 });
 
 const NavItem = ({ href, text, classes }) => {

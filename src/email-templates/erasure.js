@@ -6,11 +6,11 @@ export default {
     
 To whom it may concern:
 
-I am writing to request that you erase all my personal information from all your information systems pursuant to Article 17 of the General Data Protection Regulation (GDPR). Please confirm that you have erased my personal information, and that you have followed up with any organization with whom my information has been shared with.
+I am writing to request that you erase all my personal information from all your information systems pursuant to Article 17 of the General Data Protection Regulation (GDPR). Please confirm that you have erased my personal information, and that you have followed up with any organization with whom my information has been shared.
 
-If you need any more information from me, please let me know as soon as possible. Please note that I have the right to receive this information in a standardized format within 30 days of your receipt of this request.
+If you need any further information from me in order to locate my records in your systems, please let me know as soon as possible. My preferred method of contact is email. 
 
-If you do not normally deal with these requests, please pass along this letter to your Data Protection Officer. I can be contacted by email, phone, and mail. My preferred method of contact is email.
+If you do not normally deal with these requests, please pass along this letter to your Data Protection Officer. Please note that you have 30 days to comply with this request.
 
 `;
 

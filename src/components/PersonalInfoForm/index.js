@@ -143,6 +143,7 @@ class Form extends Component {
         id="personalInfoForm"
         elevation={10}
       >
+
         <Typography variant="display1" component="h2" gutterBottom={true}>
           {HeadingText}
         </Typography>

@@ -11,13 +11,10 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
-
+import Grid from '@material-ui/core/Grid';
 import PropTypes from 'prop-types';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-
-import Grid from '@material-ui/core/Grid';
-
 
 
 const styles = theme => ({
