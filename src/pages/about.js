@@ -60,7 +60,7 @@ const About = ({ classes }) => {
               defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. The service is {oss}."
               values={{
                 oss: <a href="https://github.com/opt-out-eu/opt-out">Open Source</a>
-              }}              
+              }}
             />
           </Typography>
           <br/>
@@ -111,8 +111,8 @@ const About = ({ classes }) => {
               values={{
                 linkedin: <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">Mark Gerrard</a>
               }}
-            />   
-          </Typography>       
+            />
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
@@ -162,9 +162,10 @@ const About = ({ classes }) => {
                 featureupvote: <a href="https://www.bablic.com">Bablic</a>
               }}
             />
-          </Typography>          
+          </Typography>
         </Paper>
-      </div>   
+      </div>
+      <Social />
       <Donations />
       <Footer />
     </div>
