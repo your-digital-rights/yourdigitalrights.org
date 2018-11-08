@@ -23,6 +23,13 @@ export default theme => ({
     }
   },
   intro: {
+    marginBottom: "20px",
+    maxWidth: "530px"
+  },
+  WhiteText: {
+    color: "white",
+  },
+  introEnd: {
     marginBottom: "50px",
     maxWidth: "530px"
   },

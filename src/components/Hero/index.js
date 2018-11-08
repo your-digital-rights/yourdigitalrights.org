@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText } from "./text";
+import { IntroText, SubtitleText, DataBrokers} from "./text";
 
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -31,6 +31,9 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           </Typography>
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
+          </Typography>
+          <Typography color="inherit" className={classes.introEnd}>
+            {DataBrokers}
           </Typography>
           {children}
         </div>
