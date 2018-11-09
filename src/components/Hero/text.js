@@ -18,6 +18,6 @@ export const DataBrokers = (
   <FormattedMessage
       id="brokers"
       defaultMessage="If you don't know where to start, we recommend you start by opting out of the {BrokersLink}. Data Brokers are companies that collect and sell personal data, typically without your knowledge or consent."
-    values={{ BrokersLink: <strong><a  href="/data-brokers"> Top 10 Data Brokers</a></strong> }}
+    values={{ BrokersLink: <a href="/data-brokers"> Top 10 Data Brokers</a> }}
   />
 );
