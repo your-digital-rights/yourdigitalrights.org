@@ -43,5 +43,9 @@ export default theme => ({
   introLink: {
     color: "#e89e15",
     fontWeight: "bold",
+    textDecoration: "none",
+    '&:hover': {
+      textDecoration: "underline",
+    }
   }
 });
