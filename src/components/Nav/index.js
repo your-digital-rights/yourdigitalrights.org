@@ -71,7 +71,7 @@ const NavItem = ({ href, text, classes }) => {
 const OOButtonText = (
   <FormattedMessage
     id="WishList"
-    defaultMessage="opt out"
+    defaultMessage="Search"
   />
 );
 
@@ -93,6 +93,11 @@ const Nav = ({ classes }) => {
           text={
             <FormattedMessage id="howItWorks" defaultMessage="How it works" />
           }
+          classes={classes}
+        />
+        <NavItem
+          href="/data-brokers"
+          text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
           classes={classes}
         />
         <NavItem
