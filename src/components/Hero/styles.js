@@ -39,5 +39,9 @@ export default theme => ({
   },
   title: {
     marginBottom: 0
+  },
+  introLink: {
+    color: "#e89e15",
+    fontWeight: "bold",
   }
 });
