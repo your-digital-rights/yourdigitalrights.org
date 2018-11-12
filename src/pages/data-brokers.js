@@ -82,7 +82,7 @@ const Brokers = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokersIntro"
-              defaultMessage="Data Brokers are companies that collect and sell personal data—typically without your knowledge or consent—while providing zero value to you. These are the top 10 data brokers, click on each company to have them erase your data by sending a {gdpr} Erasure Request."
+              defaultMessage="Data Brokers are companies that collect and sell personal data—typically without your knowledge or consent—while providing zero value to you. These are the top data brokers, click on each company to have them erase your data by sending a {gdpr} Erasure Request."
               values={{
                 gdpr: <a href="/#faq">GDPR</a>
               }}
