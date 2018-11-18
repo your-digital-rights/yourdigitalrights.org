@@ -1,0 +1,54 @@
+[
+  {
+    "id": "aboutTitle",
+    "defaultMessage": "Our mission"
+  },
+  {
+    "id": "missionBody1",
+    "defaultMessage": "Opt Out was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) provides the legal infrastructure to protect the fundamental right of people to the protection of personal data."
+  },
+  {
+    "id": "missionBody2",
+    "defaultMessage": "We believe that although the GDPR is a step in the right direction, exercising your rights under the legislation is just enough of a hussle for most people not to bother with it. The situation is made worse due to the fact that many organisations make it hard to file GDPR requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the GDPR accessible to everyone."
+  },
+  {
+    "id": "missionBody3",
+    "defaultMessage": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. The service is {oss}."
+  },
+  {
+    "id": "createdBy",
+    "defaultMessage": "Opt Out is the work of:"
+  },
+  {
+    "id": "createdByBody1",
+    "defaultMessage": "{linkedin} - Entrepreneur, investor, independent academic, activist."
+  },
+  {
+    "id": "createdByBody2",
+    "defaultMessage": "{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
+  },
+  {
+    "id": "createdByBody3",
+    "defaultMessage": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+  },
+  {
+    "id": "sponsors",
+    "defaultMessage": "Sponsors:"
+  },
+  {
+    "id": "cookiesBody",
+    "defaultMessage": "We’d like to thank the following organisations for supporting our open source effort buy providing a free or discounted version of their service:"
+  },
+  {
+    "id": "spomnsorsBody1",
+    "defaultMessage": "{crunchbase} - for providing a free snapshot of their company database which we use to enrich our organisation list."
+  },
+  {
+    "id": "spomnsorsBody2",
+    "defaultMessage": "{innocraft} - for providing a free subscription to their hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+  },
+  {
+    "id": "spomnsorsBody3",
+    "defaultMessage": "{featureupvote} - for providing a free subscription allowing us to gather community feedback regarding our {roadmap}."
+  }
+]

@@ -1,6 +1,5 @@
 import Button from "@material-ui/core/Button";
 import { FormattedMessage } from "react-intl";
-import Link from "next/link";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
@@ -53,17 +52,15 @@ const styles = theme => ({
   },
   NavItem: {
     alignSelf: "flexEnd",
-  }
+  },
 });
 
 const NavItem = ({ href, text, classes }) => {
   return (
     <li className={classes.item}>
-      <Link href={href} prefetch>
-        <Typography component="a" href={href} className={classes.link}>
-          {text}
-        </Typography>
-      </Link>
+      <Typography component="a" href={href} className={classes.link}>
+        {text}
+      </Typography>
     </li>
   );
 };
@@ -77,7 +74,7 @@ const OOButtonText = (
 
 const Nav = ({ classes }) => {
   return (
-    <nav className={classes.nav}>
+    <nav className={classes.nav} id="nav">
       <ul className={classes.container}>
         <div className={classes.logo}>
           <img
@@ -106,10 +103,13 @@ const Nav = ({ classes }) => {
           classes={classes}
         />
         <NavItem
+          href="/data-brokers"
+          text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
+          classes={classes}
+        />        
+        <NavItem
           href="/about"
-          text={
-            <FormattedMessage id="about" defaultMessage="About Us" />
-          }
+          text={<FormattedMessage id="about" defaultMessage="About Us" />}
           classes={classes}
         />
         <div className={classes.OO}>

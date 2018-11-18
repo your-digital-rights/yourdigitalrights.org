@@ -26,7 +26,7 @@ const FillInTitle = (
 const FillInBody = (
   <FormattedMessage
     id="fillIn"
-    defaultMessage="Fill in your name and home address. This information is needed for organisations to locate you on their systems (we do not keep this information)."
+    defaultMessage="Fill in your name and any additional information which may help the organisation to identify you in their information systems (we do not keep this information)."
   />
 );
 

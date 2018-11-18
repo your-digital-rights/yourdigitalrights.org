@@ -9,6 +9,7 @@ import { container } from "../styles/layout";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
+import Donations from "../components/Donations";
 
 const styles = theme => ({
   container: {
@@ -33,7 +34,7 @@ const Privacy = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="privacyTitle"
-              defaultMessage="Privacy policy"
+              defaultMessage="Privacy Policy"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -103,7 +104,7 @@ const Privacy = ({ classes }) => {
           </Typography>
         </Paper>
       </div>
-      <Social />
+      <Donations />
       <Footer />
     </div>
   );
