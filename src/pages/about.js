@@ -113,15 +113,6 @@ const About = ({ classes }) => {
               }}
             />
           </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="contributorsBody2"
-              defaultMessage="{linkedin} - Professor of Procedural Law at Pablo de Olavide University."
-              values={{
-                linkedin: <a href="https://www.linkedin.com/in/raúl-s-703b7033/">Raúl Sánchez</a>
-              }}
-            />
-          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage

@@ -55,8 +55,9 @@ const styles = theme => ({
     top: '40%',
     left: '30%',
   },
-  tileTitle: {
+  tileBar: {
     textAlign: 'center',
+    color: '#0070bf',
     backgroundColor: '#0070bf',
   }
 });
@@ -105,7 +106,7 @@ const Brokers = ({ classes }) => {
                     <Paper className={classes.paper} >
                       <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
                         <img className={classes.centerImg} src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
-                        <GridListTileBar className={classes.tileTitle} title={company.name} />
+                        <GridListTileBar className={classes.tileBar} title={company.name} />
                       </GridListTile>
                     </Paper>
                   </Grid>
@@ -116,7 +117,7 @@ const Brokers = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokerAfter"
-              defaultMessage="While the top 10 data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data by automating the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
+              defaultMessage="While the top data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data by automating the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
             />
           </Typography>
           <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
