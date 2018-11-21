@@ -32,7 +32,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,    
+    backgroundColor: theme.palette.background.paper,
   },
   startAgainBtn: {
     borderRadius: '24px 24px 24px 24px',
@@ -49,6 +49,16 @@ const styles = theme => ({
   },
   grid: {
     padding: 30,
+  },
+  centerImg: {
+    width: '40%',
+    top: '40%',
+    left: '30%',
+  },
+  tileBar: {
+    textAlign: 'center',
+    color: '#0070bf',
+    backgroundColor: '#0070bf',
   }
 });
 
@@ -87,7 +97,7 @@ const Brokers = ({ classes }) => {
                 gdpr: <a href="/#faq">GDPR</a>
               }}
             />
-          </Typography> 
+          </Typography>
           <Grid container className={classes.grid} spacing={16}>
             <Grid item xs='auto'>
               <Grid container justify="center" spacing={16}>
@@ -95,24 +105,24 @@ const Brokers = ({ classes }) => {
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} >
                       <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
-                        <img src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
-                        <GridListTileBar title={company.name} />
-                      </GridListTile>       
-                    </Paper>         
+                        <img className={classes.centerImg} src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
+                        <GridListTileBar className={classes.tileBar} title={company.name} />
+                      </GridListTile>
+                    </Paper>
                   </Grid>
                 ))}
               </Grid>
             </Grid>
-          </Grid>          
+          </Grid>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokerAfter"
-              defaultMessage="While the top 10 data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data by automating the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
+              defaultMessage="While the top data brokers are the worst offenders in terms of your personal data, there are many others. Opt Out is a free service which lets you get thousands of organisation to erase your personal data by automating the process of sending GDPR erasure (right to be forgotten) requests. Use the bottom below to search the entire database."
             />
-          </Typography>        
+          </Typography>
           <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
             Search for other companies
-          </Button>                    
+          </Button>
         </Paper>
       </div>
       <Social />
