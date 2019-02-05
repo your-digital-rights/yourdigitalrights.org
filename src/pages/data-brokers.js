@@ -68,11 +68,11 @@ const dataBrokers = [
   {domain: 'epsilon.com', name: 'Epsilon'},
   {domain: 'equifax.com', name: 'Equifax'},
   {domain: 'experian.com', name: 'Experian'},
-  {domain: 'idanalytics.com', name: 'ID Analytics'},
   {domain: 'oracle.com', name: 'Oracle'},
   {domain: 'peekyou.com', name: 'PeekYou'},
   {domain: 'towerdata.com', name: 'TowerData'},
   {domain: 'transunion.com', name: 'TransUnion'},
+  {domain: 'quantcast.com', name: 'Quantcast'},
 ]
 
 
