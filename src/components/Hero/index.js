@@ -33,8 +33,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
             {IntroText}
           </Typography>
           <Typography color="inherit" className={classes.introEnd}>
-            <p>If you don't know where to start, we recommend opting out of the <a className={classes.introLink} href="/data-brokers"> Top Data Brokers</a>;<br/>Data Brokers are companies that collect and sell personal data, typically without your knowledge or consent.
-            </p>
+            <p>Don't know where to start? Opt out of these <a className={classes.introLink} href="/data-brokers">Data Brokers</a>.</p>
           </Typography>
           {children}
         </div>
