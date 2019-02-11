@@ -55,7 +55,7 @@ export default [
       },
       <F
         id="2b"
-        defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities. Find out more."
+        defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
       />,  
       <F
         id="2c"
@@ -280,5 +280,31 @@ export default [
         defaultMessage="The Data Protection Office (DPO), although the legislation states that organisations should train staff to recognize GDPR requests no matter who they reach or in which format."
       />
     ]
-  }
+  },
+  {
+    heading: (
+      <F
+        id="heading10"
+        defaultMessage="I got an error message, or nothing happened after clicking ‘Send’"
+      />
+    ),
+    body: [
+      <F
+        id="10a"
+        defaultMessage="To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on {mac} and {windows}."
+        values={{
+          mac: (
+            <a href="http://osxdaily.com/2014/05/06/change-default-mail-app-mac/">
+              Mac
+            </a>
+          ),
+          windows: (
+            <a href="https://support.microsoft.com/en-us/help/555566">
+              Windows
+            </a>
+          )          
+        }}           
+      />
+    ]
+  }  
 ];

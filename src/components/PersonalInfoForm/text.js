@@ -43,7 +43,7 @@ export const IdentifyingInfoLabelText = (
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number."
+    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
   />
 );
 
