@@ -70,6 +70,7 @@ const dataBrokers = [
   {domain: 'experian.com', name: 'Experian'},
   {domain: 'oracle.com', name: 'Oracle'},
   {domain: 'peekyou.com', name: 'PeekYou'},
+  {domain: 'tapad.com', name: 'Tapad'},
   {domain: 'towerdata.com', name: 'TowerData'},
   {domain: 'transunion.com', name: 'TransUnion'},
   {domain: 'quantcast.com', name: 'Quantcast'},
