@@ -33,7 +33,7 @@
   },
   {
     "id": "2b",
-    "defaultMessage": "The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities. Find out more."
+    "defaultMessage": "The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
   },
   {
     "id": "2c",
@@ -166,5 +166,13 @@
   {
     "id": "9a",
     "defaultMessage": "The Data Protection Office (DPO), although the legislation states that organisations should train staff to recognize GDPR requests no matter who they reach or in which format."
+  },
+  {
+    "id": "heading10",
+    "defaultMessage": "I got an error message, or nothing happened after clicking ‘Send’"
+  },
+  {
+    "id": "10a",
+    "defaultMessage": "To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on {mac} and {windows}."
   }
 ]
