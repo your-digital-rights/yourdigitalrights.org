@@ -9,6 +9,7 @@ import { container } from "../styles/layout";
 import pageWithIntl from "../components/PageWithIntl";
 import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
+import Donations from "../components/Donations";
 
 const styles = theme => ({
   container: {
@@ -17,7 +18,7 @@ const styles = theme => ({
       marginTop: 32,
     [theme.breakpoints.up("md")]: {
       marginTop: 60
-    }
+    },
   },
   inner: {
     padding: 30
@@ -56,14 +57,17 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody3"
-              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data."
+              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. The service is {oss}."
+              values={{
+                oss: <a href="https://github.com/opt-out-eu/opt-out">Open Source</a>
+              }}
             />
           </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="createdBy"
-              defaultMessage="Opt Out is the work of:"
+              defaultMessage="Opt Out was created by:"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -96,6 +100,22 @@ const About = ({ classes }) => {
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
+              id="contributors"
+              defaultMessage="Contributors:"
+            />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="contributorsBody1"
+              defaultMessage="{linkedin} - Frontend web developer."
+              values={{
+                linkedin: <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">Mark Gerrard</a>
+              }}
+            />
+          </Typography>
+          <br/>
+          <Typography gutterBottom={true} variant="body2">
+            <FormattedMessage
               id="sponsors"
               defaultMessage="Sponsors:"
             />
@@ -103,13 +123,13 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="cookiesBody"
-              defaultMessage="We’d like to thank the following organisations for supporting our open source effort buy providing a free or discounted version of their service:"
+              defaultMessage="We’d like to thank the following organisations for supporting our open source effort buy providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="spomnsorsBody1"
-              defaultMessage="{crunchbase} - for providing a free snapshot of their company database which we use to enrich our organisation list."
+              id="sponsorsBody1"
+              defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organisations."
               values={{
                 crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>
               }}
@@ -117,8 +137,8 @@ const About = ({ classes }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="spomnsorsBody2"
-              defaultMessage="{innocraft} - for providing a free subscription to their hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+              id="sponsorsBody2"
+              defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
               values={{
                 innocraft: <a href="https://innocraft.cloud">Innocraft</a>
               }}
@@ -126,17 +146,27 @@ const About = ({ classes }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="spomnsorsBody3"
-              defaultMessage="{featureupvote} - for providing a free subscription allowing us to gather community feedback regarding our {roadmap}."
+              id="sponsorsBody3"
+              defaultMessage="{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
               values={{
                 featureupvote: <a href="https://featureupvote.com">FeatureUpvote</a>,
                 roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>
               }}
             />
           </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="sponsorsBody4"
+              defaultMessage="{featureupvote} - for providing a platform which allows us to translate and localize this website."
+              values={{
+                featureupvote: <a href="https://www.bablic.com">Bablic</a>
+              }}
+            />
+          </Typography>
         </Paper>
       </div>
       <Social />
+      <Donations />
       <Footer />
     </div>
   );

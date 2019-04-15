@@ -1,21 +1,21 @@
 {
   "name": "opt-out",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "prepare": "./node_modules/.bin/selenium-standalone install",
+    "install-selenium": "./node_modules/.bin/selenium-standalone install",
     "browser-test": "./node_modules/.bin/wdio ./test/wdio.conf.js",
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "next ./src",
     "start": "next start ./src",
-    "build": "next build ./src && next export ./src",
-    "deploy": "now src/out --name opt-out-eu --region bru",
+    "build": "next build ./src",
+    "deploy": "npx now --name opt-out-eu",
     "clean": "rm -rf src/out && rm -rf src/.next",
-    "alias:staging": "now alias opt-out-eu",
-    "alias:prod": "now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu",
-    "deploy:dev": "npm run clean && npm run build && npm run deploy"
+    "alias:staging": "npx now alias opt-out-eu",
+    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 10 && now scale opt-out.eu all 0 10",
+    "deploy:dev": "npm run deploy"
   },
   "dependencies": {
     "@material-ui/core": "^1.2.1",
@@ -26,6 +26,7 @@
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-intl": "^2.4.0",
+    "react-share": "^2.3.1",
     "universal-fetch": "^1.0.0"
   },
   "devDependencies": {

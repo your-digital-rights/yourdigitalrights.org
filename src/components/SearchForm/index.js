@@ -10,9 +10,12 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
+import debounce from "../../utils/debounce";
 import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
+import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
+
 
 class Form extends Component {
   state = {
@@ -20,6 +23,22 @@ class Form extends Component {
     companyNameSearch: "",
     companiesLoaded: false
   };
+
+  constructor(props) {
+    super(props);
+
+    this.searchRef = React.createRef();
+    this.debounceSearch = debounce(search => {
+      tracker.trackSearch(search);
+    }, 100);
+  }
+
+  focus() {
+    let state = Object.assign({}, this.state);
+    state.companyNameSearch = "";
+    this.setState(state);
+    this.searchRef.current.focus();
+  }
 
   async componentDidMount() {
     const companies = fetchSheetData();
@@ -34,7 +53,7 @@ class Form extends Component {
       companyNameSearch: e.target.value
     });
   };
-
+ 
   async searchCompanies(search) {
     let searchResults = [];
 
@@ -42,12 +61,14 @@ class Form extends Component {
       const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
-          return company.searchTerms.toLowerCase().match(search.toLowerCase());
+          return company.searchTerms.toLowerCase().match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
         })
         .slice(0, 5);
     } else {
       searchResults = [];
     }
+
+    this.debounceSearch(search);
 
     this.setState({
       searchResults
@@ -95,7 +116,7 @@ class Form extends Component {
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
-              autoFocus
+              inputRef={this.searchRef}
             />
           </div>
         )}

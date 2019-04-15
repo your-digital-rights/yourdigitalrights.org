@@ -11,9 +11,11 @@ import getPageContext from "../getPageContext";
 
 // TODO: Make these string translatable
 const Description =
-  "Own your data - get any organisation to erase your personal data, hassle free | Opt-out.eu";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free | Opt-out.eu";
+/* global: window */
 const OgDescription =
-  "Own your data. Get any organisation to erase your personal data, hassle free";
+  "Own your data - get thousands of organisations to erase your personal data, hassle free";
+const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -22,7 +24,7 @@ export default class IntlDocument extends Document {
     const {
       req: { locale, localeDataScript }
     } = context;
-
+    
     const page = context.renderPage(Component => props => (
       <JssProvider
         registry={pageContext.sheetsRegistry}
@@ -31,6 +33,7 @@ export default class IntlDocument extends Document {
         <Component pageContext={pageContext} {...props} />
       </JssProvider>
     ));
+
     return {
       ...props,
       ...page,
@@ -59,16 +62,49 @@ export default class IntlDocument extends Document {
       this.props.locale
     }`;
     const { pageContext } = this.props;
+    const bablic = "[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu'},0,0,0,[],'opt-out.eu/',[],['_v',2]]";
 
     return (
       <html>
         <Head>
-          <title>Opt-out</title>
+          <title>{Title}</title>
           <meta name="description" content={Description} />
           <meta property="og:description" content={OgDescription} />
           <meta
+            property="og:title"
+            content={Title}
+          />
+          <meta
             property="og:image"
-            content="https://opt-out.eu/static/img-howto.svg"
+            content="https://opt-out.eu/static/opt-out-share.jpg"
+          />
+          <meta
+            property="og:image:width"
+            content="1200"
+          />
+          <meta
+            property="og:image:height"
+            content="680"
+          />
+          <meta
+            name="twitter:card"
+            content="summary_large_image"
+          />
+          <meta
+            name="twitter:site"
+            content="@OptoutEU"
+          />
+          <meta
+            name="twitter:title"
+            content={Title}
+          />
+          <meta
+            name="twitter:description"
+            content={OgDescription}
+          />
+          <meta
+            name="twitter:image"
+            content="https://opt-out.eu/static/opt-out-share.jpg"
           />
           <meta
             name="viewport"
@@ -87,12 +123,29 @@ export default class IntlDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
+          <link rel="stylesheet" href="/static/mobile.css" />
+          <link rel="stylesheet" media="only screen and (min-width: 600px)" href="/static/desktop.css" />
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
               __html:
-                "var _paq = _paq || [];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function() {var u='https://optout.innocraft.cloud/';_paq.push(['setTrackerUrl', u+'piwik.php']);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);})();"
+                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*.opt-out.eu']); _paq.push(['setDomains', ['*.opt-out.eu']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();"
             }}
+          />
+          <noscript>
+            <p>
+              <img
+                src='https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1'
+                style={{border: 0}}
+                alt=''
+              />
+            </p>
+          </noscript>
+          <script
+            data-cfasync="false"
+            data-bablic="5b7e74c02615ef00013b76b9"
+            data-bablic-m={bablic}
+            src="//cdn2.bablic.com/js/bablic.3.9.js"
           />
         </Head>
         <body>

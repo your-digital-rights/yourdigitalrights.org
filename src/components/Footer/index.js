@@ -37,6 +37,9 @@ const styles = theme => ({
       width: "100%",
     }
   },
+  Copyright:{
+    textAlign: "center",
+  },
   WishList: {
     textAlign: "center",
   },
@@ -84,7 +87,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="query"
-    defaultMessage="For more information please contact us at {mail}."
+    defaultMessage="For more information please contact us at {mail}. © Copyright 2018"
     values={{
       mail: (
         <a href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
@@ -94,7 +97,6 @@ const QueryText = (
     }}
   />
 );
-
 
 const Footer = ({ classes }) => {
   return (
@@ -122,8 +124,8 @@ const Footer = ({ classes }) => {
             {DisclaimerText}
           </Typography>
           <Typography color="textSecondary">{QueryText}</Typography>
-        </div>
-      </div>
+        </div>      
+      </div>      
     </div>
   );
 };
