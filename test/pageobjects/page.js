@@ -9,7 +9,7 @@ class Page {
   }
 
   visit() {
-    return browser.url(`http://localhost:3001${this.path}`);
+    return browser.url(`http://localhost:3000${this.path}`);
   }
 
   get headingText() {
