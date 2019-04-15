@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import { FormattedDate, FormattedMessage } from "react-intl";
-
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
@@ -25,9 +25,32 @@ const styles = theme => ({
   }
 });
 
+// TODO: Make these string translatable
+const Title = "Privacy Policy | Opt-out.eu";
+const Description = "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure.";
+const Canonical = "https://opt-out.eu/privacy"
+
 const Privacy = ({ classes }) => {
   return (
     <div>
+      <Head>
+        <title>{Title}</title>
+        <link rel="canonical" href={Canonical} />
+        <meta name="description" content={Description} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:description"
+          content={Description}
+        />          
+      </Head>    
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
@@ -71,25 +94,25 @@ const Privacy = ({ classes }) => {
             <ul>
               <li>  
                 <FormattedMessage
-                  id="personalDataBody1a"
+                  id="personalDataBodyOneA"
                   defaultMessage="Your name"
                 />
               </li>
               <li>
                 <FormattedMessage
-                  id="personalDataBody1b"
+                  id="personalDataBodyOneB"
                   defaultMessage="Additional information needed to identify you with the organisations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
                 />
               </li>
               <li>
                 <FormattedMessage
-                  id="personalDataBody1c"
+                  id="personalDataBodyOneC"
                   defaultMessage="Cookies and Usage Data"
                 />
               </li>
             </ul>
             <FormattedMessage
-              id="personalDataBody1d"
+              id="personalDataBodyOneE"
               defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of out-out.eu and the authorized third parties referred to in this Policy."
             />
           </Typography>
@@ -147,7 +170,7 @@ const Privacy = ({ classes }) => {
             <ul>
               <li>  
                 <FormattedMessage
-                  id="analyticsBody1a"
+                  id="analyticsBodyOneA"
                   defaultMessage="Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
                   values={{
                     matomo: <a href="https://www.innocraft.com/privacy">Privacy Policy</a>

@@ -8,13 +8,13 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading1"
+        id="headingOne"
         defaultMessage="What is GDPR?"
       />
     ),
     body: [
       <FormattedMessage
-        id="1a"
+        id="HedingOneA"
         defaultMessage="The General Data Protection Regulations, or GDPR for short, is a new regulation introduced in the European Union in May 2018. It protects the fundamental right of people to the protection of personal data. {link}."
         values={{
           link: (
@@ -28,13 +28,13 @@ export default [
   },
   {
     heading: (
-      <FormattedMessage id="heading2" defaultMessage="Who does the GDPR apply to?" />
+      <FormattedMessage id="headingTwo" defaultMessage="Who does the GDPR apply to?" />
     ),
     body: [
       {
         item: (
           <FormattedMessage
-            id="2a"
+            id="headingTwoA"
             defaultMessage="The GDPR applies to:"
           />
         ),
@@ -54,11 +54,11 @@ export default [
         ]
       },
       <FormattedMessage
-        id="2b"
+        id="twoB"
         defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
       />,  
       <FormattedMessage
-        id="2c"
+        id="towC"
         defaultMessage="{link}."
         values={{
           link: (
@@ -73,17 +73,17 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading3"
+        id="headingThree"
         defaultMessage="What constitutes personal data?"
       />
     ),
     body: [
       <FormattedMessage
-        id="3a"
+        id="threeA"
         defaultMessage="Any information relating to a person who can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."    
       />,
       <FormattedMessage
-        id="3b"
+        id="threeB"
         defaultMessage="{link}."
         values={{
           link: (
@@ -97,13 +97,13 @@ export default [
   },   
   {
     heading: (
-      <FormattedMessage id="heading4" defaultMessage="When can I request erasure of my personal data?" />
+      <FormattedMessage id="headingFour" defaultMessage="When can I request erasure of my personal data?" />
     ),
     body: [
       {
         item: (
           <FormattedMessage
-            id="4a"
+            id="fourA"
             defaultMessage="The right to erasure is not absolute, and concerns data processing where consent is the legal basis for the processing. For example, data needed due to a contract, or data which is in the public interest does not fall under this definition. More specifically, the right only applies in the following circumstances:"
           />
         ),
@@ -135,7 +135,7 @@ export default [
         ]
       },
       <FormattedMessage
-        id="4b"
+        id="fourB"
         defaultMessage="{link}."
         values={{
           link: (
@@ -149,13 +149,13 @@ export default [
   },
   {
     heading: (
-      <FormattedMessage id="heading5" defaultMessage="When can the organisation say no?" />
+      <FormattedMessage id="headingFive" defaultMessage="When can the organisation say no?" />
     ),
     body: [
       {
         item: (
           <FormattedMessage
-            id="5a"
+            id="fiveA"
             defaultMessage="The organisation can refuse to erase your data in the following circumstances:"
           />
         ),
@@ -187,11 +187,11 @@ export default [
         ]
       },
       <FormattedMessage
-        id="5b"
+        id="fiveB"
         defaultMessage="The organisation can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
       />,
       <FormattedMessage
-        id="5c"
+        id="fiveC"
         defaultMessage="{link}."
         values={{
           link: (
@@ -206,13 +206,13 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading6"
+        id="headingSix"
         defaultMessage="How long does an organisation have to comply with a request?"
       />
     ),
     body: [
       <FormattedMessage
-        id="6a"
+        id="sixA"
         defaultMessage="An organisation has one month to comply with a request."
       />
     ]
@@ -220,17 +220,17 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading7"
+        id="headingSeven"
         defaultMessage="What should I do if an organisation did not comply, or did not fully comply with my request?"
       />
     ),
     body: [
       <FormattedMessage
-        id="7a"
+        id="sevenA"
         defaultMessage="If you are unhappy with how the organisation has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. If you decide to do this, we strongly advise you to seek independent legal advice first."
       />,
       <FormattedMessage
-        id="7b"
+        id="sevenB"
         defaultMessage="You can download a list of DPAs {link} (PDF)."
         values={{
           link: (
@@ -245,17 +245,17 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading8"
+        id="headingEight"
         defaultMessage="What are the penalties an organisation that does not comply with a request may face?"
       />
     ),
     body: [
       <FormattedMessage
-        id="8a"
+        id="eightA"
         defaultMessage="Organizations can be fined up to 4% of annual global turnover for breaching GDPR or 20 Million Euro."
       />,
       <FormattedMessage
-        id="8b"
+        id="eightB"
         defaultMessage="{link}."
         values={{
           link: (
@@ -270,13 +270,13 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading9"
+        id="headingNine"
         defaultMessage="Who in an organisation is responsible for handling GDPR requests?"
       />
     ),
     body: [
       <FormattedMessage
-        id="9a"
+        id="nineA"
         defaultMessage="The Data Protection Office (DPO), although the legislation states that organisations should train staff to recognize GDPR requests no matter who they reach or in which format."
       />
     ]
@@ -284,13 +284,13 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="heading10"
+        id="headingTen"
         defaultMessage="I got an error message, or nothing happened after clicking ‘Send’"
       />
     ),
     body: [
       <FormattedMessage
-        id="10a"
+        id="tenA"
         defaultMessage="To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on {mac} and {windows}."
         values={{
           mac: (

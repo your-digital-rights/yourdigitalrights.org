@@ -1,5 +1,4 @@
 import Document, { Head, Main, NextScript } from "next/document";
-
 import { FormattedMessage } from "react-intl";
 import JssProvider from "react-jss/lib/JssProvider";
 import React from "react";
@@ -8,14 +7,6 @@ import getPageContext from "../getPageContext";
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
-
-// TODO: Make these string translatable
-const Description =
-  "Own your data - get thousands of organisations to erase your personal data, hassle free | Opt-out.eu";
-/* global: window */
-const OgDescription =
-  "Own your data - get thousands of organisations to erase your personal data, hassle free";
-const Title =  "Opt Out"
 
 export default class IntlDocument extends Document {
   static async getInitialProps(context) {
@@ -63,17 +54,11 @@ export default class IntlDocument extends Document {
     }`;
     const { pageContext } = this.props;
     const bablic = "[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu'},0,0,0,[],'opt-out.eu/',[],['_v',2]]";
+    const { deeplinkedCompany } = this.props;
 
     return (
       <html>
         <Head>
-          <title>{Title}</title>
-          <meta name="description" content={Description} />
-          <meta property="og:description" content={OgDescription} />
-          <meta
-            property="og:title"
-            content={Title}
-          />
           <meta
             property="og:image"
             content="https://opt-out.eu/static/opt-out-share.jpg"
@@ -94,14 +79,7 @@ export default class IntlDocument extends Document {
             name="twitter:site"
             content="@OptoutEU"
           />
-          <meta
-            name="twitter:title"
-            content={Title}
-          />
-          <meta
-            name="twitter:description"
-            content={OgDescription}
-          />
+
           <meta
             name="twitter:image"
             content="https://opt-out.eu/static/opt-out-share.jpg"
