@@ -68,7 +68,7 @@ const NavItem = ({ href, text, classes }) => {
 const OOButtonText = (
   <FormattedMessage
     id="WishList"
-    defaultMessage="opt out"
+    defaultMessage="Search"
   />
 );
 

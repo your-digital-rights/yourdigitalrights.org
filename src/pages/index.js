@@ -114,11 +114,9 @@ class Index extends Component {
             innerRef={this.searchForm}
           />
         </Hero>
-        {(company || this.state.manualCompanyEntryEnabled) && (
-          <PersonalInfoForm
-            selectedCompany={company}
-            focusSearch={this.focusSearch.bind(this)}
-          />
+        {(this.state.selectedCompany ||
+          this.state.manualCompanyEntryEnabled) && (
+          <PersonalInfoForm selectedCompany={this.state.selectedCompany} />
         )}
         <HowItWorks />
         <FAQ />
