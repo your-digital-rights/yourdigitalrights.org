@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import { FormattedDate, FormattedMessage } from "react-intl";
-
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
@@ -25,9 +25,32 @@ const styles = theme => ({
   }
 });
 
+// TODO: Make these string translatable
+const Title = "Privacy Policy | Opt-out.eu";
+const Description = "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure.";
+const Canonical = "https://opt-out.eu/privacy"
+
 const Privacy = ({ classes }) => {
   return (
     <div>
+      <Head>
+        <title>{Title}</title>
+        <link rel="canonical" href={Canonical} />
+        <meta name="description" content={Description} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:description"
+          content={Description}
+        />          
+      </Head>    
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>

@@ -1,5 +1,5 @@
+import Head from 'next/head';
 import { FormattedDate, FormattedMessage } from "react-intl";
-
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
@@ -76,10 +76,33 @@ const dataBrokers = [
   {domain: 'quantcast.com', name: 'Quantcast'},
 ]
 
+// TODO: Make these string translatable
+const Title = "Opt Out of the Top Data Brokers | Opt-out.eu";
+const Description = "Get the top data brokers to erase your personal data, hassle free.";
+const Canonical = "https://opt-out.eu/data-brokers"
+
 
 const Brokers = ({ classes }) => {
   return (
     <div>
+     <Head>
+        <title>{Title}</title>
+        <link rel="canonical" href={Canonical} />
+        <meta name="description" content={Description} />
+        <meta property="og:description" content={Description} />
+        <meta
+          property="og:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:title"
+          content={Title}
+        />
+        <meta
+          name="twitter:description"
+          content={Description}
+        />          
+      </Head>    
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
