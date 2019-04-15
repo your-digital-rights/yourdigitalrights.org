@@ -71,25 +71,25 @@ const Privacy = ({ classes }) => {
             <ul>
               <li>  
                 <FormattedMessage
-                  id="personalDataBody1a"
+                  id="personalDataBodyOneA"
                   defaultMessage="Your name"
                 />
               </li>
               <li>
                 <FormattedMessage
-                  id="personalDataBody1b"
+                  id="personalDataBodyOneB"
                   defaultMessage="Additional information needed to identify you with the organisations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
                 />
               </li>
               <li>
                 <FormattedMessage
-                  id="personalDataBody1c"
+                  id="personalDataBodyOneC"
                   defaultMessage="Cookies and Usage Data"
                 />
               </li>
             </ul>
             <FormattedMessage
-              id="personalDataBody1d"
+              id="personalDataBodyOneE"
               defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of out-out.eu and the authorized third parties referred to in this Policy."
             />
           </Typography>
@@ -147,7 +147,7 @@ const Privacy = ({ classes }) => {
             <ul>
               <li>  
                 <FormattedMessage
-                  id="analyticsBody1a"
+                  id="analyticsBodyOneA"
                   defaultMessage="Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
                   values={{
                     matomo: <a href="https://www.innocraft.com/privacy">Privacy Policy</a>

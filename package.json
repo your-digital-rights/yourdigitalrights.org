@@ -10,7 +10,7 @@
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "node ./src/server.js",
     "start": "NODE_ENV=production node ./src/server.js",
-    "build": "next build ./src",
+    "build": "next build ./src && node ./src/scripts/default-lang",
     "deploy": "npx now --name opt-out-eu",
     "clean": "rm -rf src/out && rm -rf src/.next",
     "alias:staging": "npx now alias opt-out-eu",

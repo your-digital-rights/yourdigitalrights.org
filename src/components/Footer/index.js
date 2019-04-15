@@ -72,7 +72,7 @@ const WishButtonText = (
 
 const DisclaimerText = (
   <FormattedMessage
-    id="disclaimer"
+    id="footerDisclaimer"
     defaultMessage="{title} This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
     values={{
       title: (
@@ -86,7 +86,7 @@ const DisclaimerText = (
 
 const QueryText = (
   <FormattedMessage
-    id="query"
+    id="footerQuery"
     defaultMessage="For more information please contact us at {mail}. © Copyright 2018"
     values={{
       mail: (

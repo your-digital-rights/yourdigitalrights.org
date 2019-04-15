@@ -1,4 +1,4 @@
-import { Component } from "react";
+  import { Component } from "react";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
