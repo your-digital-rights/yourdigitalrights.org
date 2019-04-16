@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Button from "@material-ui/core/Button";
 import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
@@ -77,18 +78,25 @@ const Nav = ({ classes }) => {
     <nav className={classes.nav} id="nav">
       <ul className={classes.container}>
         <div className={classes.logo}>
-          <img
-            src="static/optout.svg"
-            alt="Opt out"
-            className={classes.logoImg}
-            role="presentation"
-          />
+          <Link href="/">  
+            <img
+              src="static/optout.svg"
+              alt="Opt out"
+              className={classes.logoImg}
+              role="presentation"
+            />
+          </Link>
         </div>
+        <NavItem
+          href="/data-brokers"
+          text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
+          classes={classes}
+        />            
         <NavItem
           href="/#howItWorks"
           className={classes.NavItem}
           text={
-            <FormattedMessage id="howItWorks" defaultMessage="How it works" />
+            <FormattedMessage id="howItWorks" defaultMessage="How it Works" />
           }
           classes={classes}
         />
@@ -96,12 +104,7 @@ const Nav = ({ classes }) => {
           href="/#faq"
           text={<FormattedMessage id="faq" defaultMessage="FAQs" />}
           classes={classes}
-        />
-        <NavItem
-          href="/data-brokers"
-          text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
-          classes={classes}
-        />        
+        />    
         <NavItem
           href="/about"
           text={<FormattedMessage id="about" defaultMessage="About Us" />}
