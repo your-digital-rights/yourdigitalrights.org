@@ -85,7 +85,7 @@ class Index extends Component {
     const Title = deeplinkedCompany ? "Opt Out of " + deeplinkedCompany.name + " | Opt-out.eu" : "Opt Out";
     const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data by sending a GDPR Erasure Request (right to be forgoten)." :
       "Own your data - get thousands of organisations to erase your personal data, hassle free.";
-    const Canonical = deeplinkedCompany ? "https://opt-out.eu/?company=" + deeplinkedCompany.url + "#nav" : "https://opt-out.eu/"
+    const Canonical = deeplinkedCompany ? "https://opt-out.eu/?company=" + deeplinkedCompany.url : "https://opt-out.eu/"
 
     return (
       <div>
