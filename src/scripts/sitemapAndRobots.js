@@ -18,7 +18,7 @@ const setup = ({ server }) => {
   fetchData().then(function(companies) {
       companies.map(company => (
       sitemap.add ({
-      url: `/?company=${company.url}#nav`,
+      url: `/?company=${company.url}`,
       changefreq: 'weekly',
       priority: 0.5
     }))

@@ -128,7 +128,7 @@ const Brokers = ({ classes }) => {
                 {dataBrokers.map(company => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} >
-                      <GridListTile button component="a" href={'/?company=' + company.domain+ '#nav'} key={company.domain}>
+                      <GridListTile button component="a" href={'/?company=' + company.domain} key={company.domain}>
                         <img className={classes.centerImg} src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
                         <GridListTileBar className={classes.tileBar} title={company.name} />
                       </GridListTile>
