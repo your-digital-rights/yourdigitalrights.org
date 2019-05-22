@@ -4,7 +4,7 @@ const fetch = require("universal-fetch");
 
 
 async function fetchData() {
-  let data = await fetch(`https://opt-out-api.now.sh/companies`)
+  let data = await fetch(`https://api.opt-out.eu/companies`)
   data = await data.json();
   return data;
 }
