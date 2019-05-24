@@ -40,6 +40,8 @@ const styles = theme => ({
       display: "block",
       listStyle: "none",
       textAlign: "center",
+      padding: "0px",
+      padding: "60px",
   },
   containerMobileNavlist: {
       display: "none",
@@ -69,6 +71,15 @@ const styles = theme => ({
     margin: "20px 0 20px 20px",
     borderRadius:"24px 24px 24px 24px",
     color: "white",
+    fontWeight: "600",
+    '&:hover': {
+      background: '#cf8600'
+    }
+  },
+  OOButtonMob: {
+    margin: "20px",
+    borderRadius:"24px",
+    color: "#fff",
     fontWeight: "600",
     '&:hover': {
       background: '#cf8600'
@@ -178,7 +189,7 @@ class Nav extends Component  {
             classes={classes}
           />
           <div className={classes.OO}>
-            <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.OOButton}>
+            <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.O1Button}>
               {OOButtonText}
             </Button>
           </div>
@@ -191,6 +202,11 @@ class Nav extends Component  {
             </svg>
           </div>
           <ul className={showMobileMenu ? classes.containerMobileNavlistOpen : classes.containerMobileNavlist}>
+            <div className={classes.OO}>
+                <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.OOButtonMob}>
+                  search
+                </Button>
+            </div>
             <NavItemMob
               href="/#howItWorks"
               className={classes}
@@ -209,11 +225,6 @@ class Nav extends Component  {
               text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
               classes={classes}
             />
-            <div className={classes.OO}>
-                <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.OOButton}>
-                  Opt out
-                </Button>
-            </div>
             <NavItemMob
               href="/privacy"
               text={<FormattedMessage id="Privacy-policy" defaultMessage="Privacy Policy" />}
