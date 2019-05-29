@@ -14,8 +14,7 @@ import tracking from '../../utils/tracking';
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
-    marginTop: -160,
-    paddingTop: 240,
+
     padding: '50px',
     display: 'flex',
     flexWrap: 'wrap',
