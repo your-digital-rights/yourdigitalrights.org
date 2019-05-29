@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
 
 export const ThanksTitleText = (
-  <FormattedMessage id="thanksTitle" defaultMessage="Thank you" />
+  <FormattedMessage id="thanksTitle" defaultMessage="Thank You" />
 );
 
 export const ThanksCopyText = (
