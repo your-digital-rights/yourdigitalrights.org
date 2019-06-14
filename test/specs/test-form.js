@@ -101,7 +101,7 @@ describe("When I visit the home page", () => {
       describe("thank you message", () => {
         it("shows a thank you message", () => {
           page.thanksMessage.isVisible.should.be.true;
-          expect(page.thanksMessage.title).to.equal("Thank you");
+          expect(page.thanksMessage.title).to.equal("Thank You");
           expect(page.thanksMessage.text).to.equal(
             "An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request"
           );
