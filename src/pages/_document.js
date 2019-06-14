@@ -53,7 +53,6 @@ export default class IntlDocument extends Document {
       this.props.locale
     }`;
     const { pageContext } = this.props;
-    const bablic = "[0,'en','en',1,['es','it'],4,0,0,0,{'es':'es.opt-out.eu','it':'it.opt-out.eu'},0,0,0,[],'opt-out.eu/',[],['_v',2]]";
     const { deeplinkedCompany } = this.props;
 
     return (
@@ -120,10 +119,7 @@ export default class IntlDocument extends Document {
             </p>
           </noscript>
           <script
-            data-cfasync="false"
-            data-bablic="5b7e74c02615ef00013b76b9"
-            data-bablic-m={bablic}
-            src="//cdn2.bablic.com/js/bablic.3.9.js"
+            src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9"
           />
         </Head>
         <body>
