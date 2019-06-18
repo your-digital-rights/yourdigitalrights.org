@@ -143,7 +143,7 @@ class Form {
   }
 
   get submitButton() {
-    return $("button=Send your request");
+    return $("button=Review your request");
   }
 }
 
