@@ -48,5 +48,5 @@ export const IdentifyingInfoHelperText = (
 );
 
 export const SubmitButtonText = (
-  <FormattedMessage id="sendButton" defaultMessage="Send your request" />
+  <FormattedMessage id="sendButton" defaultMessage="Review your request" />
 );

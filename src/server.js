@@ -10,6 +10,7 @@ const express = require("express");
 const accepts = require("accepts");
 const glob = require("glob");
 const next = require("next");
+const {create} = require("bablic");
 const sitemapAndRobots = require('./scripts/sitemapAndRobots')
 
 const port = parseInt(process.env.PORT, 10) || 3000;
@@ -46,6 +47,12 @@ app.prepare().then(() => {
 
   sitemapAndRobots({ server })
   
+  server.use(create({
+   siteId: '5b7e74c02615ef00013b76b9',
+   rootUrl: 'http://opt-out.eu',
+   subDir: true, // if you want to use sub dir for languages like /es/ /fr/
+  }));
+   
   server.get('*', (req, res) => {
       const accept = accepts(req)
       const locale = accept.language(accept.languages(supportedLanguages)) || 'en'
