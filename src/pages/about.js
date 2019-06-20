@@ -49,8 +49,8 @@ const About = ({ classes }) => {
         <meta
           name="twitter:description"
           content={Description}
-        />          
-      </Head>     
+        />
+      </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>

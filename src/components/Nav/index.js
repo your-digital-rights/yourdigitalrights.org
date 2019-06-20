@@ -166,11 +166,6 @@ class Nav extends Component  {
         </div>
         <ul className={classes.containerDektop}>
           <NavItem
-            href="/data-brokers"
-            text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
-            classes={classes}
-          />
-          <NavItem
             href="/#howItWorks"
             className={classes.NavItem}
             text={
@@ -184,13 +179,23 @@ class Nav extends Component  {
             classes={classes}
           />
           <NavItem
+            href="/data-brokers"
+            text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
+            classes={classes}
+          />
+          <NavItem
+            href="/data-brokers"
+            text={<FormattedMessage id="tools" defaultMessage="Tools and templates" />}
+            classes={classes}
+          />
+          <NavItem
             href="/about"
             text={<FormattedMessage id="about" defaultMessage="About Us" />}
             classes={classes}
           />
           <div className={classes.OO}>
-            <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.O1Button}>
-              {OOButtonText}
+            <Button variant="raised" href="javascript:document.getElementById('companyNameSearch').focus()" color="secondary" type="submit" className={classes.OOButtonMob}>
+                {OOButtonText}
             </Button>
           </div>
         </ul>
