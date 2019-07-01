@@ -60,11 +60,11 @@ export default class IntlDocument extends Document {
         <Head>
           <meta
             property="og:image"
-            content="https://opt-out.eu/static/opt-out-share.jpg"
+            content="https://opt-out.eu/static/opt-out-share.jpg?v=2"
           />
           <meta
             property="og:image:width"
-            content="1200"
+            content="898"
           />
           <meta
             property="og:image:height"
@@ -81,7 +81,7 @@ export default class IntlDocument extends Document {
 
           <meta
             name="twitter:image"
-            content="https://opt-out.eu/static/opt-out-share.jpg"
+            content="https://opt-out.eu/static/opt-out-share.jpg?v=2"
           />
           <meta
             name="viewport"
