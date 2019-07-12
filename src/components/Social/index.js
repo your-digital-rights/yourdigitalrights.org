@@ -79,7 +79,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <h1>hi</h1>
+      <></>
     )}
     
 

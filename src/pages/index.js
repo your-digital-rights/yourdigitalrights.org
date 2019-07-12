@@ -122,7 +122,7 @@ class Index extends Component {
         )}
         <HowItWorks />
         <FAQ />
-        <Social offset={true} />
+        <Social offset={true} sourcePage='homepage' />
         <Donations />
         <Footer />
       </div>
