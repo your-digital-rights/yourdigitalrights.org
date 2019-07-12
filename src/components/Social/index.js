@@ -3,7 +3,6 @@ import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import mailtoLink from "mailto-link";
-import styled from 'styled-components';
 import {
   FacebookShareButton,
   LinkedinShareButton,
@@ -52,15 +51,6 @@ const styles = theme => ({
 
 const GITHUB_URL = 'https://github.com/opt-out-eu/opt-out';
 
-const ExtensionHelpContainer = styled.div`
-  display: flex;
-`;
-
-const HelpImageContainer = styled.div`
-  display: flex;
-  height: 197px;
-  width: 377px;
-`;
 
 const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, style }) => {
 
@@ -89,9 +79,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <ExtensionHelpContainer>
-        <HelpImageContainer><img src='../../static/social.jpg' alt='browser extension help image' /></HelpImageContainer>
-      </ExtensionHelpContainer>
+      <h1>hi</h1>
     )}
     
 
