@@ -44,6 +44,12 @@ const styles = theme => ({
     }
   },
 
+  extensionHelpImg : {
+    width: '377px',
+    height: '197px',
+    objectFit: 'contain'
+  },
+
   shareButton: {
     padding: '0 10px'
   }
@@ -79,7 +85,15 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <></>
+      <div>
+        <div><img src='../../static/social.png' className={classes.extensionHelpImg}></img></div>
+        <div>
+          <h1>Opt out directly from your browser</h1>
+          <p>Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the opt-out movement.</p>
+          <button>chrome</button>
+          <button>firefox</button>
+        </div>
+      </div>
     )}
     
 
