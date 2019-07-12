@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 import { Component } from "react";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
@@ -82,17 +82,10 @@ class Index extends Component {
     const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
-    const Title = deeplinkedCompany
-      ? "Opt Out of " + deeplinkedCompany.name + " | Opt-out.eu"
-      : "Opt Out";
-    const Description = deeplinkedCompany
-      ? "Get " +
-        deeplinkedCompany.name +
-        " to erase your personal data by sending a GDPR Erasure Request (right to be forgoten)."
-      : "Own your data - get thousands of organisations to erase your personal data, hassle free.";
-    const Canonical = deeplinkedCompany
-      ? "https://opt-out.eu/?company=" + deeplinkedCompany.url
-      : "https://opt-out.eu/";
+    const Title = deeplinkedCompany ? "Opt Out of " + deeplinkedCompany.name + " | Opt-out.eu" : "Opt Out";
+    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data by sending a GDPR Erasure Request (right to be forgoten)." :
+      "Own your data - get thousands of organisations to erase your personal data, hassle free.";
+    const Canonical = deeplinkedCompany ? "https://opt-out.eu/?company=" + deeplinkedCompany.url : "https://opt-out.eu/"
 
     return (
       <div>
@@ -101,9 +94,18 @@ class Index extends Component {
           <link rel="canonical" href={Canonical} />
           <meta name="description" content={Description} />
           <meta property="og:description" content={Description} />
-          <meta property="og:title" content={Title} />
-          <meta name="twitter:title" content={Title} />
-          <meta name="twitter:description" content={Description} />
+          <meta
+            property="og:title"
+            content={Title}
+          />
+          <meta
+            name="twitter:title"
+            content={Title}
+          />
+          <meta
+            name="twitter:description"
+            content={Description}
+          />          
         </Head>
         <Hero>
           <SearchForm
@@ -120,7 +122,7 @@ class Index extends Component {
         )}
         <HowItWorks />
         <FAQ />
-        <Social offset={true} sourcePage="homepage" />
+        <Social offset={true} />
         <Donations />
         <Footer />
       </div>
