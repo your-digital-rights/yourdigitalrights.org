@@ -44,15 +44,27 @@ const styles = theme => ({
     }
   },
 
-  extensionHelperContainer: {
+  extensionHelperPlaceHolder: {
     display: 'flex',
     justifyContent: 'center',
     width: '100%'
   },
+
+  extensionHelperContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    width: '800px',
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: 'column',
+      alignItems: 'center'
+    }
+  },
   
   extensionHelpImgContainer: {
     display: 'flex',
-    marginRight: '50px'
+    [theme.breakpoints.down("sm")]: {
+      marginBottom: '30px'
+    }
   },
 
   extensionHelpImg: {
@@ -131,19 +143,21 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <div className={classes.extensionHelperContainer}>
-        <div className={classes.extensionHelpImgContainer}><img src='../../static/extensionHelperImages/extensionToolTipImage.png' className={classes.extensionHelpImg}></img></div>
-        <div className={classes.extensionHelpTextContainer}>
-          <Typography className={classes.extensionHelpHeading} component="h2" variant="display1" color="inherit">Opt out directly from your browser</Typography>
-          <Typography className={classes.extensionHelpParagraph} component="p" color="inherit">Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the <stong>opt-out movement</stong>.</Typography>
-          <div className={classes.extensionHelpButtonContainer}>
-            <div className={classes.extensionDownloadButton}>
-              <img width="38px" height="38px" src="../../static/extensionHelperImages/chromeLogo.png"></img>
-              <Typography variant="title">Download it for Chrome</Typography>
-            </div>
-            <div className={classes.extensionDownloadButton}>
-              <img width="38px" height="38px" src="../../static/extensionHelperImages/firefoxLogo.png"></img>
-              <Typography variant="title">Download it for Firefox</Typography>
+      <div className={classes.extensionHelperPlaceHolder}>
+        <div className={classes.extensionHelperContainer}>
+          <div className={classes.extensionHelpImgContainer}><img src='../../static/extensionHelperImages/extensionToolTipImage.png' className={classes.extensionHelpImg}></img></div>
+          <div className={classes.extensionHelpTextContainer}>
+            <Typography className={classes.extensionHelpHeading} component="h2" variant="display1" color="inherit">Opt out directly from your browser</Typography>
+            <Typography className={classes.extensionHelpParagraph} component="p" color="inherit">Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the <stong>opt-out movement</stong>.</Typography>
+            <div className={classes.extensionHelpButtonContainer}>
+              <div className={classes.extensionDownloadButton}>
+                <img width="38px" height="38px" src="../../static/extensionHelperImages/chromeLogo.png"></img>
+                <Typography variant="title">Download it for Chrome</Typography>
+              </div>
+              <div className={classes.extensionDownloadButton}>
+                <img width="38px" height="38px" src="../../static/extensionHelperImages/firefoxLogo.png"></img>
+                <Typography variant="title">Download it for Firefox</Typography>
+              </div>
             </div>
           </div>
         </div>
