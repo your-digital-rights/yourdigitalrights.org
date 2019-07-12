@@ -44,10 +44,24 @@ const styles = theme => ({
     }
   },
 
-  extensionHelpImg : {
+  extensionHelperContainer: {
+    display: 'flex',
+    justifyContent: 'space-between'
+  },
+  
+  extensionHelpImgContainer: {
+    display: 'flex'
+  },
+
+  extensionHelpImg: {
     width: '377px',
     height: '197px',
     objectFit: 'contain'
+  },
+
+  extensionHelpTextContainer: {
+    display: 'flex',
+    flexDirection: 'column'
   },
 
   shareButton: {
@@ -85,11 +99,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <div>
-        <div><img src='../../static/social.png' className={classes.extensionHelpImg}></img></div>
-        <div>
+      <div className={classes.extensionHelperContainer}>
+        <div className={classes.extensionHelpImgContainer}><img src='../../static/social.png' className={classes.extensionHelpImg}></img></div>
+        <div className={classes.extensionHelpTextContainer}>
           <h1>Opt out directly from your browser</h1>
-          <p>Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the opt-out movement.</p>
+          <p>Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the <stong>opt-out movement</stong>.</p>
           <button>chrome</button>
           <button>firefox</button>
         </div>
