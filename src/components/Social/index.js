@@ -3,6 +3,7 @@ import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import mailtoLink from "mailto-link";
+import styled from 'styled-components';
 import {
   FacebookShareButton,
   LinkedinShareButton,
@@ -51,16 +52,21 @@ const styles = theme => ({
 
 const GITHUB_URL = 'https://github.com/opt-out-eu/opt-out';
 
-const Social = (props) => {
-  let { classes, intl } = props;
-  let className;
+const ExtensionHelpContainer = styled.div`
+  display: flex;
+`;
 
-  let sourcPage = "thankyou";
-  if (props.offset) {
-    className = classes.offset;
-    sourcPage = "homepage";
+const HelpImageContainer = styled.div`
+  display: flex;
+  height: 197px;
+  width: 377px;
+`;
+
+const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, style }) => {
+
+  if (sourcePage === 'homepage') {
+    var className = classes.offset;
   }
-
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
   const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\n\nDid you know that you can get any organisation to erase your personal data for free? Check out https://opt-out.eu to know more.\n\nI hope you find it useful." });
@@ -81,16 +87,23 @@ const Social = (props) => {
     tracking.trackSocialShare(network);
   };
 
-  return <div className={classNames(classes.root, className, 'ss')} style={props.style}>
+  return <div className={classNames(classes.root, className, 'ss')} style={style}>
+    {sourcePage === 'homepage' && (
+      <ExtensionHelpContainer>
+        <HelpImageContainer><img src='../../static/social.jpg' alt='browser extension help image' /></HelpImageContainer>
+      </ExtensionHelpContainer>
+    )}
+    
+
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
         id="socialShareHeading"
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcPage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcPage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcPage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn'><img src="static/sh/mail.svg" /></a>
   </div>;
 };
