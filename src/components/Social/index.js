@@ -99,13 +99,24 @@ const styles = theme => ({
   extensionDownloadButton: {
     display: 'flex',
     alignItems: 'center',
-    paddingLeft: '15px',
+    paddingLeft: '22px',
     width: '290px',
     height: '64px',
     borderRadius: '32px',
     backgroundColor: '#eaeaea',
     color: '#585858',
     marginBottom: '20px'
+  },
+
+  extensionDownloadButtonIcon: {
+    width: '38px',
+    height: '38px',
+    marginRight: '20px'
+  },
+
+  extensionDownloadButtonLabel: {
+    fontSize: '15px',
+    fontWeight: 'bold'
   },
 
   shareButton: {
@@ -148,15 +159,18 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
           <div className={classes.extensionHelpImgContainer}><img src='../../static/extensionHelperImages/extensionToolTipImage.png' className={classes.extensionHelpImg}></img></div>
           <div className={classes.extensionHelpTextContainer}>
             <Typography className={classes.extensionHelpHeading} component="h2" variant="display1" color="inherit">Opt out directly from your browser</Typography>
-            <Typography className={classes.extensionHelpParagraph} component="p" color="inherit">Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the <stong>opt-out movement</stong>.</Typography>
+            <Typography className={classes.extensionHelpParagraph} component="p" color="inherit">
+              Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the 
+              <b> opt-out movement</b>.
+            </Typography>
             <div className={classes.extensionHelpButtonContainer}>
               <div className={classes.extensionDownloadButton}>
-                <img width="38px" height="38px" src="../../static/extensionHelperImages/chromeLogo.png"></img>
-                <Typography variant="title">Download it for Chrome</Typography>
+                <img className={classes.extensionDownloadButtonIcon} src="../../static/extensionHelperImages/chromeLogo.png"></img>
+                <Typography className={classes.extensionDownloadButtonLabel} variant="title">Download it for Chrome</Typography>
               </div>
               <div className={classes.extensionDownloadButton}>
-                <img width="38px" height="38px" src="../../static/extensionHelperImages/firefoxLogo.png"></img>
-                <Typography variant="title">Download it for Firefox</Typography>
+                <img className={classes.extensionDownloadButtonIcon} src="../../static/extensionHelperImages/firefoxLogo.png"></img>
+                <Typography className={classes.extensionDownloadButtonLabel} variant="title">Download it for Firefox</Typography>
               </div>
             </div>
           </div>
@@ -171,10 +185,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
     <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn'><img src="static/sh/mail.svg" /></a>
+
+    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
   </div>;
 };
 
