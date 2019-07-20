@@ -60,7 +60,7 @@ const styles = theme => ({
   extensionHelperContainer: {
     display: 'flex',
     justifyContent: 'space-between',
-    width: '800px',
+    width: '1100px',
     [theme.breakpoints.down("sm")]: {
       flexDirection: 'column',
       alignItems: 'center'
