@@ -32,7 +32,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>
-          <Typography color="inherit" className={classes.introEnd}>
+          <Typography color="inherit" className={classes.introEnd} component="span">
             <p>Don't know where to start? Opt out of these <a className={classes.introLink} href="/data-brokers">Data Brokers</a>.</p>
           </Typography>
           {children}

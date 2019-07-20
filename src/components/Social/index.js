@@ -2,6 +2,7 @@ import { FormattedMessage, intlShape, injectIntl } from "react-intl";
 import { themeBg } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
+import Button from "@material-ui/core/Button";
 import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
@@ -10,6 +11,10 @@ import {
 } from 'react-share';
 import classNames from 'classnames';
 import tracking from '../../utils/tracking';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChrome, faFirefox } from '@fortawesome/free-brands-svg-icons'
+
+
 
 const styles = theme => ({
   root: {
@@ -32,7 +37,8 @@ const styles = theme => ({
   shareHeading: {
     color: "white",
     marginBottom: '30px',
-    flex: "1 0 100%"
+    flex: "1 0 100%",
+    fontWeight: 'bold'
   },
 
   btn: {
@@ -47,7 +53,8 @@ const styles = theme => ({
   extensionHelperPlaceHolder: {
     display: 'flex',
     justifyContent: 'center',
-    width: '100%'
+    width: '100%',
+    marginBottom: '60px'
   },
 
   extensionHelperContainer: {
@@ -100,28 +107,35 @@ const styles = theme => ({
   extensionDownloadButton: {
     display: 'flex',
     alignItems: 'center',
-    paddingLeft: '22px',
+    justifyContent: 'flex-start',
+    paddingLeft: '20px',
     width: '290px',
     height: '64px',
     borderRadius: '32px',
     backgroundColor: '#eaeaea',
     color: '#585858',
-    marginBottom: '20px'
+    marginBottom: '20px',
+    fontSize: '15px',
+    textTransform: 'capitalize',
+    fontWeight: 'bold',
+    textAlign: 'left'
   },
 
   extensionDownloadButtonIcon: {
-    width: '38px',
+    width: '2em',
     height: '38px',
-    marginRight: '20px'
+    marginRight: '20px',
+    fontSize: '40px'
   },
 
   extensionDownloadButtonLabel: {
     fontSize: '15px',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
 
   shareButton: {
-    padding: '0 10px'
+    padding: '0 10px',
+    cursor: 'pointer'
   }
 });
 
@@ -146,7 +160,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
   };
 
   const shareButtonProps = {
-    class: 'ss-btn'
+    className: 'ss-btn'
   };
 
   const trackShare = (network) => {
@@ -165,14 +179,14 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
               <b> opt-out movement</b>.
             </Typography>
             <div className={classes.extensionHelpButtonContainer}>
-              <div className={classes.extensionDownloadButton}>
-                <img className={classes.extensionDownloadButtonIcon} src="../../static/extensionHelperImages/chromeLogo.png"></img>
-                <Typography className={classes.extensionDownloadButtonLabel} variant="title">Download it for Chrome</Typography>
-              </div>
-              <div className={classes.extensionDownloadButton}>
-                <img className={classes.extensionDownloadButtonIcon} src="../../static/extensionHelperImages/firefoxLogo.png"></img>
-                <Typography className={classes.extensionDownloadButtonLabel} variant="title">Download it for Firefox</Typography>
-              </div>
+              <Button variant="extendedFab" aria-label="Delete" className={classes.extensionDownloadButton}>
+              <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faChrome}/>
+                Download it for Chrome
+              </Button>
+              <Button variant="extendedFab" aria-label="Delete" className={classes.extensionDownloadButton} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+                <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faFirefox}/>
+                Download it for Firefox
+              </Button>
             </div>
           </div>
         </div>
@@ -186,12 +200,16 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
+    
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
-    <a href={emailLink} onClick={handleEmailClick} className='ss-btn'><img src="static/sh/mail.svg" /></a>
 
+    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+
+    <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
+    <a href={GITHUB_URL} className='ss-btn SocialMediaShareButton--github'><img src="static/sh/github.svg" /></a>
     <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-  </div>;
+
+  </div>; 
 };
 
 Social.propTypes = {

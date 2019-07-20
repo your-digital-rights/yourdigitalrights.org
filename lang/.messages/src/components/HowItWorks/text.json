@@ -1,0 +1,50 @@
+[
+  {
+    "id": "title",
+    "defaultMessage": "How it works"
+  },
+  {
+    "id": "imgAlt",
+    "defaultMessage": "A graphic representing the opt-out user interface"
+  },
+  {
+    "id": "searchTitle",
+    "defaultMessage": "Search"
+  },
+  {
+    "id": "search",
+    "defaultMessage": "Search for an organisation using the search box above. If the organisation you are looking for is not on the list, you can still send it a request by providing a contact email."
+  },
+  {
+    "id": "fillInTitle",
+    "defaultMessage": "Fill in"
+  },
+  {
+    "id": "fillIn",
+    "defaultMessage": "Fill in your name and any additional information which may help the organisation to identify you in their information systems (we do not keep this information)."
+  },
+  {
+    "id": "sendTitle",
+    "defaultMessage": "Send"
+  },
+  {
+    "id": "send",
+    "defaultMessage": "Click the Send button to create an Erasure Request email addressed to the relevant person at the organisation you selected. The email will open up in your email application where you can then review, and then send it."
+  },
+  {
+    "id": "yourDataTitle",
+    "defaultMessage": "It's your data, own it!"
+  },
+  {
+    "id": "yourData",
+    "defaultMessage": "{link} (GDPR) recently introduced in Europe require organisations to erase personal data upon request. Organisations have one month to comply, otherwise they can face steep fines"
+  },
+  {
+    "id": "whyTitle",
+    "defaultMessage": "Why Opt-out?"
+  },
+  {
+    "id": "whyBody",
+    "defaultMessage": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy. This is a free service. We do not offer any services to the organizations on our list. We do not collect or trade any personal data."
+  }
+]

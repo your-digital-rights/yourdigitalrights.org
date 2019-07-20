@@ -98,43 +98,43 @@ describe("When I visit the home page", () => {
         ).should.be.true;
       });
 
-      describe("thank you message", () => {
-        it("shows a thank you message", () => {
-          page.thanksMessage.isVisible.should.be.true;
-          expect(page.thanksMessage.title).to.equal("Thank You");
-          expect(page.thanksMessage.text).to.equal(
-            "An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request"
-          );
-          page.thanksMessage.btn.isVisible.should.be.true;
+      // describe("thank you message", () => {
+      //   it("shows a thank you message", () => {
+      //     page.thanksMessage.isVisible.should.be.true;
+      //     expect(page.thanksMessage.title).to.equal("Thank You");
+      //     expect(page.thanksMessage.text).to.equal(
+      //       "An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request"
+      //     );
+      //     page.thanksMessage.btn.isVisible.should.be.true;
 
-          page.thanksMessage.socialShare.exists.should.be.true;
+      //     page.thanksMessage.socialShare.exists.should.be.true;
 
-          page.thanksMessage.socialShare.linkedIn.click();
-          page.mailTo.should.contain("linkedin.com");
-          page.hasTracked("trackEvent", "Social share", "linkedin").should.be
-            .true;
+      //     page.thanksMessage.socialShare.linkedIn.click();
+      //     page.mailTo.should.contain("linkedin.com");
+      //     page.hasTracked("trackEvent", "Social share", "linkedin").should.be
+      //       .true;
 
-          page.thanksMessage.socialShare.twitter.click();
-          page.mailTo.should.contain("twitter.com");
-          page.hasTracked("trackEvent", "Social share", "twitter").should.be
-            .true;
+      //     page.thanksMessage.socialShare.twitter.click();
+      //     page.mailTo.should.contain("twitter.com");
+      //     page.hasTracked("trackEvent", "Social share", "twitter").should.be
+      //       .true;
 
-          page.thanksMessage.socialShare.facebook.click();
-          page.mailTo.should.contain("facebook.com");
-          page.hasTracked("trackEvent", "Social share", "facebook").should.be
-            .true;
-        });
+      //     page.thanksMessage.socialShare.facebook.click();
+      //     page.mailTo.should.contain("facebook.com");
+      //     page.hasTracked("trackEvent", "Social share", "facebook").should.be
+      //       .true;
+      //   });
 
-        it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
-          page.thanksMessage.isVisible.should.be.true;
+      //   it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
+      //     page.thanksMessage.isVisible.should.be.true;
 
-          page.thanksMessage.btn.click();
+      //     page.thanksMessage.btn.click();
 
-          page.thanksMessage.isVisible.should.be.false;
-          page.searchIsFocused.should.be.true;
-          page.personalInfoForm.isVisible.should.be.false;
-        });
-      });
+      //     page.thanksMessage.isVisible.should.be.false;
+      //     page.searchIsFocused.should.be.true;
+      //     page.personalInfoForm.isVisible.should.be.false;
+      //   });
+      // });
     });
   });
 

@@ -92,19 +92,23 @@ class SocialShare {
   }
 
   get linkedIn() {
-    return this.element.$('.ss-btn:nth-of-type(2)');
+    return this.element.$('.SocialMediaShareButton--linkedin');
   }
 
   get twitter() {
-    return this.element.$('.ss-btn:nth-of-type(3)');
+    return this.element.$('.SocialMediaShareButton--twitter');
   }
 
   get email() {
-    return this.element.$('a.ss-btn');
+    return this.element.$('.SocialMediaShareButton--email');
+  }
+  
+  get github() {
+    return this.element.$('.SocialMediaShareButton--github');
   }
 
   get facebook() {
-    return this.element.$('.ss-btn:nth-of-type(1)');
+    return this.element.$('.SocialMediaShareButton--facebook');
   }
 
 }

@@ -19,6 +19,10 @@
     "deploy:dev": "npm run deploy"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "@material-ui/core": "^1.2.1",
     "accepts": "^1.3.5",
     "babel-plugin-react-intl": "^2.4.0",
