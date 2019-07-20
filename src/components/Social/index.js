@@ -52,13 +52,14 @@ const styles = theme => ({
     display: 'flex',
     justifyContent: 'center',
     width: '100%',
-    marginBottom: '60px'
+    marginBottom: '60px',
+    marginTop: '50px'
   },
 
   extensionHelperContainer: {
     display: 'flex',
     justifyContent: 'space-between',
-    width: '800px',
+    width: '850px',
     [theme.breakpoints.down("sm")]: {
       flexDirection: 'column',
       alignItems: 'center'
@@ -67,7 +68,9 @@ const styles = theme => ({
   
   extensionHelpImgContainer: {
     display: 'flex',
+    marginTop: '40px',
     [theme.breakpoints.down("sm")]: {
+      marginTop: '0',
       marginBottom: '30px'
     }
   },
