@@ -179,11 +179,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
               <b> opt-out movement</b>.
             </Typography>
             <div className={classes.extensionHelpButtonContainer}>
-              <Button variant="extendedFab" aria-label="Delete" className={classes.extensionDownloadButton}>
+              <Button variant="extendedFab" aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
               <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faChrome}/>
                 Download it for Chrome
               </Button>
-              <Button variant="extendedFab" aria-label="Delete" className={classes.extensionDownloadButton} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+              <Button variant="extendedFab" aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
                 <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faFirefox}/>
                 Download it for Firefox
               </Button>
