@@ -14,8 +14,6 @@ import tracking from '../../utils/tracking';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChrome, faFirefox } from '@fortawesome/free-brands-svg-icons'
 
-
-
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
@@ -193,7 +191,6 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
       </div>
     )}
     
-
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
         id="socialShareHeading"
@@ -202,9 +199,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     </Typography>
     
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-
     <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
-
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
     <a href={GITHUB_URL} className='ss-btn SocialMediaShareButton--github'><img src="static/sh/github.svg" /></a>
     <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
