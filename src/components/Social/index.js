@@ -100,7 +100,6 @@ const styles = theme => ({
   extensionHelpButtonContainer: {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
     alignItems: 'center',
     cursor: 'pointer'
   },
@@ -109,9 +108,9 @@ const styles = theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    paddingLeft: '20px',
-    width: '290px',
-    height: '64px',
+    paddingLeft: '10px',
+    paddingRight: '20px',
+    height: '39px',
     borderRadius: '32px',
     backgroundColor: '#eaeaea',
     color: '#585858',
@@ -123,10 +122,15 @@ const styles = theme => ({
   },
 
   extensionDownloadButtonIcon: {
-    width: '2em',
-    height: '38px',
-    marginRight: '20px',
-    fontSize: '40px'
+    width: '28px',
+    height: '28px',
+    marginRight: '10px',
+    fontSize: '40px',
+    textAlign: 'left'
+  },
+
+  extensionDownloadButtonIconFireFox: {
+    marginLeft: '3px'
   },
 
   extensionDownloadButtonLabel: {
@@ -139,9 +143,6 @@ const styles = theme => ({
     cursor: 'pointer'
   }
 });
-
-const GITHUB_URL = 'https://github.com/opt-out-eu/opt-out';
-
 
 const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, style }) => {
 
@@ -185,7 +186,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
                 Download it for Chrome
               </Button>
               <Button variant="extendedFab" aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
-                <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faFirefox}/>
+                <FontAwesomeIcon className={classNames(classes.extensionDownloadButtonIcon, classes.extensionDownloadButtonIconFireFox)} color="#005ea5" icon={faFirefox}/>
                 Download it for Firefox
               </Button>
             </div>
@@ -204,7 +205,6 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
     <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
-    <a href={GITHUB_URL} className='ss-btn SocialMediaShareButton--github'><img src="static/sh/github.svg" /></a>
     <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
 
   </div>; 
