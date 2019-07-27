@@ -29,8 +29,7 @@ const styles = theme => ({
   },
 
   content: {
-    padding: '60px 77px',
-    paddingBottom: '20px'
+    padding: '60px 77px 0 77px'
   },
 
   title: {
@@ -40,6 +39,35 @@ const styles = theme => ({
   text: {
     marginBottom: '30px',
     textAlign: 'left'
+  },
+
+  extensionInfoContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+
+  browserExtensionsText: {
+    fontSize: '1em',
+    fontWeight: '600',
+    fontStyle: 'normal',
+    fontStretch: 'normal',
+    lineHeight: 'normal',
+    letterSpacing: 'normal',
+    color: '#585858'
+  },
+
+  browserExtensionLinkContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    margin: '35px 0',
+    width: '150px'
+  },
+
+  extensionLinkIcons: {
+    width: '64px',
+    height: '64px'
   },
 
   btn: {
@@ -77,7 +105,7 @@ const ThanksMessage = (props) => {
         elevation={10}
         id="ThanksMessage"
       >
-      <div class={classes.content}>
+      <div className={classes.content}>
         <Typography variant="display1" gutterBottom={true} className={classes.title} id="ThanksMessageTitle">
           {ThanksTitleText}
         </Typography>
@@ -87,6 +115,19 @@ const ThanksMessage = (props) => {
         <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="ThanksMessageBtn" onClick={hide}>
           {FindCompanyText}
         </Button>
+      </div>
+      <div className={classes.extensionInfoContainer}>
+        <Typography component="b" gutterBottom={true} className={classes.browserExtensionsText}>
+          Download our browser extension
+        </Typography>
+        <div className={classes.browserExtensionLinkContainer}>
+          <a target="_blank" onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')} href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
+            <img className={classes.extensionLinkIcons} src='../../static/chrome.png'></img>
+          </a>
+          <a target="_blank" onClick={trackShare.bind(null, 'extension-firefox-thankyou-page')} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+            <img className={classes.extensionLinkIcons} src='../../static/firefox.png'></img>
+          </a>
+        </div>
       </div>
       <Social />
     </Paper>
