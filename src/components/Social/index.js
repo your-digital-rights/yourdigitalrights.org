@@ -115,7 +115,7 @@ const styles = theme => ({
     backgroundColor: '#eaeaea',
     color: '#585858',
     marginBottom: '20px',
-    fontSize: '15px',
+    fontSize: '1em',
     textTransform: 'capitalize',
     fontWeight: 'bold',
     textAlign: 'left'
@@ -134,7 +134,7 @@ const styles = theme => ({
   },
 
   extensionDownloadButtonLabel: {
-    fontSize: '15px',
+    fontSize: '1em',
     fontWeight: 'bold',
   },
 
