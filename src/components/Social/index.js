@@ -171,21 +171,20 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <div className={classes.extensionHelperPlaceHolder}>
+      <div id="extensions" className={classes.extensionHelperPlaceHolder}>
         <div className={classes.extensionHelperContainer}>
           <div className={classes.extensionHelpImgContainer}><img src='../../static/extensionHelperImages/extensionToolTipImage.png' className={classes.extensionHelpImg}></img></div>
           <div className={classes.extensionHelpTextContainer}>
             <Typography className={classes.extensionHelpHeading} component="h2" variant="display1" color="inherit">Opt out directly from your browser</Typography>
             <Typography className={classes.extensionHelpParagraph} component="p" color="inherit">
-              Opt out directly from your browser with our new chrome extension. Submit your reequest and contribute to grow the 
-              <b> opt-out movement</b>.
+              Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button.
             </Typography>
             <div className={classes.extensionHelpButtonContainer}>
-              <Button variant="extendedFab" aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
+              <Button variant="extendedFab" onClick={() => {trackShare.bind(null, 'chrome-extension')}} aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
               <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faChrome}/>
                 Download it for Chrome
               </Button>
-              <Button variant="extendedFab" aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+              <Button variant="extendedFab" onClick={() => {trackShare.bind(null, 'firefox-extension')}} aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
                 <FontAwesomeIcon className={classNames(classes.extensionDownloadButtonIcon, classes.extensionDownloadButtonIconFireFox)} color="#005ea5" icon={faFirefox}/>
                 Download it for Firefox
               </Button>
@@ -201,11 +200,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         defaultMessage="If you find this service useful, please spread the word"
         />
     </Typography>
-    
+
+    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
     <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
 
   </div>; 
 };
