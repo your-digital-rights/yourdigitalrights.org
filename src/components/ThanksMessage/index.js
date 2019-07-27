@@ -4,6 +4,8 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Social from '../Social';
+import tracking from '../../utils/tracking';
+
 
 import {
   FacebookShareButton,
@@ -98,6 +100,10 @@ const ThanksMessage = (props) => {
     props.hideThanks();
   };
 
+  const trackShare = (network) => {
+    tracking.trackSocialShare(network);
+  };
+
   return (
     <Paper
         component="div"
@@ -121,10 +127,10 @@ const ThanksMessage = (props) => {
           Download our browser extension
         </Typography>
         <div className={classes.browserExtensionLinkContainer}>
-          <a target="_blank" onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')} href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
+          <a id="chromeExtension" target="_blank" onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')} href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
             <img className={classes.extensionLinkIcons} src='../../static/chrome.png'></img>
           </a>
-          <a target="_blank" onClick={trackShare.bind(null, 'extension-firefox-thankyou-page')} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+          <a id="firefoxExtension" target="_blank" onClick={trackShare.bind(null, 'extension-firefox-thankyou-page')} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
             <img className={classes.extensionLinkIcons} src='../../static/firefox.png'></img>
           </a>
         </div>
