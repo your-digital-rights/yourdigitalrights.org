@@ -58,7 +58,12 @@ const Nav = ({ classes }) => {
           href="/data-brokers"
           text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
           classes={classes}
-        />        
+        />
+        <NavItem
+          href="/#Extension"
+          text={<FormattedMessage id="Extension" defaultMessage="Browser extension" />}
+          classes={classes}
+        />
         <NavItem
           href="/about"
           text={<FormattedMessage id="about" defaultMessage="About Us" />}

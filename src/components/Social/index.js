@@ -65,7 +65,7 @@ const styles = theme => ({
       alignItems: 'center'
     }
   },
-  
+
   extensionHelpImgContainer: {
     display: 'flex',
     marginTop: '40px',
@@ -169,7 +169,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     tracking.trackSocialShare(network);
   };
 
-  return <div className={classNames(classes.root, className, 'ss')} style={style}>
+  return <div className={classNames(classes.root, className, 'ss')} style={style} id="Extension">
     {sourcePage === 'homepage' && (
       <div id="extensions" className={classes.extensionHelperPlaceHolder}>
         <div className={classes.extensionHelperContainer}>
@@ -193,7 +193,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         </div>
       </div>
     )}
-    
+
     <Typography variant="title" gutterBottom={true} className={classes.shareHeading}>
       <FormattedMessage
         id="socialShareHeading"
@@ -206,7 +206,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
 
-  </div>; 
+  </div>;
 };
 
 Social.propTypes = {
