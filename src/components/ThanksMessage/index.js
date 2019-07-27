@@ -31,7 +31,11 @@ const styles = theme => ({
   },
 
   content: {
-    padding: '60px 77px 0 77px'
+    padding: '60px 77px 0 77px',
+
+    [theme.breakpoints.down("sm")]: {
+      padding: '60px 25px 0 25px'
+    }
   },
 
   title: {
