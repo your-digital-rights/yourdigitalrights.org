@@ -105,7 +105,7 @@ class Index extends Component {
           <meta
             name="twitter:description"
             content={Description}
-          />          
+          />
         </Head>
         <Hero>
           <SearchForm
