@@ -169,9 +169,9 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     tracking.trackSocialShare(network);
   };
 
-  return <div className={classNames(classes.root, className, 'ss')} style={style} id="Extension">
+  return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
-      <div id="extensions" className={classes.extensionHelperPlaceHolder}>
+      <div id="Extension" className={classes.extensionHelperPlaceHolder}>
         <div className={classes.extensionHelperContainer}>
           <div className={classes.extensionHelpImgContainer}><img src='../../static/extensionHelperImages/extensionToolTipImage.png' className={classes.extensionHelpImg}></img></div>
           <div className={classes.extensionHelpTextContainer}>

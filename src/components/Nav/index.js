@@ -50,11 +50,6 @@ const Nav = ({ classes }) => {
           classes={classes}
         />
         <NavItem
-          href="/#extensions"
-          text={<FormattedMessage id="extensions" defaultMessage="Extensions" />}
-          classes={classes}
-        />
-        <NavItem
           href="/data-brokers"
           text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
           classes={classes}
