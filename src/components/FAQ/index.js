@@ -25,16 +25,16 @@ class FAQ extends Component {
 
     return (
       <div className={classes.alphaList}>
-        {body.map(text => {
+        {body.map((text, index) => {
           return (
-            <div>
+            <div key={index}>
               <Typography color="textSecondary" component="p">
                 {text.item || text}
               </Typography>
               {text.subItems && (
                 <ul className={classes.list}>
-                  {text.subItems.map(subItemText => (
-                    <li>
+                  {text.subItems.map((subItemText, index) => (
+                    <li key={index}>
                       <Typography color="textSecondary">
                         {subItemText}
                       </Typography>
@@ -49,14 +49,15 @@ class FAQ extends Component {
     );
   };
 
-  renderItem = ({ heading, body }, i) => {
+  renderItem = ({ heading, body }, index) => {
     const { classes } = this.props;
     const { expanded } = this.state;
 
     return (
       <ExpansionPanel
-        expanded={expanded === `panel${i}`}
-        onChange={this.handleChange(`panel${i}`)}
+        key={index}
+        expanded={expanded === `panel${index}`}
+        onChange={this.handleChange(`panel${index}`)}
       >
         <ExpansionPanelSummary expandIcon={<Icon>expand_more</Icon>}>
           <Typography variant={"body2"}>{heading}</Typography>
