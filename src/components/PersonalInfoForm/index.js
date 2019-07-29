@@ -11,9 +11,8 @@ import {
 } from "./text";
 
 import Button from "@material-ui/core/Button";
-import { Component } from "react";
+import React, { Component, Fragment} from "react";
 import { FormattedMessage } from "react-intl";
-import { Fragment } from "react";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
@@ -26,16 +25,22 @@ import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 
 class Form extends Component {
-  state = {
-    name: "",
-    email: "",
-    identifyingInfo: "",
-    companyName: "",
-    companyEmail: "",
-    hasSubmit: false
-  };
+  constructor(props) {
+    super(props);
 
-  handlers = {};
+    this.state = {
+      name: "",
+      email: "",
+      identifyingInfo: "",
+      companyName: "",
+      companyEmail: "",
+      hasSubmit: false
+    };
+
+    this.handlers = {};
+
+  }
+  
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -51,15 +56,11 @@ class Form extends Component {
     e.preventDefault();
     window.open(this.renderMailTo());
 
-    let state = Object.assign({}, this.state);
-
-    this.setState(state);
-
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
-      state.hasSubmit = true;
-
+      this.setState({hasSubmit: true});
+      window.location ='#Form';
       tracking.trackRequestComplete(this.props.selectedCompany.name);
     }
   };
@@ -126,93 +127,99 @@ class Form extends Component {
       />
     );
 
+    let formToDisplay;
     if (this.state.hasSubmit) {
-      return (
+      formToDisplay = (
         <ThanksMessage
+          id="ThanksMessageContainer"
           className="thanks-message"
           hideThanks={this.props.focusSearch}
         />
       );
+    } else {
+      formToDisplay = (
+        <Paper
+          component="form"
+          className={classes.formContainer}
+          onSubmit={this.handleFormSubmit}
+          id="personalInfoForm"
+          elevation={10}
+        >
+  
+          <Typography variant="display1" component="h2" gutterBottom={true}>
+            {HeadingText}
+          </Typography>
+          <Typography gutterBottom={true} variant={"body2"}>
+            {IntroText}
+          </Typography>
+          {!selectedCompany && (
+            <Fragment>
+              <TextField
+                id="companyName"
+                label={CompanyNameLabelText}
+                value={this.state.companyName}
+                onChange={this.handleInput("companyName")}
+                margin="normal"
+                required
+                autoFocus
+                helperText={CompanyNameHelperText}
+              />
+              <TextField
+                id="companyEmail"
+                label={CompanyEmailLabelText}
+                value={this.state.companyEmail}
+                onChange={this.handleInput("companyEmail")}
+                margin="normal"
+                required
+                type="email"
+                helperText={CompanyEmailHelperText}
+              />
+            </Fragment>
+          )}
+          <TextField
+            id="name"
+            label={NameLabelText}
+            value={this.state.name}
+            onChange={this.handleInput("name")}
+            margin="normal"
+            required
+            autoFocus={!!selectedCompany}
+            helperText={NameHelperText}
+          />
+          <TextField
+            id="identifyingInfo"
+            label={IdentifyingInfoLabelText}
+            value={this.state.identifyingInfo}
+            onChange={this.handleInput("identifyingInfo")}
+            margin="normal"
+            multiline
+            rows={4}
+            helperText={IdentifyingInfoHelperText}
+          />
+          {this.props.selectedCompany && (
+            <input
+              type="hidden"
+              name="companyUrl"
+              value={this.props.selectedCompany.url}
+            />
+          )}
+          <div>
+            <Button
+              variant="raised"
+              color="primary"
+              type="submit"
+              className={classes.formButton}
+            >
+              {SubmitButtonText}
+            </Button>
+          </div>
+        </Paper>
+      );
     }
 
-    return (
-      <Paper
-        component="form"
-        className={classes.formContainer}
-        onSubmit={this.handleFormSubmit}
-        id="personalInfoForm"
-        elevation={10}
-      >
+    return <div id='Form'>{formToDisplay}</div>
 
-        <Typography variant="display1" component="h2" gutterBottom={true}>
-          {HeadingText}
-        </Typography>
-        <Typography gutterBottom={true} variant={"body2"}>
-          {IntroText}
-        </Typography>
-        {!selectedCompany && (
-          <Fragment>
-            <TextField
-              id="companyName"
-              label={CompanyNameLabelText}
-              value={this.state.companyName}
-              onChange={this.handleInput("companyName")}
-              margin="normal"
-              required
-              autoFocus
-              helperText={CompanyNameHelperText}
-            />
-            <TextField
-              id="companyEmail"
-              label={CompanyEmailLabelText}
-              value={this.state.companyEmail}
-              onChange={this.handleInput("companyEmail")}
-              margin="normal"
-              required
-              type="email"
-              helperText={CompanyEmailHelperText}
-            />
-          </Fragment>
-        )}
-        <TextField
-          id="name"
-          label={NameLabelText}
-          value={this.state.name}
-          onChange={this.handleInput("name")}
-          margin="normal"
-          required
-          autoFocus={!!selectedCompany}
-          helperText={NameHelperText}
-        />
-        <TextField
-          id="identifyingInfo"
-          label={IdentifyingInfoLabelText}
-          value={this.state.identifyingInfo}
-          onChange={this.handleInput("identifyingInfo")}
-          margin="normal"
-          multiline
-          rows={4}
-          helperText={IdentifyingInfoHelperText}
-        />
-        {this.props.selectedCompany && (
-          <input
-            type="hidden"
-            name="companyUrl"
-            value={this.props.selectedCompany.url}
-          />
-        )}
-        <div>
-          <Button
-            variant="raised"
-            color="primary"
-            type="submit"
-            className={classes.formButton}
-          >
-            {SubmitButtonText}
-          </Button>
-        </div>
-      </Paper>
-    );
+    
   }
 }
 export default withStyles(styles)(Form);

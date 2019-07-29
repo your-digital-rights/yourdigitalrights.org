@@ -108,6 +108,8 @@ describe("When I visit the home page", () => {
           page.thanksMessage.btn.isVisible.should.be.true;
 
           page.thanksMessage.socialShare.exists.should.be.true;
+          expect(page.thanksMessage.extensionChromeButton).to.equal("https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB");
+          expect(page.thanksMessage.extensionFirefoxButton).to.equal("https://addons.mozilla.org/en-GB/android/addon/opt-out/");
 
           page.thanksMessage.socialShare.linkedIn.click();
           page.mailTo.should.contain("linkedin.com");

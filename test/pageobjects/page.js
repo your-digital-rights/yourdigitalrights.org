@@ -52,6 +52,12 @@ class Page {
           click: btn.click
         };
       },
+      get extensionChromeButton() {
+        return thanks.$('#chromeExtension').getAttribute('href');
+      },
+      get extensionFirefoxButton() {
+        return thanks.$('#firefoxExtension').getAttribute('href');
+      },
       get socialShare() {
         return new SocialShare('#ThanksMessage');
       }
