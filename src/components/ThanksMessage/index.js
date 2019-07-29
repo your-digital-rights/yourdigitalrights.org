@@ -128,7 +128,7 @@ const ThanksMessage = (props) => {
       </div>
       <div className={classes.extensionInfoContainer}>
         <Typography component="b" gutterBottom={true} className={classes.browserExtensionsText}>
-          Download our browser extension
+          Save time by installing our browser extension
         </Typography>
         <div className={classes.browserExtensionLinkContainer}>
           <a id="chromeExtension" target="_blank" onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')} href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
