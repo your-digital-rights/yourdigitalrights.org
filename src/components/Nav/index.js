@@ -56,7 +56,7 @@ const Nav = ({ classes }) => {
         />
         <NavItem
           href="/#Extension"
-          text={<FormattedMessage id="Extension" defaultMessage="Browser extension" />}
+          text={<FormattedMessage id="Extension" defaultMessage="Browser Extension" />}
           classes={classes}
         />
         <NavItem
