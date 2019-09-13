@@ -12,12 +12,12 @@ const Hero = ({ classes, onCompanySelected, children }) => {
       <div className={classes.container}>
         <div className={classes.heading}>
           <h1 className={classes.title}>
-            <img
+            {/* <img
               src="static/optout.svg"
               alt="Opt out"
               className={classes.titleImg}
               role="presentation"
-            />
+            /> */}
             <span style={visuallyHidden}>Opt-out</span>
           </h1>
 

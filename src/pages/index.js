@@ -89,6 +89,7 @@ class Index extends Component {
 
     return (
       <div>
+        <Nav />
         <Head>
           <title>{Title}</title>
           <link rel="canonical" href={Canonical} />
@@ -113,7 +114,6 @@ class Index extends Component {
             innerRef={this.searchForm}
           />
         </Hero>
-        <Nav />
         {(company || this.state.manualCompanyEntryEnabled) && (
           <PersonalInfoForm
             selectedCompany={company}

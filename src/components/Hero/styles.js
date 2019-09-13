@@ -4,7 +4,7 @@ import { themeBg } from "../../styles/theme";
 export default theme => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
-    borderTop: "5px black solid",
+    // borderTop: "5px black solid",
     ...themeBg
   },
   heading: {
