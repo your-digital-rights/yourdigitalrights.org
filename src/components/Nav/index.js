@@ -1,8 +1,8 @@
 import { FormattedMessage } from 'react-intl'
 import Typography from '@material-ui/core/Typography'
-import { container } from '../../styles/layout'
 import { withStyles } from '@material-ui/core/styles'
 import React, { Component, Fragment } from 'react'
+import classNames from 'classnames'
 
 const styles = theme => ({
     nav: {
@@ -13,6 +13,7 @@ const styles = theme => ({
         backgroundColor: '#005ea5',
         borderBottom: '4px solid #0a74be',
         height: '72px',
+        zIndex: '11000',
         [theme.breakpoints.down('xs')]: {
             padding: '0 15px',
         },
@@ -58,10 +59,19 @@ const styles = theme => ({
         position: 'absolute',
         right: '0',
         zIndex: '10000',
+
         [theme.breakpoints.down('sm')]: {
             display: 'flex',
             justifyContent: 'center',
         },
+    },
+    scrollOut: {
+        right: '-200px',
+        transition: ' right 0.5s',
+    },
+    scrollIn: {
+        right: '0',
+        transition: 'right 0.5s',
     },
     mobileList: {
         display: 'flex',
@@ -126,8 +136,6 @@ const NavList = ({ classes, mobile }) => {
                 text={<FormattedMessage id="about" defaultMessage="About" />}
                 classes={classes}
             />
-
-            {mobile && <></>}
         </ul>
     )
 }
@@ -173,6 +181,7 @@ class Nav extends Component {
 
     render() {
         const { classes } = this.props
+        const { mobileNavOpen } = this.state
 
         return (
             <React.Fragment>
@@ -186,15 +195,16 @@ class Nav extends Component {
                         onClick={this.toggleMobileNav}
                     />
                 </nav>
-                {this.state.mobileNavOpen && (
-                    <div
-                        ref={this.hamburgerButton}
-                        className={classes.mobileListContainer}
-                        onFocus={this.onFocusHandler}
-                    >
-                        <NavList classes={classes} mobile={true} />
-                    </div>
-                )}
+                <div
+                    ref={this.hamburgerButton}
+                    className={classNames(
+                        classes.mobileListContainer,
+                        mobileNavOpen ? classes.scrollIn : classes.scrollOut
+                    )}
+                    onFocus={this.onFocusHandler}
+                >
+                    <NavList classes={classes} mobile={true} />
+                </div>
             </React.Fragment>
         )
     }
