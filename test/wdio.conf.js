@@ -1,4 +1,9 @@
 exports.config = {
+  debug: true,
+  execArgv: ['--inspect-brk=127.0.0.1:5859'],
+  mochaOpts: {
+    timeout: (24 * 60 * 60 * 1000)
+  },
   //
   // ==================
   // Specify Test Files
@@ -79,7 +84,7 @@ exports.config = {
   baseUrl: "http://localhost",
   //
   // Default timeout for all waitFor* commands.
-  waitforTimeout: 10000,
+  waitforTimeout: 1000000,
   //
   // Default timeout in milliseconds for request
   // if Selenium Grid doesn't send response

@@ -7,6 +7,8 @@ import {
   IdentifyingInfoLabelText,
   NameHelperText,
   NameLabelText,
+  CcpaOrGdprText,
+  CcpaOrGdprHelperText,
   SubmitButtonText
 } from "./text";
 
@@ -14,6 +16,7 @@ import Button from "@material-ui/core/Button";
 import React, { Component, Fragment} from "react";
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
+import MenuItem from "@material-ui/core/MenuItem";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
@@ -34,13 +37,14 @@ class Form extends Component {
       identifyingInfo: "",
       companyName: "",
       companyEmail: "",
-      hasSubmit: false
+      hasSubmit: false,
+      ccpaOrGdpr: ""
     };
 
     this.handlers = {};
 
   }
-  
+
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -145,7 +149,7 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
-  
+
           <Typography variant="display1" component="h2" gutterBottom={true}>
             {HeadingText}
           </Typography>
@@ -187,6 +191,19 @@ class Form extends Component {
             helperText={NameHelperText}
           />
           <TextField
+            id="ccpaOrGdpr"
+            select
+            label={CcpaOrGdprText}
+            value={this.state.ccpaOrGdpr}
+            onChange={this.handleInput("ccpaOrGdpr")}
+            margin="normal"
+            required
+            helperText={CcpaOrGdprHelperText}
+          >
+              <MenuItem value="CCPA">CCPA</MenuItem>
+              <MenuItem value="GDPR">GDPR</MenuItem>
+          </TextField>
+          <TextField
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
             value={this.state.identifyingInfo}
@@ -219,7 +236,7 @@ class Form extends Component {
 
     return <div id='Form'>{formToDisplay}</div>
 
-    
+
   }
 }
 export default withStyles(styles)(Form);

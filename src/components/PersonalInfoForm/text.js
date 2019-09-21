@@ -7,7 +7,7 @@ export const CompanyNameLabelText = (
 export const CompanyNameHelperText = (
   <FormattedMessage
     id="companyNameHelper"
-    defaultMessage="Please enter the name of the organisation you would like to contact." 
+    defaultMessage="Please enter the name of the organisation you would like to contact."
   />
 );
 
@@ -49,4 +49,12 @@ export const IdentifyingInfoHelperText = (
 
 export const SubmitButtonText = (
   <FormattedMessage id="sendButton" defaultMessage="Review your request" />
+);
+
+export const CcpaOrGdprText = (
+  <FormattedMessage id="ccpaOrGdpr" defaultMessage="CCPA or GDPR?" />
+);
+
+export const CcpaOrGdprHelperText = (
+  <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Companies operating in California or Europe need to comply to the relevant law. Please select one of the following to make a reference to the law here." />
 );

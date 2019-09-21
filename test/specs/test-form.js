@@ -16,9 +16,9 @@ describe("When I visit the home page", () => {
     page.visit();
 
     browser.execute(function() {
-      window.Date.prototype.toLocaleDateString = function() {
-        return "23/05/2022";
-      };
+      // window.Date.prototype.toLocaleDateString = function() {
+      //   return "23/05/2022";
+      // };
       window.open = function(url) {
         document.body.setAttribute("data-open-url", url);
       };
@@ -69,6 +69,8 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
+        browser.debug();
+        // page.personalInfoForm.select('CCPA or GDPR?', 'GDPR');
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
@@ -80,10 +82,6 @@ describe("When I visit the home page", () => {
         mailTo.body.should.match(
           /10 Downing Street/,
           "Email body should contain users home address"
-        );
-        mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
         );
         mailTo.body.should.match(
           /I am writing to request that you erase all my personal information/,
@@ -153,6 +151,7 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
+        // page.personalInfoForm.select('CCPA or GDPR?', 'CCPA');
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
@@ -168,10 +167,6 @@ describe("When I visit the home page", () => {
         mailTo.body.should.match(
           /10 Downing Street/,
           "Email body should contain users home address"
-        );
-        mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
         );
         mailTo.body.should.match(
           /I am writing to request that you erase all my personal information/,
