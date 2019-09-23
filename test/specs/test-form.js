@@ -69,8 +69,7 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
-        browser.debug();
-        // page.personalInfoForm.select('CCPA or GDPR?', 'GDPR');
+        page.personalInfoForm.select('CCPA or GDPR?', 'GDPR');
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
@@ -151,7 +150,7 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
-        // page.personalInfoForm.select('CCPA or GDPR?', 'CCPA');
+        page.personalInfoForm.select('CCPA or GDPR?', 'CCPA');
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"

@@ -16,7 +16,6 @@ import Button from "@material-ui/core/Button";
 import React, { Component, Fragment} from "react";
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
-import MenuItem from "@material-ui/core/MenuItem";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
@@ -38,7 +37,7 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      ccpaOrGdpr: ""
+      requestType: ""
     };
 
     this.handlers = {};
@@ -85,6 +84,7 @@ class Form extends Component {
       subject: erasureEmail.subject,
       body: erasureEmail.formatBody({
         ...this.state,
+
         companyName
       })
     });
@@ -194,14 +194,22 @@ class Form extends Component {
             id="ccpaOrGdpr"
             select
             label={CcpaOrGdprText}
-            value={this.state.ccpaOrGdpr}
-            onChange={this.handleInput("ccpaOrGdpr")}
-            margin="normal"
+            className={classes.textField}
+            value={this.state.currency}
+            onChange={this.handleInput("requestType")}
             required
+            SelectProps={{
+              native: true,
+              MenuProps: {
+                className: classes.menu
+              }
+            }}
             helperText={CcpaOrGdprHelperText}
+            margin="normal"
           >
-              <MenuItem value="CCPA">CCPA</MenuItem>
-              <MenuItem value="GDPR">GDPR</MenuItem>
+            <option />
+            <option value="CCPA">CCPA</option>
+            <option value="GDPR">GDPR</option>
           </TextField>
           <TextField
             id="identifyingInfo"

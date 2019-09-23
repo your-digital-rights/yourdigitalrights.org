@@ -149,9 +149,8 @@ class Form {
   }
 
   select(labelText, text) {
-    let elem = $(`label*=${labelText}`).$('..').$('[role="button"]');
-    elem.click();
-    return $(`li=${text}`).click();
+    let select = this.selectElementByLabel(labelText);
+    return select.selectByAttribute('value', text);
   }
 
   submit() {
@@ -159,7 +158,6 @@ class Form {
   }
 
   get submitButton() {
-    console.log($('button'));
     return $("button");
   }
 }
