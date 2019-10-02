@@ -20,6 +20,7 @@ const styles = theme => ({
     },
     logo: {
         width: '149px',
+        outlineColor: '#e8f4f8',
 
         [theme.breakpoints.down('xs')]: {
             width: '100px',
@@ -35,24 +36,28 @@ const styles = theme => ({
     item: {
         padding: '10px 0',
         marginRight: '24px',
+        outlineColor: '#e8f4f8',
     },
     link: {
         color: '#f6f7fa',
         fontWeight: 'bolder',
         fontSize: '15px',
         textDecoration: 'none',
+        outlineColor: '#e8f4f8',
     },
     hamburgerButton: {
         display: 'none',
         height: '50px',
         cursor: 'pointer',
+        outlineColor: '#e8f4f8',
+
         [theme.breakpoints.down('sm')]: {
             display: 'block',
         },
     },
     mobileListContainer: {
         display: 'none',
-        width: '300px',
+        width: '200px',
         height: '100%',
         position: 'absolute',
         right: '0',
@@ -86,6 +91,24 @@ const styles = theme => ({
         right: '0',
         margin: '0',
         width: '200px',
+        paddingTop: '25px',
+    },
+    OptOutRedButton: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '115px',
+        height: '40px',
+        backgroundColor: '#ef6a6e',
+        fontSize: '14px',
+        fontWeight: '800',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        lineHeight: '1.15',
+        letterSpacing: '1.25px',
+        color: '#ffffff',
+        borderRadius: '25px',
+        margin: '25px 0',
     },
 })
 
@@ -182,7 +205,11 @@ const NavListMobile = ({ classes, mobileNavOpen }) => {
                     }
                     classes={classes}
                 />
-                <p>OPT OUT RED THING</p>
+                <div className={classes.OptOutRedButton}>
+                    <Typography component="a" className={classes.link}>
+                        OPT OUT
+                    </Typography>
+                </div>
                 <NavItem
                     href="/#Extension"
                     text={
