@@ -13,6 +13,30 @@ import fetchSheetData from '../utils/sheets'
 import pageWithIntl from '../components/PageWithIntl'
 import tracking from '../utils/tracking'
 import withRoot from '../withRoot'
+import { withStyles } from '@material-ui/core/styles'
+
+const styles = theme => ({
+    topOfPagePlaceholder: {
+        height: '72px',
+    },
+    mainContainer: {
+        position: 'relative',
+    },
+    desktopSearchbar: {
+        display: 'block',
+
+        [theme.breakpoints.down('sm')]: {
+            display: 'none',
+        },
+    },
+    mobileSearchbar: {
+        display: 'none',
+
+        [theme.breakpoints.down('sm')]: {
+            display: 'block',
+        },
+    },
+})
 
 class Index extends Component {
     static async getInitialProps({ query }) {
@@ -77,7 +101,7 @@ class Index extends Component {
     }
 
     render() {
-        const { deeplinkedCompany } = this.props
+        const { deeplinkedCompany, classes } = this.props
         const { selectedCompany } = this.state
         const company = deeplinkedCompany || selectedCompany
 
@@ -97,36 +121,62 @@ class Index extends Component {
         return (
             <div>
                 <Nav />
-                <Head>
-                    <title>{Title}</title>
-                    <link rel="canonical" href={Canonical} />
-                    <link href="src/styles/hamburgers.css" rel="stylesheet" />
-                    <meta name="description" content={Description} />
-                    <meta property="og:description" content={Description} />
-                    <meta property="og:title" content={Title} />
-                    <meta name="twitter:title" content={Title} />
-                    <meta name="twitter:description" content={Description} />
-                </Head>
-                <Hero>
-                    <SearchForm
-                        onCompanySelected={this.onCompanySelected}
-                        innerRef={this.searchForm}
+                <div className={classes.mainContainer}>
+                    <Head>
+                        <title>{Title}</title>
+                        <link rel="canonical" href={Canonical} />
+                        <link
+                            href="src/styles/hamburgers.css"
+                            rel="stylesheet"
+                        />
+                        <meta name="description" content={Description} />
+                        <meta property="og:description" content={Description} />
+                        <meta property="og:title" content={Title} />
+                        <meta name="twitter:title" content={Title} />
+                        <meta
+                            name="twitter:description"
+                            content={Description}
+                        />
+                    </Head>
+                    <input
+                        id="topOfPage"
+                        className={classes.topOfPagePlaceholder}
+                        onFocus={() => {
+                            document.getElementById('companyNameSearch').focus()
+                        }}
                     />
-                </Hero>
-                {(company || this.state.manualCompanyEntryEnabled) && (
-                    <PersonalInfoForm
-                        selectedCompany={company}
-                        focusSearch={this.focusSearch.bind(this)}
-                    />
-                )}
-                <HowItWorks />
-                <FAQ />
-                <Social offset={true} sourcePage="homepage" />
-                <Donations />
-                <Footer />
+                    <div
+                        id="mobileSearchBar"
+                        className={classes.mobileSearchbar}
+                    >
+                        <SearchForm
+                            onCompanySelected={this.onCompanySelected}
+                            innerRef={this.searchForm}
+                        />
+                    </div>
+                    <Hero>
+                        <div className={classes.desktopSearchbar}>
+                            <SearchForm
+                                onCompanySelected={this.onCompanySelected}
+                                innerRef={this.searchForm}
+                            />
+                        </div>
+                    </Hero>
+                    {(company || this.state.manualCompanyEntryEnabled) && (
+                        <PersonalInfoForm
+                            selectedCompany={company}
+                            focusSearch={this.focusSearch.bind(this)}
+                        />
+                    )}
+                    <HowItWorks />
+                    <FAQ />
+                    <Social offset={true} sourcePage="homepage" />
+                    <Donations />
+                    <Footer />
+                </div>
             </div>
         )
     }
 }
 
-export default withRoot(pageWithIntl(Index))
+export default withRoot(pageWithIntl(withStyles(styles)(Index)))
