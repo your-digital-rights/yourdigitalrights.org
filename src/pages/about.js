@@ -73,7 +73,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody2"
-              defaultMessage="We believe that although the GDPR is a step in the right direction, exercising your rights under the legislation is just enough of a hussle for most people not to bother with it. The situation is made worse due to the fact that many organisations make it hard to file GDPR requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the GDPR accessible to everyone."
+              defaultMessage="We believe that although the GDPR is a step in the right direction, exercising your rights under the legislation is just enough of a hassle for most people not to bother with it. The situation is made worse due to the fact that many organisations make it hard to file GDPR requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the GDPR accessible to everyone."
             />
           </Typography>
           <br/>
