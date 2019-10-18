@@ -10,7 +10,7 @@ Please confirm that you have erased my personal information from your systems, a
 
 Please note that I do not consent to any personal information which is part of this request, including my email address and name, to be used for any purpose other than fulfilling this request.
 
-If you do not normally deal with these requests, please pass along this letter to your Data Protection Officer. Please note that you have 30 days to comply with this request.
+If you do not normally deal with these requests, please forward this email to your Data Protection Officer. Please note that you have 30 days to comply with this request.
 
 `;
 
