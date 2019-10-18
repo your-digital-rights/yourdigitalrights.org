@@ -69,7 +69,7 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.select('CCPA or GDPR?', 'GDPR');
+        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'GDPR (Europian Union)');
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
