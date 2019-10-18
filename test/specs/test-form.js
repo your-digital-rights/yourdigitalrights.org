@@ -83,8 +83,12 @@ describe("When I visit the home page", () => {
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
+          /To whom it may concern:\n\nI am writing to request that you erase all my personal information/,
           "Email body should contain expected content"
+        );
+        mailTo.body.should.contain(
+          'General Data Protection Regulation (GDPR)',
+          'Should contain GDPR'
         );
 
         page.hasTracked(
@@ -168,7 +172,7 @@ describe("When I visit the home page", () => {
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
+          /I am writing to request that you delete all my personal information/,
           "Email body should contain expected content"
         );
       });
