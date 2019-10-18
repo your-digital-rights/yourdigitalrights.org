@@ -43,7 +43,7 @@ export const IdentifyingInfoLabelText = (
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
+    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Do not provide your password."
   />
 );
 
@@ -52,9 +52,9 @@ export const SubmitButtonText = (
 );
 
 export const CcpaOrGdprText = (
-  <FormattedMessage id="ccpaOrGdpr" defaultMessage="CCPA or GDPR?" />
+  <FormattedMessage id="ccpaOrGdpr" defaultMessage="Choose regulation (GDPR or CCPA)" />
 );
 
 export const CcpaOrGdprHelperText = (
-  <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Companies operating in California or Europe need to comply to the relevant law. Please select one of the following to make a reference to the law here." />
+  <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently." />
 );

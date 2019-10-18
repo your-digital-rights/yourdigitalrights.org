@@ -208,8 +208,8 @@ class Form extends Component {
             margin="normal"
           >
             <option />
-            <option value="CCPA">CCPA</option>
-            <option value="GDPR">GDPR</option>
+            <option value="GDPR">GDPR (Europian Union)</option>
+            <option value="CCPA">CCPA (California)</option>
           </TextField>
           <TextField
             id="identifyingInfo"
