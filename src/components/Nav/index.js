@@ -235,6 +235,13 @@ const NavListDesktop = ({ classes }) => {
                 }
                 classes={classes}
             />
+
+            <NavItem
+                href="/about"
+                text={<FormattedMessage id="about" defaultMessage="About" />}
+                classes={classes}
+            />
+
             <a
                 href="/#topOfPage"
                 className={classes.OptOutRedButtonDesktop}
@@ -244,11 +251,6 @@ const NavListDesktop = ({ classes }) => {
                     Search Company
                 </Typography>
             </a>
-            <NavItem
-                href="/about"
-                text={<FormattedMessage id="about" defaultMessage="About" />}
-                classes={classes}
-            />
         </ul>
     )
 }
