@@ -24,17 +24,6 @@ const styles = theme => ({
     },
     desktopSearchbar: {
         display: 'block',
-
-        [theme.breakpoints.down('sm')]: {
-            display: 'none',
-        },
-    },
-    mobileSearchbar: {
-        display: 'none',
-
-        [theme.breakpoints.down('sm')]: {
-            display: 'block',
-        },
     },
 })
 
@@ -122,6 +111,7 @@ class Index extends Component {
             <div>
                 <Nav />
                 <div className={classes.mainContainer}>
+                    <div className={classes.scrollableContainer}></div>
                     <Head>
                         <title>{Title}</title>
                         <link rel="canonical" href={Canonical} />
@@ -142,18 +132,9 @@ class Index extends Component {
                         id="topOfPage"
                         className={classes.topOfPagePlaceholder}
                         onFocus={() => {
-                            document.getElementById('companyNameSearch').focus()
+                            this.focusSearch()
                         }}
                     />
-                    <div
-                        id="mobileSearchBar"
-                        className={classes.mobileSearchbar}
-                    >
-                        <SearchForm
-                            onCompanySelected={this.onCompanySelected}
-                            innerRef={this.searchForm}
-                        />
-                    </div>
                     <Hero>
                         <div className={classes.desktopSearchbar}>
                             <SearchForm

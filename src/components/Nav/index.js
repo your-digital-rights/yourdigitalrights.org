@@ -118,6 +118,25 @@ const styles = theme => ({
         outlineColor: '#e8f4f8',
         cursor: 'pointer',
     },
+    OptOutRedButtonDesktop: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '115px',
+        height: '40px',
+        backgroundColor: '#ef6a6e',
+        fontSize: '14px',
+        fontWeight: '800',
+        fontStyle: 'normal',
+        fontStretch: 'normal',
+        lineHeight: '1.15',
+        letterSpacing: '1.25px',
+        color: '#ffffff',
+        borderRadius: '25px',
+        outlineColor: '#e8f4f8',
+        cursor: 'pointer',
+        marginRight: '24px',
+    },
     fadeBackground: {
         position: 'fixed',
         top: '0',
@@ -181,6 +200,15 @@ const NavListDesktop = ({ classes }) => {
                 }
                 classes={classes}
             />
+            <div className={classes.OptOutRedButtonDesktop} tabIndex={0}>
+                <Typography
+                    component="a"
+                    href="/#topOfPage"
+                    className={classes.link}
+                >
+                    OPT OUT
+                </Typography>
+            </div>
             <NavItem
                 href="/about"
                 text={<FormattedMessage id="about" defaultMessage="About" />}
@@ -231,15 +259,14 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
                     classes={classes}
                 />
                 <div className={classes.OptOutRedButton} tabIndex={0}>
-                    <a
+                    <Typography
+                        component="a"
                         href="/#topOfPage"
                         onClick={toggleMobileNav}
                         className={classes.link}
                     >
-                        <Typography component="a" className={classes.link}>
-                            OPT OUT
-                        </Typography>
-                    </a>
+                        OPT OUT
+                    </Typography>
                 </div>
 
                 <NavItem
