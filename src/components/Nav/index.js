@@ -1,7 +1,8 @@
 import { FormattedMessage } from 'react-intl'
 import Typography from '@material-ui/core/Typography'
 import { withStyles } from '@material-ui/core/styles'
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
+import { TwitterShareButton } from 'react-share'
 
 const styles = theme => ({
     nav: {
@@ -19,6 +20,10 @@ const styles = theme => ({
         },
         position: 'fixed',
         top: '0',
+    },
+    logoLink: {
+        display: 'flex',
+        justifyContent: 'center',
     },
     logo: {
         width: '149px',
@@ -47,6 +52,13 @@ const styles = theme => ({
         textDecoration: 'none',
         outlineColor: '#e8f4f8',
     },
+    subsectionLink: {
+        color: '#bebebe',
+        fontWeight: 'bolder',
+        fontSize: '15px',
+        textDecoration: 'none',
+        outlineColor: '#e8f4f8',
+    },
     hamburgerButton: {
         display: 'none',
         height: '50px',
@@ -57,9 +69,16 @@ const styles = theme => ({
             display: 'block',
         },
     },
+    navChildren: {
+        position: 'fixed',
+        height: '300px',
+        width: '100%',
+        top: '70px',
+        zIndex: '9999',
+    },
     mobileListContainer: {
         display: 'none',
-        width: '200px',
+        width: '216px',
         height: '100vh',
         position: 'fixed',
         right: '0',
@@ -76,7 +95,7 @@ const styles = theme => ({
     },
     scrollOut: {
         position: 'absolute',
-        right: '-200px',
+        right: '-216px',
         transition: ' right 0.5s',
     },
     scrollIn: {
@@ -94,7 +113,7 @@ const styles = theme => ({
         right: '0',
         top: '0',
         margin: '0',
-        width: '200px',
+        width: '216px',
         height: '100vh',
         padding: '100px 25px',
         zIndex: '11000',
@@ -103,7 +122,7 @@ const styles = theme => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '115px',
+        width: 'auto',
         height: '40px',
         backgroundColor: '#ef6a6e',
         fontSize: '14px',
@@ -117,12 +136,15 @@ const styles = theme => ({
         margin: '25px 0',
         outlineColor: '#e8f4f8',
         cursor: 'pointer',
+        paddingLeft: '20px',
+        paddingRight: '20px',
+        textDecoration: 'none',
     },
     OptOutRedButtonDesktop: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '115px',
+        width: 'auto',
         height: '40px',
         backgroundColor: '#ef6a6e',
         fontSize: '14px',
@@ -136,6 +158,9 @@ const styles = theme => ({
         outlineColor: '#e8f4f8',
         cursor: 'pointer',
         marginRight: '24px',
+        paddingLeft: '20px',
+        paddingRight: '20px',
+        textDecoration: 'none',
     },
     fadeBackground: {
         position: 'fixed',
@@ -150,12 +175,22 @@ const styles = theme => ({
             display: 'block',
         },
     },
+    twitterHandle: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        width: '120px',
+        alignItems: 'center',
+    },
 })
 
-const NavItem = ({ href, text, classes, onClickHandler }) => {
+const NavItem = ({ href, text, classes, onClickHandler, subsection }) => {
     return (
         <li className={classes.item} onClick={onClickHandler}>
-            <Typography component="a" href={href} className={classes.link}>
+            <Typography
+                component="a"
+                href={href}
+                className={subsection ? classes.subsectionLink : classes.link}
+            >
                 {text}
             </Typography>
         </li>
@@ -200,15 +235,15 @@ const NavListDesktop = ({ classes }) => {
                 }
                 classes={classes}
             />
-            <div className={classes.OptOutRedButtonDesktop} tabIndex={0}>
-                <Typography
-                    component="a"
-                    href="/#topOfPage"
-                    className={classes.link}
-                >
-                    OPT OUT
+            <a
+                href="/#topOfPage"
+                className={classes.OptOutRedButtonDesktop}
+                tabIndex={0}
+            >
+                <Typography component="span" className={classes.link}>
+                    Search Company
                 </Typography>
-            </div>
+            </a>
             <NavItem
                 href="/about"
                 text={<FormattedMessage id="about" defaultMessage="About" />}
@@ -258,25 +293,79 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
                     }
                     classes={classes}
                 />
-                <div className={classes.OptOutRedButton} tabIndex={0}>
-                    <Typography
-                        component="a"
-                        href="/#topOfPage"
-                        onClick={toggleMobileNav}
-                        className={classes.link}
-                    >
-                        OPT OUT
+                <a
+                    href="/#topOfPage"
+                    className={classes.OptOutRedButton}
+                    tabIndex={0}
+                    onClick={toggleMobileNav}
+                >
+                    <Typography component="span" className={classes.link}>
+                        Search Company
                     </Typography>
-                </div>
+                </a>
 
                 <NavItem
                     onClickHandler={toggleMobileNav}
                     href="/#Extension"
+                    subsection={true}
                     text={
                         <FormattedMessage
-                            id="Extension"
+                            id="extension"
                             defaultMessage="Browser Extension"
                         />
+                    }
+                    classes={classes}
+                />
+
+                <NavItem
+                    onClickHandler={toggleMobileNav}
+                    href="/#donations"
+                    subsection={true}
+                    text={
+                        <FormattedMessage
+                            id="donation"
+                            defaultMessage="Make a Donation"
+                        />
+                    }
+                    classes={classes}
+                />
+
+                <NavItem
+                    onClickHandler={toggleMobileNav}
+                    href="/privacy"
+                    subsection={true}
+                    text={
+                        <FormattedMessage
+                            id="privacyPoilcy"
+                            defaultMessage="Privacy Policy"
+                        />
+                    }
+                    classes={classes}
+                />
+
+                <NavItem
+                    onClickHandler={toggleMobileNav}
+                    href="/#Extension"
+                    subsection={true}
+                    text={
+                        <FormattedMessage
+                            id="contact"
+                            defaultMessage="Contact Us"
+                        />
+                    }
+                    classes={classes}
+                />
+
+                <NavItem
+                    subsection={true}
+                    text={
+                        <div className={classes.twitterHandle}>
+                            <img src="static/sh/tw-grey.svg" />
+                            <FormattedMessage
+                                id="twitterHastag"
+                                defaultMessage="#ownyourdata"
+                            />
+                        </div>
                     }
                     classes={classes}
                 />
@@ -325,18 +414,17 @@ class Nav extends Component {
     }
 
     render() {
-        const { classes } = this.props
+        const { classes, children } = this.props
         const { mobileNavOpen } = this.state
 
         return (
             <div>
                 <nav ref={this.toggleMenu} className={classes.nav} id="nav">
-                    <a href="/">
+                    <a className={classes.logoLink} href="/">
                         <img
                             className={classes.logo}
                             src="static/optout.svg"
                             tabIndex={0}
-                            href="/"
                         />
                     </a>
                     <NavListDesktop classes={classes} />
@@ -352,6 +440,8 @@ class Nav extends Component {
                         tabIndex={0}
                     />
                 </nav>
+                <div className={classes.navChildren}>{children}</div>
+
                 <div
                     ref={this.hamburgerButton}
                     className={classes.mobileListContainer}

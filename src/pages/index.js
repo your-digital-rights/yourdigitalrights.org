@@ -27,7 +27,29 @@ const styles = theme => ({
     },
 })
 
+const tabletBreakpoint = 960
+
 class Index extends Component {
+    constructor(props) {
+        super(props)
+        this.searchForm = React.createRef()
+
+        this.state = {
+            selectedCompany: null,
+            manualCompanyEntryEnabled: false,
+            screenWidth: null,
+        }
+
+        if (typeof window !== 'undefined' && window.location.hash !== '') {
+            let hash = window.location.hash
+
+            setTimeout(() => {
+                window.location.hash = ''
+                window.location.hash = hash
+            }, 500)
+        }
+    }
+
     static async getInitialProps({ query }) {
         if (query.company) {
             const companies = await fetchSheetData()
@@ -38,9 +60,17 @@ class Index extends Component {
         }
     }
 
-    state = {
-        selectedCompany: null,
-        manualCompanyEntryEnabled: false,
+    componentDidMount() {
+        this.setState({ screenWidth: window.innerWidth })
+        window.addEventListener('resize', this.onScreenResize)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.onScreenResize)
+    }
+
+    onScreenResize = () => {
+        this.setState({ screenWidth: window.innerWidth })
     }
 
     onCompanySelected = selectedCompany => {
@@ -67,20 +97,6 @@ class Index extends Component {
         }
     }
 
-    constructor(props) {
-        super(props)
-        this.searchForm = React.createRef()
-
-        if (typeof window !== 'undefined' && window.location.hash !== '') {
-            let hash = window.location.hash
-
-            setTimeout(() => {
-                window.location.hash = ''
-                window.location.hash = hash
-            }, 500)
-        }
-    }
-
     focusSearch() {
         let state = Object.assign({}, this.state)
         state.selectedCompany = null
@@ -91,7 +107,7 @@ class Index extends Component {
 
     render() {
         const { deeplinkedCompany, classes } = this.props
-        const { selectedCompany } = this.state
+        const { selectedCompany, screenWidth } = this.state
         const company = deeplinkedCompany || selectedCompany
 
         // TODO: Make these string translatable
@@ -109,7 +125,14 @@ class Index extends Component {
 
         return (
             <div>
-                <Nav />
+                <Nav>
+                    {screenWidth !== null && screenWidth < tabletBreakpoint && (
+                        <SearchForm
+                            onCompanySelected={this.onCompanySelected}
+                            innerRef={this.searchForm}
+                        />
+                    )}
+                </Nav>
                 <div className={classes.mainContainer}>
                     <div className={classes.scrollableContainer}></div>
                     <Head>
@@ -136,12 +159,17 @@ class Index extends Component {
                         }}
                     />
                     <Hero>
-                        <div className={classes.desktopSearchbar}>
-                            <SearchForm
-                                onCompanySelected={this.onCompanySelected}
-                                innerRef={this.searchForm}
-                            />
-                        </div>
+                        {screenWidth !== null &&
+                            screenWidth >= tabletBreakpoint && (
+                                <div className={classes.desktopSearchbar}>
+                                    <SearchForm
+                                        onCompanySelected={
+                                            this.onCompanySelected
+                                        }
+                                        innerRef={this.searchForm}
+                                    />
+                                </div>
+                            )}
                     </Hero>
                     {(company || this.state.manualCompanyEntryEnabled) && (
                         <PersonalInfoForm

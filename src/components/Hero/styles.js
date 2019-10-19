@@ -6,6 +6,9 @@ export default theme => ({
         backgroundColor: theme.palette.primary.main,
         // borderTop: "5px black solid",
         ...themeBg,
+        [theme.breakpoints.down('sm')]: {
+            paddingTop: '50px',
+        },
     },
     heading: {
         maxWidth: '850px !important',

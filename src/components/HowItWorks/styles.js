@@ -6,7 +6,8 @@ export const indexStyles = theme => ({
         paddingTop: '30px',
         ...container,
         [theme.breakpoints.down('sm')]: {
-            paddingTop: '90px',
+            marginTop: '-100px',
+            paddingTop: '160px',
         },
     },
     title: {

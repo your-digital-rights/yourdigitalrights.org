@@ -8,10 +8,11 @@ export default theme => ({
         flexDirection: 'column',
         [theme.breakpoints.up('sm')]: {
             padding: '90px 60px 0',
-            margin: '60px auto 0',
+            margin: '0 auto 0',
         },
         [theme.breakpoints.down('sm')]: {
-            paddingTop: '90px',
+            marginTop: '-60px',
+            paddingTop: '150px',
         },
     },
     title: {

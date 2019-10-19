@@ -20,10 +20,8 @@ const styles = theme => ({
     container: {
         position: 'relative',
         ...container,
-        marginTop: '95px',
-        [theme.breakpoints.up('md')]: {
-            marginTop: 60,
-        },
+        paddingTop: '50px',
+        marginTop: '60px',
     },
     inner: {
         padding: 30,

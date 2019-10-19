@@ -54,6 +54,10 @@ const styles = theme => ({
         width: '100%',
         marginBottom: '60px',
         paddingTop: '90px',
+        [theme.breakpoints.down('sm')]: {
+            marginTop: '-100px',
+            paddingTop: '150px',
+        },
     },
 
     extensionHelperContainer: {
