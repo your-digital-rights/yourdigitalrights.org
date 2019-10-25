@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import { FormattedDate, FormattedMessage } from 'react-intl'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
-import Paper from '@material-ui/core/Paper'
-import Social from '../components/Social'
-import Typography from '@material-ui/core/Typography'
-import { container } from '../styles/layout'
-import pageWithIntl from '../components/PageWithIntl'
-import withRoot from '../withRoot'
-import { withStyles } from '@material-ui/core/styles'
-import Donations from '../components/Donations'
+import Head from 'next/head';
+import { FormattedDate, FormattedMessage } from 'react-intl';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import Paper from '@material-ui/core/Paper';
+import Social from '../components/Social';
+import Typography from '@material-ui/core/Typography';
+import { container } from '../styles/layout';
+import pageWithIntl from '../components/PageWithIntl';
+import withRoot from '../withRoot';
+import { withStyles } from '@material-ui/core/styles';
+import Donations from '../components/Donations';
 
 const styles = theme => ({
   container: {
@@ -23,13 +23,13 @@ const styles = theme => ({
   inner: {
     padding: 30,
   },
-})
+});
 
 // TODO: Make these string translatable
-const Title = 'About Us | Opt-out.eu'
+const Title = 'About Us | Opt-out.eu';
 const Description =
-  'Opt Out was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.'
-const Canonical = 'https://opt-out.eu/about'
+  'Opt Out was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.';
+const Canonical = 'https://opt-out.eu/about';
 
 const About = ({ classes }) => {
   return (
@@ -200,7 +200,7 @@ const About = ({ classes }) => {
       <Donations />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default withRoot(pageWithIntl(withStyles(styles)(About)))
+export default withRoot(pageWithIntl(withStyles(styles)(About)));

@@ -1,5 +1,5 @@
-import { container } from '../../styles/layout'
-import { themeBg } from '../../styles/theme'
+import { container } from '../../styles/layout';
+import { themeBg } from '../../styles/theme';
 
 export default theme => ({
   donate: {
@@ -48,4 +48,4 @@ export default theme => ({
       textAlign: 'left',
     },
   },
-})
+});

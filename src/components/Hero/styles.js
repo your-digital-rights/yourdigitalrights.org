@@ -1,5 +1,5 @@
-import { container } from '../../styles/layout'
-import { themeBg } from '../../styles/theme'
+import { container } from '../../styles/layout';
+import { themeBg } from '../../styles/theme';
 
 export default theme => ({
   hero: {
@@ -47,4 +47,4 @@ export default theme => ({
       textDecoration: 'underline',
     },
   },
-})
+});

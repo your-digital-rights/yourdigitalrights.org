@@ -1,91 +1,91 @@
-import CircularProgress from '@material-ui/core/CircularProgress'
-import { Component } from 'react'
-import Downshift from 'downshift'
-import { FormattedMessage } from 'react-intl'
-import Icon from '@material-ui/core/Icon'
-import Input from '@material-ui/core/Input'
-import InputAdornment from '@material-ui/core/InputAdornment'
-import InputLabel from '@material-ui/core/InputLabel'
-import ListItemText from '@material-ui/core/ListItemText'
-import MenuItem from '@material-ui/core/MenuItem'
-import MenuList from '@material-ui/core/MenuList'
-import Paper from '@material-ui/core/Paper'
-import debounce from '../../utils/debounce'
-import fetchSheetData from '../../utils/sheets'
-import styles from './styles'
-import tracker from '../../utils/tracking'
-import { withStyles } from '@material-ui/core/styles'
+import CircularProgress from '@material-ui/core/CircularProgress';
+import { Component } from 'react';
+import Downshift from 'downshift';
+import { FormattedMessage } from 'react-intl';
+import Icon from '@material-ui/core/Icon';
+import Input from '@material-ui/core/Input';
+import InputAdornment from '@material-ui/core/InputAdornment';
+import InputLabel from '@material-ui/core/InputLabel';
+import ListItemText from '@material-ui/core/ListItemText';
+import MenuItem from '@material-ui/core/MenuItem';
+import MenuList from '@material-ui/core/MenuList';
+import Paper from '@material-ui/core/Paper';
+import debounce from '../../utils/debounce';
+import fetchSheetData from '../../utils/sheets';
+import styles from './styles';
+import tracker from '../../utils/tracking';
+import { withStyles } from '@material-ui/core/styles';
 
 class Form extends Component {
   state = {
     searchResults: [],
     companyNameSearch: '',
     companiesLoaded: false,
-  }
+  };
 
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.searchRef = React.createRef()
+    this.searchRef = React.createRef();
     this.debounceSearch = debounce(search => {
-      tracker.trackSearch(search)
-    }, 100)
+      tracker.trackSearch(search);
+    }, 100);
   }
 
   focus() {
-    let state = Object.assign({}, this.state)
-    state.companyNameSearch = ''
-    this.setState(state)
-    this.searchRef.current.focus()
+    let state = Object.assign({}, this.state);
+    state.companyNameSearch = '';
+    this.setState(state);
+    this.searchRef.current.focus();
   }
 
   async componentDidMount() {
-    const companies = fetchSheetData()
-    this.setState({ companies })
-    await companies
-    this.setState({ companiesLoaded: true })
+    const companies = fetchSheetData();
+    this.setState({ companies });
+    await companies;
+    this.setState({ companiesLoaded: true });
   }
 
   handleInput = e => {
-    this.searchCompanies(e.target.value)
+    this.searchCompanies(e.target.value);
     this.setState({
       companyNameSearch: e.target.value,
-    })
-  }
+    });
+  };
 
   async searchCompanies(search) {
-    let searchResults = []
+    let searchResults = [];
 
     if (search) {
-      const companies = await this.state.companies
+      const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
           return company.searchTerms
             .toLowerCase()
-            .match('^' + search.toLowerCase() + '|, *' + search.toLowerCase())
+            .match('^' + search.toLowerCase() + '|, *' + search.toLowerCase());
         })
-        .slice(0, 5)
+        .slice(0, 5);
     } else {
-      searchResults = []
+      searchResults = [];
     }
 
-    this.debounceSearch(search)
+    this.debounceSearch(search);
 
     this.setState({
       searchResults,
-    })
+    });
   }
 
   onSelected = company => {
-    this.props.onCompanySelected(company)
+    this.props.onCompanySelected(company);
     this.setState({
       searchResults: [],
       companyNameSearch: company.name,
-    })
-  }
+    });
+  };
 
   renderInput = InputProps => {
-    const { classes, companies } = this.props
+    const { classes, companies } = this.props;
 
     return (
       <FormattedMessage
@@ -122,8 +122,8 @@ class Form extends Component {
           </div>
         )}
       </FormattedMessage>
-    )
-  }
+    );
+  };
 
   renderSuggestion = ({
     result,
@@ -132,7 +132,7 @@ class Form extends Component {
     selectedItem,
     itemProps,
   }) => {
-    const isHighlighted = highlightedIndex === i
+    const isHighlighted = highlightedIndex === i;
 
     return (
       <MenuItem
@@ -153,11 +153,11 @@ class Form extends Component {
           id={`search-result-${result.url}`}
         />
       </MenuItem>
-    )
-  }
+    );
+  };
 
   render() {
-    const { classes } = this.props
+    const { classes } = this.props;
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
@@ -215,7 +215,7 @@ class Form extends Component {
           )}
         </Downshift>
       </form>
-    )
+    );
   }
 }
-export default withStyles(styles)(Form)
+export default withStyles(styles)(Form);

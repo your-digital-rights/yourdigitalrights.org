@@ -1,20 +1,20 @@
-import Head from 'next/head'
-import { FormattedDate, FormattedMessage } from 'react-intl'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
-import Paper from '@material-ui/core/Paper'
-import Social from '../components/Social'
-import Typography from '@material-ui/core/Typography'
-import { container } from '../styles/layout'
-import pageWithIntl from '../components/PageWithIntl'
-import withRoot from '../withRoot'
-import { withStyles } from '@material-ui/core/styles'
-import Donations from '../components/Donations'
-import Button from '@material-ui/core/Button'
-import Grid from '@material-ui/core/Grid'
-import PropTypes from 'prop-types'
-import GridListTile from '@material-ui/core/GridListTile'
-import GridListTileBar from '@material-ui/core/GridListTileBar'
+import Head from 'next/head';
+import { FormattedDate, FormattedMessage } from 'react-intl';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import Paper from '@material-ui/core/Paper';
+import Social from '../components/Social';
+import Typography from '@material-ui/core/Typography';
+import { container } from '../styles/layout';
+import pageWithIntl from '../components/PageWithIntl';
+import withRoot from '../withRoot';
+import { withStyles } from '@material-ui/core/styles';
+import Donations from '../components/Donations';
+import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
+import PropTypes from 'prop-types';
+import GridListTile from '@material-ui/core/GridListTile';
+import GridListTileBar from '@material-ui/core/GridListTileBar';
 
 const styles = theme => ({
   container: {
@@ -59,7 +59,7 @@ const styles = theme => ({
     color: '#0070bf',
     backgroundColor: '#0070bf',
   },
-})
+});
 
 const dataBrokers = [
   { domain: 'acxiom.com', name: 'Axiom' },
@@ -72,13 +72,13 @@ const dataBrokers = [
   { domain: 'towerdata.com', name: 'TowerData' },
   { domain: 'transunion.com', name: 'TransUnion' },
   { domain: 'quantcast.com', name: 'Quantcast' },
-]
+];
 
 // TODO: Make these string translatable
-const Title = 'Opt Out of the Top Data Brokers | Opt-out.eu'
+const Title = 'Opt Out of the Top Data Brokers | Opt-out.eu';
 const Description =
-  'Get the top data brokers to erase your personal data, hassle free.'
-const Canonical = 'https://opt-out.eu/data-brokers'
+  'Get the top data brokers to erase your personal data, hassle free.';
+const Canonical = 'https://opt-out.eu/data-brokers';
 
 const Brokers = ({ classes }) => {
   return (
@@ -165,11 +165,11 @@ const Brokers = ({ classes }) => {
       <Donations />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 Brokers.propTypes = {
   classes: PropTypes.object.isRequired,
-}
+};
 
-export default withRoot(pageWithIntl(withStyles(styles)(Brokers)))
+export default withRoot(pageWithIntl(withStyles(styles)(Brokers)));

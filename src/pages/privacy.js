@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import { FormattedDate, FormattedMessage } from 'react-intl'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
-import Paper from '@material-ui/core/Paper'
-import Social from '../components/Social'
-import Typography from '@material-ui/core/Typography'
-import { container } from '../styles/layout'
-import pageWithIntl from '../components/PageWithIntl'
-import withRoot from '../withRoot'
-import { withStyles } from '@material-ui/core/styles'
-import Donations from '../components/Donations'
+import Head from 'next/head';
+import { FormattedDate, FormattedMessage } from 'react-intl';
+import Footer from '../components/Footer';
+import Nav from '../components/Nav';
+import Paper from '@material-ui/core/Paper';
+import Social from '../components/Social';
+import Typography from '@material-ui/core/Typography';
+import { container } from '../styles/layout';
+import pageWithIntl from '../components/PageWithIntl';
+import withRoot from '../withRoot';
+import { withStyles } from '@material-ui/core/styles';
+import Donations from '../components/Donations';
 
 const styles = theme => ({
   container: {
@@ -23,13 +23,13 @@ const styles = theme => ({
   inner: {
     padding: 30,
   },
-})
+});
 
 // TODO: Make these string translatable
-const Title = 'Privacy Policy | Opt-out.eu'
+const Title = 'Privacy Policy | Opt-out.eu';
 const Description =
-  'You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure.'
-const Canonical = 'https://opt-out.eu/privacy'
+  'You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure.';
+const Canonical = 'https://opt-out.eu/privacy';
 
 const Privacy = ({ classes }) => {
   return (
@@ -187,7 +187,7 @@ const Privacy = ({ classes }) => {
       <Donations />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default withRoot(pageWithIntl(withStyles(styles)(Privacy)))
+export default withRoot(pageWithIntl(withStyles(styles)(Privacy)));

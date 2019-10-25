@@ -1,18 +1,18 @@
-import { FormattedMessage, intlShape, injectIntl } from 'react-intl'
-import { themeBg } from '../../styles/theme'
-import { withStyles } from '@material-ui/core/styles'
-import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
-import mailtoLink from 'mailto-link'
+import { FormattedMessage, intlShape, injectIntl } from 'react-intl';
+import { themeBg } from '../../styles/theme';
+import { withStyles } from '@material-ui/core/styles';
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+import mailtoLink from 'mailto-link';
 import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-} from 'react-share'
-import classNames from 'classnames'
-import tracking from '../../utils/tracking'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChrome, faFirefox } from '@fortawesome/free-brands-svg-icons'
+} from 'react-share';
+import classNames from 'classnames';
+import tracking from '../../utils/tracking';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChrome, faFirefox } from '@fortawesome/free-brands-svg-icons';
 
 const styles = theme => ({
   root: {
@@ -142,7 +142,7 @@ const styles = theme => ({
     padding: '0 10px',
     cursor: 'pointer',
   },
-})
+});
 
 const Social = ({
   classes,
@@ -151,42 +151,42 @@ const Social = ({
   style,
 }) => {
   if (sourcePage === 'homepage') {
-    var className = classes.offset
+    var className = classes.offset;
   }
 
   const emailSubject = intl.formatMessage({
     id: 'socialEmailSubject',
     defaultMessage: 'Opt-out - automated GDPR requests',
-  })
+  });
   const emailBody = intl.formatMessage({
     id: 'socialEmailBody',
     defaultMessage:
       'Hey there,\n\nDid you know that you can get any organisation to erase your personal data for free? Check out https://opt-out.eu to know more.\n\nI hope you find it useful.',
-  })
+  });
   const twitterTitle = intl.formatMessage({
     id: 'socialTwitterTitle',
     defaultMessage:
       'Get any organisation to erase your personal data - automated GDPR requests',
-  })
+  });
   const facebookQuote = intl.formatMessage({
     id: 'socialFacebookQuote',
     defaultMessage:
       'Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu',
-  })
-  const emailLink = mailtoLink({ subject: emailSubject, body: emailBody })
+  });
+  const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
   const handleEmailClick = e => {
-    e.preventDefault()
-    window.open(emailLink)
-  }
+    e.preventDefault();
+    window.open(emailLink);
+  };
 
   const shareButtonProps = {
     className: 'ss-btn',
-  }
+  };
 
   const trackShare = network => {
-    tracking.trackSocialShare(network)
-  }
+    tracking.trackSocialShare(network);
+  };
 
   return (
     <div className={classNames(classes.root, className, 'ss')} style={style}>
@@ -221,7 +221,7 @@ const Social = ({
                 <Button
                   variant="extendedFab"
                   onClick={() => {
-                    trackShare.bind(null, 'chrome-extension')
+                    trackShare.bind(null, 'chrome-extension');
                   }}
                   aria-label="Google Chrome Extension"
                   className={classes.extensionDownloadButton}
@@ -238,7 +238,7 @@ const Social = ({
                 <Button
                   variant="extendedFab"
                   onClick={() => {
-                    trackShare.bind(null, 'firefox-extension')
+                    trackShare.bind(null, 'firefox-extension');
                   }}
                   aria-label="FireFox Extention"
                   className={classes.extensionDownloadButton}
@@ -323,11 +323,11 @@ const Social = ({
         <img src="static/sh/mail.svg" />
       </a>
     </div>
-  )
-}
+  );
+};
 
 Social.propTypes = {
   intl: intlShape.isRequired,
-}
+};
 
-export default withStyles(styles)(injectIntl(Social))
+export default withStyles(styles)(injectIntl(Social));

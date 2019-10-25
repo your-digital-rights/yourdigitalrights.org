@@ -1,7 +1,7 @@
-import { FormattedMessage } from 'react-intl'
-import Typography from '@material-ui/core/Typography'
-import { container } from '../../styles/layout'
-import { withStyles } from '@material-ui/core/styles'
+import { FormattedMessage } from 'react-intl';
+import Typography from '@material-ui/core/Typography';
+import { container } from '../../styles/layout';
+import { withStyles } from '@material-ui/core/styles';
 
 const styles = theme => ({
   nav: {
@@ -21,7 +21,7 @@ const styles = theme => ({
     fontWeight: '600',
     textDecoration: 'none',
   },
-})
+});
 
 const NavItem = ({ href, text, classes }) => {
   return (
@@ -30,8 +30,8 @@ const NavItem = ({ href, text, classes }) => {
         {text}
       </Typography>
     </li>
-  )
-}
+  );
+};
 
 const Nav = ({ classes }) => {
   return (
@@ -73,6 +73,6 @@ const Nav = ({ classes }) => {
         />
       </ul>
     </nav>
-  )
-}
-export default withStyles(styles)(Nav)
+  );
+};
+export default withStyles(styles)(Nav);

@@ -1,10 +1,10 @@
-import { IntroText, SubtitleText, DataBrokers } from './text'
+import { IntroText, SubtitleText, DataBrokers } from './text';
 
-import Paper from '@material-ui/core/Paper'
-import Typography from '@material-ui/core/Typography'
-import styles from './styles'
-import { visuallyHidden } from '../../styles/layout'
-import { withStyles } from '@material-ui/core/styles'
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import styles from './styles';
+import { visuallyHidden } from '../../styles/layout';
+import { withStyles } from '@material-ui/core/styles';
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
@@ -49,6 +49,6 @@ const Hero = ({ classes, onCompanySelected, children }) => {
         </div>
       </div>
     </div>
-  )
-}
-export default withStyles(styles)(Hero)
+  );
+};
+export default withStyles(styles)(Hero);
