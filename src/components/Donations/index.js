@@ -1,11 +1,11 @@
-import { IntroText, SubtitleText, DonateButtonText } from "./text";
+import { IntroText, SubtitleText, DonateButtonText } from './text'
 
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import styles from "./styles";
-import { visuallyHidden } from "../../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+import Paper from '@material-ui/core/Paper'
+import Typography from '@material-ui/core/Typography'
+import styles from './styles'
+import { visuallyHidden } from '../../styles/layout'
+import { withStyles } from '@material-ui/core/styles'
+import Button from '@material-ui/core/Button'
 
 const Donations = ({ classes, onCompanySelected, children }) => {
   return (
@@ -24,7 +24,13 @@ const Donations = ({ classes, onCompanySelected, children }) => {
             {IntroText}
           </Typography>
           <div className={classes.bitcoin}>
-            <Button variant="raised" href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe" color="primary" type="submit" className={classes.donateButton}>
+            <Button
+              variant="raised"
+              href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
+              color="primary"
+              type="submit"
+              className={classes.donateButton}
+            >
               {DonateButtonText}
             </Button>
           </div>
@@ -32,6 +38,6 @@ const Donations = ({ classes, onCompanySelected, children }) => {
         </div>
       </div>
     </div>
-  );
-};
-export default withStyles(styles)(Donations);
+  )
+}
+export default withStyles(styles)(Donations)

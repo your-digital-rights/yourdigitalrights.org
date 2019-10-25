@@ -1,27 +1,27 @@
-import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
-import { container } from "../../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import { FormattedMessage } from 'react-intl'
+import Typography from '@material-ui/core/Typography'
+import { container } from '../../styles/layout'
+import { withStyles } from '@material-ui/core/styles'
 
 const styles = theme => ({
   nav: {
-    borderBottom: "5px solid #005ea5"
+    borderBottom: '5px solid #005ea5',
   },
   container: {
-    listStyle: "none",
-    display: "flex",
-    ...container
+    listStyle: 'none',
+    display: 'flex',
+    ...container,
   },
   item: {
-    padding: "26px 0",
-    marginRight: "24px"
+    padding: '26px 0',
+    marginRight: '24px',
   },
   link: {
-    color: "#005ea5",
-    fontWeight: "600",
-    textDecoration: "none"
+    color: '#005ea5',
+    fontWeight: '600',
+    textDecoration: 'none',
   },
-});
+})
 
 const NavItem = ({ href, text, classes }) => {
   return (
@@ -30,8 +30,8 @@ const NavItem = ({ href, text, classes }) => {
         {text}
       </Typography>
     </li>
-  );
-};
+  )
+}
 
 const Nav = ({ classes }) => {
   return (
@@ -51,12 +51,19 @@ const Nav = ({ classes }) => {
         />
         <NavItem
           href="/data-brokers"
-          text={<FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />}
+          text={
+            <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
+          }
           classes={classes}
         />
         <NavItem
           href="/#Extension"
-          text={<FormattedMessage id="Extension" defaultMessage="Browser Extension" />}
+          text={
+            <FormattedMessage
+              id="Extension"
+              defaultMessage="Browser Extension"
+            />
+          }
           classes={classes}
         />
         <NavItem
@@ -66,6 +73,6 @@ const Nav = ({ classes }) => {
         />
       </ul>
     </nav>
-  );
-};
-export default withStyles(styles)(Nav);
+  )
+}
+export default withStyles(styles)(Nav)
