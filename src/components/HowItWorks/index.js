@@ -10,15 +10,15 @@ import {
   WhyBody,
   WhyTitle,
   YourDataBody,
-  YourDataTitle
-} from "./text";
+  YourDataTitle,
+} from './text';
 
-import LowerSection from "./LowerSection";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
-import UpperSection from "./UpperSection";
-import { indexStyles as styles } from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import LowerSection from './LowerSection';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import UpperSection from './UpperSection';
+import { indexStyles as styles } from './styles';
+import { withStyles } from '@material-ui/core/styles';
 
 const HowItWorks = ({ classes }) => {
   return (
