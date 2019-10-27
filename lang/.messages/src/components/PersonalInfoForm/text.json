@@ -29,7 +29,7 @@
   },
   {
     "id": "IdentifyingInfoHelper",
-    "defaultMessage": "Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
+    "defaultMessage": "Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Do not provide your password."
   },
   {
     "id": "sendButton",
@@ -37,10 +37,18 @@
   },
   {
     "id": "ccpaOrGdpr",
-    "defaultMessage": "CCPA or GDPR?"
+    "defaultMessage": "Choose regulation (GDPR or CCPA)"
   },
   {
     "id": "ccpaOrGdprHelper",
-    "defaultMessage": "Companies operating in California or Europe need to comply to the relevant law. Please select one of the following to make a reference to the law here."
+    "defaultMessage": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  },
+  {
+    "id": "gdprOption",
+    "defaultMessage": "GDPR (European Union)"
+  },
+  {
+    "id": "ccpaOption",
+    "defaultMessage": "CCPA (California)"
   }
 ]

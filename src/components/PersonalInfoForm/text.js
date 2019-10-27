@@ -58,3 +58,11 @@ export const CcpaOrGdprText = (
 export const CcpaOrGdprHelperText = (
   <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently." />
 );
+
+export const GdprOptionText = (
+  <FormattedMessage id="gdprOption" defaultMessage="GDPR (European Union)" />
+);
+
+export const CcpaOptionText = (
+  <FormattedMessage id="ccpaOption" defaultMessage="CCPA (California)" />
+);

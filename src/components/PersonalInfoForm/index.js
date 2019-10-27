@@ -9,7 +9,9 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  SubmitButtonText
+  SubmitButtonText,
+  GdprOptionText,
+  CcpaOptionText
 } from "./text";
 
 import Button from "@material-ui/core/Button";
@@ -81,7 +83,7 @@ class Form extends Component {
 
     return mailtoLink({
       to,
-      subject: erasureEmail.subject,
+      subject: erasureEmail.subject({ ...this.state }),
       body: erasureEmail.formatBody({
         ...this.state,
 
@@ -208,8 +210,8 @@ class Form extends Component {
             margin="normal"
           >
             <option />
-            <option value="GDPR">GDPR (Europian Union)</option>
-            <option value="CCPA">CCPA (California)</option>
+            <option value="GDPR">{GdprOptionText}</option>
+            <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
           <TextField
             id="identifyingInfo"

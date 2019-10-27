@@ -69,14 +69,14 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'GDPR (Europian Union)');
+        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'GDPR');
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Erasure Request");
+        mailTo.subject.should.be.equal("GDPR Request");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
@@ -154,7 +154,7 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
-        page.personalInfoForm.select('CCPA or GDPR?', 'CCPA');
+        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'CCPA');
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
@@ -165,7 +165,7 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("Erasure Request");
+        mailTo.subject.should.be.equal("CCPA Request");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
