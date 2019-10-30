@@ -16,9 +16,9 @@ describe("When I visit the home page", () => {
     page.visit();
 
     browser.execute(function() {
-      window.Date.prototype.toLocaleDateString = function() {
-        return "23/05/2022";
-      };
+      // window.Date.prototype.toLocaleDateString = function() {
+      //   return "23/05/2022";
+      // };
       window.open = function(url) {
         document.body.setAttribute("data-open-url", url);
       };
@@ -69,25 +69,26 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
+        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'GDPR');
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Erasure Request");
+        mailTo.subject.should.be.equal("Erasure Request (Article 17 of the GDPR)");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
-        );
-        mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
+          /To whom it may concern:\n\nI am writing to request that you erase all my personal information/,
           "Email body should contain expected content"
+        );
+        mailTo.body.should.contain(
+          'General Data Protection Regulation (GDPR)',
+          'Should contain GDPR'
         );
 
         page.hasTracked(
@@ -153,6 +154,7 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
         page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'CCPA');
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
@@ -163,18 +165,14 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("Erasure Request");
+        mailTo.subject.should.be.equal("Deletion Request (Section 105 of The CCPA)");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
-        );
-        mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
+          /I am writing to request that you delete all my personal information/,
           "Email body should contain expected content"
         );
       });
