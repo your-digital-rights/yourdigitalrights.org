@@ -9,10 +9,9 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  SubmitButtonText,
-  GdprOptionText,
-  CcpaOptionText
+  SubmitButtonText
 } from "./text";
+import { injectIntl } from "react-intl"
 
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment} from "react";
@@ -121,6 +120,9 @@ class Form extends Component {
       <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
     );
 
+    const CcpaOptionText = this.props.intl.formatMessage({ id: 'ccpaOption', defaultMessage: 'CCPA (California)' });
+    const GdprOptionText = this.props.intl.formatMessage({ id: 'gdprOption', defaultMessage: 'GDPR (European Union)' });
+
     const IntroText = selectedCompany ? (
       <FormattedMessage
         id="IntroTextSelectedCompany"
@@ -213,6 +215,7 @@ class Form extends Component {
             <option value="GDPR">{GdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
+          <p>{GdprOptionText.text}</p>
           <TextField
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
@@ -249,4 +252,4 @@ class Form extends Component {
 
   }
 }
-export default withStyles(styles)(Form);
+export default injectIntl(withStyles(styles)(Form));
