@@ -165,7 +165,7 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("Deletion Request (Section 1798.105 of The CCPA)");
+        mailTo.subject.should.be.equal("Deletion Request (Section 105 of The CCPA)");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
