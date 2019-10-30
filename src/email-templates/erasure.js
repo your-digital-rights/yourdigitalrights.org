@@ -14,7 +14,7 @@ export default {
   },
   formatBody(data) {
     var body;
-
+    
     switch(data.requestType) {
       case 'CCPA':
         body = CCPA_TEXT;
