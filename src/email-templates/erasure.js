@@ -39,7 +39,7 @@ ${data.name}
   }
 };
 
-const CCPA_SUBJECT = 'CCPA Request';
+const CCPA_SUBJECT = 'Deletion Request (Section 1798.105 of The CCPA)';
 const CCPA_TEXT = `To whom it may concern:
 
 I am writing to request that you delete all my personal information from your records pursuant to Section 1798.105 of The California Consumer Privacy Act of 2018 (CCPA). To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
@@ -52,7 +52,7 @@ If you do not normally deal with these requests, please forward this email to th
 
 `;
 
-const GDPR_SUBJECT = 'GDPR Request';
+const GDPR_SUBJECT = 'Erasure Request (Article 17 of the GDPR)';
 const GDPR_TEXT = `To whom it may concern:
 
 I am writing to request that you erase all my personal information from all your information systems pursuant to Article 17 of the General Data Protection Regulation (GDPR). To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
