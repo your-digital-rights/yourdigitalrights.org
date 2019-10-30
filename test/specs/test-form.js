@@ -76,7 +76,7 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("GDPR Request");
+        mailTo.subject.should.be.equal("Erasure Request (Article 17 of the GDPR)");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
@@ -165,7 +165,7 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("CCPA Request");
+        mailTo.subject.should.be.equal("Deletion Request (Section 1798.105 of The CCPA)");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,

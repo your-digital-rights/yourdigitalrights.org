@@ -38,7 +38,7 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      requestType: ""
+      requestType: "GDPR"
     };
 
     this.handlers = {};
@@ -199,7 +199,7 @@ class Form extends Component {
             select
             label={CcpaOrGdprText}
             className={classes.textField}
-            value={this.state.currency}
+            value={this.state.requestType}
             onChange={this.handleInput("requestType")}
             required
             SelectProps={{
@@ -211,8 +211,7 @@ class Form extends Component {
             helperText={CcpaOrGdprHelperText}
             margin="normal"
           >
-            <option />
-            <option value="GDPR">{GdprOptionText}</option>
+            <option value="GDPR" selected>{GdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
           <p>{GdprOptionText.text}</p>
