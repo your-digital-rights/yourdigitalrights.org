@@ -108,7 +108,7 @@ class SocialShare {
   get email() {
     return this.element.$('.SocialMediaShareButton--email');
   }
-  
+
   get github() {
     return this.element.$('.SocialMediaShareButton--github');
   }
@@ -148,12 +148,17 @@ class Form {
     return this.selectElementByLabel(labelText).setValue(value);
   }
 
+  select(labelText, text) {
+    let select = this.selectElementByLabel(labelText);
+    return select.selectByAttribute('value', text);
+  }
+
   submit() {
     return this.submitButton.click();
   }
 
   get submitButton() {
-    return $("button=Review your request");
+    return $("button");
   }
 }
 

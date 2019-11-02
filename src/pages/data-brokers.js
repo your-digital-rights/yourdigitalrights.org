@@ -146,7 +146,7 @@ const Brokers = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokerAfter"
-              defaultMessage="These are some of the top data brokers but there are many more. Click the bottom below to search the entire database."
+              defaultMessage="These are some of the top data brokers but there are many more. Click the button below to search the entire database."
             />
           </Typography>
           <Button

@@ -7,8 +7,11 @@ import {
   IdentifyingInfoLabelText,
   NameHelperText,
   NameLabelText,
+  CcpaOrGdprText,
+  CcpaOrGdprHelperText,
   SubmitButtonText
 } from "./text";
+import { injectIntl } from "react-intl"
 
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment} from "react";
@@ -34,13 +37,14 @@ class Form extends Component {
       identifyingInfo: "",
       companyName: "",
       companyEmail: "",
-      hasSubmit: false
+      hasSubmit: false,
+      requestType: "GDPR"
     };
 
     this.handlers = {};
 
   }
-  
+
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -78,9 +82,10 @@ class Form extends Component {
 
     return mailtoLink({
       to,
-      subject: erasureEmail.subject,
+      subject: erasureEmail.subject({ ...this.state }),
       body: erasureEmail.formatBody({
         ...this.state,
+
         companyName
       })
     });
@@ -115,6 +120,9 @@ class Form extends Component {
       <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
     );
 
+    const CcpaOptionText = this.props.intl.formatMessage({ id: 'ccpaOption', defaultMessage: 'CCPA (California)' });
+    const GdprOptionText = this.props.intl.formatMessage({ id: 'gdprOption', defaultMessage: 'GDPR (European Union)' });
+
     const IntroText = selectedCompany ? (
       <FormattedMessage
         id="IntroTextSelectedCompany"
@@ -145,7 +153,7 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
-  
+
           <Typography variant="display1" component="h2" gutterBottom={true}>
             {HeadingText}
           </Typography>
@@ -187,6 +195,27 @@ class Form extends Component {
             helperText={NameHelperText}
           />
           <TextField
+            id="ccpaOrGdpr"
+            select
+            label={CcpaOrGdprText}
+            className={classes.textField}
+            value={this.state.requestType}
+            onChange={this.handleInput("requestType")}
+            required
+            SelectProps={{
+              native: true,
+              MenuProps: {
+                className: classes.menu
+              }
+            }}
+            helperText={CcpaOrGdprHelperText}
+            margin="normal"
+          >
+            <option value="GDPR" selected>{GdprOptionText}</option>
+            <option value="CCPA">{CcpaOptionText}</option>
+          </TextField>
+          <p>{GdprOptionText.text}</p>
+          <TextField
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
             value={this.state.identifyingInfo}
@@ -219,7 +248,7 @@ class Form extends Component {
 
     return <div id='Form'>{formToDisplay}</div>
 
-    
+
   }
 }
-export default withStyles(styles)(Form);
+export default injectIntl(withStyles(styles)(Form));
