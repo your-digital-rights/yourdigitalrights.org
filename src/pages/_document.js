@@ -1,9 +1,9 @@
-import Document, { Head, Main, NextScript } from "next/document";
-import { FormattedMessage } from "react-intl";
-import JssProvider from "react-jss/lib/JssProvider";
-import React from "react";
-import flush from "styled-jsx/server";
-import getPageContext from "../getPageContext";
+import Document, { Head, Main, NextScript } from 'next/document';
+import { FormattedMessage } from 'react-intl';
+import JssProvider from 'react-jss/lib/JssProvider';
+import React from 'react';
+import flush from 'styled-jsx/server';
+import getPageContext from '../getPageContext';
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
@@ -13,9 +13,9 @@ export default class IntlDocument extends Document {
     const pageContext = getPageContext();
     const props = await super.getInitialProps(context);
     const {
-      req: { locale, localeDataScript }
+      req: { locale, localeDataScript },
     } = context;
-    
+
     const page = context.renderPage(Component => props => (
       <JssProvider
         registry={pageContext.sheetsRegistry}
@@ -38,20 +38,18 @@ export default class IntlDocument extends Document {
             id="jss-server-side"
             // eslint-disable-next-line react/no-danger
             dangerouslySetInnerHTML={{
-              __html: pageContext.sheetsRegistry.toString()
+              __html: pageContext.sheetsRegistry.toString(),
             }}
           />
           {flush() || null}
         </React.Fragment>
-      )
+      ),
     };
   }
 
   render() {
     // Polyfill Intl API for older browsers
-    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${
-      this.props.locale
-    }`;
+    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${this.props.locale}`;
     const { pageContext } = this.props;
     const { deeplinkedCompany } = this.props;
 
@@ -62,22 +60,10 @@ export default class IntlDocument extends Document {
             property="og:image"
             content="https://opt-out.eu/static/opt-out-share.jpg?v=2"
           />
-          <meta
-            property="og:image:width"
-            content="898"
-          />
-          <meta
-            property="og:image:height"
-            content="680"
-          />
-          <meta
-            name="twitter:card"
-            content="summary_large_image"
-          />
-          <meta
-            name="twitter:site"
-            content="@OptoutEU"
-          />
+          <meta property="og:image:width" content="898" />
+          <meta property="og:image:height" content="680" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@OptoutEU" />
 
           <meta
             name="twitter:image"
@@ -101,34 +87,36 @@ export default class IntlDocument extends Document {
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
           <link rel="stylesheet" href="/static/mobile.css" />
-          <link rel="stylesheet" media="only screen and (min-width: 600px)" href="/static/desktop.css" />
+          <link
+            rel="stylesheet"
+            media="only screen and (min-width: 600px)"
+            href="/static/desktop.css"
+          />
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
               __html:
-                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*.opt-out.eu']); _paq.push(['setDomains', ['*.opt-out.eu']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();"
+                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*.opt-out.eu']); _paq.push(['setDomains', ['*.opt-out.eu']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();",
             }}
           />
           <noscript>
             <p>
               <img
-                src='https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1'
-                style={{border: 0}}
-                alt=''
+                src="https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1"
+                style={{ border: 0 }}
+                alt=""
               />
             </p>
           </noscript>
-          <script
-            src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9"
-          />
+          <script src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9" />
         </Head>
         <body>
-          <style dangerouslySetInnerHTML={{ __html: "a { color: #005ea5;}" }} />
+          <style dangerouslySetInnerHTML={{ __html: 'a { color: #005ea5;}' }} />
           <Main />
           <script src={polyfill} />
           <script
             dangerouslySetInnerHTML={{
-              __html: this.props.localeDataScript
+              __html: this.props.localeDataScript,
             }}
           />
           <NextScript />

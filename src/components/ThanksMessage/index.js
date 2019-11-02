@@ -1,57 +1,52 @@
-import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+import { FormattedMessage } from 'react-intl';
+import Typography from '@material-ui/core/Typography';
+import Paper from '@material-ui/core/Paper';
+import { withStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 import Social from '../Social';
 import tracking from '../../utils/tracking';
-
 
 import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
-  EmailShareButton
+  EmailShareButton,
 } from 'react-share';
 
-import {
-  ThanksTitleText,
-  ThanksCopyText,
-  FindCompanyText
-} from './text';
+import { ThanksTitleText, ThanksCopyText, FindCompanyText } from './text';
 
 const styles = theme => ({
   root: {
     maxWidth: '780px',
-    margin: "auto",
-    marginTop: "30px",
+    margin: 'auto',
+    marginTop: '30px',
     marginBottom: '30px',
     textAlign: 'center',
-    position: 'relative'
+    position: 'relative',
   },
 
   content: {
     padding: '60px 77px 0 77px',
 
-    [theme.breakpoints.down("sm")]: {
-      padding: '60px 25px 0 25px'
-    }
+    [theme.breakpoints.down('sm')]: {
+      padding: '60px 25px 0 25px',
+    },
   },
 
   title: {
-    marginBottom: '20px'
+    marginBottom: '20px',
   },
 
   text: {
     marginBottom: '30px',
-    textAlign: 'left'
+    textAlign: 'left',
   },
 
   extensionInfoContainer: {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
 
   browserExtensionsText: {
@@ -61,29 +56,29 @@ const styles = theme => ({
     fontStretch: 'normal',
     lineHeight: 'normal',
     letterSpacing: 'normal',
-    color: '#585858'
+    color: '#585858',
   },
 
   browserExtensionLinkContainer: {
     display: 'flex',
     justifyContent: 'space-between',
     margin: '35px 0',
-    width: '150px'
+    width: '150px',
   },
 
   extensionLinkIcons: {
     width: '64px',
-    height: '64px'
+    height: '64px',
   },
 
   btn: {
-    borderRadius:"24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
+    borderRadius: '24px 24px 24px 24px',
+    color: 'white',
+    fontWeight: '600',
     padding: '10px 20px',
     '&:hover': {
-      background: '#04487B'
-    }
+      background: '#04487B',
+    },
   },
 
   startAgainBtn: {
@@ -93,55 +88,92 @@ const styles = theme => ({
     bottom: 0,
     transform: 'translate(-50%,50%)',
     color: 'white',
-    fontWeight: 800
-  }
+    fontWeight: 800,
+  },
 });
 
-const ThanksMessage = (props) => {
+const ThanksMessage = props => {
   let { classes } = props;
 
   let hide = () => {
     props.hideThanks();
   };
 
-  const trackShare = (network) => {
+  const trackShare = network => {
     tracking.trackSocialShare(network);
   };
 
   return (
     <Paper
-        component="div"
-        className={classes.root}
-        elevation={10}
-        id="ThanksMessage"
-      >
+      component="div"
+      className={classes.root}
+      elevation={10}
+      id="ThanksMessage"
+    >
       <div className={classes.content}>
-        <Typography variant="display1" gutterBottom={true} className={classes.title} id="ThanksMessageTitle">
+        <Typography
+          variant="display1"
+          gutterBottom={true}
+          className={classes.title}
+          id="ThanksMessageTitle"
+        >
           {ThanksTitleText}
         </Typography>
-        <Typography component="p" gutterBottom={true} className={classes.text} id="ThanksMessageText">
+        <Typography
+          component="p"
+          gutterBottom={true}
+          className={classes.text}
+          id="ThanksMessageText"
+        >
           {ThanksCopyText}
         </Typography>
-        <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="ThanksMessageBtn" onClick={hide}>
+        <Button
+          variant="raised"
+          color="secondary"
+          type="submit"
+          className={classes.startAgainBtn}
+          id="ThanksMessageBtn"
+          onClick={hide}
+        >
           {FindCompanyText}
         </Button>
       </div>
       <div className={classes.extensionInfoContainer}>
-        <Typography component="b" gutterBottom={true} className={classes.browserExtensionsText}>
+        <Typography
+          component="b"
+          gutterBottom={true}
+          className={classes.browserExtensionsText}
+        >
           Save time by installing our browser extension
         </Typography>
         <div className={classes.browserExtensionLinkContainer}>
-          <a id="chromeExtension" target="_blank" onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')} href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
-            <img className={classes.extensionLinkIcons} src='../../static/chrome.png'></img>
+          <a
+            id="chromeExtension"
+            target="_blank"
+            onClick={trackShare.bind(null, 'extension-chrome-thankyou-page')}
+            href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
+          >
+            <img
+              className={classes.extensionLinkIcons}
+              src="../../static/chrome.png"
+            ></img>
           </a>
-          <a id="firefoxExtension" target="_blank" onClick={trackShare.bind(null, 'extension-firefox-thankyou-page')} href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
-            <img className={classes.extensionLinkIcons} src='../../static/firefox.png'></img>
+          <a
+            id="firefoxExtension"
+            target="_blank"
+            onClick={trackShare.bind(null, 'extension-firefox-thankyou-page')}
+            href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
+          >
+            <img
+              className={classes.extensionLinkIcons}
+              src="../../static/firefox.png"
+            ></img>
           </a>
         </div>
       </div>
       <Social />
     </Paper>
   );
-}
+};
 
 export default withStyles(styles)(ThanksMessage);

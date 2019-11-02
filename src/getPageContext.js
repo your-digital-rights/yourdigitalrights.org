@@ -2,38 +2,38 @@
 
 import {
   createGenerateClassName,
-  createMuiTheme
-} from "@material-ui/core/styles";
+  createMuiTheme,
+} from '@material-ui/core/styles';
 
-import { SheetsRegistry } from "jss";
-import blue from "@material-ui/core/colors/blue";
+import { SheetsRegistry } from 'jss';
+import blue from '@material-ui/core/colors/blue';
 
 // A theme with custom primary and secondary color.
 // It's optional.
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#005ea5"
+      main: '#005ea5',
     },
     secondary: {
-      main: "#ea9e13"
-    }
+      main: '#ea9e13',
+    },
   },
   typography: {
     body2: {
-      fontWeight: "600"
+      fontWeight: '600',
     },
     display1: {
-      fontWeight: "bold",
-      color: "#005ea5",
-      fontSize: "2.5rem"
+      fontWeight: 'bold',
+      color: '#005ea5',
+      fontSize: '2.5rem',
     },
     headline: {
-      fontWeight: "bold",
-      color: "#005ea5"
+      fontWeight: 'bold',
+      color: '#005ea5',
     },
-    fontFamily: ["Source Sans Pro", "sans-serif"].join(",")
-  }
+    fontFamily: ['Source Sans Pro', 'sans-serif'].join(','),
+  },
 });
 
 function createPageContext() {
@@ -44,7 +44,7 @@ function createPageContext() {
     // This is needed in order to inject the critical CSS.
     sheetsRegistry: new SheetsRegistry(),
     // The standard class name generator.
-    generateClassName: createGenerateClassName()
+    generateClassName: createGenerateClassName(),
   };
 }
 

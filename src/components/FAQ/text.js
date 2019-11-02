@@ -1,4 +1,4 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from 'react-intl';
 
 export const Title = (
   <FormattedMessage id="title" defaultMessage="Frequently Asked Questions" />
@@ -7,10 +7,7 @@ export const Title = (
 export default [
   {
     heading: (
-      <FormattedMessage
-        id="headingOne"
-        defaultMessage="What is GDPR?"
-      />
+      <FormattedMessage id="headingOne" defaultMessage="What is GDPR?" />
     ),
     body: [
       <FormattedMessage
@@ -18,17 +15,18 @@ export default [
         defaultMessage="The General Data Protection Regulations, or GDPR for short, is a new regulation introduced in the European Union in May 2018. It protects the fundamental right of people to the protection of personal data. {link}."
         values={{
           link: (
-            <a href="https://gdpr-info.eu/art-1-gdpr/">
-              Read the regulations
-            </a>
-          )
-        }}        
-      />
-    ]
+            <a href="https://gdpr-info.eu/art-1-gdpr/">Read the regulations</a>
+          ),
+        }}
+      />,
+    ],
   },
   {
     heading: (
-      <FormattedMessage id="headingTwo" defaultMessage="Who does the GDPR apply to?" />
+      <FormattedMessage
+        id="headingTwo"
+        defaultMessage="Who does the GDPR apply to?"
+      />
     ),
     body: [
       {
@@ -51,12 +49,12 @@ export default [
             id="2aiii"
             defaultMessage="Organisations established outside the EU collecting or processing personal information while engaged in the monitoring of the behavior of people while they are in the EU."
           />,
-        ]
+        ],
       },
       <FormattedMessage
         id="twoB"
         defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
-      />,  
+      />,
       <FormattedMessage
         id="towC"
         defaultMessage="{link}."
@@ -65,11 +63,11 @@ export default [
             <a href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
               Find out more
             </a>
-          )
-        }}         
-      />      
-    ]
-  }, 
+          ),
+        }}
+      />,
+    ],
+  },
   {
     heading: (
       <FormattedMessage
@@ -80,7 +78,7 @@ export default [
     body: [
       <FormattedMessage
         id="threeA"
-        defaultMessage="Any information relating to a person who can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."    
+        defaultMessage="Any information relating to a person who can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."
       />,
       <FormattedMessage
         id="threeB"
@@ -90,14 +88,17 @@ export default [
             <a href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/">
               Find out more
             </a>
-          )
-        }}         
-      />            
-    ]
-  },   
+          ),
+        }}
+      />,
+    ],
+  },
   {
     heading: (
-      <FormattedMessage id="headingFour" defaultMessage="When can I request erasure of my personal data?" />
+      <FormattedMessage
+        id="headingFour"
+        defaultMessage="When can I request erasure of my personal data?"
+      />
     ),
     body: [
       {
@@ -131,8 +132,8 @@ export default [
           <FormattedMessage
             id="4avi"
             defaultMessage="The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organisations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
-          />
-        ]
+          />,
+        ],
       },
       <FormattedMessage
         id="fourB"
@@ -142,14 +143,17 @@ export default [
             <a href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/">
               Find out more
             </a>
-          )
-        }}         
-      />        
-    ]
+          ),
+        }}
+      />,
+    ],
   },
   {
     heading: (
-      <FormattedMessage id="headingFive" defaultMessage="When can the organisation say no?" />
+      <FormattedMessage
+        id="headingFive"
+        defaultMessage="When can the organisation say no?"
+      />
     ),
     body: [
       {
@@ -183,8 +187,8 @@ export default [
           <FormattedMessage
             id="5avi"
             defaultMessage="If, having considered your request, the organisation decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the ICO, or through the courts."
-          />
-        ]
+          />,
+        ],
       },
       <FormattedMessage
         id="fiveB"
@@ -198,10 +202,10 @@ export default [
             <a href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
               Find out more
             </a>
-          )
-        }}         
-      />            
-    ]
+          ),
+        }}
+      />,
+    ],
   },
   {
     heading: (
@@ -214,8 +218,8 @@ export default [
       <FormattedMessage
         id="sixA"
         defaultMessage="An organisation has one month to comply with a request."
-      />
-    ]
+      />,
+    ],
   },
   {
     heading: (
@@ -237,10 +241,10 @@ export default [
             <a href="http://ec.europa.eu/newsroom/article29/document.cfm?action=display&doc_id=50061">
               here
             </a>
-          )
-        }}         
-      />           
-    ]
+          ),
+        }}
+      />,
+    ],
   },
   {
     heading: (
@@ -258,14 +262,10 @@ export default [
         id="eightB"
         defaultMessage="{link}."
         values={{
-          link: (
-            <a href="https://gdpr-info.eu/art-83-gdpr/">
-              Find out more
-            </a>
-          )
-        }}         
-      />          
-    ]
+          link: <a href="https://gdpr-info.eu/art-83-gdpr/">Find out more</a>,
+        }}
+      />,
+    ],
   },
   {
     heading: (
@@ -278,8 +278,8 @@ export default [
       <FormattedMessage
         id="nineA"
         defaultMessage="The Data Protection Office (DPO), although the legislation states that organisations should train staff to recognize GDPR requests no matter who they reach or in which format."
-      />
-    ]
+      />,
+    ],
   },
   {
     heading: (
@@ -302,9 +302,9 @@ export default [
             <a href="https://support.microsoft.com/en-us/help/555566">
               Windows
             </a>
-          )          
-        }}           
-      />
-    ]
-  }  
+          ),
+        }}
+      />,
+    ],
+  },
 ];
