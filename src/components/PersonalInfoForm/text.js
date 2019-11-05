@@ -1,27 +1,27 @@
 import { FormattedMessage } from "react-intl";
 
 export const CompanyNameLabelText = (
-  <FormattedMessage id="companyNameLabel" defaultMessage="Organisation name" />
+  <FormattedMessage id="companyNameLabel" defaultMessage="Organization name" />
 );
 
 export const CompanyNameHelperText = (
   <FormattedMessage
     id="companyNameHelper"
-    defaultMessage="Please enter the name of the organisation you would like to contact."
+    defaultMessage="Please enter the name of the organization you would like to contact."
   />
 );
 
 export const CompanyEmailLabelText = (
   <FormattedMessage
     id="companyEmailLabel"
-    defaultMessage="Organisation email address"
+    defaultMessage="Organization email address"
   />
 );
 
 export const CompanyEmailHelperText = (
   <FormattedMessage
     id="compnayEmailHelper"
-    defaultMessage="Please enter the email address of the person or department responsible for handling GDPR / privacy / legal requests."
+    defaultMessage="Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the privacy policy or contact us page of the organization’s website."
   />
 );
 
@@ -32,18 +32,18 @@ export const NameLabelText = (
 export const NameHelperText = (
   <FormattedMessage
     id="nameHelper"
-    defaultMessage="This will be used by the organisation to identify you in their systems."
+    defaultMessage="This will be used by the organization to identify you in their systems."
   />
 );
 
 export const IdentifyingInfoLabelText = (
-  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information" />
+  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information (optional)" />
 );
 
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Do not provide your password."
+    defaultMessage="Optionally provide any additional information which may help the organization to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
   />
 );
 

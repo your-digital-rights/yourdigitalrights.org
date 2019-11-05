@@ -13,6 +13,7 @@ import fetchSheetData from "../utils/sheets";
 import pageWithIntl from "../components/PageWithIntl";
 import tracking from "../utils/tracking";
 import withRoot from "../withRoot";
+import { DOMAIN } from "../utils/domain";
 
 class Index extends Component {
   static async getInitialProps({ query }) {
@@ -82,10 +83,10 @@ class Index extends Component {
     const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
-    const Title = deeplinkedCompany ? "Opt Out of " + deeplinkedCompany.name + " | Opt-out.eu" : "Opt Out";
-    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data by sending a GDPR Erasure Request (right to be forgoten)." :
-      "Own your data - get thousands of organisations to erase your personal data, hassle free.";
-    const Canonical = deeplinkedCompany ? "https://opt-out.eu/?company=" + deeplinkedCompany.url : "https://opt-out.eu/"
+    const Title = deeplinkedCompany ? "Opt-out of " + deeplinkedCompany.name + " | YourDigitalRights.com" : "YourDigitalRights.com";
+    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data." :
+      "Get thousands of organizations to erase your personal data.";
+    const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";
 
     return (
       <div>

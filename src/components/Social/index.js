@@ -150,10 +150,10 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     var className = classes.offset;
   }
 
-  const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Opt-out - automated GDPR requests" });
-  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "Hey there,\n\nDid you know that you can get any organisation to erase your personal data for free? Check out https://opt-out.eu to know more.\n\nI hope you find it useful." });
-  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests" });
-  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get any organisation to erase your personal data - automated GDPR requests - http://opt-out.eu" });
+  const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Get thousands of organizations to erase your personal data | YourDigitalRights.com" });
+  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out YourDigitalRights.com, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
+  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.com." });
+  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.com." });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
   const handleEmailClick = (e) => {
@@ -201,9 +201,9 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         />
     </Typography>
 
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://opt-out.eu/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['privacy', 'privacy', 'GDPR', 'ownyourdata', 'righttobeforgotten', 'optout']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['GDPR', 'CCPA', 'YourDigitalRights', 'righttobeforgotten', 'optout', 'ownyourdata']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
 
   </div>;

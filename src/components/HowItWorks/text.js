@@ -4,7 +4,7 @@ const Title = <FormattedMessage id="title" defaultMessage="How it works" />;
 const TitleImgAlt = (
   <FormattedMessage
     id="imgAlt"
-    defaultMessage="A graphic representing the opt-out user interface"
+    defaultMessage="A graphic representing the user interface"
   />
 );
 
@@ -15,7 +15,7 @@ const SearchTitle = (
 const SearchBody = (
   <FormattedMessage
     id="search"
-    defaultMessage="Search for an organisation using the search box above. If the organisation you are looking for is not on the list, you can still send it a request by providing a contact email."
+    defaultMessage="Search for an organization using the search box above. If the organization you are looking for is not on the list, you can still send it a request by providing a contact email."
   />
 );
 
@@ -26,7 +26,7 @@ const FillInTitle = (
 const FillInBody = (
   <FormattedMessage
     id="fillIn"
-    defaultMessage="Fill in your name and any additional information which may help the organisation to identify you in their information systems (we do not keep this information)."
+    defaultMessage="Fill in your name and any additional information which may help the organization to identify you in their information systems (we do not keep this information)."
   />
 );
 
@@ -35,7 +35,7 @@ const SendTitle = <FormattedMessage id="sendTitle" defaultMessage="Send" />;
 const SendBody = (
   <FormattedMessage
     id="send"
-    defaultMessage="Click the Send button to create an Erasure Request email addressed to the relevant person at the organisation you selected. The email will open up in your email application where you can then review, and then send it."
+    defaultMessage="Click the Send button to create an Erasure Request email addressed to the relevant person at the organization you selected. The email will open up in your email application where you can review, and then send it."
   />
 );
 
@@ -48,25 +48,30 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="yourData"
-    defaultMessage="{link} (GDPR) recently introduced in Europe require organisations to erase personal data upon request. Organisations have one month to comply, otherwise they can face steep fines"
+    defaultMessage="The {GDPRlink} (GDPR) and the {CCPAlink} (CCPA) require organizations to erase personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
     values={{
-      link: (
+      GDPRlink: (
         <a href="https://www.eugdpr.org/">
-          The General Data Protection Regulations
+          General Data Protection Regulations
         </a>
-      )
+      ),
+      CCPAlink: (
+        <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
+          California Consumer Privacy Act
+        </a>
+      )      
     }}
   />
 );
 
 const WhyTitle = (
-  <FormattedMessage id="whyTitle" defaultMessage="Why Opt-out?" />
+  <FormattedMessage id="whyTitle" defaultMessage="Why YourDigitalRights.com?" />
 );
 
 const WhyBody = (
   <FormattedMessage
     id="whyBody"
-    defaultMessage="We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy. This is a free service. We do not offer any services to the organizations on our list. We do not collect or trade any personal data."
+    defaultMessage="We created this free service because we believe that privacy matters, and that exercising your right to privacy should be easy. We do not collect or sell personal data."
   />
 );
 
