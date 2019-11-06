@@ -22,14 +22,14 @@ describe("When I view social sharing", () => {
     page.mailTo.should.be.equal('https://linkedin.com/shareArticle?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dlinkedin%26pk_source%3Dhomepage');
 
     page.socialShare.twitter.click();
-    page.mailTo.should.be.equal('https://twitter.com/share?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dtwitter%26pk_source%3Dhomepage&text=Get%20any%20organization%20to%20erase%20your%20personal%20data%20-%20automated%20GDPR%20requests&hashtags=privacy%2Cprivacy%2CGDPR%2Cownyourdata%2Crighttobeforgotten%2Coptout');
+    page.mailTo.should.be.equal('https://twitter.com/share?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dtwitter%26pk_source%3Dhomepage&text=Get%20thousands%20of%20organizations%20to%20erase%20your%20personal%20data%2C%20check%20out%20YourDigitalRights.com.&hashtags=GDPR%2CCCPA%2CYourDigitalRights%2Crighttobeforgotten%2Coptout%2Cownyourdata');
 
     page.socialShare.email.click();
-    page.mailTo.should.be.equal('mailto:?body=Hey%20there%2C%0A%0ADid%20you%20know%20that%20you%20can%20get%20any%20organization%20to%20erase%20your%20personal%20data%20for%20free%3F%20Check%20out%20https%3A%2F%2Fyourdigitalrights.org%20to%20know%20more.%0A%0AI%20hope%20you%20find%20it%20useful.&subject=Opt-out%20-%20automated%20GDPR%20requests');
+    page.mailTo.should.be.equal('mailto:?body=You%20should%20check%20out%20YourDigitalRights.com%2C%20a%20free%20service%20which%20makes%20it%20easy%20to%20get%20organizations%20to%20erase%20your%20personal%20data%20by%20automating%20the%20process%20of%20sending%20GDPR%20and%20CCPA%20erasure%20%28right%20to%20be%20forgotten%29%20requests.&subject=Get%20thousands%20of%20organizations%20to%20erase%20your%20personal%20data%20%7C%20YourDigitalRights.com');
 
     page.socialShare.facebook.click();
-    page.mailTo.should.be.equal('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dfacebook%26pk_source%3Dhomepage&quote=Get%20any%20organization%20to%20erase%20your%20personal%20data%20-%20automated%20GDPR%20requests%20-%20http%3A%2F%2Fyourdigitalrights.org');
+    page.mailTo.should.be.equal('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dfacebook%26pk_source%3Dhomepage&quote=Get%20thousands%20of%20organizations%20to%20erase%20your%20personal%20data%2C%20check%20out%20YourDigitalRights.com.');
+                              
 
   });
 });
-§
