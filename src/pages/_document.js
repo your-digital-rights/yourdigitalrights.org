@@ -4,6 +4,7 @@ import JssProvider from "react-jss/lib/JssProvider";
 import React from "react";
 import flush from "styled-jsx/server";
 import getPageContext from "../getPageContext";
+import { DOMAIN } from "../utils/domain";
 
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
@@ -60,7 +61,7 @@ export default class IntlDocument extends Document {
         <Head>
           <meta
             property="og:image"
-            content="https://opt-out.eu/static/opt-out-share.jpg?v=2"
+            content="https://" + DOMAIN + "/static/opt-out-share.jpg?v=2"
           />
           <meta
             property="og:image:width"
@@ -81,7 +82,7 @@ export default class IntlDocument extends Document {
 
           <meta
             name="twitter:image"
-            content="https://opt-out.eu/static/opt-out-share.jpg?v=2"
+            content="https://" + DOMAIN + "/static/opt-out-share.jpg?v=2"
           />
           <meta
             name="viewport"
@@ -106,7 +107,7 @@ export default class IntlDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html:
-                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*.opt-out.eu']); _paq.push(['setDomains', ['*.opt-out.eu']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();"
+                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." + DOMAIN + "']); _paq.push(['setDomains', ['*." DOMAIN + "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();"
             }}
           />
           <noscript>
