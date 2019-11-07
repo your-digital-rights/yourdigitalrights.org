@@ -12,14 +12,16 @@ const Hero = ({ classes, onCompanySelected, children }) => {
       <div className={classes.container}>
         <div className={classes.heading}>
 
-          <Typography
-            variant="display1"
-            color="inherit"
-            gutterBottom={true}
-            component="p"
-          >
-            {SubtitleText}
-          </Typography>
+        <h1 className={classes.title}>
+          <img
+            src="static/type.svg"
+            alt="Your Digital Rights"
+            className={classes.titleImg}
+            role="presentation"
+          />
+          <span style={visuallyHidden}>Your Digital Rights</span>
+        </h1>
+
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>
