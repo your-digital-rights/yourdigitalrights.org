@@ -49,8 +49,8 @@ const About = ({ classes }) => {
         <meta
           name="twitter:description"
           content={Description}
-        />          
-      </Head>     
+        />
+      </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
@@ -136,7 +136,16 @@ const About = ({ classes }) => {
                 linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chandler</a>
               }}
             />
-          </Typography>          
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="contributorsBody2"
+              defaultMessage="{linkedin} - Frontend web developer."
+              values={{
+                linkedin: <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">Steeve George Vadakkumchery</a>
+              }}
+            />
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage

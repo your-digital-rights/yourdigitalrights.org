@@ -87,7 +87,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="footerQuery"
-    defaultMessage="For more information please contact us at {mail}. © Copyright 2018"
+    defaultMessage="For more information please contact us at {mail}. © Copyright 2019"
     values={{
       mail: (
         <a href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
@@ -124,8 +124,8 @@ const Footer = ({ classes }) => {
             {DisclaimerText}
           </Typography>
           <Typography color="textSecondary">{QueryText}</Typography>
-        </div>      
-      </div>      
+        </div>
+      </div>
     </div>
   );
 };

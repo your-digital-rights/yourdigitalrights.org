@@ -146,9 +146,7 @@ const styles = theme => ({
 
 const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, style }) => {
 
-  if (sourcePage === 'homepage') {
-    var className = classes.offset;
-  }
+  var className = classes.offset;
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Get thousands of organizations to erase your personal data | YourDigitalRights.com" });
   const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out YourDigitalRights.com, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
