@@ -18,7 +18,7 @@ export default theme => ({
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
       backgroundImage: "url('static/mascot.svg')",
-      backgroundPosition: "right 130px top 120px",
+      backgroundPosition: "right 150px top 80px",
       backgroundRepeat: "no-repeat"
     }
   },

@@ -1,68 +1,153 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="177" height="172" viewBox="0 0 177 172">
-    <defs>
-        <linearGradient id="c" x1="50%" x2="69.472%" y1="0%" y2="100%">
-            <stop offset="0%" stop-color="#E6E6E6"/>
-            <stop offset="100%" stop-color="#BDBDBD"/>
-        </linearGradient>
-        <path id="b" d="M35.418 42c-5.383 0-9.786 4.857-9.786 10.793v75.555c0 5.936 4.403 10.793 9.786 10.793h53.825c5.382 0 9.786-4.857 9.786-10.793V52.793C99.03 46.857 94.625 42 89.243 42H35.418zm12.64 41.632c1.127 0 2.04-1.036 2.04-2.313 0-1.277-.913-2.313-2.04-2.313-1.125 0-2.038 1.036-2.038 2.313 0 1.277.913 2.313 2.039 2.313zm28.544 0c1.126 0 2.039-1.036 2.039-2.313 0-1.277-.913-2.313-2.039-2.313-1.126 0-2.039 1.036-2.039 2.313 0 1.277.913 2.313 2.04 2.313zM54.68 104.448l-4.582-.004c.01-5.606 5.465-9.236 12.234-9.248 6.782-.011 12.232 3.613 12.232 9.25h-4.58c0-3.483-3.237-5.635-7.642-5.627-4.404.008-7.657 2.172-7.662 5.629z"/>
-        <filter id="a" width="128.6%" height="121.6%" x="-14.3%" y="-10.8%" filterUnits="objectBoundingBox">
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-        </filter>
-        <path id="e" d="M30.102 47c-5.383 0-9.787 4.857-9.787 10.793v75.555c0 5.936 4.404 10.793 9.787 10.793h53.825c5.382 0 9.786-4.857 9.786-10.793V57.793c0-5.936-4.404-10.793-9.786-10.793H30.102zm12.64 41.632c1.126 0 2.04-1.036 2.04-2.313 0-1.277-.914-2.313-2.04-2.313s-2.039 1.036-2.039 2.313c0 1.277.913 2.313 2.04 2.313zm28.544 0c1.126 0 2.039-1.036 2.039-2.313 0-1.277-.913-2.313-2.04-2.313-1.125 0-2.038 1.036-2.038 2.313 0 1.277.913 2.313 2.039 2.313zm-21.924 20.816l-4.58-.004c.008-5.606 5.463-9.236 12.233-9.248 6.781-.011 12.232 3.613 12.232 9.25h-4.581c0-3.483-3.236-5.635-7.641-5.627-4.404.008-7.658 2.172-7.663 5.629z"/>
-        <filter id="d" width="128.6%" height="121.6%" x="-14.3%" y="-10.8%" filterUnits="objectBoundingBox">
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-        </filter>
-        <linearGradient id="f" x1="-10.609%" x2="123.976%" y1="-57.231%" y2="190.425%">
-            <stop offset="0%" stop-color="#00C8EA" stop-opacity=".583"/>
-            <stop offset="100%" stop-color="#FFF"/>
-        </linearGradient>
-        <path id="h" d="M20.355 58c-5.383 0-9.787 4.857-9.787 10.793v75.555c0 5.936 4.404 10.793 9.787 10.793H74.18c5.382 0 9.786-4.857 9.786-10.793V68.793C83.966 62.857 79.562 58 74.18 58H20.355zm12.64 41.632c1.127 0 2.04-1.036 2.04-2.313 0-1.277-.913-2.313-2.04-2.313-1.125 0-2.038 1.036-2.038 2.313 0 1.277.913 2.313 2.039 2.313zm28.544 0c1.126 0 2.039-1.036 2.039-2.313 0-1.277-.913-2.313-2.039-2.313-1.126 0-2.039 1.036-2.039 2.313 0 1.277.913 2.313 2.04 2.313zm-21.924 20.816l-4.58-.004c.008-5.606 5.464-9.236 12.233-9.248 6.782-.011 12.232 3.613 12.232 9.25h-4.58c0-3.483-3.237-5.635-7.642-5.627-4.404.008-7.657 2.172-7.663 5.629z"/>
-        <filter id="g" width="128.6%" height="121.6%" x="-14.3%" y="-10.8%" filterUnits="objectBoundingBox">
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-        </filter>
-        <path id="j" d="M15.925 64c-5.383 0-9.787 4.857-9.787 10.793v75.555c0 5.936 4.404 10.793 9.787 10.793H69.75c5.382 0 9.786-4.857 9.786-10.793V74.793C79.536 68.857 75.132 64 69.75 64H15.925zm12.64 41.632c1.126 0 2.04-1.036 2.04-2.313 0-1.277-.914-2.313-2.04-2.313s-2.039 1.036-2.039 2.313c0 1.277.913 2.313 2.04 2.313zm28.544 0c1.126 0 2.039-1.036 2.039-2.313 0-1.277-.913-2.313-2.04-2.313-1.125 0-2.038 1.036-2.038 2.313 0 1.277.913 2.313 2.039 2.313zm-21.924 20.816l-4.58-.004c.008-5.606 5.463-9.236 12.233-9.248 6.781-.011 12.232 3.613 12.232 9.25h-4.581c0-3.483-3.236-5.635-7.641-5.627-4.404.008-7.657 2.172-7.663 5.629z"/>
-        <filter id="i" width="128.6%" height="121.6%" x="-14.3%" y="-10.8%" filterUnits="objectBoundingBox">
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-        </filter>
-        <path id="l" d="M10.608 70C5.226 70 .822 74.857.822 80.793v75.555c0 5.936 4.404 10.793 9.786 10.793h53.825c5.383 0 9.787-4.857 9.787-10.793V80.793C74.22 74.857 69.816 70 64.433 70H10.608zm12.64 41.632c1.127 0 2.04-1.036 2.04-2.313 0-1.277-.913-2.313-2.04-2.313-1.125 0-2.038 1.036-2.038 2.313 0 1.277.913 2.313 2.039 2.313zm28.544 0c1.126 0 2.04-1.036 2.04-2.313 0-1.277-.914-2.313-2.04-2.313s-2.038 1.036-2.038 2.313c0 1.277.912 2.313 2.038 2.313zM29.87 132.448l-4.581-.004c.008-5.606 5.464-9.236 12.233-9.248 6.782-.011 12.233 3.613 12.233 9.25h-4.581c0-3.483-3.237-5.635-7.642-5.627-4.404.008-7.657 2.172-7.662 5.629z"/>
-        <filter id="k" width="128.6%" height="121.6%" x="-14.3%" y="-10.8%" filterUnits="objectBoundingBox">
-            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3.5"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.4 0"/>
-        </filter>
-    </defs>
-    <g fill="none" fill-rule="evenodd">
-        <g transform="translate(6 -2)">
-            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
-            <use fill="url(#c)" xlink:href="#b"/>
-        </g>
-        <g transform="translate(6 -2)">
-            <use fill="#000" filter="url(#d)" xlink:href="#e"/>
-            <use fill="url(#c)" xlink:href="#e"/>
-        </g>
-        <path fill="#FFF" d="M113.439.892c-5.576-1.494-11.575 2.646-13.33 9.2L77.76 93.496c-1.756 6.553 1.37 13.137 6.945 14.631l55.757 14.94c5.576 1.494 11.575-2.645 13.33-9.198l22.35-83.406c1.755-6.553-1.37-13.137-6.946-14.631L113.44.893zm.78 49.467c1.166.313 2.418-.577 2.796-1.987.378-1.41-.261-2.807-1.428-3.12-1.166-.312-2.418.578-2.796 1.988-.378 1.41.261 2.807 1.428 3.12zm29.568 7.923c1.167.313 2.419-.577 2.796-1.987.378-1.41-.261-2.807-1.428-3.12-1.166-.312-2.418.578-2.796 1.988-.378 1.41.262 2.806 1.428 3.119zM133.51 69.211l4.744 1.276c-1.667 6.186-8.392 8.679-15.408 6.813-7.028-1.87-11.603-7.383-9.935-13.606l4.745 1.271c-1.03 3.845 1.686 7.118 6.251 8.333 4.565 1.214 8.575-.272 9.603-4.087z"/>
-        <path fill="#FFF" d="M113.439.892c-5.576-1.494-11.575 2.646-13.33 9.2L77.76 93.496c-1.756 6.553 1.37 13.137 6.945 14.631l55.757 14.94c5.576 1.494 11.575-2.645 13.33-9.198l22.35-83.406c1.755-6.553-1.37-13.137-6.946-14.631L113.44.893zm.78 49.467c1.166.313 2.418-.577 2.796-1.987.378-1.41-.261-2.807-1.428-3.12-1.166-.312-2.418.578-2.796 1.988-.378 1.41.261 2.807 1.428 3.12zm29.568 7.923c1.167.313 2.419-.577 2.796-1.987.378-1.41-.261-2.807-1.428-3.12-1.166-.312-2.418.578-2.796 1.988-.378 1.41.262 2.806 1.428 3.119zM133.51 69.211l4.744 1.276c-1.667 6.186-8.392 8.679-15.408 6.813-7.028-1.87-11.603-7.383-9.935-13.606l4.745 1.271c-1.03 3.845 1.686 7.118 6.251 8.333 4.565 1.214 8.575-.272 9.603-4.087z"/>
-        <path fill="url(#f)" d="M24.305 8.471c-5.772 0-10.495 5.55-10.495 12.335v86.348c0 6.785 4.723 12.336 10.495 12.336H82.03c5.773 0 10.496-5.551 10.496-12.336V20.806c0-6.784-4.723-12.335-10.496-12.335H24.305zm13.557 47.58c1.207 0 2.186-1.184 2.186-2.644 0-1.46-.979-2.643-2.186-2.643-1.208 0-2.187 1.183-2.187 2.643 0 1.46.979 2.643 2.187 2.643zm30.611 0c1.208 0 2.187-1.184 2.187-2.644 0-1.46-.98-2.643-2.187-2.643-1.208 0-2.187 1.183-2.187 2.643 0 1.46.98 2.643 2.187 2.643zm-7.1 13.216l4.913.005c-.009 6.406-5.86 10.555-13.12 10.568-7.272.014-13.118-4.128-13.118-10.57h4.913c0 3.98 3.47 6.439 8.195 6.43 4.723-.009 8.212-2.482 8.218-6.433z" transform="rotate(15 97.655 343.2)"/>
-        <g transform="translate(6 -2)">
-            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
-            <use fill="url(#c)" xlink:href="#h"/>
-        </g>
-        <g transform="translate(6 -2)">
-            <use fill="#000" filter="url(#i)" xlink:href="#j"/>
-            <use fill="url(#c)" xlink:href="#j"/>
-        </g>
-        <path fill="#626262" d="M19.227 97h46.168v43.531H19.227z"/>
-        <g transform="translate(6 -2)">
-            <use fill="#000" filter="url(#k)" xlink:href="#l"/>
-            <use fill="url(#c)" xlink:href="#l"/>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 177 172" style="enable-background:new 0 0 177 172;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);fill:#00AE8D;}
+	.st2{clip-path:url(#SVGID_6_);}
+	.st3{clip-path:url(#SVGID_8_);fill:#DFEAF3;}
+	.st4{clip-path:url(#SVGID_10_);}
+	.st5{clip-path:url(#SVGID_12_);enable-background:new    ;}
+	.st6{clip-path:url(#SVGID_14_);}
+	.st7{clip-path:url(#SVGID_16_);}
+	.st8{clip-path:url(#SVGID_18_);fill:#FFFFFF;}
+	.st9{clip-path:url(#SVGID_20_);fill:none;stroke:#FFFFFF;stroke-width:0.7;stroke-miterlimit:10;}
+	.st10{clip-path:url(#SVGID_22_);}
+	.st11{clip-path:url(#SVGID_24_);enable-background:new    ;}
+	.st12{clip-path:url(#SVGID_26_);}
+	.st13{clip-path:url(#SVGID_28_);fill:none;stroke:#FFFFFF;stroke-width:0.7;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M144.8,4.8c-2.5-0.9-5.3,0.6-6.3,3.4L125.8,43c-1,2.7,0.2,5.7,2.6,6.6l24.6,8.9c2.5,0.9,5.3-0.6,6.3-3.4
+				L172,20.3c1-2.7-0.2-5.7-2.6-6.6L144.8,4.8z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<defs>
+				<rect id="SVGID_3_" x="106.6" y="-2" width="72.3" height="67.3"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			
+				<rect x="123.7" y="12.6" transform="matrix(0.342 -0.9397 0.9397 0.342 68.2151 160.7378)" class="st1" width="50.3" height="38.2"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_5_" d="M111.6,54c0,2.7,2.4,4.8,5.3,4.8H154c2.9,0,5.3-2.2,5.3-4.8V27.4c0-2.7-2.4-4.8-5.3-4.8h-37.1
+				c-2.9,0-5.3,2.2-5.3,4.8V54z"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st2">
+			<defs>
+				<rect id="SVGID_7_" x="106.6" y="-2" width="72.3" height="67.3"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="110.4" y="21.4" class="st3" width="50.2" height="38.7"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_9_" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+				c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			<defs>
+				<rect id="SVGID_11_" x="106.6" y="-2" width="72.3" height="67.3"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st5">
+				<g>
+					<defs>
+						<rect id="SVGID_13_" x="123.9" y="21.7" width="36.5" height="38"/>
+					</defs>
+					<clipPath id="SVGID_14_">
+						<use xlink:href="#SVGID_13_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st6">
+						<defs>
+							<path id="SVGID_15_" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+								c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+						</defs>
+						<clipPath id="SVGID_16_">
+							<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+						</clipPath>
+						<g class="st7">
+							<defs>
+								<rect id="SVGID_17_" x="125.1" y="22.5" width="34.3" height="36.5"/>
+							</defs>
+							<clipPath id="SVGID_18_">
+								<use xlink:href="#SVGID_17_"  style="overflow:visible;"/>
+							</clipPath>
+							<path class="st8" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+								c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+						</g>
+					</g>
+					<g class="st6">
+						<defs>
+							<rect id="SVGID_19_" x="125.1" y="22.5" width="34.3" height="36.5"/>
+						</defs>
+						<clipPath id="SVGID_20_">
+							<use xlink:href="#SVGID_19_"  style="overflow:visible;"/>
+						</clipPath>
+						<path class="st9" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+							c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<path id="SVGID_21_" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+				c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+		</defs>
+		<clipPath id="SVGID_22_">
+			<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st10">
+			<defs>
+				<rect id="SVGID_23_" x="106.6" y="-2" width="72.3" height="67.3"/>
+			</defs>
+			<clipPath id="SVGID_24_">
+				<use xlink:href="#SVGID_23_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st11">
+				<g>
+					<defs>
+						<rect id="SVGID_25_" x="123.9" y="21.7" width="36.5" height="38"/>
+					</defs>
+					<clipPath id="SVGID_26_">
+						<use xlink:href="#SVGID_25_"  style="overflow:visible;"/>
+					</clipPath>
+					<g class="st12">
+						<defs>
+							<rect id="SVGID_27_" x="125.1" y="22.5" width="34.3" height="36.5"/>
+						</defs>
+						<clipPath id="SVGID_28_">
+							<use xlink:href="#SVGID_27_"  style="overflow:visible;"/>
+						</clipPath>
+						<path class="st13" d="M154,22.6c2.9,0,5.3,2.2,5.3,4.8V54c0,1-0.3,2-0.9,2.7l0,0.1c-0.2,0.3-0.5,0.5-0.7,0.7
+							c-0.7,0.6-1.5,1-2.4,1.2c-0.7,0.1-1.5,0.1-2.3-0.2l-24.6-8.9c-2.5-0.9-3.6-3.9-2.6-6.6l7.5-20.4L154,22.6z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
