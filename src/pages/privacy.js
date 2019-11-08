@@ -49,8 +49,8 @@ const Privacy = ({ classes }) => {
         <meta
           name="twitter:description"
           content={Description}
-        />          
-      </Head>    
+        />
+      </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
@@ -76,7 +76,7 @@ const Privacy = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="promiseBody"
-              defaultMessage="You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.com). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+              defaultMessage="You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
             />
           </Typography>
           <br/>
@@ -92,7 +92,7 @@ const Privacy = ({ classes }) => {
               defaultMessage='While using this Service, we may ask you to provide us with certain personal information that can be used to contact or identify you ("Personal Data"). The Personally identifiable information collect is:'
             />
             <ul>
-              <li>  
+              <li>
                 <FormattedMessage
                   id="personalDataBodyOneA"
                   defaultMessage="Your name"
@@ -113,7 +113,7 @@ const Privacy = ({ classes }) => {
             </ul>
             <FormattedMessage
               id="personalDataBodyOneE"
-              defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.com and the authorized third parties referred to in this Policy."
+              defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.org and the authorized third parties referred to in this Policy."
             />
           </Typography>
           <br/>
@@ -128,7 +128,7 @@ const Privacy = ({ classes }) => {
               id="nameAndAdditionalInfoBody2"
               defaultMessage="We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate an erasure request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
             />
-          </Typography>          
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
@@ -168,17 +168,17 @@ const Privacy = ({ classes }) => {
               defaultMessage="We use the following third-party Service Provider to monitor and analyze the use of our Service:"
             />
             <ul>
-              <li>  
+              <li>
                 <FormattedMessage
                   id="analyticsBodyOneA"
                   defaultMessage="Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
                   values={{
                     matomo: <a href="https://www.innocraft.com/privacy">Privacy Policy</a>
-                  }}                  
+                  }}
                 />
               </li>
             </ul>
-          </Typography>                    
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage defaultMessage="Contact" id="contact" />

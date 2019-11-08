@@ -59,13 +59,13 @@ const YourDataBody = (
         <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
           California Consumer Privacy Act
         </a>
-      )      
+      )
     }}
   />
 );
 
 const WhyTitle = (
-  <FormattedMessage id="whyTitle" defaultMessage="Why YourDigitalRights.com?" />
+  <FormattedMessage id="whyTitle" defaultMessage="Why YourDigitalRights.org?" />
 );
 
 const WhyBody = (
