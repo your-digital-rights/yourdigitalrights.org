@@ -17,7 +17,7 @@ export default theme => ({
     ...container,
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
-      backgroundImage: "url('static/mascot.svg')",
+      backgroundImage: "url('static/mascot_new.svg')",
       backgroundPosition: "right 160px top 140px",
       backgroundRepeat: "no-repeat"
     }
