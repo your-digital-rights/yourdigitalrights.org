@@ -12,32 +12,6 @@ class Page {
     return browser.url(`http://localhost:3000${this.path}`);
   }
 
-  get navigationBar() {
-    return {
-      get nav() {
-        return $('#nav');
-      },
-      get linkOne() {
-        return $('#nav li:nth-child(1)');
-      },
-      get linkTwo() {
-        return $('#nav li:nth-child(2)');
-      },
-      get linkThree() {
-        return $('#nav li:nth-child(3)');
-      },
-      get linkFour() {
-        return $('#nav li:nth-child(4)');
-      },
-      get linkFive() {
-        return $('#nav li:nth-child(5)');
-      },
-      get linkButton() {
-        return $('#nav ul > a');
-      },
-    };
-  }
-  
   get headingText() {
     return browser.getText("h1");
   }
@@ -92,6 +66,32 @@ class Page {
 
   get socialShare() {
     return new SocialShare('#faq +');
+  }
+
+  get navigationBar() {
+    return {
+      get nav() {
+        return $('#nav');
+      },
+      get linkOne() {
+        return browser.getText('[data-testid="nav-desktop-howItWorks"]');
+      },
+      get linkTwo() {
+        return browser.getText('[data-testid="nav-desktop-faq"]');
+      },
+      get linkThree() {
+        return browser.getText('[data-testid="nav-desktop-data-brokers"]');
+      },
+      get linkFour() {
+        return browser.getText('[data-testid="nav-desktop-extension"]');
+      },
+      get linkFive() {
+        return browser.getText('[data-testid="nav-desktop-about"]');
+      },
+      get linkButton() {
+        return browser.getText('[data-testid="nav-desktop-search-button"]');
+      },
+    };
   }
 
   hasTracked(...row) {
@@ -186,6 +186,7 @@ class Form {
   get submitButton() {
     return $("button");
   }
+  
 }
 
 export default Page;

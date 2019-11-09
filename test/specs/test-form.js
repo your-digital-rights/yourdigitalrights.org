@@ -180,15 +180,14 @@ describe("When I visit the home page", () => {
   });
 
   describe(' I see the navigation bar and all of the items', () => {
-    it('shows the nav bar', () => {
+    it('shows the nav bar on desktop', () => {
       page.navigationBar.nav.should.exist;
-      page.navigationBar.linkOne.should.exist;
-      page.navigationBar.linkOne.text().should.equal('123');
-      page.navigationBar.linkTwo.should.exist;
-      page.navigationBar.linkThree.should.exist;
-      page.navigationBar.linkFour.should.exist;
-      page.navigationBar.linkFive.should.exist;
-      page.navigationBar.linkButton.should.exist;
+      page.navigationBar.linkOne.should.equal('How it works');
+      page.navigationBar.linkTwo.should.equal('FAQ');
+      page.navigationBar.linkThree.should.equal('Data Brokers');
+      page.navigationBar.linkFour.should.equal('Browser Extension');
+      page.navigationBar.linkFive.should.equal('About');
+      page.navigationBar.linkButton.should.equal('Search Company');
     });
   });
 });

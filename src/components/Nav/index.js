@@ -250,7 +250,7 @@ const NavListDesktop = ({ classes }) => {
       />
 
       <a
-        dataTestId="nav-desktop-search-button"
+        data-testId="nav-desktop-search-button"
         href="/#topOfPage"
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
