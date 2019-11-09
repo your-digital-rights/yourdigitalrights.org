@@ -1,53 +1,52 @@
-import { container } from '../../styles/layout';
-import { themeBg } from '../../styles/theme';
+import { container } from "../../styles/layout";
+import { themeBg } from "../../styles/theme";
 
 export default theme => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
-    // borderTop: "5px black solid",
     ...themeBg,
     [theme.breakpoints.down('sm')]: {
       paddingTop: '50px',
-    },
+    }
   },
   heading: {
-    maxWidth: '850px !important',
-    margin: 'auto auto',
+    maxWidth: "850px !important",
+    margin: "auto auto",
   },
   container: {
-    padding: '30px',
-    boxSizing: 'border-box',
+    padding: "30px",
+    boxSizing: "border-box",
     ...container,
-    [theme.breakpoints.up('md')]: {
-      padding: '76px 30px',
+    [theme.breakpoints.up("md")]: {
+      padding: "76px 30px",
       backgroundImage: "url('static/mascot.svg')",
-      backgroundPosition: 'right 130px top 120px',
-      backgroundRepeat: 'no-repeat',
-    },
+      backgroundPosition: "right 130px top 120px",
+      backgroundRepeat: "no-repeat"
+    }
   },
   intro: {
-    maxWidth: '550px',
+    maxWidth: "550px"
   },
   WhiteText: {
-    color: 'white',
+    color: "white",
   },
   introEnd: {
-    marginBottom: '50px',
-    maxWidth: '530px',
+    marginBottom: "50px",
+    maxWidth: "530px"
   },
   titleImg: {
-    width: '300px',
-    maxWidth: '75%',
+    width: "300px",
+    maxWidth: "75%"
   },
   title: {
-    marginBottom: 0,
+    marginBottom: 0
   },
   introLink: {
-    color: '#e89e15',
-    fontWeight: 'bold',
-    textDecoration: 'none',
+    color: "#e89e15",
+    fontWeight: "bold",
+    textDecoration: "none",
     '&:hover': {
-      textDecoration: 'underline',
-    },
-  },
+      textDecoration: "underline",
+    }
+  }
 });
