@@ -1,7 +1,10 @@
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage } from "react-intl";
 
 export const SubtitleText = (
-  <FormattedMessage id="headingDonate" defaultMessage="Donate" />
+  <FormattedMessage
+    id="headingDonate"
+    defaultMessage="Donate"
+  />
 );
 
 export const IntroText = (
@@ -12,5 +15,8 @@ export const IntroText = (
 );
 
 export const DonateButtonText = (
-  <FormattedMessage id="Bitcoin" defaultMessage="Donate Bitcoin" />
+  <FormattedMessage
+    id="Bitcoin"
+    defaultMessage="Donate Bitcoin"
+  />
 );
