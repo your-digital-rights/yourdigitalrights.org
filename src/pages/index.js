@@ -1,19 +1,19 @@
-import Head from 'next/head';
-import { Component } from 'react';
-import Donations from '../components/Donations';
-import FAQ from '../components/FAQ';
-import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-import HowItWorks from '../components/HowItWorks';
-import Nav from '../components/Nav';
-import PersonalInfoForm from '../components/PersonalInfoForm';
-import SearchForm from '../components/SearchForm';
-import Social from '../components/Social';
-import fetchSheetData from '../utils/sheets';
-import pageWithIntl from '../components/PageWithIntl';
-import tracking from '../utils/tracking';
-import withRoot from '../withRoot';
-import { withStyles } from '@material-ui/core/styles';
+import Head from "next/head";
+import { Component } from "react";
+import Donations from "../components/Donations";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import HowItWorks from "../components/HowItWorks";
+import Nav from "../components/Nav";
+import PersonalInfoForm from "../components/PersonalInfoForm";
+import SearchForm from "../components/SearchForm";
+import Social from "../components/Social";
+import fetchSheetData from "../utils/sheets";
+import pageWithIntl from "../components/PageWithIntl";
+import tracking from "../utils/tracking";
+import withRoot from "../withRoot";
+import { withStyles } from "@material-ui/core/styles";
 
 const styles = theme => ({
   topOfPagePlaceholder: {
@@ -78,22 +78,22 @@ class Index extends Component {
       this.updateQueryParams(selectedCompany.url);
       this.setState({
         selectedCompany,
-        manualCompanyEntryEnabled: false,
+        manualCompanyEntryEnabled: false
       });
       tracking.trackSelectedCompany(selectedCompany.name);
     } else {
       this.setState({
         selectedCompany: null,
-        manualCompanyEntryEnabled: true,
+        manualCompanyEntryEnabled: true
       });
     }
   };
 
   updateQueryParams(companyName) {
-    if ('URLSearchParams' in window) {
+    if ("URLSearchParams" in window) {
       var searchParams = new URLSearchParams(window.location.search);
-      searchParams.set('company', companyName);
-      history.pushState(null, null, '?' + searchParams.toString());
+      searchParams.set("company", companyName);
+      history.pushState(null, null, "?" + searchParams.toString());
     }
   }
 
@@ -101,7 +101,7 @@ class Index extends Component {
     let state = Object.assign({}, this.state);
     state.selectedCompany = null;
     this.setState(state);
-    window.location.hash = 'hero';
+    window.location.hash = "hero";
     this.searchForm.current.focus();
   }
 
@@ -111,17 +111,11 @@ class Index extends Component {
     const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
-    const Title = deeplinkedCompany
-      ? 'Opt Out of ' + deeplinkedCompany.name + ' | Opt-out.eu'
-      : 'Opt Out';
-    const Description = deeplinkedCompany
-      ? 'Get ' +
-        deeplinkedCompany.name +
-        ' to erase your personal data by sending a GDPR Erasure Request (right to be forgoten).'
-      : 'Own your data - get thousands of organisations to erase your personal data, hassle free.';
-    const Canonical = deeplinkedCompany
-      ? 'https://opt-out.eu/?company=' + deeplinkedCompany.url
-      : 'https://opt-out.eu/';
+    const Title = deeplinkedCompany ? "Opt Out of " + deeplinkedCompany.name + " | Opt-out.eu" : "Opt Out";
+    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data by sending a GDPR Erasure Request (right to be forgoten)." :
+      "Own your data - get thousands of organisations to erase your personal data, hassle free.";
+    const Canonical = deeplinkedCompany ? "https://opt-out.eu/?company=" + deeplinkedCompany.url : "https://opt-out.eu/"
+
 
     return (
       <div>
