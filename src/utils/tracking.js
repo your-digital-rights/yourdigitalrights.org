@@ -1,9 +1,10 @@
+
 export default {
   get tracker() {
     if (window._paq) {
       return window._paq;
     } else {
-      return (window._paq = []);
+      return window._paq = [];
     }
   },
 
@@ -33,5 +34,5 @@ export default {
 
   trackSocialShare(network) {
     this.trackEvent('Social share', network);
-  },
+  }
 };

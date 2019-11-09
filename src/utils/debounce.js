@@ -6,5 +6,5 @@ export default (fn, time) => {
 
     clearTimeout(timeout);
     timeout = setTimeout(functionCall, time);
-  };
+  }
 };
