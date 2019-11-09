@@ -2,7 +2,7 @@ export default {
   subject({ requestType }) {
     let subject;
 
-    switch (requestType) {
+    switch(requestType) {
       case 'CCPA':
         subject = CCPA_SUBJECT;
         break;
@@ -14,8 +14,8 @@ export default {
   },
   formatBody(data) {
     var body;
-
-    switch (data.requestType) {
+    
+    switch(data.requestType) {
       case 'CCPA':
         body = CCPA_TEXT;
         break;
@@ -24,20 +24,19 @@ export default {
         break;
     }
 
-    if (data.identifyingInfo) {
-      body = body.concat(
-        `Please use the following information to identify me in your systems:
+if (data.identifyingInfo) {
+	body = body.concat(
+`Please use the following information to identify me in your systems:
 ${data.identifyingInfo}
 
-`
-      );
-    }
+`);
+}
 
-    return body.concat(`Kind regards,
+return body.concat(`Kind regards,
 
 ${data.name}
 `);
-  },
+  }
 };
 
 const CCPA_SUBJECT = 'Deletion Request (Section 105 of The CCPA)';
