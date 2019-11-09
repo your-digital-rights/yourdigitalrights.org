@@ -1,26 +1,27 @@
-import CircularProgress from '@material-ui/core/CircularProgress';
-import { Component } from 'react';
-import Downshift from 'downshift';
-import { FormattedMessage } from 'react-intl';
-import Icon from '@material-ui/core/Icon';
-import Input from '@material-ui/core/Input';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import InputLabel from '@material-ui/core/InputLabel';
-import ListItemText from '@material-ui/core/ListItemText';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import Paper from '@material-ui/core/Paper';
-import debounce from '../../utils/debounce';
-import fetchSheetData from '../../utils/sheets';
-import styles from './styles';
-import tracker from '../../utils/tracking';
-import { withStyles } from '@material-ui/core/styles';
+import CircularProgress from "@material-ui/core/CircularProgress";
+import { Component } from "react";
+import Downshift from "downshift";
+import { FormattedMessage } from "react-intl";
+import Icon from "@material-ui/core/Icon";
+import Input from "@material-ui/core/Input";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import InputLabel from "@material-ui/core/InputLabel";
+import ListItemText from "@material-ui/core/ListItemText";
+import MenuItem from "@material-ui/core/MenuItem";
+import MenuList from "@material-ui/core/MenuList";
+import Paper from "@material-ui/core/Paper";
+import debounce from "../../utils/debounce";
+import fetchSheetData from "../../utils/sheets";
+import styles from "./styles";
+import tracker from "../../utils/tracking";
+import { withStyles } from "@material-ui/core/styles";
+
 
 class Form extends Component {
   state = {
     searchResults: [],
-    companyNameSearch: '',
-    companiesLoaded: false,
+    companyNameSearch: "",
+    companiesLoaded: false
   };
 
   constructor(props) {
@@ -34,7 +35,7 @@ class Form extends Component {
 
   focus() {
     let state = Object.assign({}, this.state);
-    state.companyNameSearch = '';
+    state.companyNameSearch = "";
     this.setState(state);
     this.searchRef.current.focus();
   }
@@ -49,10 +50,10 @@ class Form extends Component {
   handleInput = e => {
     this.searchCompanies(e.target.value);
     this.setState({
-      companyNameSearch: e.target.value,
+      companyNameSearch: e.target.value
     });
   };
-
+ 
   async searchCompanies(search) {
     let searchResults = [];
 
@@ -60,9 +61,7 @@ class Form extends Component {
       const companies = await this.state.companies;
       searchResults = companies
         .filter(company => {
-          return company.searchTerms
-            .toLowerCase()
-            .match('^' + search.toLowerCase() + '|, *' + search.toLowerCase());
+          return company.searchTerms.toLowerCase().match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
         })
         .slice(0, 5);
     } else {
@@ -72,7 +71,7 @@ class Form extends Component {
     this.debounceSearch(search);
 
     this.setState({
-      searchResults,
+      searchResults
     });
   }
 
@@ -80,7 +79,7 @@ class Form extends Component {
     this.props.onCompanySelected(company);
     this.setState({
       searchResults: [],
-      companyNameSearch: company.name,
+      companyNameSearch: company.name
     });
   };
 
@@ -130,7 +129,7 @@ class Form extends Component {
     i,
     highlightedIndex,
     selectedItem,
-    itemProps,
+    itemProps
   }) => {
     const isHighlighted = highlightedIndex === i;
 
@@ -171,7 +170,7 @@ class Form extends Component {
             isOpen,
             inputValue,
             selectedItem,
-            highlightedIndex,
+            highlightedIndex
           }) => (
             <div>
               <Paper className={classes.results}>
@@ -185,7 +184,7 @@ class Form extends Component {
                           i,
                           itemProps: getItemProps({ item: result }),
                           highlightedIndex,
-                          selectedItem,
+                          selectedItem
                         })
                       )}
                     <MenuItem
@@ -201,7 +200,7 @@ class Form extends Component {
                             id="noResults"
                             defaultMessage="Can't find an organisation?"
                           />
-                        </strong>{' '}
+                        </strong>{" "}
                         <FormattedMessage
                           id="noResultsMore"
                           defaultMessage="Click here to add one"
