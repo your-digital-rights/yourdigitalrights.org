@@ -183,9 +183,20 @@ const styles = theme => ({
   },
 });
 
-const NavItem = ({ href, text, classes, onClickHandler, subsection }) => {
+const NavItem = ({
+  href,
+  text,
+  classes,
+  onClickHandler,
+  subsection,
+  dataTestId,
+}) => {
   return (
-    <li className={classes.item} onClick={onClickHandler}>
+    <li
+      className={classes.item}
+      onClick={onClickHandler}
+      data-testid={dataTestId}
+    >
       <Typography
         component="a"
         href={href}
@@ -201,6 +212,7 @@ const NavListDesktop = ({ classes }) => {
   return (
     <ul className={classes.container}>
       <NavItem
+        dataTestId="nav-desktop-howItWorks"
         href="/#howItWorks"
         text={
           <FormattedMessage id="howItWorks" defaultMessage="How it works" />
@@ -208,11 +220,13 @@ const NavListDesktop = ({ classes }) => {
         classes={classes}
       />
       <NavItem
+        dataTestId="nav-desktop-faq"
         href="/#faq"
         text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
         classes={classes}
       />
       <NavItem
+        dataTestId="nav-desktop-data-brokers"
         href="/data-brokers"
         text={
           <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
@@ -220,6 +234,7 @@ const NavListDesktop = ({ classes }) => {
         classes={classes}
       />
       <NavItem
+        dataTestId="nav-desktop-extension"
         href="/#Extension"
         text={
           <FormattedMessage id="Extension" defaultMessage="Browser Extension" />
@@ -228,12 +243,14 @@ const NavListDesktop = ({ classes }) => {
       />
 
       <NavItem
+        dataTestId="nav-desktop-about"
         href="/about"
         text={<FormattedMessage id="about" defaultMessage="About" />}
         classes={classes}
       />
 
       <a
+        dataTestId="nav-desktop-search-button"
         href="/#topOfPage"
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
@@ -251,6 +268,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
     <div className={mobileNavOpen ? classes.scrollIn : classes.scrollOut}>
       <ul className={classes.mobileList}>
         <NavItem
+          dataTestId="nav-mob-howItWorks"
           onClickHandler={toggleMobileNav}
           href="/#howItWorks"
           text={
@@ -259,12 +277,14 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           classes={classes}
         />
         <NavItem
+          dataTestId="nav-mob-faq"
           onClickHandler={toggleMobileNav}
           href="/#faq"
           text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
           classes={classes}
         />
         <NavItem
+          dataTestId="nav-mob-data-brokers"
           onClickHandler={toggleMobileNav}
           href="/data-brokers"
           text={
@@ -273,12 +293,14 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           classes={classes}
         />
         <NavItem
+          dataTestId="nav-mob-about"
           onClickHandler={toggleMobileNav}
           href="/about"
           text={<FormattedMessage id="about" defaultMessage="About" />}
           classes={classes}
         />
         <a
+          dataTestId="nav-mob-search-button"
           href="/#topOfPage"
           className={classes.OptOutRedButton}
           tabIndex={0}
@@ -290,6 +312,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         </a>
 
         <NavItem
+          dataTestId="nav-mob-extension"
           onClickHandler={toggleMobileNav}
           href="/#Extension"
           subsection={true}
@@ -303,6 +326,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         />
 
         <NavItem
+          dataTestId="nav-mob-donations"
           onClickHandler={toggleMobileNav}
           href="/#donations"
           subsection={true}
@@ -313,6 +337,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         />
 
         <NavItem
+          dataTestId="nav-mob-privacy"
           onClickHandler={toggleMobileNav}
           href="/privacy"
           subsection={true}
@@ -326,6 +351,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         />
 
         <NavItem
+          dataTestId="nav-mob-contact"
           onClickHandler={toggleMobileNav}
           href="/#Extension"
           subsection={true}
@@ -334,6 +360,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         />
 
         <NavItem
+          dataTestId="nav-mob-twitterHastag"
           subsection={true}
           text={
             <div className={classes.twitterHandle}>
@@ -396,7 +423,7 @@ class Nav extends Component {
 
     return (
       <div>
-        <nav ref={this.toggleMenu} className={classes.nav} id="nav">
+        <nav ref={this.toggleMenu} className={classes.nav} data-testid="nav">
           <a className={classes.logoLink} href="/">
             <img
               className={classes.logo}

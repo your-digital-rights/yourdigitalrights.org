@@ -1,10 +1,10 @@
-import mailToParser from "mailto-parser";
+import mailToParser from 'mailto-parser';
 
 class Page {
   constructor({ path }) {
     this.path = path;
-    this.searchForm = new Form("#searchForm");
-    this.personalInfoForm = new Form("#personalInfoForm");
+    this.searchForm = new Form('#searchForm');
+    this.personalInfoForm = new Form('#personalInfoForm');
     this.mailToParser = new mailToParser.Parser();
   }
 
@@ -12,12 +12,38 @@ class Page {
     return browser.url(`http://localhost:3000${this.path}`);
   }
 
+  get navigationBar() {
+    return {
+      get nav() {
+        return $('#nav');
+      },
+      get linkOne() {
+        return $('#nav li:nth-child(1)');
+      },
+      get linkTwo() {
+        return $('#nav li:nth-child(2)');
+      },
+      get linkThree() {
+        return $('#nav li:nth-child(3)');
+      },
+      get linkFour() {
+        return $('#nav li:nth-child(4)');
+      },
+      get linkFive() {
+        return $('#nav li:nth-child(5)');
+      },
+      get linkButton() {
+        return $('#nav ul > a');
+      },
+    };
+  }
+
   get headingText() {
-    return browser.getText("h1");
+    return browser.getText('h1');
   }
 
   get mailTo() {
-    return browser.getAttribute("body", "data-open-url");
+    return browser.getAttribute('body', 'data-open-url');
   }
 
   get parsedMailTo() {
@@ -25,7 +51,7 @@ class Page {
     return {
       to: mailTo.to,
       subject: decodeURIComponent(mailTo.attributeKey.subject),
-      body: decodeURIComponent(mailTo.attributeKey.body)
+      body: decodeURIComponent(mailTo.attributeKey.body),
     };
   }
 
@@ -34,22 +60,28 @@ class Page {
   }
 
   get searchResults() {
-    return $$(".search-result");
+    return $$('.search-result');
   }
 
   get thanksMessage() {
     let thanks = $('#ThanksMessage');
 
     return {
-      get isVisible () { return thanks.type !== 'NoSuchElement' },
-      get title() { return thanks.$('#ThanksMessageTitle').getText(); },
-      get text() { return thanks.$('#ThanksMessageText').getText(); },
+      get isVisible() {
+        return thanks.type !== 'NoSuchElement';
+      },
+      get title() {
+        return thanks.$('#ThanksMessageTitle').getText();
+      },
+      get text() {
+        return thanks.$('#ThanksMessageText').getText();
+      },
       get btn() {
         let btn = thanks.$('button');
 
         return {
           isVisible: btn.type !== 'NoSuchElement',
-          click: btn.click
+          click: btn.click,
         };
       },
       get extensionChromeButton() {
@@ -60,7 +92,7 @@ class Page {
       },
       get socialShare() {
         return new SocialShare('#ThanksMessage');
-      }
+      },
     };
   }
 
@@ -74,13 +106,12 @@ class Page {
 
       return {
         result: paq.some(function(tracked) {
-          return row.every(function (r) {
+          return row.every(function(r) {
             return tracked.includes(r);
           });
         }),
-        paq
+        paq,
       };
-
     }, row);
 
     return result.result;
@@ -108,7 +139,7 @@ class SocialShare {
   get email() {
     return this.element.$('.SocialMediaShareButton--email');
   }
-  
+
   get github() {
     return this.element.$('.SocialMediaShareButton--github');
   }
@@ -116,7 +147,6 @@ class SocialShare {
   get facebook() {
     return this.element.$('.SocialMediaShareButton--facebook');
   }
-
 }
 
 class Form {
@@ -140,7 +170,7 @@ class Form {
   selectElementByLabel(labelText) {
     const id = browser
       .element(this.baseSelector)
-      .getAttribute(`label*=${labelText}`, "for");
+      .getAttribute(`label*=${labelText}`, 'for');
     return $(`#${id}`);
   }
 
@@ -148,12 +178,17 @@ class Form {
     return this.selectElementByLabel(labelText).setValue(value);
   }
 
+  select(labelText, text) {
+    let select = this.selectElementByLabel(labelText);
+    return select.selectByAttribute('value', text);
+  }
+
   submit() {
     return this.submitButton.click();
   }
 
   get submitButton() {
-    return $("button=Review your request");
+    return $('button');
   }
 }
 

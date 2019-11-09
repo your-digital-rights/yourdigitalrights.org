@@ -7,40 +7,42 @@ import {
   IdentifyingInfoLabelText,
   NameHelperText,
   NameLabelText,
-  SubmitButtonText
-} from "./text";
+  CcpaOrGdprText,
+  CcpaOrGdprHelperText,
+  SubmitButtonText,
+} from './text';
+import { injectIntl } from 'react-intl';
 
-import Button from "@material-ui/core/Button";
-import React, { Component, Fragment} from "react";
-import { FormattedMessage } from "react-intl";
-import Paper from "@material-ui/core/Paper";
-import TextField from "@material-ui/core/TextField";
-import ThanksMessage from "../ThanksMessage";
-import Typography from "@material-ui/core/Typography";
-import erasureEmail from "../../email-templates/erasure";
-import fetch from "isomorphic-fetch";
-import mailtoLink from "mailto-link";
-import styles from "./styles";
-import tracking from "../../utils/tracking";
-import { withStyles } from "@material-ui/core/styles";
+import Button from '@material-ui/core/Button';
+import React, { Component, Fragment } from 'react';
+import { FormattedMessage } from 'react-intl';
+import Paper from '@material-ui/core/Paper';
+import TextField from '@material-ui/core/TextField';
+import ThanksMessage from '../ThanksMessage';
+import Typography from '@material-ui/core/Typography';
+import erasureEmail from '../../email-templates/erasure';
+import fetch from 'isomorphic-fetch';
+import mailtoLink from 'mailto-link';
+import styles from './styles';
+import tracking from '../../utils/tracking';
+import { withStyles } from '@material-ui/core/styles';
 
 class Form extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      name: "",
-      email: "",
-      identifyingInfo: "",
-      companyName: "",
-      companyEmail: "",
-      hasSubmit: false
+      name: '',
+      email: '',
+      identifyingInfo: '',
+      companyName: '',
+      companyEmail: '',
+      hasSubmit: false,
+      requestType: 'GDPR',
     };
 
     this.handlers = {};
-
   }
-  
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -59,8 +61,8 @@ class Form extends Component {
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
-      this.setState({hasSubmit: true});
-      window.location ='#Form';
+      this.setState({ hasSubmit: true });
+      window.location = '#Form';
       tracking.trackRequestComplete(this.props.selectedCompany.name);
     }
   };
@@ -78,26 +80,25 @@ class Form extends Component {
 
     return mailtoLink({
       to,
-      subject: erasureEmail.subject,
+      subject: erasureEmail.subject({ ...this.state }),
       body: erasureEmail.formatBody({
         ...this.state,
-        companyName
-      })
+
+        companyName,
+      }),
     });
   }
 
   async addNewCompany() {
     const response = await fetch(
-      "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
+      'https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse',
       {
-        method: "POST",
-        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${
-          this.state.companyName
-        }`,
+        method: 'POST',
+        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
         headers: {
-          Accept: "application/xml, text/xml, */*; q=0.01",
-          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
-        }
+          Accept: 'application/xml, text/xml, */*; q=0.01',
+          'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        },
       }
     );
   }
@@ -114,6 +115,15 @@ class Form extends Component {
     ) : (
       <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
     );
+
+    const CcpaOptionText = this.props.intl.formatMessage({
+      id: 'ccpaOption',
+      defaultMessage: 'CCPA (California)',
+    });
+    const GdprOptionText = this.props.intl.formatMessage({
+      id: 'gdprOption',
+      defaultMessage: 'GDPR (European Union)',
+    });
 
     const IntroText = selectedCompany ? (
       <FormattedMessage
@@ -145,11 +155,10 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
-  
           <Typography variant="display1" component="h2" gutterBottom={true}>
             {HeadingText}
           </Typography>
-          <Typography gutterBottom={true} variant={"body2"}>
+          <Typography gutterBottom={true} variant={'body2'}>
             {IntroText}
           </Typography>
           {!selectedCompany && (
@@ -158,7 +167,7 @@ class Form extends Component {
                 id="companyName"
                 label={CompanyNameLabelText}
                 value={this.state.companyName}
-                onChange={this.handleInput("companyName")}
+                onChange={this.handleInput('companyName')}
                 margin="normal"
                 required
                 autoFocus
@@ -168,7 +177,7 @@ class Form extends Component {
                 id="companyEmail"
                 label={CompanyEmailLabelText}
                 value={this.state.companyEmail}
-                onChange={this.handleInput("companyEmail")}
+                onChange={this.handleInput('companyEmail')}
                 margin="normal"
                 required
                 type="email"
@@ -180,17 +189,40 @@ class Form extends Component {
             id="name"
             label={NameLabelText}
             value={this.state.name}
-            onChange={this.handleInput("name")}
+            onChange={this.handleInput('name')}
             margin="normal"
             required
             autoFocus={!!selectedCompany}
             helperText={NameHelperText}
           />
           <TextField
+            id="ccpaOrGdpr"
+            select
+            label={CcpaOrGdprText}
+            className={classes.textField}
+            value={this.state.requestType}
+            onChange={this.handleInput('requestType')}
+            required
+            SelectProps={{
+              native: true,
+              MenuProps: {
+                className: classes.menu,
+              },
+            }}
+            helperText={CcpaOrGdprHelperText}
+            margin="normal"
+          >
+            <option value="GDPR" selected>
+              {GdprOptionText}
+            </option>
+            <option value="CCPA">{CcpaOptionText}</option>
+          </TextField>
+          <p>{GdprOptionText.text}</p>
+          <TextField
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
             value={this.state.identifyingInfo}
-            onChange={this.handleInput("identifyingInfo")}
+            onChange={this.handleInput('identifyingInfo')}
             margin="normal"
             multiline
             rows={4}
@@ -217,9 +249,7 @@ class Form extends Component {
       );
     }
 
-    return <div id='Form'>{formToDisplay}</div>
-
-    
+    return <div id="Form">{formToDisplay}</div>;
   }
 }
-export default withStyles(styles)(Form);
+export default injectIntl(withStyles(styles)(Form));

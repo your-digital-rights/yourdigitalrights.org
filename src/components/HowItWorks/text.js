@@ -1,4 +1,4 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from 'react-intl';
 const Title = <FormattedMessage id="title" defaultMessage="How it works" />;
 
 const TitleImgAlt = (
@@ -54,7 +54,7 @@ const YourDataBody = (
         <a href="https://www.eugdpr.org/">
           The General Data Protection Regulations
         </a>
-      )
+      ),
     }}
   />
 );
@@ -82,5 +82,5 @@ export {
   YourDataTitle,
   YourDataBody,
   WhyTitle,
-  WhyBody
+  WhyBody,
 };

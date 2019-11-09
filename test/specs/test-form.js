@@ -1,26 +1,25 @@
-import Page from "../pageobjects/page";
-import { TIMEOUT } from "dns";
+import Page from '../pageobjects/page';
 
-browser.addCommand("isInvalid", function() {
+browser.addCommand('isInvalid', function() {
   return false;
 });
 
-describe("When I visit the home page", () => {
+describe('When I visit the home page', () => {
   let page;
 
   beforeEach(() => {
     page = new Page({
-      path: "/"
+      path: '/',
     });
 
     page.visit();
 
     browser.execute(function() {
-      window.Date.prototype.toLocaleDateString = function() {
-        return "23/05/2022";
-      };
+      // window.Date.prototype.toLocaleDateString = function() {
+      //   return "23/05/2022";
+      // };
       window.open = function(url) {
-        document.body.setAttribute("data-open-url", url);
+        document.body.setAttribute('data-open-url', url);
       };
 
       if (!(window._paq instanceof Array)) {
@@ -29,101 +28,111 @@ describe("When I visit the home page", () => {
     });
   });
 
-  describe("and select a organisation", () => {
+  describe('and select a organisation', () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organisation", "Slack");
-      browser.waitForExist("div=Slack", 3000);
-      $("div=Slack").click();
+      page.searchForm.fillIn('Search for an organisation', 'Slack');
+      browser.waitForExist('div=Slack', 3000);
+      $('div=Slack').click();
     });
 
-    it("updates the url to contain a query query paramter", () => {
+    it('updates the url to contain a query query paramter', () => {
       browser.getUrl().should.match(/\?company=slack.com/);
     });
 
-    it("focuses the name field", () => {
-      page.personalInfoForm.selectElementByLabel("Your full name").hasFocus()
+    it('focuses the name field', () => {
+      page.personalInfoForm.selectElementByLabel('Your full name').hasFocus()
         .should.be.true;
 
-      page.hasTracked("trackSiteSearch", "Slack").should.be.true;
-      page.hasTracked("trackEvent", "selectedCompany", "Slack").should.be.true;
+      page.hasTracked('trackSiteSearch', 'Slack').should.be.true;
+      page.hasTracked('trackEvent', 'selectedCompany', 'Slack').should.be.true;
     });
 
-    describe("and fill in the form with invalid data and submit", () => {
+    describe('and fill in the form with invalid data and submit', () => {
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your full name", "");
-        page.personalInfoForm.fillIn("Additional identifying information", "");
+        page.personalInfoForm.fillIn('Your full name', '');
+        page.personalInfoForm.fillIn('Additional identifying information', '');
         page.personalInfoForm.submit();
       });
 
-      it("does not open a mailto url", () => {
+      it('does not open a mailto url', () => {
         (page.mailTo === null).should.be.true;
       });
     });
 
-    describe("and fill in the form with valid data and submit", () => {
+    describe('and fill in the form with valid data and submit', () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn('Your full name', 'Rob');
         page.personalInfoForm.fillIn(
-          "Additional identifying information",
-          "10 Downing Street"
+          'Additional identifying information',
+          '10 Downing Street'
+        );
+        page.personalInfoForm.select(
+          'Choose regulation (GDPR or CCPA)',
+          'GDPR'
         );
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
-      it("opens a mailto url", () => {
-        mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Erasure Request");
-        mailTo.body.should.match(/Rob/, "Email body should contain users name");
+      it('opens a mailto url', () => {
+        mailTo.to.should.be.equal('feedback@slack.com');
+        mailTo.subject.should.be.equal(
+          'Erasure Request (Article 17 of the GDPR)'
+        );
+        mailTo.body.should.match(/Rob/, 'Email body should contain users name');
         mailTo.body.should.match(
           /10 Downing Street/,
-          "Email body should contain users home address"
+          'Email body should contain users home address'
         );
         mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
+          /To whom it may concern:\n\nI am writing to request that you erase all my personal information/,
+          'Email body should contain expected content'
         );
-        mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
-          "Email body should contain expected content"
+        mailTo.body.should.contain(
+          'General Data Protection Regulation (GDPR)',
+          'Should contain GDPR'
         );
 
         page.hasTracked(
-          "trackEvent",
-          "Send Erasure request",
-          "complete",
-          "Slack"
+          'trackEvent',
+          'Send Erasure request',
+          'complete',
+          'Slack'
         ).should.be.true;
       });
 
-      describe("thank you message", () => {
-        it("shows a thank you message", () => {
+      describe('thank you message', () => {
+        it('shows a thank you message', () => {
           page.thanksMessage.isVisible.should.be.true;
-          expect(page.thanksMessage.title).to.equal("Thank You");
+          expect(page.thanksMessage.title).to.equal('Thank You');
           expect(page.thanksMessage.text).to.equal(
-            "An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request"
+            'An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request'
           );
           page.thanksMessage.btn.isVisible.should.be.true;
 
           page.thanksMessage.socialShare.exists.should.be.true;
-          expect(page.thanksMessage.extensionChromeButton).to.equal("https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB");
-          expect(page.thanksMessage.extensionFirefoxButton).to.equal("https://addons.mozilla.org/en-GB/android/addon/opt-out/");
+          expect(page.thanksMessage.extensionChromeButton).to.equal(
+            'https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB'
+          );
+          expect(page.thanksMessage.extensionFirefoxButton).to.equal(
+            'https://addons.mozilla.org/en-GB/android/addon/opt-out/'
+          );
 
           page.thanksMessage.socialShare.linkedIn.click();
-          page.mailTo.should.contain("linkedin.com");
-          page.hasTracked("trackEvent", "Social share", "linkedin").should.be
+          page.mailTo.should.contain('linkedin.com');
+          page.hasTracked('trackEvent', 'Social share', 'linkedin').should.be
             .true;
 
           page.thanksMessage.socialShare.twitter.click();
-          page.mailTo.should.contain("twitter.com");
-          page.hasTracked("trackEvent", "Social share", "twitter").should.be
+          page.mailTo.should.contain('twitter.com');
+          page.hasTracked('trackEvent', 'Social share', 'twitter').should.be
             .true;
 
           page.thanksMessage.socialShare.facebook.click();
-          page.mailTo.should.contain("facebook.com");
-          page.hasTracked("trackEvent", "Social share", "facebook").should.be
+          page.mailTo.should.contain('facebook.com');
+          page.hasTracked('trackEvent', 'Social share', 'facebook').should.be
             .true;
         });
 
@@ -140,44 +149,59 @@ describe("When I visit the home page", () => {
     });
   });
 
-  describe("and perform a search with no results", () => {
+  describe('and perform a search with no results', () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organisation", "abcxyz123");
+      page.searchForm.fillIn('Search for an organisation', 'abcxyz123');
       $("li*=Can't find an organisation?").click();
     });
 
-    describe("and fill in the form with valid data and submit", () => {
+    describe('and fill in the form with valid data and submit', () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
-        page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
-        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn('Organisation name', 'abcxyz123');
+        page.personalInfoForm.fillIn('Organisation email', 'dpo@abcxyz123');
+        page.personalInfoForm.fillIn('Your full name', 'Rob');
+        page.personalInfoForm.select(
+          'Choose regulation (GDPR or CCPA)',
+          'CCPA'
+        );
         page.personalInfoForm.fillIn(
-          "Additional identifying information",
-          "10 Downing Street"
+          'Additional identifying information',
+          '10 Downing Street'
         );
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
-      it("opens a mailto url", () => {
-        mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("Erasure Request");
-        mailTo.body.should.match(/Rob/, "Email body should contain users name");
+      it('opens a mailto url', () => {
+        mailTo.to.should.be.equal('dpo@abcxyz123');
+        mailTo.subject.should.be.equal(
+          'Deletion Request (Section 105 of The CCPA)'
+        );
+        mailTo.body.should.match(/Rob/, 'Email body should contain users name');
         mailTo.body.should.match(
           /10 Downing Street/,
-          "Email body should contain users home address"
+          'Email body should contain users home address'
         );
         mailTo.body.should.match(
-          /23\/05\/2022/,
-          "Email body should contain the formatted date"
-        );
-        mailTo.body.should.match(
-          /I am writing to request that you erase all my personal information/,
-          "Email body should contain expected content"
+          /I am writing to request that you delete all my personal information/,
+          'Email body should contain expected content'
         );
       });
+    });
+  });
+
+  describe(' I see the navigation bar and all of the items', () => {
+    it('shows the nav bar', () => {
+      page.navigationBar.nav.should.exist;
+      page.navigationBar.linkOne.should.exist;
+      page.navigationBar.linkOne.text().should.equal('123');
+      page.navigationBar.linkTwo.should.exist;
+      page.navigationBar.linkThree.should.exist;
+      page.navigationBar.linkFour.should.exist;
+      page.navigationBar.linkFive.should.exist;
+      page.navigationBar.linkButton.should.exist;
     });
   });
 });

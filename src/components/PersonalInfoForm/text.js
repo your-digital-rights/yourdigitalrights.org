@@ -1,4 +1,4 @@
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage } from 'react-intl';
 
 export const CompanyNameLabelText = (
   <FormattedMessage id="companyNameLabel" defaultMessage="Organisation name" />
@@ -7,7 +7,7 @@ export const CompanyNameLabelText = (
 export const CompanyNameHelperText = (
   <FormattedMessage
     id="companyNameHelper"
-    defaultMessage="Please enter the name of the organisation you would like to contact." 
+    defaultMessage="Please enter the name of the organisation you would like to contact."
   />
 );
 
@@ -37,16 +37,33 @@ export const NameHelperText = (
 );
 
 export const IdentifyingInfoLabelText = (
-  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information" />
+  <FormattedMessage
+    id="identifyingInfoLabel"
+    defaultMessage="Additional identifying information"
+  />
 );
 
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
+    defaultMessage="Optionally provide any additional information which may help the organisation to identify you in their information systems such as Username, Customer ID or Account Number. Do not provide your password."
   />
 );
 
 export const SubmitButtonText = (
   <FormattedMessage id="sendButton" defaultMessage="Review your request" />
+);
+
+export const CcpaOrGdprText = (
+  <FormattedMessage
+    id="ccpaOrGdpr"
+    defaultMessage="Choose regulation (GDPR or CCPA)"
+  />
+);
+
+export const CcpaOrGdprHelperText = (
+  <FormattedMessage
+    id="ccpaOrGdprHelper"
+    defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  />
 );

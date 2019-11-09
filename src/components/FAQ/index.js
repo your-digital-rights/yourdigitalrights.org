@@ -1,22 +1,22 @@
-import Text, { Title } from "./text";
+import Text, { Title } from './text';
 
-import { Component } from "react";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import Icon from "@material-ui/core/Icon";
-import Typography from "@material-ui/core/Typography";
-import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import { Component } from 'react';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import Icon from '@material-ui/core/Icon';
+import Typography from '@material-ui/core/Typography';
+import styles from './styles';
+import { withStyles } from '@material-ui/core/styles';
 
 class FAQ extends Component {
   state = {
-    expanded: null
+    expanded: null,
   };
 
   handleChange = panel => (event, expanded) => {
     this.setState({
-      expanded: expanded ? panel : false
+      expanded: expanded ? panel : false,
     });
   };
 
@@ -60,7 +60,7 @@ class FAQ extends Component {
         onChange={this.handleChange(`panel${index}`)}
       >
         <ExpansionPanelSummary expandIcon={<Icon>expand_more</Icon>}>
-          <Typography variant={"body2"}>{heading}</Typography>
+          <Typography variant={'body2'}>{heading}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           {this.renderItemBody(body)}
@@ -74,10 +74,10 @@ class FAQ extends Component {
     return (
       <div className={classes.container} id="faq">
         <Typography
-          variant={"display1"}
+          variant={'display1'}
           className={classes.title}
           gutterBottom={true}
-          component={"h2"}
+          component={'h2'}
         >
           {Title}
         </Typography>
