@@ -83,7 +83,7 @@ class Index extends Component {
     const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
-    const Title = deeplinkedCompany ? "Opt-out of " + deeplinkedCompany.name + " | yourdigitalrights.org" : "Your Digital Rights";
+    const Title = deeplinkedCompany ? "Opt-out of " + deeplinkedCompany.name + " | Your Digital Rights" : "Your Digital Rights";
     const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data." :
       "Get thousands of organizations to erase your personal data.";
     const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";

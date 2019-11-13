@@ -148,10 +148,10 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
   var className = classes.offset;
 
-  const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Get thousands of organizations to erase your personal data | YourDigitalRights.com" });
-  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out YourDigitalRights.com, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
-  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.com." });
-  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.com." });
+  const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Get thousands of organizations to erase your personal data | Your Digital Rights" });
+  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out YourDigitalRights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
+  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.org" });
+  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.org" });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
   const handleEmailClick = (e) => {
@@ -167,6 +167,10 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     tracking.trackSocialShare(network);
   };
 
+  const trackWebExtension = (brower) => {
+    tracking.trackWebExtension(brower);
+  };
+
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
       <div id="Extension" className={classes.extensionHelperPlaceHolder}>
@@ -178,11 +182,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
               Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button.
             </Typography>
             <div className={classes.extensionHelpButtonContainer}>
-              <Button variant="extendedFab" onClick={() => {trackShare.bind(null, 'chrome-extension')}} aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
+              <Button variant="extendedFab" onClick={() => {trackWebExtension.bind(null, 'chrome-extension')}} aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
               <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faChrome}/>
                 Download it for Chrome
               </Button>
-              <Button variant="extendedFab" onClick={() => {trackShare.bind(null, 'firefox-extension')}} aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+              <Button variant="extendedFab" onClick={() => {trackWebExtension.bind(null, 'firefox-extension')}} aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
                 <FontAwesomeIcon className={classNames(classes.extensionDownloadButtonIcon, classes.extensionDownloadButtonIconFireFox)} color="#005ea5" icon={faFirefox}/>
                 Download it for Firefox
               </Button>
