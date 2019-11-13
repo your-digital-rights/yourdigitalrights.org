@@ -26,7 +26,7 @@ const styles = theme => ({
 });
 
 // TODO: Make these string translatable
-const Title = "Privacy Policy | YourDigitalRights.org";
+const Title = "Privacy Policy | yourdigitalrights.org";
 const Description = "You own your data, we exist to help you control who has access to it.";
 const Canonical = "https://yourdigitalrights.org/privacy"
 

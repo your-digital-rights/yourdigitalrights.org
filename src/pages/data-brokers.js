@@ -77,9 +77,9 @@ const dataBrokers = [
 ]
 
 // TODO: Make these string translatable
-const Title = "Opt Out of the Top Data Brokers | YourDigitalRights.org";
+const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
 const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://YourDigitalRights.org/data-brokers"
+const Canonical = "https://yourdigitalrights.org/data-brokers"
 
 
 const Brokers = ({ classes }) => {

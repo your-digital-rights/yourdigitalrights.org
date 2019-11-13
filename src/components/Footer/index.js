@@ -102,7 +102,7 @@ const Footer = ({ classes }) => {
   return (
     <div className={classes.root}>
       <div className={classes.WishList}>
-        <Button variant="raised" href="https://wishlist.opt-out.eu/" color="secondary" type="submit" className={classes.wishButton}>
+        <Button variant="raised" href="https://wishlist.yourdigitalrights.org/" color="secondary" type="submit" className={classes.wishButton}>
           {WishButtonText}
         </Button>
       </div>
