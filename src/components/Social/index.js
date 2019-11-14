@@ -149,9 +149,9 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
   var className = classes.offset;
 
   const emailSubject = intl.formatMessage({ id: 'socialEmailSubject', defaultMessage: "Get thousands of organizations to erase your personal data | Your Digital Rights" });
-  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out YourDigitalRights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
-  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.org" });
-  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get thousands of organizations to erase your personal data, check out YourDigitalRights.org" });
+  const emailBody = intl.formatMessage({ id: 'socialEmailBody', defaultMessage: "You should check out yourdigitalrights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests." });
+  const twitterTitle = intl.formatMessage({ id:"socialTwitterTitle", defaultMessage:"Get thousands of organizations to erase your personal data, check out yourdigitalrights.org" });
+  const facebookQuote = intl.formatMessage({ id:"socialFacebookQuote", defaultMessage:"Get thousands of organizations to erase your personal data, check out yourdigitalrights.org" });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
   const handleEmailClick = (e) => {
