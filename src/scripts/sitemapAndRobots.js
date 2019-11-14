@@ -11,7 +11,7 @@ async function fetchData() {
 
 
 const sitemap = sm.createSitemap({
-  hostname: 'https://opt-out.eu/',
+  hostname: 'https://yourdigitalrights.org/',
   cacheTime: 1000*60*60 // 1 hour - cache purge period
 })
 
@@ -19,7 +19,7 @@ const setup = ({ server }) => {
   fetchData().then(function(companies) {
       companies.map(company => (
       sitemap.add ({
-      url: `https://opt-out.eu/?company=${company.url}`,
+      url: `https://yourdigitalrights.org/?company=${company.url}`,
       changefreq: 'weekly',
       priority: 0.5
     }))

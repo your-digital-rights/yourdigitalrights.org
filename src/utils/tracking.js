@@ -34,5 +34,9 @@ export default {
 
   trackSocialShare(network) {
     this.trackEvent('Social share', network);
+  },
+
+  trackWebExtension(browser) {
+    this.trackEvent('Click Web Extension', browser);
   }
 };

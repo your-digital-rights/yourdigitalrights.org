@@ -87,7 +87,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="footerQuery"
-    defaultMessage="For more information please contact us at {mail}. © Copyright 2018"
+    defaultMessage="For more information please contact us at {mail}. © Copyright 2019"
     values={{
       mail: (
         <a href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
@@ -102,7 +102,7 @@ const Footer = ({ classes }) => {
   return (
     <div className={classes.root}>
       <div className={classes.WishList}>
-        <Button variant="raised" href="https://wishlist.opt-out.eu/" color="secondary" type="submit" className={classes.wishButton}>
+        <Button variant="raised" href="https://wishlist.yourdigitalrights.org/" color="secondary" type="submit" className={classes.wishButton}>
           {WishButtonText}
         </Button>
       </div>
@@ -124,8 +124,8 @@ const Footer = ({ classes }) => {
             {DisclaimerText}
           </Typography>
           <Typography color="textSecondary">{QueryText}</Typography>
-        </div>      
-      </div>      
+        </div>
+      </div>
     </div>
   );
 };
