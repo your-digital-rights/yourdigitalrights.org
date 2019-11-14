@@ -26,11 +26,11 @@ const styles = theme => ({
     justifyContent: 'center',
   },
   logo: {
-    width: '149px',
+    width: '90px',
     outlineColor: '#e8f4f8',
 
     [theme.breakpoints.down('xs')]: {
-      width: '100px',
+      width: '80px',
     },
   },
   container: {
@@ -427,7 +427,7 @@ class Nav extends Component {
           <a className={classes.logoLink} href="/">
             <img
               className={classes.logo}
-              src="static/optout.svg"
+              src="static/type.svg"
               tabIndex={0}
             />
           </a>
