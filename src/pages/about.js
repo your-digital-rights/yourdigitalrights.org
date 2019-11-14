@@ -26,8 +26,8 @@ const styles = theme => ({
 });
 
 // TODO: Make these string translatable
-const Title = "About Us | yourdigitalrights.org";
-const Description = "YourDigitalRights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
+const Title = "About Us | Your Digital Rights";
+const Description = "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
 const Canonical = "https://yourdigitalrights.org/about"
 
 const About = ({ classes }) => {
@@ -63,7 +63,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody1"
-              defaultMessage="YourDigitalRights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+              defaultMessage="yourdigitalrights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
                 gdpr: <a href="https://www.eugdpr.org">General Data Protection Regulations</a>,
                 ccpa: <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">California Consumer Privacy Act</a>,
@@ -74,7 +74,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody2"
-              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse becasue many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
           <br/>
@@ -91,7 +91,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="createdBy"
-              defaultMessage="YourDigitalRights.org was created by:"
+              defaultMessage="yourdigitalrights.org was created by:"
             />
           </Typography>
           <Typography gutterBottom={true}>

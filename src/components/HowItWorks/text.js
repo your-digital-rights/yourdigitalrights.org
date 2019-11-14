@@ -65,7 +65,7 @@ const YourDataBody = (
 );
 
 const WhyTitle = (
-  <FormattedMessage id="whyTitle" defaultMessage="Why YourDigitalRights.org?" />
+  <FormattedMessage id="whyTitle" defaultMessage="Why Your Digital Rights?" />
 );
 
 const WhyBody = (

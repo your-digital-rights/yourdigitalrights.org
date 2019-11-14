@@ -205,7 +205,7 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
 
     <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
     <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['GDPR', 'CCPA', 'YourDigitalRights', 'righttobeforgotten', 'optout', 'ownyourdata']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['GDPR', 'CCPA', 'yourdigitalrights', 'righttobeforgotten', 'optout', 'ownyourdata']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
 
   </div>;
