@@ -11,6 +11,6 @@ export const SubtitleText = (
 export const IntroText = (
   <FormattedMessage
     id="intro"
-    defaultMessage="Many organisations collect your personal data, often without consent. Now you can get these organisations to erase this data, hassle free. Opt Out is a free service which helps you exercise your right to be forgotten under the European General Data Protection Regulations (GDPR). This service does not collect or trade any personal data. "
+    defaultMessage="Many organizations collect and sell your personal data, often without your consent. This website makes it easy to get organizations to erase your data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests."
   />
 );

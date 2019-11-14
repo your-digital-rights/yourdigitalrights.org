@@ -29,9 +29,9 @@ describe("When I visit the home page", () => {
     });
   });
 
-  describe("and select a organisation", () => {
+  describe("and select a organization", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organisation", "Slack");
+      page.searchForm.fillIn("Search for an organization", "Slack");
       browser.waitForExist("div=Slack", 3000);
       $("div=Slack").click();
     });
@@ -104,7 +104,7 @@ describe("When I visit the home page", () => {
           page.thanksMessage.isVisible.should.be.true;
           expect(page.thanksMessage.title).to.equal("Thank You");
           expect(page.thanksMessage.text).to.equal(
-            "An Erasure Request email should have opened in your default email application. All you need to do is review and click Send. Organization have one calendar month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request"
+            "An erasure request email should have opened in your default email application. All you need to do is review it and click Send. Organization have one month under the GDPR, or 45 days under the CCPA to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request."
           );
           page.thanksMessage.btn.isVisible.should.be.true;
 
@@ -143,16 +143,16 @@ describe("When I visit the home page", () => {
 
   describe("and perform a search with no results", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organisation", "abcxyz123");
-      $("li*=Can't find an organisation?").click();
+      page.searchForm.fillIn("Search for an organization", "abcxyz123");
+      $("li*=Can't find an organization?").click();
     });
 
     describe("and fill in the form with valid data and submit", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Organisation name", "abcxyz123");
-        page.personalInfoForm.fillIn("Organisation email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
         page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'CCPA');
         page.personalInfoForm.fillIn(

@@ -26,9 +26,9 @@ const styles = theme => ({
 });
 
 // TODO: Make these string translatable
-const Title = "About Us | Opt-out.eu";
-const Description = "Opt Out was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
-const Canonical = "https://opt-out.eu/about"
+const Title = "About Us | yourdigitalrights.org";
+const Description = "YourDigitalRights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
+const Canonical = "https://yourdigitalrights.org/about"
 
 const About = ({ classes }) => {
   return (
@@ -49,8 +49,8 @@ const About = ({ classes }) => {
         <meta
           name="twitter:description"
           content={Description}
-        />          
-      </Head>     
+        />
+      </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
@@ -63,9 +63,10 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody1"
-              defaultMessage="Opt Out was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) provides the legal infrastructure to protect the fundamental right of people to the protection of personal data."
+              defaultMessage="YourDigitalRights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
-                gdpr: <a href="https://www.eugdpr.org">General Data Protection Regulations</a>
+                gdpr: <a href="https://www.eugdpr.org">General Data Protection Regulations</a>,
+                ccpa: <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">California Consumer Privacy Act</a>,
               }}
             />
           </Typography>
@@ -73,14 +74,14 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody2"
-              defaultMessage="We believe that although the GDPR is a step in the right direction, exercising your rights under the legislation is just enough of a hassle for most people not to bother with it. The situation is made worse due to the fact that many organisations make it hard to file GDPR requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the GDPR accessible to everyone."
+              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse becasue many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
           <br/>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody3"
-              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. The service is {oss}."
+              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is {oss}."
               values={{
                 oss: <a href="https://github.com/opt-out-eu/opt-out">Open Source</a>
               }}
@@ -90,13 +91,13 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="createdBy"
-              defaultMessage="Opt Out was created by:"
+              defaultMessage="YourDigitalRights.org was created by:"
             />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="createdByBody1"
-              defaultMessage="{linkedin} - Entrepreneur, investor, independent academic, activist."
+              defaultMessage="{linkedin} - Entrepreneur, investor, independent academic, digital activist."
               values={{
                 linkedin: <a href="https://www.linkedin.com/in/yoava">Yoav Aviram</a>
               }}
@@ -108,15 +109,6 @@ const About = ({ classes }) => {
               defaultMessage="{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
               values={{
                 linkedin: <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
-              }}
-            />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="createdByBody3"
-              defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
-              values={{
-                linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chandler</a>
               }}
             />
           </Typography>
@@ -136,6 +128,24 @@ const About = ({ classes }) => {
               }}
             />
           </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="createdByBody3"
+              defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+              values={{
+                linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chandler</a>
+              }}
+            />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="contributorsBody2"
+              defaultMessage="{linkedin} - Frontend web developer."
+              values={{
+                linkedin: <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">Steeve George Vadakkumchery</a>
+              }}
+            />
+          </Typography>
           <br/>
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
@@ -146,13 +156,13 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="cookiesBody"
-              defaultMessage="We’d like to thank the following organisations for supporting our open source effort buy providing a free or discounted version of their services:"
+              defaultMessage="We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody1"
-              defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organisations."
+              defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
               values={{
                 crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>
               }}
@@ -180,9 +190,9 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody4"
-              defaultMessage="{featureupvote} - for providing a platform which allows us to translate and localize this website."
+              defaultMessage="{bablic} - for providing a platform which allows us to translate and localize this website."
               values={{
-                featureupvote: <a href="https://www.bablic.com">Bablic</a>
+                bablic: <a href="https://www.bablic.com">Bablic</a>
               }}
             />
           </Typography>

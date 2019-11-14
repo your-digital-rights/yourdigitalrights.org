@@ -17,8 +17,8 @@ export default theme => ({
     ...container,
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
-      backgroundImage: "url('static/mascot.svg')",
-      backgroundPosition: "right 130px top 120px",
+      backgroundImage: "url('static/mascot_new.svg')",
+      backgroundPosition: "right 160px top 140px",
       backgroundRepeat: "no-repeat"
     }
   },
@@ -33,7 +33,7 @@ export default theme => ({
     maxWidth: "530px"
   },
   titleImg: {
-    width: "300px",
+    width: "200px",
     maxWidth: "75%"
   },
   title: {

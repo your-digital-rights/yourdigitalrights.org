@@ -49,7 +49,7 @@ app.prepare().then(() => {
   
   server.use(create({
    siteId: '5b7e74c02615ef00013b76b9',
-   rootUrl: 'http://opt-out.eu',
+   rootUrl: 'http://yourdigitalrights.org',
    subDir: true, // if you want to use sub dir for languages like /es/ /fr/
   }));
    

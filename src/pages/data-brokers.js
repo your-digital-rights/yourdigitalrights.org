@@ -77,9 +77,9 @@ const dataBrokers = [
 ]
 
 // TODO: Make these string translatable
-const Title = "Opt Out of the Top Data Brokers | Opt-out.eu";
-const Description = "Get the top data brokers to erase your personal data, hassle free.";
-const Canonical = "https://opt-out.eu/data-brokers"
+const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
+const Description = "Get the top data brokers to erase your personal data";
+const Canonical = "https://yourdigitalrights.org/data-brokers"
 
 
 const Brokers = ({ classes }) => {
@@ -116,9 +116,9 @@ const Brokers = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokersIntro"
-              defaultMessage="Data Brokers are companies that collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {gdpr} Erasure Request."
+              defaultMessage="Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
               values={{
-                gdpr: <a href="/#faq">GDPR</a>
+                faq: <a href="/#faq-0">GDPR or CCPA</a>
               }}
             />
           </Typography>
@@ -145,7 +145,7 @@ const Brokers = ({ classes }) => {
             />
           </Typography>
           <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
-            Search for other companies
+            Search for other organizations
           </Button>
         </Paper>
       </div>
