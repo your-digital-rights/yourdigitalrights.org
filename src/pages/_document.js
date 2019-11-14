@@ -107,13 +107,13 @@ export default class IntlDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html:
-                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." + DOMAIN + "']); _paq.push(['setDomains', ['*." + DOMAIN + "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'piwik.php']); _paq.push(['setSiteId', '1']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s); })();"
+                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." + DOMAIN + "']); _paq.push(['setDomains', ['*." + DOMAIN + "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();"
             }}
           />
           <noscript>
             <p>
               <img
-                src='https://optout.innocraft.cloud/piwik.php?idsite=1&amp;rec=1'
+                src='https://optout.innocraft.cloud/matomo.php?idsite=2&amp;rec=1'
                 style={{border: 0}}
                 alt=''
               />
