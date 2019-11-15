@@ -2,7 +2,7 @@ import { FormattedMessage } from 'react-intl';
 import Typography from '@material-ui/core/Typography';
 import { withStyles } from '@material-ui/core/styles';
 import React, { Component } from 'react';
-import { TwitterShareButton } from 'react-share';
+import tracking from '../../utils/tracking';
 
 const styles = theme => ({
   nav: {
@@ -183,6 +183,11 @@ const styles = theme => ({
   },
 });
 
+
+const trackSearchButtonLinkClick = (device) => {
+  tracking.trackSearchButtonLinkClick(device);
+};
+
 const NavItem = ({
   href,
   text,
@@ -256,6 +261,9 @@ const NavListDesktop = ({ classes }) => {
         href="/#topOfPage"
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
+        onClick={() => {
+          trackSearchButtonLinkClick('desktop');
+        }}
       >
         <Typography component="span" className={classes.link}>
           Search Company
@@ -306,7 +314,10 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           href="/#topOfPage"
           className={classes.OptOutRedButton}
           tabIndex={0}
-          onClick={toggleMobileNav}
+          onClick={() => {
+            toggleMobileNav();
+            trackSearchButtonLinkClick('mobile');
+          }}
         >
           <Typography component="span" className={classes.link}>
             Search Company
@@ -355,7 +366,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         <NavItem
           dataTestId="nav-mob-contact"
           onClickHandler={toggleMobileNav}
-          href="/#Extension"
+          href="mailto:info@opt-out.eu"
           subsection={true}
           text={<FormattedMessage id="contact" defaultMessage="Contact Us" />}
           classes={classes}
