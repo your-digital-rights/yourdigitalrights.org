@@ -38,5 +38,9 @@ export default {
 
   trackWebExtension(browser) {
     this.trackEvent('Click Web Extension', browser);
+  },
+
+  trackSearchButtonLinkClick(device) {
+    this.trackEvent('Search Button link click on ', device);
   }
 };
