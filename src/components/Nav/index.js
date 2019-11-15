@@ -190,6 +190,7 @@ const NavItem = ({
   onClickHandler,
   subsection,
   dataTestId,
+  target
 }) => {
   return (
     <li
@@ -199,6 +200,7 @@ const NavItem = ({
     >
       <Typography
         component="a"
+        target={target}
         href={href}
         className={subsection ? classes.subsectionLink : classes.link}
       >
@@ -362,6 +364,8 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
         <NavItem
           dataTestId="nav-mob-twitterHastag"
           subsection={true}
+          target="_blank"
+          href="https://twitter.com/search?q=ownyourdata&src=typeahead_click"
           text={
             <div className={classes.twitterHandle}>
               <img src="static/sh/tw-grey.svg" />
