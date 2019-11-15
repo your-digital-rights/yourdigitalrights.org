@@ -17,6 +17,7 @@ const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dir: './src', dev });
 const handle = app.getRequestHandler();
+const url = require('url');
 
 
 // Get the supported languages by looking for translations in the `lang/` dir.
@@ -52,15 +53,23 @@ app.prepare().then(() => {
    rootUrl: 'http://yourdigitalrights.org',
    subDir: true, // if you want to use sub dir for languages like /es/ /fr/
   }));
-   
+
   server.get('*', (req, res) => {
+      if (req.hostname === 'opt-out.eu') {
+          var newQuery = req.query;
+          newQuery.source = "optouteu";
+          res.redirect(url.format({
+            pathname:"https://yourdigitalrights.org" + req.path,
+            query:newQuery,
+          }));
+      }
+
       const accept = accepts(req)
       const locale = accept.language(accept.languages(supportedLanguages)) || 'en'
       req.locale = locale
       req.localeDataScript = getLocaleDataScript(locale)
       req.messages = dev ? {} : getMessages(locale)
       handle(req, res)
-
   });
   
   server.listen(port, err => {
