@@ -10,7 +10,7 @@ export default theme => ({
     }
   },
   heading: {
-    maxWidth: "850px !important",
+    maxWidth: "700px !important",
     margin: "auto auto",
   },
   container: {
@@ -20,7 +20,7 @@ export default theme => ({
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
       backgroundImage: "url('static/mascot_new.svg')",
-      backgroundPosition: "right 160px top 140px",
+      backgroundPosition: "right 160px top 100px",
       backgroundRepeat: "no-repeat"
     }
   },
