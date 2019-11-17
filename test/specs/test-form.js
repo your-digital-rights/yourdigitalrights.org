@@ -1,5 +1,4 @@
 import Page from "../pageobjects/page";
-import { TIMEOUT } from "dns";
 
 browser.addCommand("isInvalid", function() {
   return false;
@@ -182,12 +181,25 @@ describe("When I visit the home page", () => {
   describe(' I see the navigation bar and all of the items', () => {
     it('shows the nav bar on desktop', () => {
       page.navigationBar.nav.should.exist;
-      page.navigationBar.linkOne.should.equal('How it works');
-      page.navigationBar.linkTwo.should.equal('FAQ');
-      page.navigationBar.linkThree.should.equal('Data Brokers');
-      page.navigationBar.linkFour.should.equal('Browser Extension');
-      page.navigationBar.linkFive.should.equal('About');
-      page.navigationBar.linkButton.should.equal('Search Company');
+      page.navigationBar.linkOneText.should.equal('How it works');
+      page.navigationBar.linkTwoText.should.equal('FAQ');
+      page.navigationBar.linkThreeText.should.equal('Data Brokers');
+      page.navigationBar.linkFourText.should.equal('Browser Extension');
+      page.navigationBar.linkFiveText.should.equal('About');
+      page.navigationBar.linkButtonText.should.equal('Search Company');
+      page.navigationBar.linkOneMobText.should.equal('How it workss');
+
     });
+
+    it('check the links are working as expected', () => {
+      page.navigationBar.fifthNavItem.click();
+      page.getCurrentUrl().should.equal('hello');
+
+
+    })
+
+    it('takes me to correct part of the page', () => {
+
+    })
   });
 });

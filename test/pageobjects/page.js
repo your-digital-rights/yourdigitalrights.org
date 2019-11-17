@@ -73,25 +73,31 @@ class Page {
       get nav() {
         return $('#nav');
       },
-      get linkOne() {
-        return browser.getText('[data-testid="nav-desktop-howItWorks"]');
+      get linkOneText() {
+        return browser.getText('nav li:nth-child(1)');
       },
-      get linkTwo() {
-        return browser.getText('[data-testid="nav-desktop-faq"]');
+      get linkTwoText() {
+        return browser.getText('nav li:nth-child(2)');
       },
-      get linkThree() {
-        return browser.getText('[data-testid="nav-desktop-data-brokers"]');
+      get linkThreeText() {
+        return browser.getText('nav li:nth-child(3)');
       },
-      get linkFour() {
-        return browser.getText('[data-testid="nav-desktop-extension"]');
+      get linkFourText() {
+        return browser.getText('nav li:nth-child(4)');
       },
-      get linkFive() {
-        return browser.getText('[data-testid="nav-desktop-about"]');
+      get linkFiveText() {
+        return browser.getText('nav li:nth-child(5)');
       },
-      get linkButton() {
-        return browser.getText('[data-testid="nav-desktop-search-button"]');
+      get linkButtonText() {
+        return browser.getText('nav > ul > a');
       },
-    };
+      get linkOneMobText() {
+        browser.setWindowSize(753, 700);
+        let linkText = browser.getText('.mob-navbar ul li:nth-child(1)');
+        // browser.manage().window().setSize(x, y);
+        return linkText;
+      }
+    }
   }
 
   hasTracked(...row) {
