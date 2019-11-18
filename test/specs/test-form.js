@@ -187,8 +187,12 @@ describe("When I visit the home page", () => {
       page.navigationBar.linkFourText.should.equal('Browser Extension');
       page.navigationBar.linkFiveText.should.equal('About');
       page.navigationBar.linkButtonText.should.equal('Search Company');
-      page.navigationBar.linkOneMobText.should.equal('How it workss');
 
+    });
+
+    it('shows mobile navigation', () => {
+      browser.windowHandleSize({ width: 600, height: 823 });
+      page.navigationBar.linkOneMobText.should.equal('How it works');
     });
 
     it('check the links are working as expected', () => {

@@ -92,10 +92,9 @@ class Page {
         return browser.getText('nav > ul > a');
       },
       get linkOneMobText() {
-        browser.setWindowSize(753, 700);
-        let linkText = browser.getText('.mob-navbar ul li:nth-child(1)');
-        // browser.manage().window().setSize(x, y);
-        return linkText;
+        browser.click('nav ul + img');
+        browser.pause(1000);
+        return browser.getText('.mob-navbar ul li:nth-child(1)');
       }
     }
   }
@@ -192,7 +191,7 @@ class Form {
   get submitButton() {
     return $("button");
   }
-  
+
 }
 
 export default Page;
