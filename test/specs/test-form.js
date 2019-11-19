@@ -192,15 +192,26 @@ describe("When I visit the home page", () => {
 
     it('shows mobile navigation', () => {
       browser.windowHandleSize({ width: 600, height: 823 });
+      page.navigationBar.triggerMobileMenuToggle;
       page.navigationBar.linkOneMobText.should.equal('How it works');
+      page.navigationBar.linkTwoMobText.should.equal('FAQ');
+      page.navigationBar.linkThreeMobText.should.equal('Data Brokers');
+      page.navigationBar.linkFourMobText.should.equal('About');
+      page.navigationBar.linkFiveMobText.should.equal('Search Company');
+      page.navigationBar.linkSixMobText.should.equal('Browser Extension');
+      page.navigationBar.linkSevenMobText.should.equal('Make a Donation');
+      page.navigationBar.linkEightMobText.should.equal('Privacy Policy');
+      page.navigationBar.linkNineMobText.should.equal('Contact Us');
+      page.navigationBar.linkTenMobText.should.equal('#ownyourdata');
+
+
     });
 
-    it('check the links are working as expected', () => {
-      page.navigationBar.fifthNavItem.click();
-      page.getCurrentUrl().should.equal('hello');
+    // it('check the links are working as expected', () => {
+    //   page.navigationBar.fifthNavItem.click();
+    //   page.getCurrentUrl().should.equal('hello');
 
-
-    })
+    // })
 
     it('takes me to correct part of the page', () => {
 

@@ -91,11 +91,41 @@ class Page {
       get linkButtonText() {
         return browser.getText('nav > ul > a');
       },
-      get linkOneMobText() {
+      get triggerMobileMenuToggle() {
         browser.click('nav ul + img');
         browser.pause(1000);
+      },
+      get linkOneMobText() {
         return browser.getText('.mob-navbar ul li:nth-child(1)');
+      },
+      get linkTwoMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(2)');
+      },
+      get linkThreeMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(3)');
+      },
+      get linkFourMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(4)');
+      },
+      get linkFiveMobText() {
+        return browser.getText('.mob-navbar ul > a > span');
+      },
+      get linkSixMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(6)');
+      },
+      get linkSevenMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(7)');
+      },
+      get linkEightMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(8)');
+      },
+      get linkNineMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(9)');
+      },
+      get linkTenMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(10)');
       }
+
     }
   }
 
