@@ -79,7 +79,7 @@ const styles = theme => ({
   },
   mobileListContainer: {
     display: 'none',
-    width: '216px',
+    width: '250px',
     height: '100vh',
     position: 'fixed',
     right: '0',
@@ -96,7 +96,7 @@ const styles = theme => ({
   },
   scrollOut: {
     position: 'absolute',
-    right: '-216px',
+    right: '-252px',
     transition: ' right 0.5s',
   },
   scrollIn: {
@@ -114,7 +114,7 @@ const styles = theme => ({
     right: '0',
     top: '0',
     margin: '0',
-    width: '216px',
+    width: '252px',
     height: '100vh',
     padding: '100px 25px',
     zIndex: '11000',
