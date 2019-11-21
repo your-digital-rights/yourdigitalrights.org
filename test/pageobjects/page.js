@@ -68,6 +68,67 @@ class Page {
     return new SocialShare('#faq +');
   }
 
+  get navigationBar() {
+    return {
+      get nav() {
+        return $('#nav');
+      },
+      get linkOneText() {
+        return browser.getText('nav li:nth-child(1)');
+      },
+      get linkTwoText() {
+        return browser.getText('nav li:nth-child(2)');
+      },
+      get linkThreeText() {
+        return browser.getText('nav li:nth-child(3)');
+      },
+      get linkFourText() {
+        return browser.getText('nav li:nth-child(4)');
+      },
+      get linkFiveText() {
+        return browser.getText('nav li:nth-child(5)');
+      },
+      get linkButtonText() {
+        return browser.getText('nav > ul > a');
+      },
+      get triggerMobileMenuToggle() {
+        browser.click('nav ul + img');
+        browser.pause(1000);
+      },
+      get linkOneMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(1)');
+      },
+      get linkTwoMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(2)');
+      },
+      get linkThreeMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(3)');
+      },
+      get linkFourMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(4)');
+      },
+      get linkFiveMobText() {
+        return browser.getText('.mob-navbar ul > a > span');
+      },
+      get linkSixMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(6)');
+      },
+      get linkSevenMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(7)');
+      },
+      get linkEightMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(8)');
+      },
+      get linkNineMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(9)');
+      },
+      get linkTenMobText() {
+        return browser.getText('.mob-navbar ul li:nth-child(10)');
+      }
+
+    }
+  }
+
   hasTracked(...row) {
     let { value: result } = browser.execute(function(row) {
       let paq = window._paq;
@@ -160,6 +221,7 @@ class Form {
   get submitButton() {
     return $("button");
   }
+
 }
 
 export default Page;

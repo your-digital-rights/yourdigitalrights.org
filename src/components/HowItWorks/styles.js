@@ -4,7 +4,11 @@ export const indexStyles = theme => ({
     display: "flex",
     flexDirection: "column",
     paddingTop: "30px",
-    ...container
+    ...container,
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-100px',
+      paddingTop: '160px',
+    },
   },
   title: {
     textAlign: "center",

@@ -6,9 +6,13 @@ export default theme => ({
     paddingBottom: 0,
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.up("sm")]: {
-      padding: "60px 60px 0",
-      margin: "60px auto 0"
+    [theme.breakpoints.up('sm')]: {
+      padding: "60px 60px 0",	     
+      margin: "60px auto 0",	     
+    },	   
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-60px',
+      paddingTop: '150px',
     }
   },
   title: {

@@ -8,6 +8,11 @@ export default theme => ({
   heading: {
     maxWidth: "850px !important",
     margin: "auto auto",
+    
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-140px',
+      paddingTop: '150px',
+    },
   },
   container: {
     padding: "30px",
