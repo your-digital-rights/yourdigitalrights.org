@@ -1,6 +1,6 @@
 exports.config = {
   debug: true,
-  execArgv: ['--inspect'],
+  // execArgv: ['--inspect'],
   mochaOpts: {
     timeout: (24 * 60 * 60 * 1000)
   },
