@@ -37,6 +37,15 @@ class Page {
     return $$(".search-result");
   }
 
+  get redirectOverlay() {
+    const overlay = $(`//*[contains(text(),'Great news')]/ancestor::div[@role="document"]`);
+
+    return {
+      isExisting: () => overlay.isExisting(),
+      close: () => overlay.$('button=Continue').click()
+    };
+  }
+
   get thanksMessage() {
     let thanks = $('#ThanksMessage');
 
