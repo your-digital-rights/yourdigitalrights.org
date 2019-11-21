@@ -55,7 +55,7 @@ app.prepare().then(() => {
   }));
 
   server.get('*', (req, res) => {
-      if (req.hostname === 'opt-out.eu') {
+      if (req.hostname.includes('opt-out.eu')) {
           var newQuery = req.query;
           newQuery.source = "optouteu";
           res.redirect(url.format({
