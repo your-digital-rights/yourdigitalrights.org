@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Component } from "react";
+import RedirectOverlay from '../components/RedirectOverlay';
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -39,6 +40,7 @@ class Index extends Component {
       selectedCompany: null,
       manualCompanyEntryEnabled: false,
       screenWidth: null,
+      showRedirectOverlay: false
     };
 
     if (typeof window !== 'undefined' && window.location.hash !== '') {
@@ -48,6 +50,10 @@ class Index extends Component {
         window.location.hash = '';
         window.location.hash = hash;
       }, 500);
+    }
+
+    if (typeof window !== 'undefined' && window.location.search.includes('source=optouteu')) {
+      this.state.showRedirectOverlay = true;
     }
   }
 
@@ -62,12 +68,16 @@ class Index extends Component {
   }
 
   componentDidMount() {
-    this.setState({ screenWidth: window.innerWidth });
-    window.addEventListener('resize', this.onScreenResize);
+    if (typeof window !== 'undefined') {
+      this.setState({ screenWidth: window.innerWidth });
+      window.addEventListener('resize', this.onScreenResize);
+    }
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.onScreenResize);
+    if (typeof window !== 'undefined') {
+      window.removeEventListener('resize', this.onScreenResize);
+    }
   }
 
   onScreenResize = () => {
@@ -104,6 +114,11 @@ class Index extends Component {
     this.setState(state);
     window.location.hash = "hero";
     this.searchForm.current.focus();
+  }
+
+  closeRedirectOverlay() {
+    window.history.replaceState('home', 'Home', '/');
+    this.setState({ ...this.state, showRedirectOverlay: false });
   }
 
   render() {
@@ -168,6 +183,11 @@ class Index extends Component {
           <Social offset={true} sourcePage="homepage" />
           <Donations />
           <Footer />
+          {this.state.showRedirectOverlay &&
+          (
+            <RedirectOverlay
+              close={() => this.closeRedirectOverlay()} />
+          )}
         </div>
       </div>
     );
