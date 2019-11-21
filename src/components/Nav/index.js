@@ -259,7 +259,7 @@ const NavListDesktop = ({ classes }) => {
         }}
       >
         <Typography component="span" className={classes.link}>
-          Search Company
+          Search Organizations
         </Typography>
       </a>
     </ul>
@@ -308,7 +308,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           }}
         >
           <Typography component="span" className={classes.link}>
-            Search Company
+            Search Organizations
           </Typography>
         </a>
 
