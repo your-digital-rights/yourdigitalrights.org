@@ -251,7 +251,7 @@ const NavListDesktop = ({ classes }) => {
       />
 
       <a
-        href="/#topOfPage"
+        href="/#hero"
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
         onClick={() => {
