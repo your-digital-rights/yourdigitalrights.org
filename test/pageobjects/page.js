@@ -42,7 +42,7 @@ class Page {
 
     return {
       isExisting: () => overlay.isExisting(),
-      close: () => overlay.$('button:last-of-type()').click()
+      close: () => overlay.$('button=Continue').click()
     };
   }
 
