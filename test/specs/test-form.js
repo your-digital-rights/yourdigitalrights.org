@@ -186,7 +186,7 @@ describe("When I visit the home page", () => {
       page.navigationBar.linkThreeText.should.equal('Data Brokers');
       page.navigationBar.linkFourText.should.equal('Browser Extension');
       page.navigationBar.linkFiveText.should.equal('About');
-      page.navigationBar.linkButtonText.should.equal('Search Company');
+      page.navigationBar.linkButtonText.should.equal('Search Organizations');
 
     });
 
@@ -197,7 +197,7 @@ describe("When I visit the home page", () => {
       page.navigationBar.linkTwoMobText.should.equal('FAQ');
       page.navigationBar.linkThreeMobText.should.equal('Data Brokers');
       page.navigationBar.linkFourMobText.should.equal('About');
-      page.navigationBar.linkFiveMobText.should.equal('Search Company');
+      page.navigationBar.linkFiveMobText.should.equal('Search Organizations');
       page.navigationBar.linkSixMobText.should.equal('Browser Extension');
       page.navigationBar.linkSevenMobText.should.equal('Make a Donation');
       page.navigationBar.linkEightMobText.should.equal('Privacy Policy');
