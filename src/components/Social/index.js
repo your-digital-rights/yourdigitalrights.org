@@ -53,7 +53,11 @@ const styles = theme => ({
     justifyContent: 'center',
     width: '100%',
     marginBottom: '60px',
-    marginTop: '50px'
+    paddingTop: '90px',
+    [theme.breakpoints.down('sm')]: {
+      marginTop: '-100px',
+      paddingTop: '150px',
+    },
   },
 
   extensionHelperContainer: {

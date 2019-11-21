@@ -1,5 +1,4 @@
 import Page from "../pageobjects/page";
-import { TIMEOUT } from "dns";
 
 browser.addCommand("isInvalid", function() {
   return false;
@@ -177,5 +176,45 @@ describe("When I visit the home page", () => {
         );
       });
     });
+  });
+
+  describe(' I see the navigation bar and all of the items', () => {
+    it('shows the nav bar on desktop', () => {
+      page.navigationBar.nav.should.exist;
+      page.navigationBar.linkOneText.should.equal('How it works');
+      page.navigationBar.linkTwoText.should.equal('FAQ');
+      page.navigationBar.linkThreeText.should.equal('Data Brokers');
+      page.navigationBar.linkFourText.should.equal('Browser Extension');
+      page.navigationBar.linkFiveText.should.equal('About');
+      page.navigationBar.linkButtonText.should.equal('Search Organizations');
+
+    });
+
+    it('shows mobile navigation', () => {
+      browser.windowHandleSize({ width: 600, height: 823 });
+      page.navigationBar.triggerMobileMenuToggle;
+      page.navigationBar.linkOneMobText.should.equal('How it works');
+      page.navigationBar.linkTwoMobText.should.equal('FAQ');
+      page.navigationBar.linkThreeMobText.should.equal('Data Brokers');
+      page.navigationBar.linkFourMobText.should.equal('About');
+      page.navigationBar.linkFiveMobText.should.equal('Search Organizations');
+      page.navigationBar.linkSixMobText.should.equal('Browser Extension');
+      page.navigationBar.linkSevenMobText.should.equal('Make a Donation');
+      page.navigationBar.linkEightMobText.should.equal('Privacy Policy');
+      page.navigationBar.linkNineMobText.should.equal('Contact Us');
+      page.navigationBar.linkTenMobText.should.equal('#ownyourdata');
+
+
+    });
+
+    // it('check the links are working as expected', () => {
+    //   page.navigationBar.fifthNavItem.click();
+    //   page.getCurrentUrl().should.equal('hello');
+
+    // })
+
+    it('takes me to correct part of the page', () => {
+
+    })
   });
 });

@@ -11,7 +11,7 @@ const Donations = ({ classes, onCompanySelected, children }) => {
   return (
     <div className={classes.donate}>
       <div className={classes.container}>
-        <div className={classes.heading}>
+        <div id="donations" className={classes.heading}>
           <Typography
             variant="display1"
             component="h2"

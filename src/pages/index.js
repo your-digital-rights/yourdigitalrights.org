@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import { Component } from "react";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
@@ -13,9 +13,44 @@ import fetchSheetData from "../utils/sheets";
 import pageWithIntl from "../components/PageWithIntl";
 import tracking from "../utils/tracking";
 import withRoot from "../withRoot";
+import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
 
+const styles = theme => ({
+  topOfPagePlaceholder: {
+    height: '72px',
+  },
+  mainContainer: {
+    position: 'relative',
+  },
+  desktopSearchbar: {
+    display: 'block',
+  },
+});
+
+const tabletBreakpoint = 960;
+
 class Index extends Component {
+  constructor(props) {
+    super(props);
+    this.searchForm = React.createRef();
+
+    this.state = {
+      selectedCompany: null,
+      manualCompanyEntryEnabled: false,
+      screenWidth: null,
+    };
+
+    if (typeof window !== 'undefined' && window.location.hash !== '') {
+      let hash = window.location.hash;
+
+      setTimeout(() => {
+        window.location.hash = '';
+        window.location.hash = hash;
+      }, 500);
+    }
+  }
+
   static async getInitialProps({ query }) {
     if (query.company) {
       const companies = await fetchSheetData();
@@ -26,9 +61,17 @@ class Index extends Component {
     }
   }
 
-  state = {
-    selectedCompany: null,
-    manualCompanyEntryEnabled: false
+  componentDidMount() {
+    this.setState({ screenWidth: window.innerWidth });
+    window.addEventListener('resize', this.onScreenResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onScreenResize);
+  }
+
+  onScreenResize = () => {
+    this.setState({ screenWidth: window.innerWidth });
   };
 
   onCompanySelected = selectedCompany => {
@@ -55,20 +98,6 @@ class Index extends Component {
     }
   }
 
-  constructor(props) {
-    super(props);
-    this.searchForm = React.createRef();
-
-    if (typeof window !== "undefined" && window.location.hash !== "") {
-      let hash = window.location.hash;
-
-      setTimeout(() => {
-        window.location.hash = "";
-        window.location.hash = hash;
-      }, 500);
-    }
-  }
-
   focusSearch() {
     let state = Object.assign({}, this.state);
     state.selectedCompany = null;
@@ -78,8 +107,8 @@ class Index extends Component {
   }
 
   render() {
-    const { deeplinkedCompany } = this.props;
-    const { selectedCompany } = this.state;
+    const { deeplinkedCompany, classes } = this.props;
+    const { selectedCompany, screenWidth } = this.state;
     const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
@@ -88,47 +117,61 @@ class Index extends Component {
       "Get thousands of organizations to erase your personal data.";
     const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";
 
+
     return (
       <div>
-        <Head>
-          <title>{Title}</title>
-          <link rel="canonical" href={Canonical} />
-          <meta name="description" content={Description} />
-          <meta property="og:description" content={Description} />
-          <meta
-            property="og:title"
-            content={Title}
+        <Nav>
+          {screenWidth !== null && screenWidth < tabletBreakpoint && (
+            <SearchForm
+              onCompanySelected={this.onCompanySelected}
+              innerRef={this.searchForm}
+            />
+          )}
+        </Nav>
+        <div className={classes.mainContainer}>
+          <div className={classes.scrollableContainer}></div>
+          <Head>
+            <title>{Title}</title>
+            <link rel="canonical" href={Canonical} />
+            <link href="src/styles/hamburgers.css" rel="stylesheet" />
+            <meta name="description" content={Description} />
+            <meta property="og:description" content={Description} />
+            <meta property="og:title" content={Title} />
+            <meta name="twitter:title" content={Title} />
+            <meta name="twitter:description" content={Description} />
+          </Head>
+          <input
+            id="topOfPage"
+            className={classes.topOfPagePlaceholder}
+            onFocus={() => {
+              this.focusSearch();
+            }}
           />
-          <meta
-            name="twitter:title"
-            content={Title}
-          />
-          <meta
-            name="twitter:description"
-            content={Description}
-          />
-        </Head>
-        <Hero>
-          <SearchForm
-            onCompanySelected={this.onCompanySelected}
-            innerRef={this.searchForm}
-          />
-        </Hero>
-        <Nav />
-        {(company || this.state.manualCompanyEntryEnabled) && (
-          <PersonalInfoForm
-            selectedCompany={company}
-            focusSearch={this.focusSearch.bind(this)}
-          />
-        )}
-        <HowItWorks />
-        <FAQ />
-        <Social offset={true} sourcePage='homepage' />
-        <Donations />
-        <Footer />
+          <Hero>
+            {screenWidth !== null && screenWidth >= tabletBreakpoint && (
+              <div className={classes.desktopSearchbar}>
+                <SearchForm
+                  onCompanySelected={this.onCompanySelected}
+                  innerRef={this.searchForm}
+                />
+              </div>
+            )}
+          </Hero>
+          {(company || this.state.manualCompanyEntryEnabled) && (
+            <PersonalInfoForm
+              selectedCompany={company}
+              focusSearch={this.focusSearch.bind(this)}
+            />
+          )}
+          <HowItWorks />
+          <FAQ />
+          <Social offset={true} sourcePage="homepage" />
+          <Donations />
+          <Footer />
+        </div>
       </div>
     );
   }
 }
 
-export default withRoot(pageWithIntl(Index));
+export default withRoot(pageWithIntl(withStyles(styles)(Index)));
