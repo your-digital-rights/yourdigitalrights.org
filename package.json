@@ -14,8 +14,8 @@
     "deploy": "npx now --name opt-out-eu",
     "clean": "rm -rf src/out && rm -rf src/.next",
     "alias:staging": "npx now alias opt-out-eu",
-    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 5 && now scale opt-out.eu all 0 5",
-    "alias:prod-new": "npx now alias https://opt-out-eu.now.sh/ yourdigitalrights.org && now alias https://opt-out-eu.now.sh/ www.yourdigitalrights.org && now scale www.yourdigitalrights.org all 0 5 && now scale yourdigitalrights.org all 0 5",
+    "alias:prod-optout": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 5 && now scale opt-out.eu all 0 5",
+    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ yourdigitalrights.org && now alias https://opt-out-eu.now.sh/ www.yourdigitalrights.org && now scale www.yourdigitalrights.org all 0 5 && now scale yourdigitalrights.org all 0 5",
     "alias:apis": "now alias https://opt-out-api.now.sh/ api.opt-out.eu",
     "deploy:dev": "npm run deploy"
   },

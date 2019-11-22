@@ -26,6 +26,10 @@ Running `npm run deploy:dev` will deploy to a temporary url
 
 `npm run alias:staging` will alias the latest **development** deployment to http://opt-out-eu.now.sh/
 
-## Production
+## Old production (opt-out.eu)
 
-`npm run alias:prod` will alias the latest **staging** deployment to http://opt-out.eu/
+`npm run alias:prod-optout` will alias the latest **staging** deployment to http://opt-out.eu/
+
+## Production (yourdigitalrights.org)
+
+`npm run alias:prod` will alias the latest **staging** deployment to http://yourdigitalrights.org/
