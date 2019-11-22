@@ -95,6 +95,12 @@ const styles = theme => ({
       justifyContent: 'center',
     },
   },
+  hideMobContainer: {
+    width: 0
+  },
+  showMobContainer: {
+    width: '250px'
+  },
   scrollOut: {
     position: 'absolute',
     right: '-252px',
@@ -447,7 +453,7 @@ class Nav extends Component {
 
         <div
           ref={this.hamburgerButton}
-          className={classes.mobileListContainer}
+          className={classNames(classes.mobileListContainer, mobileNavOpen ? classes.showMobContainer: classes.hideMobContainer)}
           onFocus={this.onFocusHandler}
         >
           <NavListMobile
