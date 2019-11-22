@@ -80,13 +80,14 @@ const styles = theme => ({
   mobileListContainer: {
     display: 'none',
     width: '250px',
-    height: '100vh',
+    height: '110vh',
     position: 'fixed',
     right: '0',
     top: '0',
     float: 'right',
     color: '#ffffff',
     overflowX: 'hidden',
+    overflowY: 'hidden',
     zIndex: '10000',
 
     [theme.breakpoints.down('sm')]: {
@@ -115,7 +116,7 @@ const styles = theme => ({
     top: '0',
     margin: '0',
     width: '252px',
-    height: '100vh',
+    height: '110vh',
     padding: '100px 25px',
     zIndex: '11000',
   },
