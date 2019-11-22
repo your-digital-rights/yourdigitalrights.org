@@ -26,7 +26,7 @@ const styles = theme => ({
   },
   desktopSearchbar: {
     display: 'block',
-  },
+  }
 });
 
 const tabletBreakpoint = 960;

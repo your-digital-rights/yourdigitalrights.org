@@ -72,7 +72,7 @@ const styles = theme => ({
   },
   navChildren: {
     position: 'fixed',
-    height: '300px',
+    height: '50px',
     width: '100%',
     top: '70px',
     zIndex: '9999',
