@@ -42,6 +42,7 @@ class Form extends Component {
     };
 
     this.handlers = {};
+    this.container = React.createRef();
 
   }
 
@@ -199,9 +200,9 @@ class Form extends Component {
             select
             label={CcpaOrGdprText}
             className={classes.textField}
-            value={this.state.requestType}
             onChange={this.handleInput("requestType")}
             required
+            defaultValue="GDPR"
             SelectProps={{
               native: true,
               MenuProps: {
@@ -211,7 +212,7 @@ class Form extends Component {
             helperText={CcpaOrGdprHelperText}
             margin="normal"
           >
-            <option value="GDPR" selected>{GdprOptionText}</option>
+            <option value="GDPR">{GdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
           <p>{GdprOptionText.text}</p>
@@ -246,7 +247,7 @@ class Form extends Component {
       );
     }
 
-    return <div id='Form'>{formToDisplay}</div>
+    return <div id='Form' ref={this.props.containerRef}>{formToDisplay}</div>
 
 
   }
