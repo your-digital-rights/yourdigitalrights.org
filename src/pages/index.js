@@ -35,6 +35,7 @@ class Index extends Component {
   constructor(props) {
     super(props);
     this.searchForm = React.createRef();
+    // this.infoForm = React.createRef();
 
     this.state = {
       selectedCompany: null,
@@ -77,6 +78,13 @@ class Index extends Component {
   componentWillUnmount() {
     if (typeof window !== 'undefined') {
       window.removeEventListener('resize', this.onScreenResize);
+    }
+  }
+
+  componentDidUpdate() {
+    if (typeof window !== 'undefined' && this.infoForm) {
+      let scrollTop = this.infoForm.getBoundingClientRect().top + window.pageYOffset - 122;
+      window.scrollTo({ top: scrollTop });
     }
   }
 
@@ -176,6 +184,7 @@ class Index extends Component {
             <PersonalInfoForm
               selectedCompany={company}
               focusSearch={this.focusSearch.bind(this)}
+              containerRef={el => this.infoForm = el}
             />
           )}
           <HowItWorks />
