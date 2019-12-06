@@ -86,10 +86,23 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br/>
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} component="h4" variant="display5">
+            <FormattedMessage
+              id="funding"
+              defaultMessage="Funding"
+            />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="fundingBody1"
+              defaultMessage="This project is self funded by it’s creators, and with the help of your donations."
+            />          
+          </Typography>
+          <br/>
+          <Typography gutterBottom={true} component="h4" variant="display5">
             <FormattedMessage
               id="createdBy"
-              defaultMessage="yourdigitalrights.org was created by:"
+              defaultMessage="Created by"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -111,10 +124,10 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br/>
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} component="h4" variant="display5">
             <FormattedMessage
               id="contributors"
-              defaultMessage="Contributors:"
+              defaultMessage="Contributors"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -145,10 +158,10 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br/>
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} component="h4" variant="display5">
             <FormattedMessage
               id="sponsors"
-              defaultMessage="Sponsors:"
+              defaultMessage="Sponsors"
             />
           </Typography>
           <Typography gutterBottom={true}>
