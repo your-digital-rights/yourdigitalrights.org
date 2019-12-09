@@ -61,13 +61,13 @@ class Form extends Component {
     e.preventDefault();
     window.open(this.renderMailTo());
 
+    this.setState({hasSubmit: true});
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
-      this.setState({hasSubmit: true});
       window.location ='#Form';
-      tracking.trackRequestComplete(this.props.selectedCompany.name);
     }
+     window.location ='#Form';
   };
 
   renderMailTo() {
@@ -235,6 +235,7 @@ class Form extends Component {
           )}
           <div>
             <Button
+              id="sendRequstSubmit"
               variant="raised"
               color="primary"
               type="submit"

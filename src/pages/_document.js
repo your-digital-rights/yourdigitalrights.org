@@ -6,6 +6,9 @@ import flush from "styled-jsx/server";
 import getPageContext from "../getPageContext";
 import { DOMAIN } from "../utils/domain";
 
+const dev = process.env.NODE_ENV !== "production";
+const tag_manager = dev ? "var _mtm = _mtm || [];_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.innocraft.cloud/optout.innocraft.cloud/container_5NUlTe8T_dev_fb89c2b21d286532e8419d7d.js'; s.parentNode.insertBefore(g,s);" : "var _mtm = _mtm || [];_mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];g.type='text/javascript'; g.async=true; g.defer=true; g.src='https://cdn.innocraft.cloud/optout.innocraft.cloud/container_5NUlTe8T.js'; s.parentNode.insertBefore(g,s);"
+
 // The document (which is SSR-only) needs to be customized to expose the locale
 // data for the user's locale for React Intl to work in the browser.
 
@@ -106,19 +109,9 @@ export default class IntlDocument extends Document {
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
-              __html:
-                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." + DOMAIN + "']); _paq.push(['setDomains', ['*." + DOMAIN + "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();"
+              __html: tag_manager
             }}
           />
-          <noscript>
-            <p>
-              <img
-                src='https://optout.innocraft.cloud/matomo.php?idsite=2&amp;rec=1'
-                style={{border: 0}}
-                alt=''
-              />
-            </p>
-          </noscript>
           <script
             src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9"
           />

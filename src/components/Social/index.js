@@ -10,7 +10,6 @@ import {
   TwitterShareButton
 } from 'react-share';
 import classNames from 'classnames';
-import tracking from '../../utils/tracking';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChrome, faFirefox } from '@fortawesome/free-brands-svg-icons'
 
@@ -167,14 +166,6 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
     className: 'ss-btn'
   };
 
-  const trackShare = (network) => {
-    tracking.trackSocialShare(network);
-  };
-
-  const trackWebExtension = (brower) => {
-    tracking.trackWebExtension(brower);
-  };
-
   return <div className={classNames(classes.root, className, 'ss')} style={style}>
     {sourcePage === 'homepage' && (
       <div id="Extension" className={classes.extensionHelperPlaceHolder}>
@@ -186,11 +177,11 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
               Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button.
             </Typography>
             <div className={classes.extensionHelpButtonContainer}>
-              <Button variant="extendedFab" onClick={() => {trackWebExtension.bind(null, 'chrome-extension')}} aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
+              <Button id="chromeExtension" variant="extendedFab" aria-label="Google Chrome Extension" className={classes.extensionDownloadButton} target="_blank" href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB">
               <FontAwesomeIcon className={classes.extensionDownloadButtonIcon} color="#005ea5" icon={faChrome}/>
                 Download it for Chrome
               </Button>
-              <Button variant="extendedFab" onClick={() => {trackWebExtension.bind(null, 'firefox-extension')}} aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
+              <Button id="firefoxExtension" variant="extendedFab" aria-label="FireFox Extention" className={classes.extensionDownloadButton} target="_blank" href="https://addons.mozilla.org/en-GB/android/addon/opt-out/">
                 <FontAwesomeIcon className={classNames(classes.extensionDownloadButtonIcon, classes.extensionDownloadButtonIconFireFox)} color="#005ea5" icon={faFirefox}/>
                 Download it for Firefox
               </Button>
@@ -207,9 +198,9 @@ const Social = ({ classes, intl, sourcePage = 'thankyou' /* default value */, st
         />
     </Typography>
 
-    <FacebookShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'facebook')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
-    <LinkedinShareButton additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'linkedin')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
-    <TwitterShareButton  additionalProps={shareButtonProps} beforeOnClick={trackShare.bind(null, 'twitter')} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['GDPR', 'CCPA', 'yourdigitalrights', 'righttobeforgotten', 'optout', 'ownyourdata']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
+    <FacebookShareButton additionalProps={shareButtonProps} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" + sourcePage} className='ss-btn' quote={facebookQuote}><img src="static/sh/fb.svg" /></FacebookShareButton>
+    <LinkedinShareButton additionalProps={shareButtonProps} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" + sourcePage} className='ss-btn'><img src="static/sh/lin.svg" /></LinkedinShareButton>
+    <TwitterShareButton  additionalProps={shareButtonProps} url={"https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" + sourcePage} title={twitterTitle} hashtags={['GDPR', 'CCPA', 'yourdigitalrights', 'righttobeforgotten', 'optout', 'ownyourdata']} className='ss-btn'><img src="static/sh/tw.svg" /></TwitterShareButton>
     <a href={emailLink} onClick={handleEmailClick} className='ss-btn SocialMediaShareButton--email'><img src="static/sh/mail.svg" /></a>
 
   </div>;

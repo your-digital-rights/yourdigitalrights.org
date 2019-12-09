@@ -16,8 +16,16 @@
     "defaultMessage": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is {oss}."
   },
   {
+    "id": "funding",
+    "defaultMessage": "Funding"
+  },
+  {
+    "id": "fundingBody1",
+    "defaultMessage": "This project is self funded by it’s creators, and with the help of your donations."
+  },
+  {
     "id": "createdBy",
-    "defaultMessage": "yourdigitalrights.org was created by:"
+    "defaultMessage": "Created by"
   },
   {
     "id": "createdByBody1",
@@ -29,7 +37,7 @@
   },
   {
     "id": "contributors",
-    "defaultMessage": "Contributors:"
+    "defaultMessage": "Contributors"
   },
   {
     "id": "contributorsBody1",
@@ -45,7 +53,7 @@
   },
   {
     "id": "sponsors",
-    "defaultMessage": "Sponsors:"
+    "defaultMessage": "Sponsors"
   },
   {
     "id": "cookiesBody",
