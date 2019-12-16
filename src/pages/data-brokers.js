@@ -107,7 +107,7 @@ const Brokers = ({ classes }) => {
           <Typography component="h1" variant="display1" gutterBottom={true}>
             <FormattedMessage
               id="aboutTitle"
-              defaultMessage="Opt Out of Top Data Brokers"
+              defaultMessage="Opt Out of the Top Data Brokers"
             />
           </Typography>
           <br/>
@@ -116,7 +116,7 @@ const Brokers = ({ classes }) => {
               id="brokersIntro"
               defaultMessage="Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
               values={{
-                faq: <a href="/#faq-0">GDPR or CCPA</a>
+                faq: <a href="/#faq">GDPR or CCPA</a>
               }}
             />
           </Typography>
