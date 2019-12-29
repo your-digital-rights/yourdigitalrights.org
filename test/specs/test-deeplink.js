@@ -12,6 +12,6 @@ describe("When I visit the home page with a company parameter", () => {
   });
 
   it("displays the company name in the page", () => {
-    browser.isExisting("h2=Opting out of Amazon UK").should.be.true;
+    browser.isExisting("h1=Delete Amazon UK Data").should.be.true;
   });
 });

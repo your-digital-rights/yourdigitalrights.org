@@ -114,7 +114,7 @@ class Form extends Component {
     const HeadingText = selectedCompany ? (
       <FormattedMessage
         id="formHeading"
-        defaultMessage="Delete {companyName} data"
+        defaultMessage="Delete {companyName} Data"
         values={{ companyName: <strong style={{color:'blueviolet'}}>{selectedCompany.name}</strong> }}
       />
     ) : (

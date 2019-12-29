@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/opt-out-eu/opt-out.svg?style=svg)](https://circleci.com/gh/opt-out-eu/opt-out)
+[![CircleCI](https://circleci.com/gh/opt-out-eu/yourdigitalrights.org.svg?style=svg)](https://circleci.com/gh/opt-out-eu/yourdigitalrights.org)
 
 # Installation
 
