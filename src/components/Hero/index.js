@@ -12,9 +12,9 @@ const Hero = ({ classes, onCompanySelected, children }) => {
       <div className={classes.container}>
         <div className={classes.heading}>
 
-        <h1 className={classes.title}>
+        <h2 className={classes.title}>
           <span style={visuallyHidden}>Your Digital Rights</span>
-        </h1>
+        </h2>
 
         <Typography
             variant="display1"

@@ -114,11 +114,11 @@ class Form extends Component {
     const HeadingText = selectedCompany ? (
       <FormattedMessage
         id="formHeading"
-        defaultMessage="Opting out of {companyName}"
-        values={{ companyName: selectedCompany.name }}
+        defaultMessage="Delete {companyName} data"
+        values={{ companyName: <strong style={{color:'blueviolet'}}>{selectedCompany.name}</strong> }}
       />
     ) : (
-      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Opting out" />
+      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Delete my data from:" />
     );
 
     const CcpaOptionText = this.props.intl.formatMessage({ id: 'ccpaOption', defaultMessage: 'CCPA (California)' });
@@ -155,7 +155,7 @@ class Form extends Component {
           elevation={10}
         >
 
-          <Typography variant="display1" component="h2" gutterBottom={true}>
+          <Typography variant="display1" component="h1" gutterBottom={true}>
             {HeadingText}
           </Typography>
           <Typography gutterBottom={true} variant={"body2"}>

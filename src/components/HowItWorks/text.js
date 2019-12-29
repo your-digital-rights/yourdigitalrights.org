@@ -65,13 +65,25 @@ const YourDataBody = (
 );
 
 const WhyTitle = (
-  <FormattedMessage id="whyTitle" defaultMessage="Why Your Digital Rights?" />
+  <FormattedMessage id="whyTitle" defaultMessage="Why Trust Us?" />
 );
 
 const WhyBody = (
   <FormattedMessage
     id="whyBody"
-    defaultMessage="We created this free service because we believe that privacy matters, and that exercising your right to privacy should be easy. We do not collect or sell personal data."
+    defaultMessage="We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your {donations}. Read more {about}."
+    values={{
+      about: (
+        <a href="/about">
+          about us
+        </a>
+      ),
+      donations: (
+        <a href="/#donations">
+          donations
+        </a>
+      )
+    }}
   />
 );
 
