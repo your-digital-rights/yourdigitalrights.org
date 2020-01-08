@@ -13,5 +13,9 @@ export default theme => ({
   formButton: {
     marginTop: "2rem",
     borderRadius:"24px 24px 24px 24px"
-  }
+  },
+  discourse: {
+    maxWidth: "777px",
+    margin: "60px auto"
+  }  
 });

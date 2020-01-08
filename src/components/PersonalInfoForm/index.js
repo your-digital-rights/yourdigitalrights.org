@@ -19,6 +19,7 @@ import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
+import Discourse from "../Discourse";
 import Typography from "@material-ui/core/Typography";
 import erasureEmail from "../../email-templates/erasure";
 import fetch from "isomorphic-fetch";
@@ -26,6 +27,8 @@ import mailtoLink from "mailto-link";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
+import { DOMAIN } from "../../utils/domain";
+
 
 class Form extends Component {
   constructor(props) {
@@ -247,9 +250,15 @@ class Form extends Component {
       );
     }
 
-    return <div id='Form' ref={this.props.containerRef}>{formToDisplay}</div>
+    return (
+      <>
+        <div id='Form' ref={this.props.containerRef}>{formToDisplay}</div>
+        <Discourse 
+          selectedCompany={this.props.selectedCompany}
+        />
+      </>
 
-
+    );
   }
 }
 export default injectIntl(withStyles(styles)(Form));
