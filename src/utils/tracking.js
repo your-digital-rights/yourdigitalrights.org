@@ -24,20 +24,20 @@ export default {
     this.track('trackSiteSearch', term);
   },
 
-  trackSelectedCompany(company) {
-    this.trackEvent('selectedCompany', company);
+  trackSelectedCompany(domain) {
+    this.trackEvent('Selected Domain', domain);
   },
 
-  trackRequestComplete(company) {
-    this.trackEvent('Send Erasure request', 'complete', company);
+  trackRequestComplete(domain, requestType) {
+    this.trackEvent('Send Erasure Request - ' + domain + ' - ' + requestType , 'Send Erasure Request - ' + domain, 'Send Erasure Request - ' + requestType);
   },
 
-  trackSocialShare(network) {
-    this.trackEvent('Social share', network);
+  trackSocialShare(network, sourcePage) {
+    this.trackEvent('Social Share - ' + network + ' - ' + sourcePage, 'Social Share - ' + network);
   },
 
-  trackWebExtension(browser) {
-    this.trackEvent('Click Web Extension', browser);
+  trackWebExtension(browser, sourcePage) {
+    this.trackEvent('Click Web Extension - ' + browser + ' - ' + sourcePage, 'Click Web Extension - ' + browser);
   },
 
   trackSearchButtonLinkClick(device) {

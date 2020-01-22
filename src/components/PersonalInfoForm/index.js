@@ -66,7 +66,7 @@ class Form extends Component {
     } else {
       this.setState({hasSubmit: true});
       window.location ='#Form';
-      tracking.trackRequestComplete(this.props.selectedCompany.name);
+      tracking.trackRequestComplete(this.props.selectedCompany.url, this.state.requestType);
     }
   };
 

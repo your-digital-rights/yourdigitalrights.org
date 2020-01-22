@@ -99,7 +99,7 @@ class Index extends Component {
         selectedCompany,
         manualCompanyEntryEnabled: false
       });
-      tracking.trackSelectedCompany(selectedCompany.name);
+      tracking.trackSelectedCompany(selectedCompany.url);
     } else {
       this.setState({
         selectedCompany: null,
