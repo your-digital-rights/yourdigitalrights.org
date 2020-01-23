@@ -99,7 +99,7 @@ class Index extends Component {
         selectedCompany,
         manualCompanyEntryEnabled: false
       });
-      tracking.trackSelectedCompany(selectedCompany.name);
+      tracking.trackSelectedCompany(selectedCompany.url);
     } else {
       this.setState({
         selectedCompany: null,
@@ -139,6 +139,8 @@ class Index extends Component {
     const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data." :
       "Get thousands of organizations to erase your personal data.";
     const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";
+    const URL = "https://" + DOMAIN + "/";
+    const searchURL = "https://" + DOMAIN + "/?company={search_term_string}";
 
 
     return (
@@ -155,6 +157,12 @@ class Index extends Component {
           <div className={classes.scrollableContainer}></div>
           <Head>
             <title>{Title}</title>
+            <script type="application/ld+json"    
+              dangerouslySetInnerHTML={{
+                __html:            
+                '{"@context": "https://schema.org", "@type": "WebSite", "url": "' + URL + '", "potentialAction": { "@type": "SearchAction", "target": "' + searchURL + '", "query-input": "required name=search_term_string" }}'
+              }}
+            />
             <link rel="canonical" href={Canonical} />
             <link href="src/styles/hamburgers.css" rel="stylesheet" />
             <meta name="description" content={Description} />

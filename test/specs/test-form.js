@@ -44,7 +44,7 @@ describe("When I visit the home page", () => {
         .should.be.true;
 
       page.hasTracked("trackSiteSearch", "Slack").should.be.true;
-      page.hasTracked("trackEvent", "selectedCompany", "Slack").should.be.true;
+      page.hasTracked("trackEvent", "Selected Domain", "slack.com").should.be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
@@ -92,9 +92,9 @@ describe("When I visit the home page", () => {
 
         page.hasTracked(
           "trackEvent",
-          "Send Erasure request",
-          "complete",
-          "Slack"
+          "Send Erasure Request - slack.com - GDPR",
+          "Send Erasure Request - slack.com",
+          "Send Erasure Request - GDPR"
         ).should.be.true;
       });
 
@@ -113,17 +113,17 @@ describe("When I visit the home page", () => {
 
           page.thanksMessage.socialShare.linkedIn.click();
           page.mailTo.should.contain("linkedin.com");
-          page.hasTracked("trackEvent", "Social share", "linkedin").should.be
+          page.hasTracked("trackEvent", "Social Share - linkedin - thankyou", "Social Share - linkedin").should.be
             .true;
 
           page.thanksMessage.socialShare.twitter.click();
           page.mailTo.should.contain("twitter.com");
-          page.hasTracked("trackEvent", "Social share", "twitter").should.be
+          page.hasTracked("trackEvent", "Social Share - twitter - thankyou", "Social Share - twitter").should.be
             .true;
 
           page.thanksMessage.socialShare.facebook.click();
           page.mailTo.should.contain("facebook.com");
-          page.hasTracked("trackEvent", "Social share", "facebook").should.be
+          page.hasTracked("trackEvent", "Social Share - facebook - thankyou", "Social Share - facebook").should.be
             .true;
         });
 
