@@ -29,18 +29,18 @@ export default {
   },
 
   trackRequestComplete(domain, requestType) {
-    this.trackEvent('Send Erasure Request - ' + domain + ' - ' + requestType , 'Send Erasure Request - ' + domain, 'Send Erasure Request - ' + requestType);
+    this.trackEvent('Erasure Request', 'Send ' + requestType + ' Request', domain);
   },
 
   trackSocialShare(network, sourcePage) {
-    this.trackEvent('Social Share - ' + network + ' - ' + sourcePage, 'Social Share - ' + network);
+    this.trackEvent('Social Share', 'Social Share From ' + sourcePage, network);
   },
 
   trackWebExtension(browser, sourcePage) {
-    this.trackEvent('Click Web Extension - ' + browser + ' - ' + sourcePage, 'Click Web Extension - ' + browser);
+    this.trackEvent('Click Web Extension', 'Click Web Extension From ' + sourcePage, browser);
   },
 
   trackSearchButtonLinkClick(device) {
-    this.trackEvent('Search Button link click on ', device);
+    this.trackEvent('Search Button Link Click', device);
   }
 };
