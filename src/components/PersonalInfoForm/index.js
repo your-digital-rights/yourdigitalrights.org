@@ -92,6 +92,7 @@ class Form extends Component {
     });
   }
 
+
   async addNewCompany() {
     const response = await fetch(
       "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
@@ -114,8 +115,8 @@ class Form extends Component {
     const HeadingText = selectedCompany ? (
       <FormattedMessage
         id="formHeading"
-        defaultMessage="Delete {companyName} Data"
-        values={{ companyName: <strong style={{color:'blueviolet'}}>{selectedCompany.name}</strong> }}
+        defaultMessage="Delete my data from {companyName}"
+        values={{ companyName: <strong style={{color:'blueviolet'}}>{selectedCompany.name} ({selectedCompany.url})</strong> }}
       />
     ) : (
       <FormattedMessage id="formHeadingNoCompany" defaultMessage="Delete my data from:" />

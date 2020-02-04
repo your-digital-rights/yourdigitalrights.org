@@ -148,7 +148,7 @@ class Form extends Component {
           height={24}
         />
         <ListItemText
-          primary={result.name}
+          primary={`${result.name} (${result.url})`}
           id={`search-result-${result.url}`}
         />
       </MenuItem>

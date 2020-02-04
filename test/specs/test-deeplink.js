@@ -12,6 +12,6 @@ describe("When I visit the home page with a company parameter", () => {
   });
 
   it("displays the company name in the page", () => {
-    browser.isExisting("h1=Delete Slack Data").should.be.true;
+    browser.isExisting("h1=Delete my data from Slack (slack.com)").should.be.true;
   });
 });

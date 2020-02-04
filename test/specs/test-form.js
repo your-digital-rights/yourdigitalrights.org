@@ -31,8 +31,8 @@ describe("When I visit the home page", () => {
   describe("and select a organization", () => {
     beforeEach(() => {
       page.searchForm.fillIn("Search for an organization", "Slack");
-      browser.waitForExist("div=Slack", 3000);
-      $("div=Slack").click();
+      browser.waitForExist("div=Slack (slack.com)", 3000);
+      $("div=Slack (slack.com)").click();
     });
 
     it("updates the url to contain a query query paramter", () => {
@@ -92,9 +92,9 @@ describe("When I visit the home page", () => {
 
         page.hasTracked(
           "trackEvent",
-          "Send Erasure Request - slack.com - GDPR",
-          "Send Erasure Request - slack.com",
-          "Send Erasure Request - GDPR"
+          "Erasure Request",
+          "Send GDPR Request",
+          "slack.com"
         ).should.be.true;
       });
 
@@ -113,17 +113,17 @@ describe("When I visit the home page", () => {
 
           page.thanksMessage.socialShare.linkedIn.click();
           page.mailTo.should.contain("linkedin.com");
-          page.hasTracked("trackEvent", "Social Share - linkedin - thankyou", "Social Share - linkedin").should.be
+          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "linkedin").should.be
             .true;
 
           page.thanksMessage.socialShare.twitter.click();
           page.mailTo.should.contain("twitter.com");
-          page.hasTracked("trackEvent", "Social Share - twitter - thankyou", "Social Share - twitter").should.be
+          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "twitter").should.be
             .true;
 
           page.thanksMessage.socialShare.facebook.click();
           page.mailTo.should.contain("facebook.com");
-          page.hasTracked("trackEvent", "Social Share - facebook - thankyou", "Social Share - facebook").should.be
+          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "facebook").should.be
             .true;
         });
 
