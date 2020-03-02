@@ -177,6 +177,7 @@ class Form extends Component {
           {!selectedCompany && (
             <Fragment>
               <TextField
+                variant="outlined"
                 id="companyName"
                 label={CompanyNameLabelText}
                 value={this.state.companyName}
@@ -187,6 +188,7 @@ class Form extends Component {
                 helperText={CompanyNameHelperText}
               />
               <TextField
+                variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
                 value={this.state.companyEmail}
@@ -199,6 +201,7 @@ class Form extends Component {
             </Fragment>
           )}
           <TextField
+            variant="outlined"
             id="name"
             label={NameLabelText}
             value={this.state.name}
@@ -210,11 +213,11 @@ class Form extends Component {
             helperText={NameHelperText}
           />
           <TextField
+            variant="outlined"
             id="ccpaOrGdpr"
             select
             label={CcpaOrGdprText}
             className={classes.textField}
-            variant="outlined"
             onChange={this.handleInput("requestType")}
             required
             defaultValue="GDPR"
