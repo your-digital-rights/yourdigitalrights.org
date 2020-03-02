@@ -19,7 +19,14 @@ const styles = theme => ({
     marginTop: "60px"
   },
   inner: {
-    padding: 30
+    paddingLeft: 120,
+    paddingRight: 120,
+    paddingTop: 50,
+    paddingBottom: 50,
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: 30,
+      paddingRight: 30
+    }
   }
 });
 

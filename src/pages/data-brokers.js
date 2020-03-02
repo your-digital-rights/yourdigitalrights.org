@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import { FormattedDate, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
@@ -11,96 +11,95 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
-import Grid from '@material-ui/core/Grid';
-import PropTypes from 'prop-types';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-
+import Grid from "@material-ui/core/Grid";
+import PropTypes from "prop-types";
+import GridListTile from "@material-ui/core/GridListTile";
+import GridListTileBar from "@material-ui/core/GridListTileBar";
 
 const styles = theme => ({
   container: {
     position: "relative",
     ...container,
-    paddingTop: '50px',
-    marginTop: '60px',
+    paddingTop: "50px",
+    marginTop: "60px"
   },
   inner: {
-    padding: 30,
     flexGrow: 1,
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
+    flexWrap: "wrap",
+    justifyContent: "space-around",
+    overflow: "hidden",
     backgroundColor: theme.palette.background.paper,
+    paddingLeft: 120,
+    paddingRight: 120,
+    paddingTop: 50,
+    paddingBottom: 50,
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: 30,
+      paddingRight: 30
+    }
   },
   startAgainBtn: {
-    borderRadius: '24px 24px 24px 24px',
-    position: 'absolute',
-    left: '50%',
+    borderRadius: "24px 24px 24px 24px",
+    position: "absolute",
+    left: "50%",
     bottom: 0,
-    transform: 'translate(-50%,50%)',
-    color: 'white',
+    transform: "translate(-50%,50%)",
+    color: "white",
     fontWeight: 800
   },
   paper: {
     height: 170,
     width: 170,
+    [theme.breakpoints.down("sm")]: {
+      height: 150,
+      width: 150
+    }
   },
   grid: {
-    padding: 30,
+    padding: 30
   },
   centerImg: {
-    width: '40%',
-    top: '40%',
-    left: '30%',
+    width: "40%",
+    top: "40%",
+    left: "30%"
   },
   tileBar: {
-    textAlign: 'center',
-    color: '#0070bf',
-    backgroundColor: '#0070bf',
+    textAlign: "center",
+    color: "#0070bf",
+    backgroundColor: "#0070bf"
   }
 });
 
-
 const dataBrokers = [
-  {domain: 'acxiom.com', name: 'Axiom'},
-  {domain: 'epsilon.com', name: 'Epsilon'},
-  {domain: 'equifax.com', name: 'Equifax'},
-  {domain: 'experian.com', name: 'Experian'},
-  {domain: 'oracle.com', name: 'Oracle'},
-  {domain: 'peekyou.com', name: 'PeekYou'},
-  {domain: 'tapad.com', name: 'Tapad'},
-  {domain: 'towerdata.com', name: 'TowerData'},
-  {domain: 'transunion.com', name: 'TransUnion'},
-  {domain: 'quantcast.com', name: 'Quantcast'},
-]
+  { domain: "acxiom.com", name: "Axiom" },
+  { domain: "epsilon.com", name: "Epsilon" },
+  { domain: "equifax.com", name: "Equifax" },
+  { domain: "experian.com", name: "Experian" },
+  { domain: "oracle.com", name: "Oracle" },
+  { domain: "peekyou.com", name: "PeekYou" },
+  { domain: "tapad.com", name: "Tapad" },
+  { domain: "towerdata.com", name: "TowerData" },
+  { domain: "transunion.com", name: "TransUnion" },
+  { domain: "quantcast.com", name: "Quantcast" }
+];
 
 // TODO: Make these string translatable
 const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
 const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://yourdigitalrights.org/data-brokers"
-
+const Canonical = "https://yourdigitalrights.org/data-brokers";
 
 const Brokers = ({ classes }) => {
   return (
     <div>
-     <Head>
+      <Head>
         <title>{Title}</title>
         <link rel="canonical" href={Canonical} />
         <meta name="description" content={Description} />
         <meta property="og:description" content={Description} />
-        <meta
-          property="og:title"
-          content={Title}
-        />
-        <meta
-          name="twitter:title"
-          content={Title}
-        />
-        <meta
-          name="twitter:description"
-          content={Description}
-        />          
-      </Head>    
+        <meta property="og:title" content={Title} />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+      </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
@@ -110,7 +109,7 @@ const Brokers = ({ classes }) => {
               defaultMessage="Opt Out of the Top Data Brokers"
             />
           </Typography>
-          <br/>
+          <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="brokersIntro"
@@ -121,14 +120,30 @@ const Brokers = ({ classes }) => {
             />
           </Typography>
           <Grid container className={classes.grid} spacing={16}>
-            <Grid item xs='auto'>
+            <Grid item xs="auto">
               <Grid container justify="center" spacing={16}>
                 {dataBrokers.map(company => (
                   <Grid key={company.domain} item>
-                    <Paper className={classes.paper} >
-                      <GridListTile button component="a" href={'/?company=' + company.domain} key={company.domain}>
-                        <img className={classes.centerImg} src={'https://api.faviconkit.com/'+ company.domain + '/170'} alt={company.name} />
-                        <GridListTileBar className={classes.tileBar} title={company.name} />
+                    <Paper className={classes.paper}>
+                      <GridListTile
+                        button
+                        component="a"
+                        href={"/?company=" + company.domain}
+                        key={company.domain}
+                      >
+                        <img
+                          className={classes.centerImg}
+                          src={
+                            "https://api.faviconkit.com/" +
+                            company.domain +
+                            "/170"
+                          }
+                          alt={company.name}
+                        />
+                        <GridListTileBar
+                          className={classes.tileBar}
+                          title={company.name}
+                        />
                       </GridListTile>
                     </Paper>
                   </Grid>
@@ -142,7 +157,14 @@ const Brokers = ({ classes }) => {
               defaultMessage="These are some of the top data brokers but there are many more. Click the button below to search the entire database."
             />
           </Typography>
-          <Button variant="raised" color="secondary" type="submit" className={classes.startAgainBtn} id="startAgainBtn" href="/">
+          <Button
+            variant="raised"
+            color="secondary"
+            type="submit"
+            className={classes.startAgainBtn}
+            id="startAgainBtn"
+            href="/"
+          >
             Search for other organizations
           </Button>
         </Paper>
@@ -155,8 +177,7 @@ const Brokers = ({ classes }) => {
 };
 
 Brokers.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
-
 
 export default withRoot(pageWithIntl(withStyles(styles)(Brokers)));
