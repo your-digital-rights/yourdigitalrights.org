@@ -11,10 +11,10 @@ import {
   CcpaOrGdprHelperText,
   SubmitButtonText
 } from "./text";
-import { injectIntl } from "react-intl"
+import { injectIntl } from "react-intl";
 
 import Button from "@material-ui/core/Button";
-import React, { Component, Fragment} from "react";
+import React, { Component, Fragment } from "react";
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
@@ -43,9 +43,7 @@ class Form extends Component {
 
     this.handlers = {};
     this.container = React.createRef();
-
   }
-
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -64,9 +62,12 @@ class Form extends Component {
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
-      this.setState({hasSubmit: true});
-      window.location ='#Form';
-      tracking.trackRequestComplete(this.props.selectedCompany.url, this.state.requestType);
+      this.setState({ hasSubmit: true });
+      window.location = "#Form";
+      tracking.trackRequestComplete(
+        this.props.selectedCompany.url,
+        this.state.requestType
+      );
     }
   };
 
@@ -92,15 +93,12 @@ class Form extends Component {
     });
   }
 
-
   async addNewCompany() {
     const response = await fetch(
       "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
       {
         method: "POST",
-        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${
-          this.state.companyName
-        }`,
+        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
         headers: {
           Accept: "application/xml, text/xml, */*; q=0.01",
           "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
@@ -116,14 +114,29 @@ class Form extends Component {
       <FormattedMessage
         id="formHeading"
         defaultMessage="Delete my data from {companyName}"
-        values={{ companyName: <strong style={{color:'blueviolet'}}>{selectedCompany.name} ({selectedCompany.url})</strong> }}
+        values={{
+          companyName: (
+            <strong style={{ color: "#00AE8D" }}>
+              {selectedCompany.name} ({selectedCompany.url})
+            </strong>
+          )
+        }}
       />
     ) : (
-      <FormattedMessage id="formHeadingNoCompany" defaultMessage="Delete my data from:" />
+      <FormattedMessage
+        id="formHeadingNoCompany"
+        defaultMessage="Delete my data from:"
+      />
     );
 
-    const CcpaOptionText = this.props.intl.formatMessage({ id: 'ccpaOption', defaultMessage: 'CCPA (California)' });
-    const GdprOptionText = this.props.intl.formatMessage({ id: 'gdprOption', defaultMessage: 'GDPR (European Union)' });
+    const CcpaOptionText = this.props.intl.formatMessage({
+      id: "ccpaOption",
+      defaultMessage: "CCPA (California)"
+    });
+    const GdprOptionText = this.props.intl.formatMessage({
+      id: "gdprOption",
+      defaultMessage: "GDPR (European Union)"
+    });
 
     const IntroText = selectedCompany ? (
       <FormattedMessage
@@ -155,11 +168,10 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
-
-          <Typography variant="display1" component="h1" gutterBottom={true}>
+          <Typography variant="display2" component="h1" gutterBottom={true}>
             {HeadingText}
           </Typography>
-          <Typography gutterBottom={true} variant={"body2"}>
+          <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
           </Typography>
           {!selectedCompany && (
@@ -192,6 +204,7 @@ class Form extends Component {
             value={this.state.name}
             onChange={this.handleInput("name")}
             margin="normal"
+            variant="outlined"
             required
             autoFocus={!!selectedCompany}
             helperText={NameHelperText}
@@ -201,6 +214,7 @@ class Form extends Component {
             select
             label={CcpaOrGdprText}
             className={classes.textField}
+            variant="outlined"
             onChange={this.handleInput("requestType")}
             required
             defaultValue="GDPR"
@@ -216,8 +230,9 @@ class Form extends Component {
             <option value="GDPR">{GdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
-          <p>{GdprOptionText.text}</p>
+          {/* <p>{GdprOptionText.text}</p> */}
           <TextField
+            variant="outlined"
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
             value={this.state.identifyingInfo}
@@ -248,9 +263,11 @@ class Form extends Component {
       );
     }
 
-    return <div id='Form' ref={this.props.containerRef}>{formToDisplay}</div>
-
-
+    return (
+      <div id="Form" ref={this.props.containerRef}>
+        {formToDisplay}
+      </div>
+    );
   }
 }
 export default injectIntl(withStyles(styles)(Form));
