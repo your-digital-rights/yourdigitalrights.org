@@ -20,13 +20,22 @@ const theme = createMuiTheme({
     }
   },
   typography: {
+    body1: {
+      fontSize: "18px"
+    },
     body2: {
       fontWeight: "600"
     },
     display1: {
-      fontWeight: "bold",
+      fontWeight: "900",
       color: "#005ea5",
-      fontSize: "2.5rem"
+      fontSize: "3rem"
+    },
+    display2: {
+      fontWeight: "600",
+      color: "#005ea5",
+      fontSize: "1.8rem",
+      paddingTop: "10px"
     },
     headline: {
       fontWeight: "bold",

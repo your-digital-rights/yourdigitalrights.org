@@ -59,7 +59,10 @@ class FAQ extends Component {
         expanded={expanded === `panel${index}`}
         onChange={this.handleChange(`panel${index}`)}
       >
-        <ExpansionPanelSummary id={`faq-${index}`} expandIcon={<Icon>expand_more</Icon>}>
+        <ExpansionPanelSummary
+          id={`faq-${index}`}
+          expandIcon={<Icon>expand_more</Icon>}
+        >
           <Typography variant={"body2"}>{heading}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
@@ -74,7 +77,7 @@ class FAQ extends Component {
     return (
       <div className={classes.container} id="faq">
         <Typography
-          variant={"display1"}
+          variant={"headline"}
           className={classes.title}
           gutterBottom={true}
           component={"h2"}
