@@ -5,13 +5,13 @@ export default theme => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
     ...themeBg,
-    [theme.breakpoints.down('sm')]: {
-      paddingTop: '50px',
+    [theme.breakpoints.down("sm")]: {
+      paddingTop: "50px"
     }
   },
   heading: {
-    maxWidth: "700px !important",
-    margin: "auto auto",
+    maxWidth: "850px !important",
+    margin: "auto auto"
   },
   container: {
     padding: "30px",
@@ -28,7 +28,7 @@ export default theme => ({
     maxWidth: "550px"
   },
   WhiteText: {
-    color: "white",
+    color: "white"
   },
   introEnd: {
     marginBottom: "50px",
@@ -45,8 +45,8 @@ export default theme => ({
     color: "#e89e15",
     fontWeight: "bold",
     textDecoration: "none",
-    '&:hover': {
-      textDecoration: "underline",
+    "&:hover": {
+      textDecoration: "underline"
     }
   }
 });

@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import Head from "next/head";
 import { FormattedDate, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
@@ -15,102 +15,106 @@ const styles = theme => ({
   container: {
     position: "relative",
     ...container,
-    paddingTop: '50px',
-    marginTop: '60px',
+    paddingTop: "50px",
+    marginTop: "60px"
   },
   inner: {
-    padding: 30
+    paddingLeft: 120,
+    paddingRight: 120,
+    paddingTop: 50,
+    paddingBottom: 50,
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: 30,
+      paddingRight: 30
+    }
   }
 });
 
 // TODO: Make these string translatable
 const Title = "About Us | Your Digital Rights";
-const Description = "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
-const Canonical = "https://yourdigitalrights.org/about"
+const Description =
+  "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
+const Canonical = "https://yourdigitalrights.org/about";
 
 const About = ({ classes }) => {
   return (
     <div>
-     <Head>
+      <Head>
         <title>{Title}</title>
         <link rel="canonical" href={Canonical} />
         <meta name="description" content={Description} />
         <meta property="og:description" content={Description} />
-        <meta
-          property="og:title"
-          content={Title}
-        />
-        <meta
-          name="twitter:title"
-          content={Title}
-        />
-        <meta
-          name="twitter:description"
-          content={Description}
-        />
+        <meta property="og:title" content={Title} />
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
       </Head>
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner}>
           <Typography component="h1" variant="display1" gutterBottom={true}>
-            <FormattedMessage
-              id="aboutTitle"
-              defaultMessage="Our mission"
-            />
+            <FormattedMessage id="aboutTitle" defaultMessage="Our mission" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody1"
               defaultMessage="yourdigitalrights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
-                gdpr: <a href="https://www.eugdpr.org">General Data Protection Regulations</a>,
-                ccpa: <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">California Consumer Privacy Act</a>,
+                gdpr: (
+                  <a href="https://www.eugdpr.org">
+                    General Data Protection Regulations
+                  </a>
+                ),
+                ccpa: (
+                  <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
+                    California Consumer Privacy Act
+                  </a>
+                )
               }}
             />
           </Typography>
-          <br/>
+          <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody2"
               defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
-          <br/>
+          <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody3"
               defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is {oss}."
               values={{
-                oss: <a href="https://github.com/opt-out-eu/opt-out">Open Source</a>
+                oss: (
+                  <a href="https://github.com/opt-out-eu/opt-out">
+                    Open Source
+                  </a>
+                )
               }}
             />
           </Typography>
-          <br/>
-          <Typography gutterBottom={true} component="h4" variant="display5">
-            <FormattedMessage
-              id="funding"
-              defaultMessage="Funding"
-            />
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="funding" defaultMessage="Funding" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="fundingBody1"
               defaultMessage="This project is self funded by it’s creators, and with the help of your donations."
-            />          
-          </Typography>
-          <br/>
-          <Typography gutterBottom={true} component="h4" variant="display5">
-            <FormattedMessage
-              id="createdBy"
-              defaultMessage="Created by"
             />
+          </Typography>
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="createdBy" defaultMessage="Created by" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="createdByBody1"
               defaultMessage="{linkedin} - Entrepreneur, investor, independent academic, digital activist."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/yoava">Yoav Aviram</a>
+                linkedin: (
+                  <a href="https://www.linkedin.com/in/yoava">Yoav Aviram</a>
+                )
               }}
             />
           </Typography>
@@ -119,23 +123,26 @@ const About = ({ classes }) => {
               id="createdByBody2"
               defaultMessage="{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
+                linkedin: (
+                  <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
+                )
               }}
             />
           </Typography>
-          <br/>
-          <Typography gutterBottom={true} component="h4" variant="display5">
-            <FormattedMessage
-              id="contributors"
-              defaultMessage="Contributors"
-            />
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="contributors" defaultMessage="Contributors" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contributorsBody1"
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">Mark Gerrard</a>
+                linkedin: (
+                  <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">
+                    Mark Gerrard
+                  </a>
+                )
               }}
             />
           </Typography>
@@ -144,7 +151,11 @@ const About = ({ classes }) => {
               id="createdByBody3"
               defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/robertchandler85">Rob Chandler</a>
+                linkedin: (
+                  <a href="https://www.linkedin.com/in/robertchandler85">
+                    Rob Chandler
+                  </a>
+                )
               }}
             />
           </Typography>
@@ -153,16 +164,17 @@ const About = ({ classes }) => {
               id="contributorsBody2"
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
-                linkedin: <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">Steeve George Vadakkumchery</a>
+                linkedin: (
+                  <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">
+                    Steeve George Vadakkumchery
+                  </a>
+                )
               }}
             />
           </Typography>
-          <br/>
-          <Typography gutterBottom={true} component="h4" variant="display5">
-            <FormattedMessage
-              id="sponsors"
-              defaultMessage="Sponsors"
-            />
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="sponsors" defaultMessage="Sponsors" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
@@ -193,7 +205,9 @@ const About = ({ classes }) => {
               id="sponsorsBody3"
               defaultMessage="{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
               values={{
-                featureupvote: <a href="https://featureupvote.com">FeatureUpvote</a>,
+                featureupvote: (
+                  <a href="https://featureupvote.com">FeatureUpvote</a>
+                ),
                 roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>
               }}
             />

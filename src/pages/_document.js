@@ -16,7 +16,7 @@ export default class IntlDocument extends Document {
     const {
       req: { locale, localeDataScript }
     } = context;
-    
+
     const page = context.renderPage(Component => props => (
       <JssProvider
         registry={pageContext.sheetsRegistry}
@@ -50,9 +50,7 @@ export default class IntlDocument extends Document {
 
   render() {
     // Polyfill Intl API for older browsers
-    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${
-      this.props.locale
-    }`;
+    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${this.props.locale}`;
     const { pageContext } = this.props;
     const { deeplinkedCompany } = this.props;
 
@@ -63,22 +61,10 @@ export default class IntlDocument extends Document {
             property="og:image"
             content={"https://" + DOMAIN + "/static/opt-out-share.jpg?v=2"}
           />
-          <meta
-            property="og:image:width"
-            content="898"
-          />
-          <meta
-            property="og:image:height"
-            content="680"
-          />
-          <meta
-            name="twitter:card"
-            content="summary_large_image"
-          />
-          <meta
-            name="twitter:site"
-            content="@OptoutEU"
-          />
+          <meta property="og:image:width" content="898" />
+          <meta property="og:image:height" content="680" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@OptoutEU" />
 
           <meta
             name="twitter:image"
@@ -95,33 +81,39 @@ export default class IntlDocument extends Document {
           />
           <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900"
           />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
           <link rel="stylesheet" href="/static/mobile.css" />
-          <link rel="stylesheet" media="only screen and (min-width: 600px)" href="/static/desktop.css" />
+          <link
+            rel="stylesheet"
+            media="only screen and (min-width: 600px)"
+            href="/static/desktop.css"
+          />
           <link rel="icon" href="/static/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
               __html:
-                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." + DOMAIN + "']); _paq.push(['setDomains', ['*." + DOMAIN + "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();"
+                "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." +
+                DOMAIN +
+                "']); _paq.push(['setDomains', ['*." +
+                DOMAIN +
+                "']]); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();"
             }}
           />
           <noscript>
             <p>
               <img
-                src='https://optout.innocraft.cloud/matomo.php?idsite=2&amp;rec=1'
-                style={{border: 0}}
-                alt=''
+                src="https://optout.innocraft.cloud/matomo.php?idsite=2&amp;rec=1"
+                style={{ border: 0 }}
+                alt=""
               />
             </p>
           </noscript>
-          <script
-            src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9"
-          />
+          <script src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9" />
         </Head>
         <body>
           <style dangerouslySetInnerHTML={{ __html: "a { color: #005ea5;}" }} />
