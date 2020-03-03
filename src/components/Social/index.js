@@ -90,7 +90,10 @@ const styles = theme => ({
     flexDirection: "column",
     width: "430px",
     fontFamily: theme.palette.fontFamily,
-    textAlign: "left"
+    textAlign: "left",
+    [theme.breakpoints.down("sm")]: {
+      width: "90%"
+    }
   },
 
   extensionHelpHeading: {
