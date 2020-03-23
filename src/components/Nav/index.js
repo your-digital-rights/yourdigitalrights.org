@@ -5,7 +5,7 @@ import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
 
-const styles = theme => ({
+const styles = (theme) => ({
   nav: {
     display: "flex",
     alignItems: "center",
@@ -17,48 +17,48 @@ const styles = theme => ({
     width: "100%",
     zIndex: "11000",
     [theme.breakpoints.down("xs")]: {
-      padding: "0 15px"
+      padding: "0 15px",
     },
     position: "fixed",
-    top: "0"
+    top: "0",
   },
   logoLink: {
     display: "flex",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   logo: {
     width: "90px",
     outlineColor: "#e8f4f8",
 
     [theme.breakpoints.down("xs")]: {
-      width: "80px"
-    }
+      width: "80px",
+    },
   },
   container: {
     listStyle: "none",
     display: "flex",
     [theme.breakpoints.down("sm")]: {
-      display: "none"
-    }
+      display: "none",
+    },
   },
   item: {
     padding: "10px 0",
     marginRight: "24px",
-    outlineColor: "#e8f4f8"
+    outlineColor: "#e8f4f8",
   },
   link: {
     color: "#f6f7fa",
     fontWeight: "bolder",
     fontSize: "15px",
     textDecoration: "none",
-    outlineColor: "#e8f4f8"
+    outlineColor: "#e8f4f8",
   },
   subsectionLink: {
     color: "#bebebe",
     fontWeight: "bolder",
     fontSize: "15px",
     textDecoration: "none",
-    outlineColor: "#e8f4f8"
+    outlineColor: "#e8f4f8",
   },
   hamburgerButton: {
     display: "none",
@@ -67,15 +67,15 @@ const styles = theme => ({
     outlineColor: "#e8f4f8",
 
     [theme.breakpoints.down("sm")]: {
-      display: "block"
-    }
+      display: "block",
+    },
   },
   navChildren: {
     position: "fixed",
     height: "50px",
     width: "100%",
     top: "70px",
-    zIndex: "9999"
+    zIndex: "9999",
   },
   mobileListContainer: {
     display: "none",
@@ -92,24 +92,24 @@ const styles = theme => ({
 
     [theme.breakpoints.down("sm")]: {
       display: "flex",
-      justifyContent: "center"
-    }
+      justifyContent: "center",
+    },
   },
   hideMobContainer: {
-    width: 0
+    width: 0,
   },
   showMobContainer: {
-    width: "250px"
+    width: "250px",
   },
   scrollOut: {
     position: "absolute",
     right: "-252px",
-    transition: " right 0.5s"
+    transition: " right 0.5s",
   },
   scrollIn: {
     position: "absolute",
     right: "0",
-    transition: "right 0.5s"
+    transition: "right 0.5s",
   },
   mobileList: {
     display: "flex",
@@ -124,7 +124,7 @@ const styles = theme => ({
     width: "252px",
     height: "110vh",
     padding: "100px 25px",
-    zIndex: "11000"
+    zIndex: "11000",
   },
   OptOutRedButton: {
     display: "flex",
@@ -146,7 +146,7 @@ const styles = theme => ({
     cursor: "pointer",
     paddingLeft: "20px",
     paddingRight: "20px",
-    textDecoration: "none"
+    textDecoration: "none",
   },
   OptOutRedButtonDesktop: {
     display: "flex",
@@ -168,7 +168,7 @@ const styles = theme => ({
     marginRight: "24px",
     paddingLeft: "20px",
     paddingRight: "20px",
-    textDecoration: "none"
+    textDecoration: "none",
   },
   fadeBackground: {
     position: "fixed",
@@ -180,18 +180,18 @@ const styles = theme => ({
     display: "none",
 
     [theme.breakpoints.down("sm")]: {
-      display: "block"
-    }
+      display: "block",
+    },
   },
   twitterHandle: {
     display: "flex",
     justifyContent: "space-between",
     width: "120px",
-    alignItems: "center"
-  }
+    alignItems: "center",
+  },
 });
 
-const trackSearchButtonLinkClick = device => {
+const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
 };
 
@@ -201,7 +201,7 @@ const NavItem = ({
   classes,
   onClickHandler,
   subsection,
-  target
+  target,
 }) => {
   return (
     <li className={classes.item} onClick={onClickHandler}>
@@ -387,7 +387,7 @@ class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      mobileNavOpen: false
+      mobileNavOpen: false,
     };
     this.toggleMenu = React.createRef();
     this.hamburgerButton = React.createRef();
@@ -406,9 +406,9 @@ class Nav extends Component {
   }
 
   toggleMobileNav() {
-    this.setState(currentState => {
+    this.setState((currentState) => {
       return {
-        mobileNavOpen: !currentState.mobileNavOpen
+        mobileNavOpen: !currentState.mobileNavOpen,
       };
     });
   }

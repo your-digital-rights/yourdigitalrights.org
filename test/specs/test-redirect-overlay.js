@@ -6,7 +6,7 @@ describe("When I visit the home page with a optouteu redirect", () => {
   beforeEach(() => {
     page = new Page({
       // Redirect is setup from old domain to append this
-      path: "/?source=optouteu"
+      path: "/?source=optouteu",
     });
 
     page.visit();
@@ -16,13 +16,13 @@ describe("When I visit the home page with a optouteu redirect", () => {
     page.redirectOverlay.isExisting().should.be.true;
   });
 
-  it('should close when clicking continue and remove query param', () => {
+  it("should close when clicking continue and remove query param", () => {
     page.redirectOverlay.isExisting().should.be.true;
 
     page.redirectOverlay.close();
 
     page.redirectOverlay.isExisting().should.be.false;
 
-    browser.getUrl().should.not.contain('?source=optouteu');
+    browser.getUrl().should.not.contain("?source=optouteu");
   });
 });

@@ -1,4 +1,4 @@
-export default theme => ({
+export default (theme) => ({
   formContainer: {
     maxWidth: "777px",
     margin: "auto",
@@ -7,11 +7,11 @@ export default theme => ({
     flexDirection: "column",
     [theme.breakpoints.up("sm")]: {
       padding: "60px",
-      margin: "60px auto"
-    }
+      margin: "60px auto",
+    },
   },
   formButton: {
     marginTop: "2rem",
-    borderRadius:"24px 24px 24px 24px"
-  }
+    borderRadius: "24px 24px 24px 24px",
+  },
 });

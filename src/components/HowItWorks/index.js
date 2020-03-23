@@ -10,7 +10,7 @@ import {
   WhyBody,
   WhyTitle,
   YourDataBody,
-  YourDataTitle
+  YourDataTitle,
 } from "./text";
 
 import LowerSection from "./LowerSection";

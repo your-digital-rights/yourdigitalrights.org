@@ -17,13 +17,10 @@ export const RedirectText = (
           yourdigitalrights.org
         </span>
       ),
-    }}    
+    }}
   />
 );
 
 export const ContinueText = (
-  <FormattedMessage
-    id="redirectContinueText"
-    defaultMessage="Continue"
-  />
+  <FormattedMessage id="redirectContinueText" defaultMessage="Continue" />
 );

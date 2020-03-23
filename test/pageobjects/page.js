@@ -25,12 +25,12 @@ class Page {
     return {
       to: mailTo.to,
       subject: decodeURIComponent(mailTo.attributeKey.subject),
-      body: decodeURIComponent(mailTo.attributeKey.body)
+      body: decodeURIComponent(mailTo.attributeKey.body),
     };
   }
 
   get searchIsFocused() {
-    return browser.hasFocus('#companyNameSearch');
+    return browser.hasFocus("#companyNameSearch");
   }
 
   get searchResults() {
@@ -38,119 +38,125 @@ class Page {
   }
 
   get redirectOverlay() {
-    const overlay = $(`//*[contains(text(),'Great news')]/ancestor::div[@role="document"]`);
+    const overlay = $(
+      `//*[contains(text(),'Great news')]/ancestor::div[@role="document"]`
+    );
 
     return {
       isExisting: () => overlay.isExisting(),
-      close: () => overlay.$('button=Continue').click()
+      close: () => overlay.$("button=Continue").click(),
     };
   }
 
   get thanksMessage() {
-    let thanks = $('#ThanksMessage');
+    let thanks = $("#ThanksMessage");
 
     return {
-      get isVisible () { return thanks.type !== 'NoSuchElement' },
-      get title() { return thanks.$('#ThanksMessageTitle').getText(); },
-      get text() { return thanks.$('#ThanksMessageText').getText(); },
+      get isVisible() {
+        return thanks.type !== "NoSuchElement";
+      },
+      get title() {
+        return thanks.$("#ThanksMessageTitle").getText();
+      },
+      get text() {
+        return thanks.$("#ThanksMessageText").getText();
+      },
       get btn() {
-        let btn = thanks.$('button');
+        let btn = thanks.$("button");
 
         return {
-          isVisible: btn.type !== 'NoSuchElement',
-          click: btn.click
+          isVisible: btn.type !== "NoSuchElement",
+          click: btn.click,
         };
       },
       get extensionChromeButton() {
-        return thanks.$('#chromeExtension').getAttribute('href');
+        return thanks.$("#chromeExtension").getAttribute("href");
       },
       get extensionFirefoxButton() {
-        return thanks.$('#firefoxExtension').getAttribute('href');
+        return thanks.$("#firefoxExtension").getAttribute("href");
       },
       get socialShare() {
-        return new SocialShare('#ThanksMessage');
-      }
+        return new SocialShare("#ThanksMessage");
+      },
     };
   }
 
   get socialShare() {
-    return new SocialShare('#faq +');
+    return new SocialShare("#faq +");
   }
 
   get navigationBar() {
     return {
       get nav() {
-        return $('#nav');
+        return $("#nav");
       },
       get linkOneText() {
-        return browser.getText('nav li:nth-child(1)');
+        return browser.getText("nav li:nth-child(1)");
       },
       get linkTwoText() {
-        return browser.getText('nav li:nth-child(2)');
+        return browser.getText("nav li:nth-child(2)");
       },
       get linkThreeText() {
-        return browser.getText('nav li:nth-child(3)');
+        return browser.getText("nav li:nth-child(3)");
       },
       get linkFourText() {
-        return browser.getText('nav li:nth-child(4)');
+        return browser.getText("nav li:nth-child(4)");
       },
       get linkFiveText() {
-        return browser.getText('nav li:nth-child(5)');
+        return browser.getText("nav li:nth-child(5)");
       },
       get linkButtonText() {
-        return browser.getText('nav > ul > a');
+        return browser.getText("nav > ul > a");
       },
       get triggerMobileMenuToggle() {
-        browser.click('nav ul + img');
+        browser.click("nav ul + img");
         browser.pause(1000);
       },
       get linkOneMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(1)');
+        return browser.getText(".mob-navbar ul li:nth-child(1)");
       },
       get linkTwoMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(2)');
+        return browser.getText(".mob-navbar ul li:nth-child(2)");
       },
       get linkThreeMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(3)');
+        return browser.getText(".mob-navbar ul li:nth-child(3)");
       },
       get linkFourMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(4)');
+        return browser.getText(".mob-navbar ul li:nth-child(4)");
       },
       get linkFiveMobText() {
-        return browser.getText('.mob-navbar ul > a > span');
+        return browser.getText(".mob-navbar ul > a > span");
       },
       get linkSixMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(6)');
+        return browser.getText(".mob-navbar ul li:nth-child(6)");
       },
       get linkSevenMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(7)');
+        return browser.getText(".mob-navbar ul li:nth-child(7)");
       },
       get linkEightMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(8)');
+        return browser.getText(".mob-navbar ul li:nth-child(8)");
       },
       get linkNineMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(9)');
+        return browser.getText(".mob-navbar ul li:nth-child(9)");
       },
       get linkTenMobText() {
-        return browser.getText('.mob-navbar ul li:nth-child(10)');
-      }
-
-    }
+        return browser.getText(".mob-navbar ul li:nth-child(10)");
+      },
+    };
   }
 
   hasTracked(...row) {
-    let { value: result } = browser.execute(function(row) {
+    let { value: result } = browser.execute(function (row) {
       let paq = window._paq;
 
       return {
-        result: paq.some(function(tracked) {
+        result: paq.some(function (tracked) {
           return row.every(function (r) {
             return tracked.includes(r);
           });
         }),
-        paq
+        paq,
       };
-
     }, row);
 
     return result.result;
@@ -164,29 +170,28 @@ class SocialShare {
   }
 
   get exists() {
-    return this.element.type !== 'NoSuchElement';
+    return this.element.type !== "NoSuchElement";
   }
 
   get linkedIn() {
-    return this.element.$('.SocialMediaShareButton--linkedin');
+    return this.element.$(".SocialMediaShareButton--linkedin");
   }
 
   get twitter() {
-    return this.element.$('.SocialMediaShareButton--twitter');
+    return this.element.$(".SocialMediaShareButton--twitter");
   }
 
   get email() {
-    return this.element.$('.SocialMediaShareButton--email');
+    return this.element.$(".SocialMediaShareButton--email");
   }
 
   get github() {
-    return this.element.$('.SocialMediaShareButton--github');
+    return this.element.$(".SocialMediaShareButton--github");
   }
 
   get facebook() {
-    return this.element.$('.SocialMediaShareButton--facebook');
+    return this.element.$(".SocialMediaShareButton--facebook");
   }
-
 }
 
 class Form {
@@ -220,7 +225,7 @@ class Form {
 
   select(labelText, text) {
     let select = this.selectElementByLabel(labelText);
-    return select.selectByAttribute('value', text);
+    return select.selectByAttribute("value", text);
   }
 
   submit() {
@@ -230,7 +235,6 @@ class Form {
   get submitButton() {
     return $("button");
   }
-
 }
 
 export default Page;

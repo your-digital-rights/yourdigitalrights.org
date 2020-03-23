@@ -4,9 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
-    ...container
+    ...container,
   },
   inner: {
     // borderTop: "2px solid #005ea5",
@@ -15,8 +15,8 @@ const styles = theme => ({
     paddingBottom: 30,
     [theme.breakpoints.up("md")]: {
       paddingRight: 30,
-      paddingLeft: 30
-    }
+      paddingLeft: 30,
+    },
   },
   innerLeft: {
     // borderTop: "2px solid #005ea5",
@@ -25,8 +25,8 @@ const styles = theme => ({
     marginBottom: 30,
     [theme.breakpoints.down("sm")]: {
       width: "100%",
-      textAlign: "center"
-    }
+      textAlign: "center",
+    },
   },
   innerRight: {
     // borderTop: "2px solid #005ea5",
@@ -34,14 +34,14 @@ const styles = theme => ({
     float: "right",
     marginBottom: 60,
     [theme.breakpoints.down("sm")]: {
-      width: "100%"
-    }
+      width: "100%",
+    },
   },
   Copyright: {
-    textAlign: "center"
+    textAlign: "center",
   },
   WishList: {
-    textAlign: "center"
+    textAlign: "center",
   },
   wishButton: {
     marginTop: "-25px",
@@ -50,17 +50,17 @@ const styles = theme => ({
     fontWeight: "600",
     padding: "10px 20px",
     "&:hover": {
-      background: "#cf8600"
-    }
+      background: "#cf8600",
+    },
   },
   DisclaimerLink: {
     color: "#005ea5",
     fontWeight: "600",
     textDecoration: "none",
     "&:hover": {
-      textDecoration: "underline"
-    }
-  }
+      textDecoration: "underline",
+    },
+  },
 });
 
 const WishButtonText = (
@@ -74,7 +74,7 @@ const DisclaimerText = (
     values={{
       title: (
         <span style={{ fontWeight: "bold", color: "black" }}>Disclaimer:</span>
-      )
+      ),
     }}
   />
 );
@@ -88,7 +88,7 @@ const QueryText = (
         <a href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
           info@opt-out.eu
         </a>
-      )
+      ),
     }}
   />
 );
