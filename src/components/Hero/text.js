@@ -2,8 +2,8 @@ import { FormattedMessage } from "react-intl";
 
 export const SubtitleText = (
   <FormattedMessage
-      id="heroHeading"
-      defaultMessage="{strong}"
+    id="heroHeading"
+    defaultMessage="{strong}"
     values={{ strong: <strong>Own your data</strong> }}
   />
 );

@@ -1,17 +1,17 @@
 import { container } from "../../styles/layout";
 import { themeBg } from "../../styles/theme";
 
-export default theme => ({
+export default (theme) => ({
   hero: {
     backgroundColor: theme.palette.primary.main,
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
-      paddingTop: "50px"
-    }
+      paddingTop: "50px",
+    },
   },
   heading: {
     maxWidth: "850px !important",
-    margin: "auto auto"
+    margin: "auto auto",
   },
   container: {
     padding: "30px",
@@ -21,32 +21,32 @@ export default theme => ({
       padding: "76px 30px",
       backgroundImage: "url('static/mascot_new.svg')",
       backgroundPosition: "right 160px top 100px",
-      backgroundRepeat: "no-repeat"
-    }
+      backgroundRepeat: "no-repeat",
+    },
   },
   intro: {
-    maxWidth: "550px"
+    maxWidth: "550px",
   },
   WhiteText: {
-    color: "white"
+    color: "white",
   },
   introEnd: {
     marginBottom: "50px",
-    maxWidth: "530px"
+    maxWidth: "530px",
   },
   titleImg: {
     width: "200px",
-    maxWidth: "75%"
+    maxWidth: "75%",
   },
   title: {
-    marginBottom: 0
+    marginBottom: 0,
   },
   introLink: {
     color: "#e89e15",
     fontWeight: "bold",
     textDecoration: "none",
     "&:hover": {
-      textDecoration: "underline"
-    }
-  }
+      textDecoration: "underline",
+    },
+  },
 });

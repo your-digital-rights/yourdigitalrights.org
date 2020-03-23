@@ -24,7 +24,13 @@ const Donations = ({ classes, onCompanySelected, children }) => {
             {IntroText}
           </Typography>
           <div className={classes.bitcoin}>
-            <Button variant="raised" href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe" color="primary" type="submit" className={classes.donateButton}>
+            <Button
+              variant="raised"
+              href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
+              color="primary"
+              type="submit"
+              className={classes.donateButton}
+            >
               {DonateButtonText}
             </Button>
           </div>

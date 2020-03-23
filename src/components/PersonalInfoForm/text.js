@@ -37,7 +37,10 @@ export const NameHelperText = (
 );
 
 export const IdentifyingInfoLabelText = (
-  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information (optional)" />
+  <FormattedMessage
+    id="identifyingInfoLabel"
+    defaultMessage="Additional identifying information (optional)"
+  />
 );
 
 export const IdentifyingInfoHelperText = (
@@ -52,9 +55,15 @@ export const SubmitButtonText = (
 );
 
 export const CcpaOrGdprText = (
-  <FormattedMessage id="ccpaOrGdpr" defaultMessage="Choose regulation (GDPR or CCPA)" />
+  <FormattedMessage
+    id="ccpaOrGdpr"
+    defaultMessage="Choose regulation (GDPR or CCPA)"
+  />
 );
 
 export const CcpaOrGdprHelperText = (
-  <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently." />
+  <FormattedMessage
+    id="ccpaOrGdprHelper"
+    defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  />
 );
