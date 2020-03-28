@@ -9,7 +9,7 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  SubmitButtonText,
+  SubmitButtonText
 } from "./text";
 import { injectIntl } from "react-intl";
 
@@ -38,16 +38,16 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      requestType: "GDPR",
+      requestType: "GDPR"
     };
 
     this.handlers = {};
     this.container = React.createRef();
   }
 
-  handleInput = (name) => {
+  handleInput = name => {
     if (!this.handlers[name]) {
-      this.handlers[name] = (event) => {
+      this.handlers[name] = event => {
         this.setState({ [name]: event.target.value });
         return true;
       };
@@ -55,7 +55,7 @@ class Form extends Component {
     return this.handlers[name];
   };
 
-  handleFormSubmit = (e) => {
+  handleFormSubmit = e => {
     e.preventDefault();
     window.open(this.renderMailTo());
 
@@ -88,8 +88,8 @@ class Form extends Component {
       body: erasureEmail.formatBody({
         ...this.state,
 
-        companyName,
-      }),
+        companyName
+      })
     });
   }
 
@@ -101,8 +101,8 @@ class Form extends Component {
         body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
         headers: {
           Accept: "application/xml, text/xml, */*; q=0.01",
-          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        },
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+        }
       }
     );
   }
@@ -119,23 +119,23 @@ class Form extends Component {
             <strong style={{ color: "#00AE8D" }}>
               {selectedCompany.name} ({selectedCompany.url})
             </strong>
-          ),
+          )
         }}
       />
     ) : (
       <FormattedMessage
         id="formHeadingNoCompany"
-        defaultMessage="Delete my data from:"
+        defaultMessage="Delete my data"
       />
     );
 
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
-      defaultMessage: "CCPA (California)",
+      defaultMessage: "CCPA (California)"
     });
     const GdprOptionText = this.props.intl.formatMessage({
       id: "gdprOption",
-      defaultMessage: "GDPR (European Union)",
+      defaultMessage: "GDPR (European Union)"
     });
 
     const IntroText = selectedCompany ? (
@@ -224,8 +224,8 @@ class Form extends Component {
             SelectProps={{
               native: true,
               MenuProps: {
-                className: classes.menu,
-              },
+                className: classes.menu
+              }
             }}
             helperText={CcpaOrGdprHelperText}
             margin="normal"
