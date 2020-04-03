@@ -98,7 +98,7 @@ const Footer = ({ classes }) => {
     <div className={classes.root}>
       <div className={classes.WishList}>
         <Button
-          variant="raised"
+          variant="contained"
           href="https://wishlist.yourdigitalrights.org/"
           color="secondary"
           type="submit"
@@ -109,12 +109,12 @@ const Footer = ({ classes }) => {
       </div>
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography component="smallBody" variant="body2">
+          <Typography component="p" variant="body2">
             <a href="/privacy" className={classes.DisclaimerLink}>
               Privacy Policy
             </a>
           </Typography>
-          <Typography component="smallBody" variant="body2">
+          <Typography component="p" variant="body2">
             <a href="/about" className={classes.DisclaimerLink}>
               Mission
             </a>

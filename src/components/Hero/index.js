@@ -11,21 +11,17 @@ const Hero = ({ classes, onCompanySelected, children }) => {
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <div className={classes.heading}>
-
-        <h2 className={classes.title}>
-          <span style={visuallyHidden}>Your Digital Rights</span>
-        </h2>
-
-        <Typography
-            variant="display1"
-            color="inherit"
-            gutterBottom={true}
-            component="p"
+          <h2 className={classes.title}>
+            <span style={visuallyHidden}>Your Digital Rights</span>
+          </h2>
+          <Typography
+              variant="display1"
+              color="inherit"
+              gutterBottom={true}
+              component="p"
           >
             {SubtitleText}
-        </Typography>
-
-
+          </Typography>
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>

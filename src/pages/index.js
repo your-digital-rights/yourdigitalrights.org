@@ -7,7 +7,6 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
-import PersonalInfoForm from "../components/PersonalInfoForm";
 import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import fetchSheetData from "../utils/sheets";
@@ -35,11 +34,9 @@ class Index extends Component {
   constructor(props) {
     super(props);
     this.searchForm = React.createRef();
-    // this.infoForm = React.createRef();
 
     this.state = {
       selectedCompany: null,
-      manualCompanyEntryEnabled: false,
       screenWidth: null,
       showRedirectOverlay: false
     };
@@ -55,16 +52,6 @@ class Index extends Component {
 
     if (typeof window !== 'undefined' && window.location.search.includes('source=optouteu')) {
       this.state.showRedirectOverlay = true;
-    }
-  }
-
-  static async getInitialProps({ query }) {
-    if (query.company) {
-      const companies = await fetchSheetData();
-      const deeplinkedCompany = companies.find(
-        ({ url }) => query.company === url
-      );
-      return { deeplinkedCompany };
     }
   }
 
@@ -94,27 +81,9 @@ class Index extends Component {
 
   onCompanySelected = selectedCompany => {
     if (selectedCompany.name) {
-      this.updateQueryParams(selectedCompany.url);
-      this.setState({
-        selectedCompany,
-        manualCompanyEntryEnabled: false
-      });
       tracking.trackSelectedCompany(selectedCompany.url);
-    } else {
-      this.setState({
-        selectedCompany: null,
-        manualCompanyEntryEnabled: true
-      });
-    }
+    } 
   };
-
-  updateQueryParams(companyName) {
-    if ("URLSearchParams" in window) {
-      var searchParams = new URLSearchParams(window.location.search);
-      searchParams.set("company", companyName);
-      history.pushState(null, null, "?" + searchParams.toString());
-    }
-  }
 
   focusSearch() {
     let state = Object.assign({}, this.state);
@@ -130,17 +99,14 @@ class Index extends Component {
   }
 
   render() {
-    const { deeplinkedCompany, classes } = this.props;
+    const { classes } = this.props;
     const { selectedCompany, screenWidth } = this.state;
-    const company = deeplinkedCompany || selectedCompany;
 
     // TODO: Make these string translatable
-    const Title = deeplinkedCompany ? "Opt-out of " + deeplinkedCompany.name + " | Your Digital Rights" : "Your Digital Rights";
-    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data." :
-      "Get thousands of organizations to erase your personal data.";
-    const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";
-    const URL = "https://" + DOMAIN + "/";
-    const searchURL = "https://" + DOMAIN + "/?company={search_term_string}";
+    const Title = "Your Digital Rights";
+    const Description = "Get thousands of organizations to erase your personal data.";
+    const Canonical = "https://" + DOMAIN + "/";
+    const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
 
 
     return (
@@ -148,7 +114,6 @@ class Index extends Component {
         <Nav>
           {screenWidth !== null && screenWidth < tabletBreakpoint && (
             <SearchForm
-              onCompanySelected={this.onCompanySelected}
               innerRef={this.searchForm}
             />
           )}
@@ -160,7 +125,7 @@ class Index extends Component {
             <script type="application/ld+json"    
               dangerouslySetInnerHTML={{
                 __html:            
-                '{"@context": "https://schema.org", "@type": "WebSite", "url": "' + URL + '", "potentialAction": { "@type": "SearchAction", "target": "' + searchURL + '", "query-input": "required name=search_term_string" }}'
+                '{"@context": "https://schema.org", "@type": "WebSite", "url": "' + Canonical + '", "potentialAction": { "@type": "SearchAction", "target": "' + searchURL + '", "query-input": "required name=search_term_string" }}'
               }}
             />
             <link rel="canonical" href={Canonical} />
@@ -182,19 +147,11 @@ class Index extends Component {
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
                 <SearchForm
-                  onCompanySelected={this.onCompanySelected}
                   innerRef={this.searchForm}
                 />
               </div>
             )}
           </Hero>
-          {(company || this.state.manualCompanyEntryEnabled) && (
-            <PersonalInfoForm
-              selectedCompany={company}
-              focusSearch={this.focusSearch.bind(this)}
-              containerRef={el => this.infoForm = el}
-            />
-          )}
           <HowItWorks />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />

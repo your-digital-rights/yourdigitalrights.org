@@ -54,6 +54,10 @@ app.prepare().then(() => {
    subDir: true, // if you want to use sub dir for languages like /es/ /fr/
   }));
 
+  server.get('/d/:domain/', (req, res) => {
+    return app.render(req, res, '/d', { domain: req.params.domain })
+  })
+
   server.get('*', (req, res) => {
       if (req.hostname.includes('opt-out.eu')) {
           var newQuery = req.query;
@@ -61,6 +65,12 @@ app.prepare().then(() => {
           res.redirect(url.format({
             pathname:"https://yourdigitalrights.org" + req.path,
             query:newQuery,
+          }));
+      }
+
+      if (req.path == '/' && req.query.company) {
+        res.redirect(url.format({
+            pathname:"/d/" + req.query.company + "/"
           }));
       }
 

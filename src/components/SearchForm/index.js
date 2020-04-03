@@ -75,14 +75,6 @@ class Form extends Component {
     });
   }
 
-  onSelected = company => {
-    this.props.onCompanySelected(company);
-    this.setState({
-      searchResults: [],
-      companyNameSearch: company.name
-    });
-  };
-
   renderInput = InputProps => {
     const { classes, companies } = this.props;
 
@@ -141,16 +133,18 @@ class Form extends Component {
         dense={true}
         {...itemProps}
       >
-        <img
-          role="presentation"
-          src={`https://api.faviconkit.com/${result.url}/24`}
-          width={24}
-          height={24}
-        />
-        <ListItemText
-          primary={`${result.name} (${result.url})`}
-          id={`search-result-${result.url}`}
-        />
+        <a href={`/d/${result.url}/`}>
+          <img
+            role="presentation"
+            src={`https://api.faviconkit.com/${result.url}/24`}
+            width={24}
+            height={24}
+          />
+          <ListItemText
+            primary={`${result.name} (${result.url})`}
+            id={`search-result-${result.url}`}
+          />
+        </a>
       </MenuItem>
     );
   };
@@ -160,7 +154,6 @@ class Form extends Component {
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
-          onSelect={this.onSelected}
           itemToString={result => result && result.name}
           defaultHighlightedIndex={0}
         >
@@ -194,18 +187,20 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <ListItemText>
-                        <strong>
+                      <a href="/d" >
+                        <ListItemText>
+                          <strong>
+                            <FormattedMessage
+                              id="noResults"
+                              defaultMessage="Can't find an organization?"
+                            />
+                          </strong>{" "}
                           <FormattedMessage
-                            id="noResults"
-                            defaultMessage="Can't find an organization?"
+                            id="noResultsMore"
+                            defaultMessage="Click here to add one"
                           />
-                        </strong>{" "}
-                        <FormattedMessage
-                          id="noResultsMore"
-                          defaultMessage="Click here to add one"
-                        />
-                      </ListItemText>
+                        </ListItemText>
+                      </a>
                     </MenuItem>
                   </MenuList>
                 )}

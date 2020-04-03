@@ -254,7 +254,7 @@ class Form extends Component {
           )}
           <div>
             <Button
-              variant="raised"
+              variant="contained"
               color="primary"
               type="submit"
               className={classes.formButton}
@@ -267,7 +267,7 @@ class Form extends Component {
     }
 
     return (
-      <div id="Form" ref={this.props.containerRef}>
+      <div id="Form">
         {formToDisplay}
       </div>
     );

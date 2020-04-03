@@ -292,7 +292,7 @@ const Social = ({
         className="ss-btn"
         quote={facebookQuote}
       >
-        <img src="static/sh/fb.svg" />
+        <img src="/static/sh/fb.svg" />
       </FacebookShareButton>
       <LinkedinShareButton
         additionalProps={shareButtonProps}
@@ -303,7 +303,7 @@ const Social = ({
         }
         className="ss-btn"
       >
-        <img src="static/sh/lin.svg" />
+        <img src="/static/sh/lin.svg" />
       </LinkedinShareButton>
       <TwitterShareButton
         additionalProps={shareButtonProps}
@@ -323,14 +323,14 @@ const Social = ({
         ]}
         className="ss-btn"
       >
-        <img src="static/sh/tw.svg" />
+        <img src="/static/sh/tw.svg" />
       </TwitterShareButton>
       <a
         href={emailLink}
         onClick={handleEmailClick}
         className="ss-btn SocialMediaShareButton--email"
       >
-        <img src="static/sh/mail.svg" />
+        <img src="/static/sh/mail.svg" />
       </a>
     </div>
   );

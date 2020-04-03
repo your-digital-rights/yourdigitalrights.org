@@ -370,7 +370,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           href="https://twitter.com/search?q=ownyourdata&src=typeahead_click"
           text={
             <div className={classes.twitterHandle}>
-              <img src="static/sh/tw-grey.svg" />
+              <img src="/static/sh/tw-grey.svg" />
               <FormattedMessage
                 id="twitterHastag"
                 defaultMessage="#ownyourdata"
@@ -431,15 +431,15 @@ class Nav extends Component {
       <div>
         <nav ref={this.toggleMenu} className={classes.nav}>
           <a className={classes.logoLink} href="/">
-            <img className={classes.logo} src="static/type.svg" tabIndex={0} />
+            <img className={classes.logo} src="/static/type.svg" tabIndex={0} />
           </a>
           <NavListDesktop classes={classes} />
           <img
             className={classes.hamburgerButton}
             src={
               mobileNavOpen
-                ? "static/close-icon.svg"
-                : "static/hamburgerIcon.svg"
+                ? "/static/close-icon.svg"
+                : "/static/hamburgerIcon.svg"
             }
             onBlur={this.onBlurHandler}
             onClick={this.toggleMobileNav}
