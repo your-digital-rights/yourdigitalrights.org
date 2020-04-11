@@ -1,15 +1,15 @@
 import { container } from "../../styles/layout";
 import { themeBg } from "../../styles/theme";
 
-export default theme => ({
+export default (theme) => ({
   hero: {
     display: "flex",
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
-      paddingTop: "50px"
-    }
+      paddingTop: "50px",
+    },
   },
   orgLogo: {
     paddingTop: "15px",
@@ -21,21 +21,21 @@ export default theme => ({
   },
   heading: {
     maxWidth: "850px !important",
-    margin: "auto auto"
+    margin: "auto auto",
   },
   container: {
     display: "flex",
-    maxWidth: "777px",
+    maxWidth: "900px",
     padding: "30px",
     display: "flex",
     boxSizing: "border-box",
     ...container,
     [theme.breakpoints.up("md")]: {
-      padding: "76px 30px",
-    }
+      padding: "120px 30px 76px",
+    },
   },
   intro: {
-    width: "607px",
+    width: "720px",
     fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "21px",
     fontWeight: "normal",
@@ -43,7 +43,7 @@ export default theme => ({
     fontStyle: "normal",
     lineHeight: "normal",
     letterSpacing: "normal",
-    color: "#ffffff"
+    color: "#ffffff",
   },
   domain: {
     width: "475px",
@@ -56,7 +56,7 @@ export default theme => ({
     lineHeight: "1.8",
     letterSpacing: "normal",
     color: "#ffffff",
-  },  
+  },
   info: {
     width: "624px",
     height: "108px",
@@ -67,22 +67,19 @@ export default theme => ({
     fontStyle: "normal",
     lineHeight: "1.8",
     letterSpacing: "normal",
-    color: "#ffffff"
+    color: "#ffffff",
   },
   logo: {
     width: "44px",
     outlineColor: "#e8f4f8",
-  },  
+  },
   introLink: {
     fontSize: "15px",
     color: "#ffffff",
     fontWeight: "bold",
     textDecoration: "underline",
     "&:hover": {
-      textDecoration: "underline"
-    }
-  }
-
-
-
+      textDecoration: "underline",
+    },
+  },
 });
