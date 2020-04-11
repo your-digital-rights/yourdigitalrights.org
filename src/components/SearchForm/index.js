@@ -17,19 +17,18 @@ import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import Link from 'next/link'
 
-
 class Form extends Component {
   state = {
     searchResults: [],
     companyNameSearch: "",
-    companiesLoaded: false
+    companiesLoaded: false,
   };
 
   constructor(props) {
     super(props);
 
     this.searchRef = React.createRef();
-    this.debounceSearch = debounce(search => {
+    this.debounceSearch = debounce((search) => {
       tracker.trackSearch(search);
     }, 100);
   }
@@ -48,21 +47,23 @@ class Form extends Component {
     this.setState({ companiesLoaded: true });
   }
 
-  handleInput = e => {
+  handleInput = (e) => {
     this.searchCompanies(e.target.value);
     this.setState({
-      companyNameSearch: e.target.value
+      companyNameSearch: e.target.value,
     });
   };
- 
+
   async searchCompanies(search) {
     let searchResults = [];
 
     if (search) {
       const companies = await this.state.companies;
       searchResults = companies
-        .filter(company => {
-          return company.searchTerms.toLowerCase().match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
+        .filter((company) => {
+          return company.searchTerms
+            .toLowerCase()
+            .match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
         })
         .slice(0, 5);
     } else {
@@ -72,11 +73,11 @@ class Form extends Component {
     this.debounceSearch(search);
 
     this.setState({
-      searchResults
+      searchResults,
     });
   }
 
-  renderInput = InputProps => {
+  renderInput = (InputProps) => {
     const { classes, companies } = this.props;
 
     return (
@@ -84,7 +85,7 @@ class Form extends Component {
         id="companyPlaceholder"
         defaultMessage="Search for an organization"
       >
-        {label => (
+        {(label) => (
           <div>
             <InputLabel htmlFor="companyNameSearch" className={classes.label}>
               {label}
@@ -122,7 +123,7 @@ class Form extends Component {
     i,
     highlightedIndex,
     selectedItem,
-    itemProps
+    itemProps,
   }) => {
     const isHighlighted = highlightedIndex === i;
 
@@ -155,7 +156,7 @@ class Form extends Component {
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
-          itemToString={result => result && result.name}
+          itemToString={(result) => result && result.name}
           defaultHighlightedIndex={0}
         >
           {({
@@ -164,7 +165,7 @@ class Form extends Component {
             isOpen,
             inputValue,
             selectedItem,
-            highlightedIndex
+            highlightedIndex,
           }) => (
             <div>
               <Paper className={classes.results}>
@@ -178,7 +179,7 @@ class Form extends Component {
                           i,
                           itemProps: getItemProps({ item: result }),
                           highlightedIndex,
-                          selectedItem
+                          selectedItem,
                         })
                       )}
                     <MenuItem
@@ -188,7 +189,7 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <a href="/d" >
+                      <a href="/d">
                         <ListItemText>
                           <strong>
                             <FormattedMessage
