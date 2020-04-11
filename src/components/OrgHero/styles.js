@@ -3,30 +3,40 @@ import { themeBg } from "../../styles/theme";
 
 export default theme => ({
   hero: {
+    display: "flex",
+    flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
       paddingTop: "50px"
     }
   },
+  orgLogo: {
+    paddingTop: "15px",
+    paddingRight: "25px",
+    display: "block",
+  },
+  heroText: {
+    flex: 1,
+  },
   heading: {
     maxWidth: "850px !important",
     margin: "auto auto"
   },
   container: {
+    display: "flex",
+    maxWidth: "777px",
     padding: "30px",
+    display: "flex",
     boxSizing: "border-box",
     ...container,
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
-      backgroundImage: "url('static/mascot_new.svg')",
-      backgroundPosition: "right 160px top 100px",
-      backgroundRepeat: "no-repeat"
     }
   },
   intro: {
     width: "607px",
-    fontFamily: "SuisseSign",
+    fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "21px",
     fontWeight: "normal",
     fontStretch: "normal",
@@ -38,7 +48,7 @@ export default theme => ({
   domain: {
     width: "475px",
     height: "40px",
-    fontFamily: "SuisseSign",
+    fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "15px",
     fontWeight: "normal",
     fontStretch: "normal",
@@ -50,7 +60,7 @@ export default theme => ({
   info: {
     width: "624px",
     height: "108px",
-    fontFamily: "SuisseSign",
+    fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "15px",
     fontWeight: "normal",
     fontStretch: "normal",
@@ -59,32 +69,15 @@ export default theme => ({
     letterSpacing: "normal",
     color: "#ffffff"
   },
-  logoLink: {
-    display: "flex",
-    justifyContent: "left"
-  },
   logo: {
     width: "44px",
     outlineColor: "#e8f4f8",
   },  
-  WhiteText: {
-    color: "white"
-  },
-  introEnd: {
-    marginBottom: "50px",
-    maxWidth: "530px"
-  },
-  titleImg: {
-    width: "200px",
-    maxWidth: "75%"
-  },
-  title: {
-    marginBottom: 0
-  },
   introLink: {
-    color: "#e89e15",
+    fontSize: "15px",
+    color: "#ffffff",
     fontWeight: "bold",
-    textDecoration: "none",
+    textDecoration: "underline",
     "&:hover": {
       textDecoration: "underline"
     }

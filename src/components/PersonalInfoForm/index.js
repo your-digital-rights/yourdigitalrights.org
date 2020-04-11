@@ -110,25 +110,6 @@ class Form extends Component {
   render() {
     const { classes, selectedCompany } = this.props;
 
-    const HeadingText = selectedCompany ? (
-      <FormattedMessage
-        id="formHeading"
-        defaultMessage="Delete my data from {companyName}"
-        values={{
-          companyName: (
-            <strong style={{ color: "#00AE8D" }}>
-              {selectedCompany.name} ({selectedCompany.url})
-            </strong>
-          )
-        }}
-      />
-    ) : (
-      <FormattedMessage
-        id="formHeadingNoCompany"
-        defaultMessage="Delete my data from:"
-      />
-    );
-
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
       defaultMessage: "CCPA (California)"
@@ -168,9 +149,6 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
-          <Typography variant="display2" component="h1" gutterBottom={true}>
-            {HeadingText}
-          </Typography>
           <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
           </Typography>

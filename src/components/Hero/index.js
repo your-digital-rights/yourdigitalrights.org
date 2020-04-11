@@ -1,4 +1,5 @@
 import { IntroText, SubtitleText, DataBrokers} from "./text";
+import Link from 'next/link'
 
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -26,7 +27,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
             {IntroText}
           </Typography>
           <Typography color="inherit" className={classes.introEnd} component="span">
-            <p>Don't know where to start? Opt out of these <a className={classes.introLink} href="/data-brokers">Data Brokers</a>.</p>
+            <p>Don't know where to start? Opt out of these <Link className={classes.introLink} href="/data-brokers">Data Brokers</Link>.</p>
           </Typography>
           {children}
         </div>

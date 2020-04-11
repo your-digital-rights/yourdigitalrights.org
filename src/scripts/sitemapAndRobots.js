@@ -19,7 +19,7 @@ const setup = ({ server }) => {
   fetchData().then(function(companies) {
       companies.map(company => (
       sitemap.add ({
-      url: `https://yourdigitalrights.org/?company=${company.url}`,
+      url: `https://yourdigitalrights.org/d/${company.url}/`,
       changefreq: 'weekly',
       priority: 0.5
     }))

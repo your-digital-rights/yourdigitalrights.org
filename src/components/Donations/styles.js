@@ -20,7 +20,7 @@ export default theme => ({
     ...container,
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
-      backgroundImage: "url('static/QR.svg')",
+      backgroundImage: "url('/static/QR.svg')",
       backgroundPosition: "right 130px top 120px",
       backgroundRepeat: "no-repeat"
     }

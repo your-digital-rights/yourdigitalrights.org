@@ -15,6 +15,7 @@ import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
+import Link from 'next/link'
 
 
 class Form extends Component {
@@ -126,26 +127,26 @@ class Form extends Component {
     const isHighlighted = highlightedIndex === i;
 
     return (
-      <MenuItem
-        button
-        key={result.url}
-        selected={isHighlighted}
-        dense={true}
-        {...itemProps}
-      >
-        <a href={`/d/${result.url}/`}>
-          <img
-            role="presentation"
-            src={`https://api.faviconkit.com/${result.url}/24`}
-            width={24}
-            height={24}
-          />
-          <ListItemText
-            primary={`${result.name} (${result.url})`}
-            id={`search-result-${result.url}`}
-          />
-        </a>
-      </MenuItem>
+      <Link href="/d/[domain]" as={`/d/${result.url}/`}>
+        <MenuItem
+          key={result.url}
+          selected={isHighlighted}
+          dense={true}
+          onClick={() => console.log('going home')}
+          {...itemProps}
+        >
+            <img
+              role="presentation"
+              src={`https://api.faviconkit.com/${result.url}/24`}
+              width={24}
+              height={24}
+            />
+            <ListItemText
+              primary={`${result.name} (${result.url})`}
+              id={`search-result-${result.url}`}
+            />
+        </MenuItem>
+      </Link>
     );
   };
 
