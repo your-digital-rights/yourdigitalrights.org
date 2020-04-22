@@ -133,7 +133,6 @@ class Form extends Component {
           key={result.url}
           selected={isHighlighted}
           dense={true}
-          onClick={() => console.log('going home')}
           {...itemProps}
         >
             <img
