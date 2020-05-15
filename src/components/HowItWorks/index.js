@@ -25,7 +25,7 @@ const HowItWorks = ({ classes }) => {
     <div className={classes.root} id="howItWorks">
       <div className={classes.upperContainer}>
         <img
-          src="static/img-howto.svg"
+          src="images/img-howto.svg"
           alt={TitleImgAlt}
           className={classes.titleImg}
         />
@@ -47,12 +47,12 @@ const HowItWorks = ({ classes }) => {
         <LowerSection
           title={YourDataTitle}
           body={YourDataBody}
-          imgSrc="static/ic-happy.svg"
+          imgSrc="images/ic-happy.svg"
         />
         <LowerSection
           title={WhyTitle}
           body={WhyBody}
-          imgSrc="static/ic-verified-user.svg"
+          imgSrc="images/ic-verified-user.svg"
         />
       </div>
     </div>
