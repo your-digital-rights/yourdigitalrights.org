@@ -57,7 +57,7 @@ app.prepare().then(() => {
   server.get('/d/:domain/', (req, res) => {
     return app.render(req, res, '/d', { domain: req.params.domain })
   })
-
+  
   server.get('*', (req, res) => {
       if (req.hostname.includes('opt-out.eu')) {
           var newQuery = req.query;

@@ -10,3 +10,10 @@ export const MoreInfo = (
     }}
   />
 );
+
+export const NewOrgTitle = (
+  <FormattedMessage
+    id="newOrgTitle"
+    defaultMessage="Send a CCPA or a GDPR request"
+  />
+);

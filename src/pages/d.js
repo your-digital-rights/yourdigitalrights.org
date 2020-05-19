@@ -17,39 +17,31 @@ import Error from "next/error";
 class Org extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      selectedCompany: null,
-    };
   }
 
   static async getInitialProps({ query, res }) {
     if (query.domain) {
-      const companies = await fetchSheetData();
-      const deeplinkedCompany = companies.find(
+      const organizations = await fetchSheetData();
+      const organization = organizations.find(
         ({ url }) => query.domain === url
       );
-      if ({deeplinkedCompany}) {
-        return { deeplinkedCompany };
-      } else {
-        res.statusCode = 404;
+      if ({organization}) {
+        return { organization };
       }
+    } else {
+      return { newOrg: true }
     }
   }
 
   render() {
-    const { deeplinkedCompany, classes } = this.props;
+    const { newOrg, organization, classes } = this.props;
 
-    if (!deeplinkedCompany) return <Error statusCode={404} />;
+    if (!newOrg && !organization) return <Error statusCode={404} />;
 
-    // TODO: Make these string translatable
-    const Title = deeplinkedCompany ? "Opt-out of " + deeplinkedCompany.name + " | Your Digital Rights" : "Your Digital Rights";
-    const Description = deeplinkedCompany ? "Get " + deeplinkedCompany.name + " to erase your personal data." :
-      "Get thousands of organizations to erase your personal data.";
-    const Canonical = deeplinkedCompany ? "https://" + DOMAIN + "/org/?company=" + deeplinkedCompany.url : "https://" + DOMAIN + "/";
-    const URL = "https://" + DOMAIN + "/";
-    const searchURL = "https://" + DOMAIN + "/org/?company={search_term_string}";
-
+    const Title = organization ? "Opt-out of " + organization.name + " | Your Digital Rights" : "Add new organzation | Your Digital Rights";
+    const Description = organization ? "Get " + organization.name + " to erase your personal data, send a GDPR or a CCPA request." :
+      "Get thousands of organizations to erase your personal data, send a GDPR or a CCPA request.";
+    const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url + "/": "https://" + DOMAIN + "/";
 
     return (
       <div>
@@ -64,15 +56,17 @@ class Org extends Component {
         </Head>
         <Nav />
         <Hero 
-          selectedCompany={deeplinkedCompany}
+          selectedCompany={organization}
         />
         <PersonalInfoForm
-          selectedCompany={deeplinkedCompany}
+          selectedCompany={organization}
         />
-        <AboutOrg 
-          selectedCompany={deeplinkedCompany}
-        />
-        <Social />
+        {organization && (
+          <AboutOrg 
+            selectedCompany={organization}
+          />
+        )}
+        <Social offset={false} sourcePage="org" />
         <Donations />
         <Footer />
       </div>

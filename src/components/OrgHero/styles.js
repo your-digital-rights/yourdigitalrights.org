@@ -39,7 +39,6 @@ export default (theme) => ({
     },
   },
   intro: {
-    width: "720px",
     fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "21px",
     fontWeight: "normal",
@@ -69,8 +68,6 @@ export default (theme) => ({
     },
   },
   info: {
-    width: "700px",
-    height: "108px",
     fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "15px",
     fontWeight: "normal",

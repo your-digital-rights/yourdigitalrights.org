@@ -157,7 +157,10 @@ const Social = ({
   sourcePage = "thankyou" /* default value */,
   style
 }) => {
-  var className = classes.offset;
+  var className;
+  if (sourcePage === "homepage") {
+    className = classes.offset;
+  } 
 
   const emailSubject = intl.formatMessage({
     id: "socialEmailSubject",
