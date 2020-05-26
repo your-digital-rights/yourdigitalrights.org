@@ -18,7 +18,7 @@ const dev = process.env.NODE_ENV !== "production";
 const app = next({ dir: "./src", dev });
 const handle = app.getRequestHandler();
 const url = require("url");
-console.log("Custom server");
+
 // Get the supported languages by looking for translations in the `lang/` dir.
 const supportedLanguages = glob
   .sync("./src/lang/*.json")
