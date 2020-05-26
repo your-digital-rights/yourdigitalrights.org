@@ -11,9 +11,31 @@ export const MoreInfo = (
   />
 );
 
+export const OrgSubTitle = (
+  <FormattedMessage
+    id="orgSubTitle"
+    defaultMessage="Send a {ccpa} or a {gdpr} data deletion request."
+    values = {{
+      ccpa: <a href='/#faq'>CCPA</a>,
+      gdpr: <a href='/#faq'>CCPA</a>,
+    }}
+  />
+);
+
 export const NewOrgTitle = (
   <FormattedMessage
     id="newOrgTitle"
-    defaultMessage="Send a CCPA or a GDPR request"
+    defaultMessage="Delete My Personal Data"
+  />
+);
+
+export const NewOrgSubTitle = (
+  <FormattedMessage
+    id="newOrgSubTitle"
+    defaultMessage="Send any organization a {ccpa} or a {gdpr} data deletion request."
+    values = {{
+      ccpa: <a href='/#faq'>CCPA</a>,
+      gdpr: <a href='/#faq'>CCPA</a>,
+    }}
   />
 );

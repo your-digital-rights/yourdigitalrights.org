@@ -38,7 +38,7 @@ export default (theme) => ({
       padding: "50px 30px",
     },
   },
-  intro: {
+  subtitle: {
     fontFamily: "Source Sans Pro,sans-serif",
     fontSize: "21px",
     fontWeight: "normal",
@@ -76,6 +76,7 @@ export default (theme) => ({
     lineHeight: "1.8",
     letterSpacing: "normal",
     color: "#ffffff",
+    marginTop: "20px",
     [theme.breakpoints.down("sm")]: {
       width: "450px",
       maxWidth: "auto",
