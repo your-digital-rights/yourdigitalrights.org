@@ -1,10 +1,10 @@
 import { FormattedMessage } from "react-intl";
 
 export const IntroText = (
-      <FormattedMessage
-        id="IntroText"
-        defaultMessage="To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered."
-      />
+  <FormattedMessage
+    id="IntroText"
+    defaultMessage="To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered."
+  />
 );
 
 export const CompanyNameLabelText = (
@@ -44,15 +44,23 @@ export const NameHelperText = (
 );
 
 export const IdentifyingInfoLabelText = (
-  <FormattedMessage id="identifyingInfoLabel" defaultMessage="Additional identifying information (optional)" />
+  <FormattedMessage
+    id="identifyingInfoLabel"
+    defaultMessage="Additional identifying information (optional)"
+  />
 );
 
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
     defaultMessage="Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. {warning}"
-    values = {{
-      warning: <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>
+    values={{
+      warning: (
+        <strong>
+          Please do not provide your password or any personal information which
+          the organization does not already have.
+        </strong>
+      ),
     }}
   />
 );
@@ -62,9 +70,15 @@ export const SubmitButtonText = (
 );
 
 export const CcpaOrGdprText = (
-  <FormattedMessage id="ccpaOrGdpr" defaultMessage="Choose regulation (GDPR or CCPA)" />
+  <FormattedMessage
+    id="ccpaOrGdpr"
+    defaultMessage="Choose regulation (GDPR or CCPA)"
+  />
 );
 
 export const CcpaOrGdprHelperText = (
-  <FormattedMessage id="ccpaOrGdprHelper" defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently." />
+  <FormattedMessage
+    id="ccpaOrGdprHelper"
+    defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  />
 );
