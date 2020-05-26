@@ -29,7 +29,7 @@ export default (theme) => ({
   container: {
     display: "flex",
     maxWidth: "400px",
-    padding: "120px 30px 76px",
+    padding: "120px 30px 60px",
     maxWidth: "900px",
     display: "flex",
     boxSizing: "border-box",
