@@ -8,7 +8,7 @@
     "browser-test": "./node_modules/.bin/wdio ./test/wdio.conf.js",
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
-    "dev": "npx now dev",
+    "dev": "npx next",
     "start": "NODE_ENV=production node ./src/server.js",
     "build": "next build ./src",
     "deploy": "npx now --name opt-out-eu",
