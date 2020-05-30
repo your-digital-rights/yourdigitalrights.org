@@ -11,13 +11,9 @@
     "dev": "npx next",
     "start": "NODE_ENV=production node ./src/server.js",
     "build": "next build ./src",
-    "deploy": "npx now --name opt-out-eu",
-    "clean": "rm -rf src/out && rm -rf src/.next && rm -rf ./next",
-    "alias:staging": "npx now alias opt-out-eu",
-    "alias:prod-optout": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 5 && now scale opt-out.eu all 0 5",
-    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ yourdigitalrights.org && now alias https://opt-out-eu.now.sh/ www.yourdigitalrights.org && now scale www.yourdigitalrights.org all 0 5 && now scale yourdigitalrights.org all 0 5",
-    "alias:apis": "now alias https://opt-out-api.now.sh/ api.opt-out.eu && now alias https://opt-out-api.now.sh/ api.yourdigitalrights.org",
-    "deploy:dev": "npm run deploy"
+    "deploy": "npx now",
+    "deploy:prod": "npx now -prod",
+    "clean": "rm -rf src/out && rm -rf src/.next && rm -rf ./next"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
