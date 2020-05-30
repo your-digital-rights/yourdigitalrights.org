@@ -7,7 +7,7 @@ jobs:
     working_directory: ~/opt-out
 
     docker:
-      - image: circleci/node:latest-browser
+      - image: circleci/node:latest-browsers
 
     steps:
       - checkout
