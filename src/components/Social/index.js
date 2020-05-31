@@ -7,14 +7,14 @@ import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
   LinkedinShareButton,
-  TwitterShareButton
+  TwitterShareButton,
 } from "react-share";
 import classNames from "classnames";
 import tracking from "../../utils/tracking";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChrome, faFirefox } from "@fortawesome/free-brands-svg-icons";
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     backgroundColor: theme.palette.primary.main,
 
@@ -24,19 +24,19 @@ const styles = theme => ({
     justifyContent: "center",
     textAlign: "center",
     alignItems: "baseline",
-    ...themeBg
+    ...themeBg,
   },
 
   offset: {
     paddingTop: "200px",
-    marginTop: -160
+    marginTop: -160,
   },
 
   shareHeading: {
     color: "white",
     marginBottom: "30px",
     flex: "1 0 100%",
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
 
   btn: {
@@ -44,8 +44,8 @@ const styles = theme => ({
     marginBottom: "20px",
 
     "&:hover": {
-      opacity: "0.85"
-    }
+      opacity: "0.85",
+    },
   },
 
   extensionHelperPlaceHolder: {
@@ -56,8 +56,8 @@ const styles = theme => ({
     paddingTop: "90px",
     [theme.breakpoints.down("sm")]: {
       marginTop: "-100px",
-      paddingTop: "150px"
-    }
+      paddingTop: "150px",
+    },
   },
 
   extensionHelperContainer: {
@@ -66,8 +66,8 @@ const styles = theme => ({
     width: "900px",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
-      alignItems: "center"
-    }
+      alignItems: "center",
+    },
   },
 
   extensionHelpImgContainer: {
@@ -75,14 +75,17 @@ const styles = theme => ({
     marginTop: "40px",
     [theme.breakpoints.down("sm")]: {
       marginTop: "0",
-      marginBottom: "30px"
-    }
+      marginBottom: "30px",
+    },
   },
 
   extensionHelpImg: {
     width: "390px",
     height: "197px",
-    objectFit: "contain"
+    objectFit: "contain",
+    [theme.breakpoints.down("sm")]: {
+      width: "300px",
+    },
   },
 
   extensionHelpTextContainer: {
@@ -92,23 +95,23 @@ const styles = theme => ({
     fontFamily: theme.palette.fontFamily,
     textAlign: "left",
     [theme.breakpoints.down("sm")]: {
-      width: "90%"
-    }
+      width: "100%",
+    },
   },
 
   extensionHelpHeading: {
-    marginBottom: "10px"
+    marginBottom: "10px",
   },
 
   extensionHelpParagraph: {
-    marginBottom: "30px"
+    marginBottom: "30px",
   },
 
   extensionHelpButtonContainer: {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    cursor: "pointer"
+    cursor: "pointer",
   },
 
   extensionDownloadButton: {
@@ -125,7 +128,7 @@ const styles = theme => ({
     fontSize: "1em",
     textTransform: "capitalize",
     fontWeight: "bold",
-    textAlign: "left"
+    textAlign: "left",
   },
 
   extensionDownloadButtonIcon: {
@@ -133,64 +136,64 @@ const styles = theme => ({
     height: "28px",
     marginRight: "10px",
     fontSize: "40px",
-    textAlign: "left"
+    textAlign: "left",
   },
 
   extensionDownloadButtonIconFireFox: {
-    marginLeft: "3px"
+    marginLeft: "3px",
   },
 
   extensionDownloadButtonLabel: {
     fontSize: "1em",
-    fontWeight: "bold"
+    fontWeight: "bold",
   },
 
   shareButton: {
     padding: "0 10px",
-    cursor: "pointer"
-  }
+    cursor: "pointer",
+  },
 });
 
 const Social = ({
   classes,
   intl,
   sourcePage = "thankyou" /* default value */,
-  style
+  style,
 }) => {
   var className;
   if (sourcePage === "homepage") {
     className = classes.offset;
-  } 
+  }
 
   const emailSubject = intl.formatMessage({
     id: "socialEmailSubject",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data | Your Digital Rights"
+      "Get thousands of organizations to erase your personal data | Your Digital Rights",
   });
   const emailBody = intl.formatMessage({
     id: "socialEmailBody",
     defaultMessage:
-      "You should check out yourdigitalrights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests."
+      "You should check out yourdigitalrights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests.",
   });
   const twitterTitle = intl.formatMessage({
     id: "socialTwitterTitle",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org"
+      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org",
   });
   const facebookQuote = intl.formatMessage({
     id: "socialFacebookQuote",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org"
+      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org",
   });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
-  const handleEmailClick = e => {
+  const handleEmailClick = (e) => {
     e.preventDefault();
     window.open(emailLink);
   };
 
   const shareButtonProps = {
-    className: "ss-btn"
+    className: "ss-btn",
   };
 
   const trackShare = (network, sourcePage) => {
@@ -322,7 +325,7 @@ const Social = ({
           "yourdigitalrights",
           "righttobeforgotten",
           "optout",
-          "ownyourdata"
+          "ownyourdata",
         ]}
         className="ss-btn"
       >
@@ -340,7 +343,7 @@ const Social = ({
 };
 
 Social.propTypes = {
-  intl: intlShape.isRequired
+  intl: intlShape.isRequired,
 };
 
 export default withStyles(styles)(injectIntl(Social));
