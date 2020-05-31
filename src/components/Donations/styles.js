@@ -1,9 +1,9 @@
 import { container } from "../../styles/layout";
 import { themeBg } from "../../styles/theme";
 
-export default theme => ({
+export default (theme) => ({
   donate: {
-    backgroundColor: "#f2f2f2"
+    backgroundColor: "#f2f2f2",
   },
   heading: {
     maxWidth: "850px !important",
@@ -11,8 +11,8 @@ export default theme => ({
 
     [theme.breakpoints.down("sm")]: {
       marginTop: "-140px",
-      paddingTop: "150px"
-    }
+      paddingTop: "150px",
+    },
   },
   container: {
     padding: "30px",
@@ -22,8 +22,8 @@ export default theme => ({
       padding: "76px 30px",
       backgroundImage: "url('/static/QR.svg')",
       backgroundPosition: "right 130px top 120px",
-      backgroundRepeat: "no-repeat"
-    }
+      backgroundRepeat: "no-repeat",
+    },
   },
   donateButton: {
     marginTop: "-25px",
@@ -32,25 +32,22 @@ export default theme => ({
     fontWeight: "600",
     padding: "10px 20px",
     "&:hover": {
-      background: "#04487B"
-    }
+      background: "#04487B",
+    },
   },
   intro: {
     marginBottom: "50px",
-    maxWidth: "570px"
+    maxWidth: "570px",
   },
   titleImg: {
     width: "300px",
-    maxWidth: "75%"
-  },
-  title: {
-    marginBottom: 0
+    maxWidth: "75%",
   },
   bitcoin: {
     textAlign: "center",
     marginBottom: "30px",
     [theme.breakpoints.up("sm")]: {
-      textAlign: "left"
-    }
-  }
+      textAlign: "left",
+    },
+  },
 });

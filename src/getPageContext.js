@@ -30,12 +30,15 @@ const theme = createMuiTheme({
       fontWeight: "900",
       color: "#005ea5",
       fontSize: "3rem",
+      lineHeight: "1em",
+      marginBottom: "20px",
     },
     display2: {
       fontWeight: "600",
       color: "#005ea5",
       fontSize: "1.8rem",
       paddingTop: "10px",
+      lineHeight: "1em",
     },
     button: {
       textTransform: "capitalize",
@@ -44,6 +47,7 @@ const theme = createMuiTheme({
     headline: {
       fontWeight: "bold",
       color: "#005ea5",
+      lineHeight: "1em",
     },
     fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
   },

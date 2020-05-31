@@ -10,15 +10,19 @@ export default (theme) => ({
   heading: {
     maxWidth: "850px !important",
     margin: "auto auto",
+    lineHeight: "0.9em",
 
     [theme.breakpoints.down("sm")]: {
       marginTop: "-140px",
       paddingTop: "150px",
+      maxWidth: "350px !important",
+      lineHeight: "0.9em",
     },
   },
   container: {
     [theme.breakpoints.down("sm")]: {
-      paddingTop: "50px",
+      width: "100%",
+      fontSize: "18px",
     },
     padding: "30px",
     boxSizing: "border-box",
@@ -27,8 +31,8 @@ export default (theme) => ({
     display: "flex",
     flexDirection: "column",
     [theme.breakpoints.down("sm")]: {
-      padding: "60px",
-      margin: "60px auto",
+      padding: "30px",
+      margin: "auto auto",
     },
   },
   Continue: {
@@ -49,6 +53,7 @@ export default (theme) => ({
     lineHeight: "1.22",
     letterSpacing: "normal",
     color: "#ffffff",
+    lineHeight: "0.9em",
   },
   detailText: {
     paddingBottom: "20px",
@@ -60,9 +65,14 @@ export default (theme) => ({
     lineHeight: "1.8",
     letterSpacing: "normal",
     color: "#ffffff",
+    wordBreak: "break-all",
   },
   aboutText: {
     margin: "0px 198px",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      margin: "auto auto;",
+    },
   },
   discourse: {
     maxWidth: "777px",
@@ -74,7 +84,12 @@ export default (theme) => ({
       "0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14)",
     backgroundColor: "white",
     padding: "21px 88px",
-    margin: "30px 127px 10px 127px;",
+    margin: "auto",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      margin: "auto 0;",
+      padding: "21px 30px",
+    },
   },
   discouseComments: {
     boxShadow:
@@ -90,6 +105,10 @@ export default (theme) => ({
     lineHeight: "normal",
     letterSpacing: "normal",
     color: "#005ea5",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+      margin: "auto 0;",
+    },
   },
   discussionSubHeading: {
     fontFamily: "Source Sans Pro,sans-serif",

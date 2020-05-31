@@ -23,19 +23,25 @@ export default (theme) => ({
     flex: 1,
   },
   heading: {
-    maxWidth: "850px !important",
-    margin: "auto auto",
+    maxWidth: "100%",
+    margin: "auto auto 20px",
+    lineHeight: "1em",
+
+    [theme.breakpoints.down("sm")]: {
+      margin: "auto 0px 20px",
+      maxWidth: "100%",
+    },
   },
   container: {
     display: "flex",
-    maxWidth: "400px",
     padding: "120px 30px 60px",
     maxWidth: "900px",
     display: "flex",
     boxSizing: "border-box",
     ...container,
     [theme.breakpoints.down("sm")]: {
-      padding: "50px 30px",
+      padding: "50px 30px 0px",
+      width: "100%",
     },
   },
   intro: {
@@ -48,7 +54,7 @@ export default (theme) => ({
     letterSpacing: "normal",
     color: "#ffffff",
     [theme.breakpoints.down("sm")]: {
-      width: "720px",
+      width: "100%",
       fontSize: "18px",
     },
   },
@@ -65,6 +71,7 @@ export default (theme) => ({
     color: "#ffffff",
     [theme.breakpoints.down("sm")]: {
       fontSize: "18px",
+      width: "100%",
     },
   },
   info: {
@@ -77,8 +84,7 @@ export default (theme) => ({
     letterSpacing: "normal",
     color: "#ffffff",
     [theme.breakpoints.down("sm")]: {
-      width: "450px",
-      maxWidth: "auto",
+      width: "100%",
       fontSize: "18px",
     },
   },
