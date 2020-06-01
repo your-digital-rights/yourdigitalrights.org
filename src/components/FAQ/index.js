@@ -11,16 +11,16 @@ import { withStyles } from "@material-ui/core/styles";
 
 class FAQ extends Component {
   state = {
-    expanded: null
+    expanded: null,
   };
 
-  handleChange = panel => (event, expanded) => {
+  handleChange = (panel) => (event, expanded) => {
     this.setState({
-      expanded: expanded ? panel : false
+      expanded: expanded ? panel : false,
     });
   };
 
-  renderItemBody = body => {
+  renderItemBody = (body) => {
     const { classes } = this.props;
 
     return (

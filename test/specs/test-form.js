@@ -1,6 +1,6 @@
 import Page from "../pageobjects/page";
 
-browser.addCommand("isInvalid", function() {
+browser.addCommand("isInvalid", function () {
   return false;
 });
 
@@ -9,16 +9,16 @@ describe("When I visit the home page", () => {
 
   beforeEach(() => {
     page = new Page({
-      path: "/"
+      path: "/",
     });
 
     page.visit();
 
-    browser.execute(function() {
+    browser.execute(function () {
       // window.Date.prototype.toLocaleDateString = function() {
       //   return "23/05/2022";
       // };
-      window.open = function(url) {
+      window.open = function (url) {
         document.body.setAttribute("data-open-url", url);
       };
 
@@ -44,7 +44,8 @@ describe("When I visit the home page", () => {
         .should.be.true;
 
       page.hasTracked("trackSiteSearch", "Slack").should.be.true;
-      page.hasTracked("trackEvent", "Selected Domain", "slack.com").should.be.true;
+      page.hasTracked("trackEvent", "Selected Domain", "slack.com").should.be
+        .true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
@@ -68,14 +69,19 @@ describe("When I visit the home page", () => {
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'GDPR');
+        page.personalInfoForm.select(
+          "Choose regulation (GDPR or CCPA)",
+          "GDPR"
+        );
         page.personalInfoForm.submit();
         mailTo = page.parsedMailTo;
       });
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Erasure Request (Article 17 of the GDPR)");
+        mailTo.subject.should.be.equal(
+          "Erasure Request (Article 17 of the GDPR)"
+        );
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
@@ -86,8 +92,8 @@ describe("When I visit the home page", () => {
           "Email body should contain expected content"
         );
         mailTo.body.should.contain(
-          'General Data Protection Regulation (GDPR)',
-          'Should contain GDPR'
+          "General Data Protection Regulation (GDPR)",
+          "Should contain GDPR"
         );
 
         page.hasTracked(
@@ -108,23 +114,39 @@ describe("When I visit the home page", () => {
           page.thanksMessage.btn.isVisible.should.be.true;
 
           page.thanksMessage.socialShare.exists.should.be.true;
-          expect(page.thanksMessage.extensionChromeButton).to.equal("https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB");
-          expect(page.thanksMessage.extensionFirefoxButton).to.equal("https://addons.mozilla.org/en-GB/android/addon/opt-out/");
+          expect(page.thanksMessage.extensionChromeButton).to.equal(
+            "https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
+          );
+          expect(page.thanksMessage.extensionFirefoxButton).to.equal(
+            "https://addons.mozilla.org/en-GB/android/addon/opt-out/"
+          );
 
           page.thanksMessage.socialShare.linkedIn.click();
           page.mailTo.should.contain("linkedin.com");
-          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "linkedin").should.be
-            .true;
+          page.hasTracked(
+            "trackEvent",
+            "Social Share",
+            "Social Share From thankyou",
+            "linkedin"
+          ).should.be.true;
 
           page.thanksMessage.socialShare.twitter.click();
           page.mailTo.should.contain("twitter.com");
-          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "twitter").should.be
-            .true;
+          page.hasTracked(
+            "trackEvent",
+            "Social Share",
+            "Social Share From thankyou",
+            "twitter"
+          ).should.be.true;
 
           page.thanksMessage.socialShare.facebook.click();
           page.mailTo.should.contain("facebook.com");
-          page.hasTracked("trackEvent", "Social Share", "Social Share From thankyou", "facebook").should.be
-            .true;
+          page.hasTracked(
+            "trackEvent",
+            "Social Share",
+            "Social Share From thankyou",
+            "facebook"
+          ).should.be.true;
         });
 
         it("should hide thanks message after clicking 'Find another company' and focus search form", () => {
@@ -153,7 +175,10 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.fillIn("Organization name", "abcxyz123");
         page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
         page.personalInfoForm.fillIn("Your full name", "Rob");
-        page.personalInfoForm.select('Choose regulation (GDPR or CCPA)', 'CCPA');
+        page.personalInfoForm.select(
+          "Choose regulation (GDPR or CCPA)",
+          "CCPA"
+        );
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
@@ -164,7 +189,9 @@ describe("When I visit the home page", () => {
 
       it("opens a mailto url", () => {
         mailTo.to.should.be.equal("dpo@abcxyz123");
-        mailTo.subject.should.be.equal("Deletion Request (Section 105 of The CCPA)");
+        mailTo.subject.should.be.equal(
+          "Deletion Request (Section 105 of The CCPA)"
+        );
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
@@ -178,33 +205,30 @@ describe("When I visit the home page", () => {
     });
   });
 
-  describe(' I see the navigation bar and all of the items', () => {
-    it('shows the nav bar on desktop', () => {
+  describe(" I see the navigation bar and all of the items", () => {
+    it("shows the nav bar on desktop", () => {
       page.navigationBar.nav.should.exist;
-      page.navigationBar.linkOneText.should.equal('How it works');
-      page.navigationBar.linkTwoText.should.equal('FAQ');
-      page.navigationBar.linkThreeText.should.equal('Data Brokers');
-      page.navigationBar.linkFourText.should.equal('Browser Extension');
-      page.navigationBar.linkFiveText.should.equal('About');
-      page.navigationBar.linkButtonText.should.equal('Search Organizations');
-
+      page.navigationBar.linkOneText.should.equal("How it works");
+      page.navigationBar.linkTwoText.should.equal("FAQ");
+      page.navigationBar.linkThreeText.should.equal("Data Brokers");
+      page.navigationBar.linkFourText.should.equal("Browser Extension");
+      page.navigationBar.linkFiveText.should.equal("About");
+      page.navigationBar.linkButtonText.should.equal("Search Organizations");
     });
 
-    it('shows mobile navigation', () => {
+    it("shows mobile navigation", () => {
       browser.windowHandleSize({ width: 600, height: 823 });
       page.navigationBar.triggerMobileMenuToggle;
-      page.navigationBar.linkOneMobText.should.equal('How it works');
-      page.navigationBar.linkTwoMobText.should.equal('FAQ');
-      page.navigationBar.linkThreeMobText.should.equal('Data Brokers');
-      page.navigationBar.linkFourMobText.should.equal('About');
-      page.navigationBar.linkFiveMobText.should.equal('Search Organizations');
-      page.navigationBar.linkSixMobText.should.equal('Browser Extension');
-      page.navigationBar.linkSevenMobText.should.equal('Make a Donation');
-      page.navigationBar.linkEightMobText.should.equal('Privacy Policy');
-      page.navigationBar.linkNineMobText.should.equal('Contact Us');
-      page.navigationBar.linkTenMobText.should.equal('#ownyourdata');
-
-
+      page.navigationBar.linkOneMobText.should.equal("How it works");
+      page.navigationBar.linkTwoMobText.should.equal("FAQ");
+      page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
+      page.navigationBar.linkFourMobText.should.equal("About");
+      page.navigationBar.linkFiveMobText.should.equal("Search Organizations");
+      page.navigationBar.linkSixMobText.should.equal("Browser Extension");
+      page.navigationBar.linkSevenMobText.should.equal("Make a Donation");
+      page.navigationBar.linkEightMobText.should.equal("Privacy Policy");
+      page.navigationBar.linkNineMobText.should.equal("Contact Us");
+      page.navigationBar.linkTenMobText.should.equal("#ownyourdata");
     });
 
     // it('check the links are working as expected', () => {
@@ -213,8 +237,6 @@ describe("When I visit the home page", () => {
 
     // })
 
-    it('takes me to correct part of the page', () => {
-
-    })
+    it("takes me to correct part of the page", () => {});
   });
 });

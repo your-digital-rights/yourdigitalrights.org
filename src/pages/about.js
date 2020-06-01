@@ -11,12 +11,12 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 
-const styles = theme => ({
+const styles = (theme) => ({
   container: {
     position: "relative",
     ...container,
     paddingTop: "50px",
-    marginTop: "60px"
+    marginTop: "60px",
   },
   inner: {
     paddingLeft: 120,
@@ -25,9 +25,9 @@ const styles = theme => ({
     paddingBottom: 50,
     [theme.breakpoints.down("sm")]: {
       paddingLeft: 30,
-      paddingRight: 30
-    }
-  }
+      paddingRight: 30,
+    },
+  },
 });
 
 // TODO: Make these string translatable
@@ -68,7 +68,7 @@ const About = ({ classes }) => {
                   <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
                     California Consumer Privacy Act
                   </a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -89,7 +89,7 @@ const About = ({ classes }) => {
                   <a href="https://github.com/opt-out-eu/opt-out">
                     Open Source
                   </a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -114,7 +114,7 @@ const About = ({ classes }) => {
               values={{
                 linkedin: (
                   <a href="https://www.linkedin.com/in/yoava">Yoav Aviram</a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -125,7 +125,7 @@ const About = ({ classes }) => {
               values={{
                 linkedin: (
                   <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -142,7 +142,7 @@ const About = ({ classes }) => {
                   <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">
                     Mark Gerrard
                   </a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -155,7 +155,7 @@ const About = ({ classes }) => {
                   <a href="https://www.linkedin.com/in/robertchandler85">
                     Rob Chandler
                   </a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -168,7 +168,7 @@ const About = ({ classes }) => {
                   <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">
                     Steeve George Vadakkumchery
                   </a>
-                )
+                ),
               }}
             />
           </Typography>
@@ -187,7 +187,7 @@ const About = ({ classes }) => {
               id="sponsorsBody1"
               defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
               values={{
-                crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>
+                crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>,
               }}
             />
           </Typography>
@@ -196,7 +196,7 @@ const About = ({ classes }) => {
               id="sponsorsBody2"
               defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
               values={{
-                innocraft: <a href="https://innocraft.cloud">Innocraft</a>
+                innocraft: <a href="https://innocraft.cloud">Innocraft</a>,
               }}
             />
           </Typography>
@@ -208,7 +208,7 @@ const About = ({ classes }) => {
                 featureupvote: (
                   <a href="https://featureupvote.com">FeatureUpvote</a>
                 ),
-                roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>
+                roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>,
               }}
             />
           </Typography>
@@ -217,7 +217,7 @@ const About = ({ classes }) => {
               id="sponsorsBody4"
               defaultMessage="{bablic} - for providing a platform which allows us to translate and localize this website."
               values={{
-                bablic: <a href="https://www.bablic.com">Bablic</a>
+                bablic: <a href="https://www.bablic.com">Bablic</a>,
               }}
             />
           </Typography>

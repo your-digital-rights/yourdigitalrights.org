@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Component } from "react";
-import RedirectOverlay from '../components/RedirectOverlay';
+import RedirectOverlay from "../components/RedirectOverlay";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -16,16 +16,16 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
 
-const styles = theme => ({
+const styles = (theme) => ({
   topOfPagePlaceholder: {
-    height: '72px',
+    height: "72px",
   },
   mainContainer: {
-    position: 'relative',
+    position: "relative",
   },
   desktopSearchbar: {
-    display: 'block',
-  }
+    display: "block",
+  },
 });
 
 const tabletBreakpoint = 960;
@@ -38,39 +38,43 @@ class Index extends Component {
     this.state = {
       selectedCompany: null,
       screenWidth: null,
-      showRedirectOverlay: false
+      showRedirectOverlay: false,
     };
 
-    if (typeof window !== 'undefined' && window.location.hash !== '') {
+    if (typeof window !== "undefined" && window.location.hash !== "") {
       let hash = window.location.hash;
 
       setTimeout(() => {
-        window.location.hash = '';
+        window.location.hash = "";
         window.location.hash = hash;
       }, 500);
     }
 
-    if (typeof window !== 'undefined' && window.location.search.includes('source=optouteu')) {
+    if (
+      typeof window !== "undefined" &&
+      window.location.search.includes("source=optouteu")
+    ) {
       this.state.showRedirectOverlay = true;
     }
   }
 
   componentDidMount() {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       this.setState({ screenWidth: window.innerWidth });
-      window.addEventListener('resize', this.onScreenResize);
+      window.addEventListener("resize", this.onScreenResize);
     }
   }
 
   componentWillUnmount() {
-    if (typeof window !== 'undefined') {
-      window.removeEventListener('resize', this.onScreenResize);
+    if (typeof window !== "undefined") {
+      window.removeEventListener("resize", this.onScreenResize);
     }
   }
 
   componentDidUpdate() {
-    if (typeof window !== 'undefined' && this.infoForm) {
-      let scrollTop = this.infoForm.getBoundingClientRect().top + window.pageYOffset - 122;
+    if (typeof window !== "undefined" && this.infoForm) {
+      let scrollTop =
+        this.infoForm.getBoundingClientRect().top + window.pageYOffset - 122;
       window.scrollTo({ top: scrollTop });
     }
   }
@@ -79,7 +83,7 @@ class Index extends Component {
     this.setState({ screenWidth: window.innerWidth });
   };
 
-  onCompanySelected = selectedCompany => {
+  onCompanySelected = (selectedCompany) => {
     if (selectedCompany.name) {
       tracking.trackSelectedCompany(selectedCompany.url);
     } 
@@ -94,7 +98,7 @@ class Index extends Component {
   }
 
   closeRedirectOverlay() {
-    window.history.replaceState('home', 'Home', '/');
+    window.history.replaceState("home", "Home", "/");
     this.setState({ ...this.state, showRedirectOverlay: false });
   }
 
@@ -107,7 +111,6 @@ class Index extends Component {
     const Description = "Get thousands of organizations to erase your personal data, send GDPR and CCPA request.";
     const Canonical = "https://" + DOMAIN + "/";
     const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
-
 
     return (
       <div>
@@ -122,7 +125,8 @@ class Index extends Component {
           <div className={classes.scrollableContainer}></div>
           <Head>
             <title>{Title}</title>
-            <script type="application/ld+json"    
+            <script
+              type="application/ld+json"
               dangerouslySetInnerHTML={{
                 __html:            
                 '{"@context": "https://schema.org", "@type": "WebSite", "url": "' + Canonical + '", "potentialAction": { "@type": "SearchAction", "target": "' + searchURL + '", "query-input": "required name=search_term_string" }}'
@@ -157,10 +161,8 @@ class Index extends Component {
           <Social offset={true} sourcePage="homepage" />
           <Donations />
           <Footer />
-          {this.state.showRedirectOverlay &&
-          (
-            <RedirectOverlay
-              close={() => this.closeRedirectOverlay()} />
+          {this.state.showRedirectOverlay && (
+            <RedirectOverlay close={() => this.closeRedirectOverlay()} />
           )}
         </div>
       </div>

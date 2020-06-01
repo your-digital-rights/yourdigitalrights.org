@@ -111,7 +111,6 @@ class Form extends Component {
 
   render() {
     const { classes, selectedCompany } = this.props;
-
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
       defaultMessage: "CCPA (California)"

@@ -43,6 +43,9 @@ export default (theme) => ({
     width: "300px",
     maxWidth: "75%",
   },
+  title: {
+    marginBottom: 0,
+  },
   bitcoin: {
     textAlign: "center",
     marginBottom: "30px",

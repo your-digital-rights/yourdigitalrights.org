@@ -2,7 +2,7 @@ export const container = {
   maxWidth: "1100px",
   margin: "auto",
   paddingLeft: "30px",
-  paddingRight: "30px"
+  paddingRight: "30px",
 };
 
 export const visuallyHidden = {
@@ -13,5 +13,5 @@ export const visuallyHidden = {
   overflow: "hidden",
   padding: 0,
   position: "absolute",
-  width: "1px"
+  width: "1px",
 };

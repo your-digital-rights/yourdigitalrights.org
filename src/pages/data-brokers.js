@@ -17,12 +17,12 @@ import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 
 
-const styles = theme => ({
+const styles = (theme) => ({
   container: {
     position: "relative",
     ...container,
     paddingTop: "50px",
-    marginTop: "60px"
+    marginTop: "60px",
   },
   inner: {
     flexGrow: 1,
@@ -36,8 +36,8 @@ const styles = theme => ({
     paddingBottom: 50,
     [theme.breakpoints.down("sm")]: {
       paddingLeft: 30,
-      paddingRight: 30
-    }
+      paddingRight: 30,
+    },
   },
   startAgainBtn: {
     borderRadius: "24px 24px 24px 24px",
@@ -46,29 +46,29 @@ const styles = theme => ({
     bottom: 0,
     transform: "translate(-50%,50%)",
     color: "white",
-    fontWeight: 800
+    fontWeight: 800,
   },
   paper: {
     height: 170,
     width: 170,
     [theme.breakpoints.down("sm")]: {
       height: 150,
-      width: 150
-    }
+      width: 150,
+    },
   },
   grid: {
-    padding: 30
+    padding: 30,
   },
   centerImg: {
     width: "40%",
     top: "40%",
-    left: "30%"
+    left: "30%",
   },
   tileBar: {
     textAlign: "center",
     color: "#0070bf",
-    backgroundColor: "#0070bf"
-  }
+    backgroundColor: "#0070bf",
+  },
 });
 
 const dataBrokers = [
@@ -81,7 +81,7 @@ const dataBrokers = [
   { domain: "tapad.com", name: "Tapad" },
   { domain: "towerdata.com", name: "TowerData" },
   { domain: "transunion.com", name: "TransUnion" },
-  { domain: "quantcast.com", name: "Quantcast" }
+  { domain: "quantcast.com", name: "Quantcast" },
 ];
 
 // TODO: Make these string translatable
@@ -116,14 +116,14 @@ const Brokers = ({ classes }) => {
               id="brokersIntro"
               defaultMessage="Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
               values={{
-                faq: <a href="/#faq">GDPR or CCPA</a>
+                faq: <a href="/#faq">GDPR or CCPA</a>,
               }}
             />
           </Typography>
           <Grid container className={classes.grid} spacing={16}>
             <Grid item xs="auto">
               <Grid container justify="center" spacing={16}>
-                {dataBrokers.map(company => (
+                {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper}>
                       <GridListTile
@@ -178,7 +178,7 @@ const Brokers = ({ classes }) => {
 };
 
 Brokers.propTypes = {
-  classes: PropTypes.object.isRequired
+  classes: PropTypes.object.isRequired,
 };
 
 export default withRoot(pageWithIntl(withStyles(styles)(Brokers)));

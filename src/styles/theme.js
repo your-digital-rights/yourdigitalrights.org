@@ -1,5 +1,5 @@
 const themeBg = {
-  backgroundImage: "linear-gradient(90deg, #0973be, #005ea5)",
+  backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
   color: "white",
 };
 

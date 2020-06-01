@@ -59,7 +59,7 @@ const YourDataBody = (
         <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
           California Consumer Privacy Act
         </a>
-      )
+      ),
     }}
   />
 );
@@ -73,16 +73,8 @@ const WhyBody = (
     id="whyBody"
     defaultMessage="We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your {donations}. Read more {about}."
     values={{
-      about: (
-        <a href="/about">
-          about us
-        </a>
-      ),
-      donations: (
-        <a href="/#donations">
-          donations
-        </a>
-      )
+      about: <a href="/about">about us</a>,
+      donations: <a href="/#donations">donations</a>,
     }}
   />
 );
@@ -99,5 +91,5 @@ export {
   YourDataTitle,
   YourDataBody,
   WhyTitle,
-  WhyBody
+  WhyBody,
 };

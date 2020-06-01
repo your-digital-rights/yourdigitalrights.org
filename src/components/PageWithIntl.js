@@ -5,12 +5,12 @@ import React, { Component } from "react";
 // locale data was added to the page by `pages/_document.js`. This only happens
 // once, on initial page load in the browser.
 if (typeof window !== "undefined" && window.ReactIntlLocaleData) {
-  Object.keys(window.ReactIntlLocaleData).forEach(lang => {
+  Object.keys(window.ReactIntlLocaleData).forEach((lang) => {
     addLocaleData(window.ReactIntlLocaleData[lang]);
   });
 }
 
-export default Page => {
+export default (Page) => {
   const IntlPage = injectIntl(Page);
 
   return class PageWithIntl extends Component {
