@@ -1,17 +1,17 @@
 import Head from "next/head";
 import { Component } from "react";
-import AboutOrg from "../components/AboutOrg";
-import Donations from "../components/Donations";
-import Footer from "../components/Footer";
-import Hero from "../components/OrgHero";
-import Nav from "../components/Nav";
-import PersonalInfoForm from "../components/PersonalInfoForm";
-import Social from "../components/Social";
-import fetchSheetData from "../utils/sheets";
-import pageWithIntl from "../components/PageWithIntl";
-import tracking from "../utils/tracking";
-import withRoot from "../withRoot";
-import { DOMAIN } from "../utils/domain";
+import AboutOrg from "../../components/AboutOrg";
+import Donations from "../../components/Donations";
+import Footer from "../../components/Footer";
+import Hero from "../../components/OrgHero";
+import Nav from "../../components/Nav";
+import PersonalInfoForm from "../../components/PersonalInfoForm";
+import Social from "../../components/Social";
+import fetchSheetData from "../../utils/sheets";
+import pageWithIntl from "../../components/PageWithIntl";
+import tracking from "../../utils/tracking";
+import withRoot from "../../withRoot";
+import { DOMAIN } from "../../utils/domain";
 import Error from "next/error";
 
 class Org extends Component {
