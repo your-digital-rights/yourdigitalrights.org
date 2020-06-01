@@ -2,7 +2,7 @@
   "name": "opt-out",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT",
+  "license": "GPL3",
   "scripts": {
     "install-selenium": "./node_modules/.bin/selenium-standalone install",
     "browser-test": "./node_modules/.bin/wdio ./test/wdio.conf.js",
@@ -12,7 +12,8 @@
     "start": "NODE_ENV=production node ./src/server.js",
     "build": "next build ./src",
     "deploy": "npx now",
-    "deploy:prod": "npx now -prod",
+    "deploy:prod": "npx now --prod",
+    "deploy:prod1": "npx now alias now alias https://opt-out.now.sh/ yourdigitalrights.org",
     "clean": "rm -rf src/out && rm -rf src/.next && rm -rf ./next"
   },
   "dependencies": {
