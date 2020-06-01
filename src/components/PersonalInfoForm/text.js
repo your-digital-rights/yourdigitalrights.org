@@ -7,6 +7,20 @@ export const IntroText = (
       />
 );
 
+export const ReadMore = (
+      <FormattedMessage
+        id="readMore"
+        defaultMessage="Read more about Data Deletion on our {ReadMore}."
+        values={{
+          ReadMore: (
+            <a href="/#faq">
+              Frequently Asked Questions
+            </a>
+          ),
+        }}
+      />
+);
+
 export const CompanyNameLabelText = (
   <FormattedMessage id="companyNameLabel" defaultMessage="Organization name" />
 );

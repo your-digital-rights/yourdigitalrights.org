@@ -10,7 +10,8 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  SubmitButtonText
+  SubmitButtonText,
+  ReadMore
 } from "./text";
 import { injectIntl } from "react-intl";
 
@@ -141,6 +142,9 @@ class Form extends Component {
         >
           <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
+          </Typography>
+          <Typography gutterBottom={true}>
+            {ReadMore}
           </Typography>
           {!selectedCompany && (
             <Fragment>
