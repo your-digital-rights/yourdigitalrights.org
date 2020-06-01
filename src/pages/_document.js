@@ -59,7 +59,7 @@ export default class IntlDocument extends Document {
         <Head>
           <meta
             property="og:image"
-            content={"https://" + DOMAIN + "/static/opt-out-share.jpg?v=2"}
+            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
           />
           <meta property="og:image:width" content="898" />
           <meta property="og:image:height" content="680" />
@@ -68,7 +68,7 @@ export default class IntlDocument extends Document {
 
           <meta
             name="twitter:image"
-            content={"https://" + DOMAIN + "/static/opt-out-share.jpg?v=2"}
+            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
           />
           <meta
             name="viewport"
@@ -87,13 +87,13 @@ export default class IntlDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
-          <link rel="stylesheet" href="/static/mobile.css" />
+          <link rel="stylesheet" href="/images/mobile.css" />
           <link
             rel="stylesheet"
             media="only screen and (min-width: 600px)"
-            href="/static/desktop.css"
+            href="/images/desktop.css"
           />
-          <link rel="icon" href="/static/favicon.ico" />
+          <link rel="icon" href="/images/favicon.ico" />
           <script
             dangerouslySetInnerHTML={{
               __html:

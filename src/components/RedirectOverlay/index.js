@@ -20,12 +20,12 @@ const Overlay = (props) => {
     <Modal BackdropProps={backdropProps} open={true} onClose={props.close}>
       <Card className={classes.paper} elevation={10}>
         <button onClick={() => props.close()} className={classes.close}>
-          <img src="/static/close.svg" className={classes.closeImg} />
+          <img src="/images/close.svg" className={classes.closeImg} />
         </button>
 
         <header id="redirectOverlay" className={classes.header}>
           <img
-            src="/static/logo.svg"
+            src="/images/logo.svg"
             alt="yourdigitalrights.org"
             className={classes.logo}
           />

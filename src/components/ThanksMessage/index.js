@@ -155,7 +155,7 @@ const ThanksMessage = (props) => {
           >
             <img
               className={classes.extensionLinkIcons}
-              src="../../static/chrome.png"
+              src="../../images/chrome.png"
             ></img>
           </a>
           <a
@@ -166,7 +166,7 @@ const ThanksMessage = (props) => {
           >
             <img
               className={classes.extensionLinkIcons}
-              src="../../static/firefox.png"
+              src="../../images/firefox.png"
             ></img>
           </a>
         </div>

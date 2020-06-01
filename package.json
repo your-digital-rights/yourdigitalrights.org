@@ -8,16 +8,12 @@
     "browser-test": "./node_modules/.bin/wdio ./test/wdio.conf.js",
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
-    "dev": "node ./src/server.js",
+    "dev": "npx next",
     "start": "NODE_ENV=production node ./src/server.js",
-    "build": "next build ./src && node ./src/scripts/default-lang",
-    "deploy": "npx now --name opt-out-eu",
-    "clean": "rm -rf src/out && rm -rf src/.next",
-    "alias:staging": "npx now alias opt-out-eu",
-    "alias:prod-optout": "npx now alias https://opt-out-eu.now.sh/ opt-out.eu && now alias https://opt-out-eu.now.sh/ www.opt-out.eu && now scale www.opt-out.eu all 0 5 && now scale opt-out.eu all 0 5",
-    "alias:prod": "npx now alias https://opt-out-eu.now.sh/ yourdigitalrights.org && now alias https://opt-out-eu.now.sh/ www.yourdigitalrights.org && now scale www.yourdigitalrights.org all 0 5 && now scale yourdigitalrights.org all 0 5",
-    "alias:apis": "now alias https://opt-out-api.now.sh/ api.opt-out.eu && now alias https://opt-out-api.now.sh/ api.yourdigitalrights.org",
-    "deploy:dev": "npm run deploy"
+    "build": "next build ./src",
+    "deploy": "npx now",
+    "deploy:prod": "npx now -prod",
+    "clean": "rm -rf src/out && rm -rf src/.next && rm -rf ./next"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
@@ -25,14 +21,13 @@
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@material-ui/core": "^3.9.3",
-    "@wdio/cli": "^5.13.1",
     "accepts": "^1.3.5",
     "babel-plugin-react-intl": "^2.4.0",
     "bablic": "^1.0.29",
     "downshift": "^1.31.15",
     "express": "^4.16.2",
     "mailto-link": "^1.0.0",
-    "next": "^6.0.1",
+    "next": "^9.3.0",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-intl": "^2.4.0",
@@ -50,17 +45,6 @@
     "chai": "^4.1.2",
     "mailto-parser": "^1.0.1",
     "mocha": "^5.1.1",
-    "npm-run-all": "^4.1.3",
-    "selenium-standalone": "^6.14.0",
-    "wdio-mocha-framework": "^0.5.13",
-    "wdio-selenium-standalone-service": "0.0.10",
-    "wdio-spec-reporter": "^0.1.4",
-    "webdriverio": "^4.12.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "now": {
-    "name": "opt-out-eu"
+    "npm-run-all": "^4.1.3"
   }
 }
