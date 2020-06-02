@@ -21,6 +21,9 @@ class Org extends Component {
 
   static async getInitialProps({ query, res }) {
     if (query.domain) {
+      if (query.domain == 'add') {
+        return { newOrg: true }
+      }
       const organizations = await fetchSheetData();
       const organization = organizations.find(
         ({ url }) => query.domain === url
@@ -28,9 +31,7 @@ class Org extends Component {
       if ({organization}) {
         return { organization };
       }
-    } else {
-      return { newOrg: true }
-    }
+    } 
   }
 
   render() {

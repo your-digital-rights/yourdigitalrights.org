@@ -188,7 +188,7 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <a href="/d">
+                      <Link href="/d/[domain]" as="/d/add">
                         <ListItemText>
                           <strong>
                             <FormattedMessage
@@ -201,7 +201,7 @@ class Form extends Component {
                             defaultMessage="Click here to add one"
                           />
                         </ListItemText>
-                      </a>
+                      </Link>
                     </MenuItem>
                   </MenuList>
                 )}
