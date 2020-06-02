@@ -116,7 +116,6 @@ export default class IntlDocument extends Document {
           <script src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9" />
         </Head>
         <body>
-          <style dangerouslySetInnerHTML={{ __html: "a { color: #005ea5;}" }} />
           <Main />
           <script src={polyfill} />
           <script
