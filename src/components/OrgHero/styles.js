@@ -6,6 +6,7 @@ export default (theme) => ({
     display: "flex",
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
+    textAlign: "left",
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
       padding: "60px 0px",
@@ -24,7 +25,7 @@ export default (theme) => ({
   },
   heading: {
     maxWidth: "100%",
-    margin: "auto auto 20px",
+    margin: "auto auto",
     lineHeight: "1em",
 
     [theme.breakpoints.down("sm")]: {
