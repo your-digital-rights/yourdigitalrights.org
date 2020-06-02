@@ -7,7 +7,7 @@ export default (theme) => ({
     flexDirection: "column",
     [theme.breakpoints.up("sm")]: {
       padding: "60px",
-      margin: "60px auto",
+      margin: "-180px auto 50px",
     },
   },
   formButton: {

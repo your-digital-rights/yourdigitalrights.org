@@ -3,6 +3,7 @@ import { themeBg } from "../../styles/theme";
 
 export default (theme) => ({
   hero: {
+    paddingBottom: "150px",
     display: "flex",
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
@@ -36,10 +37,12 @@ export default (theme) => ({
   container: {
     display: "flex",
     padding: "120px 30px 60px",
-    maxWidth: "900px",
+    maxWidth: "850px",
     display: "flex",
     boxSizing: "border-box",
-    ...container,
+    margin: "auto",
+    paddingLeft: "30px",
+    paddingRight: "30px",
     [theme.breakpoints.down("sm")]: {
       padding: "50px 30px 0px",
       width: "100%",
