@@ -130,7 +130,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
             trackSearchButtonLinkClick("mobile");
           }}
         >
-          <Typography component="span" className={classes.link}>
+          <Typography component="span" className={classes.linkButton}>
             Search Organizations
           </Typography>
         </a>
