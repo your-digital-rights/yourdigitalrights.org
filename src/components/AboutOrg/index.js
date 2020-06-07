@@ -58,7 +58,7 @@ const AboutOrg = ({ classes, selectedCompany }) => {
           </Typography>
           <div
             id="discourse-comments"
-            className={classes.discouseComments}
+            className={classes.discourseComments}
           ></div>
           <script
             type="text/javascript"
