@@ -1,7 +1,7 @@
 export default (theme) => ({
   formContainer: {
     maxWidth: "777px",
-    margin: "-50px auto 60px",
+    margin: "-130px auto 60px",
     padding: "30px",
     display: "flex",
     flexDirection: "column",
