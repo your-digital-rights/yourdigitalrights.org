@@ -1,11 +1,11 @@
 export default (theme) => ({
   formContainer: {
     maxWidth: "777px",
-    margin: "auto",
+    margin: "-50px auto 60px",
     padding: "30px",
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.up("sm")]: {
+    [theme.breakpoints.up("md")]: {
       padding: "60px",
       margin: "-180px auto 50px",
     },

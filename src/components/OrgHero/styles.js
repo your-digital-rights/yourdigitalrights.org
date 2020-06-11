@@ -34,6 +34,12 @@ export default (theme) => ({
       maxWidth: "100%",
     },
   },
+  addOrg: {
+    width: "660px",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
+    },
+  },
   container: {
     display: "flex",
     padding: "120px 30px 60px",
