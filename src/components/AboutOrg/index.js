@@ -53,9 +53,6 @@ const AboutOrg = ({ classes, selectedCompany }) => {
           <Typography color="inherit" className={classes.discussionHeading}>
             Do you have something to share about {selectedCompany.name}?
           </Typography>
-          <Typography color="inherit" className={classes.discussionSubHeading}>
-            {DiscussionSubHeading}
-          </Typography>
           <div
             id="discourse-comments"
             className={classes.discourseComments}

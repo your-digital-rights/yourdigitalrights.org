@@ -23,6 +23,7 @@ const Hero = ({ classes, selectedCompany }) => {
           {selectedCompany && (
             <>
               <Typography
+                id="pageTitle"
                 variant="display1"
                 color="inherit"
                 gutterBottom={true}

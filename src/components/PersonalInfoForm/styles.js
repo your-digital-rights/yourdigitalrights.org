@@ -1,5 +1,6 @@
 export default (theme) => ({
   formContainer: {
+    position: "relative",
     maxWidth: "777px",
     margin: "-130px auto 60px",
     padding: "30px",
