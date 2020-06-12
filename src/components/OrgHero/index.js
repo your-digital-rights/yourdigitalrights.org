@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText, MoreInfo, NewOrgTitle, NewOrgSubTitle } from "./text";
+import { IntroText, SubtitleText, MoreInfo, NewOrgTitle } from "./text";
 
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
@@ -59,7 +59,7 @@ const Hero = ({ classes, selectedCompany }) => {
               </Typography>
               <Typography color="inherit" className={classes.domain}>
                 <a href="#about-org" className={classes.introLink}>
-                  Find out more about {selectedCompany.name}
+                  <strong>Find out more about {selectedCompany.name}</strong>
                 </a>
               </Typography>
             </>
@@ -79,7 +79,14 @@ const Hero = ({ classes, selectedCompany }) => {
                 color="inherit"
                 component="h2"
               >
-                {NewOrgSubTitle}
+                <FormattedMessage
+                  id="newOrgSubTitle"
+                  defaultMessage="Send any organization a {ccpa} or a {gdpr} data deletion request."
+                  values = {{
+                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                  }}
+                />
               </Typography>
             </div>
           )}

@@ -18,14 +18,3 @@ export const NewOrgTitle = (
     defaultMessage="Delete My Personal Data"
   />
 );
-
-export const NewOrgSubTitle = (
-  <FormattedMessage
-    id="newOrgSubTitle"
-    defaultMessage="Send any organization a {ccpa} or a {gdpr} data deletion request."
-    values = {{
-      ccpa: <a href='/#faq'>CCPA</a>,
-      gdpr: <a href='/#faq'>CCPA</a>,
-    }}
-  />
-);

@@ -108,7 +108,6 @@ export default (theme) => ({
   introLink: {
     fontSize: "15px",
     color: "#ffffff",
-    fontWeight: "bold",
     textDecoration: "underline",
     "&:hover": {
       textDecoration: "underline",
