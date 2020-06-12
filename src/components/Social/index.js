@@ -27,6 +27,11 @@ const styles = (theme) => ({
     ...themeBg,
   },
 
+  offsetThankYou: {
+    paddingTop: "50px",
+    marginTop: -10,
+  },
+  
   offset: {
     paddingTop: "200px",
     marginTop: -160,
@@ -160,10 +165,7 @@ const Social = ({
   sourcePage = "thankyou" /* default value */,
   style,
 }) => {
-  var className;
-  if (sourcePage === "homepage") {
-    className = classes.offset;
-  }
+  var rootClassName = (sourcePage === "thankyou") ? classes.offsetThankYou : classes.offset;
 
   const emailSubject = intl.formatMessage({
     id: "socialEmailSubject",
@@ -205,7 +207,7 @@ const Social = ({
   };
 
   return (
-    <div className={classNames(classes.root, className, "ss")} style={style}>
+    <div className={classNames(classes.root, rootClassName, "ss")} style={style}>
       {sourcePage === "homepage" && (
         <div id="Extension" className={classes.extensionHelperPlaceHolder}>
           <div className={classes.extensionHelperContainer}>
