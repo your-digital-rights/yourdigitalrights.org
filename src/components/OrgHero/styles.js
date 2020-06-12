@@ -10,7 +10,7 @@ export default (theme) => ({
     textAlign: "left",
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
-      padding: "60px 0px",
+      padding: "60px 0px 150px",
     },
   },
   orgLogo: {
@@ -30,8 +30,14 @@ export default (theme) => ({
     lineHeight: "1em",
 
     [theme.breakpoints.down("sm")]: {
-      margin: "auto 0px 20px",
+      margin: "auto 0px 0px",
       maxWidth: "100%",
+    },
+  },
+  addOrg: {
+    width: "660px",
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",
     },
   },
   container: {

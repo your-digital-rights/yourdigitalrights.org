@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText, MoreInfo, NewOrgTitle, OrgSubTitle, NewOrgSubTitle  } from "./text";
+import { IntroText, SubtitleText, MoreInfo, NewOrgTitle, OrgSubTitle, NewOrgSubTitle } from "./text";
 
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
@@ -44,8 +44,8 @@ const Hero = ({ classes, selectedCompany }) => {
                   </a>
                 </strong>
               </Typography>
-              <Typography 
-                color="inherit" 
+              <Typography
+                color="inherit"
                 component="h2"
               >
                 {OrgSubTitle}
@@ -58,7 +58,7 @@ const Hero = ({ classes, selectedCompany }) => {
             </>
           )}
           {!selectedCompany && (
-            <>
+            <div id="add-org" className={classes.addOrg}>
               <Typography
                 variant="display1"
                 color="inherit"
@@ -68,13 +68,13 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 {NewOrgTitle}
               </Typography>
-              <Typography 
-                color="inherit" 
+              <Typography
+                color="inherit"
                 component="h2"
               >
                 {NewOrgSubTitle}
               </Typography>
-            </>
+            </div>
           )}
         </div>
       </div>
