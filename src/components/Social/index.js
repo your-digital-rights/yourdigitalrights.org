@@ -213,7 +213,7 @@ const Social = ({
           <div className={classes.extensionHelperContainer}>
             <div className={classes.extensionHelpImgContainer}>
               <img
-                src="../..//images/extensionHelper/images/extensionToolTipImage.png"
+                src="/images/extensionHelperImages/extensionToolTipImage.png"
                 className={classes.extensionHelpImg}
               ></img>
             </div>
