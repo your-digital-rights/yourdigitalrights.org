@@ -48,14 +48,14 @@ const Hero = ({ classes, selectedCompany }) => {
                 color="inherit"
                 component="h2"
               >
-              <FormattedMessage
-                id="orgSubTitle"
-                defaultMessage="Send a {ccpa} or a {gdpr} data deletion request."
-                values = {{
-                  ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                  gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                }}
-              />
+                <FormattedMessage
+                  id="orgSubTitle"
+                  defaultMessage="Send a {ccpa} or a {gdpr} data deletion request."
+                  values={{
+                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                  }}
+                />
               </Typography>
               <Typography color="inherit" className={classes.domain}>
                 <a href="#about-org" className={classes.introLink}>
@@ -65,6 +65,7 @@ const Hero = ({ classes, selectedCompany }) => {
             </>
           )}
           {!selectedCompany && (
+
             <div id="add-org" className={classes.addOrg}>
               <Typography
                 variant="display1"
@@ -73,8 +74,8 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                {NewOrgTitle}
-              </Typography>
+                Delete my personal Data
+            </Typography>
               <Typography
                 color="inherit"
                 component="h2"
