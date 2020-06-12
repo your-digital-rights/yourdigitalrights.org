@@ -1,4 +1,5 @@
 import { FormattedMessage } from "react-intl";
+import styles from "./styles";
 
 export const MoreInfo = (
   <FormattedMessage
@@ -7,17 +8,6 @@ export const MoreInfo = (
     values={{ 
     	faq: <a href="/#faq">Frequently Asked Questions</a>,
     	about: <a href="/about">About</a>,
-    }}
-  />
-);
-
-export const OrgSubTitle = (
-  <FormattedMessage
-    id="orgSubTitle"
-    defaultMessage="Send a {ccpa} or a {gdpr} data deletion request."
-    values = {{
-      ccpa: <a href='/#faq'>CCPA</a>,
-      gdpr: <a href='/#faq'>CCPA</a>,
     }}
   />
 );

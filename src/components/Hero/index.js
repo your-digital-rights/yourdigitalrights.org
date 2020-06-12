@@ -33,9 +33,9 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           >
             <p>
               Don't know where to start? Opt out of these{" "}
-              <Link className={classes.introLink} href="/data-brokers">
+              <a className={classes.introLink} href="/data-brokers">
                 Data Brokers
-              </Link>
+              </a>
               .
             </p>
           </Typography>
