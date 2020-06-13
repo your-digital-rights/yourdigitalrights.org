@@ -16,6 +16,8 @@ import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import Link from 'next/link'
+import Button from '@material-ui/core/Button';
+import Router from 'next/router'
 
 class Form extends Component {
   state = {
@@ -53,6 +55,10 @@ class Form extends Component {
       companyNameSearch: e.target.value,
     });
   };
+
+  onItemSelected = (org) => {
+    Router.push("/d/[domain]", "/d/" + org.url + "/")
+  }
 
   async searchCompanies(search) {
     let searchResults = [];
@@ -128,25 +134,23 @@ class Form extends Component {
     const isHighlighted = highlightedIndex === i;
 
     return (
-      <Link href="/d/[domain]" as={`/d/${result.url}/`}>
-        <MenuItem
-          key={result.url}
-          selected={isHighlighted}
-          dense={true}
-          {...itemProps}
-        >
-            <img
-              role="presentation"
-              src={`https://api.faviconkit.com/${result.url}/24`}
-              width={24}
-              height={24}
-            />
-            <ListItemText
-              primary={`${result.name} (${result.url})`}
-              id={`search-result-${result.url}`}
-            />
-        </MenuItem>
-      </Link>
+      <MenuItem
+        key={result.url}
+        selected={isHighlighted}
+        dense={true}
+        {...itemProps}
+      >
+          <img
+            role="presentation"
+            src={`https://api.faviconkit.com/${result.url}/24`}
+            width={24}
+            height={24}
+          />
+          <ListItemText
+            primary={`${result.name} (${result.url})`}
+            id={`search-result-${result.url}`}
+          />
+      </MenuItem>
     );
   };
 
@@ -155,6 +159,7 @@ class Form extends Component {
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
+          onSelect={this.onItemSelected} 
           itemToString={(result) => result && result.name}
           defaultHighlightedIndex={0}
         >
