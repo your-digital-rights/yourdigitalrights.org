@@ -1,4 +1,4 @@
-import { DiscussionHeading, DiscussionSubHeading } from "./text";
+import { DiscussionSubHeading } from "./text";
 import Fragment from "react";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
@@ -51,7 +51,7 @@ const AboutOrg = ({ classes, selectedCompany }) => {
         </div>
         <div id="discussion" className={classes.discussion}>
           <Typography color="inherit" className={classes.discussionHeading}>
-            Do you have something to share about {selectedCompany.name}?
+            Do you have something to say about privacy at {selectedCompany.name}?
           </Typography>
           <div
             id="discourse-comments"
