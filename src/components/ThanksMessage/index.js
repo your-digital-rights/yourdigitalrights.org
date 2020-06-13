@@ -19,10 +19,13 @@ const styles = (theme) => ({
   root: {
     maxWidth: "780px",
     margin: "auto",
-    marginTop: "30px",
+    marginTop: "-120px",
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
+    [theme.breakpoints.up("md")]: {
+      marginTop: "-180px",
+    },
   },
 
   content: {
@@ -171,7 +174,6 @@ const ThanksMessage = (props) => {
           </a>
         </div>
       </div>
-      <Social />
     </Paper>
   );
 };
