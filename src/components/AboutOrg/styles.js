@@ -9,7 +9,7 @@ export default (theme) => ({
   },
   heading: {
     maxWidth: "850px !important",
-    margin: "auto auto",
+    margin: "45px auto auto",
     lineHeight: "0.9em",
 
     [theme.breakpoints.down("sm")]: {
