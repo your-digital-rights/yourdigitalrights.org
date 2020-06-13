@@ -1,4 +1,3 @@
-import { DiscussionSubHeading } from "./text";
 import Fragment from "react";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
