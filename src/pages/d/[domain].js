@@ -67,7 +67,6 @@ class Org extends Component {
             selectedCompany={organization}
           />
         )}
-        <Social offset={false} sourcePage="org" />
         <Donations />
         <Footer />
       </div>
