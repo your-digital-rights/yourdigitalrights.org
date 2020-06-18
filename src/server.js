@@ -11,7 +11,6 @@ const accepts = require("accepts");
 const glob = require("glob");
 const next = require("next");
 const { create } = require("bablic");
-const sitemapAndRobots = require("./scripts/sitemapAndRobots");
 
 const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== "production";
@@ -46,8 +45,6 @@ const getMessages = (locale) => {
 
 app.prepare().then(() => {
   const server = express();
-
-  sitemapAndRobots({ server });
 
   server.use(
     create({
