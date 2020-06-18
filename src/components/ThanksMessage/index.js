@@ -19,7 +19,7 @@ const styles = (theme) => ({
   root: {
     maxWidth: "780px",
     margin: "auto",
-    marginTop: "-120px",
+    marginTop: "30px",
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
