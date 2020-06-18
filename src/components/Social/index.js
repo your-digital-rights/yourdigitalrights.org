@@ -88,6 +88,9 @@ const styles = (theme) => ({
     width: "390px",
     height: "197px",
     objectFit: "contain",
+    [theme.breakpoints.down("sm")]: {
+      width: "300px",
+    },
   },
 
   extensionHelpTextContainer: {
@@ -97,7 +100,7 @@ const styles = (theme) => ({
     fontFamily: theme.palette.fontFamily,
     textAlign: "left",
     [theme.breakpoints.down("sm")]: {
-      width: "90%",
+      width: "100%",
     },
   },
 
@@ -210,7 +213,7 @@ const Social = ({
           <div className={classes.extensionHelperContainer}>
             <div className={classes.extensionHelpImgContainer}>
               <img
-                src="../../images/extensionHelperImages/extensionToolTipImage.png"
+                src="/images/extensionHelperImages/extensionToolTipImage.png"
                 className={classes.extensionHelpImg}
               ></img>
             </div>
@@ -297,7 +300,7 @@ const Social = ({
         className="ss-btn"
         quote={facebookQuote}
       >
-        <img src="images/sh/fb.svg" />
+        <img src="/images/sh/fb.svg" />
       </FacebookShareButton>
       <LinkedinShareButton
         additionalProps={shareButtonProps}
@@ -308,7 +311,7 @@ const Social = ({
         }
         className="ss-btn"
       >
-        <img src="images/sh/lin.svg" />
+        <img src="/images/sh/lin.svg" />
       </LinkedinShareButton>
       <TwitterShareButton
         additionalProps={shareButtonProps}
@@ -328,14 +331,14 @@ const Social = ({
         ]}
         className="ss-btn"
       >
-        <img src="images/sh/tw.svg" />
+        <img src="/images/sh/tw.svg" />
       </TwitterShareButton>
       <a
         href={emailLink}
         onClick={handleEmailClick}
         className="ss-btn SocialMediaShareButton--email"
       >
-        <img src="images/sh/mail.svg" />
+        <img src="/images/sh/mail.svg" />
       </a>
     </div>
   );

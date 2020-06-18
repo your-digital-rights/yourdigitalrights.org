@@ -1,4 +1,5 @@
 import { IntroText, SubtitleText, DataBrokers } from "./text";
+import Link from "next/link";
 
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -14,7 +15,6 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           <h2 className={classes.title}>
             <span style={visuallyHidden}>Your Digital Rights</span>
           </h2>
-
           <Typography
             variant="display1"
             color="inherit"
@@ -23,7 +23,6 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           >
             {SubtitleText}
           </Typography>
-
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>

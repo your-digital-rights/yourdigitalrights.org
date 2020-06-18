@@ -16,6 +16,7 @@ import PropTypes from "prop-types";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 
+
 const styles = (theme) => ({
   container: {
     position: "relative",
@@ -71,7 +72,7 @@ const styles = (theme) => ({
 });
 
 const dataBrokers = [
-  { domain: "acxiom.com", name: "Axiom" },
+  { domain: "acxiom.com", name: "Acxiom" },
   { domain: "epsilon.com", name: "Epsilon" },
   { domain: "equifax.com", name: "Equifax" },
   { domain: "experian.com", name: "Experian" },
@@ -128,7 +129,7 @@ const Brokers = ({ classes }) => {
                       <GridListTile
                         button
                         component="a"
-                        href={"/?company=" + company.domain}
+                        href={"/d/" + company.domain + "/"}
                         key={company.domain}
                       >
                         <img

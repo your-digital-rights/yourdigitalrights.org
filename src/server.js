@@ -57,25 +57,32 @@ app.prepare().then(() => {
     })
   );
 
-  server.get("*", (req, res) => {
-    if (req.hostname.includes("opt-out.eu")) {
-      var newQuery = req.query;
-      newQuery.source = "optouteu";
-      res.redirect(
-        url.format({
-          pathname: "https://yourdigitalrights.org" + req.path,
-          query: newQuery,
-        })
-      );
-    }
+  server.get('/d/:domain/', (req, res) => {
+    return app.render(req, res, '/d', { domain: req.params.domain })
+  })
+  
+  server.get('*', (req, res) => {
+      if (req.hostname.includes('opt-out.eu')) {
+          var newQuery = req.query;
+          newQuery.source = "optouteu";
+          res.redirect(url.format({
+            pathname:"https://yourdigitalrights.org" + req.path,
+            query:newQuery,
+          }));
+      }
 
-    const accept = accepts(req);
-    const locale =
-      accept.language(accept.languages(supportedLanguages)) || "en";
-    req.locale = locale;
-    req.localeDataScript = getLocaleDataScript(locale);
-    req.messages = dev ? {} : getMessages(locale);
-    handle(req, res);
+      if (req.path == '/' && req.query.company) {
+        res.redirect(url.format({
+            pathname:"/d/" + req.query.company + "/"
+          }));
+      }
+
+      const accept = accepts(req)
+      const locale = accept.language(accept.languages(supportedLanguages)) || 'en'
+      req.locale = locale
+      req.localeDataScript = getLocaleDataScript(locale)
+      req.messages = dev ? {} : getMessages(locale)
+      handle(req, res)
   });
 
   server.listen(port, (err) => {

@@ -2,7 +2,7 @@ import sm from "sitemap";
 import fetch from "universal-fetch";
 
 async function fetchData() {
-  let data = await fetch(`https://api.opt-out.eu/companies`);
+  let data = await fetch(`https://api.yourdigitalrights.org/companies`);
   data = await data.json();
   return data;
 }
@@ -16,7 +16,7 @@ export default async (req, res) => {
   const companies = await fetchData();
   companies.map((company) =>
     sitemap.add({
-      url: `https://yourdigitalrights.org/?company=${company.url}`,
+      url: `https://yourdigitalrights.org/d/${company.url}/`,
       changefreq: "weekly",
       priority: 0.5,
     })
