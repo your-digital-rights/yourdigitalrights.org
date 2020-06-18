@@ -4,7 +4,7 @@ import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
-const AboutOrg = ({ classes, selectedCompany }) => {
+const AboutOrg = ({ classes, selectedCompany, canonical }) => {
   return (
     <div className={classes.about}>
       <div id="about-org" className={classes.container}>
@@ -60,8 +60,8 @@ const AboutOrg = ({ classes, selectedCompany }) => {
             type="text/javascript"
             dangerouslySetInnerHTML={{
               __html:
-                "DiscourseEmbed = { discourseUrl: 'https://optout.discourse.group/', discourseEmbedUrl: 'https://opt-out-eu.now.sh/?company=" +
-                selectedCompany.url +
+                "DiscourseEmbed = { discourseUrl: 'https://optout.discourse.group/', discourseEmbedUrl: '" +
+                canonical +
                 "'}; (function() {var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true; d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d); })();",
             }}
           />

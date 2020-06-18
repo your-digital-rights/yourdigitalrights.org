@@ -65,6 +65,7 @@ class Org extends Component {
         {organization && (
           <AboutOrg 
             selectedCompany={organization}
+            canonical={Canonical}
           />
         )}
         <Donations />
