@@ -1,6 +1,10 @@
 [
   {
-    "id": "moreInfo",
-    "defaultMessage": "To find out more about the process read our {faq}, or read more {about}."
+    "id": "orgSubTitle",
+    "defaultMessage": "Send a {ccpa} or a {gdpr} data deletion request."
+  },
+  {
+    "id": "newOrgSubTitle",
+    "defaultMessage": "Send any organization a {ccpa} or a {gdpr} data deletion request."
   }
 ]

@@ -15,6 +15,7 @@ import tracking from "../utils/tracking";
 import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
+import Router from 'next/router'
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -33,6 +34,7 @@ const tabletBreakpoint = 960;
 class Index extends Component {
   constructor(props) {
     super(props);
+
     this.searchForm = React.createRef();
 
     this.state = {
@@ -59,6 +61,9 @@ class Index extends Component {
   }
 
   componentDidMount() {
+    if (Router.pathname =='/' && Router.query.company) {
+      Router.push("/d/[domain]", "/d/" + Router.query.company + "/");
+    }
     if (typeof window !== "undefined") {
       this.setState({ screenWidth: window.innerWidth });
       window.addEventListener("resize", this.onScreenResize);
