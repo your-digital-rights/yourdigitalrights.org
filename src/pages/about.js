@@ -95,6 +95,20 @@ const About = ({ classes }) => {
           </Typography>
           <br />
           <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="helpUs" defaultMessage="Interested in joining us?" />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="helpUsBody1"
+              defaultMessage="If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then we’d love for you to join us! We’re looking for volunteers, particularly React devs and data scientists, but anyone is welcome. Please contact us at {email}."
+              values= {{
+                email: <a href="mailto:info@opt-out.eu">info@opt-out.eu</a>,
+              }}
+            />
+          </Typography>
+          <br />          
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
             <FormattedMessage id="funding" defaultMessage="Funding" />
           </Typography>
           <Typography gutterBottom={true}>
