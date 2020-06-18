@@ -15,9 +15,6 @@ import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import Link from 'next/link'
-import Button from '@material-ui/core/Button';
-import Router from 'next/router'
 
 class Form extends Component {
   state = {
@@ -56,10 +53,6 @@ class Form extends Component {
     });
   };
 
-  onItemSelected = (org) => {
-    Router.push("/d/[domain]", "/d/" + org.url + "/")
-  }
-
   async searchCompanies(search) {
     let searchResults = [];
 
@@ -82,6 +75,14 @@ class Form extends Component {
       searchResults,
     });
   }
+
+  onSelected = (company) => {
+    this.props.onCompanySelected(company);
+    this.setState({
+      searchResults: [],
+      companyNameSearch: company.name,
+    });
+  };
 
   renderInput = (InputProps) => {
     const { classes, companies } = this.props;
@@ -135,21 +136,22 @@ class Form extends Component {
 
     return (
       <MenuItem
+        button
         key={result.url}
         selected={isHighlighted}
         dense={true}
         {...itemProps}
       >
-          <img
-            role="presentation"
-            src={`https://api.faviconkit.com/${result.url}/24`}
-            width={24}
-            height={24}
-          />
-          <ListItemText
-            primary={`${result.name} (${result.url})`}
-            id={`search-result-${result.url}`}
-          />
+        <img
+          role="presentation"
+          src={`https://api.faviconkit.com/${result.url}/24`}
+          width={24}
+          height={24}
+        />
+        <ListItemText
+          primary={`${result.name} (${result.url})`}
+          id={`search-result-${result.url}`}
+        />
       </MenuItem>
     );
   };
@@ -159,7 +161,7 @@ class Form extends Component {
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
-          onSelect={this.onItemSelected} 
+          onSelect={this.onSelected}
           itemToString={(result) => result && result.name}
           defaultHighlightedIndex={0}
         >
@@ -193,20 +195,18 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add">
-                        <ListItemText>
-                          <strong>
-                            <FormattedMessage
-                              id="noResults"
-                              defaultMessage="Can't find an organization?"
-                            />
-                          </strong>{" "}
+                      <ListItemText>
+                        <strong>
                           <FormattedMessage
-                            id="noResultsMore"
-                            defaultMessage="Click here to add one"
+                            id="noResults"
+                            defaultMessage="Can't find an organization?"
                           />
-                        </ListItemText>
-                      </Link>
+                        </strong>{" "}
+                        <FormattedMessage
+                          id="noResultsMore"
+                          defaultMessage="Click here to add one"
+                        />
+                      </ListItemText>
                     </MenuItem>
                   </MenuList>
                 )}

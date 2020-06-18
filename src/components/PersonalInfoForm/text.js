@@ -1,26 +1,5 @@
 import { FormattedMessage } from "react-intl";
 
-export const IntroText = (
-      <FormattedMessage
-        id="IntroText"
-        defaultMessage="To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered."
-      />
-);
-
-export const ReadMore = (
-      <FormattedMessage
-        id="readMore"
-        defaultMessage="Read more about Data Deletion on our {ReadMore}."
-        values={{
-          ReadMore: (
-            <a href="/#faq">
-              Frequently Asked Questions
-            </a>
-          ),
-        }}
-      />
-);
-
 export const CompanyNameLabelText = (
   <FormattedMessage id="companyNameLabel" defaultMessage="Organization name" />
 );
@@ -42,7 +21,7 @@ export const CompanyEmailLabelText = (
 export const CompanyEmailHelperText = (
   <FormattedMessage
     id="compnayEmailHelper"
-    defaultMessage="Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+    defaultMessage="Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the privacy policy or contact us page of the organization’s website."
   />
 );
 
@@ -53,7 +32,7 @@ export const NameLabelText = (
 export const NameHelperText = (
   <FormattedMessage
     id="nameHelper"
-    defaultMessage="This will be used by the organization to identify you."
+    defaultMessage="This will be used by the organization to identify you in their systems."
   />
 );
 
@@ -67,10 +46,7 @@ export const IdentifyingInfoLabelText = (
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. {warning}"
-    values = {{
-      warning: <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>
-    }}
+    defaultMessage="Optionally provide any additional information which may help the organization to identify you in their information systems such as Username, Customer ID or Account Number. Please do not provide your password."
   />
 );
 

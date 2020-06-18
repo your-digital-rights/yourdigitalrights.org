@@ -3,7 +3,6 @@ import { themeBg } from "../../styles/theme";
 
 export default (theme) => ({
   hero: {
-    color: "#005ea5",
     backgroundColor: theme.palette.primary.main,
     ...themeBg,
     [theme.breakpoints.down("sm")]: {
@@ -43,11 +42,11 @@ export default (theme) => ({
     marginBottom: 0,
   },
   introLink: {
-    color: "white !important",
+    color: "#e89e15",
     fontWeight: "bold",
     textDecoration: "none",
     "&:hover": {
       textDecoration: "underline",
     },
-  }
+  },
 });

@@ -1,5 +1,4 @@
 import {
-  IntroText,
   CompanyEmailHelperText,
   CompanyEmailLabelText,
   CompanyNameHelperText,
@@ -10,8 +9,7 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  SubmitButtonText,
-  ReadMore
+  SubmitButtonText
 } from "./text";
 import { injectIntl } from "react-intl";
 
@@ -61,11 +59,11 @@ class Form extends Component {
     e.preventDefault();
     window.open(this.renderMailTo());
 
-    this.setState({ hasSubmit: true });
-    window.location = "#Form";
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
+      this.setState({ hasSubmit: true });
+      window.location = "#Form";
       tracking.trackRequestComplete(
         this.props.selectedCompany.url,
         this.state.requestType
@@ -111,6 +109,26 @@ class Form extends Component {
 
   render() {
     const { classes, selectedCompany } = this.props;
+
+    const HeadingText = selectedCompany ? (
+      <FormattedMessage
+        id="formHeading"
+        defaultMessage="Delete my data from {companyName}"
+        values={{
+          companyName: (
+            <strong style={{ color: "#00AE8D" }}>
+              {selectedCompany.name} ({selectedCompany.url})
+            </strong>
+          )
+        }}
+      />
+    ) : (
+      <FormattedMessage
+        id="formHeadingNoCompany"
+        defaultMessage="Delete my data"
+      />
+    );
+
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
       defaultMessage: "CCPA (California)"
@@ -120,6 +138,17 @@ class Form extends Component {
       defaultMessage: "GDPR (European Union)"
     });
 
+    const IntroText = selectedCompany ? (
+      <FormattedMessage
+        id="IntroTextSelectedCompany"
+        defaultMessage="In order to comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as you send your request."
+      />
+    ) : (
+      <FormattedMessage
+        id="IntroTextNotSelectedCompany"
+        defaultMessage="To send an Erasure Request to an organization not on our list you will need to provide the organization's name and a relevant email address. In order to comply with your request the organization will need to locate your data on their systems. To help them do so, please enter the following information. All the information you enter will be erased from our systems as soon as you send your request."
+      />
+    );
 
     let formToDisplay;
     if (this.state.hasSubmit) {
@@ -127,7 +156,7 @@ class Form extends Component {
         <ThanksMessage
           id="ThanksMessageContainer"
           className="thanks-message"
-          hideThanks={() => window.location = "/"}
+          hideThanks={this.props.focusSearch}
         />
       );
     } else {
@@ -139,11 +168,11 @@ class Form extends Component {
           id="personalInfoForm"
           elevation={10}
         >
+          <Typography variant="display2" component="h1" gutterBottom={true}>
+            {HeadingText}
+          </Typography>
           <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
-          </Typography>
-          <Typography gutterBottom={true}>
-            {ReadMore}
           </Typography>
           {!selectedCompany && (
             <Fragment>
@@ -225,7 +254,7 @@ class Form extends Component {
           )}
           <div>
             <Button
-              variant="contained"
+              variant="raised"
               color="primary"
               type="submit"
               className={classes.formButton}
@@ -238,7 +267,7 @@ class Form extends Component {
     }
 
     return (
-      <div id="Form">
+      <div id="Form" ref={this.props.containerRef}>
         {formToDisplay}
       </div>
     );
