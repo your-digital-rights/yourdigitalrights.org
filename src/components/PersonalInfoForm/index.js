@@ -142,9 +142,6 @@ class Form extends Component {
       id: "gdprOption",
       defaultMessage: "GDPR (European Union)"
     });
-    console.log(screenHeight)
-    console.log(screenHeightBreakpoint)
-    console.log((screenHeight > screenHeightBreakpoint))
 
     let formToDisplay;
     if (this.state.hasSubmit) {
