@@ -6,7 +6,8 @@ import Button from "@material-ui/core/Button";
 import { DiscussionEmbed } from 'disqus-react';
 
 const AboutOrg = ({ classes, selectedCompany, canonical }) => {
-  const threadConfig = {
+  const disqusShortName = "your-digital-rights";
+  const disqusConfig = {
     url: canonical,
     identifier: selectedCompany.url,
     title: selectedCompany.name,
@@ -60,7 +61,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
             Do you have something to say about privacy at {selectedCompany.name}?
           </Typography>
 
-          <DiscussionEmbed shortname={selectedCompany.url} config={threadConfig} />
+          <DiscussionEmbed className={classes.disqusComments} shortname={disqusShortName} config={disqusConfig} />
         </div>
       </div>
     </div>
