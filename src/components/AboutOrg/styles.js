@@ -83,7 +83,7 @@ export default (theme) => ({
     boxShadow:
       "0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14)",
     backgroundColor: "white",
-    padding: "21px 88px",
+    padding: "21px 50px",
     margin: "auto",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
@@ -91,10 +91,7 @@ export default (theme) => ({
       padding: "21px 30px",
     },
   },
-  discourseComments: {
-    boxShadow:
-      "0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.14)",
-    backgroundColor: "#ffffff",
+  disqusComments: {
     marginTop: "20px",
   },
   discussionHeading: {

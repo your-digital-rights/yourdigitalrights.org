@@ -198,6 +198,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
     </div>
   );
 };
+
 class Nav extends Component {
   constructor(props) {
     super(props);
