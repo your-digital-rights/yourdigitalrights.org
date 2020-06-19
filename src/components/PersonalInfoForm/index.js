@@ -45,7 +45,7 @@ class Form extends Component {
       companyEmail: "",
       hasSubmit: false,
       requestType: "GDPR",
-      screenHeight: window.innerHeight,
+      screenHeight: (typeof window !== 'undefined') ? window.innerHeight : null,
     };
 
     this.handlers = {};
