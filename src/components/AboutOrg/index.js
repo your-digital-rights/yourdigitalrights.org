@@ -65,6 +65,17 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
                 "'}; (function() {var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true; d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js'; (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d); })();",
             }}
           />
+
+          <div id="disqus_thread"></div>
+
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html:
+                "var disqus_config = function () { this.page.url = '" + canonical + "' this.page.identifier = '" + selectedCompany.url + "'}; (function() { var d = document, s = d.createElement('script'); s.src = 'https://your-digital-rights.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })();"
+            }}
+          />
+
           {/* <div>
             <Button
               className={classes.Continue}
