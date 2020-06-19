@@ -29,6 +29,10 @@ import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 
+
+const screenHeightBreakpoint = 560;
+
+
 class Form extends Component {
   constructor(props) {
     super(props);
@@ -40,12 +44,30 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      requestType: "GDPR"
+      requestType: "GDPR",
+      screenHeight: window.innerHeight,
     };
 
     this.handlers = {};
     this.container = React.createRef();
   }
+
+  componentDidMount() {
+    if (typeof window !== "undefined") {
+      this.setState({ screenHeight: window.innerHeight });
+      window.addEventListener("resize", this.onScreenResize);
+    }
+  }
+
+  componentWillUnmount() {
+    if (typeof window !== "undefined") {
+      window.removeEventListener("resize", this.onScreenResize);
+    }
+  }
+
+  onScreenResize = () => {
+    this.setState({ screenHeight: window.innerHeight });
+  };
 
   handleInput = name => {
     if (!this.handlers[name]) {
@@ -110,6 +132,7 @@ class Form extends Component {
   }
 
   render() {
+    const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
@@ -119,7 +142,9 @@ class Form extends Component {
       id: "gdprOption",
       defaultMessage: "GDPR (European Union)"
     });
-
+    console.log(screenHeight)
+    console.log(screenHeightBreakpoint)
+    console.log((screenHeight > screenHeightBreakpoint))
 
     let formToDisplay;
     if (this.state.hasSubmit) {
@@ -155,7 +180,7 @@ class Form extends Component {
                 onChange={this.handleInput("companyName")}
                 margin="normal"
                 required
-                autoFocus
+                autoFocus={(screenHeight > screenHeightBreakpoint)}
                 helperText={CompanyNameHelperText}
               />
               <TextField
@@ -180,7 +205,7 @@ class Form extends Component {
             margin="normal"
             variant="outlined"
             required
-            autoFocus={!!selectedCompany}
+            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
             helperText={NameHelperText}
           />
           <TextField
