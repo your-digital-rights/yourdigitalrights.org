@@ -15,4 +15,11 @@ export default (theme) => ({
     marginTop: "2rem",
     borderRadius: "24px 24px 24px 24px",
   },
+  formControl: {
+    marginTop: theme.spacing.unit,
+  },
+  group: {
+    margin: `${theme.spacing.unit}px 0`,
+    flexDirection: "row",
+  },
 });

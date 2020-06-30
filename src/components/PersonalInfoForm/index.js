@@ -14,7 +14,6 @@ import {
   ReadMore
 } from "./text";
 import { injectIntl } from "react-intl";
-
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
 import { FormattedMessage } from "react-intl";
@@ -23,11 +22,17 @@ import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
 import erasureEmail from "../../email-templates/erasure";
+import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
 
 
 const screenHeightBreakpoint = 560;
@@ -44,7 +49,8 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      requestType: "GDPR",
+      regulationType: "GDPR",
+      requestType: "DELETION",
       screenHeight: (typeof window !== 'undefined') ? window.innerHeight : null,
     };
 
@@ -90,13 +96,14 @@ class Form extends Component {
     } else {
       tracking.trackRequestComplete(
         this.props.selectedCompany.url,
-        this.state.requestType
+        this.state.requlationType
       );
     }
   };
 
   renderMailTo() {
     const { selectedCompany } = this.props;
+    const requestType  = this.state.requestType;
 
     const to = selectedCompany
       ? selectedCompany.email
@@ -106,14 +113,18 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    const subject = (requestType == "DELETION")
+      ? erasureEmail.subject({ ...this.state })
+      : sarEmail.subject({ ...this.state })
+
+    const body = (requestType == "DELETION")
+      ? erasureEmail.formatBody({...this.state, companyName })
+      : sarEmail.formatBody({...this.state, companyName })
+
     return mailtoLink({
       to,
-      subject: erasureEmail.subject({ ...this.state }),
-      body: erasureEmail.formatBody({
-        ...this.state,
-
-        companyName
-      })
+      subject: subject,
+      body: body
     });
   }
 
@@ -167,6 +178,22 @@ class Form extends Component {
           <Typography gutterBottom={true}>
             {ReadMore}
           </Typography>
+
+          <FormControl component="fieldset" className={classes.formControl}>
+            <FormLabel component="request">Request type</FormLabel>
+            <RadioGroup
+              aria-label="request"
+              name="request1"
+              className={classes.group}
+              value={this.state.value}
+              onChange={this.handleInput("requestType")}
+              value={this.state.requestType}
+            >
+              <FormControlLabel value="DELETION" control={<Radio />} label="Delet my data" />
+              <FormControlLabel value="SAR" control={<Radio />} label="Send me my data" />
+            </RadioGroup>
+          </FormControl>
+
           {!selectedCompany && (
             <Fragment>
               <TextField
@@ -211,7 +238,7 @@ class Form extends Component {
             select
             label={CcpaOrGdprText}
             className={classes.textField}
-            onChange={this.handleInput("requestType")}
+            onChange={this.handleInput("regulationType")}
             required
             defaultValue="GDPR"
             SelectProps={{
