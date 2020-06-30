@@ -15,6 +15,6 @@ export const MoreInfo = (
 export const NewOrgTitle = (
   <FormattedMessage
     id="newOrgTitle"
-    defaultMessage="Delete My Personal Data"
+    defaultMessage="Delete or Access My Personal Data"
   />
 );

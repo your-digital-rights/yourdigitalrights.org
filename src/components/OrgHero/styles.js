@@ -26,7 +26,7 @@ export default (theme) => ({
   },
   heading: {
     maxWidth: "100%",
-    margin: "auto auto",
+    marginBottom: "10px",
     lineHeight: "1em",
 
     [theme.breakpoints.down("sm")]: {
@@ -52,50 +52,6 @@ export default (theme) => ({
     [theme.breakpoints.down("sm")]: {
       padding: "50px 30px 0px",
       width: "100%",
-    },
-  },
-  intro: {
-    fontFamily: "Source Sans Pro,sans-serif",
-    fontSize: "21px",
-    fontWeight: "normal",
-    fontStretch: "normal",
-    fontStyle: "normal",
-    lineHeight: "normal",
-    letterSpacing: "normal",
-    color: "#ffffff",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      fontSize: "18px",
-    },
-  },
-  domain: {
-    width: "475px",
-    height: "40px",
-    fontFamily: "Source Sans Pro,sans-serif",
-    fontSize: "15px",
-    fontWeight: "normal",
-    fontStretch: "normal",
-    fontStyle: "normal",
-    lineHeight: "1.8",
-    letterSpacing: "normal",
-    color: "#ffffff",
-    [theme.breakpoints.down("sm")]: {
-      fontSize: "18px",
-      width: "100%",
-    },
-  },
-  info: {
-    fontFamily: "Source Sans Pro,sans-serif",
-    fontSize: "15px",
-    fontWeight: "normal",
-    fontStretch: "normal",
-    fontStyle: "normal",
-    lineHeight: "1.8",
-    letterSpacing: "normal",
-    color: "#ffffff",
-    [theme.breakpoints.down("sm")]: {
-      width: "100%",
-      fontSize: "18px",
     },
   },
   logo: {

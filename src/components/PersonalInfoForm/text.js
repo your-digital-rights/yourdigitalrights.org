@@ -21,6 +21,13 @@ export const ReadMore = (
       />
 );
 
+export const RequestChoice = (
+  <FormattedMessage
+    id="requestChoice"
+    defaultMessage="I would like to:"
+  />
+);
+
 export const CompanyNameLabelText = (
   <FormattedMessage id="companyNameLabel" defaultMessage="Organization name" />
 );

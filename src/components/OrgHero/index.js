@@ -30,9 +30,9 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                Delete my personal data from {selectedCompany.name}
+                Delete or Access My {selectedCompany.name} Data
               </Typography>
-              <Typography color="inherit" className={classes.domain}>
+              <Typography color="inherit">
                 Domain:{" "}
                 <strong>
                   <a
@@ -51,16 +51,16 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="Send a {ccpa} or a {gdpr} data deletion request."
+                  defaultMessage="Send a {ccpa} or a {gdpr} data request."
                   values={{
                     ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
                   }}
                 />
               </Typography>
-              <Typography color="inherit" className={classes.domain}>
+              <Typography color="inherit">
                 <a href="#about-org" className={classes.introLink}>
-                  <strong>Find out more about {selectedCompany.name}</strong>
+                  <strong>Find out more about privacy at {selectedCompany.name}</strong>
                 </a>
               </Typography>
             </>
@@ -75,7 +75,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                Delete my personal Data
+                Delete or Access My Data
             </Typography>
               <Typography
                 color="inherit"
@@ -83,10 +83,10 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="newOrgSubTitle"
-                  defaultMessage="Send any organization a {ccpa} or a {gdpr} data deletion request."
+                  defaultMessage="Send any organization a {ccpa}/{gdpr} data deletion or access request."
                   values = {{
                     ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} href='/#faq'>GDPR</a>,
                   }}
                 />
               </Typography>

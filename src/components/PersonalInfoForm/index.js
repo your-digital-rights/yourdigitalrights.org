@@ -11,7 +11,8 @@ import {
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
   SubmitButtonText,
-  ReadMore
+  ReadMore,
+  RequestChoice
 } from "./text";
 import { injectIntl } from "react-intl";
 import Button from "@material-ui/core/Button";
@@ -175,14 +176,10 @@ class Form extends Component {
           <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
           </Typography>
-          <Typography gutterBottom={true}>
-            {ReadMore}
-          </Typography>
+
 
           <FormControl component="fieldset" className={classes.formControl}>
-            <FormLabel component="request">Request type</FormLabel>
             <RadioGroup
-              aria-label="request"
               name="request1"
               className={classes.group}
               value={this.state.value}
@@ -190,7 +187,7 @@ class Form extends Component {
               value={this.state.requestType}
             >
               <FormControlLabel value="DELETION" control={<Radio />} label="Delet my data" />
-              <FormControlLabel value="SAR" control={<Radio />} label="Send me my data" />
+              <FormControlLabel value="SAR" control={<Radio />} label="Access me my data" />
             </RadioGroup>
           </FormControl>
 
@@ -282,6 +279,10 @@ class Form extends Component {
               {SubmitButtonText}
             </Button>
           </div>
+          <Typography gutterBottom={false}>
+            <br/>
+            {ReadMore}
+          </Typography>
         </Paper>
       );
     }
