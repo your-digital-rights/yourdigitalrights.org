@@ -5,15 +5,21 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Social from "../Social";
 import tracking from "../../utils/tracking";
-
 import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
   EmailShareButton,
 } from "react-share";
+import { 
+  ThanksTitleText, 
+  ThanksCopyPart1, 
+  ThanksCopyPart2CCPA, 
+  ThanksCopyPart2GDPR, 
+  ThanksCopyPart3, 
+  FindCompanyText 
+} from "./text";
 
-import { ThanksTitleText, ThanksCopyText, FindCompanyText } from "./text";
 
 const styles = (theme) => ({
   root: {
@@ -93,7 +99,9 @@ const styles = (theme) => ({
 });
 
 const ThanksMessage = (props) => {
-  let { classes } = props;
+  let { classes, requestType, regulationType } = props;
+  let requestTypeText = (requestType == "DELETION") ? "A deletion " : "An access request ";
+  let replyTimeText = (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
 
   let hide = () => {
     props.hideThanks();
@@ -125,7 +133,7 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {ThanksCopyText}
+          {requestTypeText}{ThanksCopyPart1}{replyTimeText}{ThanksCopyPart3}
         </Typography>
         <Button
           variant="raised"

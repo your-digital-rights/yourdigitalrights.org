@@ -14,7 +14,7 @@ export default (theme) => ({
     },
   },
   orgLogo: {
-    paddingTop: "15px",
+    paddingTop: "5px",
     paddingRight: "25px",
     display: "block",
     [theme.breakpoints.down("sm")]: {
@@ -26,9 +26,7 @@ export default (theme) => ({
   },
   heading: {
     maxWidth: "100%",
-    marginBottom: "10px",
     lineHeight: "1em",
-
     [theme.breakpoints.down("sm")]: {
       margin: "auto 0px 0px",
       maxWidth: "100%",
@@ -62,7 +60,6 @@ export default (theme) => ({
     },
   },
   introLink: {
-    fontSize: "15px",
     color: "#ffffff",
     textDecoration: "underline",
     "&:hover": {

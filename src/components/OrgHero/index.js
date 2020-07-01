@@ -26,11 +26,25 @@ const Hero = ({ classes, selectedCompany }) => {
                 id="pageTitle"
                 variant="display1"
                 color="inherit"
-                gutterBottom={true}
                 component="h1"
                 className={classes.heading}
               >
-                Delete or Access My {selectedCompany.name} Data
+                {selectedCompany.name}
+              </Typography>
+              <Typography
+                color="inherit"
+                component="h2"
+                variant="display2"
+                gutterBottom={true}
+              >
+                <FormattedMessage
+                  id="orgSubTitle"
+                  defaultMessage="Request deletion, or a copy of your data by sending a {ccpa} or a {gdpr} data request."
+                  values={{
+                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} href='/#faq'>GDPR</a>,
+                  }}
+                />
               </Typography>
               <Typography color="inherit">
                 Domain:{" "}
@@ -44,20 +58,7 @@ const Hero = ({ classes, selectedCompany }) => {
                     {selectedCompany.url}
                   </a>
                 </strong>
-              </Typography>
-              <Typography
-                color="inherit"
-                component="h2"
-              >
-                <FormattedMessage
-                  id="orgSubTitle"
-                  defaultMessage="Send a {ccpa} or a {gdpr} data request."
-                  values={{
-                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                  }}
-                />
-              </Typography>
+              </Typography>              
               <Typography color="inherit">
                 <a href="#about-org" className={classes.introLink}>
                   <strong>Find out more about privacy at {selectedCompany.name}</strong>
@@ -75,7 +76,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                Delete or Access My Data
+                Delete or Access Your Data
             </Typography>
               <Typography
                 color="inherit"
@@ -83,7 +84,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="newOrgSubTitle"
-                  defaultMessage="Send any organization a {ccpa}/{gdpr} data deletion or access request."
+                  defaultMessage="Send any organization a {ccpa} or a {gdpr} request."
                   values = {{
                     ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} href='/#faq'>GDPR</a>,

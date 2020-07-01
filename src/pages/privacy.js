@@ -116,7 +116,7 @@ const Privacy = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="nameAndAdditionalInfoBody2"
-              defaultMessage="We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate an erasure request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
+              defaultMessage="We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate a request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
             />
           </Typography>
           <br />

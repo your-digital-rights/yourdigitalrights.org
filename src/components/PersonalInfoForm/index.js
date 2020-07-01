@@ -161,6 +161,8 @@ class Form extends Component {
         <ThanksMessage
           id="ThanksMessageContainer"
           className="thanks-message"
+          requestType={this.state.requestType}
+          regulationType={this.state.regulationType}
           hideThanks={() => window.location = "/"}
         />
       );
