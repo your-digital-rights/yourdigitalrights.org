@@ -97,7 +97,8 @@ class Form extends Component {
     } else {
       tracking.trackRequestComplete(
         this.props.selectedCompany.url,
-        this.state.requlationType
+        this.state.requlationType,
+        this.state.requestType
       );
     }
   };
@@ -178,18 +179,26 @@ class Form extends Component {
           <Typography gutterBottom={true} variant={"body1"}>
             {IntroText}
           </Typography>
+          <Typography gutterBottom={true}>
+            {ReadMore}
+          </Typography>
 
-
-          <FormControl component="fieldset" className={classes.formControl}>
+          <FormControl 
+            variant="outlined"
+            required={true} 
+            focused={true} 
+            component="fieldset" 
+            className={classes.formControl}
+          >
+            <FormLabel>Request {selectedCompany.name} to</FormLabel>
             <RadioGroup
               name="request1"
               className={classes.group}
-              value={this.state.value}
               onChange={this.handleInput("requestType")}
               value={this.state.requestType}
             >
               <FormControlLabel value="DELETION" control={<Radio />} label="Delet my data" />
-              <FormControlLabel value="SAR" control={<Radio />} label="Access me my data" />
+              <FormControlLabel value="ACCESS" control={<Radio />} label="Send me a copy of my data" />
             </RadioGroup>
           </FormControl>
 
@@ -203,8 +212,8 @@ class Form extends Component {
                 onChange={this.handleInput("companyName")}
                 margin="normal"
                 required
-                autoFocus={(screenHeight > screenHeightBreakpoint)}
                 helperText={CompanyNameHelperText}
+                autoFocus={(screenHeight > screenHeightBreakpoint)}
               />
               <TextField
                 variant="outlined"
@@ -226,10 +235,9 @@ class Form extends Component {
             value={this.state.name}
             onChange={this.handleInput("name")}
             margin="normal"
-            variant="outlined"
             required
-            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
             helperText={NameHelperText}
+            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
           />
           <TextField
             variant="outlined"
@@ -281,10 +289,6 @@ class Form extends Component {
               {SubmitButtonText}
             </Button>
           </div>
-          <Typography gutterBottom={false}>
-            <br/>
-            {ReadMore}
-          </Typography>
         </Paper>
       );
     }

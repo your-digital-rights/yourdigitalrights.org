@@ -41,8 +41,8 @@ const Hero = ({ classes, selectedCompany }) => {
                   id="orgSubTitle"
                   defaultMessage="Request deletion, or a copy of your data by sending a {ccpa} or a {gdpr} data request."
                   values={{
-                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} href='/#faq'>GDPR</a>,
+                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
                   }}
                 />
               </Typography>
@@ -86,8 +86,8 @@ const Hero = ({ classes, selectedCompany }) => {
                   id="newOrgSubTitle"
                   defaultMessage="Send any organization a {ccpa} or a {gdpr} request."
                   values = {{
-                    ccpa: <a className={classes.introLink} href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} href='/#faq'>GDPR</a>,
+                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
                   }}
                 />
               </Typography>

@@ -13,7 +13,7 @@ export const ReadMore = (
         defaultMessage="Read more about Data Deletion on our {ReadMore}."
         values={{
           ReadMore: (
-            <a href="/#faq">
+            <a target="_blank" href="/#faq">
               Frequently Asked Questions
             </a>
           ),

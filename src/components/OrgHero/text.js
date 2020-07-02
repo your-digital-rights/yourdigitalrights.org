@@ -6,8 +6,8 @@ export const MoreInfo = (
     id="moreInfo"
     defaultMessage="To find out more about the process read our {faq}. To find out more about this service read our {about} page."
     values={{ 
-    	faq: <a href="/#faq">Frequently Asked Questions</a>,
-    	about: <a href="/about">About</a>,
+    	faq: <a target="_blank" href="/#faq">Frequently Asked Questions</a>,
+    	about: <a target="_blank" href="/about">About</a>,
     }}
   />
 );
