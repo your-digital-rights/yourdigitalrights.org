@@ -54,7 +54,7 @@ export const CompanyEmailHelperText = (
 );
 
 export const NameLabelText = (
-  <FormattedMessage id="nameLabel" defaultMessage="Your full name" />
+  <FormattedMessage id="nameLabel" defaultMessage="Full name" />
 );
 
 export const NameHelperText = (
@@ -88,7 +88,7 @@ export const SubmitButtonText = (
 export const CcpaOrGdprText = (
   <FormattedMessage
     id="ccpaOrGdpr"
-    defaultMessage="Choose regulation (GDPR or CCPA)"
+    defaultMessage="Regulation"
   />
 );
 
@@ -96,5 +96,26 @@ export const CcpaOrGdprHelperText = (
   <FormattedMessage
     id="ccpaOrGdprHelper"
     defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  />
+);
+
+export const RequestTypeLabelText = (
+  <FormattedMessage
+    id="requestTypeLabelText"
+    defaultMessage="Request type"
+  />
+);
+
+export const DeletionRequestLabelText = (
+  <FormattedMessage
+    id="deletionRequestLabelText"
+    defaultMessage="Delet my data"
+  />
+);
+
+export const AccessRequestLabelText = (
+  <FormattedMessage
+    id="accessRequestLabelText"
+    defaultMessage="Send me a copy of my data"
   />
 );

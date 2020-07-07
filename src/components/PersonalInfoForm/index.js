@@ -12,7 +12,10 @@ import {
   CcpaOrGdprHelperText,
   SubmitButtonText,
   ReadMore,
-  RequestChoice
+  RequestChoice,
+  RequestTypeLabelText,
+  AccessRequestLabelText,
+  DeletionRequestLabelText
 } from "./text";
 import { injectIntl } from "react-intl";
 import Button from "@material-ui/core/Button";
@@ -190,15 +193,15 @@ class Form extends Component {
             component="fieldset" 
             className={classes.formControl}
           >
-            <FormLabel>Request {selectedCompany.name} to</FormLabel>
+            <FormLabel>{RequestTypeLabelText}</FormLabel>
             <RadioGroup
               name="request1"
               className={classes.group}
               onChange={this.handleInput("requestType")}
               value={this.state.requestType}
             >
-              <FormControlLabel value="DELETION" control={<Radio />} label="Delet my data" />
-              <FormControlLabel value="ACCESS" control={<Radio />} label="Send me a copy of my data" />
+              <FormControlLabel value="DELETION" control={<Radio />} label={DeletionRequestLabelText} />
+              <FormControlLabel value="ACCESS" control={<Radio />} label={AccessRequestLabelText} />
             </RadioGroup>
           </FormControl>
 
