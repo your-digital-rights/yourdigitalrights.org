@@ -27,10 +27,11 @@ export default {
     this.trackEvent("Selected Domain", domain);
   },
 
-  trackRequestComplete(domain, requestType) {
+  trackRequestComplete(domain, regulationType, requestType) {
+    let requestTypeText = (requestType == "s") ? "Erasure Request" : "Access Request"
     this.trackEvent(
-      "Erasure Request",
-      "Send " + requestType + " Request",
+      requestTypeText,
+      "Send " + regulationType + " Request",
       domain
     );
   },

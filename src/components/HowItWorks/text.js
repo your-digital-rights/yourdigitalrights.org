@@ -35,7 +35,7 @@ const SendTitle = <FormattedMessage id="sendTitle" defaultMessage="Send" />;
 const SendBody = (
   <FormattedMessage
     id="send"
-    defaultMessage="Click the Send button to create an Erasure Request email addressed to the relevant person at the organization you selected. The email will open up in your email application where you can review, and then send it."
+    defaultMessage="Click the Send button to generate a request email addressed to the relevant person at the organization you selected. The email will open up in your default email application where you can review, and then send it."
   />
 );
 
@@ -48,7 +48,7 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="yourData"
-    defaultMessage="The {GDPRlink} (GDPR) and the {CCPAlink} (CCPA) require organizations to erase personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+    defaultMessage="The {GDPRlink} (GDPR) and the {CCPAlink} (CCPA) require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
     values={{
       GDPRlink: (
         <a href="https://www.eugdpr.org/">

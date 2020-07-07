@@ -11,6 +11,6 @@ export const SubtitleText = (
 export const IntroText = (
   <FormattedMessage
     id="intro"
-    defaultMessage="Many organizations collect and sell your personal data, often without your consent. This website makes it easy to get organizations to erase your data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests."
+    defaultMessage="Many organizations collect and sell your personal data, often without your consent. We make it easy to find out what data organizations have on you, and to get them to delete it."
   />
 );

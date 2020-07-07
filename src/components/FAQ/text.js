@@ -34,7 +34,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://gdpr-info.eu/art-1-gdpr/">Read the regulation</a>
+            <a target="_blank" href="https://gdpr-info.eu/art-1-gdpr/">Read the regulation</a>
           ),
         }}
       />,
@@ -77,7 +77,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
+            <a target="_blank" href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
               Find out more
             </a>
           ),
@@ -100,7 +100,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
+            <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
               Read the regulation
             </a>
           ),
@@ -160,7 +160,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/">
+            <a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/">
               Find out more
             </a>
           ),
@@ -179,7 +179,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.140.&lawCode=CIV">
+            <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.140.&lawCode=CIV">
               Read the definition
             </a>
           ),
@@ -236,7 +236,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/">
+            <a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/">
               Find out more
             </a>
           ),
@@ -298,7 +298,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
+            <a target="_blank" href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">
               Find out more
             </a>
           ),
@@ -352,7 +352,7 @@ export default [
         defaultMessage="{link}"
         values={{
           link: (
-            <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV">
+            <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV">
               Find out more
             </a>
           ),
@@ -398,7 +398,7 @@ export default [
         defaultMessage="If you are unhappy with how the organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. If you decide to do this, we strongly advise you to seek independent legal advice first. You can download a list of DPAs {link} (PDF)."
         values={{
           link: (
-            <a href="http://ec.europa.eu/newsroom/article29/document.cfm?action=display&doc_id=50061">
+            <a target="_blank" href="http://ec.europa.eu/newsroom/article29/document.cfm?action=display&doc_id=50061">
               here
             </a>
           ),
@@ -412,7 +412,7 @@ export default [
         defaultMessage="If you are unhappy with how an organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you have two options. {link} or take private action."
         values={{
           link: (
-            <a href="https://oag.ca.gov/contact/consumer-complaint-against-business-or-company">
+            <a target="_blank" href="https://oag.ca.gov/contact/consumer-complaint-against-business-or-company">
               Complain to the Attorney General
             </a>
           ),
@@ -439,7 +439,7 @@ export default [
         id="body11Aii"
         defaultMessage="{link}."
         values={{
-          link: <a href="https://gdpr-info.eu/art-83-gdpr/">Find out more</a>,
+          link: <a target="_blank" href="https://gdpr-info.eu/art-83-gdpr/">Find out more</a>,
         }}
       />,
       <br />,
@@ -455,7 +455,7 @@ export default [
         defaultMessage="{link}."
         values={{
           link: (
-            <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.155&lawCode=CIV">
+            <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.155&lawCode=CIV">
               Find out more
             </a>
           ),
@@ -499,12 +499,12 @@ export default [
         defaultMessage="To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on {mac} and {windows}."
         values={{
           mac: (
-            <a href="http://osxdaily.com/2014/05/06/change-default-mail-app-mac/">
+            <a target="_blank" href="http://osxdaily.com/2014/05/06/change-default-mail-app-mac/">
               Mac
             </a>
           ),
           windows: (
-            <a href="https://support.microsoft.com/en-us/help/555566">
+            <a target="_blank" href="https://support.microsoft.com/en-us/help/555566">
               Windows
             </a>
           ),

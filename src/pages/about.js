@@ -76,7 +76,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody2"
-              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
           <br />

@@ -7,7 +7,7 @@ export const SubtitleText = (
 export const IntroText = (
   <FormattedMessage
     id="donateIntro"
-    defaultMessage="Your Digital Rights was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
+    defaultMessage="YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
   />
 );
 

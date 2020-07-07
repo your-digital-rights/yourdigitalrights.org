@@ -11,10 +11,10 @@ import {
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
   SubmitButtonText,
-  ReadMore
+  ReadMore,
+  RequestChoice
 } from "./text";
 import { injectIntl } from "react-intl";
-
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
 import { FormattedMessage } from "react-intl";
@@ -23,11 +23,17 @@ import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
 import erasureEmail from "../../email-templates/erasure";
+import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
 
 
 const screenHeightBreakpoint = 560;
@@ -44,7 +50,8 @@ class Form extends Component {
       companyName: "",
       companyEmail: "",
       hasSubmit: false,
-      requestType: "GDPR",
+      regulationType: "GDPR",
+      requestType: "DELETION",
       screenHeight: (typeof window !== 'undefined') ? window.innerHeight : null,
     };
 
@@ -90,6 +97,7 @@ class Form extends Component {
     } else {
       tracking.trackRequestComplete(
         this.props.selectedCompany.url,
+        this.state.requlationType,
         this.state.requestType
       );
     }
@@ -97,6 +105,7 @@ class Form extends Component {
 
   renderMailTo() {
     const { selectedCompany } = this.props;
+    const requestType  = this.state.requestType;
 
     const to = selectedCompany
       ? selectedCompany.email
@@ -106,14 +115,18 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    const subject = (requestType == "DELETION")
+      ? erasureEmail.subject({ ...this.state })
+      : sarEmail.subject({ ...this.state })
+
+    const body = (requestType == "DELETION")
+      ? erasureEmail.formatBody({...this.state, companyName })
+      : sarEmail.formatBody({...this.state, companyName })
+
     return mailtoLink({
       to,
-      subject: erasureEmail.subject({ ...this.state }),
-      body: erasureEmail.formatBody({
-        ...this.state,
-
-        companyName
-      })
+      subject: subject,
+      body: body
     });
   }
 
@@ -149,6 +162,8 @@ class Form extends Component {
         <ThanksMessage
           id="ThanksMessageContainer"
           className="thanks-message"
+          requestType={this.state.requestType}
+          regulationType={this.state.regulationType}
           hideThanks={() => window.location = "/"}
         />
       );
@@ -167,6 +182,26 @@ class Form extends Component {
           <Typography gutterBottom={true}>
             {ReadMore}
           </Typography>
+
+          <FormControl 
+            variant="outlined"
+            required={true} 
+            focused={true} 
+            component="fieldset" 
+            className={classes.formControl}
+          >
+            <FormLabel>Request {selectedCompany.name} to</FormLabel>
+            <RadioGroup
+              name="request1"
+              className={classes.group}
+              onChange={this.handleInput("requestType")}
+              value={this.state.requestType}
+            >
+              <FormControlLabel value="DELETION" control={<Radio />} label="Delet my data" />
+              <FormControlLabel value="ACCESS" control={<Radio />} label="Send me a copy of my data" />
+            </RadioGroup>
+          </FormControl>
+
           {!selectedCompany && (
             <Fragment>
               <TextField
@@ -177,8 +212,8 @@ class Form extends Component {
                 onChange={this.handleInput("companyName")}
                 margin="normal"
                 required
-                autoFocus={(screenHeight > screenHeightBreakpoint)}
                 helperText={CompanyNameHelperText}
+                autoFocus={(screenHeight > screenHeightBreakpoint)}
               />
               <TextField
                 variant="outlined"
@@ -200,10 +235,9 @@ class Form extends Component {
             value={this.state.name}
             onChange={this.handleInput("name")}
             margin="normal"
-            variant="outlined"
             required
-            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
             helperText={NameHelperText}
+            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
           />
           <TextField
             variant="outlined"
@@ -211,7 +245,7 @@ class Form extends Component {
             select
             label={CcpaOrGdprText}
             className={classes.textField}
-            onChange={this.handleInput("requestType")}
+            onChange={this.handleInput("regulationType")}
             required
             defaultValue="GDPR"
             SelectProps={{

@@ -170,22 +170,22 @@ const Social = ({
   const emailSubject = intl.formatMessage({
     id: "socialEmailSubject",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data | Your Digital Rights",
+      "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights",
   });
   const emailBody = intl.formatMessage({
     id: "socialEmailBody",
     defaultMessage:
-      "You should check out yourdigitalrights.org, a free service which makes it easy to get organizations to erase your personal data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests.",
+      "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it.",
   });
   const twitterTitle = intl.formatMessage({
     id: "socialTwitterTitle",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org",
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org",
   });
   const facebookQuote = intl.formatMessage({
     id: "socialFacebookQuote",
     defaultMessage:
-      "Get thousands of organizations to erase your personal data, check out yourdigitalrights.org",
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org",
   });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 

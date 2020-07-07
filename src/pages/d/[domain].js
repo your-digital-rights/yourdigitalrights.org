@@ -40,8 +40,8 @@ class Org extends Component {
     if (!newOrg && !organization) return <Error statusCode={404} />;
 
     const Title = organization ? "Opt-out of " + organization.name + " | Your Digital Rights" : "Add new organzation | Your Digital Rights";
-    const Description = organization ? "Get " + organization.name + " to erase your personal data, send a GDPR or a CCPA request." :
-      "Get thousands of organizations to erase your personal data, send a GDPR or a CCPA request.";
+    const Description = organization ? "Find out what personal data " + organization.name + " have on you, and get them to delete it." :
+      "Find out what personal data thousands of organizations have on you, and get them to delete it.";
     const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url + "/": "https://" + DOMAIN + "/";
 
     return (
