@@ -113,7 +113,7 @@ class Index extends Component {
 
     // TODO: Make these string translatable
     const Title = "Your Digital Rights";
-    const Description = "Get thousands of organizations to erase your personal data, send GDPR and CCPA request.";
+    const Description = "Find out what personal data thousands of organizations have on you, and get them to delete it.";
     const Canonical = "https://" + DOMAIN + "/";
     const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
 

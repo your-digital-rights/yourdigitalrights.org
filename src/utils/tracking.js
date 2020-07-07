@@ -28,7 +28,7 @@ export default {
   },
 
   trackRequestComplete(domain, regulationType, requestType) {
-    let requestTypeText = (requestType == "DELETION") ? "Erasure Request" : "Access Request"
+    let requestTypeText = (requestType == "s") ? "Erasure Request" : "Access Request"
     this.trackEvent(
       requestTypeText,
       "Send " + regulationType + " Request",
