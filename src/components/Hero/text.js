@@ -11,6 +11,6 @@ export const SubtitleText = (
 export const IntroText = (
   <FormattedMessage
     id="intro"
-    defaultMessage="Many organizations collect and sell your personal data, often without your consent. Get organizations send you a copy of the data they have on you, or get them to delete it."
+    defaultMessage="Many organizations collect and sell your personal data, often without your consent. Get organizations to send you a copy of the data they have on you, or get them to delete it."
   />
 );
