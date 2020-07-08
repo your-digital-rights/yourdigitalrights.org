@@ -10,7 +10,6 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
-import debounce from "../../utils/debounce";
 import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
@@ -30,9 +29,6 @@ class Form extends Component {
     super(props);
 
     this.searchRef = React.createRef();
-    this.debounceSearch = debounce((search) => {
-      tracker.trackSearch(search);
-    }, 100);
   }
 
   focus() {
@@ -57,7 +53,12 @@ class Form extends Component {
   };
 
   onItemSelected = (org) => {
-    Router.push("/d/[domain]", "/d/" + org.url + "/")
+    if (org.url) {
+      tracker.trackSearch(org.url);
+      Router.push("/d/[domain]", "/d/" + org.url + "/")
+    } else {
+      Router.push("/d/[domain]", "/d/add/")
+    }
   }
 
   async searchCompanies(search) {
@@ -75,8 +76,6 @@ class Form extends Component {
     } else {
       searchResults = [];
     }
-
-    this.debounceSearch(search);
 
     this.setState({
       searchResults,
@@ -135,21 +134,26 @@ class Form extends Component {
 
     return (
       <MenuItem
+        button
         key={result.url}
         selected={isHighlighted}
         dense={true}
         {...itemProps}
       >
-          <img
-            role="presentation"
-            src={`https://api.faviconkit.com/${result.url}/24`}
-            width={24}
-            height={24}
-          />
-          <ListItemText
-            primary={`${result.name} (${result.url})`}
-            id={`search-result-${result.url}`}
-          />
+        <Link href="/d/[domain]" as="/d/result.url">
+          <>
+            <img
+              role="presentation"
+              src={`https://api.faviconkit.com/${result.url}/24`}
+              width={24}
+              height={24}
+            />
+            <ListItemText
+              primary={`${result.name} (${result.url})`}
+              id={`search-result-${result.url}`}
+            />
+          </>
+        </Link>
       </MenuItem>
     );
   };
@@ -193,7 +197,7 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add">
+                      <Link href="/d/[domain]" as="/d/add/">
                         <ListItemText>
                           <strong>
                             <FormattedMessage
