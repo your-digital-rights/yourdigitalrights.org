@@ -100,7 +100,7 @@ class Form extends Component {
     } else {
       tracking.trackRequestComplete(
         this.props.selectedCompany.url,
-        this.state.requlationType,
+        this.state.regulationType,
         this.state.requestType
       );
     }
@@ -145,6 +145,7 @@ class Form extends Component {
         }
       }
     );
+    tracking.trackAddNewOrg(this.state.companyName);
   }
 
   render() {
