@@ -181,10 +181,10 @@ class Form extends Component {
           elevation={10}
         >
           <Typography gutterBottom={true} variant={"body1"}>
-            {IntroText}
-          </Typography>
-          <Typography gutterBottom={true}>
-            {ReadMore}
+            <span data-nosnippet>
+              To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered.
+              Read more about Data Deletion on our <a target="_blank" href="/#faq">Frequently Asked Questions</a>.
+            </span>
           </Typography>
 
           <FormControl 

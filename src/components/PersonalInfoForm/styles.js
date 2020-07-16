@@ -22,4 +22,7 @@ export default (theme) => ({
     margin: `${theme.spacing.unit}px 0`,
     flexDirection: "row",
   },
+  introText: {
+    paddingBottom: "500px",
+  }
 });
