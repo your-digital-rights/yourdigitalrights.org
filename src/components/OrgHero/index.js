@@ -8,6 +8,7 @@ import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const Hero = ({ classes, selectedCompany }) => {
+  const companyName = selectedCompany.name;
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -26,23 +27,24 @@ const Hero = ({ classes, selectedCompany }) => {
                 id="pageTitle"
                 variant="display1"
                 color="inherit"
-                component="h1"
+                component="p"
                 className={classes.heading}
               >
                 {selectedCompany.name}
               </Typography>
               <Typography
                 color="inherit"
-                component="h2"
+                component="h1"
                 variant="display2"
                 gutterBottom={true}
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="Request deletion, or a copy of your data by sending a {ccpa} or a {gdpr} data request."
+                  defaultMessage="Request {companyName} to delete, or send a copy of your data by sending a {ccpa} or a {gdpr} data request."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
+                    companyName: companyName,
                   }}
                 />
               </Typography>
