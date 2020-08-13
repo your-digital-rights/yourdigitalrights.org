@@ -109,7 +109,7 @@ export const RequestTypeLabelText = (
 export const DeletionRequestLabelText = (
   <FormattedMessage
     id="deletionRequestLabelText"
-    defaultMessage="Delet my data"
+    defaultMessage="Delete my data"
   />
 );
 
