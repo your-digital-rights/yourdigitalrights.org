@@ -8,7 +8,7 @@ import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 const Hero = ({ classes, selectedCompany }) => {
-  const companyName = selectedCompany.name;
+  const companyName = selectedCompany ? selectedCompany.name : null;
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
