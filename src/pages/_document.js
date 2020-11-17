@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { FormattedMessage } from "react-intl";
 import JssProvider from "react-jss/lib/JssProvider";
 import React from "react";
@@ -55,7 +55,7 @@ export default class IntlDocument extends Document {
     const { deeplinkedCompany } = this.props;
 
     return (
-      <html>
+      <Html>
         <Head>
           <meta
             property="og:image"
@@ -69,11 +69,6 @@ export default class IntlDocument extends Document {
           <meta
             name="twitter:image"
             content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
-          />
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-            key="viewport"
           />
           <meta
             name="theme-color"
@@ -125,7 +120,7 @@ export default class IntlDocument extends Document {
           />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

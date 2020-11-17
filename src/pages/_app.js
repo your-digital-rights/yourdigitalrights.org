@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import CookieConsent from "react-cookie-consent";
 
 // Overide custom app to place cookie consent on every page.
@@ -5,6 +6,13 @@ import CookieConsent from "react-cookie-consent";
 export default function App({ Component, pageProps }) {
   return (
   	<>
+  	    <Head>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+            key="viewport"
+          />
+      	</Head>
 	  	<Component {...pageProps} />
 		<CookieConsent
 		  buttonText="Ok"

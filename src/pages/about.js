@@ -57,7 +57,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="missionBody1"
-              defaultMessage="yourdigitalrights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+              defaultMessage="YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
                 gdpr: (
                   <a href="https://www.eugdpr.org">
