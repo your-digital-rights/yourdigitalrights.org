@@ -10,7 +10,7 @@ if (typeof window !== "undefined" && window.ReactIntlLocaleData) {
   });
 }
 
-export default (Page) => {
+const PageWithIntl = Page => {
   const IntlPage = injectIntl(Page);
 
   return class PageWithIntl extends Component {
@@ -42,3 +42,5 @@ export default (Page) => {
     }
   };
 };
+
+export default PageWithIntl;
