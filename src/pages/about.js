@@ -95,6 +95,19 @@ const About = ({ classes }) => {
           </Typography>
           <br />
           <Typography gutterBottom={true} component="h2" variant="display2">
+            <FormattedMessage id="consciousDigital" defaultMessage="Who we are" />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="consciousDigital1"
+              defaultMessage="YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
+              values= {{
+                cd: <a href="https://consciousdigital.org/">Conscious Digital</a>
+              }}
+            />
+          </Typography>
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="display2">
             <FormattedMessage id="helpUs" defaultMessage="Interested in joining us?" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -107,7 +120,6 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />          
-          <br />
           <Typography gutterBottom={true} component="h2" variant="display2">
             <FormattedMessage id="funding" defaultMessage="Funding" />
           </Typography>
@@ -115,32 +127,6 @@ const About = ({ classes }) => {
             <FormattedMessage
               id="fundingBody1"
               defaultMessage="This project is self funded by it’s creators, and with the help of your donations."
-            />
-          </Typography>
-          <br />
-          <Typography gutterBottom={true} component="h2" variant="display2">
-            <FormattedMessage id="createdBy" defaultMessage="Created by" />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="createdByBody1"
-              defaultMessage="{linkedin} - Entrepreneur, investor, independent academic, digital activist."
-              values={{
-                linkedin: (
-                  <a href="https://www.linkedin.com/in/yoava">Yoav Aviram</a>
-                ),
-              }}
-            />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="createdByBody2"
-              defaultMessage="{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
-              values={{
-                linkedin: (
-                  <a href="https://www.linkedin.com/in/rafaprada">Rafa Prada</a>
-                ),
-              }}
             />
           </Typography>
           <br />
