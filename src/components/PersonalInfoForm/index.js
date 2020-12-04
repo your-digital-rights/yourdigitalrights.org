@@ -29,7 +29,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-//import mailgo, { mailgoDirectRender } from "mailgo";
+import mailgo, { mailgoDirectRender } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -64,10 +64,16 @@ class Form extends Component {
   }
 
   componentDidMount() {
-    //const MailgoConfig = {
-    //  dark: true
-    //};
-    //mailgo(MailgoConfig);
+    window.mailgoConfig = {
+      dark: true,
+      details: {
+        subject: false,
+        body: false,
+        to: false,
+        cc: false,
+        bcc: false,
+      },      
+    };
     if (typeof window !== "undefined") {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
@@ -96,9 +102,8 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    //console.log(this.renderMailTo());
-    //mailgoDirectRender(this.renderMailTo());
-    window.open(this.renderMailTo());
+    mailgoDirectRender(this.renderMailTo());
+    //window.open(this.renderMailTo());
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";

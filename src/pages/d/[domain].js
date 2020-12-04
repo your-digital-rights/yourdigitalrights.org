@@ -42,6 +42,7 @@ class Org extends Component {
     const Title = organization ? "Opt-out of " + organization.name + " | Your Digital Rights" : "Add new organzation | Your Digital Rights";
     const Description = organization ? "Find out what personal data " + organization.name + " have on you, and get them to delete it." :
       "Find out what personal data thousands of organizations have on you, and get them to delete it.";
+    "Request Whoodle Llc to delete, or send you a copy of your personal data by sending a CCPA or a GDPR data request"
     const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url + "/": "https://" + DOMAIN + "/d/add/";
 
     return (
