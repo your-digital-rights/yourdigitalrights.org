@@ -221,6 +221,15 @@ const About = ({ classes }) => {
               }}
             />
           </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="sponsorsBody5"
+              defaultMessage="{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
+              values={{
+                mailgo: <a href="https://mailgo.dev/">Mailgo</a>,
+              }}
+            />
+          </Typography>          
         </Paper>
       </div>
       <Social />
