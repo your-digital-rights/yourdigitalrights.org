@@ -45,7 +45,7 @@ class Org extends Component {
 
     if (!newOrg && !organization) return <Error statusCode={404} />;
 
-    const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Access Your Personal Data | YourDigitalRight.org" : "Send GDPR and CCPA Data Deletion and Access Requests | YourDigitalRight.org";
+    const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Get a Copy of Your Personal Data | YourDigitalRight.org" : "Send GDPR and CCPA Data Deletion and Access Requests | YourDigitalRight.org";
     const Description = organization ? "Request deletion of your account or a copy of your personal data from " + Capitalize(organization.url) + " quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy." :
       "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
     const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url + "/": "https://" + DOMAIN + "/d/add/";
