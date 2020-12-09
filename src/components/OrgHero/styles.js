@@ -26,6 +26,7 @@ export default (theme) => ({
   },
   heading: {
     maxWidth: "100%",
+    marginBottom: "5px",
     lineHeight: "1em",
     [theme.breakpoints.down("sm")]: {
       margin: "auto 0px 0px",
@@ -59,6 +60,13 @@ export default (theme) => ({
       display: "none",
     },
   },
+  titleLink: {
+    color: "#ffffff",
+    textDecoration: "none",
+    "&:hover": {
+      textDecoration: "underline",
+    },
+  },  
   introLink: {
     color: "#ffffff",
     textDecoration: "underline",

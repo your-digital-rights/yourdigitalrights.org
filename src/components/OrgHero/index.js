@@ -36,20 +36,17 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="p"
                 className={classes.heading}
               >
-                {selectedCompany.name}
+                <a
+                  rel="nofollow"
+                  target="new"
+                  href={`https://${selectedCompany.url}`}
+                  className={classes.titleLink}
+                >              
+                {Capitalize(selectedCompany.url)}
+                </a>
               </Typography>
               <Typography color="inherit">
-                Domain:{" "}
-                <strong>
-                  <a
-                    rel="nofollow"
-                    target="new"
-                    href={`https://${selectedCompany.url}`}
-                    className={classes.introLink}
-                  >
-                    {selectedCompany.url}
-                  </a>
-                </strong>
+                Organization: <strong>{selectedCompany.name}.</strong>
               </Typography>               
               <Typography
                 color="inherit"
@@ -61,7 +58,7 @@ const Hero = ({ classes, selectedCompany }) => {
                   id="orgTitle"
                   defaultMessage="{org} account deletion and data access requests"
                   values={{
-                    org: companyName
+                    org: Capitalize(selectedCompany.url)
                   }}                  
                 />
               </Typography>
@@ -72,22 +69,22 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="Send {ccpa} and {gdpr} requests for free, or find out more about {orgDetails}."
+                  defaultMessage="Send {ccpa} and {gdpr} requests for free, or find out more about privacy at {orgDetails}."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
                     companyName: Capitalize(selectedCompany.name),
                     about: <a className={classes.introLink} target="_blank" href='/about'>Find out more about us</a>,
-                    orgDetails: <a href="#about-org" className={classes.introLink}>privacy at {selectedCompany.name}</a>
+                    orgDetails: <a href="#about-org" className={classes.introLink}>{selectedCompany.name}</a>
                   }}
                 />
               </Typography>                           
               <Typography color="inherit">
                <FormattedMessage
                   id="orgDisclamer"
-                  defaultMessage="This service is not affiliated with {companyName} (read about {about})."
+                  defaultMessage="This service is not affiliated with {companyName} (see {about})."
                   values={{
-                    companyName: Capitalize(selectedCompany.url),
+                    companyName: Capitalize(selectedCompany.name),
                     about: <a className={classes.introLink} target="_blank" href='/about'>who we are</a>,
                   }}
                 />              
