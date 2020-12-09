@@ -1,12 +1,5 @@
 import { FormattedMessage } from "react-intl";
 
-export const IntroText = (
-      <FormattedMessage
-        id="IntroText"
-        defaultMessage="To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered."
-      />
-);
-
 export const ReadMore = (
       <FormattedMessage
         id="readMore"

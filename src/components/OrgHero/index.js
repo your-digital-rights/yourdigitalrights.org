@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText, MoreInfo, NewOrgTitle } from "./text";
+import NewOrgTitle from "./text";
 
 import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
@@ -7,8 +7,14 @@ import styles from "./styles";
 import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
+
+function Capitalize(str){
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+
 const Hero = ({ classes, selectedCompany }) => {
-  const companyName = selectedCompany ? selectedCompany.name : null;
+  const companyName = selectedCompany ? Capitalize(selectedCompany.name) : null;
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -24,29 +30,13 @@ const Hero = ({ classes, selectedCompany }) => {
           {selectedCompany && (
             <>
               <Typography
-                id="pageTitle"
+                id="orgName"
                 variant="display1"
                 color="inherit"
                 component="p"
                 className={classes.heading}
               >
                 {selectedCompany.name}
-              </Typography>
-              <Typography
-                color="inherit"
-                component="h1"
-                variant="display2"
-                gutterBottom={true}
-              >
-                <FormattedMessage
-                  id="orgSubTitle"
-                  defaultMessage="Request {companyName} to delete, or send a copy of your data by sending a {ccpa} or a {gdpr} data request."
-                  values={{
-                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
-                    companyName: companyName,
-                  }}
-                />
               </Typography>
               <Typography color="inherit">
                 Domain:{" "}
@@ -60,7 +50,37 @@ const Hero = ({ classes, selectedCompany }) => {
                     {selectedCompany.url}
                   </a>
                 </strong>
-              </Typography>              
+              </Typography>               
+              <Typography
+                color="inherit"
+                component="h1"
+                variant="display2"
+                gutterBottom={true}
+              >
+                <FormattedMessage
+                  id="orgTitle"
+                  defaultMessage="Request to delete your account or a copy of your personal data from {org} by sending a CCPA or a GDPR request."
+                  values={{
+                    org: companyName
+                  }}                  
+                />
+              </Typography>
+              <Typography
+                color="inherit"
+                component="h2"
+                gutterBottom={true}
+              >
+                <FormattedMessage
+                  id="orgSubTitle"
+                  defaultMessage="This is a free service which  is not affiliated with {companyName}. Find out more {about}."
+                  values={{
+                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
+                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
+                    companyName: Capitalize(selectedCompany.url),
+                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>,
+                  }}
+                />
+              </Typography>                           
               <Typography color="inherit">
                 <a href="#about-org" className={classes.introLink}>
                   <strong>Find out more about privacy at {selectedCompany.name}</strong>
@@ -78,7 +98,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                Delete or Access Your Data
+                Delete Your Account or Access Your Personal Data
             </Typography>
               <Typography
                 color="inherit"

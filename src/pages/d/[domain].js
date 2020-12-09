@@ -14,6 +14,12 @@ import withRoot from "../../withRoot";
 import { DOMAIN } from "../../utils/domain";
 import Error from "next/error";
 
+
+function Capitalize(str){
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+
 class Org extends Component {
   constructor(props) {
     super(props);
@@ -39,10 +45,9 @@ class Org extends Component {
 
     if (!newOrg && !organization) return <Error statusCode={404} />;
 
-    const Title = organization ? "Opt-out of " + organization.name + " | Your Digital Rights" : "Add new organzation | Your Digital Rights";
-    const Description = organization ? "Find out what personal data " + organization.name + " have on you, and get them to delete it." :
-      "Find out what personal data thousands of organizations have on you, and get them to delete it.";
-    "Request Whoodle Llc to delete, or send you a copy of your personal data by sending a CCPA or a GDPR data request"
+    const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Access Your Personal Data | YourDigitalRight.org" : "Send GDPR and CCPA Data Deletion and Access Requests | YourDigitalRight.org";
+    const Description = organization ? "Request deletion of your account or access your personal data from " + Capitalize(organization.url) + " quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy." :
+      "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
     const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url + "/": "https://" + DOMAIN + "/d/add/";
 
     return (

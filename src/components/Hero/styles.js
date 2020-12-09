@@ -44,11 +44,7 @@ export default (theme) => ({
   },
   introLink: {
     color: "white !important",
-    fontWeight: "bold",
-    textDecoration: "none",
-    "&:hover": {
-      textDecoration: "underline",
-    },
+    textDecoration: "underline",
   },
   subHeader: {
     

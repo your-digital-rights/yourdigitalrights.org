@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText, DataBrokers } from "./text";
+import { IntroText, headerText, titleText } from "./text";
 import Link from "next/link";
 
 import Paper from "@material-ui/core/Paper";
@@ -12,32 +12,29 @@ const Hero = ({ classes, onCompanySelected, children }) => {
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <div className={classes.heading}>
-          <h2 className={classes.title}>
-            <span style={visuallyHidden}>Your Digital Rights</span>
-          </h2>
           <Typography
             variant="display1"
             color="inherit"
             gutterBottom={true}
             component="p"
           >
-            {SubtitleText}
+            {titleText}
           </Typography>
-          <Typography color="inherit" className={classes.intro}>
-            {IntroText}
-          </Typography>
+          <Typography 
+            color="inherit" 
+            className={classes.intro}
+            component="h1"
+            variant="display2"
+            gutterBottom={true}
+          >
+            {headerText}
+          </Typography>                   
           <Typography
             color="inherit"
             className={classes.introEnd}
-            component="span"
+            component="h2"
           >
-            <p>
-              Don't know where to start? Opt out of these{" "}
-              <a className={classes.introLink} href="/data-brokers">
-                Data Brokers
-              </a>
-              .
-            </p>
+            Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a className={classes.introLink} href="/data-brokers">Data Brokers</a>.
           </Typography>
           {children}
         </div>
