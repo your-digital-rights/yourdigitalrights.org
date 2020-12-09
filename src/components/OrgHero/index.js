@@ -59,7 +59,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgTitle"
-                  defaultMessage="Request to delete your account or a copy of your personal data from {org} by sending a CCPA or a GDPR request."
+                  defaultMessage="{org} account deletion and data access requests"
                   values={{
                     org: companyName
                   }}                  
@@ -72,19 +72,25 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="This is a free service which  is not affiliated with {companyName}. Find out more {about}."
+                  defaultMessage="Send {ccpa} and {gdpr} requests for free, or find out more about {orgDetails}."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
-                    companyName: Capitalize(selectedCompany.url),
-                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>,
+                    companyName: Capitalize(selectedCompany.name),
+                    about: <a className={classes.introLink} target="_blank" href='/about'>Find out more about us</a>,
+                    orgDetails: <a href="#about-org" className={classes.introLink}>privacy at {selectedCompany.name}</a>
                   }}
                 />
               </Typography>                           
               <Typography color="inherit">
-                <a href="#about-org" className={classes.introLink}>
-                  <strong>Find out more about privacy at {selectedCompany.name}</strong>
-                </a>
+               <FormattedMessage
+                  id="orgDisclamer"
+                  defaultMessage="This service is not affiliated with {companyName} (read about {about})."
+                  values={{
+                    companyName: Capitalize(selectedCompany.url),
+                    about: <a className={classes.introLink} target="_blank" href='/about'>who we are</a>,
+                  }}
+                />              
               </Typography>
             </>
           )}

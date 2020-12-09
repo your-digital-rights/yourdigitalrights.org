@@ -22,9 +22,9 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
               variant={"display1"}
               className={classes.title}
               gutterBottom={true}
-              component={"h2"}
+              component={"h3"}
             >
-              About {selectedCompany.name}
+              Privacy at {selectedCompany.name}
             </Typography>
           </div>
           <div id="about-detail-text" className={classes.detailText}>
