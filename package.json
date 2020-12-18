@@ -2,6 +2,7 @@
   "name": "opt-out",
   "version": "1.0.0",
   "license": "GPL3",
+  "private": true,
   "scripts": {
     "install-selenium": "./node_modules/.bin/selenium-standalone install",
     "browser-test": "./node_modules/.bin/wdio ./test/wdio.conf.js",
