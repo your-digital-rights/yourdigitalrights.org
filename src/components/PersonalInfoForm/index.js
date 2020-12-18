@@ -101,8 +101,8 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    mailgoDirectRender(this.renderMailTo());
-    //window.open(this.renderMailTo());
+    //mailgoDirectRender(this.renderMailTo());
+    window.open(this.renderMailTo());
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
