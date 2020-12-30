@@ -40,7 +40,7 @@ ${data.name}
   },
 };
 
-const CCPA_SUBJECT = "Right to Access Request (Section 110 of The CCPA)";
+const CCPA_SUBJECT = "Right to Access Request (Section 110 of the CCPA)";
 const CCPA_TEXT = `To whom it may concern:
 
 I am writing to request access to personal information pursuant to Section 1798.110 of The California Consumer Privacy Act (CCPA). Please advise as to the following:
