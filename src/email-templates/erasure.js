@@ -40,7 +40,7 @@ ${data.name}
   },
 };
 
-const CCPA_SUBJECT = "Deletion Request (Section 105 of The CCPA)";
+const CCPA_SUBJECT = "Deletion Request (Section 105 of the CCPA)";
 const CCPA_TEXT = `To whom it may concern:
 
 I am writing to request that you delete all my personal information from your records pursuant to Section 1798.105 of The California Consumer Privacy Act (CCPA). 
