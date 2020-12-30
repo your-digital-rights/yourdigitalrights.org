@@ -90,6 +90,8 @@ export default class IntlDocument extends Document {
           />
           <link rel="icon" href="/images/favicon.ico" />
           <link rel="me" href="https://twitter.com/ConsciousDigit" />
+          <link rel="webmention" href="https://webmention.io/yourdigitalrights.org/webmention" />
+          <link rel="pingback" href="https://webmention.io/yourdigitalrights.org/xmlrpc" />
           <script
             dangerouslySetInnerHTML={{
               __html:
