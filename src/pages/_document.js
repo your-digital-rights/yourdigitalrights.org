@@ -89,7 +89,7 @@ export default class IntlDocument extends Document {
             href="/images/desktop.css"
           />
           <link rel="icon" href="/images/favicon.ico" />
-          <link rel="me" href="https://github.com/your-digital-rights" />
+          <link rel="me" href="https://twitter.com/ConsciousDigit" />
           <script
             dangerouslySetInnerHTML={{
               __html:
