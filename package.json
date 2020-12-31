@@ -17,6 +17,8 @@
     "clean": "rm -rf src/out && rm -rf src/.next && rm -rf ./next"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
     "@fortawesome/free-brands-svg-icons": "^5.9.0",
     "@fortawesome/free-solid-svg-icons": "^5.9.0",
@@ -39,6 +41,7 @@
     "react-jss": "^8.0.0",
     "react-share": "^2.3.1",
     "sitemap": "^2.1.0",
+    "swr": "^0.3.11",
     "universal-fetch": "^1.0.0"
   },
   "devDependencies": {
