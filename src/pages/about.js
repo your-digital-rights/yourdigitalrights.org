@@ -34,7 +34,7 @@ const styles = (theme) => ({
 const Title = "About Us | Your Digital Rights";
 const Description =
   "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
-const Canonical = "https://yourdigitalrights.org/about/";
+const Canonical = "https://yourdigitalrights.org/about";
 
 const About = ({ classes }) => {
   return (

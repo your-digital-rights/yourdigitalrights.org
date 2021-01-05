@@ -27,7 +27,7 @@ const styles = (theme) => ({
 const Title = "Privacy Policy | yourdigitalrights.org";
 const Description =
   "You own your data, we exist to help you control who has access to it.";
-const Canonical = "https://yourdigitalrights.org/privacy/";
+const Canonical = "https://yourdigitalrights.org/privacy";
 
 const Privacy = ({ classes }) => {
   return (

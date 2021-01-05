@@ -55,9 +55,9 @@ class Form extends Component {
   onItemSelected = (org) => {
     if (org.url) {
       tracker.trackSearch(org.url);
-      Router.push("/d/[domain]/", "/d/" + org.url + "/")
+      Router.push("/d/[domain]/", "/d/" + org.url)
     } else {
-      Router.push("/d/[domain]/", "/d/add/")
+      Router.push("/d/[domain]/", "/d/add")
     }
   }
 
