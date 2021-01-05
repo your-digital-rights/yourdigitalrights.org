@@ -16,7 +16,7 @@ export default async (req, res) => {
   const companies = await fetchData();
   companies.map((company) =>
     sitemap.add({
-      url: `https://yourdigitalrights.org/d/${company.url}/`,
+      url: `https://yourdigitalrights.org/d/${company.url}`,
       changefreq: "weekly",
       priority: 0.5,
     })

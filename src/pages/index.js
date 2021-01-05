@@ -114,7 +114,7 @@ class Index extends Component {
     // TODO: Make these string translatable
     const Title = "Own Your Data | YourDigitalRights.org";
     const Description = "Delete your account or access the personal data organizations have on you quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
-    const Canonical = "https://" + DOMAIN + "/";
+    const Canonical = "https://" + DOMAIN;
     const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
 
     return (

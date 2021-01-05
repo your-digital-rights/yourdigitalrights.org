@@ -87,7 +87,7 @@ const dataBrokers = [
 // TODO: Make these string translatable
 const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
 const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://yourdigitalrights.org/data-brokers/";
+const Canonical = "https://yourdigitalrights.org/data-brokers";
 
 const Brokers = ({ classes }) => {
   return (
@@ -129,7 +129,7 @@ const Brokers = ({ classes }) => {
                       <GridListTile
                         button
                         component="a"
-                        href={"/d/" + company.domain + "/"}
+                        href={"/d/" + company.domain}
                         key={company.domain}
                       >
                         <img
