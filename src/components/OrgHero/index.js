@@ -56,10 +56,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgTitle"
-                  defaultMessage="{org} account deletion and data access requests"
-                  values={{
-                    org: Capitalize(selectedCompany.url)
-                  }}                  
+                  defaultMessage="Request account deletion or a copy of your personal data."
                 />
               </Typography>
               <Typography
@@ -69,26 +66,16 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="Send {ccpa} and {gdpr} requests for free, or find out more about privacy at {orgDetails}."
+                  defaultMessage="Use this free and independent service to send {ccpa} and {gdpr} requests. Find out more {about}."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
                     gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
                     companyName: Capitalize(selectedCompany.name),
-                    about: <a className={classes.introLink} target="_blank" href='/about'>Find out more about us</a>,
+                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>,
                     orgDetails: <a href="#about-org" className={classes.introLink}>{selectedCompany.name}</a>
                   }}
                 />
               </Typography>                           
-              <Typography color="inherit">
-               <FormattedMessage
-                  id="orgDisclamer"
-                  defaultMessage="This service is not affiliated with {companyName} (see {about})."
-                  values={{
-                    companyName: Capitalize(selectedCompany.name),
-                    about: <a className={classes.introLink} target="_blank" href='/about'>who we are</a>,
-                  }}
-                />              
-              </Typography>
             </>
           )}
           {!selectedCompany && (
