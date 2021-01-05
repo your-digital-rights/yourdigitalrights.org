@@ -13,14 +13,6 @@ export default async (req, res) => {
     cacheTime: 1000 * 60 * 60, // 1 hour - cache purge period
   });
 
-  const companies = await fetchData();
-  companies.map((company) =>
-    sitemap.add({
-      url: `https://yourdigitalrights.org/d/${company.url}`,
-      changefreq: "weekly",
-      priority: 0.5,
-    })
-  );
 
   sitemap.add({
     url: "/about",
@@ -39,6 +31,15 @@ export default async (req, res) => {
     changefreq: "daily",
     priority: 1,
   });
+
+  const companies = await fetchData();
+  companies.map((company) =>
+    sitemap.add({
+      url: `https://yourdigitalrights.org/d/${company.url}`,
+      changefreq: "weekly",
+      priority: 0.5,
+    })
+  );
 
   return new Promise((resolve) => {
     sitemap.toXML((err, xml) => {
