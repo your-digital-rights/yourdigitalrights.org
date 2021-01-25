@@ -185,18 +185,18 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody1"
-              defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
+              defaultMessage="{bablic} - for providing a platform which allows us to translate and localize this website."
               values={{
-                crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>,
+                bablic: <a href="https://www.bablic.com">Bablic</a>,
               }}
-            />
-          </Typography>
+            />       
+          </Typography>   
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody2"
-              defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+              defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
               values={{
-                innocraft: <a href="https://innocraft.cloud">Innocraft</a>,
+                crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>,
               }}
             />
           </Typography>
@@ -211,13 +211,13 @@ const About = ({ classes }) => {
                 roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>,
               }}
             />
-          </Typography>
+          </Typography>          
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody4"
-              defaultMessage="{bablic} - for providing a platform which allows us to translate and localize this website."
+              defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
               values={{
-                bablic: <a href="https://www.bablic.com">Bablic</a>,
+                innocraft: <a href="https://innocraft.cloud">Innocraft</a>,
               }}
             />
           </Typography>
@@ -230,6 +230,15 @@ const About = ({ classes }) => {
               }}
             />
           </Typography>          
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="sponsorsBody6"
+              defaultMessage="{sws} - for helping us implement an SEO strategy."
+              values={{
+                sws: <a href="https://smoothwebsites.net/">Smooth Websites</a>,
+              }}
+            />
+          </Typography>           
         </Paper>
       </div>
       <Social />
