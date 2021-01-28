@@ -65,6 +65,15 @@ class Form extends Component {
   componentDidMount() {
     window.mailgoConfig = {
       dark: true,
+      showFooter: false,
+      tel: false,
+      sms: false,
+      actions: {
+        telegram: false,
+        whatsapp: false,
+        skype: false,
+        copy: false,
+      },
       details: {
         subject: false,
         body: false,
@@ -101,8 +110,8 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    //mailgoDirectRender(this.renderMailTo());
-    window.open(this.renderMailTo());
+    mailgoDirectRender(this.renderMailTo());
+    //window.open(this.renderMailTo());
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
