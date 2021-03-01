@@ -37,6 +37,7 @@ import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
+import {isMobile} from "react-device-detect";
 
 
 const screenHeightBreakpoint = 560;
@@ -63,8 +64,7 @@ class Form extends Component {
   }
 
   componentDidMount() {
-    window.mailgoConfig = {
-      mobile: false,
+    window.mailgoConfig = { 
       dark: true,
       showFooter: false,
       tel: false,
@@ -111,9 +111,14 @@ class Form extends Component {
 
   handleFormSubmit = e => {
     e.preventDefault();
-    mailgoDirectRender(this.renderMailTo());
-    //window.open(this.renderMailTo());
-
+    
+    if (isMobile) {
+      window.open(this.renderMailTo());
+    }
+    else {
+      mailgoDirectRender(this.renderMailTo());
+    }
+    
     this.setState({ hasSubmit: true });
     window.location = "#Form";
     if (this.state.companyEmail) {
