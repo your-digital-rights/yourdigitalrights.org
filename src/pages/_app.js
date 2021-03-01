@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import CookieConsent from "react-cookie-consent";
 import { CookieBanner } from '@palmabit/react-cookie-law';
 
 // Overide custom app to place cookie consent on every page.
@@ -27,9 +26,9 @@ export default function App({ Component, pageProps }) {
           onAcceptStatistics = {() => {_paq.push(['rememberCookieConsentGiven']);}}
           onDeclineStatistics = {() => {_paq.push(['forgetCookieConsentGiven']);}}
           styles={{
-            container: {
+            dialog: {
               fontFamily: 'Source Sans Pro',
-              background: 'rgba(52, 64, 81, 0.88) url(/cookie.png) 20px 100% no-repeat',
+              background: 'rgba(52, 64, 81, 0.88) 20px 100% no-repeat',
               backgroundSize: '30px 30px',
               backgroundColor: 'black',
               color: 'white',
