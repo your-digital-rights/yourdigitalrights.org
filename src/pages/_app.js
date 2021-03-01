@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }) {
 	  	<Component {...pageProps} />
       <div>
         <CookieBanner
-          message="This website uses cookies to enhance the user experience and for analytics."
+          message="This website uses cookies for multilingual support and for analytics."
           policyLink="/privacy"
           privacyPolicyLinkText="Privacy Policy"
           showPreferencesOption={false}
@@ -25,14 +25,14 @@ export default function App({ Component, pageProps }) {
           statisticsDefaultChecked={true}
           wholeDomain={true}
           onAcceptStatistics = {() => {_paq.push(['rememberCookieConsentGiven']);}}
-          onAcceptStatistics = {() => {_paq.push(['forgetCookieConsentGiven']);}}
+          onDeclineStatistics = {() => {_paq.push(['forgetCookieConsentGiven']);}}
           styles={{
             container: {
               fontFamily: 'Source Sans Pro',
-              height: 57,
               background: 'rgba(52, 64, 81, 0.88) url(/cookie.png) 20px 100% no-repeat',
               backgroundSize: '30px 30px',
-              backgroundColor: 'white',
+              backgroundColor: 'black',
+              color: 'white',
               fontSize: '15px',
               fontWeight: 600,
               position: 'fixed',
@@ -44,7 +44,24 @@ export default function App({ Component, pageProps }) {
             },            
             message: {
               fontColor: 'white',
-            }
+            },
+            policy: {
+              color: 'white', 
+            },
+            button: {
+              border: '1px solid white',
+              borderRadius: 4,
+              height: 32,
+              lineHeight: '32px',
+              background: 'transparent',
+              color: 'white',
+              fontSize: '14px',
+              fontWeight: 600,
+              opacity: 1,
+              right: 20,
+              marginTop: -18,
+              marginRight: "10px"
+            }            
           }}
         />
       </div>
