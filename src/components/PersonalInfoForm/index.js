@@ -64,6 +64,7 @@ class Form extends Component {
 
   componentDidMount() {
     window.mailgoConfig = {
+      mobile: false,
       dark: true,
       showFooter: false,
       tel: false,
