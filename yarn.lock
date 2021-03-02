@@ -4662,11 +4662,6 @@
     "merge-stream" "^2.0.0"
     "supports-color" "^6.1.0"
 
-"js-cookie@^2.2.1":
-  "integrity" "sha512-HvdH2LzI/EAZcUwA8+0nKNtWHqS+ZmijLA30RwZA0bo7ToCckjK5MkGhjED9KoRcXO6BaGI3I9UIzSA1FKFPOQ=="
-  "resolved" "https://registry.npmjs.org/js-cookie/-/js-cookie-2.2.1.tgz"
-  "version" "2.2.1"
-
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
   "resolved" "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
@@ -6136,13 +6131,6 @@
     "http-errors" "1.6.3"
     "iconv-lite" "0.4.23"
     "unpipe" "1.0.0"
-
-"react-cookie-consent@^5.1.2":
-  "integrity" "sha512-FsTLsypqJpg2VjBa6nMT0jNMrk+4C/TUQkRm6mtDFnR6HNPrzMCWi3OHRXVptyL4h8ZbJLk74qZcL0VDUS1+cQ=="
-  "resolved" "https://registry.npmjs.org/react-cookie-consent/-/react-cookie-consent-5.1.2.tgz"
-  "version" "5.1.2"
-  dependencies:
-    "js-cookie" "^2.2.1"
 
 "react-cookie@^4.0.3":
   "integrity" "sha512-cmi6IpdVgTSvjqssqIEvo779Gfqc4uPGHRrKMEdHcqkmGtPmxolGfsyKj95bhdLEKqMdbX8MLBCwezlnhkHK0g=="
