@@ -9,15 +9,23 @@ class Page {
   }
 
   visit() {
-    return browser.url(`http://localhost:3000${this.path}`);
+    return browser.url(`http://localhost:3001${this.path}`);
+  }
+
+  get acceptCookiesButton() {
+    return $(".react-cookie-law-accept-btn");
+  }
+
+  get companyName() {
+    return $("#orgName");
   }
 
   get headingText() {
-    return browser.getText("h1");
+    return $("h1").getText();
   }
 
   get mailTo() {
-    return browser.getAttribute("body", "data-open-url");
+    return $("<body>").getAttribute("data-open-url");
   }
 
   get parsedMailTo() {
@@ -166,7 +174,7 @@ class Page {
 class SocialShare {
   constructor(baseSelector) {
     this.baseSelector = baseSelector;
-    this.element = browser.element(`${this.baseSelector} .ss`);
+    this.element = $(`${this.baseSelector} .ss`);
   }
 
   get exists() {
