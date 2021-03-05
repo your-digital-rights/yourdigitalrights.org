@@ -24,12 +24,20 @@ class Page {
     return $("h1").getText();
   }
 
-  get mailTo() {
+  get mailgoModal() {
+    return $("#mailgo");
+  }
+
+  get mailgoModalOpenDefaultLink() {
+    return this.mailgoModal.$("a=open default");
+  }
+
+  get dataOpenUrlAttribute() {
     return $("<body>").getAttribute("data-open-url");
   }
 
   get parsedMailTo() {
-    const mailTo = this.mailToParser.parse(this.mailTo);
+    const mailTo = this.mailToParser.parse(this.dataOpenUrlAttribute);
     return {
       to: mailTo.to,
       subject: decodeURIComponent(mailTo.attributeKey.subject),
@@ -153,6 +161,14 @@ class Page {
     };
   }
 
+  acceptCookies() {
+    if (!this.acceptCookiesButton.isExisting()) {
+      return;
+    }
+
+    this.acceptCookiesButton.click();
+  }
+
   hasTracked(...row) {
     let { value: result } = browser.execute(function (row) {
       let paq = window._paq;
@@ -208,7 +224,7 @@ class Form {
   }
 
   get isInvalid() {
-    const exists = browser.element(`${this.baseSelector}:invalid`).value;
+    const exists = $(`${this.baseSelector}:invalid`).value;
     return !!exists;
   }
 
@@ -221,10 +237,10 @@ class Form {
   }
 
   selectElementByLabel(labelText) {
-    const id = browser
-      .element(this.baseSelector)
-      .getAttribute(`label*=${labelText}`, "for");
-    return $(`#${id}`);
+    const id = $(this.baseSelector)
+      .$(`label*=${labelText}`)
+      .getAttribute("for");
+    return $(this.baseSelector).$(`#${id}`);
   }
 
   fillIn(labelText, value) {
@@ -232,8 +248,8 @@ class Form {
   }
 
   select(labelText, text) {
-    let select = this.selectElementByLabel(labelText);
-    return select.selectByAttribute("value", text);
+    const select = this.selectElementByLabel(labelText);
+    return select.selectByVisibleText(text);
   }
 
   submit() {

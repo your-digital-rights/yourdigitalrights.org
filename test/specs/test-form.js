@@ -1,8 +1,10 @@
 import Page from "../pageobjects/page";
 
+/*
 browser.addCommand("isInvalid", function () {
   return false;
 });
+*/
 
 describe("When I visit the home page", () => {
   let page;
@@ -18,6 +20,7 @@ describe("When I visit the home page", () => {
       // window.Date.prototype.toLocaleDateString = function() {
       //   return "23/05/2022";
       // };
+
       window.open = function (url) {
         document.body.setAttribute("data-open-url", url);
       };
@@ -26,22 +29,25 @@ describe("When I visit the home page", () => {
         window._paq = [];
       }
     });
+
+    page.acceptCookies();
   });
 
-  describe("and select a organization", () => {
+  describe("and select an organization", () => {
     beforeEach(() => {
       page.searchForm.fillIn("Search for an organization", "Slack");
-      browser.waitForExist("div=Slack (slack.com)", 3000);
-      $("div=Slack (slack.com)").click();
+      const searchResult = $("div=Slack (slack.com)");
+      searchResult.waitForExist(3000);
+      searchResult.click();
     });
 
-    it("updates the url to contain a query query paramter", () => {
-      browser.getUrl().should.match(/\?company=slack.com/);
+    it("updates the url", () => {
+      browser.getUrl().should.match(/d\/slack.com/);
     });
 
     it("focuses the name field", () => {
-      page.personalInfoForm.selectElementByLabel("Your full name").hasFocus()
-        .should.be.true;
+      page.personalInfoForm.selectElementByLabel("Full name").isFocused().should
+        .be.true;
 
       page.hasTracked("trackSiteSearch", "Slack").should.be.true;
       page.hasTracked("trackEvent", "Selected Domain", "slack.com").should.be
@@ -50,30 +56,32 @@ describe("When I visit the home page", () => {
 
     describe("and fill in the form with invalid data and submit", () => {
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your full name", "");
+        page.personalInfoForm.fillIn("Full name", "");
         page.personalInfoForm.fillIn("Additional identifying information", "");
         page.personalInfoForm.submit();
       });
 
-      it("does not open a mailto url", () => {
-        (page.mailTo === null).should.be.true;
+      it("does not open a mailgo modal", () => {
+        page.mailgoModal.isExisting().should.be.false;
       });
     });
 
-    describe("and fill in the form with valid data and submit", () => {
+    describe("and fill in the form with valid data and submit and click open default", () => {
       let mailTo;
 
       beforeEach(() => {
-        page.personalInfoForm.fillIn("Your full name", "Rob");
+        page.personalInfoForm.fillIn("Full name", "Rob");
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.select(
-          "Choose regulation (GDPR or CCPA)",
-          "GDPR"
-        );
+        page.personalInfoForm.select("Regulation", "GDPR (European Union)");
+
         page.personalInfoForm.submit();
+
+        page.mailgoModal.isExisting().should.be.true;
+        page.mailgoModalOpenDefaultLink.click();
+
         mailTo = page.parsedMailTo;
       });
 
@@ -122,7 +130,7 @@ describe("When I visit the home page", () => {
           );
 
           page.thanksMessage.socialShare.linkedIn.click();
-          page.mailTo.should.contain("linkedin.com");
+          page.dataOpenUrlAttribute.should.contain("linkedin.com");
           page.hasTracked(
             "trackEvent",
             "Social Share",
@@ -131,7 +139,7 @@ describe("When I visit the home page", () => {
           ).should.be.true;
 
           page.thanksMessage.socialShare.twitter.click();
-          page.mailTo.should.contain("twitter.com");
+          page.dataOpenUrlAttribute.should.contain("twitter.com");
           page.hasTracked(
             "trackEvent",
             "Social Share",
@@ -140,7 +148,7 @@ describe("When I visit the home page", () => {
           ).should.be.true;
 
           page.thanksMessage.socialShare.facebook.click();
-          page.mailTo.should.contain("facebook.com");
+          page.dataOpenUrlAttribute.should.contain("facebook.com");
           page.hasTracked(
             "trackEvent",
             "Social Share",
