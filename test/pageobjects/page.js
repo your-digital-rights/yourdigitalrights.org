@@ -28,25 +28,16 @@ class Page {
     return $("#mailgo");
   }
 
-  get mailgoModalOpenDefaultLink() {
-    return this.mailgoModal.$("a=open default");
+  get mailgoModalOpenInGmailLink() {
+    return this.mailgoModal.$("a=open in Gmail");
   }
 
   get dataOpenUrlAttribute() {
     return $("<body>").getAttribute("data-open-url");
   }
 
-  get parsedMailTo() {
-    const mailTo = this.mailToParser.parse(this.dataOpenUrlAttribute);
-    return {
-      to: mailTo.to,
-      subject: decodeURIComponent(mailTo.attributeKey.subject),
-      body: decodeURIComponent(mailTo.attributeKey.body),
-    };
-  }
-
   get searchIsFocused() {
-    return browser.hasFocus("#companyNameSearch");
+    return $("#companyNameSearch").isFocused();
   }
 
   get searchResults() {
@@ -59,17 +50,17 @@ class Page {
     );
 
     return {
-      isExisting: () => overlay.isExisting(),
+      isDisplayed: () => overlay.isDisplayed(),
       close: () => overlay.$("button=Continue").click(),
     };
   }
 
   get thanksMessage() {
-    let thanks = $("#ThanksMessage");
+    const thanks = $("#ThanksMessage");
 
     return {
       get isVisible() {
-        return thanks.type !== "NoSuchElement";
+        return thanks.isDisplayed();
       },
       get title() {
         return thanks.$("#ThanksMessageTitle").getText();
@@ -78,12 +69,7 @@ class Page {
         return thanks.$("#ThanksMessageText").getText();
       },
       get btn() {
-        let btn = thanks.$("button");
-
-        return {
-          isVisible: btn.type !== "NoSuchElement",
-          click: btn.click,
-        };
+        return thanks.$("button");
       },
       get extensionChromeButton() {
         return thanks.$("#chromeExtension").getAttribute("href");
@@ -162,11 +148,22 @@ class Page {
   }
 
   acceptCookies() {
-    if (!this.acceptCookiesButton.isExisting()) {
+    if (!this.acceptCookiesButton.isDisplayed()) {
       return;
     }
 
     this.acceptCookiesButton.click();
+  }
+
+  parseMailToFromGmailUrl(gmailUrl) {
+    const urlParameter = new URLSearchParams(gmailUrl).get("url");
+
+    const mailTo = this.mailToParser.parse(urlParameter);
+    return {
+      to: mailTo.to,
+      subject: decodeURIComponent(mailTo.attributeKey.subject),
+      body: decodeURIComponent(mailTo.attributeKey.body),
+    };
   }
 
   hasTracked(...row) {
@@ -233,7 +230,7 @@ class Form {
   }
 
   get isVisible() {
-    return browser.isVisible(this.baseSelector);
+    return $(this.baseSelector).isDisplayed();
   }
 
   selectElementByLabel(labelText) {
