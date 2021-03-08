@@ -37,21 +37,22 @@ describe("When I visit the home page", () => {
     beforeEach(() => {
       page.searchForm.fillIn("Search for an organization", "Slack");
       const searchResult = $("div=Slack (slack.com)");
-      searchResult.waitForExist(3000);
+      searchResult.waitForDisplayed();
       searchResult.click();
     });
 
+    it("tracks site search", () => {
+      page.hasTracked("trackSiteSearch", "slack.com").should.be.true;
+    });
+
     it("updates the url", () => {
+      browser.waitUntil(() => browser.getUrl().indexOf("slack") > 1);
       browser.getUrl().should.match(/d\/slack.com/);
     });
 
     it("focuses the name field", () => {
       page.personalInfoForm.selectElementByLabel("Full name").isFocused().should
         .be.true;
-
-      page.hasTracked("trackSiteSearch", "Slack").should.be.true;
-      page.hasTracked("trackEvent", "Selected Domain", "slack.com").should.be
-        .true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
@@ -128,7 +129,7 @@ describe("When I visit the home page", () => {
             expect(page.thanksMessage.text).to.equal(
               "A deletion request email should have opened in your default email application. All you need to do is review it and click Send. Organization have one month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request."
             );
-            page.thanksMessage.btn.isVisible.should.be.true;
+            page.thanksMessage.btn.isDisplayed().should.be.true;
 
             page.thanksMessage.socialShare.exists.should.be.true;
             expect(page.thanksMessage.extensionChromeButton).to.equal(

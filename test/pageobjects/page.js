@@ -167,8 +167,8 @@ class Page {
   }
 
   hasTracked(...row) {
-    let { value: result } = browser.execute(function (row) {
-      let paq = window._paq;
+    const result = browser.execute(function (row) {
+      const paq = window._paq;
 
       return {
         result: paq.some(function (tracked) {
