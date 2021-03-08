@@ -177,7 +177,7 @@ const ThanksMessage = (props) => {
       <div className={classes.donate}>
         <Button
           variant="raised"
-          href="https://liberapay.com/ConsciousDigital/donate"
+          href="https://liberapay.com/YourDigitalRights.org/donate"
           color="primary"
           type="submit"
           className={classes.donateLPButton}
