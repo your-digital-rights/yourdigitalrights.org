@@ -139,10 +139,6 @@ const ThanksMessage = (props) => {
     props.hideThanks();
   };
 
-  const trackShare = (network) => {
-    tracking.trackSocialShare(network);
-  };
-
   return (
     <Paper
       component="div"
@@ -185,6 +181,7 @@ const ThanksMessage = (props) => {
           color="primary"
           type="submit"
           className={classes.donateLPButton}
+          onClick={tracking.trackDonate("Donation - Librapay", "Thank You Component")}
         >
           {DonateLiberapayButtonText}
         </Button>                          
@@ -194,6 +191,7 @@ const ThanksMessage = (props) => {
           color="primary"
           type="submit"
           className={classes.donateBTCButton}
+          onClick={tracking.trackDonate("Donation - BTC", "Thank You Component")}
         >
           {DonateBTCButtonText}
         </Button>
@@ -210,7 +208,7 @@ const ThanksMessage = (props) => {
           <a
             id="chromeExtension"
             target="_blank"
-            onClick={trackShare.bind(null, "extension-chrome-thankyou-page")}
+            onClick={tracking.trackWebExtension("Chrome Extension Click", "Thank You Component")}
             href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
           >
             <img
@@ -221,7 +219,7 @@ const ThanksMessage = (props) => {
           <a
             id="firefoxExtension"
             target="_blank"
-            onClick={trackShare.bind(null, "extension-firefox-thankyou-page")}
+            onClick={tracking.trackWebExtension("Firefox Extension Click", "Thank You Component")}
             href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
           >
             <img
