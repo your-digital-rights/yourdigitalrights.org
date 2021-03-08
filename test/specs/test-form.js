@@ -61,8 +61,8 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.submit();
       });
 
-      it("does not display the mailgo modal", () => {
-        page.mailgoModal.isDisplayed().should.be.false;
+      it("does not display the mail dialog", () => {
+        page.mailDialog.isDisplayed().should.be.false;
       });
     });
 
@@ -78,15 +78,15 @@ describe("When I visit the home page", () => {
         page.personalInfoForm.submit();
       });
 
-      it("displays the mailgo modal", () => {
-        page.mailgoModal.isDisplayed().should.be.true;
+      it("displays the mail dialog", () => {
+        page.mailDialog.isDisplayed().should.be.true;
       });
 
       describe("and click open in Gmail", () => {
         let mailTo;
 
         beforeEach(() => {
-          page.mailgoModalOpenInGmailLink.click();
+          page.mailDialogOpenInGmailLink.click();
 
           mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
         });
@@ -186,23 +186,21 @@ describe("When I visit the home page", () => {
       $("li*=Can't find an organization?").click();
     });
 
-    describe("and fill in the form with valid data and submit", () => {
+    describe("and fill in the form with valid data and submit and click open in Gmail", () => {
       let mailTo;
 
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organization name", "abcxyz123");
         page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
-        page.personalInfoForm.fillIn("Your full name", "Rob");
-        page.personalInfoForm.select(
-          "Choose regulation (GDPR or CCPA)",
-          "CCPA"
-        );
+        page.personalInfoForm.fillIn("Full name", "Rob");
+        page.personalInfoForm.select("Regulation", "CCPA (California)");
         page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
         );
         page.personalInfoForm.submit();
-        mailTo = page.parsedMailTo;
+        page.mailDialogOpenInGmailLink.click();
+        mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
       });
 
       it("opens a mailto url", () => {
@@ -231,17 +229,17 @@ describe("When I visit the home page", () => {
       page.navigationBar.linkThreeText.should.equal("Data Brokers");
       page.navigationBar.linkFourText.should.equal("Browser Extension");
       page.navigationBar.linkFiveText.should.equal("About");
-      page.navigationBar.linkButtonText.should.equal("Search Organizations");
+      page.navigationBar.linkButtonText.should.equal("SEARCH ORGANIZATIONS");
     });
 
     it("shows mobile navigation", () => {
-      browser.windowHandleSize({ width: 600, height: 823 });
+      browser.setWindowSize(600, 823);
       page.navigationBar.triggerMobileMenuToggle;
       page.navigationBar.linkOneMobText.should.equal("How it works");
       page.navigationBar.linkTwoMobText.should.equal("FAQ");
       page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
       page.navigationBar.linkFourMobText.should.equal("About");
-      page.navigationBar.linkFiveMobText.should.equal("Search Organizations");
+      page.navigationBar.linkFiveMobText.should.equal("SEARCH ORGANIZATIONS");
       page.navigationBar.linkSixMobText.should.equal("Browser Extension");
       page.navigationBar.linkSevenMobText.should.equal("Make a Donation");
       page.navigationBar.linkEightMobText.should.equal("Privacy Policy");

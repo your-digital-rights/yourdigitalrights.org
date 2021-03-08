@@ -13,7 +13,7 @@ class Page {
   }
 
   get acceptCookiesButton() {
-    return $(".react-cookie-law-accept-btn");
+    return $("button=Accept all");
   }
 
   get companyName() {
@@ -24,12 +24,12 @@ class Page {
     return $("h1").getText();
   }
 
-  get mailgoModal() {
-    return $("#mailgo");
+  get mailDialog() {
+    return $("[role=dialog]");
   }
 
-  get mailgoModalOpenInGmailLink() {
-    return this.mailgoModal.$("a=open in Gmail");
+  get mailDialogOpenInGmailLink() {
+    return this.mailDialog.$("a=open in Gmail");
   }
 
   get dataOpenUrlAttribute() {
@@ -93,56 +93,56 @@ class Page {
         return $("#nav");
       },
       get linkOneText() {
-        return browser.getText("nav li:nth-child(1)");
+        return $("nav li:nth-child(1)").getText();
       },
       get linkTwoText() {
-        return browser.getText("nav li:nth-child(2)");
+        return $("nav li:nth-child(2)").getText();
       },
       get linkThreeText() {
-        return browser.getText("nav li:nth-child(3)");
+        return $("nav li:nth-child(3)").getText();
       },
       get linkFourText() {
-        return browser.getText("nav li:nth-child(4)");
+        return $("nav li:nth-child(4)").getText();
       },
       get linkFiveText() {
-        return browser.getText("nav li:nth-child(5)");
+        return $("nav li:nth-child(5)").getText();
       },
       get linkButtonText() {
-        return browser.getText("nav > ul > a");
+        return $("nav > ul > a").getText();
       },
       get triggerMobileMenuToggle() {
-        browser.click("nav ul + img");
-        browser.pause(1000);
+        $("nav ul + img").click();
+        $(".mob-navbar ul li").waitForClickable();
       },
       get linkOneMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(1)");
+        return $(".mob-navbar ul li:nth-child(1)").getText();
       },
       get linkTwoMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(2)");
+        return $(".mob-navbar ul li:nth-child(2)").getText();
       },
       get linkThreeMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(3)");
+        return $(".mob-navbar ul li:nth-child(3)").getText();
       },
       get linkFourMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(4)");
+        return $(".mob-navbar ul li:nth-child(4)").getText();
       },
       get linkFiveMobText() {
-        return browser.getText(".mob-navbar ul > a > span");
+        return $(".mob-navbar ul > a > span").getText();
       },
       get linkSixMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(6)");
+        return $(".mob-navbar ul li:nth-child(6)").getText();
       },
       get linkSevenMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(7)");
+        return $(".mob-navbar ul li:nth-child(7)").getText();
       },
       get linkEightMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(8)");
+        return $(".mob-navbar ul li:nth-child(8)").getText();
       },
       get linkNineMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(9)");
+        return $(".mob-navbar ul li:nth-child(9)").getText();
       },
       get linkTenMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(10)");
+        return $(".mob-navbar ul li:nth-child(10)").getText();
       },
     };
   }
