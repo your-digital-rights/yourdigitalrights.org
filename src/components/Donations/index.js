@@ -29,7 +29,7 @@ const Donations = ({ classes, children }) => {
           <div className={classes.bitcoin}>
             <Button
               variant="raised"
-              href="https://liberapay.com/YourDigitalRights.org/donate"
+              href="https://liberapay.com/ConsciousDigital/donate"
               color="primary"
               type="submit"
               className={classes.donateLPButton}
