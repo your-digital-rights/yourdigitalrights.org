@@ -1,4 +1,4 @@
-import { IntroText, SubtitleText, DonateButtonText } from "./text";
+import { IntroText, SubtitleText, DonateBTCButtonText, DonateLiberapayButtonText } from "./text";
 
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
@@ -22,16 +22,25 @@ const Donations = ({ classes, onCompanySelected, children }) => {
           </Typography>
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
-          </Typography>
+          </Typography>          
           <div className={classes.bitcoin}>
+            <Button
+              variant="raised"
+              href="https://liberapay.com/YourDigitalRights.org/donate"
+              color="primary"
+              type="submit"
+              className={classes.donateLPButton}
+            >
+              {DonateLiberapayButtonText}
+            </Button>                          
             <Button
               variant="raised"
               href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
               color="primary"
               type="submit"
-              className={classes.donateButton}
+              className={classes.donateBTCButton}
             >
-              {DonateButtonText}
+              {DonateBTCButtonText}
             </Button>
           </div>
           {children}

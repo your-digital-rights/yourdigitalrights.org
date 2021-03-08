@@ -15,10 +15,13 @@ import {
   ThanksTitleText, 
   ThanksCopyPart1, 
   ThanksCopyPart2CCPA, 
-  ThanksCopyPart2GDPR, 
-  ThanksCopyPart3, 
+  ThanksCopyPart2GDPR,  
   FindCompanyText 
 } from "./text";
+import { 
+  DonateBTCButtonText, 
+  DonateLiberapayButtonText 
+} from "../Donations/text";
 
 
 const styles = (theme) => ({
@@ -86,6 +89,35 @@ const styles = (theme) => ({
       background: "#04487B",
     },
   },
+  
+  donate: {
+    textAlign: "center",
+    marginBottom: "30px",
+    marginTop: "50px",
+  },
+
+  donateBTCButton: {
+    marginTop: "-25px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    "&:hover": {
+      background: "#04487B",
+    },
+  },
+
+  donateLPButton: {
+    marginTop: "-25px",
+    marginRight: "10px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    "&:hover": {
+      background: "#04487B",
+    },
+  },
 
   startAgainBtn: {
     borderRadius: "24px 24px 24px 24px",
@@ -133,7 +165,7 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{ThanksCopyPart1}{replyTimeText}{ThanksCopyPart3}
+          {requestTypeText}{ThanksCopyPart1}{replyTimeText}
         </Typography>
         <Button
           variant="raised"
@@ -144,6 +176,26 @@ const ThanksMessage = (props) => {
           onClick={hide}
         >
           {FindCompanyText}
+        </Button>
+      </div>
+      <div className={classes.donate}>
+        <Button
+          variant="raised"
+          href="https://liberapay.com/YourDigitalRights.org/donate"
+          color="primary"
+          type="submit"
+          className={classes.donateLPButton}
+        >
+          {DonateLiberapayButtonText}
+        </Button>                          
+        <Button
+          variant="raised"
+          href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
+          color="primary"
+          type="submit"
+          className={classes.donateBTCButton}
+        >
+          {DonateBTCButtonText}
         </Button>
       </div>
       <div className={classes.extensionInfoContainer}>
