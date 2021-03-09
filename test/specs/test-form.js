@@ -127,7 +127,7 @@ describe("When I visit the home page", () => {
             page.thanksMessage.isVisible.should.be.true;
             expect(page.thanksMessage.title).to.equal("Thank You");
             expect(page.thanksMessage.text).to.equal(
-              "A deletion request email should have opened in your default email application. All you need to do is review it and click Send. Organization have one month to comply, and may ask you for additional information to help identify you in their systems. Check out our Frequently Asked Questions for information on what to do if you are unsatisfied with the way the organization has dealt with your request."
+              "A deletion request email should have opened in your email application. All you need to do is review it and click Send. Organization have one month to comply, and may ask you for additional information to help identify you in their systems."
             );
             page.thanksMessage.btn.isDisplayed().should.be.true;
 
