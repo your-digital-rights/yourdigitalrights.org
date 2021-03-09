@@ -25,8 +25,19 @@ export default (theme) => ({
       backgroundRepeat: "no-repeat",
     },
   },
-  donateButton: {
+  donateBTCButton: {
     marginTop: "-25px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    "&:hover": {
+      background: "#04487B",
+    },
+  },
+  donateLPButton: {
+    marginTop: "-25px",
+    marginRight: "10px",
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",

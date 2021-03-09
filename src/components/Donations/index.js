@@ -1,13 +1,16 @@
-import { IntroText, SubtitleText, DonateButtonText } from "./text";
-
-import Paper from "@material-ui/core/Paper";
+import { IntroText, SubtitleText, DonateBTCButtonText, DonateLiberapayButtonText } from "./text";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
-import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import tracking from "../../utils/tracking";
 
-const Donations = ({ classes, onCompanySelected, children }) => {
+const Donations = ({ classes, children }) => {
+
+  const trackDonate = (brower, sourcePage) => {
+    tracking.trackDonate(type, "Donation Component");
+  };
+
   return (
     <div className={classes.donate}>
       <div className={classes.container}>
@@ -22,16 +25,27 @@ const Donations = ({ classes, onCompanySelected, children }) => {
           </Typography>
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
-          </Typography>
+          </Typography>          
           <div className={classes.bitcoin}>
+            <Button
+              variant="raised"
+              href="https://liberapay.com/YourDigitalRights.org/donate"
+              color="primary"
+              type="submit"
+              className={classes.donateLPButton}
+              onClick={() => {trackDonate.bind(null, "Donation - Librapay");}}
+            >
+              {DonateLiberapayButtonText}
+            </Button>                          
             <Button
               variant="raised"
               href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
               color="primary"
               type="submit"
-              className={classes.donateButton}
+              className={classes.donateBTCButton}
+              onClick={() => {trackDonate.bind(null, "Donation - BTC");}}
             >
-              {DonateButtonText}
+              {DonateBTCButtonText}
             </Button>
           </div>
           {children}

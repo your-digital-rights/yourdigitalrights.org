@@ -15,10 +15,13 @@ import {
   ThanksTitleText, 
   ThanksCopyPart1, 
   ThanksCopyPart2CCPA, 
-  ThanksCopyPart2GDPR, 
-  ThanksCopyPart3, 
+  ThanksCopyPart2GDPR,  
   FindCompanyText 
 } from "./text";
+import { 
+  DonateBTCButtonText, 
+  DonateLiberapayButtonText 
+} from "../Donations/text";
 
 
 const styles = (theme) => ({
@@ -86,6 +89,35 @@ const styles = (theme) => ({
       background: "#04487B",
     },
   },
+  
+  donate: {
+    textAlign: "center",
+    marginBottom: "30px",
+    marginTop: "50px",
+  },
+
+  donateBTCButton: {
+    marginTop: "-25px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    "&:hover": {
+      background: "#04487B",
+    },
+  },
+
+  donateLPButton: {
+    marginTop: "-25px",
+    marginRight: "10px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    "&:hover": {
+      background: "#04487B",
+    },
+  },
 
   startAgainBtn: {
     borderRadius: "24px 24px 24px 24px",
@@ -105,10 +137,6 @@ const ThanksMessage = (props) => {
 
   let hide = () => {
     props.hideThanks();
-  };
-
-  const trackShare = (network) => {
-    tracking.trackSocialShare(network);
   };
 
   return (
@@ -133,7 +161,7 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{ThanksCopyPart1}{replyTimeText}{ThanksCopyPart3}
+          {requestTypeText}{ThanksCopyPart1}{replyTimeText}
         </Typography>
         <Button
           variant="raised"
@@ -144,6 +172,28 @@ const ThanksMessage = (props) => {
           onClick={hide}
         >
           {FindCompanyText}
+        </Button>
+      </div>
+      <div className={classes.donate}>
+        <Button
+          variant="raised"
+          href="https://liberapay.com/YourDigitalRights.org/donate"
+          color="primary"
+          type="submit"
+          className={classes.donateLPButton}
+          onClick={tracking.trackDonate("Donation - Librapay", "Thank You Component")}
+        >
+          {DonateLiberapayButtonText}
+        </Button>                          
+        <Button
+          variant="raised"
+          href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
+          color="primary"
+          type="submit"
+          className={classes.donateBTCButton}
+          onClick={tracking.trackDonate("Donation - BTC", "Thank You Component")}
+        >
+          {DonateBTCButtonText}
         </Button>
       </div>
       <div className={classes.extensionInfoContainer}>
@@ -158,7 +208,7 @@ const ThanksMessage = (props) => {
           <a
             id="chromeExtension"
             target="_blank"
-            onClick={trackShare.bind(null, "extension-chrome-thankyou-page")}
+            onClick={tracking.trackWebExtension("Chrome Extension Click", "Thank You Component")}
             href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
           >
             <img
@@ -169,7 +219,7 @@ const ThanksMessage = (props) => {
           <a
             id="firefoxExtension"
             target="_blank"
-            onClick={trackShare.bind(null, "extension-firefox-thankyou-page")}
+            onClick={tracking.trackWebExtension("Firefox Extension Click", "Thank You Component")}
             href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
           >
             <img

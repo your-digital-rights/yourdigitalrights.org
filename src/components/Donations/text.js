@@ -11,6 +11,10 @@ export const IntroText = (
   />
 );
 
-export const DonateButtonText = (
+export const DonateBTCButtonText = (
   <FormattedMessage id="Bitcoin" defaultMessage="Donate Bitcoin" />
+);
+
+export const DonateLiberapayButtonText = (
+  <FormattedMessage id="Liberapay" defaultMessage="Donate via Liberapay" />
 );

@@ -47,6 +47,10 @@ export default {
     this.trackEvent("Social Share", "Social Share From " + sourcePage, network);
   },
 
+  trackDonate(type, source) {
+    this.trackEvent("Donation Click", "Donation From " + source, type);
+  },
+
   trackWebExtension(browser, sourcePage) {
     this.trackEvent(
       "Click Web Extension",
