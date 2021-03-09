@@ -63,7 +63,7 @@ describe("When I visit the home page", () => {
       });
 
       it("does not display the mail dialog", () => {
-        page.mailDialog.isDisplayed().should.be.false;
+        page.mailDialog.isVisible.should.be.false;
       });
     });
 
@@ -80,14 +80,19 @@ describe("When I visit the home page", () => {
       });
 
       it("displays the mail dialog", () => {
-        page.mailDialog.isDisplayed().should.be.true;
+        page.mailDialog.isVisible.should.be.true;
+        page.mailDialog.openInGmail.isDisplayed().should.be.true;
+        page.mailDialog.openInOutlook.isDisplayed().should.be.true;
+        page.mailDialog.openInYahooMail.isDisplayed().should.be.true;
+        page.mailDialog.openDefault.isDisplayed().should.be.true;
+        page.mailDialog.copy.isDisplayed().should.be.true;
       });
 
       describe("and click open in Gmail", () => {
         let mailTo;
 
         beforeEach(() => {
-          page.mailDialogOpenInGmailLink.click();
+          page.mailDialog.openInGmail.click();
 
           mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
         });
@@ -200,7 +205,7 @@ describe("When I visit the home page", () => {
           "10 Downing Street"
         );
         page.personalInfoForm.submit();
-        page.mailDialogOpenInGmailLink.click();
+        page.mailDialog.openInGmail.click();
         mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
       });
 

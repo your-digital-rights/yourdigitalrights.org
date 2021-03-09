@@ -24,14 +24,6 @@ class Page {
     return $("h1").getText();
   }
 
-  get mailDialog() {
-    return $("[role=dialog]");
-  }
-
-  get mailDialogOpenInGmailLink() {
-    return this.mailDialog.$("a=open in Gmail");
-  }
-
   get dataOpenUrlAttribute() {
     return $("<body>").getAttribute("data-open-url");
   }
@@ -53,6 +45,10 @@ class Page {
       isDisplayed: () => overlay.isDisplayed(),
       close: () => overlay.$("button=Continue").click(),
     };
+  }
+
+  get mailDialog() {
+    return new MailDialog("[role=dialog]");
   }
 
   get thanksMessage() {
@@ -255,6 +251,36 @@ class Form {
 
   get submitButton() {
     return $("button");
+  }
+}
+
+class MailDialog {
+  constructor(baseSelector) {
+    this.baseSelector = baseSelector;
+  }
+
+  get isVisible() {
+    return $(this.baseSelector).isDisplayed();
+  }
+
+  get openInGmail() {
+    return $(this.baseSelector).$("a=open in Gmail");
+  }
+
+  get openInOutlook() {
+    return $(this.baseSelector).$("a=open in Outlook");
+  }
+
+  get openInYahooMail() {
+    return $(this.baseSelector).$("a=open in Yahoo Mail");
+  }
+
+  get openDefault() {
+    return $(this.baseSelector).$("a=open default");
+  }
+
+  get copy() {
+    return $(this.baseSelector).$("a=copy");
   }
 }
 
