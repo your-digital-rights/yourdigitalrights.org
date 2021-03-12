@@ -29,7 +29,10 @@ class Page {
   }
 
   get searchIsFocused() {
-    return $("#companyNameSearch").isFocused();
+    const element = $("#companyNameSearch");
+    return element.waitUntil(() => {
+      return element.isFocused();
+    });
   }
 
   get searchResults() {
