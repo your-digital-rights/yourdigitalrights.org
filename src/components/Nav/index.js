@@ -122,7 +122,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           classes={classes}
         />
         <a
-          href="/#topOfPage"
+          href="/#hero"
           className={classes.OptOutRedButton}
           tabIndex={0}
           onClick={() => {

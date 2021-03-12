@@ -7,9 +7,14 @@ import styles from "./styles";
 import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
-const Hero = ({ classes, onCompanySelected, children }) => {
+const Hero = ({ classes, onCompanySelected, children, onFocusHandler }) => {
   return (
-    <div className={classes.hero} id="hero">
+    <div
+      className={classes.hero}
+      id="hero"
+      tabIndex={0}
+      onFocus={onFocusHandler}
+    >
       <div className={classes.container}>
         <div className={classes.heading}>
           <Typography
@@ -20,15 +25,15 @@ const Hero = ({ classes, onCompanySelected, children }) => {
           >
             {titleText}
           </Typography>
-          <Typography 
-            color="inherit" 
+          <Typography
+            color="inherit"
             className={classes.intro}
             component="h1"
             variant="display2"
             gutterBottom={true}
           >
             {headerText}
-          </Typography>                   
+          </Typography>
           <Typography
             color="inherit"
             className={classes.introEnd}

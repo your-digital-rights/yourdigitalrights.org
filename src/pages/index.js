@@ -36,6 +36,7 @@ class Index extends Component {
     super(props);
 
     this.searchForm = React.createRef();
+    this.focusSearch = this.focusSearch.bind(this);
 
     this.state = {
       selectedCompany: null,
@@ -98,7 +99,6 @@ class Index extends Component {
     let state = Object.assign({}, this.state);
     state.selectedCompany = null;
     this.setState(state);
-    window.location.hash = "hero";
     this.searchForm.current.focus();
   }
 
@@ -146,13 +146,9 @@ class Index extends Component {
             <meta name="twitter:description" content={Description} />
           </Head>
           <input
-            id="topOfPage"
             className={classes.topOfPagePlaceholder}
-            onFocus={() => {
-              this.focusSearch();
-            }}
           />
-          <Hero>
+          <Hero onFocusHandler={this.focusSearch}>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
                 <SearchForm
