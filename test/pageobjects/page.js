@@ -91,8 +91,11 @@ class Page {
       get nav() {
         return $("#nav");
       },
+      get linkOne() {
+        return $("nav li:nth-child(1)");
+      },
       get linkOneText() {
-        return $("nav li:nth-child(1)").getText();
+        return this.linkOne.getText();
       },
       get linkTwoText() {
         return $("nav li:nth-child(2)").getText();
@@ -106,15 +109,21 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
+      get linkButton() {
+        return $("nav > ul > a");
+      },
       get linkButtonText() {
-        return $("nav > ul > a").getText();
+        return this.linkButton.getText();
       },
       get triggerMobileMenuToggle() {
         $("nav ul + img").click();
         $(".mob-navbar ul li").waitForClickable();
       },
+      get linkOneMob() {
+        return $(".mob-navbar ul li:nth-child(1)");
+      },
       get linkOneMobText() {
-        return $(".mob-navbar ul li:nth-child(1)").getText();
+        return this.linkOneMob.getText();
       },
       get linkTwoMobText() {
         return $(".mob-navbar ul li:nth-child(2)").getText();
@@ -125,8 +134,11 @@ class Page {
       get linkFourMobText() {
         return $(".mob-navbar ul li:nth-child(4)").getText();
       },
+      get linkFiveMob() {
+        return $(".mob-navbar ul > a");
+      },
       get linkFiveMobText() {
-        return $(".mob-navbar ul > a > span").getText();
+        return this.linkFiveMob.$("span").getText();
       },
       get linkSixMobText() {
         return $(".mob-navbar ul li:nth-child(6)").getText();
