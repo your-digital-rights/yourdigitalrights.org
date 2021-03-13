@@ -7,11 +7,11 @@ export default async function fetchData() {
   if (data == null) {
     data = fetch(url)
       .then((response) => {
-        if (response.status >= 400) {
-          throw new Error(`Bad response from ${url}`);
+        if (response.ok) {
+          return response.json();
         }
 
-        return response.json();
+        throw new Error(`HTTP error ${response.status} from ${url}`);
       })
       .then((json) => {
         return json;
