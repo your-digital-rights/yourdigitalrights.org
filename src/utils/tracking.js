@@ -1,5 +1,8 @@
 export default {
   get tracker() {
+    if (typeof window === 'undefined') {
+      return null;
+    }
     if (window._paq) {
       return window._paq;
     } else {
@@ -16,10 +19,12 @@ export default {
   },
 
   trackEvent(...args) {
+    console.log("tracking " + args[0]);
     this.track("trackEvent", ...args);
   },
 
   trackSearch(term) {
+    console.log("tracking search");
     this.track("trackSiteSearch", term);
   },
 
@@ -62,4 +67,9 @@ export default {
   trackSearchButtonLinkClick(device) {
     this.trackEvent("Search Button Link Click", device);
   },
+
+  trackWishlist() {
+    this.trackEvent("Wishlist Click");
+  },
+
 };

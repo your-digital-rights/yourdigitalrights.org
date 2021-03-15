@@ -72,9 +72,7 @@ const NavListDesktop = ({ classes }) => {
         href="/#hero"
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
-        onClick={() => {
-          trackSearchButtonLinkClick("desktop");
-        }}
+        onClick={() => trackSearchButtonLinkClick("desktop")}
       >
         <Typography component="span" className={classes.linkButton}>
           Search Organizations
