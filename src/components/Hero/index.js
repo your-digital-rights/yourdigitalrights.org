@@ -7,14 +7,9 @@ import styles from "./styles";
 import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
-const Hero = ({ classes, onCompanySelected, children, onFocusHandler }) => {
+const Hero = ({ classes, onCompanySelected, children }) => {
   return (
-    <div
-      className={classes.hero}
-      id="hero"
-      tabIndex={0}
-      onFocus={onFocusHandler}
-    >
+    <div className={classes.hero} id="hero" tabIndex={0}>
       <div className={classes.container}>
         <div className={classes.heading}>
           <Typography

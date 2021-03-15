@@ -9,13 +9,12 @@ import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
-import fetchSheetData from "../utils/sheets";
 import pageWithIntl from "../components/PageWithIntl";
 import tracking from "../utils/tracking";
 import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
-import Router from 'next/router'
+import Router from "next/router";
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -36,22 +35,13 @@ class Index extends Component {
     super(props);
 
     this.searchForm = React.createRef();
-    this.focusSearch = this.focusSearch.bind(this);
+    this.onSearchFormInputFocus = this.onSearchFormInputFocus.bind(this);
 
     this.state = {
       selectedCompany: null,
       screenWidth: null,
       showRedirectOverlay: false,
     };
-
-    if (typeof window !== "undefined" && window.location.hash !== "") {
-      let hash = window.location.hash;
-
-      setTimeout(() => {
-        window.location.hash = "";
-        window.location.hash = hash;
-      }, 500);
-    }
 
     if (
       typeof window !== "undefined" &&
@@ -62,18 +52,20 @@ class Index extends Component {
   }
 
   componentDidMount() {
-    if (Router.pathname =='/' && Router.query.company) {
+    if (Router.pathname == "/" && Router.query.company) {
       Router.push("/d/[domain]", "/d/" + Router.query.company + "/");
     }
     if (typeof window !== "undefined") {
       this.setState({ screenWidth: window.innerWidth });
       window.addEventListener("resize", this.onScreenResize);
+      window.addEventListener("hashchange", this.handleHashChange);
     }
   }
 
   componentWillUnmount() {
     if (typeof window !== "undefined") {
       window.removeEventListener("resize", this.onScreenResize);
+      window.removeEventListener("hashchange", this.handleHashChange);
     }
   }
 
@@ -92,15 +84,23 @@ class Index extends Component {
   onCompanySelected = (selectedCompany) => {
     if (selectedCompany.name) {
       tracking.trackSelectedCompany(selectedCompany.url);
-    } 
+    }
   };
 
-  focusSearch() {
+  searchFormInputFocusCondition = () => {
+    const result = window.location.hash === "#hero";
+    return result;
+  };
+
+  onSearchFormInputFocus() {
     let state = Object.assign({}, this.state);
     state.selectedCompany = null;
     this.setState(state);
-    this.searchForm.current.focus();
   }
+
+  handleHashChange = () => {
+    this.searchForm.current.triggerInputFocus();
+  };
 
   closeRedirectOverlay() {
     window.history.replaceState("home", "Home", "/");
@@ -113,7 +113,8 @@ class Index extends Component {
 
     // TODO: Make these string translatable
     const Title = "Own Your Data | YourDigitalRights.org";
-    const Description = "Delete your account or access the personal data organizations have on you quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
+    const Description =
+      "Delete your account or access the personal data organizations have on you quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
     const Canonical = "https://" + DOMAIN;
     const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
 
@@ -123,6 +124,8 @@ class Index extends Component {
           {screenWidth !== null && screenWidth < tabletBreakpoint && (
             <SearchForm
               innerRef={this.searchForm}
+              inputFocusCondition={this.searchFormInputFocusCondition}
+              onInputFocus={this.onSearchFormInputFocus}
             />
           )}
         </Nav>
@@ -133,26 +136,29 @@ class Index extends Component {
             <script
               type="application/ld+json"
               dangerouslySetInnerHTML={{
-                __html:            
-                '{"@context": "https://schema.org", "@type": "WebSite", "url": "' + Canonical + '", "potentialAction": { "@type": "SearchAction", "target": "' + searchURL + '", "query-input": "required name=search_term_string" }}'
+                __html:
+                  '{"@context": "https://schema.org", "@type": "WebSite", "url": "' +
+                  Canonical +
+                  '", "potentialAction": { "@type": "SearchAction", "target": "' +
+                  searchURL +
+                  '", "query-input": "required name=search_term_string" }}',
               }}
             />
             <link rel="canonical" href={Canonical} />
-            <link href="src/styles/hamburgers.css" rel="stylesheet" />
             <meta name="description" content={Description} />
             <meta property="og:description" content={Description} />
             <meta property="og:title" content={Title} />
             <meta name="twitter:title" content={Title} />
             <meta name="twitter:description" content={Description} />
           </Head>
-          <input
-            className={classes.topOfPagePlaceholder}
-          />
-          <Hero onFocusHandler={this.focusSearch}>
+          <input className={classes.topOfPagePlaceholder} />
+          <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
                 <SearchForm
                   innerRef={this.searchForm}
+                  inputFocusCondition={this.searchFormInputFocusCondition}
+                  onInputFocus={this.onSearchFormInputFocus}
                 />
               </div>
             )}
@@ -166,7 +172,7 @@ class Index extends Component {
             <RedirectOverlay close={() => this.closeRedirectOverlay()} />
           )}
         </div>
-      </div>         
+      </div>
     );
   }
 }
