@@ -175,6 +175,7 @@ class Form extends Component {
   }
 
   render() {
+    console.log(this.state.ipcountry);
     const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({

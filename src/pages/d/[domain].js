@@ -23,9 +23,14 @@ function Capitalize(str){
 class Org extends Component {
   constructor(props) {
     super(props);
+
+    this.state = { 
+      ipcountry: "",
+    };
   }
 
-  static async getInitialProps({ query, res }) {
+  static async getInitialProps({ req, query, res }) {
+    this.setState({ ipcountry: req.headers['host'] });
     if (query.domain) {
       if (query.domain == 'add') {
         return { newOrg: true }
@@ -67,6 +72,7 @@ class Org extends Component {
         />
         <PersonalInfoForm
           selectedCompany={organization}
+          ipcountry={this.state.ipcountry}
         />
         {organization && (
           <AboutOrg 
