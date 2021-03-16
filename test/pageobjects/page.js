@@ -16,6 +16,10 @@ class Page {
     return $("button=Accept all");
   }
 
+  get ownYourData() {
+    return $("span=Own Your Data");
+  }
+
   get companyName() {
     return $("#orgName");
   }

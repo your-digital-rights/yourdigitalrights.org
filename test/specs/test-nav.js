@@ -55,6 +55,22 @@ describe("When I visit the Home page in Desktop view", () => {
 
       page.searchIsFocused.should.be.true;
     });
+
+    describe("and click on the Own Your Data text", () => {
+      describe("and click the Search button on the navigation bar", () => {
+        it("focuses the Search input field", () => {
+          const page = setupPageInDesktopView("/", true);
+
+          page.navigationBar.linkButton.click();
+          browser.execute((element) => {
+            element.click();
+          }, page.ownYourData);
+          page.navigationBar.linkButton.click();
+
+          page.searchIsFocused.should.be.true;
+        });
+      });
+    });
   });
 });
 
@@ -79,6 +95,24 @@ describe("When I visit the Home page in Mobile view", () => {
       page.navigationBar.linkFiveMob.click();
 
       page.searchIsFocused.should.be.true;
+    });
+
+    describe("and click on the Own Your Data text", () => {
+      describe("and click the Search button on the navigation bar", () => {
+        it("focuses the Search input field", () => {
+          const page = setupPageInMobileView("/", true);
+
+          page.navigationBar.triggerMobileMenuToggle;
+          page.navigationBar.linkFiveMob.click();
+          browser.execute((element) => {
+            element.click();
+          }, page.ownYourData);
+          page.navigationBar.triggerMobileMenuToggle;
+          page.navigationBar.linkFiveMob.click();
+
+          page.searchIsFocused.should.be.true;
+        });
+      });
     });
   });
 });
