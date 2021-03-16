@@ -9,7 +9,7 @@ import { withStyles } from "@material-ui/core/styles";
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
-    <div className={classes.hero} id="hero" tabIndex={0}>
+    <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <div className={classes.heading}>
           <Typography

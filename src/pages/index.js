@@ -51,6 +51,16 @@ class Index extends Component {
     }
   }
 
+  searchFormWithProps = () => {
+    return (
+      <SearchForm
+        innerRef={this.searchForm}
+        inputFocusCondition={this.searchFormInputFocusCondition}
+        onInputFocus={this.onSearchFormInputFocus}
+      />
+    );
+  };
+
   componentDidMount() {
     if (Router.pathname == "/" && Router.query.company) {
       Router.push("/d/[domain]", "/d/" + Router.query.company + "/");
@@ -122,11 +132,7 @@ class Index extends Component {
       <div>
         <Nav>
           {screenWidth !== null && screenWidth < tabletBreakpoint && (
-            <SearchForm
-              innerRef={this.searchForm}
-              inputFocusCondition={this.searchFormInputFocusCondition}
-              onInputFocus={this.onSearchFormInputFocus}
-            />
+            <this.searchFormWithProps />
           )}
         </Nav>
         <div className={classes.mainContainer}>
@@ -155,11 +161,7 @@ class Index extends Component {
           <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
-                <SearchForm
-                  innerRef={this.searchForm}
-                  inputFocusCondition={this.searchFormInputFocusCondition}
-                  onInputFocus={this.onSearchFormInputFocus}
-                />
+                <this.searchFormWithProps />
               </div>
             )}
           </Hero>
