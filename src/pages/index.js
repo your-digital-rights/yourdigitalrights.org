@@ -15,6 +15,10 @@ import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
 import Router from "next/router";
+import {
+  searchOrganizationsUrlAnchor,
+  heroUrlAnchor,
+} from "../utils/urlAnchors";
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -34,7 +38,7 @@ class Index extends Component {
   constructor(props) {
     super(props);
 
-    this.searchForm = React.createRef();
+    this.searchFormRef = React.createRef();
     this.onSearchFormInputFocus = this.onSearchFormInputFocus.bind(this);
 
     this.state = {
@@ -51,10 +55,10 @@ class Index extends Component {
     }
   }
 
-  searchFormWithProps = () => {
+  searchForm = () => {
     return (
       <SearchForm
-        innerRef={this.searchForm}
+        innerRef={this.searchFormRef}
         inputFocusCondition={this.searchFormInputFocusCondition}
         onInputFocus={this.onSearchFormInputFocus}
       />
@@ -70,6 +74,7 @@ class Index extends Component {
       window.addEventListener("resize", this.onScreenResize);
       window.addEventListener("hashchange", this.handleHashChange);
     }
+    this.changeSearchOrganizationsHashToHeroHash();
   }
 
   componentWillUnmount() {
@@ -98,7 +103,7 @@ class Index extends Component {
   };
 
   searchFormInputFocusCondition = () => {
-    const result = window.location.hash === "#hero";
+    const result = window.location.hash === `#${heroUrlAnchor}`;
     return result;
   };
 
@@ -109,7 +114,14 @@ class Index extends Component {
   }
 
   handleHashChange = () => {
-    this.searchForm.current.triggerInputFocus();
+    this.changeSearchOrganizationsHashToHeroHash();
+    this.searchFormRef.current.triggerInputFocus();
+  };
+
+  changeSearchOrganizationsHashToHeroHash = () => {
+    if (window.location.hash === `#${searchOrganizationsUrlAnchor}`) {
+      window.location.hash = heroUrlAnchor;
+    }
   };
 
   closeRedirectOverlay() {
@@ -132,7 +144,7 @@ class Index extends Component {
       <div>
         <Nav>
           {screenWidth !== null && screenWidth < tabletBreakpoint && (
-            <this.searchFormWithProps />
+            <this.searchForm />
           )}
         </Nav>
         <div className={classes.mainContainer}>
@@ -161,7 +173,7 @@ class Index extends Component {
           <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
-                <this.searchFormWithProps />
+                <this.searchForm />
               </div>
             )}
           </Hero>
