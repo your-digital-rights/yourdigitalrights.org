@@ -299,4 +299,31 @@ class MailDialog {
   }
 }
 
+const setupPage = (path, acceptCookies) => {
+  const page = new Page({
+    path: path,
+  });
+
+  page.visit();
+
+  if (acceptCookies) {
+    page.acceptCookies();
+  }
+
+  return page;
+};
+
+const setupPageInDesktopView = (path, acceptCookies) => {
+  browser.setWindowSize(1200, 823);
+
+  return setupPage(path, acceptCookies);
+};
+
+const setupPageInMobileView = (path, acceptCookies) => {
+  browser.setWindowSize(600, 823);
+
+  return setupPage(path, acceptCookies);
+};
+
 export default Page;
+export { setupPageInDesktopView, setupPageInMobileView };
