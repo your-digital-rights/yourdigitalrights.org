@@ -1,11 +1,5 @@
 import Page from "../pageobjects/page";
 
-/*
-browser.addCommand("isInvalid", function () {
-  return false;
-});
-*/
-
 describe("When I visit the home page", () => {
   let page;
 
@@ -17,10 +11,6 @@ describe("When I visit the home page", () => {
     page.visit();
 
     browser.execute(function () {
-      // window.Date.prototype.toLocaleDateString = function() {
-      //   return "23/05/2022";
-      // };
-
       window.open = function (url) {
         document.body.setAttribute("data-open-url", url);
       };
@@ -197,7 +187,7 @@ describe("When I visit the home page", () => {
 
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organization name", "abcxyz123");
-        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123.com");
         page.personalInfoForm.fillIn("Full name", "Rob");
         page.personalInfoForm.select("Regulation", "CCPA (California)");
         page.personalInfoForm.fillIn(
@@ -210,9 +200,9 @@ describe("When I visit the home page", () => {
       });
 
       it("opens a mailto url", () => {
-        mailTo.to.should.be.equal("dpo@abcxyz123");
+        mailTo.to.should.be.equal("dpo@abcxyz123.com");
         mailTo.subject.should.be.equal(
-          "Deletion Request (Section 105 of The CCPA)"
+          "Deletion Request (Section 105 of the CCPA)"
         );
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
