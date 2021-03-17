@@ -30,7 +30,7 @@
     "express": "^4.16.2",
     "mailgo": "^0.11.3",
     "mailto-link": "^1.0.0",
-    "next": "^9.5",
+    "next": "^10.0.8",
     "node-gyp": "^6.1.0",
     "react": "^16.10",
     "react-device-detect": "^1.15.0",
@@ -39,6 +39,7 @@
     "react-jss": "^8.0.0",
     "react-share": "^2.3.1",
     "sitemap": "^2.1.0",
+    "swr": "^0.5.3",
     "universal-fetch": "^1.0.0"
   },
   "devDependencies": {
