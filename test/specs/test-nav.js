@@ -24,29 +24,8 @@ describe("When I visit the Home page in Desktop view", () => {
   //   ...
   // })
 
-  it("takes me to correct part of the page", () => {});
-});
+  // it("takes me to correct part of the page", () => {});
 
-describe("When I visit the Home page in Mobile view", () => {
-  it("shows mobile navigation", () => {
-    const page = setupPageInMobileView("/", true);
-
-    page.navigationBar.triggerMobileMenuToggle;
-
-    page.navigationBar.linkOneMobText.should.equal("How it works");
-    page.navigationBar.linkTwoMobText.should.equal("FAQ");
-    page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
-    page.navigationBar.linkFourMobText.should.equal("About");
-    page.navigationBar.linkFiveMobText.should.equal("SEARCH ORGANIZATIONS");
-    page.navigationBar.linkSixMobText.should.equal("Browser Extension");
-    page.navigationBar.linkSevenMobText.should.equal("Make a Donation");
-    page.navigationBar.linkEightMobText.should.equal("Privacy Policy");
-    page.navigationBar.linkNineMobText.should.equal("Contact Us");
-    page.navigationBar.linkTenMobText.should.equal("#ownyourdata");
-  });
-});
-
-describe("When I visit the Home page in Desktop view", () => {
   describe("and click the Search button on the navigation bar", () => {
     it("focuses the Search input field", () => {
       const page = setupPageInDesktopView("/", true);
@@ -72,14 +51,11 @@ describe("When I visit the Home page in Desktop view", () => {
       });
     });
   });
-});
 
-describe("When I visit the About page in Desktop view", () => {
-  describe("and click the Search button on the navigation bar", () => {
+  describe("and visit the #hero hash", () => {
     it("focuses the Search input field", () => {
-      const page = setupPageInDesktopView("/about", true);
-
-      page.navigationBar.linkButton.click();
+      setupPageInDesktopView("/", true);
+      const page = setupPageInDesktopView("/#hero", true);
 
       page.searchIsFocused.should.be.true;
     });
@@ -87,6 +63,23 @@ describe("When I visit the About page in Desktop view", () => {
 });
 
 describe("When I visit the Home page in Mobile view", () => {
+  it("shows mobile navigation", () => {
+    const page = setupPageInMobileView("/", true);
+
+    page.navigationBar.triggerMobileMenuToggle;
+
+    page.navigationBar.linkOneMobText.should.equal("How it works");
+    page.navigationBar.linkTwoMobText.should.equal("FAQ");
+    page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
+    page.navigationBar.linkFourMobText.should.equal("About");
+    page.navigationBar.linkFiveMobText.should.equal("SEARCH ORGANIZATIONS");
+    page.navigationBar.linkSixMobText.should.equal("Browser Extension");
+    page.navigationBar.linkSevenMobText.should.equal("Make a Donation");
+    page.navigationBar.linkEightMobText.should.equal("Privacy Policy");
+    page.navigationBar.linkNineMobText.should.equal("Contact Us");
+    page.navigationBar.linkTenMobText.should.equal("#ownyourdata");
+  });
+
   describe("and click the Search button on the navigation bar", () => {
     it("focuses the Search input field", () => {
       const page = setupPageInMobileView("/", true);
@@ -113,6 +106,27 @@ describe("When I visit the Home page in Mobile view", () => {
           page.searchIsFocused.should.be.true;
         });
       });
+    });
+  });
+
+  describe("and visit the #hero hash", () => {
+    it("focuses the Search input field", () => {
+      setupPageInMobileView("/", true);
+      const page = setupPageInMobileView("/#hero", true);
+
+      page.searchIsFocused.should.be.true;
+    });
+  });
+});
+
+describe("When I visit the About page in Desktop view", () => {
+  describe("and click the Search button on the navigation bar", () => {
+    it("focuses the Search input field", () => {
+      const page = setupPageInDesktopView("/about", true);
+
+      page.navigationBar.linkButton.click();
+
+      page.searchIsFocused.should.be.true;
     });
   });
 });

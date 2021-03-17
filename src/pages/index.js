@@ -39,7 +39,7 @@ class Index extends Component {
     super(props);
 
     this.searchFormRef = React.createRef();
-    this.onSearchFormInputFocus = this.onSearchFormInputFocus.bind(this);
+    this.beforeFocusOnSearchForm = this.beforeFocusOnSearchForm.bind(this);
 
     this.state = {
       selectedCompany: null,
@@ -55,32 +55,24 @@ class Index extends Component {
     }
   }
 
-  searchForm = () => {
-    return (
-      <SearchForm
-        innerRef={this.searchFormRef}
-        inputFocusCondition={this.searchFormInputFocusCondition}
-        onInputFocus={this.onSearchFormInputFocus}
-      />
-    );
-  };
-
   componentDidMount() {
     if (Router.pathname == "/" && Router.query.company) {
       Router.push("/d/[domain]", "/d/" + Router.query.company + "/");
     }
+
     if (typeof window !== "undefined") {
       this.setState({ screenWidth: window.innerWidth });
       window.addEventListener("resize", this.onScreenResize);
-      window.addEventListener("hashchange", this.handleHashChange);
+
+      window.addEventListener("hashchange", this.onLocationHashChange);
+      this.remapLocationHash();
     }
-    this.changeSearchOrganizationsHashToHeroHash();
   }
 
   componentWillUnmount() {
     if (typeof window !== "undefined") {
+      window.removeEventListener("hashchange", this.onLocationHashChange);
       window.removeEventListener("resize", this.onScreenResize);
-      window.removeEventListener("hashchange", this.handleHashChange);
     }
   }
 
@@ -102,31 +94,54 @@ class Index extends Component {
     }
   };
 
-  searchFormInputFocusCondition = () => {
-    const result = window.location.hash === `#${heroUrlAnchor}`;
-    return result;
+  onLocationHashChange = () => {
+    this.remapLocationHash();
+    this.triggerFocusOnSearchForm();
   };
 
-  onSearchFormInputFocus() {
-    let state = Object.assign({}, this.state);
-    state.selectedCompany = null;
-    this.setState(state);
-  }
+  remapLocationHash = () => {
+    if (!window) {
+      return;
+    }
 
-  handleHashChange = () => {
-    this.changeSearchOrganizationsHashToHeroHash();
-    this.searchFormRef.current.triggerInputFocus();
-  };
-
-  changeSearchOrganizationsHashToHeroHash = () => {
     if (window.location.hash === `#${searchOrganizationsUrlAnchor}`) {
       window.location.hash = heroUrlAnchor;
     }
   };
 
+  beforeFocusOnSearchForm() {
+    const shouldFocus = window && window.location.hash === `#${heroUrlAnchor}`;
+    if (!shouldFocus) {
+      return false;
+    }
+
+    let state = Object.assign({}, this.state);
+    state.selectedCompany = null;
+    this.setState(state);
+
+    return true;
+  }
+
+  triggerFocusOnSearchForm() {
+    if (!this.beforeFocusOnSearchForm()) {
+      return;
+    }
+
+    this.searchFormRef.current.focusInput();
+  }
+
   closeRedirectOverlay() {
     window.history.replaceState("home", "Home", "/");
     this.setState({ ...this.state, showRedirectOverlay: false });
+  }
+
+  renderSearchForm() {
+    return (
+      <SearchForm
+        innerRef={this.searchFormRef}
+        beforeFocus={this.beforeFocusOnSearchForm}
+      />
+    );
   }
 
   render() {
@@ -143,9 +158,9 @@ class Index extends Component {
     return (
       <div>
         <Nav>
-          {screenWidth !== null && screenWidth < tabletBreakpoint && (
-            <this.searchForm />
-          )}
+          {screenWidth !== null &&
+            screenWidth < tabletBreakpoint &&
+            this.renderSearchForm()}
         </Nav>
         <div className={classes.mainContainer}>
           <div className={classes.scrollableContainer}></div>
@@ -173,7 +188,7 @@ class Index extends Component {
           <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
               <div className={classes.desktopSearchbar}>
-                <this.searchForm />
+                {this.renderSearchForm()}
               </div>
             )}
           </Hero>

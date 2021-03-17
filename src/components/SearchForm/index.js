@@ -30,13 +30,7 @@ class Form extends Component {
     this.searchRef = React.createRef();
   }
 
-  triggerInputFocus() {
-    if (!this.props.inputFocusCondition()) {
-      return;
-    }
-
-    this.props.onInputFocus();
-
+  focusInput() {
     let state = Object.assign({}, this.state);
     state.companyNameSearch = "";
     this.setState(state);
@@ -44,7 +38,9 @@ class Form extends Component {
   }
 
   async componentDidMount() {
-    this.triggerInputFocus();
+    if (this.props.beforeFocus()) {
+      this.focusInput();
+    }
 
     const companies = fetchSheetData();
     this.setState({ companies });
