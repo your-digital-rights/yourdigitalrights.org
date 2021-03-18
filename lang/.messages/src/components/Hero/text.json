@@ -5,6 +5,10 @@
   },
   {
     "id": "intro",
-    "defaultMessage": "Many organizations collect and sell your personal data, often without your consent. This website makes it easy to get organizations to erase your data by automating the process of sending GDPR and CCPA erasure (right to be forgotten) requests."
+    "defaultMessage": "Many organizations collect and sell your personal data, often without your consent."
+  },
+  {
+    "id": "headerText",
+    "defaultMessage": "Get organizations to delete your account or send you a copy of your personal data."
   }
 ]

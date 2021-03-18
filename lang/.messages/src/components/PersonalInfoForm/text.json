@@ -1,11 +1,11 @@
 [
   {
-    "id": "IntroText",
-    "defaultMessage": "To send a request please fill in the following information which will help the organization locate your data. Submitting this form creates a request email which you can review and then send. This website does not keep any of the information entered."
-  },
-  {
     "id": "readMore",
     "defaultMessage": "Read more about Data Deletion on our {ReadMore}."
+  },
+  {
+    "id": "requestChoice",
+    "defaultMessage": "I would like to:"
   },
   {
     "id": "companyNameLabel",
@@ -25,7 +25,7 @@
   },
   {
     "id": "nameLabel",
-    "defaultMessage": "Your full name"
+    "defaultMessage": "Full name"
   },
   {
     "id": "nameHelper",
@@ -45,10 +45,22 @@
   },
   {
     "id": "ccpaOrGdpr",
-    "defaultMessage": "Choose regulation (GDPR or CCPA)"
+    "defaultMessage": "Regulation"
   },
   {
     "id": "ccpaOrGdprHelper",
     "defaultMessage": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+  },
+  {
+    "id": "requestTypeLabelText",
+    "defaultMessage": "Request type"
+  },
+  {
+    "id": "deletionRequestLabelText",
+    "defaultMessage": "Delete my data"
+  },
+  {
+    "id": "accessRequestLabelText",
+    "defaultMessage": "Send me a copy of my data"
   }
 ]

@@ -14,7 +14,7 @@ import {
   RequestChoice,
   RequestTypeLabelText,
   AccessRequestLabelText,
-  DeletionRequestLabelText
+  DeletionRequestLabelText,
 } from "./text";
 import { injectIntl } from "react-intl";
 import Button from "@material-ui/core/Button";
@@ -32,16 +32,15 @@ import mailgo, { mailgoDirectRender } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
-import FormLabel from '@material-ui/core/FormLabel';
-import Radio from '@material-ui/core/Radio';
-import RadioGroup from '@material-ui/core/RadioGroup';
-import {isMobile} from "react-device-detect";
-
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import FormControl from "@material-ui/core/FormControl";
+import FormLabel from "@material-ui/core/FormLabel";
+import Radio from "@material-ui/core/Radio";
+import RadioGroup from "@material-ui/core/RadioGroup";
+import { isMobile } from "react-device-detect";
+import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 
 const screenHeightBreakpoint = 560;
-
 
 class Form extends Component {
   constructor(props) {
@@ -56,7 +55,7 @@ class Form extends Component {
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
-      screenHeight: (typeof window !== 'undefined') ? window.innerHeight : null,
+      screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
     this.handlers = {};
@@ -64,7 +63,7 @@ class Form extends Component {
   }
 
   componentDidMount() {
-    window.mailgoConfig = { 
+    window.mailgoConfig = {
       dark: true,
       showFooter: false,
       tel: false,
@@ -81,7 +80,7 @@ class Form extends Component {
         to: false,
         cc: false,
         bcc: false,
-      },      
+      },
     };
     if (typeof window !== "undefined") {
       this.setState({ screenHeight: window.innerHeight });
@@ -99,9 +98,9 @@ class Form extends Component {
     this.setState({ screenHeight: window.innerHeight });
   };
 
-  handleInput = name => {
+  handleInput = (name) => {
     if (!this.handlers[name]) {
-      this.handlers[name] = event => {
+      this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
         return true;
       };
@@ -109,16 +108,15 @@ class Form extends Component {
     return this.handlers[name];
   };
 
-  handleFormSubmit = e => {
+  handleFormSubmit = (e) => {
     e.preventDefault();
-    
+
     if (isMobile) {
       window.open(this.renderMailTo());
-    }
-    else {
+    } else {
       mailgoDirectRender(this.renderMailTo());
     }
-    
+
     this.setState({ hasSubmit: true });
     window.location = "#Form";
     if (this.state.companyEmail) {
@@ -134,7 +132,7 @@ class Form extends Component {
 
   renderMailTo() {
     const { selectedCompany } = this.props;
-    const requestType  = this.state.requestType;
+    const requestType = this.state.requestType;
 
     const to = selectedCompany
       ? selectedCompany.email
@@ -144,18 +142,20 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
-    const subject = (requestType == "DELETION")
-      ? erasureEmail.subject({ ...this.state })
-      : sarEmail.subject({ ...this.state })
+    const subject =
+      requestType == "DELETION"
+        ? erasureEmail.subject({ ...this.state })
+        : sarEmail.subject({ ...this.state });
 
-    const body = (requestType == "DELETION")
-      ? erasureEmail.formatBody({...this.state, companyName })
-      : sarEmail.formatBody({...this.state, companyName })
+    const body =
+      requestType == "DELETION"
+        ? erasureEmail.formatBody({ ...this.state, companyName })
+        : sarEmail.formatBody({ ...this.state, companyName });
 
     return mailtoLink({
       to,
       subject: subject,
-      body: body
+      body: body,
     });
   }
 
@@ -167,8 +167,8 @@ class Form extends Component {
         body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
         headers: {
           Accept: "application/xml, text/xml, */*; q=0.01",
-          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
-        }
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        },
       }
     );
     tracking.trackAddNewOrg(this.state.companyName);
@@ -179,11 +179,11 @@ class Form extends Component {
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "ccpaOption",
-      defaultMessage: "CCPA (California)"
+      defaultMessage: "CCPA (California)",
     });
     const GdprOptionText = this.props.intl.formatMessage({
       id: "gdprOption",
-      defaultMessage: "GDPR (European Union)"
+      defaultMessage: "GDPR (European Union)",
     });
 
     let formToDisplay;
@@ -194,7 +194,9 @@ class Form extends Component {
           className="thanks-message"
           requestType={this.state.requestType}
           regulationType={this.state.regulationType}
-          hideThanks={() => window.location = "/"}
+          hideThanks={() =>
+            (window.location = `/#${searchOrganizationsUrlAnchor}`)
+          }
         />
       );
     } else {
@@ -208,14 +210,19 @@ class Form extends Component {
         >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
-              Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a target="_blank" href="/#faq">Frequently Asked Questions</a>.
+              Fill in the following form to creates a Data Request email which
+              you can then review and send. For more information read our{" "}
+              <a target="_blank" href="/#faq">
+                Frequently Asked Questions
+              </a>
+              .
             </span>
           </Typography>
-          <FormControl 
+          <FormControl
             variant="outlined"
-            required={true} 
-            focused={true} 
-            component="fieldset" 
+            required={true}
+            focused={true}
+            component="fieldset"
             className={classes.formControl}
           >
             <FormLabel>{RequestTypeLabelText}</FormLabel>
@@ -225,8 +232,16 @@ class Form extends Component {
               onChange={this.handleInput("requestType")}
               value={this.state.requestType}
             >
-              <FormControlLabel value="DELETION" control={<Radio />} label={DeletionRequestLabelText} />
-              <FormControlLabel value="ACCESS" control={<Radio />} label={AccessRequestLabelText} />
+              <FormControlLabel
+                value="DELETION"
+                control={<Radio />}
+                label={DeletionRequestLabelText}
+              />
+              <FormControlLabel
+                value="ACCESS"
+                control={<Radio />}
+                label={AccessRequestLabelText}
+              />
             </RadioGroup>
           </FormControl>
 
@@ -241,7 +256,7 @@ class Form extends Component {
                 margin="normal"
                 required
                 helperText={CompanyNameHelperText}
-                autoFocus={(screenHeight > screenHeightBreakpoint)}
+                autoFocus={screenHeight > screenHeightBreakpoint}
               />
               <TextField
                 variant="outlined"
@@ -265,7 +280,9 @@ class Form extends Component {
             margin="normal"
             required
             helperText={NameHelperText}
-            autoFocus={!!selectedCompany && (screenHeight > screenHeightBreakpoint)}
+            autoFocus={
+              !!selectedCompany && screenHeight > screenHeightBreakpoint
+            }
           />
           <TextField
             variant="outlined"
@@ -279,8 +296,8 @@ class Form extends Component {
             SelectProps={{
               native: true,
               MenuProps: {
-                className: classes.menu
-              }
+                className: classes.menu,
+              },
             }}
             helperText={CcpaOrGdprHelperText}
             margin="normal"
@@ -321,11 +338,7 @@ class Form extends Component {
       );
     }
 
-    return (
-      <div id="Form">
-        {formToDisplay}
-      </div>
-    );
+    return <div id="Form">{formToDisplay}</div>;
   }
 }
 export default injectIntl(withStyles(styles)(Form));
