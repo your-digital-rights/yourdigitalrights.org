@@ -29,12 +29,12 @@ const Overlay = (props) => {
             alt="yourdigitalrights.org"
             className={classes.logo}
           />
-          <Typography className={classes.heading} variant="display1">
+          <Typography className={classes.heading} variant="h4">
             {RedirectHeadingText}
           </Typography>
         </header>
 
-        <Typography component="p" className={classes.copy} variant="subheading">
+        <Typography component="p" className={classes.copy} variant="subtitle1">
           {RedirectText}
         </Typography>
 

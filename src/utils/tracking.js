@@ -19,12 +19,10 @@ export default {
   },
 
   trackEvent(...args) {
-    console.log("tracking " + args[0]);
     this.track("trackEvent", ...args);
   },
 
   trackSearch(term) {
-    console.log("tracking search");
     this.track("trackSiteSearch", term);
   },
 

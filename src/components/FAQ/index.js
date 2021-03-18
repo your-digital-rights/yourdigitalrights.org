@@ -1,9 +1,8 @@
 import Text, { Title } from "./text";
-
 import { Component } from "react";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import Accordion from "@material-ui/core/Accordion";
+import AccordionDetails from "@material-ui/core/AccordionActions";
+import AccordionSummary from "@material-ui/core/AccordionSummary";
 import Icon from "@material-ui/core/Icon";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
@@ -54,21 +53,21 @@ class FAQ extends Component {
     const { expanded } = this.state;
 
     return (
-      <ExpansionPanel
+      <Accordion
         key={index}
         expanded={expanded === `panel${index}`}
         onChange={this.handleChange(`panel${index}`)}
       >
-        <ExpansionPanelSummary
+        <AccordionSummary
           id={`faq-${index}`}
           expandIcon={<Icon>expand_more</Icon>}
         >
           <Typography variant={"body2"}>{heading}</Typography>
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        </AccordionSummary>
+        <AccordionDetails>
           {this.renderItemBody(body)}
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+        </AccordionDetails>
+      </Accordion>
     );
   };
 
@@ -77,7 +76,7 @@ class FAQ extends Component {
     return (
       <div className={classes.container} id="faq">
         <Typography
-          variant={"headline"}
+          variant={"h5"}
           className={classes.title}
           gutterBottom={true}
           component={"h2"}

@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import Social from "../components/Social";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
-import pageWithIntl from "../components/PageWithIntl";
-import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 
@@ -50,8 +48,8 @@ const About = ({ classes }) => {
       </Head>
       <Nav />
       <div className={classes.container}>
-        <Paper className={classes.inner}>
-          <Typography component="h1" variant="display1" gutterBottom={true}>
+        <Paper className={classes.inner} elevation={2} >
+          <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage id="aboutTitle" defaultMessage="Our mission" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -94,7 +92,7 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} component="h2" variant="display2">
+          <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="consciousDigital" defaultMessage="Who we are" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -107,7 +105,7 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} component="h2" variant="display2">
+          <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="helpUs" defaultMessage="Interested in joining us?" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -120,7 +118,7 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />          
-          <Typography gutterBottom={true} component="h2" variant="display2">
+          <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="funding" defaultMessage="Funding" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -130,7 +128,7 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} component="h2" variant="display2">
+          <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="contributors" defaultMessage="Contributors" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -173,7 +171,7 @@ const About = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} component="h2" variant="display2">
+          <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="sponsors" defaultMessage="Sponsors" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -248,4 +246,4 @@ const About = ({ classes }) => {
   );
 };
 
-export default withRoot(pageWithIntl(withStyles(styles)(About)));
+export default withStyles(styles)(About);

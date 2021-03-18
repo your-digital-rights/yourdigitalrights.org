@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import Social from "../components/Social";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
-import pageWithIntl from "../components/PageWithIntl";
-import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 
@@ -43,8 +41,8 @@ const Privacy = ({ classes }) => {
       </Head>
       <Nav />
       <div className={classes.container}>
-        <Paper className={classes.inner}>
-          <Typography component="h1" variant="display1" gutterBottom={true}>
+        <Paper className={classes.inner} elevation={2} >
+          <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="privacyTitle"
               defaultMessage="Privacy Policy"
@@ -60,7 +58,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage id="promise" defaultMessage="Our Promise" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -70,7 +68,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage
               id="personalData"
               defaultMessage="Personal Data That You Provide"
@@ -107,7 +105,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage
               id="nameAndAdditionalInfo"
               defaultMessage="Name and Additional Information (such as a Username, Customer ID or Account Number)"
@@ -120,7 +118,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage
               id="cookies"
               defaultMessage="Cookies and Tracking"
@@ -133,7 +131,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage id="usageData" defaultMessage="Usage Data" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -158,7 +156,7 @@ const Privacy = ({ classes }) => {
             </ul>
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body2">
+          <Typography gutterBottom={true} variant="body1">
             <FormattedMessage defaultMessage="Contact" id="contact" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -178,4 +176,4 @@ const Privacy = ({ classes }) => {
   );
 };
 
-export default withRoot(pageWithIntl(withStyles(styles)(Privacy)));
+export default withStyles(styles)(Privacy);

@@ -1,9 +1,9 @@
 import Fragment from "react";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { DOMAIN } from "../../utils/domain";
+import { withStyles } from '@material-ui/core/styles';
 
 const AboutOrg = ({ classes, selectedCompany, canonical }) => {
   var rb_owner_key = "e91628b9-67ed-11eb-8f71-040140774501";
@@ -18,7 +18,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
         <div id="about-org-text" className={classes.aboutText}>
           <div id="about-org-heading" className={classes.heading}>
             <Typography
-              variant={"display1"}
+              variant={"h4"}
               className={classes.title}
               gutterBottom={true}
               component={"h3"}
@@ -60,7 +60,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
             Do you have something to say about privacy at {selectedCompany.name}?
           </Typography>
           <div id="remarkbox-div">
-              <iframe id="remarkbox-iframe" src={rb_src} style={{ width: '100%' }} tabindex={0} scrolling="no" frameborder={0} title="Remarkbox"  ></iframe>
+              <iframe id="remarkbox-iframe" src={rb_src} style={{ width: '100%', overflow: 'hidden' }} tabIndex={0} scrolling="no" frameBorder={0} title="Remarkbox"  ></iframe>
           </div>
           <script src="https://my.remarkbox.com/static/js/iframe-resizer/iframeResizer.min.js" />
           <script

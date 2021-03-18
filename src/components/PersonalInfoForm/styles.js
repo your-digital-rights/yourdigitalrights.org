@@ -16,10 +16,10 @@ export default (theme) => ({
     borderRadius: "24px 24px 24px 24px",
   },
   formControl: {
-    marginTop: theme.spacing.unit,
+    marginTop: theme.spacing(1),
   },
   group: {
-    margin: `${theme.spacing.unit}px 0`,
+    margin: theme.spacing(1),
     flexDirection: "row",
   },
   introText: {

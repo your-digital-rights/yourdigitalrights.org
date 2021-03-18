@@ -179,7 +179,7 @@ class Form extends Component {
             highlightedIndex,
           }) => (
             <div>
-              <Paper className={classes.results}>
+              <Paper className={classes.results} elevation={2} >
                 {this.renderInput(getInputProps())}
                 {isOpen && (
                   <MenuList className={classes.list}>

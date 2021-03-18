@@ -1,8 +1,8 @@
 import { FormattedMessage, intlShape, injectIntl } from "react-intl";
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
+import Fab from '@material-ui/core/Fab';
 import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
@@ -24,7 +24,7 @@ const styles = (theme) => ({
     justifyContent: "center",
     textAlign: "center",
     alignItems: "baseline",
-    ...themeBg,
+    ...theme,
   },
 
   offsetThankYou: {
@@ -221,7 +221,7 @@ const Social = ({
               <Typography
                 className={classes.extensionHelpHeading}
                 component="h2"
-                variant="display2"
+                variant="h3"
                 color="inherit"
               >
                 Opt out directly from your browser
@@ -236,8 +236,8 @@ const Social = ({
                 websites you visit with a click of a button.
               </Typography>
               <div className={classes.extensionHelpButtonContainer}>
-                <Button
-                  variant="extendedFab"
+                <Fab
+                  variant="extended"
                   onClick={() => trackWebExtension("chrome-extension")}
                   aria-label="Google Chrome Extension"
                   className={classes.extensionDownloadButton}
@@ -250,9 +250,9 @@ const Social = ({
                     icon={faChrome}
                   />
                   Download it for Chrome
-                </Button>
-                <Button
-                  variant="extendedFab"
+                </Fab>
+                <Fab
+                  variant="extended"
                   onClick={trackWebExtension.bind(null, 'firefox-extension')}
                   aria-label="FireFox Extention"
                   className={classes.extensionDownloadButton}
@@ -268,7 +268,7 @@ const Social = ({
                     icon={faFirefox}
                   />
                   Download it for Firefox
-                </Button>
+                </Fab>
               </div>
             </div>
           </div>
@@ -276,7 +276,7 @@ const Social = ({
       )}
 
       <Typography
-        variant="title"
+        variant="h6"
         gutterBottom={true}
         className={classes.shareHeading}
       >

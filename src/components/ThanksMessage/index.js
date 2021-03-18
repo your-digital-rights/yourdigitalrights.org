@@ -156,7 +156,7 @@ const ThanksMessage = (props) => {
     >
       <div className={classes.content}>
         <Typography
-          variant="display1"
+          variant="h4"
           gutterBottom={true}
           className={classes.title}
           id="ThanksMessageTitle"
@@ -172,7 +172,7 @@ const ThanksMessage = (props) => {
           {requestTypeText}{ThanksCopyPart1}{replyTimeText}
         </Typography>
         <Button
-          variant="raised"
+          variant="contained"
           color="secondary"
           type="submit"
           className={classes.startAgainBtn}
@@ -184,7 +184,7 @@ const ThanksMessage = (props) => {
       </div>
       <div className={classes.donate}>
         <Button
-          variant="raised"
+          variant="contained"
           href="https://liberapay.com/YourDigitalRights.org/donate"
           color="primary"
           type="submit"
@@ -194,7 +194,7 @@ const ThanksMessage = (props) => {
           {DonateLiberapayButtonText}
         </Button>                          
         <Button
-          variant="raised"
+          variant="contained"
           href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
           color="primary"
           type="submit"

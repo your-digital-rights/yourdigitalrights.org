@@ -16,7 +16,7 @@ const Donations = ({ classes, children }) => {
       <div className={classes.container}>
         <div id="donations" className={classes.heading}>
           <Typography
-            variant="display1"
+            variant="h4"
             component="h2"
             className={classes.title}
             gutterBottom={true}
@@ -28,7 +28,7 @@ const Donations = ({ classes, children }) => {
           </Typography>          
           <div className={classes.buttons}>
             <Button
-              variant="raised"
+              variant="contained"
               href="https://liberapay.com/YourDigitalRights.org/donate"
               color="primary"
               type="submit"
@@ -38,7 +38,7 @@ const Donations = ({ classes, children }) => {
               {DonateLiberapayButtonText}
             </Button>                          
             <Button
-              variant="raised"
+              variant="contained"
               href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
               color="primary"
               type="submit"

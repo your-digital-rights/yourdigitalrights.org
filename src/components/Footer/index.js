@@ -116,27 +116,27 @@ const Footer = ({ classes }) => {
       </div>
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body1">
             <a href="https://consciousdigital.org" className={classes.DisclaimerLink}>
               Made by Conscious Digital
             </a>
           </Typography>          
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body1">
             <a href="/privacy" className={classes.DisclaimerLink}>
               Privacy Policy
             </a>
           </Typography>
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body1">
             <a href="/about" className={classes.DisclaimerLink}>
               Mission
             </a>
           </Typography>        
         </div>
         <div className={classes.innerRight}>
-          <Typography gutterBottom={true} color="textSecondary" variant="body2">
+          <Typography gutterBottom={true} color="textSecondary" variant="body1">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="body2">
+          <Typography color="textSecondary" variant="body1">
             {QueryText}
           </Typography>
         </div>

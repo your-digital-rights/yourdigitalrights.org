@@ -1,11 +1,11 @@
 import { container } from "../../styles/layout";
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 
 export default (theme) => ({
   hero: {
     color: "#005ea5",
     backgroundColor: theme.palette.primary.main,
-    ...themeBg,
+    ...theme,
     [theme.breakpoints.down("sm")]: {
       paddingTop: "50px",
     },

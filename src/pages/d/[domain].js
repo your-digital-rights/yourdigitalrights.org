@@ -8,9 +8,7 @@ import Nav from "../../components/Nav";
 import PersonalInfoForm from "../../components/PersonalInfoForm";
 import Social from "../../components/Social";
 import fetchSheetData from "../../utils/sheets";
-import pageWithIntl from "../../components/PageWithIntl";
 import tracking from "../../utils/tracking";
-import withRoot from "../../withRoot";
 import { DOMAIN } from "../../utils/domain";
 
 
@@ -62,7 +60,7 @@ export async function getStaticPaths() {
     params: { domain: org.url },
   }))
   
-  return { paths, fallback: 'blocking' }
+  return { paths: paths, fallback: 'blocking' }
 }
 
 export async function getStaticProps({ params }) {
@@ -78,15 +76,15 @@ export async function getStaticProps({ params }) {
   const organization = organizations.find(
     ({ url }) => params.domain === url
   );
-
+  console.log(organization.url);
   return {
-    notFound: organization.length == 0,
+    notFound: typeof organization == 'undefined',
     props: {
-      organizations,
+      organization,
     },
     revalidate: 60*60
   }
 }
 
 
-export default withRoot(pageWithIntl(Org));
+export default Org;
