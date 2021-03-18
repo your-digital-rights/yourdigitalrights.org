@@ -51,14 +51,13 @@ describe("When I visit the Home page in Desktop view", () => {
       });
     });
   });
+});
 
-  describe("and visit the #hero hash", () => {
-    it("focuses the Search input field", () => {
-      setupPageInDesktopView("/", true);
-      const page = setupPageInDesktopView("/#hero", true);
+describe("When I visit the Home page with #hero hash in Desktop view", () => {
+  it("focuses the Search input field", () => {
+    const page = setupPageInDesktopView("/#hero", false);
 
-      page.searchIsFocused.should.be.true;
-    });
+    page.searchIsFocused.should.be.true;
   });
 });
 
@@ -108,14 +107,13 @@ describe("When I visit the Home page in Mobile view", () => {
       });
     });
   });
+});
 
-  describe("and visit the #hero hash", () => {
-    it("focuses the Search input field", () => {
-      setupPageInMobileView("/", true);
-      const page = setupPageInMobileView("/#hero", true);
+describe("When I visit the Home page with #hero hash in Mobile view", () => {
+  it("focuses the Search input field", () => {
+    const page = setupPageInMobileView("/#hero", false);
 
-      page.searchIsFocused.should.be.true;
-    });
+    page.searchIsFocused.should.be.true;
   });
 });
 
