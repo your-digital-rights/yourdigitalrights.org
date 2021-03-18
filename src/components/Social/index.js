@@ -17,7 +17,6 @@ import { faChrome, faFirefox } from "@fortawesome/free-brands-svg-icons";
 const styles = (theme) => ({
   root: {
     backgroundColor: theme.palette.primary.main,
-
     padding: "50px",
     display: "flex",
     flexWrap: "wrap",
@@ -42,15 +41,6 @@ const styles = (theme) => ({
     marginBottom: "30px",
     flex: "1 0 100%",
     fontWeight: "bold",
-  },
-
-  btn: {
-    padding: "0 20px",
-    marginBottom: "20px",
-
-    "&:hover": {
-      opacity: "0.85",
-    },
   },
 
   extensionHelperPlaceHolder: {
@@ -130,7 +120,7 @@ const styles = (theme) => ({
     backgroundColor: "#eaeaea",
     color: "#585858",
     marginBottom: "20px",
-    fontSize: "1em",
+    fontSize: "16px",
     textTransform: "capitalize",
     fontWeight: "bold",
     textAlign: "left",
@@ -148,15 +138,6 @@ const styles = (theme) => ({
     marginLeft: "3px",
   },
 
-  extensionDownloadButtonLabel: {
-    fontSize: "1em",
-    fontWeight: "bold",
-  },
-
-  shareButton: {
-    padding: "0 10px",
-    cursor: "pointer",
-  },
 });
 
 const Social = ({

@@ -17,18 +17,22 @@ const theme = createMuiTheme({
     body2: {
       fontWeight: "600",
     },
-    display1: {
-      fontWeight: "900",
+    h4: {
+      fontWeight: "1000",
       color: "#005ea5",
       fontSize: "3rem",
+    },    
+    h6: {
+      fontSize: "1.31rem",
     },
-    display2: {
+    h3: {
       fontWeight: "600",
       color: "#005ea5",
       fontSize: "1.8rem",
       paddingTop: "10px",
+      lineHeight: "1.13333em",
     },
-    headline: {
+    h5: {
       fontWeight: "bold",
       color: "#005ea5",
     },
