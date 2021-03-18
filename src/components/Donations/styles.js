@@ -57,7 +57,7 @@ export default (theme) => ({
   title: {
     marginBottom: 0,
   },
-  bitcoin: {
+  buttons: {
     textAlign: "center",
     marginBottom: "30px",
     [theme.breakpoints.up("sm")]: {

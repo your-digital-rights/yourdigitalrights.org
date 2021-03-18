@@ -139,6 +139,14 @@ const ThanksMessage = (props) => {
     props.hideThanks();
   };
 
+  const trackDonate = (type) => {
+    tracking.trackDonate(type, "Thank You Component");
+  };
+
+  const trackWebExtension = (brower) => {
+    tracking.trackWebExtension(brower, "Thank You Component");
+  };
+
   return (
     <Paper
       component="div"
@@ -181,7 +189,7 @@ const ThanksMessage = (props) => {
           color="primary"
           type="submit"
           className={classes.donateLPButton}
-          onClick={tracking.trackDonate("Donation - Librapay", "Thank You Component")}
+          onClick={() => trackDonate("Donation - Librapay")}
         >
           {DonateLiberapayButtonText}
         </Button>                          
@@ -191,7 +199,7 @@ const ThanksMessage = (props) => {
           color="primary"
           type="submit"
           className={classes.donateBTCButton}
-          onClick={tracking.trackDonate("Donation - BTC", "Thank You Component")}
+          onClick={() => trackDonate("Donation - BTC")}
         >
           {DonateBTCButtonText}
         </Button>
@@ -208,7 +216,7 @@ const ThanksMessage = (props) => {
           <a
             id="chromeExtension"
             target="_blank"
-            onClick={tracking.trackWebExtension("Chrome Extension Click", "Thank You Component")}
+            onClick={() => trackWebExtension("chrome-extension")}
             href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
           >
             <img
@@ -219,7 +227,7 @@ const ThanksMessage = (props) => {
           <a
             id="firefoxExtension"
             target="_blank"
-            onClick={tracking.trackWebExtension("Firefox Extension Click", "Thank You Component")}
+            onClick={() => trackWebExtension("chrome-extension")}
             href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
           >
             <img

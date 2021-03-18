@@ -12,7 +12,10 @@ describe("When I visit the home page with a company parameter", () => {
   });
 
   it("displays the company name in the page", () => {
-    browser.isExisting("h1=Delete my data from Slack (slack.com)").should.be
-      .true;
+    page.companyName.waitForExist();
+    page.companyName.$("a").getText().should.equal("Slack.com");
+    page.headingText.should.equal(
+      "Request account deletion or a copy of your personal data."
+    );
   });
 });

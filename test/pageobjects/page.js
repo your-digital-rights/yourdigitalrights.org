@@ -9,28 +9,34 @@ class Page {
   }
 
   visit() {
-    return browser.url(`http://localhost:3000${this.path}`);
+    return browser.url(`http://localhost:3001${this.path}`);
+  }
+
+  get acceptCookiesButton() {
+    return $("button=Accept all");
+  }
+
+  get ownYourData() {
+    return $("span=Own Your Data");
+  }
+
+  get companyName() {
+    return $("#orgName");
   }
 
   get headingText() {
-    return browser.getText("h1");
+    return $("h1").getText();
   }
 
-  get mailTo() {
-    return browser.getAttribute("body", "data-open-url");
-  }
-
-  get parsedMailTo() {
-    const mailTo = this.mailToParser.parse(this.mailTo);
-    return {
-      to: mailTo.to,
-      subject: decodeURIComponent(mailTo.attributeKey.subject),
-      body: decodeURIComponent(mailTo.attributeKey.body),
-    };
+  get dataOpenUrlAttribute() {
+    return $("<body>").getAttribute("data-open-url");
   }
 
   get searchIsFocused() {
-    return browser.hasFocus("#companyNameSearch");
+    const element = $("#companyNameSearch");
+    return element.waitUntil(() => {
+      return element.isFocused();
+    });
   }
 
   get searchResults() {
@@ -43,17 +49,21 @@ class Page {
     );
 
     return {
-      isExisting: () => overlay.isExisting(),
+      isDisplayed: () => overlay.isDisplayed(),
       close: () => overlay.$("button=Continue").click(),
     };
   }
 
+  get mailDialog() {
+    return new MailDialog("[role=dialog]");
+  }
+
   get thanksMessage() {
-    let thanks = $("#ThanksMessage");
+    const thanks = $("#ThanksMessage");
 
     return {
       get isVisible() {
-        return thanks.type !== "NoSuchElement";
+        return thanks.isDisplayed();
       },
       get title() {
         return thanks.$("#ThanksMessageTitle").getText();
@@ -62,12 +72,7 @@ class Page {
         return thanks.$("#ThanksMessageText").getText();
       },
       get btn() {
-        let btn = thanks.$("button");
-
-        return {
-          isVisible: btn.type !== "NoSuchElement",
-          click: btn.click,
-        };
+        return thanks.$("button");
       },
       get extensionChromeButton() {
         return thanks.$("#chromeExtension").getAttribute("href");
@@ -90,64 +95,95 @@ class Page {
       get nav() {
         return $("#nav");
       },
+      get linkOne() {
+        return $("nav li:nth-child(1)");
+      },
       get linkOneText() {
-        return browser.getText("nav li:nth-child(1)");
+        return this.linkOne.getText();
       },
       get linkTwoText() {
-        return browser.getText("nav li:nth-child(2)");
+        return $("nav li:nth-child(2)").getText();
       },
       get linkThreeText() {
-        return browser.getText("nav li:nth-child(3)");
+        return $("nav li:nth-child(3)").getText();
       },
       get linkFourText() {
-        return browser.getText("nav li:nth-child(4)");
+        return $("nav li:nth-child(4)").getText();
       },
       get linkFiveText() {
-        return browser.getText("nav li:nth-child(5)");
+        return $("nav li:nth-child(5)").getText();
+      },
+      get linkButton() {
+        return $("nav > ul > a");
       },
       get linkButtonText() {
-        return browser.getText("nav > ul > a");
+        return this.linkButton.getText();
       },
       get triggerMobileMenuToggle() {
-        browser.click("nav ul + img");
-        browser.pause(1000);
+        $("nav ul + img").click();
+        $(".mob-navbar ul li").waitForClickable();
+      },
+      get linkOneMob() {
+        return $(".mob-navbar ul li:nth-child(1)");
       },
       get linkOneMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(1)");
+        return this.linkOneMob.getText();
       },
       get linkTwoMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(2)");
+        return $(".mob-navbar ul li:nth-child(2)").getText();
       },
       get linkThreeMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(3)");
+        return $(".mob-navbar ul li:nth-child(3)").getText();
       },
       get linkFourMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(4)");
+        return $(".mob-navbar ul li:nth-child(4)").getText();
+      },
+      get linkFiveMob() {
+        return $(".mob-navbar ul > a");
       },
       get linkFiveMobText() {
-        return browser.getText(".mob-navbar ul > a > span");
+        return this.linkFiveMob.$("span").getText();
       },
       get linkSixMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(6)");
+        return $(".mob-navbar ul li:nth-child(6)").getText();
       },
       get linkSevenMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(7)");
+        return $(".mob-navbar ul li:nth-child(7)").getText();
       },
       get linkEightMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(8)");
+        return $(".mob-navbar ul li:nth-child(8)").getText();
       },
       get linkNineMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(9)");
+        return $(".mob-navbar ul li:nth-child(9)").getText();
       },
       get linkTenMobText() {
-        return browser.getText(".mob-navbar ul li:nth-child(10)");
+        return $(".mob-navbar ul li:nth-child(10)").getText();
       },
     };
   }
 
+  acceptCookies() {
+    if (!this.acceptCookiesButton.isDisplayed()) {
+      return;
+    }
+
+    this.acceptCookiesButton.click();
+  }
+
+  parseMailToFromGmailUrl(gmailUrl) {
+    const urlParameter = new URLSearchParams(gmailUrl).get("url");
+
+    const mailTo = this.mailToParser.parse(urlParameter);
+    return {
+      to: mailTo.to,
+      subject: decodeURIComponent(mailTo.attributeKey.subject),
+      body: decodeURIComponent(mailTo.attributeKey.body),
+    };
+  }
+
   hasTracked(...row) {
-    let { value: result } = browser.execute(function (row) {
-      let paq = window._paq;
+    const result = browser.execute(function (row) {
+      const paq = window._paq;
 
       return {
         result: paq.some(function (tracked) {
@@ -166,7 +202,7 @@ class Page {
 class SocialShare {
   constructor(baseSelector) {
     this.baseSelector = baseSelector;
-    this.element = browser.element(`${this.baseSelector} .ss`);
+    this.element = $(`${this.baseSelector} .ss`);
   }
 
   get exists() {
@@ -200,7 +236,7 @@ class Form {
   }
 
   get isInvalid() {
-    const exists = browser.element(`${this.baseSelector}:invalid`).value;
+    const exists = $(`${this.baseSelector}:invalid`).value;
     return !!exists;
   }
 
@@ -209,14 +245,14 @@ class Form {
   }
 
   get isVisible() {
-    return browser.isVisible(this.baseSelector);
+    return $(this.baseSelector).isDisplayed();
   }
 
   selectElementByLabel(labelText) {
-    const id = browser
-      .element(this.baseSelector)
-      .getAttribute(`label*=${labelText}`, "for");
-    return $(`#${id}`);
+    const id = $(this.baseSelector)
+      .$(`label*=${labelText}`)
+      .getAttribute("for");
+    return $(this.baseSelector).$(`#${id}`);
   }
 
   fillIn(labelText, value) {
@@ -224,8 +260,8 @@ class Form {
   }
 
   select(labelText, text) {
-    let select = this.selectElementByLabel(labelText);
-    return select.selectByAttribute("value", text);
+    const select = this.selectElementByLabel(labelText);
+    return select.selectByVisibleText(text);
   }
 
   submit() {
@@ -237,4 +273,61 @@ class Form {
   }
 }
 
+class MailDialog {
+  constructor(baseSelector) {
+    this.baseSelector = baseSelector;
+  }
+
+  get isVisible() {
+    return $(this.baseSelector).isDisplayed();
+  }
+
+  get openInGmail() {
+    return $(this.baseSelector).$("a=open in Gmail");
+  }
+
+  get openInOutlook() {
+    return $(this.baseSelector).$("a=open in Outlook");
+  }
+
+  get openInYahooMail() {
+    return $(this.baseSelector).$("a=open in Yahoo Mail");
+  }
+
+  get openDefault() {
+    return $(this.baseSelector).$("a=open default");
+  }
+
+  get copy() {
+    return $(this.baseSelector).$("a=copy");
+  }
+}
+
+const setupPage = (path, acceptCookies) => {
+  const page = new Page({
+    path: path,
+  });
+
+  page.visit();
+
+  if (acceptCookies) {
+    page.acceptCookies();
+  }
+
+  return page;
+};
+
+const setupPageInDesktopView = (path, acceptCookies) => {
+  browser.setWindowSize(1200, 823);
+
+  return setupPage(path, acceptCookies);
+};
+
+const setupPageInMobileView = (path, acceptCookies) => {
+  browser.setWindowSize(600, 823);
+
+  return setupPage(path, acceptCookies);
+};
+
 export default Page;
+export { setupPageInDesktopView, setupPageInMobileView };

@@ -198,11 +198,11 @@ const Social = ({
     className: "ss-btn",
   };
 
-  const trackShare = (network, sourcePage) => {
+  const trackShare = (network) => {
     tracking.trackSocialShare(network, sourcePage);
   };
 
-  const trackWebExtension = (brower, sourcePage) => {
+  const trackWebExtension = (brower) => {
     tracking.trackWebExtension(brower, sourcePage);
   };
 
@@ -238,9 +238,7 @@ const Social = ({
               <div className={classes.extensionHelpButtonContainer}>
                 <Button
                   variant="extendedFab"
-                  onClick={() => {
-                    trackWebExtension.bind(null, "chrome-extension");
-                  }}
+                  onClick={() => trackWebExtension("chrome-extension")}
                   aria-label="Google Chrome Extension"
                   className={classes.extensionDownloadButton}
                   target="_blank"
@@ -255,9 +253,7 @@ const Social = ({
                 </Button>
                 <Button
                   variant="extendedFab"
-                  onClick={() => {
-                    trackWebExtension.bind(null, "firefox-extension");
-                  }}
+                  onClick={trackWebExtension.bind(null, 'firefox-extension')}
                   aria-label="FireFox Extention"
                   className={classes.extensionDownloadButton}
                   target="_blank"
@@ -292,7 +288,7 @@ const Social = ({
 
       <FacebookShareButton
         additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "facebook", sourcePage)}
+        beforeOnClick={trackShare.bind(null, "facebook")}
         url={
           "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" +
           sourcePage
@@ -304,7 +300,7 @@ const Social = ({
       </FacebookShareButton>
       <LinkedinShareButton
         additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "linkedin", sourcePage)}
+        beforeOnClick={trackShare.bind(null, "linkedin")}
         url={
           "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" +
           sourcePage
@@ -315,7 +311,7 @@ const Social = ({
       </LinkedinShareButton>
       <TwitterShareButton
         additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "twitter", sourcePage)}
+        beforeOnClick={trackShare.bind(null, "twitter")}
         url={
           "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" +
           sourcePage

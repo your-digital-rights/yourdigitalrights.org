@@ -13,15 +13,15 @@ describe("When I visit the home page with a optouteu redirect", () => {
   });
 
   it("it should show the redirect overlay", () => {
-    page.redirectOverlay.isExisting().should.be.true;
+    page.redirectOverlay.isDisplayed().should.be.true;
   });
 
   it("should close when clicking continue and remove query param", () => {
-    page.redirectOverlay.isExisting().should.be.true;
+    page.redirectOverlay.isDisplayed().should.be.true;
 
     page.redirectOverlay.close();
 
-    page.redirectOverlay.isExisting().should.be.false;
+    page.redirectOverlay.isDisplayed().should.be.false;
 
     browser.getUrl().should.not.contain("?source=optouteu");
   });

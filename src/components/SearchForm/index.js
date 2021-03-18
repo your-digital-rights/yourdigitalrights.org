@@ -14,9 +14,8 @@ import fetchSheetData from "../../utils/sheets";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import Link from 'next/link'
-import Button from '@material-ui/core/Button';
-import Router from 'next/router'
+import Link from "next/link";
+import Router from "next/router";
 
 class Form extends Component {
   state = {
@@ -31,7 +30,7 @@ class Form extends Component {
     this.searchRef = React.createRef();
   }
 
-  focus() {
+  focusInput() {
     let state = Object.assign({}, this.state);
     state.companyNameSearch = "";
     this.setState(state);
@@ -39,6 +38,10 @@ class Form extends Component {
   }
 
   async componentDidMount() {
+    if (this.props.beforeFocus()) {
+      this.focusInput();
+    }
+
     const companies = fetchSheetData();
     this.setState({ companies });
     await companies;
@@ -55,11 +58,11 @@ class Form extends Component {
   onItemSelected = (org) => {
     if (org.url) {
       tracker.trackSearch(org.url);
-      Router.push("/d/[domain]/", "/d/" + org.url + "/")
+      Router.push("/d/[domain]/", "/d/" + org.url + "/");
     } else {
-      Router.push("/d/[domain]/", "/d/add/")
+      Router.push("/d/[domain]/", "/d/add/");
     }
-  }
+  };
 
   async searchCompanies(search) {
     let searchResults = [];
@@ -163,7 +166,7 @@ class Form extends Component {
     return (
       <form id="searchForm" className={classes.form}>
         <Downshift
-          onSelect={this.onItemSelected} 
+          onSelect={this.onItemSelected}
           itemToString={(result) => result && result.name}
           defaultHighlightedIndex={0}
         >

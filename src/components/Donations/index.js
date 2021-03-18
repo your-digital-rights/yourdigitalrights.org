@@ -7,7 +7,7 @@ import tracking from "../../utils/tracking";
 
 const Donations = ({ classes, children }) => {
 
-  const trackDonate = (brower, sourcePage) => {
+  const trackDonate = (type) => {
     tracking.trackDonate(type, "Donation Component");
   };
 
@@ -26,14 +26,14 @@ const Donations = ({ classes, children }) => {
           <Typography color="inherit" className={classes.intro}>
             {IntroText}
           </Typography>          
-          <div className={classes.bitcoin}>
+          <div className={classes.buttons}>
             <Button
               variant="raised"
               href="https://liberapay.com/YourDigitalRights.org/donate"
               color="primary"
               type="submit"
               className={classes.donateLPButton}
-              onClick={() => {trackDonate.bind(null, "Donation - Librapay");}}
+              onClick={() => trackDonate("Donation - Librapay")}
             >
               {DonateLiberapayButtonText}
             </Button>                          
@@ -43,7 +43,7 @@ const Donations = ({ classes, children }) => {
               color="primary"
               type="submit"
               className={classes.donateBTCButton}
-              onClick={() => {trackDonate.bind(null, "Donation - BTC");}}
+              onClick={() => trackDonate("Donation - BTC")}
             >
               {DonateBTCButtonText}
             </Button>

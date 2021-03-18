@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
 import styles from "./styles";
+import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 
 const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
@@ -69,12 +70,10 @@ const NavListDesktop = ({ classes }) => {
       />
 
       <a
-        href="/#hero"
+        href={`/#${searchOrganizationsUrlAnchor}`}
         className={classes.OptOutRedButtonDesktop}
         tabIndex={0}
-        onClick={() => {
-          trackSearchButtonLinkClick("desktop");
-        }}
+        onClick={() => trackSearchButtonLinkClick("desktop")}
       >
         <Typography component="span" className={classes.linkButton}>
           Search Organizations
@@ -122,7 +121,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           classes={classes}
         />
         <a
-          href="/#topOfPage"
+          href={`/#${searchOrganizationsUrlAnchor}`}
           className={classes.OptOutRedButton}
           tabIndex={0}
           onClick={() => {

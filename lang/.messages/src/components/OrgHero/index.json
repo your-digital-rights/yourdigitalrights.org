@@ -1,10 +1,14 @@
 [
   {
+    "id": "orgTitle",
+    "defaultMessage": "Request account deletion or a copy of your personal data."
+  },
+  {
     "id": "orgSubTitle",
-    "defaultMessage": "Send a {ccpa} or a {gdpr} data deletion request."
+    "defaultMessage": "Use this free and independent service to send {ccpa} and {gdpr} requests. Find out more {about}."
   },
   {
     "id": "newOrgSubTitle",
-    "defaultMessage": "Send any organization a {ccpa} or a {gdpr} data deletion request."
+    "defaultMessage": "Send any organization a {ccpa} or a {gdpr} request."
   }
 ]

@@ -4,8 +4,16 @@
     "defaultMessage": "Thank You"
   },
   {
-    "id": "thanksCopy",
-    "defaultMessage": "An erasure request email should have opened in your default email application. All you need to do is review it and click Send. Organization have one month under the GDPR, or  45 days under the CCPA to comply, and may ask you for additional information to help identify you in their systems. Check out our {faqLink} for information on what to do if you are unsatisfied with the way the organization has dealt with your request."
+    "id": "thanksCopyPart1",
+    "defaultMessage": "request email should have opened in your email application. All you need to do is review it and click Send."
+  },
+  {
+    "id": "thanksCopyPart2GDPR",
+    "defaultMessage": "Organization have {time} to comply, and may ask you for additional information to help identify you in their systems."
+  },
+  {
+    "id": "thanksCopyPart2CCPA",
+    "defaultMessage": "Organization have {time} to comply, and may ask you for additional information to help identify you in their systems."
   },
   {
     "id": "findCompany",

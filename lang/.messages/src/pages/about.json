@@ -5,15 +5,23 @@
   },
   {
     "id": "missionBody1",
-    "defaultMessage": "yourdigitalrights.org was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+    "defaultMessage": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
   },
   {
     "id": "missionBody2",
-    "defaultMessage": "Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file erasure requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+    "defaultMessage": "Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
   },
   {
     "id": "missionBody3",
     "defaultMessage": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is {oss}."
+  },
+  {
+    "id": "consciousDigital",
+    "defaultMessage": "Who we are"
+  },
+  {
+    "id": "consciousDigital1",
+    "defaultMessage": "YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
   },
   {
     "id": "helpUs",
@@ -30,18 +38,6 @@
   {
     "id": "fundingBody1",
     "defaultMessage": "This project is self funded by it’s creators, and with the help of your donations."
-  },
-  {
-    "id": "createdBy",
-    "defaultMessage": "Created by"
-  },
-  {
-    "id": "createdByBody1",
-    "defaultMessage": "{linkedin} - Entrepreneur, investor, independent academic, digital activist."
-  },
-  {
-    "id": "createdByBody2",
-    "defaultMessage": "{linkedin} - Product designer, consultant and visiting lecturer at London College of Communication."
   },
   {
     "id": "contributors",
@@ -69,11 +65,11 @@
   },
   {
     "id": "sponsorsBody1",
-    "defaultMessage": "{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
+    "defaultMessage": "{bablic} - for providing a platform which allows us to translate and localize this website."
   },
   {
     "id": "sponsorsBody2",
-    "defaultMessage": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+    "defaultMessage": "{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
   },
   {
     "id": "sponsorsBody3",
@@ -81,6 +77,14 @@
   },
   {
     "id": "sponsorsBody4",
-    "defaultMessage": "{bablic} - for providing a platform which allows us to translate and localize this website."
+    "defaultMessage": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+  },
+  {
+    "id": "sponsorsBody5",
+    "defaultMessage": "{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
+  },
+  {
+    "id": "sponsorsBody6",
+    "defaultMessage": "{sws} - for helping us implement an SEO strategy."
   }
 ]

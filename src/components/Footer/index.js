@@ -3,6 +3,7 @@ import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
+import tracking from "../../utils/tracking";
 
 const styles = (theme) => ({
   root: {
@@ -94,10 +95,16 @@ const QueryText = (
 );
 
 const Footer = ({ classes }) => {
+
+  const trackWishlist = () => {
+    tracking.trackWishlist();
+  };
+
   return (
     <div className={classes.root}>
       <div className={classes.WishList}>
         <Button
+          onClick={() => trackWishlist()}
           variant="contained"
           href="https://wishlist.yourdigitalrights.org/"
           color="secondary"
