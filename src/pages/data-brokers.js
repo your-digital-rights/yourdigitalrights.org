@@ -118,9 +118,9 @@ const Brokers = ({ classes }) => {
               }}
             />
           </Typography>
-          <Grid container className={classes.grid} spacing={16}>
+          <Grid container className={classes.grid} spacing={2}>
             <Grid item xs="auto">
-              <Grid container justify="center" spacing={16}>
+              <Grid container justify="center" spacing={2}>
                 {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} elevation={2} >

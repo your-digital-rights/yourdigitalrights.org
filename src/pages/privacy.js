@@ -58,7 +58,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage id="promise" defaultMessage="Our Promise" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -68,7 +68,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="personalData"
               defaultMessage="Personal Data That You Provide"
@@ -105,7 +105,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="nameAndAdditionalInfo"
               defaultMessage="Name and Additional Information (such as a Username, Customer ID or Account Number)"
@@ -118,7 +118,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="cookies"
               defaultMessage="Cookies and Tracking"
@@ -131,7 +131,7 @@ const Privacy = ({ classes }) => {
             />
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage id="usageData" defaultMessage="Usage Data" />
           </Typography>
           <Typography gutterBottom={true}>
@@ -156,7 +156,7 @@ const Privacy = ({ classes }) => {
             </ul>
           </Typography>
           <br />
-          <Typography gutterBottom={true} variant="body1">
+          <Typography gutterBottom={true} variant="body2">
             <FormattedMessage defaultMessage="Contact" id="contact" />
           </Typography>
           <Typography gutterBottom={true}>

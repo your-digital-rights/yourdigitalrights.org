@@ -132,9 +132,9 @@ class Form extends Component {
     highlightedIndex,
     selectedItem,
     itemProps,
+    classes,
   }) => {
     const isHighlighted = highlightedIndex === i;
-
     return (
       <MenuItem
         button
@@ -152,6 +152,8 @@ class Form extends Component {
               height={24}
             />
             <ListItemText
+              disableTypography={true}
+              className={classes.searchItem}
               primary={`${result.name} (${result.url})`}
               id={`search-result-${result.url}`}
             />
@@ -191,6 +193,7 @@ class Form extends Component {
                           itemProps: getItemProps({ item: result }),
                           highlightedIndex,
                           selectedItem,
+                          classes,
                         })
                       )}
                     <MenuItem
