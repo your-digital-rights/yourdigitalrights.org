@@ -24,4 +24,10 @@ export default (theme) => ({
   list: {
     padding: 0,
   },
+  searchItem: {
+    fontSize: 14,
+    fontWeight: 400,
+    marginLeft: "15px",
+    lineHeight: "1.5em",
+  }
 });

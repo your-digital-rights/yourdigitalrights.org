@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import Social from "../components/Social";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
-import pageWithIntl from "../components/PageWithIntl";
-import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import Button from "@material-ui/core/Button";
@@ -103,8 +101,8 @@ const Brokers = ({ classes }) => {
       </Head>
       <Nav />
       <div className={classes.container}>
-        <Paper className={classes.inner}>
-          <Typography component="h1" variant="display1" gutterBottom={true}>
+        <Paper className={classes.inner} elevation={2} >
+          <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="aboutTitle"
               defaultMessage="Opt Out of the Top Data Brokers"
@@ -120,12 +118,12 @@ const Brokers = ({ classes }) => {
               }}
             />
           </Typography>
-          <Grid container className={classes.grid} spacing={16}>
+          <Grid container className={classes.grid} spacing={2}>
             <Grid item xs="auto">
-              <Grid container justify="center" spacing={16}>
+              <Grid container justify="center" spacing={2}>
                 {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
-                    <Paper className={classes.paper}>
+                    <Paper className={classes.paper} elevation={2} >
                       <GridListTile
                         button
                         component="a"
@@ -159,7 +157,7 @@ const Brokers = ({ classes }) => {
             />
           </Typography>
           <Button
-            variant="raised"
+            variant="contained"
             color="secondary"
             type="submit"
             className={classes.startAgainBtn}
@@ -181,4 +179,4 @@ Brokers.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withRoot(pageWithIntl(withStyles(styles)(Brokers)));
+export default withStyles(styles)(Brokers);

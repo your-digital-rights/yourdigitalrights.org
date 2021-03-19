@@ -1,8 +1,8 @@
 import { FormattedMessage, intlShape, injectIntl } from "react-intl";
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
+import Fab from '@material-ui/core/Fab';
 import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
@@ -17,14 +17,13 @@ import { faChrome, faFirefox } from "@fortawesome/free-brands-svg-icons";
 const styles = (theme) => ({
   root: {
     backgroundColor: theme.palette.primary.main,
-
     padding: "50px",
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
     textAlign: "center",
     alignItems: "baseline",
-    ...themeBg,
+    ...theme,
   },
 
   offsetThankYou: {
@@ -42,15 +41,6 @@ const styles = (theme) => ({
     marginBottom: "30px",
     flex: "1 0 100%",
     fontWeight: "bold",
-  },
-
-  btn: {
-    padding: "0 20px",
-    marginBottom: "20px",
-
-    "&:hover": {
-      opacity: "0.85",
-    },
   },
 
   extensionHelperPlaceHolder: {
@@ -130,7 +120,7 @@ const styles = (theme) => ({
     backgroundColor: "#eaeaea",
     color: "#585858",
     marginBottom: "20px",
-    fontSize: "1em",
+    fontSize: "16px",
     textTransform: "capitalize",
     fontWeight: "bold",
     textAlign: "left",
@@ -148,15 +138,6 @@ const styles = (theme) => ({
     marginLeft: "3px",
   },
 
-  extensionDownloadButtonLabel: {
-    fontSize: "1em",
-    fontWeight: "bold",
-  },
-
-  shareButton: {
-    padding: "0 10px",
-    cursor: "pointer",
-  },
 });
 
 const Social = ({
@@ -221,7 +202,7 @@ const Social = ({
               <Typography
                 className={classes.extensionHelpHeading}
                 component="h2"
-                variant="display2"
+                variant="h3"
                 color="inherit"
               >
                 Opt out directly from your browser
@@ -236,8 +217,8 @@ const Social = ({
                 websites you visit with a click of a button.
               </Typography>
               <div className={classes.extensionHelpButtonContainer}>
-                <Button
-                  variant="extendedFab"
+                <Fab
+                  variant="extended"
                   onClick={() => trackWebExtension("chrome-extension")}
                   aria-label="Google Chrome Extension"
                   className={classes.extensionDownloadButton}
@@ -250,9 +231,9 @@ const Social = ({
                     icon={faChrome}
                   />
                   Download it for Chrome
-                </Button>
-                <Button
-                  variant="extendedFab"
+                </Fab>
+                <Fab
+                  variant="extended"
                   onClick={trackWebExtension.bind(null, 'firefox-extension')}
                   aria-label="FireFox Extention"
                   className={classes.extensionDownloadButton}
@@ -268,7 +249,7 @@ const Social = ({
                     icon={faFirefox}
                   />
                   Download it for Firefox
-                </Button>
+                </Fab>
               </div>
             </div>
           </div>
@@ -276,7 +257,7 @@ const Social = ({
       )}
 
       <Typography
-        variant="title"
+        variant="h6"
         gutterBottom={true}
         className={classes.shareHeading}
       >

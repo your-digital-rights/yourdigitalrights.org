@@ -1,11 +1,10 @@
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 import { container } from "../../styles/layout";
-import Button from "@material-ui/core/Button";
 
 export default (theme) => ({
   about: {
     backgroundColor: theme.palette.primary.main,
-    ...themeBg,
+    ...theme,
   },
   heading: {
     maxWidth: "850px !important",

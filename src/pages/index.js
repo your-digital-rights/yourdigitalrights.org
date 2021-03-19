@@ -9,9 +9,7 @@ import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
-import pageWithIntl from "../components/PageWithIntl";
 import tracking from "../utils/tracking";
-import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
 import Router from "next/router";
@@ -206,4 +204,4 @@ class Index extends Component {
   }
 }
 
-export default withRoot(pageWithIntl(withStyles(styles)(Index)));
+export default withStyles(styles)(Index);

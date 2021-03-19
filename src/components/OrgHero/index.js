@@ -1,7 +1,5 @@
 import NewOrgTitle from "./text";
-
 import { FormattedMessage } from "react-intl";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { visuallyHidden } from "../../styles/layout";
@@ -31,7 +29,7 @@ const Hero = ({ classes, selectedCompany }) => {
             <>
               <Typography
                 id="orgName"
-                variant="display1"
+                variant="h4"
                 color="inherit"
                 component="p"
                 className={classes.heading}
@@ -51,7 +49,7 @@ const Hero = ({ classes, selectedCompany }) => {
               <Typography
                 color="inherit"
                 component="h1"
-                variant="display2"
+                variant="h3"
                 gutterBottom={true}
               >
                 <FormattedMessage
@@ -82,7 +80,7 @@ const Hero = ({ classes, selectedCompany }) => {
 
             <div id="add-org" className={classes.addOrg}>
               <Typography
-                variant="display1"
+                variant="h4"
                 color="inherit"
                 gutterBottom={true}
                 component="h1"

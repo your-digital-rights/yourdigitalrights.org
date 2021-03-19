@@ -1,5 +1,5 @@
 import { container } from "../../styles/layout";
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 
 export default (theme) => ({
   hero: {
@@ -8,7 +8,7 @@ export default (theme) => ({
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
-    ...themeBg,
+    ...theme,
     [theme.breakpoints.down("sm")]: {
       padding: "60px 0px 150px",
     },

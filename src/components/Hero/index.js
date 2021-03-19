@@ -1,7 +1,5 @@
 import { IntroText, headerText, titleText } from "./text";
 import Link from "next/link";
-
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { visuallyHidden } from "../../styles/layout";
@@ -14,7 +12,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
       <div className={classes.container}>
         <div className={classes.heading}>
           <Typography
-            variant="display1"
+            variant="h4"
             color="inherit"
             gutterBottom={true}
             component="p"
@@ -25,7 +23,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
             color="inherit"
             className={classes.intro}
             component="h1"
-            variant="display2"
+            variant="h3"
             gutterBottom={true}
           >
             {headerText}

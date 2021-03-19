@@ -1,5 +1,5 @@
 import { container } from "../../styles/layout";
-import { themeBg } from "../../styles/theme";
+import { theme } from "../../styles/theme";
 
 export default (theme) => ({
   donate: {

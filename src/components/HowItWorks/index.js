@@ -14,7 +14,6 @@ import {
 } from "./text";
 
 import LowerSection from "./LowerSection";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import UpperSection from "./UpperSection";
 import { indexStyles as styles } from "./styles";
@@ -31,7 +30,7 @@ const HowItWorks = ({ classes }) => {
         />
         <div className={classes.upperContent}>
           <Typography
-            variant="display1"
+            variant="h4"
             component="h2"
             className={classes.title}
             gutterBottom={true}

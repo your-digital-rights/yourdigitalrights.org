@@ -21,7 +21,7 @@ const LowerSection = ({ title, body, imgSrc, classes }) => {
   return (
     <div className={classes.root}>
       <img src={imgSrc} role="presentation" className={classes.img} />
-      <Typography component="h3" variant="headline" gutterBottom={true}>
+      <Typography component="h3" variant="h5" gutterBottom={true}>
         {title}
       </Typography>
       <Typography component="p">{body}</Typography>

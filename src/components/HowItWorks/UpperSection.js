@@ -16,7 +16,7 @@ const styles = (theme) => ({
 const UpperSection = ({ title, body, classes }) => {
   return (
     <div className={classes.root}>
-      <Typography component="h3" className={classes.heading} variant="title">
+      <Typography component="h3" className={classes.heading} variant="h6">
         {title}.{" "}
       </Typography>
       <Typography component="p" className={classes.inline}>

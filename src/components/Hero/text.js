@@ -3,8 +3,7 @@ import { FormattedMessage } from "react-intl";
 export const titleText = (
   <FormattedMessage
     id="heroHeading"
-    defaultMessage="{strong}"
-    values={{ strong: <strong>Own Your Data</strong> }}
+    defaultMessage="Own Your Data"
   />
 );
 

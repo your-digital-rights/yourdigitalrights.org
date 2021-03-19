@@ -6,8 +6,6 @@ import Paper from "@material-ui/core/Paper";
 import Social from "../components/Social";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
-import pageWithIntl from "../components/PageWithIntl";
-import withRoot from "../withRoot";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 
@@ -43,8 +41,8 @@ const Privacy = ({ classes }) => {
       </Head>
       <Nav />
       <div className={classes.container}>
-        <Paper className={classes.inner}>
-          <Typography component="h1" variant="display1" gutterBottom={true}>
+        <Paper className={classes.inner} elevation={2} >
+          <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="privacyTitle"
               defaultMessage="Privacy Policy"
@@ -178,4 +176,4 @@ const Privacy = ({ classes }) => {
   );
 };
 
-export default withRoot(pageWithIntl(withStyles(styles)(Privacy)));
+export default withStyles(styles)(Privacy);

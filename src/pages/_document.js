@@ -1,61 +1,13 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { FormattedMessage } from "react-intl";
-import JssProvider from "react-jss/lib/JssProvider";
-import React from "react";
-import flush from "styled-jsx/server";
-import getPageContext from "../getPageContext";
+import { ServerStyleSheets } from '@material-ui/core/styles';
+import theme from '../styles/theme';
+import React from "react";;
 import { DOMAIN } from "../utils/domain";
 
-// The document (which is SSR-only) needs to be customized to expose the locale
-// data for the user's locale for React Intl to work in the browser.
-
-export default class IntlDocument extends Document {
-  static async getInitialProps(context) {
-    const pageContext = getPageContext();
-    const props = await super.getInitialProps(context);
-    const {
-      req: { locale, localeDataScript },
-    } = context;
-
-    const page = context.renderPage((Component) => (props) => (
-      <JssProvider
-        registry={pageContext.sheetsRegistry}
-        generateClassName={pageContext.generateClassName}
-      >
-        <Component pageContext={pageContext} {...props} />
-      </JssProvider>
-    ));
-
-    return {
-      ...props,
-      ...page,
-      locale,
-      localeDataScript,
-      pageContext,
-
-      styles: (
-        <React.Fragment>
-          <style
-            id="jss-server-side"
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{
-              __html: pageContext.sheetsRegistry.toString(),
-            }}
-          />
-          {flush() || null}
-        </React.Fragment>
-      ),
-    };
-  }
-
+export default class MyDocument extends Document {
   render() {
-    // Polyfill Intl API for older browsers
-    const polyfill = `https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.${this.props.locale}`;
-    const { pageContext } = this.props;
-    const { deeplinkedCompany } = this.props;
-
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <meta
             property="og:image"
@@ -72,7 +24,7 @@ export default class IntlDocument extends Document {
           />
           <meta
             name="theme-color"
-            content={pageContext.theme.palette.primary.main}
+            content={theme.palette.primary.main}
           />
           <link
             rel="stylesheet"
@@ -90,8 +42,6 @@ export default class IntlDocument extends Document {
           />
           <link rel="icon" href="/images/favicon.ico" />
           <link rel="me" href="https://twitter.com/ConsciousDigit" />
-          <link rel="webmention" href="https://webmention.io/yourdigitalrights.org/webmention" />
-          <link rel="pingback" href="https://webmention.io/yourdigitalrights.org/xmlrpc" />
           <script
             dangerouslySetInnerHTML={{
               __html:
@@ -115,15 +65,53 @@ export default class IntlDocument extends Document {
         </Head>
         <body>
           <Main />
-          <script src={polyfill} />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: this.props.localeDataScript,
-            }}
-          />
           <NextScript />
         </body>
       </Html>
     );
   }
 }
+
+
+// `getInitialProps` belongs to `_document` (instead of `_app`),
+// it's compatible with server-side generation (SSG).
+MyDocument.getInitialProps = async (ctx) => {
+  // Resolution order
+  //
+  // On the server:
+  // 1. app.getInitialProps
+  // 2. page.getInitialProps
+  // 3. document.getInitialProps
+  // 4. app.render
+  // 5. page.render
+  // 6. document.render
+  //
+  // On the server with error:
+  // 1. document.getInitialProps
+  // 2. app.render
+  // 3. page.render
+  // 4. document.render
+  //
+  // On the client
+  // 1. app.getInitialProps
+  // 2. page.getInitialProps
+  // 3. app.render
+  // 4. page.render
+
+  // Render app and page and get the context of the page with collected side effects.
+  const sheets = new ServerStyleSheets();
+  const originalRenderPage = ctx.renderPage;
+
+  ctx.renderPage = () =>
+    originalRenderPage({
+      enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
+    });
+
+  const initialProps = await Document.getInitialProps(ctx);
+
+  return {
+    ...initialProps,
+    // Styles fragment is rendered after the app and page rendering finish.
+    styles: [...React.Children.toArray(initialProps.styles), sheets.getStyleElement()],
+  };
+};
