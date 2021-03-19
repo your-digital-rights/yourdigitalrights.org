@@ -75,8 +75,7 @@ export async function getStaticProps({ params }) {
   const organizations = await fetchSheetData();
   const organization = organizations.find(
     ({ url }) => params.domain === url
-  );
-  console.log(organization.url);
+  );  
   return {
     notFound: typeof organization == 'undefined',
     props: {
