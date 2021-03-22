@@ -9,6 +9,7 @@
     "test-serve": "npm start -- -p 3001",
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "dev": "next",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start ./src",
     "build": "next build ./src",
     "deploy": "npx vercel",
