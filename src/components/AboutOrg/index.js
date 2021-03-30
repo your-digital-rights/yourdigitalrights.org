@@ -57,7 +57,10 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
         </div>
         <div id="discussion" className={classes.discussion}>
           <Typography color="inherit" className={classes.discussionHeading}>
-            Do you have something to say about privacy at {selectedCompany.name}?
+            Read what others have to say about privacy at {selectedCompany.name} and share your own comments:
+          </Typography>
+          <Typography color="inherit" className={classes.discussionSubHeading} >
+            This is an independent service which is not affiliated with {selectedCompany.name}.
           </Typography>
           <div id="remarkbox-div">
               <iframe id="remarkbox-iframe" src={rb_src} style={{ width: '100%', overflow: 'hidden' }} tabIndex={0} scrolling="no" frameBorder={0} title="Remarkbox"  ></iframe>

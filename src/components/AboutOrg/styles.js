@@ -109,7 +109,7 @@ export default (theme) => ({
   },
   discussionSubHeading: {
     fontFamily: "Source Sans Pro,sans-serif",
-    fontSize: "15px",
+    fontSize: "18px",
     fontWeight: "normal",
     fontStretch: "normal",
     fontStyle: "normal",

@@ -64,16 +64,27 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgSubTitle"
-                  defaultMessage="Use this free and independent service to send {ccpa} and {gdpr} requests. Find out more {about}."
+                  defaultMessage="Use this free service to send {ccpa} and {gdpr} data requests."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
-                    companyName: Capitalize(selectedCompany.name),
-                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>,
-                    orgDetails: <a href="#about-org" className={classes.introLink}>{selectedCompany.name}</a>
+                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>
                   }}
                 />
               </Typography>                           
+              <Typography
+                color="inherit"
+                component="p"
+
+              >
+                <FormattedMessage
+                  id="notAffiliatedDisclamer"
+                  defaultMessage="This service is {disclamer} (find out more {about})."
+                  values={{
+                    disclamer: <strong>not affiliated with {Capitalize(selectedCompany.name)}</strong>,
+                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>
+                  }}
+                />
+              </Typography>   
             </>
           )}
           {!selectedCompany && (
