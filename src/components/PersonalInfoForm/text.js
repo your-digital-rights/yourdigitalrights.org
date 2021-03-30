@@ -74,6 +74,27 @@ export const IdentifyingInfoHelperText = (
   />
 );
 
+export const FollowUpLabelText = (
+  <FormattedMessage
+    id="FollowUpLabel"
+    defaultMessage="As stated in the legislation, you are entitled to follow up after your initial request. Would you like us to remind you to follow up?"
+  />
+);
+
+export const YesFollowUpLabelText = (
+  <FormattedMessage
+    id="YesFollowUpLabel"
+    defaultMessage="Yes, please remind me"
+  />
+);
+
+export const NoFollowUpLabelText = (
+  <FormattedMessage
+    id="NoFollowUpLabel"
+    defaultMessage="No, I don't need a reminder"
+  />
+);
+
 export const SubmitButtonText = (
   <FormattedMessage id="sendButton" defaultMessage="Review your request" />
 );

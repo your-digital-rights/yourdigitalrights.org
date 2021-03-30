@@ -9,6 +9,9 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
+  FollowUpLabelText,
+  YesFollowUpLabelText,
+  NoFollowUpLabelText,
   SubmitButtonText,
   ReadMore,
   RequestChoice,
@@ -55,6 +58,7 @@ class Form extends Component {
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
+      followUp: "YES",
       screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
@@ -324,6 +328,31 @@ class Form extends Component {
               value={this.props.selectedCompany.url}
             />
           )}
+          <FormControl
+            variant="outlined"
+            focused={true}
+            component="fieldset"
+            className={classes.formControl}
+          >
+            <FormLabel>{FollowUpLabelText}</FormLabel>
+            <RadioGroup
+              name="followup1"
+              className={classes.group}
+              onChange={this.handleInput("followUp")}
+              value={this.state.followUp}
+            >
+              <FormControlLabel
+                value="YES"
+                control={<Radio />}
+                label={YesFollowUpLabelText}
+              />
+              <FormControlLabel
+                value="NO"
+                control={<Radio />}
+                label={NoFollowUpLabelText}
+              />
+            </RadioGroup>
+          </FormControl>
           <div>
             <Button
               variant="contained"
