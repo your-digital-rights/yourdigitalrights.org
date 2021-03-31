@@ -12,6 +12,7 @@ import {
   FollowUpLabelText,
   YesFollowUpLabelText,
   NoFollowUpLabelText,
+  FollowUpDetailsText,
   SubmitButtonText,
   ReadMore,
   RequestChoice,
@@ -37,6 +38,7 @@ import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormControl from "@material-ui/core/FormControl";
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
@@ -352,6 +354,9 @@ class Form extends Component {
                 label={NoFollowUpLabelText}
               />
             </RadioGroup>
+            <FormHelperText>
+              {FollowUpDetailsText}
+            </FormHelperText>
           </FormControl>
           <div>
             <Button
