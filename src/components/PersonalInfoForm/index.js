@@ -44,6 +44,7 @@ import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
+import { v4 as uuidv4 } from 'uuid';
 
 const screenHeightBreakpoint = 560;
 
@@ -139,10 +140,16 @@ class Form extends Component {
   renderMailTo() {
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
+    const followUp = this.state.followUp;
 
     const to = selectedCompany
       ? selectedCompany.email
       : this.state.companyEmail;
+
+    const bcc =
+      followUp === "YES"
+        ? `${uuidv4()}@inbound.yourdigitalrights.org`
+        : null;
 
     const companyName = selectedCompany
       ? selectedCompany.name
@@ -160,6 +167,7 @@ class Form extends Component {
 
     return mailtoLink({
       to,
+      bcc,
       subject: subject,
       body: body,
     });
