@@ -56,7 +56,7 @@ const Org = ({ newOrg, organization, classes }) => {
 export async function getStaticPaths() {
   const organizations = await fetchSheetData();
 
-  const paths = organizations.map((org) => ({
+  const paths = organizations.slice(0, 5000).map((org) => ({
     params: { domain: org.url },
   }))
   
