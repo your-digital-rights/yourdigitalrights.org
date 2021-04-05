@@ -80,8 +80,7 @@ export async function getStaticProps({ params }) {
     notFound: typeof organization == 'undefined',
     props: {
       organization,
-    },
-    revalidate: 60*60
+    }
   }
 }
 
