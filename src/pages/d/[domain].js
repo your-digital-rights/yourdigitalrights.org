@@ -53,17 +53,8 @@ const Org = ({ newOrg, organization, classes }) => {
   )
 }
 
-export async function getStaticPaths() {
-  const organizations = await fetchSheetData();
 
-  const paths = organizations.slice(0, 5000).map((org) => ({
-    params: { domain: org.url },
-  }))
-  
-  return { paths: paths, fallback: 'blocking' }
-}
-
-export async function getStaticProps({ params }) {
+export async function getServerSideProps({ params }) {
   if (params.domain == 'add') {
     return {
       props: {
@@ -76,10 +67,16 @@ export async function getStaticProps({ params }) {
   const organization = organizations.find(
     ({ url }) => params.domain === url
   );  
+
+  if (typeof organization == 'undefined' ) {
+    return {
+      notFound: true,
+    }
+  }
   return {
-    notFound: typeof organization == 'undefined',
     props: {
-      organization,
+      newOrg: false,
+      organization: organization,
     }
   }
 }
