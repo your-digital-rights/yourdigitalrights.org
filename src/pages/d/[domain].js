@@ -68,15 +68,16 @@ export async function getServerSideProps({ params }) {
     ({ url }) => params.domain === url
   );  
 
-  if (typeof organization == 'undefined' ) {
+  if (organization) {
+    return {
+      props: {
+        newOrg: false,
+        organization: organization,
+      }
+    }    
+  } else {
     return {
       notFound: true,
-    }
-  }
-  return {
-    props: {
-      newOrg: false,
-      organization: organization,
     }
   }
 }
