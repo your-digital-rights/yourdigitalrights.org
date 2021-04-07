@@ -17,7 +17,7 @@ export const ThanksCopyPart1 = (
 export const ThanksCopyPart2GDPR = (
   <FormattedMessage
     id="thanksCopyPart2GDPR"
-    defaultMessage="Organization have {time} to comply, and may ask you for additional information to help identify you in their systems."
+    defaultMessage="Organizatios have {time} to comply, and may ask you for additional information to help identify you in their systems."
     values={{
       time: <em>one month</em>,
     }}
