@@ -54,7 +54,12 @@ const Org = ({ newOrg, organization, classes }) => {
 }
 
 
-export async function getServerSideProps({ params }) {
+// Render all pages on first request (to reduce build time)
+export async function getStaticPaths() {
+  return { paths: [], fallback: 'blocking' }
+}
+
+export async function getStaticProps({ params }) {
   if (params.domain == 'add') {
     return {
       props: {
@@ -67,20 +72,15 @@ export async function getServerSideProps({ params }) {
   const organization = organizations.find(
     ({ url }) => params.domain === url
   );  
-
-  if (organization) {
-    return {
-      props: {
-        newOrg: false,
-        organization: organization,
-      }
-    }    
-  } else {
-    return {
-      notFound: true,
-    }
+  return {
+    notFound: typeof organization == 'undefined',
+    props: {
+      organization,
+    },
+    revalidate: 60*60
   }
 }
+
 
 
 export default Org;
