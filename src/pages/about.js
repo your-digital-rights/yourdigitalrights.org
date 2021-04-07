@@ -117,7 +117,7 @@ const About = ({ classes }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="helpUsBody2"
-              defaultMessage="We’re looking for volunteers including React developers, and people who can help us translate the website in to additional European languages, but anyone is welcome. Please contact us at {email}."
+              defaultMessage="We’re looking for volunteers including React developers, and people who can help us translate the website into additional European languages, but anyone is welcome. Please contact us at {email}."
               values= {{
                 email: <a href="mailto:info@opt-out.eu">info@opt-out.eu</a>,
               }}
