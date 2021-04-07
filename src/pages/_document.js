@@ -66,7 +66,7 @@ export default class MyDocument extends Document {
               />
             </p>
           </noscript>
-          <script src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9" type="module" />
+          <script src="//d.bablic.com/snippet/5b7e74c02615ef00013b76b9.js?version=3.9" />
         </Head>
         <body>
           <Main />
