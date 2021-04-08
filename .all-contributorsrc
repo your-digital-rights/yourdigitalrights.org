@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "roughprada",
+      "name": "Rafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5957010?v=4",
+      "profile": "https://github.com/roughprada",
+      "contributions": [
+        "ideas",
+        "design",
+        "userTesting"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "yourdigitalrights.org",
+  "projectOwner": "your-digital-rights",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
