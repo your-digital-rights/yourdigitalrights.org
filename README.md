@@ -1,6 +1,6 @@
 Source code for [YourDigitalRights.org](https://yourdigitalrights.org/), a free and open source service which helps people regain control of their online privacy by instructing organizations to delete the personal information they have collected about them. The service automates the process of sending GDPR and CCPA erasure (right to be forgotten) requests.
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![CircleCI](https://circleci.com/gh/your-digital-rights/yourdigitalrights.org.svg?style=svg)](https://app.circleci.com/pipelines/github/your-digital-rights)
@@ -33,6 +33,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/roughprada"><img src="https://avatars.githubusercontent.com/u/5957010?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafa</b></sub></a><br /><a href="#ideas-roughprada" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-roughprada" title="Design">🎨</a> <a href="#userTesting-roughprada" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://yourdigitalrights.org"><img src="https://avatars.githubusercontent.com/u/537092?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yoav Aviram</b></sub></a><br /><a href="https://github.com/your-digital-rights/yourdigitalrights.org/commits?author=yoavaviram" title="Code">💻</a> <a href="https://github.com/your-digital-rights/yourdigitalrights.org/pulls?q=is%3Apr+reviewed-by%3Ayoavaviram" title="Reviewed Pull Requests">👀</a> <a href="#projectManagement-yoavaviram" title="Project Management">📆</a> <a href="#ideas-yoavaviram" title="Ideas, Planning, & Feedback">🤔</a> <a href="#fundingFinding-yoavaviram" title="Funding Finding">🔍</a> <a href="#content-yoavaviram" title="Content">🖋</a></td>
   </tr>
 </table>
 
