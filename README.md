@@ -8,7 +8,7 @@ Source code for [YourDigitalRights.org](https://yourdigitalrights.org/), a free 
 
 # Installation
 
-Requires Node.js >= v8
+Requires Node.js >= v15
 
 `npm install`
 
