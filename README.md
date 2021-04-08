@@ -33,6 +33,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/roughprada"><img src="https://avatars.githubusercontent.com/u/5957010?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafa</b></sub></a><br /><a href="#ideas-roughprada" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-roughprada" title="Design">🎨</a> <a href="#userTesting-roughprada" title="User Testing">📓</a></td>
+    <td align="center"><a href="https://github.com/robwebdev"><img src="https://avatars.githubusercontent.com/u/1155270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rob Chandler</b></sub></a><br /><a href="https://github.com/your-digital-rights/yourdigitalrights.org/commits?author=robwebdev" title="Code">💻</a> <a href="https://github.com/your-digital-rights/yourdigitalrights.org/commits?author=robwebdev" title="Tests">⚠️</a></td>
     <td align="center"><a href="https://github.com/limptwiglet"><img src="https://avatars.githubusercontent.com/u/25396?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Gerrard</b></sub></a><br /><a href="https://github.com/your-digital-rights/yourdigitalrights.org/commits?author=limptwiglet" title="Code">💻</a> <a href="https://github.com/your-digital-rights/yourdigitalrights.org/commits?author=limptwiglet" title="Tests">⚠️</a></td>
   </tr>
 </table>
