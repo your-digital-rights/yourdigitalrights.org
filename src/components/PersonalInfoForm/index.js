@@ -1,3 +1,4 @@
+import aws from "aws-sdk";
 import {
   CompanyEmailHelperText,
   CompanyEmailLabelText,
@@ -164,6 +165,8 @@ class Form extends Component {
       requestType == "DELETION"
         ? erasureEmail.formatBody({ ...this.state, companyName })
         : sarEmail.formatBody({ ...this.state, companyName });
+
+    // TODO: Add call to /api/save
 
     return mailtoLink({
       to,
