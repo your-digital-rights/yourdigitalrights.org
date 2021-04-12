@@ -1,0 +1,90 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "roughprada",
+      "name": "Rafa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5957010?v=4",
+      "profile": "https://github.com/roughprada",
+      "contributions": [
+        "ideas",
+        "design",
+        "userTesting"
+      ]
+    },
+    {
+      "login": "steevevadakkumchery",
+      "name": "Steeve Vadakkumchery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45942491?v=4",
+      "profile": "https://github.com/steevevadakkumchery",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "gianantoniopini",
+      "name": "Gianantonio Pini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63844628?v=4",
+      "profile": "https://github.com/gianantoniopini",
+      "contributions": [
+        "bug",
+        "test"
+      ]
+    },
+    {
+      "login": "yoavaviram",
+      "name": "Yoav Aviram",
+      "avatar_url": "https://avatars.githubusercontent.com/u/537092?v=4",
+      "profile": "https://yourdigitalrights.org",
+      "contributions": [
+        "code",
+        "review",
+        "projectManagement",
+        "ideas",
+        "fundingFinding",
+        "content"
+      ]
+    },
+    {
+      "login": "honzie",
+      "name": "Hans Sprecher",
+      "avatar_url": "https://avatars.githubusercontent.com/u/258820?v=4",
+      "profile": "http://hanssprecher.com",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "robwebdev",
+      "name": "Rob Chandler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1155270?v=4",
+      "profile": "https://github.com/robwebdev",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    },
+    {
+      "login": "limptwiglet",
+      "name": "Mark Gerrard",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25396?v=4",
+      "profile": "https://github.com/limptwiglet",
+      "contributions": [
+        "code",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "yourdigitalrights.org",
+  "projectOwner": "your-digital-rights",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

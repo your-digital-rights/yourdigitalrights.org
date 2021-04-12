@@ -127,6 +127,11 @@ class Form extends Component {
         this.state.regulationType,
         this.state.requestType
       );
+      if (this.state.identifyingInfo.length > 0) {
+        tracking.trackAdditionalData(
+          this.props.selectedCompany.url
+        );
+      }
     }
   };
 
@@ -172,6 +177,11 @@ class Form extends Component {
       }
     );
     tracking.trackAddNewOrg(this.state.companyName);
+    if (this.state.identifyingInfo.length > 0) {
+      tracking.trackAdditionalData(
+        this.props.selectedCompany.url
+      );
+    }    
   }
 
   render() {

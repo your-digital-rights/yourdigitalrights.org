@@ -70,4 +70,8 @@ export default {
     this.trackEvent("Wishlist Click");
   },
 
+  trackAdditionalData(org) {
+    this.trackEvent("Additional Data", "Additional data for: " + org);
+  },
+
 };
