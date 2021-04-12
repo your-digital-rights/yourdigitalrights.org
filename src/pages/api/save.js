@@ -22,29 +22,28 @@ const dynamodb = new aws.DynamoDB();
  *
  * The API takes in the following:
  *
- * @param {string} uuid of the request
- * @param {string} request_type either "request" or "delete"
- * @param {string} regulation_type either "gdpr" or "ccpa"
- * @param {string} org_domain for the organization
- * @param {string} email of the requester, used for follow up
- * @param {string} name of the requester, used for follow up
- * @param {string} additional_information of the requester, used for follow up
- * @param {string} email_to for the request, used for follow up
- * @param {string} email_subject for the request, used for follow up
- * @param {string} email_body for the request, used for follow up
+ * @param {string} req.body.uuid of the request
+ * @param {string} req.body.requestType either "ACCESS" or "DELETION"
+ * @param {string} req.body.regulationType "GDPR" or "CCPA"
+ * @param {string} req.body.companyName of the organization
+ * @param {string} req.body.name of the requester, used for follow up
+ * @param {string} req.body.identifyingInfo of the requester, used for follow up, optional
+ * @param {string} req.body.emailTo for the request, used for follow up
+ * @param {string} req.body.emailSubject for the request, used for follow up
+ * @param {string} req.body.emailBody for the request, used for follow up
  */
 export default async (req, res) => {
   return new Promise((resolve, reject) => {
     res.setHeader('Content-Type', 'application/json');
     if (
       !req.body.uuid ||
-      !req.body.request_type ||
-      !req.body.regulation_type ||
-      !req.body.org_domain
+      !req.body.requestType ||
+      !req.body.regulationType ||
+      !req.body.companyName
     ) {
       res.statusCode = 400;
       res.send({
-        error: 'Missing one of uuid, request_type, regulation_type or org_domain',
+        error: 'Missing one of uuid, requestType, regulationType, companyName',
       });
     }
 
@@ -55,10 +54,10 @@ export default async (req, res) => {
             PutRequest: {
               Item: {
                 uuid: { S: req.body.uuid },
-                request_created_at: { S: new Date().toISOString() },
-                request_type: { S: req.body.request_type },
-                regulation_type: { S: req.body.regulation_type },
-                org_domain: { S: req.body.org_domain },
+                requestCreatedAt: { S: new Date().toISOString() },
+                requestType: { S: req.body.requestType },
+                regulationType: { S: req.body.regulationType },
+                companyName: { S: req.body.companyName },
               },
             },
           },
@@ -66,32 +65,29 @@ export default async (req, res) => {
       },
     };
 
-    if (req.body.email) {
+    if (req.body.name) {
       if (
-        !req.body.name ||
-        !req.body.additional_information ||
-        !req.body.email_to ||
-        !req.body.email_subject ||
-        !req.body.email_body
+        !req.body.emailTo ||
+        !req.body.emailSubject ||
+        !req.body.emailBody
       ) {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 400;
         res.send({
-          error: 'Missing one of name, additional_information, email_to, email_subject or email_body',
+          error: 'Missing one of name, emailTo, emailSubject, emailBody',
         });
       }
 
-      requestItems.FollowUps = [
+      requestItems.RequestItems.FollowUps = [
         {
           PutRequest: {
             Item: {
               uuid: { S: req.body.uuid },
-              email: { S: req.body.email },
               name: { S: req.body.name },
-              additional_information: { S: req.body.additional_information },
-              email_to: { S: req.body.email_to },
-              email_subject: { S: req.body.email_subject },
-              email_body: { S: req.body.email_body },
+              identifyingInfo: req.body.identifyingInfo ? { S: req.body.identifyingInfo } : null,
+              emailTo: { S: req.body.emailTo },
+              emailSubject: { S: req.body.emailSubject },
+              emailBody: { S: req.body.emailBody },
             },
           },
         },

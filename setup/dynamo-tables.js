@@ -14,11 +14,11 @@ const tables = [
     TableName: 'Requests',
     KeySchema: [       
       { AttributeName: 'uuid', KeyType: 'HASH' },
-      { AttributeName: 'request_created_at', KeyType: 'RANGE' },
+      { AttributeName: 'requestCreatedAt', KeyType: 'RANGE' },
     ],
     AttributeDefinitions: [
       { AttributeName: 'uuid', AttributeType: 'S' },
-      { AttributeName: 'request_created_at', AttributeType: 'S' },
+      { AttributeName: 'requestCreatedAt', AttributeType: 'S' },
     ],
     BillingMode: 'PAY_PER_REQUEST',
   },
@@ -26,11 +26,11 @@ const tables = [
     TableName: 'FollowUps',
     KeySchema: [       
       { AttributeName: 'uuid', KeyType: 'HASH' },
-      { AttributeName: 'email_received_at', KeyType: 'RANGE' },
+      { AttributeName: 'emailReceivedAt', KeyType: 'RANGE' },
     ],
     AttributeDefinitions: [
       { AttributeName: 'uuid', AttributeType: 'S' },
-      { AttributeName: 'email_received_at', AttributeType: 'S' },
+      { AttributeName: 'emailReceivedAt', AttributeType: 'S' },
     ],
     BillingMode: 'PAY_PER_REQUEST',
   },

@@ -1,4 +1,3 @@
-import aws from "aws-sdk";
 import {
   CompanyEmailHelperText,
   CompanyEmailLabelText,
@@ -139,8 +138,10 @@ class Form extends Component {
   };
 
   renderMailTo() {
+    const uuid = uuidv4();
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
+    const regulationType = this.state.regulationType;
     const followUp = this.state.followUp;
 
     const to = selectedCompany
@@ -149,7 +150,7 @@ class Form extends Component {
 
     const bcc =
       followUp === "YES"
-        ? `${uuidv4()}@inbound.yourdigitalrights.org`
+        ? `${uuid}@inbound.yourdigitalrights.org`
         : null;
 
     const companyName = selectedCompany
@@ -166,7 +167,31 @@ class Form extends Component {
         ? erasureEmail.formatBody({ ...this.state, companyName })
         : sarEmail.formatBody({ ...this.state, companyName });
 
-    // TODO: Add call to /api/save
+    const requestParams = {
+      uuid,
+      requestType,
+      regulationType,
+      companyName,
+    };
+
+    if (followUp === "YES") {
+      requestParams.name = this.state.name;
+      requestParams.identifyingInfo = this.state.identifyingInfo;
+      requestParams.emailTo = to;
+      requestParams.emailSubject = subject;
+      requestParams.emailBody = body;
+    }
+
+    fetch(
+      "/api/save",
+      {
+        method: "POST",
+        body: JSON.stringify(requestParams),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     return mailtoLink({
       to,
