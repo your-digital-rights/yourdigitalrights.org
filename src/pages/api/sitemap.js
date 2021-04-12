@@ -1,13 +1,13 @@
 import { SitemapStream, streamToPromise } from "sitemap";
-const { Readable } = require( 'stream' )
+import { Readable } from "stream";
+import { createGzip } from "zlib";
 import fetch from "universal-fetch";
 import { DOMAIN } from "../../utils/domain";
-const { createGzip } = require('zlib')
 
 const ALT_LANGUAGES = ['es', 'it'];
 
 function generateLangUrls(base_url) {
-  return ALT_LANGUAGES.map(lang => ({'lang': lang, 'url': lang + "." + DOMAIN + base_url}))
+  return ALT_LANGUAGES.map(lang => ({'lang': lang, 'url': "https://" + lang + "." + DOMAIN + base_url}))
 }
 
 let sitemap;
@@ -29,32 +29,33 @@ export default async (req, res) => {
   }
 
   try {
-    const smStream = new SitemapStream({ hostname: "https://yourdigitalrights.org/" })
+    const smStream = new SitemapStream()
     const pipeline = smStream.pipe(createGzip())
 
     smStream.write({
-      url: "/",
+      url: "https://yourdigitalrights.org",
       changefreq: "weekly",
       priority: 1,  
     });
 
     smStream.write({
-      url: "/about",
+      url: "https://yourdigitalrights.org/about",
       changefreq: "weekly",
       priority: 1,
       links: [
-         {lang: 'es', url: 'https://es.yourdigitalrights.org/about'} 
-      ]          
+        { lang: 'es', url: 'https://es.yourdigitalrights.org/about' },
+        { lang: 'it', url: 'https://it.yourdigitalrights.org/about' }
+      ],
     });
 
     smStream.write({
-      url: "/privacy",
+      url: "https://yourdigitalrights.org/privacy",
       changefreq: "weekly",
       priority: 1,
     });
 
     smStream.write({
-      url: "/data-brokers",
+      url: "https://yourdigitalrights.org/data-brokers",
       changefreq: "daily",
       priority: 1,
     });
