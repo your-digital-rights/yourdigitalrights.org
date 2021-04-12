@@ -45,6 +45,8 @@ export default async (req, res) => {
       res.send({
         error: 'Missing one of uuid, requestType, regulationType, companyName',
       });
+      resolve();
+      return;
     }
 
     const requestItems = {
@@ -76,6 +78,8 @@ export default async (req, res) => {
         res.send({
           error: 'Missing one of name, emailTo, emailSubject, emailBody',
         });
+        resolve();
+        return;
       }
 
       requestItems.RequestItems.FollowUps = [
@@ -83,6 +87,10 @@ export default async (req, res) => {
           PutRequest: {
             Item: {
               uuid: { S: req.body.uuid },
+              requestCreatedAt: { S: new Date().toISOString() },
+              requestType: { S: req.body.requestType },
+              regulationType: { S: req.body.regulationType },
+              companyName: { S: req.body.companyName },
               name: { S: req.body.name },
               identifyingInfo: req.body.identifyingInfo ? { S: req.body.identifyingInfo } : null,
               emailTo: { S: req.body.emailTo },
