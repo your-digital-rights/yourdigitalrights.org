@@ -71,7 +71,7 @@ export default {
   },
 
   trackAdditionalData(org) {
-    this.trackEvent("Additional Data", org);
+    this.trackEvent("Additional Data", "Additional data for: " + org);
   },
 
 };
