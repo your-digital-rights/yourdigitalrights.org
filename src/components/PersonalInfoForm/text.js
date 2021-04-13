@@ -74,34 +74,6 @@ export const IdentifyingInfoHelperText = (
   />
 );
 
-export const FollowUpLabelText = (
-  <FormattedMessage
-    id="FollowUpLabel"
-    defaultMessage="As stated in the legislation, you are entitled to follow up after your initial request. Would you like us to remind you to follow up?"
-  />
-);
-
-export const YesFollowUpLabelText = (
-  <FormattedMessage
-    id="YesFollowUpLabel"
-    defaultMessage="Yes, please remind me"
-  />
-);
-
-export const NoFollowUpLabelText = (
-  <FormattedMessage
-    id="NoFollowUpLabel"
-    defaultMessage="No, I don't need a reminder"
-  />
-);
-
-export const FollowUpDetailsText = (
-  <FormattedMessage
-    id="FollowUpDetails"
-    defaultMessage="In order to send you a reminder, we will need to store your email, name and additional identifying information. In the next step you'll see our email on the BCC section of the form. Please keep it there so we can inform you when the time comes to follow up. We will only use this data to remind you to follow up and then it will be removed from our database."
-  />
-);
-
 export const SubmitButtonText = (
   <FormattedMessage id="sendButton" defaultMessage="Review your request" />
 );
