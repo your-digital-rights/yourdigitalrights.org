@@ -9,10 +9,6 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
-  FollowUpLabelText,
-  YesFollowUpLabelText,
-  NoFollowUpLabelText,
-  FollowUpDetailsText,
   SubmitButtonText,
   ReadMore,
   RequestChoice,
@@ -38,13 +34,11 @@ import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormControl from "@material-ui/core/FormControl";
-import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
-import { v4 as uuidv4 } from 'uuid';
 
 const screenHeightBreakpoint = 560;
 
@@ -61,7 +55,6 @@ class Form extends Component {
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
-      followUp: "YES",
       screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
@@ -145,16 +138,10 @@ class Form extends Component {
   renderMailTo() {
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
-    const followUp = this.state.followUp;
 
     const to = selectedCompany
       ? selectedCompany.email
       : this.state.companyEmail;
-
-    const bcc =
-      followUp === "YES"
-        ? `${uuidv4()}@inbound.yourdigitalrights.org`
-        : null;
 
     const companyName = selectedCompany
       ? selectedCompany.name
@@ -172,7 +159,6 @@ class Form extends Component {
 
     return mailtoLink({
       to,
-      bcc,
       subject: subject,
       body: body,
     });
@@ -348,34 +334,6 @@ class Form extends Component {
               value={this.props.selectedCompany.url}
             />
           )}
-          <FormControl
-            variant="outlined"
-            focused={true}
-            component="fieldset"
-            className={classes.formControl}
-          >
-            <FormLabel>{FollowUpLabelText}</FormLabel>
-            <RadioGroup
-              name="followup1"
-              className={classes.group}
-              onChange={this.handleInput("followUp")}
-              value={this.state.followUp}
-            >
-              <FormControlLabel
-                value="YES"
-                control={<Radio />}
-                label={YesFollowUpLabelText}
-              />
-              <FormControlLabel
-                value="NO"
-                control={<Radio />}
-                label={NoFollowUpLabelText}
-              />
-            </RadioGroup>
-            <FormHelperText>
-              {FollowUpDetailsText}
-            </FormHelperText>
-          </FormControl>
           <div>
             <Button
               variant="contained"
