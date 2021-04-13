@@ -121,8 +121,8 @@ describe("When I visit the home page", () => {
           it("shows a thank you message", () => {
             page.thanksMessage.isVisible.should.be.true;
             expect(page.thanksMessage.title).to.equal("Thank You");
-            expect(page.thanksMessage.text).to.equal(
-              "A deletion request email should have opened in your email application. All you need to do is review it and click Send. Organization have one month to comply, and may ask you for additional information to help identify you in their systems."
+            expect(page.thanksMessage.text).to.contain(
+              "A deletion request email should have opened in your email application."
             );
             page.thanksMessage.btn.isDisplayed().should.be.true;
 
