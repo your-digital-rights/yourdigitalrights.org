@@ -126,6 +126,12 @@ class Form extends Component {
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
+    if (this.state.followUp) {
+      tracking.trackFollwups(
+        this.state.regulationType,
+        this.state.requestType
+      );
+    }
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {

@@ -39,6 +39,14 @@ export default {
     );
   },
 
+  trackFollwups(regulationType, requestType) {
+    let requestTypeText = (requestType == "DELETION") ? "Erasure Request" : "Access Request"
+    this.trackEvent(
+      "Followups Request",
+      regulationType + " " + requestTypeText
+    );
+  },
+
   trackAddNewOrg(domain, name) {
     this.trackEvent(
       "Add New Organization",
