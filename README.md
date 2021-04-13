@@ -14,7 +14,44 @@ Requires Node.js >= v15
 
 # Running locally
 
-`npm run dev`
+Ensure Dynamo DB is running locally (see below).
+
+```
+export ACCESS_KEY_ID=accesskey
+export SECRET_ACCESS_KEY=fakesecret
+export REGION=us-east-1
+export ENDPOINT=http://localhost:8000
+npm run dev
+```
+
+# Installing and Running Dynamo DB Locally
+
+Installation https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html:
+```
+cd ~/
+mkdir environment; cd environment; mkdir dynamolocal; cd dynamolocal
+wget https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
+gunzip dynamodb_local_latest.tar.gz
+tar -jxvf dynamodb_local_latest.tar
+```
+
+Running:
+```
+> cd ~/environment/dynamolocal
+> java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar
+```
+
+## Setting up the Dynamo Tables
+
+This is a one-time step that needs to be run for any new database, including a localone. It ensures the tables are creted. Note real (test, staging or production) environments can be updated by changing the AWS credentials.
+
+```
+export ACCESS_KEY_ID=fakeaccesskeyid
+export SECRET_ACCESS_KEY=fakesecretaccesskey
+export REGION=us-east-1
+export ENDPOINT=http://localhost:8000
+npm run setup-dynamo
+```
 
 # Running tests
 

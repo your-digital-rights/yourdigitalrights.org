@@ -1,10 +1,11 @@
 module.exports = {
-	target: 'serverless',
-	async rewrites() {
-			return [
-				{ source: "/sitemap.xml", destination: "/api/sitemap" },
-			];
-	},
+  target: 'serverless',
+  async rewrites() {
+    return [
+      { source: "/save", destination: "/api/save" },
+      { source: "/sitemap.xml", destination: "/api/sitemap" },
+    ];
+  },
   i18n: {
     // These are all the locales you want to support in
     // your application
@@ -19,6 +20,6 @@ module.exports = {
         domain: 'es.yourdigitalrights.org',
         defaultLocale: 'es',
       },
-    ],    
+    ],
   },
 };
