@@ -20,7 +20,7 @@ const tables = [
       { AttributeName: 'requestCreatedAt', AttributeType: 'S' },
       { AttributeName: 'requestType', AttributeType: 'S' },
       { AttributeName: 'regulationType', AttributeType: 'S' },
-      { AttributeName: 'companyName', AttributeType: 'S' },
+      { AttributeName: 'orgName', AttributeType: 'S' },
     ],
     BillingMode: 'PAY_PER_REQUEST',
     GlobalSecondaryIndexes: [
@@ -65,10 +65,10 @@ const tables = [
         },
       },
       {
-        IndexName: 'company_name_index',
+        IndexName: 'org_name_index',
         KeySchema: [
           {
-            AttributeName: 'companyName',
+            AttributeName: 'orgName',
             KeyType: 'HASH',
           }
         ],

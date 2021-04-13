@@ -61,7 +61,7 @@ class Form extends Component {
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
-      followUp: "YES",
+      followUp: "NO",
       screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 

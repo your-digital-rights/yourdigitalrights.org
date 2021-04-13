@@ -67,38 +67,38 @@ export const IdentifyingInfoLabelText = (
 export const IdentifyingInfoHelperText = (
   <FormattedMessage
     id="IdentifyingInfoHelper"
-    defaultMessage="Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. {warning}"
-    values = {{
-      warning: <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>
-    }}
+    defaultMessage="Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. Please do not provide your password or any personal information which the organization does not already have."
   />
 );
 
 export const FollowUpLabelText = (
   <FormattedMessage
     id="FollowUpLabel"
-    defaultMessage="As stated in the legislation, you are entitled to follow up after your initial request. Would you like us to remind you to follow up?"
+    defaultMessage="Would you like us to guide you in case the organization does not fully comply with your request?"
   />
 );
 
 export const YesFollowUpLabelText = (
   <FormattedMessage
     id="YesFollowUpLabel"
-    defaultMessage="Yes, please remind me"
+    defaultMessage="Yes, please send me follow-up emails"
   />
 );
 
 export const NoFollowUpLabelText = (
   <FormattedMessage
     id="NoFollowUpLabel"
-    defaultMessage="No, I don't need a reminder"
+    defaultMessage="No, I can manage on my own"
   />
 );
 
 export const FollowUpDetailsText = (
   <FormattedMessage
     id="FollowUpDetails"
-    defaultMessage="In order to send you a reminder, we will need to store your email, name and additional identifying information. In the next step you'll see our email on the BCC section of the form. Please keep it there so we can inform you when the time comes to follow up. We will only use this data to remind you to follow up and then it will be removed from our database."
+    defaultMessage="We will send you up to 4 follow-up emails when it’s time to take further action. Send the organization a reminder email, or the local Data Protection Agency an escalation email with a click. {warning} We collect this information automatically by adding a special email address to the BCC field of the request email which you are about to send. All personal information relating to this request will be automatically deleted from our systemn within 120 days unless you specify otherwise."
+    values = {{
+      warning: <strong>By selecting this feature you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. </strong>
+    }}
   />
 );
 
