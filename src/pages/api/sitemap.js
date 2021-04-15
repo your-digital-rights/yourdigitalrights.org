@@ -4,12 +4,6 @@ import { createGzip } from "zlib";
 import fetch from "universal-fetch";
 import { DOMAIN } from "../../utils/domain";
 
-const ALT_LANGUAGES = ['es', 'it'];
-
-function generateLangUrls(base_url) {
-  return ALT_LANGUAGES.map(lang => ({'lang': lang, 'url': "https://" + lang + "." + DOMAIN + base_url}))
-}
-
 let sitemap;
 
 async function fetchData() {
@@ -42,10 +36,6 @@ export default async (req, res) => {
       url: "https://yourdigitalrights.org/about",
       changefreq: "weekly",
       priority: 1,
-      links: [
-        { lang: 'es', url: 'https://es.yourdigitalrights.org/about' },
-        { lang: 'it', url: 'https://it.yourdigitalrights.org/about' }
-      ],
     });
 
     smStream.write({
@@ -63,7 +53,7 @@ export default async (req, res) => {
     const companies = await fetchData();
     companies.map((company) =>
       smStream.write({
-        url: `https://yourdigitalrights.org/d/${company.url}`,
+        url: `https://${DOMAIN}/d/${company.url}`,
         changefreq: "weekly",
         priority: 0.5,
       })
