@@ -8,6 +8,9 @@ import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
+import { NextSeo } from 'next-seo';
+import generateLangLinks from "../utils/langUtils";
+
 
 const styles = (theme) => ({
   container: {
@@ -28,8 +31,8 @@ const styles = (theme) => ({
   },
 });
 
+
 // TODO: Make these string translatable
-const Title = "About Us | Your Digital Rights";
 const Description =
   "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
 const Canonical = "https://yourdigitalrights.org/about";
@@ -37,15 +40,15 @@ const Canonical = "https://yourdigitalrights.org/about";
 const About = ({ classes }) => {
   return (
     <div>
-      <Head>
-        <title>{Title}</title>
-        <link rel="canonical" href={Canonical} />
-        <meta name="description" content={Description} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:title" content={Title} />
-        <meta name="twitter:title" content={Title} />
-        <meta name="twitter:description" content={Description} />
-      </Head>
+      <NextSeo
+        title = "About Us"
+        canonical = {Canonical}
+        description = {Description}
+        openGraph = {{
+          description: Description,
+        }}
+        languageAlternates = {generateLangLinks(Canonical)}
+      />   
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >

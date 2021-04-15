@@ -10,19 +10,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta
-            property="og:image"
-            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
-          />
-          <meta property="og:image:width" content="898" />
-          <meta property="og:image:height" content="680" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@OptoutEU" />
-
-          <meta
-            name="twitter:image"
-            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
-          />
-          <meta
             name="theme-color"
             content={theme.palette.primary.main}
           />
