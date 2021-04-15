@@ -9,7 +9,9 @@ import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
-import generateLangLinks from "../utils/langUtils";
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
+
 
 const styles = (theme) => ({
   container: {
@@ -24,19 +26,20 @@ const styles = (theme) => ({
 });
 
 // TODO: Make these string translatable
-const Canonical = "https://yourdigitalrights.org/privacy";
+const BaseURL = "/privacy";
 const Description = "You own your data, we exist to help you control who has access to it. This is our privay policy page.";
-const Privacy = ({ classes }) => {
+
+const Privacy = ({ classes, router }) => {
   return (
     <div>
       <NextSeo
         title = "Privacy Policy"
-        canonical = {Canonical}
+        canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
           description: Description,
         }}
-        languageAlternates = {generateLangLinks(Canonical)}
+        languageAlternates = {generateLangLinks(BaseURL)}
       />    
       <Nav />
       <div className={classes.container}>
@@ -175,4 +178,4 @@ const Privacy = ({ classes }) => {
   );
 };
 
-export default withStyles(styles)(Privacy);
+export default withStyles(styles)(withRouter(Privacy));

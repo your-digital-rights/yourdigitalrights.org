@@ -9,7 +9,8 @@ import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
-import generateLangLinks from "../utils/langUtils";
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
 
 
 const styles = (theme) => ({
@@ -35,19 +36,19 @@ const styles = (theme) => ({
 // TODO: Make these string translatable
 const Description =
   "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy.";
-const Canonical = "https://yourdigitalrights.org/about";
+const BaseURL = "/about";
 
-const About = ({ classes }) => {
+const About = ({ classes, router }) => {
   return (
     <div>
       <NextSeo
         title = "About Us"
-        canonical = {Canonical}
+        canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
           description: Description,
         }}
-        languageAlternates = {generateLangLinks(Canonical)}
+        languageAlternates = {generateLangLinks(BaseURL)}
       />   
       <Nav />
       <div className={classes.container}>
@@ -255,4 +256,4 @@ const About = ({ classes }) => {
   );
 };
 
-export default withStyles(styles)(About);
+export default withStyles(styles)(withRouter(About));

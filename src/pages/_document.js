@@ -7,7 +7,7 @@ import { DOMAIN } from "../utils/domain";
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
           <meta
             name="theme-color"
