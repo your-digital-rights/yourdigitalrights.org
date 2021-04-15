@@ -12,10 +12,10 @@ import Social from "../components/Social";
 import tracking from "../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import { DOMAIN } from "../utils/domain";
-import generateLangLinks from "../utils/langUtils";
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
 import { SiteLinksSearchBoxJsonLd } from 'next-seo';
-import Router from "next/router";
+import { withRouter } from "next/router";
 import {
   searchOrganizationsUrlAnchor,
   heroUrlAnchor,
@@ -144,7 +144,7 @@ class Index extends Component {
   render() {
     const { classes } = this.props;
     const { selectedCompany, screenWidth } = this.state;
-    const Canonical = "https://" + DOMAIN;
+    const BaseURL = "";
     const Description = "Delete your account or access the personal data organizations have on you using this free service.";
     
     return (
@@ -157,21 +157,12 @@ class Index extends Component {
         <div className={classes.mainContainer}>
           <div className={classes.scrollableContainer}></div>
           <NextSeo
-            canonical = {Canonical}
+            canonical = {generateCanonical(BaseURL, this.props.router.locale)}
             openGraph = {{
               description: Description,
             }}
-            languageAlternates = {generateLangLinks(Canonical)}
+            languageAlternates = {generateLangLinks(BaseURL)}
           />
-/*          <SiteLinksSearchBoxJsonLd
-            url={Canonical}
-            potentialActions={[
-              {
-                target: `${Canonical}?company`,
-                queryInput: 'search_term_string',
-              },
-            ]}
-          />          */
           <input className={classes.topOfPagePlaceholder} />
           <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
@@ -194,4 +185,4 @@ class Index extends Component {
   }
 }
 
-export default withStyles(styles)(Index);
+export default withStyles(styles)(withRouter(Index));

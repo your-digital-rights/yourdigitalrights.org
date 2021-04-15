@@ -11,17 +11,21 @@ module.exports = {
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["en", "es"],
+    locales: ["en", "es", "it"],
     defaultLocale: "en",
     domains: [
       {
-        domain: 'en.yourdigitalrights.org',
+        domain: 'yourdigitalrights.org',
         defaultLocale: 'en',
       },
       {
         domain: 'es.yourdigitalrights.org',
         defaultLocale: 'es',
       },
+      {
+        domain: 'it.yourdigitalrights.org',
+        defaultLocale: 'it',
+      },      
     ],    
   },
 };

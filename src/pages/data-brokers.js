@@ -14,7 +14,8 @@ import PropTypes from "prop-types";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import { NextSeo } from 'next-seo';
-import generateLangLinks from "../utils/langUtils";
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
 
 
 const styles = (theme) => ({
@@ -86,19 +87,19 @@ const dataBrokers = [
 
 // TODO: Make these string translatable
 const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://yourdigitalrights.org/data-brokers";
+const BaseURL = "/data-brokers";
 
-const Brokers = ({ classes }) => {
+const Brokers = ({ classes, router }) => {
   return (
     <div>
       <NextSeo
         title = "Opt Out of the Top Data Brokers"
-        canonical = {Canonical}
+        canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
           description: Description,
         }}
-        languageAlternates = {generateLangLinks(Canonical)}
+        languageAlternates = {generateLangLinks(BaseURL)}
       />
       <Nav />
       <div className={classes.container}>
@@ -180,4 +181,4 @@ Brokers.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Brokers);
+export default withStyles(styles)(withRouter(Brokers));

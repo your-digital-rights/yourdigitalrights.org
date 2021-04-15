@@ -1,9 +1,19 @@
-import { DOMAIN } from "./domain";
+import {DOMAIN} from "./domain";
 
-const ALT_LANGUAGES = ['es', 'it'];
 
-export default function generateLangLinks(url) {
-	return ALT_LANGUAGES.map(lang => (
-		{'hrefLang': lang, 'href': url.replace("https://", "https://" + lang + ".")})
+const ALT_LANGUAGES = ['en', 'es', 'it'];
+
+
+function generateCanonical(base_url, local) {
+	return (local === 'en') ? 'https://' + DOMAIN + base_url : 'https://' + local + "." + DOMAIN + base_url
+}
+
+
+function generateLangLinks(base_url) {
+	return ALT_LANGUAGES.map(local => (
+		{'hrefLang': local, 'href': generateCanonical(base_url, local)})
 	)
 }
+
+
+export {generateCanonical, generateLangLinks };

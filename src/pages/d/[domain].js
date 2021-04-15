@@ -11,30 +11,31 @@ import fetchSheetData from "../../utils/sheets";
 import tracking from "../../utils/tracking";
 import { DOMAIN } from "../../utils/domain";
 import { NextSeo } from 'next-seo';
-import generateLangLinks from "../../utils/langUtils";
+import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
+import { withRouter } from "next/router";
 
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ newOrg, organization, classes }) => {
+const Org = ({ newOrg, organization, classes, router }) => {
 
   const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Get a Copy of Your Data" : "Send GDPR and CCPA Data Deletion and Access Requests";
   const Description = organization ? "Request account deletion or a copy of your personal data from " + Capitalize(organization.url) + " quickly and easily using this free service." :
     "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service.";
-  const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url : "https://" + DOMAIN + "/d/add";
+  const BaseURL = organization ? "/d/" + organization.url : "/d/add";
 
   return (
     <div>
     <NextSeo
         title = {Title}
-        canonical = {Canonical}
+        canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
           description: Description,
         }}
-        languageAlternates = {generateLangLinks(Canonical)}
+        languageAlternates = {generateLangLinks(BaseURL)}
       />       
       <Nav />
       <Hero 
@@ -46,7 +47,7 @@ const Org = ({ newOrg, organization, classes }) => {
       {organization && (
         <AboutOrg 
           selectedCompany={organization}
-          canonical={Canonical}
+          canonical={generateCanonical(BaseURL, 'en')}
         />
       )}
       <Donations />
@@ -85,4 +86,4 @@ export async function getStaticProps({ params }) {
 
 
 
-export default Org;
+export default withRouter(Org);
