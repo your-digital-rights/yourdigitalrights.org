@@ -2,7 +2,10 @@ module.exports = {
 	target: 'serverless',
 	async rewrites() {
 			return [
-				{ source: "/sitemap.xml", destination: "/api/sitemap" },
+				{ 
+          source: "/sitemap.xml", 
+          destination: "/api/sitemap", 
+        }
 			];
 	},
   i18n: {
@@ -22,3 +25,21 @@ module.exports = {
     ],    
   },
 };
+
+
+        // {
+        //   source: '/specific/:path*',
+        //   has: [
+        //     {
+        //       type: 'query',
+        //       key: 'page',
+        //       value: 'home',
+        //     },
+        //     {
+        //       type: 'cookie',
+        //       key: 'authorized',
+        //       value: 'true',
+        //     },
+        //   ],
+        //   destination: '/:path*/:page',
+        // },
