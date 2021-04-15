@@ -69,5 +69,4 @@ export default {
   trackWishlist() {
     this.trackEvent("Wishlist Click");
   },
-
 };

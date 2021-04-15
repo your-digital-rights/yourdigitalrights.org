@@ -171,7 +171,7 @@ class Form extends Component {
         },
       }
     );
-    tracking.trackAddNewOrg(this.state.companyName);
+    tracking.trackAddNewOrg(this.state.companyName);  
   }
 
   render() {
