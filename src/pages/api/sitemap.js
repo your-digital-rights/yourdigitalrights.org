@@ -3,6 +3,7 @@ import { Readable } from "stream";
 import { createGzip } from "zlib";
 import fetch from "universal-fetch";
 import { DOMAIN } from "../../utils/domain";
+import { ALT_LANGUAGES } from "../../utils/langUtils";
 
 let sitemap;
 
@@ -52,11 +53,13 @@ export default async (req, res) => {
 
     const companies = await fetchData();
     companies.map((company) =>
-      smStream.write({
-        url: `https://${DOMAIN}/d/${company.url}`,
-        changefreq: "weekly",
-        priority: 0.5,
-      })
+      ALT_LANGUAGES.forEach((locale) =>
+        smStream.write({
+          url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${locale}.${DOMAIN}/d/${company.url}`,
+          changefreq: "weekly",
+          priority: 0.5,
+        })
+      )
     );
 
     // cache the response
