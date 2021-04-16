@@ -15,15 +15,16 @@ export default class MyDocument extends Document {
           />
           <link 
             rel="preconnect" 
-            href="https://fonts.gstatic.com" 
+            href="//d.bablic.com" 
             crossOrigin="true"
           />
           <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900"
+            rel="preload" 
+            as="font"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,800&display=optional"
           />
           <link
-            rel="stylesheet"
+            rel="stylesheet" 
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
           <link rel="stylesheet" href="/images/mobile.css" />
