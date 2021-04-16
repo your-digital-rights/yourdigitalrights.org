@@ -32,7 +32,8 @@ jobs:
 
       - save_cache:
           paths:
-            - node_modules
+            - ./node_modules
+            - ./.next/cache
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
