@@ -1,5 +1,5 @@
 import { FormattedMessage } from "react-intl";
-const Title = <FormattedMessage id="title" defaultMessage="How it works" />;
+const Title = <FormattedMessage defaultMessage="How it works" />;
 
 const TitleImgAlt = (
   <FormattedMessage

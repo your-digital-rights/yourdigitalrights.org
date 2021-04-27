@@ -106,7 +106,7 @@ const Brokers = ({ classes, router }) => {
         <Paper className={classes.inner} elevation={2} >
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
-              id="aboutTitle"
+              id="DBAboutTitle"
               defaultMessage="Opt Out of the Top Data Brokers"
             />
           </Typography>

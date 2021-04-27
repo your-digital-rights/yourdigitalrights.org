@@ -186,19 +186,10 @@ const About = ({ classes, router }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="cookiesBody"
+              id="sponsorsTitle"
               defaultMessage="We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
             />
           </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="sponsorsBody1"
-              defaultMessage="{bablic} - for providing a platform which allows us to translate and localize this website."
-              values={{
-                bablic: <a href="https://www.bablic.com">Bablic</a>,
-              }}
-            />       
-          </Typography>   
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="sponsorsBody2"

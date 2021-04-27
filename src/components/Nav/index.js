@@ -174,7 +174,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           onClickHandler={toggleMobileNav}
           href="mailto:info@opt-out.eu"
           subsection={true}
-          text={<FormattedMessage id="contact" defaultMessage="Contact Us" />}
+          text={<FormattedMessage defaultMessage="Contact Us" />}
           classes={classes}
         />
 

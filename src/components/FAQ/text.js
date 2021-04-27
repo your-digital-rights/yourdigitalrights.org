@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
 
 export const Title = (
-  <FormattedMessage id="title" defaultMessage="Frequently Asked Questions" />
+  <FormattedMessage defaultMessage="Frequently Asked Questions" />
 );
 
 export default [

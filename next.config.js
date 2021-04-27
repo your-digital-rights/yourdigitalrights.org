@@ -12,21 +12,7 @@ module.exports = {
     // These are all the locales you want to support in
     // your application
     locales: ["en", "es", "it"],
-    defaultLocale: "en",
-    domains: [
-      {
-        domain: 'yourdigitalrights.org',
-        defaultLocale: 'en',
-      },
-      {
-        domain: 'es.yourdigitalrights.org',
-        defaultLocale: 'es',
-      },
-      {
-        domain: 'it.yourdigitalrights.org',
-        defaultLocale: 'it',
-      },      
-    ],    
+    defaultLocale: "en",   
   },
 };
 

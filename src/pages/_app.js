@@ -8,11 +8,14 @@ import { IntlProvider } from "react-intl"
 import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
+import * as locales from '../../lang';
 
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter()
   const { locale, defaultLocale, pathname } = router
+  const localeCopy = locales[locale]
+  const messages = localeCopy[pathname]
 
 
   React.useEffect(() => {
@@ -32,6 +35,7 @@ export default function MyApp({ Component, pageProps }) {
       <IntlProvider
         locale={locale}
         defaultLocale={defaultLocale}
+        messages={messages}
       >
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

@@ -159,7 +159,7 @@ const Privacy = ({ classes, router }) => {
           </Typography>
           <br />
           <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage defaultMessage="Contact" id="contact" />
+            <FormattedMessage defaultMessage="Contact" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
