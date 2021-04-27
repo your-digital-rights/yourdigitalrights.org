@@ -1,2 +1,599 @@
 {
+  "Bitcoin": {
+    "message": "Dona Bitcoin"
+  },
+  "DBAboutTitle": {
+    "message": "Rinuncia ai migliori data broker"
+  },
+  "Extension": {
+    "message": "Estensione del browser"
+  },
+  "HK3ph8": {
+    "message": "Come funziona"
+  },
+  "IdentifyingInfoHelper": {
+    "message": "Facoltativamente, fornire qualsiasi informazione aggiuntiva che aiuterà l'organizzazione a individuare i dati nei propri sistemi informativi come nome utente, ID cliente o numero di conto. {warning}"
+  },
+  "Liberapay": {
+    "message": "Dona tramite Liberapay"
+  },
+  "QA1wrZ": {
+    "message": "Domande frequenti"
+  },
+  "WishList": {
+    "message": "esprimere un desiderio sulla nostra tabella di marcia"
+  },
+  "about": {
+    "message": "Di"
+  },
+  "aboutTitle": {
+    "message": "La nostra missione"
+  },
+  "accessRequestLabelText": {
+    "message": "Inviami una copia dei miei dati"
+  },
+  "analyticsBodyOneA": {
+    "message": "Matomo: un servizio di analisi web orientato alla privacy di Innocraft. Puoi visitare la loro pagina { matomo }"
+  },
+  "body10A": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body10Ai": {
+    "message": "Se non sei soddisfatto di come l'organizzazione ha gestito la tua richiesta, dovresti prima presentare un reclamo. Fatto ciò, se rimani insoddisfatto puoi presentare un reclamo alle autorità locali per la protezione dei dati (DPA). Puoi anche cercare di far valere i tuoi diritti attraverso i tribunali. Se decidi di farlo, ti consigliamo vivamente di cercare prima una consulenza legale indipendente. È possibile scaricare un elenco di DPA {link} (PDF)."
+  },
+  "body10B": {
+    "message": "Sotto il CCPA:"
+  },
+  "body10Bii": {
+    "message": "Se non sei soddisfatto del modo in cui un'organizzazione ha gestito la tua richiesta, dovresti prima presentare un reclamo. Fatto ciò, se rimani insoddisfatto hai due opzioni. {link} o intraprendere un'azione privata."
+  },
+  "body11A": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body11Ai": {
+    "message": "Le organizzazioni possono essere multate fino al 4% del fatturato globale annuo per violazione del GDPR o fino a 20 milioni di euro."
+  },
+  "body11Aii": {
+    "message": "{link}."
+  },
+  "body11B": {
+    "message": "Sotto il CCPA:"
+  },
+  "body11Bi": {
+    "message": "La sanzione per una violazione intenzionale del CCPA è di $ 7.500 per incidente e per una violazione involontaria di $ 2.500 per incidente. I consumatori hanno diritto a un $100-$750 per incidente o danno effettivo, a seconda di quale sia maggiore, se una società non ha adottato misure di sicurezza ragionevoli in caso di violazione di informazioni personali sensibili."
+  },
+  "body11Biii": {
+    "message": "{link}."
+  },
+  "body12A": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body12Ai": {
+    "message": "L'Ufficio per la protezione dei dati (DPO), sebbene la legislazione stabilisca che le organizzazioni dovrebbero formare il personale a riconoscere le richieste GDPR, indipendentemente da chi raggiungono o in quale formato."
+  },
+  "body12B": {
+    "message": "Sotto il CCPA:"
+  },
+  "body12Bi": {
+    "message": "Il CCPA non definisce chi specificamente all'interno di un'organizzazione è responsabile di questo."
+  },
+  "body13A": {
+    "message": "Per risolvere questo problema, dovrai configurare un client di posta predefinito sul tuo sistema. Ecco le istruzioni su come eseguire questa operazione su {mac} e {windows}."
+  },
+  "body1A": {
+    "message": "Attualmente esistono due normative principali che tutelano la privacy individuale online. Il Regolamento generale sulla protezione dei dati, o GDPR, protegge i residenti dell'Unione Europea e il California Consumer Privacy Act, o CCPA, protegge i residenti della California."
+  },
+  "body2A": {
+    "message": "Il Regolamento generale sulla protezione dei dati, o GDPR in breve, è un nuovo regolamento introdotto nell'Unione Europea nel maggio 2018. Protegge il diritto fondamentale delle persone alla protezione dei dati personali."
+  },
+  "body2Ai": {
+    "message": "{link}"
+  },
+  "body2B": {
+    "message": "Il GDPR non si applica a determinate attività, comprese le forze dell'ordine, la sicurezza nazionale e puramente per attività personali / domestiche."
+  },
+  "body2C": {
+    "message": "{link}"
+  },
+  "body3A": {
+    "message": "Il GDPR si applica a:"
+  },
+  "body3Ai": {
+    "message": "Organizzazioni stabilite all'interno dell'UE che raccolgono o trattano dati personali (anche di persone situate al di fuori dell'UE)"
+  },
+  "body3Aii": {
+    "message": "Organizzazioni stabilite al di fuori dell'UE che raccolgono o elaborano informazioni personali mentre forniscono beni o servizi (a pagamento o gratuitamente) a persone che si trovano all'interno dell'UE"
+  },
+  "body3Aiii": {
+    "message": "Organizzazioni stabilite al di fuori dell'UE che raccolgono o elaborano informazioni personali mentre sono impegnate nel monitoraggio del comportamento delle persone mentre si trovano nell'UE"
+  },
+  "body4A": {
+    "message": "Il California Consumer Privacy Act, o CCPA in breve, è un nuovo regolamento introdotto in California nel gennaio 2020. Protegge il diritto fondamentale delle persone alla protezione dei propri dati personali e alla privacy online."
+  },
+  "body4Ai": {
+    "message": "{link}"
+  },
+  "body5A": {
+    "message": "Il CCPA si applica alle organizzazioni che raccolgono informazioni personali dei consumatori, o per conto delle quali tali informazioni vengono raccolte e che da sole, o insieme ad altri, determinano le finalità e i mezzi del trattamento delle informazioni personali dei consumatori, che svolgono attività commerciali nello Stato della California e che soddisfa una o più delle seguenti soglie:"
+  },
+  "body5Ai": {
+    "message": "Ha un fatturato lordo annuo superiore a venticinque milioni di dollari ($ 25.000.000)"
+  },
+  "body5Aii": {
+    "message": "Ogni anno acquista, riceve, vende o condivide per scopi commerciali, da soli o in combinazione, le informazioni personali di 50.000 o più consumatori, famiglie o dispositivi"
+  },
+  "body5Aiii": {
+    "message": "Ricava il 50 percento o più delle sue entrate annuali dalla vendita di informazioni personali dei consumatori"
+  },
+  "body6Ai": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body6Aii": {
+    "message": "Qualsiasi informazione relativa a una persona che può essere utilizzata direttamente o indirettamente per identificarla. Una persona può essere identificata in un'ampia gamma di modi, inclusi nome, numero di identificazione, dati sulla posizione o altri identificatori online."
+  },
+  "body6Aiii": {
+    "message": "{link}"
+  },
+  "body6Bi": {
+    "message": "Sotto il CCPA:"
+  },
+  "body6Bii": {
+    "message": "Le informazioni personali sono tutto ciò che identifica, si riferisce a, descrive o è in grado di essere associato o potrebbe essere ragionevolmente collegato, direttamente o indirettamente, a un particolare consumatore o famiglia."
+  },
+  "body6Biii": {
+    "message": "{link}"
+  },
+  "body7A": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body7Ai": {
+    "message": "Il diritto alla cancellazione non è assoluto e riguarda il trattamento dei dati per i quali il consenso è la base giuridica del trattamento. Ad esempio, i dati necessari a causa di un contratto o i dati di interesse pubblico non rientrano in questa definizione. Più specificamente, il diritto si applica solo nelle seguenti circostanze:"
+  },
+  "body7Aii": {
+    "message": "L'organizzazione non ha più bisogno dei tuoi dati. Esempio: dopo aver annullato l'abbonamento alla palestra, non è più necessario conservare i dettagli del tuo nome, indirizzo, età e condizioni di salute."
+  },
+  "body7Aiii": {
+    "message": "Inizialmente hai acconsentito all'uso dei tuoi dati, ma ora hai revocato il tuo consenso. Esempio: hai accettato di partecipare a uno studio di ricerca di mercato e ora non desideri più farlo."
+  },
+  "body7Aiv": {
+    "message": "Ti sei opposto all'uso dei tuoi dati ei tuoi interessi superano quelli dell'organizzazione che li utilizza."
+  },
+  "body7Av": {
+    "message": "L'organizzazione ha raccolto o utilizzato i tuoi dati in modo illegale. Esempio: non ha rispettato le norme sulla protezione dei dati."
+  },
+  "body7Avi": {
+    "message": "L'organizzazione ha l'obbligo legale di cancellare i tuoi dati."
+  },
+  "body7Avii": {
+    "message": "I dati sono stati raccolti da te da bambino per un servizio online. Esempio: social media o un'app di gioco. La legge offre ai minori una protezione speciale perché potrebbero essere meno consapevoli dei rischi e delle conseguenze del conferimento dei propri dati alle organizzazioni. Anche se ora sei un adulto, hai il diritto alla cancellazione dei tuoi dati se sono stati raccolti da te da bambino."
+  },
+  "body7B": {
+    "message": "{link}"
+  },
+  "body8A": {
+    "message": "Ci sono alcune circostanze in cui un'organizzazione è legalmente autorizzata a rifiutarsi di cancellare i tuoi dati."
+  },
+  "body8Ai": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body8Aii": {
+    "message": "Quando la conservazione dei dati è necessaria per motivi di libertà di espressione e informazione (questo include giornalismo e scopi accademici, artistici e letterari)."
+  },
+  "body8Aiii": {
+    "message": "Quando l'organizzazione è legalmente obbligata a conservare i tuoi dati."
+  },
+  "body8Aiv": {
+    "message": "Quando la conservazione dei tuoi dati è necessaria per motivi di salute pubblica."
+  },
+  "body8Av": {
+    "message": "Quando la conservazione dei dati è necessaria per stabilire, esercitare o difendere rivendicazioni legali."
+  },
+  "body8Avi": {
+    "message": "Quando la cancellazione dei dati pregiudicherebbe la ricerca scientifica o storica o l'archiviazione che è di interesse pubblico."
+  },
+  "body8Avii": {
+    "message": "Se, considerata la tua richiesta, l'organizzazione decide di non dover cancellare i tuoi dati, deve comunque risponderti. Dovrebbe spiegarti perché ritiene di non dover cancellare i tuoi dati e farti sapere del tuo diritto di lamentarti di questa decisione all'ICO o attraverso i tribunali."
+  },
+  "body8B": {
+    "message": "L'organizzazione può anche rifiutare la tua richiesta se, come recita la legge, “manifestamente infondata o eccessiva”."
+  },
+  "body8Bi": {
+    "message": "{link}"
+  },
+  "body8C": {
+    "message": "Sotto il CCPA:"
+  },
+  "body8Ci": {
+    "message": "Libertà di parola o altro diritto previsto dalla legge."
+  },
+  "body8Cii": {
+    "message": "Elaborazione a fini di ricerca, qualora la cancellazione dei dati personali rendesse impossibile o compromettesse gravemente il raggiungimento di tale ricerca."
+  },
+  "body8Ciii": {
+    "message": "Il trattamento di tali informazioni personali è necessario per proteggere da attività illegali o perseguire i responsabili dell'attività."
+  },
+  "body8Civ": {
+    "message": "Per il rispetto di un obbligo legale."
+  },
+  "body8Cix": {
+    "message": "In caso contrario, utilizzare le informazioni personali del consumatore, internamente, in modo lecito compatibile con il contesto in cui il consumatore ha fornito le informazioni."
+  },
+  "body8Cv": {
+    "message": "Per eseguire un contratto tra l'azienda e il consumatore."
+  },
+  "body8Cvi": {
+    "message": "Rilevare incidenti di sicurezza, proteggere da attività dannose, ingannevoli, fraudolente o illegali o perseguire i responsabili di tale attività."
+  },
+  "body8Cvii": {
+    "message": "Eseguire il debug per identificare e riparare gli errori che compromettono la funzionalità prevista esistente."
+  },
+  "body8Cviii": {
+    "message": "Consentire esclusivamente usi interni ragionevolmente allineati alle aspettative del consumatore in base al rapporto del consumatore con l'azienda."
+  },
+  "body8D": {
+    "message": "{link}"
+  },
+  "body9A": {
+    "message": "Ai sensi del GDPR:"
+  },
+  "body9Ai": {
+    "message": "Un'organizzazione ha un mese per soddisfare una richiesta. Il termine può essere esteso a 2 mesi aggiuntivi tenendo conto della complessità e del numero di richieste. In ogni caso, l'organizzazione deve informarti di tale proroga entro un mese dal ricevimento della richiesta."
+  },
+  "body9Aii": {
+    "message": "Sotto il CCPA:"
+  },
+  "body9Aiii": {
+    "message": "Il termine per rispondere a una richiesta è di 45 giorni dal ricevimento della richiesta del consumatore. Il termine può essere prorogato di ulteriori 45 giorni se ragionevolmente necessario, se il consumatore viene informato entro i primi 45 giorni."
+  },
+  "brokerAfter": {
+    "message": "Questi sono alcuni dei migliori broker di dati, ma ce ne sono molti altri. Fare clic sul pulsante in basso per eseguire la ricerca nell'intero database."
+  },
+  "brokersIntro": {
+    "message": "I Data Broker sono società che raccolgono e vendono dati personali, in genere a tua insaputa o senza il tuo consenso. Questi sono alcuni dei migliori broker di dati, fai clic su ciascuna società per far sì che cancellino i tuoi dati inviando una richiesta di cancellazione {faq}"
+  },
+  "ccpaOption": {
+    "message": "CCPA (California)"
+  },
+  "ccpaOrGdpr": {
+    "message": "Regolamento"
+  },
+  "ccpaOrGdprHelper": {
+    "message": "Scegli la regolamentazione in base al tuo luogo di residenza, a meno che tu non abbia un motivo specifico per scegliere diversamente."
+  },
+  "companyEmailLabel": {
+    "message": "Indirizzo email dell'organizzazione"
+  },
+  "companyNameHelper": {
+    "message": "Inserisci il nome dell'organizzazione che desideri contattare."
+  },
+  "companyNameLabel": {
+    "message": "Nome dell'organizzazione"
+  },
+  "companyPlaceholder": {
+    "message": "Cerca un'organizzazione"
+  },
+  "compnayEmailHelper": {
+    "message": "Si prega di inserire l'indirizzo e-mail della persona o del dipartimento responsabile della gestione delle richieste legali / GDPR / CCPA / privacy. Di solito è possibile trovare queste informazioni sul sito Web dell'organizzazione sotto l'informativa sulla privacy, i termini e le condizioni o la pagina dei contatti."
+  },
+  "consciousDigital": {
+    "message": "Chi siamo"
+  },
+  "consciousDigital1": {
+    "message": "YourDigitalRights.org è una produzione di {cd}, un'organizzazione senza scopo di lucro che crea iniziative digitali incentrate sulle persone che promuovono e promuovono i diritti umani digitali."
+  },
+  "contactBody": {
+    "message": "In caso di domande o dubbi sulla presente Informativa sulla privacy, contattaci al numero {mail}."
+  },
+  "contributors": {
+    "message": "Contributori"
+  },
+  "contributorsBody1": {
+    "message": "{linkedin} - Sviluppatore web frontend."
+  },
+  "contributorsBody2": {
+    "message": "{linkedin} - Sviluppatore web frontend."
+  },
+  "cookies": {
+    "message": "Cookie e tracciamento"
+  },
+  "cookiesBody": {
+    "message": "Nella gestione del Servizio utilizziamo una tecnologia chiamata \"cookies\". Un cookie è un'informazione che il computer che ospita il nostro Servizio fornisce al tuo browser quando accedi al Servizio. Sebbene non utilizziamo i cookie per fornire il Servizio, utilizziamo i cookie per aiutarci ad analizzare l'utilizzo del Servizio in modo più accurato e per salvare le scelte che fai sul sito web in modo che sia più facile per te utilizzare il servizio la prossima volta. In tutti i casi in cui utilizziamo i cookie, non raccoglieremo Dati personali se non con il tuo esplicito consenso. Sulla maggior parte dei browser web, troverai una sezione \"aiuto\" sulla barra degli strumenti. Fare riferimento a questa sezione per informazioni su come ricevere una notifica quando si riceve un nuovo cookie e su come disattivare i cookie."
+  },
+  "createdByBody3": {
+    "message": "{linkedin} - Sviluppatore web frontend, sviluppatore di app per dispositivi mobili e creatore di Skyjacker, il gioco di monitoraggio dei voli in AR."
+  },
+  "data-brokers": {
+    "message": "Broker di dati"
+  },
+  "deletionRequestLabelText": {
+    "message": "Elimina i miei dati"
+  },
+  "donateIntro": {
+    "message": "YourDigitalRights.org è stato creato perché crediamo che la privacy sia importante e che esercitare il tuo diritto alla privacy dovrebbe essere facile. Ecco perché l'abbiamo reso gratuito. Le donazioni ci consentono di dedicare più tempo al miglioramento di questo servizio."
+  },
+  "donation": {
+    "message": "Fai una donazione"
+  },
+  "extension": {
+    "message": "Estensione del browser"
+  },
+  "faq": {
+    "message": "FAQ"
+  },
+  "fillIn": {
+    "message": "Inserisci il tuo nome e qualsiasi informazione aggiuntiva che possa aiutare l'organizzazione a identificarti nei propri sistemi informativi (non conserviamo queste informazioni)."
+  },
+  "fillInTitle": {
+    "message": "Compilare"
+  },
+  "findCompany": {
+    "message": "Trova un'altra organizzazione"
+  },
+  "footerDisclaimer": {
+    "message": "{title} Questo servizio viene fornito così com'è, senza garanzie di alcun tipo. L'utilizzo di questo servizio è interamente a proprio rischio. Non possiamo assumerci la responsabilità per eventuali danni diretti o indiretti derivanti dall'uso di questo servizio. Le informazioni fornite da questo servizio insieme al contenuto del nostro sito Web relativo a questioni legali sono fornite per uso privato e non costituiscono consulenza legale. Se hai bisogno di una consulenza legale per un problema specifico, dovresti consultare un avvocato autorizzato."
+  },
+  "footerQuery": {
+    "message": "Per maggiori informazioni contattaci allo {mail}. © Copyright 2019"
+  },
+  "funding": {
+    "message": "Finanziamento"
+  },
+  "fundingBody1": {
+    "message": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle tue donazioni."
+  },
+  "gdprOption": {
+    "message": "GDPR (Unione Europea)"
+  },
+  "hZOGLS": {
+    "message": "Contattaci"
+  },
+  "headerText": {
+    "message": "Convinci le organizzazioni a eliminare il tuo account o a inviarti una copia dei tuoi dati personali."
+  },
+  "heading1": {
+    "message": "Quale regolamento protegge me, GDPR o CCPA?"
+  },
+  "heading10": {
+    "message": "Cosa devo fare se un'organizzazione non ha ottemperato o non ha rispettato completamente la mia richiesta?"
+  },
+  "heading11": {
+    "message": "Quali sono le sanzioni che un'organizzazione che non ottempera a una richiesta può dover affrontare?"
+  },
+  "heading12": {
+    "message": "Chi in un'organizzazione è responsabile della gestione delle richieste?"
+  },
+  "heading13": {
+    "message": "Quando invio una richiesta tramite il sito web, ricevo un messaggio di errore o non succede nulla"
+  },
+  "heading2": {
+    "message": "Cos'è il GDPR?"
+  },
+  "heading3": {
+    "message": "A chi si applica il GDPR?"
+  },
+  "heading4": {
+    "message": "Cos'è il CCPA?"
+  },
+  "heading5": {
+    "message": "A chi si applica il CCPA?"
+  },
+  "heading6": {
+    "message": "Cosa sono i dati personali?"
+  },
+  "heading7": {
+    "message": "Quando posso richiedere la cancellazione dei miei dati personali?"
+  },
+  "heading8": {
+    "message": "Quando l'organizzazione può dire di no?"
+  },
+  "heading9": {
+    "message": "Quanto tempo ha un'organizzazione per soddisfare una richiesta?"
+  },
+  "headingDonate": {
+    "message": "Abbiamo bisogno del tuo sostegno"
+  },
+  "helpUs": {
+    "message": "Interessato a unirti a noi?"
+  },
+  "helpUsBody1": {
+    "message": "Se sei preoccupato per la perdita di privacy, il capitalismo di sorveglianza dilagante, il micro-targeting e la disinformazione e la natura avvincente dei servizi digitali, ci piacerebbe che ti unissi a noi!"
+  },
+  "helpUsBody2": {
+    "message": "Stiamo cercando volontari che includano sviluppatori React e persone che possano aiutarci a tradurre il sito web in altre lingue europee, ma chiunque è il benvenuto. Contattaci allo {email}."
+  },
+  "heroHeading": {
+    "message": "Possiedi i tuoi dati"
+  },
+  "howItWorks": {
+    "message": "Come funziona"
+  },
+  "identifyingInfoLabel": {
+    "message": "Informazioni identificative aggiuntive (facoltative)"
+  },
+  "imgAlt": {
+    "message": "Un grafico che rappresenta l'interfaccia utente"
+  },
+  "intro": {
+    "message": "Molte organizzazioni raccolgono e vendono i tuoi dati personali, spesso senza il tuo consenso."
+  },
+  "lastUpdated": {
+    "message": "Ultimo aggiornamento:"
+  },
+  "missionBody1": {
+    "message": "YourDigitalRights.org è stato creato perché crediamo che la privacy sia un diritto umano fondamentale e che esercitare questo diritto dovrebbe essere facile. Lo {gdpr} europeo (GDPR) e l' {ccpa} (CCPA) forniscono l'infrastruttura legale per proteggere il diritto fondamentale alla privacy online delle persone."
+  },
+  "missionBody2": {
+    "message": "Le normative sulla privacy come il GDPR e il CCPA sono un passo nella giusta direzione, ma esercitare i tuoi diritti ai sensi di queste legislazioni è ancora abbastanza difficile per la maggior parte delle persone per non preoccuparsene. La situazione è peggiorata perché molte organizzazioni rendono difficile archiviare le richieste di dati (ad esempio non pubblicando alcun indirizzo e-mail aziendale sul proprio sito Web). Lo scopo di questo servizio è di rendere accessibili a tutti i diritti garantiti da queste legislazioni."
+  },
+  "missionBody3": {
+    "message": "Questo è un servizio gratuito. Non siamo un'azienda e non abbiamo un modello di business. Non offriamo alcun servizio alle organizzazioni nell'elenco. Non raccogliamo né scambiamo dati personali. Questo servizio è {oss}."
+  },
+  "nameAndAdditionalInfo": {
+    "message": "Nome e informazioni aggiuntive (come nome utente, ID cliente o numero di conto)"
+  },
+  "nameAndAdditionalInfoBody2": {
+    "message": "Non conserviamo nessuna di queste informazioni sui nostri server e non le condividiamo con terze parti. Utilizziamo queste informazioni per generare un'e-mail di richiesta che viene visualizzata sul tuo personal computer tramite il tuo client di posta predefinito. Spetta a te inviare questa email."
+  },
+  "nameHelper": {
+    "message": "Questo verrà utilizzato dall'organizzazione per identificarti."
+  },
+  "nameLabel": {
+    "message": "Nome e cognome"
+  },
+  "newOrgSubTitle": {
+    "message": "Invia a qualsiasi organizzazione una richiesta {ccpa} o {gdpr}."
+  },
+  "newOrgTitle": {
+    "message": "Elimina o accedi ai miei dati personali"
+  },
+  "noResults": {
+    "message": "Non riesci a trovare un'organizzazione?"
+  },
+  "noResultsMore": {
+    "message": "Clicca qui per aggiungerne uno"
+  },
+  "notAffiliatedDisclamer": {
+    "message": "Questo servizio è {disclamer} (scopri di più {about})."
+  },
+  "orgSubTitle": {
+    "message": "Utilizza questo servizio gratuito per inviare {ccpa} e {gdpr} richieste di dati."
+  },
+  "orgTitle": {
+    "message": "Richiedi la cancellazione dell'account o una copia dei tuoi dati personali."
+  },
+  "personalData": {
+    "message": "Dati personali forniti dall'utente"
+  },
+  "personalDataBody1": {
+    "message": "Durante l'utilizzo di questo Servizio, potremmo chiederti di fornirci alcune informazioni personali che possono essere utilizzate per contattarti o identificarti (\"Dati personali\"). Le informazioni di identificazione personale raccolte sono:"
+  },
+  "personalDataBodyOneA": {
+    "message": "Il tuo nome"
+  },
+  "personalDataBodyOneB": {
+    "message": "Informazioni aggiuntive necessarie per identificarti con le organizzazioni da cui scegli di rinunciare (come nome utente, ID cliente o numero di conto)"
+  },
+  "personalDataBodyOneC": {
+    "message": "Cookie e dati di utilizzo"
+  },
+  "personalDataBodyOneE": {
+    "message": "Fornendoci volontariamente i Dati personali, acconsenti al nostro utilizzo in conformità con la presente Informativa sulla privacy. Se fornisci Dati personali a questo sito web, riconosci e accetti che tali Dati personali possano essere trasferiti dalla tua posizione attuale agli uffici e ai server di yourdigitalrights.org e alle terze parti autorizzate a cui si fa riferimento in questa Informativa."
+  },
+  "privacyPoilcy": {
+    "message": "politica sulla riservatezza"
+  },
+  "privacyTitle": {
+    "message": "politica sulla riservatezza"
+  },
+  "promise": {
+    "message": "Nostra promessa"
+  },
+  "promiseBody": {
+    "message": "Possiedi i tuoi dati. Esistiamo per aiutarti a controllare chi può accedervi. Vogliamo essere trasparenti a questo riguardo e crediamo fermamente nel mantenere le tue informazioni personali personali, private e protette. Limiteremo i Dati personali che raccogliamo da te al minimo assoluto richiesto per fornire questo Servizio (yourdigitalrights.org). Non venderemo o affitteremo le tue informazioni personali a nessuno e non le conserveremo sui nostri server. Condivideremo le tue informazioni personali solo quando è necessario per fornire il servizio o come altrimenti delineato nella presente Informativa."
+  },
+  "readMore": {
+    "message": "Maggiori informazioni sull'eliminazione dei dati sul nostro {ReadMore}."
+  },
+  "redirectContinueText": {
+    "message": "Continua"
+  },
+  "redirectHeadingText": {
+    "message": "opt-out.eu è ora yourdigitalrights.org"
+  },
+  "redirectText": {
+    "message": "Grandi notizie, questo servizio sta crescendo! Abbiamo recentemente lanciato il supporto per il California Consumer Privacy Act (CCPA) e presto lanceremo il supporto per ulteriori tipi di richieste oltre alla cancellazione. Di conseguenza, riteniamo che il nome di dominio \"opt-out.eu\" sia troppo limitante. Siamo più impegnati che mai per aiutarti a esercitare i tuoi diritti digitali, benvenuto nella nostra nuova home @ {domain}!"
+  },
+  "requestChoice": {
+    "message": "Vorrei:"
+  },
+  "requestTypeLabelText": {
+    "message": "Tipo di richiesta"
+  },
+  "search": {
+    "message": "Cerca un'organizzazione utilizzando la casella di ricerca in alto. Se l'organizzazione che stai cercando non è nell'elenco, puoi comunque inviarle una richiesta fornendo un'e-mail di contatto."
+  },
+  "searchTitle": {
+    "message": "Ricerca"
+  },
+  "send": {
+    "message": "Fare clic sul pulsante Invia per generare un'e-mail di richiesta indirizzata alla persona interessata presso l'organizzazione selezionata. L'e-mail si aprirà nell'applicazione di posta elettronica predefinita in cui è possibile esaminarla e quindi inviarla."
+  },
+  "sendButton": {
+    "message": "Rivedi la tua richiesta"
+  },
+  "sendTitle": {
+    "message": "Spedire"
+  },
+  "socialEmailBody": {
+    "message": "Dai un'occhiata a YourDigitalRights.org, un servizio gratuito che ti consente di scoprire facilmente quali dati personali hanno su di te migliaia di organizzazioni e di convincerli a eliminarli."
+  },
+  "socialEmailSubject": {
+    "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli | I tuoi diritti digitali"
+  },
+  "socialFacebookQuote": {
+    "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Controlla yourdigitalrights.org"
+  },
+  "socialShareHeading": {
+    "message": "Se trovi utile questo servizio, spargi la voce"
+  },
+  "socialTwitterTitle": {
+    "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Controlla yourdigitalrights.org"
+  },
+  "sponsors": {
+    "message": "Sponsor"
+  },
+  "sponsorsBody2": {
+    "message": "{crunchbase} - per fornire un'istantanea del database aziendale che utilizziamo per arricchire il nostro elenco di organizzazioni."
+  },
+  "sponsorsBody3": {
+    "message": "{featureupvote} - per fornire un modo efficace per raccogliere il feedback della comunità riguardo al nostro {roadmap}."
+  },
+  "sponsorsBody4": {
+    "message": "{innocraft} - per aver fornito una versione ospitata di Matomo (Piwik), la piattaforma di analisi web open source e orientata alla privacy."
+  },
+  "sponsorsBody5": {
+    "message": "{mailgo} - per la creazione di una fantastica libreria open source che rende i link \"mailto\" facili da usare e per essere estremamente reattivi alle nostre richieste."
+  },
+  "sponsorsBody6": {
+    "message": "{sws} - per averci aiutato a implementare una strategia SEO."
+  },
+  "sponsorsTitle": {
+    "message": "Vorremmo ringraziare le seguenti organizzazioni per aver supportato il nostro sforzo di acquisto open source fornendo una versione gratuita o scontata dei loro servizi:"
+  },
+  "thanksCopyPart1": {
+    "message": "la richiesta di posta elettronica dovrebbe essere stata aperta nell'applicazione di posta elettronica. Tutto quello che devi fare è esaminarlo e fare clic su Invia."
+  },
+  "thanksCopyPart2CCPA": {
+    "message": "L'organizzazione ha {time} per conformarsi e potrebbe chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
+  },
+  "thanksCopyPart2GDPR": {
+    "message": "Le organizzazioni hanno {time} per conformarsi e potrebbero chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
+  },
+  "thanksTitle": {
+    "message": "Grazie"
+  },
+  "twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "usageData": {
+    "message": "Dati di utilizzo"
+  },
+  "usageDataBody": {
+    "message": "Potremmo raccogliere informazioni sulle modalità di accesso e utilizzo del Servizio (\"Dati di utilizzo\"). Questi dati di utilizzo possono includere informazioni come l'indirizzo del protocollo Internet (ad es. Indirizzo IP), il tipo di browser, la versione del browser, le pagine del nostro servizio che visiti, l'ora e la data della tua visita, il tempo trascorso su quelle pagine, le azioni si esegue, identificatori di dispositivo univoci e altri dati diagnostici. Utilizziamo il seguente fornitore di servizi di terze parti per monitorare e analizzare l'utilizzo del nostro servizio:"
+  },
+  "whyBody": {
+    "message": "Abbiamo creato questo servizio perché crediamo che la privacy sia importante e che l'esercizio del tuo diritto alla privacy debba essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è autofinanziato dai suoi creatori e con l'aiuto del tuo {donations}. Per saperne di più {about}."
+  },
+  "whyTitle": {
+    "message": "Perché fidarsi di noi?"
+  },
+  "yourData": {
+    "message": "Lo {GDPRlink} (GDPR) e l' {CCPAlink} (CCPA) richiedono alle organizzazioni di cancellare o fornire una copia dei tuoi dati personali su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono incorrere in multe salate."
+  },
+  "yourDataTitle": {
+    "message": "Sono i tuoi dati, possederli!"
+  },
+  "zFegDD": {
+    "message": "Contatto"
+  }
 }

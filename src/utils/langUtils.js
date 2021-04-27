@@ -1,11 +1,11 @@
 import {DOMAIN} from "./domain";
 
 
-const ALT_LANGUAGES = ['en', 'es', 'it'];
+const ALT_LANGUAGES = ['en', 'es', 'it', 'pt'];
 
 
 function generateCanonical(base_url, locale) {
-	return (locale === 'en') ? 'https://' + DOMAIN + base_url : 'https://' + locale + "." + DOMAIN + base_url
+	return (locale === 'en') ? 'https://' + DOMAIN + base_url : 'https://' + DOMAIN + '/' + locale + base_url
 }
 
 

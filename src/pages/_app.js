@@ -8,14 +8,13 @@ import { IntlProvider } from "react-intl"
 import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
-import * as locales from '../../lang';
+import * as locales from "../../compiled-lang";
 
 
 export default function MyApp({ Component, pageProps }) {
-  const router = useRouter()
-  const { locale, defaultLocale, pathname } = router
-  const messages = locales[locale]
-
+  const router = useRouter();
+  const { locale, defaultLocale, pathname } = router;
+  const messages = locales[locale];
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
