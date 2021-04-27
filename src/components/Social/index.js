@@ -1,4 +1,4 @@
-import { FormattedMessage, intlShape, injectIntl } from "react-intl";
+import { FormattedMessage, injectIntl } from "react-intl";
 import { theme } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
@@ -319,10 +319,6 @@ const Social = ({
       </a>
     </div>
   );
-};
-
-Social.propTypes = {
-  intl: intlShape.isRequired,
 };
 
 export default withStyles(styles)(injectIntl(Social));

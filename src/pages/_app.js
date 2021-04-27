@@ -14,8 +14,7 @@ import * as locales from '../../lang';
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter()
   const { locale, defaultLocale, pathname } = router
-  const localeCopy = locales[locale]
-  const messages = localeCopy[pathname]
+  const messages = locales[locale]
 
 
   React.useEffect(() => {
