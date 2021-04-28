@@ -11,7 +11,7 @@
     "dev": "next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start ./src",
-    "build": "next build ./src",
+    "build": "npm run extract:i18n && npm run compile:i18n && next build ./src",
     "deploy": "npx vercel",
     "deploy:prod": "npx vercel --prod",
     "deploy:prod1": "npx vercel alias vercel alias https://opt-out.vercel.app/ yourdigitalrights.org",
