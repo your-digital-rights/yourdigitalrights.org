@@ -62,22 +62,26 @@ export default function MyApp({ Component, pageProps }) {
                   },
                   message: {
                     fontColor: 'white',
+                    float: 'left',
                   },
                   policy: {
                     color: 'white', 
+                    float: 'left',
+                    clear: 'left',
+                  },
+                  buttonWrapper: {
+                    float: 'right',
                   },
                   button: {
                     border: '1px solid white',
                     borderRadius: 4,
-                    height: 32,
-                    lineHeight: '32px',
                     background: 'transparent',
                     color: 'white',
                     fontSize: '14px',
+                    lineHeight: '32px',
                     fontWeight: 600,
                     opacity: 1,
                     right: 20,
-                    marginTop: -18,
                     marginRight: "10px"
                   }            
                 }}
