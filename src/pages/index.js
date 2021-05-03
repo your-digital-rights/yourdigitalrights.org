@@ -1,5 +1,6 @@
 import Head from "next/head";
-import { Component } from "react";
+import { injectIntl } from "react-intl";
+import { createRef, Component } from "react";
 import RedirectOverlay from "../components/RedirectOverlay";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
@@ -39,7 +40,7 @@ class Index extends Component {
   constructor(props) {
     super(props);
 
-    this.searchFormRef = React.createRef();
+    this.searchFormRef = createRef();
     this.beforeFocusOnSearchForm = this.beforeFocusOnSearchForm.bind(this);
 
     this.state = {
@@ -142,10 +143,10 @@ class Index extends Component {
   }
 
   render() {
-    const { classes } = this.props;
-    const { selectedCompany, screenWidth } = this.state;
+    const { classes, intl } = this.props;
+    const { screenWidth } = this.state;
     const BaseURL = "";
-    const Description = "Delete your account or access the personal data organizations have on you using this free service.";
+    const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
     
     return (
       <div>
@@ -185,4 +186,4 @@ class Index extends Component {
   }
 }
 
-export default withStyles(styles)(withRouter(Index));
+export default withStyles(styles)(withRouter(injectIntl(Index)));

@@ -1,7 +1,7 @@
 import { container } from "../../styles/layout";
 import { themeBg } from "../../styles/theme";
 
-export default (theme) => ({
+const Theme = (theme) => ({
     nav: {
         display: "flex",
         alignItems: "center",
@@ -192,3 +192,5 @@ export default (theme) => ({
         alignItems: "center",
     },
 });
+
+export default Theme;

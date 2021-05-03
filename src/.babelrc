@@ -2,7 +2,7 @@
   "presets": ["next/babel"],
   "plugins": [
     [
-      "babel-plugin-react-intl",
+      "babel-plugin-formatjs",
       {
         "ast": true,
         "idInterpolationPattern": "[sha512:contenthash:base64:6]",

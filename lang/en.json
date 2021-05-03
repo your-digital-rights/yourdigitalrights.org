@@ -2,9 +2,6 @@
   "Bitcoin": {
     "message": "Donate Bitcoin"
   },
-  "DBAboutTitle": {
-    "message": "Opt Out of the Top Data Brokers"
-  },
   "Extension": {
     "message": "Browser Extension"
   },
@@ -26,14 +23,80 @@
   "about": {
     "message": "About"
   },
-  "aboutTitle": {
+  "about.aboutTitle": {
     "message": "Our mission"
+  },
+  "about.consciousDigital": {
+    "message": "Who we are"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
+  },
+  "about.contributors": {
+    "message": "Contributors"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontend web developer."
+  },
+  "about.contributorsBody2": {
+    "message": "{linkedin} - Frontend web developer."
+  },
+  "about.createdByBody3": {
+    "message": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+  },
+  "about.description": {
+    "message": "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."
+  },
+  "about.funding": {
+    "message": "Funding"
+  },
+  "about.fundingBody1": {
+    "message": "This project is self funded by it’s creators, and with the help of your donations."
+  },
+  "about.helpUs": {
+    "message": "Interested in joining us?"
+  },
+  "about.helpUsBody1": {
+    "message": "If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then we’d love for you to join us!"
+  },
+  "about.helpUsBody2": {
+    "message": "We’re looking for volunteers including React developers, and people who can help us translate the website into additional European languages, but anyone is welcome. Please contact us at {email}."
+  },
+  "about.missionBody1": {
+    "message": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+  },
+  "about.missionBody2": {
+    "message": "Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+  },
+  "about.missionBody3": {
+    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+  },
+  "about.sponsors": {
+    "message": "Sponsors"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+  },
+  "about.sponsorsBody5": {
+    "message": "{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - for helping us implement an SEO strategy."
+  },
+  "about.sponsorsTitle": {
+    "message": "We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
+  },
+  "about.title": {
+    "message": "About Us"
   },
   "accessRequestLabelText": {
     "message": "Send me a copy of my data"
-  },
-  "analyticsBodyOneA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
   },
   "body10A": {
     "message": "Under the GDPR:"
@@ -245,12 +308,6 @@
   "body9Aiii": {
     "message": "The deadline to respond to a request is 45 days from the receipt of the consumer’s request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
   },
-  "brokerAfter": {
-    "message": "These are some of the top data brokers but there are many more. Click the button below to search the entire database."
-  },
-  "brokersIntro": {
-    "message": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
-  },
   "ccpaOption": {
     "message": "CCPA (California)"
   },
@@ -275,35 +332,26 @@
   "compnayEmailHelper": {
     "message": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
   },
-  "consciousDigital": {
-    "message": "Who we are"
-  },
-  "consciousDigital1": {
-    "message": "YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
-  },
-  "contactBody": {
-    "message": "If you have questions or concerns about this Privacy Policy, please contact us at {mail}."
-  },
-  "contributors": {
-    "message": "Contributors"
-  },
-  "contributorsBody1": {
-    "message": "{linkedin} - Frontend web developer."
-  },
-  "contributorsBody2": {
-    "message": "{linkedin} - Frontend web developer."
-  },
-  "cookies": {
-    "message": "Cookies and Tracking"
-  },
-  "cookiesBody": {
-    "message": "In operating the Service we use a technology called \"cookies\". A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service. While we do not use cookies to deliver the Service, we use cookies to help us analyze Service usage more accurately, and to save the choices you make on the website so that it is easier for you to use the service next time. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a \"help\" section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
-  },
-  "createdByBody3": {
-    "message": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
-  },
   "data-brokers": {
     "message": "Data Brokers"
+  },
+  "data-brokers.DBAboutTitle": {
+    "message": "Opt Out of the Top Data Brokers"
+  },
+  "data-brokers.brokerAfter": {
+    "message": "These are some of the top data brokers but there are many more. Click the button below to search the entire database."
+  },
+  "data-brokers.brokersIntro": {
+    "message": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
+  },
+  "data-brokers.description": {
+    "message": "Get the top data brokers to erase your personal data"
+  },
+  "data-brokers.searchButton": {
+    "message": "Search for other organizations"
+  },
+  "data-brokers.title": {
+    "message": "Opt Out of the Top Data Brokers"
   },
   "deletionRequestLabelText": {
     "message": "Delete my data"
@@ -334,12 +382,6 @@
   },
   "footerQuery": {
     "message": "For more information please contact us at {mail}. © Copyright 2019"
-  },
-  "funding": {
-    "message": "Funding"
-  },
-  "fundingBody1": {
-    "message": "This project is self funded by it’s creators, and with the help of your donations."
   },
   "gdprOption": {
     "message": "GDPR (European Union)"
@@ -392,15 +434,6 @@
   "headingDonate": {
     "message": "We need your support"
   },
-  "helpUs": {
-    "message": "Interested in joining us?"
-  },
-  "helpUsBody1": {
-    "message": "If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then we’d love for you to join us!"
-  },
-  "helpUsBody2": {
-    "message": "We’re looking for volunteers including React developers, and people who can help us translate the website into additional European languages, but anyone is welcome. Please contact us at {email}."
-  },
   "heroHeading": {
     "message": "Own Your Data"
   },
@@ -413,26 +446,11 @@
   "imgAlt": {
     "message": "A graphic representing the user interface"
   },
+  "index.description": {
+    "message": "Delete your account or access the personal data organizations have on you using this free service."
+  },
   "intro": {
     "message": "Many organizations collect and sell your personal data, often without your consent."
-  },
-  "lastUpdated": {
-    "message": "Last updated:"
-  },
-  "missionBody1": {
-    "message": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
-  },
-  "missionBody2": {
-    "message": "Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
-  },
-  "missionBody3": {
-    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is {oss}."
-  },
-  "nameAndAdditionalInfo": {
-    "message": "Name and Additional Information (such as a Username, Customer ID or Account Number)"
-  },
-  "nameAndAdditionalInfoBody2": {
-    "message": "We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate a request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
   },
   "nameHelper": {
     "message": "This will be used by the organization to identify you."
@@ -461,35 +479,68 @@
   "orgTitle": {
     "message": "Request account deletion or a copy of your personal data."
   },
-  "personalData": {
+  "privacy.analyticsBodyOneA": {
+    "message": "Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
+  },
+  "privacy.contact": {
+    "message": "Contact"
+  },
+  "privacy.contactBody": {
+    "message": "If you have questions or concerns about this Privacy Policy, please contact us at {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Cookies and Tracking"
+  },
+  "privacy.cookiesBody": {
+    "message": "In operating the Service we use a technology called \"cookies\". A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service. While we do not use cookies to deliver the Service, we use cookies to help us analyze Service usage more accurately, and to save the choices you make on the website so that it is easier for you to use the service next time. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a \"help\" section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
+  },
+  "privacy.description": {
+    "message": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
+  },
+  "privacy.lastUpdated": {
+    "message": "Last updated:"
+  },
+  "privacy.nameAndAdditionalInfo": {
+    "message": "Name and Additional Information (such as a Username, Customer ID or Account Number)"
+  },
+  "privacy.nameAndAdditionalInfoBody2": {
+    "message": "We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate a request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
+  },
+  "privacy.personalData": {
     "message": "Personal Data That You Provide"
   },
-  "personalDataBody1": {
+  "privacy.personalDataBody1": {
     "message": "While using this Service, we may ask you to provide us with certain personal information that can be used to contact or identify you (\"Personal Data\"). The Personally identifiable information collect is:"
   },
-  "personalDataBodyOneA": {
+  "privacy.personalDataBodyOneA": {
     "message": "Your name"
   },
-  "personalDataBodyOneB": {
+  "privacy.personalDataBodyOneB": {
     "message": "Additional information needed to identify you with the organizations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
   },
-  "personalDataBodyOneC": {
+  "privacy.personalDataBodyOneC": {
     "message": "Cookies and Usage Data"
   },
-  "personalDataBodyOneE": {
+  "privacy.personalDataBodyOneE": {
     "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.org and the authorized third parties referred to in this Policy."
+  },
+  "privacy.privacyTitle": {
+    "message": "Privacy Policy"
+  },
+  "privacy.promise": {
+    "message": "Our Promise"
+  },
+  "privacy.promiseBody": {
+    "message": "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+  },
+  "privacy.title": {
+    "message": "Privacy Policy"
+  },
+  "privacy.usageDataBody": {
+    "message": "We may collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as the Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, the actions you perform, unique device identifiers and other diagnostic data. We use the following third-party Service Provider to monitor and analyze the use of our Service:"
   },
   "privacyPoilcy": {
     "message": "Privacy Policy"
-  },
-  "privacyTitle": {
-    "message": "Privacy Policy"
-  },
-  "promise": {
-    "message": "Our Promise"
-  },
-  "promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
   },
   "readMore": {
     "message": "Read more about Data Deletion on our {ReadMore}."
@@ -539,27 +590,6 @@
   "socialTwitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org"
   },
-  "sponsors": {
-    "message": "Sponsors"
-  },
-  "sponsorsBody2": {
-    "message": "{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
-  },
-  "sponsorsBody3": {
-    "message": "{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
-  },
-  "sponsorsBody4": {
-    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
-  },
-  "sponsorsBody5": {
-    "message": "{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
-  },
-  "sponsorsBody6": {
-    "message": "{sws} - for helping us implement an SEO strategy."
-  },
-  "sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
-  },
   "thanksCopyPart1": {
     "message": "request email should have opened in your email application. All you need to do is review it and click Send."
   },
@@ -578,9 +608,6 @@
   "usageData": {
     "message": "Usage Data"
   },
-  "usageDataBody": {
-    "message": "We may collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as the Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, the actions you perform, unique device identifiers and other diagnostic data. We use the following third-party Service Provider to monitor and analyze the use of our Service:"
-  },
   "whyBody": {
     "message": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your {donations}. Read more {about}."
   },
@@ -592,8 +619,5 @@
   },
   "yourDataTitle": {
     "message": "It's your data, own it!"
-  },
-  "zFegDD": {
-    "message": "Contact"
   }
 }
