@@ -40,6 +40,7 @@ export default function MyApp({ Component, pageProps }) {
           <div>
             <CookieBanner
               message="This website uses cookies for multilingual support and for analytics."
+              managePreferencesButtonText="Manage my cookies"
               policyLink="/privacy"
               privacyPolicyLinkText="Privacy Policy"
               showPreferencesOption={false}
@@ -50,7 +51,6 @@ export default function MyApp({ Component, pageProps }) {
               onDeclineStatistics = {() => {_paq.push(['forgetCookieConsentGiven']);}}
               styles={{
                 dialog: {
-                  fontFamily: 'Source Sans Pro',
                   background: 'rgba(52, 64, 81, 0.88) 20px 100% no-repeat',
                   backgroundSize: '30px 30px',
                   backgroundColor: 'black',
@@ -62,18 +62,20 @@ export default function MyApp({ Component, pageProps }) {
                   left: '0',
                   right: '0',
                   zIndex: '100000',
-                  padding: '10px',              
-                },            
+                  padding: '10px',
+                },
                 message: {
                   fontColor: 'white',
+                  float: 'left',
                 },
                 policy: {
                   color: 'white', 
+                  float: 'left',
+                  clear: 'left',
                 },
                 button: {
                   border: '1px solid white',
                   borderRadius: 4,
-                  height: 32,
                   lineHeight: '32px',
                   background: 'transparent',
                   color: 'white',
@@ -81,7 +83,6 @@ export default function MyApp({ Component, pageProps }) {
                   fontWeight: 600,
                   opacity: 1,
                   right: 20,
-                  marginTop: -18,
                   marginRight: "10px"
                 }            
               }}
