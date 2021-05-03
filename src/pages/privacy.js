@@ -1,9 +1,8 @@
 import Head from "next/head";
-import { FormattedDate, FormattedMessage } from "react-intl";
+import { useIntl, FormattedDate, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
-import Social from "../components/Social";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
@@ -11,7 +10,6 @@ import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
-
 
 const styles = (theme) => ({
   container: {
@@ -25,11 +23,11 @@ const styles = (theme) => ({
   },
 });
 
-// TODO: Make these string translatable
-const BaseURL = "/privacy";
-const Description = "You own your data, we exist to help you control who has access to it. This is our privay policy page.";
-
 const Privacy = ({ classes, router }) => {
+  const intl = useIntl()
+  const BaseURL = "/privacy";
+  const Description = intl.formatMessage({id: "privacy.description", defaultMessage: "You own your data, we exist to help you control who has access to it. This is our privay policy page.",});
+  
   return (
     <div>
       <NextSeo

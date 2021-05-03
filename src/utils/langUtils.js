@@ -1,6 +1,5 @@
 import {DOMAIN} from "./domain";
 
-
 const ALT_LANGUAGES = ['en', 'es', 'it', 'pt'];
 
 
@@ -16,4 +15,4 @@ function generateLangLinks(base_url) {
 }
 
 
-export {generateCanonical, generateLangLinks, ALT_LANGUAGES };
+export {generateCanonical, generateLangLinks, ALT_LANGUAGES};
