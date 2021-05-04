@@ -473,6 +473,18 @@
   "notAffiliatedDisclamer": {
     "message": "This service is {disclamer} (find out more {about})."
   },
+  "org.DescriptionNewOrg": {
+    "message": "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."
+  },
+  "org.titleExistingOrg": {
+    "message": "{org} - Delete Your Account or Get a Copy of Your Data"
+  },
+  "org.titleNewOrg": {
+    "message": "Send GDPR and CCPA Data Deletion and Access Requests"
+  },
   "orgSubTitle": {
     "message": "Use this free service to send {ccpa} and {gdpr} data requests."
   },

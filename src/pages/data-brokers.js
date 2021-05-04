@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useIntl, FormattedDate, FormattedMessage } from "react-intl";
+import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
