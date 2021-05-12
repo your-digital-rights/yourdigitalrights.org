@@ -1,5 +1,5 @@
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { Component } from "react";
+import { Component, createRef } from "react";
 import Downshift from "downshift";
 import { FormattedMessage } from "react-intl";
 import Icon from "@material-ui/core/Icon";
@@ -27,7 +27,7 @@ class Form extends Component {
   constructor(props) {
     super(props);
 
-    this.searchRef = React.createRef();
+    this.searchRef = createRef();
   }
 
   focusInput() {
@@ -90,7 +90,7 @@ class Form extends Component {
 
     return (
       <FormattedMessage
-        id="companyPlaceholder"
+        id="search.companyPlaceholder"
         defaultMessage="Search for an organization"
       >
         {(label) => (
@@ -207,12 +207,12 @@ class Form extends Component {
                         <ListItemText>
                           <strong>
                             <FormattedMessage
-                              id="noResults"
+                              id="search.noResults"
                               defaultMessage="Can't find an organization?"
                             />
                           </strong>{" "}
                           <FormattedMessage
-                            id="noResultsMore"
+                            id="search.noResultsMore"
                             defaultMessage="Click here to add one"
                           />
                         </ListItemText>

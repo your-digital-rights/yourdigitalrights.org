@@ -39,33 +39,33 @@ const NavListDesktop = ({ classes }) => {
       <NavItem
         href="/#howItWorks"
         text={
-          <FormattedMessage id="howItWorks" defaultMessage="How it works" />
+          <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
         }
         classes={classes}
       />
       <NavItem
         href="/#faq"
-        text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
+        text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
         classes={classes}
       />
       <NavItem
         href="/data-brokers"
         text={
-          <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
+          <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
         }
         classes={classes}
       />
       <NavItem
         href="/#Extension"
         text={
-          <FormattedMessage id="Extension" defaultMessage="Browser Extension" />
+          <FormattedMessage id="nav.extension" defaultMessage="Browser Extension" />
         }
         classes={classes}
       />
 
       <NavItem
         href="/about"
-        text={<FormattedMessage id="about" defaultMessage="About" />}
+        text={<FormattedMessage id="nav.about" defaultMessage="About" />}
         classes={classes}
       />
 
@@ -76,7 +76,7 @@ const NavListDesktop = ({ classes }) => {
         onClick={() => trackSearchButtonLinkClick("desktop")}
       >
         <Typography component="span" className={classes.linkButton}>
-          Search Organizations
+          <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
         </Typography>
       </a>
     </ul>
@@ -96,28 +96,28 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           onClickHandler={toggleMobileNav}
           href="/#howItWorks"
           text={
-            <FormattedMessage id="howItWorks" defaultMessage="How it works" />
+            <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
           }
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/#faq"
-          text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
+          text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/data-brokers"
           text={
-            <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
+            <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
           }
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
-          text={<FormattedMessage id="about" defaultMessage="About" />}
+          text={<FormattedMessage id="nav.about" defaultMessage="About" />}
           classes={classes}
         />
         <a
@@ -130,7 +130,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           }}
         >
           <Typography component="span" className={classes.linkButton}>
-            Search Organizations
+            <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
           </Typography>
         </a>
 
@@ -140,7 +140,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           subsection={true}
           text={
             <FormattedMessage
-              id="extension"
+              id="nav.extension"
               defaultMessage="Browser Extension"
             />
           }
@@ -152,7 +152,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           href="/#donations"
           subsection={true}
           text={
-            <FormattedMessage id="donation" defaultMessage="Make a Donation" />
+            <FormattedMessage id="nav.donation" defaultMessage="Make a Donation" />
           }
           classes={classes}
         />
@@ -163,7 +163,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           subsection={true}
           text={
             <FormattedMessage
-              id="privacyPoilcy"
+              id="nav.privacyPoilcy"
               defaultMessage="Privacy Policy"
             />
           }
@@ -174,7 +174,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           onClickHandler={toggleMobileNav}
           href="mailto:info@opt-out.eu"
           subsection={true}
-          text={<FormattedMessage defaultMessage="Contact Us" />}
+          text={<FormattedMessage id="nav.contact" defaultMessage="Contact Us" />}
           classes={classes}
         />
 
@@ -186,7 +186,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
             <div className={classes.twitterHandle}>
               <img src="/images/sh/tw-grey.svg" />
               <FormattedMessage
-                id="twitterHastag"
+                id="nav.twitterHastag"
                 defaultMessage="#ownyourdata"
               />
             </div>

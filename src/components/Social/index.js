@@ -1,5 +1,4 @@
 import { FormattedMessage, injectIntl } from "react-intl";
-import { theme } from "../../styles/theme";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Fab from '@material-ui/core/Fab';
@@ -149,24 +148,24 @@ const Social = ({
   var rootClassName = (sourcePage === "thankyou") ? classes.offsetThankYou : classes.offset;
 
   const emailSubject = intl.formatMessage({
-    id: "socialEmailSubject",
+    id: "social.emailSubject",
     defaultMessage:
       "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights",
   });
   const emailBody = intl.formatMessage({
-    id: "socialEmailBody",
+    id: "social.emailBody",
     defaultMessage:
       "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it.",
   });
   const twitterTitle = intl.formatMessage({
-    id: "socialTwitterTitle",
+    id: "social.twitterTitle",
     defaultMessage:
-      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org",
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org.",
   });
   const facebookQuote = intl.formatMessage({
-    id: "socialFacebookQuote",
+    id: "social.facebookQuote",
     defaultMessage:
-      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org",
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org.",
   });
   const emailLink = mailtoLink({ subject: emailSubject, body: emailBody });
 
@@ -205,22 +204,20 @@ const Social = ({
                 variant="h3"
                 color="inherit"
               >
-                Opt out directly from your browser
+                <FormattedMessage id="social.extensionHeadline" defaultMessage="Opt out directly from your browser" />
               </Typography>
               <Typography
                 className={classes.extensionHelpParagraph}
                 component="p"
                 color="inherit"
               >
-                Do you want better control over who has access to your personal
-                data? Our browser extension allows you to opt out of the
-                websites you visit with a click of a button.
+                <FormattedMessage id="social.extensionText" defaultMessage="Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button." />
               </Typography>
               <div className={classes.extensionHelpButtonContainer}>
                 <Fab
                   variant="extended"
                   onClick={() => trackWebExtension("chrome-extension")}
-                  aria-label="Google Chrome Extension"
+                  aria-label={intl.formatMessage({id: "social.chromeTitle", defaultMessage: "Google Chrome Extension"})}
                   className={classes.extensionDownloadButton}
                   target="_blank"
                   href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
@@ -230,12 +227,12 @@ const Social = ({
                     color="#005ea5"
                     icon={faChrome}
                   />
-                  Download it for Chrome
+                  <FormattedMessage id="social.chromeCTA" defaultMessage="Download it for Chrome" />
                 </Fab>
                 <Fab
                   variant="extended"
                   onClick={trackWebExtension.bind(null, 'firefox-extension')}
-                  aria-label="FireFox Extention"
+                  aria-label={intl.formatMessage({id: "social.frefoxTitle", defaultMessage: "FireFox Extention"})}
                   className={classes.extensionDownloadButton}
                   target="_blank"
                   href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
@@ -248,7 +245,7 @@ const Social = ({
                     color="#005ea5"
                     icon={faFirefox}
                   />
-                  Download it for Firefox
+                  <FormattedMessage id="social.firefoxCTA" defaultMessage="Download it for Firefox" />
                 </Fab>
               </div>
             </div>
@@ -262,7 +259,7 @@ const Social = ({
         className={classes.shareHeading}
       >
         <FormattedMessage
-          id="socialShareHeading"
+          id="social.shareHeading"
           defaultMessage="If you find this service useful, please spread the word"
         />
       </Typography>

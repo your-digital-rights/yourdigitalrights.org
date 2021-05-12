@@ -5,23 +5,16 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Social from "../Social";
 import tracking from "../../utils/tracking";
-import {
-  FacebookShareButton,
-  LinkedinShareButton,
-  TwitterShareButton,
-  EmailShareButton,
-} from "react-share";
 import { 
   ThanksTitleText, 
   ThanksCopyPart1, 
+  ThanksRequestTypeDelete,
+  ThanksRequestTypeAccess,
   ThanksCopyPart2CCPA, 
   ThanksCopyPart2GDPR,  
+  ThanksCopyPart3,
   FindCompanyText 
 } from "./text";
-import { 
-  DonateBTCButtonText, 
-  DonateLiberapayButtonText 
-} from "../Donations/text";
 
 
 const styles = (theme) => ({
@@ -132,7 +125,7 @@ const styles = (theme) => ({
 
 const ThanksMessage = (props) => {
   let { classes, requestType, regulationType } = props;
-  let requestTypeText = (requestType == "DELETION") ? "A deletion " : "An access request ";
+  let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
   let replyTimeText = (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
 
   let hide = () => {
@@ -169,7 +162,7 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{ThanksCopyPart1}{replyTimeText}
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
         </Typography>
         <Button
           variant="contained"
@@ -191,7 +184,7 @@ const ThanksMessage = (props) => {
           className={classes.donateLPButton}
           onClick={() => trackDonate("Donation - Librapay")}
         >
-          {DonateLiberapayButtonText}
+          <FormattedMessage id="thankYou.Liberapay" defaultMessage="Donate via Liberapay" />
         </Button>                          
         <Button
           variant="contained"
@@ -201,7 +194,7 @@ const ThanksMessage = (props) => {
           className={classes.donateBTCButton}
           onClick={() => trackDonate("Donation - BTC")}
         >
-          {DonateBTCButtonText}
+          <FormattedMessage id="thankYou.Bitcoin" defaultMessage="Donate Bitcoin" />
         </Button>
       </div>
       <div className={classes.extensionInfoContainer}>
@@ -210,7 +203,7 @@ const ThanksMessage = (props) => {
           gutterBottom={true}
           className={classes.browserExtensionsText}
         >
-          Save time by installing our browser extension
+          <FormattedMessage id="thankYou.extensionText" defaultMessage="Save time by installing our browser extension" />
         </Typography>
         <div className={classes.browserExtensionLinkContainer}>
           <a

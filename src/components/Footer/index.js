@@ -65,29 +65,27 @@ const styles = (theme) => ({
 });
 
 const WishButtonText = (
-  <FormattedMessage id="WishList" defaultMessage="make a wish on our roadmap" />
+  <FormattedMessage id="footer.wishList" defaultMessage="make a wish on our roadmap" />
 );
 
 const DisclaimerText = (
   <FormattedMessage
-    id="footerDisclaimer"
-    defaultMessage="{title} This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+    id="footer.disclaimer"
+    defaultMessage="<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
     values={{
-      title: (
-        <span style={{ fontWeight: "bold", color: "black" }}>Disclaimer:</span>
-      ),
+      span: txt => (<span style={{ fontWeight: "bold", color: "black" }}>{txt}</span>)
     }}
   />
 );
 
 const QueryText = (
   <FormattedMessage
-    id="footerQuery"
-    defaultMessage="For more information please contact us at {mail}. © Copyright 2019"
+    id="footer.contact"
+    defaultMessage="For more information please <a>contact us</a>. © Copyright 2019"
     values={{
-      mail: (
+      a: txt => (
         <a target="_blank" href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
-          info@opt-out.eu
+          {txt}
         </a>
       ),
     }}
@@ -117,19 +115,31 @@ const Footer = ({ classes }) => {
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
           <Typography component="p" variant="body2">
-            <a href="https://consciousdigital.org" className={classes.DisclaimerLink}>
-              Made by Conscious Digital
-            </a>
+            <FormattedMessage
+              id="footer.madeBy"
+              defaultMessage="<a>Made by Conscious Digital</a>"
+              values={{
+                a: txt=> (<a target="_blank" href="https://consciousdigital.org" className={classes.DisclaimerLink}>{txt}</a>)
+              }}
+            />
           </Typography>          
           <Typography component="p" variant="body2">
-            <a href="/privacy" className={classes.DisclaimerLink}>
-              Privacy Policy
-            </a>
+            <FormattedMessage
+              id="footer.privacyPolicy"
+              defaultMessage="<a>Privacy Policy</a>"
+              values={{
+                a: txt=> (<a href="/privacy" className={classes.DisclaimerLink}>{txt}</a>)
+              }}
+            />
           </Typography>
           <Typography component="p" variant="body2">
-            <a href="/about" className={classes.DisclaimerLink}>
-              Mission
-            </a>
+            <FormattedMessage
+              id="footer.mission"
+              defaultMessage="<a>Mission</a>"
+              values={{
+                a: txt=> (<a href="/about" className={classes.DisclaimerLink}>{txt}</a>)
+              }}
+            />
           </Typography>        
         </div>
         <div className={classes.innerRight}>
