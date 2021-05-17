@@ -8,6 +8,10 @@ import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import Donations from "../components/Donations";
+import { NextSeo } from 'next-seo';
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
+
 
 const styles = (theme) => ({
   container: {
@@ -22,23 +26,21 @@ const styles = (theme) => ({
 });
 
 // TODO: Make these string translatable
-const Title = "Privacy Policy | yourdigitalrights.org";
-const Description =
-  "You own your data, we exist to help you control who has access to it.";
-const Canonical = "https://yourdigitalrights.org/privacy";
+const BaseURL = "/privacy";
+const Description = "You own your data, we exist to help you control who has access to it. This is our privay policy page.";
 
-const Privacy = ({ classes }) => {
+const Privacy = ({ classes, router }) => {
   return (
     <div>
-      <Head>
-        <title>{Title}</title>
-        <link rel="canonical" href={Canonical} />
-        <meta name="description" content={Description} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:title" content={Title} />
-        <meta name="twitter:title" content={Title} />
-        <meta name="twitter:description" content={Description} />
-      </Head>
+      <NextSeo
+        title = "Privacy Policy"
+        canonical = {generateCanonical(BaseURL, router.locale)}
+        description = {Description}
+        openGraph = {{
+          description: Description,
+        }}
+        languageAlternates = {generateLangLinks(BaseURL)}
+      />    
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
@@ -176,4 +178,4 @@ const Privacy = ({ classes }) => {
   );
 };
 
-export default withStyles(styles)(Privacy);
+export default withStyles(styles)(withRouter(Privacy));

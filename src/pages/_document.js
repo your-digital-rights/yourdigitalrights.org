@@ -7,36 +7,24 @@ import { DOMAIN } from "../utils/domain";
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html>
         <Head>
-          <meta
-            property="og:image"
-            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
-          />
-          <meta property="og:image:width" content="898" />
-          <meta property="og:image:height" content="680" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@OptoutEU" />
-
-          <meta
-            name="twitter:image"
-            content={"https://" + DOMAIN + "/images/opt-out-share.jpg?v=2"}
-          />
           <meta
             name="theme-color"
             content={theme.palette.primary.main}
           />
           <link 
             rel="preconnect" 
-            href="https://fonts.gstatic.com" 
+            href="//d.bablic.com" 
             crossOrigin="true"
           />
           <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900"
+            rel="preload" 
+            as="font"
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,800&display=optional"
           />
           <link
-            rel="stylesheet"
+            rel="stylesheet" 
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
           />
           <link rel="stylesheet" href="/images/mobile.css" />

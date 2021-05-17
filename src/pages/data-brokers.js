@@ -13,6 +13,9 @@ import Grid from "@material-ui/core/Grid";
 import PropTypes from "prop-types";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
+import { NextSeo } from 'next-seo';
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
 
 
 const styles = (theme) => ({
@@ -83,22 +86,21 @@ const dataBrokers = [
 ];
 
 // TODO: Make these string translatable
-const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
 const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://yourdigitalrights.org/data-brokers";
+const BaseURL = "/data-brokers";
 
-const Brokers = ({ classes }) => {
+const Brokers = ({ classes, router }) => {
   return (
     <div>
-      <Head>
-        <title>{Title}</title>
-        <link rel="canonical" href={Canonical} />
-        <meta name="description" content={Description} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:title" content={Title} />
-        <meta name="twitter:title" content={Title} />
-        <meta name="twitter:description" content={Description} />
-      </Head>
+      <NextSeo
+        title = "Opt Out of the Top Data Brokers"
+        canonical = {generateCanonical(BaseURL, router.locale)}
+        description = {Description}
+        openGraph = {{
+          description: Description,
+        }}
+        languageAlternates = {generateLangLinks(BaseURL)}
+      />
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
@@ -179,4 +181,4 @@ Brokers.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Brokers);
+export default withStyles(styles)(withRouter(Brokers));

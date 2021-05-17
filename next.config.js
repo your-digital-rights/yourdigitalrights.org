@@ -2,24 +2,52 @@ module.exports = {
   target: 'serverless',
   async rewrites() {
     return [
-      { source: "/save", destination: "/api/save" },
-      { source: "/sitemap.xml", destination: "/api/sitemap" },
+      {
+        source: "/save",
+        destination: "/api/save",
+      },
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap",
+      },
     ];
   },
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["en", "es"],
+    locales: ["en", "es", "it"],
     defaultLocale: "en",
     domains: [
       {
-        domain: 'en.yourdigitalrights.org',
+        domain: 'yourdigitalrights.org',
         defaultLocale: 'en',
       },
       {
         domain: 'es.yourdigitalrights.org',
         defaultLocale: 'es',
       },
+      {
+        domain: 'it.yourdigitalrights.org',
+        defaultLocale: 'it',
+      },
     ],
   },
 };
+
+
+        // {
+        //   source: '/specific/:path*',
+        //   has: [
+        //     {
+        //       type: 'query',
+        //       key: 'page',
+        //       value: 'home',
+        //     },
+        //     {
+        //       type: 'cookie',
+        //       key: 'authorized',
+        //       value: 'true',
+        //     },
+        //   ],
+        //   destination: '/:path*/:page',
+        // },
