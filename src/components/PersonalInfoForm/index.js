@@ -186,6 +186,7 @@ class Form extends Component {
       requestParams.emailTo = to;
       requestParams.emailSubject = subject;
       requestParams.emailBody = body;
+      requestParams.lang = this.props.intl.locale;
     }
 
     fetch(
@@ -202,8 +203,8 @@ class Form extends Component {
     return mailtoLink({
       to,
       bcc,
-      subject: subject,
-      body: body,
+      subject,
+      body,
     });
   }
 

@@ -13,35 +13,18 @@ const tables = [
   {
     TableName: 'Requests',
     KeySchema: [       
-      { AttributeName: 'uuid', KeyType: 'HASH' },
+      { AttributeName: 'id', KeyType: 'HASH' },
     ],
     AttributeDefinitions: [
-      { AttributeName: 'uuid', AttributeType: 'S' },
-      { AttributeName: 'requestCreatedAt', AttributeType: 'S' },
+      { AttributeName: 'id', AttributeType: 'S' },
       { AttributeName: 'requestType', AttributeType: 'S' },
       { AttributeName: 'regulationType', AttributeType: 'S' },
-      { AttributeName: 'orgName', AttributeType: 'S' },
+      { AttributeName: 'companyName', AttributeType: 'S' },
     ],
     BillingMode: 'PAY_PER_REQUEST',
     GlobalSecondaryIndexes: [
       {
-        IndexName: 'request_created_at_index',
-        KeySchema: [
-          {
-            AttributeName: 'regulationType',
-            KeyType: 'HASH',
-          },
-          {
-            AttributeName: 'requestCreatedAt',
-            KeyType: 'RANGE',
-          }
-        ],
-        Projection: {
-          ProjectionType: 'ALL'
-        },
-      },
-      {
-        IndexName: 'request_type_index',
+        IndexName: 'RequestTypeIndex',
         KeySchema: [
           {
             AttributeName: 'requestType',
@@ -53,7 +36,7 @@ const tables = [
         },
       },
       {
-        IndexName: 'regulation_type_index',
+        IndexName: 'RegulationTypeIndex',
         KeySchema: [
           {
             AttributeName: 'regulationType',
@@ -65,10 +48,10 @@ const tables = [
         },
       },
       {
-        IndexName: 'org_name_index',
+        IndexName: 'CompanyNameIndex',
         KeySchema: [
           {
-            AttributeName: 'orgName',
+            AttributeName: 'companyName',
             KeyType: 'HASH',
           }
         ],
@@ -81,25 +64,20 @@ const tables = [
   {
     TableName: 'FollowUps',
     KeySchema: [       
-      { AttributeName: 'uuid', KeyType: 'HASH' },
+      { AttributeName: 'id', KeyType: 'HASH' },
     ],
     AttributeDefinitions: [
-      { AttributeName: 'uuid', AttributeType: 'S' },
-      { AttributeName: 'emailReceivedAt', AttributeType: 'S' },
+      { AttributeName: 'id', AttributeType: 'S' },
       { AttributeName: 'regulationType', AttributeType: 'S' },
     ],
     BillingMode: 'PAY_PER_REQUEST',
     GlobalSecondaryIndexes: [
       {
-        IndexName: 'email_received_at_index',
+        IndexName: 'RegulationTypeIndex',
         KeySchema: [
           {
             AttributeName: 'regulationType',
             KeyType: 'HASH',
-          },
-          {
-            AttributeName: 'emailReceivedAt',
-            KeyType: 'RANGE',
           }
         ],
         Projection: {
