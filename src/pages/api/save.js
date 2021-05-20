@@ -55,7 +55,7 @@ export default async (req, res) => {
           {
             PutRequest: {
               Item: {
-                uuid: { S: req.body.uuid },
+                id: { S: req.body.uuid },
                 requestCreatedAt: { S: new Date().toISOString() },
                 requestType: { S: req.body.requestType },
                 regulationType: { S: req.body.regulationType },
@@ -71,12 +71,13 @@ export default async (req, res) => {
       if (
         !req.body.emailTo ||
         !req.body.emailSubject ||
-        !req.body.emailBody
+        !req.body.emailBody ||
+        !req.body.lang
       ) {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 400;
         res.send({
-          error: 'Missing one of name, emailTo, emailSubject, emailBody',
+          error: 'Missing one of name, emailTo, emailSubject, emailBody, lang',
         });
         resolve();
         return;
@@ -86,7 +87,8 @@ export default async (req, res) => {
         {
           PutRequest: {
             Item: {
-              uuid: { S: req.body.uuid },
+              lang: { S: req.body.lang },
+              id: { S: req.body.uuid },
               requestCreatedAt: { S: new Date().toISOString() },
               requestType: { S: req.body.requestType },
               regulationType: { S: req.body.regulationType },

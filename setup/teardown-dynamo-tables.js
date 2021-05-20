@@ -14,9 +14,9 @@ const tables = [
     TableName : "Requests"
   },
   {
-    FollowUps : "Requests"
+    TableName : "FollowUps"
   },
-]
+];
 
 tables.forEach((table) => {
   dynamodb.deleteTable(table, (err, data) => {
