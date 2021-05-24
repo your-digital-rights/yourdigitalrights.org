@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
@@ -61,12 +60,12 @@ const About = ({ classes, router }) => {
               defaultMessage="YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
                 gdpr: (
-                  <a href="https://gdpr.eu/tag/gdpr/">
+                  <a target="_blank" href="https://gdpr.eu/tag/gdpr/">
                     General Data Protection Regulations
                   </a>
                 ),
                 ccpa: (
-                  <a href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
+                  <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
                     California Consumer Privacy Act
                   </a>
                 ),
@@ -106,7 +105,7 @@ const About = ({ classes, router }) => {
               id="about.consciousDigital1"
               defaultMessage="YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
               values= {{
-                cd: <a href="https://consciousdigital.org/">Conscious Digital</a>
+                cd: <a target="_blank" href="https://consciousdigital.org/">Conscious Digital</a>
               }}
             />
           </Typography>
@@ -149,7 +148,7 @@ const About = ({ classes, router }) => {
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
                 linkedin: (
-                  <a href="https://www.linkedin.com/in/mark-gerrard-56865012/">
+                  <a target="_blank" href="https://www.linkedin.com/in/mark-gerrard-56865012/">
                     Mark Gerrard
                   </a>
                 ),
@@ -162,7 +161,7 @@ const About = ({ classes, router }) => {
               defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
               values={{
                 linkedin: (
-                  <a href="https://www.linkedin.com/in/robertchandler85">
+                  <a target="_blank" href="https://www.linkedin.com/in/robertchandler85">
                     Rob Chandler
                   </a>
                 ),
@@ -175,7 +174,7 @@ const About = ({ classes, router }) => {
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
                 linkedin: (
-                  <a href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">
+                  <a target="_blank" href="https://www.linkedin.com/in/steeve-george-vadakkumchery-2319878a/">
                     Steeve George Vadakkumchery
                   </a>
                 ),
@@ -197,7 +196,7 @@ const About = ({ classes, router }) => {
               id="about.sponsorsBody2"
               defaultMessage="{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
               values={{
-                crunchbase: <a href="https://www.crunchbase.com">Crunchbase</a>,
+                crunchbase: <a target="_blank" href="https://www.crunchbase.com">Crunchbase</a>,
               }}
             />
           </Typography>
@@ -207,9 +206,9 @@ const About = ({ classes, router }) => {
               defaultMessage="{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
               values={{
                 featureupvote: (
-                  <a href="https://featureupvote.com">FeatureUpvote</a>
+                  <a target="_blank" href="https://featureupvote.com">FeatureUpvote</a>
                 ),
-                roadmap: <a href="https://wishlist.opt-out.eu">roadmap</a>,
+                roadmap: <a target="_blank" href="https://wishlist.opt-out.eu">roadmap</a>,
               }}
             />
           </Typography>          
@@ -218,7 +217,7 @@ const About = ({ classes, router }) => {
               id="about.sponsorsBody4"
               defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
               values={{
-                innocraft: <a href="https://innocraft.cloud">Innocraft</a>,
+                innocraft: <a target="_blank" href="https://innocraft.cloud">Innocraft</a>,
               }}
             />
           </Typography>
@@ -227,7 +226,7 @@ const About = ({ classes, router }) => {
               id="about.sponsorsBody5"
               defaultMessage="{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
               values={{
-                mailgo: <a href="https://mailgo.dev/">Mailgo</a>,
+                mailgo: <a target="_blank" href="https://mailgo.dev/">Mailgo</a>,
               }}
             />
           </Typography>          
@@ -236,7 +235,7 @@ const About = ({ classes, router }) => {
               id="about.sponsorsBody6"
               defaultMessage="{sws} - for helping us implement an SEO strategy."
               values={{
-                sws: <a href="https://smoothwebsites.net/">Smooth Websites</a>,
+                sws: <a target="_blank" href="https://smoothwebsites.net/">Smooth Websites</a>,
               }}
             />
           </Typography>           

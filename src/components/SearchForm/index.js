@@ -1,11 +1,11 @@
+import React from "react";
 import CircularProgress from "@material-ui/core/CircularProgress";
-import { Component, createRef } from "react";
+import { Component } from "react";
 import Downshift from "downshift";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, injectIntl } from "react-intl";
 import Icon from "@material-ui/core/Icon";
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import InputLabel from "@material-ui/core/InputLabel";
 import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
@@ -27,7 +27,7 @@ class Form extends Component {
   constructor(props) {
     super(props);
 
-    this.searchRef = createRef();
+    this.searchRef = React.createRef();
   }
 
   focusInput() {
@@ -86,18 +86,13 @@ class Form extends Component {
   }
 
   renderInput = (InputProps) => {
-    const { classes, companies } = this.props;
-
+    const { classes, companies, intl } = this.props;
+    const placeholder = this.props.intl.formatMessage({
+      id: "search.companyPlaceholder",
+      defaultMessage: "Search for an organization"
+    });
     return (
-      <FormattedMessage
-        id="search.companyPlaceholder"
-        defaultMessage="Search for an organization"
-      >
-        {(label) => (
           <div>
-            <InputLabel htmlFor="companyNameSearch" className={classes.label}>
-              {label}
-            </InputLabel>
             <Input
               {...InputProps}
               id="companyNameSearch"
@@ -114,15 +109,13 @@ class Form extends Component {
                 ) : null
               }
               disableUnderline={true}
-              placeholder={label}
+              placeholder={placeholder}
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
               inputRef={this.searchRef}
             />
           </div>
-        )}
-      </FormattedMessage>
     );
   };
 
@@ -228,4 +221,4 @@ class Form extends Component {
     );
   }
 }
-export default withStyles(styles)(Form);
+export default injectIntl(withStyles(styles)(Form));

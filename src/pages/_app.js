@@ -35,6 +35,13 @@ export default function MyApp({ Component, pageProps }) {
         locale={locale}
         defaultLocale={defaultLocale}
         messages={messages}
+        onError={(err) => {
+          if (err.code === "MISSING_TRANSLATION") {
+            console.warn("Missing translation", err.message);
+            return;
+          }
+          throw err;
+        }}
       >
         <ThemeProvider theme={theme}>
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}

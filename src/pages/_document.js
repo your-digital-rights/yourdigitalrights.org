@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheets } from '@material-ui/core/styles';
 import theme from '../styles/theme';
-import React from "react";;
+import React from "react";
 import { DOMAIN } from "../utils/domain";
 
 export default class MyDocument extends Document {

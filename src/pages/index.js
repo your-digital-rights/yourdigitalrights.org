@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { injectIntl } from "react-intl";
 import { createRef, Component } from "react";
 import RedirectOverlay from "../components/RedirectOverlay";
@@ -12,10 +11,8 @@ import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import tracking from "../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import { DOMAIN } from "../utils/domain";
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
-import { SiteLinksSearchBoxJsonLd } from 'next-seo';
 import { withRouter } from "next/router";
 import {
   searchOrganizationsUrlAnchor,

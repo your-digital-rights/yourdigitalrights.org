@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import { heroUrlAnchor } from "../../utils/urlAnchors";
-
+import Link from 'next/link'
 
 const Hero = ({ classes, onCompanySelected, children }) => {
   return (
@@ -42,7 +42,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
               id="hero.intro"
               defaultMessage="Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
               values={{
-                a: txt => (<a className={classes.introLink} href="/data-brokers">{txt}</a>),
+                a: txt => (<Link href="/data-brokers"><a className={classes.introLink}>{txt}</a></Link>),
               }}
             />            
           </Typography>

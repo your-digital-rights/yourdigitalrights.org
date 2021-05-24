@@ -4,6 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import { container } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 import tracking from "../../utils/tracking";
+import Link from 'next/link'
 
 const styles = (theme) => ({
   root: {
@@ -128,7 +129,7 @@ const Footer = ({ classes }) => {
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
               values={{
-                a: txt=> (<a href="/privacy" className={classes.DisclaimerLink}>{txt}</a>)
+                a: txt=> (<Link href="/privacy" ><a href="/privacy" className={classes.DisclaimerLink}>{txt}</a></Link>)
               }}
             />
           </Typography>
@@ -137,7 +138,7 @@ const Footer = ({ classes }) => {
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
               values={{
-                a: txt=> (<a href="/about" className={classes.DisclaimerLink}>{txt}</a>)
+                a: txt=> (<Link href="/about" ><a href="/about" className={classes.DisclaimerLink}>{txt}</a></Link>)
               }}
             />
           </Typography>        

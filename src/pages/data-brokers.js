@@ -16,6 +16,7 @@ import GridListTileBar from "@material-ui/core/GridListTileBar";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
+import Link from 'next/link'
 
 
 const styles = (theme) => ({
@@ -127,26 +128,27 @@ const Brokers = ({ classes, router }) => {
                 {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} elevation={2} >
-                      <GridListTile
-                        button
-                        component="a"
-                        href={"/d/" + company.domain}
-                        key={company.domain}
-                      >
-                        <img
-                          className={classes.centerImg}
-                          src={
-                            "https://api.faviconkit.com/" +
-                            company.domain +
-                            "/170"
-                          }
-                          alt={company.name}
-                        />
-                        <GridListTileBar
-                          className={classes.tileBar}
-                          title={company.name}
-                        />
-                      </GridListTile>
+                      <Link href={"/d/" + company.domain} passHref> 
+                        <GridListTile
+                          component="a"
+                          href={"/d/" + company.domain}
+                          key={company.domain}
+                        >
+                          <img
+                            className={classes.centerImg}
+                            src={
+                              "https://api.faviconkit.com/" +
+                              company.domain +
+                              "/170"
+                            }
+                            alt={company.name}
+                          />
+                          <GridListTileBar
+                            className={classes.tileBar}
+                            title={company.name}
+                          />
+                        </GridListTile>
+                      </Link>
                     </Paper>
                   </Grid>
                 ))}
