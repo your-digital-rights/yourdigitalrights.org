@@ -11,7 +11,7 @@ const dynamodb = new aws.DynamoDB();
 
 const tables = [
   {
-    TableName: 'Requests',
+    TableName: 'YDRRequests',
     KeySchema: [       
       { AttributeName: 'id', KeyType: 'HASH' },
     ],
@@ -62,7 +62,7 @@ const tables = [
     ],
   },
   {
-    TableName: 'FollowUps',
+    TableName: 'YDRFollowUps',
     KeySchema: [       
       { AttributeName: 'id', KeyType: 'HASH' },
     ],

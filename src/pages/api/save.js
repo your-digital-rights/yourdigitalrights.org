@@ -39,11 +39,12 @@ export default async (req, res) => {
       !req.body.uuid ||
       !req.body.requestType ||
       !req.body.regulationType ||
-      !req.body.companyName
+      !req.body.companyName ||
+      !req.body.companyUrl
     ) {
       res.statusCode = 400;
       res.send({
-        error: 'Missing one of uuid, requestType, regulationType, companyName',
+        error: 'Missing one of uuid, requestType, regulationType, companyName, companyUrl',
       });
       resolve();
       return;
@@ -51,7 +52,7 @@ export default async (req, res) => {
 
     const requestItems = {
       RequestItems: {
-        Requests: [
+        YDRRequests: [
           {
             PutRequest: {
               Item: {
@@ -60,6 +61,7 @@ export default async (req, res) => {
                 requestType: { S: req.body.requestType },
                 regulationType: { S: req.body.regulationType },
                 companyName: { S: req.body.companyName },
+                companyUrl: { S: req.body.companyUrl },
               },
             },
           },
@@ -83,7 +85,7 @@ export default async (req, res) => {
         return;
       }
 
-      requestItems.RequestItems.FollowUps = [
+      requestItems.RequestItems.YDRFollowUps = [
         {
           PutRequest: {
             Item: {
@@ -93,6 +95,7 @@ export default async (req, res) => {
               requestType: { S: req.body.requestType },
               regulationType: { S: req.body.regulationType },
               companyName: { S: req.body.companyName },
+              companyUrl: { S: req.body.companyUrl },
               name: { S: req.body.name },
               identifyingInfo: req.body.identifyingInfo ? { S: req.body.identifyingInfo } : null,
               emailTo: { S: req.body.emailTo },
