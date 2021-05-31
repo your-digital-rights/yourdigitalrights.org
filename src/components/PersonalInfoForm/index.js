@@ -58,6 +58,7 @@ class Form extends Component {
       identifyingInfo: "",
       companyName: "",
       companyEmail: "",
+      companyUrl: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
@@ -163,6 +164,10 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    const companyUrl = selectedCompany
+      ? selectedCompany.url
+      : this.state.companyUrl;
+
     const subject =
       requestType == "DELETION"
         ? erasureEmail.subject({ ...this.state })
@@ -178,6 +183,7 @@ class Form extends Component {
       requestType,
       regulationType,
       companyName,
+      companyUrl,
     };
 
     if (followUp === "YES") {

@@ -11,10 +11,10 @@ const dynamodb = new aws.DynamoDB();
 
 const tables = [
   {
-    TableName : "Requests"
+    TableName : "YDRRequests"
   },
   {
-    TableName : "FollowUps"
+    TableName : "YDRFollowUps"
   },
 ];
 
