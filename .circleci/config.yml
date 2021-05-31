@@ -7,7 +7,7 @@ jobs:
     working_directory: ~/opt-out
 
     docker:
-      - image: circleci/node:latest-browsers@sha256:5870e9c11af4bf5f0cf74034df01040ec4c2bcb5b6369c67ee4eece73a8eb3a7198B/198B3kBB
+      - image: circleci/node@sha256:5870e9c11af4bf5f0cf74034df01040ec4c2bcb5b6369c67ee4eece73a8eb3a7198B/198B3kBB
 
     steps:
       - checkout
