@@ -69,6 +69,8 @@ class Form extends Component {
 
     if (search) {
       const companies = await this.state.companies;
+      console.log(companies);
+      console.log(companies['Organizations']);
       searchResults = companies['Organizations']
         .filter((company) => {
           return company.searchTerms
