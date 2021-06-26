@@ -69,7 +69,7 @@ class Form extends Component {
 
     if (search) {
       const companies = await this.state.companies;
-      searchResults = companies
+      searchResults = companies['Organizations']
         .filter((company) => {
           return company.searchTerms
             .toLowerCase()
@@ -79,14 +79,13 @@ class Form extends Component {
     } else {
       searchResults = [];
     }
-
     this.setState({
       searchResults,
     });
   }
 
   renderInput = (InputProps) => {
-    const { classes, companies } = this.props;
+    const { classes } = this.props;
 
     return (
       <FormattedMessage
