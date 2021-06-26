@@ -18,5 +18,5 @@ export default async function fetchData() {
       });
   }
 
-  return data;
+  return data['Organizations'];
 }
