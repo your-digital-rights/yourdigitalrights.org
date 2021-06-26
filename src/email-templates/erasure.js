@@ -9,6 +9,9 @@ export default {
       case "GDPR":
         subject = GDPR_SUBJECT;
         break;
+      case "GDPRUK":
+        subject = GDPR_SUBJECT;
+        break;        
     }
     return subject;
   },
@@ -22,6 +25,9 @@ export default {
       case "GDPR":
         body = GDPR_TEXT;
         break;
+      case "GDPRUK":
+        body = GDPR_TEXT;
+        break;        
     }
 
     if (data.identifyingInfo) {

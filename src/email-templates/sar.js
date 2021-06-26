@@ -9,6 +9,9 @@ export default {
       case "GDPR":
         subject = GDPR_SUBJECT;
         break;
+      case "GDPRUK":
+        subject = GDPR_SUBJECT;
+        break;        
     }
     return subject;
   },
@@ -22,6 +25,9 @@ export default {
       case "GDPR":
         body = GDPR_TEXT;
         break;
+      case "GDPRUK":
+        body = GDPR_TEXT;
+        break;        
     }
 
     if (data.identifyingInfo) {
@@ -72,32 +78,14 @@ const GDPR_TEXT = `To whom it may concern:
 I am writing to obtain the following information that I am entitled to receive pursuant to Article 15 of the General Data Protection Regulation (GDPR). Please confirm as to whether or not my personal data is being processed, and, where that is the case, please provide the following information:
 
 1. a copy of my personal data that you have or are processing
-
-
 2. a detailed account of the specific uses that you have made, are making, or will be making of my personal data
-
-
 3. the purposes of the processing
-
-
 4. the categories of personal data concerned
-
-
 5. a list of all third parties with whom you have (or may have) shared my personal data
-
-
 6. where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period
-
-
 7. where the personal data are not collected from me, any available information as to their source, as referred to in Article 14 of the GDPR
-
-
 8. the existence of automated decision-making, including profiling, and at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for me
-
-
 9. the safeguards you provide if you transfer my personal data to a third country or international organisation
-
-
 10. In addition, I would like to know whether or not my personal data has been disclosed inadvertently by your company in the past, or as a result of a security or privacy breach:
     10.1 a general description of what occurred
     10.2 the date and time of the breach (or the best possible estimate)
