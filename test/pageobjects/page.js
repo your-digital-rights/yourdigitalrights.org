@@ -17,7 +17,7 @@ class Page {
   }
 
   get ownYourData() {
-    return $("span=Own Your Data");
+    return $("#hero-heading");
   }
 
   get companyName() {
@@ -113,6 +113,9 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
+      get linkLangSelect() {
+        return $("nav > ul > div > div").getText();
+      },      
       get linkButton() {
         return $("nav > ul > a");
       },
@@ -138,14 +141,14 @@ class Page {
       get linkFourMobText() {
         return $(".mob-navbar ul li:nth-child(4)").getText();
       },
-      get linkFiveMob() {
+      get linkFiveMobText() {
+        return $(".mob-navbar div > div").getText();
+      },
+      get linkSixMob() {
         return $(".mob-navbar ul > a");
       },
-      get linkFiveMobText() {
-        return this.linkFiveMob.$("span").getText();
-      },
       get linkSixMobText() {
-        return $(".mob-navbar ul li:nth-child(6)").getText();
+        return this.linkSixMob.getText();
       },
       get linkSevenMobText() {
         return $(".mob-navbar ul li:nth-child(7)").getText();
@@ -158,6 +161,9 @@ class Page {
       },
       get linkTenMobText() {
         return $(".mob-navbar ul li:nth-child(10)").getText();
+      },
+      get linkElevenMobText() {
+        return $(".mob-navbar ul li:nth-child(11)").getText();
       },
     };
   }

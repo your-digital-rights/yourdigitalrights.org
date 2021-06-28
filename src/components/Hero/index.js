@@ -15,6 +15,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
             color="inherit"
             gutterBottom={true}
             component="p"
+            id="hero-heading"
           >
             <FormattedMessage
               id="hero.heading"

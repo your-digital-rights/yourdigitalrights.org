@@ -64,7 +64,12 @@
     "npm-run-all": "^4.1.3",
     "prettier": "2.0.5",
     "wdio-chromedriver-service": "^7.0.0",
-    "babel-plugin-formatjs": "^10.2.15"
+    "babel-plugin-formatjs": "^10.2.15",
+    "babel-plugin-jsx-remove-data-test-id": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "babel-runtime": "^6.26.0"
   },
   "prettier": {
     "singleQuote": true,

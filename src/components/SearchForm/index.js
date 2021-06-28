@@ -16,6 +16,7 @@ import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
 import Router from "next/router";
+import InputLabel from "@material-ui/core/InputLabel";
 
 class Form extends Component {
   state = {
@@ -87,7 +88,7 @@ class Form extends Component {
 
   renderInput = (InputProps) => {
     const { classes, companies, intl } = this.props;
-    const placeholder = this.props.intl.formatMessage({
+    const label = this.props.intl.formatMessage({
       id: "search.companyPlaceholder",
       defaultMessage: "Search for an organization"
     });
@@ -109,7 +110,8 @@ class Form extends Component {
                 ) : null
               }
               disableUnderline={true}
-              placeholder={placeholder}
+              placeholder={label}
+              label={label}
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"

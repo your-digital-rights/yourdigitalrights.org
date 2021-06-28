@@ -13,6 +13,7 @@ describe("When I visit the Home page in Desktop view", () => {
     page.navigationBar.linkThreeText.should.equal("Data Brokers");
     page.navigationBar.linkFourText.should.equal("Browser Extension");
     page.navigationBar.linkFiveText.should.equal("About");
+    page.navigationBar.linkLangSelect.should.equal("EN");
     page.navigationBar.linkButtonText.should.equal("SEARCH ORGANIZATIONS");
   });
 
@@ -71,12 +72,13 @@ describe("When I visit the Home page in Mobile view", () => {
     page.navigationBar.linkTwoMobText.should.equal("FAQ");
     page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
     page.navigationBar.linkFourMobText.should.equal("About");
-    page.navigationBar.linkFiveMobText.should.equal("SEARCH ORGANIZATIONS");
-    page.navigationBar.linkSixMobText.should.equal("Browser Extension");
-    page.navigationBar.linkSevenMobText.should.equal("Make a Donation");
-    page.navigationBar.linkEightMobText.should.equal("Privacy Policy");
-    page.navigationBar.linkNineMobText.should.equal("Contact Us");
-    page.navigationBar.linkTenMobText.should.equal("#ownyourdata");
+    page.navigationBar.linkFiveMobText.should.equal("EN");
+    page.navigationBar.linkSixMobText.should.equal("SEARCH ORGANIZATIONS");
+    page.navigationBar.linkSevenMobText.should.equal("Browser Extension");
+    page.navigationBar.linkEightMobText.should.equal("Make a Donation");
+    page.navigationBar.linkNineMobText.should.equal("Privacy Policy");
+    page.navigationBar.linkTenMobText.should.equal("Contact Us");
+    page.navigationBar.linkElevenMobText.should.equal("#ownyourdata");
   });
 
   describe("and click the Search button on the navigation bar", () => {
@@ -84,7 +86,7 @@ describe("When I visit the Home page in Mobile view", () => {
       const page = setupPageInMobileView("/", true);
 
       page.navigationBar.triggerMobileMenuToggle;
-      page.navigationBar.linkFiveMob.click();
+      page.navigationBar.linkSixMob.click();
 
       page.searchIsFocused.should.be.true;
     });
@@ -95,12 +97,12 @@ describe("When I visit the Home page in Mobile view", () => {
           const page = setupPageInMobileView("/", true);
 
           page.navigationBar.triggerMobileMenuToggle;
-          page.navigationBar.linkFiveMob.click();
+          page.navigationBar.linkSixMob.click();
           browser.execute((element) => {
             element.click();
           }, page.ownYourData);
           page.navigationBar.triggerMobileMenuToggle;
-          page.navigationBar.linkFiveMob.click();
+          page.navigationBar.linkSixMob.click();
 
           page.searchIsFocused.should.be.true;
         });
@@ -135,7 +137,7 @@ describe("When I visit the About page in Mobile view", () => {
       const page = setupPageInMobileView("/about", true);
 
       page.navigationBar.triggerMobileMenuToggle;
-      page.navigationBar.linkFiveMob.click();
+      page.navigationBar.linkSixMob.click();
 
       page.searchIsFocused.should.be.true;
     });
