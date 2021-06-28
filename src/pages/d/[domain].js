@@ -72,8 +72,8 @@ export async function getStaticProps({ params }) {
     }
   }  
 
-  const organizations = await fetchSheetData();
-  const organization = organizations.find(
+  const data = await fetchSheetData();
+  const organization = data['Organizations'].find(
     ({ url }) => params.domain === url
   );  
   return {
@@ -84,7 +84,5 @@ export async function getStaticProps({ params }) {
     revalidate: 60*60
   }
 }
-
-
 
 export default withRouter(Org);
