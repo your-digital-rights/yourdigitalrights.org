@@ -254,6 +254,10 @@ class Form {
     return $(this.baseSelector).isDisplayed();
   }
 
+  fillInSearch(value) {
+    return $("#searchForm input").setValue(value);
+  }
+
   selectElementByLabel(labelText) {
     const id = $(this.baseSelector)
       .$(`label*=${labelText}`)
