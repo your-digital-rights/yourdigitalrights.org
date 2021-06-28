@@ -8,4 +8,5 @@ if (os.hostname().includes("opt-out")) {
   domain = "yourdigitalrights.org";
 }
 
+
 export const DOMAIN = domain;

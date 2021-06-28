@@ -5,7 +5,11 @@
   },
   {
     "id": "orgSubTitle",
-    "defaultMessage": "Use this free and independent service to send {ccpa} and {gdpr} requests. Find out more {about}."
+    "defaultMessage": "Use this free service to send {ccpa} and {gdpr} data requests."
+  },
+  {
+    "id": "notAffiliatedDisclamer",
+    "defaultMessage": "This service is {disclamer} (find out more {about})."
   },
   {
     "id": "newOrgSubTitle",

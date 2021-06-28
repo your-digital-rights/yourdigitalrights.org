@@ -240,6 +240,10 @@ class Form extends Component {
       id: "gdprOption",
       defaultMessage: "GDPR (European Union)",
     });
+    const UKGdprOptionText = this.props.intl.formatMessage({
+      id: "UKgdprOption",
+      defaultMessage: "GDPR (UK)",
+    });    
 
     let formToDisplay;
     if (this.state.hasSubmit) {
@@ -358,6 +362,7 @@ class Form extends Component {
             margin="normal"
           >
             <option value="GDPR">{GdprOptionText}</option>
+            <option value="GDPRUK">{UKGdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
           {/* <p>{GdprOptionText.text}</p> */}
