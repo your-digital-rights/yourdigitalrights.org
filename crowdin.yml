@@ -1,11 +1,5 @@
-"project_id" : "2"
-"api_token" : "d9cba065c7a3c5385af2f93c476e67949e9b1bf70c1a0a2ca524069e562b30194dcc1a83d8d56eff"
-# "base_path" : "."
-"base_url" : "https://consciousdigital.crowdin.com"
-
-"preserve_hierarchy": true
-
-
+base_url: 'https://consciousdigital.crowdin.com'
+preserve_hierarchy: true
 files:
   - source: /lang/en.json
     translation: /lang/%two_letters_code%.json
