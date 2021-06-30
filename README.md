@@ -50,7 +50,7 @@ export ACCESS_KEY_ID=fakeaccesskeyid
 export SECRET_ACCESS_KEY=fakesecretaccesskey
 export REGION=us-east-1
 export ENDPOINT=http://localhost:8000
-npm run setup-dynamo
+npm run setup-local-dynamo
 ```
 
 # Running tests

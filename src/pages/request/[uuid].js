@@ -72,6 +72,12 @@ export async function getServerSideProps(context) {
   };
   const requestDetails = await dynamodb.getItem(params).promise();
 
+  if (!requestDetails.Item) {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
     props: {
       data: {
