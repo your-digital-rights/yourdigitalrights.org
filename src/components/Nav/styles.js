@@ -1,7 +1,4 @@
-import { container } from "../../styles/layout";
-import { themeBg } from "../../styles/theme";
-
-export default (theme) => ({
+const Theme = (theme) => ({
     nav: {
         display: "flex",
         alignItems: "center",
@@ -13,9 +10,9 @@ export default (theme) => ({
         width: "100%",
         zIndex: "11000",
         [theme.breakpoints.down("xs")]: {
-            padding: "0 15px",
+            padding: "0 15px",        
         },
-        position: "fixed",
+        position: "fixed",                
         top: "0",
     },
     logoLink: {
@@ -191,4 +188,9 @@ export default (theme) => ({
         width: "120px",
         alignItems: "center",
     },
+    langSelect :{
+        marginRight: "24px",
+    }
 });
+
+export default Theme;

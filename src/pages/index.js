@@ -1,5 +1,5 @@
-import Head from "next/head";
-import { Component } from "react";
+import { injectIntl } from "react-intl";
+import { createRef, Component } from "react";
 import RedirectOverlay from "../components/RedirectOverlay";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
@@ -11,10 +11,8 @@ import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import tracking from "../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import { DOMAIN } from "../utils/domain";
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
-import { SiteLinksSearchBoxJsonLd } from 'next-seo';
 import { withRouter } from "next/router";
 import {
   searchOrganizationsUrlAnchor,
@@ -39,7 +37,7 @@ class Index extends Component {
   constructor(props) {
     super(props);
 
-    this.searchFormRef = React.createRef();
+    this.searchFormRef = createRef();
     this.beforeFocusOnSearchForm = this.beforeFocusOnSearchForm.bind(this);
 
     this.state = {
@@ -142,10 +140,10 @@ class Index extends Component {
   }
 
   render() {
-    const { classes } = this.props;
-    const { selectedCompany, screenWidth } = this.state;
+    const { classes, intl } = this.props;
+    const { screenWidth } = this.state;
     const BaseURL = "";
-    const Description = "Delete your account or access the personal data organizations have on you using this free service.";
+    const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
     
     return (
       <div>
@@ -185,4 +183,4 @@ class Index extends Component {
   }
 }
 
-export default withStyles(styles)(withRouter(Index));
+export default withStyles(styles)(withRouter(injectIntl(Index)));

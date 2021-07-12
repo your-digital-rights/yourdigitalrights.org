@@ -1,4 +1,4 @@
-export default (theme) => ({
+const Style = (theme) => ({
   formContainer: {
     position: "relative",
     maxWidth: "777px",
@@ -26,3 +26,5 @@ export default (theme) => ({
     paddingBottom: "500px",
   }
 });
+
+export default Style;

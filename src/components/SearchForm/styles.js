@@ -1,6 +1,6 @@
 import { visuallyHidden } from "../../styles/layout";
 
-export default (theme) => ({
+const Theme = (theme) => ({
   searchInputWrapper: {
     padding: "6px 16px",
   },
@@ -31,3 +31,5 @@ export default (theme) => ({
     lineHeight: "1.5em",
   }
 });
+
+export default Theme;

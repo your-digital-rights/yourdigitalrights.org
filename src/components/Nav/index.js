@@ -6,6 +6,13 @@ import tracking from "../../utils/tracking";
 import classNames from "classnames";
 import styles from "./styles";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
+import { ALT_LANGUAGES } from '../../utils/langUtils';
+import { withRouter } from 'next/router'
+import Link from 'next/link'
+import cookieCutter from 'cookie-cutter'
+
 
 const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
@@ -21,53 +28,71 @@ const NavItem = ({
 }) => {
   return (
     <li className={classes.item} onClick={onClickHandler}>
-      <Typography
-        component="a"
-        target={target}
-        href={href}
-        className={subsection ? classes.subsectionLink : classes.link}
-      >
-        {text}
-      </Typography>
+      <Link href={href} className={classes.link} passHref>
+        <Typography
+          component="a"
+          target={target}
+          className={subsection ? classes.subsectionLink : classes.link}
+        >
+          {text}
+        </Typography>
+      </Link>
     </li>
   );
 };
 
-const NavListDesktop = ({ classes }) => {
+
+const NavListDesktop = ({ classes, router, handleLangChange }) => {
+
+
+
   return (
     <ul className={classes.container}>
       <NavItem
         href="/#howItWorks"
         text={
-          <FormattedMessage id="howItWorks" defaultMessage="How it works" />
+          <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
         }
         classes={classes}
       />
       <NavItem
         href="/#faq"
-        text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
+        text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
         classes={classes}
       />
       <NavItem
         href="/data-brokers"
         text={
-          <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
+          <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
         }
         classes={classes}
       />
       <NavItem
         href="/#Extension"
         text={
-          <FormattedMessage id="Extension" defaultMessage="Browser Extension" />
+          <FormattedMessage id="nav.extension" defaultMessage="Browser Extension" />
         }
         classes={classes}
       />
 
       <NavItem
         href="/about"
-        text={<FormattedMessage id="about" defaultMessage="About" />}
-        classes={classes}
+        text={<FormattedMessage id="nav.about" defaultMessage="About" />}
+        classes={classes} 
       />
+
+      <Select
+        value={router.locale}
+        onChange={event => handleLangChange(event, router)}
+        MenuProps={{style: {zIndex: "100000"}}}
+        className={classNames(classes.langSelect, classes.link)}
+      >
+        {ALT_LANGUAGES.map((locale) => (
+          <MenuItem key={locale} value={locale}>
+              {locale.toUpperCase()}
+          </MenuItem>
+        ))}
+      </Select>
 
       <a
         href={`/#${searchOrganizationsUrlAnchor}`}
@@ -76,14 +101,15 @@ const NavListDesktop = ({ classes }) => {
         onClick={() => trackSearchButtonLinkClick("desktop")}
       >
         <Typography component="span" className={classes.linkButton}>
-          Search Organizations
+          <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
         </Typography>
       </a>
+
     </ul>
   );
 };
 
-const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
+const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handleLangChange }) => {
   return (
     <div
       className={classNames(
@@ -96,30 +122,40 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           onClickHandler={toggleMobileNav}
           href="/#howItWorks"
           text={
-            <FormattedMessage id="howItWorks" defaultMessage="How it works" />
+            <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
           }
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/#faq"
-          text={<FormattedMessage id="faq" defaultMessage="FAQ" />}
+          text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/data-brokers"
           text={
-            <FormattedMessage id="data-brokers" defaultMessage="Data Brokers" />
+            <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
           }
           classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
-          text={<FormattedMessage id="about" defaultMessage="About" />}
+          text={<FormattedMessage id="nav.about" defaultMessage="About" />}
           classes={classes}
         />
+        <Select
+          value={router.locale}
+          onChange={event => handleLangChange(event, router)}
+          MenuProps={{style: {zIndex: "10000"}}}
+          className={classNames(classes.langSelect, classes.link)}
+        >
+          {ALT_LANGUAGES.map((locale) => (
+            <MenuItem key={locale} value={locale}>{locale.toUpperCase()}</MenuItem>
+          ))}
+        </Select>
         <a
           href={`/#${searchOrganizationsUrlAnchor}`}
           className={classes.OptOutRedButton}
@@ -130,7 +166,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           }}
         >
           <Typography component="span" className={classes.linkButton}>
-            Search Organizations
+            <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
           </Typography>
         </a>
 
@@ -140,7 +176,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           subsection={true}
           text={
             <FormattedMessage
-              id="extension"
+              id="nav.extension"
               defaultMessage="Browser Extension"
             />
           }
@@ -152,7 +188,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           href="/#donations"
           subsection={true}
           text={
-            <FormattedMessage id="donation" defaultMessage="Make a Donation" />
+            <FormattedMessage id="nav.donation" defaultMessage="Make a Donation" />
           }
           classes={classes}
         />
@@ -163,7 +199,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           subsection={true}
           text={
             <FormattedMessage
-              id="privacyPoilcy"
+              id="nav.privacyPoilcy"
               defaultMessage="Privacy Policy"
             />
           }
@@ -174,7 +210,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
           onClickHandler={toggleMobileNav}
           href="mailto:info@opt-out.eu"
           subsection={true}
-          text={<FormattedMessage id="contact" defaultMessage="Contact Us" />}
+          text={<FormattedMessage id="nav.contact" defaultMessage="Contact Us" />}
           classes={classes}
         />
 
@@ -186,7 +222,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
             <div className={classes.twitterHandle}>
               <img src="/images/sh/tw-grey.svg" />
               <FormattedMessage
-                id="twitterHastag"
+                id="nav.twitterHastag"
                 defaultMessage="#ownyourdata"
               />
             </div>
@@ -201,6 +237,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav }) => {
 class Nav extends Component {
   constructor(props) {
     super(props);
+
     this.state = {
       mobileNavOpen: false,
     };
@@ -228,6 +265,11 @@ class Nav extends Component {
     });
   }
 
+  handleLangChange = (event, router) => {
+    cookieCutter.set('NEXT_LOCALE', event.target.value);
+    router.push(router.asPath, router.asPath, {locale: event.target.value});
+  };
+
   handleCloseNav(event) {
     if (
       this.state.mobileNavOpen &&
@@ -248,7 +290,7 @@ class Nav extends Component {
           <a className={classes.logoLink} href="/">
             <img className={classes.logo} src="/images/type.svg" tabIndex={0} />
           </a>
-          <NavListDesktop classes={classes} />
+          <NavListDesktop classes={classes} router={this.props.router} handleLangChange={this.handleLangChange} />
           <img
             className={classes.hamburgerButton}
             src={
@@ -275,6 +317,8 @@ class Nav extends Component {
             classes={classes}
             mobileNavOpen={mobileNavOpen}
             toggleMobileNav={this.toggleMobileNav}
+            router={this.props.router}
+            handleLangChange={this.handleLangChange}
           />
         </div>
         {mobileNavOpen && <div className={classes.fadeBackground} />}
@@ -282,4 +326,4 @@ class Nav extends Component {
     );
   }
 }
-export default withStyles(styles)(Nav);
+export default withStyles(styles)(withRouter(Nav));

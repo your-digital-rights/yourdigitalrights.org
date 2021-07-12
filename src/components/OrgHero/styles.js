@@ -1,7 +1,7 @@
 import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
-export default (theme) => ({
+const Style = (theme) => ({
   hero: {
     paddingBottom: "150px",
     display: "flex",
@@ -75,3 +75,5 @@ export default (theme) => ({
     },
   },
 });
+
+export default Style;

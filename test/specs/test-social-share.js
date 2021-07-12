@@ -27,7 +27,7 @@ describe("When I view social sharing", () => {
 
     page.socialShare.twitter.click();
     page.dataOpenUrlAttribute.should.be.equal(
-      "https://twitter.com/share?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dtwitter%26pk_source%3Dhomepage&text=Find%20out%20what%20personal%20data%20thousands%20of%20organizations%20have%20on%20you%2C%20and%20get%20them%20to%20delete%20it.%20Check%20out%20yourdigitalrights.org&hashtags=GDPR%2CCCPA%2Cyourdigitalrights%2Crighttobeforgotten%2Coptout%2Cownyourdata"
+      "https://twitter.com/share?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dtwitter%26pk_source%3Dhomepage&text=Find%20out%20what%20personal%20data%20thousands%20of%20organizations%20have%20on%20you%2C%20and%20get%20them%20to%20delete%20it.%20Check%20out%20yourdigitalrights.org.&hashtags=GDPR%2CCCPA%2Cyourdigitalrights%2Crighttobeforgotten%2Coptout%2Cownyourdata"
     );
 
     page.socialShare.email.click();
@@ -37,7 +37,7 @@ describe("When I view social sharing", () => {
 
     page.socialShare.facebook.click();
     page.dataOpenUrlAttribute.should.be.equal(
-      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dfacebook%26pk_source%3Dhomepage&quote=Find%20out%20what%20personal%20data%20thousands%20of%20organizations%20have%20on%20you%2C%20and%20get%20them%20to%20delete%20it.%20Check%20out%20yourdigitalrights.org"
+      "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dfacebook%26pk_source%3Dhomepage&quote=Find%20out%20what%20personal%20data%20thousands%20of%20organizations%20have%20on%20you%2C%20and%20get%20them%20to%20delete%20it.%20Check%20out%20yourdigitalrights.org."
     );
   });
 });
