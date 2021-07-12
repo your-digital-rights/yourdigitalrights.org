@@ -109,26 +109,7 @@ const About = ({ classes, router }) => {
               }}
             />
           </Typography>
-          <br />
-          <Typography gutterBottom={true} component="h2" variant="h3">
-            <FormattedMessage id="about.helpUs" defaultMessage="Interested in joining us?" />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="about.helpUsBody1"
-              defaultMessage="If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then we’d love for you to join us!"
-            />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="about.helpUsBody2"
-              defaultMessage="We’re looking for volunteers including React developers, and people who can help us translate the website into additional European languages, but anyone is welcome. Please contact us at {email}."
-              values= {{
-                email: <a href="mailto:info@opt-out.eu">info@opt-out.eu</a>,
-              }}
-            />
-          </Typography>          
-          <br />          
+          <br />    
           <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="about.funding" defaultMessage="Funding" />
           </Typography>
