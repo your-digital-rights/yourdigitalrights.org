@@ -275,6 +275,168 @@
       "value": "Privacy Policy:"
     }
   ],
+  "contribute.creadit": [
+    {
+      "type": 0,
+      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether on this website, on github or in other ways."
+    }
+  ],
+  "contribute.creditTitle": [
+    {
+      "type": 0,
+      "value": "Credit"
+    }
+  ],
+  "contribute.description": [
+    {
+      "type": 0,
+      "value": "Help us improve YourDigitalRights.org."
+    }
+  ],
+  "contribute.dev": [
+    {
+      "type": 0,
+      "value": "Our repositories are hosted on GitHub, with the main one being for this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "website"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". The best way to start is to get in touch via "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": ". We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
+    }
+  ],
+  "contribute.devTitle": [
+    {
+      "type": 0,
+      "value": "Help with Development"
+    }
+  ],
+  "contribute.reportAProblem": [
+    {
+      "type": 0,
+      "value": "If you experience problems with this site you can report them in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "issue tracker"
+        }
+      ],
+      "type": 8,
+      "value": "a1"
+    },
+    {
+      "type": 0,
+      "value": ", or via "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "a2"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.reportAProblemTitle": [
+    {
+      "type": 0,
+      "value": "Report a Problem"
+    }
+  ],
+  "contribute.research": [
+    {
+      "type": 0,
+      "value": "We are always looking for better ways to promote Digital Rights and make them more accessible. Whether it's to better understand how people use technology or how organizations abuse it, there are always research projects going on. Please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": " us if you'd like to get involved."
+    }
+  ],
+  "contribute.researchTitle": [
+    {
+      "type": 0,
+      "value": "Hewlp with research"
+    }
+  ],
+  "contribute.subtitle": [
+    {
+      "type": 0,
+      "value": "This project is entirely developed and maintained by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    }
+  ],
+  "contribute.title": [
+    {
+      "type": 0,
+      "value": "Contribute"
+    }
+  ],
+  "contribute.translate": [
+    {
+      "type": 0,
+      "value": "We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "translation system"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to make your changes."
+    }
+  ],
+  "contribute.translateTitle": [
+    {
+      "type": 0,
+      "value": "Translate the website"
+    }
+  ],
   "data-brokers.DBAboutTitle": [
     {
       "type": 0,
@@ -1217,6 +1379,12 @@
     {
       "type": 0,
       "value": "Contact Us"
+    }
+  ],
+  "nav.contribute": [
+    {
+      "type": 0,
+      "value": "Contribute"
     }
   ],
   "nav.data-brokers": [
