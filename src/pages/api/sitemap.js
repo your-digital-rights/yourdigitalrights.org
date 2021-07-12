@@ -40,6 +40,12 @@ export default async (req, res) => {
     });
 
     smStream.write({
+      url: "https://yourdigitalrights.org/contribute",
+      changefreq: "weekly",
+      priority: 1,
+    });
+
+    smStream.write({
       url: "https://yourdigitalrights.org/privacy",
       changefreq: "weekly",
       priority: 1,
