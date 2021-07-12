@@ -1,4 +1,4 @@
-export default (theme) => ({
+const Theme = (theme) => ({
   container: {
     maxWidth: "777px",
     margin: "auto",
@@ -23,3 +23,5 @@ export default (theme) => ({
     margin: "20px 0",
   },
 });
+
+export default Theme;

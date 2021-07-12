@@ -25,7 +25,7 @@ describe("When I visit the home page", () => {
 
   describe("and select an organization", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organization", "Slack");
+      page.searchForm.fillInSearch("Slack");
       const searchResult = $("div=Slack (slack.com)");
       searchResult.waitForDisplayed();
       searchResult.click();
@@ -122,7 +122,7 @@ describe("When I visit the home page", () => {
             page.thanksMessage.isVisible.should.be.true;
             expect(page.thanksMessage.title).to.equal("Thank You");
             expect(page.thanksMessage.text).to.contain(
-              "A deletion request email should have opened in your email application."
+              "request email should have opened in your email application"
             );
             page.thanksMessage.btn.isDisplayed().should.be.true;
 
@@ -178,7 +178,7 @@ describe("When I visit the home page", () => {
 
   describe("and perform a search with no results", () => {
     beforeEach(() => {
-      page.searchForm.fillIn("Search for an organization", "abcxyz123");
+      page.searchForm.fillInSearch("abcxyz123");
       $("li*=Can't find an organization?").click();
     });
 

@@ -49,9 +49,7 @@ class FAQ extends Component {
   };
 
   renderItem = ({ heading, body }, index) => {
-    const { classes } = this.props;
     const { expanded } = this.state;
-
     return (
       <Accordion
         key={index}

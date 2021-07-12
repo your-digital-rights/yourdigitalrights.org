@@ -17,7 +17,7 @@ class Page {
   }
 
   get ownYourData() {
-    return $("span=Own Your Data");
+    return $("#hero-heading");
   }
 
   get companyName() {
@@ -113,6 +113,12 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
+      get linkSixText() {
+        return $("nav li:nth-child(6)").getText();
+      },      
+      get linkLangSelect() {
+        return $("nav > ul > div > div").getText();
+      },      
       get linkButton() {
         return $("nav > ul > a");
       },
@@ -138,17 +144,17 @@ class Page {
       get linkFourMobText() {
         return $(".mob-navbar ul li:nth-child(4)").getText();
       },
-      get linkFiveMob() {
+      get linkFiveMobText() {
+        return $(".mob-navbar ul li:nth-child(5)").getText();
+      },      
+      get linkSixMobText() {
+        return $(".mob-navbar div > div").getText();
+      },
+      get linkSevenMob() {
         return $(".mob-navbar ul > a");
       },
-      get linkFiveMobText() {
-        return this.linkFiveMob.$("span").getText();
-      },
-      get linkSixMobText() {
-        return $(".mob-navbar ul li:nth-child(6)").getText();
-      },
       get linkSevenMobText() {
-        return $(".mob-navbar ul li:nth-child(7)").getText();
+        return this.linkSevenMob.getText();
       },
       get linkEightMobText() {
         return $(".mob-navbar ul li:nth-child(8)").getText();
@@ -158,6 +164,12 @@ class Page {
       },
       get linkTenMobText() {
         return $(".mob-navbar ul li:nth-child(10)").getText();
+      },
+      get linkElevenMobText() {
+        return $(".mob-navbar ul li:nth-child(11)").getText();
+      },
+      get linkTwelvMobText() {
+        return $(".mob-navbar ul li:nth-child(12)").getText();
       },
     };
   }
@@ -246,6 +258,10 @@ class Form {
 
   get isVisible() {
     return $(this.baseSelector).isDisplayed();
+  }
+
+  fillInSearch(value) {
+    return $("#searchForm input").setValue(value);
   }
 
   selectElementByLabel(labelText) {
