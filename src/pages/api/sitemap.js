@@ -58,7 +58,7 @@ export default async (req, res) => {
     });
 
     const companies = await fetchData();
-    companies.map((company) =>
+    companies['Organizations'].map((company) =>
       ALT_LANGUAGES.forEach((locale) =>
         smStream.write({
           url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${locale}.${DOMAIN}/d/${company.url}`,
