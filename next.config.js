@@ -2,8 +2,14 @@ module.exports = {
   target: 'serverless',
   async rewrites() {
     return [
-      { source: "/save", destination: "/api/save" },
-      { source: "/sitemap.xml", destination: "/api/sitemap" },
+      {
+        source: "/save",
+        destination: "/api/save",
+      },
+      {
+        source: "/sitemap.xml",
+        destination: "/api/sitemap",
+      },
     ];
   },
   i18n: {

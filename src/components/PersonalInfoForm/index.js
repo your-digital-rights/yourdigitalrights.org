@@ -57,6 +57,7 @@ class Form extends Component {
       identifyingInfo: "",
       companyName: "",
       companyEmail: "",
+      companyUrl: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
@@ -162,6 +163,10 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    const companyUrl = selectedCompany
+      ? selectedCompany.url
+      : this.state.companyUrl;
+
     const subject =
       requestType == "DELETION"
         ? erasureEmail.subject({ ...this.state })
@@ -177,6 +182,7 @@ class Form extends Component {
       requestType,
       regulationType,
       companyName,
+      companyUrl,
     };
 
     if (followUp === "YES") {
@@ -185,6 +191,7 @@ class Form extends Component {
       requestParams.emailTo = to;
       requestParams.emailSubject = subject;
       requestParams.emailBody = body;
+      requestParams.lang = this.props.intl.locale;
     }
 
     fetch(
@@ -201,8 +208,8 @@ class Form extends Component {
     return mailtoLink({
       to,
       bcc,
-      subject: subject,
-      body: body,
+      subject,
+      body,
     });
   }
 

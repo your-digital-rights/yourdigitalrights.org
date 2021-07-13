@@ -11,12 +11,12 @@ const dynamodb = new aws.DynamoDB();
 
 const tables = [
   {
-    TableName : "Requests"
+    TableName : "YDRRequests"
   },
   {
-    FollowUps : "Requests"
+    TableName : "YDRFollowUps"
   },
-]
+];
 
 tables.forEach((table) => {
   dynamodb.deleteTable(table, (err, data) => {
