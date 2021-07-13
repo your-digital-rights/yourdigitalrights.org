@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { FormattedDate, FormattedMessage } from "react-intl";
+import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
@@ -16,6 +16,7 @@ import GridListTileBar from "@material-ui/core/GridListTileBar";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
+import Link from 'next/link'
 
 
 const styles = (theme) => ({
@@ -85,15 +86,16 @@ const dataBrokers = [
   { domain: "quantcast.com", name: "Quantcast" },
 ];
 
-// TODO: Make these string translatable
-const Description = "Get the top data brokers to erase your personal data";
-const BaseURL = "/data-brokers";
 
 const Brokers = ({ classes, router }) => {
+  const intl = useIntl();
+  const Description = intl.formatMessage({id: "data-brokers.description", defaultMessage: "Get the top data brokers to erase your personal data"});
+  const BaseURL = "/data-brokers";
+
   return (
     <div>
       <NextSeo
-        title = "Opt Out of the Top Data Brokers"
+        title = {intl.formatMessage({id: "data-brokers.title", defaultMessage: "Opt Out of the Top Data Brokers"})}
         canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
@@ -106,14 +108,14 @@ const Brokers = ({ classes, router }) => {
         <Paper className={classes.inner} elevation={2} >
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
-              id="aboutTitle"
+              id="data-brokers.DBAboutTitle"
               defaultMessage="Opt Out of the Top Data Brokers"
             />
           </Typography>
           <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="brokersIntro"
+              id="data-brokers.brokersIntro"
               defaultMessage="Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
               values={{
                 faq: <a href="/#faq">GDPR or CCPA</a>,
@@ -126,26 +128,27 @@ const Brokers = ({ classes, router }) => {
                 {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} elevation={2} >
-                      <GridListTile
-                        button
-                        component="a"
-                        href={"/d/" + company.domain}
-                        key={company.domain}
-                      >
-                        <img
-                          className={classes.centerImg}
-                          src={
-                            "https://api.faviconkit.com/" +
-                            company.domain +
-                            "/170"
-                          }
-                          alt={company.name}
-                        />
-                        <GridListTileBar
-                          className={classes.tileBar}
-                          title={company.name}
-                        />
-                      </GridListTile>
+                      <Link href={"/d/" + company.domain} passHref> 
+                        <GridListTile
+                          component="a"
+                          href={"/d/" + company.domain}
+                          key={company.domain}
+                        >
+                          <img
+                            className={classes.centerImg}
+                            src={
+                              "https://api.faviconkit.com/" +
+                              company.domain +
+                              "/170"
+                            }
+                            alt={company.name}
+                          />
+                          <GridListTileBar
+                            className={classes.tileBar}
+                            title={company.name}
+                          />
+                        </GridListTile>
+                      </Link>
                     </Paper>
                   </Grid>
                 ))}
@@ -154,7 +157,7 @@ const Brokers = ({ classes, router }) => {
           </Grid>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="brokerAfter"
+              id="data-brokers.brokerAfter"
               defaultMessage="These are some of the top data brokers but there are many more. Click the button below to search the entire database."
             />
           </Typography>
@@ -166,7 +169,10 @@ const Brokers = ({ classes, router }) => {
             id="startAgainBtn"
             href="/"
           >
-            Search for other organizations
+            <FormattedMessage
+              id="data-brokers.searchButton"
+              defaultMessage="Search for other organizations"
+            />
           </Button>
         </Paper>
       </div>

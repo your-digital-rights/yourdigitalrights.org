@@ -40,6 +40,12 @@ export default async (req, res) => {
     });
 
     smStream.write({
+      url: "https://yourdigitalrights.org/contribute",
+      changefreq: "weekly",
+      priority: 1,
+    });
+
+    smStream.write({
       url: "https://yourdigitalrights.org/privacy",
       changefreq: "weekly",
       priority: 1,
@@ -52,7 +58,7 @@ export default async (req, res) => {
     });
 
     const companies = await fetchData();
-    companies.map((company) =>
+    companies['Organizations'].map((company) =>
       ALT_LANGUAGES.forEach((locale) =>
         smStream.write({
           url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${locale}.${DOMAIN}/d/${company.url}`,

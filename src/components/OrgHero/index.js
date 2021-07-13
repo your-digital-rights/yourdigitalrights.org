@@ -1,8 +1,6 @@
-import NewOrgTitle from "./text";
 import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
-import { visuallyHidden } from "../../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
 
 
@@ -53,7 +51,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 gutterBottom={true}
               >
                 <FormattedMessage
-                  id="orgTitle"
+                  id="orgHero.title"
                   defaultMessage="Request account deletion or a copy of your personal data."
                 />
               </Typography>
@@ -63,7 +61,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 gutterBottom={true}
               >
                 <FormattedMessage
-                  id="orgSubTitle"
+                  id="orgHero.subTitle"
                   defaultMessage="Use this free service to send {ccpa} and {gdpr} data requests."
                   values={{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
@@ -74,14 +72,13 @@ const Hero = ({ classes, selectedCompany }) => {
               <Typography
                 color="inherit"
                 component="p"
-
               >
                 <FormattedMessage
-                  id="notAffiliatedDisclamer"
-                  defaultMessage="This service is {disclamer} (find out more {about})."
+                  id="orgHero.notAffiliatedDisclamer"
+                  defaultMessage="This service is <disclamer>not affiliated with</disclamer> (find out more <about>about us</about>)."
                   values={{
-                    disclamer: <strong>not affiliated with {Capitalize(selectedCompany.name)}</strong>,
-                    about: <a className={classes.introLink} target="_blank" href='/about'>about us</a>
+                    disclamer: txt =>(<strong>{txt + " " + Capitalize(selectedCompany.name)}</strong>),
+                    about: txt => (<a className={classes.introLink} target="_blank" href='/about'>{txt}</a>),
                   }}
                 />
               </Typography>   
@@ -97,14 +94,17 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h1"
                 className={classes.heading}
               >
-                Delete Your Account or Access Your Personal Data
+                <FormattedMessage
+                  id="orgHero.newOrgTitle"
+                  defaultMessage="Delete or Get a Copy of Your Personal Data"
+                />
             </Typography>
               <Typography
                 color="inherit"
                 component="h2"
               >
                 <FormattedMessage
-                  id="newOrgSubTitle"
+                  id="orgHero.newOrgSubTitle"
                   defaultMessage="Send any organization a {ccpa} or a {gdpr} request."
                   values = {{
                     ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,

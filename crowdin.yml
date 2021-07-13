@@ -1,0 +1,5 @@
+base_url: 'https://consciousdigital.crowdin.com'
+preserve_hierarchy: true
+files:
+  - source: /lang/en.json
+    translation: /lang/%two_letters_code%.json

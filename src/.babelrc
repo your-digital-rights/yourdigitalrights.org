@@ -1,18 +1,12 @@
 {
   "presets": ["next/babel"],
-  "env": {
-    "development": {
-      "plugins": ["react-intl"]
-    },
-    "production": {
-      "plugins": [
-        [
-          "react-intl",
-          {
-            "messagesDir": "lang/.messages/"
-          }
-        ]
-      ]
-    }
-  }
+  "plugins": [
+    [
+      "babel-plugin-formatjs",
+      {
+        "ast": true,
+        "idInterpolationPattern": "[sha512:contenthash:base64:6]",
+      }
+    ]
+  ]
 }
