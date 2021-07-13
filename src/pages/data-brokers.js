@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { FormattedDate, FormattedMessage } from "react-intl";
+import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
 import Paper from "@material-ui/core/Paper";
@@ -13,6 +13,10 @@ import Grid from "@material-ui/core/Grid";
 import PropTypes from "prop-types";
 import GridListTile from "@material-ui/core/GridListTile";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
+import { NextSeo } from 'next-seo';
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { withRouter } from "next/router";
+import Link from 'next/link'
 
 
 const styles = (theme) => ({
@@ -82,36 +86,36 @@ const dataBrokers = [
   { domain: "quantcast.com", name: "Quantcast" },
 ];
 
-// TODO: Make these string translatable
-const Title = "Opt Out of the Top Data Brokers | yourdigitalrights.org";
-const Description = "Get the top data brokers to erase your personal data";
-const Canonical = "https://yourdigitalrights.org/data-brokers";
 
-const Brokers = ({ classes }) => {
+const Brokers = ({ classes, router }) => {
+  const intl = useIntl();
+  const Description = intl.formatMessage({id: "data-brokers.description", defaultMessage: "Get the top data brokers to erase your personal data"});
+  const BaseURL = "/data-brokers";
+
   return (
     <div>
-      <Head>
-        <title>{Title}</title>
-        <link rel="canonical" href={Canonical} />
-        <meta name="description" content={Description} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:title" content={Title} />
-        <meta name="twitter:title" content={Title} />
-        <meta name="twitter:description" content={Description} />
-      </Head>
+      <NextSeo
+        title = {intl.formatMessage({id: "data-brokers.title", defaultMessage: "Opt Out of the Top Data Brokers"})}
+        canonical = {generateCanonical(BaseURL, router.locale)}
+        description = {Description}
+        openGraph = {{
+          description: Description,
+        }}
+        languageAlternates = {generateLangLinks(BaseURL)}
+      />
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
-              id="aboutTitle"
+              id="data-brokers.DBAboutTitle"
               defaultMessage="Opt Out of the Top Data Brokers"
             />
           </Typography>
           <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="brokersIntro"
+              id="data-brokers.brokersIntro"
               defaultMessage="Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
               values={{
                 faq: <a href="/#faq">GDPR or CCPA</a>,
@@ -124,26 +128,27 @@ const Brokers = ({ classes }) => {
                 {dataBrokers.map((company) => (
                   <Grid key={company.domain} item>
                     <Paper className={classes.paper} elevation={2} >
-                      <GridListTile
-                        button
-                        component="a"
-                        href={"/d/" + company.domain}
-                        key={company.domain}
-                      >
-                        <img
-                          className={classes.centerImg}
-                          src={
-                            "https://api.faviconkit.com/" +
-                            company.domain +
-                            "/170"
-                          }
-                          alt={company.name}
-                        />
-                        <GridListTileBar
-                          className={classes.tileBar}
-                          title={company.name}
-                        />
-                      </GridListTile>
+                      <Link href={"/d/" + company.domain} passHref> 
+                        <GridListTile
+                          component="a"
+                          href={"/d/" + company.domain}
+                          key={company.domain}
+                        >
+                          <img
+                            className={classes.centerImg}
+                            src={
+                              "https://api.faviconkit.com/" +
+                              company.domain +
+                              "/170"
+                            }
+                            alt={company.name}
+                          />
+                          <GridListTileBar
+                            className={classes.tileBar}
+                            title={company.name}
+                          />
+                        </GridListTile>
+                      </Link>
                     </Paper>
                   </Grid>
                 ))}
@@ -152,7 +157,7 @@ const Brokers = ({ classes }) => {
           </Grid>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="brokerAfter"
+              id="data-brokers.brokerAfter"
               defaultMessage="These are some of the top data brokers but there are many more. Click the button below to search the entire database."
             />
           </Typography>
@@ -164,7 +169,10 @@ const Brokers = ({ classes }) => {
             id="startAgainBtn"
             href="/"
           >
-            Search for other organizations
+            <FormattedMessage
+              id="data-brokers.searchButton"
+              defaultMessage="Search for other organizations"
+            />
           </Button>
         </Paper>
       </div>
@@ -179,4 +187,4 @@ Brokers.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Brokers);
+export default withStyles(styles)(withRouter(Brokers));

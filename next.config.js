@@ -9,17 +9,25 @@ module.exports = {
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["en", "es"],
-    defaultLocale: "en",
-    domains: [
-      {
-        domain: 'en.yourdigitalrights.org',
-        defaultLocale: 'en',
-      },
-      {
-        domain: 'es.yourdigitalrights.org',
-        defaultLocale: 'es',
-      },
-    ],
+    locales: ["en", "es", "it", "pt"],
+    defaultLocale: "en",   
   },
 };
+
+
+        // {
+        //   source: '/specific/:path*',
+        //   has: [
+        //     {
+        //       type: 'query',
+        //       key: 'page',
+        //       value: 'home',
+        //     },
+        //     {
+        //       type: 'cookie',
+        //       key: 'authorized',
+        //       value: 'true',
+        //     },
+        //   ],
+        //   destination: '/:path*/:page',
+        // },

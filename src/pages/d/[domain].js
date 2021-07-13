@@ -1,39 +1,43 @@
-import Head from "next/head";
-import { Component } from "react";
+import { useIntl } from "react-intl";
 import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
 import Nav from "../../components/Nav";
 import PersonalInfoForm from "../../components/PersonalInfoForm";
-import Social from "../../components/Social";
 import fetchSheetData from "../../utils/sheets";
-import tracking from "../../utils/tracking";
-import { DOMAIN } from "../../utils/domain";
+import { NextSeo } from 'next-seo';
+import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
+import { withRouter } from "next/router";
 
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ newOrg, organization, classes }) => {
-
-  const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Get a Copy of Your Data | YourDigitalRight.org" : "Send GDPR and CCPA Data Deletion and Access Requests | YourDigitalRight.org";
-  const Description = organization ? "Request account deletion or a copy of your personal data from  " + Capitalize(organization.url) + " quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy." :
-    "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
-  const Canonical = organization ? "https://" + DOMAIN + "/d/" + organization.url : "https://" + DOMAIN + "/d/add";
+const Org = ({ organization, router }) => {
+  const intl = useIntl();
+  const Title = organization ? 
+    intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "{org} - Delete Your Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.titleNewOrg", defaultMessage: "Send GDPR and CCPA Data Deletion and Access Requests"});
+  const Description = organization ? 
+    intl.formatMessage({id: "org.descriptionExistingOrg", defaultMessage:"Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.DescriptionNewOrg", defaultMessage:"Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."});
+  const BaseURL = organization ? 
+    "/d/" + organization.url : 
+    "/d/add";
 
   return (
     <div>
-      <Head>
-        <title>{Title}</title>
-        <link rel="canonical" href={Canonical} />
-        <meta name="description" content={Description} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:title" content={Title} />
-        <meta name="twitter:title" content={Title} />
-        <meta name="twitter:description" content={Description} />
-      </Head>
+    <NextSeo
+        title = {Title}
+        canonical = {generateCanonical(BaseURL, router.locale)}
+        description = {Description}
+        openGraph = {{
+          description: Description,
+        }}
+        languageAlternates = {generateLangLinks(BaseURL)}
+      />       
       <Nav />
       <Hero 
         selectedCompany={organization}
@@ -44,7 +48,7 @@ const Org = ({ newOrg, organization, classes }) => {
       {organization && (
         <AboutOrg 
           selectedCompany={organization}
-          canonical={Canonical}
+          canonical={generateCanonical(BaseURL, 'en')}
         />
       )}
       <Donations />
@@ -68,8 +72,8 @@ export async function getStaticProps({ params }) {
     }
   }  
 
-  const organizations = await fetchSheetData();
-  const organization = organizations.find(
+  const data = await fetchSheetData();
+  const organization = data['Organizations'].find(
     ({ url }) => params.domain === url
   );  
   return {
@@ -81,6 +85,4 @@ export async function getStaticProps({ params }) {
   }
 }
 
-
-
-export default Org;
+export default withRouter(Org);

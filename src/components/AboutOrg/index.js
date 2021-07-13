@@ -1,9 +1,13 @@
-import Fragment from "react";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
-import Button from "@material-ui/core/Button";
-import { DOMAIN } from "../../utils/domain";
 import { withStyles } from '@material-ui/core/styles';
+import { FormattedMessage } from "react-intl";
+
+
+function Capitalize(str){
+  return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
 
 const AboutOrg = ({ classes, selectedCompany, canonical }) => {
   var rb_owner_key = "e91628b9-67ed-11eb-8f71-040140774501";
@@ -30,7 +34,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
             Email:{" "}
             <strong>
               <a
-                target="new"
+                target="_blank"
                 href={`mailto:${selectedCompany.email}`}
                 className={classes.link}
               >
@@ -40,9 +44,9 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
             {selectedCompany.privacyPolicyUrl && (
               <span>
                 <br />
-                Privacy Policy:{" "}
+                <FormattedMessage id="aboutOrg.privacyPolicy" defaultMessage="Privacy Policy:" />{" "}
                 <a
-                  target="new"
+                  target="_blank"
                   href={`${selectedCompany.privacyPolicyUrl}`}
                   className={classes.link}
                 >
@@ -51,16 +55,24 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
               </span>
             )}
             <br />
-            Number of request sent:{" "}
+            <FormattedMessage id="aboutOrg.numRequests" defaultMessage="Number of request sent:"/>{" "}
             <strong>{selectedCompany.emailsSent}</strong>
           </div>
         </div>
         <div id="discussion" className={classes.discussion}>
           <Typography color="inherit" className={classes.discussionHeading}>
-            Read what others have to say about privacy at {selectedCompany.name} and share your own comments:
+            <FormattedMessage 
+              id="aboutOrg.commentBoxDescription" 
+              defaultMessage="Read what others have to say about privacy at {org}, and share your own comments:"
+              values={{ org: (Capitalize(selectedCompany.url))}}
+            />
           </Typography>
           <Typography color="inherit" className={classes.discussionSubHeading} >
-            This is an independent service which is not affiliated with {selectedCompany.name}.
+            <FormattedMessage 
+              id="aboutOrg.commentBoxDisclamer" 
+              defaultMessage="Remember: this is an independent website which is not affiliated with {org}."
+              values={{ org: (Capitalize(selectedCompany.url))}}
+            />
           </Typography>
           <div id="remarkbox-div">
               <iframe id="remarkbox-iframe" src={rb_src} style={{ width: '100%', overflow: 'hidden' }} tabIndex={0} scrolling="no" frameBorder={0} title="Remarkbox"  ></iframe>

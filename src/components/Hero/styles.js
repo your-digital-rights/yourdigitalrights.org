@@ -1,7 +1,7 @@
 import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
-export default (theme) => ({
+const Theme = (theme) => ({
   hero: {
     color: "#005ea5",
     backgroundColor: theme.palette.primary.main,
@@ -50,3 +50,5 @@ export default (theme) => ({
     
   }
 });
+
+export default Theme;

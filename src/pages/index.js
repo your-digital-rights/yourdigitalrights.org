@@ -1,5 +1,5 @@
-import Head from "next/head";
-import { Component } from "react";
+import { injectIntl } from "react-intl";
+import { createRef, Component } from "react";
 import RedirectOverlay from "../components/RedirectOverlay";
 import Donations from "../components/Donations";
 import FAQ from "../components/FAQ";
@@ -11,8 +11,9 @@ import SearchForm from "../components/SearchForm";
 import Social from "../components/Social";
 import tracking from "../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
-import { DOMAIN } from "../utils/domain";
-import Router from "next/router";
+import {generateCanonical, generateLangLinks} from "../utils/langUtils";
+import { NextSeo } from 'next-seo';
+import { withRouter } from "next/router";
 import {
   searchOrganizationsUrlAnchor,
   heroUrlAnchor,
@@ -36,7 +37,7 @@ class Index extends Component {
   constructor(props) {
     super(props);
 
-    this.searchFormRef = React.createRef();
+    this.searchFormRef = createRef();
     this.beforeFocusOnSearchForm = this.beforeFocusOnSearchForm.bind(this);
 
     this.state = {
@@ -54,10 +55,6 @@ class Index extends Component {
   }
 
   componentDidMount() {
-    if (Router.pathname == "/" && Router.query.company) {
-      Router.push("/d/[domain]", "/d/" + Router.query.company + "/");
-    }
-
     if (typeof window !== "undefined") {
       this.setState({ screenWidth: window.innerWidth });
       window.addEventListener("resize", this.onScreenResize);
@@ -143,16 +140,11 @@ class Index extends Component {
   }
 
   render() {
-    const { classes } = this.props;
-    const { selectedCompany, screenWidth } = this.state;
-
-    // TODO: Make these string translatable
-    const Title = "Own Your Data | YourDigitalRights.org";
-    const Description =
-      "Delete your account or access the personal data organizations have on you quickly and easily with YourDigitalRight.org - a FREE service which makes exercising your right to privacy easy.";
-    const Canonical = "https://" + DOMAIN;
-    const searchURL = "https://" + DOMAIN + "/d/{search_term_string}/";
-
+    const { classes, intl } = this.props;
+    const { screenWidth } = this.state;
+    const BaseURL = "";
+    const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
+    
     return (
       <div>
         <Nav>
@@ -162,26 +154,13 @@ class Index extends Component {
         </Nav>
         <div className={classes.mainContainer}>
           <div className={classes.scrollableContainer}></div>
-          <Head>
-            <title>{Title}</title>
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{
-                __html:
-                  '{"@context": "https://schema.org", "@type": "WebSite", "url": "' +
-                  Canonical +
-                  '", "potentialAction": { "@type": "SearchAction", "target": "' +
-                  searchURL +
-                  '", "query-input": "required name=search_term_string" }}',
-              }}
-            />
-            <link rel="canonical" href={Canonical} />
-            <meta name="description" content={Description} />
-            <meta property="og:description" content={Description} />
-            <meta property="og:title" content={Title} />
-            <meta name="twitter:title" content={Title} />
-            <meta name="twitter:description" content={Description} />
-          </Head>
+          <NextSeo
+            canonical = {generateCanonical(BaseURL, this.props.router.locale)}
+            openGraph = {{
+              description: Description,
+            }}
+            languageAlternates = {generateLangLinks(BaseURL)}
+          />
           <input className={classes.topOfPagePlaceholder} />
           <Hero>
             {screenWidth !== null && screenWidth >= tabletBreakpoint && (
@@ -204,4 +183,4 @@ class Index extends Component {
   }
 }
 
-export default withStyles(styles)(Index);
+export default withStyles(styles)(withRouter(injectIntl(Index)));

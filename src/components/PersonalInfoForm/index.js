@@ -14,8 +14,7 @@ import {
   NoFollowUpLabelText,
   FollowUpDetailsText,
   SubmitButtonText,
-  ReadMore,
-  RequestChoice,
+  Headline,
   RequestTypeLabelText,
   AccessRequestLabelText,
   DeletionRequestLabelText,
@@ -226,13 +225,17 @@ class Form extends Component {
     const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({
-      id: "ccpaOption",
+      id: "personalInfoForm.ccpaOption",
       defaultMessage: "CCPA (California)",
     });
     const GdprOptionText = this.props.intl.formatMessage({
-      id: "gdprOption",
+      id: "personalInfoForm.gdprOption",
       defaultMessage: "GDPR (European Union)",
     });
+    const UKGdprOptionText = this.props.intl.formatMessage({
+      id: "UKgdprOption",
+      defaultMessage: "GDPR (UK)",
+    });    
 
     let formToDisplay;
     if (this.state.hasSubmit) {
@@ -255,15 +258,10 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
-        >
+        >          
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
-              Fill in the following form to creates a Data Request email which
-              you can then review and send. For more information read our{" "}
-              <a target="_blank" href="/#faq">
-                Frequently Asked Questions
-              </a>
-              .
+              {Headline}
             </span>
           </Typography>
           <FormControl
@@ -351,6 +349,7 @@ class Form extends Component {
             margin="normal"
           >
             <option value="GDPR">{GdprOptionText}</option>
+            <option value="GDPRUK">{UKGdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
           {/* <p>{GdprOptionText.text}</p> */}
