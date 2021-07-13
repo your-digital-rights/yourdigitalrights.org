@@ -66,14 +66,14 @@ export const IdentifyingInfoHelperText = (
 export const FollowUpLabelText = (
   <FormattedMessage
     id="personalInfoForm.FollowUpLabel"
-    defaultMessage="Would you like us to guide you in case the organization does not fully comply with your request?"
+    defaultMessage="Help me follow-up on this request"
   />
 );
 
 export const YesFollowUpLabelText = (
   <FormattedMessage
     id="personalInfoForm.YesFollowUpLabel"
-    defaultMessage="Yes, please send me follow-up emails"
+    defaultMessage="Yes, email me follow-up instructions"
   />
 );
 
@@ -87,7 +87,14 @@ export const NoFollowUpLabelText = (
 export const FollowUpDetailsText = (
   <FormattedMessage
     id="personalInfoForm.FollowUpDetails"
-    defaultMessage="We will send you up to 4 follow-up emails when it’s time to take further action. Send the organization a reminder email, or the local Data Protection Agency an escalation email with a click. <strong>By selecting this feature you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails.</strong> We collect this information automatically by adding a special email address to the BCC field of the request email which you are about to send. All personal information relating to this request will be automatically deleted from our systemn within 120 days unless you specify otherwise."
+    defaultMessage="To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+  />
+);
+
+export const FollowUpDetailsTextWarning = (
+  <FormattedMessage
+    id="personalInfoForm.FollowUpDetailsWarning"
+    defaultMessage="<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
     values = {{
       strong: chunks => (<strong>{chunks}</strong>),
     }}

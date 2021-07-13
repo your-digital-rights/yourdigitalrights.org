@@ -525,10 +525,13 @@
     "message": "Request account deletion or a copy of your personal data."
   },
   "personalInfoForm.FollowUpDetails": {
-    "message": "We will send you up to 4 follow-up emails when it’s time to take further action. Send the organization a reminder email, or the local Data Protection Agency an escalation email with a click. <strong>By selecting this feature you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails.</strong> We collect this information automatically by adding a special email address to the BCC field of the request email which you are about to send. All personal information relating to this request will be automatically deleted from our systemn within 120 days unless you specify otherwise."
+    "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>By selecting this feature you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "Would you like us to guide you in case the organization does not fully comply with your request?"
+    "message": "Help me follow-up on this request"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
     "message": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
@@ -537,7 +540,7 @@
     "message": "No, I can manage on my own"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Yes, please send me follow-up emails"
+    "message": "Yes, email me follow-up instructions"
   },
   "personalInfoForm.accessRequestLabelText": {
     "message": "Send me a copy of my data"

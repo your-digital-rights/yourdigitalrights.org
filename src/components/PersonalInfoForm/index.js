@@ -14,6 +14,7 @@ import {
   NoFollowUpLabelText,
   FollowUpDetailsText,
   SubmitButtonText,
+  FollowUpDetailsTextWarning,
   Headline,
   RequestTypeLabelText,
   AccessRequestLabelText,
@@ -404,6 +405,9 @@ class Form extends Component {
             </RadioGroup>
             <FormHelperText>
               {FollowUpDetailsText}
+              <br/>
+              <br/>
+              {FollowUpDetailsTextWarning}
             </FormHelperText>
           </FormControl>
           <div>
