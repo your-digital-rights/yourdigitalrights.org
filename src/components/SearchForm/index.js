@@ -1,11 +1,11 @@
+import React from "react";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import { Component } from "react";
 import Downshift from "downshift";
-import { FormattedMessage } from "react-intl";
+import { FormattedMessage, injectIntl } from "react-intl";
 import Icon from "@material-ui/core/Icon";
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
-import InputLabel from "@material-ui/core/InputLabel";
 import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
@@ -16,6 +16,7 @@ import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
 import Router from "next/router";
+import InputLabel from "@material-ui/core/InputLabel";
 
 class Form extends Component {
   state = {
@@ -69,8 +70,6 @@ class Form extends Component {
 
     if (search) {
       const companies = await this.state.companies;
-      console.log(companies);
-      console.log(companies['Organizations']);
       searchResults = companies['Organizations']
         .filter((company) => {
           return company.searchTerms
@@ -87,18 +86,13 @@ class Form extends Component {
   }
 
   renderInput = (InputProps) => {
-    const { classes } = this.props;
-
+    const { classes, companies, intl } = this.props;
+    const label = this.props.intl.formatMessage({
+      id: "search.companyPlaceholder",
+      defaultMessage: "Search for an organization"
+    });
     return (
-      <FormattedMessage
-        id="companyPlaceholder"
-        defaultMessage="Search for an organization"
-      >
-        {(label) => (
           <div>
-            <InputLabel htmlFor="companyNameSearch" className={classes.label}>
-              {label}
-            </InputLabel>
             <Input
               {...InputProps}
               id="companyNameSearch"
@@ -116,14 +110,13 @@ class Form extends Component {
               }
               disableUnderline={true}
               placeholder={label}
+              label={label}
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
               inputRef={this.searchRef}
             />
           </div>
-        )}
-      </FormattedMessage>
     );
   };
 
@@ -208,12 +201,12 @@ class Form extends Component {
                         <ListItemText>
                           <strong>
                             <FormattedMessage
-                              id="noResults"
+                              id="search.noResults"
                               defaultMessage="Can't find an organization?"
                             />
                           </strong>{" "}
                           <FormattedMessage
-                            id="noResultsMore"
+                            id="search.noResultsMore"
                             defaultMessage="Click here to add one"
                           />
                         </ListItemText>
@@ -229,4 +222,4 @@ class Form extends Component {
     );
   }
 }
-export default withStyles(styles)(Form);
+export default injectIntl(withStyles(styles)(Form));

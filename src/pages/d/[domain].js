@@ -1,15 +1,11 @@
-import Head from "next/head";
-import { Component } from "react";
+import { useIntl } from "react-intl";
 import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
 import Nav from "../../components/Nav";
 import PersonalInfoForm from "../../components/PersonalInfoForm";
-import Social from "../../components/Social";
 import fetchSheetData from "../../utils/sheets";
-import tracking from "../../utils/tracking";
-import { DOMAIN } from "../../utils/domain";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
@@ -19,12 +15,17 @@ function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ newOrg, organization, classes, router }) => {
-
-  const Title = organization ? Capitalize(organization.url) + " - Delete Your Account or Get a Copy of Your Data" : "Send GDPR and CCPA Data Deletion and Access Requests";
-  const Description = organization ? "Request account deletion or a copy of your personal data from " + Capitalize(organization.url) + " quickly and easily using this free service." :
-    "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service.";
-  const BaseURL = organization ? "/d/" + organization.url : "/d/add";
+const Org = ({ organization, router }) => {
+  const intl = useIntl();
+  const Title = organization ? 
+    intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "{org} - Delete Your Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.titleNewOrg", defaultMessage: "Send GDPR and CCPA Data Deletion and Access Requests"});
+  const Description = organization ? 
+    intl.formatMessage({id: "org.descriptionExistingOrg", defaultMessage:"Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.DescriptionNewOrg", defaultMessage:"Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."});
+  const BaseURL = organization ? 
+    "/d/" + organization.url : 
+    "/d/add";
 
   return (
     <div>

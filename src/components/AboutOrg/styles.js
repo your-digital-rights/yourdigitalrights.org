@@ -1,7 +1,7 @@
 import { theme } from "../../styles/theme";
 import { container } from "../../styles/layout";
 
-export default (theme) => ({
+const Style = (theme) => ({
   about: {
     backgroundColor: theme.palette.primary.main,
     ...theme,
@@ -128,3 +128,5 @@ export default (theme) => ({
     },
   },
 });
+
+export default Style;

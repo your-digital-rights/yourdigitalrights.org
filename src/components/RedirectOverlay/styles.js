@@ -1,4 +1,4 @@
-export default () => ({
+const Theme = () => ({
   paper: {
     padding: "40px 50px",
     textAlign: "center",
@@ -54,3 +54,5 @@ export default () => ({
     backgroundColor: "rgba(255,255,255,0.5)",
   },
 });
+
+export default Theme;

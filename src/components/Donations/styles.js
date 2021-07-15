@@ -1,7 +1,7 @@
 import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
-export default (theme) => ({
+const Theme = (theme) => ({
   donate: {
     backgroundColor: "#f2f2f2",
   },
@@ -65,3 +65,5 @@ export default (theme) => ({
     },
   },
 });
+
+export default Theme;
