@@ -37,7 +37,8 @@ import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
-import { strict as assert } from 'assert';
+import getGeolocation from "../../utils/geolocation";
+
 
 const screenHeightBreakpoint = 560;
 
@@ -61,9 +62,7 @@ class Form extends Component {
     this.container = React.createRef();
   }
 
-  componentDidMount() {
-    this.getDefaultRegulation();
-
+  async componentDidMount() {
     window.mailgoConfig = {
       dark: true,
       showFooter: false,
@@ -87,6 +86,8 @@ class Form extends Component {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
     }
+    const geo = await getGeolocation();
+    this.setState({ regulationType: geo });
   }
 
   componentWillUnmount() {
@@ -98,26 +99,6 @@ class Form extends Component {
   onScreenResize = () => {
     this.setState({ screenHeight: window.innerHeight });
   };
-
-  getDefaultRegulation = () => {
-    var context = this;
-    fetch("http://localhost:3000/api/geolocation").then(function(response) {
-      if (response.status >= 400){
-        throw "No geolocation.";
-      }
-      return response.json();
-    }).then(function(resultJson) {
-      if (resultJson['country'] === 'US') {
-        context.setState({regulationType: 'CCPA'});
-      } else if (resultJson['country'] === 'UK') {
-        context.setState({regulationType: 'GDPRUK'});
-      } else {
-        context.setState({regulationType: 'GDPR'});
-      }
-    }).catch(function(err){
-      context.setState({regulationType: 'GDPR'});
-    })
-  }
 
   handleInput = (name) => {
     if (!this.handlers[name]) {
@@ -196,7 +177,7 @@ class Form extends Component {
   }
 
   render() {
-    const { regulationType, screenHeight } = this.state;
+    const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "personalInfoForm.ccpaOption",
@@ -312,7 +293,7 @@ class Form extends Component {
             className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
-            value = {regulationType}
+            value = {this.state.regulationType}
             SelectProps={{
               native: true,
               MenuProps: {
