@@ -18,7 +18,6 @@ import {
 import { injectIntl } from "react-intl";
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
-import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
@@ -27,7 +26,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import mailgo, { mailgoDirectRender } from "mailgo";
+import { mailgoDirectRender } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -38,6 +37,8 @@ import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
+import getGeolocation from "../../utils/geolocation";
+
 
 const screenHeightBreakpoint = 560;
 
@@ -61,7 +62,7 @@ class Form extends Component {
     this.container = React.createRef();
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     window.mailgoConfig = {
       dark: true,
       showFooter: false,
@@ -85,6 +86,8 @@ class Form extends Component {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
     }
+    const geo = await getGeolocation();
+    this.setState({ regulationType: geo });
   }
 
   componentWillUnmount() {
@@ -290,7 +293,7 @@ class Form extends Component {
             className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
-            defaultValue="GDPR"
+            value = {this.state.regulationType}
             SelectProps={{
               native: true,
               MenuProps: {
@@ -304,7 +307,6 @@ class Form extends Component {
             <option value="GDPRUK">{UKGdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
-          {/* <p>{GdprOptionText.text}</p> */}
           <TextField
             variant="outlined"
             id="identifyingInfo"
