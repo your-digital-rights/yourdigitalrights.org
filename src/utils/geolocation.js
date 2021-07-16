@@ -15,7 +15,7 @@ export default async function getGeolocation() {
       .then((resultJson) => {
         if (resultJson['country'] === 'US') {
             return 'CCPA';
-          } else if (resultJson['country'] === 'UK') {
+          } else if (resultJson['country'] === 'GB') {
             return 'GDPRUK';
           } else {
             return 'GDPR';
