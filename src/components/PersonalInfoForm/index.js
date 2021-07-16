@@ -18,7 +18,6 @@ import {
 import { injectIntl } from "react-intl";
 import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
-import { FormattedMessage } from "react-intl";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
@@ -27,7 +26,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import mailgo, { mailgoDirectRender } from "mailgo";
+import { mailgoDirectRender } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -38,6 +37,7 @@ import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
+import { strict as assert } from 'assert';
 
 const screenHeightBreakpoint = 560;
 
@@ -62,6 +62,8 @@ class Form extends Component {
   }
 
   componentDidMount() {
+    this.getDefaultRegulation();
+
     window.mailgoConfig = {
       dark: true,
       showFooter: false,
@@ -96,6 +98,26 @@ class Form extends Component {
   onScreenResize = () => {
     this.setState({ screenHeight: window.innerHeight });
   };
+
+  getDefaultRegulation = () => {
+    var context = this;
+    fetch("http://localhost:3000/api/geolocation").then(function(response) {
+      if (response.status >= 400){
+        throw "No geolocation.";
+      }
+      return response.json();
+    }).then(function(resultJson) {
+      if (resultJson['country'] === 'US') {
+        context.setState({regulationType: 'CCPA'});
+      } else if (resultJson['country'] === 'UK') {
+        context.setState({regulationType: 'GDPRUK'});
+      } else {
+        context.setState({regulationType: 'GDPR'});
+      }
+    }).catch(function(err){
+      context.setState({regulationType: 'GDPR'});
+    })
+  }
 
   handleInput = (name) => {
     if (!this.handlers[name]) {
@@ -174,7 +196,7 @@ class Form extends Component {
   }
 
   render() {
-    const { screenHeight } = this.state;
+    const { regulationType, screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
     const CcpaOptionText = this.props.intl.formatMessage({
       id: "personalInfoForm.ccpaOption",
@@ -290,7 +312,7 @@ class Form extends Component {
             className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
-            defaultValue="GDPR"
+            value = {regulationType}
             SelectProps={{
               native: true,
               MenuProps: {
@@ -304,7 +326,6 @@ class Form extends Component {
             <option value="GDPRUK">{UKGdprOptionText}</option>
             <option value="CCPA">{CcpaOptionText}</option>
           </TextField>
-          {/* <p>{GdprOptionText.text}</p> */}
           <TextField
             variant="outlined"
             id="identifyingInfo"
