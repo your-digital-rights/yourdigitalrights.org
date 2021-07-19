@@ -2,10 +2,12 @@ import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 
+import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
+import fetchSheetData from "../../utils/sheets";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -54,6 +56,12 @@ const Uuid = ({ data, classes, router }) => {
       { data.item.emailSubject.S }<br />
       { data.item.emailBody.S }<br />
       </p>
+      {data.organization && (
+        <AboutOrg 
+          selectedCompany={data.organization}
+          canonical={generateCanonical(BaseURL, 'en')}
+        />
+      )}
       <Donations />
       <Footer />
     </div>
@@ -78,10 +86,16 @@ export async function getServerSideProps(context) {
     }
   }
 
+  const data = await fetchSheetData();
+  const organization = data['Organizations'].find(
+    ({ url }) => requestDetails.Item.companyUrl.S === url
+  );  
+
   return {
     props: {
       data: {
         item: requestDetails.Item,
+        organization,
       },
     },
   }
