@@ -1,11 +1,17 @@
 import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
+import { withStyles } from "@material-ui/core/styles";
+import Paper from "@material-ui/core/Paper";
+import Typography from "@material-ui/core/Typography";
 
 import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
+import RequestDetails from "../../components/RequestDetails";
+import RequestHero from "../../components/RequestHero";
+import RequestTimeline from "../../components/RequestTimeline";
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import fetchSheetData from "../../utils/sheets";
 
@@ -17,6 +23,34 @@ aws.config.update({
 });
 
 const dynamodb = new aws.DynamoDB();
+
+const styles = (theme) => ({
+  root: {
+    maxWidth: "780px",
+    margin: "auto",
+    marginTop: "30px",
+    marginBottom: "30px",
+    textAlign: "center",
+    position: "relative",
+  },
+
+  content: {
+    padding: "60px 77px 0 77px",
+
+    [theme.breakpoints.down("sm")]: {
+      padding: "60px 25px 0 25px",
+    },
+  },
+
+  title: {
+    marginBottom: "20px",
+  },
+
+  text: {
+    marginBottom: "30px",
+    textAlign: "left",
+  },
+});
 
 const Uuid = ({ data, classes, router }) => {
   const { uuid } = router.query;
@@ -40,22 +74,16 @@ const Uuid = ({ data, classes, router }) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />       
       <Nav />
-      <p><br /><br /><br /><br /><br /><br />
-
-      TODO REMOVE<br />
-      { uuid }<br />
-      { data.item.regulationType.S }<br />
-      { data.item.requestType.S }<br />
-      { data.item.companyName.S }<br />
-      { data.item.requestCreatedAt.S }<br />
-      { data.item.name.S }<br />
-      { data.item.identifyingInfo.S }<br />
-      { data.item.emailTo.S }<br />
-      { data.item.companyUrl.S }<br />
-      <br />
-      { data.item.emailSubject.S }<br />
-      { data.item.emailBody.S }<br />
-      </p>
+      <RequestHero 
+        selectedCompany={data.organization}
+        requestItem={data.item}
+      />
+      <RequestTimeline 
+        requestItem={data.item}
+      />
+      <RequestDetails 
+        requestItem={data.item}
+      />
       {data.organization && (
         <AboutOrg 
           selectedCompany={data.organization}
@@ -101,4 +129,4 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default withRouter(Uuid);
+export default withStyles(styles)(withRouter(Uuid));
