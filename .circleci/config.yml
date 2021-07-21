@@ -22,7 +22,6 @@ jobs:
             - v1-dependencies-
 
       - run:
-        name: Verify Chrome Versions
         command: |
           google-chrome --version
           chromedriver --version
