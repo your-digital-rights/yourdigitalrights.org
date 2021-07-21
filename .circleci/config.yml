@@ -3,10 +3,9 @@
 #
 version: 2.1
 orbs:
-  browser-tools: circleci/browser-tools@x.y
+  browser-tools: circleci/browser-tools@1.1.3
 jobs:
   build:
-    executor: browser-tools/default
     working_directory: ~/opt-out
     docker:
       - image: circleci/node@sha256:5870e9c11af4bf5f0cf74034df01040ec4c2bcb5b6369c67ee4eece73a8eb3a7
@@ -20,11 +19,6 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
-
-      - run:
-        command: |
-          google-chrome --version
-          chromedriver --version
 
       - run: npm install
 
