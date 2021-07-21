@@ -1,39 +1,54 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
-import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 
-function Capitalize(str){
-  return str.charAt(0).toUpperCase() + str.slice(1);
-};
+import capitalize from "../../utils/capitalize";
+import daysSince from "../../utils/days-since";
+import styles from "./styles";
 
 const Hero = ({ classes, selectedCompany, requestItem }) => {
-  const companyName = selectedCompany ? Capitalize(selectedCompany.name) : null;
+  const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
-        <h1>Your data {requestItem.requestType.S} to {selectedCompany.name}</h1>
+        <h1>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
         <p>
-          The request was sent [DAYS SINCE REQUEST] days ago.
-          [IF REMINDER]
-            A reminder was sent [DAYS SINCE REMINDER] days ago.
-          [END]
-          [IF ESCALATION]
-            An escalation email was sent [DAYS SINCE ESCALATION] days ago.
-          [END]
+          The request was sent {daysSince(new Date(requestItem.requestCreatedAt.S))} days ago.  
+          {requestItem.reminderCreatedAt && (
+            <>
+              A reminder was sent {daysSince(new Date(requestItem.reminderCreatedAt.S))} days ago.
+            </>
+          )}
+          {requestItem.escalationCreatedAt && (
+            <>
+              An escalation email was sent {daysSince(new Date(requestItem.escalationCreatedAt.S))} days ago.
+            </>
+          )}
         </p>
         <h2>
-          <strong>Request Status:</strong>
-          {selectedCompany.name}
-          [IF SUCCESS]
-            handled request
-          [ELSE IF PARTIAL]
-            handled request partially
-          [ELSE IF DECLINED]
-            declined request
-          [ELSE]
-            did not reply
-          [END]
+          <strong>Request Status: </strong>
+          {selectedCompany.name}&nbsp;
+          {requestItem.status === "SUCCESS" ? (
+            <>
+              handled request
+            </>
+          ) : (
+            requestItem.status === "PARTIAL" ? (
+              <>
+                handled request partially
+              </>
+            ) : (
+              requestItem.status === "DECLINED" ? (
+                <>
+                  declined request
+                </>
+              ) : (
+                <>
+                  did not reply
+                </>
+              )
+            )
+          )}
         </h2>
         <ul>
           <li>
