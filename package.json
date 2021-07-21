@@ -58,7 +58,7 @@
     "@wdio/spec-reporter": "^7.0.7",
     "@wdio/sync": "^7.0.9",
     "chai": "^4.1.2",
-    "chromedriver": "^90.0.0",
+    "chromedriver": "latest",
     "mailto-parser": "^1.0.1",
     "mocha": "^5.1.1",
     "npm-run-all": "^4.1.3",

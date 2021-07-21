@@ -370,7 +370,7 @@
   "contribute.researchTitle": [
     {
       "type": 0,
-      "value": "Hewlp with research"
+      "value": "Help with research"
     }
   ],
   "contribute.subtitle": [
@@ -402,7 +402,21 @@
     },
     {
       "type": 0,
-      "value": " to make your changes."
+      "value": " to make your changes. Here is a "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "video tutorial"
+        }
+      ],
+      "type": 8,
+      "value": "video"
+    },
+    {
+      "type": 0,
+      "value": " of the translation editor to help you get started."
     }
   ],
   "contribute.translateTitle": [
