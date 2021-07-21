@@ -1,12 +1,13 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
+version: 2.1
+orbs:
+  browser-tools: circleci/browser-tools@x.y
 jobs:
   build:
+    executor: browser-tools/default
     working_directory: ~/opt-out
-
-
     docker:
       - image: circleci/node@sha256:5870e9c11af4bf5f0cf74034df01040ec4c2bcb5b6369c67ee4eece73a8eb3a7
 
@@ -19,14 +20,12 @@ jobs:
             - v1-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
+
       - run:
-          name: Install Chrome
-          command: |
-            sudo apt install -y libappindicator3-1
-            curl -L -o google-chrome.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-            sudo dpkg -i google-chrome.deb
-            sudo sed -i 's|HERE/chrome\"|HERE/chrome\" --disable-setuid-sandbox|g' /opt/google/chrome/google-chrome
-            rm google-chrome.deb
+        name: Verify Chrome Versions
+        command: |
+          google-chrome --version
+          chromedriver --version
 
       - run: npm install
 
