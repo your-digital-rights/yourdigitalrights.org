@@ -36,9 +36,6 @@ const theme = createMuiTheme({
       fontWeight: "bold",
       color: "#005ea5",
     },
-    link: {
-      color: "red",
-    },
     fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
   },	
   backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
