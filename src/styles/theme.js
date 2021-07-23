@@ -18,7 +18,7 @@ const theme = createMuiTheme({
       fontWeight: "600",
     },
     h4: {
-      fontWeight: "1000",
+      fontWeight: "900",
       color: "#005ea5",
       fontSize: "3rem",
     },    
@@ -35,6 +35,9 @@ const theme = createMuiTheme({
     h5: {
       fontWeight: "bold",
       color: "#005ea5",
+    },
+    link: {
+      color: "red",
     },
     fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
   },	
