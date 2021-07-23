@@ -28,20 +28,25 @@ class Hero extends Component {
     const {classes, requestItem, selectedCompany} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
     const {status} = this.state;
+
+    const daysSinceRequest = requestItem.requestCreatedAt ? daysSince(new Date(requestItem.requestCreatedAt.S)) : null;
+    const daysSinceReminder = requestItem.reminderCreatedAt ? daysSince(new Date(requestItem.reminderCreatedAt.S)) : null;
+    const daysSinceEscalation = requestItem.escalationCreatedAt ? daysSince(new Date(requestItem.escalationCreatedAt.S)) : null;
+
     return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <h1>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
         <p>
-          The request was sent {daysSince(new Date(requestItem.requestCreatedAt.S))} days ago.  
-          {requestItem.reminderCreatedAt && (
+          The request was sent {daysSinceRequest} day{daysSinceRequest === 1 ? '' : 's'} ago.
+          {typeof daysSinceReminder === 'number' && (
             <>
-              A reminder was sent {daysSince(new Date(requestItem.reminderCreatedAt.S))} days ago.
+              &nbsp;A reminder was sent {daysSinceReminder} day{daysSinceReminder === 1 ? '' : 's'} ago.
             </>
           )}
-          {requestItem.escalationCreatedAt && (
+          {typeof daysSinceEscalation === 'number' && (
             <>
-              An escalation email was sent {daysSince(new Date(requestItem.escalationCreatedAt.S))} days ago.
+              &nbsp;An escalation email was sent {daysSinceEscalation} day{daysSinceEscalation === 1 ? '' : 's'} ago.
             </>
           )}
         </p>
