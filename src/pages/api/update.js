@@ -37,6 +37,15 @@ export default async (req, res) => {
       return; 
     }
 
+    if (["SUCCESS", "PARTIAL", "DECLINED", "NO_REPLY"].indexOf(req.body.status) === -1) {
+      res.statusCode = 400;
+      res.send({
+        error: 'Status should be "SUCCESS", "PARTIAL", "DECLINED", or "NO_REPLY"',
+      });
+      resolve();
+      return;
+    }
+
     dynamodb.updateItem({
       ExpressionAttributeNames: {
         "#S": "status",
