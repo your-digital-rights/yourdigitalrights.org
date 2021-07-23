@@ -1,13 +1,21 @@
+import aws from "aws-sdk";
 import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
+import Button from "@material-ui/core/Button";
 
 import capitalize from "../../utils/capitalize";
 import daysSince from "../../utils/days-since";
 import styles from "./styles";
 
 const Hero = ({ classes, selectedCompany, requestItem }) => {
+  const updateStatus = (newStatus) => {
+    // async call to /api/update
+  };
+
   const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
+  const status = requestItem.status ? requestItem.status.S : "NO_REPLY";
+
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -28,17 +36,17 @@ const Hero = ({ classes, selectedCompany, requestItem }) => {
         <h2>
           <strong>Request Status: </strong>
           {selectedCompany.name}&nbsp;
-          {requestItem.status === "SUCCESS" ? (
+          {status === "SUCCESS" ? (
             <>
               handled request
             </>
           ) : (
-            requestItem.status === "PARTIAL" ? (
+            status === "PARTIAL" ? (
               <>
                 handled request partially
               </>
             ) : (
-              requestItem.status === "DECLINED" ? (
+              status === "DECLINED" ? (
                 <>
                   declined request
                 </>
@@ -50,26 +58,58 @@ const Hero = ({ classes, selectedCompany, requestItem }) => {
             )
           )}
         </h2>
-        <ul>
+        <ul className={classes.buttons}>
           <li>
-            <form>
-              <button type="submit">Handled successfully</button>
-            </form>
+
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "SUCCESS" ? classes.primaryButton : classes.button}
+                onClick={() => updateStatus('SUCCESS')}
+              >
+                Handled successfully
+              </Button>
+            
           </li>
           <li>
-            <form>
-              <button type="submit">Handled partially</button>
-            </form>
+            
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "PARTIAL" ? classes.primaryButton : classes.button}
+                onClick={() => updateStatus('PARTIAL')}
+              >
+                Handled partially
+              </Button>
+            
           </li>
           <li>
-            <form>
-              <button type="submit">Declined</button>
-            </form>
+            
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "DECLINED" ? classes.primaryButton : classes.button}
+                onClick={() => updateStatus('DECLINED')}
+              >
+                Declined
+              </Button>
+            
           </li>
           <li>
-            <form>
-              <button type="submit">No reply</button>
-            </form>
+            
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "NO_REPLY" ? classes.primaryButton : classes.button}
+                onClick={() => updateStatus()}
+              >
+                No reply
+              </Button>
+            
           </li>
         </ul>
       </div>
