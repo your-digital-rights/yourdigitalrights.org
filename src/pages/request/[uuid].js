@@ -58,10 +58,6 @@ const Uuid = ({ data, classes, router }) => {
   const Description = "View details about a CCPA or GDPR request submitted with this free service.";
   const BaseURL = "/request/" + uuid;
 
-  // TODO REMOVE
-  console.log('data', data)
-  // END TODO
-
   return (
     <div>
     <NextSeo

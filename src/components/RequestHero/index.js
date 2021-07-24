@@ -1,5 +1,6 @@
 import { Component } from "react";
 import aws from "aws-sdk";
+import fetch from "universal-fetch";
 import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
@@ -19,9 +20,26 @@ class Hero extends Component {
   }
 
   updateStatus(newStatus) {
-    // async call to /api/update
-    // TODO
-    this.setState({ status: "NO_REPLY" });
+    const oldStatus = this.state.status;
+  
+    // Optimistically assume the status update will succeed
+    this.setState({ status: newStatus });
+
+    fetch('/api/update', {
+        method: "POST",
+        body: JSON.stringify({
+          uuid: this.props.requestItem.id.S,
+          status: newStatus,
+        }),
+        headers: {
+          "Content-Type": "application/json"
+        },
+    }).then((response) => {
+      if (!response.ok) {
+        // If the status didn't update, revert it back
+        this.setState({ status: oldStatus });
+      }
+    });
   }
 
   render() {
@@ -55,17 +73,17 @@ class Hero extends Component {
           {selectedCompany.name}&nbsp;
           {status === "SUCCESS" ? (
             <>
-              handled request
+              handled your request
             </>
           ) : (
             status === "PARTIAL" ? (
               <>
-                handled request partially
+                partially handled your request
               </>
             ) : (
               status === "DECLINED" ? (
                 <>
-                  declined request
+                  declined your request
                 </>
               ) : (
                 <>
