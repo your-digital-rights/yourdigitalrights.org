@@ -30,6 +30,9 @@ const theme = createMuiTheme({
       fontSize: '1.05em',
       fontWeight: "600",
     },
+    body3: {
+      fontWeight: "400",
+    },
     h4: {
       fontWeight: "900",
       color: "#005ea5",
