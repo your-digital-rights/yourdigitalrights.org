@@ -2,6 +2,18 @@ import { createMuiTheme } from '@material-ui/core/styles';
 
 // Create a theme instance.
 const theme = createMuiTheme({
+  overrides: {
+    MuiCssBaseline: {
+      '@global': {
+        a: {
+          color: '#005ea5',
+          fontWeight: '900',
+        },
+          "a:hover": {
+        },
+      },
+    },
+  },
   palette: {
     primary: {
       main: "#005ea5",
