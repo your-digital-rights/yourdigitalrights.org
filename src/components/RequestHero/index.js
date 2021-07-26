@@ -7,7 +7,6 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
 import capitalize from "../../utils/capitalize";
-import daysSince from "../../utils/days-since";
 import styles from "./styles";
 
 class Hero extends Component {
@@ -43,28 +42,24 @@ class Hero extends Component {
   }
 
   render() {
-    const {classes, requestItem, selectedCompany} = this.props;
+    const {classes, requestItem, selectedCompany, days} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
     const {status} = this.state;
-
-    const daysSinceRequest = requestItem.requestCreatedAt ? daysSince(new Date(requestItem.requestCreatedAt.S)) : null;
-    const daysSinceReminder = requestItem.reminderCreatedAt ? daysSince(new Date(requestItem.reminderCreatedAt.S)) : null;
-    const daysSinceEscalation = requestItem.escalationCreatedAt ? daysSince(new Date(requestItem.escalationCreatedAt.S)) : null;
 
     return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
         <h1 className={classes.header}>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
         <p className={classes.information}>
-          The request was sent {daysSinceRequest} day{daysSinceRequest === 1 ? '' : 's'} ago.
-          {typeof daysSinceReminder === 'number' && (
+          The request was sent {days.sinceRequest} day{days.sinceRequest === 1 ? '' : 's'} ago.
+          {typeof days.sinceReminder === 'number' && (
             <>
-              &nbsp;A reminder was sent {daysSinceReminder} day{daysSinceReminder === 1 ? '' : 's'} ago.
+              &nbsp;A reminder was sent {days.sinceReminder} day{days.sinceReminder === 1 ? '' : 's'} ago.
             </>
           )}
-          {typeof daysSinceEscalation === 'number' && (
+          {typeof days.sinceEscalation === 'number' && (
             <>
-              &nbsp;An escalation email was sent {daysSinceEscalation} day{daysSinceEscalation === 1 ? '' : 's'} ago.
+              &nbsp;An escalation email was sent {days.sinceEscalation} day{days.sinceEscalation === 1 ? '' : 's'} ago.
             </>
           )}
         </p>

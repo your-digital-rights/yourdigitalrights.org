@@ -12,6 +12,7 @@ import Nav from "../../components/Nav";
 import RequestDetails from "../../components/RequestDetails";
 import RequestHero from "../../components/RequestHero";
 import RequestTimeline from "../../components/RequestTimeline";
+import daysSince from "../../utils/days-since";
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import fetchSheetData from "../../utils/sheets";
 
@@ -57,6 +58,11 @@ const Uuid = ({ data, classes, router }) => {
   const Title = "Details for your CCPA or GDPR request";
   const Description = "View details about a CCPA or GDPR request submitted with this free service.";
   const BaseURL = "/request/" + uuid;
+  const days = {
+    sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
+    sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,
+    sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
+  };
 
   return (
     <div>
@@ -73,9 +79,11 @@ const Uuid = ({ data, classes, router }) => {
       <RequestHero 
         selectedCompany={data.organization}
         requestItem={data.item}
+        days={days}
       />
       <RequestTimeline 
         requestItem={data.item}
+        days={days}
       />
       <>
         <h1>TODO: What's Next</h1>
