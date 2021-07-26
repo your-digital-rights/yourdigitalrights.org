@@ -32,15 +32,6 @@
   "about.fundingBody1": {
     "message": "This project is self funded by it’s creators, and with the help of your donations."
   },
-  "about.helpUs": {
-    "message": "Interested in joining us?"
-  },
-  "about.helpUsBody1": {
-    "message": "If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then we’d love for you to join us!"
-  },
-  "about.helpUsBody2": {
-    "message": "We’re looking for volunteers including React developers, and people who can help us translate the website into additional European languages, but anyone is welcome. Please contact us at {email}."
-  },
   "about.missionBody1": {
     "message": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
   },
@@ -85,6 +76,45 @@
   },
   "aboutOrg.privacyPolicy": {
     "message": "Privacy Policy:"
+  },
+  "contribute.creadit": {
+    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether on this website, on github or in other ways."
+  },
+  "contribute.creditTitle": {
+    "message": "Credit"
+  },
+  "contribute.description": {
+    "message": "Help us improve YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Our repositories are hosted on GitHub, with the main one being for this <a>website</a>. The best way to start is to get in touch via <email>email</email>. We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
+  },
+  "contribute.devTitle": {
+    "message": "Help with Development"
+  },
+  "contribute.reportAProblem": {
+    "message": "If you experience problems with this site you can report them in the <a1>issue tracker</a1>, or via <a2>email</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Report a Problem"
+  },
+  "contribute.research": {
+    "message": "We are always looking for better ways to promote Digital Rights and make them more accessible. Whether it's to better understand how people use technology or how organizations abuse it, there are always research projects going on. Please <email>email</email> us if you'd like to get involved."
+  },
+  "contribute.researchTitle": {
+    "message": "Help with research"
+  },
+  "contribute.subtitle": {
+    "message": "This project is entirely developed and maintained by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+  },
+  "contribute.title": {
+    "message": "Contribute"
+  },
+  "contribute.translate": {
+    "message": "We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our <a>translation system</a> to make your changes. Here is a <video>video tutorial</video> of the translation editor to help you get started."
+  },
+  "contribute.translateTitle": {
+    "message": "Translate the website"
   },
   "data-brokers.DBAboutTitle": {
     "message": "Opt Out of the Top Data Brokers"
@@ -439,6 +469,9 @@
   },
   "nav.contact": {
     "message": "Contact Us"
+  },
+  "nav.contribute": {
+    "message": "Contribute"
   },
   "nav.data-brokers": {
     "message": "Data Brokers"

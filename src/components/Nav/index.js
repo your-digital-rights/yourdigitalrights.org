@@ -76,6 +76,12 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
       />
 
       <NavItem
+        href="/contribute"
+        text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
+        classes={classes} 
+      />
+
+      <NavItem
         href="/about"
         text={<FormattedMessage id="nav.about" defaultMessage="About" />}
         classes={classes} 
@@ -140,6 +146,12 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
+        <NavItem
+          onClickHandler={toggleMobileNav}
+          href="/contribute"
+          text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
+          classes={classes}
+        />        
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"

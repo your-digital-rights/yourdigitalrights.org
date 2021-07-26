@@ -113,6 +113,9 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
+      get linkSixText() {
+        return $("nav li:nth-child(6)").getText();
+      },      
       get linkLangSelect() {
         return $("nav > ul > div > div").getText();
       },      
@@ -142,16 +145,16 @@ class Page {
         return $(".mob-navbar ul li:nth-child(4)").getText();
       },
       get linkFiveMobText() {
+        return $(".mob-navbar ul li:nth-child(5)").getText();
+      },      
+      get linkSixMobText() {
         return $(".mob-navbar div > div").getText();
       },
-      get linkSixMob() {
+      get linkSevenMob() {
         return $(".mob-navbar ul > a");
       },
-      get linkSixMobText() {
-        return this.linkSixMob.getText();
-      },
       get linkSevenMobText() {
-        return $(".mob-navbar ul li:nth-child(7)").getText();
+        return this.linkSevenMob.getText();
       },
       get linkEightMobText() {
         return $(".mob-navbar ul li:nth-child(8)").getText();
@@ -164,6 +167,9 @@ class Page {
       },
       get linkElevenMobText() {
         return $(".mob-navbar ul li:nth-child(11)").getText();
+      },
+      get linkTwelvMobText() {
+        return $(".mob-navbar ul li:nth-child(12)").getText();
       },
     };
   }

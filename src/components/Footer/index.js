@@ -63,6 +63,10 @@ const styles = (theme) => ({
       textDecoration: "underline",
     },
   },
+  VercelLogo: {
+    height: "2.4em",
+    marginTop: "5px",
+  }  
 });
 
 const WishButtonText = (
@@ -141,7 +145,16 @@ const Footer = ({ classes }) => {
                 a: txt=> (<Link href="/about" ><a href="/about" className={classes.DisclaimerLink}>{txt}</a></Link>)
               }}
             />
-          </Typography>        
+          </Typography> 
+          <a            
+            href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
+          >
+            <img 
+              src="/images/powered-by-vercel.svg" 
+              alt="Powered by Vercel" 
+              className={classes.VercelLogo}
+            />
+          </a>
         </div>
         <div className={classes.innerRight}>
           <Typography gutterBottom={true} color="textSecondary" variant="body2">
