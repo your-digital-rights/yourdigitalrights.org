@@ -54,8 +54,8 @@ class Hero extends Component {
     return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
-        <h1>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
-        <p>
+        <h1 className={classes.header}>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
+        <p className={classes.information}>
           The request was sent {daysSinceRequest} day{daysSinceRequest === 1 ? '' : 's'} ago.
           {typeof daysSinceReminder === 'number' && (
             <>
@@ -68,7 +68,7 @@ class Hero extends Component {
             </>
           )}
         </p>
-        <h2>
+        <h2 className={classes.status}>
           <strong>Request Status: </strong>
           {selectedCompany.name}&nbsp;
           {status === "SUCCESS" ? (

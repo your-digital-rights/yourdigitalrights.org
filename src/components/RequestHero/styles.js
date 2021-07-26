@@ -3,36 +3,53 @@ import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
   hero: {
-    paddingBottom: "150px",
+    paddingBottom: "55px",
     display: "flex",
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
     ...theme,
     [theme.breakpoints.down("sm")]: {
-      padding: "60px 0px 150px",
+      padding: "60px 0px 55px",
     },
   },
   container: {
-    padding: "120px 30px 60px",
+    padding: "80px 30px 0",
     maxWidth: "850px",
     boxSizing: "border-box",
     margin: "auto",
     paddingLeft: "30px",
     paddingRight: "30px",
     [theme.breakpoints.down("sm")]: {
-      padding: "50px 30px 0px",
+      padding: "20px 30px 0px",
       width: "100%",
     },
   },
+  header: {
+    fontSize: "38px",
+    fontWeight: "normal",
+    marginBottom: "10px",
+  },
+  information: {
+    fontSize: "21px",
+    fontWeight: "normal",
+    lineHeight: "31px",
+    marginTop: "10px",
+  },
+  status: {
+    fontSize: "28px",
+    fontWeight: "normal",
+    margin: "37px 0 18px",
+  },
   buttons: {
     display: "flex",
+    flexWrap: "wrap",
     listStyle: "none",
     margin: "0",
     padding: "0",
   },
   button: {
-    marginRight: "10px",
+    margin: "0 10px 10px 0",
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",
@@ -44,7 +61,7 @@ const Style = (theme) => ({
     },
   },
   primaryButton: {
-    marginRight: "10px",
+    margin: "0 10px 10px 0",
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",
