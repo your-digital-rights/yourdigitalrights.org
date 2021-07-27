@@ -21,6 +21,29 @@ const Style = (theme) => ({
       width: "100%",
     },
   },
+  header: {
+    fontSize: "38px",
+    color: theme.palette.primary.main,
+    padding: "22px 0 0",
+  },
+  details: {
+    padding: "28px 50px",
+    color: theme.palette.primary.main,
+    fontWeight: "normal",
+  },
+  detailsList: {
+    fontSize: "18px",
+    lineHeight: "24px",
+    "& dt": {
+      float: "left",
+      clear: "left",
+      fontWeight: "bold",
+      padding: "0 0.5em 15px 0",
+    },
+    "& dd": {
+      paddingBottom: "15px",
+    },
+  },
 });
 
 export default Style;
