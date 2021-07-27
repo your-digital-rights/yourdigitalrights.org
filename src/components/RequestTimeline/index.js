@@ -3,7 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 
-const Timeline = ({ classes, requestItem, days }) => {
+const Timeline = ({ classes, requestItem, days, regulation }) => {
   const dayFormatter = new Intl.DateTimeFormat('en', { day: '2-digit' });
   const monthFormatter = new Intl.DateTimeFormat('en', { month: '2-digit' });
   const yearFormatter = new Intl.DateTimeFormat('en', { year: 'numeric' });
@@ -57,7 +57,7 @@ const Timeline = ({ classes, requestItem, days }) => {
             <li className={classes.timelineItem}>Escalation Sent<br />{ requestItem.escalationCreatedAt.S }</li>
           )}
           {typeof days.sinceEscalation !== 'number' && (
-            <li className={classes.timelineItem}>Escalate to<br />[ESCALATION_AUTHORITY]</li>
+            <li className={classes.timelineItem}>Escalate to<br />{ regulation.authority }</li>
           )}
         </ul>
       </div>

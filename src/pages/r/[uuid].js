@@ -55,14 +55,28 @@ const styles = (theme) => ({
 
 const Uuid = ({ data, classes, router }) => {
   const { uuid } = router.query;
-  const Title = "Details for your CCPA or GDPR request";
-  const Description = "View details about a CCPA or GDPR request submitted with this free service.";
+  const regulationType = data.item.regulationType.S;
+  const Title = `Details for your ${regulationType} request`;
+  const Description = "View details about a ${regulationType} request submitted with this free service.";
   const BaseURL = "/request/" + uuid;
   const days = {
     sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
     sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,
     sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
   };
+
+  const regulation = {};
+  if (regulationType === 'GDPR') {
+    regulation.timeLimit = 30;
+    regulation.authority = 'EDPB';
+    regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
+    regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
+  } else {
+    regulation.timeLimit = 45;
+    regulation.authority = 'CA AG';
+    regulation.link = 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company';
+    regulation.denyInfo = 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV';
+  }
 
   return (
     <div>
@@ -76,20 +90,21 @@ const Uuid = ({ data, classes, router }) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />       
       <Nav />
-      <RequestHero 
+      <RequestHero
         selectedCompany={data.organization}
         requestItem={data.item}
         days={days}
       />
-      <RequestTimeline 
+      <RequestTimeline
         requestItem={data.item}
         days={days}
+        regulation={regulation}
       />
-      <>
-        <h1>TODO: What's Next</h1>
-      </>
-      <RequestDetails 
+      <RequestDetails
+        selectedCompany={data.organization}
         requestItem={data.item}
+        days={days}
+        regulation={regulation}
       />
       {data.organization && (
         <AboutOrg 

@@ -2,28 +2,31 @@ import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
-  hero: {
-    paddingBottom: "150px",
-    display: "flex",
-    flexDirection: "column",
-    backgroundColor: theme.palette.primary.main,
-    textAlign: "left",
-    ...theme,
-    [theme.breakpoints.down("sm")]: {
-      padding: "60px 0px 150px",
-    },
-  },
   container: {
-    padding: "120px 30px 60px",
-    maxWidth: "850px",
-    boxSizing: "border-box",
-    margin: "auto",
-    paddingLeft: "30px",
-    paddingRight: "30px",
-    [theme.breakpoints.down("sm")]: {
-      padding: "50px 30px 0px",
-      width: "100%",
-    },
+    fontSize: "18px",
+    fontWeight: "normal",
+    lineHeight: "27px",
+  },
+  header: {
+    fontSize: "38px",
+    paddingBottom: "10px",
+    color: theme.palette.primary.main,
+  },
+  buttons: {
+    display: "flex",
+    flexWrap: "wrap",
+    listStyle: "none",
+    margin: "39px 0 0",
+    padding: "0",
+  },
+  button: {
+    margin: "0 10px 10px 0",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    fontWeight: "600",
+    padding: "10px 20px",
+    color: "#fff",
+    background: theme.palette.primary.main,
   },
 });
 

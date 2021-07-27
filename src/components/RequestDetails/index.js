@@ -3,10 +3,18 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 
-const Details = ({ classes, requestItem }) => {
+import RequestWhatsNext from "../RequestWhatsNext";
+
+const Details = ({ classes, requestItem, days, regulation, selectedCompany }) => {
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
+        <RequestWhatsNext 
+          requestItem={requestItem}
+          days={days}
+          regulation={regulation}
+          selectedCompany={selectedCompany}
+        />
         <h2>Request details</h2>
         <dl>
           <dt>Full name:</dt>

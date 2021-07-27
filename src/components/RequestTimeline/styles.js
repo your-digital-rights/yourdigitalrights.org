@@ -20,7 +20,6 @@ const Style = (theme) => ({
     paddingLeft: "30px",
     paddingRight: "30px",
     [theme.breakpoints.down("sm")]: {
-      padding: "0px 30px 0px",
       width: "100%",
     },
   },
