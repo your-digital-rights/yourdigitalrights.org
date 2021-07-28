@@ -68,7 +68,7 @@ const Uuid = ({ data, classes, router }) => {
   const regulation = {};
   if (regulationType === 'GDPR') {
     regulation.timeLimit = 30;
-    regulation.authority = 'EDPB';
+    regulation.authority = 'DPA';
     regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
     regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
   } else {
