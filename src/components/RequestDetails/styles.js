@@ -41,8 +41,21 @@ const Style = (theme) => ({
       padding: "0 0.5em 15px 0",
     },
     "& dd": {
+      margin: "0",
       paddingBottom: "15px",
     },
+  },
+  showEmail: {
+    textDecoration: "underline",
+    cursor: "pointer",
+  },
+  showFullEmail: {
+    clear: "left",
+  },
+  hideFullEmail: {
+    height: "0",
+    overflow: "hidden",
+    clear: "left",
   },
 });
 

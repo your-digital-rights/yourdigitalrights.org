@@ -3,42 +3,22 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 
-const Timeline = ({ classes, requestItem, days, regulation }) => {
-  const dayFormatter = new Intl.DateTimeFormat('en', { day: '2-digit' });
-  const monthFormatter = new Intl.DateTimeFormat('en', { month: '2-digit' });
-  const yearFormatter = new Intl.DateTimeFormat('en', { year: 'numeric' });
+import dateFormatter from "../../utils/date-formatter";
 
+const Timeline = ({ classes, requestItem, days, regulation }) => {
   const requestedCreatedAt = new Date(requestItem.requestCreatedAt.S);
-  const requestDate = `${
-    dayFormatter.format(requestedCreatedAt)
-  }.${
-    monthFormatter.format(requestedCreatedAt)
-  }.${
-    yearFormatter.format(requestedCreatedAt)
-  }`;
+  const requestDate = dateFormatter(requestedCreatedAt);
 
   let reminderDate;
   if (requestItem.reminderCreatedAt) {
     const reminderCreatedAt = new Date(requestItem.reminderCreatedAt.S);
-    const reminderDate = `${
-      dayFormatter.format(reminderCreatedAt)
-    }.${
-      monthFormatter.format(reminderCreatedAt)
-    }.${
-      yearFormatter.format(reminderCreatedAt)
-    }`;
+    const reminderDate = dateFormatter(reminderCreatedAt);
   }
 
   let escalationDate;
   if (requestItem.escalationCreatedAt) {
     const escalationCreatedAt = new Date(requestItem.escalationCreatedAt.S);
-    const escalationDate = `${
-      dayFormatter.format(escalationCreatedAt)
-    }.${
-      monthFormatter.format(escalationCreatedAt)
-    }.${
-      yearFormatter.format(escalationCreatedAt)
-    }`;
+    const escalationDate = dateFormatter(escalationCreatedAt);
   }
 
   return (
