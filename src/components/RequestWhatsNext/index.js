@@ -7,6 +7,7 @@ import Button from "@material-ui/core/Button";
 import { isMobile } from "react-device-detect";
 import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
+import fetch from "isomorphic-fetch";
 
 import capitalize from "../../utils/capitalize";
 
@@ -53,11 +54,6 @@ A copy of the original request follows.
 
 ${requestItem.emailBody.S}`;
 
-    console.log('to', to)
-    console.log('bcc', bcc)
-    console.log('subject', subject)
-    console.log('body', body)
-
     return mailtoLink({
       to,
       bcc,
@@ -67,6 +63,7 @@ ${requestItem.emailBody.S}`;
   }
 
   handleFormSubmit = (e) => {
+    const { requestItem } = this.props;
     e.preventDefault();
 
     if (isMobile) {

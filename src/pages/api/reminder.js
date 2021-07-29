@@ -10,41 +10,31 @@ aws.config.update({
 const dynamodb = new aws.DynamoDB();
 
 /**
- * Update the follow up table with a status set by the user.
+ * Update the follow up table with the date the reminder was sent.
  *
  * The API takes in the following:
  *
  * @param {string} req.body.uuid of the request
- * @param {string} req.body.status either "SUCCESS", "PARTIAL", "DECLINED", "NO_REPLY"
  */
 export default async (req, res) => {
   return new Promise((resolve, reject) => {
     res.setHeader('Content-Type', 'application/json');
-    if (!req.body.uuid || !req.body.status) {
+    if (!req.body.uuid) {
       res.statusCode = 400;
       res.send({
-        error: 'Missing uuid or status',
+        error: 'Missing uuid',
       });
       resolve();
       return; 
     }
 
-    if (["SUCCESS", "PARTIAL", "DECLINED", "NO_REPLY"].indexOf(req.body.status) === -1) {
-      res.statusCode = 400;
-      res.send({
-        error: 'Status should be "SUCCESS", "PARTIAL", "DECLINED", or "NO_REPLY"',
-      });
-      resolve();
-      return;
-    }
-
     dynamodb.updateItem({
       ExpressionAttributeNames: {
-        "#S": "status",
+        "#R": "reminderCreatedAt",
       },
       ExpressionAttributeValues: {
-        ":s": {
-          S: req.body.status,
+        ":r": {
+          S: new Date().toISOString(),
         },
       },
       Key: {
@@ -52,19 +42,21 @@ export default async (req, res) => {
           S: req.body.uuid,
         },
       },
+      ConditionExpression: "attribute_not_exists(#R)",
       ReturnValues: "ALL_NEW",
       TableName: 'YDRFollowUps',
-      UpdateExpression: "SET #S = :s",
+      UpdateExpression: "SET #R = :r",
     }, (err, data) => {
       if (err) {
+        console.log('err', err)
         res.statusCode = 500;
         res.send({
-          error: 'Could not update status.',
+          error: 'Could not add reminder time.',
         });
       } else {
         res.statusCode = 200;
         res.send({
-          success: 'Saved status.',
+          success: 'Saved reminder time.',
         });
       }
       resolve();
