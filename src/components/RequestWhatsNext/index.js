@@ -4,6 +4,9 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
+import { isMobile } from "react-device-detect";
+import mailtoLink from "mailto-link";
+import { mailgoDirectRender } from "mailgo";
 
 import capitalize from "../../utils/capitalize";
 
@@ -16,30 +19,101 @@ class Details extends Component {
     };
   }
 
+  async componentDidMount() {
+    window.mailgoConfig = {
+      dark: true,
+      showFooter: false,
+      tel: false,
+      sms: false,
+      actions: {
+        telegram: false,
+        whatsapp: false,
+        skype: false,
+        copy: false,
+      },
+      details: {
+        subject: false,
+        body: false,
+        to: false,
+        cc: false,
+        bcc: false,
+      },
+    };
+  }
+
+  renderMailTo() {
+    const { days, requestItem } = this.props;
+
+    const to = requestItem.emailTo.S;
+    const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
+    const subject = `[Reminder] ${requestItem.emailSubject.S}`;
+    const body = `I am requesting a response to my below request, which was sent ${days.sinceRequest} days ago.
+
+A copy of the original request follows.
+
+${requestItem.emailBody.S}`;
+
+    console.log('to', to)
+    console.log('bcc', bcc)
+    console.log('subject', subject)
+    console.log('body', body)
+
+    return mailtoLink({
+      to,
+      bcc,
+      subject,
+      body,
+    });
+  }
+
+  handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (isMobile) {
+      window.open(this.renderMailTo());
+    } else {
+      mailgoDirectRender(this.renderMailTo());
+    }
+  }
+
   buttons(classes, regulation) {
     return (
       <ul className={classes.buttons}>
         <li>
-          <Button
-            variant="contained"
-            color="primary"
-            type="submit"
-            className={classes.button}
-          >
-            Send a reminder email
-          </Button>
+          <form onSubmit={this.handleFormSubmit}>
+            <Button
+              variant="contained"
+              color="primary"
+              type="submit"
+              className={classes.button}
+            >
+              Send a reminder email
+            </Button>
+          </form>
         </li>
         <li>
-          <Button
-            variant="contained"
-            color="primary"
-            type="submit"
-            className={classes.button}
-            href={ regulation.link }
-            target="_blank"
-          >
-            Escalate to the { regulation.authority }
-          </Button>
+          {regulation.type === 'CCPA' && (
+            <Button
+              variant="contained"
+              color="primary"
+              type="submit"
+              className={classes.button}
+              href={ regulation.link }
+              target="_blank"
+            >
+              Escalate to the { regulation.authority }
+            </Button>
+          )}
+          {regulation.type !== 'CCPA' && (
+            <Button
+              variant="contained"
+              color="primary"
+              type="submit"
+              className={classes.button}
+            >
+              Escalate to the { regulation.authority }
+            </Button>
+          )}
         </li>
       </ul>
     )

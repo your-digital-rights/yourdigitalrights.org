@@ -67,11 +67,13 @@ const Uuid = ({ data, classes, router }) => {
 
   const regulation = {};
   if (regulationType === 'GDPR') {
+    regulation.type = 'GDPR';
     regulation.timeLimit = 30;
     regulation.authority = 'DPA';
     regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
     regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
   } else {
+    regulation.type = 'CCPA';
     regulation.timeLimit = 45;
     regulation.authority = 'CA AG';
     regulation.link = 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company';
