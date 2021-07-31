@@ -137,7 +137,7 @@ ${requestItem.emailBody.S}`;
     if (this.state.status === "NO_REPLY") {
       return (
         <div className={classes.container}>
-          <h2 className={classes.header}>What's next</h2>
+          <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
           <p>According to the {requestItem.regulationType.S} organizations have { regulation.timeLimit } days to reply to your request.</p>
           {days.sinceRequest < regulation.timeLimit && (
             <>
@@ -159,7 +159,7 @@ ${requestItem.emailBody.S}`;
     if (this.state.status === "DECLINED") {
       return (
         <div className={classes.container}>
-          <h2 className={classes.header}>What's next</h2>
+          <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
           <p>There are certain circumstances where an organization is legally permitted to decline to erase your data.</p>
           {requestItem.regulationType.S === "GDPR" && (
             <ul>
@@ -194,7 +194,7 @@ ${requestItem.emailBody.S}`;
     if (this.state.status === "PARTIAL") {
       return (
         <div className={classes.container}>
-          <h2 className={classes.header}>What's next</h2>
+          <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
           <p><strong>We recommend that you escalate your request to the { regulation.authority }.</strong></p>
           <p>Please select from the following options:</p>
           {this.buttons(classes, regulation)}
@@ -205,7 +205,7 @@ ${requestItem.emailBody.S}`;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
     return (
       <div className={classes.container}>
-        <h2 className={classes.header}>What's next</h2>
+        <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
         <p>Nothing at all. { companyName } successfully responded to your request.</p>
       </div>
     )
