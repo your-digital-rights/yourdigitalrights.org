@@ -72,10 +72,10 @@ describe("When I visit the Home page in Mobile view", () => {
     page.navigationBar.linkOneMobText.should.equal("How it works");
     page.navigationBar.linkTwoMobText.should.equal("FAQ");
     page.navigationBar.linkThreeMobText.should.equal("Data Brokers");
-    page.navigationBar.linkFourMobText.should.equal("Contribute");
-    page.navigationBar.linkFiveMobText.should.equal("About");
-    page.navigationBar.linkSixMobText.should.equal("EN");
-    page.navigationBar.linkSevenMobText.should.equal("SEARCH ORGANIZATIONS");
+    page.navigationBar.linkFourMobText.should.equal("About");
+    page.navigationBar.linkFiveMobText.should.equal("EN");
+    page.navigationBar.linkSixMobText.should.equal("SEARCH ORGANIZATIONS");
+    page.navigationBar.linkSevenMobText.should.equal("Contribute");
     page.navigationBar.linkEightMobText.should.equal("Browser Extension");
     page.navigationBar.linkNineMobText.should.equal("Make a Donation");
     page.navigationBar.linkTenMobText.should.equal("Privacy Policy");
