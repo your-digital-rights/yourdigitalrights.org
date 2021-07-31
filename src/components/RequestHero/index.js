@@ -1,7 +1,7 @@
 import { Component } from "react";
+import { FormattedMessage, FormattedPlural } from "react-intl";
 import aws from "aws-sdk";
 import fetch from "universal-fetch";
-import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
@@ -41,102 +41,134 @@ class Hero extends Component {
     });
   }
 
+  pluralizeDay(number) {
+    if (number === 1) {
+      return <FormattedMessage id="request.hero.day" defaultMessage="day" />;
+    }
+
+    return <FormattedMessage id="request.hero.days" defaultMessage="days" />;
+  }
+
   render() {
     const {classes, requestItem, selectedCompany, days} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
     const {status} = this.state;
 
     return (
-    <div className={classes.hero} id="hero">
-      <div className={classes.container}>
-        <h1 className={classes.header}>Your data {requestItem.requestType.S.toLowerCase()} to {selectedCompany.name}</h1>
-        <p className={classes.information}>
-          The request was sent {days.sinceRequest} day{days.sinceRequest === 1 ? '' : 's'} ago.
-          {typeof days.sinceReminder === 'number' && (
-            <>
-              &nbsp;A reminder was sent {days.sinceReminder} day{days.sinceReminder === 1 ? '' : 's'} ago.
-            </>
-          )}
-          {typeof days.sinceEscalation === 'number' && (
-            <>
-              &nbsp;An escalation email was sent {days.sinceEscalation} day{days.sinceEscalation === 1 ? '' : 's'} ago.
-            </>
-          )}
-        </p>
-        <h2 className={classes.status}>
-          <strong>Request Status: </strong>
-          {selectedCompany.name}&nbsp;
-          {status === "SUCCESS" ? (
-            <>
-              handled your request
-            </>
-          ) : (
-            status === "PARTIAL" ? (
+      <div className={classes.hero} id="hero">
+        <div className={classes.container}>
+          <h1 className={classes.header}>
+            <FormattedMessage
+              id="request.hero.header"
+              defaultMessage="Your data {requestType} to {companyName}"
+              values={{
+                requestType: requestItem.requestType.S.toLowerCase(),
+                companyName: selectedCompany.name,
+              }}
+            />
+          </h1>
+          <p className={classes.information}>
+            <FormattedMessage
+              id="request.hero.requestDateStatement"
+              defaultMessage="The request was sent {daysSince} {day} ago."
+              values={{
+                daysSince: days.sinceRequest,
+                day: this.pluralizeDay(days.sinceRequest),
+              }}
+            />
+            {typeof days.sinceReminder === 'number' && (
               <>
-                partially handled your request
+                &nbsp;
+                <FormattedMessage
+                  id="request.hero.reminderDateStatement"
+                  defaultMessage="A reminder was sent {daysSince} {day} ago."
+                  values={{
+                    daysSince: days.sinceReminder,
+                    day: this.pluralizeDay(days.sinceReminder),
+                  }}
+                />
               </>
+            )}
+            {typeof days.sinceEscalation === 'number' && (
+              <>
+                &nbsp;
+                <FormattedMessage
+                  id="request.hero.escalationDateStatement"
+                  defaultMessage="An escalation was sent {daysSince} {day} ago."
+                  values={{
+                    daysSince: days.sinceEscalation,
+                    day: this.pluralizeDay(days.sinceEscalation),
+                  }}
+                />
+              </>
+            )}
+          </p>
+          <h2 className={classes.status}>
+            <strong><FormattedMessage id="request.hero.requestStatus" defaultMessage="Request Status:" /> </strong>
+            {selectedCompany.name}&nbsp;
+            {status === "SUCCESS" ? (
+              <FormattedMessage id="request.hero.handledRequest" defaultMessage="handled your request" />
             ) : (
-              status === "DECLINED" ? (
-                <>
-                  declined your request
-                </>
+              status === "PARTIAL" ? (
+                <FormattedMessage id="request.hero.partiallyHandled" defaultMessage="partially handled your request" />
               ) : (
-                <>
-                  did not reply
-                </>
+                status === "DECLINED" ? (
+                  <FormattedMessage id="request.hero.declinedRequest" defaultMessage="declined your request" />
+                ) : (
+                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply" />
+                )
               )
-            )
-          )}
-        </h2>
-        <ul className={classes.buttons}>
-          <li>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={status === "SUCCESS" ? classes.primaryButton : classes.button}
-              onClick={() => this.updateStatus('SUCCESS')}
-            >
-              Handled successfully
-            </Button>
-          </li>
-          <li>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={status === "PARTIAL" ? classes.primaryButton : classes.button}
-              onClick={() => this.updateStatus('PARTIAL')}
-            >
-              Handled partially
-            </Button>
-          </li>
-          <li>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={status === "DECLINED" ? classes.primaryButton : classes.button}
-              onClick={() => this.updateStatus('DECLINED')}
-            >
-              Declined
-            </Button>
-          </li>
-          <li>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={status === "NO_REPLY" ? classes.primaryButton : classes.button}
-              onClick={() => this.updateStatus('NO_REPLY')}
-            >
-              No reply
-            </Button>
-          </li>
-        </ul>
+            )}
+          </h2>
+          <ul className={classes.buttons}>
+            <li>
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "SUCCESS" ? classes.primaryButton : classes.button}
+                onClick={() => this.updateStatus('SUCCESS')}
+              >
+                <FormattedMessage id="request.hero.handledSuccessfully" defaultMessage="Handled successfully" />
+              </Button>
+            </li>
+            <li>
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "PARTIAL" ? classes.primaryButton : classes.button}
+                onClick={() => this.updateStatus('PARTIAL')}
+              >
+                <FormattedMessage id="request.hero.handledPartially" defaultMessage="Handled partially" />
+              </Button>
+            </li>
+            <li>
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "DECLINED" ? classes.primaryButton : classes.button}
+                onClick={() => this.updateStatus('DECLINED')}
+              >
+                <FormattedMessage id="request.hero.declined" defaultMessage="Declined" />
+              </Button>
+            </li>
+            <li>
+              <Button
+                variant="contained"
+                color="primary"
+                type="submit"
+                className={status === "NO_REPLY" ? classes.primaryButton : classes.button}
+                onClick={() => this.updateStatus('NO_REPLY')}
+              >
+                <FormattedMessage id="request.hero.noReply" defaultMessage="No reply" />
+              </Button>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  );
+    );
   }
 };
 export default withStyles(styles)(Hero);

@@ -60,7 +60,7 @@
     "message": "{sws} - for helping us implement an SEO strategy."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
+    "message": "We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "About Us"
@@ -410,6 +410,9 @@
   "footer.mission": {
     "message": "<a>Mission</a>"
   },
+  "footer.poweredBy": {
+    "message": "Powered by Vercel"
+  },
   "footer.privacyPolicy": {
     "message": "<a>Privacy Policy</a>"
   },
@@ -736,5 +739,125 @@
   },
   "usageData": {
     "message": "Usage Data"
+  },
+  "request.title": {
+    "message": "Details for your {regulationType} request"
+  },
+  "request.description": {
+    "message": "View details about a {regulationType} request submitted with this free service."
+  },
+  "request.details.header": {
+    "message": "Request details"
+  },
+  "request.details.name": {
+    "message": "Full name:"
+  },
+  "request.details.organization": {
+    "message": "Organization:"
+  },
+  "request.details.type": {
+    "message": "Request type:"
+  },
+  "request.details.regulation": {
+    "message": "Regulation:"
+  },
+  "request.details.date": {
+    "message": "Request date:"
+  },
+  "request.details.sentTo": {
+    "message": "Sent to email address:"
+  },
+  "request.details.reminderDate": {
+    "message": "Reminder email date:"
+  },
+  "request.details.escalationDate": {
+    "message": "Escalation email date:"
+  },
+  "request.details.hide": {
+    "message": "To hide the email you sent, please click here"
+  },
+  "request.details.show": {
+    "message": "To see the email you sent, please click here"
+  },
+  "request.hero.header": {
+    "message": "Your data {requestType} to {companyName}"
+  },
+  "request.hero.day": {
+    "message": "day"
+  },
+  "request.hero.days": {
+    "message": "days"
+  },
+  "request.hero.requestDateStatement": {
+    "message": "The request was sent {daysSince} {day} ago."
+  },
+  "request.hero.reminderDateStatement": {
+    "message": "A reminder was sent {daysSince} {day} ago."
+  },
+  "request.hero.escalationDateStatement": {
+    "message": "An escalation was sent {daysSince} {day} ago."
+  },
+  "request.hero.requestStatus": {
+    "message": "Request Status:"
+  },
+  "request.hero.handledRequest": {
+    "message": "handled your request"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "partially handled your request"
+  },
+  "request.hero.declinedRequest": {
+    "message": "declined your request"
+  },
+  "request.hero.didNotReply": {
+    "message": "did not reply"
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Handled successfully"
+  },
+  "request.hero.handledPartially": {
+    "message": "Handled partially"
+  },
+  "request.hero.declined": {
+    "message": "Declined"
+  },
+  "request.hero.noReply": {
+    "message": "No reply"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Your request timeline"
+  },
+  "request.timeline.requestSent": {
+    "message": "Request Sent"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Reminder Sent"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send a reminder"
+  },
+  "request.timeline.esclationSent": {
+    "message": "Escalation Sent"
+  },
+  "request.timeline.esclateTo": {
+    "message": "Escalate to { authority }"
+  },
+  "request.next.reminderButton": {
+    "message": "Send a reminder email"
+  },
+  "request.next.esclateButton": {
+    "message": "Escalate to the { authority }"
+  },
+  "request.next.xxxx": {
+    "message": "xxxx"
+  },
+  "request.next.xxxx": {
+    "message": "xxxx"
+  },
+  "request.next.xxxx": {
+    "message": "xxxx"
+  },
+  "request.next.xxxx": {
+    "message": "xxxx"
   }
 }

@@ -84,7 +84,10 @@ ${requestItem.emailBody.S}`;
               type="submit"
               className={classes.button}
             >
-              Send a reminder email
+              <FormattedMessage
+                id="request.next.reminderButton"
+                defaultMessage="Send a reminder email"
+              />
             </Button>
           </form>
         </li>
@@ -98,7 +101,13 @@ ${requestItem.emailBody.S}`;
               href={ regulation.link }
               target="_blank"
             >
-              Escalate to the { regulation.authority }
+              <FormattedMessage
+                id="request.next.esclateButton"
+                defaultMessage="Escalate to the { authority }"
+                values={{
+                  authority: regulation.authority,
+                }}
+              />
             </Button>
           )}
           {regulation.type !== 'CCPA' && (
@@ -108,7 +117,13 @@ ${requestItem.emailBody.S}`;
               type="submit"
               className={classes.button}
             >
-              Escalate to the { regulation.authority }
+              <FormattedMessage
+                id="request.next.esclateButton"
+                defaultMessage="Escalate to the { authority }"
+                values={{
+                  authority: regulation.authority,
+                }}
+              />
             </Button>
           )}
         </li>

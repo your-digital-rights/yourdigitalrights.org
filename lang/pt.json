@@ -60,7 +60,7 @@
     "message": "{sws} - for helping us implement an SEO strategy."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
+    "message": "We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "About Us"
@@ -409,6 +409,9 @@
   },
   "footer.mission": {
     "message": "<a>Mission</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Powered by Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privacy Policy</a>"

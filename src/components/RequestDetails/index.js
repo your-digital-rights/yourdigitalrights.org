@@ -29,44 +29,46 @@ class Details extends Component {
             regulation={regulation}
             selectedCompany={selectedCompany}
           />
-          <h2 className={classes.header}>Request details</h2>
+          <h2 className={classes.header}>
+            <FormattedMessage id="request.details.header" defaultMessage="Request details" />
+          </h2>
           <Paper
             component="div"
             className={classes.details}
             elevation={10}
           >
             <dl className={classes.detailsList}>
-              <dt>Full name:</dt>
+              <dt><FormattedMessage id="request.details.name" defaultMessage="Full name:" /></dt>
               <dd>{ requestItem.name.S }</dd>
-              <dt>Organization:</dt>
+              <dt><FormattedMessage id="request.details.organization" defaultMessage="Organization:" /></dt>
               <dd>{ requestItem.companyName.S }</dd>
-              <dt>Request type:</dt>
+              <dt><FormattedMessage id="request.details.type" defaultMessage="Request type:" /></dt>
               <dd>{ requestItem.requestType.S }</dd>
-              <dt>Regulation:</dt>
+              <dt><FormattedMessage id="request.details.regulation" defaultMessage="Regulation:" /></dt>
               <dd>{ requestItem.regulationType.S }</dd>
-              <dt>Request date:</dt>
+              <dt><FormattedMessage id="request.details.date" defaultMessage="Request date:" /></dt>
               <dd>{ dateFormatter(new Date(requestItem.requestCreatedAt.S)) }</dd>
-              <dt>Sent to email address:</dt>
+              <dt><FormattedMessage id="request.details.sentTo" defaultMessage="Sent to email address:" /></dt>
               <dd>{ requestItem.emailTo.S }</dd>
               {requestItem.reminderCreatedAt && (
                 <>
-                  <dt>Reminder email date:</dt>
+                  <dt><FormattedMessage id="request.details.reminderDate" defaultMessage="Reminder email date:" /></dt>
                   <dd>{ dateFormatter(new Date(requestItem.reminderCreatedAt.S)) }</dd>
                 </>
               )}
               {requestItem.escalationCreatedAt && (
                 <>
-                  <dt>Escalation email date:</dt>
+                  <dt><FormattedMessage id="request.details.escalationDate" defaultMessage="Escalation email date:" /></dt>
                   <dd>{ dateFormatter(new Date(requestItem.escalationCreatedAt.S)) }</dd>
                 </>
               )}
               <dt id="email">
                 <a className={classes.showEmail} onClick={() => this.setState({ showEmail: !this.state.showEmail })}>
                   {this.state.showEmail && (
-                    <>To hide the email you sent, please click here</>
+                    <FormattedMessage id="request.details.hide" defaultMessage="To hide the email you sent, please click here" />
                   )}
                   {!this.state.showEmail && (
-                    <>To see the email you sent, please click here</>
+                    <FormattedMessage id="request.details.show" defaultMessage="To see the email you sent, please click here" />
                   )}
                 </a>
               </dt>

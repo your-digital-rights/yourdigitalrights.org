@@ -1,3 +1,4 @@
+import { useIntl } from "react-intl";
 import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
@@ -56,8 +57,25 @@ const styles = (theme) => ({
 const Uuid = ({ data, classes, router }) => {
   const { uuid } = router.query;
   const regulationType = data.item.regulationType.S;
-  const Title = `Details for your ${regulationType} request`;
-  const Description = "View details about a ${regulationType} request submitted with this free service.";
+  const intl = useIntl();
+  const Title = intl.formatMessage(
+    {
+      id: "request.title",
+      defaultMessage: "Details for your {regulationType} request",
+    },
+    {
+      regulationType,
+    },
+  );
+  const Description = intl.formatMessage(
+    {
+      id: "request.description",
+      defaultMessage: "View details about a {regulationType} request submitted with this free service.",
+    },
+    {
+      regulationType,
+    },
+  );
   const BaseURL = "/request/" + uuid;
   const days = {
     sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,

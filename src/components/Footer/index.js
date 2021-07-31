@@ -73,6 +73,10 @@ const WishButtonText = (
   <FormattedMessage id="footer.wishList" defaultMessage="make a wish on our roadmap" />
 );
 
+const PoweredBy = (
+  <FormattedMessage id="footer.poweredBy" defaultMessage="Powered by Vercel" />
+);
+
 const DisclaimerText = (
   <FormattedMessage
     id="footer.disclaimer"
@@ -151,7 +155,7 @@ const Footer = ({ classes }) => {
           >
             <img 
               src="/images/powered-by-vercel.svg" 
-              alt="Powered by Vercel" 
+              alt={PoweredBy}
               className={classes.VercelLogo}
             />
           </a>
