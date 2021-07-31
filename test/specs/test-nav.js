@@ -139,7 +139,7 @@ describe("When I visit the About page in Mobile view", () => {
       const page = setupPageInMobileView("/about", true);
 
       page.navigationBar.triggerMobileMenuToggle;
-      page.navigationBar.linkSevenMob.click();
+      page.navigationBar.linkSixMob.click();
 
       page.searchIsFocused.should.be.true;
     });
