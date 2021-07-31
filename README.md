@@ -85,3 +85,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+<p align="center">
+  <a href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss">
+    <img src="./public/images/powered-by-vercel.svg" height="35px" alt="Powered by Vercel" />
+  </a>
+</p>
+
