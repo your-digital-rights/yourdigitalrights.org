@@ -88,7 +88,7 @@ describe("When I visit the Home page in Mobile view", () => {
       const page = setupPageInMobileView("/", true);
 
       page.navigationBar.triggerMobileMenuToggle;
-      page.navigationBar.linkSevenMob.click();
+      page.navigationBar.linkSixMob.click();
 
       page.searchIsFocused.should.be.true;
     });
@@ -99,12 +99,12 @@ describe("When I visit the Home page in Mobile view", () => {
           const page = setupPageInMobileView("/", true);
 
           page.navigationBar.triggerMobileMenuToggle;
-          page.navigationBar.linkSevenMob.click();
+          page.navigationBar.linkSixMob.click();
           browser.execute((element) => {
             element.click();
           }, page.ownYourData);
           page.navigationBar.triggerMobileMenuToggle;
-          page.navigationBar.linkSevenMob.click();
+          page.navigationBar.linkSixMob.click();
 
           page.searchIsFocused.should.be.true;
         });
