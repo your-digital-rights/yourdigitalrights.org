@@ -125,6 +125,7 @@ const Uuid = ({ data, classes, router }) => {
         requestItem={data.item}
         days={days}
         regulation={regulation}
+        intl={intl}
       />
       {data.organization && (
         <AboutOrg 

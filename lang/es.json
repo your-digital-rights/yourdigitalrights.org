@@ -724,5 +724,161 @@
   },
   "usageData": {
     "message": "Datos"
+  },
+  "request.title": {
+    "message": "Details for your {regulationType} request"
+  },
+  "request.description": {
+    "message": "View details about a {regulationType} request submitted with this free service."
+  },
+  "request.details.header": {
+    "message": "Request details"
+  },
+  "request.details.name": {
+    "message": "Full name:"
+  },
+  "request.details.organization": {
+    "message": "Organization:"
+  },
+  "request.details.type": {
+    "message": "Request type:"
+  },
+  "request.details.regulation": {
+    "message": "Regulation:"
+  },
+  "request.details.date": {
+    "message": "Request date:"
+  },
+  "request.details.sentTo": {
+    "message": "Sent to email address:"
+  },
+  "request.details.reminderDate": {
+    "message": "Reminder email date:"
+  },
+  "request.details.escalationDate": {
+    "message": "Escalation email date:"
+  },
+  "request.details.hide": {
+    "message": "To hide the email you sent, please click here"
+  },
+  "request.details.show": {
+    "message": "To see the email you sent, please click here"
+  },
+  "request.hero.header": {
+    "message": "Your data {requestType} to {companyName}"
+  },
+  "request.hero.day": {
+    "message": "day"
+  },
+  "request.hero.days": {
+    "message": "days"
+  },
+  "request.hero.requestDateStatement": {
+    "message": "The request was sent {daysSince} {day} ago."
+  },
+  "request.hero.reminderDateStatement": {
+    "message": "A reminder was sent {daysSince} {day} ago."
+  },
+  "request.hero.escalationDateStatement": {
+    "message": "An escalation was sent {daysSince} {day} ago."
+  },
+  "request.hero.requestStatus": {
+    "message": "Request Status:"
+  },
+  "request.hero.handledRequest": {
+    "message": "handled your request"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "partially handled your request"
+  },
+  "request.hero.declinedRequest": {
+    "message": "declined your request"
+  },
+  "request.hero.didNotReply": {
+    "message": "did not reply"
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Handled successfully"
+  },
+  "request.hero.handledPartially": {
+    "message": "Handled partially"
+  },
+  "request.hero.declined": {
+    "message": "Declined"
+  },
+  "request.hero.noReply": {
+    "message": "No reply"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Your request timeline"
+  },
+  "request.timeline.requestSent": {
+    "message": "Request Sent"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Reminder Sent"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send a reminder"
+  },
+  "request.timeline.esclationSent": {
+    "message": "Escalation Sent"
+  },
+  "request.timeline.esclateTo": {
+    "message": "Escalate to { authority }"
+  },
+  "request.next.reminderButton": {
+    "message": "Send a reminder email"
+  },
+  "request.next.esclateButton": {
+    "message": "Escalate to the { authority }"
+  },
+  "request.next.whatsNext": {
+    "message": "What's next"
+  },
+  "request.next.reminder": {
+    "message": "Reminder"
+  },
+  "request.next.aCopyOfTheRequest": {
+    "message": "A copy of the original request follows."
+  },
+  "request.next.requestingResponseToBelowRequest": {
+    "message": "I am requesting a response to my below request, which was sent {daysSince} {day} ago."
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "We recommend you wait until { timeLimit } days have passed."
+  },
+  "request.next.ratherNotWait": {
+    "message": "If you would rather not wait then you have the following options:"
+  },
+  "request.next.sendAnEmail": {
+    "message": "We recommend that you send them a reminder email."
+  },
+  "request.next.selectTheOptions": {
+    "message": "Please select from the following options:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.findOutMore": {
+    "message": "Find out more about these exceptions"
+  },
+  "request.next.wrongfullyDeclined": {
+    "message": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+  },
+  "request.next.escalateToAuthority": {
+    "message": "We recommend that you escalate your request to the { authority }."
+  },
+  "request.next.nothingAtAll": {
+    "message": "Nothing at all. { companyName } successfully responded to your request."
   }
 }

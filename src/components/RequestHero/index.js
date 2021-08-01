@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { FormattedMessage, FormattedPlural } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import aws from "aws-sdk";
 import fetch from "universal-fetch";
 import Typography from "@material-ui/core/Typography";
