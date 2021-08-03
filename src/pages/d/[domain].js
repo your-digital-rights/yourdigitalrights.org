@@ -67,7 +67,7 @@ export async function getStaticProps({ params }) {
   if (params.domain == 'add') {
     return {
       props: {
-        newOrg: true,   
+        newOrg: true,
       }
     }
   }  
