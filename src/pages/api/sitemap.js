@@ -17,6 +17,7 @@ async function fetchData() {
 export default async (req, res) => {
   res.setHeader('Content-Type', 'application/xml');
   res.setHeader('Content-Encoding', 'gzip');
+  res.setHeader('Cache-Control', 'max-age=0, s-maxage=3600');
   // if we have a cached entry send it
   if (sitemap) {
     res.send(sitemap)

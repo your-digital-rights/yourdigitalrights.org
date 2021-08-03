@@ -19,7 +19,7 @@ Ensure Dynamo DB is running locally (see below).
 ```
 export ACCESS_KEY_ID=accesskey
 export SECRET_ACCESS_KEY=fakesecret
-export REGION=us-east-1
+export REGION=eu-west-1
 export ENDPOINT=http://localhost:8000
 npm run dev
 ```
@@ -46,11 +46,11 @@ Running:
 This is a one-time step that needs to be run for any new database, including a localone. It ensures the tables are creted. Note real (test, staging or production) environments can be updated by changing the AWS credentials.
 
 ```
-export ACCESS_KEY_ID=fakeaccesskeyid
-export SECRET_ACCESS_KEY=fakesecretaccesskey
-export REGION=us-east-1
+export ACCESS_KEY_ID=accesskey
+export SECRET_ACCESS_KEY=fakesecret
+export REGION=eu-west-1
 export ENDPOINT=http://localhost:8000
-npm run setup-dynamo
+npm run setup-local-dynamo
 ```
 
 # Running tests

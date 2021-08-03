@@ -169,7 +169,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsTitle"
-              defaultMessage="We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
+              defaultMessage="We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>

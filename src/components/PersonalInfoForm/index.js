@@ -46,7 +46,6 @@ import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
 import getGeolocation from "../../utils/geolocation";
 
-
 const screenHeightBreakpoint = 560;
 
 class Form extends Component {

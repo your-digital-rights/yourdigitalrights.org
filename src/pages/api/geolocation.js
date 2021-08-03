@@ -1,4 +1,5 @@
 export default async (req, res) => {
+    res.setHeader('Cache-Control', 'max-age=0, s-maxage=5184000');
     if (req.headers['x-vercel-ip-country'] === undefined) {
         res.status(400).json({err: "Geolocation unavaialble."});
     } else {
