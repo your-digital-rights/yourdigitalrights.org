@@ -150,12 +150,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-        <NavItem
-          onClickHandler={toggleMobileNav}
-          href="/contribute"
-          text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
-          classes={classes}
-        />        
+
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
@@ -185,6 +180,14 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
             <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
           </Typography>
         </a>
+
+        <NavItem
+          onClickHandler={toggleMobileNav}
+          href="/contribute"
+          subsection={true}
+          text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
+          classes={classes}
+        />        
 
         <NavItem
           onClickHandler={toggleMobileNav}

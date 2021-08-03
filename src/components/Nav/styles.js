@@ -36,7 +36,7 @@ const Theme = (theme) => ({
         },
     },
     item: {
-        padding: "10px 0",
+        padding: "10px 0 0px",
         marginRight: "24px",
         outlineColor: "#e8f4f8",
     },
@@ -191,7 +191,7 @@ const Theme = (theme) => ({
         alignItems: "center",
     },
     langSelect :{
-        marginRight: "24px",
+        margin: "10px 24px 0px 0px",
     }
 });
 

@@ -1,6 +1,6 @@
 const Theme = (theme) => ({
   container: {
-    maxWidth: "777px",
+    maxWidth: "1000px",
     margin: "auto",
     padding: "30px",
     paddingBottom: 0,
@@ -20,7 +20,7 @@ const Theme = (theme) => ({
     marginBottom: "1.5em",
   },
   list: {
-    margin: "20px 0",
+    margin: "0px 24px",
   },
 });
 
