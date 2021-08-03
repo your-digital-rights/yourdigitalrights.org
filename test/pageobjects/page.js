@@ -117,10 +117,10 @@ class Page {
         return $("nav li:nth-child(6)").getText();
       },      
       get linkLangSelect() {
-        return $("nav > ul > div > div").getText();
+        return $("nav  li:nth-child(7) > div > div").getText();
       },      
       get linkButton() {
-        return $("nav > ul > a");
+        return $("nav  li:nth-child(8) a");
       },
       get linkButtonText() {
         return this.linkButton.getText();

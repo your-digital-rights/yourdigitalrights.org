@@ -30,6 +30,7 @@ const Theme = (theme) => ({
     container: {
         listStyle: "none",
         display: "flex",
+        alignItems: "center",
         [theme.breakpoints.down("sm")]: {
             display: "none",
         },
@@ -50,6 +51,7 @@ const Theme = (theme) => ({
         color: "#f6f7fa",
         fontWeight: "600",
         fontSize: "14px",
+        textAlign: "center",
         textDecoration: "none",
         outlineColor: "#e8f4f8",
         textTransform: "uppercase",
