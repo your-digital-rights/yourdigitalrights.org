@@ -176,7 +176,7 @@ const Brokers = ({ classes, router }) => {
           </Button>
         </Paper>
       </div>
-      <Social />
+      <Social offset={true} sourcePage="data-brokers" />
       <Donations />
       <Footer />
     </div>

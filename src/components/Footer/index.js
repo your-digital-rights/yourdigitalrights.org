@@ -32,11 +32,14 @@ const styles = (theme) => ({
   },
   innerRight: {
     // borderTop: "2px solid #005ea5",
-    width: "80%",
+    width: "75%",
     float: "right",
     marginBottom: 60,
+    fontSize: '14px',
+    fontWeight: "400",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
+      fontSize: '10px',
     },
   },
   Copyright: {
@@ -65,7 +68,7 @@ const styles = (theme) => ({
   },
   VercelLogo: {
     height: "2.4em",
-    marginTop: "5px",
+    marginTop: "15px",
   }  
 });
 
@@ -123,7 +126,7 @@ const Footer = ({ classes }) => {
       </div>
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body3">
             <FormattedMessage
               id="footer.madeBy"
               defaultMessage="<a>Made by Conscious Digital</a>"
@@ -132,7 +135,7 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography>          
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body3">
             <FormattedMessage
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
@@ -141,7 +144,7 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography>
-          <Typography component="p" variant="body2">
+          <Typography component="p" variant="body3">
             <FormattedMessage
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
@@ -161,10 +164,10 @@ const Footer = ({ classes }) => {
           </a>
         </div>
         <div className={classes.innerRight}>
-          <Typography gutterBottom={true} color="textSecondary" variant="body2">
+          <Typography gutterBottom={true} color="textSecondary" variant="body3">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="body2">
+          <Typography color="textSecondary" variant="body3">
             {QueryText}
           </Typography>
         </div>

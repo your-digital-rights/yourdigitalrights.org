@@ -30,12 +30,13 @@ const Theme = (theme) => ({
     container: {
         listStyle: "none",
         display: "flex",
+        alignItems: "center",
         [theme.breakpoints.down("sm")]: {
             display: "none",
         },
     },
     item: {
-        padding: "10px 0",
+        padding: "10px 0 0px",
         marginRight: "24px",
         outlineColor: "#e8f4f8",
     },
@@ -50,6 +51,7 @@ const Theme = (theme) => ({
         color: "#f6f7fa",
         fontWeight: "600",
         fontSize: "14px",
+        textAlign: "center",
         textDecoration: "none",
         outlineColor: "#e8f4f8",
         textTransform: "uppercase",
@@ -189,7 +191,7 @@ const Theme = (theme) => ({
         alignItems: "center",
     },
     langSelect :{
-        marginRight: "24px",
+        margin: "10px 24px 0px 0px",
     }
 });
 

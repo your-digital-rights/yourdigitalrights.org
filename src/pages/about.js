@@ -222,7 +222,7 @@ const About = ({ classes, router }) => {
           </Typography>           
         </Paper>
       </div>
-      <Social />
+      <Social offset={true} sourcePage="about" />
       <Donations />
       <Footer />
     </div>

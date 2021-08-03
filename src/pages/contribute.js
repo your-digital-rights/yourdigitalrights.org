@@ -176,7 +176,7 @@ const Contribute = ({ classes, router }) => {
           </Typography> 
         </Paper>
       </div>
-      <Social />
+      <Social offset={true} sourcePage="contribute" />
       <Donations />
       <Footer />
     </div>
