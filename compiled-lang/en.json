@@ -200,7 +200,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We’d like to thank the following organizations for supporting our open source effort buy providing a free or discounted version of their services:"
+      "value": "We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.title": [
@@ -1587,6 +1587,18 @@
     {
       "type": 0,
       "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+    }
+  ],
+  "personalInfoForm.companyDomainHelper": [
+    {
+      "type": 0,
+      "value": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+    }
+  ],
+  "personalInfoForm.companyDomainLabel": [
+    {
+      "type": 0,
+      "value": "Organization Domain"
     }
   ],
   "personalInfoForm.companyEmailLabel": [

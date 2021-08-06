@@ -187,6 +187,7 @@ describe("When I visit the home page", () => {
 
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
         page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123.com");
         page.personalInfoForm.fillIn("Full name", "Rob");
         page.personalInfoForm.select("Regulation", "CCPA (California)");

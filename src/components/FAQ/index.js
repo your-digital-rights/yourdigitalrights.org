@@ -27,7 +27,7 @@ class FAQ extends Component {
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography color="textSecondary" component="p">
+              <Typography color="textSecondary" component="p" className={classes.list}>
                 {text.item || text}
               </Typography>
               {text.subItems && (

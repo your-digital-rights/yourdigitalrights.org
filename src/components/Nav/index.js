@@ -87,29 +87,33 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         classes={classes} 
       />
 
-      <Select
-        value={router.locale}
-        onChange={event => handleLangChange(event, router)}
-        MenuProps={{style: {zIndex: "100000"}}}
-        className={classNames(classes.langSelect, classes.link)}
-      >
-        {ALT_LANGUAGES.map((locale) => (
-          <MenuItem key={locale} value={locale}>
-              {locale.toUpperCase()}
-          </MenuItem>
-        ))}
-      </Select>
+      <li>
+        <Select
+          value={router.locale}
+          onChange={event => handleLangChange(event, router)}
+          MenuProps={{style: {zIndex: "100000"}}}
+          className={classNames(classes.langSelect, classes.link)}
+        >
+          {ALT_LANGUAGES.map((locale) => (
+            <MenuItem key={locale} value={locale}>
+                {locale.toUpperCase()}
+            </MenuItem>
+          ))}
+        </Select>
+      </li>
 
-      <a
-        href={`/#${searchOrganizationsUrlAnchor}`}
-        className={classes.OptOutRedButtonDesktop}
-        tabIndex={0}
-        onClick={() => trackSearchButtonLinkClick("desktop")}
-      >
-        <Typography component="span" className={classes.linkButton}>
-          <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
-        </Typography>
-      </a>
+      <li>
+        <a
+          href={`/#${searchOrganizationsUrlAnchor}`}
+          className={classes.OptOutRedButtonDesktop}
+          tabIndex={0}
+          onClick={() => trackSearchButtonLinkClick("desktop")}
+        >
+          <Typography component="span" className={classes.linkButton}>
+            <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
+          </Typography>
+        </a>
+      </li>
 
     </ul>
   );
@@ -146,12 +150,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-        <NavItem
-          onClickHandler={toggleMobileNav}
-          href="/contribute"
-          text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
-          classes={classes}
-        />        
+
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
@@ -181,6 +180,14 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
             <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
           </Typography>
         </a>
+
+        <NavItem
+          onClickHandler={toggleMobileNav}
+          href="/contribute"
+          subsection={true}
+          text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
+          classes={classes}
+        />        
 
         <NavItem
           onClickHandler={toggleMobileNav}
