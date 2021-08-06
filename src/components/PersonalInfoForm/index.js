@@ -3,6 +3,8 @@ import {
   CompanyEmailLabelText,
   CompanyNameHelperText,
   CompanyNameLabelText,
+  CompanyDomainLabelText,
+  CompanyDomainHelperText,
   IdentifyingInfoHelperText,
   IdentifyingInfoLabelText,
   NameHelperText,
@@ -51,6 +53,7 @@ class Form extends Component {
       email: "",
       identifyingInfo: "",
       companyName: "",
+      companyDomain: "",
       companyEmail: "",
       hasSubmit: false,
       regulationType: "GDPR",
@@ -162,18 +165,23 @@ class Form extends Component {
   }
 
   async addNewCompany() {
-    const response = await fetch(
-      "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
-      {
-        method: "POST",
-        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
-        headers: {
-          Accept: "application/xml, text/xml, */*; q=0.01",
-          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        },
-      }
-    );
-    tracking.trackAddNewOrg(this.state.companyName);  
+    try {
+      const response = await fetch(
+        "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
+        {
+          method: "POST",
+          body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}&entry.215439629=${this.state.companyDomain}`,
+          headers: {
+            Accept: "application/xml, text/xml, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          },
+        }
+      );
+    }
+    catch (e) {
+      console.error(e)
+    }
+    tracking.trackAddNewOrg(this.state.companyDomain, this.state.companyName);  
   }
 
   render() {
@@ -259,6 +267,16 @@ class Form extends Component {
                 helperText={CompanyNameHelperText}
                 autoFocus={screenHeight > screenHeightBreakpoint}
               />
+              <TextField
+                variant="outlined"
+                id="companyDomain"
+                label={CompanyDomainLabelText}
+                value={this.state.companyDomain}
+                onChange={this.handleInput("companyDomain")}
+                margin="normal"
+                required
+                helperText={CompanyDomainHelperText}
+              />              
               <TextField
                 variant="outlined"
                 id="companyEmail"

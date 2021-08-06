@@ -21,6 +21,17 @@ export const CompanyNameHelperText = (
   />
 );
 
+export const CompanyDomainLabelText = (
+  <FormattedMessage id="personalInfoForm.companyDomainLabel" defaultMessage="Organization Domain" />
+);
+
+export const CompanyDomainHelperText = (
+  <FormattedMessage
+    id="personalInfoForm.companyDomainHelper"
+    defaultMessage="Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+  />
+);
+
 export const CompanyEmailLabelText = (
   <FormattedMessage
     id="personalInfoForm.companyEmailLabel"
