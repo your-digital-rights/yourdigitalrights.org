@@ -22,7 +22,7 @@ export const CompanyNameHelperText = (
 );
 
 export const CompanyDomainLabelText = (
-  <FormattedMessage id="personalInfoForm.companyDomainLabel" defaultMessage="Organization Domain" />
+  <FormattedMessage id="personalInfoForm.companyDomainLabel" defaultMessage="Organization domain" />
 );
 
 export const CompanyDomainHelperText = (
