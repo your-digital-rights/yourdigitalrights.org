@@ -1589,6 +1589,18 @@
       "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
     }
   ],
+  "personalInfoForm.companyDomainHelper": [
+    {
+      "type": 0,
+      "value": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+    }
+  ],
+  "personalInfoForm.companyDomainLabel": [
+    {
+      "type": 0,
+      "value": "Organization Domain"
+    }
+  ],
   "personalInfoForm.companyEmailLabel": [
     {
       "type": 0,
