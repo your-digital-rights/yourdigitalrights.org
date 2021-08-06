@@ -539,6 +539,12 @@
   "personalInfoForm.ccpaOrGdprHelper": {
     "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
   },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organization Domain"
+  },
   "personalInfoForm.companyEmailLabel": {
     "message": "Organization email address"
   },
