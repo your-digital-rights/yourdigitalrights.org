@@ -123,10 +123,10 @@
     "message": "Estos son algunos de los principales brokers de datos, pero hay muchos más. Haga clic en el botón de abajo para acceder a toda la base de datos."
   },
   "data-brokers.brokersIntro": {
-    "message": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
+    "message": "Los corredores de datos son empresas que recopilan y venden sus datos personales, normalmente sin su conocimiento o consentimiento. Estos son los principales corredores de datos, haga clic en cada empresa para solicitar el borrado de sus datos enviando una solicitud {faq} "
   },
   "data-brokers.description": {
-    "message": "Get the top data brokers to erase your personal data"
+    "message": "Consiga que los principales corredores de datos borren sus datos personales"
   },
   "data-brokers.searchButton": {
     "message": "Busca otras empresas"
@@ -141,7 +141,7 @@
     "message": "Dona via Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
+    "message": "YourDigitalRights.org se creó con la creencia de que la privacidad es importante y que ejercer su derecho a la privacidad debería ser fácil. Por eso lo hemos deessarrollado esta aplicación gratis. Sus donaciones nos permiten dedicar más tiempo a mejorar este servicio."
   },
   "donations.headingDonate": {
     "message": "Necesitamos tu apoyo"
@@ -150,19 +150,19 @@
     "message": "Bajo GDPR:"
   },
   "faq.body10Ai": {
-    "message": "If you are unhappy with how the organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. If you decide to do this, we strongly advise you to seek independent legal advice first. You can download a list of DPAs <a>here</a> (PDF)."
+    "message": "Si no está satisfecho con la forma en que la organización ha manejado su solicitud, primero debe presentar una queja. Una vez hecho esto, si continua sin estar satisfecho, puede presentar una queja ante las Autoridades de Protección de Datos (DPA) locales. También puede llevar el caso a los tribunales. Si decide hacer esto, le recomendamos encarecidamente que primero busque asesoramiento legal independiente. Puede descargar una lista de Autoridades de Protección de Datos <a>aquí</a> (PDF)."
   },
   "faq.body10B": {
     "message": "Bajo CCPA:"
   },
   "faq.body10Bii": {
-    "message": "If you are unhappy with how an organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you have two options. <a>Complain to the Attorney General</a> or take private action."
+    "message": "Si no está satisfecho con la forma en que una organización ha manejado su solicitud, primero debe presentar una queja. Una vez hecho esto, si sigue insatisfecho, tiene dos opciones. <a>Quejarse ante el Fiscal General</a> o comenzar una acción."
   },
   "faq.body11A": {
     "message": "Bajo GDPR:"
   },
   "faq.body11Ai": {
-    "message": "Organizations can be fined up to 4% of annual global turnover for breaching GDPR or 20 Million Euro."
+    "message": "Las organizaciones pueden recibir una multa de hasta el 4% de la facturación global anual o 20 millones de euros por infringir el la Ley de protección de datos (GDPR)."
   },
   "faq.body11Aii": {
     "message": "<a>Más información</a>"
@@ -186,7 +186,7 @@
     "message": "Bajo CCPA:"
   },
   "faq.body12Bi": {
-    "message": "The CCPA does not define who specifically within an organization is responsible for this."
+    "message": "CCPA no define quién específicamente dentro de una organización es responsable de esto."
   },
   "faq.body13A": {
     "message": "To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on <a1>Mac</a1> and <a2>Windows</a2>."
