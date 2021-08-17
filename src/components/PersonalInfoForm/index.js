@@ -28,7 +28,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import { mailgoDirectRender } from "mailgo";
+import { mailgoDirectRender, mailgoValidateEmail } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -55,6 +55,7 @@ class Form extends Component {
       companyName: "",
       companyDomain: "",
       companyEmail: "",
+      companyEmailError: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
@@ -107,6 +108,14 @@ class Form extends Component {
     if (!this.handlers[name]) {
       this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
+
+        if (name === "companyEmail") {
+          const companyEmailError = mailgoValidateEmail(event.target.value)
+            ? ""
+            : "Enter a valid email";
+          this.setState({ companyEmailError: companyEmailError });
+        }
+
         return true;
       };
     }
@@ -116,10 +125,15 @@ class Form extends Component {
   handleFormSubmit = (e) => {
     e.preventDefault();
 
+    if (this.state.companyEmailError) {
+      return;
+    }
+
+    const mailTo = this.renderMailTo();
     if (isMobile) {
-      window.open(this.renderMailTo());
+      window.open(mailTo);
     } else {
-      mailgoDirectRender(this.renderMailTo());
+      mailgoDirectRender(mailTo);
     }
 
     this.setState({ hasSubmit: true });
@@ -221,7 +235,7 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
-        >          
+        >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
               {Headline}
@@ -278,6 +292,7 @@ class Form extends Component {
                 helperText={CompanyDomainHelperText}
               />              
               <TextField
+                error={!!this.state.companyEmailError}
                 variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
