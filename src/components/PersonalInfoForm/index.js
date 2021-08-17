@@ -109,19 +109,23 @@ class Form extends Component {
       this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
 
-        if (name === "companyEmail") {
-          const companyEmailError = mailgoValidateEmail(event.target.value)
-            ? ""
-            : "Please enter a valid email.";
-
-          this.companyEmail.current.setCustomValidity(companyEmailError);
-        }
+        this.validateInput(name, event.target.value);
 
         return true;
       };
     }
     return this.handlers[name];
   };
+
+  validateInput(inputName, inputValue) {
+    if (inputName === "companyEmail") {
+      const companyEmailError = mailgoValidateEmail(inputValue)
+        ? ""
+        : "Please enter a valid email.";
+
+      this.companyEmail.current.setCustomValidity(companyEmailError);
+    }
+  }
 
   handleFormSubmit = (e) => {
     e.preventDefault();
