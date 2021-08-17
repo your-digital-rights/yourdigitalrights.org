@@ -55,7 +55,6 @@ class Form extends Component {
       companyName: "",
       companyDomain: "",
       companyEmail: "",
-      companyEmailError: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
@@ -64,6 +63,7 @@ class Form extends Component {
 
     this.handlers = {};
     this.container = React.createRef();
+    this.companyEmail = React.createRef();
   }
 
   async componentDidMount() {
@@ -112,8 +112,9 @@ class Form extends Component {
         if (name === "companyEmail") {
           const companyEmailError = mailgoValidateEmail(event.target.value)
             ? ""
-            : "Enter a valid email";
-          this.setState({ companyEmailError: companyEmailError });
+            : "Please enter a valid email.";
+
+          this.companyEmail.current.setCustomValidity(companyEmailError);
         }
 
         return true;
@@ -124,10 +125,6 @@ class Form extends Component {
 
   handleFormSubmit = (e) => {
     e.preventDefault();
-
-    if (this.state.companyEmailError) {
-      return;
-    }
 
     const mailTo = this.renderMailTo();
     if (isMobile) {
@@ -292,7 +289,7 @@ class Form extends Component {
                 helperText={CompanyDomainHelperText}
               />              
               <TextField
-                error={!!this.state.companyEmailError}
+                inputRef={this.companyEmail}
                 variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
@@ -300,7 +297,6 @@ class Form extends Component {
                 onChange={this.handleInput("companyEmail")}
                 margin="normal"
                 required
-                type="email"
                 helperText={CompanyEmailHelperText}
               />
             </Fragment>
