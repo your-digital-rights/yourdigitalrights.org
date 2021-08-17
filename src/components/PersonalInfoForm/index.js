@@ -28,7 +28,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import { mailgoDirectRender } from "mailgo";
+import { mailgoDirectRender, mailgoValidateEmail } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -63,6 +63,7 @@ class Form extends Component {
 
     this.handlers = {};
     this.container = React.createRef();
+    this.companyEmail = React.createRef();
   }
 
   async componentDidMount() {
@@ -107,19 +108,33 @@ class Form extends Component {
     if (!this.handlers[name]) {
       this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
+
+        this.validateInput(name, event.target.value);
+
         return true;
       };
     }
     return this.handlers[name];
   };
 
+  validateInput(inputName, inputValue) {
+    if (inputName === "companyEmail") {
+      const companyEmailError = mailgoValidateEmail(inputValue)
+        ? ""
+        : "Please enter a valid email.";
+
+      this.companyEmail.current.setCustomValidity(companyEmailError);
+    }
+  }
+
   handleFormSubmit = (e) => {
     e.preventDefault();
 
+    const mailTo = this.renderMailTo();
     if (isMobile) {
-      window.open(this.renderMailTo());
+      window.open(mailTo);
     } else {
-      mailgoDirectRender(this.renderMailTo());
+      mailgoDirectRender(mailTo);
     }
 
     this.setState({ hasSubmit: true });
@@ -221,7 +236,7 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
-        >          
+        >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
               {Headline}
@@ -278,6 +293,7 @@ class Form extends Component {
                 helperText={CompanyDomainHelperText}
               />              
               <TextField
+                inputRef={this.companyEmail}
                 variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
@@ -285,7 +301,6 @@ class Form extends Component {
                 onChange={this.handleInput("companyEmail")}
                 margin="normal"
                 required
-                type="email"
                 helperText={CompanyEmailHelperText}
               />
             </Fragment>
