@@ -187,6 +187,7 @@ describe("When I visit the home page", () => {
 
       beforeEach(() => {
         page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
         page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123.com");
         page.personalInfoForm.fillIn("Full name", "Rob");
         page.personalInfoForm.select("Regulation", "CCPA (California)");
@@ -213,6 +214,35 @@ describe("When I visit the home page", () => {
           /I am writing to request that you delete all my personal information/,
           "Email body should contain expected content"
         );
+      });
+    });
+
+    describe("and fill in the form with an invalid organization email and submit", () => {
+      beforeEach(() => {
+        page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
+        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
+        page.personalInfoForm.fillIn("Full name", "Rob");
+        page.personalInfoForm.select("Regulation", "CCPA (California)");
+        page.personalInfoForm.fillIn(
+          "Additional identifying information",
+          "10 Downing Street"
+        );
+        page.personalInfoForm.submit();
+      });
+
+      it("focuses the organization email field", () => {
+        page.personalInfoForm
+          .selectElementByLabel("Organization email")
+          .isFocused().should.be.true;
+      });
+
+      it("does not display the mail dialog", () => {
+        page.mailDialog.isVisible.should.be.false;
+      });
+
+      it("does not show the thank you message", () => {
+        page.thanksMessage.isVisible.should.be.false;
       });
     });
   });

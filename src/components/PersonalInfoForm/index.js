@@ -3,6 +3,8 @@ import {
   CompanyEmailLabelText,
   CompanyNameHelperText,
   CompanyNameLabelText,
+  CompanyDomainLabelText,
+  CompanyDomainHelperText,
   IdentifyingInfoHelperText,
   IdentifyingInfoLabelText,
   NameHelperText,
@@ -26,7 +28,7 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import { mailgoDirectRender } from "mailgo";
+import { mailgoDirectRender, mailgoValidateEmail } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -51,6 +53,7 @@ class Form extends Component {
       email: "",
       identifyingInfo: "",
       companyName: "",
+      companyDomain: "",
       companyEmail: "",
       hasSubmit: false,
       regulationType: "GDPR",
@@ -60,6 +63,7 @@ class Form extends Component {
 
     this.handlers = {};
     this.container = React.createRef();
+    this.companyEmail = React.createRef();
   }
 
   async componentDidMount() {
@@ -104,19 +108,33 @@ class Form extends Component {
     if (!this.handlers[name]) {
       this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
+
+        this.validateInput(name, event.target.value);
+
         return true;
       };
     }
     return this.handlers[name];
   };
 
+  validateInput(inputName, inputValue) {
+    if (inputName === "companyEmail") {
+      const companyEmailError = mailgoValidateEmail(inputValue)
+        ? ""
+        : "Please enter a valid email.";
+
+      this.companyEmail.current.setCustomValidity(companyEmailError);
+    }
+  }
+
   handleFormSubmit = (e) => {
     e.preventDefault();
 
+    const mailTo = this.renderMailTo();
     if (isMobile) {
-      window.open(this.renderMailTo());
+      window.open(mailTo);
     } else {
-      mailgoDirectRender(this.renderMailTo());
+      mailgoDirectRender(mailTo);
     }
 
     this.setState({ hasSubmit: true });
@@ -162,18 +180,23 @@ class Form extends Component {
   }
 
   async addNewCompany() {
-    const response = await fetch(
-      "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
-      {
-        method: "POST",
-        body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}`,
-        headers: {
-          Accept: "application/xml, text/xml, */*; q=0.01",
-          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
-        },
-      }
-    );
-    tracking.trackAddNewOrg(this.state.companyName);  
+    try {
+      const response = await fetch(
+        "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
+        {
+          method: "POST",
+          body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}&entry.215439629=${this.state.companyDomain}`,
+          headers: {
+            Accept: "application/xml, text/xml, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+          },
+        }
+      );
+    }
+    catch (e) {
+      console.error(e)
+    }
+    tracking.trackAddNewOrg(this.state.companyDomain, this.state.companyName);  
   }
 
   render() {
@@ -213,7 +236,7 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
-        >          
+        >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
               {Headline}
@@ -261,13 +284,23 @@ class Form extends Component {
               />
               <TextField
                 variant="outlined"
+                id="companyDomain"
+                label={CompanyDomainLabelText}
+                value={this.state.companyDomain}
+                onChange={this.handleInput("companyDomain")}
+                margin="normal"
+                required
+                helperText={CompanyDomainHelperText}
+              />              
+              <TextField
+                inputRef={this.companyEmail}
+                variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
                 value={this.state.companyEmail}
                 onChange={this.handleInput("companyEmail")}
                 margin="normal"
                 required
-                type="email"
                 helperText={CompanyEmailHelperText}
               />
             </Fragment>
