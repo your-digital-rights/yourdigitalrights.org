@@ -227,7 +227,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
 
         <NavItem
           onClickHandler={toggleMobileNav}
-          href="mailto:info@opt-out.eu"
+          href="mailto:info@yourdigitalrights.org"
           subsection={true}
           text={<FormattedMessage id="nav.contact" defaultMessage="Contact Us" />}
           classes={classes}

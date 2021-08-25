@@ -79,7 +79,7 @@ const Contribute = ({ classes, router }) => {
                     ),
                 a2: chunks =>  (
                     <a 
-                        href="mailto:info@opt-out.eu?subject=I'd like to report a problem"
+                        href="mailto:info@yourdigitalrights.org?subject=I'd like to report a problem"
                         target="_blank"
                     >
                         {chunks}
@@ -135,7 +135,7 @@ const Contribute = ({ classes, router }) => {
                     ),
                 email: chunks =>  (
                     <a 
-                      href="mailto:info@opt-out.eu?subject=I'd like to help with the developmemt"
+                      href="mailto:info@yourdigitalrights.org?subject=I'd like to help with the developmemt"
                       target="_blank"
                     >
                         {chunks}
@@ -155,7 +155,7 @@ const Contribute = ({ classes, router }) => {
               values={{
                 email: chunks =>  (
                     <a 
-                        href="mailto:info@opt-out.eu?subject=I'd like to help with research"
+                        href="mailto:info@yourdigitalrights.org?subject=I'd like to help with research"
                         target="_blank"
                     >
                         {chunks}

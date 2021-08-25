@@ -83,7 +83,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody3"
-              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to organizations. We do not collect or trade any personal data. This service is <a>Open Source</a>."
               values={{
                 a: chunks =>  (
                   <a 
@@ -103,7 +103,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.consciousDigital1"
-              defaultMessage="YourDigitalRights.org is a production of {cd}, a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
+              defaultMessage="YourDigitalRights.org is a production of {cd}, a registered charity creating people centred digital initiatives which promote and advance Digital Human Rights."
               values= {{
                 cd: <a target="_blank" href="https://consciousdigital.org/">Conscious Digital</a>
               }}
@@ -125,6 +125,19 @@ const About = ({ classes, router }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
+              id="about.contributorsBody4"
+              defaultMessage="{linkedin} - Frontend web developer."
+              values={{
+                linkedin: (
+                  <a target="_blank" href="https://www.linkedin.com/in/hanssprecher/">
+                    Hans Sprecher
+                  </a>
+                ),
+              }}
+            />
+          </Typography>          
+          <Typography gutterBottom={true}>
+            <FormattedMessage
               id="about.contributorsBody1"
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
@@ -138,7 +151,20 @@ const About = ({ classes, router }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="about.createdByBody3"
+              id="about.contributorsBody5"
+              defaultMessage="{linkedin} - Infrastructure Engineer."
+              values={{
+                linkedin: (
+                  <a target="_blank" href="https://www.linkedin.com/in/richerve/">
+                    Ricardo Hernandez
+                  </a>
+                ),
+              }}
+            />
+          </Typography>            
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.createdByBody2"
               defaultMessage="{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
               values={{
                 linkedin: (
@@ -151,7 +177,7 @@ const About = ({ classes, router }) => {
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="about.contributorsBody2"
+              id="about.contributorsBody3"
               defaultMessage="{linkedin} - Frontend web developer."
               values={{
                 linkedin: (
@@ -161,7 +187,7 @@ const About = ({ classes, router }) => {
                 ),
               }}
             />
-          </Typography>
+          </Typography>                  
           <br />
           <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="about.sponsors" defaultMessage="Sponsors" />
