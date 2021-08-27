@@ -24,8 +24,8 @@ class Page {
     return $("#orgName");
   }
 
-  get headingText() {
-    return $("h1").getText();
+  get heading() {
+    return $("h1");
   }
 
   get dataOpenUrlAttribute() {
@@ -115,10 +115,10 @@ class Page {
       },
       get linkSixText() {
         return $("nav li:nth-child(6)").getText();
-      },      
+      },
       get linkLangSelect() {
         return $("nav  li:nth-child(7) > div > div").getText();
-      },      
+      },
       get linkButton() {
         return $("nav  li:nth-child(8) a");
       },
