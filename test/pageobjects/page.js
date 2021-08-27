@@ -32,10 +32,21 @@ class Page {
     return $("<body>").getAttribute("data-open-url");
   }
 
-  get searchIsFocused() {
-    const element = $("#companyNameSearch");
-    return element.waitUntil(() => {
-      return element.isFocused();
+  get search() {
+    return $("#companyNameSearch");
+  }
+
+  async searchIsFocused() {
+    const element = await this.search;
+    return await element.waitUntil(async () => {
+      return await element.isFocused();
+    });
+  }
+
+  async searchIsNotFocused() {
+    const element = await this.search;
+    return await element.waitUntil(async () => {
+      return !(await element.isFocused());
     });
   }
 
@@ -92,94 +103,96 @@ class Page {
 
   get navigationBar() {
     return {
-      get nav() {
-        return $("#nav");
+      async nav() {
+        return await $("#nav");
       },
-      get linkOne() {
-        return $("nav li:nth-child(1)");
+      async linkOne() {
+        return await $("nav li:nth-child(1)");
       },
-      get linkOneText() {
-        return this.linkOne.getText();
+      async linkOneText() {
+        return await (await this.linkOne()).getText();
       },
-      get linkTwoText() {
-        return $("nav li:nth-child(2)").getText();
+      async linkTwoText() {
+        return await (await $("nav li:nth-child(2)")).getText();
       },
-      get linkThreeText() {
-        return $("nav li:nth-child(3)").getText();
+      async linkThreeText() {
+        return await (await $("nav li:nth-child(3)")).getText();
       },
-      get linkFourText() {
-        return $("nav li:nth-child(4)").getText();
+      async linkFourText() {
+        return await (await $("nav li:nth-child(4)")).getText();
       },
-      get linkFiveText() {
-        return $("nav li:nth-child(5)").getText();
+      async linkFiveText() {
+        return await (await $("nav li:nth-child(5)")).getText();
       },
-      get linkSixText() {
-        return $("nav li:nth-child(6)").getText();
+      async linkSixText() {
+        return await (await $("nav li:nth-child(6)")).getText();
       },
-      get linkLangSelect() {
-        return $("nav  li:nth-child(7) > div > div").getText();
+      async linkLangSelect() {
+        return await (await $("nav  li:nth-child(7) > div > div")).getText();
       },
-      get linkButton() {
-        return $("nav  li:nth-child(8) a");
+      async linkButton() {
+        return await $("nav  li:nth-child(8) a");
       },
-      get linkButtonText() {
-        return this.linkButton.getText();
+      async linkButtonText() {
+        return await (await this.linkButton()).getText();
       },
-      get triggerMobileMenuToggle() {
-        $("nav ul + img").click();
-        $(".mob-navbar ul li").waitForClickable();
+      async triggerMobileMenuToggle() {
+        await (await $("nav ul + img")).click();
+        await (await $(".mob-navbar ul li")).waitForClickable();
       },
-      get linkOneMob() {
-        return $(".mob-navbar ul li:nth-child(1)");
+      async linkOneMob() {
+        return await $(".mob-navbar ul li:nth-child(1)");
       },
-      get linkOneMobText() {
-        return this.linkOneMob.getText();
+      async linkOneMobText() {
+        return await (await this.linkOneMob()).getText();
       },
-      get linkTwoMobText() {
-        return $(".mob-navbar ul li:nth-child(2)").getText();
+      async linkTwoMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(2)")).getText();
       },
-      get linkThreeMobText() {
-        return $(".mob-navbar ul li:nth-child(3)").getText();
+      async linkThreeMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(3)")).getText();
       },
-      get linkFourMobText() {
-        return $(".mob-navbar ul li:nth-child(4)").getText();
+      async linkFourMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(4)")).getText();
       },
-      get linkFiveMobText() {
-        return $(".mob-navbar div > div").getText();
+      async linkFiveMobText() {
+        return await (await $(".mob-navbar div > div")).getText();
       },
-      get linkSixMob() {
-        return $(".mob-navbar ul > a");
+      async linkSixMob() {
+        return await $(".mob-navbar ul > a");
       },
-      get linkSixMobText() {
-        return this.linkSixMob.getText();
+      async linkSixMobText() {
+        return await (await this.linkSixMob()).getText();
       },
-      get linkSevenMobText() {
-        return $(".mob-navbar ul li:nth-child(7)").getText();
+      async linkSevenMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(7)")).getText();
       },
-      get linkEightMobText() {
-        return $(".mob-navbar ul li:nth-child(8)").getText();
+      async linkEightMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(8)")).getText();
       },
-      get linkNineMobText() {
-        return $(".mob-navbar ul li:nth-child(9)").getText();
+      async linkNineMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(9)")).getText();
       },
-      get linkTenMobText() {
-        return $(".mob-navbar ul li:nth-child(10)").getText();
+      async linkTenMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(10)")).getText();
       },
-      get linkElevenMobText() {
-        return $(".mob-navbar ul li:nth-child(11)").getText();
+      async linkElevenMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(11)")).getText();
       },
-      get linkTwelvMobText() {
-        return $(".mob-navbar ul li:nth-child(12)").getText();
+      async linkTwelvMobText() {
+        return await (await $(".mob-navbar ul li:nth-child(12)")).getText();
       },
     };
   }
 
-  acceptCookies() {
-    if (!this.acceptCookiesButton.isDisplayed()) {
+  async acceptCookies() {
+    const button = await this.acceptCookiesButton;
+    const buttonIsDisplayed = await button.isDisplayed();
+    if (!buttonIsDisplayed) {
       return;
     }
 
-    this.acceptCookiesButton.click();
+    await button.click();
   }
 
   parseMailToFromGmailUrl(gmailUrl) {
@@ -319,30 +332,34 @@ class MailDialog {
   }
 }
 
-const setupPage = (path, acceptCookies) => {
+const setupPage = async (path, acceptCookies) => {
   const page = new Page({
     path: path,
   });
 
-  page.visit();
+  await page.visit();
 
   if (acceptCookies) {
-    page.acceptCookies();
+    await page.acceptCookies();
   }
 
   return page;
 };
 
-const setupPageInDesktopView = (path, acceptCookies) => {
-  browser.setWindowSize(1200, 823);
+const setupPageInDesktopView = async (path, acceptCookies) => {
+  await browser.setWindowSize(1200, 823);
 
-  return setupPage(path, acceptCookies);
+  const page = await setupPage(path, acceptCookies);
+
+  return page;
 };
 
-const setupPageInMobileView = (path, acceptCookies) => {
-  browser.setWindowSize(600, 823);
+const setupPageInMobileView = async (path, acceptCookies) => {
+  await browser.setWindowSize(600, 823);
 
-  return setupPage(path, acceptCookies);
+  const page = await setupPage(path, acceptCookies);
+
+  return page;
 };
 
 export default Page;
