@@ -103,84 +103,84 @@ class Page {
 
   get navigationBar() {
     return {
-      async nav() {
-        return await $("#nav");
+      get nav() {
+        return $("#nav");
       },
-      async linkOne() {
-        return await $("nav li:nth-child(1)");
+      get linkOne() {
+        return $("nav li:nth-child(1)");
       },
-      async linkOneText() {
-        return await (await this.linkOne()).getText();
+      get linkOneText() {
+        return this.linkOne.getText();
       },
-      async linkTwoText() {
-        return await (await $("nav li:nth-child(2)")).getText();
+      get linkTwoText() {
+        return $("nav li:nth-child(2)").getText();
       },
-      async linkThreeText() {
-        return await (await $("nav li:nth-child(3)")).getText();
+      get linkThreeText() {
+        return $("nav li:nth-child(3)").getText();
       },
-      async linkFourText() {
-        return await (await $("nav li:nth-child(4)")).getText();
+      get linkFourText() {
+        return $("nav li:nth-child(4)").getText();
       },
-      async linkFiveText() {
-        return await (await $("nav li:nth-child(5)")).getText();
+      get linkFiveText() {
+        return $("nav li:nth-child(5)").getText();
       },
-      async linkSixText() {
-        return await (await $("nav li:nth-child(6)")).getText();
+      get linkSixText() {
+        return $("nav li:nth-child(6)").getText();
       },
-      async linkLangSelect() {
-        return await (await $("nav  li:nth-child(7) > div > div")).getText();
+      get linkLangSelect() {
+        return $("nav  li:nth-child(7) > div > div").getText();
       },
-      async linkButton() {
-        return await $("nav  li:nth-child(8) a");
+      get linkButton() {
+        return $("nav  li:nth-child(8) a");
       },
-      async linkButtonText() {
-        return await (await this.linkButton()).getText();
+      get linkButtonText() {
+        return this.linkButton.getText();
       },
       async triggerMobileMenuToggle() {
-        await (await $("nav ul + img")).click();
-        await (await $(".mob-navbar ul li")).waitForClickable();
+        await $("nav ul + img").click();
+        await $(".mob-navbar ul li").waitForClickable();
       },
-      async linkOneMob() {
-        return await $(".mob-navbar ul li:nth-child(1)");
+      get linkOneMob() {
+        return $(".mob-navbar ul li:nth-child(1)");
       },
-      async linkOneMobText() {
-        return await (await this.linkOneMob()).getText();
+      get linkOneMobText() {
+        return this.linkOneMob.getText();
       },
-      async linkTwoMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(2)")).getText();
+      get linkTwoMobText() {
+        return $(".mob-navbar ul li:nth-child(2)").getText();
       },
-      async linkThreeMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(3)")).getText();
+      get linkThreeMobText() {
+        return $(".mob-navbar ul li:nth-child(3)").getText();
       },
-      async linkFourMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(4)")).getText();
+      get linkFourMobText() {
+        return $(".mob-navbar ul li:nth-child(4)").getText();
       },
-      async linkFiveMobText() {
-        return await (await $(".mob-navbar div > div")).getText();
+      get linkFiveMobText() {
+        return $(".mob-navbar div > div").getText();
       },
-      async linkSixMob() {
-        return await $(".mob-navbar ul > a");
+      get linkSixMob() {
+        return $(".mob-navbar ul > a");
       },
-      async linkSixMobText() {
-        return await (await this.linkSixMob()).getText();
+      get linkSixMobText() {
+        return this.linkSixMob.getText();
       },
-      async linkSevenMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(7)")).getText();
+      get linkSevenMobText() {
+        return $(".mob-navbar ul li:nth-child(7)").getText();
       },
-      async linkEightMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(8)")).getText();
+      get linkEightMobText() {
+        return $(".mob-navbar ul li:nth-child(8)").getText();
       },
-      async linkNineMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(9)")).getText();
+      get linkNineMobText() {
+        return $(".mob-navbar ul li:nth-child(9)").getText();
       },
-      async linkTenMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(10)")).getText();
+      get linkTenMobText() {
+        return $(".mob-navbar ul li:nth-child(10)").getText();
       },
-      async linkElevenMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(11)")).getText();
+      get linkElevenMobText() {
+        return $(".mob-navbar ul li:nth-child(11)").getText();
       },
-      async linkTwelvMobText() {
-        return await (await $(".mob-navbar ul li:nth-child(12)")).getText();
+      get linkTwelvMobText() {
+        return $(".mob-navbar ul li:nth-child(12)").getText();
       },
     };
   }
