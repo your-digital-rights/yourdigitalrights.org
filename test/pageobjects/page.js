@@ -12,6 +12,14 @@ class Page {
     return browser.url(`http://localhost:3001${this.path}`);
   }
 
+  async setDataOpenUrlAttributeOnWindowOpen() {
+    await browser.execute(function () {
+      window.open = function (url) {
+        document.body.setAttribute("data-open-url", url);
+      };
+    });
+  }
+
   get acceptCookiesButton() {
     return $("button=Accept all");
   }
