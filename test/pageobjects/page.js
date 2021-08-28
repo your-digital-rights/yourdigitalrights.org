@@ -12,14 +12,6 @@ class Page {
     return browser.url(`http://localhost:3001${this.path}`);
   }
 
-  async setDataOpenUrlAttributeOnWindowOpen() {
-    await browser.execute(function () {
-      window.open = function (url) {
-        document.body.setAttribute("data-open-url", url);
-      };
-    });
-  }
-
   get acceptCookiesButton() {
     return $("button=Accept all");
   }
@@ -370,5 +362,21 @@ const setupPageInMobileView = async (path, acceptCookies) => {
   return page;
 };
 
+const setDataOpenUrlAttributeOnWindowOpen = async () => {
+  await browser.execute(function () {
+    window.open = function (url) {
+      document.body.setAttribute("data-open-url", url);
+    };
+  });
+};
+
+const initializeWindowPaqArray = async () => {
+  await browser.execute(function () {
+    if (!(window._paq instanceof Array)) {
+      window._paq = [];
+    }
+  });
+};
+
 export default Page;
-export { setupPageInDesktopView, setupPageInMobileView };
+export { setupPageInDesktopView, setupPageInMobileView, setDataOpenUrlAttributeOnWindowOpen, initializeWindowPaqArray };
