@@ -260,15 +260,6 @@ class Form {
     this.baseSelector = baseSelector;
   }
 
-  get isInvalid() {
-    const exists = $(`${this.baseSelector}:invalid`).value;
-    return !!exists;
-  }
-
-  get isValid() {
-    return !this.isInvalid;
-  }
-
   get isVisible() {
     return $(this.baseSelector).isDisplayed();
   }
