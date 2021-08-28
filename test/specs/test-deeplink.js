@@ -1,17 +1,9 @@
-import Page from "../pageobjects/page";
+import { setupPageInDesktopView } from "../pageobjects/page";
 
 describe("When I visit an org page", () => {
-  let page;
-
-  beforeEach(async () => {
-    page = new Page({
-      path: "/d/slack.com",
-    });
-
-    await page.visit();
-  });
-
   it("displays the org name in the page", async () => {
+    const page = await setupPageInDesktopView("/d/slack.com", false);
+
     const companyName = await page.companyName;
     const companyNameAnchor = await companyName.$("a");
     const companyNameAnchorText = await companyNameAnchor.getText();
