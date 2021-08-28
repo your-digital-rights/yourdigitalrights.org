@@ -206,8 +206,8 @@ class Page {
     };
   }
 
-  hasTracked(...row) {
-    const result = browser.execute(function (row) {
+  async hasTracked(...row) {
+    const result = await browser.execute(function (row) {
       const paq = window._paq;
 
       return {
@@ -231,7 +231,7 @@ class SocialShare {
   }
 
   get exists() {
-    return this.element.type !== "NoSuchElement";
+    return this.element.isExisting();
   }
 
   get linkedIn() {
@@ -277,19 +277,19 @@ class Form {
     return $("#searchForm input").setValue(value);
   }
 
-  selectElementByLabel(labelText) {
-    const id = $(this.baseSelector)
+  async selectElementByLabel(labelText) {
+    const id = await $(this.baseSelector)
       .$(`label*=${labelText}`)
       .getAttribute("for");
     return $(this.baseSelector).$(`#${id}`);
   }
 
-  fillIn(labelText, value) {
-    return this.selectElementByLabel(labelText).setValue(value);
+  async fillIn(labelText, value) {
+    return (await this.selectElementByLabel(labelText)).setValue(value);
   }
 
-  select(labelText, text) {
-    const select = this.selectElementByLabel(labelText);
+  async select(labelText, text) {
+    const select = await this.selectElementByLabel(labelText);
     return select.selectByVisibleText(text);
   }
 

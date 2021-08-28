@@ -1,93 +1,79 @@
-import Page from "../pageobjects/page";
+import { setupPageInDesktopView, setDataOpenUrlAttributeOnWindowOpen, initializeWindowPaqArray } from "../pageobjects/page";
 
 describe("When I visit the home page", () => {
   let page;
 
-  beforeEach(() => {
-    page = new Page({
-      path: "/",
-    });
-
-    page.visit();
-
-    browser.execute(function () {
-      window.open = function (url) {
-        document.body.setAttribute("data-open-url", url);
-      };
-
-      if (!(window._paq instanceof Array)) {
-        window._paq = [];
-      }
-    });
-
-    page.acceptCookies();
+  beforeEach(async () => {
+    page = await setupPageInDesktopView("/", true);
+    await setDataOpenUrlAttributeOnWindowOpen();
+    await initializeWindowPaqArray();
   });
 
   describe("and select an organization", () => {
-    beforeEach(() => {
-      page.searchForm.fillInSearch("Slack");
+    beforeEach(async () => {
+      await page.searchForm.fillInSearch("Slack");
       const searchResult = $("div=Slack (slack.com)");
-      searchResult.waitForDisplayed();
-      searchResult.click();
+      await searchResult.waitForDisplayed();
+      await searchResult.click();
     });
 
-    it("tracks site search", () => {
-      page.hasTracked("trackSiteSearch", "slack.com").should.be.true;
+    it("tracks site search", async () => {
+      (await page.hasTracked("trackSiteSearch", "slack.com")).should.be.true;
     });
 
-    it("updates the url", () => {
-      browser.waitUntil(() => browser.getUrl().indexOf("slack") > 1);
-      browser.getUrl().should.match(/d\/slack.com/);
+    it("updates the url", async () => {
+      await browser.waitUntil(async () => (await browser.getUrl()).indexOf("slack") > 1);
+      (await browser.getUrl()).should.match(/d\/slack.com/);
     });
 
-    it("focuses the name field", () => {
-      page.personalInfoForm.selectElementByLabel("Full name").isFocused().should
+    it("focuses the name field", async () => {
+      (await (await page.personalInfoForm.selectElementByLabel("Full name")).isFocused()).should
         .be.true;
     });
 
     describe("and fill in the form with invalid data and submit", () => {
-      beforeEach(() => {
-        page.personalInfoForm.fillIn("Full name", "");
-        page.personalInfoForm.fillIn("Additional identifying information", "");
-        page.personalInfoForm.submit();
+      beforeEach(async () => {
+        await page.personalInfoForm.fillIn("Full name", "");
+        await page.personalInfoForm.fillIn("Additional identifying information", "");
+        await page.personalInfoForm.submit();
       });
 
-      it("does not display the mail dialog", () => {
-        page.mailDialog.isVisible.should.be.false;
+      it("does not display the mail dialog", async () => {
+        (await page.mailDialog.isVisible).should.be.false;
       });
     });
 
     describe("and fill in the form with valid data and submit", () => {
-      beforeEach(() => {
-        page.personalInfoForm.fillIn("Full name", "Rob");
-        page.personalInfoForm.fillIn(
+      beforeEach(async () => {
+        await page.personalInfoForm.fillIn("Full name", "Rob");
+        await page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.select("Regulation", "GDPR (European Union)");
+        await page.personalInfoForm.select("Regulation", "GDPR (European Union)");
 
-        page.personalInfoForm.submit();
+        await page.personalInfoForm.submit();
       });
 
-      it("displays the mail dialog", () => {
-        page.mailDialog.isVisible.should.be.true;
-        page.mailDialog.openInGmail.isDisplayed().should.be.true;
-        page.mailDialog.openInOutlook.isDisplayed().should.be.true;
-        page.mailDialog.openInYahooMail.isDisplayed().should.be.true;
-        page.mailDialog.openDefault.isDisplayed().should.be.true;
-        page.mailDialog.copy.isDisplayed().should.be.true;
+      it("displays the mail dialog", async () => {
+        (await page.mailDialog.isVisible).should.be.true;
+        (await page.mailDialog.openInGmail.isDisplayed()).should.be.true;
+        (await page.mailDialog.openInOutlook.isDisplayed()).should.be.true;
+        (await page.mailDialog.openInYahooMail.isDisplayed()).should.be.true;
+        (await page.mailDialog.openDefault.isDisplayed()).should.be.true;
+        (await page.mailDialog.copy.isDisplayed()).should.be.true;
       });
 
       describe("and click open in Gmail", () => {
         let mailTo;
 
-        beforeEach(() => {
-          page.mailDialog.openInGmail.click();
+        beforeEach(async () => {
+          await page.mailDialog.openInGmail.click();
 
-          mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
+          mailTo = page.parseMailToFromGmailUrl(await page.dataOpenUrlAttribute);
         });
 
-        it("opens a mailto url", () => {
+        it("opens a mailto url", async () => {
           mailTo.to.should.be.equal("feedback@slack.com");
           mailTo.subject.should.be.equal(
             "Erasure Request (Article 17 of the GDPR)"
@@ -109,67 +95,67 @@ describe("When I visit the home page", () => {
             "Should contain GDPR"
           );
 
-          page.hasTracked(
+          (await page.hasTracked(
             "trackEvent",
             "Erasure Request",
             "Send GDPR Request",
             "slack.com"
-          ).should.be.true;
+          )).should.be.true;
         });
 
         describe("thank you message", () => {
-          it("shows a thank you message", () => {
-            page.thanksMessage.isVisible.should.be.true;
-            expect(page.thanksMessage.title).to.equal("Thank You");
-            expect(page.thanksMessage.text).to.contain(
+          it("shows a thank you message", async () => {
+            (await page.thanksMessage.isVisible).should.be.true;
+            expect(await page.thanksMessage.title).to.equal("Thank You");
+            expect(await page.thanksMessage.text).to.contain(
               "request email should have opened in your email application"
             );
-            page.thanksMessage.btn.isDisplayed().should.be.true;
+            (await page.thanksMessage.btn.isDisplayed()).should.be.true;
 
-            page.thanksMessage.socialShare.exists.should.be.true;
-            expect(page.thanksMessage.extensionChromeButton).to.equal(
+            (await page.thanksMessage.socialShare.exists).should.be.true;
+            expect(await page.thanksMessage.extensionChromeButton).to.equal(
               "https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
             );
-            expect(page.thanksMessage.extensionFirefoxButton).to.equal(
+            expect(await page.thanksMessage.extensionFirefoxButton).to.equal(
               "https://addons.mozilla.org/en-GB/android/addon/opt-out/"
             );
 
-            page.thanksMessage.socialShare.linkedIn.click();
-            page.dataOpenUrlAttribute.should.contain("linkedin.com");
-            page.hasTracked(
+            await page.thanksMessage.socialShare.linkedIn.click();
+            (await page.dataOpenUrlAttribute).should.contain("linkedin.com");
+            (await page.hasTracked(
               "trackEvent",
               "Social Share",
               "Social Share From thankyou",
               "linkedin"
-            ).should.be.true;
+            )).should.be.true;
 
-            page.thanksMessage.socialShare.twitter.click();
-            page.dataOpenUrlAttribute.should.contain("twitter.com");
-            page.hasTracked(
+            await page.thanksMessage.socialShare.twitter.click();
+            (await page.dataOpenUrlAttribute).should.contain("twitter.com");
+            (await page.hasTracked(
               "trackEvent",
               "Social Share",
               "Social Share From thankyou",
               "twitter"
-            ).should.be.true;
+            )).should.be.true;
 
-            page.thanksMessage.socialShare.facebook.click();
-            page.dataOpenUrlAttribute.should.contain("facebook.com");
-            page.hasTracked(
+            await page.thanksMessage.socialShare.facebook.click();
+            (await page.dataOpenUrlAttribute).should.contain("facebook.com");
+            (await page.hasTracked(
               "trackEvent",
               "Social Share",
               "Social Share From thankyou",
               "facebook"
-            ).should.be.true;
+            )).should.be.true;
           });
 
-          it("should hide thanks message after clicking 'Find another organization' and focus search form", () => {
-            page.thanksMessage.isVisible.should.be.true;
+          it("should hide thanks message after clicking 'Find another organization' and focus search form", async () => {
+            (await page.thanksMessage.isVisible).should.be.true;
 
-            page.thanksMessage.btn.click();
+            await page.thanksMessage.btn.click();
 
-            page.thanksMessage.isVisible.should.be.false;
-            page.searchIsFocused.should.be.true;
-            page.personalInfoForm.isVisible.should.be.false;
+            (await page.thanksMessage.isVisible).should.be.false;
+            (await page.searchIsFocused()).should.be.true;
+            (await page.personalInfoForm.isVisible).should.be.false;
           });
         });
       });
@@ -177,30 +163,30 @@ describe("When I visit the home page", () => {
   });
 
   describe("and perform a search with no results", () => {
-    beforeEach(() => {
-      page.searchForm.fillInSearch("abcxyz123");
-      $("li*=Can't find an organization?").click();
+    beforeEach(async () => {
+      await page.searchForm.fillInSearch("abcxyz123");
+      await $("li*=Can't find an organization?").click();
     });
 
     describe("and fill in the form with valid data and submit and click open in Gmail", () => {
       let mailTo;
 
-      beforeEach(() => {
-        page.personalInfoForm.fillIn("Organization name", "abcxyz123");
-        page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
-        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123.com");
-        page.personalInfoForm.fillIn("Full name", "Rob");
-        page.personalInfoForm.select("Regulation", "CCPA (California)");
-        page.personalInfoForm.fillIn(
+      beforeEach(async () => {
+        await page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        await page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
+        await page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123.com");
+        await page.personalInfoForm.fillIn("Full name", "Rob");
+        await page.personalInfoForm.select("Regulation", "CCPA (California)");
+        await page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.submit();
-        page.mailDialog.openInGmail.click();
-        mailTo = page.parseMailToFromGmailUrl(page.dataOpenUrlAttribute);
+        await page.personalInfoForm.submit();
+        await page.mailDialog.openInGmail.click();
+        mailTo = page.parseMailToFromGmailUrl(await page.dataOpenUrlAttribute);
       });
 
-      it("opens a mailto url", () => {
+      it("opens a mailto url", async () => {
         mailTo.to.should.be.equal("dpo@abcxyz123.com");
         mailTo.subject.should.be.equal(
           "Deletion Request (Section 105 of the CCPA)"
@@ -218,31 +204,31 @@ describe("When I visit the home page", () => {
     });
 
     describe("and fill in the form with an invalid organization email and submit", () => {
-      beforeEach(() => {
-        page.personalInfoForm.fillIn("Organization name", "abcxyz123");
-        page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
-        page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
-        page.personalInfoForm.fillIn("Full name", "Rob");
-        page.personalInfoForm.select("Regulation", "CCPA (California)");
-        page.personalInfoForm.fillIn(
+      beforeEach(async () => {
+        await page.personalInfoForm.fillIn("Organization name", "abcxyz123");
+        await page.personalInfoForm.fillIn("Organization domain", "abcxyz123.com");
+        await page.personalInfoForm.fillIn("Organization email", "dpo@abcxyz123");
+        await page.personalInfoForm.fillIn("Full name", "Rob");
+        await page.personalInfoForm.select("Regulation", "CCPA (California)");
+        await page.personalInfoForm.fillIn(
           "Additional identifying information",
           "10 Downing Street"
         );
-        page.personalInfoForm.submit();
+        await page.personalInfoForm.submit();
       });
 
-      it("focuses the organization email field", () => {
-        page.personalInfoForm
-          .selectElementByLabel("Organization email")
-          .isFocused().should.be.true;
+      it("focuses the organization email field", async () => {
+        (await (await page.personalInfoForm
+          .selectElementByLabel("Organization email"))
+          .isFocused()).should.be.true;
       });
 
-      it("does not display the mail dialog", () => {
-        page.mailDialog.isVisible.should.be.false;
+      it("does not display the mail dialog", async () => {
+        (await page.mailDialog.isVisible).should.be.false;
       });
 
-      it("does not show the thank you message", () => {
-        page.thanksMessage.isVisible.should.be.false;
+      it("does not show the thank you message", async () => {
+        (await page.thanksMessage.isVisible).should.be.false;
       });
     });
   });
