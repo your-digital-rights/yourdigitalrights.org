@@ -225,13 +225,13 @@
     "message": "Organizaciones establecidas fuera de la UE que recopilan o procesan información personal mientras se dedican al seguimiento del comportamiento de las personas mientras se encuentran en la UE."
   },
   "faq.body4A": {
-    "message": "The California Consumer Privacy Act, or CCPA for short, is a new regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
+    "message": "La Ley de Privacidad del Consumidor de California (CCPA) es una regulación introducida en California en Enero de 2020. Protege el derecho fundamental de las personas a la protección de sus datos personales y privacidad en línea."
   },
   "faq.body4Ai": {
     "message": "<a>lea más sonbre la ley</a>"
   },
   "faq.body5A": {
-    "message": "The CCPA applies to organizations that collect consumers’ personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
+    "message": "CCPA se aplica a las organizaciones que recopilan la información personal de los consumidores, o en nombre de las cuales se recopila dicha información y que, por sí solas o en conjunto con otros, determina los propósitos y medios del procesamiento de la información personal de los consumidores, que opera en el Estado. de California, y que satisfaga uno o más de los siguientes umbrales:"
   },
   "faq.body5Ai": {
     "message": "Tiene ingresos brutos anuales superiores a veinticinco millones de dólares (25,000,000)"
@@ -333,7 +333,7 @@
     "message": "Por cumplir con una obligación legal."
   },
   "faq.body8Cix": {
-    "message": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+    "message": "De lo contrario, usan la información personal del consumidor internamente, de manera legal, que sea compatible con el contexto en el que el consumidor proporcionó la información."
   },
   "faq.body8Cv": {
     "message": "Para llevar a cabo un contrato entre la empresa y el consumidor."
@@ -345,7 +345,7 @@
     "message": "Identificar y reparar los errores que perjudican a una funcionalidad existente."
   },
   "faq.body8Cviii": {
-    "message": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+    "message": "Que permitan únicamente el usos interno razonablemente alineados con las expectativas del consumidor y, en función de la relación del consumidor y la empresa."
   },
   "faq.body8D": {
     "message": "<a>Más información</a>"
@@ -354,13 +354,13 @@
     "message": "Bajo GDPR:"
   },
   "faq.body9Ai": {
-    "message": "faq.An organization has one month to comply with a request. The deadline can be extended to 2 additional months taking into account the complexity and number of requests. In any case, the organization must inform you of such extension within one month from the receipt of the request."
+    "message": "faq. Cualquier organization tiene un (1) mes para cumplir con una solicitud. El plazo puede ampliarse a dos (2) meses adicionales teniendo en cuenta la complejidad y el número de solicitudes. En cualquier caso, la organización deberá informarte de dicha prórroga en el plazo de un (1) mes a partir de la recepción de la solicitud."
   },
   "faq.body9Aii": {
     "message": "Bajo CCPA:"
   },
   "faq.body9Aiii": {
-    "message": "The deadline to respond to a request is 45 days from the receipt of the consumer’s request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+    "message": "El plazo para responder a una solicitud es de 45 días a partir de la recepción de la solicitud. El plazo se puede extender 45 días adicionales cuando sea razonablemente necesario, si se informa al consumidor dentro de los primeros 45 días."
   },
   "faq.heading1": {
     "message": "¿Qué regulación me protege, GDPR o CCPA?"
@@ -408,7 +408,7 @@
     "message": "Para obtener más información, <a>contáctenos aquí</a>. © Copyright 2019"
   },
   "footer.disclaimer": {
-    "message": "<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+    "message": "<span>Aviso:</span> Este servicio se proporciona tal cual, sin garantía de ningún tipo. El uso de este servicio es bajo su propio riesgo. No podemos responsabilizarnos por ningún daño directo o indirecto que resulte del uso de este servicio. La información relacionado con asuntos legales proporcionada por este servicio junto con el contenido de esta web, se proporciona para su uso privado y no constituye asesoramiento legal. Si necesita asesoramiento legal específico, debe consultar con un abogado autorizado."
   },
   "footer.madeBy": {
     "message": "<a>Desarrollado por Conscious Digital</a>"
@@ -426,7 +426,7 @@
     "message": "Consiga que las organizaciones eliminen o le envíen una copia de sus datos personales."
   },
   "hero.heading": {
-    "message": "Own Your Data"
+    "message": "Controla tus datos personales"
   },
   "hero.intro": {
     "message": "Muchas organizaciones recopilan y venden sus datos personales, a menudo sin su consentimiento. Utilice este servicio gratuito para enviarles una solicitud de acceso o eliminación de datos. Busca el nombre de una organización a continuación y elimina tus datos. ¿No sabes por dónde empezar? Puedes comenzar por los <a>principales corredores de datos</a>."
@@ -462,7 +462,7 @@
     "message": "¿Por qué confiar en nosotros?"
   },
   "howItWorks.yourData": {
-    "message": "The <gdpr>General Data Protection Regulations</gdpr> (GDPR) and the <ccpa>California Consumer Privacy Act</ccpa> (CCPA) require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+    "message": "La <gdpr>Ley General de Protección de Datos</gdpr> (GDPR) y la <ccpa>Ley de Privacidad del Consumidor de California</ccpa> (CCPA) requieren que las organizaciones borren o proporcionen una copia de sus datos personales si así lo solicita el usuario. Las organizaciones tienen un corto período de tiempo para cumplirlas, de lo contrario pueden enfrentarse a multas."
   },
   "howItWorks.yourDataTitle": {
     "message": "Son tus datos, ¡recuperalos!"
@@ -531,7 +531,7 @@
     "message": "Solicite la eliminación o la copia de sus datos personales."
   },
   "personalInfoForm.IdentifyingInfoHelper": {
-    "message": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
+    "message": "Proporcione cualquier información adicional que ayude a la organización a localizar sus datos en sus sistemas de información como nombre de usuario, ID de cliente o número de cliente. <strong>Por favor, no proporcione contraseñas o ninguna información personal que la organización no tenga todavía.</strong>"
   },
   "personalInfoForm.accessRequestLabelText": {
     "message": "Envíame una copia de mis datos"
@@ -561,7 +561,7 @@
     "message": "Nombre de la Organización"
   },
   "personalInfoForm.compnayEmailHelper": {
-    "message": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+    "message": "Ingrese la dirección de correo electrónico de la persona o departamento responsable de las solicitudes de GDPR / CCPA / privacidad / legales. Por lo general, puede encontrar esta información en el sitio web de la organización bajo la política de privacidad, los términos y condiciones o la página de contacto."
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Eliminar mis datos"
@@ -588,7 +588,7 @@
     "message": "Revise su solicitud"
   },
   "privacy.analyticsBodyOneA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
+    "message": "Matomo: nuestro servicio de análisis web orientado a la privacidad. Puede visitar su página { matomo }."
   },
   "privacy.contact": {
     "message": "Contáctenos"
@@ -600,7 +600,7 @@
     "message": "Cookies y rastreadores"
   },
   "privacy.cookiesBody": {
-    "message": "In operating the Service we use a technology called \"cookies\". A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service. While we do not use cookies to deliver the Service, we use cookies to help us analyze Service usage more accurately, and to save the choices you make on the website so that it is easier for you to use the service next time. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a \"help\" section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
+    "message": "En el funcionamiento del Servicio utilizamos una tecnología llamada \"cookies\". Una cookie es unn dispositive que el ordenador recibe cuando usas un navegador para acceder a nuestro Servicio. Aunque no usamos cookies para prestar el servicio, utilizamos cookies para ayudarnos a analizar el uso del servicio con mayor precisión, y guardar como navega la web para que sea más fácil para usted utilizar el servicio la próxima vez. En todos los casos en los que usemos cookies, no recogeremos datos personales excepto con su permiso explícito. En la mayoría de los navegadores web, encontrará una sección de \"ayuda\" en la barra de herramientas. Consulte esta sección para obtener información sobre cómo recibir notificaciones cuando esté recibiendo una nueva cookie y cómo desactivar las cookies."
   },
   "privacy.description": {
     "message": "Tus datos son de tu propiedad, y nosotros existimos para ayudarte a controlar quién tiene acceso a ellos. Esta es nuestra política de privacidad."
@@ -615,22 +615,22 @@
     "message": "Nuestro servicio no guardará ninguna información en nuestros servidores ni compartirá sus datos con otras organizaciones. Utilizaremos su información unicamente para generar un correo que aparecerá unicamente en su gestor de correo electronico. Usted tendrá la libertad de mandar ese correo si creee que es oportuno."
   },
   "privacy.personalData": {
-    "message": "Personal Data That You Provide"
+    "message": "Datos personales que proporcionas"
   },
   "privacy.personalDataBody1": {
-    "message": "While using this Service, we may ask you to provide us with certain personal information that can be used to contact or identify you (\"Personal Data\"). The Personally identifiable information collect is:"
+    "message": "Al utilizar este Servicio, es posible que le pidamos que nos proporcione cierta información personal que pueda utilizarse para contactarlo o identificarlo (\"Datos personales\"). La información de identificación personal recopilada sería:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Tu nombre"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Additional information needed to identify you with the organizations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
+    "message": "Información adicional necesaria para identificarte en las organizaciones de las que eliges elminar tus datos (como un nombre de usuario, ID de cliente o número de cuenta)"
   },
   "privacy.personalDataBodyOneC": {
     "message": "Cookies y datos de uso"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.org and the authorized third parties referred to in this Policy."
+    "message": "Al proporcionarnos voluntariamente sus Datos Personales, estas dando tu consentimiento para que lo usemos, de acuerdo con nuestra Política de Privacidad. Si proporcionas datos personales a este sitio web, está aceptando que tales Datos Personales puedan ser transferidos desde su ubicación actual a las oficinas y servidores de yourdigitalrights.org y los terceros autorizados a los que se hace referencia en esta Política."
   },
   "privacy.privacyTitle": {
     "message": "Política de Privacidad"
@@ -639,13 +639,13 @@
     "message": "Nuestra Promesa"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "Eres dueño de tus datos, y  nosotros existimos para ayudarte a controlar quién tiene acceso a ellos. En este sentido, queremos ser transparentes, y creemos firmemente en mantener tus datos de manera personal, privada y segura. Limitaremos los datos personales que recopilamos al mínimo requerido para mantener el servicio (yourdigitalrights.org). No venderemos sus datos personales a nadie y no los conservaremos en nuestros servidores. Solo compartiremos su información personal cuando sea necesario para proporcionar el servicio o como se describe en esta Política."
   },
   "privacy.title": {
     "message": "Política de Privacidad"
   },
   "privacy.usageDataBody": {
-    "message": "We may collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as the Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, the actions you perform, unique device identifiers and other diagnostic data. We use the following third-party Service Provider to monitor and analyze the use of our Service:"
+    "message": "Podremos recopilar información sobre cómousa este servicio (\"Datos de uso\"). Estos Datos de uso pueden incluir información como la dirección del Protocolo de Internet (por ejemplo, la dirección IP), el tipo de navegador, la versión del navegador, las páginas que visita een nuestro servicio, la hora y fecha de su visita, el tiempo dedicado a esas páginas, las acciones realiza, identificadores de dispositivos únicos y otros datos de diagnóstico. Usamos los siguientes proveedorer externos para monitorear y analizar el uso:"
   },
   "redirect.continueText": {
     "message": "Continuar"
