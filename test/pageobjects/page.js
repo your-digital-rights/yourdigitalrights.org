@@ -24,18 +24,29 @@ class Page {
     return $("#orgName");
   }
 
-  get headingText() {
-    return $("h1").getText();
+  get heading() {
+    return $("h1");
   }
 
   get dataOpenUrlAttribute() {
     return $("<body>").getAttribute("data-open-url");
   }
 
-  get searchIsFocused() {
-    const element = $("#companyNameSearch");
-    return element.waitUntil(() => {
-      return element.isFocused();
+  get search() {
+    return $("#companyNameSearch");
+  }
+
+  async searchIsFocused() {
+    const element = await this.search;
+    return await element.waitUntil(async () => {
+      return await element.isFocused();
+    });
+  }
+
+  async searchIsNotFocused() {
+    const element = await this.search;
+    return await element.waitUntil(async () => {
+      return !(await element.isFocused());
     });
   }
 
@@ -115,19 +126,19 @@ class Page {
       },
       get linkSixText() {
         return $("nav li:nth-child(6)").getText();
-      },      
+      },
       get linkLangSelect() {
         return $("nav  li:nth-child(7) > div > div").getText();
-      },      
+      },
       get linkButton() {
         return $("nav  li:nth-child(8) a");
       },
       get linkButtonText() {
         return this.linkButton.getText();
       },
-      get triggerMobileMenuToggle() {
-        $("nav ul + img").click();
-        $(".mob-navbar ul li").waitForClickable();
+      async triggerMobileMenuToggle() {
+        await $("nav ul + img").click();
+        await $(".mob-navbar ul li").waitForClickable();
       },
       get linkOneMob() {
         return $(".mob-navbar ul li:nth-child(1)");
@@ -174,12 +185,14 @@ class Page {
     };
   }
 
-  acceptCookies() {
-    if (!this.acceptCookiesButton.isDisplayed()) {
+  async acceptCookies() {
+    const button = await this.acceptCookiesButton;
+    const buttonIsDisplayed = await button.isDisplayed();
+    if (!buttonIsDisplayed) {
       return;
     }
 
-    this.acceptCookiesButton.click();
+    await button.click();
   }
 
   parseMailToFromGmailUrl(gmailUrl) {
@@ -193,8 +206,8 @@ class Page {
     };
   }
 
-  hasTracked(...row) {
-    const result = browser.execute(function (row) {
+  async hasTracked(...row) {
+    const result = await browser.execute(function (row) {
       const paq = window._paq;
 
       return {
@@ -218,7 +231,7 @@ class SocialShare {
   }
 
   get exists() {
-    return this.element.type !== "NoSuchElement";
+    return this.element.isExisting();
   }
 
   get linkedIn() {
@@ -247,15 +260,6 @@ class Form {
     this.baseSelector = baseSelector;
   }
 
-  get isInvalid() {
-    const exists = $(`${this.baseSelector}:invalid`).value;
-    return !!exists;
-  }
-
-  get isValid() {
-    return !this.isInvalid;
-  }
-
   get isVisible() {
     return $(this.baseSelector).isDisplayed();
   }
@@ -264,19 +268,19 @@ class Form {
     return $("#searchForm input").setValue(value);
   }
 
-  selectElementByLabel(labelText) {
-    const id = $(this.baseSelector)
+  async selectElementByLabel(labelText) {
+    const id = await $(this.baseSelector)
       .$(`label*=${labelText}`)
       .getAttribute("for");
     return $(this.baseSelector).$(`#${id}`);
   }
 
-  fillIn(labelText, value) {
-    return this.selectElementByLabel(labelText).setValue(value);
+  async fillIn(labelText, value) {
+    return (await this.selectElementByLabel(labelText)).setValue(value);
   }
 
-  select(labelText, text) {
-    const select = this.selectElementByLabel(labelText);
+  async select(labelText, text) {
+    const select = await this.selectElementByLabel(labelText);
     return select.selectByVisibleText(text);
   }
 
@@ -319,31 +323,51 @@ class MailDialog {
   }
 }
 
-const setupPage = (path, acceptCookies) => {
+const setupPage = async (path, acceptCookies) => {
   const page = new Page({
     path: path,
   });
 
-  page.visit();
+  await page.visit();
 
   if (acceptCookies) {
-    page.acceptCookies();
+    await page.acceptCookies();
   }
 
   return page;
 };
 
-const setupPageInDesktopView = (path, acceptCookies) => {
-  browser.setWindowSize(1200, 823);
+const setupPageInDesktopView = async (path, acceptCookies) => {
+  await browser.setWindowSize(1200, 823);
 
-  return setupPage(path, acceptCookies);
+  const page = await setupPage(path, acceptCookies);
+
+  return page;
 };
 
-const setupPageInMobileView = (path, acceptCookies) => {
-  browser.setWindowSize(600, 823);
+const setupPageInMobileView = async (path, acceptCookies) => {
+  await browser.setWindowSize(600, 823);
 
-  return setupPage(path, acceptCookies);
+  const page = await setupPage(path, acceptCookies);
+
+  return page;
+};
+
+const setDataOpenUrlAttributeOnWindowOpen = async () => {
+  await browser.execute(function () {
+    window.open = function (url) {
+      document.body.setAttribute("data-open-url", url);
+    };
+  });
+};
+
+const initializeWindowPaqArray = async () => {
+  await browser.execute(function () {
+    if (!(window._paq instanceof Array)) {
+      window._paq = [];
+    }
+  });
 };
 
 export default Page;
-export { setupPageInDesktopView, setupPageInMobileView };
+export { setupPageInDesktopView, setupPageInMobileView, setDataOpenUrlAttributeOnWindowOpen, initializeWindowPaqArray };
