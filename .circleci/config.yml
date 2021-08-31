@@ -21,7 +21,7 @@ jobs:
             - v2-dependencies-
 
       - browser-tools/install-chrome:
-       replace-existing: true
+          replace-existing: true 
 
       - run: npm install
 
