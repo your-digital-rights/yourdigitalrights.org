@@ -164,7 +164,7 @@ const Privacy = ({ classes, router }) => {
               id="privacy.contactBody"
               defaultMessage="If you have questions or concerns about this Privacy Policy, please contact us at {mail}."
               values={{
-                mail: <a href="mailto:info@opt-out.eu">info@opt-out.eu</a>,
+                mail: <a href="mailto:info@yourdigitalrights.org">info@yourdigitalrights.org</a>,
               }}
             />
           </Typography>

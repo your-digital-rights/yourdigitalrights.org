@@ -28,7 +28,7 @@
     },
     {
       "type": 0,
-      "value": ", a non profit organization creating people centric digital initiatives which promote and advance Digital Human Rights."
+      "value": ", a registered charity creating people centred digital initiatives which promote and advance Digital Human Rights."
     }
   ],
   "about.contributors": [
@@ -47,7 +47,7 @@
       "value": " - Frontend web developer."
     }
   ],
-  "about.contributorsBody2": [
+  "about.contributorsBody3": [
     {
       "type": 1,
       "value": "linkedin"
@@ -57,7 +57,27 @@
       "value": " - Frontend web developer."
     }
   ],
-  "about.createdByBody3": [
+  "about.contributorsBody4": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Frontend web developer."
+    }
+  ],
+  "about.contributorsBody5": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Infrastructure Engineer."
+    }
+  ],
+  "about.createdByBody2": [
     {
       "type": 1,
       "value": "linkedin"
@@ -116,7 +136,7 @@
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
+      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to organizations. We do not collect or trade any personal data. This service is "
     },
     {
       "children": [
@@ -660,7 +680,7 @@
   "faq.body2A": [
     {
       "type": 0,
-      "value": "The General Data Protection Regulations, or GDPR for short, is a new regulation introduced in the European Union in May 2018. It protects the fundamental right of people to the protection of personal data."
+      "value": "The General Data Protection Regulations, or GDPR for short, is an EU regulation which protects the fundamental right of people to the protection of their personal data."
     }
   ],
   "faq.body2Ai": [
@@ -1598,7 +1618,7 @@
   "personalInfoForm.companyDomainLabel": [
     {
       "type": 0,
-      "value": "Organization Domain"
+      "value": "Organization domain"
     }
   ],
   "personalInfoForm.companyEmailLabel": [

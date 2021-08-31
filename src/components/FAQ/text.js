@@ -26,7 +26,7 @@ export default [
     body: [
       <FormattedMessage
         id="faq.body2A"
-        defaultMessage="The General Data Protection Regulations, or GDPR for short, is a new regulation introduced in the European Union in May 2018. It protects the fundamental right of people to the protection of personal data."
+        defaultMessage="The General Data Protection Regulations, or GDPR for short, is an EU regulation which protects the fundamental right of people to the protection of their personal data."
       />,
       <br />,
       <FormattedMessage

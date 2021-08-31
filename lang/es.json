@@ -9,7 +9,7 @@
     "message": "Quienes somos"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org es una iniciativa de {cd}, una organización sin animo de lucro dedicada a fomentar iniciativas digitales centradas en la sociedad con el propósito de desarrollar los Derechos Humanos Digitales."
+    "message": "YourDigitalRights.org es un proyecto de {cd}, una organización sin animo de lucro que desarrolla iniciativas digitales centradas en las personas con la intención de promover los derechos humanos digitales."
   },
   "about.contributors": {
     "message": "Contribuciones"
@@ -17,10 +17,16 @@
   "about.contributorsBody1": {
     "message": "{linkedin} - Ingeniero Frontend"
   },
-  "about.contributorsBody2": {
+  "about.contributorsBody3": {
     "message": "{linkedin} - Ingeniero Frontend"
   },
-  "about.createdByBody3": {
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Ingeniero Frontend"
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Ingeniero de Infraestructura."
+  },
+  "about.createdByBody2": {
     "message": "{linkedin} - Ingeniero Frontend, Ingeniero de aplicaciones moviles y creador de Skyjacker, el simulador de seguimiento de aviones con Realidad Aumentada\n"
   },
   "about.description": {
@@ -39,7 +45,7 @@
     "message": "Las normas de privacidad como el RGPD y el CCPA son un paso en la dirección correcta, pero ejercer sus derechos en virtud de estas legislaciones sigue siendo tan difícil para la mayoría de la gente como para no molestarse en ello. La situación se agrava porque muchas organizaciones dificultan la presentación de solicitudes de datos (por ejemplo, no publicando ninguna dirección de correo electrónico corporativo en su sitio web). El propósito de este servicio es hacer que los derechos otorgados por estas legislaciones sean accesibles para todos."
   },
   "about.missionBody3": {
-    "message": "Es un servicio gratuito. No somos un negocio y no tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es <a>Código Abierto</a>."
+    "message": "Éste es un servicio gratuito. Nosotros no somos un negocio o tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es de <a>Código Abierto</a>."
   },
   "about.sponsors": {
     "message": "Patrocinador"
@@ -60,7 +66,7 @@
     "message": "{sws} - por ayudarnos con la estrategia SEO."
   },
   "about.sponsorsTitle": {
-    "message": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestro esfuerzo de código abierto proporcionando una versión gratuita o con descuento de sus servicios:"
+    "message": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestros esfuerzos open source proporcionando una versión gratuita o con descuento de sus servicios:"
   },
   "about.title": {
     "message": "Sobre nosotros"
@@ -111,7 +117,7 @@
     "message": "Colabora"
   },
   "contribute.translate": {
-    "message": "We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our <a>translation system</a> to make your changes. Here is a <video>video tutorial</video> of the translation editor to help you get started."
+    "message": "Nos gustaría que este servicio estuviera disponible en tantos idiomas como fuera posible. Si el suyo no se encuentra entre los actualmente disponibles, o si necesita actualizaciones o mejoras, cree una cuenta y utilice nuestro <a>sistema de traducción</a> para realizar los cambios. Aquí puede encontrar un <video>video tutorial</video> para ayudarle a empezar."
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"
@@ -120,13 +126,13 @@
     "message": "Opta por no compartir datos con los principales corredores de datos"
   },
   "data-brokers.brokerAfter": {
-    "message": "These are some of the top data brokers but there are many more. Click the button below to search the entire database."
+    "message": "Estos son algunos de los principales brokers de datos, pero hay muchos más. Haga clic en el botón de abajo para acceder a toda la base de datos."
   },
   "data-brokers.brokersIntro": {
-    "message": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
+    "message": "Los corredores de datos son empresas que recopilan y venden sus datos personales, normalmente sin su conocimiento o consentimiento. Estos son los principales corredores de datos, haga clic en cada empresa para solicitar el borrado de sus datos enviando una solicitud {faq} "
   },
   "data-brokers.description": {
-    "message": "Get the top data brokers to erase your personal data"
+    "message": "Consiga que los principales corredores de datos borren sus datos personales"
   },
   "data-brokers.searchButton": {
     "message": "Busca otras empresas"
@@ -141,7 +147,7 @@
     "message": "Dona via Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
+    "message": "YourDigitalRights.org se creó con la creencia de que la privacidad es importante y que ejercer su derecho a la privacidad debería ser fácil. Por eso lo hemos deessarrollado esta aplicación gratis. Sus donaciones nos permiten dedicar más tiempo a mejorar este servicio."
   },
   "donations.headingDonate": {
     "message": "Necesitamos tu apoyo"
@@ -150,19 +156,19 @@
     "message": "Bajo GDPR:"
   },
   "faq.body10Ai": {
-    "message": "If you are unhappy with how the organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. If you decide to do this, we strongly advise you to seek independent legal advice first. You can download a list of DPAs <a>here</a> (PDF)."
+    "message": "Si no está satisfecho con la forma en que la organización ha manejado su solicitud, primero debe presentar una queja. Una vez hecho esto, si continua sin estar satisfecho, puede presentar una queja ante las Autoridades de Protección de Datos (DPA) locales. También puede llevar el caso a los tribunales. Si decide hacer esto, le recomendamos encarecidamente que primero busque asesoramiento legal independiente. Puede descargar una lista de Autoridades de Protección de Datos <a>aquí</a> (PDF)."
   },
   "faq.body10B": {
     "message": "Bajo CCPA:"
   },
   "faq.body10Bii": {
-    "message": "If you are unhappy with how an organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you have two options. <a>Complain to the Attorney General</a> or take private action."
+    "message": "Si no está satisfecho con la forma en que una organización ha manejado su solicitud, primero debe presentar una queja. Una vez hecho esto, si sigue insatisfecho, tiene dos opciones. <a>Quejarse ante el Fiscal General</a> o comenzar una acción."
   },
   "faq.body11A": {
     "message": "Bajo GDPR:"
   },
   "faq.body11Ai": {
-    "message": "Organizations can be fined up to 4% of annual global turnover for breaching GDPR or 20 Million Euro."
+    "message": "Las organizaciones pueden recibir una multa de hasta el 4% de la facturación global anual o 20 millones de euros por infringir el la Ley de protección de datos (GDPR)."
   },
   "faq.body11Aii": {
     "message": "<a>Más información</a>"
@@ -171,7 +177,7 @@
     "message": "Bajo CCPA:"
   },
   "faq.body11Bi": {
-    "message": "The penalty for an intentional violation of the CCPA is $7,500 per incident, and for an unintentional violation $2,500 per incident. Consumers are entitled to between $100-$750 in compensation per incident or actual damages, whichever is greater, if a company did not take reasonable security measures in the event of a breach of sensitive personal information."
+    "message": "La sanción por una violación intencional de CCPA es de 7,500 dolares por incidente y por una violación no intencional de 2,500 dolares por incidente. Si una empresa no tomó las medidas de seguridad razonables en caso de una violación de la información personal, los consumidores tienen derecho a una compensacion de entere 100 y 750 dolares por incidente o daños reales (la ofensa que sea de mayor coste)."
   },
   "faq.body11Biii": {
     "message": "<a>Más información</a>"
@@ -180,67 +186,67 @@
     "message": "Bajo GDPR:"
   },
   "faq.body12Ai": {
-    "message": "The Data Protection Office (DPO), although the legislation states that organizations should train staff to recognize GDPR requests no matter who they reach or in which format."
+    "message": "La Oficina de Protección de Datos (DPO), aunque la legislación establece que las organizaciones deben capacitar a su personal para lidiar con las solicitudes de GDPR sin importar a quién lleguen o en qué formato."
   },
   "faq.body12B": {
     "message": "Bajo CCPA:"
   },
   "faq.body12Bi": {
-    "message": "The CCPA does not define who specifically within an organization is responsible for this."
+    "message": "CCPA no define quién específicamente dentro de una organización es responsable de esto."
   },
   "faq.body13A": {
-    "message": "To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on <a1>Mac</a1> and <a2>Windows</a2>."
+    "message": "Para solucionar este problema, deberá configurar un cliente de correo electrónico predeterminado en su sistema. Aquí hay instrucciones sobre cómo hacer esto en <a1>Mac</a1> y <a2>Windows</a2>."
   },
   "faq.body1A": {
-    "message": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects Europian Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
+    "message": "Actualmente existen dos regulaciones principales que protegen la privacidad individual en línea. La Ley General de Protección de Datos (General Data Protection Regulation\n), o GDPR, protege a los residentes de la Unión Europea, y la Ley de Privacidad del Consumidor de California (California Consumer Privacy Act), o CCPA, protege a los residentes de California."
   },
   "faq.body2A": {
-    "message": "The General Data Protection Regulations, or GDPR for short, is a new regulation introduced in the European Union in May 2018. It protects the fundamental right of people to the protection of personal data."
+    "message": "La ley General de Protección de Datos (GDPR) es un reglamento de la Unión Europea que protege el derecho fundamental de las personas a la protección de sus datos personales."
   },
   "faq.body2Ai": {
-    "message": "<a>Read the regulation</a>"
+    "message": "<a>lea más sonbre la ley</a>"
   },
   "faq.body2B": {
-    "message": "The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
+    "message": "El GDPR no se aplica a ciertas actividades que incluyen, la aplicación de la ley nacional, la seguridad nacional y las actividades exclusivamente personales / domésticas."
   },
   "faq.body2C": {
     "message": "<a>Más información</a>"
   },
   "faq.body3A": {
-    "message": "The GDPR applies to:"
+    "message": "GDPR se aplica a:"
   },
   "faq.body3Ai": {
-    "message": "Organizations established within the EU who collect or process personal data (even of people located outside the EU)"
+    "message": "Organizaciones establecidas dentro de la Union Europea que recopilan o procesan datos personales (incluso de personas ubicadas fuera de la UE)"
   },
   "faq.body3Aii": {
-    "message": "Organizations established outside the EU collecting or processing personal information while providing goods or services (paid or for free) to people located within the EU"
+    "message": "Organizaciones establecidas fuera de la UE que recopilan o procesan información personal mientras proporcionan bienes o servicios (pagados o gratuitos) a personas ubicadas dentro de la UE"
   },
   "faq.body3Aiii": {
-    "message": "Organizations established outside the EU collecting or processing personal information while engaged in the monitoring of the behavior of people while they are in the EU"
+    "message": "Organizaciones establecidas fuera de la UE que recopilan o procesan información personal mientras se dedican al seguimiento del comportamiento de las personas mientras se encuentran en la UE."
   },
   "faq.body4A": {
-    "message": "The California Consumer Privacy Act, or CCPA for short, is a new regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
+    "message": "La Ley de Privacidad del Consumidor de California (CCPA) es una regulación introducida en California en Enero de 2020. Protege el derecho fundamental de las personas a la protección de sus datos personales y privacidad en línea."
   },
   "faq.body4Ai": {
-    "message": "<a>Read the regulation</a>"
+    "message": "<a>lea más sonbre la ley</a>"
   },
   "faq.body5A": {
-    "message": "The CCPA applies to organizations that collect consumers’ personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
+    "message": "CCPA se aplica a las organizaciones que recopilan la información personal de los consumidores, o en nombre de las cuales se recopila dicha información y que, por sí solas o en conjunto con otros, determina los propósitos y medios del procesamiento de la información personal de los consumidores, que opera en el Estado. de California, y que satisfaga uno o más de los siguientes umbrales:"
   },
   "faq.body5Ai": {
-    "message": "Has annual gross revenues in excess of twenty-five million dollars ($25,000,000)"
+    "message": "Tiene ingresos brutos anuales superiores a veinticinco millones de dólares (25,000,000)"
   },
   "faq.body5Aii": {
-    "message": "Annually buys, receives, sells, or shares for commercial purposes, alone or in combination, the personal information of 50,000 or more consumers, households, or devices"
+    "message": "Compra, recibe, vende o comparte anualmente con fines comerciales (solo o en conjunto) la información personal de 50.000 o más consumidores, hogares o dispositivos."
   },
   "faq.body5Aiii": {
-    "message": "Derives 50 percent or more of its annual revenues from selling consumers’ personal information"
+    "message": "Obtiene el 50 por ciento o más de sus ingresos anuales de la venta de información personal de los consumidores"
   },
   "faq.body6Ai": {
     "message": "Bajo GDPR:"
   },
   "faq.body6Aii": {
-    "message": "Any information relating to a person which can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."
+    "message": "Cualquier información relacionada con una persona que pueda usarse directa o indirectamente para identificarla. Se puede identificar a una persona de diversas formas, incluido el nombre, el número de identificación, los datos de ubicación u otros identificadores en línea."
   },
   "faq.body6Aiii": {
     "message": "<a>Más información</a>"
@@ -249,64 +255,64 @@
     "message": "Bajo CCPA:"
   },
   "faq.body6Bii": {
-    "message": "Personal information is anything that identifies, relates to, describes, or is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household."
+    "message": "Información personal es cualquier información que se identifique, describa o pueda asociarse con, o pueda estar razonablemente relacionado, directa o indirectamente, con un consumidor u hogar en particular."
   },
   "faq.body6Biii": {
-    "message": "<a>Read the definition</a>"
+    "message": "<a>Lea la definición</a>"
   },
   "faq.body7A": {
     "message": "Bajo GDPR:"
   },
   "faq.body7Ai": {
-    "message": "The right to erasure is not absolute, and concerns data processing where consent is the legal basis for the processing. For example, data needed due to a contract, or data which is in the public interest does not fall under this definition. More specifically, the right only applies in the following circumstances:"
+    "message": "El derecho al olvido no es absoluto y se refiere al procesamiento de datos donde el consentimiento es la base legal para el procesamiento. Por ejemplo, los datos necesarios para un contrato o los datos de interés público, no se incluyen en esta definición. Más específicamente, el derecho solo se aplica en las siguientes circunstancias:"
   },
   "faq.body7Aii": {
-    "message": "The organization no longer needs your data. Example: after you have cancelled your gym membership, it no longer needs to keep details of your name, address, age and health conditions."
+    "message": "La organización ya no necesita sus datos. Ejemplo: después de haber cancelado su suscripción al gimnasio. No es necesario que esta organización conserve sus detalles como: su nombre, dirección, edad y condiciones de salud."
   },
   "faq.body7Aiii": {
-    "message": "You initially consented to the use of your data, but have now withdrawn your consent. Example: you agreed to take part in a market-research study and now no longer wish to do so."
+    "message": "Inicialmente dio su consentimiento para el uso de sus datos, pero ahora lo ha retirado. Ejemplo: aceptó participar en un estudio de investigación de mercado y ahora ya no desea hacerlo."
   },
   "faq.body7Aiv": {
-    "message": "You have objected to the use of your data, and your interests outweigh those of the organization using it."
+    "message": "Se ha negado a que usen sus datos y sus intereses superan a los de la organización que los utiliza."
   },
   "faq.body7Av": {
-    "message": "The organization has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
+    "message": "La organización ha recopilado o utilizado sus datos de forma ilegal. Ejemplo: no ha cumplido la normativa sobre protección de datos."
   },
   "faq.body7Avi": {
-    "message": "The organization has a legal obligation to erase your data."
+    "message": "La organización tiene la obligación legal de borrar sus datos."
   },
   "faq.body7Avii": {
-    "message": "The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organizations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
+    "message": "Sus datos se recopilaron para un servicio en línea cuando era menor de  edad. Ejemplo: redes sociales o una aplicación de juegos. La ley otorga una protección especial al menor ya que puede ser menos consciente de los riesgos y las consecuencias de proporcionar sus datos a las organizaciones. Incluso si ahora es un adulto, tiene derecho a que se borren sus datos si éstos se recopilaron cuando era menor de edad."
   },
   "faq.body7B": {
     "message": "<a>Más información</a>"
   },
   "faq.body8A": {
-    "message": "There are certain circumstances where an organization is legally permitted to refuse to erase your data."
+    "message": "Hay ciertas circunstancias en las que una organización está legalmente autorizada a negarse a borrar sus datos."
   },
   "faq.body8Ai": {
     "message": "Bajo GDPR:"
   },
   "faq.body8Aii": {
-    "message": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
+    "message": "Cuando la conservación de sus datos sea necesaria por motivos de libertad de expresión e información (esto incluye periodismo y fines académicos, artísticos y literarios)."
   },
   "faq.body8Aiii": {
-    "message": "When the organization is legally obliged to keep hold of your data."
+    "message": "Cuando la organización esté obligada legalmente a conservar sus datos."
   },
   "faq.body8Aiv": {
-    "message": "When keeping hold of your data is necessary for reasons of public health."
+    "message": "Cuando sea necesario conservar sus datos por motivos de salud pública."
   },
   "faq.body8Av": {
-    "message": "When keeping your data is necessary for establishing, exercising or defending legal claims."
+    "message": "Cuando la conservación de sus datos sea necesaria para el establecimiento, ejercicio o defensa de reclamaciones legales."
   },
   "faq.body8Avi": {
-    "message": "When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
+    "message": "Cuando borrar sus datos perjudicaría la investigación científica o histórica, o el archivo éstos sea de interés público."
   },
   "faq.body8Avii": {
-    "message": "If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the ICO, or through the courts."
+    "message": "Si, después de considerar su solicitud, la organización decide que no necesita borrar sus datos, aún debe responderle. Debería explicarle por qué cree que no tiene que borrar sus datos y hacerle saber sobre su derecho a presentar una queja sobre esta decisión ante la ICO o ante los tribunales."
   },
   "faq.body8B": {
-    "message": "The organization can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
+    "message": "La organización también puede rechazar su solicitud si, como establece la ley, es claramente infundada o excesiva."
   },
   "faq.body8Bi": {
     "message": "<a>Más información</a>"
@@ -315,31 +321,31 @@
     "message": "Bajo CCPA:"
   },
   "faq.body8Ci": {
-    "message": "Free speech or another right provided by law."
+    "message": "La libertad de expresión u otro derecho establecido por la ley."
   },
   "faq.body8Cii": {
-    "message": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
+    "message": "El uso con fines de investigación, si la eliminación de datos personales hiciera imposible o perjudicara el logro de dicha investigación."
   },
   "faq.body8Ciii": {
-    "message": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
+    "message": "El procesamiento de esa información es necesario para proteger de actividades ilegales o para enjuiciar a los responsables de la actividad."
   },
   "faq.body8Civ": {
-    "message": "For complying with a legal obligation."
+    "message": "Por cumplir con una obligación legal."
   },
   "faq.body8Cix": {
-    "message": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+    "message": "De lo contrario, usan la información personal del consumidor internamente, de manera legal, que sea compatible con el contexto en el que el consumidor proporcionó la información."
   },
   "faq.body8Cv": {
-    "message": "To perform a contract between the business and the consumer."
+    "message": "Para llevar a cabo un contrato entre la empresa y el consumidor."
   },
   "faq.body8Cvi": {
-    "message": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
+    "message": "Detectar incidentes de seguridad, protéjer contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad."
   },
   "faq.body8Cvii": {
-    "message": "Debug to identify and repair errors that impair existing intended functionality."
+    "message": "Identificar y reparar los errores que perjudican a una funcionalidad existente."
   },
   "faq.body8Cviii": {
-    "message": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+    "message": "Que permitan únicamente el usos interno razonablemente alineados con las expectativas del consumidor y, en función de la relación del consumidor y la empresa."
   },
   "faq.body8D": {
     "message": "<a>Más información</a>"
@@ -348,250 +354,256 @@
     "message": "Bajo GDPR:"
   },
   "faq.body9Ai": {
-    "message": "faq.An organization has one month to comply with a request. The deadline can be extended to 2 additional months taking into account the complexity and number of requests. In any case, the organization must inform you of such extension within one month from the receipt of the request."
+    "message": "faq. Cualquier organization tiene un (1) mes para cumplir con una solicitud. El plazo puede ampliarse a dos (2) meses adicionales teniendo en cuenta la complejidad y el número de solicitudes. En cualquier caso, la organización deberá informarte de dicha prórroga en el plazo de un (1) mes a partir de la recepción de la solicitud."
   },
   "faq.body9Aii": {
     "message": "Bajo CCPA:"
   },
   "faq.body9Aiii": {
-    "message": "The deadline to respond to a request is 45 days from the receipt of the consumer’s request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+    "message": "El plazo para responder a una solicitud es de 45 días a partir de la recepción de la solicitud. El plazo se puede extender 45 días adicionales cuando sea razonablemente necesario, si se informa al consumidor dentro de los primeros 45 días."
   },
   "faq.heading1": {
-    "message": "Which regulation protects me, GDPR or CCPA?"
+    "message": "¿Qué regulación me protege, GDPR o CCPA?"
   },
   "faq.heading10": {
-    "message": "What should I do if an organization did not comply, or did not fully comply with my request?"
+    "message": "¿Qué debo hacer si una organización no cumplió completamente (o parcialmente) con mi solicitud?"
   },
   "faq.heading11": {
-    "message": "What are the penalties an organization that does not comply with a request may face?"
+    "message": "¿Cuáles son las sanciones que puede enfrentar una organización que no cumpla con una solicitud?"
   },
   "faq.heading12": {
-    "message": "Who in an organization is responsible for handling the requests?"
+    "message": "¿Quién es responsable de la gestión de las solicitudes?"
   },
   "faq.heading13": {
-    "message": "When sending a request via the website, I get an error message, or nothing happens"
+    "message": "Al enviar una solicitud a través de la web, recibo un mensaje de error o no sucede nada"
   },
   "faq.heading2": {
-    "message": "What is the GDPR?"
+    "message": "¿Qué es GDPR?"
   },
   "faq.heading3": {
-    "message": "Who does the GDPR apply to?"
+    "message": "¿A quién afecta GDPR?"
   },
   "faq.heading4": {
-    "message": "What is the CCPA?"
+    "message": "¿Qué es CCPA?"
   },
   "faq.heading5": {
-    "message": "Who does the CCPA apply to?"
+    "message": "¿A quién afecta CCPA?"
   },
   "faq.heading6": {
-    "message": "What constitutes personal data?"
+    "message": "¿Qué son los datos personales?"
   },
   "faq.heading7": {
-    "message": "When can I request erasure of my personal data?"
+    "message": "¿Cuándo puedo solicitar la eliminación de mis datos personales?"
   },
   "faq.heading8": {
-    "message": "When can the organization say no?"
+    "message": "¿Cuándo podrían decir que no a la solicitud?"
   },
   "faq.heading9": {
-    "message": "How long does an organization have to comply with a request?"
+    "message": "¿Cuánto tiempo tiene una organización para resolver una solicitud?"
   },
   "faq.title": {
-    "message": "Frequently Asked Questions"
+    "message": "Preguntas frecuentes"
   },
   "footer.contact": {
-    "message": "For more information please <a>contact us</a>. © Copyright 2019"
+    "message": "Para obtener más información, <a>contáctenos aquí</a>. © Copyright 2019"
   },
   "footer.disclaimer": {
-    "message": "<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+    "message": "<span>Aviso:</span> Este servicio se proporciona tal cual, sin garantía de ningún tipo. El uso de este servicio es bajo su propio riesgo. No podemos responsabilizarnos por ningún daño directo o indirecto que resulte del uso de este servicio. La información relacionado con asuntos legales proporcionada por este servicio junto con el contenido de esta web, se proporciona para su uso privado y no constituye asesoramiento legal. Si necesita asesoramiento legal específico, debe consultar con un abogado autorizado."
   },
   "footer.madeBy": {
-    "message": "<a>Made by Conscious Digital</a>"
+    "message": "<a>Desarrollado por Conscious Digital</a>"
   },
   "footer.mission": {
-    "message": "<a>Mission</a>"
+    "message": "<a>nuestra Misión</a>"
   },
   "footer.privacyPolicy": {
-    "message": "<a>Privacy Policy</a>"
+    "message": "<a>Política de privacidad</a>"
   },
   "footer.wishList": {
-    "message": "make a wish on our roadmap"
+    "message": "Contribuye nuestra hoja de ruta"
   },
   "hero.headerText": {
-    "message": "Get organizations to delete your account or send you a copy of your personal data."
+    "message": "Consiga que las organizaciones eliminen o le envíen una copia de sus datos personales."
   },
   "hero.heading": {
-    "message": "Own Your Data"
+    "message": "Controla tus datos personales"
   },
   "hero.intro": {
-    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
+    "message": "Muchas organizaciones recopilan y venden sus datos personales, a menudo sin su consentimiento. Utilice este servicio gratuito para enviarles una solicitud de acceso o eliminación de datos. Busca el nombre de una organización a continuación y elimina tus datos. ¿No sabes por dónde empezar? Puedes comenzar por los <a>principales corredores de datos</a>."
   },
   "howItWorks.fillIn": {
-    "message": "Fill in your name and any additional information which may help the organization to identify you in their information systems (we do not keep this information)."
+    "message": "Rellena tu nombre y cualquier información adicional que pueda ayudar a la organización a identificarte en sus sistemas (nosotros conservaremos esta información)."
   },
   "howItWorks.fillInTitle": {
-    "message": "Fill in"
+    "message": "Rellena"
   },
   "howItWorks.imgAlt": {
-    "message": "A graphic representing the user interface"
+    "message": "Un gráfico que representa la interfaz de usuario"
   },
   "howItWorks.search": {
-    "message": "Search for an organization using the search box above. If the organization you are looking for is not on the list, you can still send it a request by providing a contact email."
+    "message": "Busque una organización utilizando el buscador en la parte superior de nuestra web. Si la organización que está buscando no está en la lista, aún puede enviarle una solicitud proporcionando un correo electrónico de contacto."
   },
   "howItWorks.searchTitle": {
-    "message": "Search"
+    "message": "Busque"
   },
   "howItWorks.send": {
-    "message": "Click the Send button to generate a request email addressed to the relevant person at the organization you selected. The email will open up in your default email application where you can review, and then send it."
+    "message": "Haga clic en el botón Enviar para generar un correo electrónico de solicitud dirigido a la persona relevante en la organización que seleccionó. A continuación se abrirá en su aplicación de correo electrónico predeterminada donde podrá revisar una plantilla y luego enviarla."
   },
   "howItWorks.sendTitle": {
-    "message": "Send"
+    "message": "Envía"
   },
   "howItWorks.title": {
-    "message": "How it works"
+    "message": "Cómo funciona"
   },
   "howItWorks.whyBody": {
-    "message": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your <donations>donations</donations>. Read more <about>about us</about>."
+    "message": "Hemos creado este servicio porque creemos que la privacidad importa, y que el ejercicio de su derecho a la privacidad debe ser fácil y gratuito. No recopilamos ni vendemos datos personales. El servicio es autofinanciado por sus creadores, y con la ayuda de tus <donations>donaciones</donations>. Lea más acerca de <about>nosotros</about>."
   },
   "howItWorks.whyTitle": {
-    "message": "Why Trust Us?"
+    "message": "¿Por qué confiar en nosotros?"
   },
   "howItWorks.yourData": {
-    "message": "The <gdpr>General Data Protection Regulations</gdpr> (GDPR) and the <ccpa>California Consumer Privacy Act</ccpa> (CCPA) require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+    "message": "La <gdpr>Ley General de Protección de Datos</gdpr> (GDPR) y la <ccpa>Ley de Privacidad del Consumidor de California</ccpa> (CCPA) requieren que las organizaciones borren o proporcionen una copia de sus datos personales si así lo solicita el usuario. Las organizaciones tienen un corto período de tiempo para cumplirlas, de lo contrario pueden enfrentarse a multas."
   },
   "howItWorks.yourDataTitle": {
-    "message": "It's your data, own it!"
+    "message": "Son tus datos, ¡recuperalos!"
   },
   "index.description": {
-    "message": "Delete your account or access the personal data organizations have on you using this free service."
+    "message": "Elimine su cuenta o acceda a los datos personales que las organizaciones tienen sobre usted utilizando este servicio gratuito."
   },
   "nav.about": {
-    "message": "About"
+    "message": "Nosotros"
   },
   "nav.contact": {
-    "message": "Contact Us"
+    "message": "Contáctenos"
   },
   "nav.contribute": {
     "message": "Colabora"
   },
   "nav.data-brokers": {
-    "message": "Data Brokers"
+    "message": "Corredores de datos"
   },
   "nav.donation": {
-    "message": "Make a Donation"
+    "message": "Haz una donación"
   },
   "nav.extension": {
-    "message": "Browser Extension"
+    "message": "Extensión del navegador"
   },
   "nav.faq": {
-    "message": "FAQ"
+    "message": "Preguntas frecuentes"
   },
   "nav.howItWorks": {
-    "message": "How it works"
+    "message": "Cómo funciona"
   },
   "nav.privacyPoilcy": {
-    "message": "Privacy Policy"
+    "message": "Política de Privacidad"
   },
   "nav.search": {
-    "message": "Search Organizations"
+    "message": "Buscar organizaciones"
   },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."
+    "message": "Envíe solicitudes de acceso y eliminación de datos CCPA y GDPR a cualquier organización de forma rápida y sencilla utilizando este servicio gratuito."
   },
   "org.descriptionExistingOrg": {
-    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."
+    "message": "Solicite la eliminación o copia de sus datos personales de {org} rápida y sencilla utilizando este servicio gratuito."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Delete Your Account or Get a Copy of Your Data"
+    "message": "{org} - Elimine su cuenta u obtenga una copia de sus datos"
   },
   "org.titleNewOrg": {
-    "message": "Send GDPR and CCPA Data Deletion and Access Requests"
+    "message": "Enviar solicitudes de acceso y eliminación de datos de GDPR y CCPA"
   },
   "orgHero.newOrgSubTitle": {
-    "message": "Send any organization a {ccpa} or a {gdpr} request."
+    "message": "Envíe a cualquier organización una solicitud bajo {ccpa} o {gdpr}"
   },
   "orgHero.newOrgTitle": {
-    "message": "Delete or Get a Copy of Your Personal Data"
+    "message": "Eliminar u obtener una copia de sus datos personales"
   },
   "orgHero.notAffiliatedDisclamer": {
-    "message": "This service is <disclamer>not affiliated with</disclamer> (find out more <about>about us</about>)."
+    "message": "Este servicio <disclamer> no esta afiliado con</disclamer> (descubre más <about>sobre nosotros</about>)."
   },
   "orgHero.subTitle": {
-    "message": "Use this free service to send {ccpa} and {gdpr} data requests."
+    "message": "Use este servicio gratuito para enviar solicitudes de datos {ccpa} y {gdpr}"
   },
   "orgHero.title": {
-    "message": "Request account deletion or a copy of your personal data."
+    "message": "Solicite la eliminación o la copia de sus datos personales."
   },
   "personalInfoForm.IdentifyingInfoHelper": {
-    "message": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
+    "message": "Proporcione cualquier información adicional que ayude a la organización a localizar sus datos en sus sistemas de información como nombre de usuario, ID de cliente o número de cliente. <strong>Por favor, no proporcione contraseñas o ninguna información personal que la organización no tenga todavía.</strong>"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "Send me a copy of my data"
+    "message": "Envíame una copia de mis datos"
   },
   "personalInfoForm.ccpaOption": {
     "message": "CCPA (California)"
   },
   "personalInfoForm.ccpaOrGdpr": {
-    "message": "Regulation"
+    "message": "Regulación"
   },
   "personalInfoForm.ccpaOrGdprHelper": {
-    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+    "message": "Elija la regulación basada en su lugar de residencia, a menos que tenga una razón específica para elegir de manera diferente."
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Introduzca el nombre de dominio de la organización (ejemplo: google.co.uk o facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organization domain"
   },
   "personalInfoForm.companyEmailLabel": {
-    "message": "Organization email address"
+    "message": "Dirección de correo electrónico de la organización"
   },
   "personalInfoForm.companyNameHelper": {
-    "message": "Please enter the name of the organization you would like to contact."
+    "message": "Introduzca el nombre de la organización a la que desea contactar."
   },
   "personalInfoForm.companyNameLabel": {
-    "message": "Organization name"
+    "message": "Nombre de la Organización"
   },
   "personalInfoForm.compnayEmailHelper": {
-    "message": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+    "message": "Ingrese la dirección de correo electrónico de la persona o departamento responsable de las solicitudes de GDPR / CCPA / privacidad / legales. Por lo general, puede encontrar esta información en el sitio web de la organización bajo la política de privacidad, los términos y condiciones o la página de contacto."
   },
   "personalInfoForm.deletionRequestLabelText": {
-    "message": "Delete my data"
+    "message": "Eliminar mis datos"
   },
   "personalInfoForm.gdprOption": {
-    "message": "GDPR (European Union)"
+    "message": "GDPR (Unión Europea)"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a>Frequently Asked Questions</a>."
+    "message": "Rellene el siguiente formulario para crear una solicitud que luego puede revisar y enviar. Para más información, lea nuestras <a>Preguntas Frecuentes</a>."
   },
   "personalInfoForm.identifyingInfoLabel": {
-    "message": "Additional identifying information (optional)"
+    "message": "Información de identificación adicional (opcional)"
   },
   "personalInfoForm.nameHelper": {
-    "message": "This will be used by the organization to identify you."
+    "message": "La organización utilizará esta información para identificarle."
   },
   "personalInfoForm.nameLabel": {
-    "message": "Full name"
+    "message": "Nombre completo"
   },
   "personalInfoForm.requestTypeLabelText": {
-    "message": "Request type"
+    "message": "Tipo de solicitud"
   },
   "personalInfoForm.sendButton": {
-    "message": "Review your request"
+    "message": "Revise su solicitud"
   },
   "privacy.analyticsBodyOneA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
+    "message": "Matomo: nuestro servicio de análisis web orientado a la privacidad. Puede visitar su página { matomo }."
   },
   "privacy.contact": {
-    "message": "Contact"
+    "message": "Contáctenos"
   },
   "privacy.contactBody": {
-    "message": "If you have questions or concerns about this Privacy Policy, please contact us at {mail}."
+    "message": "Si tiene preguntas o dudas acerca de esta Política de Privacidad, póngase en contacto con nosotros en {mail}."
   },
   "privacy.cookies": {
-    "message": "Cookies and Tracking"
+    "message": "Cookies y rastreadores"
   },
   "privacy.cookiesBody": {
-    "message": "In operating the Service we use a technology called \"cookies\". A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service. While we do not use cookies to deliver the Service, we use cookies to help us analyze Service usage more accurately, and to save the choices you make on the website so that it is easier for you to use the service next time. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a \"help\" section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
+    "message": "En el funcionamiento del Servicio utilizamos una tecnología llamada \"cookies\". Una cookie es unn dispositive que el ordenador recibe cuando usas un navegador para acceder a nuestro Servicio. Aunque no usamos cookies para prestar el servicio, utilizamos cookies para ayudarnos a analizar el uso del servicio con mayor precisión, y guardar como navega la web para que sea más fácil para usted utilizar el servicio la próxima vez. En todos los casos en los que usemos cookies, no recogeremos datos personales excepto con su permiso explícito. En la mayoría de los navegadores web, encontrará una sección de \"ayuda\" en la barra de herramientas. Consulte esta sección para obtener información sobre cómo recibir notificaciones cuando esté recibiendo una nueva cookie y cómo desactivar las cookies."
   },
   "privacy.description": {
-    "message": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
+    "message": "Tus datos son de tu propiedad, y nosotros existimos para ayudarte a controlar quién tiene acceso a ellos. Esta es nuestra política de privacidad."
   },
   "privacy.lastUpdated": {
     "message": "Última actualización"
@@ -603,70 +615,70 @@
     "message": "Nuestro servicio no guardará ninguna información en nuestros servidores ni compartirá sus datos con otras organizaciones. Utilizaremos su información unicamente para generar un correo que aparecerá unicamente en su gestor de correo electronico. Usted tendrá la libertad de mandar ese correo si creee que es oportuno."
   },
   "privacy.personalData": {
-    "message": "Personal Data That You Provide"
+    "message": "Datos personales que proporcionas"
   },
   "privacy.personalDataBody1": {
-    "message": "While using this Service, we may ask you to provide us with certain personal information that can be used to contact or identify you (\"Personal Data\"). The Personally identifiable information collect is:"
+    "message": "Al utilizar este Servicio, es posible que le pidamos que nos proporcione cierta información personal que pueda utilizarse para contactarlo o identificarlo (\"Datos personales\"). La información de identificación personal recopilada sería:"
   },
   "privacy.personalDataBodyOneA": {
-    "message": "Your name"
+    "message": "Tu nombre"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Additional information needed to identify you with the organizations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
+    "message": "Información adicional necesaria para identificarte en las organizaciones de las que eliges elminar tus datos (como un nombre de usuario, ID de cliente o número de cuenta)"
   },
   "privacy.personalDataBodyOneC": {
-    "message": "Cookies and Usage Data"
+    "message": "Cookies y datos de uso"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.org and the authorized third parties referred to in this Policy."
+    "message": "Al proporcionarnos voluntariamente sus Datos Personales, estas dando tu consentimiento para que lo usemos, de acuerdo con nuestra Política de Privacidad. Si proporcionas datos personales a este sitio web, está aceptando que tales Datos Personales puedan ser transferidos desde su ubicación actual a las oficinas y servidores de yourdigitalrights.org y los terceros autorizados a los que se hace referencia en esta Política."
   },
   "privacy.privacyTitle": {
-    "message": "Privacy Policy"
+    "message": "Política de Privacidad"
   },
   "privacy.promise": {
     "message": "Nuestra Promesa"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "Eres dueño de tus datos, y  nosotros existimos para ayudarte a controlar quién tiene acceso a ellos. En este sentido, queremos ser transparentes, y creemos firmemente en mantener tus datos de manera personal, privada y segura. Limitaremos los datos personales que recopilamos al mínimo requerido para mantener el servicio (yourdigitalrights.org). No venderemos sus datos personales a nadie y no los conservaremos en nuestros servidores. Solo compartiremos su información personal cuando sea necesario para proporcionar el servicio o como se describe en esta Política."
   },
   "privacy.title": {
-    "message": "Privacy Policy"
+    "message": "Política de Privacidad"
   },
   "privacy.usageDataBody": {
-    "message": "We may collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as the Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, the actions you perform, unique device identifiers and other diagnostic data. We use the following third-party Service Provider to monitor and analyze the use of our Service:"
+    "message": "Podremos recopilar información sobre cómousa este servicio (\"Datos de uso\"). Estos Datos de uso pueden incluir información como la dirección del Protocolo de Internet (por ejemplo, la dirección IP), el tipo de navegador, la versión del navegador, las páginas que visita een nuestro servicio, la hora y fecha de su visita, el tiempo dedicado a esas páginas, las acciones realiza, identificadores de dispositivos únicos y otros datos de diagnóstico. Usamos los siguientes proveedorer externos para monitorear y analizar el uso:"
   },
   "redirect.continueText": {
-    "message": "Continue"
+    "message": "Continuar"
   },
   "redirect.headingText": {
-    "message": "opt-out.eu is now yourdigitalrights.org"
+    "message": "opt-out.eu ahora es yourdigitalrights.org"
   },
   "redirect.text": {
-    "message": "Great news, this service is growing! We have recently launched support for the California Consumer Privacy Act (CCPA), and will soon launch support for additional request types beyond erasure. As a result we feel that the domain name ‘opt-out.eu’ is too limiting. We are more committed than ever to help you exercise your digital rights, welcome to our new home @ <style>yourdigitalrights.org</style>!"
+    "message": "¡Buenas noticias, este servicio está creciendo! Recientemente, lanzamos soporte para la Ley de Privacidad del Consumidor de California (CCPA) y pronto lanzaremos soporte para tipos de solicitudes adicionales más allá del borrado. Como resultado, creemos que el nombre de dominio 'opt-out.eu' es demasiado limitante. Estamos más comprometidos que nunca para ayudarlo a ejercer sus derechos digitales, ¡bienvenido a nuestro nuevo hogar @ <style>yourdigitalrights.org</style>!"
   },
   "search.companyPlaceholder": {
-    "message": "Search for an organization"
+    "message": "Buscar una organización"
   },
   "search.noResults": {
-    "message": "Can't find an organization?"
+    "message": "¿No encuentras la organización?"
   },
   "search.noResultsMore": {
-    "message": "Click here to add one"
+    "message": "Haga clic aquí para añadir una organización"
   },
   "social.chromeCTA": {
-    "message": "Download it for Chrome"
+    "message": "Descárgalo para Chrome"
   },
   "social.chromeTitle": {
-    "message": "Google Chrome Extension"
+    "message": "Extensión de Google Chrome"
   },
   "social.emailBody": {
-    "message": "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it."
+    "message": "Visite YourDigitalRights.org, un servicio gratuito que le facilita la búsqueda de los datos personales que miles de organizaciones tienen sobre usted y consigue que los eliminen."
   },
   "social.emailSubject": {
-    "message": "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights"
+    "message": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org"
   },
   "social.extensionHeadline": {
-    "message": "Opt out directly from your browser"
+    "message": "Dese de baja directamente desde su navegador"
   },
   "social.extensionText": {
     "message": "¿Quiere tener un mejor control sobre quién tiene acceso a sus datos personales? Nuestra extensión de navegador (Chrome, Internet explorer, Firefox) le permite un acceeso directo a recuperar su datos con solo hacer clic."
