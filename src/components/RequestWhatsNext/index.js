@@ -62,21 +62,6 @@ class Details extends Component {
     const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
     const subject = reminderEmail.subject({ ...this.state });
     const body = reminderEmail.body({ ...this.state });
-//    const subject = `[${intl.formatMessage({id: "request.next.reminder", defaultMessage: "Reminder"})}] ${requestItem.emailSubject.S}`;
-//    const body = `${intl.formatMessage(
-//  {
-//    id: "request.next.requestingResponseToBelowRequest",
-//    defaultMessage: "I am requesting a response to my below request, which was sent {daysSince} {day} ago."
-//  },
-//  {
-//    daysSince: days.sinceRequest,
-//    day: this.pluralizeDay(days.sinceRequest),
-//  },
-//)}
-//
-//${intl.formatMessage({id: "request.next.aCopyOfTheRequest", defaultMessage: "A copy of the original request follows."})}
-//
-//${requestItem.emailBody.S}`;
 
     return mailtoLink({
       to,
