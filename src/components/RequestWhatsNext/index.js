@@ -9,13 +9,10 @@ import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
 import fetch from "isomorphic-fetch";
 
+import reminderEmail from "../../email-templates/reminder";
 import capitalize from "../../utils/capitalize";
 
 class Details extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   async componentDidMount() {
     window.mailgoConfig = {
       dark: true,
@@ -53,21 +50,8 @@ class Details extends Component {
 
     const to = requestItem.emailTo.S;
     const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
-    const subject = `[${intl.formatMessage({id: "request.next.reminder", defaultMessage: "Reminder"})}] ${requestItem.emailSubject.S}`;
-    const body = `${intl.formatMessage(
-  {
-    id: "request.next.requestingResponseToBelowRequest",
-    defaultMessage: "I am requesting a response to my below request, which was sent {daysSince} {day} ago."
-  },
-  {
-    daysSince: days.sinceRequest,
-    day: this.pluralizeDay(days.sinceRequest),
-  },
-)}
-
-${intl.formatMessage({id: "request.next.aCopyOfTheRequest", defaultMessage: "A copy of the original request follows."})}
-
-${requestItem.emailBody.S}`;
+    const subject = reminderEmail.subject({ ...this.state });
+    const body = reminderEmail.body({ ...this.state });
 
     return mailtoLink({
       to,
