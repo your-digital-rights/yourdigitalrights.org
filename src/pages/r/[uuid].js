@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { useIntl } from "react-intl";
+import { injectIntl } from "react-intl";
 import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
@@ -70,10 +70,9 @@ class Uuid extends Component {
   }
 
   render() {
-    const {classes, data, router} = this.props;
+    const {classes, data, router, intl} = this.props;
     const { uuid } = router.query;
     const regulationType = data.item.regulationType.S;
-    const intl = useIntl();
     const Title = intl.formatMessage(
       {
         id: "request.title",
@@ -192,4 +191,4 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default withStyles(styles)(withRouter(Uuid));
+export default withStyles(styles)(withRouter(injectIntl(Uuid)));

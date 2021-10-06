@@ -46,9 +46,8 @@ class Hero extends Component {
   }
 
   render() {
-    const {classes, requestItem, selectedCompany, days} = this.props;
+    const {classes, requestItem, selectedCompany, days, status} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
-    const {status} = this.state;
 
     return (
       <div className={classes.hero} id="hero">
