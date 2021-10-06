@@ -1,3 +1,4 @@
+import { Component } from "react";
 import { useIntl } from "react-intl";
 import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
@@ -54,89 +55,108 @@ const styles = (theme) => ({
   },
 });
 
-const Uuid = ({ data, classes, router }) => {
-  const { uuid } = router.query;
-  const regulationType = data.item.regulationType.S;
-  const intl = useIntl();
-  const Title = intl.formatMessage(
-    {
-      id: "request.title",
-      defaultMessage: "Details for your {regulationType} request",
-    },
-    {
-      regulationType,
-    },
-  );
-  const Description = intl.formatMessage(
-    {
-      id: "request.description",
-      defaultMessage: "View details about a {regulationType} request submitted with this free service.",
-    },
-    {
-      regulationType,
-    },
-  );
-  const BaseURL = "/request/" + uuid;
-  const days = {
-    sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
-    sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,
-    sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
-  };
+class Uuid extends Component {
+  constructor(props) {
+    super(props);
+    this.setStatus = this.setStatus.bind(this);
 
-  const regulation = {};
-  if (regulationType === 'GDPR') {
-    regulation.type = 'GDPR';
-    regulation.timeLimit = 30;
-    regulation.authority = 'DPA';
-    regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
-    regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
-  } else {
-    regulation.type = 'CCPA';
-    regulation.timeLimit = 45;
-    regulation.authority = 'CA AG';
-    regulation.link = 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company';
-    regulation.denyInfo = 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV';
+    this.state = {
+      status: props.data.item.status ? props.data.item.status.S : "NO_REPLY",
+    };
   }
 
-  return (
-    <div>
-    <NextSeo
-        title = {Title}
-        canonical = {generateCanonical(BaseURL, router.locale)}
-        description = {Description}
-        openGraph = {{
-          description: Description,
-        }}
-        languageAlternates = {generateLangLinks(BaseURL)}
-      />       
-      <Nav />
-      <RequestHero
-        selectedCompany={data.organization}
-        requestItem={data.item}
-        days={days}
-      />
-      <RequestTimeline
-        requestItem={data.item}
-        days={days}
-        regulation={regulation}
-      />
-      <RequestDetails
-        selectedCompany={data.organization}
-        requestItem={data.item}
-        days={days}
-        regulation={regulation}
-        intl={intl}
-      />
-      {data.organization && (
-        <AboutOrg 
+  setStatus(status) {
+    this.setState({ status });
+  }
+
+  render() {
+    const {classes, data, router} = this.props;
+    const { uuid } = router.query;
+    const regulationType = data.item.regulationType.S;
+    const intl = useIntl();
+    const Title = intl.formatMessage(
+      {
+        id: "request.title",
+        defaultMessage: "Details for your {regulationType} request",
+      },
+      {
+        regulationType,
+      },
+    );
+    const Description = intl.formatMessage(
+      {
+        id: "request.description",
+        defaultMessage: "View details about a {regulationType} request submitted with this free service.",
+      },
+      {
+        regulationType,
+      },
+    );
+    const BaseURL = "/request/" + uuid;
+    const days = {
+      sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
+      sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,
+      sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
+    };
+
+    const regulation = {};
+    if (regulationType === 'GDPR') {
+      regulation.type = 'GDPR';
+      regulation.timeLimit = 30;
+      regulation.authority = 'DPA';
+      regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
+      regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
+    } else {
+      regulation.type = 'CCPA';
+      regulation.timeLimit = 45;
+      regulation.authority = 'CA AG';
+      regulation.link = 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company';
+      regulation.denyInfo = 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV';
+    }
+
+    return (
+      <div>
+      <NextSeo
+          title = {Title}
+          canonical = {generateCanonical(BaseURL, router.locale)}
+          description = {Description}
+          openGraph = {{
+            description: Description,
+          }}
+          languageAlternates = {generateLangLinks(BaseURL)}
+        />       
+        <Nav />
+        <RequestHero
           selectedCompany={data.organization}
-          canonical={generateCanonical(BaseURL, 'en')}
+          requestItem={data.item}
+          days={days}
+          status={this.state.status}
+          setStatus={this.setStatus}
         />
-      )}
-      <Donations />
-      <Footer />
-    </div>
-  )
+        <RequestTimeline
+          requestItem={data.item}
+          days={days}
+          regulation={regulation}
+        />
+        <RequestDetails
+          selectedCompany={data.organization}
+          requestItem={data.item}
+          days={days}
+          regulation={regulation}
+          intl={intl}
+          status={this.state.status}
+        />
+        {data.organization && (
+          <AboutOrg 
+            selectedCompany={data.organization}
+            canonical={generateCanonical(BaseURL, 'en')}
+          />
+        )}
+        <Donations />
+        <Footer />
+      </div>
+    )
+  }
 };
 
 export async function getServerSideProps(context) {

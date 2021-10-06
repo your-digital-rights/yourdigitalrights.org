@@ -14,10 +14,6 @@ import capitalize from "../../utils/capitalize";
 class Details extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      status: props.requestItem.status ? props.requestItem.status.S : "NO_REPLY",
-    };
   }
 
   async componentDidMount() {
@@ -153,7 +149,7 @@ ${requestItem.emailBody.S}`;
   render() {
     const { classes, requestItem, days, regulation, selectedCompany } = this.props;
 
-    if (this.state.status === "NO_REPLY") {
+    if (this.props.status === "NO_REPLY") {
       return (
         <div className={classes.container}>
           <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
@@ -194,7 +190,7 @@ ${requestItem.emailBody.S}`;
       );
     }
 
-    if (this.state.status === "DECLINED") {
+    if (this.props.status === "DECLINED") {
       return (
         <div className={classes.container}>
           <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
@@ -226,7 +222,7 @@ ${requestItem.emailBody.S}`;
       );
     }
 
-    if (this.state.status === "PARTIAL") {
+    if (this.props.status === "PARTIAL") {
       return (
         <div className={classes.container}>
           <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
