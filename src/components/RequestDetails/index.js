@@ -18,7 +18,7 @@ class Details extends Component {
   }
 
   render() {
-    const { classes, intl, requestItem, days, regulation, selectedCompany } = this.props;
+    const { classes, intl, requestItem, days, regulation, selectedCompany, status } = this.props;
 
     return (
       <div className={classes.hero} id="hero">
@@ -29,6 +29,7 @@ class Details extends Component {
             regulation={regulation}
             selectedCompany={selectedCompany}
             intl={intl}
+            status={status}
           />
           <h2 className={classes.header}>
             <FormattedMessage id="request.details.header" defaultMessage="Request details" />

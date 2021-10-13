@@ -12,17 +12,13 @@ import styles from "./styles";
 class Hero extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      status: props.requestItem.status ? props.requestItem.status.S : "NO_REPLY",
-    };
   }
 
   updateStatus(newStatus) {
-    const oldStatus = this.state.status;
+    const oldStatus = this.props.status;
   
     // Optimistically assume the status update will succeed
-    this.setState({ status: newStatus });
+    this.props.setStatus(newStatus);
 
     fetch('/api/update', {
         method: "POST",
@@ -36,7 +32,7 @@ class Hero extends Component {
     }).then((response) => {
       if (!response.ok) {
         // If the status didn't update, revert it back
-        this.setState({ status: oldStatus });
+        this.props.setStatus(oldStatus);
       }
     });
   }
@@ -50,9 +46,8 @@ class Hero extends Component {
   }
 
   render() {
-    const {classes, requestItem, selectedCompany, days} = this.props;
+    const {classes, requestItem, selectedCompany, days, status} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
-    const {status} = this.state;
 
     return (
       <div className={classes.hero} id="hero">
