@@ -1193,6 +1193,12 @@
       "value": "a"
     }
   ],
+  "footer.poweredBy": [
+    {
+      "type": 0,
+      "value": "Powered by Vercel"
+    }
+  ],
   "footer.privacyPolicy": [
     {
       "children": [
@@ -1580,7 +1586,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this feature you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email."
+          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email."
         }
       ],
       "type": 8,
@@ -1909,6 +1915,566 @@
     {
       "type": 0,
       "value": "!"
+    }
+  ],
+  "request.description": [
+    {
+      "type": 0,
+      "value": "View details about a "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " request submitted with this free service."
+    }
+  ],
+  "request.details.date": [
+    {
+      "type": 0,
+      "value": "Request date:"
+    }
+  ],
+  "request.details.escalationDate": [
+    {
+      "type": 0,
+      "value": "Escalation email date:"
+    }
+  ],
+  "request.details.header": [
+    {
+      "type": 0,
+      "value": "Request details"
+    }
+  ],
+  "request.details.hide": [
+    {
+      "type": 0,
+      "value": "To hide the email you sent, please click here"
+    }
+  ],
+  "request.details.name": [
+    {
+      "type": 0,
+      "value": "Full name:"
+    }
+  ],
+  "request.details.organization": [
+    {
+      "type": 0,
+      "value": "Organization:"
+    }
+  ],
+  "request.details.regulation": [
+    {
+      "type": 0,
+      "value": "Regulation:"
+    }
+  ],
+  "request.details.reminderDate": [
+    {
+      "type": 0,
+      "value": "Reminder email date:"
+    }
+  ],
+  "request.details.sentTo": [
+    {
+      "type": 0,
+      "value": "Sent to email address:"
+    }
+  ],
+  "request.details.show": [
+    {
+      "type": 0,
+      "value": "To see the email you sent, please click here"
+    }
+  ],
+  "request.details.type": [
+    {
+      "type": 0,
+      "value": "Request type:"
+    }
+  ],
+  "request.hero.day": [
+    {
+      "type": 0,
+      "value": "day"
+    }
+  ],
+  "request.hero.days": [
+    {
+      "type": 0,
+      "value": "days"
+    }
+  ],
+  "request.hero.declined": [
+    {
+      "type": 0,
+      "value": "Declined"
+    }
+  ],
+  "request.hero.declinedRequest": [
+    {
+      "type": 0,
+      "value": "declined your request"
+    }
+  ],
+  "request.hero.didNotReply": [
+    {
+      "type": 0,
+      "value": "did not reply"
+    }
+  ],
+  "request.hero.escalationDateStatement": [
+    {
+      "type": 0,
+      "value": "An escalation was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.handledPartially": [
+    {
+      "type": 0,
+      "value": "Handled partially"
+    }
+  ],
+  "request.hero.handledRequest": [
+    {
+      "type": 0,
+      "value": "handled your request"
+    }
+  ],
+  "request.hero.handledSuccessfully": [
+    {
+      "type": 0,
+      "value": "Handled successfully"
+    }
+  ],
+  "request.hero.header": [
+    {
+      "type": 0,
+      "value": "Your data "
+    },
+    {
+      "type": 1,
+      "value": "requestType"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    }
+  ],
+  "request.hero.noReply": [
+    {
+      "type": 0,
+      "value": "No reply"
+    }
+  ],
+  "request.hero.partiallyHandled": [
+    {
+      "type": 0,
+      "value": "partially handled your request"
+    }
+  ],
+  "request.hero.reminderDateStatement": [
+    {
+      "type": 0,
+      "value": "A reminder was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.requestDateStatement": [
+    {
+      "type": 0,
+      "value": "The request was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.requestStatus": [
+    {
+      "type": 0,
+      "value": "Request Status:"
+    }
+  ],
+  "request.next.circumstancesToDecline": [
+    {
+      "type": 0,
+      "value": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
+    }
+  ],
+  "request.next.declineCCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Free speech or another right provided by law."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "For complying with a legal obligation."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "To perform a contract between the business and the consumer."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Debug to identify and repair errors that impair existing intended functionality."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineGDPR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When the organization is legally obliged to keep hold of your data."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping hold of your data is necessary for reasons of public health."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping your data is necessary for establishing, exercising or defending legal claims."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.escalateToAuthority": [
+    {
+      "type": 0,
+      "value": "We recommend that you escalate your request to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.next.esclateButton": [
+    {
+      "type": 0,
+      "value": "Escalate to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.next.findOutMore": [
+    {
+      "type": 0,
+      "value": "Find out more about these exceptions"
+    }
+  ],
+  "request.next.organizationsHaveXDays": [
+    {
+      "type": 0,
+      "value": "According to the "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " organizations have "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days to reply to your request."
+    }
+  ],
+  "request.next.ratherNotWait": [
+    {
+      "type": 0,
+      "value": "If you would rather not wait then you have the following options:"
+    }
+  ],
+  "request.next.reminderButton": [
+    {
+      "type": 0,
+      "value": "Send a reminder email"
+    }
+  ],
+  "request.next.selectTheOptions": [
+    {
+      "type": 0,
+      "value": "Please select from the following options:"
+    }
+  ],
+  "request.next.sendAnEmail": [
+    {
+      "type": 0,
+      "value": "We recommend that you send them a reminder email."
+    }
+  ],
+  "request.next.waitUntilXDays": [
+    {
+      "type": 0,
+      "value": "We recommend you wait until "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days have passed."
+    }
+  ],
+  "request.next.whatsNext": [
+    {
+      "type": 0,
+      "value": "Nothing at all. "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " successfully responded to your request."
+    }
+  ],
+  "request.next.wrongfullyDeclined": [
+    {
+      "type": 0,
+      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+    }
+  ],
+  "request.timeline.esclateTo": [
+    {
+      "type": 0,
+      "value": "Escalate to "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.timeline.reminderSent": [
+    {
+      "type": 0,
+      "value": "Reminder Sent"
+    }
+  ],
+  "request.timeline.requestSent": [
+    {
+      "type": 0,
+      "value": "Request Sent"
+    }
+  ],
+  "request.timeline.requestTimeline": [
+    {
+      "type": 0,
+      "value": "Your request timeline"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "Escalation Sent"
+    }
+  ],
+  "request.title": [
+    {
+      "type": 0,
+      "value": "Details for your "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " request"
     }
   ],
   "search.companyPlaceholder": [
