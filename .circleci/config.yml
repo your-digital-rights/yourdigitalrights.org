@@ -3,7 +3,7 @@
 #
 version: 2.1
 orbs:
-  browser-tools: circleci/browser-tools@1.1.3
+  browser-tools: circleci/browser-tools@1.2.3
 jobs:
   build:
     working_directory: ~/opt-out
@@ -16,17 +16,20 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}
+            - v2-dependencies-{{ checksum "package.json" }}
             # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+            - v2-dependencies-
+
+      - browser-tools/install-chrome:
+          replace-existing: true 
 
       - run: npm install
 
       - save_cache:
+          key: v2-dependencies-{{ checksum "package.json" }}
           paths:
             - ./node_modules
             - ./.next/cache
-          key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
       - run: npm test

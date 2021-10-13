@@ -96,7 +96,7 @@ const QueryText = (
     defaultMessage="For more information please <a>contact us</a>. © Copyright 2019"
     values={{
       a: txt => (
-        <a target="_blank" href="mailto:info@opt-out.eu" style={{ textDecoration: "none" }}>
+        <a target="_blank" href="mailto:info@yourdigitalrights.org" style={{ textDecoration: "none" }}>
           {txt}
         </a>
       ),

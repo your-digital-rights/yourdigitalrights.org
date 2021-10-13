@@ -48,10 +48,7 @@ export default {
   },
 
   trackAddNewOrg(domain, name) {
-    this.trackEvent(
-      "Add New Organization",
-      name
-    );
+    this.trackEvent("Add New Organization", domain, name);
   },
 
   trackSocialShare(network, sourcePage) {

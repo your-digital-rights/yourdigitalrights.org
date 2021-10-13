@@ -1,5 +1,16 @@
-base_url: 'https://consciousdigital.crowdin.com'
-preserve_hierarchy: true
-files:
-  - source: /lang/en.json
-    translation: /lang/%two_letters_code%.json
+
+"project_id" : "2"
+"api_token" : "d26d568887b1ed934307faefb9629abf47e800d63309022c6ab67ff4b493d3073173ff154883f7fe"
+"base_path" : "."
+"base_url" : "https://consciousdigital.crowdin.com"
+
+"preserve_hierarchy": true
+
+"files": [
+  {
+    "sources":   [
+      "/lang/en.json",
+    ]
+    "translation": "/lang/%two_letters_code%.json"
+  }
+]

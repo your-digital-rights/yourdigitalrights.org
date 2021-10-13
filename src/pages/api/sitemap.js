@@ -1,5 +1,4 @@
 import { SitemapStream, streamToPromise } from "sitemap";
-import { Readable } from "stream";
 import { createGzip } from "zlib";
 import fetch from "universal-fetch";
 import { DOMAIN } from "../../utils/domain";
@@ -62,7 +61,7 @@ export default async (req, res) => {
     companies['Organizations'].map((company) =>
       ALT_LANGUAGES.forEach((locale) =>
         smStream.write({
-          url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${locale}.${DOMAIN}/d/${company.url}`,
+          url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${DOMAIN}/${locale}/d/${company.url}`,
           changefreq: "weekly",
           priority: 0.5,
         })
