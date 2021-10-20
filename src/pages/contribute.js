@@ -60,7 +60,7 @@ const Contribute = ({ classes, router }) => {
               defaultMessage="This project is entirely developed and maintained by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
             />
           </Typography>
-          <br/>
+          <br/>          
           <Typography component="h2" variant="h3" gutterBottom={true}>
             <FormattedMessage id="contribute.reportAProblemTitle" defaultMessage="Report a Problem" />
           </Typography>
@@ -171,7 +171,7 @@ const Contribute = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contribute.creadit"
-              defaultMessage="While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether on this website, on github or in other ways."           
+              defaultMessage="While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."           
             />
           </Typography> 
         </Paper>
