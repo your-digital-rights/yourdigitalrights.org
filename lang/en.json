@@ -84,7 +84,7 @@
     "message": "Privacy Policy:"
   },
   "contribute.creadit": {
-    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether on this website, on github or in other ways."
+    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
   },
   "contribute.creditTitle": {
     "message": "Credit"
@@ -405,7 +405,7 @@
     "message": "Frequently Asked Questions"
   },
   "footer.contact": {
-    "message": "For more information please <a>contact us</a>. © Copyright 2019"
+    "message": "For more information please <a>contact us</a>. © Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
     "message": "<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
@@ -792,10 +792,13 @@
     "message": "We recommend you wait until { timeLimit } days have passed."
   },
   "request.next.whatsNext": {
-    "message": "Nothing at all. { companyName } successfully responded to your request."
+    "message": "What's next"
   },
   "request.next.wrongfullyDeclined": {
     "message": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+  },
+  "request.success": {
+    "message": "Nothing at all. { companyName } successfully responded to your request."
   },
   "request.timeline.esclateTo": {
     "message": "Escalate to { authority }"
@@ -809,8 +812,11 @@
   "request.timeline.requestTimeline": {
     "message": "Your request timeline"
   },
-  "request.timeline.sendReminder": {
+  "request.timeline.sendEscalation": {
     "message": "Escalation Sent"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send a reminder"
   },
   "request.title": {
     "message": "Details for your {regulationType} request"

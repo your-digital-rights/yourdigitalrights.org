@@ -34,7 +34,7 @@ const Timeline = ({ classes, requestItem, days, regulation }) => {
             <li className={classes.timelineItem}><FormattedMessage id="request.timeline.sendReminder" defaultMessage="Send a reminder" /></li>
           )}
           {typeof days.sinceEscalation === 'number' && (
-            <li className={classes.timelineItem}><FormattedMessage id="request.timeline.sendReminder" defaultMessage="Escalation Sent" /><br />{ requestItem.escalationCreatedAt.S }</li>
+            <li className={classes.timelineItem}><FormattedMessage id="request.timeline.sendEscalation" defaultMessage="Escalation Sent" /><br />{ requestItem.escalationCreatedAt.S }</li>
           )}
           {typeof days.sinceEscalation !== 'number' && (
             <li className={classes.timelineItem}>

@@ -87,7 +87,7 @@ class Uuid extends Component {
         defaultMessage: "View details about a {regulationType} request submitted with this free service.",
       },
       {
-        regulationType,
+        regulationType: regulationType,
       },
     );
     const BaseURL = "/request/" + uuid;
@@ -181,6 +181,7 @@ export async function getServerSideProps(context) {
   );  
 
   return {
+    notFound: typeof organization == 'undefined',
     props: {
       data: {
         item: requestDetails.Item,

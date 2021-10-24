@@ -272,7 +272,7 @@
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether on this website, on github or in other ways."
+      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
     }
   ],
   "contribute.creditTitle": [
@@ -1150,7 +1150,7 @@
     },
     {
       "type": 0,
-      "value": ". © Copyright 2019"
+      "value": ". © Copyright 2019 - 2022"
     }
   ],
   "footer.disclaimer": [
@@ -2412,6 +2412,18 @@
   "request.next.whatsNext": [
     {
       "type": 0,
+      "value": "What's next"
+    }
+  ],
+  "request.next.wrongfullyDeclined": [
+    {
+      "type": 0,
+      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+    }
+  ],
+  "request.success": [
+    {
+      "type": 0,
       "value": "Nothing at all. "
     },
     {
@@ -2421,12 +2433,6 @@
     {
       "type": 0,
       "value": " successfully responded to your request."
-    }
-  ],
-  "request.next.wrongfullyDeclined": [
-    {
-      "type": 0,
-      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
     }
   ],
   "request.timeline.esclateTo": [
@@ -2457,10 +2463,16 @@
       "value": "Your request timeline"
     }
   ],
-  "request.timeline.sendReminder": [
+  "request.timeline.sendEscalation": [
     {
       "type": 0,
       "value": "Escalation Sent"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "Send a reminder"
     }
   ],
   "request.title": [
