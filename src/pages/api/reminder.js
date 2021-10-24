@@ -43,7 +43,7 @@ export default async (req, res) => {
       },
       ConditionExpression: "attribute_not_exists(#R)",
       ReturnValues: "ALL_NEW",
-      TableName: 'YDRFollowUps',
+      TableName: 'YDRFollowups',
       UpdateExpression: "SET #R = :r",
     }, (err, data) => {
       if (err) {

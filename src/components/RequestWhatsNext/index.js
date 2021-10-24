@@ -233,7 +233,7 @@ class Details extends Component {
         <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
         <p>
           <FormattedMessage
-            id="request.next.whatsNext"
+            id="request.success"
             defaultMessage="Nothing at all. { companyName } successfully responded to your request."
             values={{
               companyName: companyName,

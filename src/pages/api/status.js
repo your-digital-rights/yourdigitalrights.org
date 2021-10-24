@@ -32,7 +32,7 @@ export default async (req, res) => {
       },
     },
     ReturnValues: "ALL_NEW",
-    TableName: 'YDRFollowUps',
+    TableName: 'YDRFollowups',
     UpdateExpression: "SET #S = :s",
   }, (err, data) => {
     if (err) {

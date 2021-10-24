@@ -165,7 +165,7 @@ export async function getServerSideProps(context) {
         S: uuid,
       },
     }, 
-    TableName: "YDRFollowUps",
+    TableName: "YDRFollowups",
   };
   const requestDetails = await dynamodb.getItem(params).promise();
 

@@ -85,7 +85,7 @@ export default async (req, res) => {
         return;
       }
 
-      requestItems.RequestItems.YDRFollowUps = [
+      requestItems.RequestItems.YDRFollowups = [
         {
           PutRequest: {
             Item: {
