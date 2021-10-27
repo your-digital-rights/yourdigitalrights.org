@@ -14,11 +14,14 @@ Requires Node.js >= v15
 
 # Running Vercel
 
-Go to the project folder in your local 
 `vercel link`
-Set up "route"? = Y
+
+Set up "insert-route-here"? = Y
+
 Link to existing project? = Y
+
 What’s the name of your existing project? = ydr
+
 `vercel env pull`
 
 # Running locally
