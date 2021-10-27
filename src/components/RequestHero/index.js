@@ -36,15 +36,7 @@ class Hero extends Component {
       }
     });
   }
-
-  pluralizeDay(number) {
-    if (number === 1) {
-      return <FormattedMessage id="request.hero.day" defaultMessage="day" />;
-    }
-
-    return <FormattedMessage id="request.hero.days" defaultMessage="days" />;
-  }
-
+  
   render() {
     const {classes, requestItem, selectedCompany, days, status} = this.props;
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
@@ -65,10 +57,9 @@ class Hero extends Component {
           <p className={classes.information}>
             <FormattedMessage
               id="request.hero.requestDateStatement"
-              defaultMessage="The request was sent {daysSince} {day} ago."
+              defaultMessage="The request was sent {daysSince, plural, one {# day} other {# days}} ago."
               values={{
                 daysSince: days.sinceRequest,
-                day: this.pluralizeDay(days.sinceRequest),
               }}
             />
             {typeof days.sinceReminder === 'number' && (
@@ -76,10 +67,9 @@ class Hero extends Component {
                 &nbsp;
                 <FormattedMessage
                   id="request.hero.reminderDateStatement"
-                  defaultMessage="A reminder was sent {daysSince} {day} ago."
+                  defaultMessage="A reminder was sent {daysSince, plural, one {# day} other {# days}} ago."
                   values={{
                     daysSince: days.sinceReminder,
-                    day: this.pluralizeDay(days.sinceReminder),
                   }}
                 />
               </>
@@ -89,10 +79,9 @@ class Hero extends Component {
                 &nbsp;
                 <FormattedMessage
                   id="request.hero.escalationDateStatement"
-                  defaultMessage="An escalation was sent {daysSince} {day} ago."
+                  defaultMessage="An escalation was sent {daysSince, plural, one {# day} other {# days}} ago."
                   values={{
                     daysSince: days.sinceEscalation,
-                    day: this.pluralizeDay(days.sinceEscalation),
                   }}
                 />
               </>

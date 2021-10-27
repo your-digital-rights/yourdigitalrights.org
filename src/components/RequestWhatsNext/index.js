@@ -35,16 +35,6 @@ class Details extends Component {
     };
   }
 
-  pluralizeDay(number) {
-    const { intl } = this.props;
-
-    if (number === 1) {
-      return intl.formatMessage({id: "request.hero.day", defaultMessage: "day"})
-    }
-
-    return intl.formatMessage({id: "request.hero.days", defaultMessage: "days"})
-  }
-
   renderMailTo() {
     const { days, intl, requestItem } = this.props;
 

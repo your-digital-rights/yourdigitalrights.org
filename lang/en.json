@@ -750,7 +750,7 @@
     "message": "A reminder was sent {daysSince} {day} ago."
   },
   "request.hero.requestDateStatement": {
-    "message": "The request was sent {daysSince} {day} ago."
+    "message": "The request was sent {daysSince, plural, one {# day} other {# days}} ago."
   },
   "request.hero.requestStatus": {
     "message": "Request Status:"
