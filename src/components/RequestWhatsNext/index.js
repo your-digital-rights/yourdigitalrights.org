@@ -1,14 +1,11 @@
 import { Component } from "react";
 import { useIntl, FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import { isMobile } from "react-device-detect";
 import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
-import fetch from "isomorphic-fetch";
-
 import reminderEmail from "../../email-templates/reminder";
 import capitalize from "../../utils/capitalize";
 
@@ -37,7 +34,6 @@ class Details extends Component {
 
   renderMailTo() {
     const { days, intl, requestItem } = this.props;
-
     const to = requestItem.emailTo.S;
     const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
     const subject = reminderEmail.subject({ ...this.state });
