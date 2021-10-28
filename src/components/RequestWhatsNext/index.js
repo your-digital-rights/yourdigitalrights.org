@@ -8,6 +8,7 @@ import { isMobile } from "react-device-detect";
 import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
 import fetch from "isomorphic-fetch";
+import getInboundEmailAddress from "../../utils/email";
 
 import reminderEmail from "../../email-templates/reminder";
 import capitalize from "../../utils/capitalize";
@@ -39,7 +40,7 @@ class Details extends Component {
     const { days, intl, requestItem } = this.props;
 
     const to = requestItem.emailTo.S;
-    const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
+    const bcc = getInboundEmailAddress(requestItem.id.S);
     const subject = reminderEmail.subject({ ...this.state });
     const body = reminderEmail.body({ ...this.state });
 
