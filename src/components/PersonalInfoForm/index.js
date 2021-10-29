@@ -46,7 +46,7 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
-import getGeolocation from "../../utils/geolocation";
+import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import getInboundEmailAddress from "../../utils/email";
 
 const screenHeightBreakpoint = 560;
@@ -99,8 +99,8 @@ class Form extends Component {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
     }
-    const geo = await getGeolocation();
-    this.setState({ regulationType: geo });
+    const regulation = await getRegulationbyGeolocation();
+    this.setState({ regulationType: regulation });
   }
 
   componentWillUnmount() {

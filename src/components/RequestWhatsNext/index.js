@@ -6,40 +6,27 @@ import Button from "@material-ui/core/Button";
 import { isMobile } from "react-device-detect";
 import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
-import fetch from "isomorphic-fetch";
 import getInboundEmailAddress from "../../utils/email";
 import reminderEmail from "../../email-templates/reminder";
 import capitalize from "../../utils/capitalize";
+import Regulations from "../../utils/regulations";
+import RequestEscalation from "../RequestEscalation";
 
-class Details extends Component {
-  async componentDidMount() {
-    window.mailgoConfig = {
-      dark: true,
-      showFooter: false,
-      tel: false,
-      sms: false,
-      actions: {
-        telegram: false,
-        whatsapp: false,
-        skype: false,
-        copy: false,
-      },
-      details: {
-        subject: false,
-        body: false,
-        to: false,
-        cc: false,
-        bcc: false,
-      },
+class WhatsNext extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showEscalation: false,
     };
   }
 
   renderMailTo() {
-    const { days, intl, requestItem } = this.props;
+    const {requestItem, status} = this.props;
     const to = requestItem.emailTo.S;
     const bcc = getInboundEmailAddress(requestItem.id.S);
-    const subject = reminderEmail.subject({ ...this.state });
-    const body = reminderEmail.body({ ...this.state });
+    const subject = reminderEmail.subject(requestItem);
+    const body = reminderEmail.body(requestItem, status);
 
     return mailtoLink({
       to,
@@ -49,18 +36,19 @@ class Details extends Component {
     });
   }
 
-  handleFormSubmit = (e) => {
-    const { requestItem } = this.props;
+  handleFormSubmit = (e) => {;
     e.preventDefault();
-
+    const mailTo = this.renderMailTo();
     if (isMobile) {
-      window.open(this.renderMailTo());
+      window.open(mailTo);
     } else {
-      mailgoDirectRender(this.renderMailTo());
+      mailgoDirectRender(mailTo);
     }
   }
 
   buttons(classes, regulation) {
+    const { requestItem } = this.props;
+    const authority = Regulations[requestItem.regulationType.S].dpa.longName;
     return (
       <ul className={classes.buttons}>
         <li>
@@ -79,7 +67,7 @@ class Details extends Component {
           </form>
         </li>
         <li>
-          {regulation.type === 'CCPA' && (
+          {requestItem.requestType.S === 'CCPA' && (
             <Button
               variant="contained"
               color="primary"
@@ -92,23 +80,24 @@ class Details extends Component {
                 id="request.next.esclateButton"
                 defaultMessage="Escalate to the { authority }"
                 values={{
-                  authority: regulation.authority,
+                  authority: authority,
                 }}
               />
             </Button>
           )}
-          {regulation.type !== 'CCPA' && (
+          {requestItem.requestType.S !== 'CCPA' && (
             <Button
               variant="contained"
               color="primary"
               type="submit"
               className={classes.button}
+              onClick={e => this.setState({showEscalation: true})}
             >
               <FormattedMessage
                 id="request.next.esclateButton"
                 defaultMessage="Escalate to the { authority }"
                 values={{
-                  authority: regulation.authority,
+                  authority: authority,
                 }}
               />
             </Button>
@@ -119,7 +108,8 @@ class Details extends Component {
   }
 
   render() {
-    const { classes, requestItem, days, regulation, selectedCompany } = this.props;
+    const { classes, requestItem, days, selectedCompany, intl, status} = this.props;
+    const timeLimit = Regulations[requestItem.regulationType.S].timeLimit;
 
     if (this.props.status === "NO_REPLY") {
       return (
@@ -131,11 +121,11 @@ class Details extends Component {
               defaultMessage="According to the {regulationType} organizations have { timeLimit } days to reply to your request."
                 values={{
                   regulationType: requestItem.regulationType.S,
-                  timeLimit: regulation.timeLimit,
+                  timeLimit: timeLimit,
                 }}
             />
           </p>
-          {days.sinceRequest < regulation.timeLimit && (
+          {days.sinceRequest < timeLimit && (
             <>
               <p>
                 <strong>
@@ -143,7 +133,7 @@ class Details extends Component {
                     id="request.next.waitUntilXDays"
                     defaultMessage="We recommend you wait until { timeLimit } days have passed."
                     values={{
-                      timeLimit: regulation.timeLimit,
+                      timeLimit: timeLimit,
                     }}
                   />
                 </strong>
@@ -151,13 +141,20 @@ class Details extends Component {
               <p><FormattedMessage id="request.next.ratherNotWait" defaultMessage="If you would rather not wait then you have the following options:" /></p>
             </>
           )}
-          {days.sinceRequest >= regulation.timeLimit && (
+          {days.sinceRequest >= timeLimit && (
             <>
               <p><strong><FormattedMessage id="request.next.sendAnEmail" defaultMessage="We recommend that you send them a reminder email." /></strong></p>
               <p><FormattedMessage id="request.next.selectTheOptions" defaultMessage="Please select from the following options:" /></p>
             </>
           )}
-          {this.buttons(classes, regulation)}
+          {this.buttons(classes)}
+          { this.state.showEscalation && (
+             <RequestEscalation 
+              requestItem={requestItem}
+              intl={intl}
+              status={status}
+            />
+          )}
         </div>
       );
     }
@@ -187,9 +184,9 @@ class Details extends Component {
               }}
             />
           )}
-          <p><a href={ regulation.denyInfo } target="_blank"><FormattedMessage id="request.next.findOutMore" defaultMessage="Find out more about these exceptions" /></a></p>
+          <p><a href={ Regulations[requestItem.regulationType.S].exceptionInfo } target="_blank"><FormattedMessage id="request.next.findOutMore" defaultMessage="Find out more about these exceptions" /></a></p>
           <p><FormattedMessage id="request.next.wrongfullyDeclined" defaultMessage="If you feel that the organization is wrong to have declined your request then you have the following options:" /></p>
-          {this.buttons(classes, regulation)}
+          {this.buttons(classes)}
         </div>
       );
     }
@@ -204,13 +201,13 @@ class Details extends Component {
                 id="request.next.escalateToAuthority"
                 defaultMessage="We recommend that you escalate your request to the { authority }."
                 values={{
-                  authority: regulation.authority,
+                  authority: Regulations[requestItem.regulationType.S].dpa.longName,
                 }}
               />
             </strong>
           </p>
           <p><FormattedMessage id="request.next.selectTheOptions" defaultMessage="Please select from the following options:" /></p>
-          {this.buttons(classes, regulation)}
+          {this.buttons(classes)}
         </div>
       );
     }
@@ -232,4 +229,4 @@ class Details extends Component {
     )
   }
 };
-export default withStyles(styles)(Details);
+export default withStyles(styles)(WhatsNext);

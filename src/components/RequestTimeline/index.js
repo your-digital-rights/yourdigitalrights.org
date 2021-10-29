@@ -2,10 +2,10 @@ import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
+import Regulations from "../../utils/regulations";
 import dateFormatter from "../../utils/date-formatter";
 
-const Timeline = ({ classes, requestItem, days, regulation }) => {
+const Timeline = ({ classes, requestItem, days }) => {
   const requestedCreatedAt = new Date(requestItem.requestCreatedAt.S);
   const requestDate = dateFormatter(requestedCreatedAt);
 
@@ -20,7 +20,7 @@ const Timeline = ({ classes, requestItem, days, regulation }) => {
     const escalationCreatedAt = new Date(requestItem.escalationCreatedAt.S);
     const escalationDate = dateFormatter(escalationCreatedAt);
   }
-
+  
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -40,9 +40,9 @@ const Timeline = ({ classes, requestItem, days, regulation }) => {
             <li className={classes.timelineItem}>
               <FormattedMessage
                 id="request.timeline.esclateTo"
-                defaultMessage="Escalate to { authority }"
+                defaultMessage="Escalate to the the { authority }"
                 values={{
-                  authority: regulation.authority,
+                  authority: Regulations[requestItem.regulationType.S].dpa.longName,
                 }}
               />
             </li>

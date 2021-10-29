@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
@@ -6,40 +7,82 @@ import Regulations from "../../utils/regulations";
 import { isMobile } from "react-device-detect";
 import mailtoLink from "mailto-link";
 import { mailgoDirectRender } from "mailgo";
-import reminderEmail from "../../email-templates/reminder";
+import escalationEmail from "../../email-templates/escalation";
+import getInboundEmailAddress from "../../utils/email";
+import {getCountryCode} from "../../utils/geolocation";
+import TextField from "@material-ui/core/TextField";
+import Button from "@material-ui/core/Button";
 
-function renderMailTo(to, id) {
-  const to = requestItem.emailTo.S; // DPA
-  const cc = requestItem.emailTo.S; // company
-  const bcc = `${requestItem.id.S}@inbound.yourdigitalrights.org`;
-  const subject = reminderEmail.subject({ ...this.state });
-  const body = reminderEmail.body({ ...this.state });
+const mailgoConfig = {
+  dark: true,
+  showFooter: false,
+  tel: false,
+  sms: false,
+  actions: {
+    telegram: false,
+    whatsapp: false,
+    skype: false,
+    copy: false,
+  },
+  details: {
+    subject: false,
+    body: false,
+    to: false,
+    cc: false,
+    bcc: false,
+  },
+};
+
+function renderMailTo(requestItem, complaintText, countryCode, status) {
+  const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
+  console.log(countryCode);
+  const geo = geographies.filter(geo => geo.countryCode === 'AT');
+  const to = geo[0].email;
+  const cc = requestItem.emailTo.S;
+  const bcc = getInboundEmailAddress(requestItem.id.S);
+  const subject = escalationEmail.subject(requestItem);
+  const body = escalationEmail.body(requestItem, complaintText, status);
 
   return mailtoLink({
     to,
+    cc,
     bcc,
     subject,
     body,
   });
 };
 
-function handleFormSubmit(e, to, id) {
+const handleFormSubmit = (...args) => e => {
   e.preventDefault();
+  const mailTo = renderMailTo(...args);
   if (isMobile) {
-    window.open(this.renderMailTo());
+    window.open(mailTo);
   } else {
-    mailgoDirectRender(this.renderMailTo());
+    mailgoDirectRender(mailTo);
   }
-};
+}
 
-const RequestEscalation = ({ classes, intl, requestItem, regulation, selectedCompany, status }) => {
+const RequestEscalation = ({ classes, intl, requestItem, status }) => {
+  const [geograpghy, setGeograpghy] = useState('AT');
+  const [complaintText, setcomplaintText] = useState("");
+
+  useEffect(() => {
+    const getGeo = async () => {
+      let geo = await getCountryCode();
+      geo = geo ? geo : 'AT';
+      setGeograpghy(geo);
+    }
+    getGeo();
+  }, []);
+
+
   return (
-    <div className={classes.hero} id="hero">
+    <div className={classes.hero} id="escalationForm">
       <div className={classes.container}>
         <Paper
           component="form"
-          className={classes.details}
-          onSubmit={this.handleFormSubmit}
+          className={classes.formContainer}
+          onSubmit={handleFormSubmit(requestItem, complaintText, geograpghy, status)}
           elevation={10}
         >
           <TextField
@@ -48,11 +91,12 @@ const RequestEscalation = ({ classes, intl, requestItem, regulation, selectedCom
             select
             label={intl.formatMessage({
               id: "requestEscalation.geography",
-              defaultMessage: "Country selection",
+              defaultMessage: "Location",
             })}
             className={classes.textField}
             required
-            value = {this.state.regulationType}
+            value={geograpghy}
+            onChange={e => setGeograpghy(e.target.value)}
             SelectProps={{
               native: true,
               MenuProps: {
@@ -61,12 +105,12 @@ const RequestEscalation = ({ classes, intl, requestItem, regulation, selectedCom
             }}
             helperText={intl.formatMessage({
               id: "requestEscalation.geographyText ",
-              defaultMessage: "Please select your country of residence",
+              defaultMessage: "Please select your place of residence",
             })}
             margin="normal"
           >
-            {Regulations[requestItem.regulationType].dpa.geographies.map((geo) => (
-              <option value={geo.email}>{geo.name}</option>
+            {Regulations[requestItem.regulationType.S].dpa.geographies.map((geo) => (
+              <option key={geo.countryCode} value={geo.countryCode}>{geo.name}</option>
             ))}
           </TextField>
           <TextField
@@ -76,7 +120,8 @@ const RequestEscalation = ({ classes, intl, requestItem, regulation, selectedCom
               id: "requestEscalation.complaint",
               defaultMessage: "Additional details",
             })}
-            value={this.state.identifyingInfo}
+            value={complaintText}
+            onChange={e => setcomplaintText(e.target.value)}
             margin="normal"
             multiline
             rows={4}

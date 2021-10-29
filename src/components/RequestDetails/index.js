@@ -4,7 +4,6 @@ import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-
 import RequestWhatsNext from "../RequestWhatsNext";
 import dateFormatter from "../../utils/date-formatter";
 
@@ -18,7 +17,7 @@ class Details extends Component {
   }
 
   render() {
-    const { classes, intl, requestItem, days, regulation, selectedCompany, status } = this.props;
+    const { classes, intl, requestItem, days, selectedCompany, status } = this.props;
 
     return (
       <div className={classes.hero} id="hero">
@@ -26,7 +25,6 @@ class Details extends Component {
           <RequestWhatsNext 
             requestItem={requestItem}
             days={days}
-            regulation={regulation}
             selectedCompany={selectedCompany}
             intl={intl}
             status={status}
