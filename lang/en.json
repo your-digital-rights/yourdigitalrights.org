@@ -710,44 +710,38 @@
   "request.details.type": {
     "message": "Request type:"
   },
-  "request.hero.day": {
-    "message": "day"
-  },
-  "request.hero.days": {
-    "message": "days"
-  },
   "request.hero.declined": {
     "message": "Declined"
   },
   "request.hero.declinedRequest": {
-    "message": "declined your request"
+    "message": "declined your request."
   },
   "request.hero.didNotReply": {
-    "message": "did not reply"
+    "message": "did not reply."
   },
   "request.hero.escalationDateStatement": {
-    "message": "An escalation was sent {daysSince} {day} ago."
+    "message": "An escalation was sent {daysSince, plural, one {# day} other {# days}} ago."
   },
   "request.hero.handledPartially": {
     "message": "Handled partially"
   },
   "request.hero.handledRequest": {
-    "message": "handled your request"
+    "message": "handled your request successfuly."
   },
   "request.hero.handledSuccessfully": {
     "message": "Handled successfully"
   },
   "request.hero.header": {
-    "message": "Your data {requestType} to {companyName}"
+    "message": "Your data {requestType} request to {companyName}"
   },
   "request.hero.noReply": {
     "message": "No reply"
   },
   "request.hero.partiallyHandled": {
-    "message": "partially handled your request"
+    "message": "handled your request partially."
   },
   "request.hero.reminderDateStatement": {
-    "message": "A reminder was sent {daysSince} {day} ago."
+    "message": "A reminder was sent {daysSince, plural, one {# day} other {# days}} ago."
   },
   "request.hero.requestDateStatement": {
     "message": "The request was sent {daysSince, plural, one {# day} other {# days}} ago."
@@ -780,7 +774,7 @@
     "message": "If you would rather not wait then you have the following options:"
   },
   "request.next.reminderButton": {
-    "message": "Send a reminder email"
+    "message": "Send the organization a reminder email"
   },
   "request.next.selectTheOptions": {
     "message": "Please select from the following options:"
@@ -801,7 +795,7 @@
     "message": "Nothing at all. { companyName } successfully responded to your request."
   },
   "request.timeline.esclateTo": {
-    "message": "Escalate to { authority }"
+    "message": "Escalate to the the { authority }"
   },
   "request.timeline.reminderSent": {
     "message": "Reminder Sent"
@@ -820,6 +814,21 @@
   },
   "request.title": {
     "message": "Details for your {regulationType} request"
+  },
+  "requestEscalation.complaint": {
+    "message": "Additional details"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Please explain why you are not satisfied with how the organization has dealt with your request"
+  },
+  "requestEscalation.geography": {
+    "message": "Location"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Please select your place of residence"
+  },
+  "requestEscalation.submit": {
+    "message": "Review & Send"
   },
   "search.companyPlaceholder": {
     "message": "Search for an organization"

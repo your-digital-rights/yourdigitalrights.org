@@ -1997,18 +1997,6 @@
       "value": "Request type:"
     }
   ],
-  "request.hero.day": [
-    {
-      "type": 0,
-      "value": "day"
-    }
-  ],
-  "request.hero.days": [
-    {
-      "type": 0,
-      "value": "days"
-    }
-  ],
   "request.hero.declined": [
     {
       "type": 0,
@@ -2018,13 +2006,13 @@
   "request.hero.declinedRequest": [
     {
       "type": 0,
-      "value": "declined your request"
+      "value": "declined your request."
     }
   ],
   "request.hero.didNotReply": [
     {
       "type": 0,
-      "value": "did not reply"
+      "value": "did not reply."
     }
   ],
   "request.hero.escalationDateStatement": [
@@ -2033,16 +2021,34 @@
       "value": "An escalation was sent "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " day"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
     },
     {
       "type": 0,
@@ -2058,7 +2064,7 @@
   "request.hero.handledRequest": [
     {
       "type": 0,
-      "value": "handled your request"
+      "value": "handled your request successfuly."
     }
   ],
   "request.hero.handledSuccessfully": [
@@ -2078,7 +2084,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " request to "
     },
     {
       "type": 1,
@@ -2094,7 +2100,7 @@
   "request.hero.partiallyHandled": [
     {
       "type": 0,
-      "value": "partially handled your request"
+      "value": "handled your request partially."
     }
   ],
   "request.hero.reminderDateStatement": [
@@ -2103,16 +2109,34 @@
       "value": "A reminder was sent "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " day"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
     },
     {
       "type": 0,
@@ -2398,7 +2422,7 @@
   "request.next.reminderButton": [
     {
       "type": 0,
-      "value": "Send a reminder email"
+      "value": "Send the organization a reminder email"
     }
   ],
   "request.next.selectTheOptions": [
@@ -2456,7 +2480,7 @@
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Escalate to "
+      "value": "Escalate to the the "
     },
     {
       "type": 1,
@@ -2505,6 +2529,36 @@
     {
       "type": 0,
       "value": " request"
+    }
+  ],
+  "requestEscalation.complaint": [
+    {
+      "type": 0,
+      "value": "Additional details"
+    }
+  ],
+  "requestEscalation.complaintText": [
+    {
+      "type": 0,
+      "value": "Please explain why you are not satisfied with how the organization has dealt with your request"
+    }
+  ],
+  "requestEscalation.geography": [
+    {
+      "type": 0,
+      "value": "Location"
+    }
+  ],
+  "requestEscalation.geographyText ": [
+    {
+      "type": 0,
+      "value": "Please select your place of residence"
+    }
+  ],
+  "requestEscalation.submit": [
+    {
+      "type": 0,
+      "value": "Review & Send"
     }
   ],
   "search.companyPlaceholder": [

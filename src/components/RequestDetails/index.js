@@ -1,10 +1,8 @@
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-
 import RequestWhatsNext from "../RequestWhatsNext";
 import dateFormatter from "../../utils/date-formatter";
 
@@ -18,19 +16,11 @@ class Details extends Component {
   }
 
   render() {
-    const { classes, intl, requestItem, days, regulation, selectedCompany, status } = this.props;
+    const { classes, intl, requestItem, days, selectedCompany, status } = this.props;
 
     return (
-      <div className={classes.hero} id="hero">
+      <div className={classes.root} id="requestDetails">
         <div className={classes.container}>
-          <RequestWhatsNext 
-            requestItem={requestItem}
-            days={days}
-            regulation={regulation}
-            selectedCompany={selectedCompany}
-            intl={intl}
-            status={status}
-          />
           <h2 className={classes.header}>
             <FormattedMessage id="request.details.header" defaultMessage="Request details" />
           </h2>

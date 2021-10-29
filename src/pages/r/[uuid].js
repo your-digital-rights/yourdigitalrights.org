@@ -6,12 +6,11 @@ import { withRouter } from "next/router";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-
-import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import RequestDetails from "../../components/RequestDetails";
+import RequestWhatsNext from "../../components/RequestWhatsNext";
 import RequestHero from "../../components/RequestHero";
 import RequestTimeline from "../../components/RequestTimeline";
 import daysSince from "../../utils/days-since";
@@ -64,6 +63,28 @@ class Uuid extends Component {
     };
   }
 
+  async componentDidMount() {
+    window.mailgoConfig = {
+      dark: true,
+      showFooter: false,
+      tel: false,
+      sms: false,
+      actions: {
+        telegram: false,
+        whatsapp: false,
+        skype: false,
+        copy: false,
+      },
+      details: {
+        subject: false,
+        body: false,
+        to: false,
+        cc: false,
+        bcc: false,
+      },
+    };
+  }
+
   setStatus(status) {
     this.setState({ status });
   }
@@ -97,21 +118,6 @@ class Uuid extends Component {
       sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
     };
 
-    const regulation = {};
-    if (regulationType === 'GDPR') {
-      regulation.type = 'GDPR';
-      regulation.timeLimit = 30;
-      regulation.authority = 'DPA';
-      regulation.link = 'https://edpb.europa.eu/about-edpb/about-edpb/members_en';
-      regulation.denyInfo = 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/';
-    } else {
-      regulation.type = 'CCPA';
-      regulation.timeLimit = 45;
-      regulation.authority = 'CA AG';
-      regulation.link = 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company';
-      regulation.denyInfo = 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV';
-    }
-
     return (
       <div>
       <NextSeo
@@ -134,22 +140,22 @@ class Uuid extends Component {
         <RequestTimeline
           requestItem={data.item}
           days={days}
-          regulation={regulation}
         />
-        <RequestDetails
-          selectedCompany={data.organization}
+        <RequestWhatsNext 
           requestItem={data.item}
           days={days}
-          regulation={regulation}
+          selectedCompany={data.organization}
           intl={intl}
           status={this.state.status}
-        />
-        {data.organization && (
-          <AboutOrg 
+        >
+          <RequestDetails
             selectedCompany={data.organization}
-            canonical={generateCanonical(BaseURL, 'en')}
+            requestItem={data.item}
+            days={days}
+            intl={intl}
+            status={this.state.status}
           />
-        )}
+        </RequestWhatsNext>
         <Donations />
         <Footer />
       </div>
