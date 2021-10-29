@@ -244,6 +244,15 @@ const Regulations = {
       shortName: 'DPA',
       longName: 'Data Protection Agency',
       defualtAction: 'email',
+      geographies: [
+        {
+          name: 'United Kingdom',
+          countryCode: 'UK',
+          email: 'dpo@ico.org.uk',
+          website: 'https://ico.org.uk/',
+          chairman: 'Elizabeth Denham CBE'
+        },
+      ],      
     },
     regulationURL: 'https://edpb.europa.eu/about-edpb/about-edpb/members_en',
     exceptionInfo: 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/',    
@@ -268,6 +277,15 @@ const Regulations = {
       longName: 'California Attorney General',
       requestFormURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
       defualtAction: 'form',
+      geographies: [
+        {
+          name: 'California',
+          countryCode: 'CA',
+          email: 'PrivacyOffice@doj.ca.gov',
+          website: 'https://www.oag.ca.gov/',
+          chairman: 'Rob Nota'
+        },
+      ],
     },
     regulationURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
     exceptionInfo: 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV',

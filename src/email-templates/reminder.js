@@ -15,7 +15,7 @@ export default {
     const bodyParts = [];
 
     bodyParts.push('To whom it may concern:');
-    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.requestCreatedAt.S))} I have sent you a Data ${capitalize(requestType.name)} Request via email, pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
+    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.requestCreatedAt.S))} I sent you a Data ${capitalize(requestType.name)} Request via email, pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
 
     if (status === 'PARTIAL') {
       bodyParts.push('So far you have failed to fully comply with my request.');

@@ -1,5 +1,5 @@
 const Style = (theme) => ({
-  hero: {
+  root: {
     paddingBottom: "80px",
     display: "flex",
     flexDirection: "column",
@@ -7,12 +7,9 @@ const Style = (theme) => ({
     textAlign: "left",
   },
   container: {
-    padding: "30px 30px 60px",
+    paddingTop: "30px",
     maxWidth: "850px",
     boxSizing: "border-box",
-    margin: "auto",
-    paddingLeft: "30px",
-    paddingRight: "30px",
     [theme.breakpoints.down("sm")]: {
       padding: "30px 30px 0px",
       width: "100%",

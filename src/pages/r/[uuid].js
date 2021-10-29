@@ -10,6 +10,7 @@ import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";
 import RequestDetails from "../../components/RequestDetails";
+import RequestWhatsNext from "../../components/RequestWhatsNext";
 import RequestHero from "../../components/RequestHero";
 import RequestTimeline from "../../components/RequestTimeline";
 import daysSince from "../../utils/days-since";
@@ -140,13 +141,21 @@ class Uuid extends Component {
           requestItem={data.item}
           days={days}
         />
-        <RequestDetails
-          selectedCompany={data.organization}
+        <RequestWhatsNext 
           requestItem={data.item}
           days={days}
+          selectedCompany={data.organization}
           intl={intl}
           status={this.state.status}
-        />
+        >
+          <RequestDetails
+            selectedCompany={data.organization}
+            requestItem={data.item}
+            days={days}
+            intl={intl}
+            status={this.state.status}
+          />
+        </RequestWhatsNext>
         <Donations />
         <Footer />
       </div>

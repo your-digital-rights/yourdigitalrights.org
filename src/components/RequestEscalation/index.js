@@ -77,7 +77,7 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
 
 
   return (
-    <div className={classes.hero} id="escalationForm">
+    <div className={classes.root} id="escalationForm">
       <div className={classes.container}>
         <Paper
           component="form"

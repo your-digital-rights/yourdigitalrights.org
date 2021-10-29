@@ -22,7 +22,7 @@ const Timeline = ({ classes, requestItem, days }) => {
   }
   
   return (
-    <div className={classes.hero} id="hero">
+    <div className={classes.root} id="requestTimeline">
       <div className={classes.container}>
         <h2 className={classes.header}><FormattedMessage id="request.timeline.requestTimeline" defaultMessage="Your request timeline" /></h2>
         <ul className={classes.timeline}>

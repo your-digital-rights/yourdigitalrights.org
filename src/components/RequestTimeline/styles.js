@@ -2,8 +2,7 @@ import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
-  hero: {
-    paddingBottom: "0px",
+  root: {
     display: "flex",
     flexDirection: "column",
     backgroundColor: "white",
@@ -13,12 +12,11 @@ const Style = (theme) => ({
     },
   },
   container: {
-    padding: "0px 30px 60px",
+    paddingBottom: "25px",
+    paddingTop: "25px",
     maxWidth: "850px",
     boxSizing: "border-box",
-    margin: "auto",
-    paddingLeft: "30px",
-    paddingRight: "30px",
+    marginLeft: "33%",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },

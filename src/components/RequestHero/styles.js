@@ -2,7 +2,7 @@ import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
-  hero: {
+  root: {
     paddingBottom: "55px",
     display: "flex",
     flexDirection: "column",
@@ -14,12 +14,10 @@ const Style = (theme) => ({
     },
   },
   container: {
-    padding: "80px 30px 0",
+    paddingTop: "80px",
     maxWidth: "850px",
     boxSizing: "border-box",
-    margin: "auto",
-    paddingLeft: "30px",
-    paddingRight: "30px",
+    marginLeft: "33%",
     [theme.breakpoints.down("sm")]: {
       padding: "20px 30px 0px",
       width: "100%",
@@ -39,7 +37,7 @@ const Style = (theme) => ({
   status: {
     fontSize: "28px",
     fontWeight: "normal",
-    margin: "37px 0 18px",
+    marginBottom: "20px",
   },
   buttons: {
     display: "flex",

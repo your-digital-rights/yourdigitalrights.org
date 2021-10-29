@@ -42,12 +42,12 @@ class Hero extends Component {
     const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
 
     return (
-      <div className={classes.hero} id="hero">
+      <div className={classes.root} id="requestHero">
         <div className={classes.container}>
           <h1 className={classes.header}>
             <FormattedMessage
               id="request.hero.header"
-              defaultMessage="Your data {requestType} to {companyName}"
+              defaultMessage="Your data {requestType} request to {companyName}"
               values={{
                 requestType: requestItem.requestType.S.toLowerCase(),
                 companyName: selectedCompany.name,
@@ -91,15 +91,15 @@ class Hero extends Component {
             <strong><FormattedMessage id="request.hero.requestStatus" defaultMessage="Request Status:" /> </strong>
             {selectedCompany.name}&nbsp;
             {status === "SUCCESS" ? (
-              <FormattedMessage id="request.hero.handledRequest" defaultMessage="handled your request" />
+              <FormattedMessage id="request.hero.handledRequest" defaultMessage="handled your request successfuly." />
             ) : (
               status === "PARTIAL" ? (
-                <FormattedMessage id="request.hero.partiallyHandled" defaultMessage="partially handled your request" />
+                <FormattedMessage id="request.hero.partiallyHandled" defaultMessage="handled your request partially." />
               ) : (
                 status === "DECLINED" ? (
-                  <FormattedMessage id="request.hero.declinedRequest" defaultMessage="declined your request" />
+                  <FormattedMessage id="request.hero.declinedRequest" defaultMessage="declined your request." />
                 ) : (
-                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply" />
+                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply." />
                 )
               )
             )}
