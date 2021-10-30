@@ -40,7 +40,7 @@ const Timeline = ({ classes, requestItem, days }) => {
             <li className={classes.timelineItem}>
               <FormattedMessage
                 id="request.timeline.esclateTo"
-                defaultMessage="Escalate to the the { authority }"
+                defaultMessage="Escalate to the { authority }"
                 values={{
                   authority: Regulations[requestItem.regulationType.S].dpa.longName,
                 }}

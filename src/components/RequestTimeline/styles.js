@@ -16,7 +16,8 @@ const Style = (theme) => ({
     paddingTop: "25px",
     maxWidth: "850px",
     boxSizing: "border-box",
-    marginLeft: "33%",
+    margin: "0px auto",
+    width: "850px",
     [theme.breakpoints.down("sm")]: {
       width: "100%",
     },
@@ -37,6 +38,7 @@ const Style = (theme) => ({
     textAlign: "center",
     flex: "1 0 auto",
     position: "relative",
+    wordWrap: "break-word",
     "&::before": {
       position: "absolute",
       top: "-12px",

@@ -17,7 +17,8 @@ const Style = (theme) => ({
     paddingTop: "80px",
     maxWidth: "850px",
     boxSizing: "border-box",
-    marginLeft: "33%",
+    margin: "0px auto",
+    width: "850px",
     [theme.breakpoints.down("sm")]: {
       padding: "20px 30px 0px",
       width: "100%",

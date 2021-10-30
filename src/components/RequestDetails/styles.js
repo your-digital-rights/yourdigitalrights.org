@@ -6,7 +6,7 @@ const Style = (theme) => ({
     paddingBottom: "40px",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#f4f4f4",
+    backgroundColor: "#FFF",
     textAlign: "left",
   },
   container: {
