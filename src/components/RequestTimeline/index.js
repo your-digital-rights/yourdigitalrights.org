@@ -37,14 +37,7 @@ const Timeline = ({ classes, requestItem, days }) => {
             <li className={classes.timelineItem}><FormattedMessage id="request.timeline.sendEscalation" defaultMessage="Escalation Sent" /><br />{ requestItem.escalationCreatedAt.S }</li>
           )}
           {typeof days.sinceEscalation !== 'number' && (
-            <li className={classes.timelineItem}>
-              <FormattedMessage
-                id="request.timeline.esclateTo"
-                defaultMessage="Escalate to the { authority }"
-                values={{
-                  authority: Regulations[requestItem.regulationType.S].dpa.longName,
-                }}
-              />
+            <li className={classes.timelineItem}><FormattedMessage id="request.timeline.esclateTo" defaultMessage="Send escalation" />
             </li>
           )}
         </ul>
