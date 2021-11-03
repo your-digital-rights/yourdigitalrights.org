@@ -101,6 +101,7 @@ export default async (req, res) => {
               emailTo: { S: req.body.emailTo },
               emailSubject: { S: req.body.emailSubject },
               emailBody: { S: req.body.emailBody },
+              status: { S: 'NO_REPLY' },
             },
           },
         },

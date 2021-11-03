@@ -56,6 +56,7 @@ class Form extends Component {
     super(props);
 
     this.state = {
+      uuid: null,
       name: "",
       email: "",
       identifyingInfo: "",
@@ -167,6 +168,7 @@ class Form extends Component {
 
   renderMailTo() {
     const uuid = uuidv4();
+    this.setState({ uuid: uuid });
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
     const regulationType = this.state.regulationType;
@@ -279,6 +281,7 @@ class Form extends Component {
           className="thanks-message"
           requestType={this.state.requestType}
           regulationType={this.state.regulationType}
+          uuid={this.state.uuid}
           hideThanks={() =>
             (window.location = `/#${searchOrganizationsUrlAnchor}`)
           }

@@ -10,7 +10,7 @@
     "test": "npm run build && npm-run-all -p -r test-serve browser-test",
     "setup-local-dynamo": "node setup/dynamo-tables",
     "teardown-local-dynamo": "node setup/teardown-dynamo-tables",
-    "dev": "next",
+    "dev": "npm run extract:i18n && npm run compile:i18n && next",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "start": "next start ./src",
     "build": "npm run extract:i18n && npm run compile:i18n && next build ./src",

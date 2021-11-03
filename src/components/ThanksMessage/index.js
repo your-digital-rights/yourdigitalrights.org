@@ -124,7 +124,7 @@ const styles = (theme) => ({
 });
 
 const ThanksMessage = (props) => {
-  let { classes, requestType, regulationType } = props;
+  let { classes, requestType, regulationType, uuid } = props;
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
   let replyTimeText = (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
 
@@ -162,7 +162,14 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}{" "}
+          <FormattedMessage
+            id="thankYou.viewRequest"
+            defaultMessage="You can also view a record of your <a>request</a>."
+            values={{
+              a: txt => (<a href={"/r/" + uuid}>{txt}</a>),
+            }}
+          />     
         </Typography>
         <Button
           variant="contained"
@@ -184,7 +191,7 @@ const ThanksMessage = (props) => {
           className={classes.donateLPButton}
           onClick={() => trackDonate("Donation - Librapay")}
         >
-          <FormattedMessage id="thankYou.Liberapay" defaultMessage="Donate via Liberapay" />
+          <FormattedMessage id="thankyou.Liberapay" defaultMessage="Donate via Liberapay" />
         </Button>                          
         <Button
           variant="contained"
@@ -194,7 +201,7 @@ const ThanksMessage = (props) => {
           className={classes.donateBTCButton}
           onClick={() => trackDonate("Donation - BTC")}
         >
-          <FormattedMessage id="thankYou.Bitcoin" defaultMessage="Donate Bitcoin" />
+          <FormattedMessage id="thankyou.Bitcoin" defaultMessage="Donate Bitcoin" />
         </Button>
       </div>
       <div className={classes.extensionInfoContainer}>
@@ -203,7 +210,7 @@ const ThanksMessage = (props) => {
           gutterBottom={true}
           className={classes.browserExtensionsText}
         >
-          <FormattedMessage id="thankYou.extensionText" defaultMessage="Save time by installing our browser extension" />
+          <FormattedMessage id="thankyou.extensionText" defaultMessage="Save time by installing our browser extension" />
         </Typography>
         <div className={classes.browserExtensionLinkContainer}>
           <a

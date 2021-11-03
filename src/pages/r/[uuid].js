@@ -4,8 +4,6 @@ import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Nav";

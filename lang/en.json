@@ -527,6 +527,9 @@
   "orgHero.notAffiliatedDisclamer": {
     "message": "This service is <disclamer>not affiliated with</disclamer> (find out more <about>about us</about>)."
   },
+  "orgHero.orgName": {
+    "message": "Organization: {org}."
+  },
   "orgHero.subTitle": {
     "message": "Use this free service to send {ccpa} and {gdpr} data requests."
   },
@@ -717,10 +720,10 @@
     "message": "declined your request."
   },
   "request.hero.didNotReply": {
-    "message": "did not reply."
+    "message": "did not reply yet."
   },
   "request.hero.escalationDateStatement": {
-    "message": "An escalation was sent {daysSince, plural, one {# day} other {# days}} ago."
+    "message": "An escalation was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
   },
   "request.hero.handledPartially": {
     "message": "Handled partially"
@@ -741,10 +744,10 @@
     "message": "handled your request partially."
   },
   "request.hero.reminderDateStatement": {
-    "message": "A reminder was sent {daysSince, plural, one {# day} other {# days}} ago."
+    "message": "A reminder was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
   },
   "request.hero.requestDateStatement": {
-    "message": "The request was sent {daysSince, plural, one {# day} other {# days}} ago."
+    "message": "The request was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
   },
   "request.hero.requestStatus": {
     "message": "Request Status:"
@@ -795,7 +798,7 @@
     "message": "Nothing at all. { companyName } successfully responded to your request."
   },
   "request.timeline.esclateTo": {
-    "message": "Escalate to the the { authority }"
+    "message": "Send escalation"
   },
   "request.timeline.reminderSent": {
     "message": "Reminder Sent"
@@ -872,14 +875,14 @@
   "social.twitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
-  "thankYou.Bitcoin": {
+  "thankYou.viewRequest": {
+    "message": "You can also view a record of your <a>request</a>."
+  },
+  "thankyou.Bitcoin": {
     "message": "Donate Bitcoin"
   },
-  "thankYou.Liberapay": {
+  "thankyou.Liberapay": {
     "message": "Donate via Liberapay"
-  },
-  "thankYou.extensionText": {
-    "message": "Save time by installing our browser extension"
   },
   "thankyou.copyPart1": {
     "message": "request email should have opened in your email application, all you need to do is review it and click Send."
@@ -892,6 +895,9 @@
   },
   "thankyou.copyPart3": {
     "message": "Please see our list of <a>Frequently Asked Questions</a> for additional information."
+  },
+  "thankyou.extensionText": {
+    "message": "Save time by installing our browser extension"
   },
   "thankyou.findCompany": {
     "message": "Find another organization"

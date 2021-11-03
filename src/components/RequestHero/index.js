@@ -1,8 +1,6 @@
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import aws from "aws-sdk";
 import fetch from "universal-fetch";
-import Typography from "@material-ui/core/Typography";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
@@ -57,7 +55,7 @@ class Hero extends Component {
           <p className={classes.information}>
             <FormattedMessage
               id="request.hero.requestDateStatement"
-              defaultMessage="The request was sent {daysSince, plural, one {# day} other {# days}} ago."
+              defaultMessage="The request was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
               values={{
                 daysSince: days.sinceRequest,
               }}
@@ -67,7 +65,7 @@ class Hero extends Component {
                 &nbsp;
                 <FormattedMessage
                   id="request.hero.reminderDateStatement"
-                  defaultMessage="A reminder was sent {daysSince, plural, one {# day} other {# days}} ago."
+                  defaultMessage="A reminder was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
                   values={{
                     daysSince: days.sinceReminder,
                   }}
@@ -79,7 +77,7 @@ class Hero extends Component {
                 &nbsp;
                 <FormattedMessage
                   id="request.hero.escalationDateStatement"
-                  defaultMessage="An escalation was sent {daysSince, plural, one {# day} other {# days}} ago."
+                  defaultMessage="An escalation was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
                   values={{
                     daysSince: days.sinceEscalation,
                   }}
@@ -99,7 +97,7 @@ class Hero extends Component {
                 status === "DECLINED" ? (
                   <FormattedMessage id="request.hero.declinedRequest" defaultMessage="declined your request." />
                 ) : (
-                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply." />
+                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply yet." />
                 )
               )
             )}

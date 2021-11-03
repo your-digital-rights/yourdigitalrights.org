@@ -1547,6 +1547,20 @@
       "value": ")."
     }
   ],
+  "orgHero.orgName": [
+    {
+      "type": 0,
+      "value": "Organization: "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "orgHero.subTitle": [
     {
       "type": 0,
@@ -2012,7 +2026,7 @@
   "request.hero.didNotReply": [
     {
       "type": 0,
-      "value": "did not reply."
+      "value": "did not reply yet."
     }
   ],
   "request.hero.escalationDateStatement": [
@@ -2023,14 +2037,19 @@
     {
       "offset": 0,
       "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " day"
+              "value": "yesterday"
             }
           ]
         },
@@ -2041,7 +2060,7 @@
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " days ago"
             }
           ]
         }
@@ -2052,7 +2071,7 @@
     },
     {
       "type": 0,
-      "value": " ago."
+      "value": "."
     }
   ],
   "request.hero.handledPartially": [
@@ -2111,14 +2130,19 @@
     {
       "offset": 0,
       "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " day"
+              "value": "yesterday"
             }
           ]
         },
@@ -2129,7 +2153,7 @@
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " days ago"
             }
           ]
         }
@@ -2140,7 +2164,7 @@
     },
     {
       "type": 0,
-      "value": " ago."
+      "value": "."
     }
   ],
   "request.hero.requestDateStatement": [
@@ -2151,14 +2175,19 @@
     {
       "offset": 0,
       "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " day"
+              "value": "yesterday"
             }
           ]
         },
@@ -2169,7 +2198,7 @@
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " days ago"
             }
           ]
         }
@@ -2180,7 +2209,7 @@
     },
     {
       "type": 0,
-      "value": " ago."
+      "value": "."
     }
   ],
   "request.hero.requestStatus": [
@@ -2480,11 +2509,7 @@
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Escalate to the "
-    },
-    {
-      "type": 1,
-      "value": "authority"
+      "value": "Send escalation"
     }
   ],
   "request.timeline.reminderSent": [
@@ -2645,22 +2670,36 @@
       "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
     }
   ],
-  "thankYou.Bitcoin": [
+  "thankYou.viewRequest": [
+    {
+      "type": 0,
+      "value": "You can also view a record of your "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "request"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "thankyou.Bitcoin": [
     {
       "type": 0,
       "value": "Donate Bitcoin"
     }
   ],
-  "thankYou.Liberapay": [
+  "thankyou.Liberapay": [
     {
       "type": 0,
       "value": "Donate via Liberapay"
-    }
-  ],
-  "thankYou.extensionText": [
-    {
-      "type": 0,
-      "value": "Save time by installing our browser extension"
     }
   ],
   "thankyou.copyPart1": [
@@ -2727,6 +2766,12 @@
     {
       "type": 0,
       "value": " for additional information."
+    }
+  ],
+  "thankyou.extensionText": [
+    {
+      "type": 0,
+      "value": "Save time by installing our browser extension"
     }
   ],
   "thankyou.findCompany": [
