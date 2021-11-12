@@ -1,4 +1,5 @@
 import aws from "aws-sdk";
+import { DateTime } from "luxon";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -33,7 +34,7 @@ export default async (req, res) => {
       },
       ExpressionAttributeValues: {
         ":r": {
-          S: new Date().toISOString(),
+          S: new DateTime().toISO(),
         },
       },
       Key: {

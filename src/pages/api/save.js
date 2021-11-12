@@ -1,4 +1,5 @@
 import aws from "aws-sdk";
+import { DateTime } from "luxon";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -50,6 +51,7 @@ export default async (req, res) => {
       return;
     }
 
+    const requestCreatedAt = new DateTime().now();
     const requestItems = {
       RequestItems: {
         YDRRequests: [
@@ -57,7 +59,7 @@ export default async (req, res) => {
             PutRequest: {
               Item: {
                 id: { S: req.body.uuid },
-                requestCreatedAt: { S: new Date().toISOString() },
+                requestCreatedAt: { S: requestCreatedAt.toISO() },
                 requestType: { S: req.body.requestType },
                 regulationType: { S: req.body.regulationType },
                 companyName: { S: req.body.companyName },
@@ -91,7 +93,8 @@ export default async (req, res) => {
             Item: {
               lang: { S: req.body.lang },
               id: { S: req.body.uuid },
-              requestCreatedAt: { S: new Date().toISOString() },
+              requestCreatedDate: { S: requestCreatedAt.toISODate() },
+              requestCreatedAt: { S: requestCreatedAt.toISO() },
               requestType: { S: req.body.requestType },
               regulationType: { S: req.body.regulationType },
               companyName: { S: req.body.companyName },

@@ -3,7 +3,6 @@ import { FormattedMessage } from "react-intl";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
-import RequestWhatsNext from "../RequestWhatsNext";
 import dateFormatter from "../../utils/date-formatter";
 
 class Details extends Component {
