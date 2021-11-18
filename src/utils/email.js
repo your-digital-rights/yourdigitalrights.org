@@ -1,7 +1,7 @@
-export default function getInboundEmailAddress(uuid) {
+export default function getInboundEmailAddress(uuid, action) {
   if (process.env.VERCEL_ENV === 'production') {
-    return `${uuid}@inbound.yourdigitalrights.org`;
+    return `${uuid}.${action}@inbound.yourdigitalrights.org`;
   } else {
-    return `${uuid}@inbound-dev.yourdigitalrights.org`;
+    return `${uuid}.${action}@inbound-dev.yourdigitalrights.org`;
   }
 };

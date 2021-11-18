@@ -35,11 +35,10 @@ const mailgoConfig = {
 
 function renderMailTo(requestItem, complaintText, countryCode, status) {
   const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
-  console.log(countryCode);
-  const geo = geographies.filter(geo => geo.countryCode === 'AT');
+  const geo = geographies.filter(geo => geo.countryCode === countryCode);
   const to = geo[0].email;
   const cc = requestItem.emailTo.S;
-  const bcc = getInboundEmailAddress(requestItem.id.S);
+  const bcc = getInboundEmailAddress(requestItem.id.S, 'escalation');
   const subject = escalationEmail.subject(requestItem);
   const body = escalationEmail.body(requestItem, complaintText, status);
 

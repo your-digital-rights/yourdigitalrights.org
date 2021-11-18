@@ -51,7 +51,8 @@ export default async (req, res) => {
       return;
     }
 
-    const requestCreatedAt = new DateTime().now();
+    const requestCreatedAt = DateTime.now();
+    const TTL = Math.round(requestCreatedAt.plus({ days: 120 }).toSeconds()); // auto delete after 120 days
     const requestItems = {
       RequestItems: {
         YDRRequests: [
@@ -93,8 +94,11 @@ export default async (req, res) => {
             Item: {
               lang: { S: req.body.lang },
               id: { S: req.body.uuid },
-              requestCreatedDate: { S: requestCreatedAt.toISODate() },
               requestCreatedAt: { S: requestCreatedAt.toISO() },
+              userReminderEmailsSentDate: { S: '' },
+              userEscalationEmailsSentDate: { S: '' },
+              reminderEmailsSentDate: { S: '' },
+              escalationEmailsSentDate: { S: '' },
               requestType: { S: req.body.requestType },
               regulationType: { S: req.body.regulationType },
               companyName: { S: req.body.companyName },
@@ -105,6 +109,7 @@ export default async (req, res) => {
               emailSubject: { S: req.body.emailSubject },
               emailBody: { S: req.body.emailBody },
               status: { S: 'NO_REPLY' },
+              ttl: { N:  TTL.toString() },
             },
           },
         },
@@ -115,7 +120,7 @@ export default async (req, res) => {
       if (err || Object.keys(data.UnprocessedItems).length) {
         res.statusCode = 500;
         res.send({
-          error: 'Could not save request.',
+          error: 'Could not save request: ' + err,
         });
       } else {
         res.statusCode = 201;

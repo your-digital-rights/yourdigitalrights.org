@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { useIntl, FormattedMessage } from "react-intl";
+import { FormattedMessage } from "react-intl";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
@@ -24,7 +24,7 @@ class WhatsNext extends Component {
   renderMailTo() {
     const {requestItem, status} = this.props;
     const to = requestItem.emailTo.S;
-    const bcc = getInboundEmailAddress(requestItem.id.S);
+    const bcc = getInboundEmailAddress(requestItem.id.S, 'reminder');
     const subject = reminderEmail.subject(requestItem);
     const body = reminderEmail.body(requestItem, status);
 

@@ -180,7 +180,7 @@ class Form extends Component {
 
     const bcc =
       followUp === "YES"  
-        ? getInboundEmailAddress(uuid)
+        ? getInboundEmailAddress(uuid, 'request')
         : null;
 
     const companyName = selectedCompany

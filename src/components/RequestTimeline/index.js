@@ -1,8 +1,6 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-import Regulations from "../../utils/regulations";
 import dateFormatter from "../../utils/date-formatter";
 
 const Timeline = ({ classes, requestItem, days }) => {
