@@ -684,31 +684,46 @@
     "message": "Request date:"
   },
   "request.details.escalationDate": {
-    "message": "Escalation email date:"
+    "message": "Escalation email sent on:"
   },
   "request.details.header": {
     "message": "Request details"
   },
-  "request.details.hide": {
-    "message": "To hide the email you sent, please click here"
+  "request.details.hide.escalation": {
+    "message": "Hide escalation email"
+  },
+  "request.details.hide.reminder": {
+    "message": "Hide reminder email"
+  },
+  "request.details.hide.request": {
+    "message": "Hide request email"
   },
   "request.details.name": {
-    "message": "Full name:"
+    "message": "Requested by:"
+  },
+  "request.details.nowDetails": {
+    "message": "Request details are not avaialble at this time, if you have you sent please refresh the page."
   },
   "request.details.organization": {
-    "message": "Organization:"
+    "message": "Recipient:"
   },
   "request.details.regulation": {
     "message": "Regulation:"
   },
   "request.details.reminderDate": {
-    "message": "Reminder email date:"
+    "message": "Reminder email sent on:"
   },
   "request.details.sentTo": {
-    "message": "Sent to email address:"
+    "message": "Recipient email address:"
   },
-  "request.details.show": {
-    "message": "To see the email you sent, please click here"
+  "request.details.show.escalation": {
+    "message": "View escalation email"
+  },
+  "request.details.show.reminder": {
+    "message": "View reminder email"
+  },
+  "request.details.show.request": {
+    "message": "View request email"
   },
   "request.details.type": {
     "message": "Request type:"

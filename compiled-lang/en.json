@@ -1954,7 +1954,7 @@
   "request.details.escalationDate": [
     {
       "type": 0,
-      "value": "Escalation email date:"
+      "value": "Escalation email sent on:"
     }
   ],
   "request.details.header": [
@@ -1963,22 +1963,40 @@
       "value": "Request details"
     }
   ],
-  "request.details.hide": [
+  "request.details.hide.escalation": [
     {
       "type": 0,
-      "value": "To hide the email you sent, please click here"
+      "value": "Hide escalation email"
+    }
+  ],
+  "request.details.hide.reminder": [
+    {
+      "type": 0,
+      "value": "Hide reminder email"
+    }
+  ],
+  "request.details.hide.request": [
+    {
+      "type": 0,
+      "value": "Hide request email"
     }
   ],
   "request.details.name": [
     {
       "type": 0,
-      "value": "Full name:"
+      "value": "Requested by:"
+    }
+  ],
+  "request.details.nowDetails": [
+    {
+      "type": 0,
+      "value": "Request details are not avaialble at this time, if you have you sent please refresh the page."
     }
   ],
   "request.details.organization": [
     {
       "type": 0,
-      "value": "Organization:"
+      "value": "Recipient:"
     }
   ],
   "request.details.regulation": [
@@ -1990,19 +2008,31 @@
   "request.details.reminderDate": [
     {
       "type": 0,
-      "value": "Reminder email date:"
+      "value": "Reminder email sent on:"
     }
   ],
   "request.details.sentTo": [
     {
       "type": 0,
-      "value": "Sent to email address:"
+      "value": "Recipient email address:"
     }
   ],
-  "request.details.show": [
+  "request.details.show.escalation": [
     {
       "type": 0,
-      "value": "To see the email you sent, please click here"
+      "value": "View escalation email"
+    }
+  ],
+  "request.details.show.reminder": [
+    {
+      "type": 0,
+      "value": "View reminder email"
+    }
+  ],
+  "request.details.show.request": [
+    {
+      "type": 0,
+      "value": "View request email"
     }
   ],
   "request.details.type": [
