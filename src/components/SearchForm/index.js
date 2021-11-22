@@ -141,7 +141,7 @@ class Form extends Component {
           <>
             <img
               role="presentation"
-              src={`https://api.faviconkit.com/${result.url}/24`}
+              src={`//logo.clearbit.com/${result.url}?size=24`}
               width={24}
               height={24}
             />
