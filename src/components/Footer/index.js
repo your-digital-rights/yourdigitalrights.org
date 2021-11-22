@@ -68,8 +68,8 @@ const styles = (theme) => ({
   },
   VercelLogo: {
     height: "2.4em",
-    marginTop: "15px",
-  }  
+    marginTop: "5px",
+  }
 });
 
 const WishButtonText = (
@@ -149,6 +149,7 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography> 
+          <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://clearbit.com">Logos by Clearbit</a>
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
