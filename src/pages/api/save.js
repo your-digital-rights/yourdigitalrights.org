@@ -29,9 +29,6 @@ const dynamodb = new aws.DynamoDB();
  * @param {string} req.body.companyName of the organization
  * @param {string} req.body.name of the requester, used for follow up
  * @param {string} req.body.identifyingInfo of the requester, used for follow up, optional
- * @param {string} req.body.emailTo for the request, used for follow up
- * @param {string} req.body.emailSubject for the request, used for follow up
- * @param {string} req.body.emailBody for the request, used for follow up
  */
 export default async (req, res) => {
   return new Promise((resolve, reject) => {
@@ -73,16 +70,11 @@ export default async (req, res) => {
     };
 
     if (req.body.name) {
-      if (
-        !req.body.emailTo ||
-        !req.body.emailSubject ||
-        !req.body.emailBody ||
-        !req.body.lang
-      ) {
+      if (!req.body.lang) {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 400;
         res.send({
-          error: 'Missing one of name, emailTo, emailSubject, emailBody, lang',
+          error: 'Missing lang',
         });
         resolve();
         return;
