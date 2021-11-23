@@ -59,6 +59,10 @@ export default {
     this.trackEvent("Donation Click", type, "Donation From " + source);
   },
 
+  trackDeletePII(type) {
+    this.trackEvent("DeletePII", type);
+  },
+
   trackWebExtension(browser, sourcePage) {
     this.trackEvent(
       "Click Web Extension",
