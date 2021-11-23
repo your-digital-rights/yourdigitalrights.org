@@ -30,6 +30,22 @@ export default {
     this.trackEvent("Selected Domain", domain);
   },
 
+  trackSendReminderEmail(domain, regulationType) {
+    this.trackEvent(
+      "Send reminder email",
+      domain,
+      regulationType,
+    );
+  },
+
+  trackEscalationRequest(domain, regulationType) {
+    this.trackEvent(
+      "Escalation request",
+      domain,
+      regulationType,
+    );
+  },
+
   trackRequestComplete(domain, regulationType, requestType) {
     let requestTypeText = (requestType == "DELETION") ? "Erasure Request" : "Access Request"
     this.trackEvent(
