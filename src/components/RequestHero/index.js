@@ -18,15 +18,7 @@ class Hero extends Component {
     // Optimistically assume the status update will succeed
     this.props.setStatus(newStatus);
 
-    fetch('/api/update', {
-        method: "POST",
-        body: JSON.stringify({
-          uuid: this.props.requestItem.id.S,
-          status: newStatus,
-        }),
-        headers: {
-          "Content-Type": "application/json"
-        },
+    fetch(`/api/status?uuid=${this.props.requestItem.id.S}&status=${newStatus}`, {
     }).then((response) => {
       if (!response.ok) {
         // If the status didn't update, revert it back
