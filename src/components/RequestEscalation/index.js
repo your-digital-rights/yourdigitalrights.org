@@ -12,6 +12,7 @@ import getInboundEmailAddress from "../../utils/email";
 import {getCountryCode} from "../../utils/geolocation";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
+import tracking from "../../utils/tracking";
 
 const mailgoConfig = {
   dark: true,
@@ -51,14 +52,18 @@ function renderMailTo(requestItem, complaintText, countryCode, status) {
   });
 };
 
-const handleFormSubmit = (...args) => e => {
+const handleFormSubmit = (requestItem, complaintText, geograpghy, status) => e => {
   e.preventDefault();
-  const mailTo = renderMailTo(...args);
+  const mailTo = renderMailTo(requestItem, complaintText, geograpghy, status);
   if (isMobile) {
     window.open(mailTo);
   } else {
     mailgoDirectRender(mailTo);
   }
+  tracking.trackEscalationRequest(
+    requestItem.companyUrl.S,
+    requestItem.regulationType.S
+  );
 }
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {

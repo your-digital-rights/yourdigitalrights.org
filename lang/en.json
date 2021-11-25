@@ -140,6 +140,24 @@
   "data-brokers.title": {
     "message": "Opt Out of the Top Data Brokers"
   },
+  "deletePII.deleteAllPII": {
+    "message": "All requests"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "This request"
+  },
+  "deletePII.heading": {
+    "message": "Delete my data"
+  },
+  "deletePII.intro": {
+    "message": "Delete your data which is associated with this request (ref: {ref}), or with all of your requests?"
+  },
+  "deletemydata.description": {
+    "message": "Delete my data"
+  },
+  "deletemydata.title": {
+    "message": "Delete my data"
+  },
   "donations.Bitcoin": {
     "message": "Donate Bitcoin"
   },

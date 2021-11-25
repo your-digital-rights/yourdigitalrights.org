@@ -11,6 +11,7 @@ import reminderEmail from "../../email-templates/reminder";
 import capitalize from "../../utils/capitalize";
 import Regulations from "../../utils/regulations";
 import RequestEscalation from "../RequestEscalation";
+import tracking from "../../utils/tracking";
 
 class WhatsNext extends Component {
   constructor(props) {
@@ -45,6 +46,10 @@ class WhatsNext extends Component {
     } else {
       mailgoDirectRender(mailTo);
     }
+    tracking.trackSendReminderEmail(
+      this.props.requestItem.companyUrl.S,
+      this.props.requestItem.regulationType.S
+    );
   }
 
   buttons(classes, regulation) {
