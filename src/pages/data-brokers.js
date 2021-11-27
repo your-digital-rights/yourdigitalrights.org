@@ -137,9 +137,9 @@ const Brokers = ({ classes, router }) => {
                           <img
                             className={classes.centerImg}
                             src={
-                              "https://api.faviconkit.com/" +
+                              "//logo.clearbit.com/" +
                               company.domain +
-                              "/170"
+                              "?size=170"
                             }
                             alt={company.name}
                           />

@@ -12,6 +12,18 @@ Requires Node.js >= v15
 
 `npm install`
 
+# Running Vercel
+
+`vercel link`
+
+Set up "insert-route-here"? = Y
+
+Link to existing project? = Y
+
+What’s the name of your existing project? = ydr
+
+`vercel env pull`
+
 # Running locally
 
 Ensure Dynamo DB is running locally (see below).

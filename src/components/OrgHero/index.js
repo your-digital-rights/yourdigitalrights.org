@@ -18,7 +18,7 @@ const Hero = ({ classes, selectedCompany }) => {
           <div id="org-logo" className={classes.orgLogo}>
             <img
               className={classes.logo}
-              src={`https://api.faviconkit.com/${selectedCompany.url}/24`}
+              src={`//logo.clearbit.com/${selectedCompany.url}?size=24`}
             />
           </div>
         )}
