@@ -1,5 +1,4 @@
 import capitalize from "../utils/capitalize";
-import dateFormatter from "../utils/date-formatter";
 import daysSince from "../utils/days-since";
 import Regulations from "../utils/regulations";
 
@@ -7,15 +6,17 @@ export default {
   subject(requestItem) {
     const regulation = Regulations[requestItem.regulationType.S];
     const requestType = regulation['requestTypes'][requestItem.requestType.S];
-    return `Reminder: My ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request sent ${dateFormatter(new Date(requestItem.requestCreatedAt.S))}`;
+    const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
+    return `Reminder: My ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request sent ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))}`;
   },
   body(requestItem, status) {
     const regulation = Regulations[requestItem.regulationType.S];
     const requestType = regulation['requestTypes'][requestItem.requestType.S];
     const bodyParts = [];
+    const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
 
     bodyParts.push('To whom it may concern:');
-    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.requestCreatedAt.S))} I sent you a Data ${capitalize(requestType.name)} Request via email, pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
+    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))} I sent you a Data ${capitalize(requestType.name)} Request via email, pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
 
     if (status === 'PARTIAL') {
       bodyParts.push('So far you have failed to fully comply with my request.');
@@ -25,7 +26,7 @@ export default {
       bodyParts.push('So far I did not receive a reply to my request.');
     }
 
-    const daysSinceRequest = daysSince(new Date(requestItem.requestCreatedAt.S));
+    const daysSinceRequest = daysSince(new Date(requestSentDate));
     if (daysSinceRequest > requestType.timeLimit) {
       bodyParts.push(`Since it has been ${daysSinceRequest} since the request was sent you are now in violation of section ${requestType.article} of the ${regulation.displayName}.`);
     }

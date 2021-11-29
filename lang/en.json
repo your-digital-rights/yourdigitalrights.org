@@ -831,22 +831,31 @@
     "message": "Nothing at all. { companyName } successfully responded to your request."
   },
   "request.timeline.esclateTo": {
-    "message": "Send escalation"
+    "message": "Send an escalation"
   },
   "request.timeline.reminderSent": {
-    "message": "Reminder Sent"
+    "message": "Reminder sent"
   },
   "request.timeline.requestSent": {
-    "message": "Request Sent"
+    "message": "Request sent"
   },
   "request.timeline.requestTimeline": {
     "message": "Your request timeline"
   },
   "request.timeline.sendEscalation": {
-    "message": "Escalation Sent"
+    "message": "Escalation sent"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
   },
   "request.timeline.sendReminder": {
     "message": "Send a reminder"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
   },
   "request.title": {
     "message": "Details for your {regulationType} request"

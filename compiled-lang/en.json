@@ -2583,19 +2583,19 @@
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Send escalation"
+      "value": "Send an escalation"
     }
   ],
   "request.timeline.reminderSent": [
     {
       "type": 0,
-      "value": "Reminder Sent"
+      "value": "Reminder sent"
     }
   ],
   "request.timeline.requestSent": [
     {
       "type": 0,
-      "value": "Request Sent"
+      "value": "Request sent"
     }
   ],
   "request.timeline.requestTimeline": [
@@ -2607,13 +2607,132 @@
   "request.timeline.sendEscalation": [
     {
       "type": 0,
-      "value": "Escalation Sent"
+      "value": "Escalation sent"
+    }
+  ],
+  "request.timeline.sendEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "tommorow"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "in "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
     }
   ],
   "request.timeline.sendReminder": [
     {
       "type": 0,
       "value": "Send a reminder"
+    }
+  ],
+  "request.timeline.sendReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "tommorow"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "in "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceRequestDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "yesterday"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days ago"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
     }
   ],
   "request.title": [

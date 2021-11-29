@@ -1,5 +1,4 @@
 import capitalize from "../utils/capitalize";
-import dateFormatter from "../utils/date-formatter";
 import daysSince from "../utils/days-since";
 import Regulations from "../utils/regulations";
 
@@ -13,12 +12,13 @@ export default {
     const regulation = Regulations[requestItem.regulationType.S];
     const requestType = regulation['requestTypes'][requestItem.requestType.S];
     const bodyParts = [];
+    const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
 
     bodyParts.push('Dear Data Protection Agency,');
-    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.requestCreatedAt.S))} I sent "${requestItem.companyName.S}" (website: ${requestItem.companyUrl.S}) a Data ${capitalize(requestType.name)} Request pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
+    bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))} I sent "${requestItem.companyName.S}" (website: ${requestItem.companyUrl.S}) a Data ${capitalize(requestType.name)} Request pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
 
     if (requestItem.reminderEmailSentAt) {
-      bodyParts.push(`I have also sent the organization a reminder email on ${dateFormatter(new Date(requestItem.reminderEmailSentAt.S))}.`);
+      bodyParts.push(`I have also sent the organization a reminder email on ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S))}.`);
     }
 
     let reason = '';
@@ -29,7 +29,7 @@ export default {
     } else if (status === 'NO_REPLY') {
       reason = 'the organization did not reply to my request';
     }
-    const daysSinceRequest = daysSince(new Date(requestItem.requestCreatedAt.S));
+    const daysSinceRequest = daysSince(new Date(requestSentDate));
     bodyParts.push(`I would like to file a formal complaint since ${reason}, which I have sent ${daysSinceRequest} days ago.`);
 
     if (complaintText) {

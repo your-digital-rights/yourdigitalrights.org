@@ -11,9 +11,10 @@ import RequestDetails from "../../../components/RequestDetails";
 import RequestWhatsNext from "../../../components/RequestWhatsNext";
 import RequestHero from "../../../components/RequestHero";
 import RequestTimeline from "../../../components/RequestTimeline";
-import daysSince from "../../../utils/days-since";
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
 import fetchSheetData from "../../../utils/sheets";
+import Regulations from "../../../utils/regulations";
+import { DateTime } from "luxon";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -110,11 +111,18 @@ class Uuid extends Component {
       },
     );
     const BaseURL = "/r/" + uuid;
+    const requestSentDate = data.item.requestEmailSentAt ? data.item.requestEmailSentAt.S : data.item.requestCreatedAt.S;
+    const regulation = Regulations[data.item.regulationType.S];
+    const reminderTimeLimit = regulation.timeLimit;
+    const escalationTimeLimit = reminderTimeLimit * 2;
     const days = {
-      sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
-      sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,
-      sinceEscalation: data.item.escalationCreatedAt ? daysSince(new Date(data.item.escalationCreatedAt.S)) : null,
+      sinceRequest: DateTime.now().diff(DateTime.fromISO(requestSentDate), ['days', 'hours']).toObject().days,
+      sinceReminder: data.item.reminderEmailSentAt ? DateTime.fromISO(data.item.reminderEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
+      sinceEscalation: data.item.escalationEmailSentAt ? DateTime.fromISO(data.item.escalationEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
+      toReminder: !data.item.reminderEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: reminderTimeLimit}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
+      toEscalation: !data.item.escalationEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: escalationTimeLimit}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
     };
+    console.log(requestSentDate);
 
     return (
       <div>
