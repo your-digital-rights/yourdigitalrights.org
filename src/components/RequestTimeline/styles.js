@@ -19,7 +19,9 @@ const Style = (theme) => ({
     margin: "0px auto",
     width: "850px",
     [theme.breakpoints.down("sm")]: {
-      width: "100%",
+      width: "90%",
+      paddingBottom: "0px",
+      paddingTop: "0px",
     },
   },
   header: {
@@ -34,7 +36,6 @@ const Style = (theme) => ({
     justifyContent: "space-between",
   },
   timelineItem: {
-    padding: "8px 30px",
     textAlign: "center",
     flex: "1 0 auto",
     position: "relative",
@@ -67,6 +68,9 @@ const Style = (theme) => ({
     },
     "&:last-of-type::after": {
       width: "50%",
+    },
+    [theme.breakpoints.up("sm")]: {
+      padding: "8px 30px",
     },
   }
 });

@@ -9,7 +9,7 @@ const Style = (theme) => ({
     backgroundColor: "#FFF",
     textAlign: "left",
     [theme.breakpoints.down("sm")]: {
-      padding: "60px 0px 0px",
+      padding: "20px 0px 0px",
     },
   },
   container: {
@@ -22,8 +22,7 @@ const Style = (theme) => ({
     margin: "0px auto",
     width: "850px",
     [theme.breakpoints.down("sm")]: {
-      padding: "30px 30px 0px",
-      width: "100%",
+      width: "90%",
     },
   },
   header: {

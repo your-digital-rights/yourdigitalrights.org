@@ -13,8 +13,7 @@ const Style = (theme) => ({
     maxWidth: "850px",
     boxSizing: "border-box",
     [theme.breakpoints.down("sm")]: {
-      padding: "30px 30px 0px",
-      width: "100%",
+      width: "90%",
     },
   },
   header: {
