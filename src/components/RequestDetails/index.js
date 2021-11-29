@@ -115,7 +115,7 @@ class Details extends Component {
               </dl>
             )}
             {!requestItem.requestEmailTo && (
-              <FormattedMessage id="request.details.nowDetails" defaultMessage="Request details are not avaialble at this time, if you have you sent please refresh the page." />
+              <FormattedMessage id="request.details.nowDetails" defaultMessage="Request details are not avaialble at this time, if you have you sent the email please refresh the page." />
             )}
           </Paper>
         </div>
