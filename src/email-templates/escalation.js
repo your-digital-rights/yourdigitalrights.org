@@ -17,7 +17,7 @@ export default {
     bodyParts.push('Dear Data Protection Agency,');
     bodyParts.push(`On ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.requestCreatedAt.S))} I sent "${requestItem.companyName.S}" (website: ${requestItem.companyUrl.S}) a Data ${capitalize(requestType.name)} Request pursuant to article ${requestType.article} of the ${regulation.longName} (${regulation.displayName}).`);
 
-    if (requestItem.reminderEmailSentAt.S) {
+    if (requestItem.reminderEmailSentAt) {
       bodyParts.push(`I have also sent the organization a reminder email on ${dateFormatter(new Date(requestItem.reminderEmailSentAt.S))}.`);
     }
 

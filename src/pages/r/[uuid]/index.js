@@ -4,16 +4,16 @@ import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import { withStyles } from "@material-ui/core/styles";
-import Donations from "../../components/Donations";
-import Footer from "../../components/Footer";
-import Nav from "../../components/Nav";
-import RequestDetails from "../../components/RequestDetails";
-import RequestWhatsNext from "../../components/RequestWhatsNext";
-import RequestHero from "../../components/RequestHero";
-import RequestTimeline from "../../components/RequestTimeline";
-import daysSince from "../../utils/days-since";
-import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
-import fetchSheetData from "../../utils/sheets";
+import Donations from "../../../components/Donations";
+import Footer from "../../../components/Footer";
+import Nav from "../../../components/Nav";
+import RequestDetails from "../../../components/RequestDetails";
+import RequestWhatsNext from "../../../components/RequestWhatsNext";
+import RequestHero from "../../../components/RequestHero";
+import RequestTimeline from "../../../components/RequestTimeline";
+import daysSince from "../../../utils/days-since";
+import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
+import fetchSheetData from "../../../utils/sheets";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -109,7 +109,7 @@ class Uuid extends Component {
         regulationType: regulationType,
       },
     );
-    const BaseURL = "/request/" + uuid;
+    const BaseURL = "/r/" + uuid;
     const days = {
       sinceRequest: data.item.requestCreatedAt ? daysSince(new Date(data.item.requestCreatedAt.S)) : null,
       sinceReminder: data.item.reminderCreatedAt ? daysSince(new Date(data.item.reminderCreatedAt.S)) : null,

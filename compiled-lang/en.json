@@ -489,6 +489,50 @@
       "value": "Opt Out of the Top Data Brokers"
     }
   ],
+  "deletePII.deleteAllPII": [
+    {
+      "type": 0,
+      "value": "All requests"
+    }
+  ],
+  "deletePII.deleteSpecificPII": [
+    {
+      "type": 0,
+      "value": "This request"
+    }
+  ],
+  "deletePII.heading": [
+    {
+      "type": 0,
+      "value": "Delete my data"
+    }
+  ],
+  "deletePII.intro": [
+    {
+      "type": 0,
+      "value": "Delete your data which is associated with this request (ref: "
+    },
+    {
+      "type": 1,
+      "value": "ref"
+    },
+    {
+      "type": 0,
+      "value": "), or with all of your requests?"
+    }
+  ],
+  "deletemydata.description": [
+    {
+      "type": 0,
+      "value": "Delete my data"
+    }
+  ],
+  "deletemydata.title": [
+    {
+      "type": 0,
+      "value": "Delete my data"
+    }
+  ],
   "donations.Bitcoin": [
     {
       "type": 0,

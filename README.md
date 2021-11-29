@@ -6,7 +6,7 @@ Source code for [YourDigitalRights.org](https://yourdigitalrights.org/), a free 
 [![CircleCI](https://circleci.com/gh/your-digital-rights/yourdigitalrights.org.svg?style=svg)](https://app.circleci.com/pipelines/github/your-digital-rights)
 [![LibraPay](https://img.shields.io/liberapay/patrons/YourDigitalRights.org.svg?logo=liberapay)](https://liberapay.com/YourDigitalRights.org/donate)
 
-# Installation
+# Installation 
 
 Requires Node.js >= v15
 
@@ -24,46 +24,9 @@ What’s the name of your existing project? = ydr
 
 `vercel env pull`
 
-# Running locally
+# Running locally (this will run agains the AWS test env)
 
-Ensure Dynamo DB is running locally (see below).
-
-```
-export ACCESS_KEY_ID=accesskey
-export SECRET_ACCESS_KEY=fakesecret
-export REGION=eu-west-1
-export ENDPOINT=http://localhost:8000
-npm run dev
-```
-
-# Installing and Running Dynamo DB Locally
-
-Installation https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html:
-```
-cd ~/
-mkdir environment; cd environment; mkdir dynamolocal; cd dynamolocal
-wget https://s3.us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz
-gunzip dynamodb_local_latest.tar.gz
-tar -jxvf dynamodb_local_latest.tar
-```
-
-Running:
-```
-> cd ~/environment/dynamolocal
-> java -Djava.library.path=./DynamoDBLocal_lib/ -jar DynamoDBLocal.jar
-```
-
-## Setting up the Dynamo Tables
-
-This is a one-time step that needs to be run for any new database, including a localone. It ensures the tables are creted. Note real (test, staging or production) environments can be updated by changing the AWS credentials.
-
-```
-export ACCESS_KEY_ID=accesskey
-export SECRET_ACCESS_KEY=fakesecret
-export REGION=eu-west-1
-export ENDPOINT=http://localhost:8000
-npm run setup-local-dynamo
-```
+`npm run dev`
 
 # Running tests
 

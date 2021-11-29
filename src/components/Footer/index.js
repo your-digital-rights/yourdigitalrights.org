@@ -104,26 +104,27 @@ const QueryText = (
   />
 );
 
-const Footer = ({ classes }) => {
-
+const Footer = ({ classes, showRoadmap=true }) => {
   const trackWishlist = () => {
     tracking.trackWishlist();
   };
 
   return (
     <div className={classes.root}>
-      <div className={classes.WishList}>
-        <Button
-          onClick={() => trackWishlist()}
-          variant="contained"
-          href="https://wishlist.yourdigitalrights.org/"
-          color="secondary"
-          type="submit"
-          className={classes.wishButton}
-        >
-          {WishButtonText}
-        </Button>
-      </div>
+      {showRoadmap && (
+        <div className={classes.WishList}>
+          <Button
+            onClick={() => trackWishlist()}
+            variant="contained"
+            href="https://wishlist.yourdigitalrights.org/"
+            color="secondary"
+            type="submit"
+            className={classes.wishButton}
+          >
+            {WishButtonText}
+          </Button>
+        </div>
+      )}
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
           <Typography component="p" variant="body3">
