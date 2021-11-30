@@ -854,6 +854,12 @@
   "request.timeline.sendReminderDays": {
     "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
   },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
   "request.timeline.sinceRequestDays": {
     "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
   },
