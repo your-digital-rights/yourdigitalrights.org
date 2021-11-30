@@ -31,19 +31,19 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
               <dd>{ requestItem.name.S }</dd>
               <dt><FormattedMessage id="request.details.organization" defaultMessage="Recipient:" /></dt>
               <dd>{ requestItem.companyName.S }</dd>
-              <dt><FormattedMessage id="request.details.date" defaultMessage="Request date:" /></dt>
+              <dt><FormattedMessage id="request.details.date" defaultMessage="Request email date:" /></dt>
               <dd><FormattedDate value={requestItem.requestEmailSentAt.S} /></dd>
               <dt><FormattedMessage id="request.details.sentTo" defaultMessage="Recipient email address:" /></dt>
               <dd>{ requestItem.requestEmailTo.S }</dd>
               {requestItem.reminderEmailSentAt && (
                 <>
-                  <dt><FormattedMessage id="request.details.reminderDate" defaultMessage="Reminder email sent on:" /></dt>
+                  <dt><FormattedMessage id="request.details.reminderDate" defaultMessage="Reminder email date:" /></dt>
                   <dd><FormattedDate value={requestItem.reminderEmailSentAt.S} /></dd>
                 </>
               )}
               {requestItem.escalationEmailSentAt && (
                 <>
-                  <dt><FormattedMessage id="request.details.escalationDate" defaultMessage="Escalation email sent on:" /></dt>
+                  <dt><FormattedMessage id="request.details.escalationDate" defaultMessage="Escalation email date:" /></dt>
                   <dd><FormattedDate value={requestItem.escalationEmailSentAt.S} /></dd>
                 </>
               )}
@@ -83,7 +83,7 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
                   </dd>
                 </>
               )}
-              {requestItem.escalationEßailSentAt && (
+              {requestItem.escalationEmailSentAt && (
                 <>
                   <dt id="escalationEmail">
                     <a className={classes.showEmail} onClick={() => showEscalationEmailEmail(!showEscalationEmail)}>
