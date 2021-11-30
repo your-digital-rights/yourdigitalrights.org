@@ -1,5 +1,21 @@
 module.exports = {
 	target: 'serverless',
+  async redirects() {
+    return [
+      {
+        source: '/',
+        has: [
+          {
+            type: 'query',
+            key: 'company',
+            value: '(?<company>.*)',
+          },
+        ],
+        destination: '/d/:company',
+        permanent: true,
+      },
+    ]
+  },
 	async rewrites() {
 			return [
 				{ 
@@ -15,21 +31,3 @@ module.exports = {
     defaultLocale: "en",   
   },
 };
-
-
-        // {
-        //   source: '/specific/:path*',
-        //   has: [
-        //     {
-        //       type: 'query',
-        //       key: 'page',
-        //       value: 'home',
-        //     },
-        //     {
-        //       type: 'cookie',
-        //       key: 'authorized',
-        //       value: 'true',
-        //     },
-        //   ],
-        //   destination: '/:path*/:page',
-        // },
