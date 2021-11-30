@@ -106,7 +106,7 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
             </dl>
           )}
           {!requestItem.requestEmailTo && (
-            <FormattedMessage id="request.details.nowDetails" defaultMessage="Request details are not avaialble at this time, if you have you sent the email please refresh the page." />
+            <FormattedMessage id="request.details.nowDetails" defaultMessage="Request details are not avaialble at this time, please refresh the page once you have sent the email." />
           )}
         </Paper>
       </div>
