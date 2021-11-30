@@ -151,7 +151,9 @@ describe("When I visit the home page", () => {
           it("should hide thanks message after clicking 'Find another organization' and focus search form", async () => {
             (await page.thanksMessage.isVisible).should.be.true;
 
-            await page.thanksMessage.btn.click();
+            const button = await page.thanksMessage.btn;
+            await button.waitForClickable();
+            await button.click();
 
             (await page.thanksMessage.isVisible).should.be.false;
             (await page.searchIsFocused()).should.be.true;
