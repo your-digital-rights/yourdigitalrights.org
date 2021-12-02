@@ -452,23 +452,23 @@
   "hero.intro": {
     "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
   },
-  "howItWorks.fillIn": {
-    "message": "Fill in your name and any additional information which may help the organization to identify you in their information systems (we do not keep this information)."
+  "howItWorks.followUp": {
+    "message": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
-  "howItWorks.fillInTitle": {
-    "message": "Fill in"
+  "howItWorks.followUpTitle": {
+    "message": "Follow-up"
   },
   "howItWorks.imgAlt": {
     "message": "A graphic representing the user interface"
   },
   "howItWorks.search": {
-    "message": "Search for an organization using the search box above. If the organization you are looking for is not on the list, you can still send it a request by providing a contact email."
+    "message": "Search for an organization using the search box above."
   },
   "howItWorks.searchTitle": {
     "message": "Search"
   },
   "howItWorks.send": {
-    "message": "Click the Send button to generate a request email addressed to the relevant person at the organization you selected. The email will open up in your default email application where you can review, and then send it."
+    "message": "Send the organization a request to delete or access your personal data."
   },
   "howItWorks.sendTitle": {
     "message": "Send"
@@ -483,7 +483,7 @@
     "message": "Why Trust Us?"
   },
   "howItWorks.yourData": {
-    "message": "The <gdpr>General Data Protection Regulations</gdpr> (GDPR) and the <ccpa>California Consumer Privacy Act</ccpa> (CCPA) require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+    "message": "Privacy regulations such as the <gdpr>GDPR</gdpr> and the <ccpa>CCPA</ccpa> require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
   },
   "howItWorks.yourDataTitle": {
     "message": "It's your data, own it!"

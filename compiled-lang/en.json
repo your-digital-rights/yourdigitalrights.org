@@ -1293,16 +1293,16 @@
       "value": "."
     }
   ],
-  "howItWorks.fillIn": [
+  "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "Fill in your name and any additional information which may help the organization to identify you in their information systems (we do not keep this information)."
+      "value": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
     }
   ],
-  "howItWorks.fillInTitle": [
+  "howItWorks.followUpTitle": [
     {
       "type": 0,
-      "value": "Fill in"
+      "value": "Follow-up"
     }
   ],
   "howItWorks.imgAlt": [
@@ -1314,7 +1314,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "Search for an organization using the search box above. If the organization you are looking for is not on the list, you can still send it a request by providing a contact email."
+      "value": "Search for an organization using the search box above."
     }
   ],
   "howItWorks.searchTitle": [
@@ -1326,7 +1326,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "Click the Send button to generate a request email addressed to the relevant person at the organization you selected. The email will open up in your default email application where you can review, and then send it."
+      "value": "Send the organization a request to delete or access your personal data."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1384,13 +1384,13 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "The "
+      "value": "Privacy regulations such as the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General Data Protection Regulations"
+          "value": "GDPR"
         }
       ],
       "type": 8,
@@ -1398,13 +1398,13 @@
     },
     {
       "type": 0,
-      "value": " (GDPR) and the "
+      "value": " and the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "California Consumer Privacy Act"
+          "value": "CCPA"
         }
       ],
       "type": 8,
@@ -1412,7 +1412,7 @@
     },
     {
       "type": 0,
-      "value": " (CCPA) require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+      "value": " require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
     }
   ],
   "howItWorks.yourDataTitle": [

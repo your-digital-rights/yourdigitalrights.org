@@ -77,7 +77,7 @@ export const IdentifyingInfoHelperText = (
 export const FollowUpLabelText = (
   <FormattedMessage
     id="personalInfoForm.FollowUpLabel"
-    defaultMessage="Help me follow-up on this request"
+    defaultMessage="Turn on Smart Follow-up Assistance"
   />
 );
 
