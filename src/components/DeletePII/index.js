@@ -50,7 +50,7 @@ const DeletePII = ({ classes, uuid }) => {
         <Typography color="inherit" className={classes.intro}>
           <FormattedMessage
             id="deletePII.intro"
-            defaultMessage="Delete your data which is associated with this request (ref: {ref}), or with all of your requests?"
+            defaultMessage="Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: {ref}), or with all of your requests?"
             values={{ 
               ref: <a target="_blank" href={`/r/${uuid}`}>{ref}</a>,
             }}

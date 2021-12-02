@@ -1,3 +1,5 @@
+import { FormattedMessage } from "react-intl";
+
 const Regulations = {
   GDPR: {
     displayName: 'GDPR',
@@ -223,11 +225,21 @@ const Regulations = {
       ],
     },
     regulationURL: 'https://edpb.europa.eu/about-edpb/about-edpb/members_en',
-    exceptionInfo: 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/',
     requestTypes: {
       DELETION: {
         name: 'erasure',
         article: 17,
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineGDPR"
+            defaultMessage="<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        exceptionURL: 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/',
       },
       ACCESS: {
         name: 'SAR',
@@ -255,11 +267,21 @@ const Regulations = {
       ],      
     },
     regulationURL: 'https://edpb.europa.eu/about-edpb/about-edpb/members_en',
-    exceptionInfo: 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/',    
     requestTypes: {
       DELETION: {
         name: 'erasure',
         article: 17,
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineGDPR"
+            defaultMessage="<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),  
+        exceptionURL: 'https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/',          
       },
       ACCESS: {
         name: 'access',
@@ -288,11 +310,21 @@ const Regulations = {
       ],
     },
     regulationURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
-    exceptionInfo: 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV',
     requestTypes: {
       DELETION: {
         name: 'deletion',
         article: 105,
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineCCPA"
+            defaultMessage="<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&nodeTreePath=8.4.45&lawCode=CIV',
       },
       ACCESS: {
         name: 'access',

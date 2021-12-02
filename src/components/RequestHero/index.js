@@ -44,39 +44,6 @@ class Hero extends Component {
               }}
             />
           </h1>
-          <p className={classes.information}>
-            <FormattedMessage
-              id="request.hero.requestDateStatement"
-              defaultMessage="The request was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
-              values={{
-                daysSince: days.sinceRequest,
-              }}
-            />
-            {typeof days.sinceReminder === 'number' && (
-              <>
-                &nbsp;
-                <FormattedMessage
-                  id="request.hero.reminderDateStatement"
-                  defaultMessage="A reminder was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
-                  values={{
-                    daysSince: days.sinceReminder,
-                  }}
-                />
-              </>
-            )}
-            {typeof days.sinceEscalation === 'number' && (
-              <>
-                &nbsp;
-                <FormattedMessage
-                  id="request.hero.escalationDateStatement"
-                  defaultMessage="An escalation was sent {daysSince, plural, =0 {today} one {yesterday} other {# days ago}}."
-                  values={{
-                    daysSince: days.sinceEscalation,
-                  }}
-                />
-              </>
-            )}
-          </p>
           <h2 className={classes.status}>
             <strong><FormattedMessage id="request.hero.requestStatus" defaultMessage="Request Status:" /> </strong>
             {selectedCompany.name}&nbsp;

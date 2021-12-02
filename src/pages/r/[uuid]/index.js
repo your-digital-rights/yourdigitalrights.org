@@ -122,7 +122,6 @@ class Uuid extends Component {
       toReminder: !data.item.reminderEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: reminderTimeLimit}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
       toEscalation: !data.item.escalationEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: escalationTimeLimit}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
     };
-    console.log(requestSentDate);
 
     return (
       <div>

@@ -510,7 +510,7 @@
   "deletePII.intro": [
     {
       "type": 0,
-      "value": "Delete your data which is associated with this request (ref: "
+      "value": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: "
     },
     {
       "type": 1,
@@ -1992,13 +1992,13 @@
   "request.details.date": [
     {
       "type": 0,
-      "value": "Request date:"
+      "value": "Request email date:"
     }
   ],
   "request.details.escalationDate": [
     {
       "type": 0,
-      "value": "Escalation email sent on:"
+      "value": "Escalation email date:"
     }
   ],
   "request.details.header": [
@@ -2052,7 +2052,7 @@
   "request.details.reminderDate": [
     {
       "type": 0,
-      "value": "Reminder email sent on:"
+      "value": "Reminder email date:"
     }
   ],
   "request.details.sentTo": [
@@ -2103,51 +2103,6 @@
       "value": "did not reply yet."
     }
   ],
-  "request.hero.escalationDateStatement": [
-    {
-      "type": 0,
-      "value": "An escalation was sent "
-    },
-    {
-      "offset": 0,
-      "options": {
-        "=0": {
-          "value": [
-            {
-              "type": 0,
-              "value": "today"
-            }
-          ]
-        },
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "yesterday"
-            }
-          ]
-        },
-        "other": {
-          "value": [
-            {
-              "type": 7
-            },
-            {
-              "type": 0,
-              "value": " days ago"
-            }
-          ]
-        }
-      },
-      "pluralType": "cardinal",
-      "type": 6,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "request.hero.handledPartially": [
     {
       "type": 0,
@@ -2196,96 +2151,6 @@
       "value": "handled your request partially."
     }
   ],
-  "request.hero.reminderDateStatement": [
-    {
-      "type": 0,
-      "value": "A reminder was sent "
-    },
-    {
-      "offset": 0,
-      "options": {
-        "=0": {
-          "value": [
-            {
-              "type": 0,
-              "value": "today"
-            }
-          ]
-        },
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "yesterday"
-            }
-          ]
-        },
-        "other": {
-          "value": [
-            {
-              "type": 7
-            },
-            {
-              "type": 0,
-              "value": " days ago"
-            }
-          ]
-        }
-      },
-      "pluralType": "cardinal",
-      "type": 6,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
-  "request.hero.requestDateStatement": [
-    {
-      "type": 0,
-      "value": "The request was sent "
-    },
-    {
-      "offset": 0,
-      "options": {
-        "=0": {
-          "value": [
-            {
-              "type": 0,
-              "value": "today"
-            }
-          ]
-        },
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "yesterday"
-            }
-          ]
-        },
-        "other": {
-          "value": [
-            {
-              "type": 7
-            },
-            {
-              "type": 0,
-              "value": " days ago"
-            }
-          ]
-        }
-      },
-      "pluralType": "cardinal",
-      "type": 6,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "request.hero.requestStatus": [
     {
       "type": 0,
@@ -2295,7 +2160,7 @@
   "request.next.circumstancesToDecline": [
     {
       "type": 0,
-      "value": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
+      "value": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
     }
   ],
   "request.next.declineCCPA": [
@@ -2464,10 +2329,10 @@
       "value": "ul"
     }
   ],
-  "request.next.escalateToAuthority": [
+  "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "We recommend that you escalate your request to the "
+      "value": "Recommendation: escalate your request to your "
     },
     {
       "type": 1,
@@ -2476,6 +2341,42 @@
     {
       "type": 0,
       "value": "."
+    }
+  ],
+  "request.next.escalateToAuthorityPartial": [
+    {
+      "type": 0,
+      "value": "Recommendation: if you believe "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " should have complied with your request more fully, then we recommend that you escalate your request to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.next.escalatedAndNoSuccess": [
+    {
+      "type": 0,
+      "value": "You have escalated to the "
+    },
+    {
+      "type": 1,
+      "value": "dpa"
+    },
+    {
+      "type": 0,
+      "value": ", please continue to communicate with them directly. There's nothing else that we can do to help."
     }
   ],
   "request.next.esclateButton": [
@@ -2505,7 +2406,7 @@
     },
     {
       "type": 0,
-      "value": " organizations have "
+      "value": " regulation organizations have "
     },
     {
       "type": 1,
@@ -2516,34 +2417,40 @@
       "value": " days to reply to your request."
     }
   ],
-  "request.next.ratherNotWait": [
-    {
-      "type": 0,
-      "value": "If you would rather not wait then you have the following options:"
-    }
-  ],
   "request.next.reminderButton": [
     {
       "type": 0,
       "value": "Send the organization a reminder email"
     }
   ],
-  "request.next.selectTheOptions": [
+  "request.next.selectTheOptions1": [
     {
       "type": 0,
       "value": "Please select from the following options:"
     }
   ],
-  "request.next.sendAnEmail": [
+  "request.next.selectTheOptions2": [
     {
       "type": 0,
-      "value": "We recommend that you send them a reminder email."
+      "value": "If you wish to take further action then please select from the following options:"
+    }
+  ],
+  "request.next.selectTheOptions3": [
+    {
+      "type": 0,
+      "value": "If you do not wish to wait then please select from the following options:"
+    }
+  ],
+  "request.next.sendAReminderEmail": [
+    {
+      "type": 0,
+      "value": "Recommendation: send the organization a reminder email."
     }
   ],
   "request.next.waitUntilXDays": [
     {
       "type": 0,
-      "value": "We recommend you wait until "
+      "value": "Recommendation: wait until "
     },
     {
       "type": 1,
@@ -2551,7 +2458,21 @@
     },
     {
       "type": 0,
-      "value": " days have passed."
+      "value": " days have passed to give the company time to process your request."
+    }
+  ],
+  "request.next.waitUntilXDaysAfterReminder": [
+    {
+      "type": 0,
+      "value": "Recommendation: wait until "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
     }
   ],
   "request.next.whatsNext": [
@@ -2560,16 +2481,10 @@
       "value": "What's next"
     }
   ],
-  "request.next.wrongfullyDeclined": [
-    {
-      "type": 0,
-      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
-    }
-  ],
   "request.success": [
     {
       "type": 0,
-      "value": "Nothing at all. "
+      "value": "Congradulations, "
     },
     {
       "type": 1,
@@ -2577,7 +2492,21 @@
     },
     {
       "type": 0,
-      "value": " successfully responded to your request."
+      "value": " successfully complied with your request. Before you go, please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "delete your personal data from this website"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "request.timeline.esclateTo": [

@@ -127,7 +127,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
       )}
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.madeBy"
               defaultMessage="<a>Made by Conscious Digital</a>"
@@ -136,7 +136,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               }}
             />
           </Typography>          
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
@@ -145,7 +145,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               }}
             />
           </Typography>
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
@@ -154,7 +154,9 @@ const Footer = ({ classes, showRoadmap=true }) => {
               }}
             />
           </Typography> 
-          <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://clearbit.com">Logos by Clearbit</a>
+          <Typography component="p" variant="subtitle2">
+            <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://clearbit.com">Logos by Clearbit</a>
+          </Typography> 
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
@@ -166,10 +168,10 @@ const Footer = ({ classes, showRoadmap=true }) => {
           </a>
         </div>
         <div className={classes.innerRight}>
-          <Typography gutterBottom={true} color="textSecondary" variant="body3">
+          <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="body3">
+          <Typography color="textSecondary" variant="subtitle2">
             {QueryText}
           </Typography>
         </div>

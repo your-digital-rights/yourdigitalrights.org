@@ -27,7 +27,6 @@ const Style = (theme) => ({
   header: {
     fontSize: "38px",
     fontWeight: "normal",
-    marginBottom: "10px",
   },
   information: {
     fontSize: "21px",
@@ -38,7 +37,7 @@ const Style = (theme) => ({
   status: {
     fontSize: "28px",
     fontWeight: "normal",
-    marginBottom: "20px",
+    marginBottom: "30px",
   },
   buttons: {
     display: "flex",

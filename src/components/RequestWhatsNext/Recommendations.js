@@ -1,0 +1,162 @@
+import { FormattedMessage } from "react-intl";
+import styles from "./styles";
+import { withStyles } from "@material-ui/core/styles";
+import Regulations from "../../utils/regulations";
+import capitalize from "../../utils/capitalize";
+
+const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
+  const regulation = Regulations[requestItem.regulationType.S];
+  const timeLimit = regulation.timeLimit;
+  const requestType = regulation.requestTypes[requestItem.requestType.S];
+  const companyName = capitalize(selectedCompany.name);
+  let action = <FormattedMessage id="request.next.selectTheOptions1" defaultMessage="Please select from the following options:"/>;
+  let reply = [];
+  if (requestItem.escalationEmailSentAt && status !== "SUCCESS") { // escalation email sent, and status is not success.
+    reply.push(       
+      <strong>
+        <FormattedMessage
+          id="request.next.escalatedAndNoSuccess"
+          defaultMessage="You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
+            values={{
+              dpa: regulation.dpa.longName,
+            }}
+        />
+      </strong>       
+    );    
+    action = <FormattedMessage id="request.next.selectTheOptions2" defaultMessage="If you wish to take further action then please select from the following options:"/>;
+  } else { // escalation email not sent
+    if (status === "NO_REPLY") {
+      reply.push(              
+        <FormattedMessage
+          id="request.next.organizationsHaveXDays"
+          defaultMessage="According to the {regulationType} regulation organizations have { timeLimit } days to reply to your request."
+            values={{
+              regulationType: requestItem.regulationType.S,
+              timeLimit: timeLimit,
+            }}
+        />
+      );      
+      if (days.sinceRequest < timeLimit) {
+        reply.push(              
+          <strong>
+          <FormattedMessage
+            id="request.next.waitUntilXDays"
+            defaultMessage="Recommendation: wait until { timeLimit } days have passed to give the company time to process your request."
+            values={{
+              timeLimit: timeLimit,
+            }}
+          />
+          </strong>
+        );
+        action = <FormattedMessage id="request.next.selectTheOptions3" defaultMessage="If you do not wish to wait then please select from the following options:"/>;
+      } else { // over first time limit
+        if (requestItem.reminderEmailSentAt) { // reminder sent
+          if (days.sinceRequest < timeLimit*2) { // under 2nd time limit
+            reply.push(              
+              <strong>
+                <FormattedMessage
+                  id="request.next.waitUntilXDaysAfterReminder"
+                  defaultMessage="Recommendation: wait until { timeLimit } days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+                  values={{
+                    timeLimit: timeLimit*2,
+                  }}
+                />
+              </strong>
+            );
+            action = <FormattedMessage id="request.next.selectTheOptions3" defaultMessage="If you do not wish to wait then please select from the following options:"/>;
+          } else { // reminder sent, over 2nd time limit 
+            reply.push( 
+              <strong>
+                <FormattedMessage
+                  id="request.next.escalateToAuthorityNoReply"
+                  defaultMessage="Recommendation: escalate your request to your { authority }."
+                  values={{
+                    authority: regulation.dpa.longName,
+                  }}
+                />
+              </strong>
+            );
+          }
+        } else { // reminder email not sent
+          if (days.sinceRequest < timeLimit*2) {
+            reply.push(
+              <strong>
+                <FormattedMessage 
+                  id="request.next.sendAReminderEmail" 
+                  defaultMessage="Recommendation: send the organization a reminder email." 
+                />
+              </strong>
+            )
+          } else { // over time limit * 2
+            reply.push(
+              <strong>
+                <FormattedMessage
+                  id="request.next.escalateToAuthorityNoReply"
+                  defaultMessage="Recommendation: escalate your request to your { authority }."
+                  values={{
+                    authority: regulation.dpa.longName,
+                  }}
+                />
+              </strong>
+            )
+          }
+        }
+      }
+    } else if (status === "DECLINED") {
+      reply.push(
+        <FormattedMessage 
+          id="request.next.circumstancesToDecline" 
+          defaultMessage="There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request." 
+        />
+      )
+      if (requestItem.requestType.S == 'DELETION') {
+        reply.push(<span>{requestType.exceptions}</span>);
+      }
+      reply.push(
+        <a href={ requestType.exceptionURL } target="_blank">
+          <FormattedMessage 
+            id="request.next.findOutMore" 
+            defaultMessage="Find out more about these exceptions" 
+          />
+        </a>
+      )
+      action = <FormattedMessage id="request.next.selectTheOptions2" defaultMessage="If you wish to take further action then please select from the following options:"/>;
+    } else if (status === "PARTIAL") {
+      reply.push(
+        <strong>
+          <FormattedMessage
+            id="request.next.escalateToAuthorityPartial"
+            defaultMessage="Recommendation: if you believe { companyName } should have complied with your request more fully, then we recommend that you escalate your request to the { authority }."
+            values={{
+              authority: Regulations[requestItem.regulationType.S].dpa.longName,
+              companyName: companyName,
+            }}
+          />
+        </strong>
+      );
+    } else if (status === "SUCCESS") {
+      reply.push(
+        <strong>
+          <FormattedMessage
+            id="request.success"
+            defaultMessage="Congradulations, { companyName } successfully complied with your request. Before you go, please <a>delete your personal data from this website</a>."
+            values={{
+              companyName: companyName,
+              a: txt => (<a href={`/r/${requestItem.id.S}/delete`}>{txt}</a>),
+            }}
+          />
+        </strong>
+      );
+      action = <FormattedMessage id="request.next.selectTheOptions2" defaultMessage="If you wish to take further action then please select from the following options:"/>;
+    }
+  }
+  return (
+    <div>
+      {reply.map((r, i) => {
+        return <p key={i}>{r}</p>
+      })}
+      <p>{action}</p>
+    </div>
+  );
+};
+export default withStyles(styles)(Recommendations);
