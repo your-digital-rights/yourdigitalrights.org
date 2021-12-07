@@ -248,13 +248,13 @@ const Regulations = {
     }
   },
   GDPRUK: {
-    displayName: 'GDPR',
+    displayName: 'DPA',
     gepgraphy: 'UK',
-    longName: 'General Data Protection Regulation',
+    longName: 'Data Protection Act',
     timeLimit: 30,
     dpa: {
-      shortName: 'DPA',
-      longName: 'Data Protection Agency',
+      shortName: 'ICO',
+      longName: "Information Commissioner's Office",
       defualtAction: 'email',
       geographies: [
         {
@@ -266,11 +266,11 @@ const Regulations = {
         },
       ],      
     },
-    regulationURL: 'https://edpb.europa.eu/about-edpb/about-edpb/members_en',
+    regulationURL: 'https://publications.parliament.uk/pa/bills/lbill/2017-2019/0066/lbill_2017-20190066_en_1.htm',
     requestTypes: {
       DELETION: {
         name: 'erasure',
-        article: 17,
+        article: 45,
         exceptions: (
           <FormattedMessage
             id="request.next.declineGDPR"
@@ -285,7 +285,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: 15,       
+        article: 43,       
       }
     }
   },
