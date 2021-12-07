@@ -141,7 +141,7 @@ class Form extends Component {
           <>
             <img
               role="presentation"
-              src={`//logo.clearbit.com/${result.url}?size=24`}
+              src={`//logo.uplead.com/${result.url}`}
               width={24}
               height={24}
             />
