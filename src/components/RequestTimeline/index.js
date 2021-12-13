@@ -7,7 +7,12 @@ const Timeline = ({ classes, requestItem, days }) => {
   return (
     <div className={classes.root} id="requestTimeline">
       <div className={classes.container}>
-        <h2 className={classes.header}><FormattedMessage id="request.timeline.requestTimeline" defaultMessage="Your request timeline" /></h2>
+        <h2 className={classes.header}>
+          <FormattedMessage 
+            id="request.timeline.requestTimeline" 
+            defaultMessage="Your request timeline" 
+          />
+        </h2>
         <ul className={classes.timeline}>
           <li className={classes.timelineItem}>
             <FormattedMessage id="request.timeline.requestSent" defaultMessage="Request sent" />
@@ -20,7 +25,10 @@ const Timeline = ({ classes, requestItem, days }) => {
           </li>
           {typeof days.sinceReminder === 'number' && (
             <li className={classes.timelineItem}>
-              <FormattedMessage id="request.timeline.reminderSent" defaultMessage="Reminder sent" />
+              <FormattedMessage 
+                id="request.timeline.reminderSent" 
+                defaultMessage="Reminder sent" 
+              />
               <br />
               <FormattedMessage 
                 id="request.timeline.sinceReminderDays" 
@@ -29,7 +37,7 @@ const Timeline = ({ classes, requestItem, days }) => {
               />              
             </li>
           )}
-          {typeof days.sinceReminder !== 'number' && (
+          {typeof days.sinceReminder !== 'number' && days.toReminder >= 0 && (
             <li className={classes.timelineItem}>
               <FormattedMessage 
                 id="request.timeline.sendReminder" 
@@ -43,9 +51,20 @@ const Timeline = ({ classes, requestItem, days }) => {
               />
             </li>
           )}
+          {typeof days.sinceReminder !== 'number' && days.toReminder < 0 && (
+            <li className={classes.timelineItem}>
+              <FormattedMessage 
+                id="request.timeline.sendReminder" 
+                defaultMessage="Send a reminder"
+              />
+            </li>
+          )}          
           {typeof days.sinceEscalation === 'number' && (
             <li className={classes.timelineItem}>
-              <FormattedMessage id="request.timeline.sendEscalation" defaultMessage="Escalation sent" />
+              <FormattedMessage 
+                id="request.timeline.sendEscalation" 
+                defaultMessage="Escalation sent" 
+              />
               <br />
               <FormattedMessage 
                 id="request.timeline.sinceEscalationDays" 
@@ -54,9 +73,12 @@ const Timeline = ({ classes, requestItem, days }) => {
               />  
             </li>
           )}
-          {typeof days.sinceEscalation !== 'number' && (
+          {typeof days.sinceEscalation !== 'number' && days.toEscalation >= 0 && (
             <li className={classes.timelineItem}>
-              <FormattedMessage id="request.timeline.esclateTo" defaultMessage="Send an escalation" />
+              <FormattedMessage 
+                id="request.timeline.esclateTo" 
+                defaultMessage="Escalate your request" 
+              />
               <br/>
               <FormattedMessage 
                 id="request.timeline.sendEscalationDays" 
@@ -65,6 +87,14 @@ const Timeline = ({ classes, requestItem, days }) => {
               />
             </li>
           )}
+          {typeof days.sinceEscalation !== 'number' && days.toEscalation < 0 && (
+            <li className={classes.timelineItem}>
+              <FormattedMessage 
+                id="request.timeline.esclateTo" 
+                defaultMessage="Escalate your request" 
+              />
+            </li>
+          )}          
         </ul>
       </div>
     </div>

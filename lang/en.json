@@ -561,7 +561,7 @@
     "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "Help me follow-up on this request"
+    "message": "Turn on Smart Follow-up Assistance"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
     "message": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
@@ -831,7 +831,7 @@
     "message": "Congradulations, { companyName } successfully complied with your request. Before you go, please <a>delete your personal data from this website</a>."
   },
   "request.timeline.esclateTo": {
-    "message": "Send an escalation"
+    "message": "Escalate your request"
   },
   "request.timeline.reminderSent": {
     "message": "Reminder sent"
