@@ -18,7 +18,7 @@ const Hero = ({ classes, selectedCompany }) => {
           <div id="org-logo" className={classes.orgLogo}>
             <img
               className={classes.logo}
-              src={`//logo.uplead.com/${selectedCompany.url}?size=24`}
+              src={`//logo.uplead.com/${selectedCompany.url}`}
             />
           </div>
         )}
