@@ -137,9 +137,8 @@ const Brokers = ({ classes, router }) => {
                           <img
                             className={classes.centerImg}
                             src={
-                              "//logo.clearbit.com/" +
-                              company.domain +
-                              "?size=170"
+                              "//logo.uplead.com/" +
+                              company.domain 
                             }
                             alt={company.name}
                           />
