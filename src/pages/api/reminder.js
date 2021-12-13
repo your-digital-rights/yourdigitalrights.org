@@ -34,7 +34,7 @@ export default async (req, res) => {
       },
       ExpressionAttributeValues: {
         ":r": {
-          S: new DateTime().toISO(),
+          S: new DateTime().toUTC().toISO(),
         },
       },
       Key: {

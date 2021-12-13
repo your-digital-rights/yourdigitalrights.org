@@ -57,7 +57,7 @@ export default async (req, res) => {
             PutRequest: {
               Item: {
                 id: { S: req.body.uuid },
-                requestCreatedAt: { S: requestCreatedAt.toISO() },
+                requestCreatedAt: { S: requestCreatedAt.toUTC().toISO() },
                 requestType: { S: req.body.requestType },
                 regulationType: { S: req.body.regulationType },
                 companyName: { S: req.body.companyName },
@@ -86,7 +86,7 @@ export default async (req, res) => {
             Item: {
               lang: { S: req.body.lang },
               id: { S: req.body.uuid },
-              requestCreatedAt: { S: requestCreatedAt.toISO() },
+              requestCreatedAt: { S: requestCreatedAt.toUTC().toISO() },
               requestType: { S: req.body.requestType },
               regulationType: { S: req.body.regulationType },
               companyName: { S: req.body.companyName },
