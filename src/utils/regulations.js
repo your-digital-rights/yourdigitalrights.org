@@ -6,6 +6,7 @@ const Regulations = {
     gepgraphy: 'European Union',
     longName: 'General Data Protection Regulation',
     timeLimit: 30,
+    escalation_timeLimit: 60,
     dpa: {
       shortName: 'DPA',
       longName: 'Data Protection Agency',
@@ -252,6 +253,7 @@ const Regulations = {
     gepgraphy: 'UK',
     longName: 'Data Protection Act',
     timeLimit: 30,
+    escalation_timeLimit: 60,
     dpa: {
       shortName: 'ICO',
       longName: "Information Commissioner's Office",
@@ -294,6 +296,7 @@ const Regulations = {
     gepgraphy: 'California',
     longName: 'California Consumer Privacy Act',
     timeLimit: 45,
+    escalation_timeLimit: 90,
     dpa: {
       shortName: 'CA AG',
       longName: 'California Attorney General',
