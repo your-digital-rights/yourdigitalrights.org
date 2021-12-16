@@ -6,7 +6,7 @@ export default {
   subject(requestItem) {
     const regulation = Regulations[requestItem.regulationType.S];
     const requestType = regulation['requestTypes'][requestItem.requestType.S];
-    return `Complaint against "${requestItem.companyName.S}" regarding a ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request.`;
+    return `Complaint against "${requestItem.companyName.S}" regarding a ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request (ref: ${requestItem.id.split("-")[0]}).`;
   },
   body(requestItem, complaintText, status) {
     const regulation = Regulations[requestItem.regulationType.S];

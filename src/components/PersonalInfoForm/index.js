@@ -191,10 +191,12 @@ class Form extends Component {
       ? selectedCompany.url
       : this.state.companyUrl;
 
+    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
+
     const subject =
       requestType == "DELETION"
-        ? erasureEmail.subject({ ...this.state })
-        : sarEmail.subject({ ...this.state });
+        ? erasureEmail.subject({ ...this.state, reference})
+        : sarEmail.subject({ ...this.state, reference });
 
     const body =
       requestType == "DELETION"
