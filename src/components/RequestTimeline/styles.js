@@ -32,12 +32,13 @@ const Style = (theme) => ({
     display: "flex",
     listStyle: "none",
     margin: "0",
-    padding: "0",
+    padding: "54px",
+    fontSize: "14px",
     justifyContent: "space-between",
   },
   timelineItem: {
     textAlign: "center",
-    flex: "1 0 auto",
+    flex: "1 1 0",
     position: "relative",
     wordWrap: "break-word",
     "&::before": {
@@ -72,7 +73,44 @@ const Style = (theme) => ({
     [theme.breakpoints.up("sm")]: {
       padding: "8px 30px",
     },
-  }
+  },
+  timelineTracker: {
+    width: "32px",
+    height: "32px",
+    lineHeight: "32px",
+    fontSize: "12px",
+    color: theme.color,
+    backgroundColor: theme.palette.primary.main,
+    borderRadius: "50%",
+    position: "absolute",
+    top: "-50px",
+    "& span": {
+      position: "relative",
+    },
+    "&::after": {
+      position: "absolute",
+      bottom: "-18px",
+      left: "10px",
+      display: "block",
+      content: "'   '",
+      width: "12px",
+      height: "12px",
+      backgroundColor: theme.palette.primary.main,
+      borderRadius: "50%",
+    },
+    "&::before": {
+      position: "absolute",
+      bottom: "0",
+      left: "0",
+      display: "block",
+      content: "'   '",
+      width: "50%",
+      height: "50%",
+      backgroundColor: theme.palette.primary.main,
+      transform: "rotate(-45deg)",
+      transformOrigin: "top right",
+    },
+  },
 });
 
 export default Style;
