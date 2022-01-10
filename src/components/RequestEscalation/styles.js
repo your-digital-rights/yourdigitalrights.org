@@ -3,7 +3,7 @@ const Style = (theme) => ({
     paddingBottom: "80px",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#f4f4f4",
+    backgroundColor: "#ffffff",
     textAlign: "left",
   },
   container: {
@@ -21,7 +21,7 @@ const Style = (theme) => ({
     padding: "30px",
     display: "flex",
     flexDirection: "column",
-  },    
+  },
   formButton: {
     marginTop: "2rem",
     borderRadius: "24px 24px 24px 24px",
