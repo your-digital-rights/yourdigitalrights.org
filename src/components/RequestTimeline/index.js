@@ -3,7 +3,11 @@ import { withStyles } from "@material-ui/core/styles";
 import { FormattedMessage, FormattedDate} from 'react-intl'
 
 const Timeline = ({ classes, requestItem, days }) => {
-  
+  const completionRatio = Math.min(days.sinceRequest / (days.reminderTimeLimit * 2), 1);
+  const timelineTrackerStyle = {
+    left: `calc(${Math.floor(completionRatio * 200 - 50)}% - 17px)`,
+  };
+
   return (
     <div className={classes.root} id="requestTimeline">
       <div className={classes.container}>
@@ -20,11 +24,12 @@ const Timeline = ({ classes, requestItem, days }) => {
             <FormattedMessage 
                 id="request.timeline.sinceRequestDays" 
                 defaultMessage="{days, plural, =0 {today} one {yesterday} other {# days ago}}"
-                values={{ days: days.sinceRequest }} 
+                values={{ days: days.sinceRequest }}
             />
           </li>
           {typeof days.sinceReminder === 'number' && (
             <li className={classes.timelineItem}>
+              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
               <FormattedMessage 
                 id="request.timeline.reminderSent" 
                 defaultMessage="Reminder sent" 
@@ -39,6 +44,7 @@ const Timeline = ({ classes, requestItem, days }) => {
           )}
           {typeof days.sinceReminder !== 'number' && days.toReminder >= 0 && (
             <li className={classes.timelineItem}>
+              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
               <FormattedMessage 
                 id="request.timeline.sendReminder" 
                 defaultMessage="Send a reminder"
@@ -53,6 +59,7 @@ const Timeline = ({ classes, requestItem, days }) => {
           )}
           {typeof days.sinceReminder !== 'number' && days.toReminder < 0 && (
             <li className={classes.timelineItem}>
+              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
               <FormattedMessage 
                 id="request.timeline.sendReminder" 
                 defaultMessage="Send a reminder"

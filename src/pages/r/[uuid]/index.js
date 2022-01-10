@@ -116,6 +116,7 @@ class Uuid extends Component {
     const reminderTimeLimit = regulation.timeLimit;
     const escalationTimeLimit = reminderTimeLimit * 2;
     const days = {
+      reminderTimeLimit,
       sinceRequest: DateTime.now().diff(DateTime.fromISO(requestSentDate), ['days', 'hours']).toObject().days,
       sinceReminder: data.item.reminderEmailSentAt ? DateTime.fromISO(data.item.reminderEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
       sinceEscalation: data.item.escalationEmailSentAt ? DateTime.fromISO(data.item.escalationEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
