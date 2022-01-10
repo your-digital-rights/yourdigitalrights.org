@@ -264,7 +264,7 @@ const Regulations = {
           countryCode: 'UK',
           email: 'dpo@ico.org.uk',
           website: 'https://ico.org.uk/',
-          chairman: 'Elizabeth Denham CBE'
+          chairman: 'John Edwards'
         },
       ],      
     },
