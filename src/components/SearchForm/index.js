@@ -179,7 +179,7 @@ class Form extends Component {
                 {this.renderInput(getInputProps())}
                 {isOpen && (
                   <MenuList className={classes.list}>
-                    {this.state.searchResults.length &&
+                    {!!this.state.searchResults.length &&
                       this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({
                           result,
