@@ -154,7 +154,9 @@ const Footer = ({ classes, showRoadmap=true }) => {
               }}
             />
           </Typography> 
-          <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
+          <Typography component="p" variant="subtitle2">
+            <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
+          </Typography> 
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
