@@ -7,7 +7,7 @@ const Timeline = ({ classes, requestItem, days }) => {
   const timelineTrackerStyle = {
     left: `calc(${Math.floor(completionRatio * 200 - 50)}% - 17px)`,
   };
-
+  
   return (
     <div className={classes.root} id="requestTimeline">
       <div className={classes.container}>
@@ -18,6 +18,12 @@ const Timeline = ({ classes, requestItem, days }) => {
           />
         </h2>
         <ul className={classes.timeline}>
+          {typeof requestItem.requestEmailSentAt === 'undefined' && (
+            <li className={classes.timelineItem}>
+              <FormattedMessage id="request.timeline.requestNotSent" defaultMessage="Request not sent" />
+            </li> 
+          )}
+          {typeof requestItem.requestEmailSentAt !== 'undefined' && (
           <li className={classes.timelineItem}>
             <FormattedMessage id="request.timeline.requestSent" defaultMessage="Request sent" />
             <br />
@@ -27,6 +33,7 @@ const Timeline = ({ classes, requestItem, days }) => {
                 values={{ days: days.sinceRequest }}
             />
           </li>
+          )}
           {typeof days.sinceReminder === 'number' && (
             <li className={classes.timelineItem}>
               <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>

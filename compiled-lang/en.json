@@ -2093,14 +2093,22 @@
   ],
   "request.hero.declinedRequest": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "declined your request."
+      "value": " declined your request."
     }
   ],
   "request.hero.didNotReply": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "did not reply yet."
+      "value": " did not reply yet."
     }
   ],
   "request.hero.handledPartially": [
@@ -2111,8 +2119,12 @@
   ],
   "request.hero.handledRequest": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "handled your request successfuly."
+      "value": " handled your request successfuly."
     }
   ],
   "request.hero.handledSuccessfully": [
@@ -2147,8 +2159,18 @@
   ],
   "request.hero.partiallyHandled": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "handled your request partially."
+      "value": " handled your request partially."
+    }
+  ],
+  "request.hero.requestNotSent": [
+    {
+      "type": 0,
+      "value": "please send the request email, then refresh this page."
     }
   ],
   "request.hero.requestStatus": [
@@ -2406,7 +2428,7 @@
     },
     {
       "type": 0,
-      "value": " regulation organizations have "
+      "value": " organizations have "
     },
     {
       "type": 1,
@@ -2519,6 +2541,12 @@
     {
       "type": 0,
       "value": "Reminder sent"
+    }
+  ],
+  "request.timeline.requestNotSent": [
+    {
+      "type": 0,
+      "value": "Request not sent"
     }
   ],
   "request.timeline.requestSent": [

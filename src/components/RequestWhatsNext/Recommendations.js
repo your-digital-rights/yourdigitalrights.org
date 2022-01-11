@@ -29,7 +29,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
       reply.push(              
         <FormattedMessage
           id="request.next.organizationsHaveXDays"
-          defaultMessage="According to the {regulationType} regulation organizations have { timeLimit } days to reply to your request."
+          defaultMessage="According to the {regulationType} organizations have { timeLimit } days to reply to your request."
             values={{
               regulationType: requestItem.regulationType.S,
               timeLimit: timeLimit,

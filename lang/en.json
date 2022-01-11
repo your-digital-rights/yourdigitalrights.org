@@ -750,16 +750,16 @@
     "message": "Declined"
   },
   "request.hero.declinedRequest": {
-    "message": "declined your request."
+    "message": "{companyName} declined your request."
   },
   "request.hero.didNotReply": {
-    "message": "did not reply yet."
+    "message": "{companyName} did not reply yet."
   },
   "request.hero.handledPartially": {
     "message": "Handled partially"
   },
   "request.hero.handledRequest": {
-    "message": "handled your request successfuly."
+    "message": "{companyName} handled your request successfuly."
   },
   "request.hero.handledSuccessfully": {
     "message": "Handled successfully"
@@ -771,7 +771,10 @@
     "message": "No reply"
   },
   "request.hero.partiallyHandled": {
-    "message": "handled your request partially."
+    "message": "{companyName} handled your request partially."
+  },
+  "request.hero.requestNotSent": {
+    "message": "please send the request email, then refresh this page."
   },
   "request.hero.requestStatus": {
     "message": "Request Status:"
@@ -801,7 +804,7 @@
     "message": "Find out more about these exceptions"
   },
   "request.next.organizationsHaveXDays": {
-    "message": "According to the {regulationType} regulation organizations have { timeLimit } days to reply to your request."
+    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
   },
   "request.next.reminderButton": {
     "message": "Send the organization a reminder email"
@@ -835,6 +838,9 @@
   },
   "request.timeline.reminderSent": {
     "message": "Reminder sent"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Request not sent"
   },
   "request.timeline.requestSent": {
     "message": "Request sent"

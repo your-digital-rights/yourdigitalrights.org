@@ -3,8 +3,6 @@ import { FormattedMessage } from "react-intl";
 import fetch from "universal-fetch";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
-
-import capitalize from "../../utils/capitalize";
 import styles from "./styles";
 
 class Hero extends Component {
@@ -29,8 +27,6 @@ class Hero extends Component {
   
   render() {
     const {classes, requestItem, selectedCompany, days, status} = this.props;
-    const companyName = selectedCompany ? capitalize(selectedCompany.name) : null;
-
     return (
       <div className={classes.root} id="requestHero">
         <div className={classes.container}>
@@ -46,17 +42,44 @@ class Hero extends Component {
           </h1>
           <h2 className={classes.status}>
             <strong><FormattedMessage id="request.hero.requestStatus" defaultMessage="Request Status:" /> </strong>
-            {selectedCompany.name}&nbsp;
-            {status === "SUCCESS" ? (
-              <FormattedMessage id="request.hero.handledRequest" defaultMessage="handled your request successfuly." />
+            { typeof requestItem.requestEmailSentAt === 'undefined'  ? (
+              <FormattedMessage id="request.hero.requestNotSent" defaultMessage="please send the request email, then refresh this page." />
             ) : (
-              status === "PARTIAL" ? (
-                <FormattedMessage id="request.hero.partiallyHandled" defaultMessage="handled your request partially." />
+              status === "SUCCESS" ? (
+                <FormattedMessage 
+                  id="request.hero.handledRequest" 
+                  defaultMessage="{companyName} handled your request successfuly." 
+                  values={{
+                    companyName: selectedCompany.name,
+                  }}
+                />
               ) : (
-                status === "DECLINED" ? (
-                  <FormattedMessage id="request.hero.declinedRequest" defaultMessage="declined your request." />
+                status === "PARTIAL" ? (
+                  <FormattedMessage 
+                    id="request.hero.partiallyHandled" 
+                    defaultMessage="{companyName} handled your request partially." 
+                    values={{
+                      companyName: selectedCompany.name,
+                    }}
+                  />
                 ) : (
-                  <FormattedMessage id="request.hero.didNotReply" defaultMessage="did not reply yet." />
+                  status === "DECLINED" ? (
+                    <FormattedMessage 
+                      id="request.hero.declinedRequest" 
+                      defaultMessage="{companyName} declined your request." 
+                      values={{
+                        companyName: selectedCompany.name,
+                      }}
+                    />
+                  ) : (
+                    <FormattedMessage 
+                      id="request.hero.didNotReply" 
+                      defaultMessage="{companyName} did not reply yet." 
+                      values={{
+                        companyName: selectedCompany.name,
+                      }}
+                    />
+                  )
                 )
               )
             )}
