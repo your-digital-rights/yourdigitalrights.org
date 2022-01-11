@@ -1,6 +1,6 @@
 export default {
   subject(data) {
-    return `Data Access Request ${data.reference}`;;
+    return `Data Access Request ${data.reference}`;
   },
   formatBody(data) {
     var body;

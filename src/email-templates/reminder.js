@@ -7,7 +7,8 @@ export default {
     const regulation = Regulations[requestItem.regulationType.S];
     const requestType = regulation['requestTypes'][requestItem.requestType.S];
     const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
-    return `Reminder: My ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request sent ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))} (ref: ${requestItem.id.split("-")[0]})`;
+    console.log("requestItem",requestItem);
+    return `Reminder: My ${requestItem.regulationType.S} Data ${capitalize(requestType.name)} Request sent ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))} (ref: ${requestItem.id.S.split("-")[0]})`;
   },
   body(requestItem, status) {
     const regulation = Regulations[requestItem.regulationType.S];
