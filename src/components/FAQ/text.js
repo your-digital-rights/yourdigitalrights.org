@@ -15,7 +15,7 @@ export default [
     body: [
       <FormattedMessage
         id="faq.body1A"
-        defaultMessage="There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects Europian Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
+        defaultMessage="There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
       />,
     ],
   },
@@ -201,7 +201,7 @@ export default [
           />,
           <FormattedMessage
             id="faq.body7Av"
-            defaultMessage="The organization has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
+            defaultMessage="The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
           />,
           <FormattedMessage
             id="faq.body7Avi"

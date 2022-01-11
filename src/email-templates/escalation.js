@@ -30,7 +30,7 @@ export default {
       reason = 'the organization did not reply to my request';
     }
     const daysSinceRequest = daysSince(new Date(requestSentDate));
-    bodyParts.push(`I would like to file a formal complaint since ${reason}, which I have sent ${daysSinceRequest} days ago.`);
+    bodyParts.push(`I would like to file a formal complaint since ${reason}, which I sent ${daysSinceRequest} days ago.`);
 
     if (complaintText) {
       bodyParts.push(`Additional details:\n${complaintText}`);

@@ -548,7 +548,7 @@
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
+      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
     }
   ],
   "donations.headingDonate": [
@@ -718,7 +718,7 @@
   "faq.body1A": [
     {
       "type": 0,
-      "value": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects Europian Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
+      "value": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
     }
   ],
   "faq.body2A": [
@@ -904,7 +904,7 @@
   "faq.body7Av": [
     {
       "type": 0,
-      "value": "The organization has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
+      "value": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
     }
   ],
   "faq.body7Avi": [
@@ -2376,7 +2376,7 @@
     },
     {
       "type": 0,
-      "value": " should have complied with your request more fully, then we recommend that you escalate your request to the "
+      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
     },
     {
       "type": 1,
@@ -2506,7 +2506,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Congradulations, "
+      "value": "Congratulations, "
     },
     {
       "type": 1,
@@ -2514,13 +2514,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Before you go, please "
+      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data from this website"
+          "value": "delete your personal data now"
         }
       ],
       "type": 8,

@@ -126,7 +126,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         <strong>
           <FormattedMessage
             id="request.next.escalateToAuthorityPartial"
-            defaultMessage="Recommendation: if you believe { companyName } should have complied with your request more fully, then we recommend that you escalate your request to the { authority }."
+            defaultMessage="Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
             values={{
               authority: Regulations[requestItem.regulationType.S].dpa.longName,
               companyName: companyName,
@@ -139,7 +139,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         <strong>
           <FormattedMessage
             id="request.success"
-            defaultMessage="Congradulations, { companyName } successfully complied with your request. Before you go, please <a>delete your personal data from this website</a>."
+            defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
             values={{
               companyName: companyName,
               a: txt => (<a href={`/r/${requestItem.id.S}/delete`}>{txt}</a>),

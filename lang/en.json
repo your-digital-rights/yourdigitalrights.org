@@ -165,7 +165,7 @@
     "message": "Donate via Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That’s why we’ve made it free. Donations allow us to spend more time improving this service."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
   },
   "donations.headingDonate": {
     "message": "We need your support"
@@ -216,7 +216,7 @@
     "message": "To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on <a1>Mac</a1> and <a2>Windows</a2>."
   },
   "faq.body1A": {
-    "message": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects Europian Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
+    "message": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
   },
   "faq.body2A": {
     "message": "The General Data Protection Regulations, or GDPR for short, is an EU regulation which protects the fundamental right of people to the protection of their personal data."
@@ -294,7 +294,7 @@
     "message": "You have objected to the use of your data, and your interests outweigh those of the organization using it."
   },
   "faq.body7Av": {
-    "message": "The organization has collected or used your data unlawfully. Example: it hasn’t complied with the rules on data protection."
+    "message": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
   },
   "faq.body7Avi": {
     "message": "The organization has a legal obligation to erase your data."
@@ -792,7 +792,7 @@
     "message": "Recommendation: escalate your request to your { authority }."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have complied with your request more fully, then we recommend that you escalate your request to the { authority }."
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
@@ -831,7 +831,7 @@
     "message": "What's next"
   },
   "request.success": {
-    "message": "Congradulations, { companyName } successfully complied with your request. Before you go, please <a>delete your personal data from this website</a>."
+    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Escalate your request"
