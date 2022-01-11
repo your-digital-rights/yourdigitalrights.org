@@ -18,6 +18,7 @@ import {
   searchOrganizationsUrlAnchor,
   heroUrlAnchor,
 } from "../utils/urlAnchors";
+import PressCoverage from "../components/PressCoverage";
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -169,6 +170,7 @@ class Index extends Component {
               </div>
             )}
           </Hero>
+          <PressCoverage />
           <HowItWorks />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
