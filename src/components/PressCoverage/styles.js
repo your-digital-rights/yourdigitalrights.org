@@ -21,8 +21,6 @@ export default (theme) => ({
     width: "80%",
   },
   pressLogo: {
-    width: "90%",
-    maxHeight: "50px",
     objectFit: "contain",
   },
 });
