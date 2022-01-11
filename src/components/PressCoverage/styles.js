@@ -3,11 +3,9 @@ import { themeBg } from "../../styles/theme";
 
 export default (theme) => ({
   container: {
-    height: "120px",
     backgroundColor: "#f2f2f2",
     position: "relative",
-    paddingTop: "10px",
-    paddingBottom: "10px",
+    paddingTop: "40px",
     textAlign: "center",
   },
   inner: {
@@ -17,8 +15,7 @@ export default (theme) => ({
     flexWrap: "wrap",
     justifyContent: "space-around",
     overflow: "hidden",
-    paddingTop: "15px",
-    paddingBottom: "10px",
+    paddingBottom: "40px",
   },
   gridList: {
     width: "80%",

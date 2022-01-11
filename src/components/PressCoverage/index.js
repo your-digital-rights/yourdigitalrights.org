@@ -19,7 +19,12 @@ const items = [
 const PressCoverage = ({ classes }) => {
   return (
     <div className={classes.container}>
-      <Typography color="inherit" className={classes.intro}>
+        <Typography
+          variant={"h5"}
+          className={classes.title}
+          gutterBottom={true}
+          component={"h2"}
+        >
         {Title}
       </Typography>
       <div className={classes.inner}>
