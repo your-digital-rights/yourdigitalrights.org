@@ -5,7 +5,7 @@ export default (theme) => ({
   container: {
     backgroundColor: "#f2f2f2",
     position: "relative",
-    paddingTop: "40px",
+    paddingTop: "30px",
     textAlign: "center",
   },
   inner: {
@@ -15,7 +15,7 @@ export default (theme) => ({
     flexWrap: "wrap",
     justifyContent: "space-around",
     overflow: "hidden",
-    paddingBottom: "40px",
+    paddingBottom: "30px",
   },
   gridList: {
     width: "80%",
