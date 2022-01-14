@@ -8,9 +8,7 @@
 
 "files": [
   {
-    "sources":   [
-      "/lang/en.json",
-    ]
+    "sources": "/lang/en.json",
     "translation": "/lang/%two_letters_code%.json"
   }
 ]

@@ -26,7 +26,7 @@ module.exports = {
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["en", "es", "it", "pt", "az"],
+    locales: ["de", "en", "es", "fr", "it", "pt", "az"],
     defaultLocale: "en",   
   },
 };
