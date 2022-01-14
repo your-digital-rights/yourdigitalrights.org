@@ -10,6 +10,7 @@ import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
 import * as locales from "../../compiled-lang";
+import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
 
 
 export default function MyApp({ Component, pageProps }) {
@@ -30,6 +31,17 @@ export default function MyApp({ Component, pageProps }) {
       <DefaultSeo {...SEO} />
       <Head>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        {locale == TRANSLATION_PSEUDO_LOCAL && (
+          <>
+            <script
+                dangerouslySetInnerHTML={{
+                  __html:
+                    "var _jipt = []; _jipt.push(['project', '824429349547bc670e4302aaae3a0af9']); _jipt.push(['domain', 'consciousdigital']);"
+                }}
+            />
+            <script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
+            </>
+        )}
       </Head>
       <IntlProvider
         locale={locale}

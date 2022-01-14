@@ -137,9 +137,8 @@ const Brokers = ({ classes, router }) => {
                           <img
                             className={classes.centerImg}
                             src={
-                              "https://api.faviconkit.com/" +
-                              company.domain +
-                              "/170"
+                              "//logo.uplead.com/" +
+                              company.domain 
                             }
                             alt={company.name}
                           />

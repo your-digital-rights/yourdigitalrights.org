@@ -141,7 +141,7 @@ class Form extends Component {
           <>
             <img
               role="presentation"
-              src={`https://api.faviconkit.com/${result.url}/24`}
+              src={`//logo.uplead.com/${result.url}`}
               width={24}
               height={24}
             />
@@ -179,7 +179,7 @@ class Form extends Component {
                 {this.renderInput(getInputProps())}
                 {isOpen && (
                   <MenuList className={classes.list}>
-                    {this.state.searchResults.length &&
+                    {!!this.state.searchResults.length &&
                       this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({
                           result,

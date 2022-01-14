@@ -95,7 +95,7 @@ const Contribute = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contribute.translate"
-              defaultMessage="We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our <a>translation system</a> to make your changes. Here is a <video>video tutorial</video> of the translation editor to help you get started."
+              defaultMessage="We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our <a>translation system</a> to make your changes. Here is a <vid>video tutorial</vid> of the translation editor to help you get started."
               values={{
                 a: chunks =>  (
                     <a 
@@ -105,7 +105,7 @@ const Contribute = ({ classes, router }) => {
                         {chunks}
                     </a>
                     ),
-                video: chunks =>  (
+                vid: chunks =>  (
                   <a 
                       href='https://youtu.be/bxdC7MfrO7A?t=205'
                       target="_blank"

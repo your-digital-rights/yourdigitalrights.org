@@ -1,6 +1,8 @@
 import {DOMAIN} from "./domain";
 
-const ALT_LANGUAGES = ['en', 'es', 'it', 'pt'];
+const ALT_LANGUAGES = ["de", "en", "es", "fr", "it", "pt"];
+
+const TRANSLATION_PSEUDO_LOCAL = 'az';
 
 
 function generateCanonical(base_url, locale) {
@@ -15,4 +17,4 @@ function generateLangLinks(base_url) {
 }
 
 
-export {generateCanonical, generateLangLinks, ALT_LANGUAGES};
+export {generateCanonical, generateLangLinks, ALT_LANGUAGES, TRANSLATION_PSEUDO_LOCAL};
