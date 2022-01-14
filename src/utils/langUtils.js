@@ -1,6 +1,6 @@
 import {DOMAIN} from "./domain";
 
-const ALT_LANGUAGES = ['en', 'es', 'it', 'pt'];
+const ALT_LANGUAGES = ["de", "en", "es", "fr", "it", "pt"];
 
 const TRANSLATION_PSEUDO_LOCAL = 'az';
 
