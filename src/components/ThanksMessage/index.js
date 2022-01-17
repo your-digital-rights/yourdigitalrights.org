@@ -162,14 +162,7 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}{" "}
-          <FormattedMessage
-            id="thankYou.viewRequest"
-            defaultMessage="You can also view a record of your <a>request</a>."
-            values={{
-              a: txt => (<a href={"/r/" + uuid}>{txt}</a>),
-            }}
-          />     
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
         </Typography>
         <Button
           variant="contained"
