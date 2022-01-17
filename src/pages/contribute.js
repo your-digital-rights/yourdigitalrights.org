@@ -89,7 +89,7 @@ const Contribute = ({ classes, router }) => {
               />
           </Typography>
           <br/>
-          <Typography component="h2" variant="h3" gutterBottom={true}>
+          <Typography id="translate" component="h2" variant="h3" gutterBottom={true}>
             <FormattedMessage id="contribute.translateTitle" defaultMessage="Translate the website" />
           </Typography>          
           <Typography gutterBottom={true}>

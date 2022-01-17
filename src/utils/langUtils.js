@@ -1,6 +1,13 @@
 import {DOMAIN} from "./domain";
 
-const ALT_LANGUAGES = ["de", "en", "es", "fr", "it", "pt"];
+const ALT_LANGUAGES = {
+	"de": "Deutsch", 
+	"en": "English", 
+	"es": "Español", 
+	"fr": "Français", 
+	"it": "Italiano",
+	"pt": "Português",
+};
 
 const TRANSLATION_PSEUDO_LOCAL = 'az';
 
@@ -11,7 +18,7 @@ function generateCanonical(base_url, locale) {
 
 
 function generateLangLinks(base_url) {
-	return ALT_LANGUAGES.map(locale => (
+	return Object.keys(ALT_LANGUAGES).map(locale => (
 		{'hrefLang': locale, 'href': generateCanonical(base_url, locale)})
 	)
 }
