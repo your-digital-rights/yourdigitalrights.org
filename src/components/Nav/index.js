@@ -96,7 +96,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         >
           {Object.keys(ALT_LANGUAGES).map((locale) => (
             <MenuItem key={locale} value={locale}>
-                {ALT_LANGUAGES[locale]}
+              {ALT_LANGUAGES[locale]}
             </MenuItem>
           ))}
           <hr/>

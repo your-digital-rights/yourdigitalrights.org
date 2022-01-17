@@ -14,7 +14,7 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkFourText).should.equal("Browser Extension");
     (await page.navigationBar.linkFiveText).should.equal("Contribute");
     (await page.navigationBar.linkSixText).should.equal("About");
-    (await page.navigationBar.linkLangSelect).should.equal("EN");
+    (await page.navigationBar.linkLangSelect).should.equal("English");
     (await page.navigationBar.linkButtonText).should.equal("SEARCH ORGANIZATIONS");
   });
 
@@ -80,7 +80,7 @@ describe("When I visit the Home page in Mobile view", () => {
     (await page.navigationBar.linkTwoMobText).should.equal("FAQ");
     (await page.navigationBar.linkThreeMobText).should.equal("Data Brokers");
     (await page.navigationBar.linkFourMobText).should.equal("About");
-    (await page.navigationBar.linkFiveMobText).should.equal("EN");
+    (await page.navigationBar.linkFiveMobText).should.equal("English");
     (await page.navigationBar.linkSixMobText).should.equal("SEARCH ORGANIZATIONS");
     (await page.navigationBar.linkSevenMobText).should.equal("Contribute");
     (await page.navigationBar.linkEightMobText).should.equal("Browser Extension");
