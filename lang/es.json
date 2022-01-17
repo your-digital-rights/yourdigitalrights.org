@@ -86,6 +86,18 @@
   "contribute.creditTitle": {
     "message": "Creditos"
   },
+  "contribute.crowdinStep1": {
+    "message": "Make an account at Crowdin by following this <a>link</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Open our translation <a>project</a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Hover over a language that you would like to translate, then click the 'Translate' button on the right"
+  },
+  "contribute.crowdinStep4": {
+    "message": "You now see the crowdsourcing dashboard where you can start translating strings that are marked with a red dot, or search for a string you would like to correct"
+  },
   "contribute.description": {
     "message": "Ayúdenos a mejorar YourDigitalRights.org."
   },
@@ -113,8 +125,11 @@
   "contribute.title": {
     "message": "Colabora"
   },
-  "contribute.translate": {
-    "message": "Nos gustaría que este servicio estuviera disponible en tantos idiomas como fuera posible. Si el suyo no se encuentra entre los actualmente disponibles, o si necesita actualizaciones o mejoras, cree una cuenta y utilice nuestro <a>sistema de traducción</a> para realizar los cambios. Aquí puede encontrar un <vid>video tutorial</vid> para ayudarle a empezar."
+  "contribute.translate1": {
+    "message": "We would like this service to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, we would love your help!"
+  },
+  "contribute.translate2": {
+    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. Here is a <vid>video tutorial</vid> of the translation editor to help you get started. Follow these steps to get started:"
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"
@@ -487,6 +502,9 @@
   },
   "nav.faq": {
     "message": "Preguntas frecuentes"
+  },
+  "nav.helpTranslate": {
+    "message": "Help translate"
   },
   "nav.howItWorks": {
     "message": "Cómo funciona"
