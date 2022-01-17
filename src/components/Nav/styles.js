@@ -191,7 +191,7 @@ const Theme = (theme) => ({
         alignItems: "center",
     },
     langSelect :{
-        margin: "10px 24px 0px 0px",
+        margin: "15px 24px 0px 0px",
     }
 });
 
