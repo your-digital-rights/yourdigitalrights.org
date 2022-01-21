@@ -61,7 +61,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         classes={classes}
       />
       <NavItem
-        href="/data-brokers"
+        href="https://databrokerswatch.org/top-ten"
         text={
           <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
         }
@@ -148,7 +148,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
         />
         <NavItem
           onClickHandler={toggleMobileNav}
-          href="/data-brokers"
+          href="https://databrokerswatch.org/top-ten"
           text={
             <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
           }
