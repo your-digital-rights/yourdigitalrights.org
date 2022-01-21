@@ -61,7 +61,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         classes={classes}
       />
       <NavItem
-        href="/data-brokers"
+        href="https://databrokerswatch.org/top-ten"
         text={
           <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
         }
@@ -94,11 +94,15 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
           MenuProps={{style: {zIndex: "100000"}}}
           className={classNames(classes.langSelect, classes.link)}
         >
-          {ALT_LANGUAGES.map((locale) => (
+          {Object.keys(ALT_LANGUAGES).map((locale) => (
             <MenuItem key={locale} value={locale}>
-                {locale.toUpperCase()}
+              {ALT_LANGUAGES[locale]}
             </MenuItem>
           ))}
+          <hr/>
+          <MenuItem key="help_translate" value="contribute">  
+            <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
+          </MenuItem>          
         </Select>
       </li>
 
@@ -144,7 +148,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
         />
         <NavItem
           onClickHandler={toggleMobileNav}
-          href="/data-brokers"
+          href="https://databrokerswatch.org/top-ten"
           text={
             <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
           }
@@ -163,9 +167,15 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           MenuProps={{style: {zIndex: "10000"}}}
           className={classNames(classes.langSelect, classes.link)}
         >
-          {ALT_LANGUAGES.map((locale) => (
-            <MenuItem key={locale} value={locale}>{locale.toUpperCase()}</MenuItem>
+          {Object.keys(ALT_LANGUAGES).map((locale) => (
+            <MenuItem key={locale} value={locale}>
+              {ALT_LANGUAGES[locale]}
+            </MenuItem>
           ))}
+          <hr/>
+          <MenuItem key="help_translate" value="contribute">  
+            <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
+          </MenuItem>             
         </Select>
         <a
           href={`/#${searchOrganizationsUrlAnchor}`}
@@ -285,8 +295,12 @@ class Nav extends Component {
   }
 
   handleLangChange = (event, router) => {
-    cookieCutter.set('NEXT_LOCALE', event.target.value);
-    router.push(router.asPath, router.asPath, {locale: event.target.value});
+    if (event.target.value === "contribute") {
+      router.push("/contribute");  
+    } else {
+      cookieCutter.set('NEXT_LOCALE', event.target.value);
+      router.push(router.asPath, router.asPath, {locale: event.target.value});
+    }
   };
 
   handleCloseNav(event) {

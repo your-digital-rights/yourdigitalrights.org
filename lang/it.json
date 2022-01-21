@@ -125,11 +125,16 @@
   "contribute.title": {
     "message": "Contribuire"
   },
+<<<<<<< HEAD
   "contribute.translate1": {
     "message": "Vorremmo che questo servizio fosse disponibile in molte lingue. Se il tuo non è tra quelli attualmente disponibili, o ha bisogno di aggiornamenti o miglioramenti, ci farebbe piacere il tuo aiuto!"
   },
   "contribute.translate2": {
     "message": "Usiamo la piattaforma online <a>Crowdin</a> per creare facilmente le stringhe di traduzione. Rende il processo molto più facile, e non richiede di sapere nulla di programmazione. Ecco un <vid>video tutorial</vid> dell'editor di traduzione per aiutarti ad iniziare. Segui questi passaggi per iniziare:"
+=======
+  "contribute.translate": {
+    "message": "Vorremmo che questo sito fosse disponibile in molte lingue. Se il tuo non è tra quelli attualmente disponibili o necessita di aggiornamenti o miglioramenti, crea un account e utilizza il nostro <a>sistema di traduzione</a> per apportare le modifiche. Ecco un video tutorial <vid></vid> dell'editor di traduzione per aiutarti a iniziare."
+>>>>>>> master
   },
   "contribute.translateTitle": {
     "message": "Traduci il sito web"

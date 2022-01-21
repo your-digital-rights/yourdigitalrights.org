@@ -21,7 +21,7 @@ const Theme = (theme) => ({
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
       backgroundImage: "url('/images/QR.svg')",
-      backgroundPosition: "right 130px top 120px",
+      backgroundPosition: "right 130px top 140px",
       backgroundRepeat: "no-repeat",
     },
   },

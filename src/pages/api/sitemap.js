@@ -59,7 +59,7 @@ export default async (req, res) => {
 
     const companies = await fetchData();
     companies['Organizations'].map((company) =>
-      ALT_LANGUAGES.forEach((locale) =>
+      Object.keys(ALT_LANGUAGES).forEach((locale) =>
         smStream.write({
           url: (locale === 'en') ? `https://${DOMAIN}/d/${company.url}` : `https:/${DOMAIN}/${locale}/d/${company.url}`,
           changefreq: "weekly",
