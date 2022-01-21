@@ -13,6 +13,11 @@ module.exports = {
         destination: '/d/:company',
         permanent: true,
       },
+      {
+        source: '/data-brokers',
+        destination: 'https://databrokerswatch.org/top-ten',
+        permanent: false,
+      },      
     ]
   },
 	async rewrites() {
