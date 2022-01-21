@@ -71,11 +71,8 @@
   "about.title": {
     "message": "À propos de nous"
   },
-  "aboutOrg.commentBoxDescription": {
-    "message": "Lisez ce que les autres ont à dire sur la confidentialité chez {org}et partagez vos propres commentaires :"
-  },
-  "aboutOrg.commentBoxDisclamer": {
-    "message": "N'oubliez pas : il s'agit d'un site Web indépendant qui n'est pas affilié à {org}."
+  "aboutOrg.details": {
+    "message": "Information additionnelle:"
   },
   "aboutOrg.numRequests": {
     "message": "Nombre de requêtes envoyées :"
@@ -88,6 +85,18 @@
   },
   "contribute.creditTitle": {
     "message": "Crédit"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Créez un compte chez Crowdin en suivant ce <a>lien</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Ouvrir notre traduction <a>projet</a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Passez la souris sur une langue que vous souhaitez traduire, puis cliquez sur le bouton \"Traduire\" à droite"
+  },
+  "contribute.crowdinStep4": {
+    "message": "Vous voyez maintenant le tableau de bord de crowdsourcing où vous pouvez commencer à traduire les chaînes marquées d'un point rouge ou rechercher une chaîne que vous souhaitez corriger"
   },
   "contribute.description": {
     "message": "Aidez-nous à améliorer YourDigitalRights.org."
@@ -105,7 +114,7 @@
     "message": "Signaler un problème"
   },
   "contribute.research": {
-    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez <email></email> e-mail 1 si vous souhaitez vous impliquer."
+    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez <email>e-mail</email>  si vous souhaitez vous impliquer."
   },
   "contribute.researchTitle": {
     "message": "Aide à la recherche"
@@ -116,8 +125,11 @@
   "contribute.title": {
     "message": "Contribuer"
   },
-  "contribute.translate": {
-    "message": "Nous aimerions que ce site Web soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, veuillez créer un compte et utiliser notre <a>système</a> pour apporter vos modifications. Voici un tutoriel <vid></vid> de l'éditeur de traduction pour vous aider à démarrer."
+  "contribute.translate1": {
+    "message": "Nous aimerions que ce service soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, nous serions ravis de votre aide !"
+  },
+  "contribute.translate2": {
+    "message": "Nous utilisons la plateforme en ligne <a>Crowdin</a> pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un <vid>tutoriel</vid> de l'éditeur de traduction pour vous aider à démarrer. Suivez ces étapes pour commencer :"
   },
   "contribute.translateTitle": {
     "message": "Traduire le site"
@@ -490,6 +502,9 @@
   },
   "nav.faq": {
     "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "Aide à traduire"
   },
   "nav.howItWorks": {
     "message": "Comment ça fonctionne"

@@ -71,11 +71,8 @@
   "about.title": {
     "message": "Chi siamo"
   },
-  "aboutOrg.commentBoxDescription": {
-    "message": "Leggi cosa hanno da dire gli altri sulla privacy su {org}e condividi i tuoi commenti:"
-  },
-  "aboutOrg.commentBoxDisclamer": {
-    "message": "Ricorda: questo è un sito web indipendente che non è affiliato a {org}."
+  "aboutOrg.details": {
+    "message": "Informazioni aggiuntive:"
   },
   "aboutOrg.numRequests": {
     "message": "Numero di richiesta inviata:"
@@ -88,6 +85,18 @@
   },
   "contribute.creditTitle": {
     "message": "Credito"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Crea un account su Crowdin seguendo questo <a>link</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Apri la nostra traduzione <a>progetto</a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Passa il mouse su una lingua che desideri tradurre, quindi fai clic sul pulsante \"Traduci\" a destra"
+  },
+  "contribute.crowdinStep4": {
+    "message": "Ora vedrai la dashboard di crowdsourcing in cui puoi iniziare a tradurre le stringhe contrassegnate da un punto rosso o cercare una stringa che desideri correggere"
   },
   "contribute.description": {
     "message": "Aiutaci a migliorare YourDigitalRights.org."
@@ -116,8 +125,11 @@
   "contribute.title": {
     "message": "Contribuire"
   },
-  "contribute.translate": {
-    "message": "Vorremmo che questo sito fosse disponibile in molte lingue. Se il tuo non è tra quelli attualmente disponibili o necessita di aggiornamenti o miglioramenti, crea un account e utilizza il nostro <a>sistema di traduzione</a> per apportare le modifiche. Ecco un video tutorial <vid></vid> dell'editor di traduzione per aiutarti a iniziare."
+  "contribute.translate1": {
+    "message": "Vorremmo che questo servizio fosse disponibile in molte lingue. Se il tuo non è tra quelli attualmente disponibili, o ha bisogno di aggiornamenti o miglioramenti, ci farebbe piacere il tuo aiuto!"
+  },
+  "contribute.translate2": {
+    "message": "Usiamo la piattaforma online <a>Crowdin</a> per creare facilmente le stringhe di traduzione. Rende il processo molto più facile, e non richiede di sapere nulla di programmazione. Ecco un <vid>video tutorial</vid> dell'editor di traduzione per aiutarti ad iniziare. Segui questi passaggi per iniziare:"
   },
   "contribute.translateTitle": {
     "message": "Traduci il sito web"
@@ -490,6 +502,9 @@
   },
   "nav.faq": {
     "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "Aiuta a tradurre"
   },
   "nav.howItWorks": {
     "message": "Come funziona"

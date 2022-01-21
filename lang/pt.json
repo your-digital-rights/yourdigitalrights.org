@@ -71,11 +71,8 @@
   "about.title": {
     "message": "Sobre nós"
   },
-  "aboutOrg.commentBoxDescription": {
-    "message": "Leia o que os outros têm a dizer sobre privacidade em {org}e compartilhe seus próprios comentários:"
-  },
-  "aboutOrg.commentBoxDisclamer": {
-    "message": "Lembre-se: este é um site independente que não é afiliado a {org}."
+  "aboutOrg.details": {
+    "message": "Informação adicional:"
   },
   "aboutOrg.numRequests": {
     "message": "Número de solicitação enviada:"
@@ -88,6 +85,18 @@
   },
   "contribute.creditTitle": {
     "message": "Crédito"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Faça uma conta no Crowdin seguindo este <a>link</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Abra nossa tradução <a>projeto</a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Passe o mouse sobre um idioma que você gostaria de traduzir e clique no botão \"Traduzir\" à direita"
+  },
+  "contribute.crowdinStep4": {
+    "message": "Agora você vê o painel de crowdsourcing, onde pode começar a traduzir as strings marcadas com um ponto vermelho ou pesquisar uma string que gostaria de corrigir"
   },
   "contribute.description": {
     "message": "Ajude-nos a melhorar YourDigitalRights.org."
@@ -116,8 +125,11 @@
   "contribute.title": {
     "message": "Contribuir"
   },
-  "contribute.translate": {
-    "message": "Gostaríamos que este site estivesse disponível em vários idiomas. Caso o seu não esteja entre os disponíveis atualmente, ou precise de atualizações ou melhorias, crie uma conta e use nosso <a>sistema de tradução</a> para fazer suas alterações. Aqui está um tutorial de <vid></vid> do editor de tradução para ajudá-lo a começar."
+  "contribute.translate1": {
+    "message": "Gostaríamos que este serviço estivesse disponível em vários idiomas. Caso o seu não esteja entre os disponíveis atualmente, ou precise de atualizações ou melhorias, adoraríamos sua ajuda!"
+  },
+  "contribute.translate2": {
+    "message": "Usamos a plataforma online <a>Crowdin</a> para criar facilmente as strings de tradução. Isso torna o processo muito mais fácil e não exige que você saiba nada sobre programação. Aqui está um <vid>tutorial</vid> do editor de tradução para ajudá-lo a começar. Siga estas etapas para começar:"
   },
   "contribute.translateTitle": {
     "message": "Traduza o site"
@@ -490,6 +502,9 @@
   },
   "nav.faq": {
     "message": "Perguntas frequentes"
+  },
+  "nav.helpTranslate": {
+    "message": "Ajude a traduzir"
   },
   "nav.howItWorks": {
     "message": "Como funciona"
