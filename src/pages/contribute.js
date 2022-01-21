@@ -89,13 +89,19 @@ const Contribute = ({ classes, router }) => {
               />
           </Typography>
           <br/>
-          <Typography component="h2" variant="h3" gutterBottom={true}>
+          <Typography id="translate" component="h2" variant="h3" gutterBottom={true}>
             <FormattedMessage id="contribute.translateTitle" defaultMessage="Translate the website" />
           </Typography>          
           <Typography gutterBottom={true}>
             <FormattedMessage
-              id="contribute.translate"
-              defaultMessage="We would like this website to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, please create an account and use our <a>translation system</a> to make your changes. Here is a <vid>video tutorial</vid> of the translation editor to help you get started."
+              id="contribute.translate1"
+              defaultMessage="We would like this service to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, we would love your help!"             
+            />
+          </Typography>          
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="contribute.translate2"
+              defaultMessage="We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. Here is a <vid>video tutorial</vid> of the translation editor to help you get started. Follow these steps to get started:"
               values={{
                 a: chunks =>  (
                     <a 
@@ -114,9 +120,62 @@ const Contribute = ({ classes, router }) => {
                   </a>
                   ),                    
               }}              
-            />
+            />            
           </Typography>
-          <br/>
+          <ol>
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep1" 
+                  defaultMessage="Make an account at Crowdin by following this <a>link</a>" 
+                  values={{
+                    a: chunks =>  (
+                        <a 
+                            href='https://translate.yourdigitalrights.org/u/signup'
+                            target="_blank"
+                        >
+                            {chunks}
+                        </a>
+                        ),                   
+                  }}                     
+                />
+              </Typography>
+            </li>
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep2" 
+                  defaultMessage="Open our translation <a>project</a>" 
+                  values={{
+                    a: chunks =>  (
+                        <a 
+                            href='https://translate.yourdigitalrights.org/your-digital-rights/'
+                            target="_blank"
+                        >
+                            {chunks}
+                        </a>
+                        ),                   
+                  }}                     
+                />
+              </Typography>
+            </li>
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep3" 
+                  defaultMessage="Hover over a language that you would like to translate, then click the 'Translate' button on the right"                    
+                />
+              </Typography>
+            </li>     
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep4" 
+                  defaultMessage="You now see the crowdsourcing dashboard where you can start translating strings that are marked with a red dot, or search for a string you would like to correct"                    
+                />
+              </Typography>
+            </li>          
+          </ol>          
           <Typography component="h2" variant="h3" gutterBottom={true}>
             <FormattedMessage id="contribute.devTitle" defaultMessage="Help with Development" />
           </Typography>          

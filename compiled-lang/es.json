@@ -229,32 +229,10 @@
       "value": "Sobre nosotros"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Lee lo que otros tienen que decir sobre la privacidad en "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": ", y comparte tus propios comentarios:"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "Recuerda: este es un sitio proyecto independiente que no está afiliado a "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Información adicional:"
     }
   ],
   "aboutOrg.numRequests": [
@@ -279,6 +257,46 @@
     {
       "type": 0,
       "value": "Creditos"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Haz una cuenta en Crowdin siguiendo este "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "enlace"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Abre nuestro proyecto de traducción "
+    },
+    {
+      "children": [
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Sube un idioma que te gustaría traducir, luego haz clic en el botón \"Traducir\" de la derecha"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Ahora ves el panel de crowdsourcing donde puedes empezar a traducir cadenas que están marcadas con un punto rojo, o busca una cadena que te gustaría corregir"
     }
   ],
   "contribute.description": [
@@ -405,16 +423,22 @@
       "value": "Colabora"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "Nos gustaría que este servicio estuviera disponible en tantos idiomas como fuera posible. Si el suyo no se encuentra entre los actualmente disponibles, o si necesita actualizaciones o mejoras, cree una cuenta y utilice nuestro "
+      "value": "Nos gustaría que este servicio estuviera disponible en muchos idiomas. Si el suyo no estuviera entre los que actualmente están disponibles, o necesitara actualizaciones o mejoras, nos encantaría su ayuda!"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Utilizamos la plataforma en línea "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "sistema de traducción"
+          "value": "Crowdin"
         }
       ],
       "type": 8,
@@ -422,7 +446,7 @@
     },
     {
       "type": 0,
-      "value": " para realizar los cambios. Aquí puede encontrar un "
+      "value": " para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Aquí tienes un "
     },
     {
       "children": [
@@ -436,7 +460,7 @@
     },
     {
       "type": 0,
-      "value": " para ayudarle a empezar."
+      "value": " del editor de traducción para ayudarte a empezar. Sigue estos pasos para empezar:"
     }
   ],
   "contribute.translateTitle": [
@@ -1423,6 +1447,12 @@
     {
       "type": 0,
       "value": "Preguntas frecuentes"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Ayuda a traducir"
     }
   ],
   "nav.howItWorks": [

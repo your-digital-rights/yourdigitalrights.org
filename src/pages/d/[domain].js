@@ -1,5 +1,4 @@
 import { useIntl } from "react-intl";
-import AboutOrg from "../../components/AboutOrg";
 import Donations from "../../components/Donations";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
@@ -45,12 +44,6 @@ const Org = ({ organization, router }) => {
       <PersonalInfoForm
         selectedCompany={organization}
       />
-      {organization && (
-        <AboutOrg 
-          selectedCompany={organization}
-          canonical={generateCanonical(BaseURL, 'en')}
-        />
-      )}
       <Donations />
       <Footer />
     </div>

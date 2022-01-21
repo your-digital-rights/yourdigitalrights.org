@@ -1,0 +1,2090 @@
+{
+  "UKgdprOption": [
+    {
+      "type": 0,
+      "value": "RGPD (Royaume-Uni)"
+    }
+  ],
+  "about.aboutTitle": [
+    {
+      "type": 0,
+      "value": "Notre mission"
+    }
+  ],
+  "about.consciousDigital": [
+    {
+      "type": 0,
+      "value": "Qui nous sommes"
+    }
+  ],
+  "about.consciousDigital1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org est une production de "
+    },
+    {
+      "type": 1,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ", un organisme de bienfaisance enregistré créant des initiatives numériques centrées sur les personnes qui promeuvent et font progresser les droits humains numériques."
+    }
+  ],
+  "about.contributors": [
+    {
+      "type": 0,
+      "value": "Contributeurs"
+    }
+  ],
+  "about.contributorsBody1": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Développeur web front-end."
+    }
+  ],
+  "about.contributorsBody3": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Développeur web front-end."
+    }
+  ],
+  "about.contributorsBody4": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Développeur web front-end."
+    }
+  ],
+  "about.contributorsBody5": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Ingénieur Infrastructures."
+    }
+  ],
+  "about.createdByBody2": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Développeur web frontend, développeur d'applications mobiles et créateur de Skyjacker, le jeu de suivi de vol AR."
+    }
+  ],
+  "about.description": [
+    {
+      "type": 0,
+      "value": "Vos droits numériques ont été créés parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
+    }
+  ],
+  "about.funding": [
+    {
+      "type": 0,
+      "value": "Financement"
+    }
+  ],
+  "about.fundingBody1": [
+    {
+      "type": 0,
+      "value": "Ce projet est autofinancé par ses créateurs, et avec l'aide de vos dons."
+    }
+  ],
+  "about.missionBody1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org a été créé parce que nous croyons que la vie privée est un droit humain fondamental et que l'exercice de ce droit devrait être facile. Le "
+    },
+    {
+      "type": 1,
+      "value": "gdpr"
+    },
+    {
+      "type": 0,
+      "value": " européen (GDPR) et le "
+    },
+    {
+      "type": 1,
+      "value": "ccpa"
+    },
+    {
+      "type": 0,
+      "value": " (CCPA) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
+    }
+  ],
+  "about.missionBody2": [
+    {
+      "type": 0,
+      "value": "Les réglementations sur la protection de la vie privée telles que le RGPD et le CCPA sont un pas dans la bonne direction, mais l'exercice de vos droits en vertu de ces législations est encore assez difficile pour que la plupart des gens ne s'en soucient pas. La situation est aggravée par le fait que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Le but de ce service est de rendre accessible à tous les droits accordés par ces législations."
+    }
+  ],
+  "about.missionBody3": [
+    {
+      "type": 0,
+      "value": "C'est un service gratuit. Nous ne sommes pas une entreprise et n'avons pas de modèle économique. Nous n'offrons aucun service aux organisations. Nous ne collectons ni n'échangeons aucune donnée personnelle. Ce service est "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Open Source"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsors": [
+    {
+      "type": 0,
+      "value": "Commanditaires"
+    }
+  ],
+  "about.sponsorsBody2": [
+    {
+      "type": 1,
+      "value": "crunchbase"
+    },
+    {
+      "type": 0,
+      "value": " - pour fournir un instantané de leur base de données d'entreprise que nous utilisons pour enrichir notre liste d'organisations."
+    }
+  ],
+  "about.sponsorsBody3": [
+    {
+      "type": 1,
+      "value": "featureupvote"
+    },
+    {
+      "type": 0,
+      "value": " - pour fournir un moyen efficace de recueillir les commentaires de la communauté concernant notre "
+    },
+    {
+      "type": 1,
+      "value": "roadmap"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsorsBody4": [
+    {
+      "type": 1,
+      "value": "innocraft"
+    },
+    {
+      "type": 0,
+      "value": " - pour avoir fourni une version hébergée de Matomo (Piwik), la plate-forme d'analyse Web open source et soucieuse de la confidentialité."
+    }
+  ],
+  "about.sponsorsBody5": [
+    {
+      "type": 1,
+      "value": "mailgo"
+    },
+    {
+      "type": 0,
+      "value": " - pour avoir créé une superbe bibliothèque open source qui rend les liens 'mailto' conviviaux et pour être super réactif à nos demandes."
+    }
+  ],
+  "about.sponsorsBody6": [
+    {
+      "type": 1,
+      "value": "sws"
+    },
+    {
+      "type": 0,
+      "value": " - pour nous aider à mettre en place une stratégie de référencement."
+    }
+  ],
+  "about.sponsorsTitle": [
+    {
+      "type": 0,
+      "value": "Nous tenons à remercier les organisations suivantes pour leur soutien à nos efforts open source en fournissant une version gratuite ou à prix réduit de leurs services :"
+    }
+  ],
+  "about.title": [
+    {
+      "type": 0,
+      "value": "À propos de nous"
+    }
+  ],
+  "aboutOrg.details": [
+    {
+      "type": 0,
+      "value": "Information additionnelle:"
+    }
+  ],
+  "aboutOrg.numRequests": [
+    {
+      "type": 0,
+      "value": "Nombre de requêtes envoyées :"
+    }
+  ],
+  "aboutOrg.privacyPolicy": [
+    {
+      "type": 0,
+      "value": "Politique de confidentialité:"
+    }
+  ],
+  "contribute.creadit": [
+    {
+      "type": 0,
+      "value": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus qu'heureux de vous remercier pour vos contributions, que ce soit sur ce site Web, sur github ou par d'autres moyens."
+    }
+  ],
+  "contribute.creditTitle": [
+    {
+      "type": 0,
+      "value": "Crédit"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Créez un compte chez Crowdin en suivant ce "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "lien"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Ouvrir notre traduction "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "projet"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Passez la souris sur une langue que vous souhaitez traduire, puis cliquez sur le bouton \"Traduire\" à droite"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Vous voyez maintenant le tableau de bord de crowdsourcing où vous pouvez commencer à traduire les chaînes marquées d'un point rouge ou rechercher une chaîne que vous souhaitez corriger"
+    }
+  ],
+  "contribute.description": [
+    {
+      "type": 0,
+      "value": "Aidez-nous à améliorer YourDigitalRights.org."
+    }
+  ],
+  "contribute.dev": [
+    {
+      "type": 0,
+      "value": "Nos référentiels sont hébergés sur GitHub, le principal étant pour ce "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "site"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". La meilleure façon de commencer est de nous contacter par e-mail "
+    },
+    {
+      "children": [
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": ". Nous vous ajouterons ensuite à notre chaîne Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
+    }
+  ],
+  "contribute.devTitle": [
+    {
+      "type": 0,
+      "value": "Aide au développement"
+    }
+  ],
+  "contribute.reportAProblem": [
+    {
+      "type": 0,
+      "value": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans le "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "issue tracker"
+        }
+      ],
+      "type": 8,
+      "value": "a1"
+    },
+    {
+      "type": 0,
+      "value": ", ou via "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "a2"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.reportAProblemTitle": [
+    {
+      "type": 0,
+      "value": "Signaler un problème"
+    }
+  ],
+  "contribute.research": [
+    {
+      "type": 0,
+      "value": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "e-mail"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "  si vous souhaitez vous impliquer."
+    }
+  ],
+  "contribute.researchTitle": [
+    {
+      "type": 0,
+      "value": "Aide à la recherche"
+    }
+  ],
+  "contribute.subtitle": [
+    {
+      "type": 0,
+      "value": "Ce projet est entièrement développé et maintenu par des bénévoles. Si vous êtes préoccupé par la perte de confidentialité, le capitalisme de surveillance rampant, le micro-ciblage et la désinformation et la nature addictive des services numériques, vous pouvez aider :"
+    }
+  ],
+  "contribute.title": [
+    {
+      "type": 0,
+      "value": "Contribuer"
+    }
+  ],
+  "contribute.translate1": [
+    {
+      "type": 0,
+      "value": "Nous aimerions que ce service soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, nous serions ravis de votre aide !"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Nous utilisons la plateforme en ligne "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Crowdin"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "tutoriel"
+        }
+      ],
+      "type": 8,
+      "value": "vid"
+    },
+    {
+      "type": 0,
+      "value": " de l'éditeur de traduction pour vous aider à démarrer. Suivez ces étapes pour commencer :"
+    }
+  ],
+  "contribute.translateTitle": [
+    {
+      "type": 0,
+      "value": "Traduire le site"
+    }
+  ],
+  "data-brokers.DBAboutTitle": [
+    {
+      "type": 0,
+      "value": "Se retirer des meilleurs courtiers en données"
+    }
+  ],
+  "data-brokers.brokerAfter": [
+    {
+      "type": 0,
+      "value": "Ce sont quelques-uns des meilleurs courtiers en données, mais il en existe bien d'autres. Cliquez sur le bouton ci-dessous pour effectuer une recherche dans toute la base de données."
+    }
+  ],
+  "data-brokers.brokersIntro": [
+    {
+      "type": 0,
+      "value": "Les courtiers en données sont des entreprises qui collectent et vendent des données personnelles, généralement à votre insu ou sans votre consentement. Voici quelques-uns des meilleurs courtiers en données, cliquez sur chaque entreprise pour qu'ils effacent vos données en envoyant une demande d'effacement "
+    },
+    {
+      "type": 1,
+      "value": "faq"
+    }
+  ],
+  "data-brokers.description": [
+    {
+      "type": 0,
+      "value": "Obtenez les meilleurs courtiers en données pour effacer vos données personnelles"
+    }
+  ],
+  "data-brokers.searchButton": [
+    {
+      "type": 0,
+      "value": "Rechercher d'autres organisations"
+    }
+  ],
+  "data-brokers.title": [
+    {
+      "type": 0,
+      "value": "Se retirer des meilleurs courtiers en données"
+    }
+  ],
+  "donations.Bitcoin": [
+    {
+      "type": 0,
+      "value": "Faire un don de Bitcoin"
+    }
+  ],
+  "donations.Liberapay": [
+    {
+      "type": 0,
+      "value": "Faire un don via Liberapay"
+    }
+  ],
+  "donations.donateIntro": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org a été créé parce que nous croyons que la confidentialité est importante et que l'exercice de votre droit à la confidentialité devrait être facile. C'est pourquoi nous l'avons rendu gratuit. Les dons nous permettent de passer plus de temps à améliorer ce service."
+    }
+  ],
+  "donations.headingDonate": [
+    {
+      "type": 0,
+      "value": "Nous avons besoin de votre soutien"
+    }
+  ],
+  "faq.body10A": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body10Ai": [
+    {
+      "type": 0,
+      "value": "Si vous n'êtes pas satisfait de la manière dont l'organisation a traité votre demande, vous devez d'abord vous en plaindre. Ceci fait, si vous n'êtes toujours pas satisfait, vous pouvez déposer une plainte auprès des autorités locales de protection des données (DPA). Vous pouvez également chercher à faire valoir vos droits auprès des tribunaux. Si vous décidez de le faire, nous vous conseillons fortement de demander d'abord un avis juridique indépendant. Vous pouvez télécharger une liste des DPA "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "ici"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " (PDF)."
+    }
+  ],
+  "faq.body10B": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body10Bii": [
+    {
+      "type": 0,
+      "value": "Si vous n'êtes pas satisfait de la manière dont une organisation a traité votre demande, vous devez d'abord vous en plaindre. Cela fait, si vous restez insatisfait, vous avez deux options. "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Porter plainte auprès du procureur général"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " ou intenter une action privée."
+    }
+  ],
+  "faq.body11A": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body11Ai": [
+    {
+      "type": 0,
+      "value": "Les organisations peuvent être condamnées à une amende pouvant aller jusqu'à 4 % du chiffre d'affaires mondial annuel pour avoir enfreint le RGPD ou 20 millions d'euros."
+    }
+  ],
+  "faq.body11Aii": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body11B": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body11Bi": [
+    {
+      "type": 0,
+      "value": "La pénalité pour une violation intentionnelle du CCPA est de 7 500 $ par incident et pour une violation non intentionnelle de 2 500 $ par incident. Les consommateurs ont droit à entre $100-$750 d'indemnisation par incident ou dommages réels, selon le montant le plus élevé, si une entreprise n'a pas pris de mesures de sécurité raisonnables en cas de violation d'informations personnelles sensibles."
+    }
+  ],
+  "faq.body11Biii": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body12A": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body12Ai": [
+    {
+      "type": 0,
+      "value": "Le Data Protection Office (DPO), bien que la législation stipule que les organisations doivent former le personnel à reconnaître les demandes GDPR, peu importe à qui elles parviennent ou dans quel format."
+    }
+  ],
+  "faq.body12B": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body12Bi": [
+    {
+      "type": 0,
+      "value": "Le CCPA ne définit pas qui spécifiquement au sein d'une organisation est responsable de cela."
+    }
+  ],
+  "faq.body13A": [
+    {
+      "type": 0,
+      "value": "Pour résoudre ce problème, vous devrez configurer un client de messagerie par défaut sur votre système. Voici les instructions sur la façon de procéder sur "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Mac"
+        }
+      ],
+      "type": 8,
+      "value": "a1"
+    },
+    {
+      "type": 0,
+      "value": " et "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Windows"
+        }
+      ],
+      "type": 8,
+      "value": "a2"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body1A": [
+    {
+      "type": 0,
+      "value": "Il existe actuellement deux réglementations principales protégeant la vie privée des individus en ligne. Le Règlement général sur la protection des données, ou GDPR, protège les résidents de l'Union européenne, et le California Consumer Privacy Act, ou CCPA, protège les résidents de Californie."
+    }
+  ],
+  "faq.body2A": [
+    {
+      "type": 0,
+      "value": "Le Règlement général sur la protection des données, ou RGPD en abrégé, est un règlement de l'UE qui protège le droit fondamental des personnes à la protection de leurs données personnelles."
+    }
+  ],
+  "faq.body2Ai": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Lire le règlement"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body2B": [
+    {
+      "type": 0,
+      "value": "Le GDPR ne s'applique pas à certaines activités, notamment l'application de la loi, la sécurité nationale et uniquement les activités personnelles / domestiques."
+    }
+  ],
+  "faq.body2C": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body3A": [
+    {
+      "type": 0,
+      "value": "Le RGPD s'applique à :"
+    }
+  ],
+  "faq.body3Ai": [
+    {
+      "type": 0,
+      "value": "Organisations établies au sein de l'UE qui collectent ou traitent des données personnelles (même de personnes situées en dehors de l'UE)"
+    }
+  ],
+  "faq.body3Aii": [
+    {
+      "type": 0,
+      "value": "Organisations établies en dehors de l'UE qui collectent ou traitent des informations personnelles tout en fournissant des biens ou des services (payants ou gratuits) à des personnes situées dans l'UE"
+    }
+  ],
+  "faq.body3Aiii": [
+    {
+      "type": 0,
+      "value": "Organisations établies en dehors de l'UE qui collectent ou traitent des informations personnelles tout en surveillant le comportement des personnes lorsqu'elles se trouvent dans l'UE"
+    }
+  ],
+  "faq.body4A": [
+    {
+      "type": 0,
+      "value": "Le California Consumer Privacy Act, ou CCPA en abrégé, est un nouveau règlement introduit en Californie en janvier 2020. Il protège le droit fondamental des personnes à la protection de leurs données personnelles et de leur vie privée en ligne."
+    }
+  ],
+  "faq.body4Ai": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Lire le règlement"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body5A": [
+    {
+      "type": 0,
+      "value": "Le CCPA s'applique aux organisations qui collectent des informations personnelles des consommateurs, ou pour le compte desquelles ces informations sont collectées et qui, seules ou conjointement avec d'autres, déterminent les finalités et les moyens du traitement des informations personnelles des consommateurs, qui exercent leurs activités dans l'État de Californie, et qui satisfait à un ou plusieurs des seuils suivants :"
+    }
+  ],
+  "faq.body5Ai": [
+    {
+      "type": 0,
+      "value": "A des revenus bruts annuels supérieurs à vingt-cinq millions de dollars (25 000 000 $)"
+    }
+  ],
+  "faq.body5Aii": [
+    {
+      "type": 0,
+      "value": "Achète, reçoit, vend ou partage chaque année à des fins commerciales, seuls ou en combinaison, les informations personnelles de 50 000 consommateurs, foyers ou appareils ou plus"
+    }
+  ],
+  "faq.body5Aiii": [
+    {
+      "type": 0,
+      "value": "Tire 50 % ou plus de ses revenus annuels de la vente des informations personnelles des consommateurs"
+    }
+  ],
+  "faq.body6Ai": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body6Aii": [
+    {
+      "type": 0,
+      "value": "Toute information relative à une personne pouvant être utilisée directement ou indirectement pour l'identifier. Une personne peut être identifiée de différentes manières, notamment par son nom, son numéro d'identification, ses données de localisation ou d'autres identifiants en ligne."
+    }
+  ],
+  "faq.body6Aiii": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body6Bi": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body6Bii": [
+    {
+      "type": 0,
+      "value": "Les informations personnelles sont tout ce qui identifie, se rapporte à, décrit ou est susceptible d'être associé à, ou pourrait raisonnablement être lié, directement ou indirectement, à un consommateur ou à un ménage particulier."
+    }
+  ],
+  "faq.body6Biii": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Lire la définition"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body7A": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body7Ai": [
+    {
+      "type": 0,
+      "value": "Le droit à l'effacement n'est pas absolu et concerne les traitements de données pour lesquels le consentement est la base juridique du traitement. Par exemple, les données nécessaires en raison d'un contrat ou les données d'intérêt public ne relèvent pas de cette définition. Plus précisément, le droit ne s'applique que dans les circonstances suivantes :"
+    }
+  ],
+  "faq.body7Aii": [
+    {
+      "type": 0,
+      "value": "L'organisation n'a plus besoin de vos données. Exemple : après avoir annulé votre abonnement à la salle de sport, il n'est plus nécessaire de conserver les détails de votre nom, adresse, âge et état de santé."
+    }
+  ],
+  "faq.body7Aiii": [
+    {
+      "type": 0,
+      "value": "Vous avez initialement consenti à l'utilisation de vos données, mais vous avez maintenant retiré votre consentement. Exemple : vous avez accepté de participer à une étude de marché et ne souhaitez plus le faire."
+    }
+  ],
+  "faq.body7Aiv": [
+    {
+      "type": 0,
+      "value": "Vous vous êtes opposé à l'utilisation de vos données et vos intérêts l'emportent sur ceux de l'organisation qui les utilise."
+    }
+  ],
+  "faq.body7Av": [
+    {
+      "type": 0,
+      "value": "L'organisation a collecté ou utilisé vos données illégalement. Exemple : il n'a pas respecté les règles sur la protection des données."
+    }
+  ],
+  "faq.body7Avi": [
+    {
+      "type": 0,
+      "value": "L'organisation a l'obligation légale d'effacer vos données."
+    }
+  ],
+  "faq.body7Avii": [
+    {
+      "type": 0,
+      "value": "Les données ont été collectées auprès de vous en tant qu'enfant pour un service en ligne. Exemple : un réseau social ou une application de jeu. La loi accorde aux enfants une protection particulière car ils peuvent être moins conscients des risques et des conséquences de la transmission de leurs données à des organisations. Même si vous êtes maintenant un adulte, vous avez le droit de faire effacer vos données si elles ont été collectées auprès de vous lorsque vous étiez enfant."
+    }
+  ],
+  "faq.body7B": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body8A": [
+    {
+      "type": 0,
+      "value": "Il existe certaines circonstances dans lesquelles une organisation est légalement autorisée à refuser d'effacer vos données."
+    }
+  ],
+  "faq.body8Ai": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body8Aii": [
+    {
+      "type": 0,
+      "value": "Lorsque la conservation de vos données est nécessaire pour des raisons de liberté d'expression et d'information (cela inclut le journalisme et les finalités académiques, artistiques et littéraires)."
+    }
+  ],
+  "faq.body8Aiii": [
+    {
+      "type": 0,
+      "value": "Lorsque l'organisation est légalement tenue de conserver vos données."
+    }
+  ],
+  "faq.body8Aiv": [
+    {
+      "type": 0,
+      "value": "Lorsque la conservation de vos données est nécessaire pour des raisons de santé publique."
+    }
+  ],
+  "faq.body8Av": [
+    {
+      "type": 0,
+      "value": "Lorsque la conservation de vos données est nécessaire pour établir, exercer ou défendre des droits légaux."
+    }
+  ],
+  "faq.body8Avi": [
+    {
+      "type": 0,
+      "value": "Lorsque l'effacement de vos données porterait préjudice à la recherche scientifique ou historique, ou à l'archivage d'intérêt public."
+    }
+  ],
+  "faq.body8Avii": [
+    {
+      "type": 0,
+      "value": "Si, après examen de votre demande, l'organisation décide qu'elle n'a pas besoin d'effacer vos données, elle doit quand même vous répondre. Il doit vous expliquer pourquoi il estime qu'il n'est pas nécessaire d'effacer vos données et vous informer de votre droit de vous plaindre de cette décision auprès de l'ICO ou auprès des tribunaux."
+    }
+  ],
+  "faq.body8B": [
+    {
+      "type": 0,
+      "value": "L'organisme peut également refuser votre demande si celle-ci est, comme le stipule la loi, « manifestement infondée ou excessive »."
+    }
+  ],
+  "faq.body8Bi": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body8C": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body8Ci": [
+    {
+      "type": 0,
+      "value": "Liberté d'expression ou autre droit prévu par la loi."
+    }
+  ],
+  "faq.body8Cii": [
+    {
+      "type": 0,
+      "value": "Traitement à des fins de recherche, si la suppression des informations personnelles rendait impossible ou compromettait gravement la réalisation de ces recherches."
+    }
+  ],
+  "faq.body8Ciii": [
+    {
+      "type": 0,
+      "value": "Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité."
+    }
+  ],
+  "faq.body8Civ": [
+    {
+      "type": 0,
+      "value": "Pour se conformer à une obligation légale."
+    }
+  ],
+  "faq.body8Cix": [
+    {
+      "type": 0,
+      "value": "Sinon utiliser les informations personnelles du consommateur, en interne, de manière licite et compatible avec le contexte dans lequel le consommateur a fourni les informations."
+    }
+  ],
+  "faq.body8Cv": [
+    {
+      "type": 0,
+      "value": "Exécuter un contrat entre l'entreprise et le consommateur."
+    }
+  ],
+  "faq.body8Cvi": [
+    {
+      "type": 0,
+      "value": "Détectez les incidents de sécurité, protégez-vous contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivez les responsables de ces activités."
+    }
+  ],
+  "faq.body8Cvii": [
+    {
+      "type": 0,
+      "value": "Déboguez pour identifier et réparer les erreurs qui nuisent à la fonctionnalité prévue existante."
+    }
+  ],
+  "faq.body8Cviii": [
+    {
+      "type": 0,
+      "value": "Pour permettre uniquement des utilisations internes raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise."
+    }
+  ],
+  "faq.body8D": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "En savoir plus"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.body9A": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du RGPD :"
+    }
+  ],
+  "faq.body9Ai": [
+    {
+      "type": 0,
+      "value": "faq.Une organisation dispose d'un mois pour se conformer à une demande. Le délai peut être allongé à 2 mois supplémentaires compte tenu de la complexité et du nombre de demandes. Dans tous les cas, l'organisation doit vous informer de cette prolongation dans un délai d'un mois à compter de la réception de la demande."
+    }
+  ],
+  "faq.body9Aii": [
+    {
+      "type": 0,
+      "value": "Dans le cadre du CCPA :"
+    }
+  ],
+  "faq.body9Aiii": [
+    {
+      "type": 0,
+      "value": "Le délai pour répondre à une demande est de 45 jours à compter de la réception de la demande du consommateur. Le délai peut être prolongé de 45 jours supplémentaires lorsque cela est raisonnablement nécessaire, si le consommateur est informé dans les 45 premiers jours."
+    }
+  ],
+  "faq.heading1": [
+    {
+      "type": 0,
+      "value": "Quel règlement me protège, RGPD ou CCPA ?"
+    }
+  ],
+  "faq.heading10": [
+    {
+      "type": 0,
+      "value": "Que dois-je faire si une organisation ne s'est pas conformée ou ne s'est pas entièrement conformée à ma demande ?"
+    }
+  ],
+  "faq.heading11": [
+    {
+      "type": 0,
+      "value": "Quelles sont les sanctions qu'une organisation qui ne se conforme pas à une demande peut encourir ?"
+    }
+  ],
+  "faq.heading12": [
+    {
+      "type": 0,
+      "value": "Qui dans une organisation est responsable du traitement des demandes ?"
+    }
+  ],
+  "faq.heading13": [
+    {
+      "type": 0,
+      "value": "Lors de l'envoi d'une demande via le site Web, je reçois un message d'erreur ou rien ne se passe"
+    }
+  ],
+  "faq.heading2": [
+    {
+      "type": 0,
+      "value": "Qu'est-ce que le RGPD ?"
+    }
+  ],
+  "faq.heading3": [
+    {
+      "type": 0,
+      "value": "A qui s'applique le RGPD ?"
+    }
+  ],
+  "faq.heading4": [
+    {
+      "type": 0,
+      "value": "Qu'est-ce que le CCPA ?"
+    }
+  ],
+  "faq.heading5": [
+    {
+      "type": 0,
+      "value": "A qui s'applique le CCPA ?"
+    }
+  ],
+  "faq.heading6": [
+    {
+      "type": 0,
+      "value": "Qu'est-ce qu'une donnée personnelle ?"
+    }
+  ],
+  "faq.heading7": [
+    {
+      "type": 0,
+      "value": "Quand puis-je demander l'effacement de mes données personnelles ?"
+    }
+  ],
+  "faq.heading8": [
+    {
+      "type": 0,
+      "value": "Quand l'organisation peut-elle dire non ?"
+    }
+  ],
+  "faq.heading9": [
+    {
+      "type": 0,
+      "value": "De combien de temps une organisation dispose-t-elle pour se conformer à une demande ?"
+    }
+  ],
+  "faq.title": [
+    {
+      "type": 0,
+      "value": "Questions fréquemment posées"
+    }
+  ],
+  "footer.contact": [
+    {
+      "type": 0,
+      "value": "Pour plus d'informations, veuillez "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "nous contacter"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". © Droits d'auteur 2019"
+    }
+  ],
+  "footer.disclaimer": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Avis de non-responsabilité :"
+        }
+      ],
+      "type": 8,
+      "value": "span"
+    },
+    {
+      "type": 0,
+      "value": " Ce service est fourni tel quel, sans garantie d'aucune sorte. L'utilisation de ce service est entièrement à vos propres risques. Nous ne pouvons être tenus responsables des dommages directs ou indirects résultant de l'utilisation de ce service. Les informations fournies par ce service ainsi que le contenu de notre site Web lié à des questions juridiques sont fournis pour votre usage privé et ne constituent pas un avis juridique. Si vous avez besoin de conseils juridiques pour un problème spécifique, vous devriez consulter un avocat agréé."
+    }
+  ],
+  "footer.madeBy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Fabriqué par Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.mission": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Mission"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.privacyPolicy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Politique de confidentialité"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.wishList": [
+    {
+      "type": 0,
+      "value": "faire un vœu sur notre feuille de route"
+    }
+  ],
+  "hero.headerText": [
+    {
+      "type": 0,
+      "value": "Demandez aux organisations de supprimer votre compte ou de vous envoyer une copie de vos données personnelles."
+    }
+  ],
+  "hero.heading": [
+    {
+      "type": 0,
+      "value": "Posséder vos données"
+    }
+  ],
+  "hero.intro": [
+    {
+      "type": 0,
+      "value": "De nombreuses organisations collectent et vendent vos données personnelles, souvent sans votre consentement. Utilisez ce service gratuit pour leur envoyer une demande de suppression ou d'accès aux données. Commencez par rechercher une organisation ci-dessous. Vous ne savez pas par où commencer ? Désactiver ces "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "meilleurs courtiers en données"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "howItWorks.fillIn": [
+    {
+      "type": 0,
+      "value": "Remplissez votre nom et toute information supplémentaire qui pourrait aider l'organisation à vous identifier dans leurs systèmes d'information (nous ne conservons pas ces informations)."
+    }
+  ],
+  "howItWorks.fillInTitle": [
+    {
+      "type": 0,
+      "value": "Remplir"
+    }
+  ],
+  "howItWorks.imgAlt": [
+    {
+      "type": 0,
+      "value": "Un graphique représentant l'interface utilisateur"
+    }
+  ],
+  "howItWorks.search": [
+    {
+      "type": 0,
+      "value": "Recherchez une organisation à l'aide du champ de recherche ci-dessus. Si l'organisation que vous recherchez ne figure pas dans la liste, vous pouvez toujours lui envoyer une demande en fournissant un e-mail de contact."
+    }
+  ],
+  "howItWorks.searchTitle": [
+    {
+      "type": 0,
+      "value": "Chercher"
+    }
+  ],
+  "howItWorks.send": [
+    {
+      "type": 0,
+      "value": "Cliquez sur le bouton Envoyer pour générer un e-mail de demande adressé à la personne concernée de l'organisation que vous avez sélectionnée. L'e-mail s'ouvrira dans votre application de messagerie par défaut où vous pourrez le consulter, puis l'envoyer."
+    }
+  ],
+  "howItWorks.sendTitle": [
+    {
+      "type": 0,
+      "value": "Envoyer"
+    }
+  ],
+  "howItWorks.title": [
+    {
+      "type": 0,
+      "value": "Comment ça fonctionne"
+    }
+  ],
+  "howItWorks.whyBody": [
+    {
+      "type": 0,
+      "value": "Nous avons créé ce service parce que nous pensons que la confidentialité est importante et que l'exercice de votre droit à la confidentialité doit être simple et gratuit. Nous ne collectons ni ne vendons de données personnelles. Le service est autofinancé par ses créateurs, et avec l'aide de vos "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "dons"
+        }
+      ],
+      "type": 8,
+      "value": "donations"
+    },
+    {
+      "type": 0,
+      "value": ". En savoir plus "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "sur nous"
+        }
+      ],
+      "type": 8,
+      "value": "about"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "howItWorks.whyTitle": [
+    {
+      "type": 0,
+      "value": "Pourquoi nous faire confiance ?"
+    }
+  ],
+  "howItWorks.yourData": [
+    {
+      "type": 0,
+      "value": "Le "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Règlement général sur la protection des données"
+        }
+      ],
+      "type": 8,
+      "value": "gdpr"
+    },
+    {
+      "type": 0,
+      "value": " (RGPD) et le "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "California Consumer Privacy Act"
+        }
+      ],
+      "type": 8,
+      "value": "ccpa"
+    },
+    {
+      "type": 0,
+      "value": " (CCPA) exigent que les organisations effacent ou fournissent une copie de vos données personnelles sur demande. Les organisations disposent d'un court délai pour s'y conformer, faute de quoi elles s'exposent à de lourdes amendes."
+    }
+  ],
+  "howItWorks.yourDataTitle": [
+    {
+      "type": 0,
+      "value": "Ce sont vos données, possédez-les !"
+    }
+  ],
+  "index.description": [
+    {
+      "type": 0,
+      "value": "Supprimez votre compte ou accédez aux données personnelles que les organisations possèdent sur vous en utilisant ce service gratuit."
+    }
+  ],
+  "nav.about": [
+    {
+      "type": 0,
+      "value": "Sur"
+    }
+  ],
+  "nav.contact": [
+    {
+      "type": 0,
+      "value": "Nous contacter"
+    }
+  ],
+  "nav.contribute": [
+    {
+      "type": 0,
+      "value": "Contribuer"
+    }
+  ],
+  "nav.data-brokers": [
+    {
+      "type": 0,
+      "value": "Courtiers en données"
+    }
+  ],
+  "nav.donation": [
+    {
+      "type": 0,
+      "value": "Faire un don"
+    }
+  ],
+  "nav.extension": [
+    {
+      "type": 0,
+      "value": "Extension de navigateur"
+    }
+  ],
+  "nav.faq": [
+    {
+      "type": 0,
+      "value": "FAQ"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Aide à traduire"
+    }
+  ],
+  "nav.howItWorks": [
+    {
+      "type": 0,
+      "value": "Comment ça fonctionne"
+    }
+  ],
+  "nav.privacyPoilcy": [
+    {
+      "type": 0,
+      "value": "Politique de confidentialité"
+    }
+  ],
+  "nav.search": [
+    {
+      "type": 0,
+      "value": "Rechercher des organisations"
+    }
+  ],
+  "nav.twitterHastag": [
+    {
+      "type": 0,
+      "value": "#possédervosdonnées"
+    }
+  ],
+  "org.DescriptionNewOrg": [
+    {
+      "type": 0,
+      "value": "Envoyez rapidement et facilement des demandes de suppression et d'accès aux données CCPA et GDPR à n'importe quelle organisation en utilisant ce service gratuit."
+    }
+  ],
+  "org.descriptionExistingOrg": [
+    {
+      "type": 0,
+      "value": "Demandez la suppression de votre compte ou une copie de vos données personnelles à "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " rapidement et facilement en utilisant ce service gratuit."
+    }
+  ],
+  "org.titleExistingOrg": [
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " - Supprimer votre compte ou obtenir une copie de vos données"
+    }
+  ],
+  "org.titleNewOrg": [
+    {
+      "type": 0,
+      "value": "Envoyer des demandes de suppression et d'accès aux données GDPR et CCPA"
+    }
+  ],
+  "orgHero.newOrgSubTitle": [
+    {
+      "type": 0,
+      "value": "Envoyez à n'importe quelle organisation une demande "
+    },
+    {
+      "type": 1,
+      "value": "ccpa"
+    },
+    {
+      "type": 0,
+      "value": " ou "
+    },
+    {
+      "type": 1,
+      "value": "gdpr"
+    }
+  ],
+  "orgHero.newOrgTitle": [
+    {
+      "type": 0,
+      "value": "Supprimer ou obtenir une copie de vos données personnelles"
+    }
+  ],
+  "orgHero.notAffiliatedDisclamer": [
+    {
+      "type": 0,
+      "value": "Ce service n'est "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "pas affilié à"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " (en savoir plus "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "sur nous"
+        }
+      ],
+      "type": 8,
+      "value": "about"
+    },
+    {
+      "type": 0,
+      "value": ")."
+    }
+  ],
+  "orgHero.subTitle": [
+    {
+      "type": 0,
+      "value": "Utilisez ce service gratuit pour envoyer des demandes de données "
+    },
+    {
+      "type": 1,
+      "value": "ccpa"
+    },
+    {
+      "type": 0,
+      "value": " et "
+    },
+    {
+      "type": 1,
+      "value": "gdpr"
+    }
+  ],
+  "orgHero.title": [
+    {
+      "type": 0,
+      "value": "Demander la suppression du compte ou une copie de vos données personnelles."
+    }
+  ],
+  "personalInfoForm.IdentifyingInfoHelper": [
+    {
+      "type": 0,
+      "value": "Fournissez éventuellement toute information supplémentaire qui aidera l'organisation à localiser vos données dans ses systèmes d'information, telles que le nom d'utilisateur, l'identifiant client ou le numéro de compte. "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Veuillez ne pas fournir votre mot de passe ou toute information personnelle que l'organisation ne possède pas déjà."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.accessRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Envoyez-moi une copie de mes données"
+    }
+  ],
+  "personalInfoForm.ccpaOption": [
+    {
+      "type": 0,
+      "value": "CCPA (Californie)"
+    }
+  ],
+  "personalInfoForm.ccpaOrGdpr": [
+    {
+      "type": 0,
+      "value": "Régulation"
+    }
+  ],
+  "personalInfoForm.ccpaOrGdprHelper": [
+    {
+      "type": 0,
+      "value": "Choisissez une réglementation en fonction de votre lieu de résidence, sauf si vous avez une raison particulière de choisir différemment."
+    }
+  ],
+  "personalInfoForm.companyDomainHelper": [
+    {
+      "type": 0,
+      "value": "Veuillez saisir le nom de domaine de l'organisation (exemple : google.co.uk ou facebook.com)."
+    }
+  ],
+  "personalInfoForm.companyDomainLabel": [
+    {
+      "type": 0,
+      "value": "Domaine de l'organisation"
+    }
+  ],
+  "personalInfoForm.companyEmailLabel": [
+    {
+      "type": 0,
+      "value": "Adresse e-mail de l'organisation"
+    }
+  ],
+  "personalInfoForm.companyNameHelper": [
+    {
+      "type": 0,
+      "value": "Veuillez saisir le nom de l'organisme que vous souhaitez contacter."
+    }
+  ],
+  "personalInfoForm.companyNameLabel": [
+    {
+      "type": 0,
+      "value": "Nom de l'organisation"
+    }
+  ],
+  "personalInfoForm.compnayEmailHelper": [
+    {
+      "type": 0,
+      "value": "Veuillez saisir l'adresse e-mail de la personne ou du service responsable du traitement des demandes GDPR / CCPA / confidentialité / juridiques. Vous pouvez généralement trouver ces informations sur le site Web de l'organisation sous la politique de confidentialité, les termes et conditions ou la page Contactez-nous."
+    }
+  ],
+  "personalInfoForm.deletionRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Supprimer mes données"
+    }
+  ],
+  "personalInfoForm.gdprOption": [
+    {
+      "type": 0,
+      "value": "RGPD (Union européenne)"
+    }
+  ],
+  "personalInfoForm.headline": [
+    {
+      "type": 0,
+      "value": "Remplissez le formulaire suivant pour créer un e-mail de demande de données que vous pourrez ensuite consulter et envoyer. Pour plus d'informations, lisez notre "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Foire Aux Questions"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "personalInfoForm.identifyingInfoLabel": [
+    {
+      "type": 0,
+      "value": "Informations d'identification supplémentaires (facultatif)"
+    }
+  ],
+  "personalInfoForm.nameHelper": [
+    {
+      "type": 0,
+      "value": "Celui-ci sera utilisé par l'organisation pour vous identifier."
+    }
+  ],
+  "personalInfoForm.nameLabel": [
+    {
+      "type": 0,
+      "value": "Nom complet"
+    }
+  ],
+  "personalInfoForm.requestTypeLabelText": [
+    {
+      "type": 0,
+      "value": "Type de demande"
+    }
+  ],
+  "personalInfoForm.sendButton": [
+    {
+      "type": 0,
+      "value": "Passez en revue votre demande"
+    }
+  ],
+  "privacy.analyticsBodyOneA": [
+    {
+      "type": 0,
+      "value": "Matomo : un service d'analyse Web soucieux de la confidentialité par Innocraft. Vous pouvez visiter leur page "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    }
+  ],
+  "privacy.contact": [
+    {
+      "type": 0,
+      "value": "Contact"
+    }
+  ],
+  "privacy.contactBody": [
+    {
+      "type": 0,
+      "value": "Si vous avez des questions ou des préoccupations concernant cette politique de confidentialité, veuillez nous contacter au "
+    },
+    {
+      "type": 1,
+      "value": "mail"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.cookies": [
+    {
+      "type": 0,
+      "value": "Cookies et suivi"
+    }
+  ],
+  "privacy.cookiesBody": [
+    {
+      "type": 0,
+      "value": "Dans l'exploitation du Service, nous utilisons une technologie appelée \"cookies\". Un cookie est une information que l'ordinateur hébergeant notre Service transmet à votre navigateur lorsque vous accédez au Service. Bien que nous n'utilisions pas de cookies pour fournir le Service, nous utilisons des cookies pour nous aider à analyser l'utilisation du Service avec plus de précision et pour enregistrer les choix que vous faites sur le site Web afin qu'il vous soit plus facile d'utiliser le service la prochaine fois. Dans tous les cas où nous utilisons des cookies, nous ne collecterons pas de Données Personnelles sauf avec votre autorisation explicite. Sur la plupart des navigateurs Web, vous trouverez une section \"aide\" sur la barre d'outils. Veuillez vous référer à cette section pour savoir comment recevoir une notification lorsque vous recevez un nouveau cookie et comment désactiver les cookies."
+    }
+  ],
+  "privacy.description": [
+    {
+      "type": 0,
+      "value": "Vos données vous appartiennent, nous existons pour vous aider à contrôler qui y a accès. Ceci est notre page de politique de confidentialité."
+    }
+  ],
+  "privacy.lastUpdated": [
+    {
+      "type": 0,
+      "value": "Dernière mise à jour:"
+    }
+  ],
+  "privacy.nameAndAdditionalInfo": [
+    {
+      "type": 0,
+      "value": "Nom et informations supplémentaires (telles qu'un nom d'utilisateur, un numéro de client ou un numéro de compte)"
+    }
+  ],
+  "privacy.nameAndAdditionalInfoBody2": [
+    {
+      "type": 0,
+      "value": "Nous ne conservons aucune de ces informations sur nos serveurs et ne les partageons avec aucun tiers. Nous utilisons ces informations pour générer un e-mail de demande qui est rendu sur votre ordinateur personnel via votre client de messagerie par défaut. Il vous appartient ensuite d'envoyer cet e-mail."
+    }
+  ],
+  "privacy.personalData": [
+    {
+      "type": 0,
+      "value": "Données personnelles que vous fournissez"
+    }
+  ],
+  "privacy.personalDataBody1": [
+    {
+      "type": 0,
+      "value": "Lors de l'utilisation de ce Service, nous pouvons vous demander de nous fournir certaines informations personnelles qui peuvent être utilisées pour vous contacter ou vous identifier (\"Données personnelles\"). Les informations personnellement identifiables collectées sont :"
+    }
+  ],
+  "privacy.personalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Votre nom"
+    }
+  ],
+  "privacy.personalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Informations supplémentaires nécessaires pour vous identifier auprès des organisations dont vous choisissez de vous désinscrire (telles qu'un nom d'utilisateur, un numéro de client ou un numéro de compte)"
+    }
+  ],
+  "privacy.personalDataBodyOneC": [
+    {
+      "type": 0,
+      "value": "Cookies et données d'utilisation"
+    }
+  ],
+  "privacy.personalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "En nous fournissant volontairement des données personnelles, vous consentez à ce que nous les utilisions conformément à la présente politique de confidentialité. Si vous fournissez des données personnelles sur ce site Web, vous reconnaissez et acceptez que ces données personnelles puissent être transférées de votre emplacement actuel vers les bureaux et les serveurs de yourdigitalrights.org et les tiers autorisés mentionnés dans la présente politique."
+    }
+  ],
+  "privacy.privacyTitle": [
+    {
+      "type": 0,
+      "value": "Politique de confidentialité"
+    }
+  ],
+  "privacy.promise": [
+    {
+      "type": 0,
+      "value": "Notre promesse"
+    }
+  ],
+  "privacy.promiseBody": [
+    {
+      "type": 0,
+      "value": "Vous êtes propriétaire de vos données. Nous existons pour vous aider à contrôler qui y a accès. Nous voulons être transparents à cet égard et nous croyons fermement qu'il est important de garder vos informations personnelles personnelles, privées et sécurisées. Nous limiterons les données personnelles que nous collectons auprès de vous au minimum absolu requis pour fournir ce service (yourdigitalrights.org). Nous ne vendrons ni ne louerons vos informations personnelles à qui que ce soit et ne les conserverons pas sur nos serveurs. Nous ne partagerons vos informations personnelles que lorsque cela est nécessaire pour fournir le service ou comme autrement indiqué dans la présente politique."
+    }
+  ],
+  "privacy.title": [
+    {
+      "type": 0,
+      "value": "Politique de confidentialité"
+    }
+  ],
+  "privacy.usageDataBody": [
+    {
+      "type": 0,
+      "value": "Nous pouvons collecter des informations sur la manière dont le Service est accessible et utilisé (\"Données d'utilisation\"). Ces données d'utilisation peuvent inclure des informations telles que l'adresse de protocole Internet (par exemple, l'adresse IP), le type de navigateur, la version du navigateur, les pages de notre service que vous visitez, l'heure et la date de votre visite, le temps passé sur ces pages, les actions que vous effectuez, des identifiants d'appareil uniques et d'autres données de diagnostic. Nous utilisons le fournisseur de services tiers suivant pour surveiller et analyser l'utilisation de notre service :"
+    }
+  ],
+  "redirect.continueText": [
+    {
+      "type": 0,
+      "value": "Continuez"
+    }
+  ],
+  "redirect.headingText": [
+    {
+      "type": 0,
+      "value": "opt-out.eu est désormais yourdigitalrights.org"
+    }
+  ],
+  "redirect.text": [
+    {
+      "type": 0,
+      "value": "Bonne nouvelle, ce service s'agrandit ! Nous avons récemment lancé la prise en charge de la California Consumer Privacy Act (CCPA) et lancerons bientôt la prise en charge de types de demandes supplémentaires au-delà de l'effacement. En conséquence, nous estimons que le nom de domaine \"opt-out.eu\" est trop restrictif. Nous nous engageons plus que jamais à vous aider à exercer vos droits numériques, bienvenue dans notre nouvelle maison @ "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "yourdigitalrights.org"
+        }
+      ],
+      "type": 8,
+      "value": "style"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "search.companyPlaceholder": [
+    {
+      "type": 0,
+      "value": "Rechercher une organisation"
+    }
+  ],
+  "search.noResults": [
+    {
+      "type": 0,
+      "value": "Vous ne trouvez pas d'organisation ?"
+    }
+  ],
+  "search.noResultsMore": [
+    {
+      "type": 0,
+      "value": "Cliquez ici pour en ajouter un"
+    }
+  ],
+  "social.chromeCTA": [
+    {
+      "type": 0,
+      "value": "Téléchargez-le pour Chrome"
+    }
+  ],
+  "social.chromeTitle": [
+    {
+      "type": 0,
+      "value": "Extension Google Chrome"
+    }
+  ],
+  "social.emailBody": [
+    {
+      "type": 0,
+      "value": "Consultez YourDigitalRights.org, un service gratuit qui permet de découvrir facilement les données personnelles que des milliers d'organisations possèdent sur vous et de les faire supprimer."
+    }
+  ],
+  "social.emailSubject": [
+    {
+      "type": 0,
+      "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Vos droits numériques"
+    }
+  ],
+  "social.extensionHeadline": [
+    {
+      "type": 0,
+      "value": "Désactiver directement depuis votre navigateur"
+    }
+  ],
+  "social.extensionText": [
+    {
+      "type": 0,
+      "value": "Vous souhaitez un meilleur contrôle sur qui a accès à vos données personnelles ? Notre extension de navigateur vous permet de désactiver les sites Web que vous visitez en un clic."
+    }
+  ],
+  "social.facebookQuote": [
+    {
+      "type": 0,
+      "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
+    }
+  ],
+  "social.firefoxCTA": [
+    {
+      "type": 0,
+      "value": "Téléchargez-le pour Firefox"
+    }
+  ],
+  "social.frefoxTitle": [
+    {
+      "type": 0,
+      "value": "Extension Firefox"
+    }
+  ],
+  "social.shareHeading": [
+    {
+      "type": 0,
+      "value": "Si vous trouvez ce service utile, merci de passer le mot"
+    }
+  ],
+  "social.twitterTitle": [
+    {
+      "type": 0,
+      "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
+    }
+  ],
+  "thankYou.Bitcoin": [
+    {
+      "type": 0,
+      "value": "Faire un don de Bitcoin"
+    }
+  ],
+  "thankYou.Liberapay": [
+    {
+      "type": 0,
+      "value": "Faire un don via Liberapay"
+    }
+  ],
+  "thankYou.extensionText": [
+    {
+      "type": 0,
+      "value": "Gagnez du temps en installant notre extension de navigateur"
+    }
+  ],
+  "thankyou.copyPart1": [
+    {
+      "type": 0,
+      "value": "l'e-mail de demande devrait s'être ouvert dans votre application de messagerie, tout ce que vous avez à faire est de le vérifier et de cliquer sur Envoyer."
+    }
+  ],
+  "thankyou.copyPart2CCPA": [
+    {
+      "type": 0,
+      "value": "L'organisation dispose de "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "45 jours"
+        }
+      ],
+      "type": 8,
+      "value": "em"
+    },
+    {
+      "type": 0,
+      "value": " pour se conformer et peut vous demander des informations supplémentaires pour aider à vous identifier dans ses systèmes."
+    }
+  ],
+  "thankyou.copyPart2GDPR": [
+    {
+      "type": 0,
+      "value": "Les organisations ont "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "un mois"
+        }
+      ],
+      "type": 8,
+      "value": "em"
+    },
+    {
+      "type": 0,
+      "value": " pour se conformer et peuvent vous demander des informations supplémentaires pour vous identifier dans leurs systèmes."
+    }
+  ],
+  "thankyou.copyPart3": [
+    {
+      "type": 0,
+      "value": "Veuillez consulter notre liste de "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "questions fréquemment posées"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pour plus d'informations."
+    }
+  ],
+  "thankyou.findCompany": [
+    {
+      "type": 0,
+      "value": "Trouver une autre organisation"
+    }
+  ],
+  "thankyou.requestTypeAccess": [
+    {
+      "type": 0,
+      "value": "Un accès"
+    }
+  ],
+  "thankyou.requestTypeDelete": [
+    {
+      "type": 0,
+      "value": "Une suppression"
+    }
+  ],
+  "thankyou.title": [
+    {
+      "type": 0,
+      "value": "Je vous remercie"
+    }
+  ],
+  "usageData": [
+    {
+      "type": 0,
+      "value": "Des données d'utilisation"
+    }
+  ]
+}

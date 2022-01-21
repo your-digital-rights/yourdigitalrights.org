@@ -71,11 +71,8 @@
   "about.title": {
     "message": "Sobre nosotros"
   },
-  "aboutOrg.commentBoxDescription": {
-    "message": "Lee lo que otros tienen que decir sobre la privacidad en {org}, y comparte tus propios comentarios:"
-  },
-  "aboutOrg.commentBoxDisclamer": {
-    "message": "Recuerda: este es un sitio proyecto independiente que no está afiliado a {org}."
+  "aboutOrg.details": {
+    "message": "Información adicional:"
   },
   "aboutOrg.numRequests": {
     "message": "Número de solicitudes enviadas:"
@@ -88,6 +85,18 @@
   },
   "contribute.creditTitle": {
     "message": "Creditos"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Haz una cuenta en Crowdin siguiendo este <a>enlace</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Abre nuestro proyecto de traducción <a></a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Sube un idioma que te gustaría traducir, luego haz clic en el botón \"Traducir\" de la derecha"
+  },
+  "contribute.crowdinStep4": {
+    "message": "Ahora ves el panel de crowdsourcing donde puedes empezar a traducir cadenas que están marcadas con un punto rojo, o busca una cadena que te gustaría corregir"
   },
   "contribute.description": {
     "message": "Ayúdenos a mejorar YourDigitalRights.org."
@@ -116,8 +125,11 @@
   "contribute.title": {
     "message": "Colabora"
   },
-  "contribute.translate": {
-    "message": "Nos gustaría que este servicio estuviera disponible en tantos idiomas como fuera posible. Si el suyo no se encuentra entre los actualmente disponibles, o si necesita actualizaciones o mejoras, cree una cuenta y utilice nuestro <a>sistema de traducción</a> para realizar los cambios. Aquí puede encontrar un <vid>video tutorial</vid> para ayudarle a empezar."
+  "contribute.translate1": {
+    "message": "Nos gustaría que este servicio estuviera disponible en muchos idiomas. Si el suyo no estuviera entre los que actualmente están disponibles, o necesitara actualizaciones o mejoras, nos encantaría su ayuda!"
+  },
+  "contribute.translate2": {
+    "message": "Utilizamos la plataforma en línea <a>Crowdin</a> para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Aquí tienes un <vid>video tutorial</vid> del editor de traducción para ayudarte a empezar. Sigue estos pasos para empezar:"
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"
@@ -493,6 +505,9 @@
   },
   "nav.faq": {
     "message": "Preguntas frecuentes"
+  },
+  "nav.helpTranslate": {
+    "message": "Ayuda a traducir"
   },
   "nav.howItWorks": {
     "message": "Cómo funciona"

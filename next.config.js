@@ -13,6 +13,11 @@ module.exports = {
         destination: '/d/:company',
         permanent: true,
       },
+      {
+        source: '/data-brokers',
+        destination: 'https://databrokerswatch.org/top-ten',
+        permanent: false,
+      },      
     ]
   },
 	async rewrites() {
@@ -30,7 +35,7 @@ module.exports = {
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["en", "es", "it", "pt", "az"],
+    locales: ["de", "en", "es", "fr", "it", "pt", "az"],
     defaultLocale: "en",   
   },
 };

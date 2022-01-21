@@ -75,8 +75,15 @@ class Form extends Component {
           return company.searchTerms
             .toLowerCase()
             .match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
-        })
-        .slice(0, 5);
+        }).concat(
+          companies['Organizations'].filter((company) => {
+            return company.url
+              .toLowerCase()
+              .match("^" + search.toLowerCase());
+          }
+        )).filter(
+          (v, i, a) => a.indexOf(v) === i
+        ).slice(0, 5);
     } else {
       searchResults = [];
     }
