@@ -81,7 +81,7 @@
     "message": "Política de Privacidade:"
   },
   "contribute.creadit": {
-    "message": "Embora não possamos pagar pelo seu trabalho, estamos mais do que felizes em dar-lhe crédito por suas contribuições, seja neste site, no github ou de outras maneiras."
+    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
   },
   "contribute.creditTitle": {
     "message": "Crédito"
@@ -102,7 +102,7 @@
     "message": "Ajude-nos a melhorar YourDigitalRights.org."
   },
   "contribute.dev": {
-    "message": "Nossos repositórios estão hospedados no GitHub, sendo o principal para este <a>site</a>. A melhor forma de começar é entrar em contato por meio de <email>e-mails</email>. Em seguida, adicionaremos você ao nosso canal do slack e compartilharemos os esforços de desenvolvimento contínuos. Como alternativa, sinta-se à vontade para clonar o repositório e enviar solicitações de mesclagem."
+    "message": "Nossos repositórios estão hospedados no GitHub, sendo o principal para este site <a></a>. A melhor forma de começar é entrar em contato por meio de <email>e-mails</email>. Em seguida, adicionaremos você ao nosso canal do slack e compartilharemos os esforços de desenvolvimento contínuos. Como alternativa, sinta-se à vontade para clonar o repositório e enviar solicitações de mesclagem."
   },
   "contribute.devTitle": {
     "message": "Ajuda com Desenvolvimento"
@@ -152,6 +152,24 @@
   "data-brokers.title": {
     "message": "Desativar os principais corretores de dados"
   },
+  "deletePII.deleteAllPII": {
+    "message": "All requests"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "This request"
+  },
+  "deletePII.heading": {
+    "message": "Excluir meus dados"
+  },
+  "deletePII.intro": {
+    "message": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: {ref}), or with all of your requests?"
+  },
+  "deletemydata.description": {
+    "message": "Excluir meus dados"
+  },
+  "deletemydata.title": {
+    "message": "Excluir meus dados"
+  },
   "donations.Bitcoin": {
     "message": "Doe Bitcoin"
   },
@@ -159,7 +177,7 @@
     "message": "Doe via Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org foi criado porque acreditamos que a privacidade é importante e que exercer seu direito à privacidade deve ser fácil. É por isso que o tornamos gratuito. As doações permitem-nos dedicar mais tempo a melhorar este serviço."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
   },
   "donations.headingDonate": {
     "message": "Precisamos do seu suporte"
@@ -210,7 +228,7 @@
     "message": "Para corrigir esse problema, você precisará configurar um cliente de e-mail padrão em seu sistema. Aqui estão as instruções sobre como fazer isso em <a1>Mac</a1> e <a2>Windows</a2>."
   },
   "faq.body1A": {
-    "message": "Atualmente, existem dois regulamentos principais que protegem a privacidade individual online. Os Regulamentos Gerais de Proteção de Dados, ou GDPR, protegem os residentes da União Européia, e a Lei de Privacidade do Consumidor da Califórnia, ou CCPA, protege os residentes da Califórnia."
+    "message": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
   },
   "faq.body2A": {
     "message": "O Regulamento Geral de Proteção de Dados, ou GDPR, é um regulamento da UE que protege o direito fundamental das pessoas à proteção de seus dados pessoais."
@@ -288,7 +306,7 @@
     "message": "Você se opôs ao uso de seus dados e seus interesses superam os da organização que os utiliza."
   },
   "faq.body7Av": {
-    "message": "A organização coletou ou usou seus dados de forma ilegal. Exemplo: não cumpriu as regras de proteção de dados."
+    "message": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
   },
   "faq.body7Avi": {
     "message": "A organização tem a obrigação legal de apagar seus dados."
@@ -417,7 +435,7 @@
     "message": "perguntas frequentes"
   },
   "footer.contact": {
-    "message": "Para mais informações <a>contacte - nos</a>. © Direitos autorais 2019"
+    "message": "For more information please <a>contact us</a>. © Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
     "message": "<span>Isenção de responsabilidade:</span> Este serviço é fornecido como está, sem garantia de qualquer tipo. O uso deste serviço é inteiramente por sua conta e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos resultantes do uso deste serviço. As informações fornecidas por este serviço, juntamente com o conteúdo do nosso site relacionado a questões jurídicas, são fornecidas para seu uso privado e não constituem aconselhamento jurídico. Se você precisar de aconselhamento jurídico para um problema específico, consulte um advogado licenciado."
@@ -446,23 +464,23 @@
   "hero.intro": {
     "message": "Muitas organizações coletam e vendem seus dados pessoais, muitas vezes sem o seu consentimento. Use este serviço gratuito para enviar a eles uma exclusão de dados ou solicitação de acesso. Comece pesquisando por uma organização abaixo. Não sabe por onde começar? Desative esses <a>principais Data Brokers</a>."
   },
-  "howItWorks.fillIn": {
-    "message": "Preencha seu nome e qualquer informação adicional que possa ajudar a organização a identificá-lo em seus sistemas de informação (não mantemos esta informação)."
+  "howItWorks.followUp": {
+    "message": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
-  "howItWorks.fillInTitle": {
-    "message": "Preencha"
+  "howItWorks.followUpTitle": {
+    "message": "Follow-up"
   },
   "howItWorks.imgAlt": {
     "message": "Um gráfico representando a interface do usuário"
   },
   "howItWorks.search": {
-    "message": "Pesquise uma organização usando a caixa de pesquisa acima. Se a organização que você está procurando não estiver na lista, você ainda poderá enviar uma solicitação fornecendo um e-mail de contato."
+    "message": "Search for an organization using the search box above."
   },
   "howItWorks.searchTitle": {
     "message": "Procurar"
   },
   "howItWorks.send": {
-    "message": "Clique no botão Enviar para gerar um e-mail de solicitação endereçado à pessoa relevante na organização que você selecionou. O e-mail será aberto em seu aplicativo de e-mail padrão, onde você poderá revisá-lo e enviá-lo."
+    "message": "Send the organization a request to delete or access your personal data."
   },
   "howItWorks.sendTitle": {
     "message": "Mandar"
@@ -477,7 +495,7 @@
     "message": "Por que confiar em nós?"
   },
   "howItWorks.yourData": {
-    "message": "O <gdpr>General Data Protection Regulations</gdpr> (GDPR) e o <ccpa>California Consumer Privacy Act</ccpa> (CCPA) exigem que as organizações apaguem ou forneçam uma cópia de seus dados pessoais mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário, podem enfrentar multas altas."
+    "message": "Privacy regulations such as the <gdpr>GDPR</gdpr> and the <ccpa>CCPA</ccpa> require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
   },
   "howItWorks.yourDataTitle": {
     "message": "São seus dados, possua-os!"
@@ -542,14 +560,32 @@
   "orgHero.notAffiliatedDisclamer": {
     "message": "Este serviço é <disclamer>não afiliado com</disclamer> (saiba mais <about>sobre nós</about>)."
   },
+  "orgHero.orgName": {
+    "message": "Organization: {org}."
+  },
   "orgHero.subTitle": {
     "message": "Use este serviço gratuito para enviar solicitações de dados {ccpa} e {gdpr}"
   },
   "orgHero.title": {
     "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais."
   },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Turn on Smart Follow-up Assistance"
+  },
   "personalInfoForm.IdentifyingInfoHelper": {
     "message": "Opcionalmente, forneça qualquer informação adicional que ajude a organização a localizar seus dados em seus sistemas de informação, como Nome de usuário, ID do cliente ou Número da conta. <strong>Por favor, não forneça sua senha ou qualquer informação pessoal que a organização ainda não tenha.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "No, I can manage on my own"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Yes, email me follow-up instructions"
   },
   "personalInfoForm.accessRequestLabelText": {
     "message": "Envie-me uma cópia dos meus dados"
@@ -604,6 +640,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "Revise sua solicitação"
+  },
+  "pressIntro.title": {
+    "message": "As featured on"
   },
   "privacy.analyticsBodyOneA": {
     "message": "Matomo: um serviço de análise da web voltado para a privacidade da Innocraft. Você pode visitar sua página { matomo }"
@@ -674,6 +713,198 @@
   "redirect.text": {
     "message": "Ótima notícia, este serviço está crescendo! Recentemente, lançamos suporte para a Lei de Privacidade do Consumidor da Califórnia (CCPA) e em breve lançaremos suporte para tipos de solicitação adicionais além do apagamento. Como resultado, sentimos que o nome de domínio 'opt-out.eu' é muito limitador. Estamos mais comprometidos do que nunca em ajudá-lo a exercer seus direitos digitais, bem-vindo à nossa nova casa @ <style>yourdigitalrights.org</style>!"
   },
+  "request.description": {
+    "message": "View details about a {regulationType} request submitted with this free service."
+  },
+  "request.details.date": {
+    "message": "Request email date:"
+  },
+  "request.details.escalationDate": {
+    "message": "Escalation email date:"
+  },
+  "request.details.header": {
+    "message": "Request details"
+  },
+  "request.details.hide.escalation": {
+    "message": "Hide escalation email"
+  },
+  "request.details.hide.reminder": {
+    "message": "Hide reminder email"
+  },
+  "request.details.hide.request": {
+    "message": "Hide request email"
+  },
+  "request.details.name": {
+    "message": "Requested by:"
+  },
+  "request.details.nowDetails": {
+    "message": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
+  },
+  "request.details.organization": {
+    "message": "Recipient:"
+  },
+  "request.details.regulation": {
+    "message": "Regulation:"
+  },
+  "request.details.reminderDate": {
+    "message": "Reminder email date:"
+  },
+  "request.details.sentTo": {
+    "message": "Recipient email address:"
+  },
+  "request.details.show.escalation": {
+    "message": "View escalation email"
+  },
+  "request.details.show.reminder": {
+    "message": "View reminder email"
+  },
+  "request.details.show.request": {
+    "message": "View request email"
+  },
+  "request.details.type": {
+    "message": "Request type:"
+  },
+  "request.hero.declined": {
+    "message": "Declined"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} declined your request."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} did not reply yet."
+  },
+  "request.hero.handledPartially": {
+    "message": "Handled partially"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} handled your request successfuly."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Handled successfully"
+  },
+  "request.hero.header": {
+    "message": "Your data {requestType} request to {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "No reply"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} handled your request partially."
+  },
+  "request.hero.requestNotSent": {
+    "message": "please send the request email, then refresh this page."
+  },
+  "request.hero.requestStatus": {
+    "message": "Request Status:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Recommendation: escalate your request to your { authority }."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
+  },
+  "request.next.esclateButton": {
+    "message": "Escalate to the { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Find out more about these exceptions"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
+  },
+  "request.next.reminderButton": {
+    "message": "Send the organization a reminder email"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Please select from the following options:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "If you wish to take further action then please select from the following options:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "If you do not wish to wait then please select from the following options:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Recommendation: send the organization a reminder email."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Recommendation: wait until { timeLimit } days have passed to give the company time to process your request."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Recommendation: wait until { timeLimit } days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+  },
+  "request.next.whatsNext": {
+    "message": "What's next"
+  },
+  "request.success": {
+    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Escalate your request"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Reminder sent"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Request not sent"
+  },
+  "request.timeline.requestSent": {
+    "message": "Request sent"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Your request timeline"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Escalation sent"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send a reminder"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.title": {
+    "message": "Details for your {regulationType} request"
+  },
+  "requestEscalation.complaint": {
+    "message": "Additional details"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Please explain why you are not satisfied with how the organization has dealt with your request"
+  },
+  "requestEscalation.geography": {
+    "message": "Location"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Please select your place of residence"
+  },
+  "requestEscalation.submit": {
+    "message": "Review & Send"
+  },
   "search.companyPlaceholder": {
     "message": "Procure uma organização"
   },
@@ -716,14 +947,11 @@
   "social.twitterTitle": {
     "message": "Descubra quais dados pessoais milhares de organizações têm sobre você e faça com que eles os excluam. Confira yourdigitalrights.org."
   },
-  "thankYou.Bitcoin": {
+  "thankyou.Bitcoin": {
     "message": "Doe Bitcoin"
   },
-  "thankYou.Liberapay": {
+  "thankyou.Liberapay": {
     "message": "Doe via Liberapay"
-  },
-  "thankYou.extensionText": {
-    "message": "Economize tempo instalando nossa extensão de navegador"
   },
   "thankyou.copyPart1": {
     "message": "O email de solicitação deve ter sido aberto em seu aplicativo de email, tudo o que você precisa fazer é revisá-lo e clicar em Enviar."
@@ -736,6 +964,9 @@
   },
   "thankyou.copyPart3": {
     "message": "Por favor, veja nossa lista de <a>Perguntas Frequentes</a> para informações adicionais."
+  },
+  "thankyou.extensionText": {
+    "message": "Save time by installing our browser extension"
   },
   "thankyou.findCompany": {
     "message": "Encontrar outra organização"
@@ -751,161 +982,5 @@
   },
   "usageData": {
     "message": "Dados de uso"
-  },
-  "request.title": {
-    "message": "Details for your {regulationType} request"
-  },
-  "request.description": {
-    "message": "View details about a {regulationType} request submitted with this free service."
-  },
-  "request.details.header": {
-    "message": "Request details"
-  },
-  "request.details.name": {
-    "message": "Full name:"
-  },
-  "request.details.organization": {
-    "message": "Organization:"
-  },
-  "request.details.type": {
-    "message": "Request type:"
-  },
-  "request.details.regulation": {
-    "message": "Regulation:"
-  },
-  "request.details.date": {
-    "message": "Request date:"
-  },
-  "request.details.sentTo": {
-    "message": "Sent to email address:"
-  },
-  "request.details.reminderDate": {
-    "message": "Reminder email date:"
-  },
-  "request.details.escalationDate": {
-    "message": "Escalation email date:"
-  },
-  "request.details.hide": {
-    "message": "To hide the email you sent, please click here"
-  },
-  "request.details.show": {
-    "message": "To see the email you sent, please click here"
-  },
-  "request.hero.header": {
-    "message": "Your data {requestType} to {companyName}"
-  },
-  "request.hero.day": {
-    "message": "day"
-  },
-  "request.hero.days": {
-    "message": "days"
-  },
-  "request.hero.requestDateStatement": {
-    "message": "The request was sent {daysSince} {day} ago."
-  },
-  "request.hero.reminderDateStatement": {
-    "message": "A reminder was sent {daysSince} {day} ago."
-  },
-  "request.hero.escalationDateStatement": {
-    "message": "An escalation was sent {daysSince} {day} ago."
-  },
-  "request.hero.requestStatus": {
-    "message": "Request Status:"
-  },
-  "request.hero.handledRequest": {
-    "message": "handled your request"
-  },
-  "request.hero.partiallyHandled": {
-    "message": "partially handled your request"
-  },
-  "request.hero.declinedRequest": {
-    "message": "declined your request"
-  },
-  "request.hero.didNotReply": {
-    "message": "did not reply"
-  },
-  "request.hero.handledSuccessfully": {
-    "message": "Handled successfully"
-  },
-  "request.hero.handledPartially": {
-    "message": "Handled partially"
-  },
-  "request.hero.declined": {
-    "message": "Declined"
-  },
-  "request.hero.noReply": {
-    "message": "No reply"
-  },
-  "request.timeline.requestTimeline": {
-    "message": "Your request timeline"
-  },
-  "request.timeline.requestSent": {
-    "message": "Request Sent"
-  },
-  "request.timeline.reminderSent": {
-    "message": "Reminder Sent"
-  },
-  "request.timeline.sendReminder": {
-    "message": "Send a reminder"
-  },
-  "request.timeline.esclationSent": {
-    "message": "Escalation Sent"
-  },
-  "request.timeline.esclateTo": {
-    "message": "Escalate to { authority }"
-  },
-  "request.next.reminderButton": {
-    "message": "Send a reminder email"
-  },
-  "request.next.esclateButton": {
-    "message": "Escalate to the { authority }"
-  },
-  "request.next.whatsNext": {
-    "message": "What's next"
-  },
-  "request.next.reminder": {
-    "message": "Reminder"
-  },
-  "request.next.aCopyOfTheRequest": {
-    "message": "A copy of the original request follows."
-  },
-  "request.next.requestingResponseToBelowRequest": {
-    "message": "I am requesting a response to my below request, which was sent {daysSince} {day} ago."
-  },
-  "request.next.organizationsHaveXDays": {
-    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
-  },
-  "request.next.waitUntilXDays": {
-    "message": "We recommend you wait until { timeLimit } days have passed."
-  },
-  "request.next.ratherNotWait": {
-    "message": "If you would rather not wait then you have the following options:"
-  },
-  "request.next.sendAnEmail": {
-    "message": "We recommend that you send them a reminder email."
-  },
-  "request.next.selectTheOptions": {
-    "message": "Please select from the following options:"
-  },
-  "request.next.circumstancesToDecline": {
-    "message": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
-  },
-  "request.next.declineGDPR": {
-    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
-  },
-  "request.next.declineCCPA": {
-    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
-  },
-  "request.next.findOutMore": {
-    "message": "Find out more about these exceptions"
-  },
-  "request.next.wrongfullyDeclined": {
-    "message": "If you feel that the organization is wrong to have declined your request then you have the following options:"
-  },
-  "request.next.escalateToAuthority": {
-    "message": "We recommend that you escalate your request to the { authority }."
-  },
-  "request.next.nothingAtAll": {
-    "message": "Nothing at all. { companyName } successfully responded to your request."
   }
 }
