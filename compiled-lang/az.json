@@ -255,32 +255,10 @@
       "value": "crwdns2285:0crwdne2285:0"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "crwdns2287:0"
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2287:0"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "crwdns2289:0"
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2289:0"
+      "value": "crwdns2753:0crwdne2753:0"
     }
   ],
   "aboutOrg.numRequests": [
@@ -305,6 +283,30 @@
     {
       "type": 0,
       "value": "crwdns2699:0crwdne2699:0"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "crwdns2755:0crwdne2755:0"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "crwdns2757:0crwdne2757:0"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "crwdns2759:0crwdne2759:0"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "crwdns2761:0crwdne2761:0"
     }
   ],
   "contribute.description": [
@@ -361,10 +363,16 @@
       "value": "crwdns2717:0crwdne2717:0"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "crwdns2751:0crwdne2751:0"
+      "value": "crwdns2763:0crwdne2763:0"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "crwdns2765:0crwdne2765:0"
     }
   ],
   "contribute.translateTitle": [
@@ -1117,6 +1125,12 @@
     {
       "type": 0,
       "value": "crwdns2537:0crwdne2537:0"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "crwdns2767:0crwdne2767:0"
     }
   ],
   "nav.howItWorks": [

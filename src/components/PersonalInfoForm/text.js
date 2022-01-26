@@ -74,6 +74,44 @@ export const IdentifyingInfoHelperText = (
   />
 );
 
+export const FollowUpLabelText = (
+  <FormattedMessage
+    id="personalInfoForm.FollowUpLabel"
+    defaultMessage="Turn on Smart Follow-up Assistance"
+  />
+);
+
+export const YesFollowUpLabelText = (
+  <FormattedMessage
+    id="personalInfoForm.YesFollowUpLabel"
+    defaultMessage="Yes, email me follow-up instructions"
+  />
+);
+
+export const NoFollowUpLabelText = (
+  <FormattedMessage
+    id="personalInfoForm.NoFollowUpLabel"
+    defaultMessage="No, I can manage on my own"
+  />
+);
+
+export const FollowUpDetailsText = (
+  <FormattedMessage
+    id="personalInfoForm.FollowUpDetails"
+    defaultMessage="To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+  />
+);
+
+export const FollowUpDetailsTextWarning = (
+  <FormattedMessage
+    id="personalInfoForm.FollowUpDetailsWarning"
+    defaultMessage="<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
+    values = {{
+      strong: chunks => (<strong>{chunks}</strong>),
+    }}
+  />
+);
+
 export const SubmitButtonText = (
   <FormattedMessage id="personalInfoForm.sendButton" defaultMessage="Review your request" />
 );

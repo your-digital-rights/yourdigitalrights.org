@@ -229,32 +229,10 @@
       "value": "À propos de nous"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Lisez ce que les autres ont à dire sur la confidentialité chez "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "et partagez vos propres commentaires :"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "N'oubliez pas : il s'agit d'un site Web indépendant qui n'est pas affilié à "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Information additionnelle:"
     }
   ],
   "aboutOrg.numRequests": [
@@ -279,6 +257,50 @@
     {
       "type": 0,
       "value": "Crédit"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Créez un compte chez Crowdin en suivant ce "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "lien"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Ouvrir notre traduction "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "projet"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Passez la souris sur une langue que vous souhaitez traduire, puis cliquez sur le bouton \"Traduire\" à droite"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Vous voyez maintenant le tableau de bord de crowdsourcing où vous pouvez commencer à traduire les chaînes marquées d'un point rouge ou rechercher une chaîne que vous souhaitez corriger"
     }
   ],
   "contribute.description": [
@@ -370,13 +392,17 @@
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "e-mail"
+        }
       ],
       "type": 8,
       "value": "email"
     },
     {
       "type": 0,
-      "value": " e-mail 1 si vous souhaitez vous impliquer."
+      "value": "  si vous souhaitez vous impliquer."
     }
   ],
   "contribute.researchTitle": [
@@ -397,16 +423,22 @@
       "value": "Contribuer"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "Nous aimerions que ce site Web soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, veuillez créer un compte et utiliser notre "
+      "value": "Nous aimerions que ce service soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, nous serions ravis de votre aide !"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Nous utilisons la plateforme en ligne "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "système"
+          "value": "Crowdin"
         }
       ],
       "type": 8,
@@ -414,17 +446,21 @@
     },
     {
       "type": 0,
-      "value": " pour apporter vos modifications. Voici un tutoriel "
+      "value": " pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "tutoriel"
+        }
       ],
       "type": 8,
       "value": "vid"
     },
     {
       "type": 0,
-      "value": " de l'éditeur de traduction pour vous aider à démarrer."
+      "value": " de l'éditeur de traduction pour vous aider à démarrer. Suivez ces étapes pour commencer :"
     }
   ],
   "contribute.translateTitle": [
@@ -1401,6 +1437,12 @@
     {
       "type": 0,
       "value": "FAQ"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Aide à traduire"
     }
   ],
   "nav.howItWorks": [

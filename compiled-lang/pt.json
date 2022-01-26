@@ -229,32 +229,10 @@
       "value": "Sobre nós"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Leia o que os outros têm a dizer sobre privacidade em "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "e compartilhe seus próprios comentários:"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "Lembre-se: este é um site independente que não é afiliado a "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Informação adicional:"
     }
   ],
   "aboutOrg.numRequests": [
@@ -279,6 +257,50 @@
     {
       "type": 0,
       "value": "Crédito"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Faça uma conta no Crowdin seguindo este "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "link"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Abra nossa tradução "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "projeto"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Passe o mouse sobre um idioma que você gostaria de traduzir e clique no botão \"Traduzir\" à direita"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Agora você vê o painel de crowdsourcing, onde pode começar a traduzir as strings marcadas com um ponto vermelho ou pesquisar uma string que gostaria de corrigir"
     }
   ],
   "contribute.description": [
@@ -401,16 +423,22 @@
       "value": "Contribuir"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "Gostaríamos que este site estivesse disponível em vários idiomas. Caso o seu não esteja entre os disponíveis atualmente, ou precise de atualizações ou melhorias, crie uma conta e use nosso "
+      "value": "Gostaríamos que este serviço estivesse disponível em vários idiomas. Caso o seu não esteja entre os disponíveis atualmente, ou precise de atualizações ou melhorias, adoraríamos sua ajuda!"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Usamos a plataforma online "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "sistema de tradução"
+          "value": "Crowdin"
         }
       ],
       "type": 8,
@@ -418,17 +446,21 @@
     },
     {
       "type": 0,
-      "value": " para fazer suas alterações. Aqui está um tutorial de "
+      "value": " para criar facilmente as strings de tradução. Isso torna o processo muito mais fácil e não exige que você saiba nada sobre programação. Aqui está um "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "tutorial"
+        }
       ],
       "type": 8,
       "value": "vid"
     },
     {
       "type": 0,
-      "value": " do editor de tradução para ajudá-lo a começar."
+      "value": " do editor de tradução para ajudá-lo a começar. Siga estas etapas para começar:"
     }
   ],
   "contribute.translateTitle": [
@@ -1185,6 +1217,12 @@
       "value": "a"
     }
   ],
+  "footer.poweredBy": [
+    {
+      "type": 0,
+      "value": "Powered by Vercel"
+    }
+  ],
   "footer.privacyPolicy": [
     {
       "children": [
@@ -1409,6 +1447,12 @@
     {
       "type": 0,
       "value": "Perguntas frequentes"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Ajude a traduzir"
     }
   ],
   "nav.howItWorks": [
@@ -1853,6 +1897,612 @@
     {
       "type": 0,
       "value": "!"
+    }
+  ],
+  "request.description": [
+    {
+      "type": 0,
+      "value": "View details about a "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " request submitted with this free service."
+    }
+  ],
+  "request.details.date": [
+    {
+      "type": 0,
+      "value": "Request date:"
+    }
+  ],
+  "request.details.escalationDate": [
+    {
+      "type": 0,
+      "value": "Escalation email date:"
+    }
+  ],
+  "request.details.header": [
+    {
+      "type": 0,
+      "value": "Request details"
+    }
+  ],
+  "request.details.hide": [
+    {
+      "type": 0,
+      "value": "To hide the email you sent, please click here"
+    }
+  ],
+  "request.details.name": [
+    {
+      "type": 0,
+      "value": "Full name:"
+    }
+  ],
+  "request.details.organization": [
+    {
+      "type": 0,
+      "value": "Organization:"
+    }
+  ],
+  "request.details.regulation": [
+    {
+      "type": 0,
+      "value": "Regulation:"
+    }
+  ],
+  "request.details.reminderDate": [
+    {
+      "type": 0,
+      "value": "Reminder email date:"
+    }
+  ],
+  "request.details.sentTo": [
+    {
+      "type": 0,
+      "value": "Sent to email address:"
+    }
+  ],
+  "request.details.show": [
+    {
+      "type": 0,
+      "value": "To see the email you sent, please click here"
+    }
+  ],
+  "request.details.type": [
+    {
+      "type": 0,
+      "value": "Request type:"
+    }
+  ],
+  "request.hero.day": [
+    {
+      "type": 0,
+      "value": "day"
+    }
+  ],
+  "request.hero.days": [
+    {
+      "type": 0,
+      "value": "days"
+    }
+  ],
+  "request.hero.declined": [
+    {
+      "type": 0,
+      "value": "Declined"
+    }
+  ],
+  "request.hero.declinedRequest": [
+    {
+      "type": 0,
+      "value": "declined your request"
+    }
+  ],
+  "request.hero.didNotReply": [
+    {
+      "type": 0,
+      "value": "did not reply"
+    }
+  ],
+  "request.hero.escalationDateStatement": [
+    {
+      "type": 0,
+      "value": "An escalation was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.handledPartially": [
+    {
+      "type": 0,
+      "value": "Handled partially"
+    }
+  ],
+  "request.hero.handledRequest": [
+    {
+      "type": 0,
+      "value": "handled your request"
+    }
+  ],
+  "request.hero.handledSuccessfully": [
+    {
+      "type": 0,
+      "value": "Handled successfully"
+    }
+  ],
+  "request.hero.header": [
+    {
+      "type": 0,
+      "value": "Your data "
+    },
+    {
+      "type": 1,
+      "value": "requestType"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    }
+  ],
+  "request.hero.noReply": [
+    {
+      "type": 0,
+      "value": "No reply"
+    }
+  ],
+  "request.hero.partiallyHandled": [
+    {
+      "type": 0,
+      "value": "partially handled your request"
+    }
+  ],
+  "request.hero.reminderDateStatement": [
+    {
+      "type": 0,
+      "value": "A reminder was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.requestDateStatement": [
+    {
+      "type": 0,
+      "value": "The request was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.hero.requestStatus": [
+    {
+      "type": 0,
+      "value": "Request Status:"
+    }
+  ],
+  "request.next.aCopyOfTheRequest": [
+    {
+      "type": 0,
+      "value": "A copy of the original request follows."
+    }
+  ],
+  "request.next.circumstancesToDecline": [
+    {
+      "type": 0,
+      "value": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
+    }
+  ],
+  "request.next.declineCCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Free speech or another right provided by law."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "For complying with a legal obligation."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "To perform a contract between the business and the consumer."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Debug to identify and repair errors that impair existing intended functionality."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineGDPR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When the organization is legally obliged to keep hold of your data."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping hold of your data is necessary for reasons of public health."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When keeping your data is necessary for establishing, exercising or defending legal claims."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.escalateToAuthority": [
+    {
+      "type": 0,
+      "value": "We recommend that you escalate your request to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.next.esclateButton": [
+    {
+      "type": 0,
+      "value": "Escalate to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.next.findOutMore": [
+    {
+      "type": 0,
+      "value": "Find out more about these exceptions"
+    }
+  ],
+  "request.next.nothingAtAll": [
+    {
+      "type": 0,
+      "value": "Nothing at all. "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " successfully responded to your request."
+    }
+  ],
+  "request.next.organizationsHaveXDays": [
+    {
+      "type": 0,
+      "value": "According to the "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " organizations have "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days to reply to your request."
+    }
+  ],
+  "request.next.ratherNotWait": [
+    {
+      "type": 0,
+      "value": "If you would rather not wait then you have the following options:"
+    }
+  ],
+  "request.next.reminder": [
+    {
+      "type": 0,
+      "value": "Reminder"
+    }
+  ],
+  "request.next.reminderButton": [
+    {
+      "type": 0,
+      "value": "Send a reminder email"
+    }
+  ],
+  "request.next.requestingResponseToBelowRequest": [
+    {
+      "type": 0,
+      "value": "I am requesting a response to my below request, which was sent "
+    },
+    {
+      "type": 1,
+      "value": "daysSince"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "day"
+    },
+    {
+      "type": 0,
+      "value": " ago."
+    }
+  ],
+  "request.next.selectTheOptions": [
+    {
+      "type": 0,
+      "value": "Please select from the following options:"
+    }
+  ],
+  "request.next.sendAnEmail": [
+    {
+      "type": 0,
+      "value": "We recommend that you send them a reminder email."
+    }
+  ],
+  "request.next.waitUntilXDays": [
+    {
+      "type": 0,
+      "value": "We recommend you wait until "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days have passed."
+    }
+  ],
+  "request.next.whatsNext": [
+    {
+      "type": 0,
+      "value": "What's next"
+    }
+  ],
+  "request.next.wrongfullyDeclined": [
+    {
+      "type": 0,
+      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+    }
+  ],
+  "request.timeline.esclateTo": [
+    {
+      "type": 0,
+      "value": "Escalate to "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.timeline.esclationSent": [
+    {
+      "type": 0,
+      "value": "Escalation Sent"
+    }
+  ],
+  "request.timeline.reminderSent": [
+    {
+      "type": 0,
+      "value": "Reminder Sent"
+    }
+  ],
+  "request.timeline.requestSent": [
+    {
+      "type": 0,
+      "value": "Request Sent"
+    }
+  ],
+  "request.timeline.requestTimeline": [
+    {
+      "type": 0,
+      "value": "Your request timeline"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "Send a reminder"
+    }
+  ],
+  "request.title": [
+    {
+      "type": 0,
+      "value": "Details for your "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " request"
     }
   ],
   "search.companyPlaceholder": [

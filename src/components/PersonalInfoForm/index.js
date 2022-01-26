@@ -11,7 +11,12 @@ import {
   NameLabelText,
   CcpaOrGdprText,
   CcpaOrGdprHelperText,
+  FollowUpLabelText,
+  YesFollowUpLabelText,
+  NoFollowUpLabelText,
+  FollowUpDetailsText,
   SubmitButtonText,
+  FollowUpDetailsTextWarning,
   Headline,
   RequestTypeLabelText,
   AccessRequestLabelText,
@@ -34,13 +39,15 @@ import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormControl from "@material-ui/core/FormControl";
+import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
-import getGeolocation from "../../utils/geolocation";
-
+import { v4 as uuidv4 } from 'uuid';
+import {getRegulationbyGeolocation} from "../../utils/geolocation";
+import getInboundEmailAddress from "../../utils/email";
 
 const screenHeightBreakpoint = 560;
 
@@ -49,15 +56,18 @@ class Form extends Component {
     super(props);
 
     this.state = {
+      uuid: null,
       name: "",
       email: "",
       identifyingInfo: "",
       companyName: "",
       companyDomain: "",
       companyEmail: "",
+      companyUrl: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
+      followUp: "NO",
       screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
@@ -90,8 +100,8 @@ class Form extends Component {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
     }
-    const geo = await getGeolocation();
-    this.setState({ regulationType: geo });
+    const regulation = await getRegulationbyGeolocation();
+    this.setState({ regulationType: regulation });
   }
 
   componentWillUnmount() {
@@ -139,6 +149,12 @@ class Form extends Component {
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
+    if (this.state.followUp) {
+      tracking.trackFollwups(
+        this.state.regulationType,
+        this.state.requestType
+      );
+    }
     if (this.state.companyEmail) {
       this.addNewCompany();
     } else {
@@ -151,31 +167,75 @@ class Form extends Component {
   };
 
   renderMailTo() {
+    const uuid = uuidv4();
+    this.setState({ uuid: uuid });
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
+    const regulationType = this.state.regulationType;
+    const followUp = this.state.followUp;
 
     const to = selectedCompany
       ? selectedCompany.email
       : this.state.companyEmail;
 
+    const bcc =
+      followUp === "YES"  
+        ? getInboundEmailAddress(uuid, 'request')
+        : null;
+
     const companyName = selectedCompany
       ? selectedCompany.name
       : this.state.companyName;
 
+    const companyUrl = selectedCompany
+      ? selectedCompany.url
+      : this.state.companyUrl;
+
+    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
+
     const subject =
       requestType == "DELETION"
-        ? erasureEmail.subject({ ...this.state })
-        : sarEmail.subject({ ...this.state });
+        ? erasureEmail.subject({ ...this.state, reference})
+        : sarEmail.subject({ ...this.state, reference });
 
     const body =
       requestType == "DELETION"
         ? erasureEmail.formatBody({ ...this.state, companyName })
         : sarEmail.formatBody({ ...this.state, companyName });
 
+    const requestParams = {
+      uuid,
+      requestType,
+      regulationType,
+      companyName,
+      companyUrl,
+    };
+
+    if (followUp === "YES") {
+      requestParams.name = this.state.name;
+      requestParams.identifyingInfo = this.state.identifyingInfo;
+      requestParams.emailTo = to;
+      requestParams.emailSubject = subject;
+      requestParams.emailBody = body;
+      requestParams.lang = this.props.intl.locale;
+    }
+
+    fetch(
+      "/api/save",
+      {
+        method: "POST",
+        body: JSON.stringify(requestParams),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
     return mailtoLink({
       to,
-      subject: subject,
-      body: body,
+      bcc,
+      subject,
+      body,
     });
   }
 
@@ -223,6 +283,7 @@ class Form extends Component {
           className="thanks-message"
           requestType={this.state.requestType}
           regulationType={this.state.regulationType}
+          uuid={this.state.uuid}
           hideThanks={() =>
             (window.location = `/#${searchOrganizationsUrlAnchor}`)
           }
@@ -358,6 +419,37 @@ class Form extends Component {
               value={this.props.selectedCompany.url}
             />
           )}
+          <FormControl
+            variant="outlined"
+            focused={true}
+            component="fieldset"
+            className={classes.formControl}
+          >
+            <FormLabel>{FollowUpLabelText}</FormLabel>
+            <RadioGroup
+              name="followup1"
+              className={classes.group}
+              onChange={this.handleInput("followUp")}
+              value={this.state.followUp}
+            >
+              <FormControlLabel
+                value="YES"
+                control={<Radio />}
+                label={YesFollowUpLabelText}
+              />
+              <FormControlLabel
+                value="NO"
+                control={<Radio />}
+                label={NoFollowUpLabelText}
+              />
+            </RadioGroup>
+            <FormHelperText>
+              {FollowUpDetailsText}
+              <br/>
+              <br/>
+              {FollowUpDetailsTextWarning}
+            </FormHelperText>
+          </FormControl>
           <div>
             <Button
               variant="contained"

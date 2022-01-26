@@ -229,32 +229,10 @@
       "value": "Über uns"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Lesen Sie, was andere über den Datenschutz bei "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "zu sagen haben, und teilen Sie Ihre eigenen Kommentare:"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "Denken Sie daran: Dies ist eine unabhängige Website, die nicht mit "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Zusätzliche Information:"
     }
   ],
   "aboutOrg.numRequests": [
@@ -279,6 +257,50 @@
     {
       "type": 0,
       "value": "Kredit"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Erstellen Sie ein Konto bei Crowdin, indem Sie diesem "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Link"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Öffnen Sie unser "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Übersetzungsprojekt"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Bewegen Sie den Mauszeiger über eine Sprache, die Sie übersetzen möchten, und klicken Sie dann rechts auf die Schaltfläche „Übersetzen“."
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Sie sehen jetzt das Crowdsourcing-Dashboard, wo Sie mit der Übersetzung von Zeichenfolgen beginnen können, die mit einem roten Punkt markiert sind, oder nach einer Zeichenfolge suchen, die Sie korrigieren möchten"
     }
   ],
   "contribute.description": [
@@ -405,16 +427,22 @@
       "value": "Dazu beitragen"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "Wir möchten, dass diese Website in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, erstellen Sie bitte ein Konto und verwenden Sie unser "
+      "value": "Wir möchten, dass dieser Service in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, würden wir uns über Ihre Hilfe freuen!"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Wir verwenden die Online-Plattform "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Übersetzungssystem"
+          "value": "Crowdin"
         }
       ],
       "type": 8,
@@ -422,7 +450,7 @@
     },
     {
       "type": 0,
-      "value": " , um Ihre Änderungen vorzunehmen. Hier ist ein "
+      "value": " , um die Übersetzungszeichenfolgen einfach zu erstellen. Es macht den Prozess viel einfacher und erfordert nicht, dass Sie etwas über Programmierung wissen. Hier ist ein "
     },
     {
       "children": [
@@ -436,7 +464,7 @@
     },
     {
       "type": 0,
-      "value": " des Übersetzungseditors, um Ihnen den Einstieg zu erleichtern."
+      "value": " des Übersetzungseditors, um Ihnen den Einstieg zu erleichtern. Befolgen Sie diese Schritte, um loszulegen:"
     }
   ],
   "contribute.translateTitle": [
@@ -1136,7 +1164,7 @@
   "footer.contact": [
     {
       "type": 0,
-      "value": "Für weitere Informationen "
+      "value": "Für weitere Informationen bitte "
     },
     {
       "children": [
@@ -1417,6 +1445,12 @@
     {
       "type": 0,
       "value": "FAQ"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Helfen Sie beim Übersetzen"
     }
   ],
   "nav.howItWorks": [
@@ -1854,10 +1888,14 @@
   "redirect.text": [
     {
       "type": 0,
-      "value": "Tolle Neuigkeiten, dieser Service wächst! Wir haben vor Kurzem die Unterstützung für das California Consumer Privacy Act (CCPA) eingeführt und werden in Kürze die Unterstützung für weitere Anfragetypen über die Löschung hinaus einführen. Daher halten wir den Domänennamen „opt-out.eu“ für zu einschränkend. Wir setzen uns mehr denn je dafür ein, Sie bei der Ausübung Ihrer digitalen Rechte zu unterstützen. Willkommen auf unserer neuen Homepage "
+      "value": "Tolle Neuigkeiten, dieser Service wächst! Wir haben vor Kurzem die Unterstützung für das California Consumer Privacy Act (CCPA) eingeführt und werden in Kürze die Unterstützung für weitere Anfragetypen über die Löschung hinaus einführen. Daher halten wir den Domänennamen „opt-out.eu“ für zu einschränkend. Wir setzen uns mehr denn je dafür ein, Sie bei der Ausübung Ihrer digitalen Rechte zu unterstützen. Willkommen auf unserer neuen Homepage @"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "yourdigitalrights.org"
+        }
       ],
       "type": 8,
       "value": "style"

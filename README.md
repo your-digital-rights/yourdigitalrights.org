@@ -6,7 +6,7 @@ Source code for [YourDigitalRights.org](https://yourdigitalrights.org/), a free 
 [![CircleCI](https://circleci.com/gh/your-digital-rights/yourdigitalrights.org.svg?style=svg)](https://app.circleci.com/pipelines/github/your-digital-rights)
 [![LibraPay](https://img.shields.io/liberapay/patrons/YourDigitalRights.org.svg?logo=liberapay)](https://liberapay.com/YourDigitalRights.org/donate)
 
-# Installation
+# Installation 
 
 Requires Node.js >= v15
 
@@ -24,7 +24,7 @@ What’s the name of your existing project? = ydr
 
 `vercel env pull`
 
-# Running locally
+# Running locally (this will run agains the AWS test env)
 
 `npm run dev`
 

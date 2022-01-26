@@ -76,6 +76,10 @@ const WishButtonText = (
   <FormattedMessage id="footer.wishList" defaultMessage="make a wish on our roadmap" />
 );
 
+const PoweredBy = (
+  <FormattedMessage id="footer.poweredBy" defaultMessage="Powered by Vercel" />
+);
+
 const DisclaimerText = (
   <FormattedMessage
     id="footer.disclaimer"
@@ -89,7 +93,7 @@ const DisclaimerText = (
 const QueryText = (
   <FormattedMessage
     id="footer.contact"
-    defaultMessage="For more information please <a>contact us</a>. © Copyright 2019"
+    defaultMessage="For more information please <a>contact us</a>. © Copyright 2019 - 2022"
     values={{
       a: txt => (
         <a target="_blank" href="mailto:info@yourdigitalrights.org" style={{ textDecoration: "none" }}>
@@ -100,29 +104,30 @@ const QueryText = (
   />
 );
 
-const Footer = ({ classes }) => {
-
+const Footer = ({ classes, showRoadmap=true }) => {
   const trackWishlist = () => {
     tracking.trackWishlist();
   };
 
   return (
     <div className={classes.root}>
-      <div className={classes.WishList}>
-        <Button
-          onClick={() => trackWishlist()}
-          variant="contained"
-          href="https://wishlist.yourdigitalrights.org/"
-          color="secondary"
-          type="submit"
-          className={classes.wishButton}
-        >
-          {WishButtonText}
-        </Button>
-      </div>
+      {showRoadmap && (
+        <div className={classes.WishList}>
+          <Button
+            onClick={() => trackWishlist()}
+            variant="contained"
+            href="https://wishlist.yourdigitalrights.org/"
+            color="secondary"
+            type="submit"
+            className={classes.wishButton}
+          >
+            {WishButtonText}
+          </Button>
+        </div>
+      )}
       <div className={classes.inner}>
         <div className={classes.innerLeft}>
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.madeBy"
               defaultMessage="<a>Made by Conscious Digital</a>"
@@ -131,7 +136,7 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography>          
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
@@ -140,7 +145,7 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography>
-          <Typography component="p" variant="body3">
+          <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
@@ -149,22 +154,24 @@ const Footer = ({ classes }) => {
               }}
             />
           </Typography> 
-          <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
+          <Typography component="p" variant="subtitle2">
+            <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
+          </Typography> 
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
             <img 
               src="/images/powered-by-vercel.svg" 
-              alt="Powered by Vercel" 
+              alt={PoweredBy}
               className={classes.VercelLogo}
             />
           </a>
         </div>
         <div className={classes.innerRight}>
-          <Typography gutterBottom={true} color="textSecondary" variant="body3">
+          <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="body3">
+          <Typography color="textSecondary" variant="subtitle2">
             {QueryText}
           </Typography>
         </div>

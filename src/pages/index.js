@@ -18,6 +18,7 @@ import {
   searchOrganizationsUrlAnchor,
   heroUrlAnchor,
 } from "../utils/urlAnchors";
+import PressCoverage from "../components/PressCoverage";
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -29,6 +30,11 @@ const styles = (theme) => ({
   desktopSearchbar: {
     display: "block",
   },
+  press: {
+    [theme.breakpoints.down("xs")]: {
+      display: "none",
+    },    
+  }
 });
 
 const tabletBreakpoint = 960;
@@ -169,6 +175,9 @@ class Index extends Component {
               </div>
             )}
           </Hero>
+          <div className={classes.press}>
+            <PressCoverage />
+          </div>
           <HowItWorks />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
