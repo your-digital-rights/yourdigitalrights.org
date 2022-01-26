@@ -1,6 +1,6 @@
 export default {
   subject(data) {
-    return `Data Deletion Request ${data.reference}`;
+    return data.reference.length > 0 ? `Data Deletion Request ${data.reference}`: `Data Deletion Request`;
   },
   formatBody(data) {
     var body;
