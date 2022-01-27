@@ -250,7 +250,7 @@
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "Sebbene non possiamo permetterci di pagarti per il tuo lavoro, siamo più che felici di darti credito per i tuoi contributi, sia su questo sito Web, su github o in altri modi."
+      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
     }
   ],
   "contribute.creditTitle": [
@@ -513,6 +513,50 @@
       "value": "Rinuncia ai migliori broker di dati"
     }
   ],
+  "deletePII.deleteAllPII": [
+    {
+      "type": 0,
+      "value": "All requests"
+    }
+  ],
+  "deletePII.deleteSpecificPII": [
+    {
+      "type": 0,
+      "value": "This request"
+    }
+  ],
+  "deletePII.heading": [
+    {
+      "type": 0,
+      "value": "Cancella i miei dati"
+    }
+  ],
+  "deletePII.intro": [
+    {
+      "type": 0,
+      "value": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: "
+    },
+    {
+      "type": 1,
+      "value": "ref"
+    },
+    {
+      "type": 0,
+      "value": "), or with all of your requests?"
+    }
+  ],
+  "deletemydata.description": [
+    {
+      "type": 0,
+      "value": "Cancella i miei dati"
+    }
+  ],
+  "deletemydata.title": [
+    {
+      "type": 0,
+      "value": "Cancella i miei dati"
+    }
+  ],
   "donations.Bitcoin": [
     {
       "type": 0,
@@ -528,7 +572,7 @@
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org è stato creato perché crediamo che la privacy sia importante e che esercitare il tuo diritto alla privacy dovrebbe essere facile. Ecco perché l'abbiamo reso gratuito. Le donazioni ci consentono di dedicare più tempo al miglioramento di questo servizio."
+      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
     }
   ],
   "donations.headingDonate": [
@@ -698,7 +742,7 @@
   "faq.body1A": [
     {
       "type": 0,
-      "value": "Attualmente esistono due principali normative a tutela della privacy individuale online. Il Regolamento generale sulla protezione dei dati, o GDPR, protegge i residenti dell'Unione Europea e il California Consumer Privacy Act, o CCPA, protegge i residenti della California."
+      "value": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
     }
   ],
   "faq.body2A": [
@@ -884,7 +928,7 @@
   "faq.body7Av": [
     {
       "type": 0,
-      "value": "L'organizzazione ha raccolto o utilizzato i tuoi dati illecitamente. Esempio: non ha rispettato le norme sulla protezione dei dati."
+      "value": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
     }
   ],
   "faq.body7Avi": [
@@ -1160,13 +1204,13 @@
   "footer.contact": [
     {
       "type": 0,
-      "value": "Per ulteriori informazioni per favore "
+      "value": "For more information please "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contattaci"
+          "value": "contact us"
         }
       ],
       "type": 8,
@@ -1174,7 +1218,7 @@
     },
     {
       "type": 0,
-      "value": ". © Copyright 2019"
+      "value": ". © Copyright 2019 - 2022"
     }
   ],
   "footer.disclaimer": [
@@ -1273,16 +1317,16 @@
       "value": "."
     }
   ],
-  "howItWorks.fillIn": [
+  "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "Inserisci il tuo nome e tutte le informazioni aggiuntive che potrebbero aiutare l'organizzazione a identificarti nei loro sistemi informativi (non conserviamo queste informazioni)."
+      "value": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
     }
   ],
-  "howItWorks.fillInTitle": [
+  "howItWorks.followUpTitle": [
     {
       "type": 0,
-      "value": "Compilare"
+      "value": "Follow-up"
     }
   ],
   "howItWorks.imgAlt": [
@@ -1294,7 +1338,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "Cerca un'organizzazione utilizzando la casella di ricerca sopra. Se l'organizzazione che stai cercando non è nell'elenco, puoi comunque inviarle una richiesta fornendo un'e-mail di contatto."
+      "value": "Search for an organization using the search box above."
     }
   ],
   "howItWorks.searchTitle": [
@@ -1306,7 +1350,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "Fare clic sul pulsante Invia per generare un'e-mail di richiesta indirizzata alla persona interessata presso l'organizzazione selezionata. L'e-mail si aprirà nell'applicazione e-mail predefinita dove potrai esaminarla e quindi inviarla."
+      "value": "Send the organization a request to delete or access your personal data."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1364,13 +1408,13 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Lo "
+      "value": "Privacy regulations such as the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Regolamento generale sulla protezione dei dati"
+          "value": "GDPR"
         }
       ],
       "type": 8,
@@ -1378,13 +1422,13 @@
     },
     {
       "type": 0,
-      "value": " (GDPR) e il "
+      "value": " and the "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "California Consumer Privacy Act"
+          "value": "CCPA"
         }
       ],
       "type": 8,
@@ -1392,7 +1436,7 @@
     },
     {
       "type": 0,
-      "value": " (CCPA) richiedono alle organizzazioni di cancellare o fornire una copia dei tuoi dati personali su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti rischiano multe salate."
+      "value": " require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1577,6 +1621,20 @@
       "value": ")."
     }
   ],
+  "orgHero.orgName": [
+    {
+      "type": 0,
+      "value": "Organization: "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "orgHero.subTitle": [
     {
       "type": 0,
@@ -1605,6 +1663,30 @@
       "value": "Richiedi la cancellazione dell'account o una copia dei tuoi dati personali."
     }
   ],
+  "personalInfoForm.FollowUpDetails": [
+    {
+      "type": 0,
+      "value": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+    }
+  ],
+  "personalInfoForm.FollowUpDetailsWarning": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.FollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Turn on Smart Follow-up Assistance"
+    }
+  ],
   "personalInfoForm.IdentifyingInfoHelper": [
     {
       "type": 0,
@@ -1619,6 +1701,18 @@
       ],
       "type": 8,
       "value": "strong"
+    }
+  ],
+  "personalInfoForm.NoFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "No, I can manage on my own"
+    }
+  ],
+  "personalInfoForm.YesFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Yes, email me follow-up instructions"
     }
   ],
   "personalInfoForm.accessRequestLabelText": [
@@ -1741,6 +1835,12 @@
     {
       "type": 0,
       "value": "Rivedi la tua richiesta"
+    }
+  ],
+  "pressIntro.title": [
+    {
+      "type": 0,
+      "value": "As featured on"
     }
   ],
   "privacy.analyticsBodyOneA": [
@@ -1924,7 +2024,7 @@
   "request.details.date": [
     {
       "type": 0,
-      "value": "Request date:"
+      "value": "Request email date:"
     }
   ],
   "request.details.escalationDate": [
@@ -1939,22 +2039,40 @@
       "value": "Request details"
     }
   ],
-  "request.details.hide": [
+  "request.details.hide.escalation": [
     {
       "type": 0,
-      "value": "To hide the email you sent, please click here"
+      "value": "Hide escalation email"
+    }
+  ],
+  "request.details.hide.reminder": [
+    {
+      "type": 0,
+      "value": "Hide reminder email"
+    }
+  ],
+  "request.details.hide.request": [
+    {
+      "type": 0,
+      "value": "Hide request email"
     }
   ],
   "request.details.name": [
     {
       "type": 0,
-      "value": "Full name:"
+      "value": "Requested by:"
+    }
+  ],
+  "request.details.nowDetails": [
+    {
+      "type": 0,
+      "value": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
     }
   ],
   "request.details.organization": [
     {
       "type": 0,
-      "value": "Organization:"
+      "value": "Recipient:"
     }
   ],
   "request.details.regulation": [
@@ -1972,31 +2090,31 @@
   "request.details.sentTo": [
     {
       "type": 0,
-      "value": "Sent to email address:"
+      "value": "Recipient email address:"
     }
   ],
-  "request.details.show": [
+  "request.details.show.escalation": [
     {
       "type": 0,
-      "value": "To see the email you sent, please click here"
+      "value": "View escalation email"
+    }
+  ],
+  "request.details.show.reminder": [
+    {
+      "type": 0,
+      "value": "View reminder email"
+    }
+  ],
+  "request.details.show.request": [
+    {
+      "type": 0,
+      "value": "View request email"
     }
   ],
   "request.details.type": [
     {
       "type": 0,
       "value": "Request type:"
-    }
-  ],
-  "request.hero.day": [
-    {
-      "type": 0,
-      "value": "day"
-    }
-  ],
-  "request.hero.days": [
-    {
-      "type": 0,
-      "value": "days"
     }
   ],
   "request.hero.declined": [
@@ -2007,36 +2125,22 @@
   ],
   "request.hero.declinedRequest": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "declined your request"
+      "value": " declined your request."
     }
   ],
   "request.hero.didNotReply": [
     {
-      "type": 0,
-      "value": "did not reply"
-    }
-  ],
-  "request.hero.escalationDateStatement": [
-    {
-      "type": 0,
-      "value": "An escalation was sent "
-    },
-    {
       "type": 1,
-      "value": "daysSince"
+      "value": "companyName"
     },
     {
       "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
-    },
-    {
-      "type": 0,
-      "value": " ago."
+      "value": " did not reply yet."
     }
   ],
   "request.hero.handledPartially": [
@@ -2047,8 +2151,12 @@
   ],
   "request.hero.handledRequest": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "handled your request"
+      "value": " handled your request successfuly."
     }
   ],
   "request.hero.handledSuccessfully": [
@@ -2068,7 +2176,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " request to "
     },
     {
       "type": 1,
@@ -2083,52 +2191,18 @@
   ],
   "request.hero.partiallyHandled": [
     {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
       "type": 0,
-      "value": "partially handled your request"
+      "value": " handled your request partially."
     }
   ],
-  "request.hero.reminderDateStatement": [
+  "request.hero.requestNotSent": [
     {
       "type": 0,
-      "value": "A reminder was sent "
-    },
-    {
-      "type": 1,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
-    },
-    {
-      "type": 0,
-      "value": " ago."
-    }
-  ],
-  "request.hero.requestDateStatement": [
-    {
-      "type": 0,
-      "value": "The request was sent "
-    },
-    {
-      "type": 1,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
-    },
-    {
-      "type": 0,
-      "value": " ago."
+      "value": "please send the request email, then refresh this page."
     }
   ],
   "request.hero.requestStatus": [
@@ -2137,16 +2211,10 @@
       "value": "Request Status:"
     }
   ],
-  "request.next.aCopyOfTheRequest": [
-    {
-      "type": 0,
-      "value": "A copy of the original request follows."
-    }
-  ],
   "request.next.circumstancesToDecline": [
     {
       "type": 0,
-      "value": "There are certain circumstances where an organization is legally permitted to decline to erase your data."
+      "value": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
     }
   ],
   "request.next.declineCCPA": [
@@ -2315,10 +2383,10 @@
       "value": "ul"
     }
   ],
-  "request.next.escalateToAuthority": [
+  "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "We recommend that you escalate your request to the "
+      "value": "Recommendation: escalate your request to your "
     },
     {
       "type": 1,
@@ -2327,6 +2395,42 @@
     {
       "type": 0,
       "value": "."
+    }
+  ],
+  "request.next.escalateToAuthorityPartial": [
+    {
+      "type": 0,
+      "value": "Recommendation: if you believe "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.next.escalatedAndNoSuccess": [
+    {
+      "type": 0,
+      "value": "You have escalated to the "
+    },
+    {
+      "type": 1,
+      "value": "dpa"
+    },
+    {
+      "type": 0,
+      "value": ", please continue to communicate with them directly. There's nothing else that we can do to help."
     }
   ],
   "request.next.esclateButton": [
@@ -2343,20 +2447,6 @@
     {
       "type": 0,
       "value": "Find out more about these exceptions"
-    }
-  ],
-  "request.next.nothingAtAll": [
-    {
-      "type": 0,
-      "value": "Nothing at all. "
-    },
-    {
-      "type": 1,
-      "value": "companyName"
-    },
-    {
-      "type": 0,
-      "value": " successfully responded to your request."
     }
   ],
   "request.next.organizationsHaveXDays": [
@@ -2381,62 +2471,40 @@
       "value": " days to reply to your request."
     }
   ],
-  "request.next.ratherNotWait": [
-    {
-      "type": 0,
-      "value": "If you would rather not wait then you have the following options:"
-    }
-  ],
-  "request.next.reminder": [
-    {
-      "type": 0,
-      "value": "Reminder"
-    }
-  ],
   "request.next.reminderButton": [
     {
       "type": 0,
-      "value": "Send a reminder email"
+      "value": "Send the organization a reminder email"
     }
   ],
-  "request.next.requestingResponseToBelowRequest": [
-    {
-      "type": 0,
-      "value": "I am requesting a response to my below request, which was sent "
-    },
-    {
-      "type": 1,
-      "value": "daysSince"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "day"
-    },
-    {
-      "type": 0,
-      "value": " ago."
-    }
-  ],
-  "request.next.selectTheOptions": [
+  "request.next.selectTheOptions1": [
     {
       "type": 0,
       "value": "Please select from the following options:"
     }
   ],
-  "request.next.sendAnEmail": [
+  "request.next.selectTheOptions2": [
     {
       "type": 0,
-      "value": "We recommend that you send them a reminder email."
+      "value": "If you wish to take further action then please select from the following options:"
+    }
+  ],
+  "request.next.selectTheOptions3": [
+    {
+      "type": 0,
+      "value": "If you do not wish to wait then please select from the following options:"
+    }
+  ],
+  "request.next.sendAReminderEmail": [
+    {
+      "type": 0,
+      "value": "Recommendation: send the organization a reminder email."
     }
   ],
   "request.next.waitUntilXDays": [
     {
       "type": 0,
-      "value": "We recommend you wait until "
+      "value": "Recommendation: wait until "
     },
     {
       "type": 1,
@@ -2444,7 +2512,21 @@
     },
     {
       "type": 0,
-      "value": " days have passed."
+      "value": " days have passed to give the company time to process your request."
+    }
+  ],
+  "request.next.waitUntilXDaysAfterReminder": [
+    {
+      "type": 0,
+      "value": "Recommendation: wait until "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
     }
   ],
   "request.next.whatsNext": [
@@ -2453,38 +2535,56 @@
       "value": "What's next"
     }
   ],
-  "request.next.wrongfullyDeclined": [
+  "request.success": [
     {
       "type": 0,
-      "value": "If you feel that the organization is wrong to have declined your request then you have the following options:"
+      "value": "Congratulations, "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "delete your personal data now"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Escalate to "
-    },
-    {
-      "type": 1,
-      "value": "authority"
-    }
-  ],
-  "request.timeline.esclationSent": [
-    {
-      "type": 0,
-      "value": "Escalation Sent"
+      "value": "Escalate your request"
     }
   ],
   "request.timeline.reminderSent": [
     {
       "type": 0,
-      "value": "Reminder Sent"
+      "value": "Reminder sent"
+    }
+  ],
+  "request.timeline.requestNotSent": [
+    {
+      "type": 0,
+      "value": "Request not sent"
     }
   ],
   "request.timeline.requestSent": [
     {
       "type": 0,
-      "value": "Request Sent"
+      "value": "Request sent"
     }
   ],
   "request.timeline.requestTimeline": [
@@ -2493,10 +2593,209 @@
       "value": "Your request timeline"
     }
   ],
+  "request.timeline.sendEscalation": [
+    {
+      "type": 0,
+      "value": "Escalation sent"
+    }
+  ],
+  "request.timeline.sendEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "tommorow"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "in "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
   "request.timeline.sendReminder": [
     {
       "type": 0,
       "value": "Send a reminder"
+    }
+  ],
+  "request.timeline.sendReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "tommorow"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "in "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "yesterday"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days ago"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "yesterday"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days ago"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceRequestDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "today"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "yesterday"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " days ago"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
     }
   ],
   "request.title": [
@@ -2511,6 +2810,36 @@
     {
       "type": 0,
       "value": " request"
+    }
+  ],
+  "requestEscalation.complaint": [
+    {
+      "type": 0,
+      "value": "Additional details"
+    }
+  ],
+  "requestEscalation.complaintText": [
+    {
+      "type": 0,
+      "value": "Please explain why you are not satisfied with how the organization has dealt with your request"
+    }
+  ],
+  "requestEscalation.geography": [
+    {
+      "type": 0,
+      "value": "Location"
+    }
+  ],
+  "requestEscalation.geographyText ": [
+    {
+      "type": 0,
+      "value": "Please select your place of residence"
+    }
+  ],
+  "requestEscalation.submit": [
+    {
+      "type": 0,
+      "value": "Review & Send"
     }
   ],
   "search.companyPlaceholder": [
@@ -2597,22 +2926,16 @@
       "value": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
     }
   ],
-  "thankYou.Bitcoin": [
+  "thankyou.Bitcoin": [
     {
       "type": 0,
       "value": "Dona Bitcoin"
     }
   ],
-  "thankYou.Liberapay": [
+  "thankyou.Liberapay": [
     {
       "type": 0,
       "value": "Dona tramite Liberapay"
-    }
-  ],
-  "thankYou.extensionText": [
-    {
-      "type": 0,
-      "value": "Risparmia tempo installando la nostra estensione del browser"
     }
   ],
   "thankyou.copyPart1": [
@@ -2679,6 +3002,12 @@
     {
       "type": 0,
       "value": " per ulteriori informazioni."
+    }
+  ],
+  "thankyou.extensionText": [
+    {
+      "type": 0,
+      "value": "Save time by installing our browser extension"
     }
   ],
   "thankyou.findCompany": [
