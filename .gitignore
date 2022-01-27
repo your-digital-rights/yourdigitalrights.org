@@ -3,7 +3,7 @@ node_modules
 errorShots
 .DS_Store
 src/out
-
+.env
 .now
 .vercel
 crowdin.yml

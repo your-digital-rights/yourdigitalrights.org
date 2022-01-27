@@ -1,11 +1,11 @@
 import fetch from "universal-fetch";
-var data = null;
+var regulation = null;
 
-export default async function getGeolocation() {
+async function getRegulationbyGeolocation() {
   const url = `/api/geolocation`;
 
-  if (data == null) {
-    data = fetch(url)
+  if (regulation == null) {
+    regulation = fetch(url)
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -25,5 +25,29 @@ export default async function getGeolocation() {
       });
   }
 
-  return data;
-}
+  return regulation;
+};
+
+var countryCode = null;
+
+async function getCountryCode() {
+  const url = `/api/geolocation`;
+
+  if (countryCode == null) {
+    countryCode = fetch(url)
+      .then((response) => {
+        if (response.ok) {
+          return response.json();
+        }
+        throw new Error(`HTTP error ${response.status} from ${url}`);
+      })
+      .then((resultJson) => {
+        return resultJson['country'];
+      }).catch(function(err){
+        return null;
+      });
+  }
+  return countryCode;
+};
+
+export {getRegulationbyGeolocation, getCountryCode};

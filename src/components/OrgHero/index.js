@@ -42,7 +42,13 @@ const Hero = ({ classes, selectedCompany }) => {
                 </a>
               </Typography>
               <Typography color="inherit">
-                Organization: <strong>{selectedCompany.name}.</strong>
+              <FormattedMessage
+                  id="orgHero.orgName"
+                  defaultMessage="Organization: {org}."
+                  values={{ 
+                    org: <strong>{selectedCompany.name}</strong> 
+                  }}
+              />                
               </Typography>               
               <Typography
                 color="inherit"

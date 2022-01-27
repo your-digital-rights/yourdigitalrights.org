@@ -71,11 +71,8 @@
   "about.title": {
     "message": "Über uns"
   },
-  "aboutOrg.commentBoxDescription": {
-    "message": "Lesen Sie, was andere über den Datenschutz bei {org}zu sagen haben, und teilen Sie Ihre eigenen Kommentare:"
-  },
-  "aboutOrg.commentBoxDisclamer": {
-    "message": "Denken Sie daran: Dies ist eine unabhängige Website, die nicht mit {org}."
+  "aboutOrg.details": {
+    "message": "Zusätzliche Information:"
   },
   "aboutOrg.numRequests": {
     "message": "Nummer der gesendeten Anfrage:"
@@ -84,10 +81,22 @@
     "message": "Datenschutz-Bestimmungen:"
   },
   "contribute.creadit": {
-    "message": "Obwohl wir es uns nicht leisten können, Sie für Ihre Arbeit zu bezahlen, würdigen wir Sie gerne für Ihre Beiträge, sei es auf dieser Website, auf GitHub oder auf andere Weise."
+    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
   },
   "contribute.creditTitle": {
     "message": "Kredit"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Erstellen Sie ein Konto bei Crowdin, indem Sie diesem <a>Link</a>"
+  },
+  "contribute.crowdinStep2": {
+    "message": "Öffnen Sie unser <a>Übersetzungsprojekt</a>"
+  },
+  "contribute.crowdinStep3": {
+    "message": "Bewegen Sie den Mauszeiger über eine Sprache, die Sie übersetzen möchten, und klicken Sie dann rechts auf die Schaltfläche „Übersetzen“."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Sie sehen jetzt das Crowdsourcing-Dashboard, wo Sie mit der Übersetzung von Zeichenfolgen beginnen können, die mit einem roten Punkt markiert sind, oder nach einer Zeichenfolge suchen, die Sie korrigieren möchten"
   },
   "contribute.description": {
     "message": "Helfen Sie uns, YourDigitalRights.org zu verbessern."
@@ -116,8 +125,11 @@
   "contribute.title": {
     "message": "Dazu beitragen"
   },
-  "contribute.translate": {
-    "message": "Wir möchten, dass diese Website in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, erstellen Sie bitte ein Konto und verwenden Sie unser <a>Übersetzungssystem</a> , um Ihre Änderungen vorzunehmen. Hier ist ein <vid>Video-Tutorial</vid> des Übersetzungseditors, um Ihnen den Einstieg zu erleichtern."
+  "contribute.translate1": {
+    "message": "Wir möchten, dass dieser Service in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, würden wir uns über Ihre Hilfe freuen!"
+  },
+  "contribute.translate2": {
+    "message": "Wir verwenden die Online-Plattform <a>Crowdin</a> , um die Übersetzungszeichenfolgen einfach zu erstellen. Es macht den Prozess viel einfacher und erfordert nicht, dass Sie etwas über Programmierung wissen. Hier ist ein <vid>Video-Tutorial</vid> des Übersetzungseditors, um Ihnen den Einstieg zu erleichtern. Befolgen Sie diese Schritte, um loszulegen:"
   },
   "contribute.translateTitle": {
     "message": "Übersetzen Sie die Website"
@@ -140,6 +152,24 @@
   "data-brokers.title": {
     "message": "Melden Sie sich von den Top-Datenbrokern ab"
   },
+  "deletePII.deleteAllPII": {
+    "message": "All requests"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "This request"
+  },
+  "deletePII.heading": {
+    "message": "Meine Daten löschen"
+  },
+  "deletePII.intro": {
+    "message": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: {ref}), or with all of your requests?"
+  },
+  "deletemydata.description": {
+    "message": "Meine Daten löschen"
+  },
+  "deletemydata.title": {
+    "message": "Meine Daten löschen"
+  },
   "donations.Bitcoin": {
     "message": "Bitcoin spenden"
   },
@@ -147,7 +177,7 @@
     "message": "Spenden Sie über Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org wurde erstellt, weil wir glauben, dass Datenschutz wichtig ist und dass die Ausübung Ihres Rechts auf Datenschutz einfach sein sollte. Deshalb haben wir es kostenlos gemacht. Spenden ermöglichen es uns, mehr Zeit damit zu verbringen, diesen Service zu verbessern."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
   },
   "donations.headingDonate": {
     "message": "Wir brauchen Deine Unterstützung"
@@ -198,7 +228,7 @@
     "message": "Um dieses Problem zu beheben, müssen Sie einen Standard-E-Mail-Client auf Ihrem System konfigurieren. Hier finden Sie Anweisungen dazu, wie Sie dies auf <a1>Mac</a1> und <a2>Windows</a2>tun."
   },
   "faq.body1A": {
-    "message": "Derzeit gibt es zwei Hauptvorschriften zum Schutz der Privatsphäre des Einzelnen im Internet. Die Datenschutz-Grundverordnung (DSGVO) schützt die Einwohner der Europäischen Union, und das California Consumer Privacy Act (CCPA) schützt die Einwohner Kaliforniens."
+    "message": "There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
   },
   "faq.body2A": {
     "message": "Die Datenschutz-Grundverordnung, kurz DSGVO, ist eine EU-Verordnung, die das Grundrecht der Menschen auf Schutz ihrer personenbezogenen Daten schützt."
@@ -276,7 +306,7 @@
     "message": "Sie haben der Verwendung Ihrer Daten widersprochen und Ihre Interessen überwiegen die der verwendenden Organisation."
   },
   "faq.body7Av": {
-    "message": "Die Organisation hat Ihre Daten unrechtmäßig gesammelt oder verwendet. Beispiel: Es hat die Datenschutzbestimmungen nicht eingehalten."
+    "message": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
   },
   "faq.body7Avi": {
     "message": "Die Organisation ist gesetzlich verpflichtet, Ihre Daten zu löschen."
@@ -405,7 +435,7 @@
     "message": "Häufig gestellte Fragen"
   },
   "footer.contact": {
-    "message": "Für weitere Informationen <a>kontaktieren Sie uns</a>. © Copyright 2019"
+    "message": "For more information please <a>contact us</a>. © Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
     "message": "<span>Haftungsausschluss:</span> Dieser Service wird ohne jegliche Gewährleistung bereitgestellt. Die Nutzung dieses Dienstes erfolgt ausschließlich auf eigene Gefahr. Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die sich aus der Nutzung dieses Dienstes ergeben. Die von diesem Dienst bereitgestellten Informationen sowie die Inhalte unserer Website zu Rechtsfragen werden für Ihren privaten Gebrauch bereitgestellt und stellen keine Rechtsberatung dar. Wenn Sie für ein bestimmtes Problem Rechtsberatung benötigen, sollten Sie sich an einen zugelassenen Anwalt wenden."
@@ -415,6 +445,9 @@
   },
   "footer.mission": {
     "message": "<a>Auftrag</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Powered by Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Datenschutzrichtlinie</a>"
@@ -431,23 +464,23 @@
   "hero.intro": {
     "message": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Verwenden Sie diesen kostenlosen Service, um ihnen eine Datenlöschungs- oder Zugriffsanfrage zu senden. Suchen Sie zunächst unten nach einer Organisation. Sie wissen nicht, wo Sie anfangen sollen? Melden Sie sich von diesen Top <a>Datenbrokern ab</a>."
   },
-  "howItWorks.fillIn": {
-    "message": "Geben Sie Ihren Namen und alle zusätzlichen Informationen ein, die der Organisation helfen können, Sie in ihren Informationssystemen zu identifizieren (wir speichern diese Informationen nicht)."
+  "howItWorks.followUp": {
+    "message": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
-  "howItWorks.fillInTitle": {
-    "message": "Ergänze"
+  "howItWorks.followUpTitle": {
+    "message": "Follow-up"
   },
   "howItWorks.imgAlt": {
     "message": "Eine Grafik, die die Benutzeroberfläche darstellt"
   },
   "howItWorks.search": {
-    "message": "Suchen Sie mithilfe des Suchfelds oben nach einer Organisation. Wenn die gesuchte Organisation nicht auf der Liste steht, können Sie ihr dennoch eine Anfrage senden, indem Sie eine Kontakt-E-Mail angeben."
+    "message": "Search for an organization using the search box above."
   },
   "howItWorks.searchTitle": {
     "message": "Suche"
   },
   "howItWorks.send": {
-    "message": "Klicken Sie auf die Schaltfläche Senden, um eine Anfrage-E-Mail zu generieren, die an die relevante Person in der von Ihnen ausgewählten Organisation adressiert ist. Die E-Mail wird in Ihrer Standard-E-Mail-Anwendung geöffnet, wo Sie sie überprüfen und dann senden können."
+    "message": "Send the organization a request to delete or access your personal data."
   },
   "howItWorks.sendTitle": {
     "message": "Senden"
@@ -462,7 +495,7 @@
     "message": "Warum uns vertrauen?"
   },
   "howItWorks.yourData": {
-    "message": "Die <gdpr>Allgemeinen Datenschutzbestimmungen</gdpr> (DSGVO) und der <ccpa>California Consumer Privacy Act</ccpa> (CCPA) verlangen von Organisationen, dass sie Ihre personenbezogenen Daten auf Anfrage löschen oder eine Kopie bereitstellen. Organisationen haben eine kurze Frist, um sich daran zu halten, andernfalls drohen ihnen hohe Bußgelder."
+    "message": "Privacy regulations such as the <gdpr>GDPR</gdpr> and the <ccpa>CCPA</ccpa> require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
   },
   "howItWorks.yourDataTitle": {
     "message": "Es sind Ihre Daten, besitzen Sie sie!"
@@ -490,6 +523,9 @@
   },
   "nav.faq": {
     "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "Helfen Sie beim Übersetzen"
   },
   "nav.howItWorks": {
     "message": "Wie es funktioniert"
@@ -524,14 +560,32 @@
   "orgHero.notAffiliatedDisclamer": {
     "message": "Dieser Dienst ist <disclamer>nicht mit</disclamer> (erfahren Sie mehr <about>über uns</about>)."
   },
+  "orgHero.orgName": {
+    "message": "Organization: {org}."
+  },
   "orgHero.subTitle": {
     "message": "Verwenden Sie diesen kostenlosen Service, um {ccpa} und {gdpr} -Datenanfragen zu senden."
   },
   "orgHero.title": {
     "message": "Fordern Sie die Löschung des Kontos oder eine Kopie Ihrer persönlichen Daten an."
   },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Turn on Smart Follow-up Assistance"
+  },
   "personalInfoForm.IdentifyingInfoHelper": {
     "message": "Geben Sie optional zusätzliche Informationen an, die der Organisation helfen, Ihre Daten in ihren Informationssystemen zu finden, wie z. B. Benutzername, Kunden-ID oder Kontonummer. <strong>Bitte geben Sie kein Passwort oder andere persönliche Informationen an, über die die Organisation nicht bereits verfügt.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "No, I can manage on my own"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Yes, email me follow-up instructions"
   },
   "personalInfoForm.accessRequestLabelText": {
     "message": "Senden Sie mir eine Kopie meiner Daten"
@@ -586,6 +640,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "Überprüfen Sie Ihre Anfrage"
+  },
+  "pressIntro.title": {
+    "message": "As featured on"
   },
   "privacy.analyticsBodyOneA": {
     "message": "Matomo: ein datenschutzfreundlicher Webanalysedienst von Innocraft. Sie können ihre { matomo } Seite besuchen."
@@ -654,7 +711,199 @@
     "message": "opt-out.eu ist jetzt yourdigitalrights.org"
   },
   "redirect.text": {
-    "message": "Tolle Neuigkeiten, dieser Service wächst! Wir haben vor Kurzem die Unterstützung für das California Consumer Privacy Act (CCPA) eingeführt und werden in Kürze die Unterstützung für weitere Anfragetypen über die Löschung hinaus einführen. Daher halten wir den Domänennamen „opt-out.eu“ für zu einschränkend. Wir setzen uns mehr denn je dafür ein, Sie bei der Ausübung Ihrer digitalen Rechte zu unterstützen. Willkommen auf unserer neuen Homepage <style></style>!"
+    "message": "Tolle Neuigkeiten, dieser Service wächst! Wir haben vor Kurzem die Unterstützung für das California Consumer Privacy Act (CCPA) eingeführt und werden in Kürze die Unterstützung für weitere Anfragetypen über die Löschung hinaus einführen. Daher halten wir den Domänennamen „opt-out.eu“ für zu einschränkend. Wir setzen uns mehr denn je dafür ein, Sie bei der Ausübung Ihrer digitalen Rechte zu unterstützen. Willkommen auf unserer neuen Homepage @<style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "View details about a {regulationType} request submitted with this free service."
+  },
+  "request.details.date": {
+    "message": "Request email date:"
+  },
+  "request.details.escalationDate": {
+    "message": "Escalation email date:"
+  },
+  "request.details.header": {
+    "message": "Request details"
+  },
+  "request.details.hide.escalation": {
+    "message": "Hide escalation email"
+  },
+  "request.details.hide.reminder": {
+    "message": "Hide reminder email"
+  },
+  "request.details.hide.request": {
+    "message": "Hide request email"
+  },
+  "request.details.name": {
+    "message": "Requested by:"
+  },
+  "request.details.nowDetails": {
+    "message": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
+  },
+  "request.details.organization": {
+    "message": "Recipient:"
+  },
+  "request.details.regulation": {
+    "message": "Regulation:"
+  },
+  "request.details.reminderDate": {
+    "message": "Reminder email date:"
+  },
+  "request.details.sentTo": {
+    "message": "Recipient email address:"
+  },
+  "request.details.show.escalation": {
+    "message": "View escalation email"
+  },
+  "request.details.show.reminder": {
+    "message": "View reminder email"
+  },
+  "request.details.show.request": {
+    "message": "View request email"
+  },
+  "request.details.type": {
+    "message": "Request type:"
+  },
+  "request.hero.declined": {
+    "message": "Declined"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} declined your request."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} did not reply yet."
+  },
+  "request.hero.handledPartially": {
+    "message": "Handled partially"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} handled your request successfuly."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Handled successfully"
+  },
+  "request.hero.header": {
+    "message": "Your data {requestType} request to {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "No reply"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} handled your request partially."
+  },
+  "request.hero.requestNotSent": {
+    "message": "please send the request email, then refresh this page."
+  },
+  "request.hero.requestStatus": {
+    "message": "Request Status:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Recommendation: escalate your request to your { authority }."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
+  },
+  "request.next.esclateButton": {
+    "message": "Escalate to the { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Find out more about these exceptions"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
+  },
+  "request.next.reminderButton": {
+    "message": "Send the organization a reminder email"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Please select from the following options:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "If you wish to take further action then please select from the following options:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "If you do not wish to wait then please select from the following options:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Recommendation: send the organization a reminder email."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Recommendation: wait until { timeLimit } days have passed to give the company time to process your request."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Recommendation: wait until { timeLimit } days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+  },
+  "request.next.whatsNext": {
+    "message": "What's next"
+  },
+  "request.success": {
+    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Escalate your request"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Reminder sent"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Request not sent"
+  },
+  "request.timeline.requestSent": {
+    "message": "Request sent"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Your request timeline"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Escalation sent"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send a reminder"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.title": {
+    "message": "Details for your {regulationType} request"
+  },
+  "requestEscalation.complaint": {
+    "message": "Additional details"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Please explain why you are not satisfied with how the organization has dealt with your request"
+  },
+  "requestEscalation.geography": {
+    "message": "Location"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Please select your place of residence"
+  },
+  "requestEscalation.submit": {
+    "message": "Review & Send"
   },
   "search.companyPlaceholder": {
     "message": "Suche nach einer Organisation"
@@ -698,14 +947,11 @@
   "social.twitterTitle": {
     "message": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
   },
-  "thankYou.Bitcoin": {
+  "thankyou.Bitcoin": {
     "message": "Bitcoin spenden"
   },
-  "thankYou.Liberapay": {
+  "thankyou.Liberapay": {
     "message": "Spenden Sie über Liberapay"
-  },
-  "thankYou.extensionText": {
-    "message": "Sparen Sie Zeit, indem Sie unsere Browsererweiterung installieren"
   },
   "thankyou.copyPart1": {
     "message": "Anfrage-E-Mail in Ihrer E-Mail-Anwendung geöffnet haben sollte, müssen Sie sie nur überprüfen und auf Senden klicken."
@@ -718,6 +964,9 @@
   },
   "thankyou.copyPart3": {
     "message": "Weitere Informationen finden Sie in unserer Liste mit <a>häufig gestellten Fragen</a>"
+  },
+  "thankyou.extensionText": {
+    "message": "Save time by installing our browser extension"
   },
   "thankyou.findCompany": {
     "message": "Finden Sie eine andere Organisation"

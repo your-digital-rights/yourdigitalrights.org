@@ -1,19 +1,6 @@
 export default {
-  subject({ regulationType }) {
-    let subject;
-
-    switch (regulationType) {
-      case "CCPA":
-        subject = CCPA_SUBJECT;
-        break;
-      case "GDPR":
-        subject = GDPR_SUBJECT;
-        break;
-      case "GDPRUK":
-        subject = GDPR_SUBJECT;
-        break;        
-    }
-    return subject;
+  subject(data) {
+    return `Data Access Request ${data.reference}`;
   },
   formatBody(data) {
     var body;
@@ -46,7 +33,6 @@ ${data.name}
   },
 };
 
-const CCPA_SUBJECT = "Right to Access Request (Section 110 of the CCPA)";
 const CCPA_TEXT = `To whom it may concern:
 
 I am writing to request access to personal information pursuant to Section 1798.110 of The California Consumer Privacy Act (CCPA). Please advise as to the following:
@@ -72,7 +58,6 @@ If you do not normally deal with these requests, please forward this email to th
 
 `;
 
-const GDPR_SUBJECT = "Subject Access Request (Article 15 of the GDPR)";
 const GDPR_TEXT = `To whom it may concern:
 
 I am writing to obtain the following information that I am entitled to receive pursuant to Article 15 of the General Data Protection Regulation (GDPR). Please confirm as to whether or not my personal data is being processed, and, where that is the case, please provide the following information:

@@ -8,7 +8,6 @@ const Theme = (theme) => ({
   heading: {
     maxWidth: "850px !important",
     margin: "auto auto",
-
     [theme.breakpoints.down("sm")]: {
       marginTop: "-140px",
       paddingTop: "150px",
@@ -34,6 +33,9 @@ const Theme = (theme) => ({
     "&:hover": {
       background: "#04487B",
     },
+    [theme.breakpoints.down("sm")]: {
+      marginBottom: '35px',
+    },     
   },
   donateLPButton: {
     marginTop: "-25px",

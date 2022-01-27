@@ -255,32 +255,10 @@
       "value": "crwdns2285:0crwdne2285:0"
     }
   ],
-  "aboutOrg.commentBoxDescription": [
+  "aboutOrg.details": [
     {
       "type": 0,
-      "value": "crwdns2287:0"
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2287:0"
-    }
-  ],
-  "aboutOrg.commentBoxDisclamer": [
-    {
-      "type": 0,
-      "value": "crwdns2289:0"
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2289:0"
+      "value": "crwdns2753:0crwdne2753:0"
     }
   ],
   "aboutOrg.numRequests": [
@@ -298,13 +276,37 @@
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "crwdns2697:0crwdne2697:0"
+      "value": "crwdns2769:0crwdne2769:0"
     }
   ],
   "contribute.creditTitle": [
     {
       "type": 0,
       "value": "crwdns2699:0crwdne2699:0"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "crwdns2755:0crwdne2755:0"
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "crwdns2757:0crwdne2757:0"
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "crwdns2759:0crwdne2759:0"
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "crwdns2761:0crwdne2761:0"
     }
   ],
   "contribute.description": [
@@ -361,10 +363,16 @@
       "value": "crwdns2717:0crwdne2717:0"
     }
   ],
-  "contribute.translate": [
+  "contribute.translate1": [
     {
       "type": 0,
-      "value": "crwdns2751:0crwdne2751:0"
+      "value": "crwdns2763:0crwdne2763:0"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "crwdns2765:0crwdne2765:0"
     }
   ],
   "contribute.translateTitle": [
@@ -417,6 +425,50 @@
       "value": "crwdns2305:0crwdne2305:0"
     }
   ],
+  "deletePII.deleteAllPII": [
+    {
+      "type": 0,
+      "value": "crwdns2771:0crwdne2771:0"
+    }
+  ],
+  "deletePII.deleteSpecificPII": [
+    {
+      "type": 0,
+      "value": "crwdns2773:0crwdne2773:0"
+    }
+  ],
+  "deletePII.heading": [
+    {
+      "type": 0,
+      "value": "crwdns2775:0crwdne2775:0"
+    }
+  ],
+  "deletePII.intro": [
+    {
+      "type": 0,
+      "value": "crwdns2777:0"
+    },
+    {
+      "type": 1,
+      "value": "ref"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2777:0"
+    }
+  ],
+  "deletemydata.description": [
+    {
+      "type": 0,
+      "value": "crwdns2779:0crwdne2779:0"
+    }
+  ],
+  "deletemydata.title": [
+    {
+      "type": 0,
+      "value": "crwdns2781:0crwdne2781:0"
+    }
+  ],
   "donations.Bitcoin": [
     {
       "type": 0,
@@ -432,7 +484,7 @@
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "crwdns2311:0crwdne2311:0"
+      "value": "crwdns2783:0crwdne2783:0"
     }
   ],
   "donations.headingDonate": [
@@ -534,7 +586,7 @@
   "faq.body1A": [
     {
       "type": 0,
-      "value": "crwdns2345:0crwdne2345:0"
+      "value": "crwdns2785:0crwdne2785:0"
     }
   ],
   "faq.body2A": [
@@ -690,7 +742,7 @@
   "faq.body7Av": [
     {
       "type": 0,
-      "value": "crwdns2397:0crwdne2397:0"
+      "value": "crwdns2787:0crwdne2787:0"
     }
   ],
   "faq.body7Avi": [
@@ -948,7 +1000,7 @@
   "footer.contact": [
     {
       "type": 0,
-      "value": "crwdns2483:0crwdne2483:0"
+      "value": "crwdns2789:0crwdne2789:0"
     }
   ],
   "footer.disclaimer": [
@@ -967,6 +1019,12 @@
     {
       "type": 0,
       "value": "crwdns2489:0crwdne2489:0"
+    }
+  ],
+  "footer.poweredBy": [
+    {
+      "type": 0,
+      "value": "crwdns2791:0crwdne2791:0"
     }
   ],
   "footer.privacyPolicy": [
@@ -999,16 +1057,16 @@
       "value": "crwdns2499:0crwdne2499:0"
     }
   ],
-  "howItWorks.fillIn": [
+  "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "crwdns2501:0crwdne2501:0"
+      "value": "crwdns2793:0crwdne2793:0"
     }
   ],
-  "howItWorks.fillInTitle": [
+  "howItWorks.followUpTitle": [
     {
       "type": 0,
-      "value": "crwdns2503:0crwdne2503:0"
+      "value": "crwdns2795:0crwdne2795:0"
     }
   ],
   "howItWorks.imgAlt": [
@@ -1020,7 +1078,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "crwdns2507:0crwdne2507:0"
+      "value": "crwdns2797:0crwdne2797:0"
     }
   ],
   "howItWorks.searchTitle": [
@@ -1032,7 +1090,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "crwdns2511:0crwdne2511:0"
+      "value": "crwdns2799:0crwdne2799:0"
     }
   ],
   "howItWorks.sendTitle": [
@@ -1062,7 +1120,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "crwdns2521:0crwdne2521:0"
+      "value": "crwdns2801:0crwdne2801:0"
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1117,6 +1175,12 @@
     {
       "type": 0,
       "value": "crwdns2537:0crwdne2537:0"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "crwdns2767:0crwdne2767:0"
     }
   ],
   "nav.howItWorks": [
@@ -1217,6 +1281,20 @@
       "value": "crwdns2559:0crwdne2559:0"
     }
   ],
+  "orgHero.orgName": [
+    {
+      "type": 0,
+      "value": "crwdns2803:0"
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2803:0"
+    }
+  ],
   "orgHero.subTitle": [
     {
       "type": 0,
@@ -1245,10 +1323,40 @@
       "value": "crwdns2563:0crwdne2563:0"
     }
   ],
+  "personalInfoForm.FollowUpDetails": [
+    {
+      "type": 0,
+      "value": "crwdns2805:0crwdne2805:0"
+    }
+  ],
+  "personalInfoForm.FollowUpDetailsWarning": [
+    {
+      "type": 0,
+      "value": "crwdns2807:0crwdne2807:0"
+    }
+  ],
+  "personalInfoForm.FollowUpLabel": [
+    {
+      "type": 0,
+      "value": "crwdns2809:0crwdne2809:0"
+    }
+  ],
   "personalInfoForm.IdentifyingInfoHelper": [
     {
       "type": 0,
       "value": "crwdns2565:0crwdne2565:0"
+    }
+  ],
+  "personalInfoForm.NoFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "crwdns2811:0crwdne2811:0"
+    }
+  ],
+  "personalInfoForm.YesFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "crwdns2813:0crwdne2813:0"
     }
   ],
   "personalInfoForm.accessRequestLabelText": [
@@ -1357,6 +1465,12 @@
     {
       "type": 0,
       "value": "crwdns2597:0crwdne2597:0"
+    }
+  ],
+  "pressIntro.title": [
+    {
+      "type": 0,
+      "value": "crwdns2815:0crwdne2815:0"
     }
   ],
   "privacy.analyticsBodyOneA": [
@@ -1513,6 +1627,574 @@
       "value": "crwdns2643:0crwdne2643:0"
     }
   ],
+  "request.description": [
+    {
+      "type": 0,
+      "value": "crwdns2817:0"
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2817:0"
+    }
+  ],
+  "request.details.date": [
+    {
+      "type": 0,
+      "value": "crwdns2819:0crwdne2819:0"
+    }
+  ],
+  "request.details.escalationDate": [
+    {
+      "type": 0,
+      "value": "crwdns2821:0crwdne2821:0"
+    }
+  ],
+  "request.details.header": [
+    {
+      "type": 0,
+      "value": "crwdns2823:0crwdne2823:0"
+    }
+  ],
+  "request.details.hide.escalation": [
+    {
+      "type": 0,
+      "value": "crwdns2825:0crwdne2825:0"
+    }
+  ],
+  "request.details.hide.reminder": [
+    {
+      "type": 0,
+      "value": "crwdns2827:0crwdne2827:0"
+    }
+  ],
+  "request.details.hide.request": [
+    {
+      "type": 0,
+      "value": "crwdns2829:0crwdne2829:0"
+    }
+  ],
+  "request.details.name": [
+    {
+      "type": 0,
+      "value": "crwdns2831:0crwdne2831:0"
+    }
+  ],
+  "request.details.nowDetails": [
+    {
+      "type": 0,
+      "value": "crwdns2833:0crwdne2833:0"
+    }
+  ],
+  "request.details.organization": [
+    {
+      "type": 0,
+      "value": "crwdns2835:0crwdne2835:0"
+    }
+  ],
+  "request.details.regulation": [
+    {
+      "type": 0,
+      "value": "crwdns2837:0crwdne2837:0"
+    }
+  ],
+  "request.details.reminderDate": [
+    {
+      "type": 0,
+      "value": "crwdns2839:0crwdne2839:0"
+    }
+  ],
+  "request.details.sentTo": [
+    {
+      "type": 0,
+      "value": "crwdns2841:0crwdne2841:0"
+    }
+  ],
+  "request.details.show.escalation": [
+    {
+      "type": 0,
+      "value": "crwdns2843:0crwdne2843:0"
+    }
+  ],
+  "request.details.show.reminder": [
+    {
+      "type": 0,
+      "value": "crwdns2845:0crwdne2845:0"
+    }
+  ],
+  "request.details.show.request": [
+    {
+      "type": 0,
+      "value": "crwdns2847:0crwdne2847:0"
+    }
+  ],
+  "request.details.type": [
+    {
+      "type": 0,
+      "value": "crwdns2849:0crwdne2849:0"
+    }
+  ],
+  "request.hero.declined": [
+    {
+      "type": 0,
+      "value": "crwdns2851:0crwdne2851:0"
+    }
+  ],
+  "request.hero.declinedRequest": [
+    {
+      "type": 0,
+      "value": "crwdns2853:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2853:0"
+    }
+  ],
+  "request.hero.didNotReply": [
+    {
+      "type": 0,
+      "value": "crwdns2855:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2855:0"
+    }
+  ],
+  "request.hero.handledPartially": [
+    {
+      "type": 0,
+      "value": "crwdns2857:0crwdne2857:0"
+    }
+  ],
+  "request.hero.handledRequest": [
+    {
+      "type": 0,
+      "value": "crwdns2859:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2859:0"
+    }
+  ],
+  "request.hero.handledSuccessfully": [
+    {
+      "type": 0,
+      "value": "crwdns2861:0crwdne2861:0"
+    }
+  ],
+  "request.hero.header": [
+    {
+      "type": 0,
+      "value": "crwdns2863:0"
+    },
+    {
+      "type": 1,
+      "value": "requestType"
+    },
+    {
+      "type": 0,
+      "value": "crwdnd2863:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2863:0"
+    }
+  ],
+  "request.hero.noReply": [
+    {
+      "type": 0,
+      "value": "crwdns2865:0crwdne2865:0"
+    }
+  ],
+  "request.hero.partiallyHandled": [
+    {
+      "type": 0,
+      "value": "crwdns2867:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2867:0"
+    }
+  ],
+  "request.hero.requestNotSent": [
+    {
+      "type": 0,
+      "value": "crwdns2869:0crwdne2869:0"
+    }
+  ],
+  "request.hero.requestStatus": [
+    {
+      "type": 0,
+      "value": "crwdns2871:0crwdne2871:0"
+    }
+  ],
+  "request.next.circumstancesToDecline": [
+    {
+      "type": 0,
+      "value": "crwdns2873:0crwdne2873:0"
+    }
+  ],
+  "request.next.declineCCPA": [
+    {
+      "type": 0,
+      "value": "crwdns2875:0crwdne2875:0"
+    }
+  ],
+  "request.next.declineGDPR": [
+    {
+      "type": 0,
+      "value": "crwdns2877:0crwdne2877:0"
+    }
+  ],
+  "request.next.escalateToAuthorityNoReply": [
+    {
+      "type": 0,
+      "value": "crwdns2879:0"
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2879:0"
+    }
+  ],
+  "request.next.escalateToAuthorityPartial": [
+    {
+      "type": 0,
+      "value": "crwdns2881:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdnd2881:0"
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2881:0"
+    }
+  ],
+  "request.next.escalatedAndNoSuccess": [
+    {
+      "type": 0,
+      "value": "crwdns2883:0"
+    },
+    {
+      "type": 1,
+      "value": "dpa"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2883:0"
+    }
+  ],
+  "request.next.esclateButton": [
+    {
+      "type": 0,
+      "value": "crwdns2885:0"
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2885:0"
+    }
+  ],
+  "request.next.findOutMore": [
+    {
+      "type": 0,
+      "value": "crwdns2887:0crwdne2887:0"
+    }
+  ],
+  "request.next.organizationsHaveXDays": [
+    {
+      "type": 0,
+      "value": "crwdns2889:0"
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": "crwdnd2889:0"
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2889:0"
+    }
+  ],
+  "request.next.reminderButton": [
+    {
+      "type": 0,
+      "value": "crwdns2891:0crwdne2891:0"
+    }
+  ],
+  "request.next.selectTheOptions1": [
+    {
+      "type": 0,
+      "value": "crwdns2893:0crwdne2893:0"
+    }
+  ],
+  "request.next.selectTheOptions2": [
+    {
+      "type": 0,
+      "value": "crwdns2895:0crwdne2895:0"
+    }
+  ],
+  "request.next.selectTheOptions3": [
+    {
+      "type": 0,
+      "value": "crwdns2897:0crwdne2897:0"
+    }
+  ],
+  "request.next.sendAReminderEmail": [
+    {
+      "type": 0,
+      "value": "crwdns2899:0crwdne2899:0"
+    }
+  ],
+  "request.next.waitUntilXDays": [
+    {
+      "type": 0,
+      "value": "crwdns2901:0"
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2901:0"
+    }
+  ],
+  "request.next.waitUntilXDaysAfterReminder": [
+    {
+      "type": 0,
+      "value": "crwdns2903:0"
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2903:0"
+    }
+  ],
+  "request.next.whatsNext": [
+    {
+      "type": 0,
+      "value": "crwdns2905:0crwdne2905:0"
+    }
+  ],
+  "request.success": [
+    {
+      "type": 0,
+      "value": "crwdns2907:0"
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2907:0"
+    }
+  ],
+  "request.timeline.esclateTo": [
+    {
+      "type": 0,
+      "value": "crwdns2909:0crwdne2909:0"
+    }
+  ],
+  "request.timeline.reminderSent": [
+    {
+      "type": 0,
+      "value": "crwdns2911:0crwdne2911:0"
+    }
+  ],
+  "request.timeline.requestNotSent": [
+    {
+      "type": 0,
+      "value": "crwdns2913:0crwdne2913:0"
+    }
+  ],
+  "request.timeline.requestSent": [
+    {
+      "type": 0,
+      "value": "crwdns2915:0crwdne2915:0"
+    }
+  ],
+  "request.timeline.requestTimeline": [
+    {
+      "type": 0,
+      "value": "crwdns2917:0crwdne2917:0"
+    }
+  ],
+  "request.timeline.sendEscalation": [
+    {
+      "type": 0,
+      "value": "crwdns2919:0crwdne2919:0"
+    }
+  ],
+  "request.timeline.sendEscalationDays": [
+    {
+      "type": 0,
+      "value": "crwdns2921:0days="
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2921:0"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "crwdns2923:0crwdne2923:0"
+    }
+  ],
+  "request.timeline.sendReminderDays": [
+    {
+      "type": 0,
+      "value": "crwdns2925:0days="
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2925:0"
+    }
+  ],
+  "request.timeline.sinceEscalationDays": [
+    {
+      "type": 0,
+      "value": "crwdns2927:0days="
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2927:0"
+    }
+  ],
+  "request.timeline.sinceReminderDays": [
+    {
+      "type": 0,
+      "value": "crwdns2929:0days="
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2929:0"
+    }
+  ],
+  "request.timeline.sinceRequestDays": [
+    {
+      "type": 0,
+      "value": "crwdns2931:0days="
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2931:0"
+    }
+  ],
+  "request.title": [
+    {
+      "type": 0,
+      "value": "crwdns2933:0"
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": "crwdne2933:0"
+    }
+  ],
+  "requestEscalation.complaint": [
+    {
+      "type": 0,
+      "value": "crwdns2935:0crwdne2935:0"
+    }
+  ],
+  "requestEscalation.complaintText": [
+    {
+      "type": 0,
+      "value": "crwdns2937:0crwdne2937:0"
+    }
+  ],
+  "requestEscalation.geography": [
+    {
+      "type": 0,
+      "value": "crwdns2939:0crwdne2939:0"
+    }
+  ],
+  "requestEscalation.geographyText ": [
+    {
+      "type": 0,
+      "value": "crwdns2941:0crwdne2941:0"
+    }
+  ],
+  "requestEscalation.submit": [
+    {
+      "type": 0,
+      "value": "crwdns2943:0crwdne2943:0"
+    }
+  ],
   "search.companyPlaceholder": [
     {
       "type": 0,
@@ -1597,22 +2279,16 @@
       "value": "crwdns2671:0crwdne2671:0"
     }
   ],
-  "thankYou.Bitcoin": [
+  "thankyou.Bitcoin": [
     {
       "type": 0,
-      "value": "crwdns2673:0crwdne2673:0"
+      "value": "crwdns2945:0crwdne2945:0"
     }
   ],
-  "thankYou.Liberapay": [
+  "thankyou.Liberapay": [
     {
       "type": 0,
-      "value": "crwdns2675:0crwdne2675:0"
-    }
-  ],
-  "thankYou.extensionText": [
-    {
-      "type": 0,
-      "value": "crwdns2677:0crwdne2677:0"
+      "value": "crwdns2947:0crwdne2947:0"
     }
   ],
   "thankyou.copyPart1": [
@@ -1637,6 +2313,12 @@
     {
       "type": 0,
       "value": "crwdns2685:0crwdne2685:0"
+    }
+  ],
+  "thankyou.extensionText": [
+    {
+      "type": 0,
+      "value": "crwdns2949:0crwdne2949:0"
     }
   ],
   "thankyou.findCompany": [
