@@ -162,6 +162,7 @@ class Index extends Component {
           <div className={classes.scrollableContainer}></div>
           <NextSeo
             canonical = {generateCanonical(BaseURL, this.props.router.locale)}
+            description = {Description}
             openGraph = {{
               description: Description,
             }}
