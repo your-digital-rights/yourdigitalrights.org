@@ -38,4 +38,7 @@ module.exports = {
     locales: ["de", "en", "es", "fr", "it", "pt", "az"],
     defaultLocale: "en",   
   },
+  images: {
+    domains: ['logo.uplead.com'],
+  },  
 };

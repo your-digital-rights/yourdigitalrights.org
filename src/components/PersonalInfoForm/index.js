@@ -149,7 +149,7 @@ class Form extends Component {
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
-    if (this.state.followUp) {
+    if (this.state.followUp === "YES") {
       tracking.trackFollwups(
         this.state.regulationType,
         this.state.requestType
