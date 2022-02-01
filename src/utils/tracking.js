@@ -94,4 +94,8 @@ export default {
   trackWishlist() {
     this.trackEvent("Wishlist Click");
   },
+
+  trackRequestStatusChange(status) {
+    this.trackEvent("Request Status Change", status);
+  },
 };

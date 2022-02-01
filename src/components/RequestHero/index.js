@@ -4,6 +4,7 @@ import fetch from "universal-fetch";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import styles from "./styles";
+import tracking from "../../utils/tracking";
 
 class Hero extends Component {
   constructor(props) {
@@ -21,6 +22,9 @@ class Hero extends Component {
       if (!response.ok) {
         // If the status didn't update, revert it back
         this.props.setStatus(oldStatus);
+      }
+      else {
+        tracking.trackRequestStatusChange(newStatus);
       }
     });
   }
