@@ -76,7 +76,7 @@ export default {
   },
 
   trackDeletePII(type) {
-    this.trackEvent("DeletePII", type);
+    this.trackEvent("Delete PII", type);
   },
 
   trackWebExtension(browser, sourcePage) {
