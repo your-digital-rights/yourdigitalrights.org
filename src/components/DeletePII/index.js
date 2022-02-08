@@ -32,7 +32,7 @@ const DeletePII = ({ classes, uuid }) => {
       }
     );
     
-    trackDeletePII("Delete " + type + "PII");
+    trackDeletePII("Delete " + type + " PII");
     router.push('/'); // change to thank you page
   };
 

@@ -76,7 +76,7 @@ export default {
   },
 
   trackDeletePII(type) {
-    this.trackEvent("DeletePII", type);
+    this.trackEvent("Delete PII", type);
   },
 
   trackWebExtension(browser, sourcePage) {
@@ -93,5 +93,9 @@ export default {
 
   trackWishlist() {
     this.trackEvent("Wishlist Click");
+  },
+
+  trackRequestStatusChange(status) {
+    this.trackEvent("Request Status Change", status);
   },
 };
