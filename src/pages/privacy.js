@@ -94,17 +94,17 @@ const Privacy = ({ classes, router }) => {
             </ul>
             <FormattedMessage
               id="privacy.personalDataBodyOneE"
-              defaultMessage="We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers. By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+              defaultMessage="We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers."
             />
           </Typography>
           <br />
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="privacy.additionalPersonalData"
-              defaultMessage="Request Followup"
+              defaultMessage="Request Followups"
             />
           </Typography>
-          <Typography gutterBottom={true}>
+          <Typography gutterBottom={false}>
             <FormattedMessage
               id="privacy.additionalPersonalDataBody1"
               defaultMessage='While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:'
@@ -131,9 +131,16 @@ const Privacy = ({ classes, router }) => {
             </ul>
             <FormattedMessage
               id="privacy.additionalPersonalDataBodyOneE"
-              defaultMessage="We keep Extended Personal Data for a maximum of 120 days. By opting-in to providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. You acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+              defaultMessage="We keep Extended Personal Data for a maximum of 120 days."
             />
           </Typography>
+          <br />
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="privacy.additionalPersonalDataBodyOneF"
+              defaultMessage="By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+            />
+          </Typography>          
           <br />
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
@@ -173,7 +180,7 @@ const Privacy = ({ classes, router }) => {
               <li>
                 <FormattedMessage
                   id="privacy.processorsB"
-                  defaultMessage="Amazon AWS: a provider of cloud infrastracture services. We use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+                  defaultMessage="Amazon AWS: a provider of cloud infrastracture services. When you opt-in to Request Followups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
                   values={{
                     matomo: (
                       <a href="https://aws.amazon.com/privacy/?nc1=f_pr">
