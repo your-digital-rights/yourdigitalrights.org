@@ -152,6 +152,9 @@
   "data-brokers.title": {
     "message": "Opt Out of the Top Data Brokers"
   },
+  "dataProcessors": {
+    "message": "Data sharing and processors"
+  },
   "deletePII.deleteAllPII": {
     "message": "All requests"
   },
@@ -644,8 +647,23 @@
   "pressIntro.title": {
     "message": "As featured on"
   },
-  "privacy.analyticsBodyOneA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. You can visit their { matomo } page."
+  "privacy.additionalPersonalData": {
+    "message": "Request Followup"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Your email address"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "We keep Extended Personal Data for a maximum of 120 days. By opting-in to providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. You acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
   },
   "privacy.contact": {
     "message": "Contact"
@@ -657,7 +675,7 @@
     "message": "Cookies and Tracking"
   },
   "privacy.cookiesBody": {
-    "message": "In operating the Service we use a technology called \"cookies\". A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service. While we do not use cookies to deliver the Service, we use cookies to help us analyze Service usage more accurately, and to save the choices you make on the website so that it is easier for you to use the service next time. In all cases in which we use cookies, we will not collect Personal Data except with your explicit permission. On most web browsers, you will find a \"help\" section on the toolbar. Please refer to this section for information on how to receive notification when you are receiving a new cookie and how to turn cookies off."
+    "message": "We only use cookies to save the choices you make on the website so that it is easier for you to use the service next time. A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service."
   },
   "privacy.description": {
     "message": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
@@ -665,44 +683,41 @@
   "privacy.lastUpdated": {
     "message": "Last updated:"
   },
-  "privacy.nameAndAdditionalInfo": {
-    "message": "Name and Additional Information (such as a Username, Customer ID or Account Number)"
-  },
-  "privacy.nameAndAdditionalInfoBody2": {
-    "message": "We do not retain any of this information on our servers and do not share it with any 3rd parties. We use this information to generate a request email which is rendered on your personal computer via your default email client. It is up to you to then send this email."
-  },
   "privacy.personalData": {
-    "message": "Personal Data That You Provide"
+    "message": "Sending Requests"
   },
   "privacy.personalDataBody1": {
-    "message": "While using this Service, we may ask you to provide us with certain personal information that can be used to contact or identify you (\"Personal Data\"). The Personally identifiable information collect is:"
+    "message": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Your name"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Additional information needed to identify you with the organizations you choose to opt-out from (such as a Username, Customer ID or Account Number)"
-  },
-  "privacy.personalDataBodyOneC": {
-    "message": "Cookies and Usage Data"
+    "message": "Additional information needed to identify you with the organizations you choose to contact (such as a Username, Customer ID or Account Number)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of yourdigitalrights.org and the authorized third parties referred to in this Policy."
+    "message": "We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers. By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
   },
   "privacy.privacyTitle": {
     "message": "Privacy Policy"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their { matomo } page."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: a provider of cloud infrastracture services. We use AWS to process the emails you send, store the related information and send you reminder emails. You can visit their { matomo } page."
   },
   "privacy.promise": {
     "message": "Our Promise"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We want to be transparent in this regard, and we strongly believe in keeping your personal information personal, private and secure. We will limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (yourdigitalrights.org). We will not sell or rent your personal information to anyone and will not retain it on our servers. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use none essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which requiere you to provide additional Personal Data. Such cases requier you to explicitly opt-in, and are clearly labled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more then 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
   },
   "privacy.title": {
     "message": "Privacy Policy"
   },
   "privacy.usageDataBody": {
-    "message": "We may collect information on how the Service is accessed and used (\"Usage Data\"). This Usage Data may include information such as the Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, the actions you perform, unique device identifiers and other diagnostic data. We use the following third-party Service Provider to monitor and analyze the use of our Service:"
+    "message": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
   },
   "redirect.continueText": {
     "message": "Continue"
@@ -979,8 +994,5 @@
   },
   "thankyou.title": {
     "message": "Thank You"
-  },
-  "usageData": {
-    "message": "Usage Data"
   }
 }
