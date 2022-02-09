@@ -180,7 +180,7 @@
     "message": "Dona via Liberapay"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
+    "message": "Your digital rights se creó porque para nosotros la privacidad es importante y ejercer el derecho a la privacidad debería ser fácil y accesible. Por eso lo hemos desarrollado esta aplicación gratuita. Sus donaciones nos permiten dedicar más tiempo a mejorar este servicio."
   },
   "donations.headingDonate": {
     "message": "Necesitamos tu apoyo"
@@ -438,7 +438,7 @@
     "message": "Preguntas frecuentes"
   },
   "footer.contact": {
-    "message": "For more information please <a>contact us</a>. © Copyright 2019 - 2022"
+    "message": "Para obtener más información, <a>contáctenos aquí</a>. © Copyright 2019"
   },
   "footer.disclaimer": {
     "message": "<span>Aviso:</span> Este servicio se proporciona tal cual, sin garantía de ningún tipo. El uso de este servicio es bajo su propio riesgo. No podemos responsabilizarnos por ningún daño directo o indirecto que resulte del uso de este servicio. La información relacionado con asuntos legales proporcionada por este servicio junto con el contenido de esta web, se proporciona para su uso privado y no constituye asesoramiento legal. Si necesita asesoramiento legal específico, debe consultar con un abogado autorizado."
@@ -450,7 +450,7 @@
     "message": "<a>nuestra Misión</a>"
   },
   "footer.poweredBy": {
-    "message": "Powered by Vercel"
+    "message": "Con tecnología de Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Política de privacidad</a>"
@@ -477,7 +477,7 @@
     "message": "Un gráfico que representa la interfaz de usuario"
   },
   "howItWorks.search": {
-    "message": "Search for an organization using the search box above."
+    "message": "Buscar una organización usando el buscador arriba."
   },
   "howItWorks.searchTitle": {
     "message": "Busque"
@@ -585,10 +585,10 @@
     "message": "Proporcione cualquier información adicional que ayude a la organización a localizar sus datos en sus sistemas de información como nombre de usuario, ID de cliente o número de cliente. <strong>Por favor, no proporcione contraseñas o ninguna información personal que la organización no tenga todavía.</strong>"
   },
   "personalInfoForm.NoFollowUpLabel": {
-    "message": "No, I can manage on my own"
+    "message": "No, puedo administrar por mi cuenta"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Yes, email me follow-up instructions"
+    "message": "Sí, enviarme instrucciones de seguimiento por correo electrónico"
   },
   "personalInfoForm.accessRequestLabelText": {
     "message": "Envíame una copia de mis datos"
@@ -645,16 +645,16 @@
     "message": "Revise su solicitud"
   },
   "pressIntro.title": {
-    "message": "As featured on"
+    "message": "Destacado en"
   },
   "privacy.additionalPersonalData": {
-    "message": "Request Followup"
+    "message": "Solicitud seguimiento"
   },
   "privacy.additionalPersonalDataBody1": {
     "message": "While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
-    "message": "Your email address"
+    "message": "Tu dirección de correo electrónico"
   },
   "privacy.additionalPersonalDataBodyOneB": {
     "message": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
@@ -771,22 +771,22 @@
     "message": "Recipient email address:"
   },
   "request.details.show.escalation": {
-    "message": "View escalation email"
+    "message": "Ver el correo de escalado"
   },
   "request.details.show.reminder": {
-    "message": "View reminder email"
+    "message": "Ver el correo de recordatorio"
   },
   "request.details.show.request": {
-    "message": "View request email"
+    "message": "Ver el correo de solicitud"
   },
   "request.details.type": {
     "message": "Tipo de solicitud:"
   },
   "request.hero.declined": {
-    "message": "Declined"
+    "message": "Denegado"
   },
   "request.hero.declinedRequest": {
-    "message": "{companyName} declined your request."
+    "message": "{companyName} rechazó su solicitud."
   },
   "request.hero.didNotReply": {
     "message": "{companyName} did not reply yet."
