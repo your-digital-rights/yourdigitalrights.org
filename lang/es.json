@@ -309,7 +309,7 @@
     "message": "Se ha negado a que usen sus datos y sus intereses superan a los de la organización que los utiliza."
   },
   "faq.body7Av": {
-    "message": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
+    "message": "La organización ha recopilado o utilizado sus datos de forma ilegal. Por ejemplo: no ha cumplido la normativa sobre protección de datos."
   },
   "faq.body7Avi": {
     "message": "La organización tiene la obligación legal de borrar sus datos."
@@ -471,7 +471,7 @@
     "message": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
-    "message": "Follow-up"
+    "message": "Seguimiento"
   },
   "howItWorks.imgAlt": {
     "message": "Un gráfico que representa la interfaz de usuario"
@@ -735,34 +735,34 @@
     "message": "View details about a {regulationType} request submitted with this free service."
   },
   "request.details.date": {
-    "message": "Request email date:"
+    "message": "Fecha de solicitud:"
   },
   "request.details.escalationDate": {
-    "message": "Escalation email date:"
+    "message": "Fecha de escalada:"
   },
   "request.details.header": {
-    "message": "Request details"
+    "message": "Detalles de la solicitud"
   },
   "request.details.hide.escalation": {
-    "message": "Hide escalation email"
+    "message": "Ocultar correo electrónico de escalada"
   },
   "request.details.hide.reminder": {
-    "message": "Hide reminder email"
+    "message": "Ocultar correo electrónico de recordatorio"
   },
   "request.details.hide.request": {
-    "message": "Hide request email"
+    "message": "Ocultar correo electrónico de solicitud"
   },
   "request.details.name": {
-    "message": "Requested by:"
+    "message": "Solicitado por:"
   },
   "request.details.nowDetails": {
     "message": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
   },
   "request.details.organization": {
-    "message": "Recipient:"
+    "message": "Destinatario:"
   },
   "request.details.regulation": {
-    "message": "Regulation:"
+    "message": "Regulación:"
   },
   "request.details.reminderDate": {
     "message": "Reminder email date:"
