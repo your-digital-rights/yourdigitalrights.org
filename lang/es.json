@@ -564,7 +564,7 @@
     "message": "Este servicio <disclamer> no esta afiliado con</disclamer> (descubre más <about>sobre nosotros</about>)."
   },
   "orgHero.orgName": {
-    "message": "Organization: {org}."
+    "message": "Dominio: {org}."
   },
   "orgHero.subTitle": {
     "message": "Use este servicio gratuito para enviar solicitudes de datos {ccpa} y {gdpr}"
@@ -579,7 +579,7 @@
     "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "Turn on Smart Follow-up Assistance"
+    "message": "Activar Asistencia de Seguimiento Inteligente"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
     "message": "Proporcione cualquier información adicional que ayude a la organización a localizar sus datos en sus sistemas de información como nombre de usuario, ID de cliente o número de cliente. <strong>Por favor, no proporcione contraseñas o ninguna información personal que la organización no tenga todavía.</strong>"
@@ -657,7 +657,7 @@
     "message": "Tu dirección de correo electrónico"
   },
   "privacy.additionalPersonalDataBodyOneB": {
-    "message": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+    "message": "El contenido de los correos electrónicos de solicitud de datos que envía a organizaciones y Agencias de Protección de Datos (DPAs)"
   },
   "privacy.additionalPersonalDataBodyOneC": {
     "message": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
@@ -687,7 +687,7 @@
     "message": "Última actualización"
   },
   "privacy.personalData": {
-    "message": "Sending Requests"
+    "message": "Enviando solicitudes"
   },
   "privacy.personalDataBody1": {
     "message": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
@@ -846,10 +846,10 @@
     "message": "Send the organization a reminder email"
   },
   "request.next.selectTheOptions1": {
-    "message": "Please select from the following options:"
+    "message": "Por favor, seleccione de las siguientes opciones:"
   },
   "request.next.selectTheOptions2": {
-    "message": "If you wish to take further action then please select from the following options:"
+    "message": "Si desea continuar con el proceso, por favor, seleccione entre las siguientes opciones:"
   },
   "request.next.selectTheOptions3": {
     "message": "If you do not wish to wait then please select from the following options:"
