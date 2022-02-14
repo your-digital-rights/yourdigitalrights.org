@@ -63,7 +63,7 @@ const Privacy = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="privacy.promiseBody"
-              defaultMessage="You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use none essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on  optional features which requiere you to provide additional Personal Data. Such cases requier you to explicitly opt-in, and are clearly labled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more then 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+              defaultMessage="You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on  optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
             />
           </Typography>
           <br />
@@ -101,13 +101,13 @@ const Privacy = ({ classes, router }) => {
           <Typography gutterBottom={true} variant="body2">
             <FormattedMessage
               id="privacy.additionalPersonalData"
-              defaultMessage="Request Followups"
+              defaultMessage="Request Follow Ups"
             />
           </Typography>
           <Typography gutterBottom={false}>
             <FormattedMessage
               id="privacy.additionalPersonalDataBody1"
-              defaultMessage='While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:'
+              defaultMessage='While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:'
             />
             <ul>
               <li>
@@ -180,7 +180,7 @@ const Privacy = ({ classes, router }) => {
               <li>
                 <FormattedMessage
                   id="privacy.processorsB"
-                  defaultMessage="Amazon AWS: a provider of cloud infrastracture services. When you opt-in to Request Followups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+                  defaultMessage="Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
                   values={{
                     matomo: (
                       <a href="https://aws.amazon.com/privacy/?nc1=f_pr">
