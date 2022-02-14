@@ -468,7 +468,7 @@
     "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
   },
   "howItWorks.followUp": {
-    "message": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    "message": "using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -477,13 +477,13 @@
     "message": "A graphic representing the user interface"
   },
   "howItWorks.search": {
-    "message": "Search for an organization using the search box above."
+    "message": "for an organization using the search box at the top of this page."
   },
   "howItWorks.searchTitle": {
     "message": "Search"
   },
   "howItWorks.send": {
-    "message": "Send the organization a request to delete or access your personal data."
+    "message": "the organization a request to delete, or send you a copy of your data."
   },
   "howItWorks.sendTitle": {
     "message": "Send"
@@ -492,16 +492,16 @@
     "message": "How it works"
   },
   "howItWorks.whyBody": {
-    "message": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your <donations>donations</donations>. Read more <about>about us</about>."
+    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your <donations>donations</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Why Trust Us?"
   },
   "howItWorks.yourData": {
-    "message": "Privacy regulations such as the <gdpr>GDPR</gdpr> and the <ccpa>CCPA</ccpa> require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+    "message": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   },
   "howItWorks.yourDataTitle": {
-    "message": "It's your data, own it!"
+    "message": "You have the right to privacy!"
   },
   "index.description": {
     "message": "Delete your account or access the personal data organizations have on you using this free service."
@@ -648,10 +648,10 @@
     "message": "As featured on"
   },
   "privacy.additionalPersonalData": {
-    "message": "Request Followup"
+    "message": "Request Follow Ups"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+    "message": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
     "message": "Your email address"
@@ -708,13 +708,13 @@
     "message": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their { matomo } page."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: a provider of cloud infrastracture services. When you opt-in to Request Followups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+    "message": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
   },
   "privacy.promise": {
     "message": "Our Promise"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use none essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which requiere you to provide additional Personal Data. Such cases requier you to explicitly opt-in, and are clearly labled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more then 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
   },
   "privacy.title": {
     "message": "Privacy Policy"
