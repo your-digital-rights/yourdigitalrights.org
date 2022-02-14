@@ -152,6 +152,9 @@
   "data-brokers.title": {
     "message": "Rinuncia ai migliori broker di dati"
   },
+  "dataProcessors": {
+    "message": "Condivisione dei dati e incaricati del trattamento"
+  },
   "deletePII.deleteAllPII": {
     "message": "Tutte le richieste"
   },
@@ -465,7 +468,7 @@
     "message": "Molte organizzazioni raccolgono e vendono i tuoi dati personali, spesso senza il tuo consenso. Utilizza questo servizio gratuito per inviare loro una richiesta di cancellazione dei dati o di accesso. Inizia cercando un'organizzazione di seguito. Non sai da dove cominciare? Rinuncia a questi <a>principali broker di dati</a>."
   },
   "howItWorks.followUp": {
-    "message": "Il nostro assistente di follow-up intelligente può aiutare ad assicurarsi che l'organizzazione soddisfi la tua richiesta, e anche aiutarvi ad aumentare la vostra richiesta al pertinente regolatore governativo."
+    "message": "utilizzare il nostro assistente di follow-up intelligente per garantire che l'organizzazione soddisfi la tua richiesta, e anche aiutarvi ad aumentare la vostra richiesta al pertinente regolatore governativo."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -474,13 +477,13 @@
     "message": "Un grafico che rappresenta l'interfaccia utente"
   },
   "howItWorks.search": {
-    "message": "Cerca un'organizzazione usando la casella di ricerca qui sopra."
+    "message": "per un'organizzazione che utilizza la casella di ricerca in cima a questa pagina."
   },
   "howItWorks.searchTitle": {
     "message": "Ricerca"
   },
   "howItWorks.send": {
-    "message": "Invia all'organizzazione una richiesta per cancellare o accedere ai tuoi dati personali."
+    "message": "l'organizzazione una richiesta per cancellare o inviare una copia dei tuoi dati."
   },
   "howItWorks.sendTitle": {
     "message": "Spedire"
@@ -489,16 +492,16 @@
     "message": "Come funziona"
   },
   "howItWorks.whyBody": {
-    "message": "Abbiamo creato questo servizio perché crediamo che la privacy sia importante e che esercitare il tuo diritto alla privacy dovrebbe essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è autofinanziato dai suoi creatori e con l'aiuto delle tue <donations>donazioni</donations>. Leggi di più <about>su di noi</about>."
+    "message": "Siamo una carità registrata chiamata <cd>Cosciente Digitale</cd>. Abbiamo creato questo servizio perché crediamo che la privacy conti, e che l'esercizio del vostro diritto alla privacy dovrebbe essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è finanziato dai suoi creatori e con l'aiuto delle tue <donations>donazioni</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Perché fidarsi di noi?"
   },
   "howItWorks.yourData": {
-    "message": "Le norme sulla privacy come il <gdpr>GDPR</gdpr> e il <ccpa>CCPA</ccpa> richiedono alle organizzazioni di cancellare o fornire una copia dei tuoi dati personali su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide."
+    "message": "Legislazioni sulla protezione dei dati quali il GDPR (Unione europea) e la CCPA (California), richiedere alle organizzazioni di eliminare o fornire una copia dei propri dati su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide. La nostra missione è di rendere facile per voi l'esercizio dei vostri diritti legali."
   },
   "howItWorks.yourDataTitle": {
-    "message": "Sono i tuoi dati, tienili!"
+    "message": "Hai il diritto alla privacy!"
   },
   "index.description": {
     "message": "Elimina il tuo account o accedi ai dati personali che le organizzazioni hanno su di te utilizzando questo servizio gratuito."
@@ -644,8 +647,26 @@
   "pressIntro.title": {
     "message": "Come descritto su"
   },
-  "privacy.analyticsBodyOneA": {
-    "message": "Matomo: un servizio di analisi web attento alla privacy di Innocraft. Puoi visitare la loro pagina { matomo }"
+  "privacy.additionalPersonalData": {
+    "message": "Richiedi Segui Ups"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Durante l'utilizzo di questo servizio, a seguito della presentazione di una richiesta di dati, è possibile opt-in per ricevere ulteriore supporto da noi via e-mail. Se si sceglie di utilizzare questa funzione opzionale, raccoglieremo i seguenti dati personali aggiuntivi:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Il tuo indirizzo email"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Il contenuto delle email di richiesta di dati inviate alle organizzazioni e alle agenzie di protezione dei dati (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadati relativi alle email di richiesta di dati inviate alle organizzazioni e alle agenzie di protezione dei dati (DPA), come il momento in cui una e-mail è stata inviata e il a e da indirizzi"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Manteniamo i Dati Personali Estesi per un massimo di 120 giorni."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Fornendoci volontariamente i Dati Personali, acconsentite al nostro utilizzo in conformità alla presente Informativa sulla privacy. Se fornisci Dati Personali a questo sito web, l'utente riconosce e accetta che tali Dati Personali possano essere trasferiti dalla sua posizione attuale agli uffici e ai server dei YourDigitalRights. rg e i terzi autorizzati di cui alla presente Informativa."
   },
   "privacy.contact": {
     "message": "Contatto"
@@ -657,7 +678,7 @@
     "message": "Cookie e monitoraggio"
   },
   "privacy.cookiesBody": {
-    "message": "Nella gestione del Servizio utilizziamo una tecnologia chiamata \"cookie\". Un cookie è un'informazione che il computer che ospita il nostro Servizio fornisce al tuo browser quando accedi al Servizio. Sebbene non utilizziamo i cookie per fornire il Servizio, utilizziamo i cookie per aiutarci ad analizzare l'utilizzo del Servizio in modo più accurato e per salvare le scelte che fai sul sito Web in modo che sia più facile per te utilizzare il servizio la prossima volta. In tutti i casi in cui utilizziamo i cookie, non raccoglieremo Dati Personali se non con il tuo esplicito consenso. Sulla maggior parte dei browser web, troverai una sezione \"aiuto\" sulla barra degli strumenti. Fare riferimento a questa sezione per informazioni su come ricevere una notifica quando si riceve un nuovo cookie e su come disattivare i cookie."
+    "message": "Utilizziamo i cookie solo per salvare le scelte effettuate sul sito web in modo che sia più facile per l'utente utilizzare il servizio la prossima volta. Un cookie è un elemento informativo che il computer che ospita il nostro Servizio fornisce al Suo browser quando Lei accede al Servizio."
   },
   "privacy.description": {
     "message": "Tu possiedi i tuoi dati, noi esistiamo per aiutarti a controllare chi vi ha accesso. Questa è la nostra pagina sulla politica sulla privacy."
@@ -665,44 +686,41 @@
   "privacy.lastUpdated": {
     "message": "Ultimo aggiornamento:"
   },
-  "privacy.nameAndAdditionalInfo": {
-    "message": "Nome e informazioni aggiuntive (come nome utente, ID cliente o numero di conto)"
-  },
-  "privacy.nameAndAdditionalInfoBody2": {
-    "message": "Non conserviamo nessuna di queste informazioni sui nostri server e non le condividiamo con terze parti. Utilizziamo queste informazioni per generare un'e-mail di richiesta che viene visualizzata sul tuo personal computer tramite il tuo client di posta elettronica predefinito. Sta a te inviare questa email."
-  },
   "privacy.personalData": {
-    "message": "Dati personali forniti dall'utente"
+    "message": "Invio Richieste"
   },
   "privacy.personalDataBody1": {
-    "message": "Durante l'utilizzo di questo Servizio, potremmo chiederti di fornirci alcune informazioni personali che possono essere utilizzate per contattarti o identificarti (\"Dati personali\"). Le informazioni di identificazione personale raccolte sono:"
+    "message": "Durante l'invio delle richieste (senza attivare la funzione di follow-up della richiesta opzionale) vi chiediamo di fornirci i seguenti dati personali:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Il tuo nome"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Ulteriori informazioni necessarie per identificarti con le organizzazioni dalle quali scegli di rinunciare (come un nome utente, un ID cliente o un numero di conto)"
-  },
-  "privacy.personalDataBodyOneC": {
-    "message": "Cookie e dati di utilizzo"
+    "message": "Ulteriori informazioni necessarie per identificarti con le organizzazioni che scegli di contattare (come un nome utente, un ID cliente o un numero di account)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "Fornendoci volontariamente i Dati Personali, acconsenti al nostro utilizzo in conformità con la presente Informativa sulla privacy. Se fornisci Dati Personali a questo sito web, riconosci e accetti che tali Dati Personali possano essere trasferiti dalla tua posizione attuale agli uffici e ai server di yourdigitalrights.org e alle terze parti autorizzate di cui alla presente Informativa."
+    "message": "Utilizziamo i dati personali raccolti solo quando invii richieste per generare un'e-mail e non li memorizziamo sui nostri server."
   },
   "privacy.privacyTitle": {
     "message": "politica sulla riservatezza"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: un servizio di analisi web sulla privacy di Innocraft. Utilizziamo Matomo per raccogliere informazioni anonime su come il Servizio è accessibile e utilizzato ('Dati di utilizzo'). Puoi visitare la loro pagina { matomo }."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: fornitore di servizi di infrastruttura cloud. Quando si sceglie di richiedere Segui Ups utilizziamo AWS per elaborare le e-mail che invii, memorizzare le informazioni relative e inviarti e-mail di promemoria. Puoi visitare la loro pagina { matomo }."
   },
   "privacy.promise": {
     "message": "Nostra promessa"
   },
   "privacy.promiseBody": {
-    "message": "Tu possiedi i tuoi dati. Esistiamo per aiutarti a controllare chi ha accesso ad esso. Vogliamo essere trasparenti al riguardo e crediamo fermamente nel mantenere le tue informazioni personali personali, private e sicure. Limiteremo i Dati Personali che raccogliamo da te al minimo indispensabile per fornire questo Servizio (yourdigitalrights.org). Non venderemo o affitteremo le tue informazioni personali a nessuno e non le conserveremo sui nostri server. Condivideremo le tue informazioni personali solo quando è necessario per fornire il servizio o come altrimenti indicato nella presente Informativa."
+    "message": "Possiedi i tuoi dati. Esiste per aiutarti a controllare chi ha accesso ad esso. Crediamo fermamente nel mantenere i tuoi dati personali personali, privati e sicuri. Non utilizziamo cookie non essenziali e limitiamo i Dati Personali che raccogliamo da te al minimo indispensabile per fornire questo Servizio (Sosti diritti digitali). rg). In alcuni casi è possibile attivare funzioni opzionali che richiedono di fornire dati personali aggiuntivi. Tali casi richiedono esplicitamente di opt-in e sono chiaramente etichettati. Non venderemo mai o affitteremo le tue informazioni personali a nessuno e non le conserveremo sui nostri server per più di 120 giorni. Condivideremo le tue informazioni personali solo quando sarà necessario fornire il servizio o come diversamente descritto nella presente Informativa."
   },
   "privacy.title": {
     "message": "politica sulla riservatezza"
   },
   "privacy.usageDataBody": {
-    "message": "Potremmo raccogliere informazioni su come si accede e si utilizza il Servizio (\"Dati di utilizzo\"). Questi Dati di utilizzo possono includere informazioni quali l'indirizzo del protocollo Internet (ad es. indirizzo IP), il tipo di browser, la versione del browser, le pagine del nostro Servizio che visiti, l'ora e la data della tua visita, il tempo trascorso su tali pagine, le azioni eseguite, identificatori univoci del dispositivo e altri dati diagnostici. Utilizziamo il seguente fornitore di servizi di terze parti per monitorare e analizzare l'utilizzo del nostro servizio:"
+    "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
   },
   "redirect.continueText": {
     "message": "Continua"
@@ -979,8 +997,5 @@
   },
   "thankyou.title": {
     "message": "Grazie"
-  },
-  "usageData": {
-    "message": "Dati di utilizzo"
   }
 }

@@ -152,6 +152,9 @@
   "data-brokers.title": {
     "message": "crwdns2305:0crwdne2305:0"
   },
+  "dataProcessors": {
+    "message": "crwdns3192:0crwdne3192:0"
+  },
   "deletePII.deleteAllPII": {
     "message": "crwdns2771:0crwdne2771:0"
   },
@@ -465,7 +468,7 @@
     "message": "crwdns2499:0crwdne2499:0"
   },
   "howItWorks.followUp": {
-    "message": "crwdns2793:0crwdne2793:0"
+    "message": "crwdns3232:0crwdne3232:0"
   },
   "howItWorks.followUpTitle": {
     "message": "crwdns2795:0crwdne2795:0"
@@ -474,13 +477,13 @@
     "message": "crwdns2505:0crwdne2505:0"
   },
   "howItWorks.search": {
-    "message": "crwdns2797:0crwdne2797:0"
+    "message": "crwdns3234:0crwdne3234:0"
   },
   "howItWorks.searchTitle": {
     "message": "crwdns2509:0crwdne2509:0"
   },
   "howItWorks.send": {
-    "message": "crwdns2799:0crwdne2799:0"
+    "message": "crwdns3236:0crwdne3236:0"
   },
   "howItWorks.sendTitle": {
     "message": "crwdns2513:0crwdne2513:0"
@@ -489,16 +492,16 @@
     "message": "crwdns2515:0crwdne2515:0"
   },
   "howItWorks.whyBody": {
-    "message": "crwdns2517:0crwdne2517:0"
+    "message": "crwdns3238:0crwdne3238:0"
   },
   "howItWorks.whyTitle": {
     "message": "crwdns2519:0crwdne2519:0"
   },
   "howItWorks.yourData": {
-    "message": "crwdns2801:0crwdne2801:0"
+    "message": "crwdns3240:0crwdne3240:0"
   },
   "howItWorks.yourDataTitle": {
-    "message": "crwdns2523:0crwdne2523:0"
+    "message": "crwdns3242:0crwdne3242:0"
   },
   "index.description": {
     "message": "crwdns2525:0crwdne2525:0"
@@ -644,8 +647,26 @@
   "pressIntro.title": {
     "message": "crwdns2815:0crwdne2815:0"
   },
-  "privacy.analyticsBodyOneA": {
-    "message": "crwdns2599:0{ matomo }crwdne2599:0"
+  "privacy.additionalPersonalData": {
+    "message": "crwdns3244:0crwdne3244:0"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "crwdns3246:0crwdne3246:0"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "crwdns3198:0crwdne3198:0"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "crwdns3200:0crwdne3200:0"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "crwdns3202:0crwdne3202:0"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "crwdns3224:0crwdne3224:0"
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "crwdns3226:0crwdne3226:0"
   },
   "privacy.contact": {
     "message": "crwdns2601:0crwdne2601:0"
@@ -657,7 +678,7 @@
     "message": "crwdns2605:0crwdne2605:0"
   },
   "privacy.cookiesBody": {
-    "message": "crwdns2607:0crwdne2607:0"
+    "message": "crwdns3206:0crwdne3206:0"
   },
   "privacy.description": {
     "message": "crwdns2609:0crwdne2609:0"
@@ -665,44 +686,41 @@
   "privacy.lastUpdated": {
     "message": "crwdns2611:0crwdne2611:0"
   },
-  "privacy.nameAndAdditionalInfo": {
-    "message": "crwdns2613:0crwdne2613:0"
-  },
-  "privacy.nameAndAdditionalInfoBody2": {
-    "message": "crwdns2615:0crwdne2615:0"
-  },
   "privacy.personalData": {
-    "message": "crwdns2617:0crwdne2617:0"
+    "message": "crwdns3208:0crwdne3208:0"
   },
   "privacy.personalDataBody1": {
-    "message": "crwdns2619:0crwdne2619:0"
+    "message": "crwdns3210:0crwdne3210:0"
   },
   "privacy.personalDataBodyOneA": {
     "message": "crwdns2621:0crwdne2621:0"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "crwdns2623:0crwdne2623:0"
-  },
-  "privacy.personalDataBodyOneC": {
-    "message": "crwdns2625:0crwdne2625:0"
+    "message": "crwdns3212:0crwdne3212:0"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "crwdns2627:0crwdne2627:0"
+    "message": "crwdns3228:0crwdne3228:0"
   },
   "privacy.privacyTitle": {
     "message": "crwdns2629:0crwdne2629:0"
+  },
+  "privacy.processorsA": {
+    "message": "crwdns3216:0{ matomo }crwdne3216:0"
+  },
+  "privacy.processorsB": {
+    "message": "crwdns3248:0{ matomo }crwdne3248:0"
   },
   "privacy.promise": {
     "message": "crwdns2631:0crwdne2631:0"
   },
   "privacy.promiseBody": {
-    "message": "crwdns2633:0crwdne2633:0"
+    "message": "crwdns3250:0crwdne3250:0"
   },
   "privacy.title": {
     "message": "crwdns2635:0crwdne2635:0"
   },
   "privacy.usageDataBody": {
-    "message": "crwdns2637:0crwdne2637:0"
+    "message": "crwdns3222:0crwdne3222:0"
   },
   "redirect.continueText": {
     "message": "crwdns2639:0crwdne2639:0"
@@ -979,8 +997,5 @@
   },
   "thankyou.title": {
     "message": "crwdns2693:0crwdne2693:0"
-  },
-  "usageData": {
-    "message": "crwdns2695:0crwdne2695:0"
   }
 }
