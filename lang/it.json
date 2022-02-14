@@ -153,7 +153,7 @@
     "message": "Rinuncia ai migliori broker di dati"
   },
   "dataProcessors": {
-    "message": "Data sharing and processors"
+    "message": "Condivisione dei dati e incaricati del trattamento"
   },
   "deletePII.deleteAllPII": {
     "message": "Tutte le richieste"
@@ -468,7 +468,7 @@
     "message": "Molte organizzazioni raccolgono e vendono i tuoi dati personali, spesso senza il tuo consenso. Utilizza questo servizio gratuito per inviare loro una richiesta di cancellazione dei dati o di accesso. Inizia cercando un'organizzazione di seguito. Non sai da dove cominciare? Rinuncia a questi <a>principali broker di dati</a>."
   },
   "howItWorks.followUp": {
-    "message": "using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    "message": "utilizzare il nostro assistente di follow-up intelligente per garantire che l'organizzazione soddisfi la tua richiesta, e anche aiutarvi ad aumentare la vostra richiesta al pertinente regolatore governativo."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -477,13 +477,13 @@
     "message": "Un grafico che rappresenta l'interfaccia utente"
   },
   "howItWorks.search": {
-    "message": "for an organization using the search box at the top of this page."
+    "message": "per un'organizzazione che utilizza la casella di ricerca in cima a questa pagina."
   },
   "howItWorks.searchTitle": {
     "message": "Ricerca"
   },
   "howItWorks.send": {
-    "message": "the organization a request to delete, or send you a copy of your data."
+    "message": "l'organizzazione una richiesta per cancellare o inviare una copia dei tuoi dati."
   },
   "howItWorks.sendTitle": {
     "message": "Spedire"
@@ -492,16 +492,16 @@
     "message": "Come funziona"
   },
   "howItWorks.whyBody": {
-    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your <donations>donations</donations>."
+    "message": "Siamo una carità registrata chiamata <cd>Cosciente Digitale</cd>. Abbiamo creato questo servizio perché crediamo che la privacy conti, e che l'esercizio del vostro diritto alla privacy dovrebbe essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è finanziato dai suoi creatori e con l'aiuto delle tue <donations>donazioni</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Perché fidarsi di noi?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Legislazioni sulla protezione dei dati quali il GDPR (Unione europea) e la CCPA (California), richiedere alle organizzazioni di eliminare o fornire una copia dei propri dati su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide. La nostra missione è di rendere facile per voi l'esercizio dei vostri diritti legali."
   },
   "howItWorks.yourDataTitle": {
-    "message": "You have the right to privacy!"
+    "message": "Hai il diritto alla privacy!"
   },
   "index.description": {
     "message": "Elimina il tuo account o accedi ai dati personali che le organizzazioni hanno su di te utilizzando questo servizio gratuito."
@@ -648,25 +648,25 @@
     "message": "Come descritto su"
   },
   "privacy.additionalPersonalData": {
-    "message": "Request Follow Ups"
+    "message": "Richiedi Segui Ups"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+    "message": "Durante l'utilizzo di questo servizio, a seguito della presentazione di una richiesta di dati, è possibile opt-in per ricevere ulteriore supporto da noi via e-mail. Se si sceglie di utilizzare questa funzione opzionale, raccoglieremo i seguenti dati personali aggiuntivi:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
-    "message": "Your email address"
+    "message": "Il tuo indirizzo email"
   },
   "privacy.additionalPersonalDataBodyOneB": {
-    "message": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+    "message": "Il contenuto delle email di richiesta di dati inviate alle organizzazioni e alle agenzie di protezione dei dati (DPA)"
   },
   "privacy.additionalPersonalDataBodyOneC": {
-    "message": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
+    "message": "Metadati relativi alle email di richiesta di dati inviate alle organizzazioni e alle agenzie di protezione dei dati (DPA), come il momento in cui una e-mail è stata inviata e il a e da indirizzi"
   },
   "privacy.additionalPersonalDataBodyOneE": {
-    "message": "We keep Extended Personal Data for a maximum of 120 days."
+    "message": "Manteniamo i Dati Personali Estesi per un massimo di 120 giorni."
   },
   "privacy.additionalPersonalDataBodyOneF": {
-    "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+    "message": "Fornendoci volontariamente i Dati Personali, acconsentite al nostro utilizzo in conformità alla presente Informativa sulla privacy. Se fornisci Dati Personali a questo sito web, l'utente riconosce e accetta che tali Dati Personali possano essere trasferiti dalla sua posizione attuale agli uffici e ai server dei YourDigitalRights. rg e i terzi autorizzati di cui alla presente Informativa."
   },
   "privacy.contact": {
     "message": "Contatto"
@@ -678,7 +678,7 @@
     "message": "Cookie e monitoraggio"
   },
   "privacy.cookiesBody": {
-    "message": "We only use cookies to save the choices you make on the website so that it is easier for you to use the service next time. A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service."
+    "message": "Utilizziamo i cookie solo per salvare le scelte effettuate sul sito web in modo che sia più facile per l'utente utilizzare il servizio la prossima volta. Un cookie è un elemento informativo che il computer che ospita il nostro Servizio fornisce al Suo browser quando Lei accede al Servizio."
   },
   "privacy.description": {
     "message": "Tu possiedi i tuoi dati, noi esistiamo per aiutarti a controllare chi vi ha accesso. Questa è la nostra pagina sulla politica sulla privacy."
@@ -687,40 +687,40 @@
     "message": "Ultimo aggiornamento:"
   },
   "privacy.personalData": {
-    "message": "Sending Requests"
+    "message": "Invio Richieste"
   },
   "privacy.personalDataBody1": {
-    "message": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
+    "message": "Durante l'invio delle richieste (senza attivare la funzione di follow-up della richiesta opzionale) vi chiediamo di fornirci i seguenti dati personali:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Il tuo nome"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Additional information needed to identify you with the organizations you choose to contact (such as a Username, Customer ID or Account Number)"
+    "message": "Ulteriori informazioni necessarie per identificarti con le organizzazioni che scegli di contattare (come un nome utente, un ID cliente o un numero di account)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers."
+    "message": "Utilizziamo i dati personali raccolti solo quando invii richieste per generare un'e-mail e non li memorizziamo sui nostri server."
   },
   "privacy.privacyTitle": {
     "message": "politica sulla riservatezza"
   },
   "privacy.processorsA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their { matomo } page."
+    "message": "Matomo: un servizio di analisi web sulla privacy di Innocraft. Utilizziamo Matomo per raccogliere informazioni anonime su come il Servizio è accessibile e utilizzato ('Dati di utilizzo'). Puoi visitare la loro pagina { matomo }."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+    "message": "Amazon AWS: fornitore di servizi di infrastruttura cloud. Quando si sceglie di richiedere Segui Ups utilizziamo AWS per elaborare le e-mail che invii, memorizzare le informazioni relative e inviarti e-mail di promemoria. Puoi visitare la loro pagina { matomo }."
   },
   "privacy.promise": {
     "message": "Nostra promessa"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "Possiedi i tuoi dati. Esiste per aiutarti a controllare chi ha accesso ad esso. Crediamo fermamente nel mantenere i tuoi dati personali personali, privati e sicuri. Non utilizziamo cookie non essenziali e limitiamo i Dati Personali che raccogliamo da te al minimo indispensabile per fornire questo Servizio (Sosti diritti digitali). rg). In alcuni casi è possibile attivare funzioni opzionali che richiedono di fornire dati personali aggiuntivi. Tali casi richiedono esplicitamente di opt-in e sono chiaramente etichettati. Non venderemo mai o affitteremo le tue informazioni personali a nessuno e non le conserveremo sui nostri server per più di 120 giorni. Condivideremo le tue informazioni personali solo quando sarà necessario fornire il servizio o come diversamente descritto nella presente Informativa."
   },
   "privacy.title": {
     "message": "politica sulla riservatezza"
   },
   "privacy.usageDataBody": {
-    "message": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
+    "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
   },
   "redirect.continueText": {
     "message": "Continua"
