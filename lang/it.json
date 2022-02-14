@@ -468,7 +468,7 @@
     "message": "Molte organizzazioni raccolgono e vendono i tuoi dati personali, spesso senza il tuo consenso. Utilizza questo servizio gratuito per inviare loro una richiesta di cancellazione dei dati o di accesso. Inizia cercando un'organizzazione di seguito. Non sai da dove cominciare? Rinuncia a questi <a>principali broker di dati</a>."
   },
   "howItWorks.followUp": {
-    "message": "Il nostro assistente di follow-up intelligente può aiutare ad assicurarsi che l'organizzazione soddisfi la tua richiesta, e anche aiutarvi ad aumentare la vostra richiesta al pertinente regolatore governativo."
+    "message": "using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -477,13 +477,13 @@
     "message": "Un grafico che rappresenta l'interfaccia utente"
   },
   "howItWorks.search": {
-    "message": "Cerca un'organizzazione usando la casella di ricerca qui sopra."
+    "message": "for an organization using the search box at the top of this page."
   },
   "howItWorks.searchTitle": {
     "message": "Ricerca"
   },
   "howItWorks.send": {
-    "message": "Invia all'organizzazione una richiesta per cancellare o accedere ai tuoi dati personali."
+    "message": "the organization a request to delete, or send you a copy of your data."
   },
   "howItWorks.sendTitle": {
     "message": "Spedire"
@@ -492,16 +492,16 @@
     "message": "Come funziona"
   },
   "howItWorks.whyBody": {
-    "message": "Abbiamo creato questo servizio perché crediamo che la privacy sia importante e che esercitare il tuo diritto alla privacy dovrebbe essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è autofinanziato dai suoi creatori e con l'aiuto delle tue <donations>donazioni</donations>. Leggi di più <about>su di noi</about>."
+    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your <donations>donations</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Perché fidarsi di noi?"
   },
   "howItWorks.yourData": {
-    "message": "Le norme sulla privacy come il <gdpr>GDPR</gdpr> e il <ccpa>CCPA</ccpa> richiedono alle organizzazioni di cancellare o fornire una copia dei tuoi dati personali su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide."
+    "message": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   },
   "howItWorks.yourDataTitle": {
-    "message": "Sono i tuoi dati, tienili!"
+    "message": "You have the right to privacy!"
   },
   "index.description": {
     "message": "Elimina il tuo account o accedi ai dati personali che le organizzazioni hanno su di te utilizzando questo servizio gratuito."
@@ -648,10 +648,10 @@
     "message": "Come descritto su"
   },
   "privacy.additionalPersonalData": {
-    "message": "Request Followup"
+    "message": "Request Follow Ups"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+    "message": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
     "message": "Your email address"
@@ -708,13 +708,13 @@
     "message": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their { matomo } page."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: a provider of cloud infrastracture services. When you opt-in to Request Followups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+    "message": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
   },
   "privacy.promise": {
     "message": "Nostra promessa"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use none essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which requiere you to provide additional Personal Data. Such cases requier you to explicitly opt-in, and are clearly labled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more then 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
   },
   "privacy.title": {
     "message": "politica sulla riservatezza"
