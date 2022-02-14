@@ -16,7 +16,7 @@ const SearchTitle = (
 const SearchBody = (
   <FormattedMessage
     id="howItWorks.search"
-    defaultMessage="Search for an organization using the search box above."
+    defaultMessage="for an organization using the search box at the top of this page."
   />
 );
 
@@ -27,7 +27,7 @@ const FillInTitle = (
 const FillInBody = (
   <FormattedMessage
     id="howItWorks.send"
-    defaultMessage="Send the organization a request to delete or access your personal data."
+    defaultMessage="the organization a request to delete, or send you a copy of your data."
   />
 );
 
@@ -36,25 +36,21 @@ const SendTitle = <FormattedMessage id="howItWorks.followUpTitle" defaultMessage
 const SendBody = (
   <FormattedMessage
     id="howItWorks.followUp"
-    defaultMessage="Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    defaultMessage="using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   />
 );
 
 const YourDataTitle = (
   <FormattedMessage
     id="howItWorks.yourDataTitle"
-    defaultMessage="It's your data, own it!"
+    defaultMessage="You have the right to privacy!"
   />
 );
 
 const YourDataBody = (
   <FormattedMessage
     id="howItWorks.yourData"
-    defaultMessage="Privacy regulations such as the <gdpr>GDPR</gdpr> and the <ccpa>CCPA</ccpa> require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
-    values={{
-      gdpr: txt => (<a target="_blank" href="https://gdpr.eu/tag/gdpr/">{txt}</a>),
-      ccpa: txt => (<a target="_blank" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">{txt}</a>),
-    }}
+    defaultMessage="Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   />
 );
 
@@ -65,9 +61,9 @@ const WhyTitle = (
 const WhyBody = (
   <FormattedMessage
     id="howItWorks.whyBody"
-    defaultMessage="We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your <donations>donations</donations>. Read more <about>about us</about>."
+    defaultMessage="We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your <donations>donations</donations>."
     values={{
-      about: txt=> (<a href="/about">{txt}</a>),
+      cd: txt=> (<a target="_blank" href="https://consciousdigital.org">{txt}</a>),
       donations: txt=>(<a href="/#donations">{txt}</a>),
     }}
   />

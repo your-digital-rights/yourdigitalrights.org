@@ -509,6 +509,12 @@
       "value": "Desativar os principais corretores de dados"
     }
   ],
+  "dataProcessors": [
+    {
+      "type": 0,
+      "value": "Compartilhamento de dados e processadores"
+    }
+  ],
   "deletePII.deleteAllPII": [
     {
       "type": 0,
@@ -1316,7 +1322,7 @@
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "Nosso assistente de acompanhamento inteligente pode ajudar a garantir que a organização atenda ao seu pedido, e até mesmo ajudá-lo a escalar o seu pedido ao regulador do governo relevante."
+      "value": "usando nosso assistente de acompanhamento inteligente para ajudar a garantir que a organização atenda ao seu pedido e até mesmo ajudá-lo a escalar o seu pedido ao regulador do governo relevante."
     }
   ],
   "howItWorks.followUpTitle": [
@@ -1334,7 +1340,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "Pesquise por uma organização utilizando a caixa de pesquisa acima."
+      "value": "para uma organização usando a caixa de pesquisa no topo desta página."
     }
   ],
   "howItWorks.searchTitle": [
@@ -1346,7 +1352,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "Envie à organização uma solicitação para excluir ou acessar seus dados pessoais."
+      "value": "a organização uma solicitação para excluir ou enviar uma cópia dos seus dados."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1364,7 +1370,21 @@
   "howItWorks.whyBody": [
     {
       "type": 0,
-      "value": "Criamos este serviço porque acreditamos que a privacidade é importante e que o exercício do seu direito à privacidade deve ser fácil e gratuito. Não recolhemos nem vendemos dados pessoais. O serviço é autofinanciado por seus criadores e com a ajuda de suas "
+      "value": "Nós somos uma instituição de caridade registrada chamada "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Consciente Digital"
+        }
+      ],
+      "type": 8,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ". Criamos este serviço porque acreditamos que a privacidade é importante, e que o exercício do seu direito à privacidade deve ser fácil e gratuito. Não coletamos ou vendemos dados pessoais. O serviço é financiado por seus criadores e com a ajuda de suas "
     },
     {
       "children": [
@@ -1375,20 +1395,6 @@
       ],
       "type": 8,
       "value": "donations"
-    },
-    {
-      "type": 0,
-      "value": ". Leia mais "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "sobre nós"
-        }
-      ],
-      "type": 8,
-      "value": "about"
     },
     {
       "type": 0,
@@ -1404,41 +1410,13 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Os regulamentos de privacidade, como o "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "GDPR"
-        }
-      ],
-      "type": 8,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " e o "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "CCPA"
-        }
-      ],
-      "type": 8,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " exigem que as organizações apaguem ou forneçam uma cópia dos seus dados pessoais mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário poderão ser sujeitas a multas avultadas."
+      "value": "Leis de proteção de dados como o RGPD (União Europeia) e o CCPA (California), Exige que as organizações excluam ou forneçam a você uma cópia dos seus dados mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário poderão ser sujeitas a multas avultadas. Nossa missão é facilitar o exercício dos seus direitos legais."
     }
   ],
   "howItWorks.yourDataTitle": [
     {
       "type": 0,
-      "value": "São seus dados, possua-os!"
+      "value": "Você tem o direito à privacidade!"
     }
   ],
   "index.description": [
@@ -1831,14 +1809,46 @@
       "value": "Destacado em"
     }
   ],
-  "privacy.analyticsBodyOneA": [
+  "privacy.additionalPersonalData": [
     {
       "type": 0,
-      "value": "Matomo: um serviço de análise da web voltado para a privacidade da Innocraft. Você pode visitar sua página "
-    },
+      "value": "Solicitar Follow Ups"
+    }
+  ],
+  "privacy.additionalPersonalDataBody1": [
     {
-      "type": 1,
-      "value": "matomo"
+      "type": 0,
+      "value": "Ao usar este Serviço, seguindo a apresentação de uma solicitação de dados, você pode optar por receber nosso suporte por e-mail. Se você optar por usar este recurso opcional, coletaremos os seguintes dados pessoais adicionais:"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Seu endereço de e-mail"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "O conteúdo dos e-mails solicitados de dados enviados para organizações e agências de proteção de dados (DPA)"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneC": [
+    {
+      "type": 0,
+      "value": "Metadados sobre os e-mails solicitados de dados enviados para organizações e agências de proteção de dados (DPA), como a hora em que um email foi enviado e os endereços de e para"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Mantemos dados pessoais estendidos por um máximo de 120 dias."
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneF": [
+    {
+      "type": 0,
+      "value": "Ao nos fornecer voluntariamente dados pessoais, você está concordando com nossa utilização de acordo com esta Política de Privacidade. Se fornecer dados pessoais a este site, você reconhece e concorda que esses dados pessoais podem ser transferidos da sua localização atual para os escritórios e servidores do YourDigitalrights e os terceiros autorizados mencionados nesta Política."
     }
   ],
   "privacy.contact": [
@@ -1870,7 +1880,7 @@
   "privacy.cookiesBody": [
     {
       "type": 0,
-      "value": "Ao operar o Serviço, usamos uma tecnologia chamada \"cookies\". Um cookie é uma informação que o computador que hospeda nosso Serviço fornece ao seu navegador quando você acessa o Serviço. Embora não usemos cookies para fornecer o Serviço, usamos cookies para nos ajudar a analisar o uso do Serviço com mais precisão e para salvar as escolhas que você faz no site para que seja mais fácil usar o serviço na próxima vez. Em todos os casos em que usamos cookies, não coletaremos Dados Pessoais, exceto com sua permissão explícita. Na maioria dos navegadores da web, você encontrará uma seção de \"ajuda\" na barra de ferramentas. Consulte esta seção para obter informações sobre como receber uma notificação quando estiver recebendo um novo cookie e como desativar os cookies."
+      "value": "Utilizamos apenas cookies para salvar as escolhas que você faz no site, para que seja mais fácil para você usar o serviço da próxima vez. Um cookie é uma informação que o computador que hospeda nosso Serviço fornece ao seu navegador quando você acessa o Serviço."
     }
   ],
   "privacy.description": [
@@ -1885,28 +1895,16 @@
       "value": "Ultima atualização:"
     }
   ],
-  "privacy.nameAndAdditionalInfo": [
-    {
-      "type": 0,
-      "value": "Nome e informações adicionais (como nome de usuário, ID do cliente ou número da conta)"
-    }
-  ],
-  "privacy.nameAndAdditionalInfoBody2": [
-    {
-      "type": 0,
-      "value": "Não retemos nenhuma dessas informações em nossos servidores e não as compartilhamos com terceiros. Usamos essas informações para gerar um e-mail de solicitação que é processado em seu computador pessoal por meio de seu cliente de e-mail padrão. Cabe a você enviar este e-mail."
-    }
-  ],
   "privacy.personalData": [
     {
       "type": 0,
-      "value": "Dados pessoais que você fornece"
+      "value": "Solicitações de envio"
     }
   ],
   "privacy.personalDataBody1": [
     {
       "type": 0,
-      "value": "Ao usar este Serviço, podemos solicitar que você nos forneça determinadas informações pessoais que podem ser usadas para contatá-lo ou identificá-lo (\"Dados Pessoais\"). As informações de identificação pessoal coletadas são:"
+      "value": "Ao enviar solicitações (sem ativar o recurso de acompanhamento de solicitações opcionais) pedimos que você nos forneça os seguintes dados pessoais:"
     }
   ],
   "privacy.personalDataBodyOneA": [
@@ -1918,25 +1916,47 @@
   "privacy.personalDataBodyOneB": [
     {
       "type": 0,
-      "value": "Informações adicionais necessárias para identificá-lo com as organizações das quais você optar por não participar (como um nome de usuário, ID de cliente ou número de conta)"
-    }
-  ],
-  "privacy.personalDataBodyOneC": [
-    {
-      "type": 0,
-      "value": "Cookies e dados de uso"
+      "value": "Informações adicionais necessárias para identificá-lo com as organizações que você optar por contactar (como um Nome de Usuário, ID de Cliente ou Número de Conta)"
     }
   ],
   "privacy.personalDataBodyOneE": [
     {
       "type": 0,
-      "value": "Ao nos fornecer voluntariamente Dados Pessoais, você concorda com o uso deles de acordo com esta Política de Privacidade. Se você fornecer Dados Pessoais para este site, você reconhece e concorda que tais Dados Pessoais podem ser transferidos de sua localização atual para os escritórios e servidores de yourdigitalrights.org e os terceiros autorizados mencionados nesta Política."
+      "value": "Só usamos dados pessoais coletados quando você envia solicitações para gerar um e-mail e não os armazenamos em nossos servidores."
     }
   ],
   "privacy.privacyTitle": [
     {
       "type": 0,
       "value": "Política de Privacidade"
+    }
+  ],
+  "privacy.processorsA": [
+    {
+      "type": 0,
+      "value": "Matomo: um serviço de análise da Web com mente privada pela Innocraft. Usamos Matomo para coletar informações anônimas sobre como o Serviço é acessado e usado ('Dados de uso'). Você pode visitar a página "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": " dele."
+    }
+  ],
+  "privacy.processorsB": [
+    {
+      "type": 0,
+      "value": "Amazon AWS: um provedor de serviços de infraestrutura em nuvem. Quando você optar por solicitar Seguir Ups usamos AWS para processar os e-mails que você envia, armazenar informações relacionadas e enviar e-mails de lembrete. Você pode visitar sua página "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "privacy.promise": [
@@ -1948,7 +1968,7 @@
   "privacy.promiseBody": [
     {
       "type": 0,
-      "value": "Você possui seus dados. Existimos para ajudá-lo a controlar quem tem acesso a ele. Queremos ser transparentes a esse respeito e acreditamos fortemente em manter suas informações pessoais pessoais, privadas e seguras. Limitaremos os Dados Pessoais que coletamos de você ao mínimo absoluto necessário para fornecer este Serviço (yourdigitalrights.org). Não venderemos ou alugaremos suas informações pessoais a ninguém e não as reteremos em nossos servidores. Apenas compartilharemos suas informações pessoais quando necessário para fornecer o serviço ou conforme descrito nesta Política."
+      "value": "Você possui seus dados. Nós existem para ajudá-lo a controlar quem tem acesso a eles. Acreditamos fortemente em manter suas informações pessoais pessoais e seguras. Nós não usamos cookies não essenciais e limitamos os dados pessoais que coletamos de você ao mínimo absoluto necessário para fornecer este serviço (AtualDigitalrights . rg). Em alguns casos você pode ativar recursos opcionais que exigem que você forneça dados pessoais adicionais. Esses casos exigem que você opte explicitamente pelo opt-in e estão claramente identificados. Nós nunca iremos vender ou alugar suas informações pessoais a ninguém e não as reteremos em nossos servidores por mais de 120 dias. Só compartilharemos suas informações pessoais quando for necessário para prestar o serviço ou conforme descrito nesta Política de outra forma."
     }
   ],
   "privacy.title": [
@@ -1960,7 +1980,7 @@
   "privacy.usageDataBody": [
     {
       "type": 0,
-      "value": "Podemos coletar informações sobre como o Serviço é acessado e usado (\"Dados de Uso\"). Esses Dados de Uso podem incluir informações como o endereço do Protocolo de Internet (por exemplo, endereço IP), tipo de navegador, versão do navegador, as páginas do nosso Serviço que você visita, a hora e a data da sua visita, o tempo gasto nessas páginas, as ações você executa, identificadores exclusivos de dispositivo e outros dados de diagnóstico. Usamos o seguinte Provedor de Serviços terceirizado para monitorar e analisar o uso de nosso Serviço:"
+      "value": "Trabalhamos com os seguintes provedores de terceiros para executar algumas tarefas de processamento de dados em nosso nome. Envolvemos esses fornecedores em termos que garantem a confidencialidade e a segurança de seus dados."
     }
   ],
   "redirect.continueText": [
@@ -3028,12 +3048,6 @@
     {
       "type": 0,
       "value": "Obrigada"
-    }
-  ],
-  "usageData": [
-    {
-      "type": 0,
-      "value": "Dados de uso"
     }
   ]
 }

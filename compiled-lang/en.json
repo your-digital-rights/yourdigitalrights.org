@@ -1330,7 +1330,7 @@
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "Our smart follow-up assistant can help to make sure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+      "value": "using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
     }
   ],
   "howItWorks.followUpTitle": [
@@ -1348,7 +1348,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "Search for an organization using the search box above."
+      "value": "for an organization using the search box at the top of this page."
     }
   ],
   "howItWorks.searchTitle": [
@@ -1360,7 +1360,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "Send the organization a request to delete or access your personal data."
+      "value": "the organization a request to delete, or send you a copy of your data."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1378,7 +1378,21 @@
   "howItWorks.whyBody": [
     {
       "type": 0,
-      "value": "We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is self funded by it’s creators, and with the help of your "
+      "value": "We are a registered charity called "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ". We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your "
     },
     {
       "children": [
@@ -1389,20 +1403,6 @@
       ],
       "type": 8,
       "value": "donations"
-    },
-    {
-      "type": 0,
-      "value": ". Read more "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "about us"
-        }
-      ],
-      "type": 8,
-      "value": "about"
     },
     {
       "type": 0,
@@ -1418,41 +1418,13 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Privacy regulations such as the "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "GDPR"
-        }
-      ],
-      "type": 8,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " and the "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "CCPA"
-        }
-      ],
-      "type": 8,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " require organizations to erase or provide a copy of your personal data upon request. Organizations have a short time period to comply, otherwise they can face steep fines."
+      "value": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
     }
   ],
   "howItWorks.yourDataTitle": [
     {
       "type": 0,
-      "value": "It's your data, own it!"
+      "value": "You have the right to privacy!"
     }
   ],
   "index.description": [
@@ -1856,13 +1828,13 @@
   "privacy.additionalPersonalData": [
     {
       "type": 0,
-      "value": "Request Followup"
+      "value": "Request Follow Ups"
     }
   ],
   "privacy.additionalPersonalDataBody1": [
     {
       "type": 0,
-      "value": "While using this Service, following the submition of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+      "value": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
     }
   ],
   "privacy.additionalPersonalDataBodyOneA": [
@@ -1992,7 +1964,7 @@
   "privacy.processorsB": [
     {
       "type": 0,
-      "value": "Amazon AWS: a provider of cloud infrastracture services. When you opt-in to Request Followups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their "
+      "value": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their "
     },
     {
       "type": 1,
@@ -2012,7 +1984,7 @@
   "privacy.promiseBody": [
     {
       "type": 0,
-      "value": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use none essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which requiere you to provide additional Personal Data. Such cases requier you to explicitly opt-in, and are clearly labled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more then 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+      "value": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
     }
   ],
   "privacy.title": [

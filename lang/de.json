@@ -152,6 +152,9 @@
   "data-brokers.title": {
     "message": "Melden Sie sich von den Top-Datenbrokern ab"
   },
+  "dataProcessors": {
+    "message": "Datenfreigabe und Prozessoren"
+  },
   "deletePII.deleteAllPII": {
     "message": "Alle Anfragen"
   },
@@ -465,7 +468,7 @@
     "message": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Verwenden Sie diesen kostenlosen Service, um ihnen eine Datenlöschungs- oder Zugriffsanfrage zu senden. Suchen Sie zunächst unten nach einer Organisation. Sie wissen nicht, wo Sie anfangen sollen? Melden Sie sich von diesen Top <a>Datenbrokern ab</a>."
   },
   "howItWorks.followUp": {
-    "message": "Unser intelligenter Follow-up-Assistent kann dazu beitragen, sicherzustellen, dass die Organisation Ihrer Anfrage entspricht und helfen Ihnen sogar, Ihre Anfrage an die zuständige staatliche Regulierungsbehörde zu eskalieren."
+    "message": "mit unserem intelligenten Follow-up-Assistenten, um sicherzustellen, dass die Organisation Ihrer Anfrage entspricht und helfen Ihnen sogar, Ihre Anfrage an die zuständige staatliche Regulierungsbehörde zu eskalieren."
   },
   "howItWorks.followUpTitle": {
     "message": "Nachverfolgung"
@@ -474,13 +477,13 @@
     "message": "Eine Grafik, die die Benutzeroberfläche darstellt"
   },
   "howItWorks.search": {
-    "message": "Suche nach einer Organisation über das obige Suchfeld."
+    "message": "für eine Organisation mit dem Suchfeld oben auf dieser Seite."
   },
   "howItWorks.searchTitle": {
     "message": "Suche"
   },
   "howItWorks.send": {
-    "message": "Senden Sie der Organisation eine Anfrage zum Löschen oder Zugriff auf Ihre persönlichen Daten."
+    "message": "die Organisation eine Anfrage zum Löschen oder senden Sie eine Kopie Ihrer Daten."
   },
   "howItWorks.sendTitle": {
     "message": "Senden"
@@ -489,16 +492,16 @@
     "message": "Wie es funktioniert"
   },
   "howItWorks.whyBody": {
-    "message": "Wir haben diesen Dienst erstellt, weil wir glauben, dass Datenschutz wichtig ist und dass die Ausübung Ihres Rechts auf Datenschutz einfach und kostenlos sein sollte. Wir erheben oder verkaufen keine personenbezogenen Daten. Der Dienst wird von seinen Schöpfern selbst finanziert und mit Hilfe Ihrer <donations>Spenden</donations>. Lesen Sie mehr <about>über uns</about>."
+    "message": "Wir sind eine eingetragene Wohltätigkeitsorganisation namens <cd>Conscious Digital</cd>. Wir haben diesen Service geschaffen, weil wir glauben, dass die Privatsphäre wichtig ist und dass die Ausübung Ihres Rechts auf Privatsphäre einfach und kostenlos sein sollte. Wir erheben oder verkaufen keine personenbezogenen Daten. Der Dienst wird von seinen Schöpfern finanziert und mit Hilfe Ihrer <donations>Spenden</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Warum uns vertrauen?"
   },
   "howItWorks.yourData": {
-    "message": "Datenschutzbestimmungen wie die <gdpr>DPR</gdpr> und das <ccpa>CCPA</ccpa> erfordern das Löschen oder die Bereitstellung einer Kopie Ihrer persönlichen Daten auf Anfrage. Organisationen haben einen kurzen Zeitraum, um sie einzuhalten, andernfalls können sie mit hohen Geldstrafen rechnen."
+    "message": "Datenschutzgesetze wie die DPR (Europäische Union) und die KCPA (Kalifornien), von Organisationen zu verlangen, dass sie auf Anfrage eine Kopie Ihrer Daten löschen oder Ihnen zur Verfügung stellen. Organisationen haben einen kurzen Zeitraum, um sie einzuhalten, andernfalls können sie mit hohen Geldstrafen rechnen. Unsere Aufgabe ist es, Ihnen die Ausübung Ihrer gesetzlichen Rechte zu erleichtern."
   },
   "howItWorks.yourDataTitle": {
-    "message": "Es sind Ihre Daten, besitzen Sie sie!"
+    "message": "Sie haben das Recht auf Privatsphäre!"
   },
   "index.description": {
     "message": "Löschen Sie Ihr Konto oder greifen Sie mit diesem kostenlosen Service auf die personenbezogenen Daten zu, die Organisationen über Sie haben."
@@ -644,8 +647,26 @@
   "pressIntro.title": {
     "message": "Als markiert auf"
   },
-  "privacy.analyticsBodyOneA": {
-    "message": "Matomo: ein datenschutzfreundlicher Webanalysedienst von Innocraft. Sie können ihre { matomo } Seite besuchen."
+  "privacy.additionalPersonalData": {
+    "message": "Folge-Ups anfordern"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Während Sie diesen Service nutzen, können Sie sich nach dem Absenden einer Datenanforderung für weitere Unterstützung von uns per E-Mail entscheiden. Wenn Sie diese optionale Funktion nutzen möchten, erheben wir die folgenden zusätzlichen persönlichen Daten:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Ihre E-Mail-Adresse"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Der Inhalt der von Ihnen an Organisationen und Datenschutzagenturen gesendeten E-Mails für Datenanfragen (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadaten in Bezug auf die von Ihnen an Organisationen und Datenschutzagenturen (DPA) gesendeten E-Mails zur Datenanforderung zum Beispiel die Zeit des Versands einer E-Mail und der von und von Adressen"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Wir behalten Extended Persönliche Daten für maximal 120 Tage bei."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Indem Sie uns freiwillig personenbezogene Daten zur Verfügung stellen, stimmen Sie der Verwendung dieser Daten gemäß dieser Datenschutzerklärung zu. Wenn Sie personenbezogene Daten für diese Website zur Verfügung stellen Sie erkennen an und erklären sich damit einverstanden, dass diese personenbezogenen Daten von Ihrem aktuellen Standort an die Büros und Server von YourDigitalRights übertragen werden können. rg und die autorisierten Dritten, auf die in dieser Datenschutzerklärung verwiesen wird."
   },
   "privacy.contact": {
     "message": "Kontakt"
@@ -657,7 +678,7 @@
     "message": "Cookies und Tracking"
   },
   "privacy.cookiesBody": {
-    "message": "Beim Betrieb des Dienstes verwenden wir eine Technologie namens „Cookies“. Ein Cookie ist eine Information, die der Computer, der unseren Service hostet, an Ihren Browser übermittelt, wenn Sie auf den Service zugreifen. Obwohl wir keine Cookies zur Bereitstellung des Dienstes verwenden, verwenden wir Cookies, um die Nutzung des Dienstes genauer zu analysieren und die von Ihnen auf der Website getroffenen Entscheidungen zu speichern, damit Sie den Dienst beim nächsten Mal einfacher nutzen können. In allen Fällen, in denen wir Cookies verwenden, werden wir nur mit Ihrer ausdrücklichen Zustimmung personenbezogene Daten erheben. Bei den meisten Webbrowsern finden Sie in der Symbolleiste einen Abschnitt „Hilfe“. In diesem Abschnitt finden Sie Informationen darüber, wie Sie eine Benachrichtigung erhalten, wenn Sie ein neues Cookie erhalten, und wie Sie Cookies deaktivieren können."
+    "message": "Wir verwenden Cookies nur, um die Auswahl, die Sie auf der Website treffen, zu speichern, so dass es für Sie einfacher ist, den Service beim nächsten Mal zu nutzen. Ein Cookie ist eine Information, die der Computer mit unserem Service an Ihren Browser weitergibt, wenn Sie auf den Service zugreifen."
   },
   "privacy.description": {
     "message": "Sie besitzen Ihre Daten, wir existieren, um Ihnen zu helfen, zu kontrollieren, wer Zugriff darauf hat. Dies ist unsere Datenschutzseite."
@@ -665,44 +686,41 @@
   "privacy.lastUpdated": {
     "message": "Zuletzt aktualisiert:"
   },
-  "privacy.nameAndAdditionalInfo": {
-    "message": "Name und zusätzliche Informationen (wie Benutzername, Kunden-ID oder Kontonummer)"
-  },
-  "privacy.nameAndAdditionalInfoBody2": {
-    "message": "Wir speichern keine dieser Informationen auf unseren Servern und geben sie nicht an Dritte weiter. Wir verwenden diese Informationen, um eine Anfrage-E-Mail zu generieren, die über Ihren Standard-E-Mail-Client auf Ihrem PC gerendert wird. Es liegt an Ihnen, diese E-Mail dann zu senden."
-  },
   "privacy.personalData": {
-    "message": "Persönliche Daten, die Sie bereitstellen"
+    "message": "Senden von Anfragen"
   },
   "privacy.personalDataBody1": {
-    "message": "Während der Nutzung dieses Dienstes bitten wir Sie möglicherweise, uns bestimmte personenbezogene Daten zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren („personenbezogene Daten“). Die erfassten personenbezogenen Daten sind:"
+    "message": "Beim Senden von Anfragen (ohne die optionale Nachverfolgung von Anfragen) bitten wir Sie, uns die folgenden persönlichen Daten mitzuteilen:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Dein Name"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Zusätzliche Informationen, die erforderlich sind, um Sie mit den Organisationen zu identifizieren, von denen Sie sich abmelden (z. B. Benutzername, Kunden-ID oder Kontonummer)"
-  },
-  "privacy.personalDataBodyOneC": {
-    "message": "Cookies und Nutzungsdaten"
+    "message": "Zusätzliche Informationen, die erforderlich sind, um Sie mit den Organisationen zu identifizieren, die Sie kontaktieren möchten (z. B. Benutzername, Kundennummer oder Kontonummer)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "Indem Sie uns freiwillig personenbezogene Daten zur Verfügung stellen, stimmen Sie deren Verwendung in Übereinstimmung mit dieser Datenschutzrichtlinie zu. Wenn Sie dieser Website personenbezogene Daten zur Verfügung stellen, erkennen Sie an und stimmen zu, dass diese personenbezogenen Daten von Ihrem aktuellen Standort an die Büros und Server von yourdigitalrights.org und die in dieser Richtlinie genannten autorisierten Dritten übertragen werden können."
+    "message": "Wir verwenden die erhobenen personenbezogenen Daten nur, wenn Sie Anfragen zur Generierung einer E-Mail senden und diese nicht auf unseren Servern speichern."
   },
   "privacy.privacyTitle": {
     "message": "Datenschutz-Bestimmungen"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: ein Webanalysedienst von Innocraft. Wir verwenden Matomo um anonymisierte Informationen darüber zu sammeln, wie der Dienst genutzt wird ('Nutzungsdaten'). Sie können deren { matomo } Seite besuchen."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: ein Anbieter von Cloud-Infrastruktur-Diensten. Wenn Sie sich dafür entscheiden, Follow-Ups anzufordern, verwenden wir AWS, um die von Ihnen gesendeten E-Mails zu verarbeiten, verwandte Informationen zu speichern und Ihnen Erinnerungs-E-Mails zu senden. Sie können ihre { matomo } -Seite besuchen."
   },
   "privacy.promise": {
     "message": "Unser Versprechen"
   },
   "privacy.promiseBody": {
-    "message": "Sie besitzen Ihre Daten. Wir existieren, um Ihnen dabei zu helfen, zu kontrollieren, wer Zugriff darauf hat. Wir möchten in dieser Hinsicht transparent sein und glauben fest daran, dass Ihre personenbezogenen Daten persönlich, privat und sicher bleiben. Wir werden die personenbezogenen Daten, die wir von Ihnen erheben, auf das absolute Minimum beschränken, das für die Bereitstellung dieses Dienstes (yourdigitalrights.org) erforderlich ist. Wir werden Ihre personenbezogenen Daten an niemanden verkaufen oder vermieten und sie nicht auf unseren Servern speichern. Wir geben Ihre personenbezogenen Daten nur dann weiter, wenn dies für die Bereitstellung des Dienstes erforderlich ist oder wie anderweitig in dieser Richtlinie beschrieben."
+    "message": "Sie besitzen Ihre Daten. Wir helfen Ihnen, zu kontrollieren, wer Zugriff darauf hat. Wir sind fest davon überzeugt, Ihre persönlichen Daten persönlich, privat und sicher zu halten. Wir verwenden keine nicht unbedingt notwendigen Cookies und beschränken die persönlichen Daten, die wir von Ihnen erheben, auf das für die Bereitstellung dieses Services erforderliche Minimum (YourDigitalRights). In einigen Fällen können Sie optionale Funktionen aktivieren, die die Bereitstellung zusätzlicher persönlicher Daten erfordern. Solche Fälle erfordern eine ausdrückliche Opt-In und eine klare Kennzeichnung. Wir werden Ihre persönlichen Daten niemals verkaufen oder vermieten und werden sie nicht länger als 120 Tage auf unseren Servern aufbewahren. Wir werden Ihre persönlichen Daten nur dann weitergeben, wenn sie zur Erbringung der Dienstleistung erforderlich sind oder wie in dieser Richtlinie anders dargelegt."
   },
   "privacy.title": {
     "message": "Datenschutz-Bestimmungen"
   },
   "privacy.usageDataBody": {
-    "message": "Wir können Informationen darüber sammeln, wie auf den Dienst zugegriffen und wie er verwendet wird („Nutzungsdaten“). Diese Nutzungsdaten können Informationen wie die Internetprotokolladresse (z. B. IP-Adresse), Browsertyp, Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, Uhrzeit und Datum Ihres Besuchs, die auf diesen Seiten verbrachte Zeit, die Aktionen enthalten Sie durchführen, eindeutige Gerätekennungen und andere Diagnosedaten. Wir verwenden den folgenden Drittanbieter, um die Nutzung unseres Dienstes zu überwachen und zu analysieren:"
+    "message": "Wir arbeiten mit den folgenden Drittanbietern zusammen, um in unserem Auftrag einige Datenverarbeitungsaufgaben zu erledigen. Wir verpflichten diese Anbieter zu Bedingungen, die die Vertraulichkeit und Sicherheit Ihrer Daten gewährleisten."
   },
   "redirect.continueText": {
     "message": "Fortsetzen"
@@ -979,8 +997,5 @@
   },
   "thankyou.title": {
     "message": "Danke schön"
-  },
-  "usageData": {
-    "message": "Nutzungsdaten"
   }
 }

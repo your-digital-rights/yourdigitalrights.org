@@ -509,6 +509,12 @@
       "value": "Se retirer des meilleurs courtiers en données"
     }
   ],
+  "dataProcessors": [
+    {
+      "type": 0,
+      "value": "Partage de données et processeurs"
+    }
+  ],
   "deletePII.deleteAllPII": [
     {
       "type": 0,
@@ -1316,7 +1322,7 @@
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "Notre assistant de suivi intelligent peut vous aider à vous assurer que l'organisation répond à votre demande, et même vous aider à augmenter votre demande auprès de l’organisme de réglementation du gouvernement concerné."
+      "value": "en utilisant notre assistant de suivi intelligent pour s'assurer que l'organisation répond à votre demande, et même vous aider à augmenter votre demande auprès de l’organisme de réglementation du gouvernement concerné."
     }
   ],
   "howItWorks.followUpTitle": [
@@ -1334,7 +1340,7 @@
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "Rechercher une organisation en utilisant le champ de recherche ci-dessus."
+      "value": "pour une organisation utilisant la boîte de recherche en haut de cette page."
     }
   ],
   "howItWorks.searchTitle": [
@@ -1346,7 +1352,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "Envoyez à l'organisation une demande de suppression ou d'accès à vos données personnelles."
+      "value": "l'organisation a une demande de suppression ou vous envoie une copie de vos données."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1364,7 +1370,21 @@
   "howItWorks.whyBody": [
     {
       "type": 0,
-      "value": "Nous avons créé ce service parce que nous pensons que la confidentialité est importante et que l'exercice de votre droit à la confidentialité doit être simple et gratuit. Nous ne collectons ni ne vendons de données personnelles. Le service est autofinancé par ses créateurs, et avec l'aide de vos "
+      "value": "Nous sommes un organisme de bienfaisance enregistré appelé "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ". Nous avons créé ce service parce que nous croyons que la protection de la vie privée est importante et que l'exercice de votre droit à la vie privée devrait être facile et gratuit. Nous ne recueillons ni ne vendons de données personnelles. Le service est financé par ses créateurs, et avec l'aide de vos "
     },
     {
       "children": [
@@ -1375,20 +1395,6 @@
       ],
       "type": 8,
       "value": "donations"
-    },
-    {
-      "type": 0,
-      "value": ". En savoir plus "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "sur nous"
-        }
-      ],
-      "type": 8,
-      "value": "about"
     },
     {
       "type": 0,
@@ -1404,41 +1410,13 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Les règles de confidentialité telles que le "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "RGPD"
-        }
-      ],
-      "type": 8,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " et le "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "CCPA"
-        }
-      ],
-      "type": 8,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " exigent que les organisations effacent ou fournissent une copie de vos données personnelles sur demande. Les organisations ont peu de temps pour se conformer, sinon elles peuvent faire face à de lourdes amendes."
+      "value": "Les lois sur la protection des données telles que le RGPD (Union européenne) et l'ACCP (Californie), exiger des organismes qu'ils vous suppriment ou vous fournissent une copie de vos données sur demande. Les organisations ont peu de temps pour se conformer, sinon elles peuvent faire face à de lourdes amendes. Notre mission est de vous faciliter l'exercice de vos droits juridiques."
     }
   ],
   "howItWorks.yourDataTitle": [
     {
       "type": 0,
-      "value": "Ce sont vos données, possédez-les !"
+      "value": "Vous avez le droit à la vie privée !"
     }
   ],
   "index.description": [
@@ -1831,14 +1809,46 @@
       "value": "En vedette sur"
     }
   ],
-  "privacy.analyticsBodyOneA": [
+  "privacy.additionalPersonalData": [
     {
       "type": 0,
-      "value": "Matomo : un service d'analyse Web soucieux de la confidentialité par Innocraft. Vous pouvez visiter leur page "
-    },
+      "value": "Demander des abonnements"
+    }
+  ],
+  "privacy.additionalPersonalDataBody1": [
     {
-      "type": 1,
-      "value": "matomo"
+      "type": 0,
+      "value": "Lors de l'utilisation de ce Service, après la soumission d'une demande de données, vous pouvez opter pour recevoir un soutien supplémentaire de notre part par courriel. Si vous choisissez d'utiliser cette fonctionnalité optionnelle, nous collecterons les données personnelles supplémentaires suivantes :"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Votre adresse e-mail"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Le contenu des courriels de demande de données que vous envoyez aux organisations et aux agences de protection des données (DPAs)"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneC": [
+    {
+      "type": 0,
+      "value": "Métadonnées concernant les courriels de demande de données que vous envoyez aux organisations et aux agences de protection des données (DPA), comme le moment où un e-mail a été envoyé et les adresses de et vers et depuis"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Nous conservons les Données à Caractère Personnel Étendues pour un maximum de 120 jours."
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneF": [
+    {
+      "type": 0,
+      "value": "En nous fournissant volontairement des données personnelles, vous consentez à leur utilisation conformément à la présente politique de confidentialité. Si vous fournissez des données personnelles à ce site Web, vous reconnaissez et acceptez que ces Données à Caractère Personnel puissent être transférées de votre emplacement actuel vers les bureaux et les serveurs de VotreDigitalrights. rg et les tiers autorisés mentionnés dans la présente Politique."
     }
   ],
   "privacy.contact": [
@@ -1870,7 +1880,7 @@
   "privacy.cookiesBody": [
     {
       "type": 0,
-      "value": "Dans l'exploitation du Service, nous utilisons une technologie appelée \"cookies\". Un cookie est une information que l'ordinateur hébergeant notre Service transmet à votre navigateur lorsque vous accédez au Service. Bien que nous n'utilisions pas de cookies pour fournir le Service, nous utilisons des cookies pour nous aider à analyser l'utilisation du Service avec plus de précision et pour enregistrer les choix que vous faites sur le site Web afin qu'il vous soit plus facile d'utiliser le service la prochaine fois. Dans tous les cas où nous utilisons des cookies, nous ne collecterons pas de Données Personnelles sauf avec votre autorisation explicite. Sur la plupart des navigateurs Web, vous trouverez une section \"aide\" sur la barre d'outils. Veuillez vous référer à cette section pour savoir comment recevoir une notification lorsque vous recevez un nouveau cookie et comment désactiver les cookies."
+      "value": "Nous n'utilisons des cookies que pour enregistrer les choix que vous faites sur le site Web afin qu'il soit plus facile pour vous d'utiliser le service la prochaine fois. Un cookie est une information que l'ordinateur hébergeant notre Service donne à votre navigateur lorsque vous accédez au Service."
     }
   ],
   "privacy.description": [
@@ -1885,28 +1895,16 @@
       "value": "Dernière mise à jour:"
     }
   ],
-  "privacy.nameAndAdditionalInfo": [
-    {
-      "type": 0,
-      "value": "Nom et informations supplémentaires (telles qu'un nom d'utilisateur, un numéro de client ou un numéro de compte)"
-    }
-  ],
-  "privacy.nameAndAdditionalInfoBody2": [
-    {
-      "type": 0,
-      "value": "Nous ne conservons aucune de ces informations sur nos serveurs et ne les partageons avec aucun tiers. Nous utilisons ces informations pour générer un e-mail de demande qui est rendu sur votre ordinateur personnel via votre client de messagerie par défaut. Il vous appartient ensuite d'envoyer cet e-mail."
-    }
-  ],
   "privacy.personalData": [
     {
       "type": 0,
-      "value": "Données personnelles que vous fournissez"
+      "value": "Envoi des demandes"
     }
   ],
   "privacy.personalDataBody1": [
     {
       "type": 0,
-      "value": "Lors de l'utilisation de ce Service, nous pouvons vous demander de nous fournir certaines informations personnelles qui peuvent être utilisées pour vous contacter ou vous identifier (\"Données personnelles\"). Les informations personnellement identifiables collectées sont :"
+      "value": "Lors de l'envoi de demandes (sans activer la fonction de suivi facultative des demandes), nous vous demandons de nous fournir les données personnelles suivantes :"
     }
   ],
   "privacy.personalDataBodyOneA": [
@@ -1918,25 +1916,47 @@
   "privacy.personalDataBodyOneB": [
     {
       "type": 0,
-      "value": "Informations supplémentaires nécessaires pour vous identifier auprès des organisations dont vous choisissez de vous désinscrire (telles qu'un nom d'utilisateur, un numéro de client ou un numéro de compte)"
-    }
-  ],
-  "privacy.personalDataBodyOneC": [
-    {
-      "type": 0,
-      "value": "Cookies et données d'utilisation"
+      "value": "Informations supplémentaires nécessaires pour vous identifier avec les organisations que vous choisissez de contacter (comme le nom d'utilisateur, l'identifiant du client ou le numéro de compte)"
     }
   ],
   "privacy.personalDataBodyOneE": [
     {
       "type": 0,
-      "value": "En nous fournissant volontairement des données personnelles, vous consentez à ce que nous les utilisions conformément à la présente politique de confidentialité. Si vous fournissez des données personnelles sur ce site Web, vous reconnaissez et acceptez que ces données personnelles puissent être transférées de votre emplacement actuel vers les bureaux et les serveurs de yourdigitalrights.org et les tiers autorisés mentionnés dans la présente politique."
+      "value": "Nous n'utilisons les Données à Caractère Personnel recueillies que lorsque vous envoyez des demandes de génération de courriels et que nous ne les stockons pas sur nos serveurs."
     }
   ],
   "privacy.privacyTitle": [
     {
       "type": 0,
       "value": "Politique de confidentialité"
+    }
+  ],
+  "privacy.processorsA": [
+    {
+      "type": 0,
+      "value": "Matomo : un service d'analyse web basé sur la confidentialité par Innocraft. Nous utilisons Matomo pour collecter des informations anonymes sur la façon dont le Service est accédé et utilisé ('Données d'utilisation'). Vous pouvez visiter leur page "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.processorsB": [
+    {
+      "type": 0,
+      "value": "Amazon AWS : un fournisseur de services d’infrastructure cloud. Lorsque vous choisissez de demander des mises à niveau de suivi, nous utilisons AWS pour traiter les courriels que vous envoyez, stockons les informations relatives et vous envoyons des courriels de rappel. Vous pouvez visiter leur page "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "privacy.promise": [
@@ -1948,7 +1968,7 @@
   "privacy.promiseBody": [
     {
       "type": 0,
-      "value": "Vous êtes propriétaire de vos données. Nous existons pour vous aider à contrôler qui y a accès. Nous voulons être transparents à cet égard et nous croyons fermement qu'il est important de garder vos informations personnelles personnelles, privées et sécurisées. Nous limiterons les données personnelles que nous collectons auprès de vous au minimum absolu requis pour fournir ce service (yourdigitalrights.org). Nous ne vendrons ni ne louerons vos informations personnelles à qui que ce soit et ne les conserverons pas sur nos serveurs. Nous ne partagerons vos informations personnelles que lorsque cela est nécessaire pour fournir le service ou comme autrement indiqué dans la présente politique."
+      "value": "Vous possédez vos données. Nous existons pour vous aider à contrôler qui a accès à ces données. Nous croyons fermement à la protection de vos renseignements personnels personnels, privés et sécurisés. Nous n'utilisons pas de cookies non essentiels et limitons les données personnelles que nous recueillons auprès de vous au minimum requis pour livrer ce Service (VotreDigitalRights). Dans certains cas, vous pouvez activer des fonctionnalités optionnelles qui vous obligent à fournir des données personnelles supplémentaires. De tels cas exigent que vous vous opposiez explicitement et sont clairement étiquetés. Nous ne vendrons ou louerons jamais vos renseignements personnels à qui que ce soit et ne les conserverons pas sur nos serveurs pendant plus de 120 jours. Nous ne partagerons vos renseignements personnels que lorsque nous en aurons besoin pour fournir le service ou tel que décrit autrement dans la présente politique."
     }
   ],
   "privacy.title": [
@@ -1960,7 +1980,7 @@
   "privacy.usageDataBody": [
     {
       "type": 0,
-      "value": "Nous pouvons collecter des informations sur la manière dont le Service est accessible et utilisé (\"Données d'utilisation\"). Ces données d'utilisation peuvent inclure des informations telles que l'adresse de protocole Internet (par exemple, l'adresse IP), le type de navigateur, la version du navigateur, les pages de notre service que vous visitez, l'heure et la date de votre visite, le temps passé sur ces pages, les actions que vous effectuez, des identifiants d'appareil uniques et d'autres données de diagnostic. Nous utilisons le fournisseur de services tiers suivant pour surveiller et analyser l'utilisation de notre service :"
+      "value": "Nous travaillons avec les fournisseurs tiers suivants pour effectuer des tâches de traitement de données en notre nom. Nous engageons ces fournisseurs à respecter des conditions qui garantissent la confidentialité et la sécurité de vos données."
     }
   ],
   "redirect.continueText": [
@@ -3028,12 +3048,6 @@
     {
       "type": 0,
       "value": "Je vous remercie"
-    }
-  ],
-  "usageData": [
-    {
-      "type": 0,
-      "value": "Des données d'utilisation"
     }
   ]
 }
