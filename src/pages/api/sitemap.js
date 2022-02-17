@@ -51,12 +51,6 @@ export default async (req, res) => {
       priority: 1,
     });
 
-    smStream.write({
-      url: "https://yourdigitalrights.org/data-brokers",
-      changefreq: "daily",
-      priority: 1,
-    });
-
     const companies = await fetchData();
     companies['Organizations'].map((company) =>
       Object.keys(ALT_LANGUAGES).forEach((locale) =>

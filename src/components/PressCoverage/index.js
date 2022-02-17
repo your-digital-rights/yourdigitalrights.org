@@ -32,7 +32,7 @@ const PressCoverage = ({ classes }) => {
         <GridList className={classes.gridList} cols={items.length} cellHeight={50} spacing={50}>
           {items.map((item) => (
             <GridListTile
-              button
+              button="true"
               component="a"
               target="_blank"
               href={item.url}
