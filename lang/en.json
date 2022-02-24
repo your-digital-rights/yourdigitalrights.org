@@ -161,6 +161,12 @@
   "deletePII.deleteSpecificPII": {
     "message": "This request"
   },
+  "deletePII.doneAll": {
+    "message": "We have succesfuly deleted the personal data associated with all of your request."
+  },
+  "deletePII.doneRequest": {
+    "message": "We have succesfuly deleted the personal data associated with this request."
+  },
   "deletePII.heading": {
     "message": "Delete my data"
   },
