@@ -1,11 +1,2 @@
-var os = require("os");
-
-let domain;
-
-if (os.hostname().includes("opt-out")) {
-  domain = "opt-out.eu";
-} else {
-  domain = "yourdigitalrights.org";
-}
-
-export const DOMAIN = domain;
+export const DOMAIN = "yourdigitalrights.org";
+export const DOMAIN_URL = "https://yourdigitalrights.org/";

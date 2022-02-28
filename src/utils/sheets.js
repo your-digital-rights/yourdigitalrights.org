@@ -1,16 +1,16 @@
-import { DOMAIN } from "./domain";
+import { DOMAIN_URL } from "./domain";
 import fetch from "isomorphic-fetch";
 var data = null;
 
 export default async function fetchData() {
   if (data == null) {
-    data = fetch(`/api/companies`)
+    data = fetch(`${DOMAIN_URL}/api/companies`)
       .then((response) => {
         if (response.ok) {
           return response.json();
         }
 
-        throw new Error(`HTTP error ${response.status} from ${url}`);
+        throw new Error(`HTTP error ${response.status} from '/api/companies'`);
       })
       .then((json) => {
         return json;
