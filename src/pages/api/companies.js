@@ -38,7 +38,7 @@ async function fetchCompanies() {
         emailsSent: emailCount
       };
     });
-    return {"License": "GNU General Public License v3.0", "Organizations": orgs};
+    return {"License": "GNU General Public License v3.0", "Organizations": orgs.slice(0, 20000)};
   } 
   catch (e) {
     console.error(e);
