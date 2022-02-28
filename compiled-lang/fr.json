@@ -527,6 +527,18 @@
       "value": "Cette demande"
     }
   ],
+  "deletePII.doneAll": [
+    {
+      "type": 0,
+      "value": "We have successfully deleted the personal data associated with all of your requests."
+    }
+  ],
+  "deletePII.doneRequest": [
+    {
+      "type": 0,
+      "value": "We have successfully deleted the personal data associated with this request."
+    }
+  ],
   "deletePII.heading": [
     {
       "type": 0,

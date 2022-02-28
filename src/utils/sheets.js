@@ -1,9 +1,10 @@
-import fetch from "universal-fetch";
+import { DOMAIN } from "./domain";
+import fetch from "isomorphic-fetch";
 var data = null;
 
 export default async function fetchData() {
   if (data == null) {
-    data = fetch('/api/companies')
+    data = fetch(`/api/companies`)
       .then((response) => {
         if (response.ok) {
           return response.json();
