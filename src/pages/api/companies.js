@@ -1,5 +1,5 @@
-const fetch = require("universal-fetch");
-const url = require('url');
+import fetch from "isomorphic-fetch";
+import url from 'url';
 
 const SHEET_ID = "1tBtKWcOnLOs2cwqs_EX0ldTCaG3gh_7neQpaIYHBvJE";
 const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
@@ -56,6 +56,7 @@ export default async (req, res) => {
     data = fetchCompanies();
   }
   res.statusCode = 200
+  res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Content-Type', 'application/json')
   res.setHeader('Cache-Control', 'stale-while-revalidate=600, max-age=3600, s-maxage=3600');  
   let response = await data;
