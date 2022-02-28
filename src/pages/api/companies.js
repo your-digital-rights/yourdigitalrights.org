@@ -56,6 +56,7 @@ export default async (req, res) => {
     data = fetchCompanies();
   }
   res.statusCode = 200
+  res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Content-Type', 'application/json')
   res.setHeader('Cache-Control', 'stale-while-revalidate=600, max-age=3600, s-maxage=3600');  
   let response = await data;

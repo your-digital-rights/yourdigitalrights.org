@@ -1,9 +1,9 @@
-import { DOMAIN } from "./domain";
+import { DOMAIN_URL } from "./domain";
 import fetch from "isomorphic-fetch";
 var data = null;
 
 export default async function fetchData() {
-  const url = process.env.VERCEL_URL ? `//${process.env.VERCEL_URL}/api/companies` : 'http://localhost:3000/api/companies';
+  const url = `${DOMAIN_URL}/api/companies`;
   if (data == null) {
     data = fetch(url)
       .then((response) => {
