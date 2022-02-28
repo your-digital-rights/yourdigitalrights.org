@@ -2,10 +2,8 @@ import fetch from "universal-fetch";
 var data = null;
 
 export default async function fetchData() {
-  const url = `https://api.yourdigitalrights.org/companies`;
-
   if (data == null) {
-    data = fetch(url)
+    data = fetch('/api/companies')
       .then((response) => {
         if (response.ok) {
           return response.json();
