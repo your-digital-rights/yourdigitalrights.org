@@ -1,14 +1,12 @@
 import { SitemapStream, streamToPromise } from "sitemap";
 import { createGzip } from "zlib";
 import fetch from "universal-fetch";
-import { DOMAIN } from "../../utils/domain";
 import { ALT_LANGUAGES } from "../../utils/langUtils";
 
 let sitemap;
 
 async function fetchData() {
-  let url = 'https://api.' + DOMAIN + "/companies";
-  let data = await fetch(url);
+  let data = await fetch('/api/companies');
   data = await data.json();
   return data;
 }
@@ -48,12 +46,6 @@ export default async (req, res) => {
     smStream.write({
       url: "https://yourdigitalrights.org/privacy",
       changefreq: "weekly",
-      priority: 1,
-    });
-
-    smStream.write({
-      url: "https://yourdigitalrights.org/data-brokers",
-      changefreq: "daily",
       priority: 1,
     });
 

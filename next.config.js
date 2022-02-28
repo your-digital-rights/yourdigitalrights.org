@@ -29,6 +29,10 @@ module.exports = {
 				{ 
           source: "/sitemap.xml", 
           destination: "/api/sitemap", 
+        },
+        { 
+          source: "/companies", 
+          destination: "/api/companies",
         }
 			];
 	},
