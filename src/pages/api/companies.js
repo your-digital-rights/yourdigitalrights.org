@@ -1,5 +1,6 @@
 import fetch from "isomorphic-fetch";
 import url from 'url';
+import { DateTime } from "luxon";
 
 const SHEET_ID = "1tBtKWcOnLOs2cwqs_EX0ldTCaG3gh_7neQpaIYHBvJE";
 const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
@@ -9,16 +10,13 @@ const DISPLAY_NAME = 1;
 const SEARCH_TERMS = 2;
 const EMAIL = 3;
 const PRIVACY_POLICY_URL = 4;
+const DATE_CREATED = 5;
 const EMAILS_SENT = 7;
 
 let data = fetchCompanies();
 
 function compare(a,b) {
-  if (a[DISPLAY_NAME] < b[DISPLAY_NAME])
-    return -1;
-  if (a[DISPLAY_NAME] > b[DISPLAY_NAME])
-    return 1;
-  return 0;
+  return b[DATE_CREATED] > a[DATE_CREATED];
 }
 
 async function fetchCompanies() {
