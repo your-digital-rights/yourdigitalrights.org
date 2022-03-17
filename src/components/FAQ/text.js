@@ -8,15 +8,47 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="faq.heading1"
-        defaultMessage="Which regulation protects me, GDPR or CCPA?"
+        id="faq.heading0"
+        defaultMessage="What are data protection laws?"
       />
     ),
     body: [
       <FormattedMessage
-        id="faq.body1A"
-        defaultMessage="There are currently two main regulations protecting individual privacy online. The General Data Protection Regulations, or GDPR protects European Union residents, and the California Consumer Privacy Act, or CCPA protects California residents."
+        id="faq.body0A"
+        defaultMessage="Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data."
       />,
+      <br />,
+    ],
+  },
+  {    
+    heading: (
+      <FormattedMessage
+        id="faq.heading1"
+        defaultMessage="Which data protection laws protect me?"
+      />
+    ),
+    body: [
+      {
+        item: (
+          <FormattedMessage id="faq.body1" 
+          defaultMessage="Different countries have different regulations protecting individual privacy online. This website supports the following regulations:" />
+        ),
+        subItems: [
+          <FormattedMessage
+            id="faq.body1A"
+            defaultMessage="European Union - The General Data Protection Regulations (GDPR)"
+          />,
+          <FormattedMessage
+            id="faq.body1B"
+            defaultMessage="California - Consumer Privacy Act (CCPA)"
+          />,
+          <FormattedMessage
+            id="faq.body1C"
+            defaultMessage="Brazil - General Data Protection Law (LGPD)"
+          />,
+        ],
+      },     
+      <br />, 
     ],
   },
   {
@@ -65,6 +97,7 @@ export default [
           />,
         ],
       },
+      <br />,
       <FormattedMessage
         id="faq.body2B"
         defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
@@ -86,7 +119,7 @@ export default [
     body: [
       <FormattedMessage
         id="faq.body4A"
-        defaultMessage="The California Consumer Privacy Act, or CCPA for short, is a new regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
+        defaultMessage="The California Consumer Privacy Act, or CCPA for short, is a regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
       />,
       <br />,
       <FormattedMessage
@@ -110,7 +143,7 @@ export default [
         item: (
           <FormattedMessage
             id="faq.body5A"
-            defaultMessage="The CCPA applies to organizations that collect consumers’ personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
+            defaultMessage="The CCPA applies to organizations that collect consumer's personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumer's personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
           />
         ),
         subItems: [
@@ -124,10 +157,64 @@ export default [
           />,
           <FormattedMessage
             id="faq.body5Aiii"
-            defaultMessage="Derives 50 percent or more of its annual revenues from selling consumers’ personal information"
+            defaultMessage="Derives 50 percent or more of its annual revenues from selling consumer's personal information"
           />,
         ],
       },
+      <br />,
+    ],
+  },
+  {
+    heading: (
+      <FormattedMessage id="faq.headingWhatIsLGPD" defaultMessage="What is the LGPD?" />
+    ),
+    body: [
+      <FormattedMessage
+        id="faq.bodyWhatIsLGPD1"
+        defaultMessage="The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
+      />,
+      <br />,
+      <FormattedMessage
+        id="faq.bodyWhatIsLGPD2"
+        defaultMessage="<a>Read the regulation</a>"
+        values={{
+          a: txt => ( <a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm">{txt}</a>),
+        }}
+      />,
+    ],
+  },
+  {
+    heading: (
+      <FormattedMessage
+        id="faq.headingWhoLGPDAppliesTo"
+        defaultMessage="Who does the LGPD apply to?"
+      />
+    ),
+    body: [
+      {
+        item: (
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo1"
+            defaultMessage="The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when: 
+            "
+          />
+        ),
+        subItems: [
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo2"
+            defaultMessage="Personal data is collected in Brazil"
+          />,
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo3"
+            defaultMessage="Data is related to an individuals located in the Brazilian territory, or"
+          />,
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo4"
+            defaultMessage="Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+          />,
+        ],
+      },
+      <br />,
     ],
   },
   {
@@ -167,6 +254,19 @@ export default [
           a: txt => ( <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.140.&lawCode=CIV">{txt}</a>),          
         }}
       />,
+      <br />,
+      <FormattedMessage id="faq.body6Ci" defaultMessage="Under the LDPG:" />,
+      <br />,
+      <FormattedMessage
+        id="faq.body6Cii"
+        defaultMessage="Any information relating to an identified or identifiable natural person such as name, ID-number, location data, email, etc."
+      />,      
+      <br />,
+      <FormattedMessage
+        id="faq.body6Ciii"
+        defaultMessage="Sensitive personal data is defined as a subcategory to personal data and applies when the data processed concerns to racial or ethnic origin, religious belief, political opinion, trade union or religious, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data."
+      />,      
+      <br />,
     ],
   },
   {
@@ -213,13 +313,62 @@ export default [
           />,
         ],
       },
+      <br />,
       <FormattedMessage
-        id="faq.body7B"
+        id="faq.body7Aviii"
         defaultMessage="<a>Find out more</a>"
         values={{
           a: txt => ( <a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/">{txt}</a>),                    
         }}
       />,
+      <br />,
+      <FormattedMessage id="faq.body7B" defaultMessage="Under the CCPA:" />,
+      <br />,
+      {
+        item: (
+          <FormattedMessage
+            id="faq.body7Bi"
+            defaultMessage="Consumers can exercise the right to delete their personal data if:"
+          />
+        ),
+        subItems: [
+          <FormattedMessage
+            id="faq.body7Bii"
+            defaultMessage="The personal information was collected by the business from the consumer."
+          />,
+          <FormattedMessage
+            id="faq.body7Biii"
+            defaultMessage="It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
+          />,
+          <FormattedMessage
+            id="faq.body7Biv"
+            defaultMessage="The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
+          />,
+        ],
+      },
+      <br />,
+      <FormattedMessage id="faq.body7C" defaultMessage="Under the LGPD:" />,
+      <br />,
+      <FormattedMessage
+        id="faq.body7Ci"
+        defaultMessage="The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
+      />,
+      <br />,
+      <FormattedMessage
+        id="faq.body7Cii"
+        defaultMessage="In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
+      />,
+      <br />,
+      <FormattedMessage
+        id="faq.body7Ciii"
+        defaultMessage="If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
+      />,
+      <br />,
+      <FormattedMessage
+        id="faq.body7Ciiii"
+        defaultMessage="In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
+      />,
+      <br />,               
     ],
   },
   {
@@ -266,6 +415,7 @@ export default [
           />,
         ],
       },
+      <br />,
       <FormattedMessage
         id="faq.body8B"
         defaultMessage="The organization can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
@@ -312,11 +462,11 @@ export default [
           />,
           <FormattedMessage
             id="faq.body8Cviii"
-            defaultMessage="To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+            defaultMessage="To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
           />,
           <FormattedMessage
             id="faq.body8Cix"
-            defaultMessage="Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+            defaultMessage="Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
           />,
         ],
       },
@@ -328,13 +478,41 @@ export default [
           a: txt => (<a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV">{txt}</a>),                    
         }}
       />,
+      <br />,
+        <FormattedMessage 
+        id="faq.body8E" 
+        defaultMessage="Under the LGPD:" 
+      />,
+      <br />,
+      {
+        item: <FormattedMessage id="faq.body8F" defaultMessage="In case of data processing based on consent, the LGPD permits keeping data for the following purposes:" />,
+        subItems: [
+          <FormattedMessage
+            id="faq.body8Fi"
+            defaultMessage="Compliance with a statutory or regulatory obligation by the organization."
+          />,
+          <FormattedMessage
+            id="faq.body8Fii"
+            defaultMessage="Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
+          />,
+          <FormattedMessage
+            id="faq.body8Fiii"
+            defaultMessage="Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
+          />,
+          <FormattedMessage
+            id="faq.body8Fiv"
+            defaultMessage="Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
+          />,
+        ],
+      },
+      <br />,
     ],
   },
   {
     heading: (
       <FormattedMessage
         id="faq.heading9"
-        defaultMessage="How long does an organization have to comply with a request?"
+        defaultMessage="How long do organizations have to comply with a request?"
       />
     ),
     body: [
@@ -349,8 +527,27 @@ export default [
       <br />,
       <FormattedMessage
         id="faq.body9Aiii"
-        defaultMessage="The deadline to respond to a request is 45 days from the receipt of the consumer’s request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+        defaultMessage="The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
       />,
+      <br />,
+      <FormattedMessage id="faq.body9C" defaultMessage="Under the LGPD:" />,
+      <br />,
+      {
+        item: <FormattedMessage id="faq.body9D" defaultMessage="The organization must comply with a request in two ways:" />,
+        subItems: [
+          <FormattedMessage
+            id="faq.body9Di"
+            defaultMessage="In simplified form, if the confirmation or access is provided immediately."
+          />,
+          <FormattedMessage
+            id="faq.body9Dii"
+            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+          />,
+        ],
+      },
+      <br />,
+      <FormattedMessage id="faq.body9F" defaultMessage="The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors." />,          
+      <br />,
     ],
   },
   {
@@ -361,25 +558,37 @@ export default [
       />
     ),
     body: [
-      <FormattedMessage id="faq.body10A" defaultMessage="Under the GDPR:" />,
+      <FormattedMessage id="faq.body10A" defaultMessage="When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request." />,
+      <br />,
+      <FormattedMessage id="faq.body10B" defaultMessage="If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court.  If you decide to do this, we strongly advise you to seek independent legal advice first." />,
+      <br />,
+      <FormattedMessage id="faq.body10C" defaultMessage="Under the GDPR:" />,
       <br />,
       <FormattedMessage
-        id="faq.body10Ai"
-        defaultMessage="If you are unhappy with how the organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. If you decide to do this, we strongly advise you to seek independent legal advice first. You can download a list of DPAs <a>here</a> (PDF)."
+        id="faq.body10Ci"
+        defaultMessage="You can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. You can download a list of DPAs <a>here</a> (PDF)."
         values={{
           a: txt => (<a target="_blank" href="http://ec.europa.eu/newsroom/article29/document.cfm?action=display&doc_id=50061">{txt}</a>),                              
         }}
       />,
       <br />,
-      <FormattedMessage id="faq.body10B" defaultMessage="Under the CCPA:" />,
+      <FormattedMessage id="faq.body10D" defaultMessage="Under the CCPA:" />,
       <br />,
       <FormattedMessage
-        id="faq.body10Bii"
-        defaultMessage="If you are unhappy with how an organization has handled your request, you should first complain to it. Having done so, if you remain dissatisfied you have two options. <a>Complain to the Attorney General</a> or take private action."
+        id="faq.body10Di"
+        defaultMessage="You can make a complaint to the California <a>Attorney General</a>. You can also seek to enforce your rights through the courts."
         values={{
           a: txt => (<a target="_blank" href="https://oag.ca.gov/contact/consumer-complaint-against-business-or-company">{txt}</a>),                              
         }}
       />,
+      <br />,
+      <FormattedMessage id="faq.body10E" defaultMessage="Under the LGPD:" />,
+      <br />,
+      <FormattedMessage
+        id="faq.body10Ei"
+        defaultMessage="You can make a complaint to the ANPD. You can also seek to enforce your rights through the courts."
+      />,  
+      <br />,    
     ],
   },
   {
@@ -419,6 +628,57 @@ export default [
           a: txt => (<a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.155&lawCode=CIV">{txt}</a>),                              
         }}
       />,
+
+      <br />,
+      <FormattedMessage id="faq.body11D" defaultMessage="Under the LGPD:" />,
+      <br />,
+      {
+        item: <FormattedMessage id="faq.body11C0" defaultMessage="The administrative sanctions applicable range are:" />,
+        subItems: [
+          <FormattedMessage
+            id="faq.body11Ci"
+            defaultMessage="Warning."
+          />,
+          <FormattedMessage
+            id="faq.body11Cii"
+            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+          />,
+          <FormattedMessage
+            id="faq.body11Ciii"
+            defaultMessage="Fine that could reach 2% of the group's revenues in Brazil, limited to BRL$ 50 million per violation."
+          />,
+          <FormattedMessage
+            id="faq.body11Civ"
+            defaultMessage="Daily fine."
+          />,
+          <FormattedMessage
+            id="faq.body11Cv"
+            defaultMessage="Daily fine."
+          />,
+          <FormattedMessage
+            id="faq.body11Cvi"
+            defaultMessage="Blocking of the personal data to which the infraction refers until its regularization."
+          />,
+          <FormattedMessage
+            id="faq.body11Cvii"
+            defaultMessage="Deletion of the personal data to which the infringement refers."
+          />,
+          <FormattedMessage
+            id="faq.body11Cviii"
+            defaultMessage="Partial suspension of the operation of the database to which the infraction refers for a maximum period of 6 (six) months, extendable for an equal period, until the processing activity is regularized by the organization."
+          />,
+          <FormattedMessage
+            id="faq.body11Cix"
+            defaultMessage="Partial or total ban on the exercise of activities related to data processing."
+          />,
+        ],
+      },
+      <br />,
+      <FormattedMessage
+        id="faq.body11C"
+        defaultMessage="The sanctions may be applied cumulatively, by day and violation, but always based on the seriousness and extent of the violation."
+      />,  
+      <br />,    
     ],
   },
   {
@@ -442,6 +702,14 @@ export default [
         id="faq.body12Bi"
         defaultMessage="The CCPA does not define who specifically within an organization is responsible for this."
       />,
+      <br />,
+      <FormattedMessage id="faq.body12C" defaultMessage="Under the LGPD:" />,
+      <br />,
+      <FormattedMessage
+        id="faq.body12Ci"
+        defaultMessage="The Data Protection Officer (DPO). However, small data processing agents such as micro-companies, startups, and legal entities of private law, are not required to appoint the personal data controller, but must provide a communication channel with consumers."
+      />,
+      <br />,
     ],
   },
   {
@@ -460,6 +728,7 @@ export default [
           a2: txt => (<a target="_blank" href="https://support.microsoft.com/en-us/help/555566">{txt}</a>),                              
         }}
       />,
+      <br />,
     ],
   },
 ];
