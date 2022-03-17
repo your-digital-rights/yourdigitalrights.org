@@ -250,7 +250,7 @@
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "Si bien no podemos permitirnos pagarle por su trabajo, estamos más que dispuestos de darle crédito por sus contribuciones, ya sea en este sitio web, en github o en otras plataformas."
+      "value": "Si bien no podemos permitirnos pagarle por su trabajo, estamos más que dispuestos de darle crédito por sus contribuciones, ya sea en este sitio web, en Github o en otras plataformas."
     }
   ],
   "contribute.creditTitle": [
@@ -262,7 +262,7 @@
   "contribute.crowdinStep1": [
     {
       "type": 0,
-      "value": "Haz una cuenta en Crowdin siguiendo este "
+      "value": "Crea una cuenta en Crowdin siguiendo este "
     },
     {
       "children": [
@@ -278,10 +278,14 @@
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Abre nuestro proyecto de traducción "
+      "value": "Abre nuestro "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "proyecto de traducción"
+        }
       ],
       "type": 8,
       "value": "a"
@@ -290,7 +294,7 @@
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Sube un idioma que te gustaría traducir, luego haz clic en el botón \"Traducir\" de la derecha"
+      "value": "Selecciona el idioma que te gustaría traducir, luego haz clic en el botón \"Traducir\" de la derecha"
     }
   ],
   "contribute.crowdinStep4": [
@@ -534,13 +538,13 @@
   "deletePII.doneAll": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with all of your requests."
+      "value": "Los datos personales asociados a todas tus solicitudes han sido eliminados con éxito."
     }
   ],
   "deletePII.doneRequest": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with this request."
+      "value": "Los datos personales asociados a esta solicitud han sido eliminados con éxito."
     }
   ],
   "deletePII.heading": [
@@ -590,7 +594,7 @@
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "Your digital rights se creó porque para nosotros la privacidad es importante y ejercer el derecho a la privacidad debería ser fácil y accesible. Por eso lo hemos desarrollado esta aplicación gratuita. Sus donaciones nos permiten dedicar más tiempo a mejorar este servicio."
+      "value": "Your Digital Rights se creó porque para nosotros la privacidad es importante y ejercer el derecho a la privacidad debería ser fácil y accesible. Por eso lo hemos desarrollado esta aplicación gratuita. Sus donaciones nos permiten dedicar más tiempo a mejorar este servicio."
     }
   ],
   "donations.headingDonate": [
