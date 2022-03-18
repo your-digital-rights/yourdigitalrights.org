@@ -1,6 +1,16 @@
 export default {
   subject(data) {
-    return data.reference.length > 0 ? `Data Deletion Request ${data.reference}`: `Data Deletion Request`;
+    var subject = "Data deletion request";
+
+    if (data.regulationType === 'LGPD') {
+      subject = "Solicitação de exclusão de dados";
+    }
+
+    if (data.reference.length > 0) {
+      subject = subject.concat(` ${data.reference}`);
+    }
+
+    return subject;
   },
   formatBody(data) {
     var body;
@@ -29,12 +39,16 @@ export default {
         `${additionalInfo}
 ${data.identifyingInfo}
 
-${salutation}
-
-${data.name}
 `
       );
     }
+
+      body = body.concat(
+      `${salutation}
+
+${data.name}
+`
+    );
 
     return body;
   },

@@ -1,6 +1,16 @@
 export default {
   subject(data) {
-    return data.reference.length > 0 ? `Data Deletion Request ${data.reference}`: `Data Deletion Request`;
+    var subject = "Data access request";
+
+    if (data.regulationType === 'LGPD') {
+      subject = "Solicitação de acesso a dados";
+    }
+
+    if (data.reference.length > 0) {
+      subject = subject.concat(` ${data.reference}`);
+    }
+
+    return subject;
   },
   formatBody(data) {
     var body;

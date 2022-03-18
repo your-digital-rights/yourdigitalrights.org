@@ -131,7 +131,10 @@ class Form extends Component {
     if (inputName === "companyEmail") {
       const companyEmailError = mailgoValidateEmail(inputValue)
         ? ""
-        : "Please enter a valid email.";
+        : this.props.intl.formatMessage({
+          id: "personalInfoForm.validEmail",
+          defaultMessage: "Please enter a valid email.",
+        });
 
       this.companyEmail.current.setCustomValidity(companyEmailError);
     }
