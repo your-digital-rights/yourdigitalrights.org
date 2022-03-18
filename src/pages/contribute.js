@@ -101,7 +101,7 @@ const Contribute = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contribute.translate2"
-              defaultMessage="We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. Here is a <vid>video tutorial</vid> of the translation editor to help you get started. Follow these steps to get started:"
+              defaultMessage="We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble <b>here</b>. Follow these steps to get started:"
               values={{
                 a: chunks =>  (
                     <a 
@@ -111,9 +111,9 @@ const Contribute = ({ classes, router }) => {
                         {chunks}
                     </a>
                     ),
-                vid: chunks =>  (
+                b: chunks =>  (
                   <a 
-                      href='https://youtu.be/bxdC7MfrO7A?t=205'
+                      href='https://support.crowdin.com/in-context-localization/'
                       target="_blank"
                   >
                       {chunks}
@@ -127,7 +127,7 @@ const Contribute = ({ classes, router }) => {
               <Typography color="textSecondary">
                 <FormattedMessage 
                   id="contribute.crowdinStep1" 
-                  defaultMessage="Make an account at Crowdin by following this <a>link</a>" 
+                  defaultMessage="Make an account at Crowdin by following this <a>link</a>." 
                   values={{
                     a: chunks =>  (
                         <a 
@@ -145,11 +145,11 @@ const Contribute = ({ classes, router }) => {
               <Typography color="textSecondary">
                 <FormattedMessage 
                   id="contribute.crowdinStep2" 
-                  defaultMessage="Open our translation <a>project</a>" 
+                  defaultMessage="Follow this <a>link</a> to load the translation system." 
                   values={{
                     a: chunks =>  (
                         <a 
-                            href='https://translate.yourdigitalrights.org/your-digital-rights/'
+                            href='https://yourdigitalrights.org/az'
                             target="_blank"
                         >
                             {chunks}
@@ -163,7 +163,7 @@ const Contribute = ({ classes, router }) => {
               <Typography color="textSecondary">
                 <FormattedMessage 
                   id="contribute.crowdinStep3" 
-                  defaultMessage="Hover over a language that you would like to translate, then click the 'Translate' button on the right"                    
+                  defaultMessage="Choose a language (you will need to log in to Crowdin to do this)."                    
                 />
               </Typography>
             </li>     
@@ -171,10 +171,36 @@ const Contribute = ({ classes, router }) => {
               <Typography color="textSecondary">
                 <FormattedMessage 
                   id="contribute.crowdinStep4" 
-                  defaultMessage="You now see the crowdsourcing dashboard where you can start translating strings that are marked with a red dot, or search for a string you would like to correct"                    
+                  defaultMessage="You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."                    
                 />
               </Typography>
-            </li>          
+            </li> 
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep5" 
+                  defaultMessage="An editor will open up where you can provide your translation. Don't forget to click save when done."                    
+                />
+              </Typography>
+            </li>        
+            <li>
+              <Typography color="textSecondary">
+                <FormattedMessage 
+                  id="contribute.crowdinStep6" 
+                  defaultMessage="If you are experiencing any problems please <email>contact us.</email>"        
+                  values={{
+                    email: chunks =>  (
+                        <a 
+                          href="mailto:info@yourdigitalrights.org?subject=I am having problems with the translation system."
+                          target="_blank"
+                        >
+                            {chunks}
+                        </a>
+                        ),                      
+                  }}                                
+                />
+              </Typography>
+            </li>                                  
           </ol>          
           <Typography component="h2" variant="h3" gutterBottom={true}>
             <FormattedMessage id="contribute.devTitle" defaultMessage="Help with Development" />
