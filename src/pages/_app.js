@@ -11,7 +11,6 @@ import SEO from '../next-seo.config';
 import * as locales from "../../compiled-lang";
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
 
-
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const { locale, defaultLocale, pathname } = router;
@@ -39,6 +38,7 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             />
             <script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://cdn.crowdin.com/jipt/jipt.css?v3" />
             </>
         )}
       </Head>
