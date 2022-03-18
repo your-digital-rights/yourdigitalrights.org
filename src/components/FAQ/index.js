@@ -31,15 +31,18 @@ class FAQ extends Component {
                 {text.item || text}
               </Typography>
               {text.subItems && (
-                <ul className={classes.list}>
-                  {text.subItems.map((subItemText, index) => (
-                    <li key={index}>
-                      <Typography color="textSecondary">
-                        {subItemText}
-                      </Typography>
-                    </li>
-                  ))}
-                </ul>
+                <>
+                  <br />
+                  <ul className={classes.list}>
+                    {text.subItems.map((subItemText, index) => (
+                      <li key={index}>
+                        <Typography color="textSecondary">
+                          {subItemText}
+                        </Typography>
+                      </li>
+                    ))}
+                  </ul>
+                </>
               )}
             </div>
           );

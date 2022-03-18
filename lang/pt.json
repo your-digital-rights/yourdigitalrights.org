@@ -197,17 +197,35 @@
   "donations.headingDonate": {
     "message": "Precisamos do seu suporte"
   },
-  "faq.body10A": {
-    "message": "Sob o GDPR:"
+  "faq.body0A": {
+    "message": "Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data."
   },
-  "faq.body10Ai": {
-    "message": "Se você não estiver satisfeito com a forma como a organização tratou sua solicitação, você deve primeiro reclamar com ela. Feito isso, se você continuar insatisfeito, poderá fazer uma reclamação às Autoridades de Proteção de Dados (DPA) locais. Você também pode buscar fazer valer seus direitos através dos tribunais. Se você decidir fazer isso, recomendamos que você procure primeiro aconselhamento jurídico independente. Você pode baixar uma lista de DPAs <a>aqui</a> (PDF)."
+  "faq.body1": {
+    "message": "Different countries have different regulations protecting individual privacy online. This website supports the following regulations:"
+  },
+  "faq.body10A": {
+    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request."
   },
   "faq.body10B": {
+    "message": "If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court. If you decide to do this, we strongly advise you to seek independent legal advice first."
+  },
+  "faq.body10C": {
+    "message": "Sob o GDPR:"
+  },
+  "faq.body10Ci": {
+    "message": "You can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. You can download a list of DPAs <a>here</a> (PDF)."
+  },
+  "faq.body10D": {
     "message": "No âmbito do CCPA:"
   },
-  "faq.body10Bii": {
-    "message": "Se você não estiver satisfeito com a forma como uma organização lidou com sua solicitação, você deve primeiro reclamar com ela. Feito isso, se você continuar insatisfeito, terá duas opções. <a>Reclamar ao Procurador-Geral</a> ou tomar uma ação privada."
+  "faq.body10Di": {
+    "message": "You can make a complaint to the California <a>Attorney General</a>. You can also seek to enforce your rights through the courts."
+  },
+  "faq.body10E": {
+    "message": "Under the LGPD:"
+  },
+  "faq.body10Ei": {
+    "message": "You can make a complaint to the ANPD. You can also seek to enforce your rights through the courts."
   },
   "faq.body11A": {
     "message": "Sob o GDPR:"
@@ -227,6 +245,42 @@
   "faq.body11Biii": {
     "message": "<a>Saiba mais</a>"
   },
+  "faq.body11C": {
+    "message": "The sanctions may be applied cumulatively, by day and violation, but always based on the seriousness and extent of the violation."
+  },
+  "faq.body11C0": {
+    "message": "The administrative sanctions applicable range are:"
+  },
+  "faq.body11Ci": {
+    "message": "Warning."
+  },
+  "faq.body11Cii": {
+    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+  },
+  "faq.body11Ciii": {
+    "message": "Fine that could reach 2% of the group's revenues in Brazil, limited to BRL$ 50 million per violation."
+  },
+  "faq.body11Civ": {
+    "message": "Daily fine."
+  },
+  "faq.body11Cix": {
+    "message": "Partial or total ban on the exercise of activities related to data processing."
+  },
+  "faq.body11Cv": {
+    "message": "Daily fine."
+  },
+  "faq.body11Cvi": {
+    "message": "Blocking of the personal data to which the infraction refers until its regularization."
+  },
+  "faq.body11Cvii": {
+    "message": "Deletion of the personal data to which the infringement refers."
+  },
+  "faq.body11Cviii": {
+    "message": "Partial suspension of the operation of the database to which the infraction refers for a maximum period of 6 (six) months, extendable for an equal period, until the processing activity is regularized by the organization."
+  },
+  "faq.body11D": {
+    "message": "Under the LGPD:"
+  },
   "faq.body12A": {
     "message": "Sob o GDPR:"
   },
@@ -239,11 +293,23 @@
   "faq.body12Bi": {
     "message": "A CCPA não define quem especificamente dentro de uma organização é responsável por isso."
   },
+  "faq.body12C": {
+    "message": "Under the LGPD:"
+  },
+  "faq.body12Ci": {
+    "message": "The Data Protection Officer (DPO). However, small data processing agents such as micro-companies, startups, and legal entities of private law, are not required to appoint the personal data controller, but must provide a communication channel with consumers."
+  },
   "faq.body13A": {
     "message": "Para corrigir esse problema, você precisará configurar um cliente de e-mail padrão em seu sistema. Aqui estão as instruções sobre como fazer isso em <a1>Mac</a1> e <a2>Windows</a2>."
   },
   "faq.body1A": {
-    "message": "Existem actualmente dois regulamentos principais que protegem a privacidade individual on-line. Os Regulamentos Gerais de Proteção de Dados, ou o GDPR protege residentes da União Europeia, e a California Privacy Act, ou CCPA protege residentes da Califórnia."
+    "message": "European Union - The General Data Protection Regulations (GDPR)"
+  },
+  "faq.body1B": {
+    "message": "California - Consumer Privacy Act (CCPA)"
+  },
+  "faq.body1C": {
+    "message": "Brazil - General Data Protection Law (LGPD)"
   },
   "faq.body2A": {
     "message": "O Regulamento Geral de Proteção de Dados, ou GDPR, é um regulamento da UE que protege o direito fundamental das pessoas à proteção de seus dados pessoais."
@@ -270,13 +336,13 @@
     "message": "Organizações estabelecidas fora da UE que coletam ou processam informações pessoais enquanto estão envolvidas no monitoramento do comportamento de pessoas enquanto estão na UE"
   },
   "faq.body4A": {
-    "message": "A Lei de Privacidade do Consumidor da Califórnia, ou CCPA, é uma nova regulamentação introduzida na Califórnia em janeiro de 2020. Ela protege o direito fundamental das pessoas à proteção de seus dados pessoais e privacidade online."
+    "message": "The California Consumer Privacy Act, or CCPA for short, is a regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
   },
   "faq.body4Ai": {
     "message": "<a>Leia o regulamento</a>"
   },
   "faq.body5A": {
-    "message": "A CCPA se aplica a organizações que coletam informações pessoais de consumidores, ou em nome das quais tais informações são coletadas e que, isoladamente, ou em conjunto com outras, determinam as finalidades e meios de processamento de informações pessoais de consumidores, que realizam negócios no Estado da Califórnia, e que satisfaça um ou mais dos seguintes limites:"
+    "message": "The CCPA applies to organizations that collect consumer's personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumer's personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
   },
   "faq.body5Ai": {
     "message": "Tem receita bruta anual superior a vinte e cinco milhões de dólares ($ 25.000.000)"
@@ -285,7 +351,7 @@
     "message": "Anualmente compra, recebe, vende ou compartilha para fins comerciais, isoladamente ou em combinação, as informações pessoais de 50.000 ou mais consumidores, famílias ou dispositivos"
   },
   "faq.body5Aiii": {
-    "message": "Obtém 50% ou mais de sua receita anual da venda de informações pessoais dos consumidores"
+    "message": "Derives 50 percent or more of its annual revenues from selling consumer's personal information"
   },
   "faq.body6Ai": {
     "message": "Sob o GDPR:"
@@ -304,6 +370,15 @@
   },
   "faq.body6Biii": {
     "message": "<a>Leia a definição</a>"
+  },
+  "faq.body6Ci": {
+    "message": "Under the LDPG:"
+  },
+  "faq.body6Cii": {
+    "message": "Any information relating to an identified or identifiable natural person such as name, ID-number, location data, email, etc."
+  },
+  "faq.body6Ciii": {
+    "message": "Sensitive personal data is defined as a subcategory to personal data and applies when the data processed concerns to racial or ethnic origin, religious belief, political opinion, trade union or religious, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data."
   },
   "faq.body7A": {
     "message": "Sob o GDPR:"
@@ -329,8 +404,38 @@
   "faq.body7Avii": {
     "message": "Os dados foram coletados de você quando criança para um serviço online. Exemplo: mídia social ou um aplicativo de jogos. A lei dá proteção especial às crianças porque elas podem estar menos cientes dos riscos e consequências de fornecer seus dados às organizações. Mesmo se você for um adulto, você tem o direito de ter seus dados apagados se eles foram coletados de você quando criança."
   },
-  "faq.body7B": {
+  "faq.body7Aviii": {
     "message": "<a>Saiba mais</a>"
+  },
+  "faq.body7B": {
+    "message": "No âmbito do CCPA:"
+  },
+  "faq.body7Bi": {
+    "message": "Consumers can exercise the right to delete their personal data if:"
+  },
+  "faq.body7Bii": {
+    "message": "The personal information was collected by the business from the consumer."
+  },
+  "faq.body7Biii": {
+    "message": "It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
+  },
+  "faq.body7Biv": {
+    "message": "The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
+  },
+  "faq.body7C": {
+    "message": "Under the LGPD:"
+  },
+  "faq.body7Ci": {
+    "message": "The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
+  },
+  "faq.body7Cii": {
+    "message": "In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
+  },
+  "faq.body7Ciii": {
+    "message": "If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
+  },
+  "faq.body7Ciiii": {
+    "message": "In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
   },
   "faq.body8A": {
     "message": "Existem certas circunstâncias em que uma organização tem permissão legal para se recusar a apagar seus dados."
@@ -378,7 +483,7 @@
     "message": "Por cumprir uma obrigação legal."
   },
   "faq.body8Cix": {
-    "message": "Caso contrário, use as informações pessoais do consumidor, internamente, de maneira lícita e compatível com o contexto em que o consumidor forneceu as informações."
+    "message": "Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
   },
   "faq.body8Cv": {
     "message": "Para realizar um contrato entre a empresa e o consumidor."
@@ -390,10 +495,28 @@
     "message": "Depure para identificar e reparar erros que prejudicam a funcionalidade pretendida existente."
   },
   "faq.body8Cviii": {
-    "message": "Permitir apenas usos internos que estejam razoavelmente alinhados com as expectativas do consumidor com base no relacionamento do consumidor com o negócio."
+    "message": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
   },
   "faq.body8D": {
     "message": "<a>Saiba mais</a>"
+  },
+  "faq.body8E": {
+    "message": "Under the LGPD:"
+  },
+  "faq.body8F": {
+    "message": "In case of data processing based on consent, the LGPD permits keeping data for the following purposes:"
+  },
+  "faq.body8Fi": {
+    "message": "Compliance with a statutory or regulatory obligation by the organization."
+  },
+  "faq.body8Fii": {
+    "message": "Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
+  },
+  "faq.body8Fiii": {
+    "message": "Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
+  },
+  "faq.body8Fiv": {
+    "message": "Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
   },
   "faq.body9A": {
     "message": "Sob o GDPR:"
@@ -405,10 +528,46 @@
     "message": "No âmbito do CCPA:"
   },
   "faq.body9Aiii": {
-    "message": "O prazo para resposta a um pedido é de 45 dias a contar da receção do pedido do consumidor. O prazo pode ser prorrogado por mais 45 dias quando razoavelmente necessário, desde que o consumidor seja informado nos primeiros 45 dias."
+    "message": "The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+  },
+  "faq.body9C": {
+    "message": "Under the LGPD:"
+  },
+  "faq.body9D": {
+    "message": "The organization must comply with a request in two ways:"
+  },
+  "faq.body9Di": {
+    "message": "In simplified form, if the confirmation or access is provided immediately."
+  },
+  "faq.body9Dii": {
+    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+  },
+  "faq.body9F": {
+    "message": "The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors."
+  },
+  "faq.bodyWhatIsLGPD1": {
+    "message": "The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
+  },
+  "faq.bodyWhatIsLGPD2": {
+    "message": "<a>Leia o regulamento</a>"
+  },
+  "faq.bodyWhoLGPDAppliesTo1": {
+    "message": "The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when:"
+  },
+  "faq.bodyWhoLGPDAppliesTo2": {
+    "message": "Personal data is collected in Brazil"
+  },
+  "faq.bodyWhoLGPDAppliesTo3": {
+    "message": "Data is related to an individuals located in the Brazilian territory, or"
+  },
+  "faq.bodyWhoLGPDAppliesTo4": {
+    "message": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+  },
+  "faq.heading0": {
+    "message": "What are data protection laws?"
   },
   "faq.heading1": {
-    "message": "Qual regulamento me protege, GDPR ou CCPA?"
+    "message": "Which data protection laws protect me?"
   },
   "faq.heading10": {
     "message": "O que devo fazer se uma organização não atendeu ou não atendeu totalmente a minha solicitação?"
@@ -444,7 +603,13 @@
     "message": "Quando a organização pode dizer não?"
   },
   "faq.heading9": {
-    "message": "Quanto tempo uma organização tem para atender a uma solicitação?"
+    "message": "How long do organizations have to comply with a request?"
+  },
+  "faq.headingWhatIsLGPD": {
+    "message": "What is the LGPD?"
+  },
+  "faq.headingWhoLGPDAppliesTo": {
+    "message": "Who does the LGPD apply to?"
   },
   "faq.title": {
     "message": "perguntas frequentes"
@@ -579,7 +744,7 @@
     "message": "Organização: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Use este serviço gratuito para enviar solicitações de dados {ccpa} e {gdpr}"
+    "message": "Use this free service to send GDPR, CCPA and LGPD data requests."
   },
   "orgHero.title": {
     "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais."
@@ -607,12 +772,6 @@
   },
   "personalInfoForm.ccpaOption": {
     "message": "CCPA (Califórnia)"
-  },
-  "personalInfoForm.ccpaOrGdpr": {
-    "message": "Regulamento"
-  },
-  "personalInfoForm.ccpaOrGdprHelper": {
-    "message": "Escolha a regulamentação com base no seu local de residência, a menos que tenha um motivo específico para escolher de forma diferente."
   },
   "personalInfoForm.companyDomainHelper": {
     "message": "Insira o nome de domínio da organização (exemplo: google.co.uk ou facebook.com)."
@@ -650,11 +809,20 @@
   "personalInfoForm.nameLabel": {
     "message": "Nome completo"
   },
+  "personalInfoForm.regulationType": {
+    "message": "Regulation"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+  },
   "personalInfoForm.requestTypeLabelText": {
     "message": "Tipo de solicitação"
   },
   "personalInfoForm.sendButton": {
     "message": "Revise sua solicitação"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Please enter a valid email."
   },
   "pressIntro.title": {
     "message": "Destacado em"
@@ -836,6 +1004,9 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>Quando manter seus dados é necessário por razões de liberdade de expressão e informação (isso inclui jornalismo e acadêmico, propósitos artísticos e literários).</li><li>Quando a organização for legalmente obrigada a manter os seus dados.</li><li>Ao manter seus dados guardados é necessário por motivos de saúde pública.</li><li>Para manter seus dados é necessário para estabelecer, exercer ou defender reivindicações legais.</li><li>Ao apagar seus dados prejudicaria a pesquisa científica ou histórica, ou arquivaria isso é do interesse público.</li><li>Se, tendo considerado seu pedido, a organização decidir que não precisa apagar seus dados, ela ainda deve responder a você. Deve te explicar por que ele acredita que não tem que apagar seus dados, e avise você sobre o seu direito de reclamar sobre essa decisão junto do DPA ou através dos tribunais.</li></ul>"
   },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Discurso gratuito ou outro direito fornecido por lei.</li><li>Processamento para fins de pesquisa, se a exclusão de informações pessoais tornasse impossível ou seriamente prejudicial a realização de tal pesquisa.</li><li>O processamento dessas informações pessoais é necessário para proteger contra a atividade ilegal ou para processar os responsáveis pela atividade.</li><li>Por cumprir uma obrigação legal.</li><li>Para realizar um contrato entre a empresa e o consumidor.</li><li>Detecta incidentes de segurança, proteja contra atividades maliciosas, enganosas, fraudulentas ou ilegais, ou processe os responsáveis por essa atividade.</li><li>Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente.</li><li>para permitir apenas usos internos que são razoavelmente alinhados com as expectativas do consumidor com base na relação do consumidor com o negócio.</li><li>Caso contrário, use as informações pessoais do consumidor internamente, legalmente, compatível com o contexto em que o consumidor forneceu a informação.</li></ul>"
+  },
   "request.next.escalateToAuthorityNoReply": {
     "message": "Recomendação: aumente sua solicitação para seu { authority }."
   },
@@ -1000,6 +1171,9 @@
   },
   "thankyou.findCompany": {
     "message": "Encontrar outra organização"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems."
   },
   "thankyou.requestTypeAccess": {
     "message": "Um acesso"
