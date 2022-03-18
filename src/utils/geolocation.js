@@ -17,6 +17,8 @@ async function getRegulationbyGeolocation() {
             return 'CCPA';
           } else if (resultJson['country'] === 'GB') {
             return 'GDPRUK';
+          } else if (resultJson['country'] === 'BR') {
+            return 'LGPD';            
           } else {
             return 'GDPR';
           }

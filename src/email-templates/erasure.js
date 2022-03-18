@@ -1,9 +1,21 @@
 export default {
   subject(data) {
-    return data.reference.length > 0 ? `Data Deletion Request ${data.reference}`: `Data Deletion Request`;
+    var subject = "Data deletion request";
+
+    if (data.regulationType === 'LGPD') {
+      subject = "Solicitação de exclusão de dados";
+    }
+
+    if (data.reference.length > 0) {
+      subject = subject.concat(` ${data.reference}`);
+    }
+
+    return subject;
   },
   formatBody(data) {
     var body;
+    var additionalInfo = ADDITIONAL_INFO_TEXT_EN;
+    var salutation = SALUTATION_EN;
 
     switch (data.regulationType) {
       case "CCPA":
@@ -14,24 +26,39 @@ export default {
         break;
       case "GDPRUK":
         body = GDPR_TEXT;
+        break;   
+      case "LGPD":
+        body = LGPD_TEXT;
+        additionalInfo = ADDITIONAL_INFO_TEXT_PT;
+        salutation = SALUTATION_PT;
         break;        
     }
 
     if (data.identifyingInfo) {
       body = body.concat(
-        `Please use the following information to identify me in your systems:
+        `${additionalInfo}
 ${data.identifyingInfo}
 
 `
       );
     }
 
-    return body.concat(`Kind regards,
+      body = body.concat(
+      `${salutation}
 
 ${data.name}
-`);
+`
+    );
+
+    return body;
   },
 };
+
+const ADDITIONAL_INFO_TEXT_EN = `Please use the following information to identify me in your systems:`;
+const ADDITIONAL_INFO_TEXT_PT = `Use as seguintes informações para me identificar em seus sistemas:`;
+const SALUTATION_EN = `Kind regards,`;
+const SALUTATION_PT = `Atenciosamente,`;
+
 
 const CCPA_TEXT = `To whom it may concern:
 
@@ -62,5 +89,24 @@ Please confirm that you have erased my personal information from your systems, a
 Please note that I do not consent to any personal information which is part of this request, including my email address and name, to be used for any purpose other than fulfilling this request.
 
 If you do not normally deal with data protection requests, please forward this email to your Data Protection Officer, or relevant member of staff. Please note that you have 30 days to comply with this request.
+
+`;
+
+
+const LGPD_TEXT = `A  quem possa interessar,
+
+Venho por meio deste solicitar que você apague as minhas informações pessoais de seus registros, de acordo com o inciso VI do artigo 18 da Lei Geral de Proteção de Dados (LGPD). 
+
+Caso você trate os meus dados pessoais com base no consentimento, neste momento, eu revogo este consentimento. Por outro lado, caso você trate os meus dados pessoais com base em seu legítimo interesse, eu me oponho a este tratamento, nos termos do art. 18, §2º.
+
+Por favor, peço que confirme que você apagou minhas informações pessoais de seus sistemas, bem como comprove que orientou os seus prestadores de serviços, parceiros ou fornecedores, com quem minhas informações foram compartilhadas, a também excluir os meus dados dos seus respectivos sistemas, conforme prevê o art. 18, §6º.
+
+Se você precisar de mais informações para me identificar ou localizar meus registros em seus sistemas, por favor, entre em contato o mais rápido possível. Preferencialmente, o meu meio de contato é por e-mail.
+
+Se você não puder atender à minha solicitação para apagar minhas informações pessoais, por favor, informe o motivo específico pelo qual a minha solicitação não pode ser atendida. Se você estiver se baseando em outras bases legais do artigo 7º ou 11º da LGPD, por favor, me informe quais são e qual a justificativa para a sua utilização.
+
+Por favor, observe que eu não forneci o meu consentimento de que qualquer informação pessoal que faça parte desta solicitação, incluindo meu nome e endereço de e-mail, seja utilizado para qualquer outro fim que não seja o cumprimento da minha solicitação.
+
+Se você não é o responsável por atender a minha solicitação, por favor, encaminhe este e-mail para o Encarregado de Proteção de Dados (“DPO”) ou, se for o caso, para a pessoa responsável. Por favor, observe que você deve seguir os prazos estabelecidos pela LGPD e pelas regulamentações da ANPD, sob pena de ser responsabilizado pela legislação.
 
 `;

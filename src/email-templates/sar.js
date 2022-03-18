@@ -1,9 +1,21 @@
 export default {
   subject(data) {
-    return `Data Access Request ${data.reference}`;
+    var subject = "Data access request";
+
+    if (data.regulationType === 'LGPD') {
+      subject = "Solicitação de acesso a dados";
+    }
+
+    if (data.reference.length > 0) {
+      subject = subject.concat(` ${data.reference}`);
+    }
+
+    return subject;
   },
   formatBody(data) {
     var body;
+    var additionalInfo = ADDITIONAL_INFO_TEXT_EN;
+    var salutation = SALUTATION_EN;
 
     switch (data.regulationType) {
       case "CCPA":
@@ -14,24 +26,34 @@ export default {
         break;
       case "GDPRUK":
         body = GDPR_TEXT;
-        break;        
+        break;     
+      case "LGPD":
+        body = LGPD_TEXT;
+        additionalInfo = ADDITIONAL_INFO_TEXT_PT;
+        salutation = SALUTATION_PT;
+        break;             
     }
 
     if (data.identifyingInfo) {
       body = body.concat(
-        `Please use the following information to identify me in your systems:
+        `${additionalInfo}
 ${data.identifyingInfo}
 
+${salutation}
+
+${data.name}
 `
       );
     }
 
-    return body.concat(`Kind regards,
-
-${data.name}
-`);
+    return body;
   },
 };
+
+const ADDITIONAL_INFO_TEXT_EN = `Please use the following information to identify me in your systems:`;
+const ADDITIONAL_INFO_TEXT_PT = `Use as seguintes informações para me identificar em seus sistemas:`;
+const SALUTATION_EN = `Kind regards,`;
+const SALUTATION_PT = `Atenciosamente,`;
 
 const CCPA_TEXT = `To whom it may concern:
 
@@ -85,5 +107,34 @@ I am writing to obtain the following information that I am entitled to receive p
 Please note that I do not consent to any personal information which is part of this request, including my email address and name, to be used for any purpose other than fulfilling this request.
 
 If you do not normally deal with data protection requests, please forward this email to your Data Protection Officer, or relevant member of staff. Please note that I have the right to receive this information in a standardized format within 30 days of your receipt of this request.
+
+`;
+
+const LGPD_TEXT = `A quem possa interessar,
+
+Venho, por meio deste, solicitar a confirmação da existência de tratamento dos meus dados pessoais, e, se for o caso, providenciar o meu acesso a tais dados, de acordo com o art. 18, inciso I e II da Lei Geral de Proteção de Dados (LGPD), fornecendo as seguintes informações:
+
+1.  Uma cópia dos meus dados pessoais que você realiza algum tratamento;
+2. Uma descrição detalhada sobre a forma em que você tratou, está tratando ou como irá tratar os meus dados pessoais;
+3. As finalidades do tratamento;
+4. A categoria dos dados pessoais tratados;
+5. A lista de todos os terceiros com quem você tenha (ou possa ter) compartilhado meus dados pessoais;
+6. Quando possível, o período pelo qual os dados pessoais serão armazenados ou, se não for possível, os critérios utilizados para determinar esse período;
+7. Se o caso, a existência de decisões automatizadas, incluindo a definição de perfis, e pelo menos nesses casos, compartilhar as informações significativas sobre a lógica envolvida, bem como o significado e as conseqüências previstas em tal tratamento, observados os segredos comercial e industrial;
+8. As garantias que você fornece se transferir internacionalmente meus dados pessoais para um país terceiro ou organização internacional;
+9. Além disso, gostaria de saber se meus dados pessoais já foram ou não divulgados inadvertidamente pela organização, ou em decorrência de um incidente de segurança, compartilhando as seguintes informações:
+9.1 uma descrição geral do que ocorreu;
+9.2 a data e a hora do incidente (ou a melhor estimativa possível);
+9.3 a data e a hora em que o incidente foi descoberto;
+9.4 a fonte da violação (sua própria organização, ou um terceiro com quem você compartilhou meus dados pessoais);
+9.5 detalhes dos meus dados pessoais que foram divulgados;
+9.6 a avaliação da sua empresa sobre o risco de dano como resultado do incidente;
+9.7 uma descrição das medidas tomadas ou que serão tomadas para evitar mais acessos não autorizados aos meus dados pessoais;
+9.8 informações de contato para que eu possa obter mais informações e assistência em relação a tal incidente;
+9.9 informações e orientações sobre o que posso fazer para me proteger contra qualquer dano, incluindo roubo de identidade e fraude.
+
+Por favor, observe que eu não forneci o meu consentimento de que qualquer informação pessoal que faça parte desta solicitação, incluindo meu nome e endereço de e-mail, seja utilizado para qualquer outro fim que não seja o cumprimento da minha solicitação.
+
+Se você não é o responsável por atender a minha solicitação, por favor, encaminhe este e-mail para o Encarregado de Proteção de Dados (“DPO”) ou, se for o caso, para a pessoa responsável. Por favor, observe que você deve seguir os prazos estabelecidos pela LGPD e pelas regulamentações da ANPD, sob pena de ser responsabilizado pela legislação.
 
 `;

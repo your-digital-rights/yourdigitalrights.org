@@ -36,7 +36,9 @@ const mailgoConfig = {
 
 function renderMailTo(requestItem, complaintText, countryCode, status) {
   const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
-  const geo = geographies.filter(geo => geo.countryCode === countryCode);
+  console.log("countryCode",countryCode);
+  console.log("geographies",geographies);
+  const geo = geographies.filter(geo => geo.countryCode === countryCode);  
   const to = geo[0].email;
   const cc = requestItem.requestEmailTo.S;
   const bcc = getInboundEmailAddress(requestItem.id.S, 'escalation');
@@ -67,13 +69,14 @@ const handleFormSubmit = (requestItem, complaintText, geograpghy, status) => e =
 }
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {
-  const [geograpghy, setGeograpghy] = useState('AT');
+  const defaultGeographyCode = Regulations[requestItem.regulationType.S].dpa.geographies[0].countryCode;
+  const [geograpghy, setGeograpghy] = useState(defaultGeographyCode);
   const [complaintText, setcomplaintText] = useState("");
 
   useEffect(() => {
     const getGeo = async () => {
       let geo = await getCountryCode();
-      geo = geo ? geo : 'AT';
+      geo = geo ? geo : defaultGeographyCode;
       setGeograpghy(geo);
     }
     getGeo();
