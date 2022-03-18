@@ -130,10 +130,10 @@ const ThanksMessage = (props) => {
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
   let replyTimeText = intl.formatMessage({
       id: "thankyou.howLongToReply",
-      defaultMessage: "Organizations have {days} days to comply, and may ask you for additional information to help identify you in their systems.",
+      defaultMessage: "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems.",
     },
     {
-      days: txt => (<em>{Regulations[requestType].timeLimit}</em>),
+      days: (<em>{Regulations[regulationType].timeLimit} days</em>),
     }
   );
   

@@ -22,7 +22,7 @@ export default {
       const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
 
       bodyParts.push('A quem possa interessar:');
-      bodyParts.push(`No ${new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate))} enviei uma solicitação de ${capitalize(requestType.name)} de Dados por e-mail, de acordo com o artigo ${requestType.article} da Lei ${regulation.longName} (${regulation.displayName}).`);
+      bodyParts.push(`No ${new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate))} enviei uma solicitação de ${capitalize(requestType.name)} de Dados por e-mail, de acordo com o artigo ${requestType.article} da ${regulation.longName} (${regulation.displayName}).`);
 
       if (status === 'PARTIAL') {
         bodyParts.push('Até o momento, vocês não atenderam integralmente a minha solicitação.');
