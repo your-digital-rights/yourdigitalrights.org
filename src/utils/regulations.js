@@ -337,7 +337,7 @@ const Regulations = {
   },
   LGPD: {
     displayName: 'LGPD',
-    gepgraphy: 'Brasil',
+    gepgraphy: 'Brazil',
     longName: 'Lei Geral de Proteção de Dados Pessoais',
     timeLimit: 15,
     escalation_timeLimit: 30,

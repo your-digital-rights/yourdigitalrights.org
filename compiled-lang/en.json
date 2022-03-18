@@ -1968,23 +1968,7 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Use this free service to send "
-    },
-    {
-      "type": 1,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " and "
-    },
-    {
-      "type": 1,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " data requests."
+      "value": "Use this free service to send GDPR, CCPA and LGPD data requests."
     }
   ],
   "orgHero.title": [
@@ -2055,18 +2039,6 @@
     {
       "type": 0,
       "value": "CCPA (California)"
-    }
-  ],
-  "personalInfoForm.ccpaOrGdpr": [
-    {
-      "type": 0,
-      "value": "Regulation"
-    }
-  ],
-  "personalInfoForm.ccpaOrGdprHelper": [
-    {
-      "type": 0,
-      "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
     }
   ],
   "personalInfoForm.companyDomainHelper": [
@@ -2153,6 +2125,18 @@
     {
       "type": 0,
       "value": "Full name"
+    }
+  ],
+  "personalInfoForm.regulationType": [
+    {
+      "type": 0,
+      "value": "Regulation"
+    }
+  ],
+  "personalInfoForm.regulationTypeHelper": [
+    {
+      "type": 0,
+      "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
     }
   ],
   "personalInfoForm.requestTypeLabelText": [
@@ -3490,6 +3474,20 @@
     {
       "type": 0,
       "value": "Find another organization"
+    }
+  ],
+  "thankyou.howLongToReply": [
+    {
+      "type": 0,
+      "value": "Organizations have "
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": " days to comply, and may ask you for additional information to help identify you in their systems."
     }
   ],
   "thankyou.requestTypeAccess": [

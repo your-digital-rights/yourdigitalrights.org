@@ -9,8 +9,8 @@ import {
   IdentifyingInfoLabelText,
   NameHelperText,
   NameLabelText,
-  CcpaOrGdprText,
-  CcpaOrGdprHelperText,
+  RegulationTypeText,
+  RegulationTypeHelperText,
   FollowUpLabelText,
   YesFollowUpLabelText,
   NoFollowUpLabelText,
@@ -48,6 +48,7 @@ import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import getInboundEmailAddress from "../../utils/email";
+import Regulations from "../../utils/regulations";
 
 const screenHeightBreakpoint = 560;
 
@@ -384,9 +385,9 @@ class Form extends Component {
           />
           <TextField
             variant="outlined"
-            id="ccpaOrGdpr"
+            id="regulationType"
             select
-            label={CcpaOrGdprText}
+            label={RegulationTypeText}
             className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
@@ -397,12 +398,12 @@ class Form extends Component {
                 className: classes.menu,
               },
             }}
-            helperText={CcpaOrGdprHelperText}
+            helperText={RegulationTypeHelperText}
             margin="normal"
           >
-            <option value="GDPR">{GdprOptionText}</option>
-            <option value="GDPRUK">{UKGdprOptionText}</option>
-            <option value="CCPA">{CcpaOptionText}</option>
+            { Object.keys(Regulations).map((key) => 
+              <option key={key} value={key}>{`${Regulations[key].displayName} (${Regulations[key].gepgraphy})`}</option>
+            )}
           </TextField>
           <TextField
             variant="outlined"

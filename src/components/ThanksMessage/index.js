@@ -15,7 +15,8 @@ import {
   ThanksCopyPart3,
   FindCompanyText 
 } from "./text";
-
+import {useIntl} from 'react-intl';
+import Regulations from "../../utils/regulations";
 
 const styles = (theme) => ({
   root: {
@@ -124,9 +125,19 @@ const styles = (theme) => ({
 });
 
 const ThanksMessage = (props) => {
+  const intl = useIntl();
   let { classes, requestType, regulationType, uuid } = props;
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
-  let replyTimeText = (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
+  let replyTimeText = intl.formatMessage({
+      id: "thankyou.howLongToReply",
+      defaultMessage: "Organizations have {days} days to comply, and may ask you for additional information to help identify you in their systems.",
+    },
+    {
+      days: txt => (<em>{Regulations[requestType].timeLimit}</em>),
+    }
+  );
+  
+  (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
 
   let hide = () => {
     props.hideThanks();

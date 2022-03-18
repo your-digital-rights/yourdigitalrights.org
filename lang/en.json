@@ -738,7 +738,7 @@
     "message": "Organization: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Use this free service to send {ccpa} and {gdpr} data requests."
+    "message": "Use this free service to send GDPR, CCPA and LGPD data requests."
   },
   "orgHero.title": {
     "message": "Request account deletion or a copy of your personal data."
@@ -766,12 +766,6 @@
   },
   "personalInfoForm.ccpaOption": {
     "message": "CCPA (California)"
-  },
-  "personalInfoForm.ccpaOrGdpr": {
-    "message": "Regulation"
-  },
-  "personalInfoForm.ccpaOrGdprHelper": {
-    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
   },
   "personalInfoForm.companyDomainHelper": {
     "message": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
@@ -808,6 +802,12 @@
   },
   "personalInfoForm.nameLabel": {
     "message": "Full name"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Regulation"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
   },
   "personalInfoForm.requestTypeLabelText": {
     "message": "Request type"
@@ -1165,6 +1165,9 @@
   },
   "thankyou.findCompany": {
     "message": "Find another organization"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organizations have {days} days to comply, and may ask you for additional information to help identify you in their systems."
   },
   "thankyou.requestTypeAccess": {
     "message": "An access"

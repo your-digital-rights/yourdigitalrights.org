@@ -115,25 +115,13 @@ const LGPD_TEXT = `A quem possa interessar,
 Venho, por meio deste, solicitar a confirmação da existência de tratamento dos meus dados pessoais, e, se for o caso, providenciar o meu acesso a tais dados, de acordo com o art. 18, inciso I e II da Lei Geral de Proteção de Dados (LGPD), fornecendo as seguintes informações:
 
 1.  Uma cópia dos meus dados pessoais que você realiza algum tratamento;
-
 2. Uma descrição detalhada sobre a forma em que você tratou, está tratando ou como irá tratar os meus dados pessoais;
-
 3. As finalidades do tratamento;
-
-
 4. A categoria dos dados pessoais tratados;
-
-
 5. A lista de todos os terceiros com quem você tenha (ou possa ter) compartilhado meus dados pessoais;
-
-
 6. Quando possível, o período pelo qual os dados pessoais serão armazenados ou, se não for possível, os critérios utilizados para determinar esse período;
-
 7. Se o caso, a existência de decisões automatizadas, incluindo a definição de perfis, e pelo menos nesses casos, compartilhar as informações significativas sobre a lógica envolvida, bem como o significado e as conseqüências previstas em tal tratamento, observados os segredos comercial e industrial;
-
 8. As garantias que você fornece se transferir internacionalmente meus dados pessoais para um país terceiro ou organização internacional;
-
-
 9. Além disso, gostaria de saber se meus dados pessoais já foram ou não divulgados inadvertidamente pela organização, ou em decorrência de um incidente de segurança, compartilhando as seguintes informações:
 9.1 uma descrição geral do que ocorreu;
 9.2 a data e a hora do incidente (ou a melhor estimativa possível);

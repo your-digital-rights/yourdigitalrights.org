@@ -109,6 +109,4 @@ Por favor, observe que eu não forneci o meu consentimento de que qualquer infor
 
 Se você não é o responsável por atender a minha solicitação, por favor, encaminhe este e-mail para o Encarregado de Proteção de Dados (“DPO”) ou, se for o caso, para a pessoa responsável. Por favor, observe que você deve seguir os prazos estabelecidos pela LGPD e pelas regulamentações da ANPD, sob pena de ser responsabilizado pela legislação.
 
-Atenciosamente,
-
 `;
