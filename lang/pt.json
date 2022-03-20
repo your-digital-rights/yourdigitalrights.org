@@ -753,22 +753,22 @@
     "message": "Para garantir que a organização atenda à sua solicitação, enviaremos um e-mail a você quando mais ações foram necessárias. Você terá a opção de enviar um e-mail de lembrete à organização, ou de recorrer à agência apropriada de proteção de dados."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>Ao selecionar esta opção, você está concordando em deixar-nos processar e armazenar as seguintes informações pessoais: seu endereço de e-mail, nome e o texto de seus e-mails de solicitação. Todas as informações pessoais relacionadas a esta solicitação serão automaticamente excluídas de nossos sistemas dentro de 120 dias, a menos que você especifique de outra forma e sempre tenha a opção de excluir esses dados imediatamente. Nós coletamos essa informação automaticamente adicionando um endereço de e-mail especial ao campo BCC do e-mail de solicitação.</strong>"
+    "message": "<strong>Ao selecionar esta opção, você concorda e nos permite processar e armazenar as seguintes informações pessoais: seu endereço de e-mail, nome e o texto contido nos seus e-mails de solicitação. Todas as informações pessoais relacionadas a esta solicitação serão automaticamente excluídas de nossos sistemas dentro de 120 dias, a menos que você especifique de outra forma, e você sempre tem a opção de excluir esses dados imediatamente. Nós coletamos essa informação automaticamente ao adicionar um endereço de e-mail especial ao campo CCO do e-mail de solicitação.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "Ativar assistência de acompanhamento inteligente"
+    "message": "Ativar Assistente de Acompanhamento Inteligente"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
-    "message": "Opcionalmente, forneça qualquer informação adicional que ajude a organização a localizar seus dados em seus sistemas de informação, como Nome de usuário, ID do cliente ou Número da conta. <strong>Por favor, não forneça sua senha ou qualquer informação pessoal que a organização ainda não tenha.</strong>"
+    "message": "Opcionalmente, você pode fornecer qualquer informação adicional que ajude a organização a localizar seus dados em seus sistemas de informação, como Nome de Usuário, ID do Cliente ou Número da Conta. <strong>Não forneça a sua senha ou qualquer informação pessoal que a organização ainda não tenha.</strong>"
   },
   "personalInfoForm.NoFollowUpLabel": {
-    "message": "Não, eu posso administrar por minha conta"
+    "message": "Não, eu posso administrar por conta própria"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Sim, enviar por e-mail instruções de acompanhamento"
+    "message": "Sim, me envie instruções de acompanhamento"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "Envie-me uma cópia dos meus dados"
+    "message": "Me envie uma cópia dos meus dados"
   },
   "personalInfoForm.ccpaOption": {
     "message": "CCPA (Califórnia)"
@@ -783,13 +783,13 @@
     "message": "Endereço de e-mail da organização"
   },
   "personalInfoForm.companyNameHelper": {
-    "message": "Por favor, digite o nome da organização que você gostaria de entrar em contato."
+    "message": "Digite o nome da organização que você gostaria de entrar em contato."
   },
   "personalInfoForm.companyNameLabel": {
     "message": "Nome da organização"
   },
   "personalInfoForm.compnayEmailHelper": {
-    "message": "Insira o endereço de e-mail da pessoa ou departamento responsável por lidar com GDPR / CCPA / privacidade / solicitações legais. Geralmente você pode encontrar essas informações no site da organização na política de privacidade, termos e condições ou na página de contato."
+    "message": "Digite o endereço de e-mail da pessoa ou departamento responsável pela GDPR / CCPA / privacidade / solicitações legais. Geralmente, você pode encontrar essas informações no site da organização, na página sobre política de privacidade, termos e condições ou contato."
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Excluir meus dados"
@@ -798,22 +798,22 @@
     "message": "GDPR (União Europeia)"
   },
   "personalInfoForm.headline": {
-    "message": "Preencha o formulário a seguir para criar um e-mail de solicitação de dados que você pode revisar e enviar. Para mais informações leia nossas <a>Perguntas Frequentes</a>."
+    "message": "Preencha o formulário a seguir para criar um e-mail de Solicitação de Dados que você pode revisar e enviar. Para obter mais informações, leia nossas <a>Perguntas Frequentes</a>."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Informações de identificação adicionais (opcional)"
   },
   "personalInfoForm.nameHelper": {
-    "message": "Isso será usado pela organização para identificá-lo."
+    "message": "Isso será usado pela organização para identificar você."
   },
   "personalInfoForm.nameLabel": {
     "message": "Nome completo"
   },
   "personalInfoForm.regulationType": {
-    "message": "Regulation"
+    "message": "Lei"
   },
   "personalInfoForm.regulationTypeHelper": {
-    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+    "message": "Escolha a lei com base no seu local de residência, a menos que tenha um motivo específico para escolher outra opção."
   },
   "personalInfoForm.requestTypeLabelText": {
     "message": "Tipo de solicitação"
@@ -822,46 +822,46 @@
     "message": "Revise sua solicitação"
   },
   "personalInfoForm.validEmail": {
-    "message": "Please enter a valid email."
+    "message": "Insira um endereço de e-mail válido."
   },
   "pressIntro.title": {
-    "message": "Destacado em"
+    "message": "Conforme apresentado em"
   },
   "privacy.additionalPersonalData": {
-    "message": "Solicitar Follow Ups"
+    "message": "Solicitar acompanhamento"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "Ao usar este Serviço, seguindo a apresentação de uma solicitação de dados, você pode optar por receber nosso suporte por e-mail. Se você optar por usar este recurso opcional, coletaremos os seguintes dados pessoais adicionais:"
+    "message": "Ao usar esse Serviço, após o envio de uma solicitação de dados, você está optando por receber nosso suporte por e-mail. Caso use este recurso opcional, coletaremos os seguintes dados pessoais adicionais:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
     "message": "Seu endereço de e-mail"
   },
   "privacy.additionalPersonalDataBodyOneB": {
-    "message": "O conteúdo dos e-mails solicitados de dados enviados para organizações e agências de proteção de dados (DPA)"
+    "message": "O conteúdo dos e-mails de solicitação de dados que são enviados para organizações e agências de proteção de dados (DPA)"
   },
   "privacy.additionalPersonalDataBodyOneC": {
-    "message": "Metadados sobre os e-mails solicitados de dados enviados para organizações e agências de proteção de dados (DPA), como a hora em que um email foi enviado e os endereços de e para"
+    "message": "Metadados sobre os e-mails de solicitação de dados enviados para organizações e agências de proteção de dados (DPA), como o horário de envio do email e o remetente/destinatário"
   },
   "privacy.additionalPersonalDataBodyOneE": {
-    "message": "Mantemos dados pessoais estendidos por um máximo de 120 dias."
+    "message": "Mantemos esses Dados Pessoais Adicionais por um máximo de 120 dias."
   },
   "privacy.additionalPersonalDataBodyOneF": {
-    "message": "Ao nos fornecer voluntariamente dados pessoais, você está concordando com nossa utilização de acordo com esta Política de Privacidade. Se fornecer dados pessoais a este site, você reconhece e concorda que esses dados pessoais podem ser transferidos da sua localização atual para os escritórios e servidores do YourDigitalrights e os terceiros autorizados mencionados nesta Política."
+    "message": "Ao nos fornecer voluntariamente os seus dados pessoais, você concorda com a nossa utilização de acordo com esta Política de Privacidade. Caso forneça dados pessoais a este site, você reconhece e concorda que esses dados pessoais podem ser transferidos da sua localização atual para os escritórios e servidores do YourDigitalrights.org e para os terceiros autorizados mencionados nesta Política."
   },
   "privacy.contact": {
     "message": "Contato"
   },
   "privacy.contactBody": {
-    "message": "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco em {mail}."
+    "message": "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco através do endereço {mail}."
   },
   "privacy.cookies": {
     "message": "Cookies e rastreamento"
   },
   "privacy.cookiesBody": {
-    "message": "Utilizamos apenas cookies para salvar as escolhas que você faz no site, para que seja mais fácil para você usar o serviço da próxima vez. Um cookie é uma informação que o computador que hospeda nosso Serviço fornece ao seu navegador quando você acessa o Serviço."
+    "message": "Utilizamos cookies apenas para salvar as escolhas que você fez no site e para facilitar os usos que você faz do serviço. Um cookie é uma informação que o computador que hospeda nosso Serviço fornece ao seu navegador quando você acessa o Serviço."
   },
   "privacy.description": {
-    "message": "Você possui seus dados, existimos para ajudá-lo a controlar quem tem acesso a eles. Esta é a nossa página de política de privacidade."
+    "message": "Os seus dados são de sua propriedade, existimos para ajudar vcoê a controlar quem tem acesso a eles. Esta é a nossa página de política de privacidade."
   },
   "privacy.lastUpdated": {
     "message": "Ultima atualização:"
@@ -870,37 +870,37 @@
     "message": "Solicitações de envio"
   },
   "privacy.personalDataBody1": {
-    "message": "Ao enviar solicitações (sem ativar o recurso de acompanhamento de solicitações opcionais) pedimos que você nos forneça os seguintes dados pessoais:"
+    "message": "Ao enviar solicitações (sem ativar o recurso opcional de acompanhamento de solicitações) pedimos que você nos forneça os seguintes dados pessoais:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Seu nome"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Informações adicionais necessárias para identificá-lo com as organizações que você optar por contactar (como um Nome de Usuário, ID de Cliente ou Número de Conta)"
+    "message": "Informações adicionais necessárias para identificar você com as organizações que você optou por contactar (como Nome de Usuário, ID de Cliente ou Número de Conta)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "Só usamos dados pessoais coletados quando você envia solicitações para gerar um e-mail e não os armazenamos em nossos servidores."
+    "message": "Só usamos os Dados Pessoais que são coletados quando você envia solicitações para gerar um e-mail, e não os armazenamos em nossos servidores."
   },
   "privacy.privacyTitle": {
     "message": "Política de Privacidade"
   },
   "privacy.processorsA": {
-    "message": "Matomo: um serviço de análise da Web com mente privada pela Innocraft. Usamos Matomo para coletar informações anônimas sobre como o Serviço é acessado e usado ('Dados de uso'). Você pode visitar a página { matomo } dele."
+    "message": "Matomo: um serviço de análise da Web projetado com a privacidade em mente, feito pela Innocraft. Usamos a Matomo para coletar informações anônimas sobre como o Serviço é acessado e usado ('Dados de Uso'). Você pode visitar a página desse serviço em { matomo }."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: um provedor de serviços de infraestrutura em nuvem. Quando você optar por solicitar Seguir Ups usamos AWS para processar os e-mails que você envia, armazenar informações relacionadas e enviar e-mails de lembrete. Você pode visitar sua página { matomo }."
+    "message": "Amazon AWS: um provedor de serviços de infraestrutura em nuvem. Quando você aceitar utilizar o serviço de Solicitar Acompanhamento, usamos a AWS para processar os e-mails que você envia, armazenar informações relacionadas e enviar e-mails de lembrete. Você pode visitar a página desse serviço em { matomo }."
   },
   "privacy.promise": {
     "message": "Nossa promessa"
   },
   "privacy.promiseBody": {
-    "message": "Você possui seus dados. Nós existem para ajudá-lo a controlar quem tem acesso a eles. Acreditamos fortemente em manter suas informações pessoais pessoais e seguras. Nós não usamos cookies não essenciais e limitamos os dados pessoais que coletamos de você ao mínimo absoluto necessário para fornecer este serviço (AtualDigitalrights . rg). Em alguns casos você pode ativar recursos opcionais que exigem que você forneça dados pessoais adicionais. Esses casos exigem que você opte explicitamente pelo opt-in e estão claramente identificados. Nós nunca iremos vender ou alugar suas informações pessoais a ninguém e não as reteremos em nossos servidores por mais de 120 dias. Só compartilharemos suas informações pessoais quando for necessário para prestar o serviço ou conforme descrito nesta Política de outra forma."
+    "message": "Os seus dados são de sua propriedade. A nossa missão é ajudar você a controlar quem tem acesso a eles. Acreditamos fortemente em manter suas informações pessoais com privacidade e segurança. Nós não usamos cookies não essenciais e limitamos os dados pessoais que coletamos de você ao mínimo necessário para fornecer este serviço (YourDigitalRights.org). Em alguns casos você pode ativar recursos opcionais que exigem que você forneça dados pessoais adicionais. Esses casos exigem que você opte explicitamente por aceitá-los e estão claramente identificados. Nós nunca iremos vender ou alugar suas informações pessoais a ninguém e não as reteremos em nossos servidores por mais de 120 dias. Só compartilharemos suas informações pessoais quando forem necessárias para prestar o serviço ou conforme descrito nesta Política."
   },
   "privacy.title": {
     "message": "Política de Privacidade"
   },
   "privacy.usageDataBody": {
-    "message": "Trabalhamos com os seguintes provedores de terceiros para executar algumas tarefas de processamento de dados em nosso nome. Envolvemos esses fornecedores em termos que garantem a confidencialidade e a segurança de seus dados."
+    "message": "Nós trabalhamos com os seguintes provedores terceiros para executar algumas tarefas de processamento de dados em nosso nome. Nós possuímos contratos com esses fornecedores que garantem a confidencialidade e a segurança de seus dados."
   },
   "redirect.continueText": {
     "message": "Continuar"
