@@ -909,22 +909,22 @@
     "message": "opt-out.eu agora é yourdigitalrights.org"
   },
   "redirect.text": {
-    "message": "Ótima notícia, este serviço está crescendo! Recentemente, lançamos suporte para a Lei de Privacidade do Consumidor da Califórnia (CCPA) e em breve lançaremos suporte para tipos de solicitação adicionais além do apagamento. Como resultado, sentimos que o nome de domínio 'opt-out.eu' é muito limitador. Estamos mais comprometidos do que nunca em ajudá-lo a exercer seus direitos digitais, bem-vindo à nossa nova casa @ <style>yourdigitalrights.org</style>!"
+    "message": "Temos uma ótima notícia: o nosso serviço está crescendo! Recentemente, adicionamos suporte para a Lei de Privacidade do Consumidor da Califórnia (CCPA) e em breve adicionaremos suporte para tipos de solicitação adicionais além da exclusão típica. Por isso, achamos que o nome de domínio 'opt-out.eu' era muito limitador. Estamos mais comprometidos do que nunca em ajudar vcoê a exercer seus direitos digitais, e nós damos as boas-vindas à nossa nova casa em <style>yourdigitalrights.org</style>!"
   },
   "request.description": {
-    "message": "Veja detalhes sobre uma solicitação {regulationType} enviada com este serviço gratuito."
+    "message": "Veja mais detalhes sobre uma solicitação do tipo {regulationType} que é enviada através deste serviço gratuito."
   },
   "request.details.date": {
-    "message": "Data da solicitação de e-mail:"
+    "message": "Data do e-mail de solicitação:"
   },
   "request.details.escalationDate": {
-    "message": "Data de e-mail escalonado:"
+    "message": "Data do e-mail de apelação:"
   },
   "request.details.header": {
-    "message": "Pedir detalhes"
+    "message": "Detalhes da solicitação"
   },
   "request.details.hide.escalation": {
-    "message": "Ocultar e-mail de escalada"
+    "message": "Ocultar e-mail de apelação"
   },
   "request.details.hide.reminder": {
     "message": "Ocultar e-mail de lembrete"
@@ -936,49 +936,49 @@
     "message": "Solicitado por:"
   },
   "request.details.nowDetails": {
-    "message": "Os detalhes do pedido não estão disponíveis neste momento, por favor, atualize a página depois de ter enviado o e-mail."
+    "message": "Os detalhes da solicitação não estão disponíveis neste momento, atualize a página após enviar o e-mail."
   },
   "request.details.organization": {
     "message": "Destinatário:"
   },
   "request.details.regulation": {
-    "message": "Regulamentação:"
+    "message": "Lei:"
   },
   "request.details.reminderDate": {
-    "message": "Lembrete data do e-mail:"
+    "message": "Data do e-mail de lembrete:"
   },
   "request.details.sentTo": {
     "message": "Endereço de e-mail do destinatário:"
   },
   "request.details.show.escalation": {
-    "message": "Ver e-mail do escalonamento"
+    "message": "Ver e-mail de apelação"
   },
   "request.details.show.reminder": {
     "message": "Ver e-mail de lembrete"
   },
   "request.details.show.request": {
-    "message": "Exibir e-mail de solicitação"
+    "message": "Ver e-mail de solicitação"
   },
   "request.details.type": {
-    "message": "Tipo de pedido:"
+    "message": "Tipo de solicitação:"
   },
   "request.hero.declined": {
-    "message": "Recusado"
+    "message": "Recusada"
   },
   "request.hero.declinedRequest": {
-    "message": "{companyName} recusou seu pedido."
+    "message": "{companyName} recusou sua solicitação."
   },
   "request.hero.didNotReply": {
     "message": "{companyName} ainda não respondeu."
   },
   "request.hero.handledPartially": {
-    "message": "Manipulado parcialmente"
+    "message": "Administrada parcialmente"
   },
   "request.hero.handledRequest": {
-    "message": "{companyName} manipulou a sua solicitação com sucesso."
+    "message": "{companyName} administrou a sua solicitação com sucesso."
   },
   "request.hero.handledSuccessfully": {
-    "message": "Manipulado com sucesso"
+    "message": "Administrado com sucesso"
   },
   "request.hero.header": {
     "message": "Sua solicitação de {requestType} para {companyName}"
@@ -987,130 +987,130 @@
     "message": "Sem resposta"
   },
   "request.hero.partiallyHandled": {
-    "message": "{companyName} manipulou parcialmente a sua solicitação."
+    "message": "{companyName} administrou parcialmente a sua solicitação."
   },
   "request.hero.requestNotSent": {
-    "message": "por favor, envie o e-mail de solicitação, em seguida, atualize esta página."
+    "message": "envie o e-mail de solicitação e, em seguida, atualize esta página."
   },
   "request.hero.requestStatus": {
     "message": "Status da solicitação:"
   },
   "request.next.circumstancesToDecline": {
-    "message": "Há determinadas circunstâncias excepcionais em que uma organização tem autorização legal para se recusar a cumprir o seu pedido."
+    "message": "Há determinadas circunstâncias excepcionais em que uma organização tem autorização legal para se recusar a cumprir a sua solicitação."
   },
   "request.next.declineCCPA": {
-    "message": "<ul><li>Discurso gratuito ou outro direito fornecido por lei.</li><li>Processamento para fins de pesquisa, se a exclusão de informações pessoais tornasse impossível ou seriamente prejudicial a realização de tal pesquisa.</li><li>O processamento dessas informações pessoais é necessário para proteger contra a atividade ilegal ou para processar os responsáveis pela atividade.</li><li>Por cumprir uma obrigação legal.</li><li>Para realizar um contrato entre a empresa e o consumidor.</li><li>Detecta incidentes de segurança, proteja contra atividades maliciosas, enganosas, fraudulentas ou ilegais, ou processe os responsáveis por essa atividade.</li><li>Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente.</li><li>para permitir apenas usos internos que são razoavelmente alinhados com as expectativas do consumidor com base na relação do consumidor com o negócio.</li><li>Caso contrário, use as informações pessoais do consumidor internamente, legalmente, compatível com o contexto em que o consumidor forneceu a informação.</li></ul>"
+    "message": "<ul><li>Liberdade de expressão ou outro direito garantido pela lei.</li><li>Processamento para fins de pesquisa, caso a exclusão das informações pessoais impossibilite ou prejudique seriamente a realização de tal pesquisa.</li><li>O processamento dessas informações pessoais é necessário para proteger contra atividades ilegais ou para processar judicialmente os responsáveis pela atividade.</li><li>Para cumprir uma obrigação legal.</li><li>Para realizar um contrato entre a empresa e o consumidor.</li><li>Para detectar incidentes de segurança, proteger contra atividades maliciosas, enganosas, fraudulentas ou ilegais, ou processar judicialmente os responsáveis por essa atividade.</li><li>Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente.</li><li>Para permitir apenas usos internos, que são razoavelmente alinhados com as expectativas do consumidor com base na relação do consumidor com o negócio.</li><li>Outros usos das informações pessoais do consumidor internamente, de maneira legal e compatível com o contexto em que o consumidor forneceu a informação.</li></ul>"
   },
   "request.next.declineGDPR": {
-    "message": "<ul><li>Quando manter seus dados é necessário por razões de liberdade de expressão e informação (isso inclui jornalismo e acadêmico, propósitos artísticos e literários).</li><li>Quando a organização for legalmente obrigada a manter os seus dados.</li><li>Ao manter seus dados guardados é necessário por motivos de saúde pública.</li><li>Para manter seus dados é necessário para estabelecer, exercer ou defender reivindicações legais.</li><li>Ao apagar seus dados prejudicaria a pesquisa científica ou histórica, ou arquivaria isso é do interesse público.</li><li>Se, tendo considerado seu pedido, a organização decidir que não precisa apagar seus dados, ela ainda deve responder a você. Deve te explicar por que ele acredita que não tem que apagar seus dados, e avise você sobre o seu direito de reclamar sobre essa decisão junto do DPA ou através dos tribunais.</li></ul>"
+    "message": "<ul><li>Quando a manutenção de seus dados for necessária por razões de liberdade de expressão e informação (isso inclui para fins de jornalismo, acadêmicos, artísticos e literários).</li><li>Quando a organização possuir obrigação legal de manter os seus dados.</li><li>Quando a manutenção de seus dados for necessária por motivos de saúde pública.</li><li>Quando a manutenção de seus dados for necessária para estabelecer, exercer ou defender reivindicações legais.</li><li>Quando a exclusão de seus dados prejudique uma pesquisa científica ou histórica, ou quando for de interesse público.</li><li>Se, tendo considerado seu pedido, a organização decidir que não precisa apagar seus dados, ela ainda deve informar essa decisão a você. Deve explicar por que ela acredita que não precisa apagar seus dados, e avisar você sobre o seu direito de reclamar sobre essa decisão junto ao DPA ou judicialmente.</li></ul>"
   },
   "request.next.declineLGPD": {
-    "message": "<ul><li>Discurso gratuito ou outro direito fornecido por lei.</li><li>Processamento para fins de pesquisa, se a exclusão de informações pessoais tornasse impossível ou seriamente prejudicial a realização de tal pesquisa.</li><li>O processamento dessas informações pessoais é necessário para proteger contra a atividade ilegal ou para processar os responsáveis pela atividade.</li><li>Por cumprir uma obrigação legal.</li><li>Para realizar um contrato entre a empresa e o consumidor.</li><li>Detecta incidentes de segurança, proteja contra atividades maliciosas, enganosas, fraudulentas ou ilegais, ou processe os responsáveis por essa atividade.</li><li>Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente.</li><li>para permitir apenas usos internos que são razoavelmente alinhados com as expectativas do consumidor com base na relação do consumidor com o negócio.</li><li>Caso contrário, use as informações pessoais do consumidor internamente, legalmente, compatível com o contexto em que o consumidor forneceu a informação.</li></ul>"
+    "message": "<ul><li>Liberdade de expressão ou outro direito garantido pela lei.</li><li>Processamento para fins de pesquisa, caso a exclusão das informações pessoais impossibilite ou prejudique seriamente a realização de tal pesquisa.</li><li>O processamento dessas informações pessoais é necessário para proteger contra atividades ilegais ou para processar judicialmente os responsáveis pela atividade.</li><li>Para cumprir uma obrigação legal.</li><li>Para realizar um contrato entre a empresa e o consumidor.</li><li>Para detectar incidentes de segurança, proteger contra atividades maliciosas, enganosas, fraudulentas ou ilegais, ou processar judicialmente os responsáveis por essa atividade.</li><li>Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente.</li><li>Para permitir apenas usos internos, que são razoavelmente alinhados com as expectativas do consumidor com base na relação do consumidor com o negócio.</li><li>Outros usos das informações pessoais do consumidor internamente, de maneira legal e compatível com o contexto em que o consumidor forneceu a informação.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recomendação: aumente sua solicitação para seu { authority }."
+    "message": "Recomendação: recorra a sua solicitação para { authority }."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recomendação: se você acredita que { companyName } deveria ter atendido totalmente a sua solicitação, recomendamos que você aumente sua solicitação para o { authority }."
+    "message": "Recomendação: se você acredita que { companyName } deveria ter atendido totalmente a sua solicitação, recomendamos que você recorra a sua solicitação para { authority }."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "Você aumentou o valor de {dpa}. Por favor, continue a se comunicar diretamente com ele. Não há mais nada que possamos fazer para ajudar."
+    "message": "Você recorreu a sua solicitação para {dpa}. A partir de agora, comunique-se diretamente com essa agência. Só podemos te ajudar até aqui."
   },
   "request.next.esclateButton": {
-    "message": "Intensificar para o { authority }"
+    "message": "Recorrer à { authority }"
   },
   "request.next.findOutMore": {
-    "message": "Saiba mais sobre estas exceções"
+    "message": "Saiba mais sobre as exceções"
   },
   "request.next.organizationsHaveXDays": {
-    "message": "De acordo com as organizações {regulationType} tem { timeLimit } dias para responder ao seu pedido."
+    "message": "De acordo com {regulationType}, as organizações tem { timeLimit } dias para responder a sua solicitação."
   },
   "request.next.reminderButton": {
     "message": "Enviar um e-mail de lembrete para a organização"
   },
   "request.next.selectTheOptions1": {
-    "message": "Por favor, selecione uma das seguintes opções:"
+    "message": "Selecione uma das seguintes opções:"
   },
   "request.next.selectTheOptions2": {
-    "message": "Se você deseja tomar medidas adicionais, por favor selecione uma das seguintes opções:"
+    "message": "Se você deseja tomar medidas adicionais, selecione uma das seguintes opções:"
   },
   "request.next.selectTheOptions3": {
-    "message": "Se você não deseja esperar então por favor selecione uma das seguintes opções:"
+    "message": "Se você não deseja esperar, então selecione uma das seguintes opções:"
   },
   "request.next.sendAReminderEmail": {
     "message": "Recomendação: envie um e-mail de lembrete à organização."
   },
   "request.next.waitUntilXDays": {
-    "message": "Recomendação: espere até { timeLimit } dias para dar tempo à empresa para processar a sua solicitação."
+    "message": "Recomendação: espere { timeLimit } dias para que a empresa tenha o tempo necessário para processar a sua solicitação."
   },
   "request.next.waitUntilXDaysAfterReminder": {
-    "message": "Recomendação: aguarde até { timeLimit } dias passarem a partir da data em que a solicitação foi enviada para dar tempo à organização para antecipar a sua solicitação. seguindo seu e-mail de lembrete."
+    "message": "Recomendação: aguarde { timeLimit } dias, contados a partir da data em que a solicitação foi enviada, para que a empresa tenha o tempo necessário para processar a sua solicitação, e depois envie um e-mail de lembrete."
   },
   "request.next.whatsNext": {
-    "message": "E o próximo"
+    "message": "Próximas etapas"
   },
   "request.success": {
-    "message": "Parabéns, { companyName } cumpriu com sucesso o seu pedido. Seus dados pessoais serão excluídos automaticamente deste site no prazo de 120 dias atrás da data da sua solicitação original. Como alternativa, você pode <a>excluir seus dados pessoais agora</a>."
+    "message": "Parabéns, { companyName } cumpriu a sua solicitação com sucesso. Seus dados pessoais serão excluídos automaticamente deste site no prazo de 120 dias, contados a partir da data da sua solicitação original. Como alternativa, você pode <a>excluir seus dados pessoais agora</a>."
   },
   "request.timeline.esclateTo": {
-    "message": "Amplie sua solicitação"
+    "message": "Recorra sobre a decisão da sua solicitação"
   },
   "request.timeline.reminderSent": {
     "message": "Lembrete enviado"
   },
   "request.timeline.requestNotSent": {
-    "message": "Pedido não enviado"
+    "message": "Solicitação não enviada"
   },
   "request.timeline.requestSent": {
     "message": "Solicitação enviada"
   },
   "request.timeline.requestTimeline": {
-    "message": "Sua timeline de solicitação"
+    "message": "Linha do tempo com as suas solicitações"
   },
   "request.timeline.sendEscalation": {
-    "message": "Escalonamento enviado"
+    "message": "Apelação enviada"
   },
   "request.timeline.sendEscalationDays": {
-    "message": "{days, plural, =0 {Hoje} one {Tumultuo} other {em # dias}}"
+    "message": "{days, plural, =0 {hoje} one {amanhã} other {em # dias}}"
   },
   "request.timeline.sendReminder": {
     "message": "Enviar um lembrete"
   },
   "request.timeline.sendReminderDays": {
-    "message": "{days, plural, =0 {Hoje} one {Tumultuo} other {em # dias}}"
+    "message": "{days, plural, =0 {hoje} one {amanhã} other {em # dias}}"
   },
   "request.timeline.sinceEscalationDays": {
-    "message": "{days, plural, =0 {hoje} one {ontem} other {Há # dias}}"
+    "message": "{days, plural, =0 {hoje} one {ontem} other {há # dias}}"
   },
   "request.timeline.sinceReminderDays": {
-    "message": "{days, plural, =0 {hoje} one {ontem} other {Há # dias}}"
+    "message": "{days, plural, =0 {hoje} one {ontem} other {há # dias}}"
   },
   "request.timeline.sinceRequestDays": {
-    "message": "{days, plural, =0 {hoje} one {ontem} other {Há # dias}}"
+    "message": "{days, plural, =0 {hoje} one {ontem} other {há # dias}}"
   },
   "request.title": {
-    "message": "Detalhes para sua solicitação de {regulationType}"
+    "message": "Detalhes sobre a sua solicitação de {regulationType}"
   },
   "requestEscalation.complaint": {
     "message": "Detalhes adicionais"
   },
   "requestEscalation.complaintText": {
-    "message": "Por favor, explique por que você não está satisfeito com a forma como a organização lidou com o seu pedido"
+    "message": "Explique por que você não está satisfeito com a forma como a organização lidou com a sua solicitação"
   },
   "requestEscalation.geography": {
-    "message": "Local:"
+    "message": "Local"
   },
   "requestEscalation.geographyText ": {
     "message": "Selecione seu local de residência"
   },
   "requestEscalation.submit": {
-    "message": "Revisão & Enviar"
+    "message": "Revisar e enviar"
   },
   "search.companyPlaceholder": {
     "message": "Procure uma organização"
   },
   "search.noResults": {
-    "message": "Não consegue encontrar uma organização?"
+    "message": "Não conseguiu achar a organização?"
   },
   "search.noResultsMore": {
     "message": "Clique aqui para adicionar"
@@ -1119,7 +1119,7 @@
     "message": "Faça o download para o Chrome"
   },
   "social.chromeTitle": {
-    "message": "Extensão do Google Chrome"
+    "message": "Extensão para o Google Chrome"
   },
   "social.emailBody": {
     "message": "Confira YourDigitalRights.org, um serviço gratuito que facilita descobrir quais dados pessoais milhares de organizações têm sobre você e fazer com que eles os excluam."
