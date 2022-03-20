@@ -618,7 +618,7 @@
     "message": "Para obter mais informações, entre em <a>contato conosco</a>. © Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
-    "message": "<span>Isenção de responsabilidade:</span> Este serviço é fornecido como está, sem garantia de qualquer tipo. O uso deste serviço é inteiramente por sua conta e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos resultantes do uso deste serviço. As informações fornecidas por este serviço, juntamente com o conteúdo do nosso site relacionado a questões jurídicas, são fornecidas para seu uso privado e não constituem aconselhamento jurídico. Se você precisar de aconselhamento jurídico para um problema específico, consulte um advogado licenciado."
+    "message": "<span>Isenção de responsabilidade:</span> Este serviço é fornecido como está, sem garantia de qualquer tipo. O uso deste serviço é inteiramente sua responsabilidade e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos resultantes do uso deste serviço. As informações fornecidas por este serviço, juntamente com o conteúdo do nosso site relacionado a questões jurídicas, são fornecidas para fins informativos e não constituem aconselhamento jurídico. Se você precisar de aconselhamento jurídico para um problema específico, consulte um advogado licenciado."
   },
   "footer.madeBy": {
     "message": "<a>Feito pela Conscious Digital</a>"
@@ -627,25 +627,25 @@
     "message": "<a>Missão</a>"
   },
   "footer.poweredBy": {
-    "message": "Fornecido por Vercel"
+    "message": "Fornecido pela Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Política de Privacidade</a>"
   },
   "footer.wishList": {
-    "message": "faça um desejo em nosso roteiro"
+    "message": "deixe a sua sugestão"
   },
   "hero.headerText": {
-    "message": "Faça com que as organizações excluam sua conta ou enviem uma cópia de seus dados pessoais."
+    "message": "Solicite a exclusão ou o envio de uma cópia de seus dados pessoas pelas organizações."
   },
   "hero.heading": {
-    "message": "Tenha seus dados"
+    "message": "Reinvindique os seus Dados"
   },
   "hero.intro": {
-    "message": "Muitas organizações coletam e vendem seus dados pessoais, muitas vezes sem o seu consentimento. Use este serviço gratuito para enviar a eles uma exclusão de dados ou solicitação de acesso. Comece pesquisando por uma organização abaixo. Não sabe por onde começar? Desative esses <a>principais Data Brokers</a>."
+    "message": "Muitas organizações coletam e vendem seus dados pessoais, geralmente sem o seu consentimento. Use o nosso serviço gratuito para enviar uma solicitação a essas organizações para excluir ou acessar os seus dados. Experimente procurar por uma organização abaixo. Não sabe por onde começar? Desative as <a>principais Data Brokers</a> (corretoras de dados)."
   },
   "howItWorks.followUp": {
-    "message": "usando nosso assistente de acompanhamento inteligente para ajudar a garantir que a organização atenda ao seu pedido e até mesmo ajudá-lo a escalar o seu pedido ao regulador do governo relevante."
+    "message": "o nosso assistente de acompanhamento inteligente ajuda a garantir que a organização responda o seu pedido e ajuda até mesmo a recorrer a órgão regulador relevante."
   },
   "howItWorks.followUpTitle": {
     "message": "Acompanhamento"
@@ -654,55 +654,55 @@
     "message": "Um gráfico representando a interface do usuário"
   },
   "howItWorks.search": {
-    "message": "para uma organização usando a caixa de pesquisa no topo desta página."
+    "message": "para uma organização através da caixa de pesquisa no topo desta página."
   },
   "howItWorks.searchTitle": {
-    "message": "Procurar"
+    "message": "Pesquisar"
   },
   "howItWorks.send": {
     "message": "a organização uma solicitação para excluir ou enviar uma cópia dos seus dados."
   },
   "howItWorks.sendTitle": {
-    "message": "Mandar"
+    "message": "Enviar"
   },
   "howItWorks.title": {
     "message": "Como funciona"
   },
   "howItWorks.whyBody": {
-    "message": "Nós somos uma instituição de caridade registrada chamada <cd>Consciente Digital</cd>. Criamos este serviço porque acreditamos que a privacidade é importante, e que o exercício do seu direito à privacidade deve ser fácil e gratuito. Não coletamos ou vendemos dados pessoais. O serviço é financiado por seus criadores e com a ajuda de suas <donations>doações</donations>."
+    "message": "Nós somos uma instituição sem fins lucrativos chamada <cd>Conscious Digital</cd>. Criamos este serviço porque acreditamos que a privacidade é importante, e que o exercício do seu direito à privacidade deve ser simples e gratuito. Não coletamos ou vendemos seus dados pessoais. O serviço é financiado por seus criadores e pelas suas <donations>doações</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Por que confiar em nós?"
   },
   "howItWorks.yourData": {
-    "message": "Leis de proteção de dados como o RGPD (União Europeia) e o CCPA (California), Exige que as organizações excluam ou forneçam a você uma cópia dos seus dados mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário poderão ser sujeitas a multas avultadas. Nossa missão é facilitar o exercício dos seus direitos legais."
+    "message": "Leis de proteção de dados como a GDPR (da União Europeia) e a CCPA (da Califórnia), exigem que as organizações excluam ou forneçam a você uma cópia dos seus dados mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário esttarão sujeitas a multas significativas. Nossa missão é facilitar o exercício dos seus direitos legais."
   },
   "howItWorks.yourDataTitle": {
     "message": "Você tem o direito à privacidade!"
   },
   "index.description": {
-    "message": "Exclua sua conta ou acesse os dados pessoais que as organizações têm sobre você usando este serviço gratuito."
+    "message": "Exclua sua conta ou acesse os dados pessoais que as organizações têm sobre você ao utilizar o nosso serviço gratuito."
   },
   "nav.about": {
-    "message": "Cerca de"
+    "message": "Sobre nós"
   },
   "nav.contact": {
-    "message": "Entre em contato conosco"
+    "message": "Entre em contato"
   },
   "nav.contribute": {
     "message": "Contribuir"
   },
   "nav.data-brokers": {
-    "message": "Corretores de dados"
+    "message": "Data Brokers (Corretoras de dados)"
   },
   "nav.donation": {
     "message": "Faça uma doação"
   },
   "nav.extension": {
-    "message": "Extensão do navegador"
+    "message": "Extensão de navegador"
   },
   "nav.faq": {
-    "message": "Perguntas frequentes"
+    "message": "Perguntas Frequentes"
   },
   "nav.helpTranslate": {
     "message": "Ajude a traduzir"
@@ -717,40 +717,40 @@
     "message": "Pesquisar organizações"
   },
   "nav.twitterHastag": {
-    "message": "#possui seus dados"
+    "message": "#reinvindiqueseusdados"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envie solicitações de acesso e exclusão de dados CCPA e GDPR para qualquer organização de forma rápida e fácil usando este serviço gratuito."
+    "message": "Envie solicitações de acesso e exclusão de dados de acordo com a CCPA e GDPR para qualquer organização de forma rápida e fácil através do nosso serviço gratuito."
   },
   "org.descriptionExistingOrg": {
-    "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais de {org} rápida e fácil usando este serviço gratuito."
+    "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais de {org} de maneira rápida e fácil através deste serviço gratuito."
   },
   "org.titleExistingOrg": {
     "message": "{org} - Excluir sua conta ou obter uma cópia de seus dados"
   },
   "org.titleNewOrg": {
-    "message": "Enviar solicitações de acesso e exclusão de dados GDPR e CCPA"
+    "message": "Enviar Solicitações de Acesso e Exclusão de Dados de acordo com a GDPR e CCPA"
   },
   "orgHero.newOrgSubTitle": {
-    "message": "Envie a qualquer organização uma solicitação {ccpa} ou {gdpr}"
+    "message": "Envie uma solicitação de acordo com a {ccpa} ou {gdpr} a qualquer organização."
   },
   "orgHero.newOrgTitle": {
-    "message": "Excluir ou obter uma cópia de seus dados pessoais"
+    "message": "Exclua ou obtenha uma cópia de seus dados pessoais"
   },
   "orgHero.notAffiliatedDisclamer": {
-    "message": "Este serviço é <disclamer>não afiliado com</disclamer> (saiba mais <about>sobre nós</about>)."
+    "message": "Este serviço não é <disclamer>afiliado com</disclamer> (saiba mais <about>sobre nós</about>)."
   },
   "orgHero.orgName": {
     "message": "Organização: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Use this free service to send GDPR, CCPA and LGPD data requests."
+    "message": "Use este serviço gratuito para enviar solicitações de dados de acordo com a GDPR, CCPA e LGPD."
   },
   "orgHero.title": {
     "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais."
   },
   "personalInfoForm.FollowUpDetails": {
-    "message": "Para garantir que a organização atenda à sua solicitação, enviaremos um e-mail quando for hora de realizar mais ações. Você terá a opção de enviar um e-mail de lembrete à organização, ou de aumentar para a agência local de proteção de dados."
+    "message": "Para garantir que a organização atenda à sua solicitação, enviaremos um e-mail a você quando mais ações foram necessárias. Você terá a opção de enviar um e-mail de lembrete à organização, ou de recorrer à agência apropriada de proteção de dados."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
     "message": "<strong>Ao selecionar esta opção, você está concordando em deixar-nos processar e armazenar as seguintes informações pessoais: seu endereço de e-mail, nome e o texto de seus e-mails de solicitação. Todas as informações pessoais relacionadas a esta solicitação serão automaticamente excluídas de nossos sistemas dentro de 120 dias, a menos que você especifique de outra forma e sempre tenha a opção de excluir esses dados imediatamente. Nós coletamos essa informação automaticamente adicionando um endereço de e-mail especial ao campo BCC do e-mail de solicitação.</strong>"
