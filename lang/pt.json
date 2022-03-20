@@ -384,10 +384,10 @@
     "message": "Sob o GDPR:"
   },
   "faq.body7Ai": {
-    "message": "O direito ao apagamento não é absoluto e diz respeito ao processamento de dados onde o consentimento é a base legal para o processamento. Por exemplo, dados necessários devido a um contrato ou dados de interesse público não se enquadram nesta definição. Mais especificamente, o direito só se aplica nas seguintes circunstâncias:"
+    "message": "O direito à exclusão não é absoluto e diz respeito ao processamento de dados onde o consentimento é a base legal de tal processamento. Por exemplo, dados necessários devido a um contrato ou dados de interesse público não se enquadram nesta definição. Mais especificamente, o direito só se aplica nas seguintes circunstâncias:"
   },
   "faq.body7Aii": {
-    "message": "A organização não precisa mais dos seus dados. Exemplo: depois de ter cancelado sua inscrição na academia, ela não precisa mais manter detalhes de seu nome, endereço, idade e condições de saúde."
+    "message": "A organização não precisa mais dos seus dados. Exemplo: depois de ter cancelado sua inscrição na academia, ela não precisa mais manter detalhes como seu nome, endereço, idade e condições de saúde."
   },
   "faq.body7Aiii": {
     "message": "Você consentiu inicialmente com o uso de seus dados, mas agora retirou seu consentimento. Exemplo: você concordou em participar de um estudo de pesquisa de mercado e agora não deseja mais fazê-lo."
@@ -402,7 +402,7 @@
     "message": "A organização tem a obrigação legal de apagar seus dados."
   },
   "faq.body7Avii": {
-    "message": "Os dados foram coletados de você quando criança para um serviço online. Exemplo: mídia social ou um aplicativo de jogos. A lei dá proteção especial às crianças porque elas podem estar menos cientes dos riscos e consequências de fornecer seus dados às organizações. Mesmo se você for um adulto, você tem o direito de ter seus dados apagados se eles foram coletados de você quando criança."
+    "message": "Os dados foram coletados de você quando criança para um serviço online. Exemplo: mídia social ou um aplicativo de jogos. A lei dá proteção especial às crianças porque elas podem estar menos cientes sobre os riscos e consequências do fornecimento de dados às organizações. Mesmo se você for um adulto, você tem o direito de ter seus dados apagados se eles foram coletados de você quando era criança."
   },
   "faq.body7Aviii": {
     "message": "<a>Saiba mais</a>"
@@ -411,31 +411,31 @@
     "message": "No âmbito do CCPA:"
   },
   "faq.body7Bi": {
-    "message": "Consumers can exercise the right to delete their personal data if:"
+    "message": "Os consumidores podem exercer o direito de apagar os seus dados pessoais se:"
   },
   "faq.body7Bii": {
-    "message": "The personal information was collected by the business from the consumer."
+    "message": "As informações pessoais do consumidor foram coletadas pela empresa."
   },
   "faq.body7Biii": {
-    "message": "It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
+    "message": "Não é mais necessário que a empresa ou prestador de serviços mantenha as informações pessoais para cumprir uma das finalidades identificadas em lei (seção 1798.105 (d) do código civil da Califórnia)."
   },
   "faq.body7Biv": {
-    "message": "The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
+    "message": "A empresa não tem o direito de reter as informações pessoais de acordo com uma das isenções gerais previstas pela lei (seção 1798.145 do código civil da Califórnia)."
   },
   "faq.body7C": {
     "message": "De acordo com a LGPD:"
   },
   "faq.body7Ci": {
-    "message": "The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
+    "message": "O regulamento exige que as organizações apaguem os dados pessoais de uma pessoa caso isso tenha sido solicitado, uma vez que os dados foram recolhidos com base no consentimento."
   },
   "faq.body7Cii": {
-    "message": "In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
+    "message": "Para o processamento de dados que é baseado no consentimento, o titular dos dados poderá solicitar a exclusão de quaisquer dados coletados, exceto se o armazenamento for permitido pela LGPD."
   },
   "faq.body7Ciii": {
-    "message": "If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
+    "message": "Se uma organização compartilhou os dados com terceiros, deve comunicar qualquer pedido de exclusão a esses terceiros para que o procedimento possa ser feito por todas as partes, exceto nos casos em que tal comunicação seja comprovadamente impossível ou envolva um esforço desproporcional."
   },
   "faq.body7Ciiii": {
-    "message": "In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
+    "message": "Além disso, a LGPD estabelece que os dados devem ser excluídos caso tenham sido processados por motivos excessivos, desnecessários ou ilícitos."
   },
   "faq.body8A": {
     "message": "Existem certas circunstâncias em que uma organização tem permissão legal para se recusar a apagar seus dados."
@@ -444,25 +444,25 @@
     "message": "Sob o GDPR:"
   },
   "faq.body8Aii": {
-    "message": "Ao manter seus dados é necessário por motivos de liberdade de expressão e informação (isso inclui jornalismo e fins acadêmicos, artísticos e literários)."
+    "message": "Quando a manutenção de seus dados for necessária por motivos de liberdade de expressão e informação (isso inclui jornalismo e fins acadêmicos, artísticos e literários)."
   },
   "faq.body8Aiii": {
     "message": "Quando a organização é legalmente obrigada a manter seus dados."
   },
   "faq.body8Aiv": {
-    "message": "Ao manter seus dados é necessário por razões de saúde pública."
+    "message": "Quando a manutenção de seus dados é necessária por razões de saúde pública."
   },
   "faq.body8Av": {
-    "message": "Quando a conservação dos seus dados for necessária para estabelecer, exercer ou defender ações judiciais."
+    "message": "Quando a manutenção de seus dados for necessária para estabelecer, exercer ou defender ações judiciais."
   },
   "faq.body8Avi": {
-    "message": "Ao apagar seus dados prejudicaria a pesquisa científica ou histórica, ou o arquivamento de interesse público."
+    "message": "Quando a exclusão de seus dados prejudicaria uma pesquisa científica ou histórica, ou para fins de arquivamento de interesse público."
   },
   "faq.body8Avii": {
-    "message": "Se, tendo considerado o seu pedido, a organização decidir que não precisa de apagar os seus dados, ainda assim deverá responder-lhe. Ele deve explicar a você por que acredita que não precisa apagar seus dados e informar sobre seu direito de reclamar dessa decisão à ICO ou por meio dos tribunais."
+    "message": "Se, ao considerar a sua solicitação, a organização decidir que não precisa apagar os seus dados, ainda assim deverá lhe enviar uma resposta. Ela deve explicar a você por que acredita que não precisa apagar seus dados e informar sobre seu direito de reclamar dessa decisão à ICO ou por meio judicial."
   },
   "faq.body8B": {
-    "message": "A organização também pode recusar o seu pedido se este for, como diz a lei, “manifestamente infundado ou excessivo”."
+    "message": "A organização também pode recusar o seu pedido se este for, de acordo com a lei, “manifestamente infundado ou excessivo”."
   },
   "faq.body8Bi": {
     "message": "<a>Saiba mais</a>"
@@ -477,25 +477,25 @@
     "message": "Processamento para fins de pesquisa, se a exclusão de informações pessoais impossibilitar ou prejudicar seriamente a realização de tal pesquisa."
   },
   "faq.body8Ciii": {
-    "message": "O processamento dessas informações pessoais é necessário para proteger contra atividades ilegais ou processar os responsáveis pela atividade."
+    "message": "Se o processamento dessas informações pessoais for necessário para proteção contra atividades ilegais ou processar judicialmente os responsáveis pela atividade."
   },
   "faq.body8Civ": {
-    "message": "Por cumprir uma obrigação legal."
+    "message": "Para cumprir uma obrigação legal."
   },
   "faq.body8Cix": {
-    "message": "Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+    "message": "Outros usos das informações pessoais do consumidor, internamente, de maneira lícita e compatível com o contexto em que o consumidor forneceu as informações."
   },
   "faq.body8Cv": {
     "message": "Para realizar um contrato entre a empresa e o consumidor."
   },
   "faq.body8Cvi": {
-    "message": "Detecte incidentes de segurança, proteja-se contra atividades maliciosas, enganosas, fraudulentas ou ilegais ou processe os responsáveis por essa atividade."
+    "message": "Detectar incidentes de segurança, proteger-se contra atividades maliciosas, enganosas, fraudulentas ou ilegais ou processar judicialmentte os responsáveis por essa atividade."
   },
   "faq.body8Cvii": {
-    "message": "Depure para identificar e reparar erros que prejudicam a funcionalidade pretendida existente."
+    "message": "Depuração para identificar e reparar erros que prejudicam a funcionalidade pretendida existente."
   },
   "faq.body8Cviii": {
-    "message": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
+    "message": "Para permitir somente usos internos, que estejam razoavelmente alinhados com as expectativas do consumidor com base no relacionamento do consumidor com a empresa."
   },
   "faq.body8D": {
     "message": "<a>Saiba mais</a>"
@@ -504,118 +504,118 @@
     "message": "De acordo com a LGPD:"
   },
   "faq.body8F": {
-    "message": "In case of data processing based on consent, the LGPD permits keeping data for the following purposes:"
+    "message": "No caso de processamento de dados com base no consentimento, a LGPD permite a manutenção dos dados para as seguintes finalidades:"
   },
   "faq.body8Fi": {
-    "message": "Compliance with a statutory or regulatory obligation by the organization."
+    "message": "Cumprir uma obrigação estatutária ou legal pela organização."
   },
   "faq.body8Fii": {
-    "message": "Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
+    "message": "Estudos realizados por uma agência de pesquisa, garantindo, sempre que possível, a anonimização dos dados pessoais."
   },
   "faq.body8Fiii": {
-    "message": "Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
+    "message": "Transferência a terceiros, mediante cumprimento dos requisitos de processamento de dados previstos nesta lei."
   },
   "faq.body8Fiv": {
-    "message": "Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
+    "message": "Uso exclusivo de dados anonimizados pela organização, com a condição de que terceiros sejam proibidos de acessar esses dados."
   },
   "faq.body9A": {
     "message": "Sob o GDPR:"
   },
   "faq.body9Ai": {
-    "message": "faq.Uma organização tem um mês para atender a uma solicitação. O prazo pode ser alargado para mais 2 meses tendo em conta a complexidade e o número de pedidos. Em qualquer caso, a organização deve informá-lo de tal prorrogação no prazo de um mês a partir do recebimento da solicitação."
+    "message": "Perguntas frequentes. Uma organização tem um mês para atender a uma solicitação. O prazo pode ser prorrogado para mais 2 meses tendo em conta a complexidade e o número de solicitações. Em qualquer caso, a organização deve informá-lo de tal prorrogação no prazo de um mês a partir do recebimento da solicitação."
   },
   "faq.body9Aii": {
     "message": "No âmbito do CCPA:"
   },
   "faq.body9Aiii": {
-    "message": "The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+    "message": "O prazo para a resposta a uma solicitação é de 45 dias contados a partir do recebimento do pedido do consumidor. O prazo pode ser prorrogado por mais 45 dias quando razoavelmente necessário, desde que o consumidor seja informado nos primeiros 45 dias."
   },
   "faq.body9C": {
     "message": "De acordo com a LGPD:"
   },
   "faq.body9D": {
-    "message": "The organization must comply with a request in two ways:"
+    "message": "A organização deve atender a uma solicitação de duas maneiras:"
   },
   "faq.body9Di": {
-    "message": "In simplified form, if the confirmation or access is provided immediately."
+    "message": "Em um formulário simplificado, se a confirmação ou o acesso forem fornecidos imediatamente."
   },
   "faq.body9Dii": {
     "message": "Por meio de declaração clara e completa, indicando, conforme o caso, a origem dos dados, inexistência de registros, critérios utilizados e finalidade do tratamento, no prazo de quinze dias contados a partir da data da solicitação."
   },
   "faq.body9F": {
-    "message": "The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors."
+    "message": "A Autoridade Nacional de Proteção de Dados (\"ANPD\") pode ter disposições diferentes em relação aos períodos informados acima para setores específicos."
   },
   "faq.bodyWhatIsLGPD1": {
-    "message": "The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
+    "message": "A LGPD (Lei Geral de Proteção de Dados Pessoais) é um regulamento brasileiro que estabelece regras sobre coleta, manuseio, armazenamento e compartilhamento dos dados pessoais que são gerenciados pelas organizações. O seu principal objetivo é de estabelecer a proteção dos direitos fundamentais de liberdade e da privacidade dos indivíduos."
   },
   "faq.bodyWhatIsLGPD2": {
     "message": "<a>Leia o regulamento</a>"
   },
   "faq.bodyWhoLGPDAppliesTo1": {
-    "message": "The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when:"
+    "message": "A LGPD se aplica a qualquer pessoa física ou jurídica de direito público ou privado, que processe dados pessoais (como coleta, produção, recepção, classificação, processamento, etc.) no território brasileiro e fora do país, quando:"
   },
   "faq.bodyWhoLGPDAppliesTo2": {
-    "message": "Personal data is collected in Brazil"
+    "message": "Os dados pessoais são coletados no Brasil"
   },
   "faq.bodyWhoLGPDAppliesTo3": {
-    "message": "Data is related to an individuals located in the Brazilian territory, or"
+    "message": "Os dados estão relacionados a uma pessoa física localizada no território brasileiro, ou"
   },
   "faq.bodyWhoLGPDAppliesTo4": {
-    "message": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+    "message": "Seu objetivo é oferecer produtos e/ou serviços a pessoas físicas, brasileiras ou estrangeiras, que estejam no Brasil"
   },
   "faq.heading0": {
-    "message": "What are data protection laws?"
+    "message": "O que são as leis de proteção de dados?"
   },
   "faq.heading1": {
-    "message": "Which data protection laws protect me?"
+    "message": "Quais são as leis de proteção de dados que me protegem?"
   },
   "faq.heading10": {
-    "message": "O que devo fazer se uma organização não atendeu ou não atendeu totalmente a minha solicitação?"
+    "message": "O que devo fazer se uma organização não atender a minha solicitação parcialmente ou totalmente?"
   },
   "faq.heading11": {
-    "message": "Quais são as penalidades que uma organização que não atende a uma solicitação pode enfrentar?"
+    "message": "Quais são as penalidades para uma organização que não atende a uma solicitação pode sofrer?"
   },
   "faq.heading12": {
-    "message": "Quem em uma organização é responsável por lidar com as solicitações?"
+    "message": "Em uma dada organização, quem é responsável por lidar com as solicitações?"
   },
   "faq.heading13": {
-    "message": "Ao enviar uma solicitação pelo site, recebo uma mensagem de erro ou nada acontece"
+    "message": "Ao enviar uma solicitação pelo site, ou eu recebo uma mensagem de erro ou nada acontece"
   },
   "faq.heading2": {
-    "message": "O que é o RGPD?"
+    "message": "O que é a GDPR?"
   },
   "faq.heading3": {
-    "message": "A quem se aplica o RGPD?"
+    "message": "A quem se aplica a GDPR?"
   },
   "faq.heading4": {
-    "message": "O que é o CCPA?"
+    "message": "O que é a CCPA?"
   },
   "faq.heading5": {
-    "message": "A quem se aplica o CCPA?"
+    "message": "A quem se aplica a CCPA?"
   },
   "faq.heading6": {
-    "message": "O que constitui dados pessoais?"
+    "message": "Como os dados pessoais são classificados?"
   },
   "faq.heading7": {
-    "message": "Quando posso solicitar o apagamento dos meus dados pessoais?"
+    "message": "Quando posso solicitar a exclusão dos meus dados pessoais?"
   },
   "faq.heading8": {
-    "message": "Quando a organização pode dizer não?"
+    "message": "Em que ocasiões a organização pode se recusar?"
   },
   "faq.heading9": {
-    "message": "How long do organizations have to comply with a request?"
+    "message": "Quanto tempo as organizações têm para cumprir uma solicitação?"
   },
   "faq.headingWhatIsLGPD": {
-    "message": "What is the LGPD?"
+    "message": "O que é a LGPD?"
   },
   "faq.headingWhoLGPDAppliesTo": {
-    "message": "Who does the LGPD apply to?"
+    "message": "A quem se aplica a LGPD?"
   },
   "faq.title": {
-    "message": "perguntas frequentes"
+    "message": "Perguntas Frequentes"
   },
   "footer.contact": {
-    "message": "Para obter mais informações, <a>entre em contato conosco</a>. © Copyright 2019 - 2022"
+    "message": "Para obter mais informações, entre em <a>contato conosco</a>. © Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
     "message": "<span>Isenção de responsabilidade:</span> Este serviço é fornecido como está, sem garantia de qualquer tipo. O uso deste serviço é inteiramente por sua conta e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos resultantes do uso deste serviço. As informações fornecidas por este serviço, juntamente com o conteúdo do nosso site relacionado a questões jurídicas, são fornecidas para seu uso privado e não constituem aconselhamento jurídico. Se você precisar de aconselhamento jurídico para um problema específico, consulte um advogado licenciado."
