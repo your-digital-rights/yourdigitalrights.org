@@ -504,7 +504,7 @@
     "message": "De acordo com a LGPD:"
   },
   "faq.body8F": {
-    "message": "No caso de processamento de dados com base no consentimento, a LGPD permite a manutenção dos dados para as seguintes finalidades:"
+    "message": "The LGPD permits keeping data for the following purposes:"
   },
   "faq.body8Fi": {
     "message": "Cumprir uma obrigação estatutária ou legal pela organização."
@@ -534,16 +534,13 @@
     "message": "De acordo com a LGPD:"
   },
   "faq.body9D": {
-    "message": "A organização deve atender a uma solicitação de duas maneiras:"
+    "message": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
   },
   "faq.body9Di": {
     "message": "Em um formulário simplificado, se a confirmação ou o acesso forem fornecidos imediatamente."
   },
   "faq.body9Dii": {
-    "message": "Por meio de uma declaração clara e completa, indicando, conforme o caso, a origem dos dados, inexistência de registros, critérios utilizados e finalidade do tratamento, no prazo de quinze dias contados a partir da data da solicitação."
-  },
-  "faq.body9F": {
-    "message": "A Autoridade Nacional de Proteção de Dados (\"ANPD\") pode ter disposições diferentes em relação aos períodos informados acima para setores específicos."
+    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
   },
   "faq.bodyWhatIsLGPD1": {
     "message": "A LGPD (Lei Geral de Proteção de Dados Pessoais) é um regulamento brasileiro que estabelece regras sobre coleta, manuseio, armazenamento e compartilhamento dos dados pessoais que são gerenciados pelas organizações. O seu principal objetivo é de estabelecer a proteção dos direitos fundamentais de liberdade e da privacidade dos indivíduos."
@@ -562,6 +559,21 @@
   },
   "faq.bodyWhoLGPDAppliesTo4": {
     "message": "Seu objetivo é oferecer produtos e/ou serviços a pessoas físicas, brasileiras ou estrangeiras, que estejam no Brasil"
+  },
+  "faq.bodyWhoLGPDAppliesTo5": {
+    "message": "The LGPD is not applicable in cases where the processing of personal data is made:"
+  },
+  "faq.bodyWhoLGPDAppliesTo6": {
+    "message": "By a natural person for exclusively private and non-commercial purposes."
+  },
+  "faq.bodyWhoLGPDAppliesTo7": {
+    "message": "Exclusively for journalistic, artistic or academic purposes."
+  },
+  "faq.bodyWhoLGPDAppliesTo8": {
+    "message": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+  },
+  "faq.bodyWhoLGPDAppliesTo9": {
+    "message": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
   },
   "faq.heading0": {
     "message": "O que são as leis de proteção de dados?"
