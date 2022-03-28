@@ -504,7 +504,7 @@
     "message": "Under the LGPD:"
   },
   "faq.body8F": {
-    "message": "In case of data processing based on consent, the LGPD permits keeping data for the following purposes:"
+    "message": "The LGPD permits keeping data for the following purposes:"
   },
   "faq.body8Fi": {
     "message": "Compliance with a statutory or regulatory obligation by the organization."
@@ -534,16 +534,13 @@
     "message": "Under the LGPD:"
   },
   "faq.body9D": {
-    "message": "The organization must comply with a request in two ways:"
+    "message": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
   },
   "faq.body9Di": {
     "message": "In simplified form, if the confirmation or access is provided immediately."
   },
   "faq.body9Dii": {
-    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
-  },
-  "faq.body9F": {
-    "message": "The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors."
+    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
   },
   "faq.bodyWhatIsLGPD1": {
     "message": "The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
@@ -562,6 +559,21 @@
   },
   "faq.bodyWhoLGPDAppliesTo4": {
     "message": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+  },
+  "faq.bodyWhoLGPDAppliesTo5": {
+    "message": "The LGPD is not applicable in cases where the processing of personal data is made:"
+  },
+  "faq.bodyWhoLGPDAppliesTo6": {
+    "message": "By a natural person for exclusively private and non-commercial purposes."
+  },
+  "faq.bodyWhoLGPDAppliesTo7": {
+    "message": "Exclusively for journalistic, artistic or academic purposes."
+  },
+  "faq.bodyWhoLGPDAppliesTo8": {
+    "message": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+  },
+  "faq.bodyWhoLGPDAppliesTo9": {
+    "message": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
   },
   "faq.heading0": {
     "message": "What are data protection laws?"
