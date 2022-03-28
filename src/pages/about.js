@@ -116,7 +116,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.fundingBody1"
-              defaultMessage="This project is self funded by it’s creators, and with the help of your donations."
+              defaultMessage="This project is self funded by its creators, and with the help of your donations."
             />
           </Typography>
           <br />
