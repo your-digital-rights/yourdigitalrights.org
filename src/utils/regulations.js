@@ -344,8 +344,8 @@ const Regulations = {
     dpa: {
       shortName: 'ANPD',
       longName: 'Autoridade Nacional de Proteção de Dados',
-      requestFormURL: 'https://falabr.cgu.gov.br/publico/Manifestacao/RegistrarManifestacao.aspx?idFormulario=4&tipo=1&origem=idp&modo=&orgaoDestinatario=235884&ouvidoria=2769&servico=&assunto=',
-      defualtAction: 'email',
+      requestFormURL: 'https://www.gov.br/secretariageral/pt-br/sei-peticionamento-eletronico',
+      defualtAction: 'form',
       geographies: [
         {
           name: 'Brasil',

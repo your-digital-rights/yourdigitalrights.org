@@ -215,6 +215,34 @@ export default [
         ],
       },
       <br />,
+      {
+        item: (
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo5"
+            defaultMessage="The LGPD is not applicable in cases where the processing of personal data is made: 
+            "
+          />
+        ),
+        subItems: [
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo6"
+            defaultMessage="By a natural person for exclusively private and non-commercial purposes."
+          />,
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo7"
+            defaultMessage="Exclusively for journalistic, artistic or academic purposes."
+          />,
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo8"
+            defaultMessage="By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+          />,
+          <FormattedMessage
+            id="faq.bodyWhoLGPDAppliesTo9"
+            defaultMessage="When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
+          />,          
+        ],        
+      },      
+      <br />,
     ],
   },
   {
@@ -485,7 +513,7 @@ export default [
       />,
       <br />,
       {
-        item: <FormattedMessage id="faq.body8F" defaultMessage="In case of data processing based on consent, the LGPD permits keeping data for the following purposes:" />,
+        item: <FormattedMessage id="faq.body8F" defaultMessage="The LGPD permits keeping data for the following purposes:" />,
         subItems: [
           <FormattedMessage
             id="faq.body8Fi"
@@ -533,7 +561,7 @@ export default [
       <FormattedMessage id="faq.body9C" defaultMessage="Under the LGPD:" />,
       <br />,
       {
-        item: <FormattedMessage id="faq.body9D" defaultMessage="The organization must comply with a request in two ways:" />,
+        item: <FormattedMessage id="faq.body9D" defaultMessage="The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:" />,
         subItems: [
           <FormattedMessage
             id="faq.body9Di"
@@ -541,12 +569,10 @@ export default [
           />,
           <FormattedMessage
             id="faq.body9Dii"
-            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
           />,
         ],
       },
-      <br />,
-      <FormattedMessage id="faq.body9F" defaultMessage="The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors." />,          
       <br />,
     ],
   },

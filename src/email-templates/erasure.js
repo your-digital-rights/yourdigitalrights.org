@@ -93,7 +93,7 @@ If you do not normally deal with data protection requests, please forward this e
 `;
 
 
-const LGPD_TEXT = `A  quem possa interessar,
+const LGPD_TEXT = `A quem possa interessar,
 
 Venho por meio deste solicitar que você apague as minhas informações pessoais de seus registros, de acordo com o inciso VI do artigo 18 da Lei Geral de Proteção de Dados (LGPD). 
 
