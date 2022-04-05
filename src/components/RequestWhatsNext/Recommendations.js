@@ -31,7 +31,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
           id="request.next.organizationsHaveXDays"
           defaultMessage="According to the {regulationType} organizations have { timeLimit } days to reply to your request."
             values={{
-              regulationType: requestItem.regulationType.S,
+              regulationType: regulation.displayName,
               timeLimit: timeLimit,
             }}
         />
@@ -128,7 +128,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
             id="request.next.escalateToAuthorityPartial"
             defaultMessage="Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
             values={{
-              authority: Regulations[requestItem.regulationType.S].dpa.longName,
+              authority: regulation.dpa.longName,
               companyName: companyName,
             }}
           />

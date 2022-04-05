@@ -1356,7 +1356,7 @@
   "faq.body8F": [
     {
       "type": 0,
-      "value": "In case of data processing based on consent, the LGPD permits keeping data for the following purposes:"
+      "value": "The LGPD permits keeping data for the following purposes:"
     }
   ],
   "faq.body8Fi": [
@@ -1416,7 +1416,7 @@
   "faq.body9D": [
     {
       "type": 0,
-      "value": "The organization must comply with a request in two ways:"
+      "value": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
     }
   ],
   "faq.body9Di": [
@@ -1428,13 +1428,7 @@
   "faq.body9Dii": [
     {
       "type": 0,
-      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
-    }
-  ],
-  "faq.body9F": [
-    {
-      "type": 0,
-      "value": "The National Data Protection Authority (“ANPD”) may provide differently regarding the time periods informed above for specific sectors."
+      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
     }
   ],
   "faq.bodyWhatIsLGPD1": [
@@ -1477,6 +1471,36 @@
     {
       "type": 0,
       "value": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo5": [
+    {
+      "type": 0,
+      "value": "The LGPD is not applicable in cases where the processing of personal data is made:"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo6": [
+    {
+      "type": 0,
+      "value": "By a natural person for exclusively private and non-commercial purposes."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo7": [
+    {
+      "type": 0,
+      "value": "Exclusively for journalistic, artistic or academic purposes."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo8": [
+    {
+      "type": 0,
+      "value": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo9": [
+    {
+      "type": 0,
+      "value": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
     }
   ],
   "faq.heading0": [
