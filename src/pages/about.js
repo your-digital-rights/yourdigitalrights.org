@@ -190,7 +190,7 @@ const About = ({ classes, router }) => {
           </Typography>                  
           <br />
           <Typography gutterBottom={true} component="h2" variant="h3">
-            <FormattedMessage id="about.sponsors" defaultMessage="Supporters" />
+            <FormattedMessage id="about.sponsors" defaultMessage="Supporting Organizations" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
