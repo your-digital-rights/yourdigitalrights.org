@@ -48,7 +48,7 @@
     "message": "Dies ist ein kostenloser Service. Wir sind kein Unternehmen und haben kein Geschäftsmodell. Wir bieten keine Dienstleistungen für Organisationen an. Wir sammeln oder handeln keine personenbezogenen Daten. Dieser Dienst ist <a>Open Source</a>."
   },
   "about.sponsors": {
-    "message": "Sponsoren"
+    "message": "Supporting Organizations"
   },
   "about.sponsorsBody2": {
     "message": "{crunchbase} - für die Bereitstellung einer Momentaufnahme ihrer Unternehmensdatenbank, die wir zur Anreicherung unserer Liste von Organisationen verwenden."
@@ -65,8 +65,11 @@
   "about.sponsorsBody6": {
     "message": "{sws} - für die Unterstützung bei der Implementierung einer SEO-Strategie."
   },
+  "about.sponsorsBody7": {
+    "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
   "about.sponsorsTitle": {
-    "message": "Wir möchten den folgenden Organisationen dafür danken, dass sie unsere Open-Source-Bemühungen unterstützen, indem sie eine kostenlose oder ermäßigte Version ihrer Dienste bereitstellen:"
+    "message": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "Über uns"
