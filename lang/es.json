@@ -36,7 +36,7 @@
     "message": "Financiación"
   },
   "about.fundingBody1": {
-    "message": "Este proyecto esta financiado por sus creadores al igual que con la ayuda de donaciones."
+    "message": "This project is self funded by its creators, and with the help of your donations."
   },
   "about.missionBody1": {
     "message": "Your Digital Rights fue creado con la firme convicción de que todos tenemos derecho a la privacidad y que ejercitar ese derecho a la privacidad debería ser fácil. Tanto las leyes de protección de datos Europeas {gdpr} (GDPR) como la Ley de Privacidad del Consumidor de California {ccpa} (CCPA) sirven como estructura para proteger el derecho fundamental de los ciudadanos a la privacidad online."
@@ -48,7 +48,7 @@
     "message": "Éste es un servicio gratuito. Nosotros no somos un negocio o tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es de <a>Código Abierto</a>."
   },
   "about.sponsors": {
-    "message": "Patrocinador"
+    "message": "Supporting Organizations"
   },
   "about.sponsorsBody2": {
     "message": "{crunchbase} - por proporcionar una copia de su base de datos de empresas que utilizamos para enriquecer nuestra lista de organizaciones."
@@ -65,8 +65,11 @@
   "about.sponsorsBody6": {
     "message": "{sws} - por ayudarnos con la estrategia SEO."
   },
+  "about.sponsorsBody7": {
+    "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
   "about.sponsorsTitle": {
-    "message": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestros esfuerzos open source proporcionando una versión gratuita o con descuento de sus servicios:"
+    "message": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "Sobre nosotros"
