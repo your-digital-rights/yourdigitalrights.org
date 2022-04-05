@@ -190,12 +190,12 @@ const About = ({ classes, router }) => {
           </Typography>                  
           <br />
           <Typography gutterBottom={true} component="h2" variant="h3">
-            <FormattedMessage id="about.sponsors" defaultMessage="Sponsors" />
+            <FormattedMessage id="about.sponsors" defaultMessage="Supporters" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsTitle"
-              defaultMessage="We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
+              defaultMessage="We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -246,6 +246,15 @@ const About = ({ classes, router }) => {
               }}
             />
           </Typography>           
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.sponsorsBody7"
+              defaultMessage="{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+              values={{
+                ama: <a target="_blank" href="https://assisemendes.com.br/">Assis e Mendes Advogados</a>,
+              }}
+            />
+          </Typography>             
         </Paper>
       </div>
       <Social offset={true} sourcePage="about" />
