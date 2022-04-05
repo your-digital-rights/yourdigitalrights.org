@@ -36,7 +36,7 @@ const SendTitle = <FormattedMessage id="howItWorks.followUpTitle" defaultMessage
 const SendBody = (
   <FormattedMessage
     id="howItWorks.followUp"
-    defaultMessage="using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    defaultMessage="using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   />
 );
 
