@@ -36,7 +36,7 @@
     "message": "Finanziamento"
   },
   "about.fundingBody1": {
-    "message": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle tue donazioni."
+    "message": "This project is self funded by its creators, and with the help of your donations."
   },
   "about.missionBody1": {
     "message": "YourDigitalRights.org è stato creato perché crediamo che la privacy sia un diritto umano fondamentale e che esercitare questo diritto dovrebbe essere facile. Lo {gdpr} europeo (GDPR) e l' {ccpa} (CCPA) forniscono l'infrastruttura legale per proteggere il diritto fondamentale delle persone alla privacy online."
@@ -48,7 +48,7 @@
     "message": "Questo è un servizio gratuito. Non siamo un business e non abbiamo un modello di business. Non offriamo alcun servizio alle organizzazioni. Non raccogliamo né scambiamo alcun dato personale. Questo servizio è <a>Open Source</a>."
   },
   "about.sponsors": {
-    "message": "Sponsor"
+    "message": "Supporting Organizations"
   },
   "about.sponsorsBody2": {
     "message": "{crunchbase} - per aver fornito un'istantanea del database della loro azienda che utilizziamo per arricchire il nostro elenco di organizzazioni."
@@ -65,8 +65,11 @@
   "about.sponsorsBody6": {
     "message": "{sws} - per averci aiutato a implementare una strategia SEO."
   },
+  "about.sponsorsBody7": {
+    "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
   "about.sponsorsTitle": {
-    "message": "Vorremmo ringraziare le seguenti organizzazioni per aver supportato il nostro impegno nell'open source fornendo una versione gratuita o scontata dei loro servizi:"
+    "message": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "Chi siamo"
