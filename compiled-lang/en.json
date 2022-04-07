@@ -273,34 +273,64 @@
       ],
       "type": 8,
       "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Open our translation "
+      "value": "Follow this "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "project"
+          "value": "link"
         }
       ],
       "type": 8,
       "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to load the translation system."
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Hover over a language that you would like to translate, then click the 'Translate' button on the right"
+      "value": "Choose a language (you will need to log in to Crowdin to do this)."
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "You now see the crowdsourcing dashboard where you can start translating strings that are marked with a red dot, or search for a string you would like to correct"
+      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+    }
+  ],
+  "contribute.crowdinStep5": [
+    {
+      "type": 0,
+      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+    }
+  ],
+  "contribute.crowdinStep6": [
+    {
+      "type": 0,
+      "value": "If you are experiencing any problems please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contact us."
+        }
+      ],
+      "type": 8,
+      "value": "email"
     }
   ],
   "contribute.description": [
@@ -450,21 +480,21 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. Here is a "
+      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "video tutorial"
+          "value": "here"
         }
       ],
       "type": 8,
-      "value": "vid"
+      "value": "b"
     },
     {
       "type": 0,
-      "value": " of the translation editor to help you get started. Follow these steps to get started:"
+      "value": ". Follow these steps to get started:"
     }
   ],
   "contribute.translateTitle": [

@@ -87,16 +87,22 @@
     "message": "Creditos"
   },
   "contribute.crowdinStep1": {
-    "message": "Crea una cuenta en Crowdin siguiendo este <a>enlace</a>"
+    "message": "Crea una cuenta en Crowdin siguiendo este <a>enlace</a>."
   },
   "contribute.crowdinStep2": {
-    "message": "Abre nuestro <a>proyecto de traducción</a>"
+    "message": "Follow this <a>link</a> to load the translation system."
   },
   "contribute.crowdinStep3": {
-    "message": "Selecciona el idioma que te gustaría traducir, luego haz clic en el botón \"Traducir\" de la derecha"
+    "message": "Choose a language (you will need to log in to Crowdin to do this)."
   },
   "contribute.crowdinStep4": {
-    "message": "Ahora ves el panel de crowdsourcing donde puedes empezar a traducir cadenas que están marcadas con un punto rojo, o busca una cadena que te gustaría corregir"
+    "message": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+  },
+  "contribute.crowdinStep5": {
+    "message": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+  },
+  "contribute.crowdinStep6": {
+    "message": "If you are experiencing any problems please <email>contact us.</email>"
   },
   "contribute.description": {
     "message": "Ayúdenos a mejorar YourDigitalRights.org."
@@ -129,7 +135,7 @@
     "message": "Nos gustaría que este servicio estuviera disponible en muchos idiomas. Si el suyo no estuviera entre los que actualmente están disponibles, o necesitara actualizaciones o mejoras, nos encantaría su ayuda!"
   },
   "contribute.translate2": {
-    "message": "Utilizamos la plataforma en línea <a>Crowdin</a> para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Aquí tienes un <vid>video tutorial</vid> del editor de traducción para ayudarte a empezar. Sigue estos pasos para empezar:"
+    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble <b>here</b>. Follow these steps to get started:"
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"

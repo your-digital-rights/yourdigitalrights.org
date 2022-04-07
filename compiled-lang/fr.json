@@ -262,45 +262,75 @@
   "contribute.crowdinStep1": [
     {
       "type": 0,
-      "value": "Créez un compte chez Crowdin en suivant ce "
+      "value": "Make an account at Crowdin by following this "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "lien"
+          "value": "link"
         }
       ],
       "type": 8,
       "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Ouvrir notre traduction "
+      "value": "Follow this "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "projet"
+          "value": "link"
         }
       ],
       "type": 8,
       "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to load the translation system."
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Passez la souris sur une langue que vous souhaitez traduire, puis cliquez sur le bouton \"Traduire\" à droite"
+      "value": "Choose a language (you will need to log in to Crowdin to do this)."
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "Vous voyez maintenant le tableau de bord de crowdsourcing où vous pouvez commencer à traduire les chaînes marquées d'un point rouge ou rechercher une chaîne que vous souhaitez corriger"
+      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+    }
+  ],
+  "contribute.crowdinStep5": [
+    {
+      "type": 0,
+      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+    }
+  ],
+  "contribute.crowdinStep6": [
+    {
+      "type": 0,
+      "value": "If you are experiencing any problems please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contact us."
+        }
+      ],
+      "type": 8,
+      "value": "email"
     }
   ],
   "contribute.description": [
@@ -432,7 +462,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "Nous utilisons la plateforme en ligne "
+      "value": "We use the online platform "
     },
     {
       "children": [
@@ -446,21 +476,21 @@
     },
     {
       "type": 0,
-      "value": " pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un "
+      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "tutoriel"
+          "value": "here"
         }
       ],
       "type": 8,
-      "value": "vid"
+      "value": "b"
     },
     {
       "type": 0,
-      "value": " de l'éditeur de traduction pour vous aider à démarrer. Suivez ces étapes pour commencer :"
+      "value": ". Follow these steps to get started:"
     }
   ],
   "contribute.translateTitle": [
