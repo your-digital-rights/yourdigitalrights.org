@@ -32,11 +32,11 @@ async function fetchCompanies() {
         email: company[EMAIL].trim(),
         url: company[DOMAIN].trim(),
         searchTerms: company[SEARCH_TERMS].trim(),
-        privacyPolicyUrl: company[PRIVACY_POLICY_URL].trim(),
+        //privacyPolicyUrl: company[PRIVACY_POLICY_URL].trim(),
         emailsSent: emailCount
       };
     });
-    return {"License": "GNU General Public License v3.0", "Organizations": orgs.slice(0, 20000)};
+    return {"License": "GNU General Public License v3.0", "Organizations": orgs.slice(0, 25000)};
   } 
   catch (e) {
     console.error(e);
