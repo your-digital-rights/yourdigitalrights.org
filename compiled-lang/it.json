@@ -102,7 +102,7 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle tue donazioni."
+      "value": "This project is self funded by its creators, and with the help of your donations."
     }
   ],
   "about.missionBody1": [
@@ -156,7 +156,7 @@
   "about.sponsors": [
     {
       "type": 0,
-      "value": "Sponsor"
+      "value": "Supporting Organizations"
     }
   ],
   "about.sponsorsBody2": [
@@ -217,10 +217,20 @@
       "value": " - per averci aiutato a implementare una strategia SEO."
     }
   ],
+  "about.sponsorsBody7": [
+    {
+      "type": 1,
+      "value": "ama"
+    },
+    {
+      "type": 0,
+      "value": " - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    }
+  ],
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Vorremmo ringraziare le seguenti organizzazioni per aver supportato il nostro impegno nell'open source fornendo una versione gratuita o scontata dei loro servizi:"
+      "value": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.title": [

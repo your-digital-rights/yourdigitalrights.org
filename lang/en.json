@@ -660,7 +660,7 @@
     "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
   },
   "howItWorks.followUp": {
-    "message": "using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    "message": "using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -690,7 +690,7 @@
     "message": "Why Trust Us?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   },
   "howItWorks.yourDataTitle": {
     "message": "You have the right to privacy!"
@@ -735,7 +735,7 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
   },
   "org.descriptionExistingOrg": {
     "message": "Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."
@@ -744,7 +744,7 @@
     "message": "{org} - Delete Your Account or Get a Copy of Your Data"
   },
   "org.titleNewOrg": {
-    "message": "Send GDPR and CCPA Data Deletion and Access Requests"
+    "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
   },
   "orgHero.newOrgSubTitle": {
     "message": "Send any organization a {ccpa} or a {gdpr} request."

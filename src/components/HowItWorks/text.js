@@ -50,7 +50,7 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="howItWorks.yourData"
-    defaultMessage="Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    defaultMessage="Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   />
 );
 
