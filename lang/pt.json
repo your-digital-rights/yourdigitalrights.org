@@ -36,7 +36,7 @@
     "message": "Financiamento"
   },
   "about.fundingBody1": {
-    "message": "This project is self funded by its creators, and with the help of your donations."
+    "message": "Este projeto é financiado pessoalmente por seus criadores e com a ajuda de suas doações."
   },
   "about.missionBody1": {
     "message": "YourDigitalRights.org foi criada porque acreditamos que a privacidade é um direito humano básico, e que a prática deste direito deve ser algo simples. As leis Europeias {gdpr} (GDPR) e {ccpa} (CCPA) fornecem a infraestrutura legal para proteger o direito fundamental das pessoas à privacidade online."
@@ -48,7 +48,7 @@
     "message": "Este é um serviço gratuito. Não somos uma empresa e não temos um modelo de negócio. Não oferecemos nenhum serviço a organizações. Não recolhemos nem comercializamos quaisquer dados pessoais. Este serviço possui <a>Código Aberto</a>."
   },
   "about.sponsors": {
-    "message": "Supporting Organizations"
+    "message": "Organizações de apoio"
   },
   "about.sponsorsBody2": {
     "message": "{crunchbase} - por fornecer informações sobre o banco de dados de sua empresa que usamos para melhorar nossa lista de organizações."
@@ -66,10 +66,10 @@
     "message": "{sws} - por nos ajudar a implementar uma estratégia de SEO."
   },
   "about.sponsorsBody7": {
-    "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    "message": "{ama} - para nos ajudar a entender e apoiar o regulamento brasileiro em matéria de privacidade de dados, Lei Geral de Proteção Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
+    "message": "Gostaríamos de agradecer às seguintes organizações por apoiarem o nosso esforço em código aberto, fornecendo uma versão gratuita ou com desconto de seus serviços:"
   },
   "about.title": {
     "message": "Sobre nós"
@@ -507,7 +507,7 @@
     "message": "De acordo com a LGPD:"
   },
   "faq.body8F": {
-    "message": "The LGPD permits keeping data for the following purposes:"
+    "message": "O LGPD permite manter os dados para os seguintes fins:"
   },
   "faq.body8Fi": {
     "message": "Cumprir uma obrigação estatutária ou legal pela organização."
@@ -537,13 +537,13 @@
     "message": "De acordo com a LGPD:"
   },
   "faq.body9D": {
-    "message": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
+    "message": "O LGPD especifica um prazo no que diz respeito ao direito à confirmação da existência de dados pessoais e ao direito de acesso a dados pessoais:"
   },
   "faq.body9Di": {
     "message": "Em um formulário simplificado, se a confirmação ou o acesso forem fornecidos imediatamente."
   },
   "faq.body9Dii": {
-    "message": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
+    "message": "Através de uma declaração clara e completa, indicando a origem dos dados, a não existência de registros, critérios utilizados e a finalidade do processamento, como o caso pode ser, no prazo de 15 (quinze) dias contaram a partir da data do pedido."
   },
   "faq.bodyWhatIsLGPD1": {
     "message": "A LGPD (Lei Geral de Proteção de Dados Pessoais) é um regulamento brasileiro que estabelece regras sobre coleta, manuseio, armazenamento e compartilhamento dos dados pessoais que são gerenciados pelas organizações. O seu principal objetivo é de estabelecer a proteção dos direitos fundamentais de liberdade e da privacidade dos indivíduos."
@@ -564,19 +564,19 @@
     "message": "Seu objetivo é oferecer produtos e/ou serviços a pessoas físicas, brasileiras ou estrangeiras, que estejam no Brasil"
   },
   "faq.bodyWhoLGPDAppliesTo5": {
-    "message": "The LGPD is not applicable in cases where the processing of personal data is made:"
+    "message": "O LGPD não é aplicável nos casos em que o processamento de dados pessoais é feito:"
   },
   "faq.bodyWhoLGPDAppliesTo6": {
-    "message": "By a natural person for exclusively private and non-commercial purposes."
+    "message": "Uma pessoa singular para fins exclusivamente privados e não comerciais."
   },
   "faq.bodyWhoLGPDAppliesTo7": {
-    "message": "Exclusively for journalistic, artistic or academic purposes."
+    "message": "Exclusivamente para fins jornalista, artísticos ou académicos."
   },
   "faq.bodyWhoLGPDAppliesTo8": {
-    "message": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+    "message": "Por parte das autoridades públicas, em caso de utilização para promover a segurança pública, a defesa nacional, segurança estatal ou actividades de investigação e perseguição judicial de infracções penais."
   },
   "faq.bodyWhoLGPDAppliesTo9": {
-    "message": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
+    "message": "Quando a origem dos dados não é o território brasileiro e: a) não é o objeto de qualquer processamento de dados no Brasil; c) não é compartilhado com agentes de processamento brasileiros; d) não é compartilhado com outros países que não são o país de origem, Desde que o país de origem disponha de uma lei ou de um regulamento que proporcione um nível de protecção de dados pessoais equivalente à protecção de dados oferecida pela LGPD."
   },
   "faq.heading0": {
     "message": "O que são as leis de proteção de dados?"
