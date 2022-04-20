@@ -546,7 +546,7 @@
     "message": "Por medio de una declaración clara y completa, indicando el origen de los datos, no existencia de registros, se utiliza y el propósito del tratamiento, según el caso, en un plazo de 15 (quince) días contados a partir de la fecha de la solicitud."
   },
   "faq.bodyWhatIsLGPD1": {
-    "message": "La LGPD (Lei Geral de Protection) o de Dados Pessoais) es una regulación brasileña que establece reglas para la recolección, tratando, almacenando y compartiendo datos personales gestionados por organizaciones. Establece la protección de los derechos fundamentales de la libertad y de la intimidad de las personas como sus principales objetivos."
+    "message": "La LGPD (Lei Geral de Proteção de Dados Pessoais) es una regulación brasileña que establece reglas para la recolección, tratando, almacenando y compartiendo datos personales gestionados por organizaciones. Establece la protección de los derechos fundamentales de la libertad y de la intimidad de las personas como sus principales objetivos."
   },
   "faq.bodyWhatIsLGPD2": {
     "message": "<a>lea más sonbre la ley</a>"
@@ -690,7 +690,7 @@
     "message": "¿Por qué confiar en nosotros?"
   },
   "howItWorks.yourData": {
-    "message": "Leyes de protección de datos como el RGPD (Unión Europea) y el CCPA (California), requieren que las organizaciones le eliminen o le proporcionen una copia de sus datos si así lo solicita. Las organizaciones tienen un corto período de tiempo para cumplir, de lo contrario pueden enfrentarse a multas elevadas. Nuestra misión es facilitarle el ejercicio de sus derechos legales."
+    "message": "Leyes de protección de datos, como el RGPD, Unión Europea), el CCPA (California) y el LGPD (Brasil) requieren que las organizaciones eliminen o le proporcionen una copia de sus datos a petición de los usuarios. Las organizaciones tienen un corto período de tiempo para cumplir, de lo contrario pueden enfrentarse a multas elevadas. Nuestra misión es facilitarle el ejercicio de sus derechos legales."
   },
   "howItWorks.yourDataTitle": {
     "message": "¡Usted tiene derecho a la privacidad!"
@@ -735,7 +735,7 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envíe solicitudes de acceso y eliminación de datos CCPA y GDPR a cualquier organización de forma rápida y sencilla utilizando este servicio gratuito."
+    "message": "Envíe los datos de GDPR, CCPA y LGPD y las solicitudes de acceso a cualquier organización rápida y fácilmente utilizando este servicio gratuito."
   },
   "org.descriptionExistingOrg": {
     "message": "Solicite la eliminación o copia de sus datos personales de {org} rápida y sencilla utilizando este servicio gratuito."
@@ -744,7 +744,7 @@
     "message": "{org} - Elimine su cuenta u obtenga una copia de sus datos"
   },
   "org.titleNewOrg": {
-    "message": "Enviar solicitudes de acceso y eliminación de datos de GDPR y CCPA"
+    "message": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
   },
   "orgHero.newOrgSubTitle": {
     "message": "Envíe a cualquier organización una solicitud bajo {ccpa} o {gdpr}"

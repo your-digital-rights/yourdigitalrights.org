@@ -546,7 +546,7 @@
     "message": "Au moyen d'une déclaration claire et complète, indiquant l'origine des données, la non-existence des enregistrements, les critères utilisés et le but du traitement, selon le cas, dans les 15 (quinze jours) qui suivent la date de la demande."
   },
   "faq.bodyWhatIsLGPD1": {
-    "message": "Le LGPD (Lei Geral de ProtecΩa<unk> o de Dados Pessoais) est un règlement brésilien établissant des règles de collecte, la manipulation, le stockage et le partage des données personnelles gérées par des organisations. Il fixe comme objectifs principaux la protection des droits fondamentaux de la liberté et de la vie privée des personnes."
+    "message": "Le LGPD (Lei Geral de Proteção de Dados Pessoais) est un règlement brésilien établissant des règles de collecte, la manipulation, le stockage et le partage des données personnelles gérées par des organisations. Il fixe comme objectifs principaux la protection des droits fondamentaux de la liberté et de la vie privée des personnes."
   },
   "faq.bodyWhatIsLGPD2": {
     "message": "<a>Lire le règlement</a>"
@@ -660,7 +660,7 @@
     "message": "De nombreuses organisations collectent et vendent vos données personnelles, souvent sans votre consentement. Utilisez ce service gratuit pour leur envoyer une demande de suppression ou d'accès aux données. Commencez par rechercher une organisation ci-dessous. Vous ne savez pas par où commencer ? Désactiver ces <a>meilleurs courtiers en données</a>."
   },
   "howItWorks.followUp": {
-    "message": "en utilisant notre assistant de suivi intelligent pour s'assurer que l'organisation répond à votre demande, et même vous aider à augmenter votre demande auprès de l’organisme de réglementation du gouvernement concerné."
+    "message": "utiliser notre assistant de suivi intelligent pour vous aider à vous assurer que l'organisation répond à votre demande, et même vous aider à augmenter votre demande auprès de l’organisme de réglementation du gouvernement concerné."
   },
   "howItWorks.followUpTitle": {
     "message": "Suivi"
@@ -690,7 +690,7 @@
     "message": "Pourquoi nous faire confiance ?"
   },
   "howItWorks.yourData": {
-    "message": "Les lois sur la protection des données telles que le RGPD (Union européenne) et l'ACCP (Californie), exiger des organismes qu'ils vous suppriment ou vous fournissent une copie de vos données sur demande. Les organisations ont peu de temps pour se conformer, sinon elles peuvent faire face à de lourdes amendes. Notre mission est de vous faciliter l'exercice de vos droits juridiques."
+    "message": "Les lois sur la protection des données telles que le RGPD (Union européenne), L'ACCP (Californie) et le LGPD (Brésil) exigent que les organisations vous suppriment ou vous fournissent une copie de vos données sur demande. Les organisations ont peu de temps pour se conformer, sinon elles peuvent faire face à de lourdes amendes. Notre mission est de vous faciliter l'exercice de vos droits juridiques."
   },
   "howItWorks.yourDataTitle": {
     "message": "Vous avez le droit à la vie privée !"
@@ -735,7 +735,7 @@
     "message": "#possédervosdonnées"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envoyez rapidement et facilement des demandes de suppression et d'accès aux données CCPA et GDPR à n'importe quelle organisation en utilisant ce service gratuit."
+    "message": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation en utilisant ce service gratuit rapidement et facilement."
   },
   "org.descriptionExistingOrg": {
     "message": "Demandez la suppression de votre compte ou une copie de vos données personnelles à {org} rapidement et facilement en utilisant ce service gratuit."
@@ -744,7 +744,7 @@
     "message": "{org} - Supprimer votre compte ou obtenir une copie de vos données"
   },
   "org.titleNewOrg": {
-    "message": "Envoyer des demandes de suppression et d'accès aux données GDPR et CCPA"
+    "message": "Envoyer des requêtes RGPD, CCPA et LGPD de suppression de données et d'accès"
   },
   "orgHero.newOrgSubTitle": {
     "message": "Envoyez à n'importe quelle organisation une demande {ccpa} ou {gdpr}"
