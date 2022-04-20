@@ -4,11 +4,13 @@ import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import {FormattedDate} from 'react-intl'
+import Regulations from "../../utils/regulations";
 
 const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }) => {
   const [showRequestEmail, setShowRequestEmail] = useState(false);
   const [showReminderEmail, showReminderEmailEmail] = useState(false);
   const [showEscalationEmail, showEscalationEmailEmail] = useState(false);
+  const regulationType = Regulations[requestItem.regulationType.S].longName;
 
   return (
     <div className={classes.root} id="requestDetails">
@@ -26,7 +28,7 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
               <dt><FormattedMessage id="request.details.type" defaultMessage="Request type:" /></dt>
               <dd>{ requestItem.requestType.S }</dd>
               <dt><FormattedMessage id="request.details.regulation" defaultMessage="Regulation:" /></dt>
-              <dd>{ requestItem.regulationType.S }</dd>
+              <dd>{ regulationType }</dd>
               <dt><FormattedMessage id="request.details.name" defaultMessage="Requested by:" /></dt>
               <dd>{ requestItem.name.S }</dd>
               <dt><FormattedMessage id="request.details.organization" defaultMessage="Recipient:" /></dt>

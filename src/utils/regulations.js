@@ -334,7 +334,52 @@ const Regulations = {
         article: 110,        
       }
     }
+  },
+  LGPD: {
+    displayName: 'LGPD',
+    gepgraphy: 'Brazil',
+    longName: 'Lei Geral de Proteção de Dados Pessoais',
+    timeLimit: 15,
+    escalation_timeLimit: 30,
+    dpa: {
+      shortName: 'ANPD',
+      longName: 'Autoridade Nacional de Proteção de Dados',
+      requestFormURL: 'https://www.gov.br/secretariageral/pt-br/sei-peticionamento-eletronico',
+      defualtAction: 'form',
+      geographies: [
+        {
+          name: 'Brasil',
+          countryCode: 'BR',
+          email: 'encarregado@anpd.gov.br',
+          website: 'https://www.gov.br/anpd/pt-br',
+          chairman: 'Thiago Guimaraes Moraes'
+        },
+      ],
+    },
+    regulationURL: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm',
+    requestTypes: {
+      DELETION: {
+        name: 'eliminação',
+        article: 18,
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineLGPD"
+            defaultMessage="<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm',
+      },
+      ACCESS: {
+        name: 'acesso',
+        article: 18,        
+      }
+    }
   }
+
 };
 
 export default Regulations;

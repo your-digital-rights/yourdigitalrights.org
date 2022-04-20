@@ -116,17 +116,17 @@ export const SubmitButtonText = (
   <FormattedMessage id="personalInfoForm.sendButton" defaultMessage="Review your request" />
 );
 
-export const CcpaOrGdprText = (
+export const RegulationTypeText = (
   <FormattedMessage
-    id="personalInfoForm.ccpaOrGdpr"
+    id="personalInfoForm.regulationType"
     defaultMessage="Regulation"
   />
 );
 
-export const CcpaOrGdprHelperText = (
+export const RegulationTypeHelperText = (
   <FormattedMessage
-    id="personalInfoForm.ccpaOrGdprHelper"
-    defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose differently."
+    id="personalInfoForm.regulationTypeHelper"
+    defaultMessage="Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
   />
 );
 

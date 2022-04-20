@@ -36,7 +36,7 @@ const SendTitle = <FormattedMessage id="howItWorks.followUpTitle" defaultMessage
 const SendBody = (
   <FormattedMessage
     id="howItWorks.followUp"
-    defaultMessage="using our smart follow up assistante to helps ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    defaultMessage="using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   />
 );
 
@@ -50,7 +50,7 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="howItWorks.yourData"
-    defaultMessage="Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    defaultMessage="Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   />
 );
 

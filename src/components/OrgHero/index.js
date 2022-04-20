@@ -68,11 +68,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitle"
-                  defaultMessage="Use this free service to send {ccpa} and {gdpr} data requests."
-                  values={{
-                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>
-                  }}
+                  defaultMessage="Use this free service to send GDPR, CCPA and LGPD data requests."
                 />
               </Typography>                           
               <Typography

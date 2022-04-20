@@ -36,7 +36,7 @@
     "message": "crwdns2255:0crwdne2255:0"
   },
   "about.fundingBody1": {
-    "message": "crwdns2257:0crwdne2257:0"
+    "message": "crwdns3446:0crwdne3446:0"
   },
   "about.missionBody1": {
     "message": "crwdns2265:0{gdpr}crwdnd2265:0{ccpa}crwdne2265:0"
@@ -48,7 +48,7 @@
     "message": "crwdns2745:0crwdne2745:0"
   },
   "about.sponsors": {
-    "message": "crwdns2271:0crwdne2271:0"
+    "message": "crwdns3440:0crwdne3440:0"
   },
   "about.sponsorsBody2": {
     "message": "crwdns2273:0{crunchbase}crwdne2273:0"
@@ -65,8 +65,11 @@
   "about.sponsorsBody6": {
     "message": "crwdns2281:0{sws}crwdne2281:0"
   },
+  "about.sponsorsBody7": {
+    "message": "crwdns3442:0{ama}crwdne3442:0"
+  },
   "about.sponsorsTitle": {
-    "message": "crwdns2729:0crwdne2729:0"
+    "message": "crwdns3444:0crwdne3444:0"
   },
   "about.title": {
     "message": "crwdns2285:0crwdne2285:0"
@@ -197,17 +200,35 @@
   "donations.headingDonate": {
     "message": "crwdns2313:0crwdne2313:0"
   },
-  "faq.body10A": {
-    "message": "crwdns2315:0crwdne2315:0"
+  "faq.body0A": {
+    "message": "crwdns3274:0crwdne3274:0"
   },
-  "faq.body10Ai": {
-    "message": "crwdns2317:0crwdne2317:0"
+  "faq.body1": {
+    "message": "crwdns3276:0crwdne3276:0"
+  },
+  "faq.body10A": {
+    "message": "crwdns3278:0crwdne3278:0"
   },
   "faq.body10B": {
-    "message": "crwdns2319:0crwdne2319:0"
+    "message": "crwdns3280:0crwdne3280:0"
   },
-  "faq.body10Bii": {
-    "message": "crwdns2321:0crwdne2321:0"
+  "faq.body10C": {
+    "message": "crwdns3282:0crwdne3282:0"
+  },
+  "faq.body10Ci": {
+    "message": "crwdns3284:0crwdne3284:0"
+  },
+  "faq.body10D": {
+    "message": "crwdns3286:0crwdne3286:0"
+  },
+  "faq.body10Di": {
+    "message": "crwdns3288:0crwdne3288:0"
+  },
+  "faq.body10E": {
+    "message": "crwdns3290:0crwdne3290:0"
+  },
+  "faq.body10Ei": {
+    "message": "crwdns3292:0crwdne3292:0"
   },
   "faq.body11A": {
     "message": "crwdns2323:0crwdne2323:0"
@@ -227,6 +248,42 @@
   "faq.body11Biii": {
     "message": "crwdns2333:0crwdne2333:0"
   },
+  "faq.body11C": {
+    "message": "crwdns3294:0crwdne3294:0"
+  },
+  "faq.body11C0": {
+    "message": "crwdns3296:0crwdne3296:0"
+  },
+  "faq.body11Ci": {
+    "message": "crwdns3298:0crwdne3298:0"
+  },
+  "faq.body11Cii": {
+    "message": "crwdns3300:0crwdne3300:0"
+  },
+  "faq.body11Ciii": {
+    "message": "crwdns3302:0crwdne3302:0"
+  },
+  "faq.body11Civ": {
+    "message": "crwdns3304:0crwdne3304:0"
+  },
+  "faq.body11Cix": {
+    "message": "crwdns3306:0crwdne3306:0"
+  },
+  "faq.body11Cv": {
+    "message": "crwdns3308:0crwdne3308:0"
+  },
+  "faq.body11Cvi": {
+    "message": "crwdns3310:0crwdne3310:0"
+  },
+  "faq.body11Cvii": {
+    "message": "crwdns3312:0crwdne3312:0"
+  },
+  "faq.body11Cviii": {
+    "message": "crwdns3314:0crwdne3314:0"
+  },
+  "faq.body11D": {
+    "message": "crwdns3316:0crwdne3316:0"
+  },
   "faq.body12A": {
     "message": "crwdns2335:0crwdne2335:0"
   },
@@ -239,11 +296,23 @@
   "faq.body12Bi": {
     "message": "crwdns2341:0crwdne2341:0"
   },
+  "faq.body12C": {
+    "message": "crwdns3318:0crwdne3318:0"
+  },
+  "faq.body12Ci": {
+    "message": "crwdns3320:0crwdne3320:0"
+  },
   "faq.body13A": {
     "message": "crwdns2343:0crwdne2343:0"
   },
   "faq.body1A": {
-    "message": "crwdns2785:0crwdne2785:0"
+    "message": "crwdns3322:0crwdne3322:0"
+  },
+  "faq.body1B": {
+    "message": "crwdns3324:0crwdne3324:0"
+  },
+  "faq.body1C": {
+    "message": "crwdns3326:0crwdne3326:0"
   },
   "faq.body2A": {
     "message": "crwdns2747:0crwdne2747:0"
@@ -270,13 +339,13 @@
     "message": "crwdns2361:0crwdne2361:0"
   },
   "faq.body4A": {
-    "message": "crwdns2363:0crwdne2363:0"
+    "message": "crwdns3328:0crwdne3328:0"
   },
   "faq.body4Ai": {
     "message": "crwdns2365:0crwdne2365:0"
   },
   "faq.body5A": {
-    "message": "crwdns2367:0crwdne2367:0"
+    "message": "crwdns3330:0crwdne3330:0"
   },
   "faq.body5Ai": {
     "message": "crwdns2369:0crwdne2369:0"
@@ -285,7 +354,7 @@
     "message": "crwdns2371:0crwdne2371:0"
   },
   "faq.body5Aiii": {
-    "message": "crwdns2373:0crwdne2373:0"
+    "message": "crwdns3332:0crwdne3332:0"
   },
   "faq.body6Ai": {
     "message": "crwdns2375:0crwdne2375:0"
@@ -304,6 +373,15 @@
   },
   "faq.body6Biii": {
     "message": "crwdns2385:0crwdne2385:0"
+  },
+  "faq.body6Ci": {
+    "message": "crwdns3334:0crwdne3334:0"
+  },
+  "faq.body6Cii": {
+    "message": "crwdns3336:0crwdne3336:0"
+  },
+  "faq.body6Ciii": {
+    "message": "crwdns3338:0crwdne3338:0"
   },
   "faq.body7A": {
     "message": "crwdns2387:0crwdne2387:0"
@@ -329,8 +407,38 @@
   "faq.body7Avii": {
     "message": "crwdns2401:0crwdne2401:0"
   },
+  "faq.body7Aviii": {
+    "message": "crwdns3340:0crwdne3340:0"
+  },
   "faq.body7B": {
-    "message": "crwdns2403:0crwdne2403:0"
+    "message": "crwdns3342:0crwdne3342:0"
+  },
+  "faq.body7Bi": {
+    "message": "crwdns3344:0crwdne3344:0"
+  },
+  "faq.body7Bii": {
+    "message": "crwdns3346:0crwdne3346:0"
+  },
+  "faq.body7Biii": {
+    "message": "crwdns3348:0crwdne3348:0"
+  },
+  "faq.body7Biv": {
+    "message": "crwdns3350:0crwdne3350:0"
+  },
+  "faq.body7C": {
+    "message": "crwdns3352:0crwdne3352:0"
+  },
+  "faq.body7Ci": {
+    "message": "crwdns3354:0crwdne3354:0"
+  },
+  "faq.body7Cii": {
+    "message": "crwdns3356:0crwdne3356:0"
+  },
+  "faq.body7Ciii": {
+    "message": "crwdns3358:0crwdne3358:0"
+  },
+  "faq.body7Ciiii": {
+    "message": "crwdns3360:0crwdne3360:0"
   },
   "faq.body8A": {
     "message": "crwdns2405:0crwdne2405:0"
@@ -378,7 +486,7 @@
     "message": "crwdns2433:0crwdne2433:0"
   },
   "faq.body8Cix": {
-    "message": "crwdns2435:0crwdne2435:0"
+    "message": "crwdns3362:0crwdne3362:0"
   },
   "faq.body8Cv": {
     "message": "crwdns2437:0crwdne2437:0"
@@ -390,10 +498,28 @@
     "message": "crwdns2441:0crwdne2441:0"
   },
   "faq.body8Cviii": {
-    "message": "crwdns2443:0crwdne2443:0"
+    "message": "crwdns3364:0crwdne3364:0"
   },
   "faq.body8D": {
     "message": "crwdns2445:0crwdne2445:0"
+  },
+  "faq.body8E": {
+    "message": "crwdns3366:0crwdne3366:0"
+  },
+  "faq.body8F": {
+    "message": "crwdns3424:0crwdne3424:0"
+  },
+  "faq.body8Fi": {
+    "message": "crwdns3370:0crwdne3370:0"
+  },
+  "faq.body8Fii": {
+    "message": "crwdns3372:0crwdne3372:0"
+  },
+  "faq.body8Fiii": {
+    "message": "crwdns3374:0crwdne3374:0"
+  },
+  "faq.body8Fiv": {
+    "message": "crwdns3376:0crwdne3376:0"
   },
   "faq.body9A": {
     "message": "crwdns2447:0crwdne2447:0"
@@ -405,10 +531,58 @@
     "message": "crwdns2451:0crwdne2451:0"
   },
   "faq.body9Aiii": {
-    "message": "crwdns2453:0crwdne2453:0"
+    "message": "crwdns3378:0crwdne3378:0"
+  },
+  "faq.body9C": {
+    "message": "crwdns3380:0crwdne3380:0"
+  },
+  "faq.body9D": {
+    "message": "crwdns3426:0crwdne3426:0"
+  },
+  "faq.body9Di": {
+    "message": "crwdns3384:0crwdne3384:0"
+  },
+  "faq.body9Dii": {
+    "message": "crwdns3428:0crwdne3428:0"
+  },
+  "faq.bodyWhatIsLGPD1": {
+    "message": "crwdns3390:0crwdne3390:0"
+  },
+  "faq.bodyWhatIsLGPD2": {
+    "message": "crwdns3392:0crwdne3392:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo1": {
+    "message": "crwdns3394:0crwdne3394:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo2": {
+    "message": "crwdns3396:0crwdne3396:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo3": {
+    "message": "crwdns3398:0crwdne3398:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo4": {
+    "message": "crwdns3400:0crwdne3400:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo5": {
+    "message": "crwdns3430:0crwdne3430:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo6": {
+    "message": "crwdns3432:0crwdne3432:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo7": {
+    "message": "crwdns3434:0crwdne3434:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo8": {
+    "message": "crwdns3436:0crwdne3436:0"
+  },
+  "faq.bodyWhoLGPDAppliesTo9": {
+    "message": "crwdns3438:0crwdne3438:0"
+  },
+  "faq.heading0": {
+    "message": "crwdns3402:0crwdne3402:0"
   },
   "faq.heading1": {
-    "message": "crwdns2455:0crwdne2455:0"
+    "message": "crwdns3404:0crwdne3404:0"
   },
   "faq.heading10": {
     "message": "crwdns2457:0crwdne2457:0"
@@ -444,7 +618,13 @@
     "message": "crwdns2477:0crwdne2477:0"
   },
   "faq.heading9": {
-    "message": "crwdns2479:0crwdne2479:0"
+    "message": "crwdns3406:0crwdne3406:0"
+  },
+  "faq.headingWhatIsLGPD": {
+    "message": "crwdns3408:0crwdne3408:0"
+  },
+  "faq.headingWhoLGPDAppliesTo": {
+    "message": "crwdns3410:0crwdne3410:0"
   },
   "faq.title": {
     "message": "crwdns2481:0crwdne2481:0"
@@ -480,7 +660,7 @@
     "message": "crwdns2499:0crwdne2499:0"
   },
   "howItWorks.followUp": {
-    "message": "crwdns3232:0crwdne3232:0"
+    "message": "crwdns3448:0crwdne3448:0"
   },
   "howItWorks.followUpTitle": {
     "message": "crwdns2795:0crwdne2795:0"
@@ -510,7 +690,7 @@
     "message": "crwdns2519:0crwdne2519:0"
   },
   "howItWorks.yourData": {
-    "message": "crwdns3240:0crwdne3240:0"
+    "message": "crwdns3450:0crwdne3450:0"
   },
   "howItWorks.yourDataTitle": {
     "message": "crwdns3242:0crwdne3242:0"
@@ -555,7 +735,7 @@
     "message": "crwdns2545:0crwdne2545:0"
   },
   "org.DescriptionNewOrg": {
-    "message": "crwdns2547:0crwdne2547:0"
+    "message": "crwdns3452:0crwdne3452:0"
   },
   "org.descriptionExistingOrg": {
     "message": "crwdns2549:0{org}crwdne2549:0"
@@ -564,7 +744,7 @@
     "message": "crwdns2551:0{org}crwdne2551:0"
   },
   "org.titleNewOrg": {
-    "message": "crwdns2553:0crwdne2553:0"
+    "message": "crwdns3454:0crwdne3454:0"
   },
   "orgHero.newOrgSubTitle": {
     "message": "crwdns2555:0{ccpa}crwdnd2555:0{gdpr}crwdne2555:0"
@@ -579,7 +759,7 @@
     "message": "crwdns2803:0{org}crwdne2803:0"
   },
   "orgHero.subTitle": {
-    "message": "crwdns2561:0{ccpa}crwdnd2561:0{gdpr}crwdne2561:0"
+    "message": "crwdns3412:0crwdne3412:0"
   },
   "orgHero.title": {
     "message": "crwdns2563:0crwdne2563:0"
@@ -607,12 +787,6 @@
   },
   "personalInfoForm.ccpaOption": {
     "message": "crwdns2569:0crwdne2569:0"
-  },
-  "personalInfoForm.ccpaOrGdpr": {
-    "message": "crwdns2571:0crwdne2571:0"
-  },
-  "personalInfoForm.ccpaOrGdprHelper": {
-    "message": "crwdns2573:0crwdne2573:0"
   },
   "personalInfoForm.companyDomainHelper": {
     "message": "crwdns2731:0crwdne2731:0"
@@ -650,11 +824,20 @@
   "personalInfoForm.nameLabel": {
     "message": "crwdns2593:0crwdne2593:0"
   },
+  "personalInfoForm.regulationType": {
+    "message": "crwdns3414:0crwdne3414:0"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "crwdns3416:0crwdne3416:0"
+  },
   "personalInfoForm.requestTypeLabelText": {
     "message": "crwdns2595:0crwdne2595:0"
   },
   "personalInfoForm.sendButton": {
     "message": "crwdns2597:0crwdne2597:0"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "crwdns3418:0crwdne3418:0"
   },
   "pressIntro.title": {
     "message": "crwdns2815:0crwdne2815:0"
@@ -836,6 +1019,9 @@
   "request.next.declineGDPR": {
     "message": "crwdns2877:0crwdne2877:0"
   },
+  "request.next.declineLGPD": {
+    "message": "crwdns3420:0crwdne3420:0"
+  },
   "request.next.escalateToAuthorityNoReply": {
     "message": "crwdns2879:0{ authority }crwdne2879:0"
   },
@@ -1000,6 +1186,9 @@
   },
   "thankyou.findCompany": {
     "message": "crwdns2687:0crwdne2687:0"
+  },
+  "thankyou.howLongToReply": {
+    "message": "crwdns3422:0{days}crwdne3422:0"
   },
   "thankyou.requestTypeAccess": {
     "message": "crwdns2689:0crwdne2689:0"

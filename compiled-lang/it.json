@@ -102,7 +102,7 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle tue donazioni."
+      "value": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle vostre donazioni."
     }
   ],
   "about.missionBody1": [
@@ -156,7 +156,7 @@
   "about.sponsors": [
     {
       "type": 0,
-      "value": "Sponsor"
+      "value": "Organizzazioni Di Supporto"
     }
   ],
   "about.sponsorsBody2": [
@@ -217,10 +217,20 @@
       "value": " - per averci aiutato a implementare una strategia SEO."
     }
   ],
+  "about.sponsorsBody7": [
+    {
+      "type": 1,
+      "value": "ama"
+    },
+    {
+      "type": 0,
+      "value": " - per aiutarci a capire e sostenere il regolamento brasiliano sulla privacy dei dati, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    }
+  ],
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Vorremmo ringraziare le seguenti organizzazioni per aver supportato il nostro impegno nell'open source fornendo una versione gratuita o scontata dei loro servizi:"
+      "value": "Ringraziamo le seguenti organizzazioni per aver sostenuto il nostro impegno open source fornendo una versione gratuita o scontata dei loro servizi:"
     }
   ],
   "about.title": [
@@ -282,7 +292,7 @@
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Follow this "
+      "value": "Segui questo "
     },
     {
       "children": [
@@ -296,37 +306,37 @@
     },
     {
       "type": 0,
-      "value": " to load the translation system."
+      "value": " per caricare il sistema di traduzione."
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Choose a language (you will need to log in to Crowdin to do this)."
+      "value": "Scegli una lingua (dovrai accedere a Crowdin per farlo)."
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+      "value": "Ora dovresti vedere le caselle che circondano i vari bit di testo che compongono il sito web. Passa sopra il testo che desideri tradurre e clicca sull'icona che apparirà nell'angolo del testo."
     }
   ],
   "contribute.crowdinStep5": [
     {
       "type": 0,
-      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+      "value": "Un editor si aprirà dove puoi fornire la traduzione. Non dimenticare di fare clic su Salva quando finito."
     }
   ],
   "contribute.crowdinStep6": [
     {
       "type": 0,
-      "value": "If you are experiencing any problems please "
+      "value": "Se riscontri qualche problema, ti preghiamo di "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us."
+          "value": "contattarci."
         }
       ],
       "type": 8,
@@ -466,7 +476,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "Usiamo la piattaforma online "
     },
     {
       "children": [
@@ -480,13 +490,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble "
+      "value": " per creare facilmente le stringhe di traduzione. Rende il processo molto più facile, e non richiede di sapere nulla di programmazione. C'è un rapido tutorial avaialble "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "qui"
         }
       ],
       "type": 8,
@@ -494,7 +504,7 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": ". Segui questi passaggi per iniziare:"
     }
   ],
   "contribute.translateTitle": [
@@ -564,13 +574,13 @@
   "deletePII.doneAll": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with all of your requests."
+      "value": "Abbiamo eliminato con successo i dati personali associati a tutte le vostre richieste."
     }
   ],
   "deletePII.doneRequest": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with this request."
+      "value": "Abbiamo eliminato con successo i dati personali associati a questa richiesta."
     }
   ],
   "deletePII.heading": [
@@ -629,16 +639,40 @@
       "value": "Abbiamo bisogno del tuo supporto"
     }
   ],
+  "faq.body0A": [
+    {
+      "type": 0,
+      "value": "Le leggi sulla protezione dei dati proteggono le persone con riguardo al trattamento dei loro dati personali da parte delle organizzazioni. Essi definiscono le responsabilità che le organizzazioni hanno nel trattamento dei dati personali e riconoscono ai singoli determinati diritti in relazione ai loro dati."
+    }
+  ],
+  "faq.body1": [
+    {
+      "type": 0,
+      "value": "I diversi paesi hanno normative diverse che proteggono la privacy individuale online. Questo sito web supporta le seguenti regole:"
+    }
+  ],
   "faq.body10A": [
+    {
+      "type": 0,
+      "value": "Quando si invia una richiesta di dati tramite questo sito web, attivare l'opzione “Smart Follow-up Assistance” per ottenere consigli personalizzati su cosa fare nel caso in cui un'organizzazione non abbia soddisfatto la tua richiesta."
+    }
+  ],
+  "faq.body10B": [
+    {
+      "type": 0,
+      "value": "Se non sei soddisfatto di come l'organizzazione ha gestito la tua richiesta, dovresti prima inviare all'organizzazione una e-mail di promemoria che spieghi la tua insoddisfazione. Se dopo aver inviato all'organizzazione un promemoria sei ancora insoddisfatto, puoi presentare un reclamo all'Agenzia per la protezione dei dati, un organismo di regolamentazione governativo. Alcuni regolamenti conferiscono ai singoli un diritto di azione privato: la possibilità di citare in giudizio un'organizzazione. Se decidete di farlo, vi consigliamo vivamente di chiedere prima una consulenza legale indipendente."
+    }
+  ],
+  "faq.body10C": [
     {
       "type": 0,
       "value": "Ai sensi del GDPR:"
     }
   ],
-  "faq.body10Ai": [
+  "faq.body10Ci": [
     {
       "type": 0,
-      "value": "Se non sei soddisfatto di come l'organizzazione ha gestito la tua richiesta, dovresti prima sporgere denuncia. Fatto ciò, se rimani insoddisfatto puoi presentare un reclamo alle autorità locali per la protezione dei dati (DPA). Puoi anche cercare di far valere i tuoi diritti attraverso i tribunali. Se decidi di farlo, ti consigliamo vivamente di cercare prima una consulenza legale indipendente. È possibile scaricare un elenco di DPA "
+      "value": "È possibile presentare un reclamo alle autorità locali per la protezione dei dati (DPA). Puoi anche cercare di far valere i tuoi diritti attraverso i tribunali. Puoi scaricare un elenco di DPA "
     },
     {
       "children": [
@@ -655,22 +689,22 @@
       "value": " (PDF)."
     }
   ],
-  "faq.body10B": [
+  "faq.body10D": [
     {
       "type": 0,
       "value": "Ai sensi del CCPA:"
     }
   ],
-  "faq.body10Bii": [
+  "faq.body10Di": [
     {
       "type": 0,
-      "value": "Se non sei soddisfatto di come un'organizzazione ha gestito la tua richiesta, dovresti prima sporgere denuncia. Fatto ciò, se rimani insoddisfatto hai due opzioni. "
+      "value": "Puoi presentare un reclamo al procuratore "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Denunciare al Procuratore Generale"
+          "value": "della California"
         }
       ],
       "type": 8,
@@ -678,7 +712,19 @@
     },
     {
       "type": 0,
-      "value": " o intraprendere un'azione privata."
+      "value": ". Puoi anche cercare di far valere i tuoi diritti attraverso i tribunali."
+    }
+  ],
+  "faq.body10E": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
+  "faq.body10Ei": [
+    {
+      "type": 0,
+      "value": "Puoi presentare un reclamo all'ANPD. Puoi anche cercare di far valere i tuoi diritti attraverso i tribunali."
     }
   ],
   "faq.body11A": [
@@ -729,6 +775,78 @@
       "value": "a"
     }
   ],
+  "faq.body11C": [
+    {
+      "type": 0,
+      "value": "Le sanzioni possono essere applicate cumulativamente, giorno per giorno e violazione, ma sempre sulla base della gravità e della portata della violazione."
+    }
+  ],
+  "faq.body11C0": [
+    {
+      "type": 0,
+      "value": "Le sanzioni amministrative applicabili sono le seguenti:"
+    }
+  ],
+  "faq.body11Ci": [
+    {
+      "type": 0,
+      "value": "Attenzione."
+    }
+  ],
+  "faq.body11Cii": [
+    {
+      "type": 0,
+      "value": "Con una dichiarazione chiara e completa, che indichi l'origine dei dati, l'inesistenza di registri, i criteri utilizzati e la finalità del trattamento, a seconda dei casi, entro quindici giorni dalla data della richiesta."
+    }
+  ],
+  "faq.body11Ciii": [
+    {
+      "type": 0,
+      "value": "Ammenda che potrebbe raggiungere il 2% dei ricavi del gruppo in Brasile, limitata a 50 milioni di dollari per violazione."
+    }
+  ],
+  "faq.body11Civ": [
+    {
+      "type": 0,
+      "value": "Ammenda giornaliera."
+    }
+  ],
+  "faq.body11Cix": [
+    {
+      "type": 0,
+      "value": "Divieto parziale o totale di esercitare attività connesse al trattamento dei dati."
+    }
+  ],
+  "faq.body11Cv": [
+    {
+      "type": 0,
+      "value": "Ammenda giornaliera."
+    }
+  ],
+  "faq.body11Cvi": [
+    {
+      "type": 0,
+      "value": "Blocco dei dati personali a cui si riferisce la violazione fino alla sua regolarizzazione."
+    }
+  ],
+  "faq.body11Cvii": [
+    {
+      "type": 0,
+      "value": "Cancellazione dei dati personali cui si riferisce l’infrazione."
+    }
+  ],
+  "faq.body11Cviii": [
+    {
+      "type": 0,
+      "value": "Sospensione parziale del funzionamento della banca dati a cui si riferisce l’infrazione per un periodo massimo di 6 (sei) mesi, prorogabile per un periodo di tempo uguale, fino alla regolarizzazione dell'attività di trattamento da parte dell'organizzazione."
+    }
+  ],
+  "faq.body11D": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
   "faq.body12A": [
     {
       "type": 0,
@@ -751,6 +869,18 @@
     {
       "type": 0,
       "value": "Il CCPA non definisce chi specificamente all'interno di un'organizzazione è responsabile di questo."
+    }
+  ],
+  "faq.body12C": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
+  "faq.body12Ci": [
+    {
+      "type": 0,
+      "value": "Il Responsabile Della Protezione Dei Dati (Dpo). Tuttavia, piccoli agenti di trattamento dei dati, quali microimprese, startup e soggetti giuridici di diritto privato, non sono tenuti a nominare il responsabile del trattamento dei dati personali, ma devono fornire un canale di comunicazione con i consumatori."
     }
   ],
   "faq.body13A": [
@@ -790,7 +920,19 @@
   "faq.body1A": [
     {
       "type": 0,
-      "value": "Attualmente esistono due regolamenti principali che tutelano la privacy individuale online. Il Regolamento Generale sulla Protezione dei Dati o GDPR protegge i residenti dell'Unione Europea e la California Consumer Privacy Act, o CCPA protegge i residenti della California."
+      "value": "Unione Europea - Il Regolamento Generale Sulla Protezione Dei Dati (Dgp)"
+    }
+  ],
+  "faq.body1B": [
+    {
+      "type": 0,
+      "value": "California - Consumer Privacy Act (CCPA)"
+    }
+  ],
+  "faq.body1C": [
+    {
+      "type": 0,
+      "value": "Brasile - Legge Generale Sulla Protezione Dei Dati (LgPD)"
     }
   ],
   "faq.body2A": [
@@ -856,7 +998,7 @@
   "faq.body4A": [
     {
       "type": 0,
-      "value": "Il California Consumer Privacy Act, o CCPA in breve, è una nuova normativa introdotta in California a gennaio 2020. Protegge il diritto fondamentale delle persone alla protezione dei propri dati personali e alla privacy online."
+      "value": "La California Consumer Privacy Act, o CCPA in breve, è un regolamento introdotto in California nel gennaio 2020. Protegge il diritto fondamentale delle persone alla protezione dei loro dati personali e della privacy online."
     }
   ],
   "faq.body4Ai": [
@@ -874,7 +1016,7 @@
   "faq.body5A": [
     {
       "type": 0,
-      "value": "Il CCPA si applica alle organizzazioni che raccolgono informazioni personali dei consumatori, o per conto delle quali tali informazioni vengono raccolte e che da solo, o insieme ad altri, determina le finalità e i mezzi del trattamento delle informazioni personali dei consumatori, che svolgono attività commerciali nello Stato della California e che soddisfi una o più delle seguenti soglie:"
+      "value": "Il CCPA si applica alle organizzazioni che raccolgono informazioni personali del consumatore, o per conto di cui tali informazioni sono raccolte e quelle da sole, o congiuntamente con altri, determina le finalità e i mezzi del trattamento delle informazioni personali del consumatore, che opera nello Stato della California e che soddisfa una o più delle seguenti soglie:"
     }
   ],
   "faq.body5Ai": [
@@ -892,7 +1034,7 @@
   "faq.body5Aiii": [
     {
       "type": 0,
-      "value": "Deriva il 50 percento o più dei suoi ricavi annuali dalla vendita delle informazioni personali dei consumatori"
+      "value": "Deriva il 50 % o più delle sue entrate annue dalla vendita di informazioni personali del consumatore"
     }
   ],
   "faq.body6Ai": [
@@ -943,6 +1085,24 @@
       "value": "a"
     }
   ],
+  "faq.body6Ci": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LDPG:"
+    }
+  ],
+  "faq.body6Cii": [
+    {
+      "type": 0,
+      "value": "Qualsiasi informazione relativa a una persona fisica identificata o identificabile come nome, numero d'identità, dati di localizzazione, e-mail, ecc."
+    }
+  ],
+  "faq.body6Ciii": [
+    {
+      "type": 0,
+      "value": "I dati personali sensibili sono definiti come sottocategoria di dati personali e si applicano quando i dati trattati riguardano l’origine razziale o etnica, le convinzioni religiose, opinioni politiche, sindacali o religiose, filosofiche o organizzazioni politiche, dati relativi alla salute o alla vita sessuale, dati genetici o biometrici."
+    }
+  ],
   "faq.body7A": [
     {
       "type": 0,
@@ -991,7 +1151,7 @@
       "value": "I dati sono stati raccolti da te da bambino per un servizio online. Esempio: social media o un'app di gioco. La legge offre ai bambini una protezione speciale perché potrebbero essere meno consapevoli dei rischi e delle conseguenze della trasmissione dei propri dati alle organizzazioni. Anche se ora sei un adulto, hai il diritto di cancellare i tuoi dati se sono stati raccolti da te da bambino."
     }
   ],
-  "faq.body7B": [
+  "faq.body7Aviii": [
     {
       "children": [
         {
@@ -1001,6 +1161,66 @@
       ],
       "type": 8,
       "value": "a"
+    }
+  ],
+  "faq.body7B": [
+    {
+      "type": 0,
+      "value": "Ai sensi del CCPA:"
+    }
+  ],
+  "faq.body7Bi": [
+    {
+      "type": 0,
+      "value": "I consumatori possono esercitare il diritto di cancellare i propri dati personali se:"
+    }
+  ],
+  "faq.body7Bii": [
+    {
+      "type": 0,
+      "value": "Le informazioni personali sono state raccolte dall'impresa presso il consumatore."
+    }
+  ],
+  "faq.body7Biii": [
+    {
+      "type": 0,
+      "value": "Non è più necessario che il fornitore di servizi o imprese mantenga i dati personali al fine di adempiere una delle finalità individuate dalla legge (codice civile alifornia sezione 1798. 05 (d))."
+    }
+  ],
+  "faq.body7Biv": [
+    {
+      "type": 0,
+      "value": "L'impresa non ha il diritto di conservare i dati personali in virtù di una delle esenzioni generali previste dalla legge (codice civile alifornia sezione 1798.145)."
+    }
+  ],
+  "faq.body7C": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
+  "faq.body7Ci": [
+    {
+      "type": 0,
+      "value": "Il regolamento impone alle organizzazioni di cancellare i dati personali di una persona fisica se richiesto, poiché i dati sono stati raccolti sulla base del consenso."
+    }
+  ],
+  "faq.body7Cii": [
+    {
+      "type": 0,
+      "value": "In caso di trattamento di dati basato sul consenso, l’interessato può chiedere l’eliminazione di qualsiasi dato raccolto, tranne nel caso in cui l'immagazzinamento sia consentito dal LGPD."
+    }
+  ],
+  "faq.body7Ciii": [
+    {
+      "type": 0,
+      "value": "Se un'organizzazione ha condiviso i dati con terze parti, deve comunicare qualsiasi richiesta di cancellazione con questi terzi in modo che la procedura possa essere ripetuta, tranne nei casi in cui tale comunicazione sia dimostrabile impossibile o implichi uno sforzo sproporzionato."
+    }
+  ],
+  "faq.body7Ciiii": [
+    {
+      "type": 0,
+      "value": "Inoltre, l’LGPD afferma che i dati devono essere cancellati se elaborati per motivi eccessivi, inutili o illeciti."
     }
   ],
   "faq.body8A": [
@@ -1102,7 +1322,7 @@
   "faq.body8Cix": [
     {
       "type": 0,
-      "value": "In caso contrario utilizzare le informazioni personali del consumatore, internamente, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni."
+      "value": "In caso contrario, utilizzare le informazioni personali del consumatore internamente, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni."
     }
   ],
   "faq.body8Cv": [
@@ -1126,7 +1346,7 @@
   "faq.body8Cviii": [
     {
       "type": 0,
-      "value": "Consentire usi esclusivamente interni ragionevolmente allineati con le aspettative del consumatore in base al rapporto del consumatore con l'azienda."
+      "value": "Consentire esclusivamente usi interni ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa."
     }
   ],
   "faq.body8D": [
@@ -1139,6 +1359,42 @@
       ],
       "type": 8,
       "value": "a"
+    }
+  ],
+  "faq.body8E": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
+  "faq.body8F": [
+    {
+      "type": 0,
+      "value": "L’LGPD consente di conservare i dati per le seguenti finalità:"
+    }
+  ],
+  "faq.body8Fi": [
+    {
+      "type": 0,
+      "value": "Rispetto di un obbligo di legge o di regolamentazione da parte dell'organizzazione."
+    }
+  ],
+  "faq.body8Fii": [
+    {
+      "type": 0,
+      "value": "Studi da parte di un organismo di ricerca, garantendo, ove possibile, l'anonimizzazione dei dati personali."
+    }
+  ],
+  "faq.body8Fiii": [
+    {
+      "type": 0,
+      "value": "Trasferimento a terzi, in base al rispetto dei requisiti di trattamento previsti dalla presente legge."
+    }
+  ],
+  "faq.body8Fiv": [
+    {
+      "type": 0,
+      "value": "Uso esclusivo dell'organizzazione di dati anonimizzati, a condizione che sia vietato l'accesso dei dati da parte di terzi."
     }
   ],
   "faq.body9A": [
@@ -1162,13 +1418,115 @@
   "faq.body9Aiii": [
     {
       "type": 0,
-      "value": "Il termine per rispondere a una richiesta è di 45 giorni dal ricevimento della richiesta del consumatore. Il termine può essere prorogato di ulteriori 45 giorni quando ragionevolmente necessario, se il consumatore viene informato entro i primi 45 giorni."
+      "value": "Il termine per rispondere a una richiesta è di 45 giorni dal ricevimento della richiesta del consumatore. Il termine può essere prorogato di altri 45 giorni se ragionevolmente necessario, se il consumatore è informato entro i primi 45 giorni."
+    }
+  ],
+  "faq.body9C": [
+    {
+      "type": 0,
+      "value": "Nell'ambito dell'LGPD:"
+    }
+  ],
+  "faq.body9D": [
+    {
+      "type": 0,
+      "value": "L'LGPD specifica un termine per quanto riguarda il diritto alla conferma dell'esistenza di dati personali e il diritto di accesso ai dati personali:"
+    }
+  ],
+  "faq.body9Di": [
+    {
+      "type": 0,
+      "value": "In forma semplificata, se la conferma o l'accesso è fornito immediatamente."
+    }
+  ],
+  "faq.body9Dii": [
+    {
+      "type": 0,
+      "value": "Con una dichiarazione chiara e completa, che indichi l'origine dei dati, l'inesistenza di registri, i criteri utilizzati e le finalità del trattamento, a seconda dei casi, entro 15 (quindici) giorni a decorrere dalla data della richiesta."
+    }
+  ],
+  "faq.bodyWhatIsLGPD1": [
+    {
+      "type": 0,
+      "value": "L'LGPD (Lei Geral de Proteção de Dados Pessoais) è un regolamento brasiliano che stabilisce norme sulla raccolta, gestione, conservazione e condivisione dei dati personali gestiti dalle organizzazioni. Stabilisce come obiettivi principali la tutela dei diritti fondamentali della libertà e della vita privata delle persone."
+    }
+  ],
+  "faq.bodyWhatIsLGPD2": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Leggi il regolamento"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo1": [
+    {
+      "type": 0,
+      "value": "L’LGPD si applica a qualsiasi persona fisica o giuridica di diritto pubblico o privato, che tratta dati personali (come raccolta, produzione, ricezione, classificazione, trattamento, ecc. nel territorio brasiliano e al di fuori del paese, quando:"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo2": [
+    {
+      "type": 0,
+      "value": "I dati personali sono raccolti in Brasile"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo3": [
+    {
+      "type": 0,
+      "value": "I dati sono relativi a individui situati nel territorio brasiliano, o"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo4": [
+    {
+      "type": 0,
+      "value": "Il loro obiettivo è quello di offrire prodotti e/o servizi a privati, brasiliani o stranieri, in Brasile"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo5": [
+    {
+      "type": 0,
+      "value": "L'LGPD non è applicabile nei casi in cui il trattamento dei dati personali è effettuato:"
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo6": [
+    {
+      "type": 0,
+      "value": "Da una persona fisica per scopi esclusivamente privati e non commerciali."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo7": [
+    {
+      "type": 0,
+      "value": "Esclusivamente per scopi giornalistici, artistici o accademici."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo8": [
+    {
+      "type": 0,
+      "value": "Da parte delle autorità pubbliche, in caso di utilizzo per la promozione della pubblica sicurezza, difesa nazionale, sicurezza dello Stato o attività di indagine e perseguimento di reati."
+    }
+  ],
+  "faq.bodyWhoLGPDAppliesTo9": [
+    {
+      "type": 0,
+      "value": "Quando l'origine dei dati non è territorio brasiliano e: a) non è oggetto di alcun trattamento dati in Brasile; c) non è condiviso con i responsabili del trattamento brasiliani; d) non è condiviso con altri paesi che non sono il paese di origine, finché il paese di origine dispone di una legge o di un regolamento che garantisca un livello di protezione dei dati personali equivalente alla protezione dei dati offerta dalla LGPD."
+    }
+  ],
+  "faq.heading0": [
+    {
+      "type": 0,
+      "value": "Quali sono le leggi sulla protezione dei dati?"
     }
   ],
   "faq.heading1": [
     {
       "type": 0,
-      "value": "Quale normativa mi tutela, GDPR o CCPA?"
+      "value": "Quali leggi di protezione dei dati mi proteggono?"
     }
   ],
   "faq.heading10": [
@@ -1240,7 +1598,19 @@
   "faq.heading9": [
     {
       "type": 0,
-      "value": "Quanto tempo ha un'organizzazione per soddisfare una richiesta?"
+      "value": "Per quanto tempo le organizzazioni devono soddisfare una richiesta?"
+    }
+  ],
+  "faq.headingWhatIsLGPD": [
+    {
+      "type": 0,
+      "value": "Che cos’è la LGPD?"
+    }
+  ],
+  "faq.headingWhoLGPDAppliesTo": [
+    {
+      "type": 0,
+      "value": "A chi si applica l'LGPD?"
     }
   ],
   "faq.title": [
@@ -1456,7 +1826,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Legislazioni sulla protezione dei dati quali il GDPR (Unione europea) e la CCPA (California), richiedere alle organizzazioni di eliminare o fornire una copia dei propri dati su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide. La nostra missione è di rendere facile per voi l'esercizio dei vostri diritti legali."
+      "value": "Legislazione sulla protezione dei dati come il GDPR (Unione europea), il CCPA (California) e il LGPD (Brasile) richiedono alle organizzazioni di cancellare o fornire una copia dei vostri dati su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti possono affrontare multe ripide. La nostra missione è di rendere facile per voi l'esercizio dei vostri diritti legali."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1546,7 +1916,7 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Invia le richieste di eliminazione dei dati CCPA e GDPR e accedi a qualsiasi organizzazione in modo rapido e semplice utilizzando questo servizio gratuito."
+      "value": "Invia la cancellazione dei dati GDPR, CCPA e LGPD e le richieste di accesso a qualsiasi organizzazione in modo rapido e semplice utilizzando questo servizio gratuito."
     }
   ],
   "org.descriptionExistingOrg": [
@@ -1576,7 +1946,7 @@
   "org.titleNewOrg": [
     {
       "type": 0,
-      "value": "Inviare richieste di cancellazione e accesso dei dati GDPR e CCPA"
+      "value": "Invia GDPR, CCPA e LGPD Data Deletion and Access Requests"
     }
   ],
   "orgHero.newOrgSubTitle": [
@@ -1658,23 +2028,7 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Utilizza questo servizio gratuito per inviare "
-    },
-    {
-      "type": 1,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " e "
-    },
-    {
-      "type": 1,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " richieste di dati."
+      "value": "Utilizzare questo servizio gratuito per inviare richieste di dati GDPR, CCPA e LGPD."
     }
   ],
   "orgHero.title": [
@@ -1745,18 +2099,6 @@
     {
       "type": 0,
       "value": "CCPA (California)"
-    }
-  ],
-  "personalInfoForm.ccpaOrGdpr": [
-    {
-      "type": 0,
-      "value": "Regolamento"
-    }
-  ],
-  "personalInfoForm.ccpaOrGdprHelper": [
-    {
-      "type": 0,
-      "value": "Scegli il regolamento in base al tuo luogo di residenza, a meno che tu non abbia un motivo specifico per scegliere diversamente."
     }
   ],
   "personalInfoForm.companyDomainHelper": [
@@ -1845,6 +2187,18 @@
       "value": "Nome e cognome"
     }
   ],
+  "personalInfoForm.regulationType": [
+    {
+      "type": 0,
+      "value": "Regolamento"
+    }
+  ],
+  "personalInfoForm.regulationTypeHelper": [
+    {
+      "type": 0,
+      "value": "Scegli la regolamentazione in base al tuo luogo di residenza, a meno che tu non abbia un motivo specifico per scegliere altrimenti."
+    }
+  ],
   "personalInfoForm.requestTypeLabelText": [
     {
       "type": 0,
@@ -1855,6 +2209,12 @@
     {
       "type": 0,
       "value": "Rivedi la tua richiesta"
+    }
+  ],
+  "personalInfoForm.validEmail": [
+    {
+      "type": 0,
+      "value": "Inserisci un'email valida."
     }
   ],
   "pressIntro.title": [
@@ -2435,6 +2795,104 @@
             {
               "type": 0,
               "value": "Se, dopo aver preso in considerazione la tua richiesta, l'organizzazione decide che non è necessario cancellare i tuoi dati, deve comunque risponderti. Dovrebbe spiegarti perché ritiene che non debba cancellare i tuoi dati, e informarti sul tuo diritto di presentare reclamo per questa decisione alla DPA, o attraverso i tribunali."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineLGPD": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Libera parola o altro diritto previsto dalla legge."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Trattamento a fini di ricerca, se la cancellazione di informazioni personali renderebbe impossibile o seriamente compromettere il conseguimento di tali ricerche."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Il trattamento di tali dati personali è necessario per proteggere da attività illecite o perseguire i responsabili dell'attività."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Per adempiere a un obbligo legale."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Per eseguire un contratto tra l'azienda e il consumatore."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Individuare gli incidenti di sicurezza, proteggere contro le attività maliziose, ingannevoli, fraudolente o illegali, o perseguire i responsabili di tale attività."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Debug per identificare e riparare gli errori che compromettono la funzionalità desiderata esistente."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Abilitare esclusivamente usi interni che siano ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Altrimenti utilizzare le informazioni personali del consumatore, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni."
             }
           ],
           "type": 8,
@@ -3072,6 +3530,20 @@
     {
       "type": 0,
       "value": "Trova un'altra organizzazione"
+    }
+  ],
+  "thankyou.howLongToReply": [
+    {
+      "type": 0,
+      "value": "Le organizzazioni hanno "
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": " da rispettare, e potrebbero chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
     }
   ],
   "thankyou.requestTypeAccess": [

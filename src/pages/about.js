@@ -57,7 +57,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody1"
-              defaultMessage="YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR) and the {ccpa} (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+              defaultMessage="YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR), the {ccpa} (CCPA), and the Brazilian {lgpd} (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
               values={{
                 gdpr: (
                   <a target="_blank" href="https://gdpr.eu/tag/gdpr/">
@@ -69,6 +69,11 @@ const About = ({ classes, router }) => {
                     California Consumer Privacy Act
                   </a>
                 ),
+                lgpd: (
+                  <a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm">
+                    Lei Geral de Proteção de Dados Pessoais
+                  </a>
+                ),                
               }}
             />
           </Typography>
@@ -76,7 +81,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody2"
-              defaultMessage="Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+              defaultMessage="Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
           <br />
@@ -116,7 +121,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.fundingBody1"
-              defaultMessage="This project is self funded by it’s creators, and with the help of your donations."
+              defaultMessage="This project is self funded by its creators, and with the help of your donations."
             />
           </Typography>
           <br />
@@ -190,12 +195,12 @@ const About = ({ classes, router }) => {
           </Typography>                  
           <br />
           <Typography gutterBottom={true} component="h2" variant="h3">
-            <FormattedMessage id="about.sponsors" defaultMessage="Sponsors" />
+            <FormattedMessage id="about.sponsors" defaultMessage="Supporting Organizations" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsTitle"
-              defaultMessage="We’d like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
+              defaultMessage="We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -246,6 +251,15 @@ const About = ({ classes, router }) => {
               }}
             />
           </Typography>           
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.sponsorsBody7"
+              defaultMessage="{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+              values={{
+                ama: <a target="_blank" href="https://assisemendes.com.br/">Assis e Mendes Advogados</a>,
+              }}
+            />
+          </Typography>             
         </Paper>
       </div>
       <Social offset={true} sourcePage="about" />

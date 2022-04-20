@@ -1,6 +1,5 @@
 import fetch from "isomorphic-fetch";
 import url from 'url';
-import { DateTime } from "luxon";
 
 const SHEET_ID = "1tBtKWcOnLOs2cwqs_EX0ldTCaG3gh_7neQpaIYHBvJE";
 const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;

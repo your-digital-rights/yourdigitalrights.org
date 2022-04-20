@@ -76,7 +76,7 @@ describe("When I visit the home page", () => {
         it("opens a mailto url", async () => {
           mailTo.to.should.be.equal("feedback@slack.com");
           mailTo.subject.should.be.equal(
-            "Data Deletion Request"
+            "Data deletion request"
           );
           mailTo.body.should.match(
             /Rob/,
@@ -191,7 +191,7 @@ describe("When I visit the home page", () => {
       it("opens a mailto url", async () => {
         mailTo.to.should.be.equal("dpo@abcxyz123.com");
         mailTo.subject.should.be.equal(
-          "Data Deletion Request"
+          "Data deletion request"
         );
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
