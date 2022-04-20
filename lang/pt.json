@@ -660,7 +660,7 @@
     "message": "Muitas organizações coletam e vendem seus dados pessoais, geralmente sem o seu consentimento. Use o nosso serviço gratuito para enviar uma solicitação a essas organizações para excluir ou acessar os seus dados. Experimente procurar por uma organização abaixo. Não sabe por onde começar? Desative as <a>principais Data Brokers</a> (corretoras de dados)."
   },
   "howItWorks.followUp": {
-    "message": "o nosso assistente de acompanhamento inteligente ajuda a garantir que a organização responda o seu pedido e ajuda até mesmo a recorrer a órgão regulador relevante."
+    "message": "using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
     "message": "Acompanhamento"
@@ -690,7 +690,7 @@
     "message": "Por que confiar em nós?"
   },
   "howItWorks.yourData": {
-    "message": "Leis de proteção de dados como a GDPR (da União Europeia) e a CCPA (da Califórnia), exigem que as organizações excluam ou forneçam a você uma cópia dos seus dados mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário estarão sujeitas a multas significativas. Nossa missão é facilitar o exercício dos seus direitos legais."
+    "message": "Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   },
   "howItWorks.yourDataTitle": {
     "message": "Você tem o direito à privacidade!"
@@ -735,7 +735,7 @@
     "message": "#reinvindiqueseusdados"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envie solicitações de acesso e exclusão de dados de acordo com a CCPA e GDPR para qualquer organização de forma rápida e fácil através do nosso serviço gratuito."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
   },
   "org.descriptionExistingOrg": {
     "message": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais de {org} de maneira rápida e fácil através deste serviço gratuito."
@@ -744,7 +744,7 @@
     "message": "{org} - Excluir sua conta ou obter uma cópia de seus dados"
   },
   "org.titleNewOrg": {
-    "message": "Enviar Solicitações de Acesso e Exclusão de Dados de acordo com a GDPR e CCPA"
+    "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
   },
   "orgHero.newOrgSubTitle": {
     "message": "Envie uma solicitação de acordo com a {ccpa} ou {gdpr} a qualquer organização."
