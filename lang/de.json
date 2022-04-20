@@ -138,7 +138,7 @@
     "message": "Wir möchten, dass dieser Service in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, würden wir uns über Ihre Hilfe freuen!"
   },
   "contribute.translate2": {
-    "message": "Wir verwenden die Online-Plattform <a>Crowdin</a> um einfach Übersetzungsstrings zu erstellen. Es macht den Prozess viel einfacher und erfordert nicht, dass Sie etwas über die Programmierung wissen. Hier</b>gibt es eine kurze Anleitung, die verfügbar ist <b>. Folgen Sie diesen Schritten, um zu beginnen:"
+    "message": "Wir verwenden die Online-Plattform <a>Crowdin</a> um einfach Übersetzungsstrings zu erstellen. Es macht den Prozess viel einfacher und erfordert nicht, dass Sie etwas über die Programmierung wissen. <b>Hier</b> gibt es eine kurze Anleitung, die verfügbar ist. Folgen Sie diesen Schritten, um zu beginnen:"
   },
   "contribute.translateTitle": {
     "message": "Übersetzen Sie die Website"
@@ -546,7 +546,7 @@
     "message": "Durch eine klare und vollständige Erklärung mit Angabe des Ursprungs der Daten, das Nichtbestehen der Datensätze, für die Verarbeitung verwendete Kriterien und den Zweck der Verarbeitung kann innerhalb von 15 (fünfzehn Tage) Tagen gezählt werden, die ab dem Datum der Anfrage."
   },
   "faq.bodyWhatIsLGPD1": {
-    "message": "Die LGPD (Lei Geral de Protec<unk> a<unk> o de Dados Pessoais) ist eine brasilianische Verordnung, die Regeln für das Sammeln, Die von Organisationen verwalteten personenbezogenen Daten zu behandeln, zu speichern und weiterzugeben. Er legt den Schutz der Grundrechte der Freiheit und der Privatsphäre des Einzelnen als Hauptziele fest."
+    "message": "Die LGPD (Lei Geral de Proteção de Dados Pessoais) ist eine brasilianische Verordnung, die Regeln für das Sammeln, Die von Organisationen verwalteten personenbezogenen Daten zu behandeln, zu speichern und weiterzugeben. Er legt den Schutz der Grundrechte der Freiheit und der Privatsphäre des Einzelnen als Hauptziele fest."
   },
   "faq.bodyWhatIsLGPD2": {
     "message": "<a>Lesen Sie die Vorschrift</a>"
@@ -660,7 +660,7 @@
     "message": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Verwenden Sie diesen kostenlosen Service, um ihnen eine Datenlöschungs- oder Zugriffsanfrage zu senden. Suchen Sie zunächst unten nach einer Organisation. Sie wissen nicht, wo Sie anfangen sollen? Melden Sie sich von diesen Top <a>Datenbrokern ab</a>."
   },
   "howItWorks.followUp": {
-    "message": "mit unserem intelligenten Follow-up-Assistenten, um sicherzustellen, dass die Organisation Ihrer Anfrage entspricht und helfen Ihnen sogar, Ihre Anfrage an die zuständige staatliche Regulierungsbehörde zu eskalieren."
+    "message": "using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   },
   "howItWorks.followUpTitle": {
     "message": "Nachverfolgung"
@@ -690,7 +690,7 @@
     "message": "Warum uns vertrauen?"
   },
   "howItWorks.yourData": {
-    "message": "Datenschutzgesetze wie die DPR (Europäische Union) und die KCPA (Kalifornien), von Organisationen zu verlangen, dass sie auf Anfrage eine Kopie Ihrer Daten löschen oder Ihnen zur Verfügung stellen. Organisationen haben einen kurzen Zeitraum, um sie einzuhalten, andernfalls können sie mit hohen Geldstrafen rechnen. Unsere Aufgabe ist es, Ihnen die Ausübung Ihrer gesetzlichen Rechte zu erleichtern."
+    "message": "Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   },
   "howItWorks.yourDataTitle": {
     "message": "Sie haben das Recht auf Privatsphäre!"
@@ -735,7 +735,7 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Senden Sie mit diesem kostenlosen Service schnell und einfach Anfragen zum Löschen von Daten nach CCPA und GDPR und Zugriffsanfragen an jede Organisation."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
   },
   "org.descriptionExistingOrg": {
     "message": "Fordern Sie mit diesem kostenlosen Service schnell und einfach eine Kontolöschung oder eine Kopie Ihrer persönlichen Daten von {org}"
@@ -744,7 +744,7 @@
     "message": "{org} - Löschen Sie Ihr Konto oder erhalten Sie eine Kopie Ihrer Daten"
   },
   "org.titleNewOrg": {
-    "message": "Senden Sie DSGVO- und CCPA-Datenlösch- und Zugriffsanfragen"
+    "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
   },
   "orgHero.newOrgSubTitle": {
     "message": "Senden Sie jeder Organisation eine {ccpa} oder {gdpr} Anfrage."
