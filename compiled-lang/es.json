@@ -102,7 +102,7 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "This project is self funded by its creators, and with the help of your donations."
+      "value": "Este proyecto es autofinanciado por sus creadores y con la ayuda de sus donaciones."
     }
   ],
   "about.missionBody1": [
@@ -156,7 +156,7 @@
   "about.sponsors": [
     {
       "type": 0,
-      "value": "Supporting Organizations"
+      "value": "Apoyar organizaciones"
     }
   ],
   "about.sponsorsBody2": [
@@ -224,13 +224,13 @@
     },
     {
       "type": 0,
-      "value": " - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+      "value": " - para ayudarnos a entender y apoyar la normativa de privacidad de datos brasileña, Lei Geral de Proteção de Dados Pessoais (LGPD)."
     }
   ],
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
+      "value": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestro esfuerzo de código abierto proporcionando una versión gratuita o descontada de sus servicios:"
     }
   ],
   "about.title": [
@@ -292,51 +292,47 @@
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Follow this "
+      "value": "Siga este enlace "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "link"
-        }
       ],
       "type": 8,
       "value": "a"
     },
     {
       "type": 0,
-      "value": " to load the translation system."
+      "value": " para cargar el sistema de traducción."
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Choose a language (you will need to log in to Crowdin to do this)."
+      "value": "Elige un idioma (tendrás que iniciar sesión en Crowdin para hacer esto)."
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+      "value": "Ahora debería ver los cuadros alrededor de los diversos fragmentos de texto que componen el sitio web. Desplácese el texto que desea traducir y haga clic en el icono que aparecerá en la esquina del texto."
     }
   ],
   "contribute.crowdinStep5": [
     {
       "type": 0,
-      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+      "value": "Un editor se abrirá donde puede proporcionar su traducción. No olvide hacer clic en guardar cuando haya terminado."
     }
   ],
   "contribute.crowdinStep6": [
     {
       "type": 0,
-      "value": "If you are experiencing any problems please "
+      "value": "Si estás experimentando algún problema, por favor "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us."
+          "value": "contáctanos."
         }
       ],
       "type": 8,
@@ -476,7 +472,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "Utilizamos la plataforma en línea "
     },
     {
       "children": [
@@ -490,13 +486,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble "
+      "value": " para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Hay un tutorial rápido disponible "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "aquí"
         }
       ],
       "type": 8,
@@ -504,7 +500,7 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": ". Sigue estos pasos para empezar:"
     }
   ],
   "contribute.translateTitle": [
@@ -646,25 +642,25 @@
   "faq.body0A": [
     {
       "type": 0,
-      "value": "Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data."
+      "value": "Las leyes de protección de datos protegen a las personas con respecto al tratamiento de sus datos personales por organizaciones. Definen las responsabilidades que las organizaciones tienen al procesar datos personales y conceden ciertos derechos individuales con respecto a sus datos."
     }
   ],
   "faq.body1": [
     {
       "type": 0,
-      "value": "Different countries have different regulations protecting individual privacy online. This website supports the following regulations:"
+      "value": "Los diferentes países tienen diferentes regulaciones que protegen la privacidad individual en línea. Este sitio web soporta las siguientes reglas:"
     }
   ],
   "faq.body10A": [
     {
       "type": 0,
-      "value": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request."
+      "value": "Al enviar una solicitud de datos a través de este sitio web, activa la opción “Asistencia de Seguimiento Inteligente” para obtener asesoramiento personalizado sobre qué hacer en caso de que una organización no haya cumplido con su solicitud."
     }
   ],
   "faq.body10B": [
     {
       "type": 0,
-      "value": "If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court. If you decide to do this, we strongly advise you to seek independent legal advice first."
+      "value": "Si no está satisfecho con la forma en que la organización ha manejado su solicitud, primero debe enviar a la organización un recordatorio por correo electrónico explicando su insatisfacción. Si después de enviar a la organización un recordatorio todavía no está satisfecho, puede quejarse ante la Agencia de Protección de Datos, un organismo regulador gubernamental. Algunas regulaciones brindan a las personas un derecho de acción privado - la capacidad de demandar a una organización en un tribunal. Si usted decide hacer esto, le aconsejamos encarecidamente que primero busque asesoramiento jurídico independiente."
     }
   ],
   "faq.body10C": [
@@ -676,13 +672,13 @@
   "faq.body10Ci": [
     {
       "type": 0,
-      "value": "You can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. You can download a list of DPAs "
+      "value": "Usted puede presentar una queja a las Autoridades locales de Protección de Datos (DPA). También puedes intentar hacer valer tus derechos a través de las cortes. Puedes descargar una lista de DPAs "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "aquí"
         }
       ],
       "type": 8,
@@ -702,13 +698,13 @@
   "faq.body10Di": [
     {
       "type": 0,
-      "value": "You can make a complaint to the California "
+      "value": "Puedes presentar una queja al "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Attorney General"
+          "value": "Procurador General de California"
         }
       ],
       "type": 8,
@@ -716,19 +712,19 @@
     },
     {
       "type": 0,
-      "value": ". You can also seek to enforce your rights through the courts."
+      "value": ". También puedes intentar hacer valer tus derechos a través de los tribunales."
     }
   ],
   "faq.body10E": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body10Ei": [
     {
       "type": 0,
-      "value": "You can make a complaint to the ANPD. You can also seek to enforce your rights through the courts."
+      "value": "Usted puede presentar una queja a la ANPD y también puede tratar de hacer valer sus derechos a través de los tribunales."
     }
   ],
   "faq.body11A": [
@@ -782,73 +778,73 @@
   "faq.body11C": [
     {
       "type": 0,
-      "value": "The sanctions may be applied cumulatively, by day and violation, but always based on the seriousness and extent of the violation."
+      "value": "Las sanciones pueden aplicarse acumulativamente, por día y por violación, pero siempre basándose en la gravedad y el alcance de la violación."
     }
   ],
   "faq.body11C0": [
     {
       "type": 0,
-      "value": "The administrative sanctions applicable range are:"
+      "value": "Las sanciones administrativas que se aplican son:"
     }
   ],
   "faq.body11Ci": [
     {
       "type": 0,
-      "value": "Warning."
+      "value": "Advertencia."
     }
   ],
   "faq.body11Cii": [
     {
       "type": 0,
-      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
+      "value": "Por medio de una declaración clara y completa, indicando el origen de los datos, no existencia de registros, se utiliza y el propósito de la tramitación, según el caso, en un plazo de quince días contados a partir de la fecha de la solicitud."
     }
   ],
   "faq.body11Ciii": [
     {
       "type": 0,
-      "value": "Fine that could reach 2% of the group's revenues in Brazil, limited to BRL$ 50 million per violation."
+      "value": "Fino que podría alcanzar el 2% de los ingresos del grupo en Brasil, limitado a 50 millones de BRL por violación."
     }
   ],
   "faq.body11Civ": [
     {
       "type": 0,
-      "value": "Daily fine."
+      "value": "Bien diaria."
     }
   ],
   "faq.body11Cix": [
     {
       "type": 0,
-      "value": "Partial or total ban on the exercise of activities related to data processing."
+      "value": "Prohibición parcial o total del ejercicio de actividades relacionadas con el tratamiento de datos."
     }
   ],
   "faq.body11Cv": [
     {
       "type": 0,
-      "value": "Daily fine."
+      "value": "Bien diaria."
     }
   ],
   "faq.body11Cvi": [
     {
       "type": 0,
-      "value": "Blocking of the personal data to which the infraction refers until its regularization."
+      "value": "Bloqueo de los datos personales a los que se refiere la infracción hasta su regularización."
     }
   ],
   "faq.body11Cvii": [
     {
       "type": 0,
-      "value": "Deletion of the personal data to which the infringement refers."
+      "value": "Eliminación de los datos personales a los que se refiere la infracción."
     }
   ],
   "faq.body11Cviii": [
     {
       "type": 0,
-      "value": "Partial suspension of the operation of the database to which the infraction refers for a maximum period of 6 (six) months, extendable for an equal period, until the processing activity is regularized by the organization."
+      "value": "Suspensión parcial de la operación de la base de datos a la que se refiere la infracción durante un período máximo de 6 (seis) meses extensible por un período igual, hasta que la actividad de procesamiento sea regularizada por la organización."
     }
   ],
   "faq.body11D": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body12A": [
@@ -878,13 +874,13 @@
   "faq.body12C": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body12Ci": [
     {
       "type": 0,
-      "value": "The Data Protection Officer (DPO). However, small data processing agents such as micro-companies, startups, and legal entities of private law, are not required to appoint the personal data controller, but must provide a communication channel with consumers."
+      "value": "El Responsable de Protección de Datos (DPO). Sin embargo, agentes de procesamiento de datos pequeños como microempresas, empresas nuevas y entidades jurídicas de derecho privado. no están obligados a designar al controlador de datos personales, sino que deben proporcionar un canal de comunicación con los consumidores."
     }
   ],
   "faq.body13A": [
@@ -924,19 +920,19 @@
   "faq.body1A": [
     {
       "type": 0,
-      "value": "European Union - The General Data Protection Regulations (GDPR)"
+      "value": "Unión Europea - Regulaciones Generales de Protección de Datos (PIB)"
     }
   ],
   "faq.body1B": [
     {
       "type": 0,
-      "value": "California - Consumer Privacy Act (CCPA)"
+      "value": "California - Ley de privacidad del consumidor (CCPA)"
     }
   ],
   "faq.body1C": [
     {
       "type": 0,
-      "value": "Brazil - General Data Protection Law (LGPD)"
+      "value": "Brasil - Ley General de Protección de Datos (LGPD)"
     }
   ],
   "faq.body2A": [
@@ -1002,7 +998,7 @@
   "faq.body4A": [
     {
       "type": 0,
-      "value": "The California Consumer Privacy Act, or CCPA for short, is a regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
+      "value": "La Ley de privacidad de los consumidores de California, o CCPA, es una regulación introducida en California en enero de 2020. Protege el derecho fundamental de las personas a la protección de sus datos personales y de la privacidad en línea."
     }
   ],
   "faq.body4Ai": [
@@ -1020,7 +1016,7 @@
   "faq.body5A": [
     {
       "type": 0,
-      "value": "The CCPA applies to organizations that collect consumer's personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumer's personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
+      "value": "La CCPA se aplica a las organizaciones que recopilan información personal del consumidor o en nombre del cual se recopila dicha información y que solo, o conjuntamente con otros, determina los propósitos y medios del tratamiento de la información personal del consumidor que hace negocios en el Estado de California, y que satisface uno o más de los siguientes umbrales:"
     }
   ],
   "faq.body5Ai": [
@@ -1038,7 +1034,7 @@
   "faq.body5Aiii": [
     {
       "type": 0,
-      "value": "Derives 50 percent or more of its annual revenues from selling consumer's personal information"
+      "value": "Obtiene el 50 por ciento o más de sus ingresos anuales por la venta de información personal del consumidor"
     }
   ],
   "faq.body6Ai": [
@@ -1092,19 +1088,19 @@
   "faq.body6Ci": [
     {
       "type": 0,
-      "value": "Under the LDPG:"
+      "value": "Bajo el LDPG:"
     }
   ],
   "faq.body6Cii": [
     {
       "type": 0,
-      "value": "Any information relating to an identified or identifiable natural person such as name, ID-number, location data, email, etc."
+      "value": "Cualquier información relacionada con una persona natural identificada o identificable como nombre, número de identificación, datos de ubicación, correo electrónico, etc."
     }
   ],
   "faq.body6Ciii": [
     {
       "type": 0,
-      "value": "Sensitive personal data is defined as a subcategory to personal data and applies when the data processed concerns to racial or ethnic origin, religious belief, political opinion, trade union or religious, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data."
+      "value": "Los datos personales sensibles se definen como una subcategoría a los datos personales y se aplican cuando los datos procesados se refieren al origen racial o étnico, creencias religiosas, la opinión política, sindical o religiosa, la membresía de organizaciones políticas u ofólicas, datos relativos a la salud o la vida sexual, la genética o biométrica."
     }
   ],
   "faq.body7A": [
@@ -1176,55 +1172,55 @@
   "faq.body7Bi": [
     {
       "type": 0,
-      "value": "Consumers can exercise the right to delete their personal data if:"
+      "value": "Los consumidores pueden ejercer el derecho a eliminar sus datos personales:"
     }
   ],
   "faq.body7Bii": [
     {
       "type": 0,
-      "value": "The personal information was collected by the business from the consumer."
+      "value": "La información personal fue recopilada por la empresa del consumidor."
     }
   ],
   "faq.body7Biii": [
     {
       "type": 0,
-      "value": "It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
+      "value": "Ya no es necesario que el empresario o proveedor de servicios mantenga la información personal con el fin de cumplir con uno de los propósitos identificados por la ley (código civil de California 1798. 05 (d))."
     }
   ],
   "faq.body7Biv": [
     {
       "type": 0,
-      "value": "The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
+      "value": "La empresa no tiene derecho a retener la información personal bajo una de las exenciones generales de la ley (California código civil sección 1798.145)."
     }
   ],
   "faq.body7C": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body7Ci": [
     {
       "type": 0,
-      "value": "The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
+      "value": "El reglamento requiere que las organizaciones eliminen los datos personales de una persona física si se han solicitado, dado que los datos han sido recogidos en base al consentimiento."
     }
   ],
   "faq.body7Cii": [
     {
       "type": 0,
-      "value": "In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
+      "value": "En caso de procesamiento de datos basado en el consentimiento, el interesado podrá solicitar la eliminación de cualquier dato recopilado, excepto si el almacenamiento está permitido por el LGPD."
     }
   ],
   "faq.body7Ciii": [
     {
       "type": 0,
-      "value": "If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
+      "value": "Si una organización ha compartido los datos con terceras partes, deberá comunicar cualquier solicitud de eliminación con estos terceros para que el procedimiento pueda ser repetido, excepto en los casos en que dicha comunicación sea demostrablemente imposible o implique un esfuerzo desproporcionado."
     }
   ],
   "faq.body7Ciiii": [
     {
       "type": 0,
-      "value": "In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
+      "value": "Además, el LGPD establece que los datos deben eliminarse si se procesan por razones que son excesivas, innecesarias o ilegales."
     }
   ],
   "faq.body8A": [
@@ -1326,7 +1322,7 @@
   "faq.body8Cix": [
     {
       "type": 0,
-      "value": "Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+      "value": "De lo contrario, utilice internamente la información personal del consumidor, de forma que sea compatible con el contexto en el que el consumidor facilitó la información."
     }
   ],
   "faq.body8Cv": [
@@ -1350,7 +1346,7 @@
   "faq.body8Cviii": [
     {
       "type": 0,
-      "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
+      "value": "Permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basadas en la relación del consumidor con el negocio."
     }
   ],
   "faq.body8D": [
@@ -1368,37 +1364,37 @@
   "faq.body8E": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body8F": [
     {
       "type": 0,
-      "value": "The LGPD permits keeping data for the following purposes:"
+      "value": "El LGPD permite guardar datos para los siguientes fines:"
     }
   ],
   "faq.body8Fi": [
     {
       "type": 0,
-      "value": "Compliance with a statutory or regulatory obligation by the organization."
+      "value": "Cumplimiento de una obligación estatutaria o reglamentaria por parte de la organización."
     }
   ],
   "faq.body8Fii": [
     {
       "type": 0,
-      "value": "Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
+      "value": "Estudios realizados por un organismo de investigación, garantizando, siempre que sea posible, la anonimización de los datos personales."
     }
   ],
   "faq.body8Fiii": [
     {
       "type": 0,
-      "value": "Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
+      "value": "Transferir a terceros, en cumplimiento de los requisitos de procesamiento de datos establecidos en la presente ley."
     }
   ],
   "faq.body8Fiv": [
     {
       "type": 0,
-      "value": "Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
+      "value": "Uso exclusivo de la organización de datos anónimos, con la condición de que se prohíba el acceso de terceros a los datos."
     }
   ],
   "faq.body9A": [
@@ -1422,37 +1418,37 @@
   "faq.body9Aiii": [
     {
       "type": 0,
-      "value": "The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
+      "value": "El plazo para responder a una solicitud es de 45 días a partir de la recepción de la solicitud del consumidor. El plazo puede prorrogarse 45 días adicionales cuando sea razonablemente necesario, si se informa al consumidor en los primeros 45 días."
     }
   ],
   "faq.body9C": [
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "Bajo la LGPD:"
     }
   ],
   "faq.body9D": [
     {
       "type": 0,
-      "value": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
+      "value": "El LGPD especifica un plazo con respecto al derecho a la confirmación de la existencia de datos personales y el derecho de acceso a los datos personales:"
     }
   ],
   "faq.body9Di": [
     {
       "type": 0,
-      "value": "In simplified form, if the confirmation or access is provided immediately."
+      "value": "De forma simplificada, si la confirmación o el acceso se proporciona inmediatamente."
     }
   ],
   "faq.body9Dii": [
     {
       "type": 0,
-      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
+      "value": "Por medio de una declaración clara y completa, indicando el origen de los datos, no existencia de registros, se utiliza y el propósito del tratamiento, según el caso, en un plazo de 15 (quince) días contados a partir de la fecha de la solicitud."
     }
   ],
   "faq.bodyWhatIsLGPD1": [
     {
       "type": 0,
-      "value": "The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
+      "value": "La LGPD (Lei Geral de Proteção de Dados Pessoais) es una regulación brasileña que establece reglas para la recolección, tratando, almacenando y compartiendo datos personales gestionados por organizaciones. Establece la protección de los derechos fundamentales de la libertad y de la intimidad de las personas como sus principales objetivos."
     }
   ],
   "faq.bodyWhatIsLGPD2": [
@@ -1470,67 +1466,67 @@
   "faq.bodyWhoLGPDAppliesTo1": [
     {
       "type": 0,
-      "value": "The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when:"
+      "value": "El LGPD se aplica a cualquier persona individual o jurídica regida por el derecho público o privado, que procesa datos personales (como recogida, producción, recepción, clasificación, tratamiento, etc. en el territorio brasileño y fuera del país, cuando:"
     }
   ],
   "faq.bodyWhoLGPDAppliesTo2": [
     {
       "type": 0,
-      "value": "Personal data is collected in Brazil"
+      "value": "Datos personales recogidos en Brasil"
     }
   ],
   "faq.bodyWhoLGPDAppliesTo3": [
     {
       "type": 0,
-      "value": "Data is related to an individuals located in the Brazilian territory, or"
+      "value": "Los datos están relacionados con un individuo localizado en el territorio brasileño, o"
     }
   ],
   "faq.bodyWhoLGPDAppliesTo4": [
     {
       "type": 0,
-      "value": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+      "value": "Su objetivo es ofrecer productos y/o servicios a individuos, brasileños o extranjeros, en Brasil"
     }
   ],
   "faq.bodyWhoLGPDAppliesTo5": [
     {
       "type": 0,
-      "value": "The LGPD is not applicable in cases where the processing of personal data is made:"
+      "value": "El LGPD no es aplicable en los casos en los que se realiza el procesamiento de datos personales:"
     }
   ],
   "faq.bodyWhoLGPDAppliesTo6": [
     {
       "type": 0,
-      "value": "By a natural person for exclusively private and non-commercial purposes."
+      "value": "Por una persona natural con fines exclusivamente privados y no comerciales."
     }
   ],
   "faq.bodyWhoLGPDAppliesTo7": [
     {
       "type": 0,
-      "value": "Exclusively for journalistic, artistic or academic purposes."
+      "value": "Exclusivamente para fines periodísticos, artísticos o académicos."
     }
   ],
   "faq.bodyWhoLGPDAppliesTo8": [
     {
       "type": 0,
-      "value": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
+      "value": "Por parte de las autoridades públicas, en caso de uso para la promoción de la seguridad pública, la defensa nacional, seguridad estatal o actividades de investigación y enjuiciamiento de delitos penales."
     }
   ],
   "faq.bodyWhoLGPDAppliesTo9": [
     {
       "type": 0,
-      "value": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
+      "value": "Cuando el origen de los datos no es territorio brasileño y: a) no es objeto de ningún procesamiento de datos en Brasil; c) no es compartido con los agentes de procesamiento brasileños; d) no se comparte con otros países que no son el país de origen siempre y cuando el país de origen tenga una ley o un reglamento que proporcione un nivel de protección de datos personales equivalente a la protección de datos ofrecida por la LGPD."
     }
   ],
   "faq.heading0": [
     {
       "type": 0,
-      "value": "What are data protection laws?"
+      "value": "¿Cuáles son las leyes de protección de datos?"
     }
   ],
   "faq.heading1": [
     {
       "type": 0,
-      "value": "Which data protection laws protect me?"
+      "value": "¿Qué leyes de protección de datos me protegen?"
     }
   ],
   "faq.heading10": [
@@ -1602,19 +1598,19 @@
   "faq.heading9": [
     {
       "type": 0,
-      "value": "How long do organizations have to comply with a request?"
+      "value": "¿Cuánto tiempo tienen que cumplir las organizaciones con una petición?"
     }
   ],
   "faq.headingWhatIsLGPD": [
     {
       "type": 0,
-      "value": "What is the LGPD?"
+      "value": "¿Qué es el LGPD?"
     }
   ],
   "faq.headingWhoLGPDAppliesTo": [
     {
       "type": 0,
-      "value": "Who does the LGPD apply to?"
+      "value": "¿A quién se aplica el LGPD?"
     }
   ],
   "faq.title": [
@@ -1830,7 +1826,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Leyes de protección de datos como el RGPD (Unión Europea) y el CCPA (California), requieren que las organizaciones le eliminen o le proporcionen una copia de sus datos si así lo solicita. Las organizaciones tienen un corto período de tiempo para cumplir, de lo contrario pueden enfrentarse a multas elevadas. Nuestra misión es facilitarle el ejercicio de sus derechos legales."
+      "value": "Leyes de protección de datos, como el RGPD, Unión Europea), el CCPA (California) y el LGPD (Brasil) requieren que las organizaciones eliminen o le proporcionen una copia de sus datos a petición de los usuarios. Las organizaciones tienen un corto período de tiempo para cumplir, de lo contrario pueden enfrentarse a multas elevadas. Nuestra misión es facilitarle el ejercicio de sus derechos legales."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1920,7 +1916,7 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Envíe solicitudes de acceso y eliminación de datos CCPA y GDPR a cualquier organización de forma rápida y sencilla utilizando este servicio gratuito."
+      "value": "Envíe los datos de GDPR, CCPA y LGPD y las solicitudes de acceso a cualquier organización rápida y fácilmente utilizando este servicio gratuito."
     }
   ],
   "org.descriptionExistingOrg": [
@@ -1950,7 +1946,7 @@
   "org.titleNewOrg": [
     {
       "type": 0,
-      "value": "Enviar solicitudes de acceso y eliminación de datos de GDPR y CCPA"
+      "value": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
     }
   ],
   "orgHero.newOrgSubTitle": [
@@ -2028,7 +2024,7 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Use this free service to send GDPR, CCPA and LGPD data requests."
+      "value": "Utilice este servicio gratuito para enviar solicitudes de datos GDPR, CCPA y LGPD."
     }
   ],
   "orgHero.title": [
@@ -2196,7 +2192,7 @@
   "personalInfoForm.regulationTypeHelper": [
     {
       "type": 0,
-      "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+      "value": "Elija la regulación basada en su lugar de residencia, a menos que tenga una razón específica para elegir lo contrario."
     }
   ],
   "personalInfoForm.requestTypeLabelText": [
@@ -2214,7 +2210,7 @@
   "personalInfoForm.validEmail": [
     {
       "type": 0,
-      "value": "Please enter a valid email."
+      "value": "Por favor, introduzca un correo electrónico válido."
     }
   ],
   "pressIntro.title": [
@@ -3547,7 +3543,7 @@
   "thankyou.howLongToReply": [
     {
       "type": 0,
-      "value": "Organizations have "
+      "value": "Las organizaciones tienen "
     },
     {
       "type": 1,
@@ -3555,7 +3551,7 @@
     },
     {
       "type": 0,
-      "value": " to comply, and may ask you for additional information to help identify you in their systems."
+      "value": " que cumplir, y pueden pedirle información adicional para ayudarle a identificar en sus sistemas."
     }
   ],
   "thankyou.requestTypeAccess": [

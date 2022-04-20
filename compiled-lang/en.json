@@ -116,7 +116,7 @@
     },
     {
       "type": 0,
-      "value": " (GDPR) and the "
+      "value": " (GDPR), the "
     },
     {
       "type": 1,
@@ -124,13 +124,21 @@
     },
     {
       "type": 0,
-      "value": " (CCPA) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+      "value": " (CCPA), and the Brazilian "
+    },
+    {
+      "type": 1,
+      "value": "lgpd"
+    },
+    {
+      "type": 0,
+      "value": " (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations such as the GDPR and the CCPA are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+      "value": "Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
     }
   ],
   "about.missionBody3": [
@@ -1830,7 +1838,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws such as the GDPR (European Union) and the CCPA (California), require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "Data protection laws such as the GDPR (European Union), the CCPA (California) and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1920,7 +1928,7 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Send CCPA and GDPR data deletion and access requests to any organization quickly and easily using this free service."
+      "value": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
     }
   ],
   "org.descriptionExistingOrg": [
@@ -1950,7 +1958,7 @@
   "org.titleNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR and CCPA Data Deletion and Access Requests"
+      "value": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
     }
   ],
   "orgHero.newOrgSubTitle": [
