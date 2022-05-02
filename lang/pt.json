@@ -162,7 +162,7 @@
     "message": "Rejeitar participação nas principais corretoras de dados (data brokers)"
   },
   "dataProcessors": {
-    "message": "Compartilhadores e processadores de dados"
+    "message": "Compartilhamento de dados"
   },
   "deletePII.deleteAllPII": {
     "message": "Todas as solicitações"
@@ -843,10 +843,10 @@
     "message": "Conforme apresentado em"
   },
   "privacy.additionalPersonalData": {
-    "message": "Solicitar acompanhamento"
+    "message": "Acompanhamento das solicitações"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "Ao usar esse Serviço, após o envio de uma solicitação de dados, você está optando por receber nosso suporte por e-mail. Caso use este recurso opcional, coletaremos os seguintes dados pessoais adicionais:"
+    "message": "Enquanto você utiliza os nossos serviços, se você quiser acompanhar o andamento da solicitação de um exercício de direito do titular junto à organização, você poderá nos acionar por meio do nosso e-mail. Se você optar por utilizar o nosso suporte, nós poderemos coletar Dados Pessoais adicionais, conforme consta abaixo:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
     "message": "Seu endereço de e-mail"
@@ -867,13 +867,13 @@
     "message": "Contato"
   },
   "privacy.contactBody": {
-    "message": "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco através do endereço {mail}."
+    "message": "Caso tenha alguma questão específica que não tenha sido esclarecida por nossa Política de Privacidade ou caso você queira exercer algum direito, você poderá entrar em contato conosco pelo e-mail: {mail}."
   },
   "privacy.cookies": {
-    "message": "Cookies e rastreamento"
+    "message": "Cookies"
   },
   "privacy.cookiesBody": {
-    "message": "Utilizamos cookies apenas para salvar as suas escolhas no site e para facilitar os usos que você faz do serviço. Um cookie é uma informação que o computador que hospeda nosso Serviço fornece ao seu navegador quando você acessa o Serviço."
+    "message": "Cookie é um pequeno arquivo de texto, colocado em seu dispositivo ou navegador, que permite a sua identificação enquanto usuário e do dispositivo utilizado, bem como para coletar as informações de navegação. Portanto, nós apenas utilizamos cookies para salvar as escolhas que você faz no site, para que seja mais fácil usar o serviço na próxima vez."
   },
   "privacy.description": {
     "message": "Os seus dados são de sua propriedade, e a nossa missão é ajudar vcoê a controlar quem tem acesso a eles. Esta é a nossa página de política de privacidade."
@@ -882,28 +882,28 @@
     "message": "Ultima atualização:"
   },
   "privacy.personalData": {
-    "message": "Solicitações de envio"
+    "message": "Envio de solicitações"
   },
   "privacy.personalDataBody1": {
-    "message": "Ao enviar solicitações (sem ativar o recurso opcional de acompanhamento de solicitações) pedimos que você nos forneça os seguintes dados pessoais:"
+    "message": "Para enviar solicitações (sem ativar o recurso opcional de acompanhamento de solicitações), é necessário que você compartilhe os seguintes dados pessoais conosco:"
   },
   "privacy.personalDataBodyOneA": {
     "message": "Seu nome"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Informações adicionais necessárias para identificar você com as organizações que você optou por contactar (como Nome de Usuário, ID de Cliente ou Número de Conta)"
+    "message": "Informações adicionais de identificação para que possamos identificá-lo junto às organizações que você deseja enviar uma solicitação (tais como, nome de usuário, ID do cliente ou número/registro da conta)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "Só usamos os Dados Pessoais que são coletados quando você envia solicitações para gerar um e-mail, e não os armazenamos em nossos servidores."
+    "message": "Saiba que apenas iremos tratar os Dados Pessoais coletados para enviar as solicitações, sendo que não armazenamos tais informações em nossos servidores."
   },
   "privacy.privacyTitle": {
     "message": "Política de Privacidade"
   },
   "privacy.processorsA": {
-    "message": "Matomo: um serviço de análise da Web projetado com a privacidade em mente, feito pela Innocraft. Usamos a Matomo para coletar informações anônimas sobre como o Serviço é acessado e usado ('Dados de Uso'). Você pode visitar a página desse serviço em { matomo }."
+    "message": "Matomo: um serviço de análise da web voltado para a privacidade da Innocraft. Usamos o Matomo para coletar informações anônimas sobre como o nosso serviços é acessado e utilizado ('Dados de Uso'). Você pode visitar a Política de Privacidade em { matomo }."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: um provedor de serviços de infraestrutura em nuvem. Quando você aceitar utilizar o serviço de Solicitar Acompanhamento, usamos a AWS para processar os e-mails que você envia, armazenar informações relacionadas e enviar e-mails de lembrete. Você pode visitar a página desse serviço em { matomo }."
+    "message": "Amazon AWS: um provedor de serviços de infraestrutura em nuvem. Quando você acionar o nosso serviço de suporte para acompanhamento das solicitações, utilizamos a AWS para processar os e-mails enviados, armazenar informações relacionadas e enviar e-mails de lembrete. Você pode visitar a Política de Privacidade em { matomo }."
   },
   "privacy.promise": {
     "message": "Nossa promessa"
@@ -915,7 +915,7 @@
     "message": "Política de Privacidade"
   },
   "privacy.usageDataBody": {
-    "message": "Nós trabalhamos com os seguintes provedores terceiros para executar algumas tarefas de processamento de dados em nosso nome. Nós possuímos contratos com esses fornecedores que garantem a confidencialidade e a segurança de seus dados."
+    "message": "Nós poderemos compartilhar os seus Dados Pessoais com os nossos parceiros e fornecedores para viabilizar a prestação do nosso serviço.\nSaiba que apenas temos parcerias com prestadores que garantem a confidencialidade e segurança das informações pessoais, conforme consta abaixo."
   },
   "redirect.continueText": {
     "message": "Continuar"
