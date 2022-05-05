@@ -69,17 +69,22 @@ const handleFormSubmit = (requestItem, complaintText, geograpghy, status) => e =
 }
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {
-  const defaultGeographyCode = Regulations[requestItem.regulationType.S].dpa.geographies[0].countryCode;
+  const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
+  const defaultGeographyCode = geographies[0].countryCode;
   const [geograpghy, setGeograpghy] = useState(defaultGeographyCode);
   const [complaintText, setcomplaintText] = useState("");
 
   useEffect(() => {
-    const getGeo = async () => {
-      let geo = await getCountryCode();
-      geo = geo ? geo : defaultGeographyCode;
-      setGeograpghy(geo);
+    const getGeoCode = async () => {
+      let countryCode = await getCountryCode();
+      if (geographies.filter(geo => geo.countryCode === countryCode).length > 0) {
+        setGeograpghy(countryCode);
+      }
+      else {
+        setGeograpghy(defaultGeographyCode);
+      }
     }
-    getGeo();
+    getGeoCode();
   }, []);
 
 
