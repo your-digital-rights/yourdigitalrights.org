@@ -39,9 +39,9 @@ const Donations = ({ classes, children }) => {
               className={classes.donateLPButton}
               onClick={() => trackDonate("Donation - Librapay")}
             >
-              <FormattedMessage id="donations.Liberapay" defaultMessage="Donate via Liberapay" />
+              <FormattedMessage id="donations.Liberapay" defaultMessage="Donate" />
             </Button>                          
-            <Button
+            {/*<Button
               variant="contained"
               href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
               color="primary"
@@ -50,7 +50,7 @@ const Donations = ({ classes, children }) => {
               onClick={() => trackDonate("Donation - BTC")}
             >
               <FormattedMessage id="donations.Bitcoin" defaultMessage="Donate Bitcoin" />
-            </Button>
+            </Button>*/}
           </div>
           {children}
         </div>
