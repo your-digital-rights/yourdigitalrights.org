@@ -5,6 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
+import Typography from "@material-ui/core/Typography";
 
 class Hero extends Component {
   constructor(props) {
@@ -37,14 +38,33 @@ class Hero extends Component {
           <h1 className={classes.header}>
             <FormattedMessage
               id="request.hero.header"
-              defaultMessage="Your data {requestType} request to {companyName}"
+              defaultMessage="Your data {requestType} request to {companyName} "
               values={{
                 requestType: requestItem.requestType.S.toLowerCase(),
                 companyName: selectedCompany.name,
+                ref: requestItem.id.S.split("-")[0],
               }}
             />
           </h1>
           <h2 className={classes.status}>
+          <strong>
+            <FormattedMessage 
+              id="request.hero.referenceTitle" 
+              defaultMessage="Reference:" 
+              values={{
+                ref: requestItem.id.S.split("-")[0],
+              }}
+            /> 
+            </strong>
+            {" "}
+            <FormattedMessage 
+              id="request.hero.reference" 
+              defaultMessage="{ref}" 
+              values={{
+                ref: requestItem.id.S.split("-")[0],
+              }}
+            />     
+            <br />            
             <strong><FormattedMessage id="request.hero.requestStatus" defaultMessage="Request Status:" /> </strong>
             { typeof requestItem.requestEmailSentAt === 'undefined'  ? (
               <FormattedMessage id="request.hero.requestNotSent" defaultMessage="please send the request email, then refresh this page." />

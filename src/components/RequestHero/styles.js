@@ -27,6 +27,7 @@ const Style = (theme) => ({
   header: {
     fontSize: "38px",
     fontWeight: "normal",
+    marginBottom: "-25px",
   },
   information: {
     fontSize: "21px",
@@ -35,6 +36,11 @@ const Style = (theme) => ({
     marginTop: "10px",
   },
   status: {
+    fontSize: "28px",
+    fontWeight: "normal",
+    marginBottom: "30px",
+  },
+  ref: {
     fontSize: "28px",
     fontWeight: "normal",
     marginBottom: "30px",
