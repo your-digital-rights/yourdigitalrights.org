@@ -182,7 +182,7 @@ class Form extends Component {
       ? selectedCompany.email
       : this.state.companyEmail;
 
-    const bcc =
+    const cc =
       followUp === "YES"  
         ? getInboundEmailAddress(uuid, 'request')
         : null;
@@ -237,7 +237,7 @@ class Form extends Component {
 
     return mailtoLink({
       to,
-      bcc,
+      cc,
       subject,
       body,
     });

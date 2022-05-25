@@ -42,18 +42,29 @@ class Hero extends Component {
               values={{
                 requestType: requestItem.requestType.S.toLowerCase(),
                 companyName: selectedCompany.name,
-                ref: requestItem.id.S.split("-")[0],
               }}
             />
           </h1>
           <h2 className={classes.status}>
           <strong>
             <FormattedMessage 
+              id="request.hero.domainTitle" 
+              defaultMessage="Domain:" 
+            /> 
+            </strong>
+            {" "}
+            <FormattedMessage 
+              id="request.hero.reference" 
+              defaultMessage="{ref}" 
+              values={{
+                ref: selectedCompany.url,
+              }}
+            />     
+            <br />  
+          <strong>
+            <FormattedMessage 
               id="request.hero.referenceTitle" 
               defaultMessage="Reference:" 
-              values={{
-                ref: requestItem.id.S.split("-")[0],
-              }}
             /> 
             </strong>
             {" "}
