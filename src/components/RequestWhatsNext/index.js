@@ -25,13 +25,13 @@ class WhatsNext extends Component {
   renderMailTo() {
     const {requestItem, status} = this.props;
     const to = requestItem.requestEmailTo.S;
-    const bcc = getInboundEmailAddress(requestItem.id.S, 'reminder');
+    const cc = getInboundEmailAddress(requestItem.id.S, 'reminder');
     const subject = reminderEmail.subject(requestItem);
     const body = reminderEmail.body(requestItem, status);
 
     return mailtoLink({
       to,
-      bcc,
+      cc,
       subject,
       body,
     });

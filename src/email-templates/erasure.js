@@ -37,18 +37,17 @@ export default {
     if (data.identifyingInfo) {
       body = body.concat(
         `${additionalInfo}
-${data.identifyingInfo}
-
-`
-      );
+        ${data.identifyingInfo}
+        `);
     }
 
-      body = body.concat(
+    body = body.concat(
       `${salutation}
 
 ${data.name}
-`
-    );
+
+${POWERED_BY}
+`);
 
     return body;
   },
@@ -58,7 +57,7 @@ const ADDITIONAL_INFO_TEXT_EN = `Please use the following information to identif
 const ADDITIONAL_INFO_TEXT_PT = `Use as seguintes informações para me identificar em seus sistemas:`;
 const SALUTATION_EN = `Kind regards,`;
 const SALUTATION_PT = `Atenciosamente,`;
-
+const POWERED_BY = `Powered by YourDigitalRights.org`;
 
 const CCPA_TEXT = `To whom it may concern:
 

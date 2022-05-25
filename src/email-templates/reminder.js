@@ -15,6 +15,7 @@ export default {
     }
   },
   body(requestItem, status) {
+    const POWERED_BY = `Powered by YourDigitalRights.org`;
     if (requestItem.regulationType.S === "LGPD") {
       const regulation = Regulations[requestItem.regulationType.S];
       const requestType = regulation['requestTypes'][requestItem.requestType.S];
@@ -44,6 +45,7 @@ export default {
 
       bodyParts.push('Atenciosamente,');
       bodyParts.push(requestItem.name.S);
+      bodyParts.push(POWERED_BY);
 
       return bodyParts.join('\n\n');
     } else {
@@ -75,6 +77,7 @@ export default {
   
       bodyParts.push('Kind regards,');
       bodyParts.push(requestItem.name.S);
+      bodyParts.push(POWERED_BY);
   
       return bodyParts.join('\n\n');  
     }

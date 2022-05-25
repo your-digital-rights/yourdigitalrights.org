@@ -1001,6 +1001,12 @@
   "request.hero.partiallyHandled": {
     "message": "{companyName} administrou parcialmente a sua solicitação."
   },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Reference:"
+  },
   "request.hero.requestNotSent": {
     "message": "envie o e-mail de solicitação e, em seguida, atualize esta página."
   },
