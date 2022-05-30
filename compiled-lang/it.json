@@ -2623,6 +2623,18 @@
       "value": " ha gestito la tua richiesta in parte."
     }
   ],
+  "request.hero.reference": [
+    {
+      "type": 1,
+      "value": "ref"
+    }
+  ],
+  "request.hero.referenceTitle": [
+    {
+      "type": 0,
+      "value": "Reference:"
+    }
+  ],
   "request.hero.requestNotSent": [
     {
       "type": 0,
