@@ -62,6 +62,16 @@ export default async (req, res) => {
                 regulationType: { S: req.body.regulationType },
                 companyName: { S: req.body.companyName },
                 companyUrl: { S: req.body.companyUrl },
+                statusHistory: { L: [{ 
+                  M: { 
+                    "Date": {
+                      S: requestCreatedAt.toUTC().toISO()
+                    },
+                    "Status": {
+                      S: "NO_REPLY"
+                    }
+                  }  
+                }] },
               },
             },
           },

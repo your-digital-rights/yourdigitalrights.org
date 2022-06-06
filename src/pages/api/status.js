@@ -1,5 +1,5 @@
 import aws from "aws-sdk";
-import { resolveHref } from "next/dist/shared/lib/router/router";
+import { DateTime } from "luxon";
 
 aws.config.update({
   accessKeyId: process.env.ACCESS_KEY_ID,
@@ -38,6 +38,13 @@ export default async (req, res) => {
   }
 
   dynamodb.updateItem({
+    TableName: 'YDRFollowups',    
+    Key: {
+      "id": {
+        S: uuid,
+      },
+    },
+    UpdateExpression: "SET #S = :s",
     ExpressionAttributeNames: {
       "#S": "status",
     },
@@ -46,29 +53,52 @@ export default async (req, res) => {
         S: status,
       },
     },
-    Key: {
-      "id": {
-        S: uuid,
-      },
-    },
     ReturnValues: "ALL_NEW",
-    TableName: 'YDRFollowups',
-    UpdateExpression: "SET #S = :s",
   }, (err, data) => {
     if (err) {
       res.statusCode = 500;
       res.send({
-        error: 'Could not update status.',
+        error: 'Could not update status in YDRFollowups.',
       });
-    } else {      
-      if (url) {
-        res.redirect(302, `/r/${uuid}`);
-      } else {
-        res.statusCode = 200;
-        res.send({
-          success: 'Saved status.',
-        });
-      }
+    } else {  
+      dynamodb.updateItem({
+        TableName: 'YDRRequests',    
+        Key: {
+          "id": {
+            S: uuid,
+          },
+        },
+        UpdateExpression: "SET statusHistory = list_append(statusHistory, :s)",
+        ExpressionAttributeValues: {
+          ":s": {
+            M: { 
+              "Date": {
+                S: new DateTime().toUTC().toISO(),
+              },
+              "Status": {
+                S: status,
+              }
+            }  
+          },
+        },
+        ReturnValues: "ALL_NEW",
+      }, (err, data) => {
+        if (err) {
+          res.statusCode = 500;
+          res.send({
+            error: 'Could not update status in YDRRequests.',
+          });
+        } else { 
+          if (url) {
+            res.redirect(302, `/r/${uuid}`);
+          } else {
+            res.statusCode = 200;
+            res.send({
+              success: 'Saved status.',
+            });
+          }
+        }
+      });
     }
     resolve();
     return;
