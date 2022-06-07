@@ -37,7 +37,7 @@ class WhatsNext extends Component {
     });
   }
 
-  handleFormSubmit = (e) => {;
+  handleReminderFormSubmit = (e) => {
     e.preventDefault();
     this.setState({showEscalation: false});
     const mailTo = this.renderMailTo();
@@ -52,13 +52,33 @@ class WhatsNext extends Component {
     );
   }
 
+  handleEscalationButtonClick = (e) => {
+    const uuid = this.props.requestItem.id.S;
+
+    fetch(
+      "/api/registerEscalation",
+      {
+        method: "POST",
+        body: JSON.stringify({ uuid }),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    tracking.trackEscalationRequest(
+      this.props.requestItem.companyUrl.S,
+      this.props.requestItem.regulationType.S
+    );
+  }
+
   buttons(classes, regulation) {
     const { requestItem } = this.props;
     const authority = Regulations[requestItem.regulationType.S].dpa.longName;
     return (
       <ul className={classes.buttons}>
         <li>
-          <form onSubmit={this.handleFormSubmit}>
+          <form onSubmit={this.handleReminderFormSubmit}>
             <Button
               variant="contained"
               color="primary"
@@ -80,6 +100,7 @@ class WhatsNext extends Component {
               type="submit"
               className={classes.button}
               href={Regulations[requestItem.regulationType.S].dpa.requestFormURL}
+              onClick={this.handleEscalationButtonClick}
               target="_blank"
             >
               <FormattedMessage
