@@ -19,7 +19,7 @@ const dynamodb = new aws.DynamoDB();
  * This data is kept in two tables. This allows anonymous data to be in a
  * separate table, which could be archived. Personal information is purged after
  * following up with the user. An archive on this table should be limited to
- * the maximum length of time before following up (currently 45 days).
+ * the maximum length of time before following up (currently 120 days).
  *
  * The API takes in the following:
  *
@@ -38,11 +38,12 @@ export default async (req, res) => {
       !req.body.requestType ||
       !req.body.regulationType ||
       !req.body.companyName ||
-      !req.body.companyUrl
+      !req.body.companyUrl ||
+      !req.body.followUp
     ) {
       res.statusCode = 400;
       res.send({
-        error: 'Missing one of uuid, requestType, regulationType, companyName, companyUrl',
+        error: 'Missing one of uuid, requestType, regulationType, companyName, companyUrl, followUp',
       });
       resolve();
       return;
@@ -55,13 +56,14 @@ export default async (req, res) => {
         YDRRequests: [
           {
             PutRequest: {
-              Item: {
+              Item: { 
                 id: { S: req.body.uuid },
                 requestCreatedAt: { S: requestCreatedAt.toUTC().toISO() },
                 requestType: { S: req.body.requestType },
                 regulationType: { S: req.body.regulationType },
                 companyName: { S: req.body.companyName },
                 companyUrl: { S: req.body.companyUrl },
+                followup: { BOOL: req.body.followUp == "YES" ? true : false },
                 statusHistory: { L: [{ 
                   M: { 
                     "Date": {
@@ -79,7 +81,7 @@ export default async (req, res) => {
       },
     };
 
-    if (req.body.name) {
+    if (req.body.followUp == "YES") {
       if (!req.body.lang) {
         res.setHeader('Content-Type', 'application/json');
         res.statusCode = 400;

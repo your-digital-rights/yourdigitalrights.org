@@ -10,7 +10,7 @@ aws.config.update({
 const dynamodb = new aws.DynamoDB();
 
 /**
- * Update the follow up table with a status set by the user.
+ * Update the follow up and requests tables with a status set by the user.
  *
  * The API takes in the following:
  *
