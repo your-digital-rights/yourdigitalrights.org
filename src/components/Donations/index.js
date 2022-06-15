@@ -24,22 +24,23 @@ const Donations = ({ classes, children }) => {
           >
             <FormattedMessage id="donations.headingDonate" defaultMessage="We need your support" />
           </Typography>
-          <Typography color="inherit" className={classes.intro}>
+          <Typography color="inherit" className={classes.intro} gutterBottom={true}>
             <FormattedMessage
               id="donations.donateIntro"
-              defaultMessage="YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. Donations allow us to spend more time improving this service."
+              defaultMessage="YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
             />
           </Typography>          
           <div className={classes.buttons}>
             <Button
               variant="contained"
-              href="https://liberapay.com/YourDigitalRights.org/donate"
+              href="https://opencollective.com/consciousdigital"
               color="primary"
               type="submit"
+              target="_blank"
               className={classes.donateLPButton}
-              onClick={() => trackDonate("Donation - Librapay")}
+              onClick={() => trackDonate("Donation - Open Collective")}
             >
-              <FormattedMessage id="donations.Liberapay" defaultMessage="Donate" />
+              <FormattedMessage id="donations.OpenCollective" defaultMessage="Donate" />
             </Button>                          
             {/* 
             <Button
