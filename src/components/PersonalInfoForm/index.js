@@ -213,6 +213,7 @@ class Form extends Component {
       regulationType,
       companyName,
       companyUrl,
+      followUp,
     };
 
     if (followUp === "YES") {
