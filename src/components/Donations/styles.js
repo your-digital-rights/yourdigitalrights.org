@@ -17,12 +17,12 @@ const Theme = (theme) => ({
     padding: "30px",
     boxSizing: "border-box",
     ...container,
-    [theme.breakpoints.up("md")]: {
+    /*[theme.breakpoints.up("md")]: {
       padding: "76px 30px",
       backgroundImage: "url('/images/QR.svg')",
       backgroundPosition: "right 130px top 140px",
       backgroundRepeat: "no-repeat",
-    },
+    },*/
   },
   donateBTCButton: {
     marginTop: "-25px",
@@ -51,10 +51,6 @@ const Theme = (theme) => ({
       marginBottom: '35px',
     },
   },
-  intro: {
-    marginBottom: "50px",
-    maxWidth: "570px",
-  },
   titleImg: {
     width: "300px",
     maxWidth: "75%",
@@ -63,6 +59,7 @@ const Theme = (theme) => ({
     marginBottom: 0,
   },
   buttons: {
+    marginTop: "50px",
     textAlign: "center",
     marginBottom: "30px",
     [theme.breakpoints.up("sm")]: {
