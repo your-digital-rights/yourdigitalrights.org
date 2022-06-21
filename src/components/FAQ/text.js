@@ -580,11 +580,11 @@ export default [
     heading: (
       <FormattedMessage
         id="faq.heading10"
-        defaultMessage="What should I do if an organization did not comply, or did not fully comply with my request?"
+        defaultMessage="What should I do if an organization did not reply, or did not fully comply with my request?"
       />
     ),
     body: [
-      <FormattedMessage id="faq.body10A" defaultMessage="When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request." />,
+      <FormattedMessage id="faq.body10A" defaultMessage="When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request." />,
       <br />,
       <FormattedMessage id="faq.body10B" defaultMessage="If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court.  If you decide to do this, we strongly advise you to seek independent legal advice first." />,
       <br />,
