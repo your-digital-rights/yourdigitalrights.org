@@ -12,8 +12,7 @@ const Style = (theme) => ({
     },
   },
   formButton: {
-    marginTop: "2rem",
-    borderRadius: "24px 24px 24px 24px",
+    marginTop: "30px",
   },
   formControl: {
     marginTop: theme.spacing(1),

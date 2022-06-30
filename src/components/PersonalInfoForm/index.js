@@ -33,7 +33,6 @@ import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
 import mailtoLink from "mailto-link";
-import { mailgoDirectRender, mailgoValidateEmail } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -43,12 +42,12 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
-import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import getInboundEmailAddress from "../../utils/email";
 import Regulations from "../../utils/regulations";
+import EmailSendButton from "../EmailSendButton";
 
 const screenHeightBreakpoint = 560;
 
@@ -73,30 +72,11 @@ class Form extends Component {
     };
 
     this.handlers = {};
-    this.container = React.createRef();
     this.companyEmail = React.createRef();
+    this.sendEmailButton = React.createRef();
   }
 
   async componentDidMount() {
-    window.mailgoConfig = {
-      dark: true,
-      showFooter: false,
-      tel: false,
-      sms: false,
-      actions: {
-        telegram: false,
-        whatsapp: false,
-        skype: false,
-        copy: false,
-      },
-      details: {
-        subject: false,
-        body: false,
-        to: false,
-        cc: false,
-        bcc: false,
-      },
-    };
     if (typeof window !== "undefined") {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
@@ -144,12 +124,12 @@ class Form extends Component {
   handleFormSubmit = (e) => {
     e.preventDefault();
 
-    const mailTo = this.renderMailTo();
-    if (isMobile) {
-      window.open(mailTo);
-    } else {
-      mailgoDirectRender(mailTo);
-    }
+    console.info(`Form submit`);
+    console.info(this.sendEmailButton);
+    const link = this.sendEmailButton.current.getLink();
+    console.info(`Form submit link ${link}`);
+    /*const mailTo = this.renderMailTo();
+    window.open(mailTo);*/
 
     this.setState({ hasSubmit: true });
     window.location = "#Form";
@@ -170,7 +150,7 @@ class Form extends Component {
     }
   };
 
-  renderMailTo() {
+  getEmailData = () => {
     const uuid = uuidv4();
     this.setState({ uuid: uuid });
     const { selectedCompany } = this.props;
@@ -178,14 +158,9 @@ class Form extends Component {
     const regulationType = this.state.regulationType;
     const followUp = this.state.followUp;
 
-    const to = selectedCompany
+    const comnpanyEmail = selectedCompany
       ? selectedCompany.email
       : this.state.companyEmail;
-
-    const cc =
-      followUp === "YES"  
-        ? getInboundEmailAddress(uuid, 'request')
-        : null;
 
     const companyName = selectedCompany
       ? selectedCompany.name
@@ -197,23 +172,19 @@ class Form extends Component {
 
     const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
 
-    const subject =
-      requestType == "DELETION"
-        ? erasureEmail.subject({ ...this.state, reference})
-        : sarEmail.subject({ ...this.state, reference });
+    return { one:  2};
+  }
 
-    const body =
-      requestType == "DELETION"
-        ? erasureEmail.formatBody({ ...this.state, companyName })
-        : sarEmail.formatBody({ ...this.state, companyName });
-
+  saveRequest = () => {
     const requestParams = {
       uuid,
+      comnpanyEmail,
       requestType,
       regulationType,
       companyName,
       companyUrl,
       followUp,
+      reference,
     };
 
     if (followUp === "YES") {
@@ -235,13 +206,12 @@ class Form extends Component {
         },
       }
     );
-
-    return mailtoLink({
+    /*return mailtoLink({
       to,
       cc,
       subject,
       body,
-    });
+    });*/
   }
 
   async addNewCompany() {
@@ -455,15 +425,13 @@ class Form extends Component {
               {FollowUpDetailsTextWarning}
             </FormHelperText>
           </FormControl>
-          <div>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={classes.formButton}
-            >
-              {SubmitButtonText}
-            </Button>
+          <div className={classes.formButton}>
+            <EmailSendButton
+              emailType={this.state.requestType}
+              text={SubmitButtonText}
+              getData={this.getEmailData}
+              ref={this.sendEmailButton}
+            />
           </div>
         </Paper>
       );
