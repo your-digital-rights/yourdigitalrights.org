@@ -40,7 +40,7 @@ const Donations = ({ classes, children }) => {
               className={classes.donateLPButton}
               onClick={() => trackDonate("Donation - Open Collective")}
             >
-              <FormattedMessage id="donations.OpenCollective" defaultMessage="Donate" />
+              <FormattedMessage id="donations.donate" defaultMessage="Donate" />
             </Button>                          
             {/* 
             <Button

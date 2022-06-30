@@ -627,7 +627,7 @@
       "value": "Delete my data"
     }
   ],
-  "donations.OpenCollective": [
+  "donations.donate": [
     {
       "type": 0,
       "value": "Donate"
@@ -3470,18 +3470,6 @@
       "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
     }
   ],
-  "thankyou.Bitcoin": [
-    {
-      "type": 0,
-      "value": "Donate Bitcoin"
-    }
-  ],
-  "thankyou.Liberapay": [
-    {
-      "type": 0,
-      "value": "Donate via Liberapay"
-    }
-  ],
   "thankyou.copyPart1": [
     {
       "type": 0,
@@ -3548,10 +3536,16 @@
       "value": " for additional information."
     }
   ],
-  "thankyou.extensionText": [
+  "thankyou.donate": [
     {
       "type": 0,
-      "value": "Save time by installing our browser extension"
+      "value": "Donate"
+    }
+  ],
+  "thankyou.donation": [
+    {
+      "type": 0,
+      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
     }
   ],
   "thankyou.findCompany": [

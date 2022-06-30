@@ -13,7 +13,8 @@ import {
   ThanksCopyPart2CCPA, 
   ThanksCopyPart2GDPR,  
   ThanksCopyPart3,
-  FindCompanyText 
+  FindCompanyText,
+  DonationText
 } from "./text";
 import {useIntl} from 'react-intl';
 import Regulations from "../../utils/regulations";
@@ -45,65 +46,8 @@ const styles = (theme) => ({
     textAlign: "left",
   },
 
-  extensionInfoContainer: {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-  },
-
-  browserExtensionsText: {
-    fontSize: "1em",
-    fontWeight: "600",
-    fontStyle: "normal",
-    fontStretch: "normal",
-    lineHeight: "normal",
-    letterSpacing: "normal",
-    color: "#585858",
-  },
-
-  browserExtensionLinkContainer: {
-    display: "flex",
-    justifyContent: "space-between",
-    margin: "35px 0",
-    width: "150px",
-  },
-
-  extensionLinkIcons: {
-    width: "64px",
-    height: "64px",
-  },
-
-  btn: {
-    borderRadius: "24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
-    padding: "10px 20px",
-    "&:hover": {
-      background: "#04487B",
-    },
-  },
-  
-  donate: {
-    textAlign: "center",
+  donateButton: {
     marginBottom: "30px",
-    marginTop: "50px",
-  },
-
-  donateBTCButton: {
-    marginTop: "-25px",
-    borderRadius: "24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
-    padding: "10px 20px",
-    "&:hover": {
-      background: "#04487B",
-    },
-  },
-
-  donateLPButton: {
-    marginTop: "-25px",
-    marginRight: "10px",
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",
@@ -175,7 +119,28 @@ const ThanksMessage = (props) => {
         >
           {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
         </Typography>
+        <Typography
+          component="p"
+          gutterBottom={true}
+          className={classes.text}
+          id="ThanksMessageText"
+        >
+          {DonationText}
+        </Typography>  
         <Button
+          variant="contained"
+          href="https://opencollective.com/consciousdigital"
+          color="primary"
+          type="submit"
+          target="_blank"
+          className={classes.donateButton}
+          onClick={() => trackDonate("Donation - Open Collective")}
+        >
+          <FormattedMessage id="thankyou.donate" defaultMessage="Donate" />
+        </Button>  
+      </div>
+      <Social />
+      <Button
           variant="contained"
           color="secondary"
           type="submit"
@@ -184,64 +149,7 @@ const ThanksMessage = (props) => {
           onClick={hide}
         >
           {FindCompanyText}
-        </Button>
-      </div>
-      <div className={classes.donate}>
-        <Button
-          variant="contained"
-          href="https://liberapay.com/YourDigitalRights.org/donate"
-          color="primary"
-          type="submit"
-          className={classes.donateLPButton}
-          onClick={() => trackDonate("Donation - Librapay")}
-        >
-          <FormattedMessage id="thankyou.Liberapay" defaultMessage="Donate via Liberapay" />
-        </Button>                          
-        <Button
-          variant="contained"
-          href="bitcoin:34kHDRPhrBmP15BZBYvx4gn5amwCwa6kGe"
-          color="primary"
-          type="submit"
-          className={classes.donateBTCButton}
-          onClick={() => trackDonate("Donation - BTC")}
-        >
-          <FormattedMessage id="thankyou.Bitcoin" defaultMessage="Donate Bitcoin" />
-        </Button>
-      </div>
-      <div className={classes.extensionInfoContainer}>
-        <Typography
-          component="b"
-          gutterBottom={true}
-          className={classes.browserExtensionsText}
-        >
-          <FormattedMessage id="thankyou.extensionText" defaultMessage="Save time by installing our browser extension" />
-        </Typography>
-        <div className={classes.browserExtensionLinkContainer}>
-          <a
-            id="chromeExtension"
-            target="_blank"
-            onClick={() => trackWebExtension("chrome-extension")}
-            href="https://chrome.google.com/webstore/detail/opt-out-one-click-gdpr-er/dedldhojjkgbejnmmfpmbnbihmmpfbpd?hl=en-GB"
-          >
-            <img
-              className={classes.extensionLinkIcons}
-              src="../../images/chrome.png"
-            ></img>
-          </a>
-          <a
-            id="firefoxExtension"
-            target="_blank"
-            onClick={() => trackWebExtension("chrome-extension")}
-            href="https://addons.mozilla.org/en-GB/android/addon/opt-out/"
-          >
-            <img
-              className={classes.extensionLinkIcons}
-              src="../../images/firefox.png"
-            ></img>
-          </a>
-        </div>
-      </div>
-      <Social />
+      </Button>      
     </Paper>
   );
 };

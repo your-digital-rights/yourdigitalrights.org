@@ -61,3 +61,10 @@ export const FindCompanyText = (
     defaultMessage="Find another organization"
   />
 );
+
+export const DonationText = (
+  <FormattedMessage
+    id="thankyou.donation"
+    defaultMessage="Please consider making a donation to help ensure our long-term financial stability and independence:"
+  />
+);
