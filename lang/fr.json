@@ -188,7 +188,7 @@
   "deletemydata.title": {
     "message": "Supprimer mes données"
   },
-  "donations.OpenCollective": {
+  "donations.donate": {
     "message": "Donate"
   },
   "donations.donateIntro": {
@@ -1169,12 +1169,6 @@
   "social.twitterTitle": {
     "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
   },
-  "thankyou.Bitcoin": {
-    "message": "Faire un don de Bitcoin"
-  },
-  "thankyou.Liberapay": {
-    "message": "Faire un don via Liberapay"
-  },
   "thankyou.copyPart1": {
     "message": "l'e-mail de demande devrait s'être ouvert dans votre application de messagerie, tout ce que vous avez à faire est de le vérifier et de cliquer sur Envoyer."
   },
@@ -1187,8 +1181,11 @@
   "thankyou.copyPart3": {
     "message": "Veuillez consulter notre liste de <a>questions fréquemment posées</a> pour plus d'informations."
   },
-  "thankyou.extensionText": {
-    "message": "Gagnez du temps en installant notre extension de navigateur"
+  "thankyou.donate": {
+    "message": "Donate"
+  },
+  "thankyou.donation": {
+    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
   },
   "thankyou.findCompany": {
     "message": "Trouver une autre organisation"
