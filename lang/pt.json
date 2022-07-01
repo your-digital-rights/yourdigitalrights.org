@@ -188,11 +188,11 @@
   "deletemydata.title": {
     "message": "Excluir meus dados"
   },
-  "donations.Liberapay": {
+  "donations.donate": {
     "message": "Donate"
   },
   "donations.donateIntro": {
-    "message": "A YourDigitalRights.org foi criada porque acreditamos que a privacidade é muito importante e que a prática deste direito deve ser bem simples. É por isso que oferecemos um serviço gratuito. Suas doações permitem melhorar ainda mais os nossos serviços."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
   },
   "donations.headingDonate": {
     "message": "Precisamos da sua ajuda"
@@ -204,7 +204,7 @@
     "message": "Diferentes países possuem leis diferentes que protegem a privacidade individual na internet. Este site apoia as seguintes leis:"
   },
   "faq.body10A": {
-    "message": "Ao enviar uma solicitação de dados por meio deste site, ative a opção “Assistência de Acompanhamento Inteligente” para obter aconselhamento personalizado sobre o que fazer caso uma organização não atenda à sua solicitação."
+    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
   },
   "faq.body10B": {
     "message": "Se você não gostou da forma como a organização lidou com a sua solicitação, primeiro você deve enviar um e-mail à organização explicando sobre a sua insatisfação. Se você ainda estiver insatisfeito depois de enviar este lembrete à organização, você poderá reclamar com a Agência de Proteção de Dados (Data Protection Agency, em inglês), um órgão regulador governamental. Algumas leis oferecem a possibilidade de processar uma organização judicialmente. Se você optar por este caminho, recomendamos fortemente que procure aconselhamento jurídico independente."
@@ -582,7 +582,7 @@
     "message": "Quais são as leis de proteção de dados que me protegem?"
   },
   "faq.heading10": {
-    "message": "O que devo fazer se uma organização não atender a minha solicitação parcialmente ou totalmente?"
+    "message": "What should I do if an organization did not reply, or did not fully comply with my request?"
   },
   "faq.heading11": {
     "message": "Quais são as penalidades para uma organização que não atende a uma solicitação pode sofrer?"
@@ -1169,12 +1169,6 @@
   "social.twitterTitle": {
     "message": "Descubra quais organizações possuem dados pessoais sobre você e solicite a exclusão dos mesmos. Confira mais em yourdigitalrights.org."
   },
-  "thankyou.Bitcoin": {
-    "message": "Doe Bitcoin"
-  },
-  "thankyou.Liberapay": {
-    "message": "Doe via Liberapay"
-  },
   "thankyou.copyPart1": {
     "message": "O e-mail de solicitação será aberto em seu aplicativo de e-mail padrão, tudo o que você precisa fazer é revisá-lo e clicar em Enviar."
   },
@@ -1187,8 +1181,11 @@
   "thankyou.copyPart3": {
     "message": "Veja a nossa lista de <a>Perguntas Frequentes</a> para obter informações adicionais."
   },
-  "thankyou.extensionText": {
-    "message": "Economize tempo e instale a nossa extensão para navegadores"
+  "thankyou.donate": {
+    "message": "Donate"
+  },
+  "thankyou.donation": {
+    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
   },
   "thankyou.findCompany": {
     "message": "Encontrar outra organização"

@@ -188,11 +188,11 @@
   "deletemydata.title": {
     "message": "Supprimer mes données"
   },
-  "donations.Liberapay": {
+  "donations.donate": {
     "message": "Donate"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org a été créé parce que nous pensons que la protection de la vie privée est importante et que l'exercice de votre droit à la vie privée devrait être facile. C'est pourquoi nous l'avons fait gratuitement. Les dons nous permettent de passer plus de temps à améliorer ce service."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
   },
   "donations.headingDonate": {
     "message": "Nous avons besoin de votre soutien"
@@ -204,7 +204,7 @@
     "message": "Les différents pays ont des réglementations différentes en matière de protection de la vie privée en ligne. Ce site Web prend en charge les règlements suivants :"
   },
   "faq.body10A": {
-    "message": "Lors de l'envoi d'une demande de données via ce site Web, activez l’option « Assistance de suivi intelligente » pour obtenir des conseils personnalisés sur ce qu’il faut faire au cas où une organisation n’aurait pas répondu à votre demande."
+    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
   },
   "faq.body10B": {
     "message": "Si vous n'êtes pas satisfait de la façon dont l'organisation a traité votre demande, vous devez d'abord envoyer à l'organisation un courriel de rappel expliquant votre insatisfaction. Si, après avoir envoyé un rappel à l'organisation, vous n'êtes toujours pas satisfait, vous pouvez vous plaindre auprès de l'Agence de protection des données, un organisme de réglementation gouvernemental. Certains règlements donnent aux individus un droit d'action privé - la possibilité de poursuivre une organisation en justice. Si vous décidez de le faire, nous vous conseillons fortement de demander un conseil juridique indépendant."
@@ -582,7 +582,7 @@
     "message": "Quelles lois sur la protection des données me protègent ?"
   },
   "faq.heading10": {
-    "message": "Que dois-je faire si une organisation ne s'est pas conformée ou ne s'est pas entièrement conformée à ma demande ?"
+    "message": "What should I do if an organization did not reply, or did not fully comply with my request?"
   },
   "faq.heading11": {
     "message": "Quelles sont les sanctions qu'une organisation qui ne se conforme pas à une demande peut encourir ?"
@@ -1169,12 +1169,6 @@
   "social.twitterTitle": {
     "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
   },
-  "thankyou.Bitcoin": {
-    "message": "Faire un don de Bitcoin"
-  },
-  "thankyou.Liberapay": {
-    "message": "Faire un don via Liberapay"
-  },
   "thankyou.copyPart1": {
     "message": "l'e-mail de demande devrait s'être ouvert dans votre application de messagerie, tout ce que vous avez à faire est de le vérifier et de cliquer sur Envoyer."
   },
@@ -1187,8 +1181,11 @@
   "thankyou.copyPart3": {
     "message": "Veuillez consulter notre liste de <a>questions fréquemment posées</a> pour plus d'informations."
   },
-  "thankyou.extensionText": {
-    "message": "Gagnez du temps en installant notre extension de navigateur"
+  "thankyou.donate": {
+    "message": "Donate"
+  },
+  "thankyou.donation": {
+    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
   },
   "thankyou.findCompany": {
     "message": "Trouver une autre organisation"

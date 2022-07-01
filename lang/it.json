@@ -188,11 +188,11 @@
   "deletemydata.title": {
     "message": "Cancella i miei dati"
   },
-  "donations.Liberapay": {
+  "donations.donate": {
     "message": "Donate"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org è stato creato perché crediamo che la privacy conti, e che l'esercizio del vostro diritto alla privacy dovrebbe essere facile. Ecco perché l'abbiamo reso gratuito. Le donazioni ci permettono di trascorrere più tempo per migliorare questo servizio."
+    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
   },
   "donations.headingDonate": {
     "message": "Abbiamo bisogno del tuo supporto"
@@ -204,7 +204,7 @@
     "message": "I diversi paesi hanno normative diverse che proteggono la privacy individuale online. Questo sito web supporta le seguenti regole:"
   },
   "faq.body10A": {
-    "message": "Quando si invia una richiesta di dati tramite questo sito web, attivare l'opzione “Smart Follow-up Assistance” per ottenere consigli personalizzati su cosa fare nel caso in cui un'organizzazione non abbia soddisfatto la tua richiesta."
+    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
   },
   "faq.body10B": {
     "message": "Se non sei soddisfatto di come l'organizzazione ha gestito la tua richiesta, dovresti prima inviare all'organizzazione una e-mail di promemoria che spieghi la tua insoddisfazione. Se dopo aver inviato all'organizzazione un promemoria sei ancora insoddisfatto, puoi presentare un reclamo all'Agenzia per la protezione dei dati, un organismo di regolamentazione governativo. Alcuni regolamenti conferiscono ai singoli un diritto di azione privato: la possibilità di citare in giudizio un'organizzazione. Se decidete di farlo, vi consigliamo vivamente di chiedere prima una consulenza legale indipendente."
@@ -582,7 +582,7 @@
     "message": "Quali leggi di protezione dei dati mi proteggono?"
   },
   "faq.heading10": {
-    "message": "Cosa devo fare se un'organizzazione non ha rispettato o non ha soddisfatto pienamente la mia richiesta?"
+    "message": "What should I do if an organization did not reply, or did not fully comply with my request?"
   },
   "faq.heading11": {
     "message": "Quali sono le sanzioni che può incorrere un'organizzazione che non rispetta una richiesta?"
@@ -1169,12 +1169,6 @@
   "social.twitterTitle": {
     "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
   },
-  "thankyou.Bitcoin": {
-    "message": "Dona Bitcoin"
-  },
-  "thankyou.Liberapay": {
-    "message": "Dona tramite Liberapay"
-  },
   "thankyou.copyPart1": {
     "message": "l'e-mail di richiesta dovrebbe essere stata aperta nell'applicazione e-mail, tutto ciò che devi fare è esaminarla e fare clic su Invia."
   },
@@ -1187,8 +1181,11 @@
   "thankyou.copyPart3": {
     "message": "Si prega di consultare il nostro elenco di <a>Domande frequenti</a> per ulteriori informazioni."
   },
-  "thankyou.extensionText": {
-    "message": "Risparmia tempo installando la nostra estensione del browser"
+  "thankyou.donate": {
+    "message": "Donate"
+  },
+  "thankyou.donation": {
+    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
   },
   "thankyou.findCompany": {
     "message": "Trova un'altra organizzazione"
