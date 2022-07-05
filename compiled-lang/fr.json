@@ -615,7 +615,7 @@
       "value": "Supprimer mes données"
     }
   ],
-  "donations.OpenCollective": [
+  "donations.donate": [
     {
       "type": 0,
       "value": "Donate"
@@ -3462,18 +3462,6 @@
       "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
     }
   ],
-  "thankyou.Bitcoin": [
-    {
-      "type": 0,
-      "value": "Faire un don de Bitcoin"
-    }
-  ],
-  "thankyou.Liberapay": [
-    {
-      "type": 0,
-      "value": "Faire un don via Liberapay"
-    }
-  ],
   "thankyou.copyPart1": [
     {
       "type": 0,
@@ -3540,10 +3528,16 @@
       "value": " pour plus d'informations."
     }
   ],
-  "thankyou.extensionText": [
+  "thankyou.donate": [
     {
       "type": 0,
-      "value": "Gagnez du temps en installant notre extension de navigateur"
+      "value": "Donate"
+    }
+  ],
+  "thankyou.donation": [
+    {
+      "type": 0,
+      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
     }
   ],
   "thankyou.findCompany": [

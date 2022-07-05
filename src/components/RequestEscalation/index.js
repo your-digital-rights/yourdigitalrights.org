@@ -1,72 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Regulations from "../../utils/regulations";
-import { isMobile } from "react-device-detect";
-import mailtoLink from "mailto-link";
-import { mailgoDirectRender } from "mailgo";
-import escalationEmail from "../../email-templates/escalation";
-import getInboundEmailAddress from "../../utils/email";
 import {getCountryCode} from "../../utils/geolocation";
 import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
 import tracking from "../../utils/tracking";
+import EmailSendButton from "../EmailSendButton";
 
-const mailgoConfig = {
-  dark: true,
-  showFooter: false,
-  tel: false,
-  sms: false,
-  actions: {
-    telegram: false,
-    whatsapp: false,
-    skype: false,
-    copy: false,
-  },
-  details: {
-    subject: false,
-    body: false,
-    to: false,
-    cc: false,
-    bcc: false,
-  },
-};
-
-function renderMailTo(requestItem, complaintText, countryCode, status) {
-  const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
-  const geo = geographies.filter(geo => geo.countryCode === countryCode);  
-  const to = geo[0].email;
-  const cc = requestItem.requestEmailTo.S;
-  const bcc = getInboundEmailAddress(requestItem.id.S, 'escalation');
-  const subject = escalationEmail.subject(requestItem);
-  const body = escalationEmail.body(requestItem, complaintText, status);
-
-  return mailtoLink({
-    to,
-    cc,
-    bcc,
-    subject,
-    body,
-  });
-};
-
-const handleFormSubmit = (requestItem, complaintText, geograpghy, status) => e => {
-  e.preventDefault();
-  const mailTo = renderMailTo(requestItem, complaintText, geograpghy, status);
-  if (isMobile) {
-    window.open(mailTo);
-  } else {
-    mailgoDirectRender(mailTo);
-  }
-  tracking.trackEscalationRequest(
-    requestItem.companyUrl.S,
-    requestItem.regulationType.S
-  );
-}
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {
+  const form = useRef();
   const geographies = Regulations[requestItem.regulationType.S].dpa.geographies;
   const defaultGeographyCode = geographies[0].countryCode;
   const [geograpghy, setGeograpghy] = useState(defaultGeographyCode);
@@ -85,6 +30,32 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
     getGeoCode();
   }, []);
 
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+  }
+
+
+  const handleEmailSendClick = (generateEmailFields) => {
+
+    const formStatus  = form.current.reportValidity();
+    if (!formStatus) return;
+
+    const geo = geographies.filter(geo => geo.countryCode === geograpghy)[0];  
+
+    const data = {
+      geo,
+      requestItem,
+      complaintText,
+      status
+    }
+    const action = generateEmailFields(data);    
+    action();
+
+    tracking.trackEscalationRequest(
+      requestItem.companyUrl.S,
+      requestItem.regulationType.S
+    );
+  }
 
   return (
     <div className={classes.root} id="escalationForm">
@@ -92,8 +63,9 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
         <Paper
           component="form"
           className={classes.formContainer}
-          onSubmit={handleFormSubmit(requestItem, complaintText, geograpghy, status)}
+          onSubmit={handleFormSubmit}
           elevation={10}
+          ref={form}
         >
           <TextField
             variant="outlined"
@@ -141,14 +113,13 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
             })}
           />
           <div>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
+            <EmailSendButton
+              emailType="ESCALATION"
+              onClick={handleEmailSendClick}
               className={classes.formButton}
             >
-              <FormattedMessage id="requestEscalation.submit" defaultMessage="Review & Send" />
-            </Button>
+              <FormattedMessage id="requestEscalation.submit" defaultMessage="Review and Send" /> 
+            </EmailSendButton>            
           </div>
         </Paper>
       </div>

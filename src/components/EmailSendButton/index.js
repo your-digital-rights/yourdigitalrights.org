@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
@@ -9,61 +9,125 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { withStyles } from "@material-ui/core/styles";
-import sar from '../../email-templates/sar';
+import erasureEmail from "../../email-templates/erasure";
+import sarEmail from "../../email-templates/sar";
+import reminderEmail from "../../email-templates/reminder";
+import escalationEmail from "../../email-templates/escalation";
+import getInboundEmailAddress from "../../utils/email";
+import mailtoLink from "mailto-link";
+import { useIntl } from "react-intl";
+import EmailIcon from '@material-ui/icons/Email';
+import AssignmentIcon from '@material-ui/icons/Assignment';
+import Image from 'next/image'
+
 
 const Style = (theme) => ({
     border: {
       borderRadius: "24px 24px 24px 24px",
+    },
+    menueItemIcon: {
+        marginRight: "10px",
+    },
+    popper: {
+        zIndex: "5",
     }
 });
 
+function defaultAction(to, cc, subject, body) {
+    return function() {
+        subject = encodeURIComponent(subject);
+        body = encodeURIComponent(body);
+        const link = mailtoLink({to, cc, subject, body});
+        return window.open(link, "_blank", "noopener");
+    };
+}
 
-const options = ['Default', 'Gmail', 'Outlook', 'Copy'];
+function gmailAction(to, cc, subject, body) {
+    return function() {
+        subject = encodeURIComponent(subject);
+        body = encodeURIComponent(body);
+        const ccPart = cc ? `cc=${cc}` : ``;
+        const link = `https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&${ccPart}&su=${subject}&to=${to}&body=${body}`;
+        return window.open(link, "_blank", "noopener");
+    };
+}
 
+function yahooAction(to, cc, subject, body) {
+    return function() {
+        subject = encodeURIComponent(subject);
+        body = encodeURIComponent(body);
+        const ccPart = cc ? `cc=${cc}` : ``;
+        const link = `https://compose.mail.yahoo.com/?to=${to}&subject=${subject}&${ccPart}&body=${body}`;
+        return window.open(link, "_blank", "noopener");
+    };
+}
 
-const EmailSendButton = ({ classes, text, emailType}) => {
+function copyAction(to, cc, subject, body) {
+    return function() {
+        return navigator.clipboard.writeText(body);
+    };
+}
+
+const EmailSendButton = ({ classes, children, emailType, onClick}) => {
+    const intl = useIntl();
     const [open, setOpen] = React.useState(false);
     const anchorRef = React.useRef(null);
-    const [selectedIndex, setSelectedIndex] = React.useState(1);
+    const buttonRef = React.useRef(null);
+    const [selectedIndex, setSelectedIndex] = React.useState(0);
 
-    const generateEmailFields = () => {
+    const emailOptions = [
+        {
+            name: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
+            icon: <EmailIcon className={classes.menueItemIcon}/>, 
+            action: defaultAction},
+        {
+            name: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
+            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            action: gmailAction}, 
+        {
+            name: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
+            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            action: yahooAction}, 
+        {
+            name: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
+            icon: <AssignmentIcon className={classes.menueItemIcon} />, 
+            action: copyAction},
+    ];
+    
+    var selectedAction = emailOptions[0];
+
+    const generateEmailFields = (data) => {
+        var to, cc, subject, body;
         if (emailType === 'DELETION' || emailType === 'ACCESS') {
             const emailTemplate = emailType === 'DELETION' ? erasureEmail : sarEmail;
-            const to = data.companyEmail;
-            const cc = data.followUp === "YES" ? getInboundEmailAddress(data.uuid, 'request') : null;
-            const reference = data.followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
-            const subject =  emailTemplate.subject(data);
-            const body =  emailTemplate.formatBody(data);
+            to = data.companyEmail;
+            cc = data.followUp === "YES" ? getInboundEmailAddress(data.uuid, 'request') : null;
+            subject =  emailTemplate.subject(data);
+            body =  emailTemplate.formatBody(data);
         } else if (emailType === 'REMINDER') {
-            
+            to = data.requestItem.requestEmailTo.S;
+            cc = getInboundEmailAddress(data.requestItem.id.S, 'reminder');
+            subject = reminderEmail.subject(data.requestItem);
+            body = reminderEmail.body(data.requestItem, data.status);
         } else if (emailType === 'ESCALATION') {
-            
+            to = data.geo.email;
+            cc = `${data.requestItem.requestEmailTo.S},${getInboundEmailAddress(data.requestItem.id.S, 'escalation')}`;
+            subject = escalationEmail.subject(data.requestItem);
+            body = escalationEmail.body(data.requestItem, data.complaintText, data.status);                
         } else {
             throw new Error(`Unsupported email type: ${emailType}`); 
         }
-        return {to, cc, subject, body}
+        return selectedAction.action(to, cc, subject, body);
     };
 
-    const getLink = (data) => {
-        console.info(`getLink ${data}`);
-    }
-
     const handleClick = () => {
-        console.info(`You clicked the emailSendButton defualt`);
-        /*const {to, cc, subject, body} = generateEmailFields();
-        window.open(mailtoLink({
-            to,
-            cc,
-            subject,
-            body,
-        }));*/
+        onClick(generateEmailFields);
+        setOpen(false);
     };
 
     const handleMenuItemClick = (event, index) => {
-        setSelectedIndex(index);
-        console.info(`You clicked emailSend menu item ${options[selectedIndex]}`);
-        console.info(`emailTo ${emailTo}`);
-        setOpen(false);
+        selectedAction = emailOptions[index];
+        buttonRef.current.click();
     };
 
     const handleToggle = () => {
@@ -74,7 +138,6 @@ const EmailSendButton = ({ classes, text, emailType}) => {
         if (anchorRef.current && anchorRef.current.contains(event.target)) {
             return;
         }
-
         setOpen(false);
     };
 
@@ -84,9 +147,10 @@ const EmailSendButton = ({ classes, text, emailType}) => {
                 <Button 
                     onClick={handleClick} 
                     className={classes.border} 
+                    ref={buttonRef}
                     type="submit"
                 >
-                    {text}
+                    {children}
                 </Button>
                 <Button
                     color="primary"
@@ -101,7 +165,7 @@ const EmailSendButton = ({ classes, text, emailType}) => {
                     <ArrowDropDownIcon />
                 </Button>
             </ButtonGroup>
-            <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
+            <Popper open={open} className={classes.popper} anchorEl={anchorRef.current} role={undefined} transition disablePortal >
                 {({ TransitionProps, placement }) => (
                     <Grow
                         {...TransitionProps}
@@ -112,13 +176,13 @@ const EmailSendButton = ({ classes, text, emailType}) => {
                         <Paper>
                             <ClickAwayListener onClickAway={handleClose}>
                                 <MenuList id="split-button-menu">
-                                    {options.map((option, index) => (
+                                    {emailOptions.map((option, index) => (
                                         <MenuItem
-                                            key={option}
-                                            selected={index === selectedIndex}
+                                            key={option.name}
                                             onClick={(event) => handleMenuItemClick(event, index)}
                                         >
-                                            {option}
+                                            {option.icon}
+                                            {option.name}
                                         </MenuItem>
                                     ))}
                                 </MenuList>

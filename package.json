@@ -53,7 +53,8 @@
     "react-share": "^2.3.1",
     "sitemap": "^6.4.0",
     "universal-fetch": "^1.0.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "vercel": "^25.2.3"
   },
   "devDependencies": {
     "@wdio/cli": "^7.19.7",

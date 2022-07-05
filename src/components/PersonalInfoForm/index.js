@@ -23,16 +23,12 @@ import {
   DeletionRequestLabelText,
 } from "./text";
 import { injectIntl } from "react-intl";
-import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
-import erasureEmail from "../../email-templates/erasure";
-import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
-import mailtoLink from "mailto-link";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -45,9 +41,10 @@ import RadioGroup from "@material-ui/core/RadioGroup";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
-import getInboundEmailAddress from "../../utils/email";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
+import Router, { withRouter } from 'next/router'
+
 
 const screenHeightBreakpoint = 560;
 
@@ -73,7 +70,7 @@ class Form extends Component {
 
     this.handlers = {};
     this.companyEmail = React.createRef();
-    this.sendEmailButton = React.createRef();
+    this.form = React.createRef();
   }
 
   async componentDidMount() {
@@ -123,16 +120,60 @@ class Form extends Component {
 
   handleFormSubmit = (e) => {
     e.preventDefault();
+  };
 
-    console.info(`Form submit`);
-    console.info(this.sendEmailButton);
-    const link = this.sendEmailButton.current.getLink();
-    console.info(`Form submit link ${link}`);
-    /*const mailTo = this.renderMailTo();
-    window.open(mailTo);*/
+  handleEmailSendClick = (generateEmailFields) => {
 
+    const status  = this.form.current.reportValidity();
+    if (!status) return;
+    
+
+    const uuid = uuidv4();
+    this.setState({ uuid: uuid });
+    const { selectedCompany } = this.props;
+    const requestType = this.state.requestType;
+    const regulationType = this.state.regulationType;
+    const followUp = this.state.followUp;
+
+    const companyEmail = selectedCompany
+      ? selectedCompany.email
+      : this.state.companyEmail;
+
+    const companyName = selectedCompany
+      ? selectedCompany.name
+      : this.state.companyName;
+
+    const companyUrl = selectedCompany
+      ? selectedCompany.url
+      : this.state.companyUrl;
+
+    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
+
+    const identifyingInfo = this.state.identifyingInfo;
+    const name = this.state.name;
+    const lang = this.props.intl.locale;
+
+    const data = { 
+      identifyingInfo, 
+      name, 
+      uuid, 
+      regulationType, 
+      followUp, 
+      companyEmail, 
+      reference, 
+      requestType, 
+      companyName, 
+      companyUrl, 
+      lang 
+    }
+    
+    const action = generateEmailFields(data);    
+    action();
+    this.saveRequest(data);
+    
     this.setState({ hasSubmit: true });
-    window.location = "#Form";
+    this.props.router.push("#Form", undefined, { shallow: true });
+    
     if (this.state.followUp === "YES") {
       tracking.trackFollwups(
         this.state.regulationType,
@@ -148,70 +189,19 @@ class Form extends Component {
         this.state.requestType
       );
     }
-  };
-
-  getEmailData = () => {
-    const uuid = uuidv4();
-    this.setState({ uuid: uuid });
-    const { selectedCompany } = this.props;
-    const requestType = this.state.requestType;
-    const regulationType = this.state.regulationType;
-    const followUp = this.state.followUp;
-
-    const comnpanyEmail = selectedCompany
-      ? selectedCompany.email
-      : this.state.companyEmail;
-
-    const companyName = selectedCompany
-      ? selectedCompany.name
-      : this.state.companyName;
-
-    const companyUrl = selectedCompany
-      ? selectedCompany.url
-      : this.state.companyUrl;
-
-    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
-
-    return { one:  2};
   }
 
-  saveRequest = () => {
-    const requestParams = {
-      uuid,
-      comnpanyEmail,
-      requestType,
-      regulationType,
-      companyName,
-      companyUrl,
-      followUp,
-      reference,
-    };
-
-    if (followUp === "YES") {
-      requestParams.name = this.state.name;
-      requestParams.identifyingInfo = this.state.identifyingInfo;
-      requestParams.emailTo = to;
-      requestParams.emailSubject = subject;
-      requestParams.emailBody = body;
-      requestParams.lang = this.props.intl.locale;
-    }
-
+  saveRequest = (data) => {
     fetch(
       "/api/save",
       {
         method: "POST",
-        body: JSON.stringify(requestParams),
+        body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
         },
       }
     );
-    /*return mailtoLink({
-      to,
-      cc,
-      subject,
-      body,
-    });*/
   }
 
   async addNewCompany() {
@@ -251,7 +241,7 @@ class Form extends Component {
     });    
 
     let formToDisplay;
-    if (this.state.hasSubmit) {
+    if (this.props.router.asPath.includes("#Form")) {
       formToDisplay = (
         <ThanksMessage
           id="ThanksMessageContainer"
@@ -272,6 +262,7 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
+          ref={this.form}
         >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
@@ -428,10 +419,10 @@ class Form extends Component {
           <div className={classes.formButton}>
             <EmailSendButton
               emailType={this.state.requestType}
-              text={SubmitButtonText}
-              getData={this.getEmailData}
-              ref={this.sendEmailButton}
-            />
+              onClick={this.handleEmailSendClick}
+            >
+              {SubmitButtonText}
+            </EmailSendButton>
           </div>
         </Paper>
       );
@@ -440,4 +431,4 @@ class Form extends Component {
     return <div id="Form">{formToDisplay}</div>;
   }
 }
-export default injectIntl(withStyles(styles)(Form));
+export default withRouter(injectIntl(withStyles(styles)(Form)));

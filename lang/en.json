@@ -1125,7 +1125,7 @@
     "message": "Please select your place of residence"
   },
   "requestEscalation.submit": {
-    "message": "Review & Send"
+    "message": "Review and Send"
   },
   "search.companyPlaceholder": {
     "message": "Search for an organization"
@@ -1135,6 +1135,18 @@
   },
   "search.noResultsMore": {
     "message": "Click here to add one"
+  },
+  "sendEmailButton.copy": {
+    "message": "Copy email text to clipboard"
+  },
+  "sendEmailButton.default": {
+    "message": "Open in your default email client"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Open in Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Open in Yahoo Mail"
   },
   "social.chromeCTA": {
     "message": "Download it for Chrome"
