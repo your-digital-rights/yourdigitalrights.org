@@ -831,7 +831,7 @@
     "message": "Anfragetyp"
   },
   "personalInfoForm.sendButton": {
-    "message": "Überprüfen Sie Ihre Anfrage"
+    "message": "Review and Send"
   },
   "personalInfoForm.validEmail": {
     "message": "Bitte geben Sie eine gültige E-Mail ein."
@@ -1125,7 +1125,7 @@
     "message": "Bitte wählen Sie Ihren Wohnort aus"
   },
   "requestEscalation.submit": {
-    "message": "Rezension & Senden"
+    "message": "Review and Send"
   },
   "search.companyPlaceholder": {
     "message": "Suche nach einer Organisation"
@@ -1135,6 +1135,18 @@
   },
   "search.noResultsMore": {
     "message": "Klicken Sie hier, um einen hinzuzufügen"
+  },
+  "sendEmailButton.copy": {
+    "message": "Copy email text to clipboard"
+  },
+  "sendEmailButton.default": {
+    "message": "Open in your default email client"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Open in Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Open in Yahoo Mail"
   },
   "social.chromeCTA": {
     "message": "Laden Sie es für Chrome herunter"
