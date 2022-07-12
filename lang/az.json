@@ -1029,10 +1029,10 @@
     "message": "crwdns3420:0crwdne3420:0"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "crwdns2879:0{ authority }crwdne2879:0"
+    "message": "crwdns3495:0{ authorityLong }crwdnd3495:0{authorityShort}crwdne3495:0"
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "crwdns2881:0{ companyName }crwdnd2881:0{ authority }crwdne2881:0"
+    "message": "crwdns3497:0{ companyName }crwdnd3497:0{ authorityLong }crwdnd3497:0{authorityShort}crwdne3497:0"
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "crwdns2883:0{dpa}crwdne2883:0"
@@ -1181,8 +1181,11 @@
   "social.twitterTitle": {
     "message": "crwdns2671:0crwdne2671:0"
   },
-  "thankyou.copyPart1": {
-    "message": "crwdns2679:0crwdne2679:0"
+  "thankyou.copyPart1Copy": {
+    "message": "crwdns3499:0crwdne3499:0"
+  },
+  "thankyou.copyPart1Email": {
+    "message": "crwdns3501:0crwdne3501:0"
   },
   "thankyou.copyPart2CCPA": {
     "message": "crwdns2681:0crwdne2681:0"
@@ -1206,10 +1209,10 @@
     "message": "crwdns3422:0{days}crwdne3422:0"
   },
   "thankyou.requestTypeAccess": {
-    "message": "crwdns2689:0crwdne2689:0"
+    "message": "crwdns3503:0crwdne3503:0"
   },
   "thankyou.requestTypeDelete": {
-    "message": "crwdns2691:0crwdne2691:0"
+    "message": "crwdns3505:0crwdne3505:0"
   },
   "thankyou.title": {
     "message": "crwdns2693:0crwdne2693:0"
