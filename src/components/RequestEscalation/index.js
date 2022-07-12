@@ -48,8 +48,8 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
       complaintText,
       status
     }
-    const action = generateEmailFields(data);    
-    action();
+    const selectedAction = generateEmailFields(data);    
+    selectedAction.action();
 
     tracking.trackEscalationRequest(
       requestItem.companyUrl.S,

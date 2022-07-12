@@ -10,7 +10,7 @@ const Style = (theme) => ({
     textAlign: "left",
   },
   container: {
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     [theme.breakpoints.down("sm")]: {
       padding: "30px 30px 0px",

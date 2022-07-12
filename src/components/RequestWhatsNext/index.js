@@ -30,8 +30,8 @@ class WhatsNext extends Component {
     if (!formStatus) return;
 
     this.setState({showEscalation: false});
-    const action = generateEmailFields(this.props);    
-    action();
+    const selectedAction = generateEmailFields(this.props);    
+    selectedAction.action();
 
     tracking.trackSendReminderEmail(
       this.props.requestItem.companyUrl.S,
@@ -59,7 +59,7 @@ class WhatsNext extends Component {
     );
   }
 
-  buttons(classes, regulation) {
+  buttons(classes) {
     const { requestItem } = this.props;
     const authority = Regulations[requestItem.regulationType.S].dpa.longName;
     return (

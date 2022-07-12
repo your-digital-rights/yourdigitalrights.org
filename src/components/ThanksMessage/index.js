@@ -7,11 +7,10 @@ import Social from "../Social";
 import tracking from "../../utils/tracking";
 import { 
   ThanksTitleText, 
-  ThanksCopyPart1, 
+  ThanksCopyPart1Email,
+  ThanksCopyPart1Copy, 
   ThanksRequestTypeDelete,
   ThanksRequestTypeAccess,
-  ThanksCopyPart2CCPA, 
-  ThanksCopyPart2GDPR,  
   ThanksCopyPart3,
   FindCompanyText,
   DonationText
@@ -70,8 +69,9 @@ const styles = (theme) => ({
 
 const ThanksMessage = (props) => {
   const intl = useIntl();
-  let { classes, requestType, regulationType, uuid } = props;
+  let { classes, requestType, regulationType, uuid, selectedActionName } = props;
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
+  let ThanksCopyPart1 = (selectedActionName == "Copy") ? ThanksCopyPart1Copy : ThanksCopyPart1Email;
   let replyTimeText = intl.formatMessage({
       id: "thankyou.howLongToReply",
       defaultMessage: "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems.",
@@ -80,8 +80,6 @@ const ThanksMessage = (props) => {
       days: (<em>{Regulations[regulationType].timeLimit} days</em>),
     }
   );
-  
-  (regulationType == "GDPR") ? ThanksCopyPart2GDPR : ThanksCopyPart2CCPA;
 
   let hide = () => {
     props.hideThanks();
@@ -123,7 +121,7 @@ const ThanksMessage = (props) => {
           component="p"
           gutterBottom={true}
           className={classes.text}
-          id="ThanksMessageText"
+          id="ThanksMessageDonationText"
         >
           {DonationText}
         </Typography>  

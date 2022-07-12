@@ -14,10 +14,10 @@ const Style = (theme) => ({
   container: {
     paddingBottom: "25px",
     paddingTop: "25px",
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     margin: "0px auto",
-    width: "850px",
+    width: "860px",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
       paddingBottom: "0px",

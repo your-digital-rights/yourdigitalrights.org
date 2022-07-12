@@ -17,10 +17,10 @@ const Style = (theme) => ({
     fontSize: "18px",
     fontWeight: "normal",
     lineHeight: "27px",
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     margin: "0px auto",
-    width: "850px",
+    width: "860px",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
     },
@@ -44,6 +44,7 @@ const Style = (theme) => ({
     background: theme.palette.primary.main,
     [theme.breakpoints.down("sm")]: {
       marginTop: "10px",
+      marginLeft: "0px",
     },
   },
 });
