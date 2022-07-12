@@ -16,7 +16,6 @@ const Style = (theme) => ({
     },
   },
   formContainer: {
-    margin: "auto",
     maxWidth: "777px",
     padding: "30px",
     display: "flex",

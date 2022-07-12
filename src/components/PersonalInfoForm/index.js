@@ -23,17 +23,12 @@ import {
   DeletionRequestLabelText,
 } from "./text";
 import { injectIntl } from "react-intl";
-import Button from "@material-ui/core/Button";
 import React, { Component, Fragment } from "react";
 import Paper from "@material-ui/core/Paper";
 import TextField from "@material-ui/core/TextField";
 import ThanksMessage from "../ThanksMessage";
 import Typography from "@material-ui/core/Typography";
-import erasureEmail from "../../email-templates/erasure";
-import sarEmail from "../../email-templates/sar";
 import fetch from "isomorphic-fetch";
-import mailtoLink from "mailto-link";
-import { mailgoDirectRender, mailgoValidateEmail } from "mailgo";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -43,12 +38,13 @@ import FormHelperText from '@material-ui/core/FormHelperText';
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
-import { isMobile } from "react-device-detect";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
-import getInboundEmailAddress from "../../utils/email";
 import Regulations from "../../utils/regulations";
+import EmailSendButton from "../EmailSendButton";
+import { withRouter } from 'next/router'
+import { mailgoValidateEmail } from "mailgo";
 
 const screenHeightBreakpoint = 560;
 
@@ -73,30 +69,11 @@ class Form extends Component {
     };
 
     this.handlers = {};
-    this.container = React.createRef();
     this.companyEmail = React.createRef();
+    this.form = React.createRef();
   }
 
   async componentDidMount() {
-    window.mailgoConfig = {
-      dark: true,
-      showFooter: false,
-      tel: false,
-      sms: false,
-      actions: {
-        telegram: false,
-        whatsapp: false,
-        skype: false,
-        copy: false,
-      },
-      details: {
-        subject: false,
-        body: false,
-        to: false,
-        cc: false,
-        bcc: false,
-      },
-    };
     if (typeof window !== "undefined") {
       this.setState({ screenHeight: window.innerHeight });
       window.addEventListener("resize", this.onScreenResize);
@@ -143,16 +120,60 @@ class Form extends Component {
 
   handleFormSubmit = (e) => {
     e.preventDefault();
+  };
 
-    const mailTo = this.renderMailTo();
-    if (isMobile) {
-      window.open(mailTo);
-    } else {
-      mailgoDirectRender(mailTo);
+  handleEmailSendClick = (generateEmailFields) => {
+
+    const status  = this.form.current.reportValidity();
+    if (!status) return;
+    
+
+    const uuid = uuidv4();
+    this.setState({ uuid: uuid });
+    const { selectedCompany } = this.props;
+    const requestType = this.state.requestType;
+    const regulationType = this.state.regulationType;
+    const followUp = this.state.followUp;
+
+    const companyEmail = selectedCompany
+      ? selectedCompany.email
+      : this.state.companyEmail;
+
+    const companyName = selectedCompany
+      ? selectedCompany.name
+      : this.state.companyName;
+
+    const companyUrl = selectedCompany
+      ? selectedCompany.url
+      : this.state.companyUrl;
+
+    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
+
+    const identifyingInfo = this.state.identifyingInfo;
+    const name = this.state.name;
+    const lang = this.props.intl.locale;
+
+    const data = { 
+      identifyingInfo, 
+      name, 
+      uuid, 
+      regulationType, 
+      followUp, 
+      companyEmail, 
+      reference, 
+      requestType, 
+      companyName, 
+      companyUrl, 
+      lang 
     }
-
+    
+    const action = generateEmailFields(data);    
+    action();
+    this.saveRequest(data);
+    
     this.setState({ hasSubmit: true });
-    window.location = "#Form";
+    this.props.router.push("#Form", undefined, { shallow: true });
+    
     if (this.state.followUp === "YES") {
       tracking.trackFollwups(
         this.state.regulationType,
@@ -168,80 +189,19 @@ class Form extends Component {
         this.state.requestType
       );
     }
-  };
+  }
 
-  renderMailTo() {
-    const uuid = uuidv4();
-    this.setState({ uuid: uuid });
-    const { selectedCompany } = this.props;
-    const requestType = this.state.requestType;
-    const regulationType = this.state.regulationType;
-    const followUp = this.state.followUp;
-
-    const to = selectedCompany
-      ? selectedCompany.email
-      : this.state.companyEmail;
-
-    const cc =
-      followUp === "YES"  
-        ? getInboundEmailAddress(uuid, 'request')
-        : null;
-
-    const companyName = selectedCompany
-      ? selectedCompany.name
-      : this.state.companyName;
-
-    const companyUrl = selectedCompany
-      ? selectedCompany.url
-      : this.state.companyUrl;
-
-    const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
-
-    const subject =
-      requestType == "DELETION"
-        ? erasureEmail.subject({ ...this.state, reference})
-        : sarEmail.subject({ ...this.state, reference });
-
-    const body =
-      requestType == "DELETION"
-        ? erasureEmail.formatBody({ ...this.state, companyName })
-        : sarEmail.formatBody({ ...this.state, companyName });
-
-    const requestParams = {
-      uuid,
-      requestType,
-      regulationType,
-      companyName,
-      companyUrl,
-      followUp,
-    };
-
-    if (followUp === "YES") {
-      requestParams.name = this.state.name;
-      requestParams.identifyingInfo = this.state.identifyingInfo;
-      requestParams.emailTo = to;
-      requestParams.emailSubject = subject;
-      requestParams.emailBody = body;
-      requestParams.lang = this.props.intl.locale;
-    }
-
+  saveRequest = (data) => {
     fetch(
       "/api/save",
       {
         method: "POST",
-        body: JSON.stringify(requestParams),
+        body: JSON.stringify(data),
         headers: {
           "Content-Type": "application/json",
         },
       }
     );
-
-    return mailtoLink({
-      to,
-      cc,
-      subject,
-      body,
-    });
   }
 
   async addNewCompany() {
@@ -281,7 +241,7 @@ class Form extends Component {
     });    
 
     let formToDisplay;
-    if (this.state.hasSubmit) {
+    if (this.props.router.asPath.includes("#Form")) {
       formToDisplay = (
         <ThanksMessage
           id="ThanksMessageContainer"
@@ -302,6 +262,7 @@ class Form extends Component {
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
+          ref={this.form}
         >
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
@@ -455,15 +416,13 @@ class Form extends Component {
               {FollowUpDetailsTextWarning}
             </FormHelperText>
           </FormControl>
-          <div>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={classes.formButton}
+          <div className={classes.formButton}>
+            <EmailSendButton
+              emailType={this.state.requestType}
+              onClick={this.handleEmailSendClick}
             >
               {SubmitButtonText}
-            </Button>
+            </EmailSendButton>
           </div>
         </Paper>
       );
@@ -472,4 +431,4 @@ class Form extends Component {
     return <div id="Form">{formToDisplay}</div>;
   }
 }
-export default injectIntl(withStyles(styles)(Form));
+export default withRouter(injectIntl(withStyles(styles)(Form)));

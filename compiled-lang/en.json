@@ -2214,7 +2214,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review your request"
+      "value": "Review and Send"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3383,7 +3383,7 @@
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review & Send"
+      "value": "Review and Send"
     }
   ],
   "search.companyPlaceholder": [
@@ -3402,6 +3402,30 @@
     {
       "type": 0,
       "value": "Click here to add one"
+    }
+  ],
+  "sendEmailButton.copy": [
+    {
+      "type": 0,
+      "value": "Copy email text to clipboard"
+    }
+  ],
+  "sendEmailButton.default": [
+    {
+      "type": 0,
+      "value": "Open in your default email client"
+    }
+  ],
+  "sendEmailButton.gmail": [
+    {
+      "type": 0,
+      "value": "Open in Gmail"
+    }
+  ],
+  "sendEmailButton.yahoo": [
+    {
+      "type": 0,
+      "value": "Open in Yahoo Mail"
     }
   ],
   "social.chromeCTA": [
