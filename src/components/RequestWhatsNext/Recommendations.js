@@ -139,7 +139,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         <strong>
           <FormattedMessage
             id="request.success"
-            defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+            defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
             values={{
               companyName: companyName,
               a: txt => (<a href={`/r/${requestItem.id.S}/delete`}>{txt}</a>),
