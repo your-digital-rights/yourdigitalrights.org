@@ -43,8 +43,8 @@ import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
-import Router, { withRouter } from 'next/router'
-
+import { withRouter } from 'next/router'
+import { mailgoValidateEmail } from "mailgo";
 
 const screenHeightBreakpoint = 560;
 
