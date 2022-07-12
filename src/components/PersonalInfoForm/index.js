@@ -167,10 +167,11 @@ class Form extends Component {
       lang 
     }
     
-    const action = generateEmailFields(data);    
-    action();
+    const selectedAction = generateEmailFields(data);    
+
+    selectedAction.action();
     this.saveRequest(data);
-    
+    this.setState({ selectedActionName: selectedAction.name });
     this.setState({ hasSubmit: true });
     this.props.router.push("#Form", undefined, { shallow: true });
     
@@ -249,6 +250,7 @@ class Form extends Component {
           requestType={this.state.requestType}
           regulationType={this.state.regulationType}
           uuid={this.state.uuid}
+          selectedActionName={this.state.selectedActionName}
           hideThanks={() =>
             (window.location = `/#${searchOrganizationsUrlAnchor}`)
           }

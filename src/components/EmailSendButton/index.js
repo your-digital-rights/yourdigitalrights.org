@@ -75,19 +75,23 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
 
     const emailOptions = [
         {
-            name: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
+            name: 'Default',
+            text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
             icon: <EmailIcon className={classes.menueItemIcon}/>, 
             action: defaultAction},
         {
-            name: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
+            name: 'Gmail',
+            text: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
             icon: <div className={classes.menueItemIcon}><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></div>, 
             action: gmailAction}, 
         {
-            name: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
+            name: 'Yahoo mail',
+            text: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
             icon: <div className={classes.menueItemIcon}><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></div>, 
             action: yahooAction}, 
         {
-            name: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
+            name: 'Copy',
+            text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
             icon: <AssignmentIcon className={classes.menueItemIcon} />, 
             action: copyAction},
     ];
@@ -115,7 +119,10 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
         } else {
             throw new Error(`Unsupported email type: ${emailType}`); 
         }
-        return selectedAction.action(to, cc, subject, body);
+        return {
+            name: selectedAction.name, 
+            action: selectedAction.action(to, cc, subject, body)
+        };
     };
 
     const handleClick = () => {
@@ -180,7 +187,7 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
                                             onClick={(event) => handleMenuItemClick(event, index)}
                                         >
                                             {option.icon}
-                                            {option.name}
+                                            {option.text}
                                         </MenuItem>
                                     ))}
                                 </MenuList>

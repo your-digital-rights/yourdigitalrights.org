@@ -1029,10 +1029,10 @@
     "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recommendation: escalate your request to your { authority }."
+    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
@@ -1181,8 +1181,11 @@
   "social.twitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
-  "thankyou.copyPart1": {
-    "message": "request email should have opened in your email application, all you need to do is review it and click Send."
+  "thankyou.copyPart1Copy": {
+    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "email should have opened up in your email application, all you need to do is review it and click Send."
   },
   "thankyou.copyPart2CCPA": {
     "message": "Organization have <em>45 days</em> to comply, and may ask you for additional information to help identify you in their systems."
@@ -1206,10 +1209,10 @@
     "message": "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems."
   },
   "thankyou.requestTypeAccess": {
-    "message": "An access"
+    "message": "An access request"
   },
   "thankyou.requestTypeDelete": {
-    "message": "A deletion"
+    "message": "A deletion request"
   },
   "thankyou.title": {
     "message": "Thank You"

@@ -2934,11 +2934,19 @@
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
     }
   ],
   "request.next.escalateToAuthorityPartial": [
@@ -2956,11 +2964,19 @@
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
     }
   ],
   "request.next.escalatedAndNoSuccess": [
@@ -3494,10 +3510,16 @@
       "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
     }
   ],
-  "thankyou.copyPart1": [
+  "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "request email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+    }
+  ],
+  "thankyou.copyPart1Email": [
+    {
+      "type": 0,
+      "value": "email should have opened up in your email application, all you need to do is review it and click Send."
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -3595,13 +3617,13 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access"
+      "value": "An access request"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion"
+      "value": "A deletion request"
     }
   ],
   "thankyou.title": [
