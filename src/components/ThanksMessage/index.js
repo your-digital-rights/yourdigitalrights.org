@@ -121,7 +121,7 @@ const ThanksMessage = (props) => {
           component="p"
           gutterBottom={true}
           className={classes.text}
-          id="ThanksMessageText"
+          id="ThanksMessageDonationText"
         >
           {DonationText}
         </Typography>  

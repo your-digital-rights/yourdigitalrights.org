@@ -7,7 +7,7 @@ export const ThanksTitleText = (
 export const ThanksCopyPart1Email = (
   <FormattedMessage
     id="thankyou.copyPart1Email"
-    defaultMessage="email should have opened up in your email application, all you need to do is review it and click Send."
+    defaultMessage="email should have opened in your email application, all you need to do is review it and click Send."
   />
 );
 export const ThanksCopyPart1Copy = (
