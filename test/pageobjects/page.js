@@ -28,19 +28,6 @@ class Page {
     return $("h1");
   }
 
-  get mailTo() {
-    return $("<body>").getAttribute("data-open-url");
-  }
-
-  get parsedMailTo() {
-    const mailTo = this.mailToParser.parse(this.dataOpenUrlAttribute);
-    return {
-      to: mailTo.to,
-      subject: decodeURIComponent(mailTo.attributeKey.subject),
-      body: decodeURIComponent(mailTo.attributeKey.body)
-    };
-  }
-
   get dataOpenUrlAttribute() {
     return $("<body>").getAttribute("data-open-url");
   }
@@ -196,6 +183,15 @@ class Page {
     }
 
     await button.click();
+  }
+
+  parsedMailTo(url) {
+    const mailTo = this.mailToParser.parse(url);
+    return {
+      to: mailTo.to,
+      subject: decodeURIComponent(mailTo.attributeKey.subject),
+      body: decodeURIComponent(mailTo.attributeKey.body)
+    };
   }
 
   parseMailToFromGmailUrl(gmailUrl) {

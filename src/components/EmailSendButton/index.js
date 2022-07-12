@@ -35,8 +35,6 @@ const Style = (theme) => ({
 
 function defaultAction(to, cc, subject, body) {
     return function() {
-        subject = encodeURIComponent(subject);
-        body = encodeURIComponent(body);
         const link = mailtoLink({to, cc, subject, body});
         return window.open(link, "_blank", "noopener");
     };

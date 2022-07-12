@@ -68,12 +68,12 @@ describe("When I visit the home page", () => {
         );
         await page.personalInfoForm.select("Regulation", "GDPR (European Union)");
         await page.personalInfoForm.submit();
-        mailTo = await page.parsedMailTo;
+        mailTo = page.parsedMailTo(await page.dataOpenUrlAttribute);
       });
 
-      it("opens a mailto url", () => {
+      it("and open in default email client", async () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Erasure Request (Article 17 of the GDPR)");
+        mailTo.subject.should.be.equal("Data deletion request");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
@@ -88,12 +88,12 @@ describe("When I visit the home page", () => {
           'Should contain GDPR'
         );
 
-        page.hasTracked(
+        (await page.hasTracked(
           "trackEvent",
-          "Send Erasure request",
-          "complete",
-          "Slack"
-        ).should.be.true;
+          "Erasure Request",
+          "Send GDPR Request",
+          "slack.com"
+        )).should.be.true;
       });
 
       describe("thank you message", () => {
