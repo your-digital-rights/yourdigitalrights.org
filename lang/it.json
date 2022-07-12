@@ -1029,10 +1029,10 @@
     "message": "<ul><li>Libera parola o altro diritto previsto dalla legge.</li><li>Trattamento a fini di ricerca, se la cancellazione di informazioni personali renderebbe impossibile o seriamente compromettere il conseguimento di tali ricerche.</li><li>Il trattamento di tali dati personali è necessario per proteggere da attività illecite o perseguire i responsabili dell'attività.</li><li>Per adempiere a un obbligo legale.</li><li>Per eseguire un contratto tra l'azienda e il consumatore.</li><li>Individuare gli incidenti di sicurezza, proteggere contro le attività maliziose, ingannevoli, fraudolente o illegali, o perseguire i responsabili di tale attività.</li><li>Debug per identificare e riparare gli errori che compromettono la funzionalità desiderata esistente.</li><li>Abilitare esclusivamente usi interni che siano ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa.</li><li>Altrimenti utilizzare le informazioni personali del consumatore, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Raccomandazione: aumenta la tua richiesta al tuo { authority }."
+    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Raccomandazione: se credi che { companyName } avrebbe dovuto soddisfare pienamente la tua richiesta, ti consigliamo di aumentare la tua richiesta al { authority }."
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "Hai escalated to the {dpa}, si prega di continuare a comunicare direttamente con loro. Non c'è altro che possiamo fare per aiutare."
@@ -1181,8 +1181,11 @@
   "social.twitterTitle": {
     "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
   },
-  "thankyou.copyPart1": {
-    "message": "l'e-mail di richiesta dovrebbe essere stata aperta nell'applicazione e-mail, tutto ciò che devi fare è esaminarla e fare clic su Invia."
+  "thankyou.copyPart1Copy": {
+    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "email should have opened in your email application, all you need to do is review it and click Send."
   },
   "thankyou.copyPart2CCPA": {
     "message": "L'organizzazione ha <em>45 giorni</em> per conformarsi e potrebbe chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
@@ -1206,10 +1209,10 @@
     "message": "Le organizzazioni hanno {days} da rispettare, e potrebbero chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
   },
   "thankyou.requestTypeAccess": {
-    "message": "Un accesso"
+    "message": "An access request"
   },
   "thankyou.requestTypeDelete": {
-    "message": "Una cancellazione"
+    "message": "A deletion request"
   },
   "thankyou.title": {
     "message": "Grazie"
