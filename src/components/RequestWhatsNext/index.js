@@ -31,7 +31,7 @@ class WhatsNext extends Component {
 
     this.setState({showEscalation: false});
     const selectedAction = generateEmailFields(this.props);    
-    selectedAction.action();
+    selectedAction.run();
 
     tracking.trackSendReminderEmail(
       this.props.requestItem.companyUrl.S,
