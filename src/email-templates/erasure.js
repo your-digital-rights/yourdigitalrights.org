@@ -36,13 +36,14 @@ export default {
 
     if (data.identifyingInfo) {
       body = body.concat(
-        `${additionalInfo}
-        ${data.identifyingInfo}
-        `);
+`${additionalInfo}
+${data.identifyingInfo}
+`);
     }
 
     body = body.concat(
-      `${salutation}
+`
+${salutation}
 
 ${data.name}
 
