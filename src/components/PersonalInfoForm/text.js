@@ -113,7 +113,7 @@ export const FollowUpDetailsTextWarning = (
 );
 
 export const SubmitButtonText = (
-  <FormattedMessage id="personalInfoForm.sendButton" defaultMessage="Review your request" />
+  <FormattedMessage id="personalInfoForm.sendButton" defaultMessage="Review and Send" />
 );
 
 export const RegulationTypeText = (

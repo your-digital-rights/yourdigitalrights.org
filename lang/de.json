@@ -831,7 +831,7 @@
     "message": "Anfragetyp"
   },
   "personalInfoForm.sendButton": {
-    "message": "Überprüfen Sie Ihre Anfrage"
+    "message": "Review and Send"
   },
   "personalInfoForm.validEmail": {
     "message": "Bitte geben Sie eine gültige E-Mail ein."
@@ -1029,10 +1029,10 @@
     "message": "<ul><li>Redefreiheit oder ein anderes Recht, das gesetzlich vorgesehen ist.</li><li>Verarbeitung zu Forschungszwecken, wenn die Löschung personenbezogener Daten die Erreichung dieser Forschung unmöglich oder ernsthaft beeinträchtigen würde.</li><li>Die Verarbeitung dieser persönlichen Daten ist notwendig, um gegen illegale Aktivitäten zu schützen oder die Verantwortlichen der Aktivität zu verfolgen.</li><li>zur Erfüllung einer gesetzlichen Verpflichtung.</li><li>Um einen Vertrag zwischen dem Unternehmen und dem Verbraucher auszuführen.</li><li>Erkenne Sicherheitsvorfälle, schütze vor schädlichen, betrügerischen oder illegalen Aktivitäten, oder verfolge die Verantwortlichen für diese Aktivität.</li><li>Debug um Fehler zu identifizieren und zu reparieren, die die bereits beabsichtigte Funktionalität beeinträchtigen.</li><li>Um ausschließlich interne Verwendungen zu ermöglichen, die den Erwartungen des Verbrauchers auf der Grundlage der Beziehung des Verbrauchers zum Unternehmen angemessen entsprechen.</li><li>Andernfalls verwenden Sie die persönlichen Daten des Verbrauchers intern, auf rechtmäßige Weise, die mit dem Kontext vereinbar ist, in dem der Verbraucher die Informationen zur Verfügung gestellt hat.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Empfehlung: Eskalieren Sie Ihre Anfrage an Ihre { authority }."
+    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Empfehlung: Wenn Sie der Meinung sind, dass { companyName } Ihrer Anfrage vollständig nachgekommen sein sollte, empfehlen wir Ihnen, Ihre Anfrage an { authority } zu eskalieren."
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "Du bist zu {dpa}eskaliert, bitte kommuniziere weiterhin direkt mit ihnen. Wir können nichts anderes tun, um zu helfen."
@@ -1125,7 +1125,7 @@
     "message": "Bitte wählen Sie Ihren Wohnort aus"
   },
   "requestEscalation.submit": {
-    "message": "Rezension & Senden"
+    "message": "Review and Send"
   },
   "search.companyPlaceholder": {
     "message": "Suche nach einer Organisation"
@@ -1135,6 +1135,18 @@
   },
   "search.noResultsMore": {
     "message": "Klicken Sie hier, um einen hinzuzufügen"
+  },
+  "sendEmailButton.copy": {
+    "message": "Copy email text to clipboard"
+  },
+  "sendEmailButton.default": {
+    "message": "Open in your default email client"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Open in Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Open in Yahoo Mail"
   },
   "social.chromeCTA": {
     "message": "Laden Sie es für Chrome herunter"
@@ -1169,8 +1181,11 @@
   "social.twitterTitle": {
     "message": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
   },
-  "thankyou.copyPart1": {
-    "message": "Anfrage-E-Mail in Ihrer E-Mail-Anwendung geöffnet haben sollte, müssen Sie sie nur überprüfen und auf Senden klicken."
+  "thankyou.copyPart1Copy": {
+    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "email should have opened in your email application, all you need to do is review it and click Send."
   },
   "thankyou.copyPart2CCPA": {
     "message": "Die Organisation hat <em>45 Tage</em> um die Anforderungen zu erfüllen, und kann Sie um zusätzliche Informationen bitten, um Sie in ihren Systemen zu identifizieren."
@@ -1194,10 +1209,10 @@
     "message": "Organisationen müssen {days} erfüllen und können Sie um zusätzliche Informationen bitten, um Sie in ihren Systemen zu identifizieren."
   },
   "thankyou.requestTypeAccess": {
-    "message": "Ein Zugang"
+    "message": "An access request"
   },
   "thankyou.requestTypeDelete": {
-    "message": "Eine Löschung"
+    "message": "A deletion request"
   },
   "thankyou.title": {
     "message": "Danke schön"

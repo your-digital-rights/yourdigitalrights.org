@@ -65,10 +65,6 @@ class Page {
     };
   }
 
-  get mailDialog() {
-    return new MailDialog("[role=dialog]");
-  }
-
   get thanksMessage() {
     const thanks = $("#ThanksMessage");
 
@@ -187,6 +183,15 @@ class Page {
     }
 
     await button.click();
+  }
+
+  parsedMailTo(url) {
+    const mailTo = this.mailToParser.parse(url);
+    return {
+      to: mailTo.to,
+      subject: decodeURIComponent(mailTo.attributeKey.subject),
+      body: decodeURIComponent(mailTo.attributeKey.body)
+    };
   }
 
   parseMailToFromGmailUrl(gmailUrl) {

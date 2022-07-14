@@ -69,9 +69,10 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
               <strong>
                 <FormattedMessage
                   id="request.next.escalateToAuthorityNoReply"
-                  defaultMessage="Recommendation: escalate your request to your { authority }."
+                  defaultMessage="Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
                   values={{
-                    authority: regulation.dpa.longName,
+                    authorityLong: regulation.dpa.longName,
+                    authorityShort: regulation.dpa.shortName,
                   }}
                 />
               </strong>
@@ -92,9 +93,10 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
               <strong>
                 <FormattedMessage
                   id="request.next.escalateToAuthorityNoReply"
-                  defaultMessage="Recommendation: escalate your request to your { authority }."
+                  defaultMessage="Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
                   values={{
-                    authority: regulation.dpa.longName,
+                    authorityLong: regulation.dpa.longName,
+                    authorityShort: regulation.dpa.shortName,
                   }}
                 />
               </strong>
@@ -126,9 +128,10 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         <strong>
           <FormattedMessage
             id="request.next.escalateToAuthorityPartial"
-            defaultMessage="Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authority }."
+            defaultMessage="Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
             values={{
-              authority: regulation.dpa.longName,
+              authorityLong: regulation.dpa.longName,
+              authorityShort: regulation.dpa.shortName,
               companyName: companyName,
             }}
           />
@@ -139,7 +142,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         <strong>
           <FormattedMessage
             id="request.success"
-            defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+            defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
             values={{
               companyName: companyName,
               a: txt => (<a href={`/r/${requestItem.id.S}/delete`}>{txt}</a>),

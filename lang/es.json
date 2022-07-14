@@ -831,7 +831,7 @@
     "message": "Tipo de solicitud"
   },
   "personalInfoForm.sendButton": {
-    "message": "Revise su solicitud"
+    "message": "Review and Send"
   },
   "personalInfoForm.validEmail": {
     "message": "Por favor, introduzca un correo electrónico válido."
@@ -1029,10 +1029,10 @@
     "message": "<ul><li>Texto libre u otro derecho proporcionado por la ley.</li><li>Procesamiento con fines de investigación, si la eliminación de información personal haría imposible o perjudicaría gravemente el logro de dicha investigación.</li><li>El tratamiento de esa información personal es necesario para proteger contra la actividad ilegal o procesar a los responsables de la actividad.</li><li>Por cumplir con una obligación legal.</li><li>Realizar un contrato entre la empresa y el consumidor.</li><li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad.</li><li>Depuración para identificar y reparar errores que perjudican la funcionalidad predefinida existente.</li><li>Para permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basándose en la relación del consumidor con el negocio.</li><li>En caso contrario, utilice internamente la información personal del consumidor de forma legal que sea compatible con el contexto en el que el consumidor facilitó la información.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recomendación: aumente su solicitud a su { authority }."
+    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recomendación: si cree que { companyName } debería haber cumplido por completo con su solicitud, le recomendamos que aumente su solicitud hasta el { authority }."
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
     "message": "Has escalado a {dpa}. Por favor, continúa comunicándote con ellos directamente. No hay nada más que podamos hacer para ayudarte."
@@ -1125,7 +1125,7 @@
     "message": "Por favor, seleccione su lugar de residencia"
   },
   "requestEscalation.submit": {
-    "message": "Revisar y enviar"
+    "message": "Review and Send"
   },
   "search.companyPlaceholder": {
     "message": "Buscar una organización"
@@ -1135,6 +1135,18 @@
   },
   "search.noResultsMore": {
     "message": "Haga clic aquí para añadir una organización"
+  },
+  "sendEmailButton.copy": {
+    "message": "Copy email text to clipboard"
+  },
+  "sendEmailButton.default": {
+    "message": "Open in your default email client"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Open in Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Open in Yahoo Mail"
   },
   "social.chromeCTA": {
     "message": "Descárgalo para Chrome"
@@ -1169,8 +1181,11 @@
   "social.twitterTitle": {
     "message": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org."
   },
-  "thankyou.copyPart1": {
-    "message": "El correo electrónico de solicitud debería haberse abierto en su aplicación de correo electrónico seleccionada, todo lo que necesita hacer es revisarlo y hacer clic en Enviar."
+  "thankyou.copyPart1Copy": {
+    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "email should have opened in your email application, all you need to do is review it and click Send."
   },
   "thankyou.copyPart2CCPA": {
     "message": "La organización tiene <em>45 días</em> para cumplir con su solicitud. La organización podría solicitarle información adicional para ayudar a identificarlo en sus sistemas."
@@ -1194,10 +1209,10 @@
     "message": "Las organizaciones tienen {days} que cumplir, y pueden pedirle información adicional para ayudarle a identificar en sus sistemas."
   },
   "thankyou.requestTypeAccess": {
-    "message": "Acceso"
+    "message": "An access request"
   },
   "thankyou.requestTypeDelete": {
-    "message": "Eliminar"
+    "message": "A deletion request"
   },
   "thankyou.title": {
     "message": "Gracias"

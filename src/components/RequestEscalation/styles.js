@@ -8,7 +8,7 @@ const Style = (theme) => ({
   },
   container: {
     paddingTop: "30px",
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     [theme.breakpoints.down("sm")]: {
       padding: "30px 30px 0px",
@@ -16,7 +16,6 @@ const Style = (theme) => ({
     },
   },
   formContainer: {
-    margin: "auto",
     maxWidth: "777px",
     padding: "30px",
     display: "flex",

@@ -15,10 +15,10 @@ const Style = (theme) => ({
   },
   container: {
     paddingTop: "80px",
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     margin: "0px auto",
-    width: "850px",
+    width: "860px",
     [theme.breakpoints.down("sm")]: {
       padding: "20px 30px 0px",
       width: "100%",
@@ -28,22 +28,25 @@ const Style = (theme) => ({
     fontSize: "38px",
     fontWeight: "normal",
     marginBottom: "-15px",
-  },
-  information: {
-    fontSize: "21px",
-    fontWeight: "normal",
-    lineHeight: "31px",
-    marginTop: "10px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "28px",
+    },    
   },
   status: {
     fontSize: "24px",
     fontWeight: "normal",
     marginBottom: "30px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "16px",
+    },      
   },
   ref: {
     fontSize: "24px",
     fontWeight: "normal",
     marginBottom: "30px",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "16px",
+    },      
   },
   buttons: {
     display: "flex",
@@ -63,6 +66,10 @@ const Style = (theme) => ({
     "&:hover": {
       background: "#fff",
     },
+    [theme.breakpoints.down("sm")]: {
+      padding: "10px",
+      fontSize: "12px",
+    },      
   },
   primaryButton: {
     margin: "0 10px 10px 0",
@@ -75,6 +82,10 @@ const Style = (theme) => ({
     "&:hover": {
       background: "#00ae8d",
     },
+    [theme.breakpoints.down("sm")]: {
+      padding: "10px",
+      fontSize: "12px",
+    },      
   },
 });
 

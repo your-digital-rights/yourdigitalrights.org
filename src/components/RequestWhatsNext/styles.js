@@ -17,10 +17,10 @@ const Style = (theme) => ({
     fontSize: "18px",
     fontWeight: "normal",
     lineHeight: "27px",
-    maxWidth: "850px",
+    maxWidth: "860px",
     boxSizing: "border-box",
     margin: "0px auto",
-    width: "850px",
+    width: "860px",
     [theme.breakpoints.down("sm")]: {
       width: "90%",
     },
@@ -37,13 +37,15 @@ const Style = (theme) => ({
     padding: "0px 0px 20px",
   },
   button: {
-    margin: "0 10px 10px 0",
+    margin: "0 10px 10px 10px",
     borderRadius: "24px 24px 24px 24px",
     color: "white",
-    fontWeight: "600",
-    padding: "10px 20px",
     color: "#fff",
     background: theme.palette.primary.main,
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "10px",
+      marginLeft: "0px",
+    },
   },
 });
 
