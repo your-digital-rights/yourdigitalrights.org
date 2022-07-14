@@ -49,7 +49,7 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
       status
     }
     const selectedAction = generateEmailFields(data);    
-    selectedAction.action();
+    selectedAction.run();
 
     tracking.trackEscalationRequest(
       requestItem.companyUrl.S,

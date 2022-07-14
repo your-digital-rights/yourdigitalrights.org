@@ -168,8 +168,8 @@ class Form extends Component {
     }
     
     const selectedAction = generateEmailFields(data);    
+    selectedAction.run();
 
-    selectedAction.action();
     this.saveRequest(data);
     this.setState({ selectedActionName: selectedAction.name });
     this.setState({ hasSubmit: true });

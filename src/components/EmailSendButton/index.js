@@ -78,22 +78,22 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
             name: 'Default',
             text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
             icon: <EmailIcon className={classes.menueItemIcon}/>, 
-            action: defaultAction},
+            run: defaultAction},
         {
             name: 'Gmail',
             text: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
             icon: <div className={classes.menueItemIcon}><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></div>, 
-            action: gmailAction}, 
+            run: gmailAction}, 
         {
             name: 'Yahoo mail',
             text: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
             icon: <div className={classes.menueItemIcon}><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></div>, 
-            action: yahooAction}, 
+            run: yahooAction}, 
         {
             name: 'Copy',
             text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
             icon: <AssignmentIcon className={classes.menueItemIcon} />, 
-            action: copyAction},
+            run: copyAction},
     ];
     
     var selectedAction = emailOptions[0];
@@ -121,7 +121,7 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
         }
         return {
             name: selectedAction.name, 
-            action: selectedAction.action(to, cc, subject, body)
+            run: selectedAction.run(to, cc, subject, body)
         };
     };
 
