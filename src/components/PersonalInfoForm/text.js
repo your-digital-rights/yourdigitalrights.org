@@ -105,7 +105,7 @@ export const FollowUpDetailsText = (
 export const FollowUpDetailsTextWarning = (
   <FormattedMessage
     id="personalInfoForm.FollowUpDetailsWarning"
-    defaultMessage="<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
+    defaultMessage="<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
     values = {{
       strong: chunks => (<strong>{chunks}</strong>),
     }}

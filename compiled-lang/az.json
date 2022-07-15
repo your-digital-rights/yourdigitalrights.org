@@ -1848,7 +1848,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "crwdns2597:0crwdne2597:0"
+      "value": "crwdns3483:0crwdne3483:0"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -2332,21 +2332,29 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "crwdns2879:0"
+      "value": "crwdns3495:0"
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "crwdne2879:0"
+      "value": "crwdnd3495:0"
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": "crwdne3495:0"
     }
   ],
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "crwdns2881:0"
+      "value": "crwdns3497:0"
     },
     {
       "type": 1,
@@ -2354,15 +2362,23 @@
     },
     {
       "type": 0,
-      "value": "crwdnd2881:0"
+      "value": "crwdnd3497:0"
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "crwdne2881:0"
+      "value": "crwdnd3497:0"
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": "crwdne3497:0"
     }
   ],
   "request.next.escalatedAndNoSuccess": [
@@ -2652,7 +2668,7 @@
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "crwdns2943:0crwdne2943:0"
+      "value": "crwdns3485:0crwdne3485:0"
     }
   ],
   "search.companyPlaceholder": [
@@ -2671,6 +2687,30 @@
     {
       "type": 0,
       "value": "crwdns2649:0crwdne2649:0"
+    }
+  ],
+  "sendEmailButton.copy": [
+    {
+      "type": 0,
+      "value": "crwdns3487:0crwdne3487:0"
+    }
+  ],
+  "sendEmailButton.default": [
+    {
+      "type": 0,
+      "value": "crwdns3489:0crwdne3489:0"
+    }
+  ],
+  "sendEmailButton.gmail": [
+    {
+      "type": 0,
+      "value": "crwdns3491:0crwdne3491:0"
+    }
+  ],
+  "sendEmailButton.yahoo": [
+    {
+      "type": 0,
+      "value": "crwdns3493:0crwdne3493:0"
     }
   ],
   "social.chromeCTA": [
@@ -2739,10 +2779,16 @@
       "value": "crwdns2671:0crwdne2671:0"
     }
   ],
-  "thankyou.copyPart1": [
+  "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "crwdns2679:0crwdne2679:0"
+      "value": "crwdns3499:0crwdne3499:0"
+    }
+  ],
+  "thankyou.copyPart1Email": [
+    {
+      "type": 0,
+      "value": "crwdns3501:0crwdne3501:0"
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -2798,13 +2844,13 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "crwdns2689:0crwdne2689:0"
+      "value": "crwdns3503:0crwdne3503:0"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "crwdns2691:0crwdne2691:0"
+      "value": "crwdns3505:0crwdne3505:0"
     }
   ],
   "thankyou.title": [
