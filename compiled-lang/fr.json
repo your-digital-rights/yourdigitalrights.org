@@ -2198,7 +2198,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Passez en revue votre demande"
+      "value": "Review and Send"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -2914,21 +2914,29 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommandation : escaladez votre demande vers votre "
+      "value": "Recommendation: escalate your request to your "
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
     }
   ],
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "Recommandation : si vous pensez que "
+      "value": "Recommendation: if you believe "
     },
     {
       "type": 1,
@@ -2936,15 +2944,23 @@
     },
     {
       "type": 0,
-      "value": " devrait avoir pleinement répondu à votre demande, nous vous recommandons d'escalader votre demande vers le "
+      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
     },
     {
       "type": 1,
-      "value": "authority"
+      "value": "authorityLong"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
     }
   ],
   "request.next.escalatedAndNoSuccess": [
@@ -3375,7 +3391,7 @@
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Réviser et envoyer"
+      "value": "Review and Send"
     }
   ],
   "search.companyPlaceholder": [
@@ -3394,6 +3410,30 @@
     {
       "type": 0,
       "value": "Cliquez ici pour en ajouter un"
+    }
+  ],
+  "sendEmailButton.copy": [
+    {
+      "type": 0,
+      "value": "Copy email text to clipboard"
+    }
+  ],
+  "sendEmailButton.default": [
+    {
+      "type": 0,
+      "value": "Open in your default email client"
+    }
+  ],
+  "sendEmailButton.gmail": [
+    {
+      "type": 0,
+      "value": "Open in Gmail"
+    }
+  ],
+  "sendEmailButton.yahoo": [
+    {
+      "type": 0,
+      "value": "Open in Yahoo Mail"
     }
   ],
   "social.chromeCTA": [
@@ -3462,10 +3502,16 @@
       "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
     }
   ],
-  "thankyou.copyPart1": [
+  "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "l'e-mail de demande devrait s'être ouvert dans votre application de messagerie, tout ce que vous avez à faire est de le vérifier et de cliquer sur Envoyer."
+      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+    }
+  ],
+  "thankyou.copyPart1Email": [
+    {
+      "type": 0,
+      "value": "email should have opened in your email application, all you need to do is review it and click Send."
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -3563,13 +3609,13 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "Un accès"
+      "value": "An access request"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "Une suppression"
+      "value": "A deletion request"
     }
   ],
   "thankyou.title": [

@@ -16,9 +16,10 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
       <strong>
         <FormattedMessage
           id="request.next.escalatedAndNoSuccess"
-          defaultMessage="You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
+          defaultMessage="You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
             values={{
-              dpa: regulation.dpa.longName,
+              dpaLong: regulation.dpa.longName,
+              dpaShort: regulation.dpa.shortName,
             }}
         />
       </strong>       

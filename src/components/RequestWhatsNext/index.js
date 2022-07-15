@@ -61,7 +61,7 @@ class WhatsNext extends Component {
 
   buttons(classes) {
     const { requestItem } = this.props;
-    const authority = Regulations[requestItem.regulationType.S].dpa.longName;
+    const authority = Regulations[requestItem.regulationType.S].dpa.shortName;
     return (
       <ul className={classes.buttons}>
         <li>

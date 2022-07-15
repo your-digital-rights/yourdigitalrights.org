@@ -765,7 +765,7 @@
     "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email.</strong>"
+    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
     "message": "Turn on Smart Follow-up Assistance"
@@ -1035,7 +1035,7 @@
     "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "You have escalated to the {dpa}, please continue to communicate with them directly. There's nothing else that we can do to help."
+    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
   },
   "request.next.esclateButton": {
     "message": "Escalate to the { authority }"
@@ -1071,7 +1071,7 @@
     "message": "What's next"
   },
   "request.success": {
-    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Escalate your request"

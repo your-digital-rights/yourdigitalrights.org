@@ -62,7 +62,10 @@ function yahooAction(to, cc, subject, body) {
 
 function copyAction(to, cc, subject, body) {
     return function() {
-        return navigator.clipboard.writeText(body);
+        const text = (cc === null) ? 
+            `to: ${to}\nsubject: ${subject}\n\n${body}` :
+            `to: ${to}\ncc: ${cc}\nsubject: ${subject}\n\n${body}`;
+        return navigator.clipboard.writeText(text);
     };
 }
 

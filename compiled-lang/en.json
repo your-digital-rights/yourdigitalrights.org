@@ -2054,7 +2054,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the BCC field of the request email."
+          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
         }
       ],
       "type": 8,
@@ -2982,15 +2982,23 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated to the "
+      "value": "You have escalated your request to the "
     },
     {
       "type": 1,
-      "value": "dpa"
+      "value": "dpaLong"
     },
     {
       "type": 0,
-      "value": ", please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "dpaShort"
+    },
+    {
+      "type": 0,
+      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
     }
   ],
   "request.next.esclateButton": [
@@ -3106,7 +3114,7 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days fr0m the date of your original request. Alternatively you can "
+      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
     },
     {
       "children": [
