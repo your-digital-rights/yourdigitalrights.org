@@ -45,4 +45,22 @@ module.exports = {
   images: {
     domains: ['logo.uplead.com'],
   },  
+  async headers() {
+    return [
+      {
+        // Apply these headers to all routes in your application.
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Referrer-Policy',
+            value: 'same-origin'
+          },
+          {
+            key: 'Content-Security-Policy-Report-Only',
+            value: "default-src 'self'; img-src *;"
+          },               
+        ],
+      },
+    ]
+  },
 };
