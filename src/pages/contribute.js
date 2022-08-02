@@ -57,7 +57,7 @@ const Contribute = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contribute.subtitle"
-              defaultMessage="This project is entirely developed and maintained by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+              defaultMessage="This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
             />
           </Typography>
           <br/>          
@@ -101,7 +101,7 @@ const Contribute = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="contribute.translate2"
-              defaultMessage="We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial avaialble <b>here</b>. Follow these steps to get started:"
+              defaultMessage="We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
               values={{
                 a: chunks =>  (
                     <a 
