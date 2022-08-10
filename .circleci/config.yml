@@ -23,7 +23,6 @@ jobs:
       - browser-tools/install-chrome:
           replace-existing: true 
 
-      - run: npm run clean
       - run: npm install
 
       - save_cache:
