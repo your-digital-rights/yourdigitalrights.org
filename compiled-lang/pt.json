@@ -2054,7 +2054,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Ao selecionar esta opção, você concorda e nos permite processar e armazenar as seguintes informações pessoais: seu endereço de e-mail, nome e o texto contido nos seus e-mails de solicitação. Todas as informações pessoais relacionadas a esta solicitação serão automaticamente excluídas de nossos sistemas dentro de 120 dias, a menos que você especifique de outra forma, e você sempre tem a opção de excluir esses dados imediatamente. Nós coletamos essa informação automaticamente ao adicionar um endereço de e-mail especial ao campo CCO do e-mail de solicitação."
+          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
         }
       ],
       "type": 8,
@@ -2982,15 +2982,23 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "Você recorreu da decisão e apelou para "
+      "value": "You have escalated your request to the "
     },
     {
       "type": 1,
-      "value": "dpa"
+      "value": "dpaLong"
     },
     {
       "type": 0,
-      "value": ". A partir de agora, comunique-se diretamente com essa agência. Só podemos te ajudar até aqui."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "dpaShort"
+    },
+    {
+      "type": 0,
+      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
     }
   ],
   "request.next.esclateButton": [
@@ -3098,7 +3106,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Parabéns, "
+      "value": "Congratulations, "
     },
     {
       "type": 1,
@@ -3106,13 +3114,13 @@
     },
     {
       "type": 0,
-      "value": " cumpriu a sua solicitação com sucesso. Seus dados pessoais serão excluídos automaticamente deste site no prazo de 120 dias, contados a partir da data da sua solicitação original. Como alternativa, você pode "
+      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "excluir seus dados pessoais agora"
+          "value": "delete your personal data now"
         }
       ],
       "type": 8,
