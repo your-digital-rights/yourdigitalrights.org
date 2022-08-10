@@ -220,7 +220,7 @@ const Contribute = ({ classes, router }) => {
                     ),
                 email: chunks =>  (
                     <a 
-                      href="mailto:info@yourdigitalrights.org?subject=I'd like to help with the developmemt"
+                      href="mailto:info@yourdigitalrights.org?subject=I'd like to help with development"
                       target="_blank"
                     >
                         {chunks}
