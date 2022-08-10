@@ -23,15 +23,13 @@ jobs:
       - browser-tools/install-chrome:
           replace-existing: true 
 
-      - browser-tools/install-chromedriver
-            
       - run: npm install
 
       - save_cache:
           key: v2-dependencies-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-            - ./.next/cache
+            - ./src/.next/cache
 
       # run tests!
       - run: npm test
