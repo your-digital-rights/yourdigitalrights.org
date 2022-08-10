@@ -765,7 +765,7 @@
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>En sélectionnant cette option, vous acceptez de nous laisser traiter et stocker les informations personnelles suivantes : votre adresse e-mail, le nom et le texte de vos courriels de requête. Toutes les informations personnelles relatives à cette demande seront automatiquement supprimées de nos systèmes dans les 120 jours sauf si vous spécifiez le contraire et vous avez toujours le choix pour que ces données soient supprimées immédiatement. Nous recueillons automatiquement ces informations en ajoutant une adresse e-mail spéciale au champ BCC de l'e-mail de requête.</strong>"
+    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
     "message": "Activer l'assistance de suivi intelligente"
@@ -1035,7 +1035,7 @@
     "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "Vous avez atteint le {dpa}, veuillez continuer à communiquer avec lui directement. Il n'y a rien d'autre que nous pouvons faire pour vous aider."
+    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
   },
   "request.next.esclateButton": {
     "message": "Escalade vers le { authority }"
@@ -1071,7 +1071,7 @@
     "message": "Quoi de neuf"
   },
   "request.success": {
-    "message": "Félicitations, { companyName } a répondu à votre demande. Vos données personnelles seront automatiquement supprimées de ce site dans les 120 jours suivant la date de votre demande initiale. Vous pouvez aussi <a>supprimer vos données personnelles maintenant</a>."
+    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Remonter votre demande"
