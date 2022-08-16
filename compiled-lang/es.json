@@ -462,7 +462,7 @@
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "Este proyecto ha sido desarrollado y es mantenido por voluntarios. Si la privacidad digital, el capital de vigilancia desenfrenado, la desinformación y la naturaleza addictiva de los servicios digitales pueden ayudar:"
+      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
     }
   ],
   "contribute.title": [
@@ -480,7 +480,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "Utilizamos la plataforma en línea "
+      "value": "We use the online platform "
     },
     {
       "children": [
@@ -494,13 +494,13 @@
     },
     {
       "type": 0,
-      "value": " para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Hay un tutorial rápido disponible "
+      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "aquí"
+          "value": "here"
         }
       ],
       "type": 8,
@@ -508,7 +508,7 @@
     },
     {
       "type": 0,
-      "value": ". Sigue estos pasos para empezar:"
+      "value": ". Follow these steps to get started:"
     }
   ],
   "contribute.translateTitle": [
@@ -2046,7 +2046,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Al seleccionar esta opción, usted acepta dejarnos procesar y almacenar la siguiente información personal: su dirección de correo electrónico, nombre y el texto de su solicitud de correo electrónico. Toda la información personal relacionada con esta solicitud se eliminará automáticamente de nuestros sistemas en el plazo de 120 días a menos que especifique lo contrario y siempre tenga la opción de que estos datos se eliminen inmediatamente. Recogemos esta información automáticamente agregando una dirección de correo electrónico especial al campo BCC del correo electrónico solicitado."
+          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
         }
       ],
       "type": 8,
@@ -2974,15 +2974,23 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "Has escalado a "
+      "value": "You have escalated your request to the "
     },
     {
       "type": 1,
-      "value": "dpa"
+      "value": "dpaLong"
     },
     {
       "type": 0,
-      "value": ". Por favor, continúa comunicándote con ellos directamente. No hay nada más que podamos hacer para ayudarte."
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "dpaShort"
+    },
+    {
+      "type": 0,
+      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
     }
   ],
   "request.next.esclateButton": [
@@ -3090,7 +3098,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Enhorabuena, "
+      "value": "Congratulations, "
     },
     {
       "type": 1,
@@ -3098,13 +3106,13 @@
     },
     {
       "type": 0,
-      "value": " ha cumplido con éxito su solicitud. Sus datos personales se eliminarán automáticamente de esta página web en un plazo de 120 días a partir de la fecha de su solicitud original. También puede "
+      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "eliminar sus datos personales ahora"
+          "value": "delete your personal data now"
         }
       ],
       "type": 8,

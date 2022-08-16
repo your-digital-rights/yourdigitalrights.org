@@ -3,10 +3,10 @@
 #
 version: 2.1
 orbs:
-  browser-tools: circleci/browser-tools@1.3
+  browser-tools: circleci/browser-tools@1.4
 jobs:
   build:
-    working_directory: ~/opt-out
+    working_directory: ~/yourdigitalrights
     docker:
       - image: circleci/node@sha256:5870e9c11af4bf5f0cf74034df01040ec4c2bcb5b6369c67ee4eece73a8eb3a7
 
@@ -29,6 +29,7 @@ jobs:
           key: v2-dependencies-{{ checksum "package.json" }}
           paths:
             - ./node_modules
+            - ./src/.next/cache
             - ./.next/cache
 
       # run tests!
