@@ -7,7 +7,7 @@ describe("When I view social sharing", () => {
 
     await page.socialShare.linkedIn.click();
     (await page.dataOpenUrlAttribute).should.be.equal(
-      "https://linkedin.com/shareArticle?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dlinkedin%26pk_source%3Dhomepage"
+      "https://linkedin.com/shareArticle?url=https%3A%2F%2Fyourdigitalrights.org%2F%3Fpk_campaign%3Dsiteshare%26pk_kwd%3Dlinkedin%26pk_source%3Dhomepage&mini=true"
     );
 
     await page.socialShare.twitter.click();
