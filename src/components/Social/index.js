@@ -42,6 +42,10 @@ const styles = (theme) => ({
     fontWeight: "bold",
   },
 
+  shareButton: {
+    marginLeft: "15px",
+  },
+
   extensionHelperPlaceHolder: {
     display: "flex",
     justifyContent: "center",
@@ -263,50 +267,56 @@ const Social = ({
           defaultMessage="If you find this service useful, please spread the word"
         />
       </Typography>
-
-      <FacebookShareButton
-        additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "facebook")}
-        url={
-          "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" +
-          sourcePage
-        }
-        className="ss-btn"
-        quote={facebookQuote}
-      >
-        <img src="/images/sh/fb.svg" />
-      </FacebookShareButton>
-      <LinkedinShareButton
-        additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "linkedin")}
-        url={
-          "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" +
-          sourcePage
-        }
-        className="ss-btn"
-      >
-        <img src="/images/sh/lin.svg" />
-      </LinkedinShareButton>
-      <TwitterShareButton
-        additionalProps={shareButtonProps}
-        beforeOnClick={trackShare.bind(null, "twitter")}
-        url={
-          "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" +
-          sourcePage
-        }
-        title={twitterTitle}
-        hashtags={[
-          "GDPR",
-          "CCPA",
-          "yourdigitalrights",
-          "righttobeforgotten",
-          "optout",
-          "ownyourdata",
-        ]}
-        className="ss-btn"
-      >
-        <img src="/images/sh/tw.svg" />
-      </TwitterShareButton>
+      <div className={classes.shareButton}>
+        <FacebookShareButton
+          additionalProps={shareButtonProps}
+          beforeOnClick={trackShare.bind(null, "facebook")}
+          url={
+            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" +
+            sourcePage
+          }
+          className="ss-btn SocialMediaShareButton--facebook"
+          quote={facebookQuote}
+        >
+          <img src="/images/sh/fb.svg" />
+        </FacebookShareButton>
+      </div>
+      <div className={classes.shareButton}>
+        <LinkedinShareButton
+          additionalProps={shareButtonProps}
+          beforeOnClick={trackShare.bind(null, "linkedin")}
+          url={
+            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" +
+            sourcePage
+          }
+          className="ss-btn SocialMediaShareButton--linkedin"
+        >
+          <img src="/images/sh/lin.svg" />
+        </LinkedinShareButton>
+      </div>
+      <div className={classes.shareButton}>
+        <TwitterShareButton
+          borderRadius={15}
+          additionalProps={shareButtonProps}
+          beforeOnClick={trackShare.bind(null, "twitter")}
+          url={
+            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" +
+            sourcePage
+          }
+          title={twitterTitle}
+          hashtags={[
+            "GDPR",
+            "CCPA",
+            "yourdigitalrights",
+            "righttobeforgotten",
+            "optout",
+            "ownyourdata",
+          ]}
+          className="ss-btn SocialMediaShareButton--twitter"
+        >
+          <img src="/images/sh/tw.svg" />
+        </TwitterShareButton>
+      </div>
       <a
         href={emailLink}
         onClick={handleEmailClick}

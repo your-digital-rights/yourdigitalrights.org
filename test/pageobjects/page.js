@@ -79,7 +79,7 @@ class Page {
         return thanks.$("#ThanksMessageText").getText();
       },
       get btn() {
-        return thanks.$("button");
+        return thanks.$("#ThanksMessageBtn");
       },
       get socialShare() {
         return new SocialShare("#ThanksMessage");

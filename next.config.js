@@ -54,11 +54,11 @@ module.exports = {
           {
             key: 'Referrer-Policy',
             value: 'same-origin'
-          },
+          },             
           {
-            key: 'Content-Security-Policy-Report-Only',
-            value: "default-src 'self'; img-src *;"
-          },               
+            key: 'Content-Security-Policy',
+            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com"
+          },            
         ],
       },
     ]
