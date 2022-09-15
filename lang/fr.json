@@ -39,10 +39,10 @@
     "message": "Ce projet est autofinancé par ses créateurs, et avec l'aide de vos dons."
   },
   "about.missionBody1": {
-    "message": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR), the {ccpa} (CCPA), and the Brazilian {lgpd} (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+    "message": "YourDigitalRights.org a été créé parce que nous croyons que la vie privée est un droit humain fondamental et que l'exercice de ce droit devrait être facile. Le {gdpr} européen (RGPD), le {ccpa} (CCPA) et le Brésil {lgpd} (LGPD) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+    "message": "Les réglementations sur la confidentialité telles que le RGPD, le CCPA et le LGPD sont un pas dans la bonne direction, mais l'exercice de vos droits en vertu de ces législations est encore assez difficile pour que la plupart des gens ne s'en soucient pas. La situation est aggravée par le fait que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Le but de ce service est de rendre accessible à tous les droits accordés par ces législations."
   },
   "about.missionBody3": {
     "message": "C'est un service gratuit. Nous ne sommes pas une entreprise et n'avons pas de modèle économique. Nous n'offrons aucun service aux organisations. Nous ne collectons ni n'échangeons aucune donnée personnelle. Ce service est <a>Open Source</a>."
@@ -129,7 +129,7 @@
     "message": "Aide à la recherche"
   },
   "contribute.subtitle": {
-    "message": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    "message": "Ce projet est développé et maintenu entièrement par des bénévoles. Si vous êtes préoccupé par la perte de confidentialité, le capitalisme de surveillance rampant, le micro-ciblage et la désinformation et la nature addictive des services numériques, vous pouvez aider :"
   },
   "contribute.title": {
     "message": "Contribuer"
@@ -138,7 +138,7 @@
     "message": "Nous aimerions que ce service soit disponible dans de nombreuses langues. Si le vôtre ne figure pas parmi ceux actuellement disponibles, ou s'il a besoin de mises à jour ou d'améliorations, nous serions ravis de votre aide !"
   },
   "contribute.translate2": {
-    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+    "message": "Nous utilisons la plateforme en ligne <a>Crowdin</a> pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un court tutoriel de l'éditeur de traduction <b>ici</b> pour vous aider à démarrer. Suivez ces étapes pour commencer :"
   },
   "contribute.translateTitle": {
     "message": "Traduire le site"
@@ -192,7 +192,7 @@
     "message": "Faire un don"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+    "message": "YourDigitalRights.org a été créé parce que nous pensons que la confidentialité est importante et que l'exercice de votre droit à la confidentialité devrait être facile. C'est pourquoi nous l'avons rendu gratuit. En faisant un don ou en devenant membre de soutien, vous pouvez contribuer à assurer notre stabilité financière et notre indépendance à long terme."
   },
   "donations.headingDonate": {
     "message": "Nous avons besoin de votre soutien"
@@ -204,7 +204,7 @@
     "message": "Les différents pays ont des réglementations différentes en matière de protection de la vie privée en ligne. Ce site Web prend en charge les règlements suivants :"
   },
   "faq.body10A": {
-    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
+    "message": "Lorsque vous soumettez une demande de données via ce site Web, activez l'option \"Assistance de suivi\" pour obtenir des conseils personnalisés sur ce qu'il faut faire si une organisation n'a pas répondu ou n'a pas entièrement répondu à votre demande."
   },
   "faq.body10B": {
     "message": "Si vous n'êtes pas satisfait de la façon dont l'organisation a traité votre demande, vous devez d'abord envoyer à l'organisation un courriel de rappel expliquant votre insatisfaction. Si, après avoir envoyé un rappel à l'organisation, vous n'êtes toujours pas satisfait, vous pouvez vous plaindre auprès de l'Agence de protection des données, un organisme de réglementation gouvernemental. Certains règlements donnent aux individus un droit d'action privé - la possibilité de poursuivre une organisation en justice. Si vous décidez de le faire, nous vous conseillons fortement de demander un conseil juridique indépendant."
@@ -582,7 +582,7 @@
     "message": "Quelles lois sur la protection des données me protègent ?"
   },
   "faq.heading10": {
-    "message": "What should I do if an organization did not reply, or did not fully comply with my request?"
+    "message": "Que dois-je faire si une organisation n'a pas répondu ou ne s'est pas entièrement conformée à ma demande ?"
   },
   "faq.heading11": {
     "message": "Quelles sont les sanctions qu'une organisation qui ne se conforme pas à une demande peut encourir ?"
@@ -687,7 +687,7 @@
     "message": "Pourquoi nous faire confiance ?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Les lois sur la protection des données telles que le RGPD (Union européenne), le CCPA (Californie) et le LGPD (Brésil) obligent les organisations à supprimer ou à vous fournir une copie de vos données sur demande. Les organisations disposent d'un court délai pour s'y conformer, faute de quoi elles s'exposent à de lourdes amendes. Notre mission est de vous faciliter l'exercice de vos droits légaux."
   },
   "howItWorks.yourDataTitle": {
     "message": "Vous avez le droit à la vie privée !"
@@ -765,7 +765,7 @@
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
+    "message": "<strong>En sélectionnant cette option, vous acceptez que nous traitions et stockions les informations personnelles suivantes : votre adresse e-mail, votre nom et le texte de vos e-mails de demande. Toutes les informations personnelles relatives à cette demande seront automatiquement supprimées de nos systèmes dans un délai de 120 jours, sauf indication contraire de votre part et vous avez toujours le choix de faire supprimer ces données immédiatement. Nous collectons ces informations automatiquement en ajoutant une adresse e-mail spéciale au champ Copie Carbonne (CC) de l'e-mail de demande.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
     "message": "Activer l'assistance de suivi intelligente"
@@ -831,7 +831,7 @@
     "message": "Type de demande"
   },
   "personalInfoForm.sendButton": {
-    "message": "Review and Send"
+    "message": "Personnaliser et envoyer"
   },
   "personalInfoForm.validEmail": {
     "message": "Veuillez entrer une adresse e-mail valide."
@@ -1008,7 +1008,7 @@
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Reference:"
+    "message": "Référence:"
   },
   "request.hero.requestNotSent": {
     "message": "veuillez envoyer l'e-mail de la demande, puis actualiser cette page."
@@ -1029,13 +1029,13 @@
     "message": "<ul><li>Libre parole ou autre droit fourni par la loi.</li><li>Traitement à des fins de recherche, si la suppression de renseignements personnels rendrait impossible ou nuirait gravement à la réalisation de telles recherches.</li><li>Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité.</li><li>Pour se conformer à une obligation légale.</li><li>Effectuer un contrat entre l'entreprise et le consommateur.</li><li>Détecter les incidents de sécurité, se protéger contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivre les responsables de cette activité.</li><li>Débogage pour identifier et réparer les erreurs qui entravent les fonctionnalités existantes.</li><li>Permettre uniquement des utilisations internes qui sont raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise.</li><li>Sinon, utilisez les informations personnelles du consommateur, en interne, de façon licite et compatible avec le contexte dans lequel le consommateur a fourni les renseignements.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
+    "message": "Recommandation : faites remonter votre demande à votre { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
+    "message": "Recommandation : si vous pensez que { companyName } aurait dû répondre entièrement à votre demande, nous vous recommandons de faire remonter votre demande au { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
+    "message": "Vous avez transmis votre demande au {dpaLong} ({dpaShort}), veuillez continuer à communiquer directement avec eux. Nous ne pouvons rien faire d'autre pour vous aider."
   },
   "request.next.esclateButton": {
     "message": "Escalade vers le { authority }"
@@ -1071,7 +1071,7 @@
     "message": "Quoi de neuf"
   },
   "request.success": {
-    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+    "message": "Félicitations, { companyName } a répondu à votre demande. Vos données personnelles seront automatiquement supprimées du site internet dans un délai de 120 à compter de la date de votre demande initiale. De plus, vous pouvez <a>supprimer vos données personnels maintenant</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Remonter votre demande"
@@ -1125,7 +1125,7 @@
     "message": "Veuillez sélectionner votre lieu de résidence"
   },
   "requestEscalation.submit": {
-    "message": "Review and Send"
+    "message": "Personnaliser et envoyer"
   },
   "search.companyPlaceholder": {
     "message": "Rechercher une organisation"
@@ -1185,7 +1185,7 @@
     "message": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
   },
   "thankyou.copyPart1Email": {
-    "message": "email should have opened in your email application, all you need to do is review it and click Send."
+    "message": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
   },
   "thankyou.copyPart2CCPA": {
     "message": "L'organisation dispose de <em>45 jours</em> pour se conformer et peut vous demander des informations supplémentaires pour aider à vous identifier dans ses systèmes."
@@ -1200,7 +1200,7 @@
     "message": "Faire un don"
   },
   "thankyou.donation": {
-    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+    "message": "N'hésitez pas à faire un don pour contribuer à assurer notre stabilité et notre indépendance financières à long terme :"
   },
   "thankyou.findCompany": {
     "message": "Trouver une autre organisation"
