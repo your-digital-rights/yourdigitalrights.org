@@ -207,6 +207,12 @@ const Contribute = ({ classes, router }) => {
           </Typography>          
           <Typography gutterBottom={true}>
             <FormattedMessage
+                id="contribute.devSkills"
+                defaultMessage="We are currently looking for Machine Learning, React and AWS engineers."
+              />
+              <br/>  
+              <br/>  
+              <FormattedMessage
               id="contribute.dev"
               defaultMessage="Our repositories are hosted on GitHub, with the main one being for this <a>website</a>. The best way to start is to get in touch via <email>email</email>. We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
               values={{
