@@ -183,7 +183,6 @@ class Index extends Component {
           <HowItWorks />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
-          <Donations />
           <Subscribe />
           <Footer />
           {this.state.showRedirectOverlay && (
