@@ -2,6 +2,7 @@ import { injectIntl } from "react-intl";
 import { createRef, Component } from "react";
 import RedirectOverlay from "../components/RedirectOverlay";
 import Donations from "../components/Donations";
+import Subscribe from "../components/Subscribe";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
@@ -183,6 +184,7 @@ class Index extends Component {
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
           <Donations />
+          <Subscribe />
           <Footer />
           {this.state.showRedirectOverlay && (
             <RedirectOverlay close={() => this.closeRedirectOverlay()} />
