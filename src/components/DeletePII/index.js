@@ -56,7 +56,7 @@ const DeletePII = ({ classes, uuid }) => {
                 id="deletePII.intro"
                 defaultMessage="Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: {ref}), or with all of your requests?"
                 values={{ 
-                  ref: <a target="_blank" href={`/r/${uuid}`}>{ref}</a>,
+                  ref: <a target="_blank" href={`/r/${uuid}`} rel="noreferrer noopener">{ref}</a>,
                 }}
               />
             </Typography>          
