@@ -3,22 +3,22 @@ import { theme } from "../../styles/theme";
 
 const Theme = (theme) => ({
   subscribe: {
-    backgroundColor: "#f2f2f2",
+    backgroundColor: "rgb(250 250 250)",
   },
   heading: {
     color: "white",
-    padding: "30px",
+    padding: "50px",
     backgroundColor: "#039277",
     borderRadius: "20px",
     display: "flex",
-    maxWidth: "850px !important",
+    maxWidth: "980px !important",
     margin: "auto auto",
     [theme.breakpoints.down("sm")]: {
       display: "inherit",
     },
   },
   container: {
-    padding: "40px",
+    padding: "40px 40px 40px",
     boxSizing: "border-box",
     ...container,
   },
