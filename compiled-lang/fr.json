@@ -108,7 +108,7 @@
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European "
+      "value": "YourDigitalRights.org a été créé parce que nous croyons que la vie privée est un droit humain fondamental et que l'exercice de ce droit devrait être facile. Le "
     },
     {
       "type": 1,
@@ -116,7 +116,7 @@
     },
     {
       "type": 0,
-      "value": " (GDPR), the "
+      "value": " européen (RGPD), le "
     },
     {
       "type": 1,
@@ -124,7 +124,7 @@
     },
     {
       "type": 0,
-      "value": " (CCPA), and the Brazilian "
+      "value": " (CCPA) et le Brésil "
     },
     {
       "type": 1,
@@ -132,13 +132,13 @@
     },
     {
       "type": 0,
-      "value": " (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+      "value": " (LGPD) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+      "value": "Les réglementations sur la confidentialité telles que le RGPD, le CCPA et le LGPD sont un pas dans la bonne direction, mais l'exercice de vos droits en vertu de ces législations est encore assez difficile pour que la plupart des gens ne s'en soucient pas. La situation est aggravée par le fait que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Le but de ce service est de rendre accessible à tous les droits accordés par ces législations."
     }
   ],
   "about.missionBody3": [
@@ -383,6 +383,12 @@
       "value": ". Nous vous ajouterons ensuite à notre chaîne Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
     }
   ],
+  "contribute.devSkills": [
+    {
+      "type": 0,
+      "value": "We are currently looking for Machine Learning, React and AWS engineers."
+    }
+  ],
   "contribute.devTitle": [
     {
       "type": 0,
@@ -458,7 +464,7 @@
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+      "value": "Ce projet est développé et maintenu entièrement par des bénévoles. Si vous êtes préoccupé par la perte de confidentialité, le capitalisme de surveillance rampant, le micro-ciblage et la désinformation et la nature addictive des services numériques, vous pouvez aider :"
     }
   ],
   "contribute.title": [
@@ -476,7 +482,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "Nous utilisons la plateforme en ligne "
     },
     {
       "children": [
@@ -490,13 +496,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available "
+      "value": " pour créer facilement les chaînes de traduction. Cela rend le processus beaucoup plus facile et ne nécessite aucune connaissance en programmation. Voici un court tutoriel de l'éditeur de traduction "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "ici"
         }
       ],
       "type": 8,
@@ -504,7 +510,7 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": " pour vous aider à démarrer. Suivez ces étapes pour commencer :"
     }
   ],
   "contribute.translateTitle": [
@@ -618,13 +624,13 @@
   "donations.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Faire un don"
     }
   ],
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+      "value": "YourDigitalRights.org a été créé parce que nous pensons que la confidentialité est importante et que l'exercice de votre droit à la confidentialité devrait être facile. C'est pourquoi nous l'avons rendu gratuit. En faisant un don ou en devenant membre de soutien, vous pouvez contribuer à assurer notre stabilité financière et notre indépendance à long terme."
     }
   ],
   "donations.headingDonate": [
@@ -648,7 +654,7 @@
   "faq.body10A": [
     {
       "type": 0,
-      "value": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
+      "value": "Lorsque vous soumettez une demande de données via ce site Web, activez l'option \"Assistance de suivi\" pour obtenir des conseils personnalisés sur ce qu'il faut faire si une organisation n'a pas répondu ou n'a pas entièrement répondu à votre demande."
     }
   ],
   "faq.body10B": [
@@ -1526,7 +1532,7 @@
   "faq.heading10": [
     {
       "type": 0,
-      "value": "What should I do if an organization did not reply, or did not fully comply with my request?"
+      "value": "Que dois-je faire si une organisation n'a pas répondu ou ne s'est pas entièrement conformée à ma demande ?"
     }
   ],
   "faq.heading11": [
@@ -1820,7 +1826,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "Les lois sur la protection des données telles que le RGPD (Union européenne), le CCPA (Californie) et le LGPD (Brésil) obligent les organisations à supprimer ou à vous fournir une copie de vos données sur demande. Les organisations disposent d'un court délai pour s'y conformer, faute de quoi elles s'exposent à de lourdes amendes. Notre mission est de vous faciliter l'exercice de vos droits légaux."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -2038,7 +2044,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
+          "value": "En sélectionnant cette option, vous acceptez que nous traitions et stockions les informations personnelles suivantes : votre adresse e-mail, votre nom et le texte de vos e-mails de demande. Toutes les informations personnelles relatives à cette demande seront automatiquement supprimées de nos systèmes dans un délai de 120 jours, sauf indication contraire de votre part et vous avez toujours le choix de faire supprimer ces données immédiatement. Nous collectons ces informations automatiquement en ajoutant une adresse e-mail spéciale au champ Copie Carbonne (CC) de l'e-mail de demande."
         }
       ],
       "type": 8,
@@ -2198,7 +2204,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Personnaliser et envoyer"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -2558,7 +2564,7 @@
   "request.hero.domainTitle": [
     {
       "type": 0,
-      "value": "Domain:"
+      "value": "Domaine:"
     }
   ],
   "request.hero.handledPartially": [
@@ -2626,7 +2632,7 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Reference:"
+      "value": "Référence:"
     }
   ],
   "request.hero.requestNotSent": [
@@ -2914,7 +2920,7 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommendation: escalate your request to your "
+      "value": "Recommandation : faites remonter votre demande à votre "
     },
     {
       "type": 1,
@@ -2936,7 +2942,7 @@
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "Recommendation: if you believe "
+      "value": "Recommandation : si vous pensez que "
     },
     {
       "type": 1,
@@ -2944,7 +2950,7 @@
     },
     {
       "type": 0,
-      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
+      "value": " aurait dû répondre entièrement à votre demande, nous vous recommandons de faire remonter votre demande au "
     },
     {
       "type": 1,
@@ -2966,7 +2972,7 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated your request to the "
+      "value": "Vous avez transmis votre demande au "
     },
     {
       "type": 1,
@@ -2982,7 +2988,7 @@
     },
     {
       "type": 0,
-      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": "), veuillez continuer à communiquer directement avec eux. Nous ne pouvons rien faire d'autre pour vous aider."
     }
   ],
   "request.next.esclateButton": [
@@ -3090,7 +3096,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Congratulations, "
+      "value": "Félicitations, "
     },
     {
       "type": 1,
@@ -3098,13 +3104,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
+      "value": " a répondu à votre demande. Vos données personnelles seront automatiquement supprimées du site internet dans un délai de 120 à compter de la date de votre demande initiale. De plus, vous pouvez "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data now"
+          "value": "supprimer vos données personnels maintenant"
         }
       ],
       "type": 8,
@@ -3399,7 +3405,7 @@
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Personnaliser et envoyer"
     }
   ],
   "search.companyPlaceholder": [
@@ -3423,25 +3429,25 @@
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copy email text to clipboard"
+      "value": "Copier le texte du mail dans le presse-papiers"
     }
   ],
   "sendEmailButton.default": [
     {
       "type": 0,
-      "value": "Open in your default email client"
+      "value": "Ouvrir dans votre application de messagerie par défaut"
     }
   ],
   "sendEmailButton.gmail": [
     {
       "type": 0,
-      "value": "Open in Gmail"
+      "value": "Ouvrir dans Gmail"
     }
   ],
   "sendEmailButton.yahoo": [
     {
       "type": 0,
-      "value": "Open in Yahoo Mail"
+      "value": "Ouvrir dans Yahoo Mail"
     }
   ],
   "social.chromeCTA": [
@@ -3513,13 +3519,13 @@
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+      "value": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -3585,13 +3591,13 @@
   "thankyou.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Faire un don"
     }
   ],
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+      "value": "N'hésitez pas à faire un don pour contribuer à assurer notre stabilité et notre indépendance financières à long terme :"
     }
   ],
   "thankyou.findCompany": [
@@ -3617,13 +3623,13 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access request"
+      "value": "Une demande d'accès"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion request"
+      "value": "Une demande de suppression"
     }
   ],
   "thankyou.title": [

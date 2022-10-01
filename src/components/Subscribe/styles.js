@@ -6,35 +6,37 @@ const Theme = (theme) => ({
     backgroundColor: "#f2f2f2",
   },
   heading: {
+    color: "white",
+    padding: "30px",
+    backgroundColor: "#039277",
+    borderRadius: "20px",
+    display: "flex",
     maxWidth: "850px !important",
     margin: "auto auto",
     [theme.breakpoints.down("sm")]: {
-      marginTop: "-140px",
-      paddingTop: "150px",
+      display: "inherit",
     },
   },
   container: {
-    padding: "30px",
+    padding: "40px",
     boxSizing: "border-box",
     ...container,
-    /*[theme.breakpoints.up("md")]: {
-      padding: "76px 30px",
-      backgroundImage: "url('/images/QR.svg')",
-      backgroundPosition: "right 130px top 140px",
-      backgroundRepeat: "no-repeat",
-    },*/
   },
-  titleImg: {
-    width: "300px",
-    maxWidth: "75%",
+  image: {
+    [theme.breakpoints.down("sm")]: {
+      display: "none",
+    },
   },
   title: {
     marginBottom: 0,
   },
+  text: {
+    paddingRight: "20px",
+  },
   substack: {
-    marginTop: "30px",
-    textAlign: "center",
-    marginBottom: "30px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
   },
 });
 
