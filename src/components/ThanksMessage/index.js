@@ -29,10 +29,10 @@ const styles = (theme) => ({
   },
 
   content: {
-    padding: "60px 77px 0 77px",
+    padding: "30px 77px 0 77px",
 
     [theme.breakpoints.down("sm")]: {
-      padding: "60px 25px 0 25px",
+      padding: "30px 25px 0 25px",
     },
   },
 
@@ -116,27 +116,8 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}
         </Typography>
-        <Typography
-          component="p"
-          gutterBottom={true}
-          className={classes.text}
-          id="ThanksMessageDonationText"
-        >
-          {DonationText}
-        </Typography>  
-        <Button
-          variant="contained"
-          href="https://opencollective.com/consciousdigital"
-          color="primary"
-          type="submit"
-          target="_blank"
-          className={classes.donateButton}
-          onClick={() => trackDonate("Donation - Open Collective")}
-        >
-          <FormattedMessage id="thankyou.donate" defaultMessage="Donate" />
-        </Button>  
       </div>
       <Social />
       <Button
