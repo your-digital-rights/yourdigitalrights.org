@@ -32,6 +32,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
             <strong>
               <a
                 target="_blank"
+                rel="noreferrer noopener"
                 href={`mailto:${selectedCompany.email}`}
                 className={classes.link}
               >
@@ -44,6 +45,7 @@ const AboutOrg = ({ classes, selectedCompany, canonical }) => {
                 <FormattedMessage id="aboutOrg.privacyPolicy" defaultMessage="Privacy Policy:" />{" "}
                 <a
                   target="_blank"
+                  rel="noreferrer noopener"
                   href={`${selectedCompany.privacyPolicyUrl}`}
                   className={classes.link}
                 >

@@ -95,6 +95,10 @@ export default {
     this.trackEvent("Wishlist Click");
   },
 
+  trackFindAnotherOrg() {
+    this.trackEvent("Find Another Organization Click");
+  },
+
   trackRequestStatusChange(status) {
     this.trackEvent("Request Status Change", status);
   },

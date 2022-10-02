@@ -116,7 +116,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
         reply.push(<span>{requestType.exceptions}</span>);
       }
       reply.push(
-        <a href={ requestType.exceptionURL } target="_blank">
+        <a href={ requestType.exceptionURL } target="_blank" rel="noreferrer noopener">
           <FormattedMessage 
             id="request.next.findOutMore" 
             defaultMessage="Find out more about these exceptions" 
