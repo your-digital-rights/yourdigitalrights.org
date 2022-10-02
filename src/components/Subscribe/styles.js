@@ -3,7 +3,7 @@ import { theme } from "../../styles/theme";
 
 const Theme = (theme) => ({
   subscribe: {
-    backgroundColor: "rgb(250 250 250)",
+    backgroundColor: "#005ea5",
   },
   heading: {
     color: "white",
@@ -18,7 +18,7 @@ const Theme = (theme) => ({
     },
   },
   container: {
-    padding: "40px 40px 40px",
+    padding: "120px 40px 140px",
     boxSizing: "border-box",
     ...container,
   },
