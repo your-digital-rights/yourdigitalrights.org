@@ -38,7 +38,7 @@ const Subscribe = ({ classes, children }) => {
           </div>
           <div className={classes.substack}>
               <img className={classes.image} src="/images/Keep-it-private.png" alt="a card with a sad face" />
-            <iframe src="https://consciousdigital.substack.com/embed" width="350" height="100"  frameborder="0" scrolling="no" ></iframe>
+            <iframe src="https://consciousdigital.substack.com/embed" width="350" height="100"  frameBorder="0" scrolling="no" ></iframe>
           </div>    
         </div>
       </div>

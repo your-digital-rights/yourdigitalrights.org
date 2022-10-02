@@ -2,9 +2,9 @@ import { Title } from "./text";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-import GridList from '@material-ui/core/GridList';
-import GridListTile from "@material-ui/core/GridListTile";
-import Image from 'next/image'
+import { ImageList } from '@material-ui/core';
+import { ImageListItem } from '@material-ui/core';
+import Image from 'next/image';
 
 const items = [
   { name: "Fast Company", image: "/images/press/fastcompany.png", url: "https://www.fastcompany.com/90310803/here-are-the-data-brokers-quietly-buying-and-selling-your-personal-information" },
@@ -30,9 +30,9 @@ const PressCoverage = ({ classes }) => {
         {Title}
       </Typography>
       <div className={classes.inner}>
-        <GridList className={classes.gridList} cols={items.length} cellHeight={50} spacing={50}>
+        <ImageList className={classes.gridList} cols={items.length} rowHeight={50} gap={50}>
           {items.map((item) => (
-            <GridListTile
+            <ImageListItem
               button="true"
               component="a"
               target="_blank"
@@ -45,9 +45,9 @@ const PressCoverage = ({ classes }) => {
               alt={item.name}
               layout='fill'
             />  
-            </GridListTile>
+            </ImageListItem>
           ))}
-        </GridList>
+        </ImageList>
       </div>
     </div>
   );
