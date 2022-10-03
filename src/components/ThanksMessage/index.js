@@ -82,6 +82,7 @@ const ThanksMessage = (props) => {
   );
 
   let hide = () => {
+    tracking.trackFindAnotherOrg();
     props.hideThanks();
   };
 
