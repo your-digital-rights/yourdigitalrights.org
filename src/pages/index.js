@@ -181,9 +181,9 @@ class Index extends Component {
             <PressCoverage />
           </div>
           <HowItWorks />
+          <Subscribe />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
-          <Subscribe />
           <Footer />
           {this.state.showRedirectOverlay && (
             <RedirectOverlay close={() => this.closeRedirectOverlay()} />

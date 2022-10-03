@@ -377,7 +377,7 @@ class Form extends Component {
             onChange={this.handleInput("identifyingInfo")}
             margin="normal"
             multiline
-            rows={4}
+            minRows={4}
             helperText={IdentifyingInfoHelperText}
           />
           {this.props.selectedCompany && (
