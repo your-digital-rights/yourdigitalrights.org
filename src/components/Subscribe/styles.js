@@ -18,7 +18,7 @@ const Theme = (theme) => ({
     },
   },
   container: {
-    padding: "60px",
+    padding: "150px 40px 150px",
     boxSizing: "border-box",
     ...container,
   },
