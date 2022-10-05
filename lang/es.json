@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "GDPR (Reino Unido)"
-  },
   "about.aboutTitle": {
     "message": "Nuestro objetivo"
   },
@@ -145,24 +142,6 @@
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"
-  },
-  "data-brokers.DBAboutTitle": {
-    "message": "Opta por no compartir datos con los principales corredores de datos"
-  },
-  "data-brokers.brokerAfter": {
-    "message": "Estos son algunos de los principales brokers de datos, pero hay muchos más. Haga clic en el botón de abajo para acceder a toda la base de datos."
-  },
-  "data-brokers.brokersIntro": {
-    "message": "Los corredores de datos son empresas que recopilan y venden sus datos personales, normalmente sin su conocimiento o consentimiento. Estos son los principales corredores de datos, haga clic en cada empresa para solicitar el borrado de sus datos enviando una solicitud {faq} "
-  },
-  "data-brokers.description": {
-    "message": "Consiga que los principales corredores de datos borren sus datos personales"
-  },
-  "data-brokers.searchButton": {
-    "message": "Busca otras empresas"
-  },
-  "data-brokers.title": {
-    "message": "Opta por no compartir datos con los principales corredores de datos"
   },
   "dataProcessors": {
     "message": "Intercambio de datos y procesadores"
@@ -785,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "Envíame una copia de mis datos"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "CCPA (California)"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "Introduzca el nombre de dominio de la organización (ejemplo: google.co.uk o facebook.com)."
   },
@@ -808,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Eliminar mis datos"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "GDPR (Unión Europea)"
   },
   "personalInfoForm.headline": {
     "message": "Rellene el siguiente formulario para crear una solicitud que luego puede revisar y enviar. Para más información, lea nuestras <a>Preguntas Frecuentes</a>."
@@ -1184,6 +1157,12 @@
   "social.twitterTitle": {
     "message": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org."
   },
+  "subscribe.alertsOneLiner": {
+    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+  },
+  "subscribe.title": {
+    "message": "Sign up to our privacy alerts!"
+  },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
   },
@@ -1198,9 +1177,6 @@
   },
   "thankyou.copyPart3": {
     "message": "Consulte nuestras <a>Preguntas frecuentes</a> para obtener información adicional."
-  },
-  "thankyou.donate": {
-    "message": "Donate"
   },
   "thankyou.donation": {
     "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
