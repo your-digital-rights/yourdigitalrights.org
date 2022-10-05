@@ -21,7 +21,7 @@ import Regulations from "../../utils/regulations";
 
 const styles = (theme) => ({
   root: {
-    maxWidth: "780px",
+    maxWidth: "900px",
     margin: "auto",
     marginTop: "-160px",
     marginBottom: "30px",
