@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "GDPR (UK)"
-  },
   "about.aboutTitle": {
     "message": "Our mission"
   },
@@ -145,24 +142,6 @@
   },
   "contribute.translateTitle": {
     "message": "Translate the website"
-  },
-  "data-brokers.DBAboutTitle": {
-    "message": "Opt Out of the Top Data Brokers"
-  },
-  "data-brokers.brokerAfter": {
-    "message": "These are some of the top data brokers but there are many more. Click the button below to search the entire database."
-  },
-  "data-brokers.brokersIntro": {
-    "message": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a {faq} Erasure Request."
-  },
-  "data-brokers.description": {
-    "message": "Get the top data brokers to erase your personal data"
-  },
-  "data-brokers.searchButton": {
-    "message": "Search for other organizations"
-  },
-  "data-brokers.title": {
-    "message": "Opt Out of the Top Data Brokers"
   },
   "dataProcessors": {
     "message": "Data sharing and processors"
@@ -785,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "Send me a copy of my data"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "CCPA (California)"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
   },
@@ -808,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Delete my data"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "GDPR (European Union)"
   },
   "personalInfoForm.headline": {
     "message": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a>Frequently Asked Questions</a>."
@@ -1184,6 +1157,12 @@
   "social.twitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
+  "subscribe.alertsOneLiner": {
+    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+  },
+  "subscribe.title": {
+    "message": "Sign up to our privacy alerts!"
+  },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
   },
@@ -1198,9 +1177,6 @@
   },
   "thankyou.copyPart3": {
     "message": "Please see our list of <a>Frequently Asked Questions</a> for additional information."
-  },
-  "thankyou.donate": {
-    "message": "Donate"
   },
   "thankyou.donation": {
     "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"

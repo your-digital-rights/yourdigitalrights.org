@@ -1,10 +1,4 @@
 {
-  "UKgdprOption": [
-    {
-      "type": 0,
-      "value": "GDPR (UK)"
-    }
-  ],
   "about.aboutTitle": [
     {
       "type": 0,
@@ -525,50 +519,6 @@
     {
       "type": 0,
       "value": "Translate the website"
-    }
-  ],
-  "data-brokers.DBAboutTitle": [
-    {
-      "type": 0,
-      "value": "Opt Out of the Top Data Brokers"
-    }
-  ],
-  "data-brokers.brokerAfter": [
-    {
-      "type": 0,
-      "value": "These are some of the top data brokers but there are many more. Click the button below to search the entire database."
-    }
-  ],
-  "data-brokers.brokersIntro": [
-    {
-      "type": 0,
-      "value": "Data Brokers are companies which collect and sell personal data, typically without your knowledge or consent. These are some of the top data brokers, click on each company to have them erase your data by sending a "
-    },
-    {
-      "type": 1,
-      "value": "faq"
-    },
-    {
-      "type": 0,
-      "value": " Erasure Request."
-    }
-  ],
-  "data-brokers.description": [
-    {
-      "type": 0,
-      "value": "Get the top data brokers to erase your personal data"
-    }
-  ],
-  "data-brokers.searchButton": [
-    {
-      "type": 0,
-      "value": "Search for other organizations"
-    }
-  ],
-  "data-brokers.title": [
-    {
-      "type": 0,
-      "value": "Opt Out of the Top Data Brokers"
     }
   ],
   "dataProcessors": [
@@ -2107,12 +2057,6 @@
       "value": "Send me a copy of my data"
     }
   ],
-  "personalInfoForm.ccpaOption": [
-    {
-      "type": 0,
-      "value": "CCPA (California)"
-    }
-  ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
@@ -2153,12 +2097,6 @@
     {
       "type": 0,
       "value": "Delete my data"
-    }
-  ],
-  "personalInfoForm.gdprOption": [
-    {
-      "type": 0,
-      "value": "GDPR (European Union)"
     }
   ],
   "personalInfoForm.headline": [
@@ -3524,6 +3462,18 @@
       "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
     }
   ],
+  "subscribe.alertsOneLiner": [
+    {
+      "type": 0,
+      "value": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "Sign up to our privacy alerts!"
+    }
+  ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
@@ -3594,12 +3544,6 @@
     {
       "type": 0,
       "value": " for additional information."
-    }
-  ],
-  "thankyou.donate": [
-    {
-      "type": 0,
-      "value": "Donate"
     }
   ],
   "thankyou.donation": [
