@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "DSGVO (Vereinigtes Königreich)"
-  },
   "about.aboutTitle": {
     "message": "Unsere Aufgabe"
   },
@@ -145,24 +142,6 @@
   },
   "contribute.translateTitle": {
     "message": "Übersetzen Sie die Website"
-  },
-  "data-brokers.DBAboutTitle": {
-    "message": "Melden Sie sich von den Top-Datenbrokern ab"
-  },
-  "data-brokers.brokerAfter": {
-    "message": "Dies sind einige der besten Datenbroker, aber es gibt noch viel mehr. Klicken Sie auf die Schaltfläche unten, um die gesamte Datenbank zu durchsuchen."
-  },
-  "data-brokers.brokersIntro": {
-    "message": "Datenbroker sind Unternehmen, die personenbezogene Daten sammeln und verkaufen, typischerweise ohne Ihr Wissen oder Ihre Zustimmung. Dies sind einige der besten Datenbroker. Klicken Sie auf jedes Unternehmen, damit es Ihre Daten löscht, indem Sie eine {faq} Löschanforderung senden."
-  },
-  "data-brokers.description": {
-    "message": "Lassen Sie Ihre persönlichen Daten von den besten Datenbrokern löschen"
-  },
-  "data-brokers.searchButton": {
-    "message": "Suchen Sie nach anderen Organisationen"
-  },
-  "data-brokers.title": {
-    "message": "Melden Sie sich von den Top-Datenbrokern ab"
   },
   "dataProcessors": {
     "message": "Datenfreigabe und Prozessoren"
@@ -785,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "Senden Sie mir eine Kopie meiner Daten"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "CCPA (Kalifornien)"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "Bitte geben Sie den Domainnamen der Organisation ein (Beispiel: google.co.uk oder facebook.com)."
   },
@@ -808,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Meine Daten löschen"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "DSGVO (Europäische Union)"
   },
   "personalInfoForm.headline": {
     "message": "Füllen Sie das folgende Formular aus, um eine Datenanforderungs-E-Mail zu erstellen, die Sie dann überprüfen und senden können. Weitere Informationen finden Sie in unseren <a>häufig gestellten Fragen</a>."
@@ -1184,6 +1157,12 @@
   "social.twitterTitle": {
     "message": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
   },
+  "subscribe.alertsOneLiner": {
+    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+  },
+  "subscribe.title": {
+    "message": "Sign up to our privacy alerts!"
+  },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
   },
@@ -1198,9 +1177,6 @@
   },
   "thankyou.copyPart3": {
     "message": "Weitere Informationen finden Sie in unserer Liste mit <a>häufig gestellten Fragen</a>"
-  },
-  "thankyou.donate": {
-    "message": "Donate"
   },
   "thankyou.donation": {
     "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
