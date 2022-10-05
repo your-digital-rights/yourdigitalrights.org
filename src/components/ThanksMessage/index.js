@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Social from "../Social";
+import Subscribe from "../Subscribe";
 import tracking from "../../utils/tracking";
 import { 
   ThanksTitleText, 
@@ -22,10 +23,13 @@ const styles = (theme) => ({
   root: {
     maxWidth: "780px",
     margin: "auto",
-    marginTop: "-120px",
+    marginTop: "-160px",
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "-120px",
+    },
   },
 
   content: {
@@ -119,6 +123,7 @@ const ThanksMessage = (props) => {
           {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{/*{" "}{ThanksCopyPart3} */}
         </Typography>
       </div>
+      <Subscribe contained={true}/>
 {/*      <Button
           variant="contained"
           color="secondary"

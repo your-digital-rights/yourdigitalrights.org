@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "GDPR (UK)"
-  },
   "about.aboutTitle": {
     "message": "Our mission"
   },
@@ -767,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "Send me a copy of my data"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "CCPA (California)"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
   },
@@ -790,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Delete my data"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "GDPR (European Union)"
   },
   "personalInfoForm.headline": {
     "message": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a>Frequently Asked Questions</a>."
@@ -1167,7 +1158,7 @@
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
   "subscribe.alertsOneLiner": {
-    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders."
+    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
   },
   "subscribe.title": {
     "message": "Sign up to our privacy alerts!"

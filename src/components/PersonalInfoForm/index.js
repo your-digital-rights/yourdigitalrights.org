@@ -228,18 +228,6 @@ class Form extends Component {
   render() {
     const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
-    const CcpaOptionText = this.props.intl.formatMessage({
-      id: "personalInfoForm.ccpaOption",
-      defaultMessage: "CCPA (California)",
-    });
-    const GdprOptionText = this.props.intl.formatMessage({
-      id: "personalInfoForm.gdprOption",
-      defaultMessage: "GDPR (European Union)",
-    });
-    const UKGdprOptionText = this.props.intl.formatMessage({
-      id: "UKgdprOption",
-      defaultMessage: "GDPR (UK)",
-    });    
 
     let formToDisplay;
     if (this.props.router.asPath.includes("#Form")) {

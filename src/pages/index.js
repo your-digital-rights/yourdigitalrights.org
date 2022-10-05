@@ -181,7 +181,6 @@ class Index extends Component {
             <PressCoverage />
           </div>
           <HowItWorks />
-          <Subscribe />
           <FAQ />
           <Social offset={true} sourcePage="homepage" />
           <Footer />
