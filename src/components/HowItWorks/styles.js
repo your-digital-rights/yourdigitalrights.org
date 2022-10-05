@@ -3,7 +3,7 @@ export const indexStyles = (theme) => ({
   root: {
     display: "flex",
     flexDirection: "column",
-    padding: "120px 0px 130px",
+    padding: "120px 0px 0px",
     ...container,
     [theme.breakpoints.down("sm")]: {
       marginTop: "-100px",
