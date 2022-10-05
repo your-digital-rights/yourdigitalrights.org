@@ -1,7 +1,7 @@
-import { createMuiTheme } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
 
 // Create a theme instance.
-const theme = createMuiTheme({
+const theme = createTheme({
   overrides: {
     MuiCssBaseline: {
       '@global': {
@@ -57,7 +57,7 @@ const theme = createMuiTheme({
     },
     fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
   },	
-  backgroundImage: "linear-gradient(152deg, #0973be, #005ea5)",
+  backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",
   color: "white",
 });
 

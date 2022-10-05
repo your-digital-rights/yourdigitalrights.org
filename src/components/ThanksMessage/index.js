@@ -4,6 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Social from "../Social";
+import Subscribe from "../Subscribe";
 import tracking from "../../utils/tracking";
 import { 
   ThanksTitleText, 
@@ -20,16 +21,19 @@ import Regulations from "../../utils/regulations";
 
 const styles = (theme) => ({
   root: {
-    maxWidth: "780px",
+    maxWidth: "900px",
     margin: "auto",
-    marginTop: "-120px",
+    marginTop: "-160px",
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "-120px",
+    },
   },
 
   content: {
-    padding: "60px 77px 0 77px",
+    padding: "60px 77px 15px 77px",
 
     [theme.breakpoints.down("sm")]: {
       padding: "60px 25px 0 25px",
@@ -116,30 +120,11 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{" "}{ThanksCopyPart3}
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{/*{" "}{ThanksCopyPart3} */}
         </Typography>
-        <Typography
-          component="p"
-          gutterBottom={true}
-          className={classes.text}
-          id="ThanksMessageDonationText"
-        >
-          {DonationText}
-        </Typography>  
-        <Button
-          variant="contained"
-          href="https://opencollective.com/consciousdigital"
-          color="primary"
-          type="submit"
-          target="_blank"
-          className={classes.donateButton}
-          onClick={() => trackDonate("Donation - Open Collective")}
-        >
-          <FormattedMessage id="thankyou.donate" defaultMessage="Donate" />
-        </Button>  
       </div>
-      <Social />
-      <Button
+      <Subscribe contained={true}/>
+{/*      <Button
           variant="contained"
           color="secondary"
           type="submit"
@@ -149,6 +134,7 @@ const ThanksMessage = (props) => {
         >
           {FindCompanyText}
       </Button>      
+*/}      
     </Paper>
   );
 };

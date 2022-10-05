@@ -1,5 +1,5 @@
 import { useIntl } from "react-intl";
-import Donations from "../../components/Donations";
+import Subscribe from "../../components/Subscribe";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
 import Nav from "../../components/Nav";
@@ -44,8 +44,8 @@ const Org = ({ organization, router }) => {
       <PersonalInfoForm
         selectedCompany={organization}
       />
-      <Donations />
-      <Footer />
+      {/*<Subscribe />*/}
+      <Footer showRoadmap={false} />
     </div>
   )
 }
