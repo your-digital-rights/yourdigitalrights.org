@@ -2,8 +2,6 @@ import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
-import Social from "../Social";
 import Subscribe from "../Subscribe";
 import tracking from "../../utils/tracking";
 import { 
@@ -12,18 +10,15 @@ import {
   ThanksCopyPart1Copy, 
   ThanksRequestTypeDelete,
   ThanksRequestTypeAccess,
-  ThanksCopyPart3,
-  FindCompanyText,
-  DonationText
 } from "./text";
 import {useIntl} from 'react-intl';
 import Regulations from "../../utils/regulations";
 
 const styles = (theme) => ({
   root: {
-    maxWidth: "900px",
+    borderRadius: "20px",
+    maxWidth: "1000px",
     margin: "auto",
-    marginTop: "-160px",
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
@@ -31,24 +26,19 @@ const styles = (theme) => ({
       marginTop: "-120px",
     },
   },
-
   content: {
     padding: "60px 77px 15px 77px",
-
     [theme.breakpoints.down("sm")]: {
       padding: "60px 25px 0 25px",
     },
   },
-
   title: {
     marginBottom: "20px",
   },
-
   text: {
     marginBottom: "30px",
     textAlign: "left",
   },
-
   donateButton: {
     marginBottom: "30px",
     borderRadius: "24px 24px 24px 24px",
@@ -59,7 +49,6 @@ const styles = (theme) => ({
       background: "#04487B",
     },
   },
-
   startAgainBtn: {
     borderRadius: "24px 24px 24px 24px",
     position: "absolute",
@@ -73,17 +62,17 @@ const styles = (theme) => ({
 
 const ThanksMessage = (props) => {
   const intl = useIntl();
-  let { classes, requestType, regulationType, uuid, selectedActionName } = props;
+  let { classes, requestType, regulationType, selectedActionName } = props;
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
   let ThanksCopyPart1 = (selectedActionName == "Copy") ? ThanksCopyPart1Copy : ThanksCopyPart1Email;
-  let replyTimeText = intl.formatMessage({
+  let replyTimeText = regulationType ? intl.formatMessage({
       id: "thankyou.howLongToReply",
       defaultMessage: "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems.",
     },
     {
       days: (<em>{Regulations[regulationType].timeLimit} days</em>),
     }
-  );
+  ) : "";
 
   let hide = () => {
     tracking.trackFindAnotherOrg();

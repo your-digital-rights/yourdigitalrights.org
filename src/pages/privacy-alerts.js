@@ -47,7 +47,7 @@ const styles = (theme) => ({
 const PrivacyAlerts = ({ classes, router }) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "privacyAlerts.description", defaultMessage: "Subscribe to our monthly privacy alerts"});
-  const BaseURL = "/contribute";
+  const BaseURL = "/privacy-alerts";
 
   return (
     <div>
