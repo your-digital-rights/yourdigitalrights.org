@@ -32,14 +32,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="p"
                 className={classes.heading}
               >
-                <a
-                  rel="nofollow"
-                  target="new"
-                  href={`https://${selectedCompany.url}`}
-                  className={classes.titleLink}
-                >              
                 {Capitalize(selectedCompany.url)}
-                </a>
               </Typography>
               <Typography color="inherit">
               <FormattedMessage

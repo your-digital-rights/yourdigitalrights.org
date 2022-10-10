@@ -3,19 +3,20 @@ import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
+import Button from "@material-ui/core/Button";
 
+const handleSignUpClick = (e) => {
+  e.preventDefault();
+}
 
-const Subscribe = ({ classes, contained=false, children }) => {
-  const containerClass = contained ? classes.containerContained: classes.container;
-  const subscribeClass = contained ? classes.subscribeContained: classes.subscribe;
-  const emailInputWidth = contained ? 300 : 350;
+const Subscribe = ({ classes, children }) => {
   const trackDonate = (type) => {
     tracking.trackDonate(type, "Donation Component");
   };
 
   return (
-    <div className={subscribeClass}>
-      <div className={containerClass}>
+    <div className={classes.container}>
+      <div className={classes.subscribe}>
         <div id="subscribe" className={classes.heading}>
         <div className={classes.text}>
           <Typography
@@ -39,8 +40,15 @@ const Subscribe = ({ classes, contained=false, children }) => {
             </Typography> 
           </div>
           <div className={classes.substack}>
-              <img className={classes.image} src="/images/Keep-it-private.png" alt="a card with a sad face" />
-            <iframe src="https://consciousdigital.substack.com/embed" width={emailInputWidth} height="100"  frameBorder="0" scrolling="no" ></iframe>
+            <Button
+              variant="contained"
+              color="primary"
+              className={classes.signUpButton}
+              id="ThanksMessageBtn"
+              href="/privacy-alerts"
+            >
+              <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />
+            </Button>  
           </div>    
         </div>
       </div>

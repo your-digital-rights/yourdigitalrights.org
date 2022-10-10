@@ -173,8 +173,6 @@ class Form extends Component {
     this.saveRequest(data);
     this.setState({ selectedActionName: selectedAction.name });
     this.setState({ hasSubmit: true });
-    this.props.router.push("#Form", undefined, { shallow: true });
-    
     if (this.state.followUp === "YES") {
       tracking.trackFollwups(
         this.state.regulationType,
@@ -190,6 +188,8 @@ class Form extends Component {
         this.state.requestType
       );
     }
+    let thankYouUrl = `/thankyou?regulationType=${this.state.regulationType}&requestType=${this.state.requestType}&selectedActionName=${selectedAction.name}`
+    this.props.router.push(thankYouUrl, "/thankyou");
   }
 
   saveRequest = (data) => {
@@ -229,23 +229,8 @@ class Form extends Component {
     const { screenHeight } = this.state;
     const { classes, selectedCompany } = this.props;
 
-    let formToDisplay;
-    if (this.props.router.asPath.includes("#Form")) {
-      formToDisplay = (
-        <ThanksMessage
-          id="ThanksMessageContainer"
-          className="thanks-message"
-          requestType={this.state.requestType}
-          regulationType={this.state.regulationType}
-          uuid={this.state.uuid}
-          selectedActionName={this.state.selectedActionName}
-          hideThanks={() =>
-            (window.location = `/#${searchOrganizationsUrlAnchor}`)
-          }
-        />
-      );
-    } else {
-      formToDisplay = (
+    return (
+      <div id="Form">
         <Paper
           component="form"
           className={classes.formContainer}
@@ -415,10 +400,8 @@ class Form extends Component {
             </EmailSendButton>
           </div>
         </Paper>
-      );
-    }
-
-    return <div id="Form">{formToDisplay}</div>;
+      </div>
+    )
   }
 }
 export default withRouter(injectIntl(withStyles(styles)(Form)));
