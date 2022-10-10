@@ -890,6 +890,39 @@
   "privacy.usageDataBody": {
     "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
   },
+  "privacyAlerts.description": {
+    "message": "Subscribe to our monthly privacy alerts"
+  },
+  "privacyAlerts.description1": {
+    "message": "Improve your privacy posture over time by spending only 5 minutes a month. Sign up to our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt-out."
+  },
+  "privacyAlerts.description2": {
+    "message": "Our research team identifies companies while taking into consideration:"
+  },
+  "privacyAlerts.description3": {
+    "message": "Each email also includes new privacy best practices we have identified, which you can implement straight away. This is a paid service which helps ensure our long-term financial stability and independence."
+  },
+  "privacyAlerts.description4": {
+    "message": "This is a paid service which helps ensure our long-term financial stability and independence."
+  },
+  "privacyAlerts.dscriptionBullit1": {
+    "message": "Companies with the most opt-out requests for the month"
+  },
+  "privacyAlerts.dscriptionBullit2": {
+    "message": "New data brokers (companies selling personal information including location, and facial recognition data)"
+  },
+  "privacyAlerts.dscriptionBullit3": {
+    "message": "Companies who have experienced a recent data breach"
+  },
+  "privacyAlerts.dscriptionBullit4": {
+    "message": "Companies who have mishandled personal information"
+  },
+  "privacyAlerts.strapline": {
+    "message": "Your data is all over the internet, but you don't know how to get it back? We can help you get your privacy to a better place."
+  },
+  "privacyAlerts.title": {
+    "message": "Keep it private!"
+  },
   "redirect.continueText": {
     "message": "Continua"
   },
@@ -1178,6 +1211,9 @@
   "thankyou.copyPart3": {
     "message": "Si prega di consultare il nostro elenco di <a>Domande frequenti</a> per ulteriori informazioni."
   },
+  "thankyou.description": {
+    "message": "Thank you"
+  },
   "thankyou.donation": {
     "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
   },
@@ -1194,6 +1230,6 @@
     "message": "A deletion request"
   },
   "thankyou.title": {
-    "message": "Grazie"
+    "message": "Thank You!"
   }
 }
