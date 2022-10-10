@@ -8,7 +8,7 @@ import { withStyles } from "@material-ui/core/styles";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
-
+import Social from "../components/Social";
 
 const styles = (theme) => ({
   container: {
@@ -84,6 +84,7 @@ const PrivacyAlerts = ({ classes, router }) => {
             </div>               
         </Paper>
       </div>
+      <Social sourcePage="priceAlerts"/>
       <Footer showRoadmap={false} />
     </div>
   );
