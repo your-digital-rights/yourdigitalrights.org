@@ -10,8 +10,8 @@ const handleSignUpClick = (e) => {
 }
 
 const Subscribe = ({ classes, children }) => {
-  const trackDonate = (type) => {
-    tracking.trackDonate(type, "Donation Component");
+  const trackSubscribe = () => {
+    tracking.trackSubscribe("Thankyou Page");
   };
 
   return (
@@ -46,6 +46,7 @@ const Subscribe = ({ classes, children }) => {
               className={classes.signUpButton}
               id="ThanksMessageBtn"
               href="/privacy-alerts"
+              onClick={() => trackSubscribe()}
             >
               <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />
             </Button>  

@@ -99,7 +99,7 @@ describe("When I visit the home page", () => {
       describe("thank you message", () => {
         it("shows a thank you message", async () => {
           (await page.thanksMessage.isVisible).should.be.true;
-          expect(await page.thanksMessage.title).to.equal("Thank You");
+          expect(await page.thanksMessage.title).to.equal("Thank You!");
           expect(await page.thanksMessage.text).to.contain(
             "request email should have opened in your email application"
           );
@@ -133,18 +133,6 @@ describe("When I visit the home page", () => {
             "Social Share From thankyou",
             "facebook"
           )).should.be.true;
-        });
-
-        it("should hide thanks message after clicking 'Find another organization' and focus search form", async () => {
-          (await page.thanksMessage.isVisible).should.be.true;
-
-          const button = await page.thanksMessage.btn;
-          await button.waitForClickable();
-          await button.click();
-
-          (await page.thanksMessage.isVisible).should.be.false;
-          (await page.searchIsFocused()).should.be.true;
-          (await page.personalInfoForm.isVisible).should.be.false;
         });
       });
     });

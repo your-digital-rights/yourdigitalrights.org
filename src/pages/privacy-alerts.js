@@ -70,7 +70,7 @@ const PrivacyAlerts = ({ classes, router }) => {
           </Typography>
           <br/>          
           <Typography gutterBottom={true}>
-            <FormattedMessage id="privacyAlerts.description1" defaultMessage="Improve your privacy posture over time by spending only 5 minutes a month. Sign up to our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt-out." />
+            <FormattedMessage id="privacyAlerts.description1" defaultMessage="Improve your privacy posture over time by spending only 5 minutes a month. Sign up for our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt out." />
           </Typography>    
           <br/>
           <Typography color="inherit" className={classes.intro} gutterBottom={true}>            
