@@ -43,6 +43,7 @@ const Hero = ({ classes, onCompanySelected, children }) => {
               id="hero.intro"
               defaultMessage="Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
               values={{
+                br: <br />,
                 a: txt => (<Link href="/data-brokers"><a className={classes.introLink}>{txt}</a></Link>),
               }}
             />            

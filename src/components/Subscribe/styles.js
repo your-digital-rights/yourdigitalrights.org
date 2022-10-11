@@ -7,7 +7,7 @@ const Theme = (theme) => ({
   },
   heading: {
     color: "white",
-    padding: "50px 20px",
+    padding: "30px 50px",
     backgroundColor: "#039277",
     borderRadius: "20px",
     maxWidth: "980px !important",

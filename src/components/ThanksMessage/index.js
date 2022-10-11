@@ -19,7 +19,7 @@ const styles = (theme) => ({
     borderRadius: "20px",
     maxWidth: "1000px",
     margin: "auto",
-    marginBottom: "30px",
+    marginBottom: "80px",
     textAlign: "center",
     position: "relative",
     [theme.breakpoints.down("sm")]: {
