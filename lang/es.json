@@ -890,35 +890,17 @@
   "privacy.usageDataBody": {
     "message": "Trabajamos con los siguientes proveedores de terceros para realizar algunas tareas de procesamiento de datos en nuestro nombre. Involucramos a estos proveedores en términos que garanticen la confidencialidad y la seguridad de sus datos."
   },
-  "privacyAlerts.description": {
+  "privacyAlerts.description1": {
+    "message": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+  },
+  "privacyAlerts.seoDescription": {
     "message": "Subscribe to our monthly privacy alerts"
   },
-  "privacyAlerts.description1": {
-    "message": "Improve your privacy posture over time by spending only 5 minutes a month. Sign up to our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt-out."
-  },
-  "privacyAlerts.description2": {
-    "message": "Our research team identifies companies while taking into consideration:"
-  },
-  "privacyAlerts.description3": {
-    "message": "Each email also includes new privacy best practices we have identified, which you can implement straight away. This is a paid service which helps ensure our long-term financial stability and independence."
-  },
-  "privacyAlerts.description4": {
-    "message": "This is a paid service which helps ensure our long-term financial stability and independence."
-  },
-  "privacyAlerts.dscriptionBullit1": {
-    "message": "Companies with the most opt-out requests for the month"
-  },
-  "privacyAlerts.dscriptionBullit2": {
-    "message": "New data brokers (companies selling personal information including location, and facial recognition data)"
-  },
-  "privacyAlerts.dscriptionBullit3": {
-    "message": "Companies who have experienced a recent data breach"
-  },
-  "privacyAlerts.dscriptionBullit4": {
-    "message": "Companies who have mishandled personal information"
+  "privacyAlerts.seoTitle": {
+    "message": "Privacy Alerts"
   },
   "privacyAlerts.strapline": {
-    "message": "Your data is all over the internet, but you don't know how to get it back? We can help you get your privacy to a better place."
+    "message": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
   },
   "privacyAlerts.title": {
     "message": "Keep it private!"
@@ -1191,7 +1173,10 @@
     "message": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org."
   },
   "subscribe.alertsOneLiner": {
-    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+    "message": "Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
+  },
+  "subscribe.signup": {
+    "message": "Sign up"
   },
   "subscribe.title": {
     "message": "Sign up to our privacy alerts!"
@@ -1228,6 +1213,9 @@
   },
   "thankyou.requestTypeDelete": {
     "message": "A deletion request"
+  },
+  "thankyou.seotitle": {
+    "message": "Gracias"
   },
   "thankyou.title": {
     "message": "Gracias!"
