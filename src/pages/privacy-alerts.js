@@ -42,13 +42,13 @@ const styles = (theme) => ({
 
 const PrivacyAlerts = ({ classes, router }) => {
   const intl = useIntl();
-  const Description = intl.formatMessage({id: "privacyAlerts.description", defaultMessage: "Subscribe to our monthly privacy alerts"});
+  const Description = intl.formatMessage({id: "privacyAlerts.seoDescription", defaultMessage: "Subscribe to our monthly privacy alerts"});
   const BaseURL = "/privacy-alerts";
 
   return (
     <div>
       <NextSeo
-        title = {intl.formatMessage({id: "privacyAlerts.title", defaultMessage: "Privacy Alerts"})}
+        title = {intl.formatMessage({id: "privacyAlerts.seoTitle", defaultMessage: "Privacy Alerts"})}
         canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{
@@ -65,20 +65,13 @@ const PrivacyAlerts = ({ classes, router }) => {
           <Typography component="p" variant="h5" gutterBottom={true} >
             <FormattedMessage
               id="privacyAlerts.strapline"
-              defaultMessage="Your data is all over the internet, but you don't know how to get it back? We can help you get your privacy to a better place."
+              defaultMessage="Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
             />
           </Typography>
           <br/>          
           <Typography gutterBottom={true}>
-            <FormattedMessage id="privacyAlerts.description1" defaultMessage="Improve your privacy posture over time by spending only 5 minutes a month. Sign up to our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt-out." />
+            <FormattedMessage id="privacyAlerts.description1" defaultMessage="Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data." />
           </Typography>    
-          <br/>
-          <Typography color="inherit" className={classes.intro} gutterBottom={true}>            
-            <FormattedMessage
-              id="privacyAlerts.description4"
-              defaultMessage="This is a paid service which helps ensure our long-term financial stability and independence."
-            />
-          </Typography>            
           <div className={classes.substack}>
               <iframe src="https://consciousdigital.substack.com/embed" width="450" height="100"  frameBorder="0" scrolling="no" ></iframe>
             </div>               
