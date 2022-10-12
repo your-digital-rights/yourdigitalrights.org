@@ -35,7 +35,13 @@ const styles = (theme) => ({
     [theme.breakpoints.down("xs")]: {
       display: "none",
     },    
-  }
+  },
+  subscribeContainer: {
+    backgroundColor: theme.palette.primary.main,
+    marginTop: "-145px",
+    paddingTop: "210px",
+    paddingBottom: "30px",
+  },  
 });
 
 const tabletBreakpoint = 960;
@@ -182,7 +188,9 @@ class Index extends Component {
           </div>
           <HowItWorks />
           <FAQ />
-          <Social offset={true} sourcePage="homepage" />
+          <div className={classes.subscribeContainer}>
+            <Subscribe />
+          </div>
           <Footer />
           {this.state.showRedirectOverlay && (
             <RedirectOverlay close={() => this.closeRedirectOverlay()} />

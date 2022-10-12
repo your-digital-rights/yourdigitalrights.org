@@ -2,9 +2,6 @@ import { container } from "../../styles/layout";
 import { theme } from "../../styles/theme";
 
 const Theme = (theme) => ({
-  subscribe: {
-    backgroundColor: "white",
-  },
   heading: {
     color: "white",
     padding: "50px 20px",
@@ -20,7 +17,12 @@ const Theme = (theme) => ({
   container: {
     paddingBottom: "40px",
     boxSizing: "border-box",
+    textAlign: "center",
     ...container,
+    [theme.breakpoints.down("sm")]: {
+      paddingLeft: "0px",
+      paddingRight: "0px",
+    }
   },
   image: {
     [theme.breakpoints.down("sm")]: {

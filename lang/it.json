@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "GDPR (Regno Unito)"
-  },
   "about.aboutTitle": {
     "message": "La nostra missione"
   },
@@ -145,24 +142,6 @@
   },
   "contribute.translateTitle": {
     "message": "Traduci il sito web"
-  },
-  "data-brokers.DBAboutTitle": {
-    "message": "Rinuncia ai migliori broker di dati"
-  },
-  "data-brokers.brokerAfter": {
-    "message": "Questi sono alcuni dei migliori broker di dati, ma ce ne sono molti altri. Fare clic sul pulsante in basso per eseguire la ricerca nell'intero database."
-  },
-  "data-brokers.brokersIntro": {
-    "message": "I broker di dati sono società che raccolgono e vendono dati personali, in genere a tua insaputa o senza il tuo consenso. Questi sono alcuni dei migliori broker di dati, fai clic su ciascuna società per farli cancellare i tuoi dati inviando una richiesta di cancellazione {faq}"
-  },
-  "data-brokers.description": {
-    "message": "Ottieni i migliori broker di dati per cancellare i tuoi dati personali"
-  },
-  "data-brokers.searchButton": {
-    "message": "Cerca altre organizzazioni"
-  },
-  "data-brokers.title": {
-    "message": "Rinuncia ai migliori broker di dati"
   },
   "dataProcessors": {
     "message": "Condivisione dei dati e incaricati del trattamento"
@@ -785,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "Inviami una copia dei miei dati"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "CCPA (California)"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "Inserisci il nome di dominio dell'organizzazione (esempio: google.co.uk o facebook.com)."
   },
@@ -808,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "Cancella i miei dati"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "GDPR (Unione Europea)"
   },
   "personalInfoForm.headline": {
     "message": "Compila il seguente modulo per creare un'e-mail di richiesta dati che puoi quindi rivedere e inviare. Per maggiori informazioni leggi le nostre <a>Domande frequenti</a>."
@@ -916,6 +889,39 @@
   },
   "privacy.usageDataBody": {
     "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
+  },
+  "privacyAlerts.description": {
+    "message": "Subscribe to our monthly privacy alerts"
+  },
+  "privacyAlerts.description1": {
+    "message": "Improve your privacy posture over time by spending only 5 minutes a month. Sign up to our privacy alerts and each month we will email you a list of 3 companies with the worst privacy track record for the month. All you need to do is click the links in the email to opt-out."
+  },
+  "privacyAlerts.description2": {
+    "message": "Our research team identifies companies while taking into consideration:"
+  },
+  "privacyAlerts.description3": {
+    "message": "Each email also includes new privacy best practices we have identified, which you can implement straight away. This is a paid service which helps ensure our long-term financial stability and independence."
+  },
+  "privacyAlerts.description4": {
+    "message": "This is a paid service which helps ensure our long-term financial stability and independence."
+  },
+  "privacyAlerts.dscriptionBullit1": {
+    "message": "Companies with the most opt-out requests for the month"
+  },
+  "privacyAlerts.dscriptionBullit2": {
+    "message": "New data brokers (companies selling personal information including location, and facial recognition data)"
+  },
+  "privacyAlerts.dscriptionBullit3": {
+    "message": "Companies who have experienced a recent data breach"
+  },
+  "privacyAlerts.dscriptionBullit4": {
+    "message": "Companies who have mishandled personal information"
+  },
+  "privacyAlerts.strapline": {
+    "message": "Your data is all over the internet, but you don't know how to get it back? We can help you get your privacy to a better place."
+  },
+  "privacyAlerts.title": {
+    "message": "Keep it private!"
   },
   "redirect.continueText": {
     "message": "Continua"
@@ -1184,6 +1190,12 @@
   "social.twitterTitle": {
     "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
   },
+  "subscribe.alertsOneLiner": {
+    "message": "Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+  },
+  "subscribe.title": {
+    "message": "Sign up to our privacy alerts!"
+  },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
   },
@@ -1199,8 +1211,8 @@
   "thankyou.copyPart3": {
     "message": "Si prega di consultare il nostro elenco di <a>Domande frequenti</a> per ulteriori informazioni."
   },
-  "thankyou.donate": {
-    "message": "Donate"
+  "thankyou.description": {
+    "message": "Thank you"
   },
   "thankyou.donation": {
     "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
@@ -1218,6 +1230,6 @@
     "message": "A deletion request"
   },
   "thankyou.title": {
-    "message": "Grazie"
+    "message": "Thank You!"
   }
 }
