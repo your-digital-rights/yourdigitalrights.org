@@ -42,13 +42,13 @@ const styles = (theme) => ({
 
 const PrivacyAlerts = ({ classes, router }) => {
   const intl = useIntl();
-  const Description = intl.formatMessage({id: "privacyAlerts.description", defaultMessage: "Subscribe to our monthly privacy alerts"});
+  const Description = intl.formatMessage({id: "privacyAlerts.seoDescription", defaultMessage: "Subscribe to our monthly privacy alerts"});
   const BaseURL = "/privacy-alerts";
 
   return (
     <div>
       <NextSeo
-        title = {intl.formatMessage({id: "privacyAlerts.title", defaultMessage: "Privacy Alerts"})}
+        title = {intl.formatMessage({id: "privacyAlerts.seoTitle", defaultMessage: "Privacy Alerts"})}
         canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{

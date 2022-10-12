@@ -2347,16 +2347,22 @@
       "value": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
     }
   ],
-  "privacyAlerts.description": [
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+    }
+  ],
+  "privacyAlerts.seoDescription": [
     {
       "type": 0,
       "value": "Subscribe to our monthly privacy alerts"
     }
   ],
-  "privacyAlerts.description1": [
+  "privacyAlerts.seoTitle": [
     {
       "type": 0,
-      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+      "value": "Privacy Alerts"
     }
   ],
   "privacyAlerts.strapline": [
@@ -3618,6 +3624,12 @@
     {
       "type": 0,
       "value": "A deletion request"
+    }
+  ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "Thank You"
     }
   ],
   "thankyou.title": [

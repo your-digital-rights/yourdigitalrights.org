@@ -890,11 +890,14 @@
   "privacy.usageDataBody": {
     "message": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
   },
-  "privacyAlerts.description": {
-    "message": "Subscribe to our monthly privacy alerts"
-  },
   "privacyAlerts.description1": {
     "message": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Subscribe to our monthly privacy alerts"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Privacy Alerts"
   },
   "privacyAlerts.strapline": {
     "message": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
@@ -1210,6 +1213,9 @@
   },
   "thankyou.requestTypeDelete": {
     "message": "A deletion request"
+  },
+  "thankyou.seotitle": {
+    "message": "Thank You"
   },
   "thankyou.title": {
     "message": "Thank You!"
