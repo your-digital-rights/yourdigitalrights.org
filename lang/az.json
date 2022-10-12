@@ -1,7 +1,4 @@
 {
-  "UKgdprOption": {
-    "message": "crwdns2237:0crwdne2237:0"
-  },
   "about.aboutTitle": {
     "message": "crwdns2239:0crwdne2239:0"
   },
@@ -145,24 +142,6 @@
   },
   "contribute.translateTitle": {
     "message": "crwdns2721:0crwdne2721:0"
-  },
-  "data-brokers.DBAboutTitle": {
-    "message": "crwdns2295:0crwdne2295:0"
-  },
-  "data-brokers.brokerAfter": {
-    "message": "crwdns2297:0crwdne2297:0"
-  },
-  "data-brokers.brokersIntro": {
-    "message": "crwdns2299:0{faq}crwdne2299:0"
-  },
-  "data-brokers.description": {
-    "message": "crwdns2301:0crwdne2301:0"
-  },
-  "data-brokers.searchButton": {
-    "message": "crwdns2303:0crwdne2303:0"
-  },
-  "data-brokers.title": {
-    "message": "crwdns2305:0crwdne2305:0"
   },
   "dataProcessors": {
     "message": "crwdns3192:0crwdne3192:0"
@@ -785,9 +764,6 @@
   "personalInfoForm.accessRequestLabelText": {
     "message": "crwdns2567:0crwdne2567:0"
   },
-  "personalInfoForm.ccpaOption": {
-    "message": "crwdns2569:0crwdne2569:0"
-  },
   "personalInfoForm.companyDomainHelper": {
     "message": "crwdns2731:0crwdne2731:0"
   },
@@ -808,9 +784,6 @@
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "crwdns2583:0crwdne2583:0"
-  },
-  "personalInfoForm.gdprOption": {
-    "message": "crwdns2585:0crwdne2585:0"
   },
   "personalInfoForm.headline": {
     "message": "crwdns2587:0crwdne2587:0"
@@ -916,6 +889,39 @@
   },
   "privacy.usageDataBody": {
     "message": "crwdns3222:0crwdne3222:0"
+  },
+  "privacyAlerts.description": {
+    "message": "crwdns3523:0crwdne3523:0"
+  },
+  "privacyAlerts.description1": {
+    "message": "crwdns3525:0crwdne3525:0"
+  },
+  "privacyAlerts.description2": {
+    "message": "crwdns3527:0crwdne3527:0"
+  },
+  "privacyAlerts.description3": {
+    "message": "crwdns3529:0crwdne3529:0"
+  },
+  "privacyAlerts.description4": {
+    "message": "crwdns3531:0crwdne3531:0"
+  },
+  "privacyAlerts.dscriptionBullit1": {
+    "message": "crwdns3533:0crwdne3533:0"
+  },
+  "privacyAlerts.dscriptionBullit2": {
+    "message": "crwdns3535:0crwdne3535:0"
+  },
+  "privacyAlerts.dscriptionBullit3": {
+    "message": "crwdns3537:0crwdne3537:0"
+  },
+  "privacyAlerts.dscriptionBullit4": {
+    "message": "crwdns3539:0crwdne3539:0"
+  },
+  "privacyAlerts.strapline": {
+    "message": "crwdns3541:0crwdne3541:0"
+  },
+  "privacyAlerts.title": {
+    "message": "crwdns3543:0crwdne3543:0"
   },
   "redirect.continueText": {
     "message": "crwdns2639:0crwdne2639:0"
@@ -1184,6 +1190,12 @@
   "social.twitterTitle": {
     "message": "crwdns2671:0crwdne2671:0"
   },
+  "subscribe.alertsOneLiner": {
+    "message": "crwdns3519:0crwdne3519:0"
+  },
+  "subscribe.title": {
+    "message": "crwdns3521:0crwdne3521:0"
+  },
   "thankyou.copyPart1Copy": {
     "message": "crwdns3499:0crwdne3499:0"
   },
@@ -1199,8 +1211,8 @@
   "thankyou.copyPart3": {
     "message": "crwdns2685:0crwdne2685:0"
   },
-  "thankyou.donate": {
-    "message": "crwdns3479:0crwdne3479:0"
+  "thankyou.description": {
+    "message": "crwdns3545:0crwdne3545:0"
   },
   "thankyou.donation": {
     "message": "crwdns3481:0crwdne3481:0"
@@ -1218,6 +1230,6 @@
     "message": "crwdns3505:0crwdne3505:0"
   },
   "thankyou.title": {
-    "message": "crwdns2693:0crwdne2693:0"
+    "message": "crwdns3547:0crwdne3547:0"
   }
 }
