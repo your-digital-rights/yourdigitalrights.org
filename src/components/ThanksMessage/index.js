@@ -112,7 +112,7 @@ const ThanksMessage = (props) => {
           {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{/*{" "}{ThanksCopyPart3} */}
         </Typography>
       </div>
-      <Subscribe contained={true}/>
+      <Subscribe/>
 {/*      <Button
           variant="contained"
           color="secondary"
