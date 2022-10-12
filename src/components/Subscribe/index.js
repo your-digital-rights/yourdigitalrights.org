@@ -35,7 +35,7 @@ const Subscribe = ({ classes, children }) => {
             >
               <FormattedMessage
                 id="subscribe.alertsOneLiner"
-                defaultMessage="Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+                defaultMessage="Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
               />
             </Typography> 
           </div>
