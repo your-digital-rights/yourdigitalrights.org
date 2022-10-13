@@ -9,9 +9,9 @@ const handleSignUpClick = (e) => {
   e.preventDefault();
 }
 
-const Subscribe = ({ classes, children }) => {
+const Subscribe = ({ classes, children, page="thank-you"}) => {
   const trackSubscribe = () => {
-    tracking.trackSubscribe("Thankyou Page");
+    tracking.trackSubscribe(page);
   };
 
   return (
