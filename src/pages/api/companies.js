@@ -8,9 +8,7 @@ const DOMAIN = 0;
 const DISPLAY_NAME = 1;
 const SEARCH_TERMS = 2;
 const EMAIL = 3;
-const PRIVACY_POLICY_URL = 4;
 const DATE_CREATED = 5;
-const EMAILS_SENT = 7;
 
 let data = fetchCompanies();
 
@@ -21,7 +19,7 @@ function compare(a,b) {
 async function fetchCompanies() {
   try {
     let orgs = await fetch(
-      `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Domains!A2:AD?key=${API_KEY}`
+      `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Domains!A2:F?key=${API_KEY}`
     );
     orgs = await orgs.json();
     orgs = orgs['values'].sort(compare).map(company => {
@@ -31,8 +29,6 @@ async function fetchCompanies() {
         email: company[EMAIL].trim(),
         url: company[DOMAIN].trim(),
         searchTerms: company[SEARCH_TERMS].trim(),
-        //privacyPolicyUrl: company[PRIVACY_POLICY_URL].trim(),
-        emailsSent: emailCount
       };
     });
     return {"License": "GNU General Public License v3.0", "Organizations": orgs.slice(0, 25000)};
