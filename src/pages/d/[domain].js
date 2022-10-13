@@ -54,7 +54,7 @@ const Org = ({ classes, organization, router }) => {
         selectedCompany={organization}
       />
       <div className={classes.subscribeContainer}>
-        <Subscribe />
+        <Subscribe page="org"/>
       </div>
       <Footer/>
     </div>

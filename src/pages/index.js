@@ -189,7 +189,7 @@ class Index extends Component {
           <HowItWorks />
           <FAQ />
           <div className={classes.subscribeContainer}>
-            <Subscribe />
+            <Subscribe page="homepage" />
           </div>
           <Footer />
           {this.state.showRedirectOverlay && (
