@@ -890,35 +890,17 @@
   "privacy.usageDataBody": {
     "message": "crwdns3222:0crwdne3222:0"
   },
-  "privacyAlerts.description": {
-    "message": "crwdns3523:0crwdne3523:0"
-  },
   "privacyAlerts.description1": {
-    "message": "crwdns3525:0crwdne3525:0"
+    "message": "crwdns3549:0crwdne3549:0"
   },
-  "privacyAlerts.description2": {
-    "message": "crwdns3527:0crwdne3527:0"
+  "privacyAlerts.seoDescription": {
+    "message": "crwdns3551:0crwdne3551:0"
   },
-  "privacyAlerts.description3": {
-    "message": "crwdns3529:0crwdne3529:0"
-  },
-  "privacyAlerts.description4": {
-    "message": "crwdns3531:0crwdne3531:0"
-  },
-  "privacyAlerts.dscriptionBullit1": {
-    "message": "crwdns3533:0crwdne3533:0"
-  },
-  "privacyAlerts.dscriptionBullit2": {
-    "message": "crwdns3535:0crwdne3535:0"
-  },
-  "privacyAlerts.dscriptionBullit3": {
-    "message": "crwdns3537:0crwdne3537:0"
-  },
-  "privacyAlerts.dscriptionBullit4": {
-    "message": "crwdns3539:0crwdne3539:0"
+  "privacyAlerts.seoTitle": {
+    "message": "crwdns3553:0crwdne3553:0"
   },
   "privacyAlerts.strapline": {
-    "message": "crwdns3541:0crwdne3541:0"
+    "message": "crwdns3555:0crwdne3555:0"
   },
   "privacyAlerts.title": {
     "message": "crwdns3543:0crwdne3543:0"
@@ -1191,7 +1173,10 @@
     "message": "crwdns2671:0crwdne2671:0"
   },
   "subscribe.alertsOneLiner": {
-    "message": "crwdns3519:0crwdne3519:0"
+    "message": "crwdns3557:0crwdne3557:0"
+  },
+  "subscribe.signup": {
+    "message": "crwdns3559:0crwdne3559:0"
   },
   "subscribe.title": {
     "message": "crwdns3521:0crwdne3521:0"
@@ -1228,6 +1213,9 @@
   },
   "thankyou.requestTypeDelete": {
     "message": "crwdns3505:0crwdne3505:0"
+  },
+  "thankyou.seotitle": {
+    "message": "crwdns3561:0crwdne3561:0"
   },
   "thankyou.title": {
     "message": "crwdns3547:0crwdne3547:0"
