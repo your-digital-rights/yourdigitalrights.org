@@ -75,6 +75,10 @@ export default {
     this.trackEvent("Donation Click", type, "Donation From " + source);
   },
 
+  trackSubscribe(source) {
+    this.trackEvent("Subscribe Click", "Subscribe From " + source);
+  },
+
   trackDeletePII(type) {
     this.trackEvent("Delete PII", type);
   },

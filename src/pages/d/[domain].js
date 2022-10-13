@@ -8,13 +8,22 @@ import fetchSheetData from "../../utils/sheets";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
+import { withStyles } from "@material-ui/core/styles";
 
+const styles = (theme) => ({
+  subscribeContainer: {
+    backgroundColor: theme.palette.primary.main,
+    marginTop: "-145px",
+    paddingTop: "150px",
+    paddingBottom: "30px",
+  },
+});
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ organization, router }) => {
+const Org = ({ classes, organization, router }) => {
   const intl = useIntl();
   const Title = organization ? 
     intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "{org} - Delete Your Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
@@ -44,8 +53,10 @@ const Org = ({ organization, router }) => {
       <PersonalInfoForm
         selectedCompany={organization}
       />
-      {/*<Subscribe />*/}
-      <Footer showRoadmap={false} />
+      <div className={classes.subscribeContainer}>
+        <Subscribe page="org"/>
+      </div>
+      <Footer/>
     </div>
   )
 }
@@ -78,4 +89,4 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default withRouter(Org);
+export default withStyles(styles)(withRouter(Org));

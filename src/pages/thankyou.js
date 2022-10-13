@@ -30,7 +30,7 @@ const PrivacyAlerts = ({ classes, router }) => {
   return (
     <div>
       <NextSeo
-        title = {intl.formatMessage({id: "thankyou.title", defaultMessage: "Thank You"})}
+        title = {intl.formatMessage({id: "thankyou.seotitle", defaultMessage: "Thank You"})}
         canonical = {generateCanonical(BaseURL, router.locale)}
         description = {Description}
         openGraph = {{

@@ -9,9 +9,9 @@ const handleSignUpClick = (e) => {
   e.preventDefault();
 }
 
-const Subscribe = ({ classes, children }) => {
-  const trackDonate = (type) => {
-    tracking.trackDonate(type, "Donation Component");
+const Subscribe = ({ classes, children, page="thank-you"}) => {
+  const trackSubscribe = () => {
+    tracking.trackSubscribe(page);
   };
 
   return (
@@ -35,7 +35,7 @@ const Subscribe = ({ classes, children }) => {
             >
               <FormattedMessage
                 id="subscribe.alertsOneLiner"
-                defaultMessage="Improve your privacy posture over time by opting out of 3 companies each month. Our research team hand picks the worst privacy offenders. This is a paid service."
+                defaultMessage="Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
               />
             </Typography> 
           </div>
@@ -46,6 +46,7 @@ const Subscribe = ({ classes, children }) => {
               className={classes.signUpButton}
               id="ThanksMessageBtn"
               href="/privacy-alerts"
+              onClick={() => trackSubscribe()}
             >
               <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />
             </Button>  
