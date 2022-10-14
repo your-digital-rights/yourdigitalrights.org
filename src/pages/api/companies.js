@@ -23,7 +23,6 @@ async function fetchCompanies() {
     );
     orgs = await orgs.json();
     orgs = orgs['values'].sort(compare).map(company => {
-      let emailCount  = company[EMAILS_SENT] ? company[EMAILS_SENT].trim() : 0;
       return {
         name: company[DISPLAY_NAME].trim(),
         email: company[EMAIL].trim(),
