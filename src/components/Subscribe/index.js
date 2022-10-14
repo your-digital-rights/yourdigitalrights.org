@@ -44,8 +44,8 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               variant="contained"
               color="primary"
               className={classes.signUpButton}
-              id="ThanksMessageBtn"
-              href="/privacy-alerts"
+              id="SubscribeMessageBtn"
+              href="https://consciousdigital.substack.com/?showWelcome=true"
               onClick={() => trackSubscribe()}
             >
               <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />

@@ -1,10 +1,4 @@
 {
-  "UKgdprOption": [
-    {
-      "type": 0,
-      "value": "RGPD (Royaume-Uni)"
-    }
-  ],
   "about.aboutTitle": [
     {
       "type": 0,
@@ -517,46 +511,6 @@
     {
       "type": 0,
       "value": "Traduire le site"
-    }
-  ],
-  "data-brokers.DBAboutTitle": [
-    {
-      "type": 0,
-      "value": "Se retirer des meilleurs courtiers en données"
-    }
-  ],
-  "data-brokers.brokerAfter": [
-    {
-      "type": 0,
-      "value": "Ce sont quelques-uns des meilleurs courtiers en données, mais il en existe bien d'autres. Cliquez sur le bouton ci-dessous pour effectuer une recherche dans toute la base de données."
-    }
-  ],
-  "data-brokers.brokersIntro": [
-    {
-      "type": 0,
-      "value": "Les courtiers en données sont des entreprises qui collectent et vendent des données personnelles, généralement à votre insu ou sans votre consentement. Voici quelques-uns des meilleurs courtiers en données, cliquez sur chaque entreprise pour qu'ils effacent vos données en envoyant une demande d'effacement "
-    },
-    {
-      "type": 1,
-      "value": "faq"
-    }
-  ],
-  "data-brokers.description": [
-    {
-      "type": 0,
-      "value": "Obtenez les meilleurs courtiers en données pour effacer vos données personnelles"
-    }
-  ],
-  "data-brokers.searchButton": [
-    {
-      "type": 0,
-      "value": "Rechercher d'autres organisations"
-    }
-  ],
-  "data-brokers.title": [
-    {
-      "type": 0,
-      "value": "Se retirer des meilleurs courtiers en données"
     }
   ],
   "dataProcessors": [
@@ -2091,12 +2045,6 @@
       "value": "Envoyez-moi une copie de mes données"
     }
   ],
-  "personalInfoForm.ccpaOption": [
-    {
-      "type": 0,
-      "value": "CCPA (Californie)"
-    }
-  ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
@@ -2137,12 +2085,6 @@
     {
       "type": 0,
       "value": "Supprimer mes données"
-    }
-  ],
-  "personalInfoForm.gdprOption": [
-    {
-      "type": 0,
-      "value": "RGPD (Union européenne)"
     }
   ],
   "personalInfoForm.headline": [
@@ -2391,6 +2333,36 @@
     {
       "type": 0,
       "value": "Nous travaillons avec les fournisseurs tiers suivants pour effectuer des tâches de traitement de données en notre nom. Nous engageons ces fournisseurs à respecter des conditions qui garantissent la confidentialité et la sécurité de vos données."
+    }
+  ],
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+    }
+  ],
+  "privacyAlerts.seoDescription": [
+    {
+      "type": 0,
+      "value": "Subscribe to our monthly privacy alerts"
+    }
+  ],
+  "privacyAlerts.seoTitle": [
+    {
+      "type": 0,
+      "value": "Privacy Alerts"
+    }
+  ],
+  "privacyAlerts.strapline": [
+    {
+      "type": 0,
+      "value": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
+    }
+  ],
+  "privacyAlerts.title": [
+    {
+      "type": 0,
+      "value": "Keep it private!"
     }
   ],
   "redirect.continueText": [
@@ -3516,6 +3488,24 @@
       "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
     }
   ],
+  "subscribe.alertsOneLiner": [
+    {
+      "type": 0,
+      "value": "Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
+    }
+  ],
+  "subscribe.signup": [
+    {
+      "type": 0,
+      "value": "Sign up"
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "Sign up to our privacy alerts!"
+    }
+  ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
@@ -3588,10 +3578,10 @@
       "value": " pour plus d'informations."
     }
   ],
-  "thankyou.donate": [
+  "thankyou.description": [
     {
       "type": 0,
-      "value": "Faire un don"
+      "value": "Thank you"
     }
   ],
   "thankyou.donation": [
@@ -3632,10 +3622,16 @@
       "value": "Une demande de suppression"
     }
   ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "Thank You"
+    }
+  ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "Je vous remercie"
+      "value": "Thank You!"
     }
   ]
 }
