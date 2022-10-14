@@ -1,10 +1,4 @@
 {
-  "UKgdprOption": [
-    {
-      "type": 0,
-      "value": "DSGVO (Vereinigtes Königreich)"
-    }
-  ],
   "about.aboutTitle": [
     {
       "type": 0,
@@ -525,50 +519,6 @@
     {
       "type": 0,
       "value": "Übersetzen Sie die Website"
-    }
-  ],
-  "data-brokers.DBAboutTitle": [
-    {
-      "type": 0,
-      "value": "Melden Sie sich von den Top-Datenbrokern ab"
-    }
-  ],
-  "data-brokers.brokerAfter": [
-    {
-      "type": 0,
-      "value": "Dies sind einige der besten Datenbroker, aber es gibt noch viel mehr. Klicken Sie auf die Schaltfläche unten, um die gesamte Datenbank zu durchsuchen."
-    }
-  ],
-  "data-brokers.brokersIntro": [
-    {
-      "type": 0,
-      "value": "Datenbroker sind Unternehmen, die personenbezogene Daten sammeln und verkaufen, typischerweise ohne Ihr Wissen oder Ihre Zustimmung. Dies sind einige der besten Datenbroker. Klicken Sie auf jedes Unternehmen, damit es Ihre Daten löscht, indem Sie eine "
-    },
-    {
-      "type": 1,
-      "value": "faq"
-    },
-    {
-      "type": 0,
-      "value": " Löschanforderung senden."
-    }
-  ],
-  "data-brokers.description": [
-    {
-      "type": 0,
-      "value": "Lassen Sie Ihre persönlichen Daten von den besten Datenbrokern löschen"
-    }
-  ],
-  "data-brokers.searchButton": [
-    {
-      "type": 0,
-      "value": "Suchen Sie nach anderen Organisationen"
-    }
-  ],
-  "data-brokers.title": [
-    {
-      "type": 0,
-      "value": "Melden Sie sich von den Top-Datenbrokern ab"
     }
   ],
   "dataProcessors": [
@@ -2103,12 +2053,6 @@
       "value": "Senden Sie mir eine Kopie meiner Daten"
     }
   ],
-  "personalInfoForm.ccpaOption": [
-    {
-      "type": 0,
-      "value": "CCPA (Kalifornien)"
-    }
-  ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
@@ -2149,12 +2093,6 @@
     {
       "type": 0,
       "value": "Meine Daten löschen"
-    }
-  ],
-  "personalInfoForm.gdprOption": [
-    {
-      "type": 0,
-      "value": "DSGVO (Europäische Union)"
     }
   ],
   "personalInfoForm.headline": [
@@ -2403,6 +2341,36 @@
     {
       "type": 0,
       "value": "Wir arbeiten mit den folgenden Drittanbietern zusammen, um in unserem Auftrag einige Datenverarbeitungsaufgaben zu erledigen. Wir verpflichten diese Anbieter zu Bedingungen, die die Vertraulichkeit und Sicherheit Ihrer Daten gewährleisten."
+    }
+  ],
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+    }
+  ],
+  "privacyAlerts.seoDescription": [
+    {
+      "type": 0,
+      "value": "Subscribe to our monthly privacy alerts"
+    }
+  ],
+  "privacyAlerts.seoTitle": [
+    {
+      "type": 0,
+      "value": "Privacy Alerts"
+    }
+  ],
+  "privacyAlerts.strapline": [
+    {
+      "type": 0,
+      "value": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
+    }
+  ],
+  "privacyAlerts.title": [
+    {
+      "type": 0,
+      "value": "Keep it private!"
     }
   ],
   "redirect.continueText": [
@@ -3520,6 +3488,24 @@
       "value": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
     }
   ],
+  "subscribe.alertsOneLiner": [
+    {
+      "type": 0,
+      "value": "Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
+    }
+  ],
+  "subscribe.signup": [
+    {
+      "type": 0,
+      "value": "Sign up"
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "Sign up to our privacy alerts!"
+    }
+  ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
@@ -3588,10 +3574,10 @@
       "value": "a"
     }
   ],
-  "thankyou.donate": [
+  "thankyou.description": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Thank you"
     }
   ],
   "thankyou.donation": [
@@ -3632,10 +3618,16 @@
       "value": "A deletion request"
     }
   ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "Thank You"
+    }
+  ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "Danke schön"
+      "value": "Thank You!"
     }
   ]
 }

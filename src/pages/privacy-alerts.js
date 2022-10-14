@@ -73,8 +73,8 @@ const PrivacyAlerts = ({ classes, router }) => {
             <FormattedMessage id="privacyAlerts.description1" defaultMessage="Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data." />
           </Typography>    
           <div className={classes.substack}>
-              <iframe src="https://consciousdigital.substack.com/embed" width="450" height="100"  frameBorder="0" scrolling="no" ></iframe>
-            </div>               
+            <iframe src="https://consciousdigital.substack.com/embed" width="450" height="100"  frameBorder="0" scrolling="no" ></iframe>
+          </div>               
         </Paper>
       </div>
       <Social sourcePage="priceAlerts"/>

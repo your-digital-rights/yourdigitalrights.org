@@ -1,10 +1,4 @@
 {
-  "UKgdprOption": [
-    {
-      "type": 0,
-      "value": "crwdns2237:0crwdne2237:0"
-    }
-  ],
   "about.aboutTitle": [
     {
       "type": 0,
@@ -419,50 +413,6 @@
     {
       "type": 0,
       "value": "crwdns2721:0crwdne2721:0"
-    }
-  ],
-  "data-brokers.DBAboutTitle": [
-    {
-      "type": 0,
-      "value": "crwdns2295:0crwdne2295:0"
-    }
-  ],
-  "data-brokers.brokerAfter": [
-    {
-      "type": 0,
-      "value": "crwdns2297:0crwdne2297:0"
-    }
-  ],
-  "data-brokers.brokersIntro": [
-    {
-      "type": 0,
-      "value": "crwdns2299:0"
-    },
-    {
-      "type": 1,
-      "value": "faq"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2299:0"
-    }
-  ],
-  "data-brokers.description": [
-    {
-      "type": 0,
-      "value": "crwdns2301:0crwdne2301:0"
-    }
-  ],
-  "data-brokers.searchButton": [
-    {
-      "type": 0,
-      "value": "crwdns2303:0crwdne2303:0"
-    }
-  ],
-  "data-brokers.title": [
-    {
-      "type": 0,
-      "value": "crwdns2305:0crwdne2305:0"
     }
   ],
   "dataProcessors": [
@@ -1755,12 +1705,6 @@
       "value": "crwdns2567:0crwdne2567:0"
     }
   ],
-  "personalInfoForm.ccpaOption": [
-    {
-      "type": 0,
-      "value": "crwdns2569:0crwdne2569:0"
-    }
-  ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
@@ -1801,12 +1745,6 @@
     {
       "type": 0,
       "value": "crwdns2583:0crwdne2583:0"
-    }
-  ],
-  "personalInfoForm.gdprOption": [
-    {
-      "type": 0,
-      "value": "crwdns2585:0crwdne2585:0"
     }
   ],
   "personalInfoForm.headline": [
@@ -2041,6 +1979,36 @@
     {
       "type": 0,
       "value": "crwdns3222:0crwdne3222:0"
+    }
+  ],
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "crwdns3549:0crwdne3549:0"
+    }
+  ],
+  "privacyAlerts.seoDescription": [
+    {
+      "type": 0,
+      "value": "crwdns3551:0crwdne3551:0"
+    }
+  ],
+  "privacyAlerts.seoTitle": [
+    {
+      "type": 0,
+      "value": "crwdns3553:0crwdne3553:0"
+    }
+  ],
+  "privacyAlerts.strapline": [
+    {
+      "type": 0,
+      "value": "crwdns3555:0crwdne3555:0"
+    }
+  ],
+  "privacyAlerts.title": [
+    {
+      "type": 0,
+      "value": "crwdns3543:0crwdne3543:0"
     }
   ],
   "redirect.continueText": [
@@ -2793,6 +2761,24 @@
       "value": "crwdns2671:0crwdne2671:0"
     }
   ],
+  "subscribe.alertsOneLiner": [
+    {
+      "type": 0,
+      "value": "crwdns3557:0crwdne3557:0"
+    }
+  ],
+  "subscribe.signup": [
+    {
+      "type": 0,
+      "value": "crwdns3559:0crwdne3559:0"
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "crwdns3521:0crwdne3521:0"
+    }
+  ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
@@ -2823,10 +2809,10 @@
       "value": "crwdns2685:0crwdne2685:0"
     }
   ],
-  "thankyou.donate": [
+  "thankyou.description": [
     {
       "type": 0,
-      "value": "crwdns3479:0crwdne3479:0"
+      "value": "crwdns3545:0crwdne3545:0"
     }
   ],
   "thankyou.donation": [
@@ -2867,10 +2853,16 @@
       "value": "crwdns3505:0crwdne3505:0"
     }
   ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "crwdns3561:0crwdne3561:0"
+    }
+  ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "crwdns2693:0crwdne2693:0"
+      "value": "crwdns3547:0crwdne3547:0"
     }
   ]
 }
