@@ -11,7 +11,7 @@ const Theme = (theme) => ({
     },
   },
   heading: {
-    maxWidth: "850px !important",
+    maxWidth: "970px !important",
     margin: "auto auto",
   },
   container: {
@@ -21,19 +21,19 @@ const Theme = (theme) => ({
     [theme.breakpoints.up("md")]: {
       padding: "76px 30px",
       backgroundImage: "url('images/mascot_new.svg')",
-      backgroundPosition: "right 160px top 100px",
+      backgroundPosition: "right 70px top 100px",
       backgroundRepeat: "no-repeat",
     },
   },
   intro: {
-    maxWidth: "550px",
+    maxWidth: "650px",
   },
   WhiteText: {
     color: "white",
   },
   introEnd: {
     marginBottom: "50px",
-    maxWidth: "530px",
+    maxWidth: "650px",
   },
   titleImg: {
     width: "200px",
