@@ -34,9 +34,14 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               gutterBottom={true}
             >
               <FormattedMessage
-                id="subscribe.alertsOneLiner"
-                defaultMessage="Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
+                id="subscribe.alertsOneLiner1"
+                defaultMessage="Improve your online privacy over time by opting out of 3 companies each month."
               />
+              <br/>
+              <FormattedMessage
+                id="subscribe.alertsOneLiner2"
+                defaultMessage="Our research team hand-picks the worst privacy offenders."
+              />              
             </Typography> 
           </div>
           <div className={classes.substack}>
