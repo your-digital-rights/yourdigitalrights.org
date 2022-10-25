@@ -67,13 +67,13 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         }
         classes={classes}
       />
-      <NavItem
+      {/* <NavItem
         href="/#Extension"
         text={
           <FormattedMessage id="nav.extension" defaultMessage="Browser Extension" />
         }
         classes={classes}
-      />
+      /> */}
 
       <NavItem
         href="/contribute"
@@ -199,7 +199,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           classes={classes}
         />        
 
-        <NavItem
+        {/* <NavItem
           onClickHandler={toggleMobileNav}
           href="/#Extension"
           subsection={true}
@@ -210,11 +210,11 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
             />
           }
           classes={classes}
-        />
+        /> */}
 
         <NavItem
           onClickHandler={toggleMobileNav}
-          href="/#donations"
+          href="https://opencollective.com/consciousdigital"
           subsection={true}
           text={
             <FormattedMessage id="nav.donation" defaultMessage="Make a Donation" />
