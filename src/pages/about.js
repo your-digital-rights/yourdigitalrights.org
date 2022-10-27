@@ -51,27 +51,40 @@ const About = ({ classes, router }) => {
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
+          <Typography gutterBottom={true} component="h1" variant="h4">
+            <FormattedMessage id="about.consciousDigital" defaultMessage="Who we are" />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.consciousDigital1"
+              defaultMessage="YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+              values= {{
+                cd: <a target="_blank" href="https://consciousdigital.org/">Conscious Digital</a>
+              }}
+            />
+          </Typography> 
+          <br/>         
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage id="about.aboutTitle" defaultMessage="Our mission" />
           </Typography>
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody1"
-              defaultMessage="YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR), the {ccpa} (CCPA), and the Brazilian {lgpd} (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+              defaultMessage="We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
               values={{
-                gdpr: (
+                GDPR: (
                   <a target="_blank" href="https://gdpr.eu/tag/gdpr/">
-                    General Data Protection Regulations
+                    GDPR
                   </a>
                 ),
-                ccpa: (
+                CCPA: (
                   <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">
-                    California Consumer Privacy Act
+                    CCPA
                   </a>
                 ),
-                lgpd: (
+                LGPD: (
                   <a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm">
-                    Lei Geral de Proteção de Dados Pessoais
+                    LGPD
                   </a>
                 ),                
               }}
@@ -81,14 +94,14 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody2"
-              defaultMessage="Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+              defaultMessage="Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
             />
           </Typography>
           <br />
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.missionBody3"
-              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to organizations. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+              defaultMessage="This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
               values={{
                 a: chunks =>  (
                   <a 
@@ -101,19 +114,6 @@ const About = ({ classes, router }) => {
               }}
             />
           </Typography>
-          <br />
-          <Typography gutterBottom={true} component="h2" variant="h3">
-            <FormattedMessage id="about.consciousDigital" defaultMessage="Who we are" />
-          </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="about.consciousDigital1"
-              defaultMessage="YourDigitalRights.org is a production of {cd}, a registered charity creating people centred digital initiatives which promote and advance Digital Human Rights."
-              values= {{
-                cd: <a target="_blank" href="https://consciousdigital.org/">Conscious Digital</a>
-              }}
-            />
-          </Typography>
           <br />    
           <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="about.funding" defaultMessage="Funding" />
@@ -121,7 +121,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.fundingBody1"
-              defaultMessage="This project is self funded by its creators, and with the help of your donations."
+              defaultMessage="This project is funded by its creators, and with the help of your donations."
             />
           </Typography>
           <br />
@@ -200,7 +200,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsTitle"
-              defaultMessage="We'd like to thank the following organizations for supporting our open source effort by providing a free or discounted version of their services:"
+              defaultMessage="We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -227,21 +227,12 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsBody4"
-              defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open source and privacy minded web analytics platform."
+              defaultMessage="{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
               values={{
                 innocraft: <a target="_blank" href="https://innocraft.cloud">Innocraft</a>,
               }}
             />
           </Typography>
-          <Typography gutterBottom={true}>
-            <FormattedMessage
-              id="about.sponsorsBody5"
-              defaultMessage="{mailgo} - for creating an awesome open source library which makes 'mailto' links user friendly, and for being super responsive to our requests."
-              values={{
-                mailgo: <a target="_blank" href="https://mailgo.dev/">Mailgo</a>,
-              }}
-            />
-          </Typography>          
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsBody6"
@@ -259,7 +250,20 @@ const About = ({ classes, router }) => {
                 ama: <a target="_blank" href="https://assisemendes.com.br/">Assis e Mendes Advogados</a>,
               }}
             />
-          </Typography>             
+          </Typography>  
+          <br />
+          <Typography gutterBottom={true} component="h2" variant="h3">
+            <FormattedMessage id="about.contact" defaultMessage="Contact" />
+          </Typography>
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.contactText"
+              defaultMessage="Contact us at {email}."
+              values={{
+                email: <a target="_blank" href="mailto:info@yourdigitalrights.org ">info@yourdigitalrights.org</a>,
+              }}              
+            />
+          </Typography>                     
         </Paper>
       </div>
       <Social offset={true} sourcePage="about" />
