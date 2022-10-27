@@ -6,7 +6,13 @@
     "message": "Quienes somos"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org es un proyecto de {cd}, una organización sin animo de lucro que desarrolla iniciativas digitales centradas en las personas con la intención de promover los derechos humanos digitales."
+    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+  },
+  "about.contact": {
+    "message": "Contáctenos"
+  },
+  "about.contactText": {
+    "message": "Contact us at {email}."
   },
   "about.contributors": {
     "message": "Contribuciones"
@@ -33,16 +39,16 @@
     "message": "Financiación"
   },
   "about.fundingBody1": {
-    "message": "Este proyecto es autofinanciado por sus creadores y con la ayuda de sus donaciones."
+    "message": "This project is funded by its creators, and with the help of your donations."
   },
   "about.missionBody1": {
-    "message": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European {gdpr} (GDPR), the {ccpa} (CCPA), and the Brazilian {lgpd} (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
   },
   "about.missionBody3": {
-    "message": "Éste es un servicio gratuito. Nosotros no somos un negocio o tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es de <a>Código Abierto</a>."
+    "message": "Es un servicio gratuito. No somos un negocio y no tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es <a>Código Abierto</a>."
   },
   "about.sponsors": {
     "message": "Apoyar organizaciones"
@@ -54,10 +60,7 @@
     "message": "{featureupvote} - por proporcionar una manera efectiva de capturar nuevas propuestas por parte de la comunidad con respecto a nuestra {roadmap}."
   },
   "about.sponsorsBody4": {
-    "message": "{innocraft} - por proporcionar una versión alojada de Matomo (Piwik), la plataforma de análisis web de código abierto y privacidad."
-  },
-  "about.sponsorsBody5": {
-    "message": "{mailgo} - por crear una impresionante biblioteca de código abierto que hace que los enlaces 'mailto' sean fáciles de usar, y por ser super sensibles a nuestras peticiones."
+    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
   },
   "about.sponsorsBody6": {
     "message": "{sws} - por ayudarnos con la estrategia SEO."
@@ -66,7 +69,7 @@
     "message": "{ama} - para ayudarnos a entender y apoyar la normativa de privacidad de datos brasileña, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestro esfuerzo de código abierto proporcionando una versión gratuita o descontada de sus servicios:"
+    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.title": {
     "message": "Sobre nosotros"
@@ -609,7 +612,7 @@
     "message": "Preguntas frecuentes"
   },
   "footer.contact": {
-    "message": "Para obtener más información, <a>contáctenos aquí</a>. © Copyright 2019"
+    "message": "© Copyright 2019 - 2022"
   },
   "footer.disclaimer": {
     "message": "<span>Aviso:</span> Este servicio se proporciona tal cual, sin garantía de ningún tipo. El uso de este servicio es bajo su propio riesgo. No podemos responsabilizarnos por ningún daño directo o indirecto que resulte del uso de este servicio. La información relacionado con asuntos legales proporcionada por este servicio junto con el contenido de esta web, se proporciona para su uso privado y no constituye asesoramiento legal. Si necesita asesoramiento legal específico, debe consultar con un abogado autorizado."
