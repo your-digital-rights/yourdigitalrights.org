@@ -14,7 +14,7 @@
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org è una produzione di "
+      "value": "YourDigitalRights.org is a creation of "
     },
     {
       "type": 1,
@@ -22,7 +22,27 @@
     },
     {
       "type": 0,
-      "value": ", un ente di beneficenza registrato che crea iniziative digitali incentrate sulle persone che promuovono e promuovono i diritti umani digitali."
+      "value": ", a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+    }
+  ],
+  "about.contact": [
+    {
+      "type": 0,
+      "value": "Contatto"
+    }
+  ],
+  "about.contactText": [
+    {
+      "type": 0,
+      "value": "Contact us at "
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "about.contributors": [
@@ -96,49 +116,49 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "Questo progetto è autofinanziato dai suoi creatori e con l'aiuto delle vostre donazioni."
+      "value": "This project is funded by its creators, and with the help of your donations."
     }
   ],
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy is a basic human right, and that exercising this right should be easy. The European "
+      "value": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the "
     },
     {
       "type": 1,
-      "value": "gdpr"
+      "value": "GDPR"
     },
     {
       "type": 0,
-      "value": " (GDPR), the "
+      "value": " (EU), the "
     },
     {
       "type": 1,
-      "value": "ccpa"
+      "value": "CCPA"
     },
     {
       "type": 0,
-      "value": " (CCPA), and the Brazilian "
+      "value": " (California), and the "
     },
     {
       "type": 1,
-      "value": "lgpd"
+      "value": "LGPD"
     },
     {
       "type": 0,
-      "value": " (LGPD) provide the legal infrastructure to protect people’s fundamental right of privacy online."
+      "value": " (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations such as the GDPR, the CCPA and the LGPD are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). The purpose of this service is to make the rights granted by these legislations accessible to everyone."
+      "value": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "Questo è un servizio gratuito. Non siamo un business e non abbiamo un modello di business. Non offriamo alcun servizio alle organizzazioni. Non raccogliamo né scambiamo alcun dato personale. Questo servizio è "
+      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
     },
     {
       "children": [
@@ -196,17 +216,7 @@
     },
     {
       "type": 0,
-      "value": " - per aver fornito una versione ospitata di Matomo (Piwik), la piattaforma di analisi web open source e orientata alla privacy."
-    }
-  ],
-  "about.sponsorsBody5": [
-    {
-      "type": 1,
-      "value": "mailgo"
-    },
-    {
-      "type": 0,
-      "value": " - per aver creato una fantastica libreria open source che rende i collegamenti \"mailto\" facili da usare e per essere super reattivi alle nostre richieste."
+      "value": " - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
     }
   ],
   "about.sponsorsBody6": [
@@ -232,7 +242,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Ringraziamo le seguenti organizzazioni per aver sostenuto il nostro impegno open source fornendo una versione gratuita o scontata dei loro servizi:"
+      "value": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.title": [
@@ -1584,21 +1594,7 @@
   "footer.contact": [
     {
       "type": 0,
-      "value": "Per ulteriori informazioni si prega di "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "contattarci"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": ". © Copyright 2019 - 2022"
+      "value": "© Copyright 2019 - 2022"
     }
   ],
   "footer.disclaimer": [
@@ -1831,12 +1827,6 @@
     {
       "type": 0,
       "value": "Fai una donazione"
-    }
-  ],
-  "nav.extension": [
-    {
-      "type": 0,
-      "value": "Estensione del browser"
     }
   ],
   "nav.faq": [
@@ -3488,10 +3478,16 @@
       "value": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
     }
   ],
-  "subscribe.alertsOneLiner": [
+  "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Improve your online privacy over time by opting out of 3 companies each month. Our research team hand-picks the worst privacy offenders."
+      "value": "Improve your online privacy over time by opting out of 3 companies each month."
+    }
+  ],
+  "subscribe.alertsOneLiner2": [
+    {
+      "type": 0,
+      "value": "Our research team hand-picks the worst privacy offenders."
     }
   ],
   "subscribe.signup": [

@@ -14,7 +14,7 @@
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "crwdns2735:0"
+      "value": "crwdns3566:0"
     },
     {
       "type": 1,
@@ -22,7 +22,27 @@
     },
     {
       "type": 0,
-      "value": "crwdne2735:0"
+      "value": "crwdne3566:0"
+    }
+  ],
+  "about.contact": [
+    {
+      "type": 0,
+      "value": "crwdns3568:0crwdne3568:0"
+    }
+  ],
+  "about.contactText": [
+    {
+      "type": 0,
+      "value": "crwdns3570:0"
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "crwdne3570:0"
     }
   ],
   "about.contributors": [
@@ -116,49 +136,49 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "crwdns3446:0crwdne3446:0"
+      "value": "crwdns3572:0crwdne3572:0"
     }
   ],
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "crwdns3456:0"
+      "value": "crwdns3574:0"
     },
     {
       "type": 1,
-      "value": "gdpr"
+      "value": "GDPR"
     },
     {
       "type": 0,
-      "value": "crwdnd3456:0"
+      "value": "crwdnd3574:0"
     },
     {
       "type": 1,
-      "value": "ccpa"
+      "value": "CCPA"
     },
     {
       "type": 0,
-      "value": "crwdnd3456:0"
+      "value": "crwdnd3574:0"
     },
     {
       "type": 1,
-      "value": "lgpd"
+      "value": "LGPD"
     },
     {
       "type": 0,
-      "value": "crwdne3456:0"
+      "value": "crwdne3574:0"
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "crwdns3458:0crwdne3458:0"
+      "value": "crwdns3576:0crwdne3576:0"
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "crwdns2745:0crwdne2745:0"
+      "value": "crwdns3578:0crwdne3578:0"
     }
   ],
   "about.sponsors": [
@@ -206,7 +226,7 @@
   "about.sponsorsBody4": [
     {
       "type": 0,
-      "value": "crwdns2277:0"
+      "value": "crwdns3580:0"
     },
     {
       "type": 1,
@@ -214,21 +234,7 @@
     },
     {
       "type": 0,
-      "value": "crwdne2277:0"
-    }
-  ],
-  "about.sponsorsBody5": [
-    {
-      "type": 0,
-      "value": "crwdns2279:0"
-    },
-    {
-      "type": 1,
-      "value": "mailgo"
-    },
-    {
-      "type": 0,
-      "value": "crwdne2279:0"
+      "value": "crwdne3580:0"
     }
   ],
   "about.sponsorsBody6": [
@@ -262,7 +268,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "crwdns3444:0crwdne3444:0"
+      "value": "crwdns3582:0crwdne3582:0"
     }
   ],
   "about.title": [
@@ -1356,7 +1362,7 @@
   "footer.contact": [
     {
       "type": 0,
-      "value": "crwdns2789:0crwdne2789:0"
+      "value": "crwdns3584:0crwdne3584:0"
     }
   ],
   "footer.disclaimer": [
@@ -1519,12 +1525,6 @@
     {
       "type": 0,
       "value": "crwdns2533:0crwdne2533:0"
-    }
-  ],
-  "nav.extension": [
-    {
-      "type": 0,
-      "value": "crwdns2535:0crwdne2535:0"
     }
   ],
   "nav.faq": [
@@ -2761,10 +2761,16 @@
       "value": "crwdns2671:0crwdne2671:0"
     }
   ],
-  "subscribe.alertsOneLiner": [
+  "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "crwdns3557:0crwdne3557:0"
+      "value": "crwdns3563:0crwdne3563:0"
+    }
+  ],
+  "subscribe.alertsOneLiner2": [
+    {
+      "type": 0,
+      "value": "crwdns3565:0crwdne3565:0"
     }
   ],
   "subscribe.signup": [
