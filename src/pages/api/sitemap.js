@@ -1,16 +1,10 @@
 import { SitemapStream, streamToPromise } from "sitemap";
 import { createGzip } from "zlib";
-import fetch from "universal-fetch";
 import { ALT_LANGUAGES } from "../../utils/langUtils";
 import { DOMAIN, DOMAIN_URL } from "../../utils/domain";
+import fetchData from "../../utils/sheets";
 
 let sitemap;
-
-async function fetchData() {
-  let data = await fetch(`${DOMAIN_URL}/api/companies`);
-  data = await data.json();
-  return data;
-}
 
 export default async (req, res) => {
   res.setHeader('Content-Type', 'application/xml');
