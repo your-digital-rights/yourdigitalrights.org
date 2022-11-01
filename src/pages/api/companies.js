@@ -30,7 +30,7 @@ async function fetchCompanies() {
         searchTerms: company[SEARCH_TERMS].trim(),
       };
     });
-    return {"License": "GNU General Public License v3.0", "Organizations": orgs.slice(0, 25000)};
+    return {"License": "GNU General Public License v3.0", "Organizations": orgs};
   } 
   catch (e) {
     console.error(e);
