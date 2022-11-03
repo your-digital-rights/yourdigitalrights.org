@@ -24,7 +24,7 @@ class WhatsNext extends Component {
     e.preventDefault();
   }
 
-  handleEmailSendClick = (generateEmailFields) => {
+  handleReminderEmailSendClick = (generateEmailFields) => {
 
     const formStatus  = this.reminderForm.current.reportValidity();
     if (!formStatus) return;
@@ -39,36 +39,16 @@ class WhatsNext extends Component {
     );  
   }
 
-  handleEscalationButtonClick = (e) => {
-    const uuid = this.props.requestItem.id.S;
-
-    fetch(
-      "/api/registerEscalation",
-      {
-        method: "POST",
-        body: JSON.stringify({ uuid }),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
-    tracking.trackEscalationRequest(
-      this.props.requestItem.companyUrl.S,
-      this.props.requestItem.regulationType.S
-    );
-  }
-
   buttons(classes) {
     const { requestItem } = this.props;
-    const authority = Regulations[requestItem.regulationType.S].dpa.shortName;
+    const authority = Regulations[requestItem.regulationType.S].dpa.longName;
     return (
       <ul className={classes.buttons}>
         <li>
           <form onSubmit={this.handleReminderFormSubmit} ref={this.reminderForm}>
             <EmailSendButton
               emailType="REMINDER"
-              onClick={this.handleEmailSendClick}
+              onClick={this.handleReminderEmailSendClick}
               className={classes.button}
             >
               <FormattedMessage
@@ -79,42 +59,21 @@ class WhatsNext extends Component {
           </form>
         </li>
         <li>
-          {Regulations[requestItem.regulationType.S].dpa.defualtAction === 'form' && (
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={classes.button}
-              href={Regulations[requestItem.regulationType.S].dpa.requestFormURL}
-              onClick={this.handleEscalationButtonClick}
-              target="_blank"
-            >
-              <FormattedMessage
-                id="request.next.esclateButton"
-                defaultMessage="Escalate to the { authority }"
-                values={{
-                  authority: authority,
-                }}
-              />
-            </Button>
-          )}
-          {Regulations[requestItem.regulationType.S].dpa.defualtAction !== 'form' && (
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              className={classes.button}
-              onClick={e => this.setState({showEscalation: true})}
-            >
-              <FormattedMessage
-                id="request.next.esclateButton"
-                defaultMessage="Escalate to the { authority }"
-                values={{
-                  authority: authority,
-                }}
-              />
-            </Button>
-          )}
+          <Button
+            variant="contained"
+            color="primary"
+            type="submit"
+            className={classes.button}
+            onClick={e => this.setState({showEscalation: true})}
+          >
+            <FormattedMessage
+              id="request.next.esclateButton"
+              defaultMessage="Escalate to the { authority }"
+              values={{
+                authority: authority,
+              }}
+            />
+          </Button>
         </li>
       </ul>
     )
