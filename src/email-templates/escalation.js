@@ -109,9 +109,7 @@ function assemblePreviusEmails(requestItem, local) {
     emailParts.push('\n');
     emailParts.push(requestItem.reminderEmailContent.S);
     emailParts.push('\n');
-  }
-
-  if (requestItem.requestEmailSentAt) {
+  } else {
     emailParts.push("---------- Forwarded message ---------");
     emailParts.push(`From: ${requestItem.requestEmailFrom.S}`);
     emailParts.push(`Date: ${new Intl.DateTimeFormat(local, { dateStyle: 'full'}).format(new Date(requestItem.requestEmailSentAt.S))}`);
