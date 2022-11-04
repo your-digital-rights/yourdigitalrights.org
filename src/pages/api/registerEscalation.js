@@ -14,15 +14,16 @@ const dynamodb = new aws.DynamoDB();
  *
  * The API takes in the following:
  *
- * @param {string} uuid of the request
+ * @param {string} req.body.uuid of the request
+ * @param {string} req.body.dpaCountryCode the Country Code of the DPA  
  */
 export default async (req, res) => {
   return new Promise((resolve, reject) => {
     res.setHeader('Content-Type', 'application/json');
-    if (!req.body.uuid ) {
+    if (!req.body.uuid || !req.body.dpaCountryCode) {
       res.statusCode = 400;
       res.send({
-        error: 'Missing uuid',
+        error: 'Missing uuid or DPA Country Code',
       });
       return;
     }
@@ -34,10 +35,13 @@ export default async (req, res) => {
           S: req.body.uuid,
         },
       },
-      UpdateExpression: "SET escalationFormSubmitedAt = :d",
+      UpdateExpression: "SET escalationDate = :d, dpaCountryCode = :cc",
       ExpressionAttributeValues: {
         ":d": {
           S: DateTime.now().toUTC().toISO(),
+        },
+        ":cc": {
+          S: req.body.dpaCountryCode,
         },
       },
     }, (err, data) => {
@@ -54,11 +58,14 @@ export default async (req, res) => {
               S: req.body.uuid,
             },
           },
-          UpdateExpression: "SET escalationDate = :d",
+          UpdateExpression: "SET escalationDate = :d, dpaCountryCode = :cc",
           ExpressionAttributeValues: {
             ":d": {
               S: DateTime.now().toUTC().toISO(),
             },
+            ":cc": {
+              S: req.body.dpaCountryCode,
+            }, 
           },
         }, (err, data) => {
           if (err) {

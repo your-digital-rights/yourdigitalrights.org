@@ -16,7 +16,7 @@ const Style = (theme) => ({
     },
   },
   formContainer: {
-    maxWidth: "777px",
+    maxWidth: "860px",
     padding: "30px",
     display: "flex",
     flexDirection: "column",
@@ -25,6 +25,26 @@ const Style = (theme) => ({
     marginTop: "2rem",
     borderRadius: "24px 24px 24px 24px",
   },
+  button: {
+    width: "200px",
+    margin: "0 10px 10px 30px",
+    borderRadius: "24px 24px 24px 24px",
+    color: "white",
+    color: "#fff",
+    background: theme.palette.primary.main,
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "10px",
+      marginLeft: "0px",
+    },
+  },  
+  disclamer: {
+    margin: "30px",
+    [theme.breakpoints.down("sm")]: {
+      marginTop: "10px",
+      marginLeft: "0px",
+      marginRight: "0px", 
+    },    
+  }
 });
 
 export default Style;

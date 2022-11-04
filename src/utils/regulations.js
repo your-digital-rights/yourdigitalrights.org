@@ -10,7 +10,7 @@ const Regulations = {
     dpa: {
       shortName: 'DPA',
       longName: 'Data Protection Agency',
-      defualtAction: 'email',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'Austria',
@@ -257,7 +257,7 @@ const Regulations = {
     dpa: {
       shortName: 'ICO',
       longName: "Information Commissioner's Office",
-      defualtAction: 'email',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'United Kingdom',
@@ -301,7 +301,7 @@ const Regulations = {
       shortName: 'CA AG',
       longName: 'California Attorney General',
       requestFormURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
-      defualtAction: 'form',
+      defaultAction: 'form',
       geographies: [
         {
           name: 'California',
@@ -345,7 +345,7 @@ const Regulations = {
       shortName: 'ANPD',
       longName: 'Autoridade Nacional de Proteção de Dados',
       requestFormURL: 'https://www.gov.br/secretariageral/pt-br/sei-peticionamento-eletronico',
-      defualtAction: 'form',
+      defaultAction: 'form',
       geographies: [
         {
           name: 'Brasil',
