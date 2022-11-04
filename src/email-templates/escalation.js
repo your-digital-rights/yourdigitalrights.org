@@ -50,6 +50,8 @@ export default {
       bodyParts.push('Atenciosamente,');
       bodyParts.push(`${requestItem.name.S}`);
       
+      bodyParts.push(assemblePreviusEmails(requestItem, "pt"));
+
       return bodyParts.join('\n\n');
     } else {
       const regulation = Regulations[requestItem.regulationType.S];
@@ -87,7 +89,37 @@ export default {
       bodyParts.push('Kind regards,');
       bodyParts.push(`${requestItem.name.S}`);
       
+      bodyParts.push(assemblePreviusEmails(requestItem, "en"));
+      
       return bodyParts.join('\n\n');
     }
   },
+};
+
+function assemblePreviusEmails(requestItem, local) {
+  const to = requestItem.reminderEmailTo ? requestItem.reminderEmailTo.S : requestItem.requestEmailTo.S;
+  const emailParts = [];
+
+  if (requestItem.reminderEmailSentAt) {
+    emailParts.push("---------- Forwarded message ---------");
+    emailParts.push(`From: ${requestItem.requestEmailFrom.S}`);
+    emailParts.push(`Date: ${new Intl.DateTimeFormat(local, { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S))}`);
+    emailParts.push(`Subject: ${requestItem.reminderEmailSubject.S}`);
+    emailParts.push(`To: ${to}`);
+    emailParts.push('\n');
+    emailParts.push(requestItem.reminderEmailContent.S);
+    emailParts.push('\n');
+  }
+
+  if (requestItem.requestEmailSentAt) {
+    emailParts.push("---------- Forwarded message ---------");
+    emailParts.push(`From: ${requestItem.requestEmailFrom.S}`);
+    emailParts.push(`Date: ${new Intl.DateTimeFormat(local, { dateStyle: 'full'}).format(new Date(requestItem.requestEmailSentAt.S))}`);
+    emailParts.push(`Subject: ${requestItem.requestEmailSubject.S}`);
+    emailParts.push(`To: ${to}`);
+    emailParts.push('\n');
+    emailParts.push(requestItem.requestEmailContent.S);
+    emailParts.push('\n');
+  }
+  return emailParts.join('\n');
 };
