@@ -70,8 +70,8 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
     selectedAction.run();
 
     tracking.trackEscalationRequest(
+      geograpghy,
       requestItem.companyUrl.S,
-      requestItem.regulationType.S
     );
   }
 
@@ -94,8 +94,8 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
     );
 
     tracking.trackEscalationRequest(
+      dpaCountryCode,
       requestItem.companyUrl.S,
-      requestItem.regulationType.S
     );
   }
 
