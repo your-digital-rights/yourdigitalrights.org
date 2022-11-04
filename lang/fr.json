@@ -1109,6 +1109,12 @@
   "requestEscalation.complaintText": {
     "message": "Veuillez expliquer pourquoi vous n'êtes pas satisfait de la façon dont l'organisation a traité votre demande"
   },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Open Escalation Form"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "In order to escalate your request you will need to complete a form on the {authority} website. Click the button bellow to open the form in a new tab."
+  },
   "requestEscalation.geography": {
     "message": "Localisation"
   },
