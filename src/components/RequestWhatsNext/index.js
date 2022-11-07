@@ -30,7 +30,12 @@ class WhatsNext extends Component {
     if (!formStatus) return;
 
     this.setState({showEscalation: false});
-    const selectedAction = generateEmailFields(this.props);    
+
+    const data = {
+      ...this.props,
+    }
+
+    const selectedAction = generateEmailFields(data);    
     selectedAction.run();
 
     tracking.trackSendReminderEmail(

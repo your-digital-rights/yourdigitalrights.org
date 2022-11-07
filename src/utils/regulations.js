@@ -244,7 +244,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'SAR',
-        article: 15,       
+        article: 'Article 15',       
       }
     }
   },
@@ -299,7 +299,7 @@ const Regulations = {
     escalation_timeLimit: 90,
     dpa: {
       shortName: 'CA AG',
-      longName: 'California Attorney General',
+      longName: 'Attorney General of California',
       requestFormURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
       defaultAction: 'form',
       geographies: [
