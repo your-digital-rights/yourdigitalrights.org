@@ -114,14 +114,11 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
-      get linkSixText() {
-        return $("nav li:nth-child(6)").getText();
-      },
       get linkLangSelect() {
-        return $("nav  li:nth-child(7) > div > div").getText();
+        return $("nav  li:nth-child(6) > div > div").getText();
       },
       get linkButton() {
-        return $("nav  li:nth-child(8) a");
+        return $("nav  li:nth-child(7) a");
       },
       get linkButtonText() {
         return this.linkButton.getText();
@@ -186,6 +183,7 @@ class Page {
   }
 
   parsedMailTo(url) {
+    console.log("url: ", url);
     const mailTo = this.mailToParser.parse(url);
     return {
       to: mailTo.to,
