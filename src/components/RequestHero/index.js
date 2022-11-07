@@ -1,11 +1,10 @@
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import fetch from "universal-fetch";
+import fetch from "isomorphic-fetch";
 import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
-import Typography from "@material-ui/core/Typography";
 
 class Hero extends Component {
   constructor(props) {
