@@ -1,0 +1,25 @@
+A quem possa interessar:
+
+No {{ requestSentDate }} enviei uma solicitação de {{ requestType.name | capitalize  }} por e-mail, de acordo com o {{ requestType.article }} da Lei Geral de Proteção de Dados (LGPD). 
+
+{% if status === 'PARTIAL' %}
+Até o momento, vocês não atenderam integralmente a minha solicitação.
+{% elif status === 'DECLINED' %}
+Até agora, vocês se recusaram a atender a minha solicitação.
+{% elif status === 'NO_REPLY' %}
+Até o momento, não recebi resposta a minha solicitação.
+{% endif %}
+
+{% if daysSinceRequest > requestType.timeLimit %}
+Se passaram {{ daysSinceRequest }} dias desde que o pedido foi encaminhado, razão pela qual vocês estão agora violando o artigo {{ requestType.article }} da {{ regulation.displayName }}. 
+{% endif %}
+
+Envio este e-mail para reiterar o meu pedido e me reservo o direito de encaminhar a minha solicitação à Autoridade Nacional de Proteção de Dados (ANPD) caso vocês não a cumpram integralmente, nos termos da lei.
+
+Atenciosamente,
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
+{{ previousEmails }}
