@@ -151,7 +151,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
           />
         </strong>
       );
-      action = <FormattedMessage id="request.next.selectTheOptions2" defaultMessage="If you wish to take further action then please select from the following options:"/>;
+      action = "";
     }
   }
   return (

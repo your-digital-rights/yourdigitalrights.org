@@ -38,11 +38,11 @@ export default {
     );
   },
 
-  trackEscalationRequest(domain, regulationType) {
+  trackEscalationRequest(dpaCountryCode, domain) {
     this.trackEvent(
       "Escalation request",
-      domain,
-      regulationType,
+      "Escalation to DPA of " + dpaCountryCode,
+      "Escalation regarding " + domain,
     );
   },
 

@@ -161,7 +161,7 @@ describe("When I visit the home page", () => {
         mailTo = page.parsedMailTo(await page.dataOpenUrlAttribute);
       });
 
-      it("opens a mailto url", async () => {
+      it.skip("opens a mailto url", async () => {
         mailTo.to.should.be.equal("dpo@abcxyz123.com");
         mailTo.subject.should.be.equal(
           "Data deletion request"

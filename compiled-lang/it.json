@@ -3352,6 +3352,26 @@
       "value": "Ti preghiamo di spiegare perché non sei soddisfatto di come l'organizzazione ha risposto alla tua richiesta"
     }
   ],
+  "requestEscalation.esclateButtonForm": [
+    {
+      "type": 0,
+      "value": "Open Escalation Form"
+    }
+  ],
+  "requestEscalation.formDisclamer": [
+    {
+      "type": 0,
+      "value": "In order to escalate your request you will need to complete a form on the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " website. Click the button bellow to open the form in a new tab."
+    }
+  ],
   "requestEscalation.geography": [
     {
       "type": 0,

@@ -229,7 +229,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'erasure',
-        article: 17,
+        article: 'Article 17',
         exceptions: (
           <FormattedMessage
             id="request.next.declineGDPR"
@@ -244,7 +244,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'SAR',
-        article: 15,       
+        article: 'Article 15',       
       }
     }
   },
@@ -272,7 +272,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'erasure',
-        article: 45,
+        article: 'Article 45',
         exceptions: (
           <FormattedMessage
             id="request.next.declineGDPR"
@@ -287,7 +287,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: 43,       
+        article: 'Article 43',       
       }
     }
   },
@@ -299,7 +299,7 @@ const Regulations = {
     escalation_timeLimit: 90,
     dpa: {
       shortName: 'CA AG',
-      longName: 'California Attorney General',
+      longName: 'Attorney General of California',
       requestFormURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
       defaultAction: 'form',
       geographies: [
@@ -316,7 +316,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'deletion',
-        article: 105,
+        article: 'Section 1798.105',
         exceptions: (
           <FormattedMessage
             id="request.next.declineCCPA"
@@ -331,9 +331,9 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: 110,        
+        article: 'Section 1798.110',        
       }
-    }
+    } 
   },
   LGPD: {
     displayName: 'LGPD',
@@ -360,7 +360,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'eliminação',
-        article: 18,
+        article: 'Artigo 18',
         exceptions: (
           <FormattedMessage
             id="request.next.declineLGPD"
@@ -375,7 +375,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'acesso',
-        article: 18,        
+        article: 'Artigo 18',        
       }
     }
   }

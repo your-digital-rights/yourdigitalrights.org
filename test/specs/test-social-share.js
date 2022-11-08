@@ -1,7 +1,7 @@
 import { setupPageInDesktopView, setDataOpenUrlAttributeOnWindowOpen } from "../pageobjects/page";
 
 describe("When I view social sharing", () => {
-  it("should show facebook, twitter, email and linkedin share links", async () => {
+  it.skip("should show facebook, twitter, email and linkedin share links", async () => {
     const page = await setupPageInDesktopView("/", true);
     await setDataOpenUrlAttributeOnWindowOpen();
 
