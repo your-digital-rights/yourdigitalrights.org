@@ -10,7 +10,7 @@ Até agora, vocês se recusaram a atender a minha solicitação.
 Até o momento, não recebi resposta a minha solicitação.
 {% endif %}
 
-{% if daysSinceRequest > requestType.timeLimit %}
+{% if daysSinceRequest > regulation.timeLimit %}
 Se passaram {{ daysSinceRequest }} dias desde que o pedido foi encaminhado, razão pela qual vocês estão agora violando o artigo {{ requestType.article }} da {{ regulation.displayName }}. 
 {% endif %}
 

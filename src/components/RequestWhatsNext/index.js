@@ -96,7 +96,9 @@ class WhatsNext extends Component {
             selectedCompany={selectedCompany} 
             status={status}
           />
-          {this.buttons(classes)}
+          { this.props.status !== 'SUCCESS' && (
+            this.buttons(classes)
+          )}
           { this.state.showEscalation && (
             <RequestEscalation 
               requestItem={requestItem}

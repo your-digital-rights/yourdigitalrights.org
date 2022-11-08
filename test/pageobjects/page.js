@@ -183,7 +183,6 @@ class Page {
   }
 
   parsedMailTo(url) {
-    console.log("url: ", url);
     const mailTo = this.mailToParser.parse(url);
     return {
       to: mailTo.to,

@@ -10,7 +10,7 @@ So far you have refused to comply with my request.
 So far I did not receive a reply to my request.
 {% endif %}
 
-{% if daysSinceRequest > requestType.timeLimit %}
+{% if daysSinceRequest > regulation.timeLimit %}
 Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
 {% endif %}
 
