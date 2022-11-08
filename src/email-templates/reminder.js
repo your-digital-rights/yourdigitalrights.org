@@ -27,7 +27,7 @@ export default {
 
     var templateFile = "reminder.template";
     if (requestItem.regulationType.S === "LGPD") {
-      var templateFile = "reminder.lgpd.template";
+      templateFile = "reminder.lgpd.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });
