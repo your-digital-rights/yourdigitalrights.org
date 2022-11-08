@@ -108,17 +108,17 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
             to = data.companyEmail;
             cc = data.followUp === "YES" ? getInboundEmailAddress(data.uuid, 'request') : null;
             subject =  emailTemplate.subject(data);
-            body =  emailTemplate.formatBody(data);
+            body =  emailTemplate.body(data);
         } else if (emailType === 'REMINDER') {
             to = data.requestItem.requestEmailTo.S;
             cc = getInboundEmailAddress(data.requestItem.id.S, 'reminder');
-            subject = reminderEmail.subject(data.requestItem);
-            body = reminderEmail.body(data.requestItem, data.status);
+            subject = reminderEmail.subject(data);
+            body = reminderEmail.body(data);
         } else if (emailType === 'ESCALATION') {
             to = data.geo.email;
             cc = `${data.requestItem.requestEmailTo.S},${getInboundEmailAddress(data.requestItem.id.S, 'escalation')}`;
-            subject = escalationEmail.subject(data.requestItem);
-            body = escalationEmail.body(data.requestItem, data.complaintText, data.status);                
+            subject = escalationEmail.subject(data);
+            body = escalationEmail.body(data);                
         } else {
             throw new Error(`Unsupported email type: ${emailType}`); 
         }

@@ -5,9 +5,8 @@ describe("When I visit an org page", () => {
     const page = await setupPageInDesktopView("/d/slack.com", false);
 
     const companyName = await page.companyName;
-    const companyNameAnchor = await companyName.$("a");
-    const companyNameAnchorText = await companyNameAnchor.getText();
-    companyNameAnchorText.should.equal("Slack.com");
+    const companyNameText = await companyName.getText();
+    companyNameText.should.equal("Slack.com");
 
     const heading = await page.heading;
     const headingText = await heading.getText();
