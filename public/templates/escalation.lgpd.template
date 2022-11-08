@@ -1,0 +1,38 @@
+Prezado(a) {{ regulation.dpa.longName }},
+
+No {{ requestSentDate }} enviei {{ requestItem.companyName.S }} (website: {{ requestItem.companyUrl.S }}) uma requisição sobre dados {{ requestType.name | capitalize }} nos termos do {{ requestType.article }} da {{ regulation.longName }} ({{ regulation.displayName }}).
+
+{% if status === 'PARTIAL' %}
+Eu gostaria de apresentar uma reclamação formal porque a organização não atendeu integralmente a minha solicitação.
+{% elif status === 'DECLINED' %}
+Eu gostaria de apresentar uma reclamação formal porque a organização recusou-se a atender a minha solicitação.
+{% elif status === 'NO_REPLY' %}
+Eu gostaria de apresentar uma reclamação formal porque a organização não respondeu a minha solicitação.
+{% endif %}
+
+{IF $REMINDER_DATE$}
+Eu também enviei à organização um e-mail reiterando o pedido em $REMINDER_DATE$.
+{ENDIF}
+
+{% if complaintText %}
+Informações adicionais: 
+{{ complaintText }}
+{% endif %}
+
+{% if reminderSentDate %}
+Eu também enviei à organização um e-mail reiterando o pedido em {{ reminderSentDate }}.
+{% endif %}
+
+Por favor, me mantenha atualizado(a) sobre a situação de sua investigação, bem como me informe se deseja que eu forneça qualquer informação adicional. Preferencialmente, o meu meio de contato é por e-mail.
+
+A solicitação original foi enviada por e-mail através do meu endereço eletrônico pessoal. O texto do e-mail foi gerado por YourDigitalRights.org, um website que automatiza o processo de solicitação de direitos do titular. O serviço gentilmente manteve um registro da minha solicitação que você pode visualizar aqui.
+
+Por favor, observe que copiei a {{ requestItem.companyName.S }} neste e-mail.
+
+Atenciosamente,
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
+{{ previousEmails }}

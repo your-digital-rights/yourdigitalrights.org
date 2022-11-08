@@ -47,6 +47,7 @@
     "nextjs": "^0.0.3",
     "node-gyp": "^7.1.2",
     "npm-check-updates": "^16.0.5",
+    "nunjucks": "^3.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-device-detect": "^1.15.0",
@@ -54,7 +55,6 @@
     "react-intl": "^5.17.1",
     "react-share": "^4.4.0",
     "sitemap": "^6.4.0",
-    "universal-fetch": "^1.0.0",
     "uuid": "^8.3.2",
     "vercel": "^28.1.0"
   },

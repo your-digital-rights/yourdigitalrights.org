@@ -1,4 +1,4 @@
-import fetch from "universal-fetch";
+import fetch from "isomorphic-fetch";
 var regulation = null;
 
 async function getRegulationbyGeolocation() {

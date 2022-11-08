@@ -11,9 +11,8 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkOneText).should.equal("How it works");
     (await page.navigationBar.linkTwoText).should.equal("FAQ");
     (await page.navigationBar.linkThreeText).should.equal("Data Brokers");
-    (await page.navigationBar.linkFourText).should.equal("Browser Extension");
-    (await page.navigationBar.linkFiveText).should.equal("Contribute");
-    (await page.navigationBar.linkSixText).should.equal("About");
+    (await page.navigationBar.linkFourText).should.equal("Contribute");
+    (await page.navigationBar.linkFiveText).should.equal("About");
     (await page.navigationBar.linkLangSelect).should.equal("English");
     (await page.navigationBar.linkButtonText).should.equal("SEARCH ORGANIZATIONS");
   });
@@ -83,11 +82,10 @@ describe("When I visit the Home page in Mobile view", () => {
     (await page.navigationBar.linkFiveMobText).should.equal("English");
     (await page.navigationBar.linkSixMobText).should.equal("SEARCH ORGANIZATIONS");
     (await page.navigationBar.linkSevenMobText).should.equal("Contribute");
-    (await page.navigationBar.linkEightMobText).should.equal("Browser Extension");
-    (await page.navigationBar.linkNineMobText).should.equal("Make a Donation");
-    (await page.navigationBar.linkTenMobText).should.equal("Privacy Policy");
-    (await page.navigationBar.linkElevenMobText).should.equal("Contact Us");
-    (await page.navigationBar.linkTwelvMobText).should.equal("#ownyourdata");
+    (await page.navigationBar.linkEightMobText).should.equal("Make a Donation");
+    (await page.navigationBar.linkNineMobText).should.equal("Privacy Policy");
+    (await page.navigationBar.linkTenMobText).should.equal("Contact Us");
+    (await page.navigationBar.linkElevenMobText).should.equal("#ownyourdata");
   });
 
   describe("and click the Search button on the navigation bar", () => {
