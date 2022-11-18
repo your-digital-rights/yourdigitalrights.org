@@ -337,7 +337,7 @@ class Form extends Component {
             margin="normal"
           >
             { Object.keys(Regulations).map((key) => 
-              <option key={key} value={key}>{`${Regulations[key].displayName} (${Regulations[key].gepgraphy})`}</option>
+              <option key={key} value={key}>{`${Regulations[key].gepgraphy} (${Regulations[key].displayName})`}</option>
             )}
           </TextField>
           <TextField
