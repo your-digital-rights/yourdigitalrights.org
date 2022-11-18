@@ -4,7 +4,7 @@ import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import { withStyles } from "@material-ui/core/styles";
-import Donations from "../../../components/Donations";
+import Subscribe from "../../../components/Subscribe";
 import Footer from "../../../components/Footer";
 import Nav from "../../../components/Nav";
 import RequestDetails from "../../../components/RequestDetails";
@@ -15,6 +15,7 @@ import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
 import fetchSheetData from "../../../utils/sheets";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
+
 
 async function getRequest(id) {
   aws.config.update({
@@ -59,6 +60,12 @@ const styles = (theme) => ({
     marginBottom: "30px",
     textAlign: "left",
   },
+  subscribeContainer: {
+    backgroundColor: theme.palette.primary.main,
+    marginTop: "-145px",
+    paddingTop: "150px",
+    paddingBottom: "30px",
+  },  
 });
 
 const Uuid = ({classes, data, router, intl}) => {
@@ -161,7 +168,9 @@ const Uuid = ({classes, data, router, intl}) => {
           />
         </RequestWhatsNext>
       )}
-      <Donations />
+      <div className={classes.subscribeContainer}>
+        <Subscribe page="org"/>
+      </div>
       <Footer />
     </div>
   )

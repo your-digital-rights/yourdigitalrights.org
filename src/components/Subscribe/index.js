@@ -26,7 +26,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               className={classes.intro}
               gutterBottom={true}
             >
-              <FormattedMessage id="subscribe.title" defaultMessage="Sign up to our privacy alerts!" />
+              <FormattedMessage id="subscribe.title" defaultMessage="Sign up to our privacy alerts emails!" />
             </Typography>          
             <Typography 
               color="inherit" 
