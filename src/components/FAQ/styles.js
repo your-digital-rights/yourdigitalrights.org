@@ -19,8 +19,12 @@ const Theme = (theme) => ({
     textAlign: "center",
     marginBottom: "1.5em",
   },
+  accordionBody: {
+    justifyContent: "center",
+  },
   list: {
     margin: "0px 24px",
+    color: "#2F4F4F",
   },
 });
 
