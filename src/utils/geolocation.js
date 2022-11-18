@@ -14,11 +14,17 @@ async function getRegulationbyGeolocation() {
       })
       .then((resultJson) => {
         if (resultJson['country'] === 'US') {
-            return 'CCPA';
+            if (resultJson['region'] === 'VA') {
+              return 'VCDPA';
+            } else {
+              return 'CCPA';
+            }
           } else if (resultJson['country'] === 'GB') {
             return 'GDPRUK';
           } else if (resultJson['country'] === 'BR') {
-            return 'LGPD';            
+            return 'LGPD';     
+          } else if (resultJson['country'] === 'CA') {
+            return 'PIPEDA';                        
           } else {
             return 'GDPR';
           }
