@@ -55,7 +55,7 @@ export default [
           <TableHead>
             <TableRow>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.location" defaultMessage="Location"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Name (link)"/></TableCell>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Abbreviation"/></TableCell>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.name" defaultMessage="Full Name"/></TableCell>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.timelimit" defaultMessage="Time to Reply"/></TableCell>
             </TableRow>
@@ -66,7 +66,7 @@ export default [
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
                 <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit}</TableCell>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit} days</TableCell>
               </TableRow>
             )}
           </TableBody>

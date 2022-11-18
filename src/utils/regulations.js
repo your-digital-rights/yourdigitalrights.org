@@ -451,7 +451,7 @@ const Regulations = {
         exceptions: (
           <FormattedMessage
             id="request.next.declinePIPEDA"
-            defaultMessage="<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>he reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+            defaultMessage="<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
             values={{
               ul: txt => (<ul>{txt}</ul>),
               li: txt => (<li>{txt}</li>),
