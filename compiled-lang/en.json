@@ -1094,7 +1094,7 @@
   "hero.headerText": [
     {
       "type": 0,
-      "value": "Get organizations to delete your account or send you a copy of your personal data."
+      "value": "Get organizations to delete your account or provide a copy of your personal information."
     }
   ],
   "hero.heading": [
@@ -1106,21 +1106,7 @@
   "hero.intro": [
     {
       "type": 0,
-      "value": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Data Brokers"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
     }
   ],
   "howItWorks.followUp": [
