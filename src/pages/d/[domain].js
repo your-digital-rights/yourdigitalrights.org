@@ -54,6 +54,9 @@ const Org = ({ classes, organization, router }) => {
       <PersonalInfoForm
         selectedCompany={organization}
       />
+      <AboutOrg  
+        selectedCompany={organization}
+      />
       <div className={classes.subscribeContainer}>
         <Subscribe page="org"/>
       </div>
