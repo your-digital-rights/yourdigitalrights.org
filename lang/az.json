@@ -722,6 +722,12 @@
   "request.next.declineLGPD": {
     "message": "crwdns3420:0crwdne3420:0"
   },
+  "request.next.declinePIPEDA": {
+    "message": "crwdns3688:0crwdne3688:0"
+  },
+  "request.next.declineVCDPA": {
+    "message": "crwdns3690:0crwdne3690:0"
+  },
   "request.next.escalateToAuthorityNoReply": {
     "message": "crwdns3495:0{ authorityLong }crwdnd3495:0{authorityShort}crwdne3495:0"
   },
