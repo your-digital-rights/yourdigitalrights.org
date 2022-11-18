@@ -1,4 +1,13 @@
 import { FormattedMessage } from "react-intl";
+import Regulations from "../../utils/regulations";
+import Link from "next/link";
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableContainer from '@material-ui/core/TableContainer';
+import TableHead from '@material-ui/core/TableHead';
+import TableRow from '@material-ui/core/TableRow';
+import Paper from '@material-ui/core/Paper';
 
 export const Title = (
   <FormattedMessage id="faq.title" defaultMessage="Frequently Asked Questions" />
@@ -8,753 +17,291 @@ export default [
   {
     heading: (
       <FormattedMessage
-        id="faq.heading0"
+        id="faq.heading.YDR"
+        defaultMessage="What is YourDigitalRights.org?"
+      />
+    ),
+    body: [
+      <FormattedMessage
+        id="faq.body.YDR.1"
+        defaultMessage="YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+      />,
+    ],
+  },
+  {   
+    heading: (
+      <FormattedMessage
+        id="faq.heading.data-protection"
         defaultMessage="What are data protection laws?"
       />
     ),
     body: [
       <FormattedMessage
-        id="faq.body0A"
-        defaultMessage="Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data."
+        id="faq.body.data-protection.1"
+        defaultMessage="Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
       />,
-      <br />,
     ],
   },
+  {   
+    heading: (
+      <FormattedMessage
+        id="faq.heading.regulations"
+        defaultMessage="What countries, states, or regulations are supported?"
+      />
+    ),
+    body: [
+      <TableContainer component={Paper} >
+        <Table size="small" aria-label="regulation table" style={{fontSize: "16px"}}>
+          <TableHead>
+            <TableRow>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.location" defaultMessage="Location"/></TableCell>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Name (link)"/></TableCell>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.name" defaultMessage="Full Name"/></TableCell>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.timelimit" defaultMessage="Time to Reply"/></TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>           
+            { Object.keys(Regulations).map((key) => 
+              <TableRow key={key}>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
+                <TableCell style={{fontWeight: "500"}}><a href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit}</TableCell>
+              </TableRow>
+            )}
+          </TableBody>
+        </Table>
+      </TableContainer>,
+      <FormattedMessage
+        id="faq.body.regulations.1"
+        defaultMessage="Please <a>contact us</a> if you would like to help us implement support for additional regulations."
+        values={{
+          a: txt => ( <a href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation">{txt}</a>),
+        }}
+    />,
+    ],    
+  },  
   {    
     heading: (
       <FormattedMessage
-        id="faq.heading1"
-        defaultMessage="Which data protection laws protect me?"
+        id="faq.heading.requests"
+        defaultMessage="What kind of requests can I make using this service?"
       />
     ),
     body: [
       {
         item: (
-          <FormattedMessage id="faq.body1" 
-          defaultMessage="Different countries have different regulations protecting individual privacy online. This website supports the following regulations:" />
+          <FormattedMessage id="faq.body.requests.1" 
+          defaultMessage="We support two types of requests:" />
         ),
         subItems: [
           <FormattedMessage
-            id="faq.body1A"
-            defaultMessage="European Union - The General Data Protection Regulations (GDPR)"
+            id="faq.body.requests.1.1"
+            defaultMessage="<b>Data Deletion Requests</b> (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+            values={{
+              b: txt => (<strong>{txt}</strong>),
+            }}
           />,
           <FormattedMessage
-            id="faq.body1B"
-            defaultMessage="California - Consumer Privacy Act (CCPA)"
-          />,
-          <FormattedMessage
-            id="faq.body1C"
-            defaultMessage="Brazil - General Data Protection Law (LGPD)"
+            id="faq.body.requests.1.2"
+            defaultMessage="<b>Access requests</b> (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+            values={{
+              b: txt => (<strong>{txt}</strong>),
+            }}
           />,
         ],
       },     
-      <br />, 
     ],
   },
   {
     heading: (
-      <FormattedMessage id="faq.heading2" defaultMessage="What is the GDPR?" />
+      <FormattedMessage 
+        id="faq.heading.how" 
+        defaultMessage="How does the service work?" 
+      />
     ),
     body: [
       <FormattedMessage
-        id="faq.body2A"
-        defaultMessage="The General Data Protection Regulations, or GDPR for short, is an EU regulation which protects the fundamental right of people to the protection of their personal data."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body2Ai"
-        defaultMessage="<a>Read the regulation</a>"
-        values={{
-          a: txt => (<a target="_blank" href="https://gdpr-info.eu/art-1-gdpr/">{txt}</a>),
-        }}
+        id="faq.body.how.1"
+        defaultMessage="After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
       />,
     ],
   },
   {
     heading: (
       <FormattedMessage
-        id="faq.heading3"
-        defaultMessage="Who does the GDPR apply to?"
+        id="faq.heading.refuse"
+        defaultMessage="Can organizations say no?"
       />
     ),
     body: [
       {
         item: (
-          <FormattedMessage id="faq.body3A" defaultMessage="The GDPR applies to:" />
+          <FormattedMessage 
+          id="faq.body.refuse.1" 
+          defaultMessage="Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:" />
         ),
         subItems: [
           <FormattedMessage
-            id="faq.body3Ai"
-            defaultMessage="Organizations established within the EU who collect or process personal data (even of people located outside the EU)"
+            id="faq.body.refuse.1.1"
+            defaultMessage="When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
           />,
           <FormattedMessage
-            id="faq.body3Aii"
-            defaultMessage="Organizations established outside the EU collecting or processing personal information while providing goods or services (paid or for free) to people located within the EU"
+            id="faq.body.refuse.1.2"
+            defaultMessage="When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
           />,
           <FormattedMessage
-            id="faq.body3Aiii"
-            defaultMessage="Organizations established outside the EU collecting or processing personal information while engaged in the monitoring of the behavior of people while they are in the EU"
+            id="faq.body.refuse.1.3"
+            defaultMessage="When keeping hold of your data is necessary for public health reasons"
           />,
+          <FormattedMessage
+            id="faq.body.refuse.1.4"
+            defaultMessage="When keeping your data is necessary for establishing, exercising, or defending legal claims"
+          />,
+          <FormattedMessage
+            id="faq.body.refuse.1.5"
+            defaultMessage="When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+          />,                    
         ],
       },
-      <br />,
-      <FormattedMessage
-        id="faq.body2B"
-        defaultMessage="The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body2C"
-        defaultMessage="<a>Find out more</a>"
-        values={{
-            a: txt => (<a target="_blank" href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">{txt}</a>),
-        }}
-      />,
     ],
   },
   {
     heading: (
-      <FormattedMessage id="faq.heading4" defaultMessage="What is the CCPA?" />
-    ),
-    body: [
-      <FormattedMessage
-        id="faq.body4A"
-        defaultMessage="The California Consumer Privacy Act, or CCPA for short, is a regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body4Ai"
-        defaultMessage="<a>Read the regulation</a>"
-        values={{
-          a: txt => ( <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180AB375">{txt}</a>),
-        }}
-      />,
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage
-        id="faq.heading5"
-        defaultMessage="Who does the CCPA apply to?"
+      <FormattedMessage 
+        id="faq.heading.escalate" 
+        defaultMessage="What should I do if an organization does not fully comply with my request?" 
       />
     ),
     body: [
-      {
-        item: (
-          <FormattedMessage
-            id="faq.body5A"
-            defaultMessage="The CCPA applies to organizations that collect consumer's personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumer's personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
-          />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.body5Ai"
-            defaultMessage="Has annual gross revenues in excess of twenty-five million dollars ($25,000,000)"
-          />,
-          <FormattedMessage
-            id="faq.body5Aii"
-            defaultMessage="Annually buys, receives, sells, or shares for commercial purposes, alone or in combination, the personal information of 50,000 or more consumers, households, or devices"
-          />,
-          <FormattedMessage
-            id="faq.body5Aiii"
-            defaultMessage="Derives 50 percent or more of its annual revenues from selling consumer's personal information"
-          />,
-        ],
-      },
-      <br />,
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage id="faq.headingWhatIsLGPD" defaultMessage="What is the LGPD?" />
-    ),
-    body: [
       <FormattedMessage
-        id="faq.bodyWhatIsLGPD1"
-        defaultMessage="The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
+        id="faq.body.escalate.1"
+        defaultMessage="Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
       />,
-      <br />,
       <FormattedMessage
-        id="faq.bodyWhatIsLGPD2"
-        defaultMessage="<a>Read the regulation</a>"
-        values={{
-          a: txt => ( <a target="_blank" href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/L13709compilado.htm">{txt}</a>),
-        }}
+        id="faq.body.escalate.2"
+        defaultMessage="If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
       />,
     ],
   },
   {
     heading: (
       <FormattedMessage
-        id="faq.headingWhoLGPDAppliesTo"
-        defaultMessage="Who does the LGPD apply to?"
+        id="faq.heading.verify"
+        defaultMessage="An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
       />
     ),
     body: [
-      {
-        item: (
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo1"
-            defaultMessage="The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when: 
-            "
-          />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo2"
-            defaultMessage="Personal data is collected in Brazil"
-          />,
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo3"
-            defaultMessage="Data is related to an individuals located in the Brazilian territory, or"
-          />,
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo4"
-            defaultMessage="Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
-          />,
-        ],
-      },
-      <br />,
-      {
-        item: (
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo5"
-            defaultMessage="The LGPD is not applicable in cases where the processing of personal data is made: 
-            "
-          />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo6"
-            defaultMessage="By a natural person for exclusively private and non-commercial purposes."
-          />,
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo7"
-            defaultMessage="Exclusively for journalistic, artistic or academic purposes."
-          />,
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo8"
-            defaultMessage="By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
-          />,
-          <FormattedMessage
-            id="faq.bodyWhoLGPDAppliesTo9"
-            defaultMessage="When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
-          />,          
-        ],        
-      },      
-      <br />,
-    ],
-  },
-  {
-    heading: (
       <FormattedMessage
-        id="faq.heading6"
-        defaultMessage="What constitutes personal data?"
-      />
-    ),
-    body: [
-      <FormattedMessage id="faq.body6Ai" defaultMessage="Under the GDPR:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body6Aii"
-        defaultMessage="Any information relating to a person which can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."
+        id="faq.body.verify.1"
+        defaultMessage="Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
       />,
-      <br />,
       <FormattedMessage
-        id="faq.body6Aiii"
-        defaultMessage="<a>Find out more</a>"
-        values={{
-          a: txt => ( <a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/">{txt}</a>),
-        }}
+        id="faq.body.verify.2"
+        defaultMessage="In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
       />,
-      <br />,
-      <FormattedMessage id="faq.body6Bi" defaultMessage="Under the CCPA:" />,
-      <br />,
       <FormattedMessage
-        id="faq.body6Bii"
-        defaultMessage="Personal information is anything that identifies, relates to, describes, or is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body6Biii"
-        defaultMessage="<a>Read the definition</a>"
-        values={{
-          a: txt => ( <a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.140.&lawCode=CIV">{txt}</a>),          
-        }}
-      />,
-      <br />,
-      <FormattedMessage id="faq.body6Ci" defaultMessage="Under the LDPG:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body6Cii"
-        defaultMessage="Any information relating to an identified or identifiable natural person such as name, ID-number, location data, email, etc."
+        id="faq.body.verify.3"
+        defaultMessage="To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
       />,      
-      <br />,
+    ],
+  },
+  {
+    heading: (
+      <FormattedMessage 
+        id="faq.heading.trust" 
+        defaultMessage="Who is operating this service? Can I trust you?" 
+      />
+    ),
+    body: [
       <FormattedMessage
-        id="faq.body6Ciii"
-        defaultMessage="Sensitive personal data is defined as a subcategory to personal data and applies when the data processed concerns to racial or ethnic origin, religious belief, political opinion, trade union or religious, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data."
+        id="faq.body.trust.1"
+        defaultMessage="We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
+        values={{
+          a: txt => ( <a target="_blank" href="https://consciousdigital.org">{txt}</a>),
+          aa: txt => ( <a target="_blank" href="https://github.com/your-digital-rights">{txt}</a>),
+        }}
+      />,
+      <FormattedMessage
+        id="faq.body.trust.2"
+        defaultMessage="We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your <a>donations</a>."
+        values={{
+          a: txt => ( <a href="https://opencollective.com/consciousdigital" target="_blank" >{txt}</a>),
+        }}        
+      />,
+      <FormattedMessage
+        id="faq.body.trust.3"
+        defaultMessage="We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
+        values={{
+          a: txt => ( <Link href="/privacy"><a target="_blank" >{txt}</a></Link>),
+        }}
       />,      
-      <br />,
     ],
   },
   {
     heading: (
       <FormattedMessage
-        id="faq.heading7"
-        defaultMessage="When can I request erasure of my personal data?"
+        id="faq.heading.new-regulation"
+        defaultMessage="My country has a new data protection law. Will you support it?"
       />
     ),
     body: [
-      <FormattedMessage id="faq.body7A" defaultMessage="Under the GDPR:" />,
-      <br />,
-      {
-        item: (
-          <FormattedMessage
-            id="faq.body7Ai"
-            defaultMessage="The right to erasure is not absolute, and concerns data processing where consent is the legal basis for the processing. For example, data needed due to a contract, or data which is in the public interest does not fall under this definition. More specifically, the right only applies in the following circumstances:"
-          />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.body7Aii"
-            defaultMessage="The organization no longer needs your data. Example: after you have cancelled your gym membership, it no longer needs to keep details of your name, address, age and health conditions."
-          />,
-          <FormattedMessage
-            id="faq.body7Aiii"
-            defaultMessage="You initially consented to the use of your data, but have now withdrawn your consent. Example: you agreed to take part in a market-research study and now no longer wish to do so."
-          />,
-          <FormattedMessage
-            id="faq.body7Aiv"
-            defaultMessage="You have objected to the use of your data, and your interests outweigh those of the organization using it."
-          />,
-          <FormattedMessage
-            id="faq.body7Av"
-            defaultMessage="The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
-          />,
-          <FormattedMessage
-            id="faq.body7Avi"
-            defaultMessage="The organization has a legal obligation to erase your data."
-          />,
-          <FormattedMessage
-            id="faq.body7Avii"
-            defaultMessage="The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organizations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
-          />,
-        ],
-      },
-      <br />,
       <FormattedMessage
-        id="faq.body7Aviii"
-        defaultMessage="<a>Find out more</a>"
+        id="faq.body.new-regulation.1"
+        defaultMessage="We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please <a>contact us</a> if you would like us to add support for a particular regulation."
         values={{
-          a: txt => ( <a target="_blank" href="https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/">{txt}</a>),                    
+          a: txt => ( <a href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation">{txt}</a>),
         }}
       />,
-      <br />,
-      <FormattedMessage id="faq.body7B" defaultMessage="Under the CCPA:" />,
-      <br />,
-      {
-        item: (
-          <FormattedMessage
-            id="faq.body7Bi"
-            defaultMessage="Consumers can exercise the right to delete their personal data if:"
-          />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.body7Bii"
-            defaultMessage="The personal information was collected by the business from the consumer."
-          />,
-          <FormattedMessage
-            id="faq.body7Biii"
-            defaultMessage="It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
-          />,
-          <FormattedMessage
-            id="faq.body7Biv"
-            defaultMessage="The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
-          />,
-        ],
-      },
-      <br />,
-      <FormattedMessage id="faq.body7C" defaultMessage="Under the LGPD:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body7Ci"
-        defaultMessage="The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body7Cii"
-        defaultMessage="In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body7Ciii"
-        defaultMessage="If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body7Ciiii"
-        defaultMessage="In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
-      />,
-      <br />,               
     ],
   },
   {
     heading: (
       <FormattedMessage
-        id="faq.heading8"
-        defaultMessage="When can the organization say no?"
+        id="faq.heading.contact"
+        defaultMessage="I have a further question, how can I contact you?"
       />
     ),
     body: [
       <FormattedMessage
-        id="faq.body8A"
-        defaultMessage="There are certain circumstances where an organization is legally permitted to refuse to erase your data."
+        id="faq.body.contact.1"
+        defaultMessage="Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
       />,
-      <br />,
-      {
-        item: (
-          <FormattedMessage id="faq.body8Ai" defaultMessage="Under the GDPR:" />
-        ),
-        subItems: [
-          <FormattedMessage
-            id="faq.body8Aii"
-            defaultMessage="When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
-          />,
-          <FormattedMessage
-            id="faq.body8Aiii"
-            defaultMessage="When the organization is legally obliged to keep hold of your data."
-          />,
-          <FormattedMessage
-            id="faq.body8Aiv"
-            defaultMessage="When keeping hold of your data is necessary for reasons of public health."
-          />,
-          <FormattedMessage
-            id="faq.body8Av"
-            defaultMessage="When keeping your data is necessary for establishing, exercising or defending legal claims."
-          />,
-          <FormattedMessage
-            id="faq.body8Avi"
-            defaultMessage="When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
-          />,
-          <FormattedMessage
-            id="faq.body8Avii"
-            defaultMessage="If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the ICO, or through the courts."
-          />,
-        ],
-      },
-      <br />,
       <FormattedMessage
-        id="faq.body8B"
-        defaultMessage="The organization can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body8Bi"
-        defaultMessage="<a>Find out more</a>"
+        id="faq.body.contact.2"
+        defaultMessage="For all other requests, please contact us via <a>email</a>."
         values={{
-          a: txt => (  <a target="_blank" href="https://ico.org.uk/your-data-matters/your-right-to-get-your-data-deleted/">{txt}</a>),                    
-        }}
+          a: txt => ( <a target="_blank" href="mailto:info@yourdigitalrights.org">{txt}</a>),
+        }}        
       />,
-      <br />,
-      {
-        item: <FormattedMessage id="faq.body8C" defaultMessage="Under the CCPA:" />,
-        subItems: [
-          <FormattedMessage
-            id="faq.body8Ci"
-            defaultMessage="Free speech or another right provided by law."
-          />,
-          <FormattedMessage
-            id="faq.body8Cii"
-            defaultMessage="Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
-          />,
-          <FormattedMessage
-            id="faq.body8Ciii"
-            defaultMessage="Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
-          />,
-          <FormattedMessage
-            id="faq.body8Civ"
-            defaultMessage="For complying with a legal obligation."
-          />,
-          <FormattedMessage
-            id="faq.body8Cv"
-            defaultMessage="To perform a contract between the business and the consumer."
-          />,
-          <FormattedMessage
-            id="faq.body8Cvi"
-            defaultMessage="Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
-          />,
-          <FormattedMessage
-            id="faq.body8Cvii"
-            defaultMessage="Debug to identify and repair errors that impair existing intended functionality."
-          />,
-          <FormattedMessage
-            id="faq.body8Cviii"
-            defaultMessage="To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
-          />,
-          <FormattedMessage
-            id="faq.body8Cix"
-            defaultMessage="Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
-          />,
-        ],
-      },
-      <br />,
-      <FormattedMessage
-        id="faq.body8D"
-        defaultMessage="<a>Find out more</a>"
-        values={{
-          a: txt => (<a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV">{txt}</a>),                    
-        }}
-      />,
-      <br />,
-        <FormattedMessage 
-        id="faq.body8E" 
-        defaultMessage="Under the LGPD:" 
-      />,
-      <br />,
-      {
-        item: <FormattedMessage id="faq.body8F" defaultMessage="The LGPD permits keeping data for the following purposes:" />,
-        subItems: [
-          <FormattedMessage
-            id="faq.body8Fi"
-            defaultMessage="Compliance with a statutory or regulatory obligation by the organization."
-          />,
-          <FormattedMessage
-            id="faq.body8Fii"
-            defaultMessage="Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
-          />,
-          <FormattedMessage
-            id="faq.body8Fiii"
-            defaultMessage="Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
-          />,
-          <FormattedMessage
-            id="faq.body8Fiv"
-            defaultMessage="Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
-          />,
-        ],
-      },
-      <br />,
     ],
   },
   {
     heading: (
       <FormattedMessage
-        id="faq.heading9"
-        defaultMessage="How long do organizations have to comply with a request?"
+        id="faq.heading.contribute"
+        defaultMessage="This service is fantastic. Can I help?"
       />
     ),
     body: [
-      <FormattedMessage id="faq.body9A" defaultMessage="Under the GDPR:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body9Ai"
-        defaultMessage="faq.An organization has one month to comply with a request. The deadline can be extended to 2 additional months taking into account the complexity and number of requests. In any case, the organization must inform you of such extension within one month from the receipt of the request."
+      <FormattedMessage 
+        id="faq.body.contribute.1" 
+        defaultMessage="Yes, please!" 
       />,
-      <br />,
-      <FormattedMessage id="faq.body9Aii" defaultMessage="Under the CCPA:" />,
-      <br />,
       <FormattedMessage
-        id="faq.body9Aiii"
-        defaultMessage="The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
-      />,
-      <br />,
-      <FormattedMessage id="faq.body9C" defaultMessage="Under the LGPD:" />,
-      <br />,
-      {
-        item: <FormattedMessage id="faq.body9D" defaultMessage="The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:" />,
-        subItems: [
-          <FormattedMessage
-            id="faq.body9Di"
-            defaultMessage="In simplified form, if the confirmation or access is provided immediately."
-          />,
-          <FormattedMessage
-            id="faq.body9Dii"
-            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
-          />,
-        ],
-      },
-      <br />,
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage
-        id="faq.heading10"
-        defaultMessage="What should I do if an organization did not reply, or did not fully comply with my request?"
-      />
-    ),
-    body: [
-      <FormattedMessage id="faq.body10A" defaultMessage="When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request." />,
-      <br />,
-      <FormattedMessage id="faq.body10B" defaultMessage="If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court.  If you decide to do this, we strongly advise you to seek independent legal advice first." />,
-      <br />,
-      <FormattedMessage id="faq.body10C" defaultMessage="Under the GDPR:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body10Ci"
-        defaultMessage="You can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. You can download a list of DPAs <a>here</a> (PDF)."
+        id="faq.body.contribute.2"
+        defaultMessage="We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
         values={{
-          a: txt => (<a target="_blank" href="http://ec.europa.eu/newsroom/article29/document.cfm?action=display&doc_id=50061">{txt}</a>),                              
-        }}
+          a: txt => ( <a href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
+        }}                
       />,
-      <br />,
-      <FormattedMessage id="faq.body10D" defaultMessage="Under the CCPA:" />,
-      <br />,
       <FormattedMessage
-        id="faq.body10Di"
-        defaultMessage="You can make a complaint to the California <a>Attorney General</a>. You can also seek to enforce your rights through the courts."
+        id="faq.body.contribute.3"
+        defaultMessage="Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
         values={{
-          a: txt => (<a target="_blank" href="https://oag.ca.gov/contact/consumer-complaint-against-business-or-company">{txt}</a>),                              
-        }}
-      />,
-      <br />,
-      <FormattedMessage id="faq.body10E" defaultMessage="Under the LGPD:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body10Ei"
-        defaultMessage="You can make a complaint to the ANPD. You can also seek to enforce your rights through the courts."
-      />,  
-      <br />,    
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage
-        id="faq.heading11"
-        defaultMessage="What are the penalties an organization that does not comply with a request may face?"
-      />
-    ),
-    body: [
-      <FormattedMessage id="faq.body11A" defaultMessage="Under the GDPR:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body11Ai"
-        defaultMessage="Organizations can be fined up to 4% of annual global turnover for breaching GDPR or 20 Million Euro."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body11Aii"
-        defaultMessage="<a>Find out more</a>"
-        values={{
-          a: txt => (<a target="_blank" href="https://gdpr-info.eu/art-83-gdpr/">{txt}</a>),                              
-        }}
-      />,
-      <br />,
-      <FormattedMessage id="faq.body11B" defaultMessage="Under the CCPA:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body11Bi"
-        defaultMessage="The penalty for an intentional violation of the CCPA is $7,500 per incident, and for an unintentional violation $2,500 per incident. Consumers are entitled to between $100-$750 in compensation per incident or actual damages, whichever is greater, if a company did not take reasonable security measures in the event of a breach of sensitive personal information."
-      />,
-      <br />,
-      <FormattedMessage
-        id="faq.body11Biii"
-        defaultMessage="<a>Find out more</a>"
-        values={{
-          a: txt => (<a target="_blank" href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.155&lawCode=CIV">{txt}</a>),                              
-        }}
-      />,
-
-      <br />,
-      <FormattedMessage id="faq.body11D" defaultMessage="Under the LGPD:" />,
-      <br />,
-      {
-        item: <FormattedMessage id="faq.body11C0" defaultMessage="The administrative sanctions applicable range are:" />,
-        subItems: [
-          <FormattedMessage
-            id="faq.body11Ci"
-            defaultMessage="Warning."
-          />,
-          <FormattedMessage
-            id="faq.body11Cii"
-            defaultMessage="By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
-          />,
-          <FormattedMessage
-            id="faq.body11Ciii"
-            defaultMessage="Fine that could reach 2% of the group's revenues in Brazil, limited to BRL$ 50 million per violation."
-          />,
-          <FormattedMessage
-            id="faq.body11Civ"
-            defaultMessage="Daily fine."
-          />,
-          <FormattedMessage
-            id="faq.body11Cv"
-            defaultMessage="Daily fine."
-          />,
-          <FormattedMessage
-            id="faq.body11Cvi"
-            defaultMessage="Blocking of the personal data to which the infraction refers until its regularization."
-          />,
-          <FormattedMessage
-            id="faq.body11Cvii"
-            defaultMessage="Deletion of the personal data to which the infringement refers."
-          />,
-          <FormattedMessage
-            id="faq.body11Cviii"
-            defaultMessage="Partial suspension of the operation of the database to which the infraction refers for a maximum period of 6 (six) months, extendable for an equal period, until the processing activity is regularized by the organization."
-          />,
-          <FormattedMessage
-            id="faq.body11Cix"
-            defaultMessage="Partial or total ban on the exercise of activities related to data processing."
-          />,
-        ],
-      },
-      <br />,
-      <FormattedMessage
-        id="faq.body11C"
-        defaultMessage="The sanctions may be applied cumulatively, by day and violation, but always based on the seriousness and extent of the violation."
-      />,  
-      <br />,    
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage
-        id="faq.heading12"
-        defaultMessage="Who in an organization is responsible for handling the requests?"
-      />
-    ),
-    body: [
-      <FormattedMessage id="faq.body12A" defaultMessage="Under the GDPR:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body12Ai"
-        defaultMessage="The Data Protection Office (DPO), although the legislation states that organizations should train staff to recognize GDPR requests no matter who they reach or in which format."
-      />,
-      <br />,
-      <FormattedMessage id="faq.body12B" defaultMessage="Under the CCPA:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body12Bi"
-        defaultMessage="The CCPA does not define who specifically within an organization is responsible for this."
-      />,
-      <br />,
-      <FormattedMessage id="faq.body12C" defaultMessage="Under the LGPD:" />,
-      <br />,
-      <FormattedMessage
-        id="faq.body12Ci"
-        defaultMessage="The Data Protection Officer (DPO). However, small data processing agents such as micro-companies, startups, and legal entities of private law, are not required to appoint the personal data controller, but must provide a communication channel with consumers."
-      />,
-      <br />,
-    ],
-  },
-  {
-    heading: (
-      <FormattedMessage
-        id="faq.heading13"
-        defaultMessage="When sending a request via the website, I get an error message, or nothing happens"
-      />
-    ),
-    body: [
-      <FormattedMessage
-        id="faq.body13A"
-        defaultMessage="To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on <a1>Mac</a1> and <a2>Windows</a2>."
-        values={{
-          a1: txt => (<a target="_blank" href="http://osxdaily.com/2014/05/06/change-default-mail-app-mac/">{txt}</a>),                              
-          a2: txt => (<a target="_blank" href="https://support.microsoft.com/en-us/help/555566">{txt}</a>),                              
-        }}
-      />,
-      <br />,
+          a: txt => ( <Link target="_blank" href="/contribute"><a target="_blank">{txt}</a></Link>),
+        }}        
+      />,              
     ],
   },
 ];

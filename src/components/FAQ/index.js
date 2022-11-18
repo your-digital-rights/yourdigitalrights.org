@@ -23,11 +23,11 @@ class FAQ extends Component {
     const { classes } = this.props;
 
     return (
-      <div className={classes.alphaList}>
+      <div>
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography color="textSecondary" component="p" className={classes.list}>
+              <Typography component="p" className={classes.list}>
                 {text.item || text}
               </Typography>
               {text.subItems && (
@@ -36,7 +36,7 @@ class FAQ extends Component {
                   <ul className={classes.list}>
                     {text.subItems.map((subItemText, index) => (
                       <li key={index}>
-                        <Typography color="textSecondary">
+                        <Typography>
                           {subItemText}
                         </Typography>
                       </li>
@@ -44,6 +44,7 @@ class FAQ extends Component {
                   </ul>
                 </>
               )}
+              <br />
             </div>
           );
         })}
@@ -53,6 +54,8 @@ class FAQ extends Component {
 
   renderItem = ({ heading, body }, index) => {
     const { expanded } = this.state;
+    const { classes } = this.props;
+
     return (
       <Accordion
         key={index}
@@ -65,7 +68,7 @@ class FAQ extends Component {
         >
           <Typography variant={"body2"}>{heading}</Typography>
         </AccordionSummary>
-        <AccordionDetails>
+        <AccordionDetails className={classes.accordionBody}>
           {this.renderItemBody(body)}
         </AccordionDetails>
       </Accordion>

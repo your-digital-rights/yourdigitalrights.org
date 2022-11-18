@@ -611,978 +611,388 @@
       "value": "We need your support"
     }
   ],
-  "faq.body0A": [
+  "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "Data protection laws protect individuals with regards to the processing of their personal data by organizations. They define the responsibilities organizations have when processing personal data, and grant individual certain rights with regards to their data."
+      "value": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
     }
   ],
-  "faq.body1": [
+  "faq.body.contact.1": [
     {
       "type": 0,
-      "value": "Different countries have different regulations protecting individual privacy online. This website supports the following regulations:"
+      "value": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
     }
   ],
-  "faq.body10A": [
+  "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
-    }
-  ],
-  "faq.body10B": [
-    {
-      "type": 0,
-      "value": "If you are unhappy with how the organization has handled your request, you should first send the organization a reminder email explaining your dissatisfaction. If after sending the organization a reminder you are still dissatisfied, you can complain to the Data Protection Agency, a governmental regulatory body. Some regulations provide individuals with a private right of action - the ability to sue an organization in court. If you decide to do this, we strongly advise you to seek independent legal advice first."
-    }
-  ],
-  "faq.body10C": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body10Ci": [
-    {
-      "type": 0,
-      "value": "You can make a complaint to the local Data Protection Authorities (DPA). You can also seek to enforce your rights through the courts. You can download a list of DPAs "
+      "value": "For all other requests, please contact us via "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "email"
         }
       ],
       "type": 8,
       "value": "a"
-    },
-    {
-      "type": 0,
-      "value": " (PDF)."
-    }
-  ],
-  "faq.body10D": [
-    {
-      "type": 0,
-      "value": "Under the CCPA:"
-    }
-  ],
-  "faq.body10Di": [
-    {
-      "type": 0,
-      "value": "You can make a complaint to the California "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Attorney General"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": ". You can also seek to enforce your rights through the courts."
-    }
-  ],
-  "faq.body10E": [
-    {
-      "type": 0,
-      "value": "Under the LGPD:"
-    }
-  ],
-  "faq.body10Ei": [
-    {
-      "type": 0,
-      "value": "You can make a complaint to the ANPD. You can also seek to enforce your rights through the courts."
-    }
-  ],
-  "faq.body11A": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body11Ai": [
-    {
-      "type": 0,
-      "value": "Organizations can be fined up to 4% of annual global turnover for breaching GDPR or 20 Million Euro."
-    }
-  ],
-  "faq.body11Aii": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Find out more"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body11B": [
-    {
-      "type": 0,
-      "value": "Under the CCPA:"
-    }
-  ],
-  "faq.body11Bi": [
-    {
-      "type": 0,
-      "value": "The penalty for an intentional violation of the CCPA is $7,500 per incident, and for an unintentional violation $2,500 per incident. Consumers are entitled to between $100-$750 in compensation per incident or actual damages, whichever is greater, if a company did not take reasonable security measures in the event of a breach of sensitive personal information."
-    }
-  ],
-  "faq.body11Biii": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Find out more"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body11C": [
-    {
-      "type": 0,
-      "value": "The sanctions may be applied cumulatively, by day and violation, but always based on the seriousness and extent of the violation."
-    }
-  ],
-  "faq.body11C0": [
-    {
-      "type": 0,
-      "value": "The administrative sanctions applicable range are:"
-    }
-  ],
-  "faq.body11Ci": [
-    {
-      "type": 0,
-      "value": "Warning."
-    }
-  ],
-  "faq.body11Cii": [
-    {
-      "type": 0,
-      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within fifteen days counted from the date of the request."
-    }
-  ],
-  "faq.body11Ciii": [
-    {
-      "type": 0,
-      "value": "Fine that could reach 2% of the group's revenues in Brazil, limited to BRL$ 50 million per violation."
-    }
-  ],
-  "faq.body11Civ": [
-    {
-      "type": 0,
-      "value": "Daily fine."
-    }
-  ],
-  "faq.body11Cix": [
-    {
-      "type": 0,
-      "value": "Partial or total ban on the exercise of activities related to data processing."
-    }
-  ],
-  "faq.body11Cv": [
-    {
-      "type": 0,
-      "value": "Daily fine."
-    }
-  ],
-  "faq.body11Cvi": [
-    {
-      "type": 0,
-      "value": "Blocking of the personal data to which the infraction refers until its regularization."
-    }
-  ],
-  "faq.body11Cvii": [
-    {
-      "type": 0,
-      "value": "Deletion of the personal data to which the infringement refers."
-    }
-  ],
-  "faq.body11Cviii": [
-    {
-      "type": 0,
-      "value": "Partial suspension of the operation of the database to which the infraction refers for a maximum period of 6 (six) months, extendable for an equal period, until the processing activity is regularized by the organization."
-    }
-  ],
-  "faq.body11D": [
-    {
-      "type": 0,
-      "value": "Under the LGPD:"
-    }
-  ],
-  "faq.body12A": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body12Ai": [
-    {
-      "type": 0,
-      "value": "The Data Protection Office (DPO), although the legislation states that organizations should train staff to recognize GDPR requests no matter who they reach or in which format."
-    }
-  ],
-  "faq.body12B": [
-    {
-      "type": 0,
-      "value": "Under the CCPA:"
-    }
-  ],
-  "faq.body12Bi": [
-    {
-      "type": 0,
-      "value": "The CCPA does not define who specifically within an organization is responsible for this."
-    }
-  ],
-  "faq.body12C": [
-    {
-      "type": 0,
-      "value": "Under the LGPD:"
-    }
-  ],
-  "faq.body12Ci": [
-    {
-      "type": 0,
-      "value": "The Data Protection Officer (DPO). However, small data processing agents such as micro-companies, startups, and legal entities of private law, are not required to appoint the personal data controller, but must provide a communication channel with consumers."
-    }
-  ],
-  "faq.body13A": [
-    {
-      "type": 0,
-      "value": "To fix this issue you will need to configure a default email client on your system. Here are instructions on how to do this on "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Mac"
-        }
-      ],
-      "type": 8,
-      "value": "a1"
-    },
-    {
-      "type": 0,
-      "value": " and "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Windows"
-        }
-      ],
-      "type": 8,
-      "value": "a2"
     },
     {
       "type": 0,
       "value": "."
     }
   ],
-  "faq.body1A": [
+  "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "European Union - The General Data Protection Regulations (GDPR)"
+      "value": "Yes, please!"
     }
   ],
-  "faq.body1B": [
+  "faq.body.contribute.2": [
     {
       "type": 0,
-      "value": "California - Consumer Privacy Act (CCPA)"
-    }
-  ],
-  "faq.body1C": [
-    {
-      "type": 0,
-      "value": "Brazil - General Data Protection Law (LGPD)"
-    }
-  ],
-  "faq.body2A": [
-    {
-      "type": 0,
-      "value": "The General Data Protection Regulations, or GDPR for short, is an EU regulation which protects the fundamental right of people to the protection of their personal data."
-    }
-  ],
-  "faq.body2Ai": [
+      "value": "We rely on "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Read the regulation"
+          "value": "donations"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body2B": [
+    },
     {
       "type": 0,
-      "value": "The GDPR does not apply to certain activities including law enforcement, national security, and purely for personal / household activities."
+      "value": " to ensure our long-term financial stability and independence. You can make a contribution here."
     }
   ],
-  "faq.body2C": [
+  "faq.body.contribute.3": [
+    {
+      "type": 0,
+      "value": "Please see the information on "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Find out more"
+          "value": "this page"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body3A": [
+    },
     {
       "type": 0,
-      "value": "The GDPR applies to:"
+      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
     }
   ],
-  "faq.body3Ai": [
+  "faq.body.data-protection.1": [
     {
       "type": 0,
-      "value": "Organizations established within the EU who collect or process personal data (even of people located outside the EU)"
+      "value": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
     }
   ],
-  "faq.body3Aii": [
+  "faq.body.escalate.1": [
     {
       "type": 0,
-      "value": "Organizations established outside the EU collecting or processing personal information while providing goods or services (paid or for free) to people located within the EU"
+      "value": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
     }
   ],
-  "faq.body3Aiii": [
+  "faq.body.escalate.2": [
     {
       "type": 0,
-      "value": "Organizations established outside the EU collecting or processing personal information while engaged in the monitoring of the behavior of people while they are in the EU"
+      "value": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
     }
   ],
-  "faq.body4A": [
+  "faq.body.how.1": [
     {
       "type": 0,
-      "value": "The California Consumer Privacy Act, or CCPA for short, is a regulation introduced in California in January 2020. It protects the fundamental right of people to the protection of their personal data and privacy online."
+      "value": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
     }
   ],
-  "faq.body4Ai": [
+  "faq.body.new-regulation.1": [
+    {
+      "type": 0,
+      "value": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Read the regulation"
+          "value": "contact us"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body5A": [
+    },
     {
       "type": 0,
-      "value": "The CCPA applies to organizations that collect consumer's personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumer's personal information, that does business in the State of California, and that satisfies one or more of the following thresholds:"
+      "value": " if you would like us to add support for a particular regulation."
     }
   ],
-  "faq.body5Ai": [
+  "faq.body.refuse.1": [
     {
       "type": 0,
-      "value": "Has annual gross revenues in excess of twenty-five million dollars ($25,000,000)"
+      "value": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
     }
   ],
-  "faq.body5Aii": [
+  "faq.body.refuse.1.1": [
     {
       "type": 0,
-      "value": "Annually buys, receives, sells, or shares for commercial purposes, alone or in combination, the personal information of 50,000 or more consumers, households, or devices"
+      "value": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
     }
   ],
-  "faq.body5Aiii": [
+  "faq.body.refuse.1.2": [
     {
       "type": 0,
-      "value": "Derives 50 percent or more of its annual revenues from selling consumer's personal information"
+      "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
     }
   ],
-  "faq.body6Ai": [
+  "faq.body.refuse.1.3": [
     {
       "type": 0,
-      "value": "Under the GDPR:"
+      "value": "When keeping hold of your data is necessary for public health reasons"
     }
   ],
-  "faq.body6Aii": [
+  "faq.body.refuse.1.4": [
     {
       "type": 0,
-      "value": "Any information relating to a person which can be directly or indirectly used to identify them. A person can be identified in a wide range of ways including name, identification number, location data or other online identifiers."
+      "value": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
     }
   ],
-  "faq.body6Aiii": [
+  "faq.body.refuse.1.5": [
+    {
+      "type": 0,
+      "value": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+    }
+  ],
+  "faq.body.regulations.location": [
+    {
+      "type": 0,
+      "value": "Location"
+    }
+  ],
+  "faq.body.regulations.name": [
+    {
+      "type": 0,
+      "value": "Full Name"
+    }
+  ],
+  "faq.body.regulations.short-name": [
+    {
+      "type": 0,
+      "value": "Name (link)"
+    }
+  ],
+  "faq.body.regulations.timelimit": [
+    {
+      "type": 0,
+      "value": "Time to Reply"
+    }
+  ],
+  "faq.body.requests.1": [
+    {
+      "type": 0,
+      "value": "We support two types of requests:"
+    }
+  ],
+  "faq.body.requests.1.1": [
     {
       "children": [
         {
           "type": 0,
-          "value": "Find out more"
+          "value": "Data Deletion Requests"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body6Bi": [
+      "value": "b"
+    },
     {
       "type": 0,
-      "value": "Under the CCPA:"
+      "value": " (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
     }
   ],
-  "faq.body6Bii": [
-    {
-      "type": 0,
-      "value": "Personal information is anything that identifies, relates to, describes, or is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular consumer or household."
-    }
-  ],
-  "faq.body6Biii": [
+  "faq.body.requests.1.2": [
     {
       "children": [
         {
           "type": 0,
-          "value": "Read the definition"
+          "value": "Access requests"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body6Ci": [
+      "value": "b"
+    },
     {
       "type": 0,
-      "value": "Under the LDPG:"
+      "value": " (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
     }
   ],
-  "faq.body6Cii": [
+  "faq.body.trust.1": [
     {
       "type": 0,
-      "value": "Any information relating to an identified or identifiable natural person such as name, ID-number, location data, email, etc."
-    }
-  ],
-  "faq.body6Ciii": [
-    {
-      "type": 0,
-      "value": "Sensitive personal data is defined as a subcategory to personal data and applies when the data processed concerns to racial or ethnic origin, religious belief, political opinion, trade union or religious, philosophical or political organization membership, data concerning health or sex life, genetic or biometric data."
-    }
-  ],
-  "faq.body7A": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body7Ai": [
-    {
-      "type": 0,
-      "value": "The right to erasure is not absolute, and concerns data processing where consent is the legal basis for the processing. For example, data needed due to a contract, or data which is in the public interest does not fall under this definition. More specifically, the right only applies in the following circumstances:"
-    }
-  ],
-  "faq.body7Aii": [
-    {
-      "type": 0,
-      "value": "The organization no longer needs your data. Example: after you have cancelled your gym membership, it no longer needs to keep details of your name, address, age and health conditions."
-    }
-  ],
-  "faq.body7Aiii": [
-    {
-      "type": 0,
-      "value": "You initially consented to the use of your data, but have now withdrawn your consent. Example: you agreed to take part in a market-research study and now no longer wish to do so."
-    }
-  ],
-  "faq.body7Aiv": [
-    {
-      "type": 0,
-      "value": "You have objected to the use of your data, and your interests outweigh those of the organization using it."
-    }
-  ],
-  "faq.body7Av": [
-    {
-      "type": 0,
-      "value": "The organization has collected or used your data unlawfully. Example: it hasn't complied with the rules on data protection."
-    }
-  ],
-  "faq.body7Avi": [
-    {
-      "type": 0,
-      "value": "The organization has a legal obligation to erase your data."
-    }
-  ],
-  "faq.body7Avii": [
-    {
-      "type": 0,
-      "value": "The data was collected from you as a child for an online service. Example: social media or a gaming app. The law gives children special protection because they may be less aware of the risks and consequences of giving their data to organizations. Even if you are now an adult, you have a right to have your data erased if it was collected from you as a child."
-    }
-  ],
-  "faq.body7Aviii": [
+      "value": "We are a registered nonprofit organization called "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Find out more"
+          "value": "Conscious Digital"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body7B": [
+    },
     {
       "type": 0,
-      "value": "Under the CCPA:"
-    }
-  ],
-  "faq.body7Bi": [
-    {
-      "type": 0,
-      "value": "Consumers can exercise the right to delete their personal data if:"
-    }
-  ],
-  "faq.body7Bii": [
-    {
-      "type": 0,
-      "value": "The personal information was collected by the business from the consumer."
-    }
-  ],
-  "faq.body7Biii": [
-    {
-      "type": 0,
-      "value": "It is no longer necessary for the business or service provider to maintain the personal information in order to fulfill one of the purposes identified in by law (California civil code section 1798.105 (d))."
-    }
-  ],
-  "faq.body7Biv": [
-    {
-      "type": 0,
-      "value": "The business is not entitled to retain the personal information under one of the general exemptions under the law (California civil code section 1798.145)."
-    }
-  ],
-  "faq.body7C": [
-    {
-      "type": 0,
-      "value": "Under the LGPD:"
-    }
-  ],
-  "faq.body7Ci": [
-    {
-      "type": 0,
-      "value": "The regulation requires organizations to delete the personal data of a natural person if it has been requested, since the data has been collected based on consent."
-    }
-  ],
-  "faq.body7Cii": [
-    {
-      "type": 0,
-      "value": "In case of data processing based on consent, the data subject may request the elimination of any data collected, except if the storage is permitted by the LGPD."
-    }
-  ],
-  "faq.body7Ciii": [
-    {
-      "type": 0,
-      "value": "If an organization has shared the data with 3rd parties, it must communicate any deletion request with these 3rd parties so that the procedure can be repeated, except in cases where such communication is demonstrably impossible or involves disproportionate effort."
-    }
-  ],
-  "faq.body7Ciiii": [
-    {
-      "type": 0,
-      "value": "In addition, the LGPD states that data must be deleted if it was processed for reasons that are excessive, unnecessary, or unlawful."
-    }
-  ],
-  "faq.body8A": [
-    {
-      "type": 0,
-      "value": "There are certain circumstances where an organization is legally permitted to refuse to erase your data."
-    }
-  ],
-  "faq.body8Ai": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body8Aii": [
-    {
-      "type": 0,
-      "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
-    }
-  ],
-  "faq.body8Aiii": [
-    {
-      "type": 0,
-      "value": "When the organization is legally obliged to keep hold of your data."
-    }
-  ],
-  "faq.body8Aiv": [
-    {
-      "type": 0,
-      "value": "When keeping hold of your data is necessary for reasons of public health."
-    }
-  ],
-  "faq.body8Av": [
-    {
-      "type": 0,
-      "value": "When keeping your data is necessary for establishing, exercising or defending legal claims."
-    }
-  ],
-  "faq.body8Avi": [
-    {
-      "type": 0,
-      "value": "When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
-    }
-  ],
-  "faq.body8Avii": [
-    {
-      "type": 0,
-      "value": "If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the ICO, or through the courts."
-    }
-  ],
-  "faq.body8B": [
-    {
-      "type": 0,
-      "value": "The organization can also refuse your request if it is, as the law states, “manifestly unfounded or excessive”."
-    }
-  ],
-  "faq.body8Bi": [
+      "value": ". We believe in transparency, and therefore the source code for this service is "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Find out more"
+          "value": "open source"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body8C": [
+      "value": "aa"
+    },
     {
       "type": 0,
-      "value": "Under the CCPA:"
+      "value": ". As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
     }
   ],
-  "faq.body8Ci": [
+  "faq.body.trust.2": [
     {
       "type": 0,
-      "value": "Free speech or another right provided by law."
-    }
-  ],
-  "faq.body8Cii": [
-    {
-      "type": 0,
-      "value": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
-    }
-  ],
-  "faq.body8Ciii": [
-    {
-      "type": 0,
-      "value": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
-    }
-  ],
-  "faq.body8Civ": [
-    {
-      "type": 0,
-      "value": "For complying with a legal obligation."
-    }
-  ],
-  "faq.body8Cix": [
-    {
-      "type": 0,
-      "value": "Otherwise use the consumer's personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
-    }
-  ],
-  "faq.body8Cv": [
-    {
-      "type": 0,
-      "value": "To perform a contract between the business and the consumer."
-    }
-  ],
-  "faq.body8Cvi": [
-    {
-      "type": 0,
-      "value": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
-    }
-  ],
-  "faq.body8Cvii": [
-    {
-      "type": 0,
-      "value": "Debug to identify and repair errors that impair existing intended functionality."
-    }
-  ],
-  "faq.body8Cviii": [
-    {
-      "type": 0,
-      "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer's relationship with the business."
-    }
-  ],
-  "faq.body8D": [
+      "value": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Find out more"
+          "value": "donations"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body8E": [
+    },
     {
       "type": 0,
-      "value": "Under the LGPD:"
+      "value": "."
     }
   ],
-  "faq.body8F": [
+  "faq.body.trust.3": [
     {
       "type": 0,
-      "value": "The LGPD permits keeping data for the following purposes:"
-    }
-  ],
-  "faq.body8Fi": [
-    {
-      "type": 0,
-      "value": "Compliance with a statutory or regulatory obligation by the organization."
-    }
-  ],
-  "faq.body8Fii": [
-    {
-      "type": 0,
-      "value": "Studies by a research body, guaranteeing, whenever possible, the anonymization of personal data."
-    }
-  ],
-  "faq.body8Fiii": [
-    {
-      "type": 0,
-      "value": "Transfer to third parties, upon compliance with the data processing requirements set forth in this law."
-    }
-  ],
-  "faq.body8Fiv": [
-    {
-      "type": 0,
-      "value": "Exclusive use of the organization of anonymized data, on the condition that access of the data by third parties is prohibited."
-    }
-  ],
-  "faq.body9A": [
-    {
-      "type": 0,
-      "value": "Under the GDPR:"
-    }
-  ],
-  "faq.body9Ai": [
-    {
-      "type": 0,
-      "value": "faq.An organization has one month to comply with a request. The deadline can be extended to 2 additional months taking into account the complexity and number of requests. In any case, the organization must inform you of such extension within one month from the receipt of the request."
-    }
-  ],
-  "faq.body9Aii": [
-    {
-      "type": 0,
-      "value": "Under the CCPA:"
-    }
-  ],
-  "faq.body9Aiii": [
-    {
-      "type": 0,
-      "value": "The deadline to respond to a request is 45 days from the receipt of the consumer's request. The deadline can be extended an additional 45 days when reasonably necessary, if the consumer is informed within the first 45 days."
-    }
-  ],
-  "faq.body9C": [
-    {
-      "type": 0,
-      "value": "Under the LGPD:"
-    }
-  ],
-  "faq.body9D": [
-    {
-      "type": 0,
-      "value": "The LGPD specifies a deadline with regards to the right to confirmation of existence of personal data, and the right of access to personal data:"
-    }
-  ],
-  "faq.body9Di": [
-    {
-      "type": 0,
-      "value": "In simplified form, if the confirmation or access is provided immediately."
-    }
-  ],
-  "faq.body9Dii": [
-    {
-      "type": 0,
-      "value": "By means of a clear and complete statement, indicating the origin of the data, nonexistence of records, criteria used and purpose of the processing, as the case may be, within 15 (fifteen) days counted from the date of the request."
-    }
-  ],
-  "faq.bodyWhatIsLGPD1": [
-    {
-      "type": 0,
-      "value": "The LGPD (Lei Geral de Proteção de Dados Pessoais) is a Brazilian regulation establishing rules on collecting, handling, storing and sharing of personal data managed by organizations. It establishes the protection of fundamental rights of freedom and of the privacy of individuals as its principal goals."
-    }
-  ],
-  "faq.bodyWhatIsLGPD2": [
+      "value": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Read the regulation"
+          "value": "privacy policy"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo1": [
+    },
     {
       "type": 0,
-      "value": "The LGPD applies to any individual or legal entity governed by public or private law, that processes personal data (such as collection, production, reception, classification, processing, etc.) in the Brazilian territory and outside the country, when:"
+      "value": " for details."
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo2": [
+  "faq.body.verify.1": [
     {
       "type": 0,
-      "value": "Personal data is collected in Brazil"
+      "value": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo3": [
+  "faq.body.verify.2": [
     {
       "type": 0,
-      "value": "Data is related to an individuals located in the Brazilian territory, or"
+      "value": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo4": [
+  "faq.body.verify.3": [
     {
       "type": 0,
-      "value": "Their goal is to offer products and/or services to individuals, Brazilian or foreign, in Brazil"
+      "value": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo5": [
+  "faq.heading.YDR": [
     {
       "type": 0,
-      "value": "The LGPD is not applicable in cases where the processing of personal data is made:"
+      "value": "What is YourDigitalRights.org?"
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo6": [
+  "faq.heading.contact": [
     {
       "type": 0,
-      "value": "By a natural person for exclusively private and non-commercial purposes."
+      "value": "I have a further question, how can I contact you?"
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo7": [
+  "faq.heading.contribute": [
     {
       "type": 0,
-      "value": "Exclusively for journalistic, artistic or academic purposes."
+      "value": "This service is fantastic. Can I help?"
     }
   ],
-  "faq.bodyWhoLGPDAppliesTo8": [
-    {
-      "type": 0,
-      "value": "By public authorities, in case of use for the promotion of public security, national defense, state security or activities of investigation and prosecution of criminal offenses."
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo9": [
-    {
-      "type": 0,
-      "value": "When the data origin isn't Brazilian territory and: a) isn't the object of any data processing in Brazil; c) isn't shared with Brazilian processing agents; d) isn’t shared with other countries which are not the country of origin, as long as the country of origin has a law or a regulation which provide a level of personal data protection equivalent to data protection offered by the LGPD."
-    }
-  ],
-  "faq.heading0": [
+  "faq.heading.data-protection": [
     {
       "type": 0,
       "value": "What are data protection laws?"
     }
   ],
-  "faq.heading1": [
+  "faq.heading.escalate": [
     {
       "type": 0,
-      "value": "Which data protection laws protect me?"
+      "value": "What should I do if an organization does not fully comply with my request?"
     }
   ],
-  "faq.heading10": [
+  "faq.heading.how": [
     {
       "type": 0,
-      "value": "What should I do if an organization did not reply, or did not fully comply with my request?"
+      "value": "How does the service work?"
     }
   ],
-  "faq.heading11": [
+  "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "What are the penalties an organization that does not comply with a request may face?"
+      "value": "My country has a new data protection law. Will you support it?"
     }
   ],
-  "faq.heading12": [
+  "faq.heading.refuse": [
     {
       "type": 0,
-      "value": "Who in an organization is responsible for handling the requests?"
+      "value": "Can organizations say no?"
     }
   ],
-  "faq.heading13": [
+  "faq.heading.regulations": [
     {
       "type": 0,
-      "value": "When sending a request via the website, I get an error message, or nothing happens"
+      "value": "What countries, states, or regulations are supported?"
     }
   ],
-  "faq.heading2": [
+  "faq.heading.requests": [
     {
       "type": 0,
-      "value": "What is the GDPR?"
+      "value": "What kind of requests can I make using this service?"
     }
   ],
-  "faq.heading3": [
+  "faq.heading.trust": [
     {
       "type": 0,
-      "value": "Who does the GDPR apply to?"
+      "value": "Who is operating this service? Can I trust you?"
     }
   ],
-  "faq.heading4": [
+  "faq.heading.verify": [
     {
       "type": 0,
-      "value": "What is the CCPA?"
-    }
-  ],
-  "faq.heading5": [
-    {
-      "type": 0,
-      "value": "Who does the CCPA apply to?"
-    }
-  ],
-  "faq.heading6": [
-    {
-      "type": 0,
-      "value": "What constitutes personal data?"
-    }
-  ],
-  "faq.heading7": [
-    {
-      "type": 0,
-      "value": "When can I request erasure of my personal data?"
-    }
-  ],
-  "faq.heading8": [
-    {
-      "type": 0,
-      "value": "When can the organization say no?"
-    }
-  ],
-  "faq.heading9": [
-    {
-      "type": 0,
-      "value": "How long do organizations have to comply with a request?"
-    }
-  ],
-  "faq.headingWhatIsLGPD": [
-    {
-      "type": 0,
-      "value": "What is the LGPD?"
-    }
-  ],
-  "faq.headingWhoLGPDAppliesTo": [
-    {
-      "type": 0,
-      "value": "Who does the LGPD apply to?"
+      "value": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
     }
   ],
   "faq.title": [
@@ -1696,7 +1106,7 @@
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+      "value": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
     }
   ],
   "howItWorks.followUpTitle": [
@@ -1726,7 +1136,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "the organization a request to delete, or send you a copy of your data."
+      "value": "the organization a request to delete, or provide a copy of your data."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1758,7 +1168,7 @@
     },
     {
       "type": 0,
-      "value": ". We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your "
+      "value": ". We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your "
     },
     {
       "children": [
@@ -1784,7 +1194,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
     }
   ],
   "howItWorks.yourDataTitle": [

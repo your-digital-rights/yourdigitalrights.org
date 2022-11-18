@@ -1,4 +1,5 @@
 import { useIntl } from "react-intl";
+import AboutOrg from "../../components/AboutOrg";
 import Subscribe from "../../components/Subscribe";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
@@ -51,6 +52,9 @@ const Org = ({ classes, organization, router }) => {
         selectedCompany={organization}
       />
       <PersonalInfoForm
+        selectedCompany={organization}
+      />
+      <AboutOrg  
         selectedCompany={organization}
       />
       <div className={classes.subscribeContainer}>
