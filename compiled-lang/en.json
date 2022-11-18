@@ -769,6 +769,26 @@
       "value": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
     }
   ],
+  "faq.body.regulations.1": [
+    {
+      "type": 0,
+      "value": "Please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contact us"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " if you would like to help us implement support for additional regulations."
+    }
+  ],
   "faq.body.regulations.location": [
     {
       "type": 0,

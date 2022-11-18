@@ -64,7 +64,7 @@ export default [
             { Object.keys(Regulations).map((key) => 
               <TableRow key={key}>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
-                <TableCell style={{fontWeight: "500"}}><a href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
+                <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit}</TableCell>
               </TableRow>
@@ -218,15 +218,15 @@ export default [
         id="faq.body.trust.1"
         defaultMessage="We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
         values={{
-          a: txt => ( <a target="_blank" href="https://consciousdigital.org">{txt}</a>),
-          aa: txt => ( <a target="_blank" href="https://github.com/your-digital-rights">{txt}</a>),
+          a: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://consciousdigital.org">{txt}</a>),
+          aa: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://github.com/your-digital-rights">{txt}</a>),
         }}
       />,
       <FormattedMessage
         id="faq.body.trust.2"
         defaultMessage="We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your <a>donations</a>."
         values={{
-          a: txt => ( <a href="https://opencollective.com/consciousdigital" target="_blank" >{txt}</a>),
+          a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank" >{txt}</a>),
         }}        
       />,
       <FormattedMessage
@@ -292,14 +292,14 @@ export default [
         id="faq.body.contribute.2"
         defaultMessage="We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
         values={{
-          a: txt => ( <a href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
+          a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
         }}                
       />,
       <FormattedMessage
         id="faq.body.contribute.3"
         defaultMessage="Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
         values={{
-          a: txt => ( <Link target="_blank" href="/contribute"><a target="_blank">{txt}</a></Link>),
+          a: txt => ( <Link href="/contribute"><a target="_blank">{txt}</a></Link>),
         }}        
       />,              
     ],
