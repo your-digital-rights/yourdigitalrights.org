@@ -13,7 +13,6 @@ const dynamodb = new aws.DynamoDB();
  * Get request statistics report.
  */
 export default async (req, res) => {
-  return new Promise((resolve, reject) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Content-Type', 'application/json')
     res.setHeader('Cache-Control', 'stale-while-revalidate=600, max-age=3600, s-maxage=3600');  
@@ -23,7 +22,8 @@ export default async (req, res) => {
     const year_bucket = date.toFormat('yyyy'); 
     const month_bucket = year_bucket + "-" + date.toFormat('MMMM').toLowerCase(); 
     const week_bucket = year_bucket + "-" + date.toFormat('WW');
-    const results = [];
+    const requestTableName = 'YDRRequests';
+    const previousYearsRequests = 40545;
 
     dynamodb.query({
         TableName: "YDRAggregateRequests",
@@ -67,7 +67,6 @@ export default async (req, res) => {
                     res.send({
                         error: 'Could not get statistics: ' + err,
                     });
-                    resolve();
                 } else { 
                     dynamodb.query({
                         TableName: "YDRAggregateRequests",
@@ -89,7 +88,6 @@ export default async (req, res) => {
                             res.send({
                                 error: 'Could not get statistics: ' + err,
                             });
-                            resolve();
                         } else { 
                             dynamodb.query({
                                 TableName: "YDRAggregateRequests",
@@ -111,17 +109,30 @@ export default async (req, res) => {
                                     res.send({
                                         error: 'Could not get statistics: ' + err,
                                     });
-                                    resolve();
                                 } else { 
-                                    res.statusCode = 200;
-                                    res.send({
-                                        "License": "GNU General Public License v3.0", 
-                                        "alltime": alltime['Items'],
-                                        "year": year['Items'],
-                                        "month": month['Items'],
-                                        "week": week['Items'],
+                                    dynamodb.describeTable({
+                                        TableName: requestTableName
+                                    }, (err, describe) => {
+                                        if (err) {
+                                            res.statusCode = 500;
+                                            res.send({
+                                                error: 'Could not get statistics (describe): ' + err,
+                                            });
+                                        } else { 
+                                            dynamodb.describeTable({
+                                                TableName: requestTableName
+                                            });
+                                            res.statusCode = 200;
+                                            res.send({
+                                                "License": "GNU General Public License v3.0", 
+                                                "alltime": alltime['Items'],
+                                                "year": year['Items'],
+                                                "month": month['Items'],
+                                                "week": week['Items'],
+                                                "total": previousYearsRequests + describe.Table.ItemCount,
+                                            });
+                                        }
                                     });
-                                    resolve();
                                 }
                             });
                         }
@@ -131,5 +142,4 @@ export default async (req, res) => {
         }
     });
     return;
-  });
 };
