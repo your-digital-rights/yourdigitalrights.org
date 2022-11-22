@@ -9,6 +9,7 @@ import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
 import Social from "../components/Social";
+import Script from 'next/script'
 
 const styles = (theme) => ({
   container: {
@@ -23,7 +24,7 @@ const styles = (theme) => ({
     backgroundColor: "white",
     paddingLeft: 120,
     paddingRight: 120,
-    paddingTop: 50,
+    paddingTop: 30,
     paddingBottom: 50,
     [theme.breakpoints.down("sm")]: {
       paddingLeft: 30,
@@ -59,9 +60,12 @@ const PrivacyAlerts = ({ classes, router }) => {
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
-          <Typography component="h1" variant="h4" gutterBottom={true} >
-            <FormattedMessage id="privacyAlerts.title" defaultMessage="Keep it private!" />
-          </Typography>
+          <div >
+            <Script src="https://js.stripe.com/v3/pricing-table.js" />
+            <stripe-pricing-table pricing-table-id="prctbl_1M6tTaL6744XdVfOcVKzvZ3o"
+            publishable-key="pk_live_51Lhpu4L6744XdVfOEOM0kOeRaOaag73Lo9wbjnXqU4G9kfniyJf8aeQw8exGhu6yZwaPkJMHH6fQbB64Yx42JKR5008umYBaAw">
+            </stripe-pricing-table>
+          </div>   
           <Typography component="p" variant="h5" gutterBottom={true} >
             <FormattedMessage
               id="privacyAlerts.strapline"
@@ -71,10 +75,7 @@ const PrivacyAlerts = ({ classes, router }) => {
           <br/>          
           <Typography gutterBottom={true}>
             <FormattedMessage id="privacyAlerts.description1" defaultMessage="Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data." />
-          </Typography>    
-          <div className={classes.substack}>
-            <iframe src="https://consciousdigital.substack.com/embed" width="450" height="100"  frameBorder="0" scrolling="no" ></iframe>
-          </div>               
+          </Typography>                
         </Paper>
       </div>
       <Social sourcePage="priceAlerts"/>
