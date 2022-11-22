@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import { container } from "../styles/layout";
 import { withStyles } from "@material-ui/core/styles";
-import Donations from "../components/Donations";
+import Subscribe from "../components/Subscribe";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import Table from '@material-ui/core/Table';
@@ -17,7 +17,6 @@ import TableRow from '@material-ui/core/TableRow';
 import fetch from "isomorphic-fetch";
 import { withRouter } from "next/router";
 import useSwr from 'swr'
-import { DateTime } from "luxon";
 
 const styles = (theme) => ({
   container: {
@@ -45,7 +44,7 @@ function getTable(data, bucket) {
           <TableBody>           
             {data[bucket].map((row) => (
               <TableRow key={bucket}>
-                <TableCell style={{fontWeight: "500"}}>{row.companyUrl.S}</TableCell>
+                <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
                 <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
               </TableRow>
             ))}
@@ -118,7 +117,7 @@ const Stats = ({ classes, statistics, router}) => {
           </Typography>
         </Paper>
       </div>
-      <Donations />
+      <Subscribe />
       <Footer />
     </div>
   );

@@ -3158,6 +3158,12 @@
       "value": "Request Statistics"
     }
   ],
+  "stats.total": [
+    {
+      "type": 0,
+      "value": "Total requests:"
+    }
+  ],
   "stats.week": [
     {
       "type": 0,
