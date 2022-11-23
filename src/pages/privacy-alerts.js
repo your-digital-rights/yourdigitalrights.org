@@ -31,6 +31,13 @@ const styles = (theme) => ({
       paddingRight: 30,
     },
   },
+  columns: {
+    marginTop: "2em",
+    display: "flex",
+  },
+  mainDescription: {
+    width: "60%",
+  },
   substack: {
     marginTop: "20px",
     display: "flex",
@@ -38,6 +45,12 @@ const styles = (theme) => ({
     alignItems: "center",
     justifyContent: "center",
   },  
+  list: {
+      fontWeight: 400,
+  },
+  pricing: {
+      marginLeft: "40px",
+  }
 });
 
 
@@ -60,22 +73,84 @@ const PrivacyAlerts = ({ classes, router }) => {
       <Nav />
       <div className={classes.container}>
         <Paper className={classes.inner} elevation={2} >
-          <div >
-            <Script src="https://js.stripe.com/v3/pricing-table.js" />
-            <stripe-pricing-table pricing-table-id="prctbl_1M6tTaL6744XdVfOcVKzvZ3o"
-            publishable-key="pk_live_51Lhpu4L6744XdVfOEOM0kOeRaOaag73Lo9wbjnXqU4G9kfniyJf8aeQw8exGhu6yZwaPkJMHH6fQbB64Yx42JKR5008umYBaAw">
-            </stripe-pricing-table>
-          </div>   
-          <Typography component="p" variant="h5" gutterBottom={true} >
+         <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
-              id="privacyAlerts.strapline"
-              defaultMessage="Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
+              id="privacyAlerts.title"
+              defaultMessage="Privacy Alerts"
             />
-          </Typography>
-          <br/>          
+          </Typography> 
+          <div className={classes.columns}>
+            <div className={classes.mainDescription}>
+              <Typography component="p" variant="h3" gutterBottom={true} >
+                <FormattedMessage id="privacyAlerts.description1" defaultMessage="Privacy Alerts is a monthly paid email service. Our research team hand-picks the three worst privacy-offending companies to share with our paid subscribers. By spending five minutes a month, you can improve your online privacy over time and take back control of your personal information." />
+              </Typography>
+            </div>               
+            <div className={classes.pricing}>
+              <Script src="https://js.stripe.com/v3/pricing-table.js" />
+              <stripe-pricing-table pricing-table-id="prctbl_1M6tTaL6744XdVfOcVKzvZ3o"
+              publishable-key="pk_live_51Lhpu4L6744XdVfOEOM0kOeRaOaag73Lo9wbjnXqU4G9kfniyJf8aeQw8exGhu6yZwaPkJMHH6fQbB64Yx42JKR5008umYBaAw">
+              </stripe-pricing-table>
+            </div>
+          </div>  
+          <Typography component="h3" variant="h5" gutterBottom={true} >
+            <FormattedMessage
+              id="privacyAlerts.whyPrivacy"
+              defaultMessage="Why you should invest in your privacy?"
+            />
+          </Typography>           
           <Typography gutterBottom={true}>
-            <FormattedMessage id="privacyAlerts.description1" defaultMessage="Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data." />
-          </Typography>                
+            <FormattedMessage 
+              id="privacyAlerts.whyPrivacyBody1" 
+              defaultMessage="Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data." 
+            />
+            <br/>
+            <br/>
+            <FormattedMessage 
+              id="privacyAlerts.whyPrivacyBody2" 
+              defaultMessage="This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind." 
+            />
+            <br/>
+            <br/>
+            <FormattedMessage 
+              id="privacyAlerts.whyPrivacyBody3" 
+              defaultMessage="So how do we get it back under control?" 
+            />
+            <br/>
+            <br/>
+            <FormattedMessage 
+              id="privacyAlerts.whyPrivacyBody4" 
+              defaultMessage="We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team." 
+            />
+            <br/>
+            <br/>
+          </Typography>          
+          <Typography component="h3" variant="h5" gutterBottom={true} >
+            <FormattedMessage
+              id="privacyAlerts.whySubscribeTitle"
+              defaultMessage="Why Subscribe?"
+            />
+          </Typography>           
+          <Typography gutterBottom={true}>
+            <FormattedMessage id="privacyAlerts.whySubscribeBody1" defaultMessage="Here are two great reasons why you should subscribe now:" />
+          </Typography>
+          <ul className={classes.list}>
+            <li>
+              <FormattedMessage
+                id="privacyAlerts.whySubscribeBody2"
+                defaultMessage="Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+              />
+            </li>
+            <li>
+              <FormattedMessage
+                id="privacyAlerts.whySubscribeBody3"
+                defaultMessage="Help suppor this service and <a>Conscious Digital</a>, the nonprofit organization that operates it"
+                values={{
+                  a: txt => ( <a href="https://consciousdigital.org" target="_blank">{txt}</a>),
+                }}
+              />
+            </li>
+          </ul>
+          <br/>         
         </Paper>
       </div>
       <Social sourcePage="priceAlerts"/>
