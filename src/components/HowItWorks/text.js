@@ -27,7 +27,7 @@ const FillInTitle = (
 const FillInBody = (
   <FormattedMessage
     id="howItWorks.send"
-    defaultMessage="the organization a request to delete, or send you a copy of your data."
+    defaultMessage="the organization a request to delete, or provide a copy of your data."
   />
 );
 
@@ -36,7 +36,7 @@ const SendTitle = <FormattedMessage id="howItWorks.followUpTitle" defaultMessage
 const SendBody = (
   <FormattedMessage
     id="howItWorks.followUp"
-    defaultMessage="using our smart follow up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    defaultMessage="using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
   />
 );
 
@@ -50,7 +50,7 @@ const YourDataTitle = (
 const YourDataBody = (
   <FormattedMessage
     id="howItWorks.yourData"
-    defaultMessage="Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    defaultMessage="Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
   />
 );
 
@@ -61,10 +61,10 @@ const WhyTitle = (
 const WhyBody = (
   <FormattedMessage
     id="howItWorks.whyBody"
-    defaultMessage="We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators, and with the help of your <donations>donations</donations>."
+    defaultMessage="We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
     values={{
       cd: txt=> (<a target="_blank" href="https://consciousdigital.org">{txt}</a>),
-      donations: txt=>(<a href="/#donations">{txt}</a>),
+      donations: txt=>(<a href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
     }}
   />
 );

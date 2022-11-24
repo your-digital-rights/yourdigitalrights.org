@@ -164,8 +164,8 @@ const Footer = ({ classes, showRoadmap=true }) => {
           <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="subtitle2">
-            {QueryText}
+          <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
+            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
           </Typography>
         </div>
       </div>

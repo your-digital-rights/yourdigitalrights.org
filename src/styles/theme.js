@@ -55,6 +55,9 @@ const theme = createTheme({
       fontWeight: "bold",
       color: "#005ea5",
     },
+    textSecondary: {
+      main: "blue",
+    },
     fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
   },	
   backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",

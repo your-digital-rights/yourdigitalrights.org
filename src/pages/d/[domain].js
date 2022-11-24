@@ -1,4 +1,5 @@
 import { useIntl } from "react-intl";
+import AboutOrg from "../../components/AboutOrg";
 import Subscribe from "../../components/Subscribe";
 import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";

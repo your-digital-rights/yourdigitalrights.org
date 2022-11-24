@@ -15,6 +15,9 @@ const styles = (theme) => ({
     ...container,
     paddingTop: "50px",
     marginTop: "60px",
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "160px",
+    },   
   },
   title: {
     color: "white",

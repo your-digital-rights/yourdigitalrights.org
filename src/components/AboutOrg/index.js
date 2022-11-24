@@ -9,7 +9,7 @@ function Capitalize(str){
 };
 
 
-const AboutOrg = ({ classes, selectedCompany, canonical }) => {
+const AboutOrg = ({ classes, selectedCompany }) => {
   return (
     <div className={classes.about}>
       <div id="about-org" className={classes.container}>
