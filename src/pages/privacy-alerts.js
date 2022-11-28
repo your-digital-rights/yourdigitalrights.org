@@ -34,12 +34,21 @@ const styles = (theme) => ({
   columns: {
     marginTop: "2em",
     display: "flex",
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+    },
   },
   descriptionColumn: {
-    width: "60%",    
+    width: "60%",   
+    [theme.breakpoints.down("sm")]: {
+      width: "100%",    
+    }
   },
   mainDescription: {
     fontSize: "1.65rem",
+    [theme.breakpoints.down("sm")]: {
+      fontSize: "18px",
+    }
   },
   substack: {
     marginTop: "20px",
@@ -53,6 +62,9 @@ const styles = (theme) => ({
   },
   pricing: {
       marginLeft: "40px",
+      [theme.breakpoints.down("sm")]: {
+        marginTop: "20px",    
+      }      
   }
 });
 
@@ -146,7 +158,7 @@ const PrivacyAlerts = ({ classes, router }) => {
             <li>
               <FormattedMessage
                 id="privacyAlerts.whySubscribeBody3"
-                defaultMessage="Help suppor this service and <a>Conscious Digital</a>, the nonprofit organization that operates it"
+                defaultMessage="Help support this service and the <a>nonprofit organization</a> that operates it"
                 values={{
                   a: txt => ( <a href="https://consciousdigital.org" target="_blank">{txt}</a>),
                 }}
