@@ -1756,7 +1756,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+      "value": "Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information."
     }
   ],
   "privacyAlerts.seoDescription": [
@@ -1771,16 +1771,78 @@
       "value": "Privacy Alerts"
     }
   ],
-  "privacyAlerts.strapline": [
-    {
-      "type": 0,
-      "value": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
-    }
-  ],
   "privacyAlerts.title": [
     {
       "type": 0,
-      "value": "Keep it private!"
+      "value": "Privacy Alerts"
+    }
+  ],
+  "privacyAlerts.whyPrivacy": [
+    {
+      "type": 0,
+      "value": "Why you should invest in your privacy?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody1": [
+    {
+      "type": 0,
+      "value": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody2": [
+    {
+      "type": 0,
+      "value": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody3": [
+    {
+      "type": 0,
+      "value": "So how do we get it back under control?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody4": [
+    {
+      "type": 0,
+      "value": "We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+    }
+  ],
+  "privacyAlerts.whySubscribeBody1": [
+    {
+      "type": 0,
+      "value": "Here are two great reasons why you should subscribe now:"
+    }
+  ],
+  "privacyAlerts.whySubscribeBody2": [
+    {
+      "type": 0,
+      "value": "Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+    }
+  ],
+  "privacyAlerts.whySubscribeBody3": [
+    {
+      "type": 0,
+      "value": "Help support this service and the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "nonprofit organization"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " that operates it"
+    }
+  ],
+  "privacyAlerts.whySubscribeTitle": [
+    {
+      "type": 0,
+      "value": "Why Subscribe?"
     }
   ],
   "redirect.continueText": [

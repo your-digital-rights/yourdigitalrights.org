@@ -152,25 +152,27 @@ const Uuid = ({classes, data, router, intl}) => {
         days={days}
       />
       { requestItem.requestEmailSentAt && (
-        <RequestWhatsNext 
-          requestItem={requestItem}
-          days={days}
-          selectedCompany={data.organization}
-          intl={intl}
-          status={status}
-        >
-          <RequestDetails
-            selectedCompany={data.organization}
+        <>
+          <RequestWhatsNext 
             requestItem={requestItem}
             days={days}
+            selectedCompany={data.organization}
             intl={intl}
             status={status}
-          />
-        </RequestWhatsNext>
+          >
+            <RequestDetails
+              selectedCompany={data.organization}
+              requestItem={requestItem}
+              days={days}
+              intl={intl}
+              status={status}
+            />
+          </RequestWhatsNext>
+          <div className={classes.subscribeContainer}>
+            <Subscribe page="org"/>
+          </div>
+        </>
       )}
-      <div className={classes.subscribeContainer}>
-        <Subscribe page="org"/>
-      </div>
       <Footer />
     </div>
   )

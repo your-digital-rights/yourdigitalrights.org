@@ -4,6 +4,7 @@ import { withStyles } from "@material-ui/core/styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 import Button from "@material-ui/core/Button";
+import Link from "next/link";
 
 const handleSignUpClick = (e) => {
   e.preventDefault();
@@ -45,16 +46,20 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
             </Typography> 
           </div>
           <div className={classes.substack}>
+            <Link
+              href="/privacy-alerts"
+              passHref
+            >
             <Button
               variant="contained"
               color="primary"
               className={classes.signUpButton}
               id="SubscribeMessageBtn"
-              href="https://consciousdigital.substack.com/?showWelcome=true"
               onClick={() => trackSubscribe()}
             >
               <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />
             </Button>  
+            </Link>
           </div>    
         </div>
       </div>
