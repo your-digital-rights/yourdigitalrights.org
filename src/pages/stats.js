@@ -17,6 +17,7 @@ import TableRow from '@material-ui/core/TableRow';
 import fetch from "isomorphic-fetch";
 import { withRouter } from "next/router";
 import useSwr from 'swr'
+import { dark } from "@material-ui/core/styles/createPalette";
 
 const styles = (theme) => ({
   container: {
@@ -31,30 +32,26 @@ const styles = (theme) => ({
 });
 
 function getTable(data, bucket) {
-  if (data) {
   return (
-      <TableContainer component={Paper} >
-        <Table size="small" aria-label="regulation table" style={{fontSize: "16px"}}>
-          <TableHead>
-            <TableRow>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="stats.body.org-name" defaultMessage="Organization"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="stats.body.request-count" defaultMessage="Request Count"/></TableCell>
+    <TableContainer component={Paper} >
+      <Table size="small" aria-label="regulation table" style={{fontSize: "16px"}}>
+        <TableHead>
+          <TableRow>
+            <TableCell style={{fontWeight: "600"}}><FormattedMessage id="stats.body.org-name" defaultMessage="Organization"/></TableCell>
+            <TableCell style={{fontWeight: "600"}}><FormattedMessage id="stats.body.count" defaultMessage="Count"/></TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>           
+          {data[bucket].map((row) => (
+            <TableRow key={bucket}>
+              <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
+              <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
             </TableRow>
-          </TableHead>
-          <TableBody>           
-            {data[bucket].map((row) => (
-              <TableRow key={bucket}>
-                <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
-                <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
     )
-  } else {
-    return <p>Loading!</p>
-  };
 }
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
@@ -86,40 +83,44 @@ const Stats = ({ classes, statistics, router}) => {
               defaultMessage="Request Statistics"
             />
           </Typography>
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage id="stats.week" defaultMessage="This Week" />
-          </Typography>
-          <div>{getTable(data, 'week')}</div>
-          <br />                    
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage id="stats.month" defaultMessage="This Month" />
-          </Typography>
-          <div>{getTable(data, 'month')}</div>
-          <br />
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage id="stats.year" defaultMessage="This Year" />
-          </Typography>
-          <div>{getTable(data, 'year')}</div>
-          <br />
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage id="stats.alltime" defaultMessage="All Time" />
-          </Typography>
-          <div>{getTable(data, 'alltime')}</div>
-          <br />
-          <Typography gutterBottom={true} variant="body2">
-            <FormattedMessage 
-              id="stats.total" 
-              defaultMessage="Total requests: " 
-            />
-            {data && (
-              data['total']
-            )}
-          </Typography>
+          { data && (
+            <>
+              <Typography gutterBottom={true} variant="body2">
+                <FormattedMessage id="stats.week" defaultMessage="This Week" />
+              </Typography>
+              <div>{getTable(data, 'week')}</div>
+              <br />                    
+              <Typography gutterBottom={true} variant="body2">
+                <FormattedMessage id="stats.month" defaultMessage="This Month" />
+              </Typography>
+              <div>{getTable(data, 'month')}</div>
+              <br />
+              <Typography gutterBottom={true} variant="body2">
+                <FormattedMessage id="stats.year" defaultMessage="This Year" />
+              </Typography>
+              <div>{getTable(data, 'year')}</div>
+              <br />
+              <Typography gutterBottom={true} variant="body2">
+                <FormattedMessage id="stats.alltime" defaultMessage="All Time" />
+              </Typography>
+              <div>{getTable(data, 'alltime')}</div>
+              <br />
+              <Typography gutterBottom={true} variant="body2">
+                <FormattedMessage 
+                  id="stats.total" 
+                  defaultMessage="Total requests:  " 
+                />
+                {" "}{data['total']}
+              </Typography>
+            </>
+          )}
+          { !data && (
+            <p>Loading...</p>
+          )}
         </Paper>
       </div>
       <Subscribe />
-      <Footer />
-    </div>
+      <Footer /> div>
   );
 };
 
