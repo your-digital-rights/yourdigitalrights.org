@@ -35,8 +35,11 @@ const styles = (theme) => ({
     marginTop: "2em",
     display: "flex",
   },
+  descriptionColumn: {
+    width: "60%",    
+  },
   mainDescription: {
-    width: "60%",
+    fontSize: "1.65rem",
   },
   substack: {
     marginTop: "20px",
@@ -78,11 +81,11 @@ const PrivacyAlerts = ({ classes, router }) => {
               id="privacyAlerts.title"
               defaultMessage="Privacy Alerts"
             />
-          </Typography> 
+          </Typography>            
           <div className={classes.columns}>
-            <div className={classes.mainDescription}>
-              <Typography component="p" variant="h3" gutterBottom={true} >
-                <FormattedMessage id="privacyAlerts.description1" defaultMessage="Privacy Alerts is a monthly paid email service. Our research team hand-picks the three worst privacy-offending companies to share with our paid subscribers. By spending five minutes a month, you can improve your online privacy over time and take back control of your personal information." />
+            <div className={classes.descriptionColumn}>
+              <Typography component="h2" variant="h6" className={classes.mainDescription}>
+                <FormattedMessage id="privacyAlerts.description1" defaultMessage="Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information." />
               </Typography>
             </div>               
             <div className={classes.pricing}>
