@@ -169,7 +169,7 @@ const Uuid = ({classes, data, router, intl}) => {
             />
           </RequestWhatsNext>
           <div className={classes.subscribeContainer}>
-            <Subscribe page="org"/>
+            <Subscribe page="requests"/>
           </div>
         </>
       )}
