@@ -29,9 +29,27 @@ const styles = (theme) => ({
   inner: {
     padding: 30,
   },
+  columns: {
+    marginTop: "2em",
+    display: "flex",
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+    },
+  },
+  column: {
+    width: "50%",
+    margin: "10px",
+    textAlign: "center",
+  },
+  subscribeContainer: {
+    backgroundColor: theme.palette.primary.main,
+    marginTop: "-145px",
+    paddingTop: "200px",
+    paddingBottom: "30px",
+  }, 
 });
 
-function getTable(data, bucket) {
+function getTable(data, bucket, classes) {
   return (
     <TableContainer component={Paper} >
       <Table size="small" aria-label="regulation table" style={{fontSize: "16px"}}>
@@ -56,7 +74,7 @@ function getTable(data, bucket) {
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
-const Stats = ({ classes, statistics, router}) => {
+const Stats = ({ classes, router}) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "stats.description", defaultMessage: "Data protection request statistics."});
   const BaseURL = "/stats";
@@ -85,30 +103,39 @@ const Stats = ({ classes, statistics, router}) => {
           </Typography>
           { data && (
             <>
-              <Typography gutterBottom={true} variant="body2">
-                <FormattedMessage id="stats.week" defaultMessage="This Week" />
-              </Typography>
-              <div>{getTable(data, 'week')}</div>
-              <br />                    
-              <Typography gutterBottom={true} variant="body2">
-                <FormattedMessage id="stats.month" defaultMessage="This Month" />
-              </Typography>
-              <div>{getTable(data, 'month')}</div>
-              <br />
-              <Typography gutterBottom={true} variant="body2">
-                <FormattedMessage id="stats.year" defaultMessage="This Year" />
-              </Typography>
-              <div>{getTable(data, 'year')}</div>
-              <br />
-              <Typography gutterBottom={true} variant="body2">
-                <FormattedMessage id="stats.alltime" defaultMessage="All Time" />
-              </Typography>
-              <div>{getTable(data, 'alltime')}</div>
-              <br />
-              <Typography gutterBottom={true} variant="body2">
+              <div className={classes.columns}>
+                <div className={classes.column}>
+                  <Typography gutterBottom={true} variant="h5">
+                    <FormattedMessage id="stats.week" defaultMessage="This Week" />
+                  </Typography>
+                  <div>{getTable(data, 'week', classes)}</div>
+                </div>
+                <div className={classes.column}>                
+                  <Typography gutterBottom={true} variant="h5">
+                    <FormattedMessage id="stats.month" defaultMessage="This Month" />
+                  </Typography>
+                  <div>{getTable(data, 'month', classes)}</div>
+                </div> 
+              </div>
+              <div className={classes.columns}>
+                <div className={classes.column}>
+                  <Typography gutterBottom={true} variant="h5">
+                    <FormattedMessage id="stats.year" defaultMessage="This Year" />
+                  </Typography>
+                  <div>{getTable(data, 'year', classes)}</div>
+                </div>
+                <div className={classes.column}>  
+                  <Typography gutterBottom={true} variant="h5">
+                    <FormattedMessage id="stats.alltime" defaultMessage="All Time" />
+                  </Typography>
+                  <div>{getTable(data, 'alltime', classes)}</div>
+                </div> 
+              </div>
+              <br/>
+              <Typography gutterBottom={true} variant="h5">
                 <FormattedMessage 
                   id="stats.total" 
-                  defaultMessage="Total requests:  " 
+                  defaultMessage="Total requests sent:  " 
                 />
                 {" "}{data['total']}
               </Typography>
@@ -119,8 +146,11 @@ const Stats = ({ classes, statistics, router}) => {
           )}
         </Paper>
       </div>
-      <Subscribe />
-      <Footer /> div>
+      <div className={classes.subscribeContainer}>
+            <Subscribe page="org"/>
+      </div>
+      <Footer showRoadmap={false} />
+    </div>
   );
 };
 
