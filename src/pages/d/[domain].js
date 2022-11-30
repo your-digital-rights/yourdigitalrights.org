@@ -75,8 +75,7 @@ export async function getStaticProps({ params }) {
         newOrg: true,
       }
     }
-  }  
-
+  } 
   const data = await fetchSheetData();
   const organization = data['Organizations'].find(
     ({ url }) => params.domain === url

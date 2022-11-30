@@ -55,3 +55,9 @@ export default async (req, res) => {
   let response = await data;
   res.json([]);
 };
+
+export const config = {
+  api: {
+    responseLimit: '8mb',
+  },
+}
