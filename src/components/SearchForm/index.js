@@ -16,7 +16,8 @@ import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "next/link";
 import Router from "next/router";
-import InputLabel from "@material-ui/core/InputLabel";
+import ImageWithFallback from '../../utils/image';
+
 
 class Form extends Component {
   state = {
@@ -136,6 +137,7 @@ class Form extends Component {
     classes,
   }) => {
     const isHighlighted = highlightedIndex === i;
+    var src = `https://logo.uplead.com/${result.url}`;
     return (
       <MenuItem
         button
@@ -146,11 +148,12 @@ class Form extends Component {
       >
         <Link href="/d/[domain]" as="/d/result.url">
           <>
-            <img
+            <ImageWithFallback
               role="presentation"
-              src={`//logo.uplead.com/${result.url}`}
+              src={src}
               width={24}
               height={24}
+              fallbackSrc="/images/Keep-it-private.png"
             />
             <ListItemText
               disableTypography={true}

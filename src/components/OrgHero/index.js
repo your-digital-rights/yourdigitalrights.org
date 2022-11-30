@@ -2,7 +2,7 @@ import { FormattedMessage } from "react-intl";
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
-
+import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -16,9 +16,12 @@ const Hero = ({ classes, selectedCompany }) => {
       <div className={classes.container}>
         {selectedCompany && (
           <div id="org-logo" className={classes.orgLogo}>
-            <img
+            <ImageWithFallback
               className={classes.logo}
-              src={`//logo.uplead.com/${selectedCompany.url}`}
+              src={`https://logo.uplead.com/${selectedCompany.url}`}
+              width={44}
+              height={44}
+              fallbackSrc="/images/Keep-it-private.png"
             />
           </div>
         )}
