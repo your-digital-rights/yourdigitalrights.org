@@ -1,18 +1,18 @@
 {
   "about.aboutTitle": {
-    "message": "Unsere Aufgabe"
+    "message": "Unsere Mission"
   },
   "about.consciousDigital": {
     "message": "Wer wir sind"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+    "message": "YourDigitalRights.org ist eine Unternehmung von {cd}, einer eingetragenen Wohltätigkeitsorganisation, die menschenorientierte digitale Initiativen zur Förderung und Verbreitung der digitalen Menschenrechte entwickelt."
   },
   "about.contact": {
     "message": "Kontakt"
   },
   "about.contactText": {
-    "message": "Contact us at {email}."
+    "message": "Kontaktieren Sie uns unter {email}."
   },
   "about.contributors": {
     "message": "Mitwirkende"
@@ -33,22 +33,22 @@
     "message": "{linkedin} - Frontend-Webentwickler, Entwickler mobiler Apps und Schöpfer von Skyjacker, dem AR-Flugverfolgungsspiel."
   },
   "about.description": {
-    "message": "Your Digital Rights wurde geschaffen, weil wir glauben, dass Sie das Recht auf Privatsphäre haben und dass die Ausübung Ihres Rechts auf Privatsphäre einfach sein sollte."
+    "message": "Your Digital Rights wurde gegründet, weil wir überzeugt davon sind, dass Sie ein Recht auf Privatsphäre haben und dass die Ausübung dieses Rechts einfach sein sollte."
   },
   "about.funding": {
     "message": "Finanzierung"
   },
   "about.fundingBody1": {
-    "message": "This project is funded by its creators, and with the help of your donations."
+    "message": "Dieses Projekt wird von seinen Gründern und mit Hilfe Ihrer Spenden finanziert."
   },
   "about.missionBody1": {
-    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+    "message": "Wir sind der Meinung, dass Privatsphäre ein grundlegendes Menschenrecht ist und dass die Ausübung dieses Rechts für jeden leicht zugänglich sein sollte. Datenschutzbestimmungen wie die {GDPR} (EU), der {CCPA} (Kalifornien) und der {LGPD} (Brasilien) bieten die rechtliche Infrastruktur, um das Grundrecht auf Privatsphäre im Internet zu schützen."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+    "message": "Die Datenschutzbestimmungen sind ein Schritt in die richtige Richtung. Die Ausübung der Rechte, die sich aus diesen Vorschriften ergeben, ist jedoch immer noch so schwierig, dass sich die Meisten nicht damit auseinandersetzen. Die Situation wird noch dadurch verschlimmert, dass viele Organisationen Datenanfragen erschweren (z. B. indem sie keine Unternehmens-E-Mail-Adressen auf ihrer Website veröffentlichen). Unser Ziel ist es, die durch Rechtsvorschriften gewährten Rechte für alle zugänglich zu machen."
   },
   "about.missionBody3": {
-    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+    "message": "Dieses Angebot ist kostenlos. Wir sind kein Unternehmen und haben kein Geschäftsmodell. Wir bieten den Organisationen auf der Liste keine Dienstleistungen an. Wir sammeln oder verkaufen keine persönlichen Daten. Dieses Angebot ist <a>Open Source</a>."
   },
   "about.sponsors": {
     "message": "Unterstützende Organisationen"
@@ -60,7 +60,7 @@
     "message": "{featureupvote} - für die Bereitstellung einer effektiven Möglichkeit, Community-Feedback zu unserem {roadmap}zu sammeln."
   },
   "about.sponsorsBody4": {
-    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+    "message": "{innocraft} - für die Bereitstellung einer gehosteten Version von Matomo (Piwik), der quelloffenen und datenschutzfreundlichen Webanalyseplattform."
   },
   "about.sponsorsBody6": {
     "message": "{sws} - für die Unterstützung bei der Implementierung einer SEO-Strategie."
@@ -69,7 +69,7 @@
     "message": "{ama} - um uns dabei zu helfen, die brasilianische Datenschutzregelung, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+    "message": "Wir möchten uns bei den folgenden Organisationen bedanken, die unsere Open-Source-Bemühungen durch die Bereitstellung einer kostenlosen oder preisreduzierten Version ihrer Leistungen unterstützen:"
   },
   "about.title": {
     "message": "Über uns"
@@ -81,7 +81,7 @@
     "message": "Nummer der gesendeten Anfrage:"
   },
   "aboutOrg.privacyPolicy": {
-    "message": "Datenschutz-Bestimmungen:"
+    "message": "Datenschutzerklärung:"
   },
   "contribute.creadit": {
     "message": "Auch wenn wir es uns nicht leisten können, Sie für Ihre Arbeit zu bezahlen, geben wir Ihnen gerne Anerkennung für Ihre Beiträge, ob es auf dieser Website, auf github, oder auf andere Weise."
@@ -93,7 +93,7 @@
     "message": "Erstellen Sie ein Konto bei Crowdin, indem Sie diesem <a>Link</a> folgen."
   },
   "contribute.crowdinStep2": {
-    "message": "Folgen Sie diesem <a>Link</a> um das Übersetzungssystem zu laden."
+    "message": "Folgen Sie diesem <a>Link</a> um das Übersetzungssystem zu öffnen."
   },
   "contribute.crowdinStep3": {
     "message": "Wählen Sie eine Sprache aus (Sie müssen sich bei Crowdin anmelden, um dies zu tun)."
@@ -105,7 +105,7 @@
     "message": "Ein Editor öffnet sich, wo Sie Ihre Übersetzung angeben können. Vergessen Sie nicht, zu speichern, wenn Sie fertig sind."
   },
   "contribute.crowdinStep6": {
-    "message": "If you are experiencing any problems please <email>contact us.</email>"
+    "message": "Wenn Sie Schwierigkeiten bei der Nutzung haben, <email>kontaktieren Sie uns bitte.</email>"
   },
   "contribute.description": {
     "message": "Helfen Sie uns, YourDigitalRights.org zu verbessern."
@@ -114,7 +114,7 @@
     "message": "Unsere Repositories werden auf GitHub gehostet, wobei das Hauptrepository für diese <a>Website</a>. Der beste Einstieg ist eine Kontaktaufnahme per <email>E-Mail</email>. Wir werden Sie dann zu unserem Slack-Kanal hinzufügen und die laufenden Entwicklungsbemühungen teilen. Alternativ können Sie das Repository auch klonen und Zusammenführungsanfragen einreichen."
   },
   "contribute.devSkills": {
-    "message": "We are currently looking for Machine Learning, React and AWS engineers."
+    "message": "Wir sind derzeit auf der Suche nach Entwicklern für Machine Learning, React und AWS."
   },
   "contribute.devTitle": {
     "message": "Hilfe bei der Entwicklung"
@@ -132,7 +132,7 @@
     "message": "Hilfe bei der Recherche"
   },
   "contribute.subtitle": {
-    "message": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    "message": "Dieses Projekt wird ausschließlich von Freiwilligen entwickelt und gepflegt. Wenn Sie auch besorgt sind über die zunehmenden Privatsphäreverletzungen, den ausufernden Überwachungskapitalismus, Micro-Targeting und Fehlinformationen sowie den Suchtfaktor digitaler Dienste, dann können Sie helfen:"
   },
   "contribute.title": {
     "message": "Dazu beitragen"
@@ -141,7 +141,7 @@
     "message": "Wir möchten, dass dieser Service in vielen Sprachen verfügbar ist. Sollte Ihres nicht zu den derzeit verfügbaren gehören oder aktualisiert oder verbessert werden müssen, würden wir uns über Ihre Hilfe freuen!"
   },
   "contribute.translate2": {
-    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+    "message": "Wir verwenden die Online-Plattform <a>Crowdin</a> zur einfachen Erstellung von Übersetzungen. Es macht den Arbeitsablauf wesentlich einfacher, und Sie benötigen keine Programmierkenntnisse. Eine kurze Anleitung gibt es <b>hier</b>. Folgen Sie diesen Schritten, um loszulegen:"
   },
   "contribute.translateTitle": {
     "message": "Übersetzen Sie die Website"
@@ -174,28 +174,28 @@
     "message": "Meine Daten löschen"
   },
   "donations.donate": {
-    "message": "Donate"
+    "message": "Spenden"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+    "message": "Wir haben YourDigitalRights.org gegründet, weil wir der Meinung sind, dass Privatsphäre einen hohen Stellenwert hat und dass die Ausübung Ihres Rechts auf Privatsphäre leicht zugänglich sein sollte. Deshalb ist unser Angebot kostenlos. Durch eine Spende oder eine Fördermitgliedschaft können Sie dazu beitragen, unsere langfristige finanzielle Stabilität und Unabhängigkeit zu sichern."
   },
   "donations.headingDonate": {
-    "message": "Wir brauchen Deine Unterstützung"
+    "message": "Wir brauchen Ihre Unterstützung"
   },
   "faq.body.YDR.1": {
     "message": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
   },
   "faq.body.contact.1": {
-    "message": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+    "message": "Bitte haben Sie Verständnis, dass wir Ihnen keine persönliche Unterstützung in Bezug auf spezifische Datenanfragen oder Ihre Erfahrungen mit einer bestimmten Organisation geben können. Wir wissen, dass Organisationen in manchen Fällen ziemlich frustrierend sein können, aber leider können wir nicht helfen und werden solche E-Mails nicht beantworten."
   },
   "faq.body.contact.2": {
-    "message": "For all other requests, please contact us via <a>email</a>."
+    "message": "Für alle anderen Anfragen kontaktieren Sie uns bitte per <a>E-Mail</a>."
   },
   "faq.body.contribute.1": {
-    "message": "Yes, please!"
+    "message": "Ja bitte!"
   },
   "faq.body.contribute.2": {
-    "message": "We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
+    "message": "Wir sind auf <a>Spenden</a> angewiesen, um unsere langfristige finanzielle Stabilität und Unabhängigkeit zu gewährleisten. Sie können hier einen Beitrag leisten."
   },
   "faq.body.contribute.3": {
     "message": "Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
@@ -294,22 +294,22 @@
     "message": "How does the service work?"
   },
   "faq.heading.new-regulation": {
-    "message": "My country has a new data protection law. Will you support it?"
+    "message": "Mein Land hat ein neues Datenschutzgesetz. Werden Sie es unterstützen?"
   },
   "faq.heading.refuse": {
-    "message": "Can organizations say no?"
+    "message": "Können Organisationen die Anfrage ablehnen?"
   },
   "faq.heading.regulations": {
-    "message": "What countries, states, or regulations are supported?"
+    "message": "Welche Länder, Staaten oder Vorschriften werden unterstützt?"
   },
   "faq.heading.requests": {
-    "message": "What kind of requests can I make using this service?"
+    "message": "Welche Art von Anfragen kann ich über dieses Angebot stellen?"
   },
   "faq.heading.trust": {
-    "message": "Who is operating this service? Can I trust you?"
+    "message": "Von wem kommt dieses Angebot? Kann ich Ihnen vertrauen?"
   },
   "faq.heading.verify": {
-    "message": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+    "message": "Eine Organisation hat mich gebeten, weitere personenbezogene Daten anzugeben, um meine Identität zu überprüfen. Ist dies rechtmäßig? Kann die Organisation diese Informationen für andere Zwecke verwenden?"
   },
   "faq.title": {
     "message": "Häufig gestellte Fragen"
@@ -330,19 +330,19 @@
     "message": "Unterstützt von Vercel"
   },
   "footer.privacyPolicy": {
-    "message": "<a>Datenschutzrichtlinie</a>"
+    "message": "<a>Datenschutzerklärung</a>"
   },
   "footer.wishList": {
-    "message": "Wünsch dir etwas auf unserer Roadmap"
+    "message": "wünschen Sie sich etwas auf unserer Roadmap"
   },
   "hero.headerText": {
-    "message": "Get organizations to delete your account or provide a copy of your personal information."
+    "message": "Bringen Sie Organisationen dazu, Ihr Konto zu löschen oder Ihnen eine Kopie Ihrer personenbezogenen Daten zur Verfügung zu stellen."
   },
   "hero.heading": {
-    "message": "Besitzen Sie Ihre Daten"
+    "message": "Übernehmen Sie die Kontrolle über Ihre Daten"
   },
   "hero.intro": {
-    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+    "message": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Nutzen Sie dieses kostenlose Angebot, um einen Antrag auf Löschung oder Zugang zu Ihren Daten zu stellen. Beginnen Sie mit der Suche nach einer Organisation unten."
   },
   "howItWorks.followUp": {
     "message": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
@@ -369,7 +369,7 @@
     "message": "Wie es funktioniert"
   },
   "howItWorks.whyBody": {
-    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
+    "message": "Wir sind eine eingetragene Wohltätigkeitsorganisation namens <cd>Conscious Digital</cd>. Wir haben dieses Angebot geschaffen, weil wir der Meinung sind, dass Privatsphäre einen hohen Stellenwert hat und dass die Ausübung des Rechts auf Privatsphäre einfach und kostenlos sein sollte. Wir sammeln oder verkaufen keine personenbezogenen Daten. Der Dienst wird von seinen Gründern und mit Hilfe Ihrer <donations>Spenden</donations> finanziert."
   },
   "howItWorks.whyTitle": {
     "message": "Warum uns vertrauen?"
