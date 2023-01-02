@@ -2,19 +2,19 @@
   "about.aboutTitle": [
     {
       "type": 0,
-      "value": "Our mission"
+      "value": "私たちのミッション"
     }
   ],
   "about.consciousDigital": [
     {
       "type": 0,
-      "value": "Who we are"
+      "value": "私たちのこと"
     }
   ],
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a creation of "
+      "value": "YourDigitalRights.orgは、デジタル人権を促進し、進歩させる人々を中心としたデジタルイニシアチブを作成して登録された慈善団体 "
     },
     {
       "type": 1,
@@ -22,33 +22,29 @@
     },
     {
       "type": 0,
-      "value": ", a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+      "value": "の創造です。"
     }
   ],
   "about.contact": [
     {
       "type": 0,
-      "value": "Contact"
+      "value": "お問い合わせ"
     }
   ],
   "about.contactText": [
-    {
-      "type": 0,
-      "value": "Contact us at "
-    },
     {
       "type": 1,
       "value": "email"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " までお問い合わせください。"
     }
   ],
   "about.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "貢献者"
     }
   ],
   "about.contributorsBody1": [
@@ -88,7 +84,7 @@
     },
     {
       "type": 0,
-      "value": " - Infrastructure Engineer."
+      "value": " - インフラエンジニア。"
     }
   ],
   "about.createdByBody2": [
@@ -98,25 +94,25 @@
     },
     {
       "type": 0,
-      "value": " - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+      "value": " - フロントエンドウェブ開発者、モバイルアプリ開発者、そしてSkyjackerのクリエイター、ARフライトトラッキングゲーム。"
     }
   ],
   "about.description": [
     {
       "type": 0,
-      "value": "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."
+      "value": "お客様のデジタル著作権は、お客様にプライバシーの権利があり、お客様のプライバシーの権利を行使するのは簡単であると考えているためです。"
     }
   ],
   "about.funding": [
     {
       "type": 0,
-      "value": "Funding"
+      "value": "ファンディング"
     }
   ],
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "This project is funded by its creators, and with the help of your donations."
+      "value": "このプロジェクトは、クリエイターとあなたの寄付の助けを借りて資金を供給されます。"
     }
   ],
   "about.missionBody1": [
@@ -152,19 +148,19 @@
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+      "value": "プライバシー規制は正しい方向への一歩です しかし、これらの法律の下であなたの権利を行使することは、ほとんどの人がそれを気にしないように、まだ十分に難しいです。 多くの組織がデータリクエストを提出するのが難しいため、状況はさらに悪化します(例えば、企業メールアドレスをウェブサイトに公開しないなど)。 私たちの目的は、これらの法律によって付与された権利を誰もがアクセスできるようにすることです。"
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
+      "value": "これは無料サービスです。私たちはビジネスではなく、ビジネスモデルを持っていません。 リストの組織にサービスを提供することはありません。 私たちは個人データを収集または取引しません。このサービスは "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Open Source"
+          "value": "オープンソース"
         }
       ],
       "type": 8,
@@ -172,13 +168,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " です。"
     }
   ],
   "about.sponsors": [
     {
       "type": 0,
-      "value": "Supporting Organizations"
+      "value": "支援組織"
     }
   ],
   "about.sponsorsBody2": [
@@ -188,7 +184,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a snapshot of their company database which we use to enrich our list of organizations."
+      "value": " - 組織のリストを充実させるために使用する会社のデータベースのスナップショットを提供します。"
     }
   ],
   "about.sponsorsBody3": [
@@ -198,7 +194,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing an effective way to gather community feedback regarding our "
+      "value": " - 私たちの "
     },
     {
       "type": 1,
@@ -206,7 +202,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " に関するコミュニティのフィードバックを収集するための効果的な方法を提供します。"
     }
   ],
   "about.sponsorsBody4": [
@@ -216,7 +212,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+      "value": " - オープンソースでプライバシーを重視したウェブ分析プラットフォーム、Matomo (Piwik) のホストバージョンを提供するため。"
     }
   ],
   "about.sponsorsBody6": [
@@ -226,7 +222,7 @@
     },
     {
       "type": 0,
-      "value": " - for helping us implement an SEO strategy."
+      "value": " - SEO戦略の実装を支援する。"
     }
   ],
   "about.sponsorsBody7": [
@@ -236,61 +232,61 @@
     },
     {
       "type": 0,
-      "value": " - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+      "value": " - ブラジルのデータプライバシー規制を理解し、サポートするために、Lei Geral de ProtecAssociate de ProtecAssociate (LGPD) をサポートします。"
     }
   ],
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+      "value": "無料または割引サービスを提供することで、当社のオープンソースの取り組みをサポートしてくれた以下の組織に感謝申し上げます。"
     }
   ],
   "about.title": [
     {
       "type": 0,
-      "value": "About Us"
+      "value": "私たちについて"
     }
   ],
   "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Additional information:"
+      "value": "追加情報:"
     }
   ],
   "aboutOrg.numRequests": [
     {
       "type": 0,
-      "value": "Number of request sent:"
+      "value": "送信されたリクエスト数:"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
-      "value": "Privacy Policy:"
+      "value": "プライバシーポリシー:"
     }
   ],
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
+      "value": "私たちはあなたの仕事のためにあなたを支払う余裕はありませんが、私たちはあなたにあなたの貢献を与えることを幸せにしています。 このウェブサイトやgithubであれ、他の方法であれ。"
     }
   ],
   "contribute.creditTitle": [
     {
       "type": 0,
-      "value": "Credit"
+      "value": "クレジット"
     }
   ],
   "contribute.crowdinStep1": [
     {
       "type": 0,
-      "value": "Make an account at Crowdin by following this "
+      "value": "この "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "link"
+          "value": "リンク"
         }
       ],
       "type": 8,
@@ -298,19 +294,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " に従って、Crowdin でアカウントを作成してください。"
     }
   ],
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Follow this "
+      "value": "この "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "link"
+          "value": "リンク"
         }
       ],
       "type": 8,
@@ -318,37 +314,37 @@
     },
     {
       "type": 0,
-      "value": " to load the translation system."
+      "value": " に従って翻訳システムをロードしてください。"
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Choose a language (you will need to log in to Crowdin to do this)."
+      "value": "言語を選択してください (これを行うにはCrowdin にログインする必要があります)。"
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+      "value": "ウェブサイトを構成するさまざまなテキストを囲むボックスが表示されるはずです。 翻訳したいテキストにカーソルを合わせて、テキストの隅に表示されるアイコンをクリックします。"
     }
   ],
   "contribute.crowdinStep5": [
     {
       "type": 0,
-      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+      "value": "あなたの翻訳を提供できるエディターが開きます。完了したら保存をクリックすることを忘れないでください。"
     }
   ],
   "contribute.crowdinStep6": [
     {
       "type": 0,
-      "value": "If you are experiencing any problems please "
+      "value": "ご不明な点がございましたら、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us."
+          "value": "お問い合わせください。"
         }
       ],
       "type": 8,
@@ -358,7 +354,7 @@
   "contribute.description": [
     {
       "type": 0,
-      "value": "Help us improve YourDigitalRights.org."
+      "value": "YourDigitalRights.org の改善にご協力ください。"
     }
   ],
   "contribute.dev": [
@@ -398,25 +394,25 @@
   "contribute.devSkills": [
     {
       "type": 0,
-      "value": "We are currently looking for Machine Learning, React and AWS engineers."
+      "value": "現在、機械学習、React、AWSエンジニアを募集しています。"
     }
   ],
   "contribute.devTitle": [
     {
       "type": 0,
-      "value": "Help with Development"
+      "value": "開発のヘルプ"
     }
   ],
   "contribute.reportAProblem": [
     {
       "type": 0,
-      "value": "If you experience problems with this site you can report them in the "
+      "value": "このサイトで問題が発生した場合は、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "issue tracker"
+          "value": "課題トラッカー"
         }
       ],
       "type": 8,
@@ -424,13 +420,13 @@
     },
     {
       "type": 0,
-      "value": ", or via "
+      "value": "、または "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "メール"
         }
       ],
       "type": 8,
@@ -438,57 +434,53 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " で報告できます。"
     }
   ],
   "contribute.reportAProblemTitle": [
     {
       "type": 0,
-      "value": "Report a Problem"
+      "value": "問題を報告する"
     }
   ],
   "contribute.research": [
     {
       "type": 0,
-      "value": "We are always looking for better ways to promote Digital Rights and make them more accessible. Whether it's to better understand how people use technology or how organizations abuse it, there are always research projects going on. Please "
+      "value": "私たちはデジタル著作権を促進し、よりアクセスしやすくするためのより良い方法を常に模索しています。 人々がテクノロジーをどのように利用しているか理解したり 組織がそれを悪用しているかを理解したり 研究プロジェクトが常に行われています 参加を希望される場合は、 "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "email"
-        }
       ],
       "type": 8,
       "value": "email"
     },
     {
       "type": 0,
-      "value": " us if you'd like to get involved."
+      "value": " までメールでお問い合わせください。"
     }
   ],
   "contribute.researchTitle": [
     {
       "type": 0,
-      "value": "Help with research"
+      "value": "研究にご協力ください"
     }
   ],
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+      "value": "このプロジェクトはボランティアによって完全に開発され、維持されています。 プライバシーの損失、横行する監視資本主義を心配している場合 マイクロターゲティングや誤った情報やデジタルサービスの中毒性などが助けになります"
     }
   ],
   "contribute.title": [
     {
       "type": 0,
-      "value": "Contribute"
+      "value": "貢献"
     }
   ],
   "contribute.translate1": [
     {
       "type": 0,
-      "value": "We would like this service to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, we would love your help!"
+      "value": "私たちは、このサービスを多くの言語で利用できるようにしたいと思います. あなたが現在利用可能なものの中にいない場合、またはアップデートや改善が必要な場合は、私たちはあなたの助けを歓迎します!"
     }
   ],
   "contribute.translate2": [
@@ -528,49 +520,49 @@
   "contribute.translateTitle": [
     {
       "type": 0,
-      "value": "Translate the website"
+      "value": "ウェブサイトを翻訳"
     }
   ],
   "dataProcessors": [
     {
       "type": 0,
-      "value": "Data sharing and processors"
+      "value": "データ共有とプロセッサ"
     }
   ],
   "deletePII.deleteAllPII": [
     {
       "type": 0,
-      "value": "All requests"
+      "value": "すべてのリクエスト"
     }
   ],
   "deletePII.deleteSpecificPII": [
     {
       "type": 0,
-      "value": "This request"
+      "value": "このリクエスト"
     }
   ],
   "deletePII.doneAll": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with all of your requests."
+      "value": "すべてのリクエストに関連付けられた個人データは正常に削除されました。"
     }
   ],
   "deletePII.doneRequest": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with this request."
+      "value": "このリクエストに関連付けられた個人データを正常に削除しました。"
     }
   ],
   "deletePII.heading": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "データを削除する"
     }
   ],
   "deletePII.intro": [
     {
       "type": 0,
-      "value": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: "
+      "value": "お客様の個人データは、リクエストが行われた120日後に自動的に削除されますが、今すぐデータを削除することができます。 このリクエストに関連付けられているデータを削除しますか（ref: "
     },
     {
       "type": 1,
@@ -578,61 +570,61 @@
     },
     {
       "type": 0,
-      "value": "), or with all of your requests?"
+      "value": "）、またはすべてのリクエストを削除しますか？"
     }
   ],
   "deletemydata.description": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "データを削除する"
     }
   ],
   "deletemydata.title": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "データを削除する"
     }
   ],
   "donations.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "寄付"
     }
   ],
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+      "value": "YourDigitalRights.orgは、プライバシーが重要であり、プライバシーの権利を行使することは簡単であると考えているために作成されました。 だからこそ、私たちはそれを自由にしたのです。寄付や支援者になることで、長期的な金融の安定と独立性を確保することができます。"
     }
   ],
   "donations.headingDonate": [
     {
       "type": 0,
-      "value": "We need your support"
+      "value": "サポートが必要です"
     }
   ],
   "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+      "value": "YourDigitalRights. rgは無料でオンラインプライバシーの管理を取り戻すのに役立つサービスです 組織に簡単に削除させたり、個人情報のコピーを提供させたりすることができます 当社は、強力なデータ保護法に規定されているプロセスを自動化し、お客様のデータを削除またはアクセスする権利をお客様に付与します。 組織にリクエストを送信することに加えて、リクエストがあなたの好意で解決されるようにすることができます。"
     }
   ],
   "faq.body.contact.1": [
     {
       "type": 0,
-      "value": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+      "value": "特定のデータリクエストや特定の組織での経験に関する個人的なサポートはできませんのでご了承ください。 私たちは、いくつかのケースでは、組織はかなりイライラすることができますが、残念ながら、私たちは助けることができず、そのような電子メールに返信しません。"
     }
   ],
   "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "For all other requests, please contact us via "
+      "value": "その他すべてのリクエストについては、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "メールアドレス"
         }
       ],
       "type": 8,
@@ -640,25 +632,25 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " からお問い合わせください。"
     }
   ],
   "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "Yes, please!"
+      "value": "はい、お願いします！"
     }
   ],
   "faq.body.contribute.2": [
     {
       "type": 0,
-      "value": "We rely on "
+      "value": "私たちは "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "寄付"
         }
       ],
       "type": 8,
@@ -666,19 +658,19 @@
     },
     {
       "type": 0,
-      "value": " to ensure our long-term financial stability and independence. You can make a contribution here."
+      "value": " に頼り、長期的な金融の安定と独立を確保しています。ここで貢献することができます。"
     }
   ],
   "faq.body.contribute.3": [
     {
       "type": 0,
-      "value": "Please see the information on "
+      "value": "バグを報告したい場合は、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "this page"
+          "value": "このページ"
         }
       ],
       "type": 8,
@@ -686,137 +678,129 @@
     },
     {
       "type": 0,
-      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+      "value": " の情報を参照してください。 ウェブサイトの翻訳、開発の支援、研究の支援をしてください。"
     }
   ],
   "faq.body.data-protection.1": [
     {
       "type": 0,
-      "value": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
+      "value": "データ保護法は、組織による個人情報の処理に関して個人を保護します。 彼らは、個人情報を処理する際に組織が持つ責任を定義し、個人が自分のデータに関連する特定の権利を付与します。 多くの国ではデータ保護法がありますが、一部の国では他の国よりもさらに保護されています。"
     }
   ],
   "faq.body.escalate.1": [
     {
       "type": 0,
-      "value": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
+      "value": "データ保護法は、そのような場合にさまざまなエスカレーションメカニズムを提供します。 政府の規制機関に苦情を申し立てたり、組織を訴えたりする可能性(私的な訴訟権と呼ばれる)を含みます。"
     }
   ],
   "faq.body.escalate.2": [
     {
       "type": 0,
-      "value": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
+      "value": "これが複雑に聞こえる場合は、心配しないでください; 私たちは助けることができます。 このサービス経由でデータリクエストを送信する場合 「スマートフォローアップアシスタント」オプションをオンにして、組織があなたのリクエストに応じていない場合の対応方法についてパーソナライズされたアドバイスを受けましょう。 私たちは、あなたが組織と連絡を取り、必要に応じて政府の規制機関にエスカレートするのを助けます。"
     }
   ],
   "faq.body.how.1": [
     {
       "type": 0,
-      "value": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
+      "value": "組織を選択し、短いフォームに入力した後、選択した組織に宛てたリクエストメールが送信されます。 メールを確認して送信するためのメールアプリが開きます。 オプションで リクエストが送られてきてから、少しでもフォローアップできます。リクエストがあなたの好意で解決されるように。 これには、組織のリマインダーメールを送信したり、政府の規制機関にエスカレートしたりすることが含まれます。"
     }
   ],
   "faq.body.new-regulation.1": [
     {
       "type": 0,
-      "value": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please "
+      "value": "私たちは、個人が個人情報にアクセスし削除する権利を与えるすべてのデータ保護法をサポートしたいと思います。 特定の規制のサポートを追加したい場合は、 "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "contact us"
-        }
       ],
       "type": 8,
       "value": "a"
     },
     {
       "type": 0,
-      "value": " if you would like us to add support for a particular regulation."
+      "value": " までお問い合わせください。"
     }
   ],
   "faq.body.refuse.1": [
     {
       "type": 0,
-      "value": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
+      "value": "データ保護法により、組織は特定の例外的な状況で個人情報を削除することを拒否することができます。 ここにいくつかの一般的な例がありますが、詳細については具体的な規制を読む必要があります。"
     }
   ],
   "faq.body.refuse.1.1": [
     {
       "type": 0,
-      "value": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
+      "value": "組織が法的にあなたのデータを保持することが義務付けられている場合 (例: 金融機関は、マネーロンダリング防止規制を遵守するためにあなたの取引の記録を保管する必要があります)"
     }
   ],
   "faq.body.refuse.1.2": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
+      "value": "あなたのデータを保持する場合は、表現と情報の自由の理由のために必要です(これはジャーナリズムや学術、芸術、文学目的を含みます)"
     }
   ],
   "faq.body.refuse.1.3": [
     {
       "type": 0,
-      "value": "When keeping hold of your data is necessary for public health reasons"
+      "value": "公衆衛生上の理由であなたのデータを保持することが必要な場合"
     }
   ],
   "faq.body.refuse.1.4": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
+      "value": "法的要求を確立、行使、または防御するためにあなたのデータを保持することが必要です"
     }
   ],
   "faq.body.refuse.1.5": [
     {
       "type": 0,
-      "value": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+      "value": "データを消去すると、科学的または過去の研究または公衆の利益になるアーカイブを妨げることになります"
     }
   ],
   "faq.body.regulations.1": [
     {
       "type": 0,
-      "value": "Please "
+      "value": "追加規制のサポートをご希望の場合は、 "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "contact us"
-        }
       ],
       "type": 8,
       "value": "a"
     },
     {
       "type": 0,
-      "value": " if you would like to help us implement support for additional regulations."
+      "value": " までお問い合わせください。"
     }
   ],
   "faq.body.regulations.location": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "場所"
     }
   ],
   "faq.body.regulations.name": [
     {
       "type": 0,
-      "value": "Full Name"
+      "value": "フルネーム"
     }
   ],
   "faq.body.regulations.short-name": [
     {
       "type": 0,
-      "value": "Abbreviation"
+      "value": "短縮形"
     }
   ],
   "faq.body.regulations.timelimit": [
     {
       "type": 0,
-      "value": "Time to Reply"
+      "value": "返信の時間"
     }
   ],
   "faq.body.requests.1": [
     {
       "type": 0,
-      "value": "We support two types of requests:"
+      "value": "私たちは2種類のリクエストをサポートしています:"
     }
   ],
   "faq.body.requests.1.1": [
@@ -824,7 +808,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Data Deletion Requests"
+          "value": "データ削除リクエスト"
         }
       ],
       "type": 8,
@@ -832,7 +816,7 @@
     },
     {
       "type": 0,
-      "value": " (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+      "value": " (消去要求または忘れられる要求としても知られています) により、組織に個人情報の削除を依頼することができます。"
     }
   ],
   "faq.body.requests.1.2": [
@@ -840,7 +824,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Access requests"
+          "value": "アクセスリクエスト"
         }
       ],
       "type": 8,
@@ -848,7 +832,7 @@
     },
     {
       "type": 0,
-      "value": " (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+      "value": " (略して SARまたはサブジェクトアクセスリクエスト) により、組織に個人情報のコピーを提供するよう依頼することができます。"
     }
   ],
   "faq.body.trust.1": [
@@ -888,13 +872,13 @@
   "faq.body.trust.2": [
     {
       "type": 0,
-      "value": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your "
+      "value": "当社は独立しており、お客様の個人情報を販売することはなく、お客様がデータリクエストを送信するのに役立つ組織のいずれにも所属していません。 私たちはまた、これらの組織にサービスを提供していません. 最後に, 私たちは、あなたによって資金提供されています "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "寄付"
         }
       ],
       "type": 8,
@@ -908,13 +892,13 @@
   "faq.body.trust.3": [
     {
       "type": 0,
-      "value": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our "
+      "value": "当社は、デフォルトで、お客様の個人情報を収集する必要がないように、このサービスを設計しました。 特定のオプション機能が個人情報の提供を必要とする場合、当社はこのデータを120日後に削除します。 詳細は "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "privacy policy"
+          "value": "プライバシーポリシー"
         }
       ],
       "type": 8,
@@ -922,103 +906,103 @@
     },
     {
       "type": 0,
-      "value": " for details."
+      "value": " をご覧ください。"
     }
   ],
   "faq.body.verify.1": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
+      "value": "データ保護法では、不正行為を防止するために要請を提出した個人の身元を確認する必要があります。 ほとんどの法律では、検証方法は関係するデータの性質に比例するべきであると述べています。 例えば、 典型的なインターネットフォーラムからメッセージ履歴のコピーを要求した場合、アカウントに関連付けられたメールアドレスを所有している簡単な確認が十分であるはずです。 一方、金融機関から取引履歴を要求する場合。 写真付き身分証明書や住所確認書などの追加情報の提供を求めることが正当化されています。"
     }
   ],
   "faq.body.verify.2": [
     {
       "type": 0,
-      "value": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
+      "value": "ほとんどの場合、アカウントに関連付けられたメールアドレスを所有している簡単な確認で十分です。 このサービスを使用してリクエストを送信すると、メールアプリからメールが送信され、この基本的な検証が行われます。"
     }
   ],
   "faq.body.verify.3": [
     {
       "type": 0,
-      "value": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+      "value": "個人情報をさらに保護するために。 当社がお客様に代わって生成する要求は、リクエストの遂行以外の目的に含まれる個人情報を使用することを明示的に禁止します。"
     }
   ],
   "faq.heading.YDR": [
     {
       "type": 0,
-      "value": "What is YourDigitalRights.org?"
+      "value": "YourDigitalRights.orgとは？"
     }
   ],
   "faq.heading.contact": [
     {
       "type": 0,
-      "value": "I have a further question, how can I contact you?"
+      "value": "さらに質問があります。どのように連絡すればいいですか？"
     }
   ],
   "faq.heading.contribute": [
     {
       "type": 0,
-      "value": "This service is fantastic. Can I help?"
+      "value": "このサービスは素晴らしいです。お手伝いできますか？"
     }
   ],
   "faq.heading.data-protection": [
     {
       "type": 0,
-      "value": "What are data protection laws?"
+      "value": "データ保護法とは何ですか?"
     }
   ],
   "faq.heading.escalate": [
     {
       "type": 0,
-      "value": "What should I do if an organization does not fully comply with my request?"
+      "value": "組織が私の要求を完全に遵守していない場合はどうすればよいですか?"
     }
   ],
   "faq.heading.how": [
     {
       "type": 0,
-      "value": "How does the service work?"
+      "value": "サービスはどのように機能しますか?"
     }
   ],
   "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "My country has a new data protection law. Will you support it?"
+      "value": "私の国は新しいデータ保護法を持っています。あなたはそれをサポートしますか？"
     }
   ],
   "faq.heading.refuse": [
     {
       "type": 0,
-      "value": "Can organizations say no?"
+      "value": "組織はノーと言えるでしょうか？"
     }
   ],
   "faq.heading.regulations": [
     {
       "type": 0,
-      "value": "What countries, states, or regulations are supported?"
+      "value": "どの国、州、規制がサポートされていますか?"
     }
   ],
   "faq.heading.requests": [
     {
       "type": 0,
-      "value": "What kind of requests can I make using this service?"
+      "value": "このサービスを利用してどのようなリクエストができますか?"
     }
   ],
   "faq.heading.trust": [
     {
       "type": 0,
-      "value": "Who is operating this service? Can I trust you?"
+      "value": "このサービスを運営しているのは誰ですか？あなたを信頼できますか？"
     }
   ],
   "faq.heading.verify": [
     {
       "type": 0,
-      "value": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+      "value": "ある組織から個人情報を提供するよう求められています。これは合法ですか？彼らはこの情報を他の目的に使うことができますか？"
     }
   ],
   "faq.title": [
     {
       "type": 0,
-      "value": "Frequently Asked Questions"
+      "value": "よく寄せられる質問"
     }
   ],
   "footer.contact": [
@@ -1032,7 +1016,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Disclaimer:"
+          "value": "免責事項:"
         }
       ],
       "type": 8,
@@ -1040,7 +1024,7 @@
     },
     {
       "type": 0,
-      "value": " This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+      "value": " 本サービスは、いかなる保証もなく、現状のまま提供されます。 本サービスの利用はお客様ご自身の責任において行ってください。 本サービスの利用により生じたいかなる直接的または間接的な損害についても、当社は責任を負いません。 法的事項に関連する当社のウェブサイト上のコンテンツとともに、このサービスによって提供される情報は、お客様の個人的な使用のために提供され、法的助言を構成するものではありません。 特定の問題について法的助言が必要な場合は、弁護士に相談してください。"
     }
   ],
   "footer.madeBy": [
@@ -1048,7 +1032,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Made by Conscious Digital"
+          "value": "意識的なデジタル製"
         }
       ],
       "type": 8,
@@ -1060,7 +1044,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Mission"
+          "value": "ミッション"
         }
       ],
       "type": 8,
@@ -1078,7 +1062,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Privacy Policy"
+          "value": "プライバシーポリシー"
         }
       ],
       "type": 8,
@@ -1088,73 +1072,73 @@
   "footer.wishList": [
     {
       "type": 0,
-      "value": "make a wish on our roadmap"
+      "value": "私たちのロードマップで願いを叶えましょう"
     }
   ],
   "hero.headerText": [
     {
       "type": 0,
-      "value": "Get organizations to delete your account or provide a copy of your personal information."
+      "value": "組織にアカウントを削除したり、個人情報のコピーを提供させます。"
     }
   ],
   "hero.heading": [
     {
       "type": 0,
-      "value": "Own Your Data"
+      "value": "データを所有する"
     }
   ],
   "hero.intro": [
     {
       "type": 0,
-      "value": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+      "value": "多くの組織は、お客様の同意なしに、お客様の個人データを収集および販売します。 この無料サービスを使用して、データ削除またはアクセスリクエストを送信します。まずは以下の組織を検索してください。"
     }
   ],
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+      "value": "我々のスマートフォローアップアシスタントを使って組織があなたの要求に応えられるように 政府の規制当局への要求をエスカレートさせるのにも役立ちます"
     }
   ],
   "howItWorks.followUpTitle": [
     {
       "type": 0,
-      "value": "Follow-up"
+      "value": "フォロー"
     }
   ],
   "howItWorks.imgAlt": [
     {
       "type": 0,
-      "value": "A graphic representing the user interface"
+      "value": "ユーザーインターフェースを表すグラフィック"
     }
   ],
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "for an organization using the search box at the top of this page."
+      "value": "このページの上部にある検索ボックスを使用している組織を検索します。"
     }
   ],
   "howItWorks.searchTitle": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "検索"
     }
   ],
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "the organization a request to delete, or provide a copy of your data."
+      "value": "データの削除、またはコピーの提供を要求する組織。"
     }
   ],
   "howItWorks.sendTitle": [
     {
       "type": 0,
-      "value": "Send"
+      "value": "送信"
     }
   ],
   "howItWorks.title": [
     {
       "type": 0,
-      "value": "How it works"
+      "value": "仕組み"
     }
   ],
   "howItWorks.whyBody": [
@@ -1194,25 +1178,25 @@
   "howItWorks.whyTitle": [
     {
       "type": 0,
-      "value": "Why Trust Us?"
+      "value": "なぜ私たちを信頼するのですか？"
     }
   ],
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "データ保護法では、組織が要求に応じてお客様のデータのコピーを削除または提供することが義務付けられています。 組織は、それ以外の場合は、彼らは急な罰金に直面することができ、遵守するための短い期間があります。 私たちの使命は、あなたがあなたの法的権利を行使することを容易にすることです。"
     }
   ],
   "howItWorks.yourDataTitle": [
     {
       "type": 0,
-      "value": "You have the right to privacy!"
+      "value": "あなたにはプライバシーの権利があります！"
     }
   ],
   "index.description": [
     {
       "type": 0,
-      "value": "Delete your account or access the personal data organizations have on you using this free service."
+      "value": "アカウントを削除するか、この無料サービスを使用して組織が持っている個人データにアクセスします。"
     }
   ],
   "nav.about": [
@@ -1224,13 +1208,13 @@
   "nav.contact": [
     {
       "type": 0,
-      "value": "Contact Us"
+      "value": "お問い合わせ"
     }
   ],
   "nav.contribute": [
     {
       "type": 0,
-      "value": "Contribute"
+      "value": "貢献"
     }
   ],
   "nav.data-brokers": [
@@ -1242,7 +1226,7 @@
   "nav.donation": [
     {
       "type": 0,
-      "value": "Make a Donation"
+      "value": "寄付をする"
     }
   ],
   "nav.faq": [
@@ -1254,25 +1238,25 @@
   "nav.helpTranslate": [
     {
       "type": 0,
-      "value": "Help translate"
+      "value": "翻訳を支援する"
     }
   ],
   "nav.howItWorks": [
     {
       "type": 0,
-      "value": "How it works"
+      "value": "仕組み"
     }
   ],
   "nav.privacyPoilcy": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "プライバシーポリシー"
     }
   ],
   "nav.search": [
     {
       "type": 0,
-      "value": "Search Organizations"
+      "value": "組織を検索"
     }
   ],
   "nav.twitterHastag": [
@@ -1284,13 +1268,13 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
+      "value": "GDPR、CCPA、およびLGPDデータの削除を送信し、この無料サービスを使用して迅速かつ容易に組織へのリクエストにアクセスします。"
     }
   ],
   "org.descriptionExistingOrg": [
     {
       "type": 0,
-      "value": "Request account deletion or a copy of your personal data from "
+      "value": "アカウントの削除または "
     },
     {
       "type": 1,
@@ -1298,7 +1282,7 @@
     },
     {
       "type": 0,
-      "value": " quickly and easily using this free service."
+      "value": " からのあなたの個人データのコピーを迅速かつ容易にこの無料サービスを使用してください。"
     }
   ],
   "org.titleExistingOrg": [
@@ -1308,27 +1292,23 @@
     },
     {
       "type": 0,
-      "value": " - Delete Your Account or Get a Copy of Your Data"
+      "value": " - アカウントを削除するか、データのコピーを取得します"
     }
   ],
   "org.titleNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
+      "value": "GDPR、CCPA、LGPDデータ削除とアクセスリクエストを送信する"
     }
   ],
   "orgHero.newOrgSubTitle": [
-    {
-      "type": 0,
-      "value": "Send any organization a "
-    },
     {
       "type": 1,
       "value": "ccpa"
     },
     {
       "type": 0,
-      "value": " or a "
+      "value": " または "
     },
     {
       "type": 1,
@@ -1336,39 +1316,35 @@
     },
     {
       "type": 0,
-      "value": " request."
+      "value": " リクエストを任意の組織に送信します。"
     }
   ],
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Delete or Get a Copy of Your Personal Data"
+      "value": "個人データを削除またはコピーする"
     }
   ],
   "orgHero.notAffiliatedDisclamer": [
     {
       "type": 0,
-      "value": "This service is "
+      "value": "このサービスは "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "not affiliated with"
-        }
       ],
       "type": 8,
       "value": "disclamer"
     },
     {
       "type": 0,
-      "value": " (find out more "
+      "value": " と提携していません (詳細は "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "about us"
+          "value": "私たちの"
         }
       ],
       "type": 8,
@@ -1376,13 +1352,13 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": " を参照してください)。"
     }
   ],
   "orgHero.orgName": [
     {
       "type": 0,
-      "value": "Organization: "
+      "value": "組織: "
     },
     {
       "type": 1,
@@ -1396,19 +1372,19 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Use this free service to send GDPR, CCPA and LGPD data requests."
+      "value": "この無料サービスを使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Request account deletion or a copy of your personal data."
+      "value": "アカウントの削除または個人データのコピーを要求します。"
     }
   ],
   "personalInfoForm.FollowUpDetails": [
     {
       "type": 0,
-      "value": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+      "value": "組織があなたのリクエストに応じていることを確認するため、時間が来たらメールでお知らせします。 組織にリマインダーメールを送信するか、ローカルデータ保護機関にエスカレートするかを選択できます。"
     }
   ],
   "personalInfoForm.FollowUpDetailsWarning": [
@@ -1426,19 +1402,19 @@
   "personalInfoForm.FollowUpLabel": [
     {
       "type": 0,
-      "value": "Turn on Smart Follow-up Assistance"
+      "value": "スマートフォローアップアシスタンスをオンにする"
     }
   ],
   "personalInfoForm.IdentifyingInfoHelper": [
     {
       "type": 0,
-      "value": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. "
+      "value": "必要に応じて、組織がユーザー名などの情報システムであなたのデータを特定するのに役立つ追加情報を提供します。 顧客IDまたは口座番号。 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Please do not provide your password or any personal information which the organization does not already have."
+          "value": "組織がまだ持っていないパスワードまたは個人情報を提供しないでください。"
         }
       ],
       "type": 8,
@@ -1448,73 +1424,73 @@
   "personalInfoForm.NoFollowUpLabel": [
     {
       "type": 0,
-      "value": "No, I can manage on my own"
+      "value": "いいえ、自分で管理できます"
     }
   ],
   "personalInfoForm.YesFollowUpLabel": [
     {
       "type": 0,
-      "value": "Yes, email me follow-up instructions"
+      "value": "はい、フォローアップの手順をメールしてください"
     }
   ],
   "personalInfoForm.accessRequestLabelText": [
     {
       "type": 0,
-      "value": "Send me a copy of my data"
+      "value": "自分のデータのコピーを送る"
     }
   ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
-      "value": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+      "value": "組織のドメイン名を入力してください (例: google.co.uk または facebook.com)。"
     }
   ],
   "personalInfoForm.companyDomainLabel": [
     {
       "type": 0,
-      "value": "Organization domain"
+      "value": "組織のドメイン"
     }
   ],
   "personalInfoForm.companyEmailLabel": [
     {
       "type": 0,
-      "value": "Organization email address"
+      "value": "組織のメールアドレス"
     }
   ],
   "personalInfoForm.companyNameHelper": [
     {
       "type": 0,
-      "value": "Please enter the name of the organization you would like to contact."
+      "value": "連絡したい組織の名前を入力してください。"
     }
   ],
   "personalInfoForm.companyNameLabel": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "組織名"
     }
   ],
   "personalInfoForm.compnayEmailHelper": [
     {
       "type": 0,
-      "value": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+      "value": "GDPR/CCPA/プライバシー/法的要求を処理する担当者または部署のメールアドレスを入力してください。 この情報は、通常、組織のウェブサイトで、プライバシーポリシー、利用規約、またはお問い合わせページで確認できます。"
     }
   ],
   "personalInfoForm.deletionRequestLabelText": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "データを削除する"
     }
   ],
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our "
+      "value": "次のフォームに入力してデータリクエストメールを作成し、確認して送信できます。 詳細については、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Frequently Asked Questions"
+          "value": "よくある質問"
         }
       ],
       "type": 8,
@@ -1522,115 +1498,115 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " をご覧ください。"
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
     {
       "type": 0,
-      "value": "Additional identifying information (optional)"
+      "value": "追加の識別情報 (オプション)"
     }
   ],
   "personalInfoForm.nameHelper": [
     {
       "type": 0,
-      "value": "This will be used by the organization to identify you."
+      "value": "これは組織によってあなたを識別するために使用されます。"
     }
   ],
   "personalInfoForm.nameLabel": [
     {
       "type": 0,
-      "value": "Full name"
+      "value": "フルネーム"
     }
   ],
   "personalInfoForm.regulationType": [
     {
       "type": 0,
-      "value": "Regulation"
+      "value": "規制"
     }
   ],
   "personalInfoForm.regulationTypeHelper": [
     {
       "type": 0,
-      "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+      "value": "特定の理由がない限り、居住地に基づいて規制を選択してください。"
     }
   ],
   "personalInfoForm.requestTypeLabelText": [
     {
       "type": 0,
-      "value": "Request type"
+      "value": "リクエストタイプ"
     }
   ],
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "確認と送信"
     }
   ],
   "personalInfoForm.validEmail": [
     {
       "type": 0,
-      "value": "Please enter a valid email."
+      "value": "有効なメールアドレスを入力してください。"
     }
   ],
   "pressIntro.title": [
     {
       "type": 0,
-      "value": "As featured on"
+      "value": "特集として"
     }
   ],
   "privacy.additionalPersonalData": [
     {
       "type": 0,
-      "value": "Request Follow Ups"
+      "value": "フォローアップをリクエスト"
     }
   ],
   "privacy.additionalPersonalDataBody1": [
     {
       "type": 0,
-      "value": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+      "value": "本サービスを利用する際には、データリクエストの送信に伴い、お客様は電子メールで当社からのサポートを受けることをオプトインすることができます。 このオプション機能を使用する場合、以下の追加個人情報を収集します。"
     }
   ],
   "privacy.additionalPersonalDataBodyOneA": [
     {
       "type": 0,
-      "value": "Your email address"
+      "value": "あなたのメールアドレス"
     }
   ],
   "privacy.additionalPersonalDataBodyOneB": [
     {
       "type": 0,
-      "value": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+      "value": "組織およびデータ保護機関(DPA)に送信するデータリクエストメールの内容"
     }
   ],
   "privacy.additionalPersonalDataBodyOneC": [
     {
       "type": 0,
-      "value": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
+      "value": "組織およびデータ保護エージェンシー(DPA)に送信するデータリクエストメールに関するメタデータ 例えばメールが送られてきた時間"
     }
   ],
   "privacy.additionalPersonalDataBodyOneE": [
     {
       "type": 0,
-      "value": "We keep Extended Personal Data for a maximum of 120 days."
+      "value": "当社は、最大120日間、拡張個人データを保持します。"
     }
   ],
   "privacy.additionalPersonalDataBodyOneF": [
     {
       "type": 0,
-      "value": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+      "value": "個人データを自発的に提供することにより、お客様は本プライバシーポリシーに従って当社の利用に同意したものとみなされます。 このウェブサイトに個人データを提供する場合 お客様は、かかる個人データが現在の場所からYourDigitalRightsのオフィスおよびサーバーに転送される可能性があることを認め、同意するものとします。 RGと本ポリシーで言及されている第三者。"
     }
   ],
   "privacy.contact": [
     {
       "type": 0,
-      "value": "Contact"
+      "value": "お問い合わせ"
     }
   ],
   "privacy.contactBody": [
     {
       "type": 0,
-      "value": "If you have questions or concerns about this Privacy Policy, please contact us at "
+      "value": "このプライバシーポリシーについてご質問やご不明な点がございましたら、 "
     },
     {
       "type": 1,
@@ -1638,73 +1614,73 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " までお問い合わせください。"
     }
   ],
   "privacy.cookies": [
     {
       "type": 0,
-      "value": "Cookies and Tracking"
+      "value": "クッキーとトラッキング"
     }
   ],
   "privacy.cookiesBody": [
     {
       "type": 0,
-      "value": "We only use cookies to save the choices you make on the website so that it is easier for you to use the service next time. A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service."
+      "value": "私たちは、あなたが次回サービスを使用することが容易になるように、あなたがウェブサイト上で行った選択を保存するためにのみクッキーを使用します。 クッキーとは、お客様が本サービスにアクセスする際にお客様のブラウザに当社のサービスをホストするコンピュータが提供する情報のことです。"
     }
   ],
   "privacy.description": [
     {
       "type": 0,
-      "value": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
+      "value": "あなたはあなたのデータを所有し、私たちはあなたが誰にアクセスできるかを管理するために存在します。これは私たちのプライバシーポリシーのページです。"
     }
   ],
   "privacy.lastUpdated": [
     {
       "type": 0,
-      "value": "Last updated:"
+      "value": "最終更新日:"
     }
   ],
   "privacy.personalData": [
     {
       "type": 0,
-      "value": "Sending Requests"
+      "value": "リクエストを送信中"
     }
   ],
   "privacy.personalDataBody1": [
     {
       "type": 0,
-      "value": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
+      "value": "リクエストを送信する際（オプションのリクエストフォローアップ機能をオンにせず）、以下の個人データをご提供いただくようお願いいたします。"
     }
   ],
   "privacy.personalDataBodyOneA": [
     {
       "type": 0,
-      "value": "Your name"
+      "value": "あなたの名前"
     }
   ],
   "privacy.personalDataBodyOneB": [
     {
       "type": 0,
-      "value": "Additional information needed to identify you with the organizations you choose to contact (such as a Username, Customer ID or Account Number)"
+      "value": "連絡先を選択した組織（ユーザー名、顧客ID、アカウント番号など）であなたを識別するために必要な追加情報です"
     }
   ],
   "privacy.personalDataBodyOneE": [
     {
       "type": 0,
-      "value": "We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers."
+      "value": "当社は、お客様が電子メールを生成するために要求を送信する際に収集された個人情報のみを使用し、当社のサーバーに保存しません。"
     }
   ],
   "privacy.privacyTitle": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "プライバシーポリシー"
     }
   ],
   "privacy.processorsA": [
     {
       "type": 0,
-      "value": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their "
+      "value": "マトモ:Innocraftによるプライバシー志向のウェブ分析サービスです。 Matomoを使用して、サービスへのアクセス方法と使用方法（「使用データ」）に関する匿名化された情報を収集します。 "
     },
     {
       "type": 1,
@@ -1712,13 +1688,13 @@
     },
     {
       "type": 0,
-      "value": " page."
+      "value": " ページをご覧ください。"
     }
   ],
   "privacy.processorsB": [
     {
       "type": 0,
-      "value": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their "
+      "value": "Amazon AWS: クラウドインフラストラクチャサービスのプロバイダー。 あなたがフォローアップをリクエストするようにオプトインすると、私たちはあなたが送信する電子メールを処理し、関連情報を保存し、あなたにリマインダーメールを送信するためにAWSを使用します。 "
     },
     {
       "type": 1,
@@ -1726,109 +1702,109 @@
     },
     {
       "type": 0,
-      "value": " page."
+      "value": " ページにアクセスできます。"
     }
   ],
   "privacy.promise": [
     {
       "type": 0,
-      "value": "Our Promise"
+      "value": "私たちの約束"
     }
   ],
   "privacy.promiseBody": [
     {
       "type": 0,
-      "value": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+      "value": "あなたはあなたのデータを所有しています。私たちはあなたが誰にアクセスできるかを管理するために存在します。 当社は、個人情報を個人的、個人的かつ安全に保つことを強く信じています。 当社は不可欠なクッキーを使用せず、お客様から収集した個人データを、本サービス(YourDigitalRights)の提供に必要な最小限に制限します。 RG). 場合によっては、追加の個人データを提供する必要があるオプションの機能をオンにすることができます. このような場合は、明示的にオプトインする必要があり、明示的にラベルが付けられています。 当社は、お客様の個人情報を誰にも売却または貸与することはありません。また、120日以上当社のサーバーに保管することはありません。 当社は、サービスの提供が要求される場合、または本ポリシーに記載されている場合にのみ、お客様の個人情報を共有します。"
     }
   ],
   "privacy.title": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "プライバシーポリシー"
     }
   ],
   "privacy.usageDataBody": [
     {
       "type": 0,
-      "value": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
+      "value": "当社は、以下の第三者プロバイダーと協力して、当社に代わってデータ処理タスクを実行します。 当社は、お客様のデータの機密性とセキュリティを確保する条件で、これらのプロバイダーを引き受けます。"
     }
   ],
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information."
+      "value": "私たちのプライバシーアラートの電子メールを購読すると、毎月、あなたは私たちの研究チームによって特定された最悪のプライバシーを侵害する企業を記載した電子メールを受け取ります。 これらの会社からのオプトアウトを月に5分を費やすことによって、時間の経過とともにオンラインプライバシーを改善し、あなたの個人情報の管理を取り戻すことができます。"
     }
   ],
   "privacyAlerts.seoDescription": [
     {
       "type": 0,
-      "value": "Subscribe to our monthly privacy alerts"
+      "value": "毎月のプライバシーアラートを購読する"
     }
   ],
   "privacyAlerts.seoTitle": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "プライバシーアラート"
     }
   ],
   "privacyAlerts.title": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "プライバシーアラート"
     }
   ],
   "privacyAlerts.whyPrivacy": [
     {
       "type": 0,
-      "value": "Why you should invest in your privacy?"
+      "value": "なぜプライバシーに投資すべきなのでしょうか?"
     }
   ],
   "privacyAlerts.whyPrivacyBody1": [
     {
       "type": 0,
-      "value": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+      "value": "私たちが作るすべてのオンライン上の相互作用は、私たちの個人情報の痕跡を残します。 私たちが関わる企業、データブローカー、政府、そして不利益な個人は、すべて私たちのデータに興味を持っています。"
     }
   ],
   "privacyAlerts.whyPrivacyBody2": [
     {
       "type": 0,
-      "value": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+      "value": "この現実は、さまざまな影響キャンペーンにさらされたままです。 これらには、偽のニュースを介したターゲットを絞ったオンライン広告、政治的、社会的操作が含まれます。 個人情報の盗難や中毒性の高いアプリやオンラインサービスなど様々な種類の不正行為があります それらはすべて、当社が残している多数の個人情報によって可能になります。"
     }
   ],
   "privacyAlerts.whyPrivacyBody3": [
     {
       "type": 0,
-      "value": "So how do we get it back under control?"
+      "value": "ではどうすれば元に戻せるでしょうか？"
     }
   ],
   "privacyAlerts.whyPrivacyBody4": [
     {
       "type": 0,
-      "value": "We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+      "value": "当社は、当社のサービスを使用している個人からのフィードバックに基づいてプライバシーアラートを設計しました。 これは、当社の研究チームによって選ばれた最悪の企業から選ばれることを選ぶことによって、月に5分しか費やすことなく、オンラインプライバシーを向上させる簡単な方法です。"
     }
   ],
   "privacyAlerts.whySubscribeBody1": [
     {
       "type": 0,
-      "value": "Here are two great reasons why you should subscribe now:"
+      "value": "以下の2つの大きな理由があります:"
     }
   ],
   "privacyAlerts.whySubscribeBody2": [
     {
       "type": 0,
-      "value": "Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+      "value": "オンラインプライバシーの向上 調査チームが選んだプライバシーを侵害する最悪の会社を除外することで 月に5分しかかからないのです"
     }
   ],
   "privacyAlerts.whySubscribeBody3": [
     {
       "type": 0,
-      "value": "Help support this service and the "
+      "value": "このサービスと運営する "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "nonprofit organization"
+          "value": "非営利団体"
         }
       ],
       "type": 8,
@@ -1836,31 +1812,31 @@
     },
     {
       "type": 0,
-      "value": " that operates it"
+      "value": " をサポートしてください"
     }
   ],
   "privacyAlerts.whySubscribeTitle": [
     {
       "type": 0,
-      "value": "Why Subscribe?"
+      "value": "購読する理由"
     }
   ],
   "redirect.continueText": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "続ける"
     }
   ],
   "redirect.headingText": [
     {
       "type": 0,
-      "value": "opt-out.eu is now yourdigitalrights.org"
+      "value": "opt-out.euがyourdigitalrights.org になりました"
     }
   ],
   "redirect.text": [
     {
       "type": 0,
-      "value": "Great news, this service is growing! We have recently launched support for the California Consumer Privacy Act (CCPA), and will soon launch support for additional request types beyond erasure. As a result we feel that the domain name ‘opt-out.eu’ is too limiting. We are more committed than ever to help you exercise your digital rights, welcome to our new home @ "
+      "value": "素晴らしいニュースです、このサービスは成長しています! 当社は最近、カリフォルニア州消費者プライバシー法(CCPA)へのサポートを開始し、削除を超えた追加のリクエストタイプのサポートを開始します。 その結果、ドメイン名「opt-out.eu」が制限されすぎていると感じます。 私たちは、新しい家へようこそ @ "
     },
     {
       "children": [
@@ -1874,13 +1850,13 @@
     },
     {
       "type": 0,
-      "value": "!"
+      "value": " あなたのデジタル権利を行使するのを助けるためにこれまで以上にコミットしています!"
     }
   ],
   "request.description": [
     {
       "type": 0,
-      "value": "View details about a "
+      "value": "この無料サービスで送信された "
     },
     {
       "type": 1,
@@ -1888,109 +1864,109 @@
     },
     {
       "type": 0,
-      "value": " request submitted with this free service."
+      "value": " リクエストの詳細を表示します。"
     }
   ],
   "request.details.date": [
     {
       "type": 0,
-      "value": "Request email date:"
+      "value": "リクエストメールの日付:"
     }
   ],
   "request.details.escalationDate": [
     {
       "type": 0,
-      "value": "Escalation email date:"
+      "value": "エスカレーションメールの日付:"
     }
   ],
   "request.details.header": [
     {
       "type": 0,
-      "value": "Request details"
+      "value": "要求の詳細"
     }
   ],
   "request.details.hide.escalation": [
     {
       "type": 0,
-      "value": "Hide escalation email"
+      "value": "エスカレーションメールを隠す"
     }
   ],
   "request.details.hide.reminder": [
     {
       "type": 0,
-      "value": "Hide reminder email"
+      "value": "リマインダーメールを隠す"
     }
   ],
   "request.details.hide.request": [
     {
       "type": 0,
-      "value": "Hide request email"
+      "value": "リクエストメールを非表示"
     }
   ],
   "request.details.name": [
     {
       "type": 0,
-      "value": "Requested by:"
+      "value": "要求者:"
     }
   ],
   "request.details.nowDetails": [
     {
       "type": 0,
-      "value": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
+      "value": "リクエストの詳細は現在ご利用いただけません。メールを送信後、ページを更新してください。"
     }
   ],
   "request.details.organization": [
     {
       "type": 0,
-      "value": "Recipient:"
+      "value": "受信者:"
     }
   ],
   "request.details.regulation": [
     {
       "type": 0,
-      "value": "Regulation:"
+      "value": "規制:"
     }
   ],
   "request.details.reminderDate": [
     {
       "type": 0,
-      "value": "Reminder email date:"
+      "value": "リマインダーメールの日付:"
     }
   ],
   "request.details.sentTo": [
     {
       "type": 0,
-      "value": "Recipient email address:"
+      "value": "受信者のメールアドレス:"
     }
   ],
   "request.details.show.escalation": [
     {
       "type": 0,
-      "value": "View escalation email"
+      "value": "エスカレーションメールを表示"
     }
   ],
   "request.details.show.reminder": [
     {
       "type": 0,
-      "value": "View reminder email"
+      "value": "リマインダーメールを表示"
     }
   ],
   "request.details.show.request": [
     {
       "type": 0,
-      "value": "View request email"
+      "value": "リクエストメールを表示"
     }
   ],
   "request.details.type": [
     {
       "type": 0,
-      "value": "Request type:"
+      "value": "要求の種類:"
     }
   ],
   "request.hero.declined": [
     {
       "type": 0,
-      "value": "Declined"
+      "value": "辞退しました"
     }
   ],
   "request.hero.declinedRequest": [
@@ -2000,7 +1976,7 @@
     },
     {
       "type": 0,
-      "value": " declined your request."
+      "value": " はあなたのリクエストを拒否しました。"
     }
   ],
   "request.hero.didNotReply": [
@@ -2010,19 +1986,19 @@
     },
     {
       "type": 0,
-      "value": " did not reply yet."
+      "value": " はまだ返信していません。"
     }
   ],
   "request.hero.domainTitle": [
     {
       "type": 0,
-      "value": "Domain:"
+      "value": "ドメイン:"
     }
   ],
   "request.hero.handledPartially": [
     {
       "type": 0,
-      "value": "Handled partially"
+      "value": "部分的に処理"
     }
   ],
   "request.hero.handledRequest": [
@@ -2032,37 +2008,37 @@
     },
     {
       "type": 0,
-      "value": " handled your request successfuly."
+      "value": " があなたのリクエストを処理しました。"
     }
   ],
   "request.hero.handledSuccessfully": [
     {
       "type": 0,
-      "value": "Handled successfully"
+      "value": "正常に処理されました"
     }
   ],
   "request.hero.header": [
-    {
-      "type": 0,
-      "value": "Your data "
-    },
     {
       "type": 1,
       "value": "requestType"
     },
     {
       "type": 0,
-      "value": " request to "
+      "value": " へのデータ "
     },
     {
       "type": 1,
       "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " リクエスト"
     }
   ],
   "request.hero.noReply": [
     {
       "type": 0,
-      "value": "No reply"
+      "value": "返信なし"
     }
   ],
   "request.hero.partiallyHandled": [
@@ -2072,7 +2048,7 @@
     },
     {
       "type": 0,
-      "value": " handled your request partially."
+      "value": " があなたのリクエストを部分的に処理しました。"
     }
   ],
   "request.hero.reference": [
@@ -2084,25 +2060,25 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Reference:"
+      "value": "リファレンス："
     }
   ],
   "request.hero.requestNotSent": [
     {
       "type": 0,
-      "value": "please send the request email, then refresh this page."
+      "value": "リクエストメールを送ってページを更新してください"
     }
   ],
   "request.hero.requestStatus": [
     {
       "type": 0,
-      "value": "Request Status:"
+      "value": "リクエストステータス:"
     }
   ],
   "request.next.circumstancesToDecline": [
     {
       "type": 0,
-      "value": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
+      "value": "特定の例外的な状況では、組織が法的にあなたの要求に従うことを拒否することを許可されています。"
     }
   ],
   "request.next.declineCCPA": [
@@ -2570,7 +2546,7 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommendation: escalate your request to your "
+      "value": "おすすめ: リクエストを "
     },
     {
       "type": 1,
@@ -2586,7 +2562,7 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": " ) までエスカレートさせます。"
     }
   ],
   "request.next.escalateToAuthorityPartial": [
@@ -2622,7 +2598,7 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated your request to the "
+      "value": "あなたは "
     },
     {
       "type": 1,
@@ -2638,37 +2614,33 @@
     },
     {
       "type": 0,
-      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": ") へのリクエストをエスカレートさせました。彼らと直接連絡を取り続けてください。 私たちにできることは他にありません。"
     }
   ],
   "request.next.esclateButton": [
     {
-      "type": 0,
-      "value": "Escalate to the "
-    },
-    {
       "type": 1,
       "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " にエスカレート"
     }
   ],
   "request.next.findOutMore": [
     {
       "type": 0,
-      "value": "Find out more about these exceptions"
+      "value": "これらの例外の詳細をご覧ください"
     }
   ],
   "request.next.organizationsHaveXDays": [
-    {
-      "type": 0,
-      "value": "According to the "
-    },
     {
       "type": 1,
       "value": "regulationType"
     },
     {
       "type": 0,
-      "value": " organizations have "
+      "value": " の組織によると、リクエストに返信するのに "
     },
     {
       "type": 1,
@@ -2676,43 +2648,43 @@
     },
     {
       "type": 0,
-      "value": " days to reply to your request."
+      "value": " 日かかります。"
     }
   ],
   "request.next.reminderButton": [
     {
       "type": 0,
-      "value": "Send the organization a reminder email"
+      "value": "組織にリマインダーメールを送信する"
     }
   ],
   "request.next.selectTheOptions1": [
     {
       "type": 0,
-      "value": "Please select from the following options:"
+      "value": "以下のオプションから選択してください："
     }
   ],
   "request.next.selectTheOptions2": [
     {
       "type": 0,
-      "value": "If you wish to take further action then please select from the following options:"
+      "value": "さらにアクションを起こしたい場合は、以下のオプションから選択してください:"
     }
   ],
   "request.next.selectTheOptions3": [
     {
       "type": 0,
-      "value": "If you do not wish to wait then please select from the following options:"
+      "value": "待ちたくない場合は、以下のオプションから選択してください:"
     }
   ],
   "request.next.sendAReminderEmail": [
     {
       "type": 0,
-      "value": "Recommendation: send the organization a reminder email."
+      "value": "推奨事項:組織にリマインダーメールを送信します。"
     }
   ],
   "request.next.waitUntilXDays": [
     {
       "type": 0,
-      "value": "Recommendation: wait until "
+      "value": "おすすめ：リクエストを処理するために、 "
     },
     {
       "type": 1,
@@ -2720,13 +2692,13 @@
     },
     {
       "type": 0,
-      "value": " days have passed to give the company time to process your request."
+      "value": " 日が経過するまでお待ちください。"
     }
   ],
   "request.next.waitUntilXDaysAfterReminder": [
     {
       "type": 0,
-      "value": "Recommendation: wait until "
+      "value": "推奨事項: 組織にあなたのリクエストを予測する時間を与えるために、リクエストが送信された日付から "
     },
     {
       "type": 1,
@@ -2734,19 +2706,19 @@
     },
     {
       "type": 0,
-      "value": " days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+      "value": " 日間経過するまでお待ちください。 リマインダーのメールをフォローしています"
     }
   ],
   "request.next.whatsNext": [
     {
       "type": 0,
-      "value": "What's next"
+      "value": "次の内容"
     }
   ],
   "request.success": [
     {
       "type": 0,
-      "value": "Congratulations, "
+      "value": "おめでとうございます。 "
     },
     {
       "type": 1,
@@ -2754,13 +2726,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
+      "value": " さんがあなたのリクエストに成功しました。 お客様の個人データは、元のリクエストから120日以内に自動的に削除されます。 あるいはformat@@0今すぐ個人データを "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data now"
+          "value": "削除"
         }
       ],
       "type": 8,
@@ -2768,43 +2740,43 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "することもできます。"
     }
   ],
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Escalate your request"
+      "value": "リクエストをエスカレート"
     }
   ],
   "request.timeline.reminderSent": [
     {
       "type": 0,
-      "value": "Reminder sent"
+      "value": "リマインダーを送信しました"
     }
   ],
   "request.timeline.requestNotSent": [
     {
       "type": 0,
-      "value": "Request not sent"
+      "value": "リクエストは送信されませんでした"
     }
   ],
   "request.timeline.requestSent": [
     {
       "type": 0,
-      "value": "Request sent"
+      "value": "リクエストが送信されました"
     }
   ],
   "request.timeline.requestTimeline": [
     {
       "type": 0,
-      "value": "Your request timeline"
+      "value": "リクエストのタイムライン"
     }
   ],
   "request.timeline.sendEscalation": [
     {
       "type": 0,
-      "value": "Escalation sent"
+      "value": "エスカレーションを送信しました"
     }
   ],
   "request.timeline.sendEscalationDays": [
@@ -2815,7 +2787,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "今日"
             }
           ]
         },
@@ -2823,22 +2795,18 @@
           "value": [
             {
               "type": 0,
-              "value": "tommorow"
+              "value": "tomorow"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 0,
-              "value": "in "
-            },
-            {
               "type": 7
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " 日後には"
             }
           ]
         }
@@ -2851,7 +2819,7 @@
   "request.timeline.sendReminder": [
     {
       "type": 0,
-      "value": "Send a reminder"
+      "value": "リマインダーを送信"
     }
   ],
   "request.timeline.sendReminderDays": [
@@ -2862,7 +2830,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "今日"
             }
           ]
         },
@@ -2870,22 +2838,18 @@
           "value": [
             {
               "type": 0,
-              "value": "tommorow"
+              "value": "tomorow"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 0,
-              "value": "in "
-            },
-            {
               "type": 7
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " 日後には"
             }
           ]
         }
@@ -2903,7 +2867,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "今日"
             }
           ]
         },
@@ -2911,7 +2875,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "昨日"
             }
           ]
         },
@@ -2940,7 +2904,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "今日"
             }
           ]
         },
@@ -2948,7 +2912,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "昨日"
             }
           ]
         },
@@ -2977,7 +2941,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "今日"
             }
           ]
         },
@@ -2985,7 +2949,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "昨日"
             }
           ]
         },
@@ -3008,40 +2972,36 @@
   ],
   "request.title": [
     {
-      "type": 0,
-      "value": "Details for your "
-    },
-    {
       "type": 1,
       "value": "regulationType"
     },
     {
       "type": 0,
-      "value": " request"
+      "value": " リクエストの詳細"
     }
   ],
   "requestEscalation.complaint": [
     {
       "type": 0,
-      "value": "Additional details"
+      "value": "追加情報"
     }
   ],
   "requestEscalation.complaintText": [
     {
       "type": 0,
-      "value": "Please explain why you are not satisfied with how the organization has dealt with your request"
+      "value": "組織があなたのリクエストに対して満足していない理由を説明してください"
     }
   ],
   "requestEscalation.esclateButtonForm": [
     {
       "type": 0,
-      "value": "Open Escalation Form"
+      "value": "オープンエスカレーションフォーム"
     }
   ],
   "requestEscalation.formDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request you will need to complete a form on the "
+      "value": "リクエストをエスカレートさせるには、 "
     },
     {
       "type": 1,
@@ -3049,241 +3009,241 @@
     },
     {
       "type": 0,
-      "value": " website. Click the button bellow to open the form in a new tab."
+      "value": " ウェブサイトにフォームを入力する必要があります。 下のボタンをクリックして、新しいタブでフォームを開きます。"
     }
   ],
   "requestEscalation.geography": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "場所"
     }
   ],
   "requestEscalation.geographyText ": [
     {
       "type": 0,
-      "value": "Please select your place of residence"
+      "value": "居住地を選択してください"
     }
   ],
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "確認と送信"
     }
   ],
   "search.companyPlaceholder": [
     {
       "type": 0,
-      "value": "Search for an organization"
+      "value": "組織を検索"
     }
   ],
   "search.noResults": [
     {
       "type": 0,
-      "value": "Can't find an organization?"
+      "value": "組織が見つかりませんか？"
     }
   ],
   "search.noResultsMore": [
     {
       "type": 0,
-      "value": "Click here to add one"
+      "value": "ここをクリックして追加します"
     }
   ],
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copy email text to clipboard"
+      "value": "メールのテキストをクリップボードにコピー"
     }
   ],
   "sendEmailButton.default": [
     {
       "type": 0,
-      "value": "Open in your default email client"
+      "value": "デフォルトのメールクライアントで開く"
     }
   ],
   "sendEmailButton.gmail": [
     {
       "type": 0,
-      "value": "Open in Gmail"
+      "value": "Gmailで開く"
     }
   ],
   "sendEmailButton.yahoo": [
     {
       "type": 0,
-      "value": "Open in Yahoo Mail"
+      "value": "Yahooメールで開く"
     }
   ],
   "social.chromeCTA": [
     {
       "type": 0,
-      "value": "Download it for Chrome"
+      "value": "Chrome用にダウンロード"
     }
   ],
   "social.chromeTitle": [
     {
       "type": 0,
-      "value": "Google Chrome Extension"
+      "value": "Google Chrome エクステンション"
     }
   ],
   "social.emailBody": [
     {
       "type": 0,
-      "value": "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it."
+      "value": "YourDigitalRightsをチェックしてください。 RGは無料サービスで何千もの組織があなたに何を持っているかを簡単に見つけることができます 削除させるのです"
     }
   ],
   "social.emailSubject": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights"
+      "value": "何千もの組織があなたにどのような個人データを持っているかを調べ、それを削除するようにしてください | Your Digital Rights"
     }
   ],
   "social.extensionHeadline": [
     {
       "type": 0,
-      "value": "Opt out directly from your browser"
+      "value": "ブラウザから直接オプトアウトする"
     }
   ],
   "social.extensionText": [
     {
       "type": 0,
-      "value": "Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button."
+      "value": "あなたの個人データに誰がアクセスできるかをより良く管理したいですか？ 当社のブラウザ拡張機能では、ボタンをクリックするだけで訪問したウェブサイトをオプトアウトすることができます。"
     }
   ],
   "social.facebookQuote": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+      "value": "何千もの組織が持っている個人データを調べて、削除してもらいましょう。yourdigitalrights.orgをご覧ください。"
     }
   ],
   "social.firefoxCTA": [
     {
       "type": 0,
-      "value": "Download it for Firefox"
+      "value": "Firefox用にダウンロード"
     }
   ],
   "social.frefoxTitle": [
     {
       "type": 0,
-      "value": "FireFox Extention"
+      "value": "FireFoxの拡張"
     }
   ],
   "social.shareHeading": [
     {
       "type": 0,
-      "value": "If you find this service useful, please spread the word"
+      "value": "このサービスが役に立つ場合は、単語を広げてください"
     }
   ],
   "social.twitterTitle": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+      "value": "何千もの組織が持っている個人データを調べて、削除してもらいましょう。yourdigitalrights.orgをご覧ください。"
     }
   ],
   "stats.alltime": [
     {
       "type": 0,
-      "value": "All Time"
+      "value": "すべて"
     }
   ],
   "stats.body.count": [
     {
       "type": 0,
-      "value": "Count"
+      "value": "カウント"
     }
   ],
   "stats.body.org-name": [
     {
       "type": 0,
-      "value": "Organization"
+      "value": "組織"
     }
   ],
   "stats.description": [
     {
       "type": 0,
-      "value": "Data protection request statistics."
+      "value": "データ保護要求統計量。"
     }
   ],
   "stats.month": [
     {
       "type": 0,
-      "value": "This Month"
+      "value": "今月"
     }
   ],
   "stats.statsTitle": [
     {
       "type": 0,
-      "value": "Request Statistics"
+      "value": "リクエストの統計"
     }
   ],
   "stats.title": [
     {
       "type": 0,
-      "value": "Request Statistics"
+      "value": "リクエストの統計"
     }
   ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total requests sent:"
+      "value": "送信された合計リクエスト数:"
     }
   ],
   "stats.week": [
     {
       "type": 0,
-      "value": "This Week"
+      "value": "今週中"
     }
   ],
   "stats.year": [
     {
       "type": 0,
-      "value": "This Year"
+      "value": "毎年"
     }
   ],
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Improve your online privacy over time by opting out of 3 companies each month."
+      "value": "毎月3社をオプトアウトすることで、オンラインプライバシーを向上させます。"
     }
   ],
   "subscribe.alertsOneLiner2": [
     {
       "type": 0,
-      "value": "Our research team hand-picks the worst privacy offenders."
+      "value": "私たちの研究チームは最悪のプライバシー侵害者を手に取っています"
     }
   ],
   "subscribe.signup": [
     {
       "type": 0,
-      "value": "Sign up"
+      "value": "新規登録"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Sign up to our privacy alerts emails!"
+      "value": "プライバシー警告メールにサインアップしてください！"
     }
   ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+      "value": "クリップボードにコピーされました。メールに貼り付けて、再び送信をクリックするだけです。"
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "電子メールアプリケーションで開いているはずです。メールを確認し、format@@0をクリックするだけです。"
     }
   ],
   "thankyou.copyPart2CCPA": [
     {
       "type": 0,
-      "value": "Organization have "
+      "value": "組織は、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "45 days"
+          "value": "45日"
         }
       ],
       "type": 8,
@@ -3291,19 +3251,19 @@
     },
     {
       "type": 0,
-      "value": " to comply, and may ask you for additional information to help identify you in their systems."
+      "value": " を遵守する必要があり、システム内であなたを識別するための追加情報を求めることがあります。"
     }
   ],
   "thankyou.copyPart2GDPR": [
     {
       "type": 0,
-      "value": "Organizations have "
+      "value": "組織は遵守すべき "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "one month"
+          "value": "1ヶ月"
         }
       ],
       "type": 8,
@@ -3311,19 +3271,19 @@
     },
     {
       "type": 0,
-      "value": " to comply, and may ask you for additional information to help identify you in their systems."
+      "value": " を所有しており、システム内であなたを識別するための追加情報を求める場合があります。"
     }
   ],
   "thankyou.copyPart3": [
     {
       "type": 0,
-      "value": "Please see our list of "
+      "value": "詳細については、 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Frequently Asked Questions"
+          "value": "よくある質問"
         }
       ],
       "type": 8,
@@ -3331,31 +3291,31 @@
     },
     {
       "type": 0,
-      "value": " for additional information."
+      "value": " のリストをご覧ください。"
     }
   ],
   "thankyou.description": [
     {
       "type": 0,
-      "value": "Thank you"
+      "value": "ありがとうございます"
     }
   ],
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+      "value": "長期的な金融の安定と自立を確保するために寄付を行うことを検討してください。"
     }
   ],
   "thankyou.findCompany": [
     {
       "type": 0,
-      "value": "Find another organization"
+      "value": "別の組織を探す"
     }
   ],
   "thankyou.howLongToReply": [
     {
       "type": 0,
-      "value": "Organizations have "
+      "value": "組織は遵守すべき "
     },
     {
       "type": 1,
@@ -3363,31 +3323,31 @@
     },
     {
       "type": 0,
-      "value": " to comply, and may ask you for additional information to help identify you in their systems."
+      "value": " を持っており、システム内であなたを識別するのに役立つ追加情報を求めることがあります。"
     }
   ],
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access request"
+      "value": "アクセスリクエスト"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion request"
+      "value": "削除リクエスト"
     }
   ],
   "thankyou.seotitle": [
     {
       "type": 0,
-      "value": "Thank You"
+      "value": "ありがとうございます"
     }
   ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "Thank You!"
+      "value": "ありがとうございます"
     }
   ]
 }

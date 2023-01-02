@@ -7,6 +7,7 @@ const ALT_LANGUAGES = {
 	"fr": "Français", 
 	"it": "Italiano",
 	"pt": "Português",
+	"ja": "日本語",
 };
 
 const TRANSLATION_PSEUDO_LOCAL = 'az';

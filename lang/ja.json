@@ -1,0 +1,995 @@
+{
+  "about.aboutTitle": {
+    "message": "私たちのミッション"
+  },
+  "about.consciousDigital": {
+    "message": "私たちのこと"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.orgは、デジタル人権を促進し、進歩させる人々を中心としたデジタルイニシアチブを作成して登録された慈善団体 {cd}の創造です。"
+  },
+  "about.contact": {
+    "message": "お問い合わせ"
+  },
+  "about.contactText": {
+    "message": "{email} までお問い合わせください。"
+  },
+  "about.contributors": {
+    "message": "貢献者"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontend web developer."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontend web developer."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontend web developer."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - インフラエンジニア。"
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - フロントエンドウェブ開発者、モバイルアプリ開発者、そしてSkyjackerのクリエイター、ARフライトトラッキングゲーム。"
+  },
+  "about.description": {
+    "message": "お客様のデジタル著作権は、お客様にプライバシーの権利があり、お客様のプライバシーの権利を行使するのは簡単であると考えているためです。"
+  },
+  "about.funding": {
+    "message": "ファンディング"
+  },
+  "about.fundingBody1": {
+    "message": "このプロジェクトは、クリエイターとあなたの寄付の助けを借りて資金を供給されます。"
+  },
+  "about.missionBody1": {
+    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+  },
+  "about.missionBody2": {
+    "message": "プライバシー規制は正しい方向への一歩です しかし、これらの法律の下であなたの権利を行使することは、ほとんどの人がそれを気にしないように、まだ十分に難しいです。 多くの組織がデータリクエストを提出するのが難しいため、状況はさらに悪化します(例えば、企業メールアドレスをウェブサイトに公開しないなど)。 私たちの目的は、これらの法律によって付与された権利を誰もがアクセスできるようにすることです。"
+  },
+  "about.missionBody3": {
+    "message": "これは無料サービスです。私たちはビジネスではなく、ビジネスモデルを持っていません。 リストの組織にサービスを提供することはありません。 私たちは個人データを収集または取引しません。このサービスは <a>オープンソース</a> です。"
+  },
+  "about.sponsors": {
+    "message": "支援組織"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - 組織のリストを充実させるために使用する会社のデータベースのスナップショットを提供します。"
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - 私たちの {roadmap} に関するコミュニティのフィードバックを収集するための効果的な方法を提供します。"
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - オープンソースでプライバシーを重視したウェブ分析プラットフォーム、Matomo (Piwik) のホストバージョンを提供するため。"
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - SEO戦略の実装を支援する。"
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - ブラジルのデータプライバシー規制を理解し、サポートするために、Lei Geral de ProtecAssociate de ProtecAssociate (LGPD) をサポートします。"
+  },
+  "about.sponsorsTitle": {
+    "message": "無料または割引サービスを提供することで、当社のオープンソースの取り組みをサポートしてくれた以下の組織に感謝申し上げます。"
+  },
+  "about.title": {
+    "message": "私たちについて"
+  },
+  "aboutOrg.details": {
+    "message": "追加情報:"
+  },
+  "aboutOrg.numRequests": {
+    "message": "送信されたリクエスト数:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "プライバシーポリシー:"
+  },
+  "contribute.creadit": {
+    "message": "私たちはあなたの仕事のためにあなたを支払う余裕はありませんが、私たちはあなたにあなたの貢献を与えることを幸せにしています。 このウェブサイトやgithubであれ、他の方法であれ。"
+  },
+  "contribute.creditTitle": {
+    "message": "クレジット"
+  },
+  "contribute.crowdinStep1": {
+    "message": "この <a>リンク</a> に従って、Crowdin でアカウントを作成してください。"
+  },
+  "contribute.crowdinStep2": {
+    "message": "この <a>リンク</a> に従って翻訳システムをロードしてください。"
+  },
+  "contribute.crowdinStep3": {
+    "message": "言語を選択してください (これを行うにはCrowdin にログインする必要があります)。"
+  },
+  "contribute.crowdinStep4": {
+    "message": "ウェブサイトを構成するさまざまなテキストを囲むボックスが表示されるはずです。 翻訳したいテキストにカーソルを合わせて、テキストの隅に表示されるアイコンをクリックします。"
+  },
+  "contribute.crowdinStep5": {
+    "message": "あなたの翻訳を提供できるエディターが開きます。完了したら保存をクリックすることを忘れないでください。"
+  },
+  "contribute.crowdinStep6": {
+    "message": "ご不明な点がございましたら、 <email>お問い合わせください。</email>"
+  },
+  "contribute.description": {
+    "message": "YourDigitalRights.org の改善にご協力ください。"
+  },
+  "contribute.dev": {
+    "message": "Our repositories are hosted on GitHub, with the main one being for this <a>website</a>. The best way to start is to get in touch via <email>email</email>. We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
+  },
+  "contribute.devSkills": {
+    "message": "現在、機械学習、React、AWSエンジニアを募集しています。"
+  },
+  "contribute.devTitle": {
+    "message": "開発のヘルプ"
+  },
+  "contribute.reportAProblem": {
+    "message": "このサイトで問題が発生した場合は、 <a1>課題トラッカー</a1>、または <a2>メール</a2> で報告できます。"
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "問題を報告する"
+  },
+  "contribute.research": {
+    "message": "私たちはデジタル著作権を促進し、よりアクセスしやすくするためのより良い方法を常に模索しています。 人々がテクノロジーをどのように利用しているか理解したり 組織がそれを悪用しているかを理解したり 研究プロジェクトが常に行われています 参加を希望される場合は、 <email></email> までメールでお問い合わせください。"
+  },
+  "contribute.researchTitle": {
+    "message": "研究にご協力ください"
+  },
+  "contribute.subtitle": {
+    "message": "このプロジェクトはボランティアによって完全に開発され、維持されています。 プライバシーの損失、横行する監視資本主義を心配している場合 マイクロターゲティングや誤った情報やデジタルサービスの中毒性などが助けになります"
+  },
+  "contribute.title": {
+    "message": "貢献"
+  },
+  "contribute.translate1": {
+    "message": "私たちは、このサービスを多くの言語で利用できるようにしたいと思います. あなたが現在利用可能なものの中にいない場合、またはアップデートや改善が必要な場合は、私たちはあなたの助けを歓迎します!"
+  },
+  "contribute.translate2": {
+    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+  },
+  "contribute.translateTitle": {
+    "message": "ウェブサイトを翻訳"
+  },
+  "dataProcessors": {
+    "message": "データ共有とプロセッサ"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "すべてのリクエスト"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "このリクエスト"
+  },
+  "deletePII.doneAll": {
+    "message": "すべてのリクエストに関連付けられた個人データは正常に削除されました。"
+  },
+  "deletePII.doneRequest": {
+    "message": "このリクエストに関連付けられた個人データを正常に削除しました。"
+  },
+  "deletePII.heading": {
+    "message": "データを削除する"
+  },
+  "deletePII.intro": {
+    "message": "お客様の個人データは、リクエストが行われた120日後に自動的に削除されますが、今すぐデータを削除することができます。 このリクエストに関連付けられているデータを削除しますか（ref: {ref}）、またはすべてのリクエストを削除しますか？"
+  },
+  "deletemydata.description": {
+    "message": "データを削除する"
+  },
+  "deletemydata.title": {
+    "message": "データを削除する"
+  },
+  "donations.donate": {
+    "message": "寄付"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.orgは、プライバシーが重要であり、プライバシーの権利を行使することは簡単であると考えているために作成されました。 だからこそ、私たちはそれを自由にしたのです。寄付や支援者になることで、長期的な金融の安定と独立性を確保することができます。"
+  },
+  "donations.headingDonate": {
+    "message": "サポートが必要です"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights. rgは無料でオンラインプライバシーの管理を取り戻すのに役立つサービスです 組織に簡単に削除させたり、個人情報のコピーを提供させたりすることができます 当社は、強力なデータ保護法に規定されているプロセスを自動化し、お客様のデータを削除またはアクセスする権利をお客様に付与します。 組織にリクエストを送信することに加えて、リクエストがあなたの好意で解決されるようにすることができます。"
+  },
+  "faq.body.contact.1": {
+    "message": "特定のデータリクエストや特定の組織での経験に関する個人的なサポートはできませんのでご了承ください。 私たちは、いくつかのケースでは、組織はかなりイライラすることができますが、残念ながら、私たちは助けることができず、そのような電子メールに返信しません。"
+  },
+  "faq.body.contact.2": {
+    "message": "その他すべてのリクエストについては、 <a>メールアドレス</a> からお問い合わせください。"
+  },
+  "faq.body.contribute.1": {
+    "message": "はい、お願いします！"
+  },
+  "faq.body.contribute.2": {
+    "message": "私たちは <a>寄付</a> に頼り、長期的な金融の安定と独立を確保しています。ここで貢献することができます。"
+  },
+  "faq.body.contribute.3": {
+    "message": "バグを報告したい場合は、 <a>このページ</a> の情報を参照してください。 ウェブサイトの翻訳、開発の支援、研究の支援をしてください。"
+  },
+  "faq.body.data-protection.1": {
+    "message": "データ保護法は、組織による個人情報の処理に関して個人を保護します。 彼らは、個人情報を処理する際に組織が持つ責任を定義し、個人が自分のデータに関連する特定の権利を付与します。 多くの国ではデータ保護法がありますが、一部の国では他の国よりもさらに保護されています。"
+  },
+  "faq.body.escalate.1": {
+    "message": "データ保護法は、そのような場合にさまざまなエスカレーションメカニズムを提供します。 政府の規制機関に苦情を申し立てたり、組織を訴えたりする可能性(私的な訴訟権と呼ばれる)を含みます。"
+  },
+  "faq.body.escalate.2": {
+    "message": "これが複雑に聞こえる場合は、心配しないでください; 私たちは助けることができます。 このサービス経由でデータリクエストを送信する場合 「スマートフォローアップアシスタント」オプションをオンにして、組織があなたのリクエストに応じていない場合の対応方法についてパーソナライズされたアドバイスを受けましょう。 私たちは、あなたが組織と連絡を取り、必要に応じて政府の規制機関にエスカレートするのを助けます。"
+  },
+  "faq.body.how.1": {
+    "message": "組織を選択し、短いフォームに入力した後、選択した組織に宛てたリクエストメールが送信されます。 メールを確認して送信するためのメールアプリが開きます。 オプションで リクエストが送られてきてから、少しでもフォローアップできます。リクエストがあなたの好意で解決されるように。 これには、組織のリマインダーメールを送信したり、政府の規制機関にエスカレートしたりすることが含まれます。"
+  },
+  "faq.body.new-regulation.1": {
+    "message": "私たちは、個人が個人情報にアクセスし削除する権利を与えるすべてのデータ保護法をサポートしたいと思います。 特定の規制のサポートを追加したい場合は、 <a></a> までお問い合わせください。"
+  },
+  "faq.body.refuse.1": {
+    "message": "データ保護法により、組織は特定の例外的な状況で個人情報を削除することを拒否することができます。 ここにいくつかの一般的な例がありますが、詳細については具体的な規制を読む必要があります。"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "組織が法的にあなたのデータを保持することが義務付けられている場合 (例: 金融機関は、マネーロンダリング防止規制を遵守するためにあなたの取引の記録を保管する必要があります)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "あなたのデータを保持する場合は、表現と情報の自由の理由のために必要です(これはジャーナリズムや学術、芸術、文学目的を含みます)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "公衆衛生上の理由であなたのデータを保持することが必要な場合"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "法的要求を確立、行使、または防御するためにあなたのデータを保持することが必要です"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "データを消去すると、科学的または過去の研究または公衆の利益になるアーカイブを妨げることになります"
+  },
+  "faq.body.regulations.1": {
+    "message": "追加規制のサポートをご希望の場合は、 <a></a> までお問い合わせください。"
+  },
+  "faq.body.regulations.location": {
+    "message": "場所"
+  },
+  "faq.body.regulations.name": {
+    "message": "フルネーム"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "短縮形"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "返信の時間"
+  },
+  "faq.body.requests.1": {
+    "message": "私たちは2種類のリクエストをサポートしています:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>データ削除リクエスト</b> (消去要求または忘れられる要求としても知られています) により、組織に個人情報の削除を依頼することができます。"
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>アクセスリクエスト</b> (略して SARまたはサブジェクトアクセスリクエスト) により、組織に個人情報のコピーを提供するよう依頼することができます。"
+  },
+  "faq.body.trust.1": {
+    "message": "We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
+  },
+  "faq.body.trust.2": {
+    "message": "当社は独立しており、お客様の個人情報を販売することはなく、お客様がデータリクエストを送信するのに役立つ組織のいずれにも所属していません。 私たちはまた、これらの組織にサービスを提供していません. 最後に, 私たちは、あなたによって資金提供されています <a>寄付</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "当社は、デフォルトで、お客様の個人情報を収集する必要がないように、このサービスを設計しました。 特定のオプション機能が個人情報の提供を必要とする場合、当社はこのデータを120日後に削除します。 詳細は <a>プライバシーポリシー</a> をご覧ください。"
+  },
+  "faq.body.verify.1": {
+    "message": "データ保護法では、不正行為を防止するために要請を提出した個人の身元を確認する必要があります。 ほとんどの法律では、検証方法は関係するデータの性質に比例するべきであると述べています。 例えば、 典型的なインターネットフォーラムからメッセージ履歴のコピーを要求した場合、アカウントに関連付けられたメールアドレスを所有している簡単な確認が十分であるはずです。 一方、金融機関から取引履歴を要求する場合。 写真付き身分証明書や住所確認書などの追加情報の提供を求めることが正当化されています。"
+  },
+  "faq.body.verify.2": {
+    "message": "ほとんどの場合、アカウントに関連付けられたメールアドレスを所有している簡単な確認で十分です。 このサービスを使用してリクエストを送信すると、メールアプリからメールが送信され、この基本的な検証が行われます。"
+  },
+  "faq.body.verify.3": {
+    "message": "個人情報をさらに保護するために。 当社がお客様に代わって生成する要求は、リクエストの遂行以外の目的に含まれる個人情報を使用することを明示的に禁止します。"
+  },
+  "faq.heading.YDR": {
+    "message": "YourDigitalRights.orgとは？"
+  },
+  "faq.heading.contact": {
+    "message": "さらに質問があります。どのように連絡すればいいですか？"
+  },
+  "faq.heading.contribute": {
+    "message": "このサービスは素晴らしいです。お手伝いできますか？"
+  },
+  "faq.heading.data-protection": {
+    "message": "データ保護法とは何ですか?"
+  },
+  "faq.heading.escalate": {
+    "message": "組織が私の要求を完全に遵守していない場合はどうすればよいですか?"
+  },
+  "faq.heading.how": {
+    "message": "サービスはどのように機能しますか?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "私の国は新しいデータ保護法を持っています。あなたはそれをサポートしますか？"
+  },
+  "faq.heading.refuse": {
+    "message": "組織はノーと言えるでしょうか？"
+  },
+  "faq.heading.regulations": {
+    "message": "どの国、州、規制がサポートされていますか?"
+  },
+  "faq.heading.requests": {
+    "message": "このサービスを利用してどのようなリクエストができますか?"
+  },
+  "faq.heading.trust": {
+    "message": "このサービスを運営しているのは誰ですか？あなたを信頼できますか？"
+  },
+  "faq.heading.verify": {
+    "message": "ある組織から個人情報を提供するよう求められています。これは合法ですか？彼らはこの情報を他の目的に使うことができますか？"
+  },
+  "faq.title": {
+    "message": "よく寄せられる質問"
+  },
+  "footer.contact": {
+    "message": "© Copyright 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>免責事項:</span> 本サービスは、いかなる保証もなく、現状のまま提供されます。 本サービスの利用はお客様ご自身の責任において行ってください。 本サービスの利用により生じたいかなる直接的または間接的な損害についても、当社は責任を負いません。 法的事項に関連する当社のウェブサイト上のコンテンツとともに、このサービスによって提供される情報は、お客様の個人的な使用のために提供され、法的助言を構成するものではありません。 特定の問題について法的助言が必要な場合は、弁護士に相談してください。"
+  },
+  "footer.madeBy": {
+    "message": "<a>意識的なデジタル製</a>"
+  },
+  "footer.mission": {
+    "message": "<a>ミッション</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Powered by Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>プライバシーポリシー</a>"
+  },
+  "footer.wishList": {
+    "message": "私たちのロードマップで願いを叶えましょう"
+  },
+  "hero.headerText": {
+    "message": "組織にアカウントを削除したり、個人情報のコピーを提供させます。"
+  },
+  "hero.heading": {
+    "message": "データを所有する"
+  },
+  "hero.intro": {
+    "message": "多くの組織は、お客様の同意なしに、お客様の個人データを収集および販売します。 この無料サービスを使用して、データ削除またはアクセスリクエストを送信します。まずは以下の組織を検索してください。"
+  },
+  "howItWorks.followUp": {
+    "message": "我々のスマートフォローアップアシスタントを使って組織があなたの要求に応えられるように 政府の規制当局への要求をエスカレートさせるのにも役立ちます"
+  },
+  "howItWorks.followUpTitle": {
+    "message": "フォロー"
+  },
+  "howItWorks.imgAlt": {
+    "message": "ユーザーインターフェースを表すグラフィック"
+  },
+  "howItWorks.search": {
+    "message": "このページの上部にある検索ボックスを使用している組織を検索します。"
+  },
+  "howItWorks.searchTitle": {
+    "message": "検索"
+  },
+  "howItWorks.send": {
+    "message": "データの削除、またはコピーの提供を要求する組織。"
+  },
+  "howItWorks.sendTitle": {
+    "message": "送信"
+  },
+  "howItWorks.title": {
+    "message": "仕組み"
+  },
+  "howItWorks.whyBody": {
+    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "なぜ私たちを信頼するのですか？"
+  },
+  "howItWorks.yourData": {
+    "message": "データ保護法では、組織が要求に応じてお客様のデータのコピーを削除または提供することが義務付けられています。 組織は、それ以外の場合は、彼らは急な罰金に直面することができ、遵守するための短い期間があります。 私たちの使命は、あなたがあなたの法的権利を行使することを容易にすることです。"
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "あなたにはプライバシーの権利があります！"
+  },
+  "index.description": {
+    "message": "アカウントを削除するか、この無料サービスを使用して組織が持っている個人データにアクセスします。"
+  },
+  "nav.about": {
+    "message": "About"
+  },
+  "nav.contact": {
+    "message": "お問い合わせ"
+  },
+  "nav.contribute": {
+    "message": "貢献"
+  },
+  "nav.data-brokers": {
+    "message": "Data Brokers"
+  },
+  "nav.donation": {
+    "message": "寄付をする"
+  },
+  "nav.faq": {
+    "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "翻訳を支援する"
+  },
+  "nav.howItWorks": {
+    "message": "仕組み"
+  },
+  "nav.privacyPoilcy": {
+    "message": "プライバシーポリシー"
+  },
+  "nav.search": {
+    "message": "組織を検索"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "GDPR、CCPA、およびLGPDデータの削除を送信し、この無料サービスを使用して迅速かつ容易に組織へのリクエストにアクセスします。"
+  },
+  "org.descriptionExistingOrg": {
+    "message": "アカウントの削除または {org} からのあなたの個人データのコピーを迅速かつ容易にこの無料サービスを使用してください。"
+  },
+  "org.titleExistingOrg": {
+    "message": "{org} - アカウントを削除するか、データのコピーを取得します"
+  },
+  "org.titleNewOrg": {
+    "message": "GDPR、CCPA、LGPDデータ削除とアクセスリクエストを送信する"
+  },
+  "orgHero.newOrgSubTitle": {
+    "message": "{ccpa} または {gdpr} リクエストを任意の組織に送信します。"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "個人データを削除またはコピーする"
+  },
+  "orgHero.notAffiliatedDisclamer": {
+    "message": "このサービスは <disclamer></disclamer> と提携していません (詳細は <about>私たちの</about> を参照してください)。"
+  },
+  "orgHero.orgName": {
+    "message": "組織: {org}."
+  },
+  "orgHero.subTitle": {
+    "message": "この無料サービスを使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
+  },
+  "orgHero.title": {
+    "message": "アカウントの削除または個人データのコピーを要求します。"
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "組織があなたのリクエストに応じていることを確認するため、時間が来たらメールでお知らせします。 組織にリマインダーメールを送信するか、ローカルデータ保護機関にエスカレートするかを選択できます。"
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "スマートフォローアップアシスタンスをオンにする"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "必要に応じて、組織がユーザー名などの情報システムであなたのデータを特定するのに役立つ追加情報を提供します。 顧客IDまたは口座番号。 <strong>組織がまだ持っていないパスワードまたは個人情報を提供しないでください。</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "いいえ、自分で管理できます"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "はい、フォローアップの手順をメールしてください"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "自分のデータのコピーを送る"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "組織のドメイン名を入力してください (例: google.co.uk または facebook.com)。"
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "組織のドメイン"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "組織のメールアドレス"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "連絡したい組織の名前を入力してください。"
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "組織名"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "GDPR/CCPA/プライバシー/法的要求を処理する担当者または部署のメールアドレスを入力してください。 この情報は、通常、組織のウェブサイトで、プライバシーポリシー、利用規約、またはお問い合わせページで確認できます。"
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "データを削除する"
+  },
+  "personalInfoForm.headline": {
+    "message": "次のフォームに入力してデータリクエストメールを作成し、確認して送信できます。 詳細については、 <a>よくある質問</a> をご覧ください。"
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "追加の識別情報 (オプション)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "これは組織によってあなたを識別するために使用されます。"
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "フルネーム"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "規制"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "特定の理由がない限り、居住地に基づいて規制を選択してください。"
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "リクエストタイプ"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "確認と送信"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "有効なメールアドレスを入力してください。"
+  },
+  "pressIntro.title": {
+    "message": "特集として"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "フォローアップをリクエスト"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "本サービスを利用する際には、データリクエストの送信に伴い、お客様は電子メールで当社からのサポートを受けることをオプトインすることができます。 このオプション機能を使用する場合、以下の追加個人情報を収集します。"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "あなたのメールアドレス"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "組織およびデータ保護機関(DPA)に送信するデータリクエストメールの内容"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "組織およびデータ保護エージェンシー(DPA)に送信するデータリクエストメールに関するメタデータ 例えばメールが送られてきた時間"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "当社は、最大120日間、拡張個人データを保持します。"
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "個人データを自発的に提供することにより、お客様は本プライバシーポリシーに従って当社の利用に同意したものとみなされます。 このウェブサイトに個人データを提供する場合 お客様は、かかる個人データが現在の場所からYourDigitalRightsのオフィスおよびサーバーに転送される可能性があることを認め、同意するものとします。 RGと本ポリシーで言及されている第三者。"
+  },
+  "privacy.contact": {
+    "message": "お問い合わせ"
+  },
+  "privacy.contactBody": {
+    "message": "このプライバシーポリシーについてご質問やご不明な点がございましたら、 {mail} までお問い合わせください。"
+  },
+  "privacy.cookies": {
+    "message": "クッキーとトラッキング"
+  },
+  "privacy.cookiesBody": {
+    "message": "私たちは、あなたが次回サービスを使用することが容易になるように、あなたがウェブサイト上で行った選択を保存するためにのみクッキーを使用します。 クッキーとは、お客様が本サービスにアクセスする際にお客様のブラウザに当社のサービスをホストするコンピュータが提供する情報のことです。"
+  },
+  "privacy.description": {
+    "message": "あなたはあなたのデータを所有し、私たちはあなたが誰にアクセスできるかを管理するために存在します。これは私たちのプライバシーポリシーのページです。"
+  },
+  "privacy.lastUpdated": {
+    "message": "最終更新日:"
+  },
+  "privacy.personalData": {
+    "message": "リクエストを送信中"
+  },
+  "privacy.personalDataBody1": {
+    "message": "リクエストを送信する際（オプションのリクエストフォローアップ機能をオンにせず）、以下の個人データをご提供いただくようお願いいたします。"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "あなたの名前"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "連絡先を選択した組織（ユーザー名、顧客ID、アカウント番号など）であなたを識別するために必要な追加情報です"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "当社は、お客様が電子メールを生成するために要求を送信する際に収集された個人情報のみを使用し、当社のサーバーに保存しません。"
+  },
+  "privacy.privacyTitle": {
+    "message": "プライバシーポリシー"
+  },
+  "privacy.processorsA": {
+    "message": "マトモ:Innocraftによるプライバシー志向のウェブ分析サービスです。 Matomoを使用して、サービスへのアクセス方法と使用方法（「使用データ」）に関する匿名化された情報を収集します。 { matomo } ページをご覧ください。"
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: クラウドインフラストラクチャサービスのプロバイダー。 あなたがフォローアップをリクエストするようにオプトインすると、私たちはあなたが送信する電子メールを処理し、関連情報を保存し、あなたにリマインダーメールを送信するためにAWSを使用します。 { matomo } ページにアクセスできます。"
+  },
+  "privacy.promise": {
+    "message": "私たちの約束"
+  },
+  "privacy.promiseBody": {
+    "message": "あなたはあなたのデータを所有しています。私たちはあなたが誰にアクセスできるかを管理するために存在します。 当社は、個人情報を個人的、個人的かつ安全に保つことを強く信じています。 当社は不可欠なクッキーを使用せず、お客様から収集した個人データを、本サービス(YourDigitalRights)の提供に必要な最小限に制限します。 RG). 場合によっては、追加の個人データを提供する必要があるオプションの機能をオンにすることができます. このような場合は、明示的にオプトインする必要があり、明示的にラベルが付けられています。 当社は、お客様の個人情報を誰にも売却または貸与することはありません。また、120日以上当社のサーバーに保管することはありません。 当社は、サービスの提供が要求される場合、または本ポリシーに記載されている場合にのみ、お客様の個人情報を共有します。"
+  },
+  "privacy.title": {
+    "message": "プライバシーポリシー"
+  },
+  "privacy.usageDataBody": {
+    "message": "当社は、以下の第三者プロバイダーと協力して、当社に代わってデータ処理タスクを実行します。 当社は、お客様のデータの機密性とセキュリティを確保する条件で、これらのプロバイダーを引き受けます。"
+  },
+  "privacyAlerts.description1": {
+    "message": "私たちのプライバシーアラートの電子メールを購読すると、毎月、あなたは私たちの研究チームによって特定された最悪のプライバシーを侵害する企業を記載した電子メールを受け取ります。 これらの会社からのオプトアウトを月に5分を費やすことによって、時間の経過とともにオンラインプライバシーを改善し、あなたの個人情報の管理を取り戻すことができます。"
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "毎月のプライバシーアラートを購読する"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "プライバシーアラート"
+  },
+  "privacyAlerts.title": {
+    "message": "プライバシーアラート"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "なぜプライバシーに投資すべきなのでしょうか?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "私たちが作るすべてのオンライン上の相互作用は、私たちの個人情報の痕跡を残します。 私たちが関わる企業、データブローカー、政府、そして不利益な個人は、すべて私たちのデータに興味を持っています。"
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "この現実は、さまざまな影響キャンペーンにさらされたままです。 これらには、偽のニュースを介したターゲットを絞ったオンライン広告、政治的、社会的操作が含まれます。 個人情報の盗難や中毒性の高いアプリやオンラインサービスなど様々な種類の不正行為があります それらはすべて、当社が残している多数の個人情報によって可能になります。"
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "ではどうすれば元に戻せるでしょうか？"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "当社は、当社のサービスを使用している個人からのフィードバックに基づいてプライバシーアラートを設計しました。 これは、当社の研究チームによって選ばれた最悪の企業から選ばれることを選ぶことによって、月に5分しか費やすことなく、オンラインプライバシーを向上させる簡単な方法です。"
+  },
+  "privacyAlerts.whySubscribeBody1": {
+    "message": "以下の2つの大きな理由があります:"
+  },
+  "privacyAlerts.whySubscribeBody2": {
+    "message": "オンラインプライバシーの向上 調査チームが選んだプライバシーを侵害する最悪の会社を除外することで 月に5分しかかからないのです"
+  },
+  "privacyAlerts.whySubscribeBody3": {
+    "message": "このサービスと運営する <a>非営利団体</a> をサポートしてください"
+  },
+  "privacyAlerts.whySubscribeTitle": {
+    "message": "購読する理由"
+  },
+  "redirect.continueText": {
+    "message": "続ける"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.euがyourdigitalrights.org になりました"
+  },
+  "redirect.text": {
+    "message": "素晴らしいニュースです、このサービスは成長しています! 当社は最近、カリフォルニア州消費者プライバシー法(CCPA)へのサポートを開始し、削除を超えた追加のリクエストタイプのサポートを開始します。 その結果、ドメイン名「opt-out.eu」が制限されすぎていると感じます。 私たちは、新しい家へようこそ @ <style>yourdigitalrights.org</style> あなたのデジタル権利を行使するのを助けるためにこれまで以上にコミットしています!"
+  },
+  "request.description": {
+    "message": "この無料サービスで送信された {regulationType} リクエストの詳細を表示します。"
+  },
+  "request.details.date": {
+    "message": "リクエストメールの日付:"
+  },
+  "request.details.escalationDate": {
+    "message": "エスカレーションメールの日付:"
+  },
+  "request.details.header": {
+    "message": "要求の詳細"
+  },
+  "request.details.hide.escalation": {
+    "message": "エスカレーションメールを隠す"
+  },
+  "request.details.hide.reminder": {
+    "message": "リマインダーメールを隠す"
+  },
+  "request.details.hide.request": {
+    "message": "リクエストメールを非表示"
+  },
+  "request.details.name": {
+    "message": "要求者:"
+  },
+  "request.details.nowDetails": {
+    "message": "リクエストの詳細は現在ご利用いただけません。メールを送信後、ページを更新してください。"
+  },
+  "request.details.organization": {
+    "message": "受信者:"
+  },
+  "request.details.regulation": {
+    "message": "規制:"
+  },
+  "request.details.reminderDate": {
+    "message": "リマインダーメールの日付:"
+  },
+  "request.details.sentTo": {
+    "message": "受信者のメールアドレス:"
+  },
+  "request.details.show.escalation": {
+    "message": "エスカレーションメールを表示"
+  },
+  "request.details.show.reminder": {
+    "message": "リマインダーメールを表示"
+  },
+  "request.details.show.request": {
+    "message": "リクエストメールを表示"
+  },
+  "request.details.type": {
+    "message": "要求の種類:"
+  },
+  "request.hero.declined": {
+    "message": "辞退しました"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} はあなたのリクエストを拒否しました。"
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} はまだ返信していません。"
+  },
+  "request.hero.domainTitle": {
+    "message": "ドメイン:"
+  },
+  "request.hero.handledPartially": {
+    "message": "部分的に処理"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} があなたのリクエストを処理しました。"
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "正常に処理されました"
+  },
+  "request.hero.header": {
+    "message": "{requestType} へのデータ {companyName} リクエスト"
+  },
+  "request.hero.noReply": {
+    "message": "返信なし"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} があなたのリクエストを部分的に処理しました。"
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "リファレンス："
+  },
+  "request.hero.requestNotSent": {
+    "message": "リクエストメールを送ってページを更新してください"
+  },
+  "request.hero.requestStatus": {
+    "message": "リクエストステータス:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "特定の例外的な状況では、組織が法的にあなたの要求に従うことを拒否することを許可されています。"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "おすすめ: リクエストを { authorityLong } ({authorityShort} ) までエスカレートさせます。"
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "あなたは {dpaLong} ({dpaShort}) へのリクエストをエスカレートさせました。彼らと直接連絡を取り続けてください。 私たちにできることは他にありません。"
+  },
+  "request.next.esclateButton": {
+    "message": "{ authority } にエスカレート"
+  },
+  "request.next.findOutMore": {
+    "message": "これらの例外の詳細をご覧ください"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "{regulationType} の組織によると、リクエストに返信するのに { timeLimit } 日かかります。"
+  },
+  "request.next.reminderButton": {
+    "message": "組織にリマインダーメールを送信する"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "以下のオプションから選択してください："
+  },
+  "request.next.selectTheOptions2": {
+    "message": "さらにアクションを起こしたい場合は、以下のオプションから選択してください:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "待ちたくない場合は、以下のオプションから選択してください:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "推奨事項:組織にリマインダーメールを送信します。"
+  },
+  "request.next.waitUntilXDays": {
+    "message": "おすすめ：リクエストを処理するために、 { timeLimit } 日が経過するまでお待ちください。"
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "推奨事項: 組織にあなたのリクエストを予測する時間を与えるために、リクエストが送信された日付から { timeLimit } 日間経過するまでお待ちください。 リマインダーのメールをフォローしています"
+  },
+  "request.next.whatsNext": {
+    "message": "次の内容"
+  },
+  "request.success": {
+    "message": "おめでとうございます。 { companyName } さんがあなたのリクエストに成功しました。 お客様の個人データは、元のリクエストから120日以内に自動的に削除されます。 あるいはformat@@0今すぐ個人データを <a>削除</a>することもできます。"
+  },
+  "request.timeline.esclateTo": {
+    "message": "リクエストをエスカレート"
+  },
+  "request.timeline.reminderSent": {
+    "message": "リマインダーを送信しました"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "リクエストは送信されませんでした"
+  },
+  "request.timeline.requestSent": {
+    "message": "リクエストが送信されました"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "リクエストのタイムライン"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "エスカレーションを送信しました"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {今日} one {tomorow} other {# 日後には}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "リマインダーを送信"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {今日} one {tomorow} other {# 日後には}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {今日} one {昨日} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {今日} one {昨日} other {# days ago}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {今日} one {昨日} other {# days ago}}"
+  },
+  "request.title": {
+    "message": "{regulationType} リクエストの詳細"
+  },
+  "requestEscalation.complaint": {
+    "message": "追加情報"
+  },
+  "requestEscalation.complaintText": {
+    "message": "組織があなたのリクエストに対して満足していない理由を説明してください"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "オープンエスカレーションフォーム"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "リクエストをエスカレートさせるには、 {authority} ウェブサイトにフォームを入力する必要があります。 下のボタンをクリックして、新しいタブでフォームを開きます。"
+  },
+  "requestEscalation.geography": {
+    "message": "場所"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "居住地を選択してください"
+  },
+  "requestEscalation.submit": {
+    "message": "確認と送信"
+  },
+  "search.companyPlaceholder": {
+    "message": "組織を検索"
+  },
+  "search.noResults": {
+    "message": "組織が見つかりませんか？"
+  },
+  "search.noResultsMore": {
+    "message": "ここをクリックして追加します"
+  },
+  "sendEmailButton.copy": {
+    "message": "メールのテキストをクリップボードにコピー"
+  },
+  "sendEmailButton.default": {
+    "message": "デフォルトのメールクライアントで開く"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Gmailで開く"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Yahooメールで開く"
+  },
+  "social.chromeCTA": {
+    "message": "Chrome用にダウンロード"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome エクステンション"
+  },
+  "social.emailBody": {
+    "message": "YourDigitalRightsをチェックしてください。 RGは無料サービスで何千もの組織があなたに何を持っているかを簡単に見つけることができます 削除させるのです"
+  },
+  "social.emailSubject": {
+    "message": "何千もの組織があなたにどのような個人データを持っているかを調べ、それを削除するようにしてください | Your Digital Rights"
+  },
+  "social.extensionHeadline": {
+    "message": "ブラウザから直接オプトアウトする"
+  },
+  "social.extensionText": {
+    "message": "あなたの個人データに誰がアクセスできるかをより良く管理したいですか？ 当社のブラウザ拡張機能では、ボタンをクリックするだけで訪問したウェブサイトをオプトアウトすることができます。"
+  },
+  "social.facebookQuote": {
+    "message": "何千もの組織が持っている個人データを調べて、削除してもらいましょう。yourdigitalrights.orgをご覧ください。"
+  },
+  "social.firefoxCTA": {
+    "message": "Firefox用にダウンロード"
+  },
+  "social.frefoxTitle": {
+    "message": "FireFoxの拡張"
+  },
+  "social.shareHeading": {
+    "message": "このサービスが役に立つ場合は、単語を広げてください"
+  },
+  "social.twitterTitle": {
+    "message": "何千もの組織が持っている個人データを調べて、削除してもらいましょう。yourdigitalrights.orgをご覧ください。"
+  },
+  "stats.alltime": {
+    "message": "すべて"
+  },
+  "stats.body.count": {
+    "message": "カウント"
+  },
+  "stats.body.org-name": {
+    "message": "組織"
+  },
+  "stats.description": {
+    "message": "データ保護要求統計量。"
+  },
+  "stats.month": {
+    "message": "今月"
+  },
+  "stats.statsTitle": {
+    "message": "リクエストの統計"
+  },
+  "stats.title": {
+    "message": "リクエストの統計"
+  },
+  "stats.total": {
+    "message": "送信された合計リクエスト数:"
+  },
+  "stats.week": {
+    "message": "今週中"
+  },
+  "stats.year": {
+    "message": "毎年"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "毎月3社をオプトアウトすることで、オンラインプライバシーを向上させます。"
+  },
+  "subscribe.alertsOneLiner2": {
+    "message": "私たちの研究チームは最悪のプライバシー侵害者を手に取っています"
+  },
+  "subscribe.signup": {
+    "message": "新規登録"
+  },
+  "subscribe.title": {
+    "message": "プライバシー警告メールにサインアップしてください！"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "クリップボードにコピーされました。メールに貼り付けて、再び送信をクリックするだけです。"
+  },
+  "thankyou.copyPart1Email": {
+    "message": "電子メールアプリケーションで開いているはずです。メールを確認し、format@@0をクリックするだけです。"
+  },
+  "thankyou.copyPart2CCPA": {
+    "message": "組織は、 <em>45日</em> を遵守する必要があり、システム内であなたを識別するための追加情報を求めることがあります。"
+  },
+  "thankyou.copyPart2GDPR": {
+    "message": "組織は遵守すべき <em>1ヶ月</em> を所有しており、システム内であなたを識別するための追加情報を求める場合があります。"
+  },
+  "thankyou.copyPart3": {
+    "message": "詳細については、 <a>よくある質問</a> のリストをご覧ください。"
+  },
+  "thankyou.description": {
+    "message": "ありがとうございます"
+  },
+  "thankyou.donation": {
+    "message": "長期的な金融の安定と自立を確保するために寄付を行うことを検討してください。"
+  },
+  "thankyou.findCompany": {
+    "message": "別の組織を探す"
+  },
+  "thankyou.howLongToReply": {
+    "message": "組織は遵守すべき {days} を持っており、システム内であなたを識別するのに役立つ追加情報を求めることがあります。"
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "アクセスリクエスト"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "削除リクエスト"
+  },
+  "thankyou.seotitle": {
+    "message": "ありがとうございます"
+  },
+  "thankyou.title": {
+    "message": "ありがとうございます"
+  }
+}
