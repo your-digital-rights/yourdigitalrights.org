@@ -1,7 +1,5 @@
 import { injectIntl } from "react-intl";
 import { createRef, Component } from "react";
-import RedirectOverlay from "../components/RedirectOverlay";
-import Donations from "../components/Donations";
 import Subscribe from "../components/Subscribe";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -9,7 +7,6 @@ import Hero from "../components/Hero";
 import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import SearchForm from "../components/SearchForm";
-import Social from "../components/Social";
 import tracking from "../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
@@ -56,15 +53,7 @@ class Index extends Component {
     this.state = {
       selectedCompany: null,
       screenWidth: null,
-      showRedirectOverlay: false,
     };
-
-    if (
-      typeof window !== "undefined" &&
-      window.location.search.includes("source=optouteu")
-    ) {
-      this.state.showRedirectOverlay = true;
-    }
   }
 
   componentDidMount() {
@@ -138,11 +127,6 @@ class Index extends Component {
     this.searchFormRef.current.focusInput();
   }
 
-  closeRedirectOverlay() {
-    window.history.replaceState("home", "Home", "/");
-    this.setState({ ...this.state, showRedirectOverlay: false });
-  }
-
   renderSearchForm() {
     return (
       <SearchForm
@@ -192,9 +176,6 @@ class Index extends Component {
             <Subscribe page="homepage" />
           </div>
           <Footer />
-          {this.state.showRedirectOverlay && (
-            <RedirectOverlay close={() => this.closeRedirectOverlay()} />
-          )}
         </div>
       </div>
     );

@@ -5,5 +5,6 @@ import * as fr from './fr';
 import * as es from './es';
 import * as pt from './pt';
 import * as az from './az';
+import * as ja from './ja';
 
-export {en, it, es, pt, de, fr, az};
+export {en, it, es, pt, de, fr, az, ja};

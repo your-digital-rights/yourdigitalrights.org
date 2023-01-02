@@ -10,13 +10,12 @@ export default async function fetchData() {
         if (response.ok) {
           return response.json();
         }
-
         throw new Error(`HTTP error ${response.status} from ${url}`);
       })
       .then((json) => {
         return json;
-      });
+      })
+      .catch(console.error);
   }
-
   return data;
 }

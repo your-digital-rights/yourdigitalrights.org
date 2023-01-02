@@ -14,7 +14,7 @@
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a creation of "
+      "value": "YourDigitalRights.org é uma criação de "
     },
     {
       "type": 1,
@@ -22,7 +22,7 @@
     },
     {
       "type": 0,
-      "value": ", a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+      "value": ", uma instituição de caridade registrada que cria iniciativas digitais centradas em pessoas promovendo e promovendo os direitos humanos digitais."
     }
   ],
   "about.contact": [
@@ -34,7 +34,7 @@
   "about.contactText": [
     {
       "type": 0,
-      "value": "Contact us at "
+      "value": "Contate-nos em "
     },
     {
       "type": 1,
@@ -116,13 +116,13 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "This project is funded by its creators, and with the help of your donations."
+      "value": "Este projeto é financiado por seus criadores e com a ajuda de suas doações."
     }
   ],
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the "
+      "value": "Acreditamos que a privacidade é um direito humano básico e que o exercício deste direito deve ser facilmente acessível a todos. Regulamentos de proteção de dados como "
     },
     {
       "type": 1,
@@ -130,7 +130,7 @@
     },
     {
       "type": 0,
-      "value": " (EU), the "
+      "value": " (UE), "
     },
     {
       "type": 1,
@@ -138,7 +138,7 @@
     },
     {
       "type": 0,
-      "value": " (California), and the "
+      "value": " (California), e "
     },
     {
       "type": 1,
@@ -146,25 +146,25 @@
     },
     {
       "type": 0,
-      "value": " (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+      "value": " (Brasil) fornecem a infraestrutura legal para proteger o direito fundamental das pessoas à privacidade on-line."
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+      "value": "Os regulamentos relativos à privacidade são um passo na direcção certa. mas exercer os seus direitos ao abrigo destas legislações é ainda suficientemente difícil para que a maioria das pessoas não se preocupe com isso. A situação é agravada porque muitas organizações tornam difícil arquivar as solicitações de dados (por exemplo, não publicando nenhum endereço de e-mail corporativo em seu site). O nosso objectivo é tornar acessíveis a todos os direitos conferidos por estas legislações."
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
+      "value": "Isto é um serviço gratuito. Não somos uma empresa e não temos um modelo de negócios. Não oferecemos qualquer serviço às organizações da lista. Nós não coletamos ou trocamos nenhum dado pessoal. Este serviço é "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Open Source"
+          "value": "de código aberto"
         }
       ],
       "type": 8,
@@ -216,7 +216,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+      "value": " - para fornecer uma versão hospedada do Matomo (Piwik), a plataforma de análise de código aberto e de espírito privado."
     }
   ],
   "about.sponsorsBody6": [
@@ -242,7 +242,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+      "value": "Gostaríamos de agradecer às seguintes organizações por apoiarem o nosso esforço em código aberto, fornecendo uma versão gratuita ou com desconto de seus serviços:"
     }
   ],
   "about.title": [
@@ -398,7 +398,7 @@
   "contribute.devSkills": [
     {
       "type": 0,
-      "value": "We are currently looking for Machine Learning, React and AWS engineers."
+      "value": "Estamos atualmente procurando por Machine Learning, React e Engenheiros AWS."
     }
   ],
   "contribute.devTitle": [
@@ -476,7 +476,7 @@
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+      "value": "Este projeto é desenvolvido e mantido inteiramente por voluntários. Se estão preocupados com a perda de privacidade, com o capitalismo desenfreado da vigilância, microdirecionamento e desinformação e a natureza viciante dos serviços digitais, então você pode ajudar:"
     }
   ],
   "contribute.title": [
@@ -494,7 +494,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "Usamos a plataforma online "
     },
     {
       "children": [
@@ -508,13 +508,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available "
+      "value": " para criar facilmente as strings de tradução. Isso torna o processo muito mais fácil e não requer que você saiba nada sobre programação. Há um rápido tutorial disponível "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "aqui"
         }
       ],
       "type": 8,
@@ -522,7 +522,7 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": ". Siga estes passos para começar:"
     }
   ],
   "contribute.translateTitle": [
@@ -596,13 +596,13 @@
   "donations.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Doar"
     }
   ],
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+      "value": "YourDigitalRights.org foi criado porque acreditamos que a privacidade é importante, e que exercer seu direito à privacidade deve ser fácil. É por isso que fizemos gratuitamente. Doando ou se tornando um membro de suporte, você pode ajudar a garantir nossa estabilidade financeira e independência a longo prazo."
     }
   ],
   "donations.headingDonate": [
@@ -614,25 +614,25 @@
   "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+      "value": "SeuDigitalrights rg é um serviço gratuito que ajuda você a recuperar o controle de sua privacidade on-line, facilitando o acesso das organizações a excluir ou fornecer uma cópia das informações pessoais que elas têm em você. Fazemos isso automatizando o processo delineado em poderosas leis de proteção de dados que lhe dão o direito de excluir ou acessar seus dados. Além de enviar pedidos para organizações, podemos ajudar a garantir que os pedidos sejam resolvidos a seu favor."
     }
   ],
   "faq.body.contact.1": [
     {
       "type": 0,
-      "value": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+      "value": "Por favor, entenda que não podemos fornecer suporte pessoal em relação a solicitações de dados específicas ou à sua experiência com uma determinada organização. Sabemos que, em alguns casos, as organizações podem ser bastante frustrantes, mas, infelizmente, não podemos ajudar e não vamos responder a esses e-mails."
     }
   ],
   "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "For all other requests, please contact us via "
+      "value": "Para todos os outros pedidos, por favor, entre em contato conosco via "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "e-mail"
         }
       ],
       "type": 8,
@@ -646,19 +646,19 @@
   "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "Yes, please!"
+      "value": "Sim, por favor!"
     }
   ],
   "faq.body.contribute.2": [
     {
       "type": 0,
-      "value": "We rely on "
+      "value": "Confiamos em "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "doações"
         }
       ],
       "type": 8,
@@ -666,19 +666,19 @@
     },
     {
       "type": 0,
-      "value": " to ensure our long-term financial stability and independence. You can make a contribution here."
+      "value": " para garantir nossa estabilidade financeira e independência a longo prazo. Você pode fazer uma contribuição aqui."
     }
   ],
   "faq.body.contribute.3": [
     {
       "type": 0,
-      "value": "Please see the information on "
+      "value": "Por favor, veja as informações sobre "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "this page"
+          "value": "esta página"
         }
       ],
       "type": 8,
@@ -686,43 +686,43 @@
     },
     {
       "type": 0,
-      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+      "value": " se você gostaria de relatar um bug, ajude a traduzir o site, ajude com o desenvolvimento ou faça pesquisa."
     }
   ],
   "faq.body.data-protection.1": [
     {
       "type": 0,
-      "value": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
+      "value": "As leis de protecção de dados protegem os indivíduos no que diz respeito ao processamento de suas informações pessoais por organizações. Definem as responsabilidades que as organizações têm no tratamento da informação pessoal e concedem aos indivíduos determinados direitos em relação aos seus dados. Muitos países têm leis de protecção de dados; outros vão mais longe em termos da protecção que proporcionam do que outros."
     }
   ],
   "faq.body.escalate.1": [
     {
       "type": 0,
-      "value": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
+      "value": "As leis de protecção de dados prevêem diversos mecanismos de escalada para estes casos. incluindo a possibilidade de apresentar uma queixa contra a organização junto de uma agência reguladora governamental ou de levar a organização a tribunal (chamada direito de acção privado)."
     }
   ],
   "faq.body.escalate.2": [
     {
       "type": 0,
-      "value": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
+      "value": "Se isto parecer complicado, por favor não se preocupe, podemos ajudar. Ao enviar uma solicitação de dados através deste serviço, ative a opção \"Assistência de acompanhamento inteligente\" para obter conselhos personalizados sobre o que fazer caso uma organização não tenha atendido ao seu pedido. Nós ajudaremos você a comunicar com a organização e, se necessário, a escalar até a agência reguladora do governo."
     }
   ],
   "faq.body.how.1": [
     {
       "type": 0,
-      "value": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
+      "value": "Após selecionar uma organização e preencher um pequeno formulário, geraremos um e-mail de pedido dirigido à organização que você escolheu. O e-mail será aberto em seu aplicativo de e-mail para você revisar e enviar. Opcionalmente, podemos acompanhar você um pouco depois que um pedido foi enviado para garantir que o pedido seja resolvido a seu favor. Isto pode incluir o envio de e-mails de lembretes da organização ou a escalada na agência reguladora do governo."
     }
   ],
   "faq.body.new-regulation.1": [
     {
       "type": 0,
-      "value": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please "
+      "value": "Gostaríamos de apoiar todas as leis de protecção de dados que concedem aos indivíduos o direito de acesso e de exclusão das suas informações pessoais. Por favor, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us"
+          "value": "entre em contato conosco"
         }
       ],
       "type": 8,
@@ -730,55 +730,55 @@
     },
     {
       "type": 0,
-      "value": " if you would like us to add support for a particular regulation."
+      "value": " se você quiser que adicionemos suporte para uma determinada regulação."
     }
   ],
   "faq.body.refuse.1": [
     {
       "type": 0,
-      "value": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
+      "value": "As leis de proteção de dados permitem que as organizações se recusem a excluir suas informações pessoais em determinadas circunstâncias excepcionais. Aqui estão alguns exemplos gerais, mas é preciso ler o regulamento específico que se aplica a vós, para pormenores:"
     }
   ],
   "faq.body.refuse.1.1": [
     {
       "type": 0,
-      "value": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
+      "value": "Quando a organização é legalmente obrigada a manter controle de seus dados (por exemplo, As instituições financeiras devem manter os registos das suas transacções a fim de cumprirem os regulamentos anti-branqueamento de capitais)"
     }
   ],
   "faq.body.refuse.1.2": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
+      "value": "Ao manter seus dados é necessário por razões de liberdade de expressão e informação (incluindo jornalismo e meios académicos, artísticos e literários)"
     }
   ],
   "faq.body.refuse.1.3": [
     {
       "type": 0,
-      "value": "When keeping hold of your data is necessary for public health reasons"
+      "value": "Ao guardar os seus dados, é necessário por motivos de saúde pública"
     }
   ],
   "faq.body.refuse.1.4": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
+      "value": "Ao manter seus dados é necessário para estabelecer, exercer ou defender reivindicações legais"
     }
   ],
   "faq.body.refuse.1.5": [
     {
       "type": 0,
-      "value": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+      "value": "Ao apagar seus dados prejudicaria a pesquisa científica ou histórica ou o arquivamento que é de interesse público"
     }
   ],
   "faq.body.regulations.1": [
     {
       "type": 0,
-      "value": "Please "
+      "value": "Por favor, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us"
+          "value": "entre em contato conosco"
         }
       ],
       "type": 8,
@@ -786,7 +786,7 @@
     },
     {
       "type": 0,
-      "value": " if you would like to help us implement support for additional regulations."
+      "value": " se quiser nos ajudar a implementar suporte para regulamentações adicionais."
     }
   ],
   "faq.body.regulations.location": [
@@ -798,25 +798,25 @@
   "faq.body.regulations.name": [
     {
       "type": 0,
-      "value": "Full Name"
+      "value": "Nome Completo"
     }
   ],
   "faq.body.regulations.short-name": [
     {
       "type": 0,
-      "value": "Abbreviation"
+      "value": "Abreviação"
     }
   ],
   "faq.body.regulations.timelimit": [
     {
       "type": 0,
-      "value": "Time to Reply"
+      "value": "Tempo para responder"
     }
   ],
   "faq.body.requests.1": [
     {
       "type": 0,
-      "value": "We support two types of requests:"
+      "value": "Suportamos dois tipos de pedidos:"
     }
   ],
   "faq.body.requests.1.1": [
@@ -824,7 +824,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Data Deletion Requests"
+          "value": "Pedidos de exclusão de dados"
         }
       ],
       "type": 8,
@@ -832,7 +832,7 @@
     },
     {
       "type": 0,
-      "value": " (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+      "value": " (também conhecido como solicitações de exclusão ou direito de ser esquecido) permitem que você peça a uma organização para excluir suas informações pessoais."
     }
   ],
   "faq.body.requests.1.2": [
@@ -840,7 +840,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Access requests"
+          "value": "Pedidos de acesso"
         }
       ],
       "type": 8,
@@ -848,19 +848,19 @@
     },
     {
       "type": 0,
-      "value": " (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+      "value": " (também conhecidos como Subject Access Requests ou SAR for short) permitem que você peça a uma organização para fornecer uma cópia de suas informações pessoais."
     }
   ],
   "faq.body.trust.1": [
     {
       "type": 0,
-      "value": "We are a registered nonprofit organization called "
+      "value": "Somos uma organização sem fins lucrativos registrada chamada "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Conscious Digital"
+          "value": "Consciente Digital"
         }
       ],
       "type": 8,
@@ -868,13 +868,13 @@
     },
     {
       "type": 0,
-      "value": ". We believe in transparency, and therefore the source code for this service is "
+      "value": ". Acreditamos na transparência e, portanto, o código-fonte para este serviço é "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "open source"
+          "value": "de código aberto"
         }
       ],
       "type": 8,
@@ -882,19 +882,19 @@
     },
     {
       "type": 0,
-      "value": ". As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
+      "value": ". Quanto a outubro de 2022, ajudamos os indivíduos a enviar mais de 100.000 pedidos para organizações variadas"
     }
   ],
   "faq.body.trust.2": [
     {
       "type": 0,
-      "value": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your "
+      "value": "Somos independentes, não vendemos suas informações pessoais, não nos associamos a nenhuma das organizações para as quais ajudamos você a enviar solicitações de dados. Também não fornecemos nenhum serviço a essas organizações. Finalmente, somos financiados por suas "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "doações"
         }
       ],
       "type": 8,
@@ -908,13 +908,13 @@
   "faq.body.trust.3": [
     {
       "type": 0,
-      "value": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our "
+      "value": "Nós projetamos este serviço para que, por padrão, não precisemos coletar nenhuma de suas informações pessoais. Quando certos recursos opcionais exigem que você forneça informações pessoais, nós excluímos estes dados após 120 dias. Consulte nossa "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "privacy policy"
+          "value": "política de privacidade"
         }
       ],
       "type": 8,
@@ -922,43 +922,43 @@
     },
     {
       "type": 0,
-      "value": " for details."
+      "value": " para mais detalhes."
     }
   ],
   "faq.body.verify.1": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
+      "value": "As leis de protecção de dados exigem que as organizações verifiquem a identidade de cada indivíduo que apresenta um pedido para evitar fraudes. A maioria das leis também afirma que o método de verificação deve ser proporcional à natureza dos dados envolvidos. Por exemplo, Se você solicitar uma cópia do seu histórico de mensagens a partir de um fórum comum de internet, basta uma verificação simples de que você possui o endereço de e-mail associado à sua conta. Por outro lado, se você solicitar seu histórico de transações de uma instituição financeira, justifica-se pedir-lhe que forneça informações adicionais, como um documento de identidade com foto e um comprovante de endereço."
     }
   ],
   "faq.body.verify.2": [
     {
       "type": 0,
-      "value": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
+      "value": "Na maioria dos casos, uma simples verificação de que você possui o endereço de e-mail associado à sua conta deve ser suficiente. Quando você usa este serviço para enviar um pedido, um e-mail é enviado do seu aplicativo de e-mail, que fornece essa verificação básica."
     }
   ],
   "faq.body.verify.3": [
     {
       "type": 0,
-      "value": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+      "value": "Para proteger ainda mais suas informações pessoais, os pedidos que geramos em seu nome proíbem explicitamente as organizações de usar as informações pessoais incluídas como parte do pedido para qualquer finalidade que não seja cumprir o pedido."
     }
   ],
   "faq.heading.YDR": [
     {
       "type": 0,
-      "value": "What is YourDigitalRights.org?"
+      "value": "O que é YourDigitalRights.org?"
     }
   ],
   "faq.heading.contact": [
     {
       "type": 0,
-      "value": "I have a further question, how can I contact you?"
+      "value": "Eu tenho mais uma pergunta, como posso entrar em contato com você?"
     }
   ],
   "faq.heading.contribute": [
     {
       "type": 0,
-      "value": "This service is fantastic. Can I help?"
+      "value": "Este serviço é fantástico. Posso ajudar?"
     }
   ],
   "faq.heading.data-protection": [
@@ -970,49 +970,49 @@
   "faq.heading.escalate": [
     {
       "type": 0,
-      "value": "What should I do if an organization does not fully comply with my request?"
+      "value": "O que devo fazer se uma organização não cumprir na íntegra o meu pedido?"
     }
   ],
   "faq.heading.how": [
     {
       "type": 0,
-      "value": "How does the service work?"
+      "value": "Como funciona o serviço?"
     }
   ],
   "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "My country has a new data protection law. Will you support it?"
+      "value": "O meu país tem uma nova lei de protecção de dados. Irá apoiá-la?"
     }
   ],
   "faq.heading.refuse": [
     {
       "type": 0,
-      "value": "Can organizations say no?"
+      "value": "As organizações podem dizer não?"
     }
   ],
   "faq.heading.regulations": [
     {
       "type": 0,
-      "value": "What countries, states, or regulations are supported?"
+      "value": "Que países, Estados ou regulamentos são apoiados?"
     }
   ],
   "faq.heading.requests": [
     {
       "type": 0,
-      "value": "What kind of requests can I make using this service?"
+      "value": "Que tipo de pedidos posso fazer utilizando este serviço?"
     }
   ],
   "faq.heading.trust": [
     {
       "type": 0,
-      "value": "Who is operating this service? Can I trust you?"
+      "value": "Quem está operando este serviço? Posso confiar em você?"
     }
   ],
   "faq.heading.verify": [
     {
       "type": 0,
-      "value": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+      "value": "Uma organização me pediu para fornecer informações pessoais adicionais para verificar minha identidade. Isto é legal? Eles podem usar essa informação para outros fins?"
     }
   ],
   "faq.title": [
@@ -1094,7 +1094,7 @@
   "hero.headerText": [
     {
       "type": 0,
-      "value": "Get organizations to delete your account or provide a copy of your personal information."
+      "value": "Obtenha organizações para excluir sua conta ou fornecer uma cópia das suas informações pessoais."
     }
   ],
   "hero.heading": [
@@ -1106,13 +1106,13 @@
   "hero.intro": [
     {
       "type": 0,
-      "value": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+      "value": "Muitas organizações coletam e vendem seus dados pessoais, muitas vezes sem o seu consentimento. Use este serviço gratuito para lhes enviar uma solicitação de exclusão de dados ou de acesso a um pedido. Comece procurando por uma organização abaixo."
     }
   ],
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+      "value": "usando nosso assistente de acompanhamento inteligente para ajudar a garantir que a organização atenda ao seu pedido, e até mesmo ajudá-lo a escalar o seu pedido ao regulador do governo relevante."
     }
   ],
   "howItWorks.followUpTitle": [
@@ -1142,7 +1142,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "the organization a request to delete, or provide a copy of your data."
+      "value": "a organização uma solicitação para excluir ou fornecer uma cópia dos seus dados."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1160,13 +1160,13 @@
   "howItWorks.whyBody": [
     {
       "type": 0,
-      "value": "We are a registered charity called "
+      "value": "Nós somos uma instituição de caridade registrada chamada "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Conscious Digital"
+          "value": "Consciente Digital"
         }
       ],
       "type": 8,
@@ -1174,13 +1174,13 @@
     },
     {
       "type": 0,
-      "value": ". We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your "
+      "value": ". Criamos este serviço porque acreditamos que a privacidade é importante, e que o exercício do seu direito à privacidade deve ser fácil e gratuito. Não coletamos ou vendemos dados pessoais. O serviço é financiado por seus criadores e com a ajuda de suas "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "doações"
         }
       ],
       "type": 8,
@@ -1200,7 +1200,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "As leis de proteção de dados exigem que as organizações excluam ou forneçam uma cópia dos seus dados mediante solicitação. As organizações têm um curto período de tempo para cumprir, caso contrário, poderão ser sujeitas a multas avultadas. Nossa missão é facilitar o exercício dos seus direitos legais."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1416,7 +1416,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
+          "value": "Ao selecionar esta opção, você está concordando em deixar-nos processar e armazenar as seguintes informações pessoais: seu endereço de e-mail, nome e o texto de seus e-mails de solicitação. Todas as informações pessoais relacionadas a esta solicitação serão automaticamente excluídas de nossos sistemas dentro de 120 dias, a menos que você especifique de outra forma e sempre tenha a opção de excluir esses dados imediatamente. Nós coletamos essa informação automaticamente adicionando um endereço de e-mail especial no campo CC do e-mail de solicitação."
         }
       ],
       "type": 8,
@@ -1564,7 +1564,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Revisar e enviar"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -1756,79 +1756,79 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information."
+      "value": "Inscreva-se nos nossos e-mails de Alertas à Privacidade e a cada mês você receberá uma listagem de e-mail listando as piores empresas de pesquisa identificadas pela nossa equipe de pesquisa. Ao gastar cinco minutos por mês optando por sair dessas empresas, você pode melhorar sua privacidade on-line ao longo do tempo e assumir o controle de suas informações pessoais."
     }
   ],
   "privacyAlerts.seoDescription": [
     {
       "type": 0,
-      "value": "Subscribe to our monthly privacy alerts"
+      "value": "Inscreva-se nos nossos alertas mensais sobre privacidade"
     }
   ],
   "privacyAlerts.seoTitle": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "Alertas De Privacidade"
     }
   ],
   "privacyAlerts.title": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "Alertas De Privacidade"
     }
   ],
   "privacyAlerts.whyPrivacy": [
     {
       "type": 0,
-      "value": "Why you should invest in your privacy?"
+      "value": "Por que você deveria investir em sua privacidade?"
     }
   ],
   "privacyAlerts.whyPrivacyBody1": [
     {
       "type": 0,
-      "value": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+      "value": "Toda interação on-line que fazemos deixa atrás de traços de nossas informações pessoais. As empresas com as quais interagimos, os corretores de dados, os governos e os indivíduos que não estão de modo nenhum interessados nos nossos dados."
     }
   ],
   "privacyAlerts.whyPrivacyBody2": [
     {
       "type": 0,
-      "value": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+      "value": "Esta realidade deixa-nos expostos a diversas campanhas de influência. Estes incluem publicidade on-line direcionada, manipulação política e social através de notícias falsas, vários tipos de fraude, como roubo de identidade, aplicativos de viciação e serviços on-line. Tudo isso é possível graças à abundância de informações pessoais que deixamos para trás."
     }
   ],
   "privacyAlerts.whyPrivacyBody3": [
     {
       "type": 0,
-      "value": "So how do we get it back under control?"
+      "value": "Então, como é que a podemos controlar de novo?"
     }
   ],
   "privacyAlerts.whyPrivacyBody4": [
     {
       "type": 0,
-      "value": "We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+      "value": "Nós projetamos Alertas de Privacidade com base no feedback das pessoas usando nossos serviços. É uma maneira simples de melhorar sua privacidade on-line ao longo do tempo, gastando apenas cinco minutos por mês optando por sair das empresas piores, escolhidas a dedo pela nossa equipe de pesquisa."
     }
   ],
   "privacyAlerts.whySubscribeBody1": [
     {
       "type": 0,
-      "value": "Here are two great reasons why you should subscribe now:"
+      "value": "Aqui estão duas ótimas razões pelas quais você deve se inscrever agora:"
     }
   ],
   "privacyAlerts.whySubscribeBody2": [
     {
       "type": 0,
-      "value": "Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+      "value": "Melhore sua privacidade on-line, e proteja-se a si mesmo e à sua família de campanhas de influência, gastando apenas cinco minutos a cada mês optando por sair das piores empresas que ofendem a privacidade escolhidas a dedo por nossa equipe de pesquisa"
     }
   ],
   "privacyAlerts.whySubscribeBody3": [
     {
       "type": 0,
-      "value": "Help suppor this service and "
+      "value": "Ajude a suportar este serviço e a "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Conscious Digital"
+          "value": "organização sem fins lucrativos"
         }
       ],
       "type": 8,
@@ -1836,13 +1836,13 @@
     },
     {
       "type": 0,
-      "value": ", the nonprofit organization that operates it"
+      "value": " que o opera"
     }
   ],
   "privacyAlerts.whySubscribeTitle": [
     {
       "type": 0,
-      "value": "Why Subscribe?"
+      "value": "Por que se inscrever?"
     }
   ],
   "redirect.continueText": [
@@ -2016,7 +2016,7 @@
   "request.hero.domainTitle": [
     {
       "type": 0,
-      "value": "Domain:"
+      "value": "Domínio:"
     }
   ],
   "request.hero.handledPartially": [
@@ -2084,7 +2084,7 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Reference:"
+      "value": "Referência:"
     }
   ],
   "request.hero.requestNotSent": [
@@ -2376,7 +2376,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Exceptions to the access requirement should be limited and specific."
+              "value": "As exceções ao requisito de acesso devem ser limitadas e específicas."
             }
           ],
           "type": 8,
@@ -2386,7 +2386,7 @@
           "children": [
             {
               "type": 0,
-              "value": "The reasons for denying access should be provided to the individual upon request."
+              "value": "As razões para negar acesso devem ser fornecidas ao indivíduo mediante pedido."
             }
           ],
           "type": 8,
@@ -2396,7 +2396,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege."
+              "value": "Exceções podem incluir informações que são proibitivamente dispendiosas de fornecer, informação que contém referências a outros indivíduos, informações que não podem ser divulgadas por razões jurídicas, de segurança ou de propriedade comercial e de informação sujeita a privilégios de advogado ou litigioso."
             }
           ],
           "type": 8,
@@ -2570,7 +2570,7 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommendation: escalate your request to your "
+      "value": "Recomendação: aumente sua solicitação para seu "
     },
     {
       "type": 1,
@@ -2592,7 +2592,7 @@
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "Recommendation: if you believe "
+      "value": "Recomendação: se você acredita que "
     },
     {
       "type": 1,
@@ -2600,7 +2600,7 @@
     },
     {
       "type": 0,
-      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
+      "value": " deveria ter atendido totalmente o seu pedido então recomendamos que você escale sua solicitação para "
     },
     {
       "type": 1,
@@ -2622,7 +2622,7 @@
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated your request to the "
+      "value": "Você aumentou seu pedido para "
     },
     {
       "type": 1,
@@ -2638,7 +2638,7 @@
     },
     {
       "type": 0,
-      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": "), por favor, continue a se comunicar diretamente com ele. Não há mais nada que nós possamos fazer para ajudar."
     }
   ],
   "request.next.esclateButton": [
@@ -2746,7 +2746,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Congratulations, "
+      "value": "Parabéns, "
     },
     {
       "type": 1,
@@ -2754,13 +2754,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
+      "value": " cumpriu com sucesso o seu pedido. Seus dados pessoais serão excluídos automaticamente deste site dentro de 120 dias a partir da data da sua solicitação original. Como alternativa, você pode "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data now"
+          "value": "excluir seus dados pessoais agora"
         }
       ],
       "type": 8,
@@ -3043,13 +3043,13 @@
   "requestEscalation.esclateButtonForm": [
     {
       "type": 0,
-      "value": "Open Escalation Form"
+      "value": "Abrir Formulário de Intensificação"
     }
   ],
   "requestEscalation.formDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request you will need to complete a form on the "
+      "value": "Para aumentar o seu pedido, você precisará preencher um formulário no site "
     },
     {
       "type": 1,
@@ -3057,7 +3057,7 @@
     },
     {
       "type": 0,
-      "value": " website. Click the button bellow to open the form in a new tab."
+      "value": " . Clique no botão abaixo para abrir o formulário em uma nova guia."
     }
   ],
   "requestEscalation.geography": [
@@ -3075,7 +3075,7 @@
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Revisar e enviar"
     }
   ],
   "search.companyPlaceholder": [
@@ -3099,25 +3099,25 @@
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copy email text to clipboard"
+      "value": "Copiar texto do e-mail para área de transferência"
     }
   ],
   "sendEmailButton.default": [
     {
       "type": 0,
-      "value": "Open in your default email client"
+      "value": "Abra no seu cliente de e-mail padrão"
     }
   ],
   "sendEmailButton.gmail": [
     {
       "type": 0,
-      "value": "Open in Gmail"
+      "value": "Abrir no Gmail"
     }
   ],
   "sendEmailButton.yahoo": [
     {
       "type": 0,
-      "value": "Open in Yahoo Mail"
+      "value": "Abrir no Yahoo Mail"
     }
   ],
   "social.chromeCTA": [
@@ -3186,40 +3186,100 @@
       "value": "Descubra quais organizações possuem dados pessoais sobre você e solicite a exclusão dos mesmos. Confira mais em yourdigitalrights.org."
     }
   ],
+  "stats.alltime": [
+    {
+      "type": 0,
+      "value": "Todos os tempos"
+    }
+  ],
+  "stats.body.count": [
+    {
+      "type": 0,
+      "value": "Quantidade"
+    }
+  ],
+  "stats.body.org-name": [
+    {
+      "type": 0,
+      "value": "Cliente"
+    }
+  ],
+  "stats.description": [
+    {
+      "type": 0,
+      "value": "Estatísticas de requisição de dados"
+    }
+  ],
+  "stats.month": [
+    {
+      "type": 0,
+      "value": "Este Mês"
+    }
+  ],
+  "stats.statsTitle": [
+    {
+      "type": 0,
+      "value": "Solicitar estatísticas"
+    }
+  ],
+  "stats.title": [
+    {
+      "type": 0,
+      "value": "Solicitar estatísticas"
+    }
+  ],
+  "stats.total": [
+    {
+      "type": 0,
+      "value": "Total de pedidos enviados:"
+    }
+  ],
+  "stats.week": [
+    {
+      "type": 0,
+      "value": "Esta semana"
+    }
+  ],
+  "stats.year": [
+    {
+      "type": 0,
+      "value": "Este Ano"
+    }
+  ],
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Improve your online privacy over time by opting out of 3 companies each month."
+      "value": "Melhore sua privacidade on-line com o tempo, optando por sair de 3 empresas por mês."
     }
   ],
   "subscribe.alertsOneLiner2": [
     {
       "type": 0,
-      "value": "Our research team hand-picks the worst privacy offenders."
+      "value": "Nossa equipe de pesquisa escolhe os piores autores de privacidade."
     }
   ],
   "subscribe.signup": [
     {
       "type": 0,
-      "value": "Sign up"
+      "value": "Criar conta"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Sign up to our privacy alerts emails!"
+      "value": "Inscreva-se nos nossos e-mails de alertas de privacidade!"
     }
   ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+      "value": "foi copiado para a área de transferência, tudo o que você precisa fazer é colá-lo em um e-mail, reivew e clicar em Enviar."
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "e-mail deve ter aberto em seu aplicativo de e-mail, tudo o que você precisa fazer é revisá-lo e clicar em Enviar."
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -3285,13 +3345,13 @@
   "thankyou.description": [
     {
       "type": 0,
-      "value": "Thank you"
+      "value": "Muito obrigado"
     }
   ],
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+      "value": "Por favor, considere fazer uma doação para ajudar a garantir a nossa estabilidade financeira e independência a longo prazo:"
     }
   ],
   "thankyou.findCompany": [
@@ -3317,13 +3377,13 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access request"
+      "value": "Uma solicitação de acesso"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion request"
+      "value": "Um pedido de exclusão"
     }
   ],
   "thankyou.seotitle": [

@@ -6,13 +6,13 @@
     "message": "Chi siamo"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+    "message": "YourDigitalRights.org è una creazione di {cd}, una beneficenza registrata che crea iniziative digitali incentrate sulle persone che promuovono e promuovono i diritti umani digitali."
   },
   "about.contact": {
     "message": "Contatto"
   },
   "about.contactText": {
-    "message": "Contact us at {email}."
+    "message": "Contattaci a {email}."
   },
   "about.contributors": {
     "message": "Contributori"
@@ -39,16 +39,16 @@
     "message": "Finanziamento"
   },
   "about.fundingBody1": {
-    "message": "This project is funded by its creators, and with the help of your donations."
+    "message": "Questo progetto è finanziato dai suoi creatori e con l'aiuto delle vostre donazioni."
   },
   "about.missionBody1": {
-    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+    "message": "Riteniamo che la privacy sia un diritto umano fondamentale e che l'esercizio di tale diritto debba essere facilmente accessibile a tutti. Regolamenti sulla protezione dei dati come {GDPR} (UE), il {CCPA} (California), e il {LGPD} (Brasile) fornisce l'infrastruttura legale per proteggere il diritto fondamentale delle persone alla privacy online."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+    "message": "Le norme sulla privacy sono un passo nella giusta direzione, ma esercitare i vostri diritti ai sensi di queste leggi è ancora abbastanza difficile per la maggior parte delle persone di non preoccuparsi con esso. La situazione è peggiorata perché molte organizzazioni rendono difficile il file di richieste di dati (ad esempio non pubblicando alcun indirizzo email aziendale sul loro sito web). Il nostro obiettivo è rendere accessibili a tutti i diritti conferiti da queste legislazioni."
   },
   "about.missionBody3": {
-    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+    "message": "Questo è un servizio gratuito, non siamo un business e non abbiamo un modello di business. Non offriamo alcun servizio alle organizzazioni nella lista. Non raccogliamo né commercializziamo alcun dato personale. Questo servizio è <a>Open Source</a>."
   },
   "about.sponsors": {
     "message": "Organizzazioni Di Supporto"
@@ -60,7 +60,7 @@
     "message": "{featureupvote} - per aver fornito un modo efficace per raccogliere il feedback della community in merito al nostro {roadmap}."
   },
   "about.sponsorsBody4": {
-    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+    "message": "{innocraft} - per fornire una versione ospitata di Matomo (Piwik), la piattaforma di analisi web open-source e di mentalità sulla privacy."
   },
   "about.sponsorsBody6": {
     "message": "{sws} - per averci aiutato a implementare una strategia SEO."
@@ -69,7 +69,7 @@
     "message": "{ama} - per aiutarci a capire e sostenere il regolamento brasiliano sulla privacy dei dati, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+    "message": "Ringraziamo le seguenti organizzazioni per aver sostenuto il nostro impegno open-source fornendo una versione gratuita o scontata dei loro servizi:"
   },
   "about.title": {
     "message": "Chi siamo"
@@ -114,7 +114,7 @@
     "message": "I nostri repository sono ospitati su GitHub, il principale è per questo <a>sito Web</a>. Il modo migliore per iniziare è contattarci tramite <email>email</email>. Ti aggiungeremo quindi al nostro canale slack e condivideremo gli sforzi di sviluppo in corso. In alternativa, sentiti libero di clonare il repository e inviare richieste di unione."
   },
   "contribute.devSkills": {
-    "message": "We are currently looking for Machine Learning, React and AWS engineers."
+    "message": "Attualmente siamo alla ricerca di Machine Learning, React e ingegneri AWS."
   },
   "contribute.devTitle": {
     "message": "Aiuto con lo sviluppo"
@@ -126,13 +126,13 @@
     "message": "Segnala un problema"
   },
   "contribute.research": {
-    "message": "Siamo sempre alla ricerca di modi migliori per promuovere i diritti digitali e renderli più accessibili. Che si tratti di capire meglio come le persone usano la tecnologia o come le organizzazioni ne abusano, ci sono sempre progetti di ricerca in corso. Per favore <email>email</email> us se vuoi essere coinvolto."
+    "message": "Siamo sempre alla ricerca di modi migliori per promuovere i diritti digitali e renderli più accessibili. Che si tratti di capire meglio come le persone usano la tecnologia o come le organizzazioni ne abusano, ci sono sempre progetti di ricerca in corso. Per favore <email>email</email> noi se vuoi essere coinvolto."
   },
   "contribute.researchTitle": {
     "message": "Aiuto con la ricerca"
   },
   "contribute.subtitle": {
-    "message": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    "message": "Questo progetto è sviluppato e mantenuto interamente dai volontari. Se siete preoccupati per la perdita di privacy, capitalismo di sorveglianza dilagante, micro-targeting e disinformazione e la natura dipendente dei servizi digitali allora si può aiutare:"
   },
   "contribute.title": {
     "message": "Contribuire"
@@ -141,7 +141,7 @@
     "message": "Vorremmo che questo servizio fosse disponibile in molte lingue. Se il tuo non è tra quelli attualmente disponibili, o ha bisogno di aggiornamenti o miglioramenti, ci farebbe piacere il tuo aiuto!"
   },
   "contribute.translate2": {
-    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+    "message": "Usiamo la piattaforma online <a>Crowdin</a> per creare facilmente le stringhe di traduzione. Rende il processo molto più facile, e non richiede di sapere nulla di programmazione. C'è un rapido tutorial disponibile <b>qui</b>. Segui questi passaggi per iniziare:"
   },
   "contribute.translateTitle": {
     "message": "Traduci il sito web"
@@ -174,142 +174,142 @@
     "message": "Cancella i miei dati"
   },
   "donations.donate": {
-    "message": "Donate"
+    "message": "Dona"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+    "message": "YourDigitalRights.org è stato creato perché crediamo che la privacy conti, e che l'esercizio del vostro diritto alla privacy dovrebbe essere facile. Questo è il motivo per cui lo abbiamo reso gratuito. Donando o diventando un membro di supporto puoi contribuire a garantire la nostra stabilità finanziaria a lungo termine e l'indipendenza."
   },
   "donations.headingDonate": {
     "message": "Abbiamo bisogno del tuo supporto"
   },
   "faq.body.YDR.1": {
-    "message": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+    "message": "I Tuoi Diritti Digitali. rg è un servizio gratuito che ti aiuta a riconquistare il controllo della tua privacy online rendendo facile ottenere le organizzazioni di eliminare o fornire una copia delle informazioni personali che hanno su di te. Lo facciamo automatizzando il processo delineato in potenti leggi sulla protezione dei dati che ti danno il diritto di eliminare o accedere ai tuoi dati. Oltre a inviare richieste alle organizzazioni, possiamo contribuire a garantire che le richieste siano risolte a tuo favore."
   },
   "faq.body.contact.1": {
-    "message": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+    "message": "Si prega di capire che non possiamo fornire supporto personale per specifiche richieste di dati o la vostra esperienza con una particolare organizzazione. Sappiamo che, in alcuni casi, le organizzazioni possono essere piuttosto frustranti, ma purtroppo non possiamo aiutare e non risponderemo a tali e-mail."
   },
   "faq.body.contact.2": {
-    "message": "For all other requests, please contact us via <a>email</a>."
+    "message": "Per tutte le altre richieste, ti preghiamo di contattarci via <a>email</a>."
   },
   "faq.body.contribute.1": {
-    "message": "Yes, please!"
+    "message": "Sì, per favore!"
   },
   "faq.body.contribute.2": {
-    "message": "We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
+    "message": "Ci affidiamo a <a>donazioni</a> per garantire la nostra stabilità finanziaria a lungo termine e l'indipendenza."
   },
   "faq.body.contribute.3": {
-    "message": "Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+    "message": "Si prega di vedere le informazioni su <a>questa pagina</a> se si desidera segnalare un bug, aiutare a tradurre il sito web, assistere con lo sviluppo o condurre la ricerca."
   },
   "faq.body.data-protection.1": {
-    "message": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
+    "message": "Le leggi sulla protezione dei dati proteggono le persone con riguardo al trattamento dei loro dati personali da parte delle organizzazioni. Essi definiscono le responsabilità che le organizzazioni hanno quando trattano i dati personali e riconoscono alle persone determinati diritti in relazione ai loro dati. Molti paesi hanno leggi in materia di protezione dei dati; alcuni si spingono oltre in termini di protezione offerta rispetto ad altri."
   },
   "faq.body.escalate.1": {
-    "message": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
+    "message": "Le leggi sulla protezione dei dati prevedono vari meccanismi di escalation per tali casi, compresa la possibilità di presentare un reclamo contro l'organizzazione presso un'agenzia governativa di regolamentazione o di adire il tribunale (chiamato diritto di azione privato)."
   },
   "faq.body.escalate.2": {
-    "message": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
+    "message": "Se questo suona complicato, per favore non preoccuparti; possiamo aiutare. Quando si invia una richiesta di dati tramite questo servizio, attivare l'opzione “Smart Follow-up Assistance” per ottenere consigli personalizzati su cosa fare nel caso in cui un'organizzazione non abbia soddisfatto la tua richiesta. Vi aiuteremo a comunicare con l'organizzazione e, se necessario, ad aumentare verso l'agenzia di regolamentazione del governo."
   },
   "faq.body.how.1": {
-    "message": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
+    "message": "Dopo aver selezionato un'organizzazione e aver compilato un breve modulo, genereremo una e-mail di richiesta indirizzata all'organizzazione che hai scelto. L'email si aprirà nella tua app di posta elettronica per voi per rivedere e inviare. Facoltativamente, possiamo seguire con te un po 'dopo che una richiesta è stata inviata per garantire che la richiesta sia risolta a tuo favore. Ciò può includere l'invio di e-mail di promemoria dell'organizzazione o l'escalation all'agenzia di regolamentazione del governo."
   },
   "faq.body.new-regulation.1": {
-    "message": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please <a>contact us</a> if you would like us to add support for a particular regulation."
+    "message": "Vorremmo sostenere tutte le leggi sulla protezione dei dati che garantiscono ai singoli il diritto di accedere e cancellare le loro informazioni personali. Per favore <a>contattaci</a> se vuoi che aggiungiamo il supporto per un regolamento particolare."
   },
   "faq.body.refuse.1": {
-    "message": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
+    "message": "Le leggi sulla protezione dei dati consentono alle organizzazioni di rifiutare di cancellare le informazioni personali in determinate circostanze eccezionali. Ecco alcuni esempi generali, ma dovreste leggere il regolamento specifico che si applica a voi per i dettagli:"
   },
   "faq.body.refuse.1.1": {
-    "message": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
+    "message": "Quando l'organizzazione è legalmente obbligata a conservare i propri dati (ad esempio, le istituzioni finanziarie devono conservare le registrazioni delle transazioni per conformarsi alle norme antiriciclaggio)"
   },
   "faq.body.refuse.1.2": {
-    "message": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
+    "message": "La conservazione dei dati è necessaria per motivi di libertà di espressione e di informazione (tra cui il giornalismo e le finalità accademiche, artistiche e letterarie)"
   },
   "faq.body.refuse.1.3": {
-    "message": "When keeping hold of your data is necessary for public health reasons"
+    "message": "La conservazione dei dati è necessaria per motivi di salute pubblica"
   },
   "faq.body.refuse.1.4": {
-    "message": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
+    "message": "La conservazione dei dati è necessaria per stabilire, esercitare o difendere i reclami legali"
   },
   "faq.body.refuse.1.5": {
-    "message": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+    "message": "Nel cancellare i tuoi dati pregiudicherebbe la ricerca scientifica o storica o l'archiviazione che è nell'interesse pubblico"
   },
   "faq.body.regulations.1": {
-    "message": "Please <a>contact us</a> if you would like to help us implement support for additional regulations."
+    "message": "Si prega di <a>contattarci</a> se si desidera aiutarci ad implementare il supporto per ulteriori regolamenti."
   },
   "faq.body.regulations.location": {
     "message": "Posizione"
   },
   "faq.body.regulations.name": {
-    "message": "Full Name"
+    "message": "Nome Completo"
   },
   "faq.body.regulations.short-name": {
-    "message": "Abbreviation"
+    "message": "Abbreviazione"
   },
   "faq.body.regulations.timelimit": {
-    "message": "Time to Reply"
+    "message": "Tempo di risposta"
   },
   "faq.body.requests.1": {
-    "message": "We support two types of requests:"
+    "message": "Sosteniamo due tipi di richieste:"
   },
   "faq.body.requests.1.1": {
-    "message": "<b>Data Deletion Requests</b> (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+    "message": "<b>Richieste di cancellazione dei dati</b> (note anche come richieste di cancellazione o il diritto di essere dimenticate richieste) consentono di chiedere a un'organizzazione di eliminare le tue informazioni personali."
   },
   "faq.body.requests.1.2": {
-    "message": "<b>Access requests</b> (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+    "message": "<b>Le richieste di accesso</b> (note anche come richieste di accesso agli oggetti o SAR per breve) consentono di chiedere a un'organizzazione di fornire una copia delle proprie informazioni personali."
   },
   "faq.body.trust.1": {
-    "message": "We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
+    "message": "Siamo un'organizzazione senza scopo di lucro registrata chiamata <a>Conscious Digital</a>. Crediamo nella trasparenza, e quindi il codice sorgente per questo servizio è <aa>open source</aa>. Per quanto riguarda ottobre 2022, abbiamo aiutato gli individui a inviare più di 100.000 richieste alle organizzazioni varius"
   },
   "faq.body.trust.2": {
-    "message": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your <a>donations</a>."
+    "message": "Siamo indipendenti, non vendiamo le tue informazioni personali, non siamo affiliati a nessuna delle organizzazioni a cui ti aiutiamo a inviare richieste di dati. Inoltre, non forniamo a queste organizzazioni alcun servizio. Infine, siamo finanziati dalle tue <a>donazioni</a>."
   },
   "faq.body.trust.3": {
-    "message": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
+    "message": "Abbiamo progettato questo servizio in modo che, per impostazione predefinita, non ci richieda di raccogliere alcuna delle tue informazioni personali. Quando alcune funzionalità opzionali richiedono di fornire informazioni personali, cancelliamo questi dati dopo 120 giorni. Vedi la nostra <a>privacy policy</a> per i dettagli."
   },
   "faq.body.verify.1": {
-    "message": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
+    "message": "Le leggi sulla protezione dei dati impongono alle organizzazioni di verificare l'identità dell'individuo che presenta una richiesta di prevenzione delle frodi. La maggior parte delle leggi afferma inoltre che il metodo di verifica deve essere proporzionale alla natura dei dati in questione. Ad esempio, se si richiede una copia della cronologia dei messaggi da un tipico forum internet una semplice verifica che possiedi l'indirizzo email associato al tuo account dovrebbe essere sufficiente. D'altra parte, se si richiede la cronologia delle transazioni da un istituto finanziario, sono giustificati nel chiedere di fornire informazioni aggiuntive, come un documento d'identità con foto e la prova dell'indirizzo."
   },
   "faq.body.verify.2": {
-    "message": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
+    "message": "Nella maggior parte dei casi, una semplice verifica che possiedi l'indirizzo email associato al tuo account dovrebbe essere sufficiente. Quando si utilizza questo servizio per inviare una richiesta, viene inviata una e-mail dalla tua app e-mail, che fornisce questa verifica di base."
   },
   "faq.body.verify.3": {
-    "message": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+    "message": "Per proteggere ulteriormente le informazioni personali, le richieste che generiamo per vostro conto vietano esplicitamente alle organizzazioni di utilizzare le informazioni personali incluse nella richiesta per scopi diversi da quello di soddisfare la richiesta."
   },
   "faq.heading.YDR": {
-    "message": "What is YourDigitalRights.org?"
+    "message": "Che cos’è YourDigitalRights.org?"
   },
   "faq.heading.contact": {
-    "message": "I have a further question, how can I contact you?"
+    "message": "Ho un'altra domanda, come posso contattarvi?"
   },
   "faq.heading.contribute": {
-    "message": "This service is fantastic. Can I help?"
+    "message": "Questo servizio è fantastico. Posso aiutare?"
   },
   "faq.heading.data-protection": {
-    "message": "What are data protection laws?"
+    "message": "Quali sono le leggi sulla protezione dei dati?"
   },
   "faq.heading.escalate": {
-    "message": "What should I do if an organization does not fully comply with my request?"
+    "message": "Cosa devo fare se un'organizzazione non soddisfa pienamente la mia richiesta?"
   },
   "faq.heading.how": {
-    "message": "How does the service work?"
+    "message": "Come funziona il servizio?"
   },
   "faq.heading.new-regulation": {
-    "message": "My country has a new data protection law. Will you support it?"
+    "message": "Il mio paese dispone di una nuova legge sulla protezione dei dati? La sosterrete?"
   },
   "faq.heading.refuse": {
-    "message": "Can organizations say no?"
+    "message": "Le organizzazioni possono dire di no?"
   },
   "faq.heading.regulations": {
-    "message": "What countries, states, or regulations are supported?"
+    "message": "Quali paesi, Stati o regolamenti sono sostenuti?"
   },
   "faq.heading.requests": {
-    "message": "What kind of requests can I make using this service?"
+    "message": "Che tipo di richieste posso fare utilizzando questo servizio?"
   },
   "faq.heading.trust": {
-    "message": "Who is operating this service? Can I trust you?"
+    "message": "Chi sta gestendo questo servizio? Posso fidarmi di voi?"
   },
   "faq.heading.verify": {
-    "message": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+    "message": "Un'organizzazione mi ha chiesto di fornire ulteriori informazioni personali per verificare la mia identità. È legale? Possono usare queste informazioni per altri scopi?"
   },
   "faq.title": {
     "message": "Domande frequenti"
@@ -336,16 +336,16 @@
     "message": "esprimere un desiderio sulla nostra tabella di marcia"
   },
   "hero.headerText": {
-    "message": "Get organizations to delete your account or provide a copy of your personal information."
+    "message": "Ottieni le organizzazioni per eliminare il tuo account o fornisci una copia delle tue informazioni personali."
   },
   "hero.heading": {
     "message": "Possiedi i tuoi dati"
   },
   "hero.intro": {
-    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+    "message": "Molte organizzazioni raccolgono e vendono i tuoi dati personali, spesso senza il tuo consenso. Utilizzare questo servizio gratuito per inviare loro una cancellazione dei dati o una richiesta di accesso. Inizia cercando un'organizzazione qui sotto."
   },
   "howItWorks.followUp": {
-    "message": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    "message": "utilizzare il nostro assistente di follow-up intelligente per garantire che l'organizzazione soddisfi la tua richiesta, e anche aiutarvi ad aumentare la vostra richiesta al pertinente regolatore governativo."
   },
   "howItWorks.followUpTitle": {
     "message": "Follow-up"
@@ -360,7 +360,7 @@
     "message": "Ricerca"
   },
   "howItWorks.send": {
-    "message": "the organization a request to delete, or provide a copy of your data."
+    "message": "l'organizzazione una richiesta di cancellazione o di fornire una copia dei tuoi dati."
   },
   "howItWorks.sendTitle": {
     "message": "Spedire"
@@ -369,13 +369,13 @@
     "message": "Come funziona"
   },
   "howItWorks.whyBody": {
-    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
+    "message": "Siamo una carità registrata chiamata <cd>Cosciente Digitale</cd>. Abbiamo creato questo servizio perché crediamo che la privacy conti, e che l'esercizio del vostro diritto alla privacy dovrebbe essere facile e gratuito. Non raccogliamo né vendiamo dati personali. Il servizio è finanziato dai suoi creatori e con l'aiuto delle tue <donations>donazioni</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "Perché fidarsi di noi?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Le leggi sulla protezione dei dati richiedono che le organizzazioni cancellino o forniscano una copia dei dati su richiesta. Le organizzazioni hanno un breve periodo di tempo per conformarsi, altrimenti, possono affrontare multe ripide. La nostra missione è di rendere facile per voi l'esercizio dei vostri diritti legali."
   },
   "howItWorks.yourDataTitle": {
     "message": "Hai il diritto alla privacy!"
@@ -450,7 +450,7 @@
     "message": "Per garantire che l'organizzazione rispetti la tua richiesta, ti invieremo un'email quando sarà il momento di intraprendere ulteriori azioni. Ti verrà data la scelta di inviare all'organizzazione una e-mail di promemoria, o di aumentare all'agenzia di protezione dei dati locale."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
+    "message": "<strong>Selezionando questa opzione accetti di farci elaborare e memorizzare le seguenti informazioni personali: il tuo indirizzo e-mail, nome e testo delle email di richiesta. Tutte le informazioni personali relative a questa richiesta saranno automaticamente cancellate dai nostri sistemi entro 120 giorni, a meno che non specifichi diversamente e hai sempre la scelta di far cancellare immediatamente questi dati. Raccogliamo queste informazioni automaticamente aggiungendo un indirizzo email speciale al campo CC dell'email di richiesta.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
     "message": "Attiva l'assistenza di follow-up intelligente"
@@ -510,7 +510,7 @@
     "message": "Tipo di richiesta"
   },
   "personalInfoForm.sendButton": {
-    "message": "Review and Send"
+    "message": "Rivedi e Invia"
   },
   "personalInfoForm.validEmail": {
     "message": "Inserisci un'email valida."
@@ -594,43 +594,43 @@
     "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
   },
   "privacyAlerts.description1": {
-    "message": "Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information."
+    "message": "Iscriviti alle email dei nostri Avvisi sulla privacy e ogni mese riceverai un'email che elenca le peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Trascorrendo cinque minuti al mese optando per queste aziende, puoi migliorare la tua privacy online nel tempo e riprendere il controllo delle tue informazioni personali."
   },
   "privacyAlerts.seoDescription": {
-    "message": "Subscribe to our monthly privacy alerts"
+    "message": "Iscriviti ai nostri avvisi di privacy mensili"
   },
   "privacyAlerts.seoTitle": {
-    "message": "Privacy Alerts"
+    "message": "Avvisi Sulla Privacy"
   },
   "privacyAlerts.title": {
-    "message": "Privacy Alerts"
+    "message": "Avvisi Sulla Privacy"
   },
   "privacyAlerts.whyPrivacy": {
-    "message": "Why you should invest in your privacy?"
+    "message": "Perché dovresti investire nella tua privacy?"
   },
   "privacyAlerts.whyPrivacyBody1": {
-    "message": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+    "message": "Ogni interazione online che facciamo lascia dietro le tracce delle nostre informazioni personali. Aziende con cui interagiamo con broker di dati, governi e individui che non sono buoni sono tutti interessati ai nostri dati."
   },
   "privacyAlerts.whyPrivacyBody2": {
-    "message": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+    "message": "Questa realtà ci lascia esposti a una varietà di campagne di influenza. Questi includono pubblicità online mirata, manipolazione politica e sociale tramite notizie false, vari tipi di frode, come il furto di identità, e le applicazioni coinvolgenti e servizi online. Tutto ciò è reso possibile dall'abbondanza di informazioni personali che lasciamo alle spalle."
   },
   "privacyAlerts.whyPrivacyBody3": {
-    "message": "So how do we get it back under control?"
+    "message": "Quindi, come possiamo riprenderla sotto controllo?"
   },
   "privacyAlerts.whyPrivacyBody4": {
-    "message": "We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+    "message": "Abbiamo progettato Avvisi sulla privacy in base al feedback delle persone che utilizzano i nostri servizi. Si tratta di un modo semplice per migliorare la tua privacy online nel tempo spendendo solo cinque minuti al mese optando per le aziende più offensive scelte a mano dal nostro team di ricerca."
   },
   "privacyAlerts.whySubscribeBody1": {
-    "message": "Here are two great reasons why you should subscribe now:"
+    "message": "Ecco due grandi motivi per cui dovresti iscriverti ora:"
   },
   "privacyAlerts.whySubscribeBody2": {
-    "message": "Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+    "message": "Migliora la tua privacy online, e proteggere te stesso e la tua famiglia dalle campagne di influenza spendendo solo cinque minuti ogni mese optando per le peggiori aziende offensive di privacy scelte a mano dal nostro team di ricerca"
   },
   "privacyAlerts.whySubscribeBody3": {
-    "message": "Help support this service and the <a>nonprofit organization</a> that operates it"
+    "message": "Aiuta a supportare questo servizio e l'organizzazione <a>senza scopo di lucro</a> che lo gestisce"
   },
   "privacyAlerts.whySubscribeTitle": {
-    "message": "Why Subscribe?"
+    "message": "Perché Abbonarsi?"
   },
   "redirect.continueText": {
     "message": "Continua"
@@ -702,7 +702,7 @@
     "message": "{companyName} non ha ancora risposto."
   },
   "request.hero.domainTitle": {
-    "message": "Domain:"
+    "message": "Dominio:"
   },
   "request.hero.handledPartially": {
     "message": "Gestito parzialmente"
@@ -726,7 +726,7 @@
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Reference:"
+    "message": "Riferimento:"
   },
   "request.hero.requestNotSent": {
     "message": "si prega di inviare l'e-mail di richiesta, quindi aggiornare questa pagina."
@@ -747,19 +747,19 @@
     "message": "<ul><li>Libera parola o altro diritto previsto dalla legge.</li><li>Trattamento a fini di ricerca, se la cancellazione di informazioni personali renderebbe impossibile o seriamente compromettere il conseguimento di tali ricerche.</li><li>Il trattamento di tali dati personali è necessario per proteggere da attività illecite o perseguire i responsabili dell'attività.</li><li>Per adempiere a un obbligo legale.</li><li>Per eseguire un contratto tra l'azienda e il consumatore.</li><li>Individuare gli incidenti di sicurezza, proteggere contro le attività maliziose, ingannevoli, fraudolente o illegali, o perseguire i responsabili di tale attività.</li><li>Debug per identificare e riparare gli errori che compromettono la funzionalità desiderata esistente.</li><li>Abilitare esclusivamente usi interni che siano ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa.</li><li>Altrimenti utilizzare le informazioni personali del consumatore, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni.</li></ul>"
   },
   "request.next.declinePIPEDA": {
-    "message": "<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+    "message": "<ul><li>Le eccezioni al requisito di accesso dovrebbero essere limitate e specifiche.</li><li>Le ragioni del rifiuto di accesso dovrebbero essere fornite all'individuo su richiesta.</li><li>Le eccezioni possono includere informazioni che sono proibitivamente costose da fornire, informazioni che contengono riferimenti ad altri individui, le informazioni che non possono essere divulgate per motivi giuridici, di sicurezza o di proprietà commerciale e le informazioni che sono soggette a privilegi di procuratore-cliente o contenzioso.</li></ul>"
   },
   "request.next.declineVCDPA": {
     "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
+    "message": "Raccomandazione: aumenta la tua richiesta al tuo { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
+    "message": "Raccomandazione: se credi che { companyName } avrebbe dovuto soddisfare pienamente la tua richiesta, poi ti consigliamo di aumentare la tua richiesta al { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
+    "message": "Hai aumentato la tua richiesta al {dpaLong} ({dpaShort}), per favore continua a comunicare direttamente con loro. Non c'è altro che possiamo fare per aiutare."
   },
   "request.next.esclateButton": {
     "message": "Ridimensiona al { authority }"
@@ -795,7 +795,7 @@
     "message": "Cosa c'è di seguito"
   },
   "request.success": {
-    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+    "message": "Congratulazioni, { companyName } ha soddisfatto con successo la tua richiesta. I tuoi dati personali verranno automaticamente cancellati da questo sito entro 120 giorni dalla data della tua richiesta originale. In alternativa puoi <a>eliminare i tuoi dati personali ora</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Ridimensiona la tua richiesta"
@@ -843,10 +843,10 @@
     "message": "Ti preghiamo di spiegare perché non sei soddisfatto di come l'organizzazione ha risposto alla tua richiesta"
   },
   "requestEscalation.esclateButtonForm": {
-    "message": "Open Escalation Form"
+    "message": "Apri Modulo Scala"
   },
   "requestEscalation.formDisclamer": {
-    "message": "In order to escalate your request you will need to complete a form on the {authority} website. Click the button bellow to open the form in a new tab."
+    "message": "Al fine di aumentare la tua richiesta dovrai compilare un modulo sul sito web {authority} . Fare clic sul pulsante sottostante per aprire il modulo in una nuova scheda."
   },
   "requestEscalation.geography": {
     "message": "Posizione"
@@ -855,7 +855,7 @@
     "message": "Seleziona il tuo luogo di residenza"
   },
   "requestEscalation.submit": {
-    "message": "Review and Send"
+    "message": "Rivedi e Invia"
   },
   "search.companyPlaceholder": {
     "message": "Cerca un'organizzazione"
@@ -867,16 +867,16 @@
     "message": "Clicca qui per aggiungerne uno"
   },
   "sendEmailButton.copy": {
-    "message": "Copy email text to clipboard"
+    "message": "Copia testo email negli appunti"
   },
   "sendEmailButton.default": {
-    "message": "Open in your default email client"
+    "message": "Apri nel tuo client email predefinito"
   },
   "sendEmailButton.gmail": {
-    "message": "Open in Gmail"
+    "message": "Apri in Gmail"
   },
   "sendEmailButton.yahoo": {
-    "message": "Open in Yahoo Mail"
+    "message": "Apri in Yahoo Mail"
   },
   "social.chromeCTA": {
     "message": "Scaricalo per Chrome"
@@ -911,23 +911,53 @@
   "social.twitterTitle": {
     "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
   },
+  "stats.alltime": {
+    "message": "Tutto Il Tempo"
+  },
+  "stats.body.count": {
+    "message": "Conteggio"
+  },
+  "stats.body.org-name": {
+    "message": "Organizzazione"
+  },
+  "stats.description": {
+    "message": "Statistiche sulla protezione dei dati."
+  },
+  "stats.month": {
+    "message": "Questo Mese"
+  },
+  "stats.statsTitle": {
+    "message": "Richiedi Statistiche"
+  },
+  "stats.title": {
+    "message": "Richiedi Statistiche"
+  },
+  "stats.total": {
+    "message": "Totale richieste inviate:"
+  },
+  "stats.week": {
+    "message": "Questa Settimana"
+  },
+  "stats.year": {
+    "message": "Questo Anno"
+  },
   "subscribe.alertsOneLiner1": {
-    "message": "Improve your online privacy over time by opting out of 3 companies each month."
+    "message": "Migliora la tua privacy online nel tempo optando per 3 aziende ogni mese."
   },
   "subscribe.alertsOneLiner2": {
-    "message": "Our research team hand-picks the worst privacy offenders."
+    "message": "Il nostro team di ricerca sceglie a mano i peggiori trasgressori di privacy."
   },
   "subscribe.signup": {
-    "message": "Sign up"
+    "message": "Registrati"
   },
   "subscribe.title": {
-    "message": "Sign up to our privacy alerts emails!"
+    "message": "Iscriviti ai nostri avvisi sulla privacy!"
   },
   "thankyou.copyPart1Copy": {
-    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+    "message": "è stato copiato negli appunti, tutto quello che devi fare è incollarlo in un'e-mail, riprenderlo e fare clic su Invia."
   },
   "thankyou.copyPart1Email": {
-    "message": "email should have opened in your email application, all you need to do is review it and click Send."
+    "message": "email avrebbe dovuto aprire nella tua applicazione e-mail, tutto quello che devi fare è rivedere e fare clic su Invia."
   },
   "thankyou.copyPart2CCPA": {
     "message": "L'organizzazione ha <em>45 giorni</em> per conformarsi e potrebbe chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
@@ -939,10 +969,10 @@
     "message": "Si prega di consultare il nostro elenco di <a>Domande frequenti</a> per ulteriori informazioni."
   },
   "thankyou.description": {
-    "message": "Thank you"
+    "message": "Grazie"
   },
   "thankyou.donation": {
-    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+    "message": "Si prega di considerare la possibilità di fare una donazione per contribuire a garantire la nostra stabilità finanziaria a lungo termine e indipendenza:"
   },
   "thankyou.findCompany": {
     "message": "Trova un'altra organizzazione"
@@ -951,15 +981,15 @@
     "message": "Le organizzazioni hanno {days} da rispettare, e potrebbero chiederti ulteriori informazioni per aiutarti a identificarti nei loro sistemi."
   },
   "thankyou.requestTypeAccess": {
-    "message": "An access request"
+    "message": "Una richiesta di accesso"
   },
   "thankyou.requestTypeDelete": {
-    "message": "A deletion request"
+    "message": "Una richiesta di cancellazione"
   },
   "thankyou.seotitle": {
-    "message": "Thank You"
+    "message": "Grazie"
   },
   "thankyou.title": {
-    "message": "Thank You!"
+    "message": "Grazie!"
   }
 }
