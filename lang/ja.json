@@ -375,13 +375,13 @@
     "message": "私たちを信頼して良い理由は？"
   },
   "howItWorks.yourData": {
-    "message": "データ保護法では、組織が要求に応じてお客様のデータのコピーを削除または提供することが義務付けられています。 組織は、それ以外の場合は、彼らは急な罰金に直面することができ、遵守するための短い期間があります。 私たちの使命は、あなたがあなたの法的権利を行使することを容易にすることです。"
+    "message": "多くのデータ保護法は、企業や団体に対し、請求に応じて顧客のデータを開示または削除するこをが義務付けています。 請求を受けた企業や団体は、所定の短い期間内に対応する必要があり、これに反した場合には高額な罰金が課せられます。私たちの使命は、あなたがあなたの法的権利を簡単に行使できるようにすることです。"
   },
   "howItWorks.yourDataTitle": {
     "message": "あなたにはプライバシーの権利があります！"
   },
   "index.description": {
-    "message": "アカウントを削除するか、この無料サービスを使用して組織が持っている個人データにアクセスします。"
+    "message": "Your Digital Rights を使用して、企業や団体が持つあなたに関するデータの削除や開示をリクエストしましょう。"
   },
   "nav.about": {
     "message": "だいたい"
@@ -402,7 +402,7 @@
     "message": "よくある質問"
   },
   "nav.helpTranslate": {
-    "message": "翻訳を支援する"
+    "message": "翻訳作業に参加する"
   },
   "nav.howItWorks": {
     "message": "仕組み"
@@ -411,76 +411,76 @@
     "message": "プライバシーポリシー"
   },
   "nav.search": {
-    "message": "組織を検索"
+    "message": "企業や団体を検索"
   },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "GDPR、CCPA、およびLGPDデータの削除を送信し、この無料サービスを使用して迅速かつ容易に組織へのリクエストにアクセスします。"
+    "message": "Your Digital Rights を使って、 GDPR, CCPA, LGPD に基づくデータの削除・開示リクエストを素早く簡単に送信しましょう。"
   },
   "org.descriptionExistingOrg": {
-    "message": "アカウントの削除または {org} からのあなたの個人データのコピーを迅速かつ容易にこの無料サービスを使用してください。"
+    "message": "Your Digital Rights を使用して、 {org} が持つあなたに関するデータの削除・開示を素早く簡単にリクエストしましょう。"
   },
   "org.titleExistingOrg": {
-    "message": "{org} - アカウントを削除するか、データのコピーを取得します"
+    "message": "{org} - あなたに関するデータの削除や開示の請求をリクエストしましょう"
   },
   "org.titleNewOrg": {
-    "message": "GDPR、CCPA、LGPDデータ削除とアクセスリクエストを送信する"
+    "message": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
   },
   "orgHero.newOrgSubTitle": {
-    "message": "{ccpa} または {gdpr} リクエストを任意の組織に送信します。"
+    "message": "{ccpa} または {gdpr} に基づくリクエストを任意の組織に送信しましょう"
   },
   "orgHero.newOrgTitle": {
-    "message": "個人データを削除またはコピーする"
+    "message": "あなたの個人データを削除や開示させましょう"
   },
   "orgHero.notAffiliatedDisclamer": {
-    "message": "このサービスは <disclamer></disclamer> と提携していません (詳細は <about>私たちの</about> を参照してください)。"
+    "message": "このサービスは、 <disclamer></disclamer> との間に一切の取引関係がありません (詳細は <about>私たちの</about> を参照してください)。"
   },
   "orgHero.orgName": {
-    "message": "組織: {org}."
+    "message": "企業や団体: {org}."
   },
   "orgHero.subTitle": {
-    "message": "この無料サービスを使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
+    "message": "Your Digital Rights を使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
   },
   "orgHero.title": {
     "message": "アカウントの削除または個人データのコピーを要求します。"
   },
   "personalInfoForm.FollowUpDetails": {
-    "message": "組織があなたのリクエストに応じていることを確認するため、時間が来たらメールでお知らせします。 組織にリマインダーメールを送信するか、ローカルデータ保護機関にエスカレートするかを選択できます。"
+    "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
   },
   "personalInfoForm.FollowUpDetailsWarning": {
     "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "スマートフォローアップアシスタンスをオンにする"
+    "message": "スマートフォローアップアシスタンスを有効にする"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
-    "message": "必要に応じて、組織がユーザー名などの情報システムであなたのデータを特定するのに役立つ追加情報を提供します。 顧客IDまたは口座番号。 <strong>組織がまだ持っていないパスワードまたは個人情報を提供しないでください。</strong>"
+    "message": "必要に応じて、企業や団体が彼らの情報システム上であなたのデータを特定するために使う追加の情報（例えば、顧客IDや口座番号等）を提供することができます。<strong>組織がまだ持っていない個人情報やパスワードを記載しないように注意してください。</strong>"
   },
   "personalInfoForm.NoFollowUpLabel": {
-    "message": "いいえ、自分で管理できます"
+    "message": "いいえ、自分で管理します"
   },
   "personalInfoForm.YesFollowUpLabel": {
     "message": "はい、フォローアップの手順をメールしてください"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "自分のデータのコピーを送る"
+    "message": "自分のデータのコピーを送信する"
   },
   "personalInfoForm.companyDomainHelper": {
-    "message": "組織のドメイン名を入力してください (例: google.co.uk または facebook.com)。"
+    "message": "企業や団体のドメイン名を入力してください (例: google.co.uk または facebook.com)。"
   },
   "personalInfoForm.companyDomainLabel": {
-    "message": "組織のドメイン"
+    "message": "企業や団体のドメイン"
   },
   "personalInfoForm.companyEmailLabel": {
-    "message": "組織のメールアドレス"
+    "message": "企業や団体のメールアドレス"
   },
   "personalInfoForm.companyNameHelper": {
-    "message": "連絡したい組織の名前を入力してください。"
+    "message": "連絡したい企業や団体の名前を入力してください。"
   },
   "personalInfoForm.companyNameLabel": {
-    "message": "組織名"
+    "message": "企業や団体の組織名"
   },
   "personalInfoForm.compnayEmailHelper": {
     "message": "GDPR/CCPA/プライバシー/法的要求を処理する担当者または部署のメールアドレスを入力してください。 この情報は、通常、組織のウェブサイトで、プライバシーポリシー、利用規約、またはお問い合わせページで確認できます。"
