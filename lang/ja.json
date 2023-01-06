@@ -483,34 +483,34 @@
     "message": "企業や団体の組織名"
   },
   "personalInfoForm.compnayEmailHelper": {
-    "message": "GDPR/CCPA/プライバシー/法的要求を処理する担当者または部署のメールアドレスを入力してください。 この情報は、通常、組織のウェブサイトで、プライバシーポリシー、利用規約、またはお問い合わせページで確認できます。"
+    "message": "GDPR・CCPA・プライバシー・その他法的リクエストの担当者・担当部署のメールアドレスを入力してください。 通常、この情報は企業や団体のウェブサイト上の、プライバシーポリシー・利用規約・お問い合わせページなどで確認できます。"
   },
   "personalInfoForm.deletionRequestLabelText": {
     "message": "データを削除する"
   },
   "personalInfoForm.headline": {
-    "message": "次のフォームに入力してデータリクエストメールを作成し、確認して送信できます。 詳細については、 <a>よくある質問</a> をご覧ください。"
+    "message": "データに関するリクエストのメールを作成するには、次のフォームに入力してください。メールの内容は送信前に確認することができます。詳細については、 <a>よく寄せられる質問</a> をご覧ください。"
   },
   "personalInfoForm.identifyingInfoLabel": {
-    "message": "追加の識別情報 (オプション)"
+    "message": "企業・団体があなたを特定するための追加情報（任意）"
   },
   "personalInfoForm.nameHelper": {
-    "message": "これは組織によってあなたを識別するために使用されます。"
+    "message": "企業や団体が、彼らの情報システム上であなたを特定するために使用する情報です。"
   },
   "personalInfoForm.nameLabel": {
-    "message": "フルネーム"
+    "message": "氏名（フルネーム）"
   },
   "personalInfoForm.regulationType": {
-    "message": "規制"
+    "message": "データ保護法の種類"
   },
   "personalInfoForm.regulationTypeHelper": {
-    "message": "特定の理由がない限り、居住地に基づいて規制を選択してください。"
+    "message": "特別な理由がなければ、現在の居住地に基づいてデータ保護法の種類を選択してください。"
   },
   "personalInfoForm.requestTypeLabelText": {
     "message": "リクエストタイプ"
   },
   "personalInfoForm.sendButton": {
-    "message": "確認と送信"
+    "message": "内容を確認して送信する"
   },
   "personalInfoForm.validEmail": {
     "message": "有効なメールアドレスを入力してください。"
@@ -519,16 +519,16 @@
     "message": "特集として"
   },
   "privacy.additionalPersonalData": {
-    "message": "フォローアップをリクエスト"
+    "message": "企業・団体へのリマインドメールを送信する"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "本サービスを利用する際には、データリクエストの送信に伴い、お客様は電子メールで当社からのサポートを受けることをオプトインすることができます。 このオプション機能を使用する場合、以下の追加個人情報を収集します。"
+    "message": "データリクエストの送信後、私たちから電子メールでのサポートを受けることを任意で選択することができます。 サポートをご希望の場合、私たちは以下の個人情報を使用します。"
   },
   "privacy.additionalPersonalDataBodyOneA": {
     "message": "あなたのメールアドレス"
   },
   "privacy.additionalPersonalDataBodyOneB": {
-    "message": "組織およびデータ保護機関(DPA)に送信するデータリクエストメールの内容"
+    "message": "企業・団体とデータ保護機関(DPA) に送信するデータリクエストメールの内容"
   },
   "privacy.additionalPersonalDataBodyOneC": {
     "message": "組織およびデータ保護エージェンシー(DPA)に送信するデータリクエストメールに関するメタデータ 例えばメールが送られてきた時間"
@@ -855,7 +855,7 @@
     "message": "居住地を選択してください"
   },
   "requestEscalation.submit": {
-    "message": "確認と送信"
+    "message": "内容を確認して送信する"
   },
   "search.companyPlaceholder": {
     "message": "組織を検索"
