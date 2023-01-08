@@ -25,9 +25,9 @@ export default {
     data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
     data.previousEmails = assemblePreviusEmails(requestItem, "en")
 
-    var templateFile = "reminder.template";
+    var templateFile = "reminder.en.template";
     if (requestItem.regulationType.S === "LGPD") {
-      templateFile = "reminder.lgpd.template";
+      templateFile = "reminder.pt.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

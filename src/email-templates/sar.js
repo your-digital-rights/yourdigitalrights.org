@@ -16,9 +16,9 @@ export default {
   },
   body(data) {
     data.regulation = Regulations[data.regulationType];
-    var templateFile = "access.template";
+    var templateFile = "access.en.template";
     if (data.regulationType === "LGPD") {
-      templateFile = "access.lgpd.template";
+      templateFile = "access.pt.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

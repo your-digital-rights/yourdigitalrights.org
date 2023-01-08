@@ -27,9 +27,9 @@ export default {
     }
     data.previousEmails = assemblePreviusEmails(requestItem, "en")
 
-    var templateFile = "escalation.template";
+    var templateFile = "escalation.en.template";
     if (requestItem.regulationType.S === "LGPD") {
-      templateFile = "escalation.lgpd.template";
+      templateFile = "escalation.pt.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });
