@@ -642,22 +642,22 @@
     "message": "良いお知らせです。このサービスは成長しています！　先日、私たちはカリフォルニア州消費者プライバシー法(CCPA)に対応し、削除に加えて新たな種類のリクエストにも対応する予定です。結果として、「opt-out.eu」というドメイン名は範囲が狭すぎると考えるようになりました。私たちはこれまで以上に強くあなたのデジタル人権を実現することに取り組みます。新しいホーム、 @ <style>yourdigitalrights.org</style> にようこそ！"
   },
   "request.description": {
-    "message": "この無料サービスで送信された {regulationType} リクエストの詳細を表示します。"
+    "message": "Your Digital Rights で送信した {regulationType} リクエストの詳細を表示します。"
   },
   "request.details.date": {
     "message": "リクエストメールの日付:"
   },
   "request.details.escalationDate": {
-    "message": "エスカレーションメールの日付:"
+    "message": "エスカレーションメールの送信日:"
   },
   "request.details.header": {
-    "message": "要求の詳細"
+    "message": "リクエストの詳細"
   },
   "request.details.hide.escalation": {
     "message": "エスカレーションメールを隠す"
   },
   "request.details.hide.reminder": {
-    "message": "リマインダーメールを隠す"
+    "message": "リマインダーメールを非表示"
   },
   "request.details.hide.request": {
     "message": "リクエストメールを非表示"
@@ -675,10 +675,10 @@
     "message": "規制:"
   },
   "request.details.reminderDate": {
-    "message": "リマインダーメールの日付:"
+    "message": "リマインダーメールの送信日:"
   },
   "request.details.sentTo": {
-    "message": "受信者のメールアドレス:"
+    "message": "送信先のメールアドレス:"
   },
   "request.details.show.escalation": {
     "message": "エスカレーションメールを表示"
@@ -690,10 +690,10 @@
     "message": "リクエストメールを表示"
   },
   "request.details.type": {
-    "message": "要求の種類:"
+    "message": "リクエストの種類:"
   },
   "request.hero.declined": {
-    "message": "辞退しました"
+    "message": "拒否されたリクエスト"
   },
   "request.hero.declinedRequest": {
     "message": "{companyName} はあなたのリクエストを拒否しました。"
@@ -705,7 +705,7 @@
     "message": "ドメイン:"
   },
   "request.hero.handledPartially": {
-    "message": "部分的に処理"
+    "message": "部分的に処理されたリクエスト"
   },
   "request.hero.handledRequest": {
     "message": "{companyName} があなたのリクエストを処理しました。"
@@ -732,10 +732,10 @@
     "message": "リクエストメールを送ってページを更新してください"
   },
   "request.hero.requestStatus": {
-    "message": "リクエストステータス:"
+    "message": "リクエストの状況:"
   },
   "request.next.circumstancesToDecline": {
-    "message": "特定の例外的な状況では、組織が法的にあなたの要求に従うことを拒否することを許可されています。"
+    "message": "特定の例外的な状況では、企業・団体が適法にあなたのリクエストを拒否することが認められています。"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
@@ -753,25 +753,25 @@
     "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "おすすめ: リクエストを { authorityLong } ({authorityShort} ) までエスカレートさせます。"
+    "message": "リクエストを { authorityLong } ({authorityShort} ) にエスカレーションすることを推奨します。"
   },
   "request.next.escalateToAuthorityPartial": {
     "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "あなたは {dpaLong} ({dpaShort}) へのリクエストをエスカレートさせました。彼らと直接連絡を取り続けてください。 私たちにできることは他にありません。"
+    "message": "リクエストを {dpaLong} ({dpaShort}) をエスカレーションしました。エスカレーション先の機関と直接連絡を取るようお願いします。私たちがお手伝いできるのはここまでとなります。"
   },
   "request.next.esclateButton": {
-    "message": "{ authority } にエスカレート"
+    "message": "{ authority } にエスカレーション"
   },
   "request.next.findOutMore": {
-    "message": "これらの例外の詳細をご覧ください"
+    "message": "どのような状況が例外として認められるかを確認する"
   },
   "request.next.organizationsHaveXDays": {
-    "message": "{regulationType} の組織によると、リクエストに返信するのに { timeLimit } 日かかります。"
+    "message": "{regulationType} によれば、企業や団体は { timeLimit } 日の間にリクエストに返信すれば良いことになっています。"
   },
   "request.next.reminderButton": {
-    "message": "組織にリマインダーメールを送信する"
+    "message": "企業・団体にリマインダーメールを送信する"
   },
   "request.next.selectTheOptions1": {
     "message": "以下のオプションから選択してください："
@@ -783,16 +783,16 @@
     "message": "待ちたくない場合は、以下のオプションから選択してください:"
   },
   "request.next.sendAReminderEmail": {
-    "message": "推奨事項:組織にリマインダーメールを送信します。"
+    "message": "企業・団体にリマインダーメールを送信することを推奨します。"
   },
   "request.next.waitUntilXDays": {
-    "message": "おすすめ：リクエストを処理するために、 { timeLimit } 日が経過するまでお待ちください。"
+    "message": "企業・団体がリクエストを処理するまで、 { timeLimit } 日間お待ちください。"
   },
   "request.next.waitUntilXDaysAfterReminder": {
-    "message": "推奨事項: 組織にあなたのリクエストを予測する時間を与えるために、リクエストが送信された日付から { timeLimit } 日間経過するまでお待ちください。 リマインダーのメールをフォローしています"
+    "message": "リクエストの送信日から { timeLimit } 日が経過するまで待って、リマインダーメールに従って企業・団体がリクエストを処理する時間を与えることを推奨します。"
   },
   "request.next.whatsNext": {
-    "message": "次の内容"
+    "message": "次にやること"
   },
   "request.success": {
     "message": "おめでとうございます。 { companyName } さんがあなたのリクエストに成功しました。 お客様の個人データは、元のリクエストから120日以内に自動的に削除されます。 あるいはformat@@0今すぐ個人データを <a>削除</a>することもできます。"
