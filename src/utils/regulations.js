@@ -337,7 +337,7 @@ const Regulations = {
   },
   LGPD: {
     displayName: 'LGPD',
-    gepgraphy: 'Brazil',
+    gepgraphy: 'Brasil',
     longName: 'Lei Geral de Proteção de Dados Pessoais',
     timeLimit: 15,
     escalation_timeLimit: 30,
@@ -466,6 +466,51 @@ const Regulations = {
       }
     } 
   },  
+  APPI: {
+    displayName: 'APPI',
+    gepgraphy: '日本',
+    longName: '個人情報の保護に関する法律',
+    timeLimit: 14,
+    escalation_timeLimit: 28,
+    dpa: {
+      shortName: '委員会',
+      longName: '個人情報保護委員会',
+      requestFormURL: 'https://www.ppc.go.jp/personalinfo/pipldial/',
+      phoneNumber: '03-6457-9849',
+      defaultAction: 'phone',
+      geographies: [
+        {
+          name: 'Japan',
+          countryCode: 'JP',
+          email: '',
+          website: 'https://www.ppc.go.jp/',
+        },
+      ],
+    },
+    regulationURL: 'https://elaws.e-gov.go.jp/document?lawid=415AC0000000057',
+    requestTypes: {
+      DELETION: {
+        name: '利用停止等請求',
+        article: '第三十条',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declinePIPEDA"
+            defaultMessage="<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://laws-lois.justice.gc.ca/eng/acts/P-8.6/page-7.html#h-417659',
+      },
+      ACCESS: {
+        name: '開示請求',
+        article: '第二十八条',        
+      }
+    } 
+  },  
+ 
 };
 
 export default Regulations;

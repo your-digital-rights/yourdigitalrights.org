@@ -11,6 +11,7 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
   const [showReminderEmail, showReminderEmailEmail] = useState(false);
   const [showEscalationEmail, showEscalationEmailEmail] = useState(false);
   const regulationType = Regulations[requestItem.regulationType.S].longName;
+  const requestType = Regulations[requestItem.regulationType.S].requestTypes[requestItem.requestType.S].name;
 
   return (
     <div className={classes.root} id="requestDetails">
@@ -26,7 +27,7 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
           {requestItem.requestEmailTo && (
             <dl className={classes.detailsList}>
               <dt><FormattedMessage id="request.details.type" defaultMessage="Request type:" /></dt>
-              <dd>{ requestItem.requestType.S }</dd>
+              <dd>{ requestType }</dd>
               <dt><FormattedMessage id="request.details.regulation" defaultMessage="Regulation:" /></dt>
               <dd>{ regulationType }</dd>
               <dt><FormattedMessage id="request.details.name" defaultMessage="Requested by:" /></dt>

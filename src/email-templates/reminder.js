@@ -28,6 +28,8 @@ export default {
     var templateFile = "reminder.template";
     if (requestItem.regulationType.S === "LGPD") {
       templateFile = "reminder.lgpd.template";
+    } else if (data.regulationType === "APPI") {
+      templateFile = "reminder.ja.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

@@ -166,7 +166,7 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
             </div>
           </Paper>
         )}
-        { defaultDPAAction !== "email" && (
+        { defaultDPAAction === "form" && (
           <Paper
             component="form"
             className={classes.formContainer}
@@ -204,6 +204,31 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
             </Button>
           </Paper>
         )}
+        { defaultDPAAction === "phone" && (
+          <Paper
+            component="form"
+            className={classes.formContainer}
+            onSubmit={handleFormSubmit}
+            elevation={10}
+            ref={form}
+          >
+            <Typography
+                id="orgName"
+                color="inherit"
+                component="p"
+                className={classes.disclamer}
+            >
+              <FormattedMessage
+                id="requestEscalation.phoneDisclamer"
+                defaultMessage="In order to escalate your request please call the {authority} on {phone}."
+                values={{
+                  authority: authority,
+                  phone: <a href={`tel:${regulation.dpa.phoneNumber}`}>{regulation.dpa.phoneNumber}</a>,
+                }}
+              />
+            </Typography>
+          </Paper>
+        )}        
       </div>
     </div>
   );
