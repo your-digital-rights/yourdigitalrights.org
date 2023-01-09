@@ -1,0 +1,67 @@
+crwdns4220:0{{ companyName }}crwdnd4220:0{{ companyUrl }}crwdne4220:0
+
+crwdns4222:0{{ regulation.requestTypes[requestType].article }}crwdnd4222:0{{ regulation.longName }}crwdnd4222:0{{ regulation.displayName }}crwdne4222:0 
+
+crwdns4224:0crwdne4224:0
+
+crwdns4226:0crwdne4226:0 crwdns4228:0crwdne4228:0
+
+crwdns4230:0crwdne4230:0 crwdns4232:0crwdne4232:0
+
+crwdns4234:0crwdne4234:0 crwdns4236:0crwdne4236:0
+
+crwdns4238:0crwdne4238:0 crwdns4240:0crwdne4240:0
+
+crwdns4242:0crwdne4242:0 crwdns4244:0crwdne4244:0
+
+crwdns4246:0crwdne4246:0 crwdns4248:0crwdne4248:0
+
+crwdns4250:0crwdne4250:0 crwdns4252:0crwdne4252:0
+
+crwdns4254:0crwdne4254:0 crwdns4256:0crwdne4256:0 crwdns4258:0crwdne4258:0
+
+crwdns4260:0crwdne4260:0 crwdns4262:0crwdne4262:0
+
+crwdns4264:0crwdne4264:0 crwdns4266:0crwdne4266:0
+
+    crwdns4268:0crwdne4268:0
+
+    crwdns4270:0crwdne4270:0
+
+    crwdns4272:0crwdne4272:0
+
+    crwdns4274:0crwdne4274:0
+
+    crwdns4276:0crwdne4276:0
+
+    crwdns4278:0crwdne4278:0
+
+    crwdns4280:0crwdne4280:0
+
+    crwdns4282:0crwdne4282:0
+
+    crwdns4284:0crwdne4284:0
+
+crwdns4286:0crwdne4286:0 
+
+crwdns4288:0crwdne4288:0 crwdns4290:0crwdne4290:0 
+
+crwdns4292:0{% if identifyingInfo %}crwdne4292:0
+crwdns4294:0crwdne4294:0
+crwdns4296:0{{ identifyingInfo }}crwdne4296:0
+crwdns4298:0{% endif %}crwdne4298:0
+
+crwdns4300:0crwdne4300:0 crwdns4302:0crwdne4302:0 crwdns4304:0crwdne4304:0
+
+crwdns4306:0crwdne4306:0 crwdns4308:0crwdne4308:0 crwdns4310:0crwdne4310:0 crwdns4312:0crwdne4312:0 
+
+crwdns4314:0crwdne4314:0
+
+crwdns4316:0{{ regulation.timeLimit }}crwdne4316:0 
+
+crwdns4318:0crwdne4318:0
+
+crwdns4320:0{{ name }}crwdne4320:0
+
+crwdns4322:0crwdne4322:0
+
