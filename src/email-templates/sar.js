@@ -16,7 +16,7 @@ export default {
   },
   body(data) {
     data.regulation = Regulations[data.regulationType];
-    var templateFile = "access.en.template";
+    var templateFile = "access.template";
     if (data.regulationType === "LGPD") {
       templateFile = "access.lgpd.template";
     }

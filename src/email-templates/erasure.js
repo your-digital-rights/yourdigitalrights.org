@@ -16,7 +16,7 @@ export default {
   },
   body(data) {
     data.regulation = Regulations[data.regulationType];
-    var templateFile = "deletion.en.template";
+    var templateFile = "deletion.template";
     if (data.regulationType === "LGPD") {
       templateFile = "deletion.lgpd.template";
     }

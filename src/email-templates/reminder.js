@@ -25,7 +25,7 @@ export default {
     data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
     data.previousEmails = assemblePreviusEmails(requestItem, "en")
 
-    var templateFile = "reminder.en.template";
+    var templateFile = "reminder.template";
     if (requestItem.regulationType.S === "LGPD") {
       templateFile = "reminder.lgpd.template";
     }

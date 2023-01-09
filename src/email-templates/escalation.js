@@ -27,7 +27,7 @@ export default {
     }
     data.previousEmails = assemblePreviusEmails(requestItem, "en")
 
-    var templateFile = "escalation.en.template";
+    var templateFile = "escalation.template";
     if (requestItem.regulationType.S === "LGPD") {
       templateFile = "escalation.lgpd.template";
     }
