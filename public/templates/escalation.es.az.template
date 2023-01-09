@@ -1,0 +1,32 @@
+crwdns5298:0{{ regulation.dpa.longName }}crwdne5298:0
+
+crwdns5300:0{{ requestSentDate }}crwdnd5300:0{{ requestItem.companyName.S }}crwdnd5300:0{{ requestItem.companyUrl.S }}crwdnd5300:0{{ requestType.name | capitalize }}crwdnd5300:0{{ requestType.article }}crwdnd5300:0{{ regulation.longName }}crwdnd5300:0{{ regulation.displayName }}crwdne5300:0
+
+crwdns5302:0{% if status === 'PARTIAL' %}crwdne5302:0
+crwdns5304:0crwdne5304:0
+crwdns5306:0{% elif status === 'DECLINED' %}crwdne5306:0
+crwdns5308:0crwdne5308:0
+crwdns5310:0{% elif status === 'NO_REPLY' %}crwdne5310:0
+crwdns5312:0{{ daysSinceRequest }}crwdne5312:0
+crwdns5314:0{% endif %}crwdne5314:0
+
+crwdns5316:0{% if complaintText %}crwdne5316:0
+crwdns5318:0crwdne5318:0 
+crwdns5320:0{{ complaintText }}crwdne5320:0
+crwdns5322:0{% endif %}crwdne5322:0
+
+crwdns5324:0{% if reminderSentDate %}crwdne5324:0
+crwdns5326:0{{ reminderSentDate }}crwdne5326:0
+crwdns5328:0{% endif %}crwdne5328:0
+
+crwdns5330:0crwdne5330:0 crwdns5332:0crwdne5332:0 crwdns5334:0crwdne5334:0 
+
+crwdns5336:0{{ requestItem.companyName.S }}crwdne5336:0
+
+crwdns5338:0crwdne5338:0
+
+crwdns5340:0{{ requestItem.name.S }}crwdne5340:0
+
+crwdns5342:0crwdne5342:0
+
+crwdns5344:0{{ previousEmails }}crwdne5344:0
