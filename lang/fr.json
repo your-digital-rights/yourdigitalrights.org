@@ -854,6 +854,9 @@
   "requestEscalation.geographyText ": {
     "message": "Veuillez sélectionner votre lieu de résidence"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "In order to escalate your request please call the {authority} on {phone}."
+  },
   "requestEscalation.submit": {
     "message": "Personnaliser et envoyer"
   },
