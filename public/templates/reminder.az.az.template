@@ -1,0 +1,25 @@
+crwdns3944:crwdns5786:0{{ requestItem.companyName.S }}crwdnd5786:0{{ requestItem.companyUrl.S }}crwdne5786:0
+
+crwdns3946:crwdns5788:0{{ requestSentDate }}crwdnd5788:0{{ requestType.name | capitalize  }}crwdnd5788:0{{ requestType.article }}crwdnd5788:0{{ regulation.longName }}crwdnd5788:0{{ regulation.displayName }}crwdne5788:0
+
+crwdns3948:crwdns5790:0{% if status === 'PARTIAL' %}crwdne5790:0
+crwdns3950:crwdns5792:0crwdne5792:0
+crwdns3952:crwdns5794:0{% elif status === 'DECLINED' %}crwdne5794:0
+crwdns3954:crwdns5796:0crwdne5796:0
+crwdns3956:crwdns5798:0{% elif status === 'NO_REPLY' %}crwdne5798:0
+crwdns3958:crwdns5800:0crwdne5800:0
+crwdns3960:crwdns5802:0{% endif %}crwdne5802:0
+
+crwdns3962:crwdns5804:0{% if daysSinceRequest > regulation.timeLimit %}crwdne5804:0
+crwdns3964:crwdns5806:0{{ daysSinceRequest }}crwdnd5806:0{{ requestType.article }}crwdnd5806:0{{ regulation.displayName }}crwdne5806:0
+crwdns3966:crwdns5808:0{% endif %}crwdne5808:0
+
+crwdns3968:crwdns5810:0{{ regulation.dpa.longName }}crwdne5810:0
+
+crwdns3970:crwdns5812:0crwdne5812:0
+
+crwdns3972:crwdns5814:0{{ requestItem.name.S }}crwdne5814:0
+
+crwdns3974:crwdns5816:0crwdne5816:0
+
+crwdns3976:crwdns5818:0{{ previousEmails }}crwdne5818:0
