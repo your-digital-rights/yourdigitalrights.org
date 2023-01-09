@@ -1,0 +1,25 @@
+crwdns5650:0{{ requestItem.companyName.S }}crwdnd5650:0{{ requestItem.companyUrl.S }}crwdne5650:0
+
+crwdns5652:0{{ requestSentDate }}crwdnd5652:0{{ requestType.name | capitalize  }}crwdnd5652:0{{ requestType.article }}crwdnd5652:0{{ regulation.longName }}crwdnd5652:0{{ regulation.displayName }}crwdne5652:0 
+
+crwdns5654:0{% if status === 'PARTIAL' %}crwdne5654:0
+crwdns5656:0crwdne5656:0 
+crwdns5658:0{% elif status === 'DECLINED' %}crwdne5658:0
+crwdns5660:0crwdne5660:0
+crwdns5662:0{% elif status === 'NO_REPLY' %}crwdne5662:0
+crwdns5664:0crwdne5664:0
+crwdns5666:0{% endif %}crwdne5666:0
+
+crwdns5668:0{% if daysSinceRequest > regulation.timeLimit %}crwdne5668:0
+crwdns5670:0{{ daysSinceRequest }}crwdnd5670:0{{ requestType.article }}crwdnd5670:0{{ regulation.displayName }}crwdne5670:0 
+crwdns5672:0{% endif %}crwdne5672:0
+
+crwdns5674:0{{ regulation.dpa.longName }}crwdne5674:0 
+
+crwdns5676:0crwdne5676:0
+
+crwdns5678:0{{ requestItem.name.S }}crwdne5678:0
+
+crwdns5680:0crwdne5680:0
+
+crwdns5682:0{{ previousEmails }}crwdne5682:0
