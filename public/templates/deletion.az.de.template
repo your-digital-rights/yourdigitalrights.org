@@ -1,0 +1,32 @@
+crwdns3846:0{{ companyName }}crwdnd3846:0{{ companyUrl }}crwdne3846:0
+
+crwdns3848:0{{ regulation.requestTypes[requestType].article }}crwdnd3848:0{{ regulation.longName }}crwdnd3848:0{{ regulation.displayName }}crwdne3848:0 
+
+crwdns3850:0crwdne3850:0 crwdns3852:0crwdne3852:0
+
+crwdns3854:0crwdne3854:0
+
+crwdns3856:0crwdne3856:0 crwdns3858:0crwdne3858:0 
+
+crwdns3860:0{% if identifyingInfo %}crwdne3860:0
+crwdns3862:0crwdne3862:0
+crwdns3864:0{{ identifyingInfo }}crwdne3864:0
+crwdns3866:0{% endif %}crwdne3866:0
+
+crwdns3868:0crwdne3868:0 crwdns3870:0crwdne3870:0 crwdns3872:0crwdne3872:0
+
+crwdns3874:0crwdne3874:0 crwdns3876:0crwdne3876:0 crwdns3878:0crwdne3878:0 crwdns3880:0crwdne3880:0 
+
+crwdns3882:0crwdne3882:0 
+
+crwdns3884:0crwdne3884:0 
+
+crwdns3886:0crwdne3886:0
+
+crwdns3888:0{{ regulation.timeLimit }}crwdne3888:0 
+
+crwdns3890:0crwdne3890:0
+
+crwdns3892:0{{ name }}crwdne3892:0
+
+crwdns3894:0crwdne3894:0
