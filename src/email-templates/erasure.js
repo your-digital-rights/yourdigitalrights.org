@@ -18,7 +18,7 @@ export default {
     data.regulation = Regulations[data.regulationType];
     var templateFile = "deletion.en.template";
     if (data.regulationType === "LGPD") {
-      templateFile = "deletion.pt.template";
+      templateFile = "deletion.lgpd.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

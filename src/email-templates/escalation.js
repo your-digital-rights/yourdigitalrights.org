@@ -29,7 +29,7 @@ export default {
 
     var templateFile = "escalation.en.template";
     if (requestItem.regulationType.S === "LGPD") {
-      templateFile = "escalation.pt.template";
+      templateFile = "escalation.lgpd.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });
