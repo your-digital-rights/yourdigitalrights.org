@@ -854,6 +854,9 @@
   "requestEscalation.geographyText ": {
     "message": "居住地を選択してください"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "In order to escalate your request please call the {authority} on {phone}."
+  },
   "requestEscalation.submit": {
     "message": "内容を確認して送信する"
   },
