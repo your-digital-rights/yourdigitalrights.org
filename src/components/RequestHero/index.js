@@ -5,6 +5,7 @@ import { withStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
+import Regulations from "../../utils/regulations";
 
 class Hero extends Component {
   constructor(props) {
@@ -30,7 +31,8 @@ class Hero extends Component {
   }
   
   render() {
-    const {classes, requestItem, selectedCompany, days, status} = this.props;
+    const {classes, requestItem, selectedCompany, status} = this.props;;
+    const requestType = Regulations[requestItem.regulationType.S].requestTypes[requestItem.requestType.S].name;
     return (
       <div className={classes.root} id="requestHero">
         <div className={classes.container}>
@@ -39,7 +41,7 @@ class Hero extends Component {
               id="request.hero.header"
               defaultMessage="Your data {requestType} request to {companyName} "
               values={{
-                requestType: requestItem.requestType.S.toLowerCase(),
+                requestType: requestType,
                 companyName: selectedCompany.name,
               }}
             />

@@ -173,7 +173,7 @@ const Uuid = ({classes, data, router, intl}) => {
           </div>
         </>
       )}
-      <Footer />
+      <Footer showRoadmap={false}/>
     </div>
   )
 };
