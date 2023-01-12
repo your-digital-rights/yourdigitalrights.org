@@ -8,6 +8,7 @@ const ImageWithFallback = (props) => {
     return (
         <Image
             {...rest}
+            unoptimized
             src={imgSrc}
             onError={() => {
                 setImgSrc(fallbackSrc);

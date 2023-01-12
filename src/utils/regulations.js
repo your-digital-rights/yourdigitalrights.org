@@ -494,15 +494,15 @@ const Regulations = {
         article: '第三十条',
         exceptions: (
           <FormattedMessage
-            id="request.next.declinePIPEDA"
-            defaultMessage="<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+            id="request.next.declineAPPI"
+            defaultMessage="<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
             values={{
               ul: txt => (<ul>{txt}</ul>),
               li: txt => (<li>{txt}</li>),
             }}
           />
         ),          
-        exceptionURL: 'https://laws-lois.justice.gc.ca/eng/acts/P-8.6/page-7.html#h-417659',
+        exceptionURL: 'https://elaws.e-gov.go.jp/document?lawid=415CO0000000507',
       },
       ACCESS: {
         name: '開示請求',

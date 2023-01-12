@@ -3,8 +3,7 @@ import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
-import Button from "@material-ui/core/Button";
-import Link from "next/link";
+import Script from 'next/script'
 
 const handleSignUpClick = (e) => {
   e.preventDefault();
@@ -27,7 +26,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               className={classes.intro}
               gutterBottom={true}
             >
-              <FormattedMessage id="subscribe.title" defaultMessage="Sign up to our privacy alerts emails!" />
+              <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Our Privacy Alerts!" />
             </Typography>          
             <Typography 
               color="inherit" 
@@ -36,30 +35,13 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
             >
               <FormattedMessage
                 id="subscribe.alertsOneLiner1"
-                defaultMessage="Improve your online privacy over time by opting out of 3 companies each month."
+                defaultMessage="A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
               />
-              <br/>
-              <FormattedMessage
-                id="subscribe.alertsOneLiner2"
-                defaultMessage="Our research team hand-picks the worst privacy offenders."
-              />              
+
             </Typography> 
           </div>
           <div className={classes.substack}>
-            <Link
-              href="/privacy-alerts"
-              passHref
-            >
-            <Button
-              variant="contained"
-              color="primary"
-              className={classes.signUpButton}
-              id="SubscribeMessageBtn"
-              onClick={() => trackSubscribe()}
-            >
-              <FormattedMessage id="subscribe.signup" defaultMessage="Sign up" />
-            </Button>  
-            </Link>
+            <iframe src="https://consciousdigital.substack.com/embed" width="350" height="100" frameborder="0" ></iframe>
           </div>    
         </div>
       </div>
