@@ -1,4 +1,8 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+{{ companyName }}
+プライバシー部門・法務部門ご担当者
+（またはデータ保護責任者の方）
+\n\n
+お世話になっております。{{ name }} と申します。
 
 I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 
@@ -6,26 +10,26 @@ To the extent that you rely on consent to process my personal data, I withdraw t
 
 If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+セルフサービス型の手続きのご案内はお断りします。例えば、貴社サイトで情報を探すこと、フォームに記入すること、モバイル広告IDを提供などの指示はご遠慮ください。 これらは私の側に過度の負担を課すものです。 
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
+貴社内での情報の特定のために以下の情報を使用して頂いて構いません。
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please delete all my personal data which does not fall under these exceptions.
+If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. 請求を拒絶する根拠となる具体的な法律の条項と、当該条項に定める例外に該当すると考える具体的な理由（法律上の義務や内部での使用に留まるなど）もお知らせください。 Please delete all my personal data which does not fall under these exceptions.
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+このメールは、私の個人的なメールアカウントから送信されています（メールのヘッダでご確認頂けます）。 このことを以って、私の本人確認としてください。 本人確認について、これ以上の情報を要求することは、私の側に過度な負担を課すため、ご遠慮ください。 本人確認のために追加の情報を求めることが、貴社に法律上義務付けられている場合には、すぐにお知らせください。 
 
 Please confirm that you have deleted my personal data from your paper and/or computer records and that you have followed up with any third-party organization with whom my information has been shared to ensure that they deleted their copy of the data. 
 
-My preferred method of contact is email. 
+電子メールでの連絡を希望します。 
 
 Please note that I do not consent to any personal data which is part of this request to be used for any purpose other than fulfilling this request, except in the case of a suppression list, which you may keep in order to ensure that you do not collect any of my personal data in the future.
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+本請求への対応は、 {{ regulation.timeLimit }} 日中に行う必要がありますのでご承知おきください。 
 
-Kind regards,
+何卒宜しくお願いします。
 
 {{ name }}
 
