@@ -1,4 +1,8 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+{{ companyName }}
+プライバシー部門・法務部門ご担当者
+（またはデータ保護責任者の方）
+\n\n
+お世話になっております。{{ name }} と申します。
 
 I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 
