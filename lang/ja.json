@@ -737,6 +737,9 @@
   "request.next.circumstancesToDecline": {
     "message": "特定の例外的な状況では、企業・団体が適法にあなたのリクエストを拒否することが認められています。"
   },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+  },
   "request.next.declineCCPA": {
     "message": "<ul><li>言論の自由または法律で定められたその他の権利。</li><li>研究目的での処理（その個人情報の削除により、その研究の成果を著しく損なう場合）</li><li>その個人情報の処理が、違法行為からの保護に必要である場合、またはその行為の責任者を起訴するために必要な場合。</li><li>法的義務を遵守するため。</li><li>事業者と消費者との間の契約を履行するのに必要場合。</li><li>セキュリティインシデントを検知し、悪意のある、欺瞞的・詐欺的・違法・活動から保護したり、その活動の責任者を訴追するため。</li><li>既存の意図された機能を損なう問題をデバッグし、問題を特定・解決するため。</li><li>事業者と消費者の関係に基づき、消費者の期待に合理的に沿う内部的使用のみを可能にするため。</li><li>それ以外の場合、消費者が情報を提供した状況に適合する合法的な方法で、消費者の個人情報を内部で使用します。</li></ul>"
   },
@@ -945,16 +948,10 @@
     "message": "毎年"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "毎月3社からオプトアウトすることで、オンラインプライバシーを少しずつ向上させましょう"
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "私たちの研究チームは、プライバシーの観点で最もひどい企業・団体を手作業で選び出しています。"
-  },
-  "subscribe.signup": {
-    "message": "新規登録"
+    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
   },
   "subscribe.title": {
-    "message": "メールマガジン \"Privacy Alerts\" にを購読しましょう"
+    "message": "Subscribe To Our Privacy Alerts!"
   },
   "thankyou.copyPart1Copy": {
     "message": "クリップボードにコピーされました。あとはメールに貼り付けて、再び送信をクリックするだけです。"
