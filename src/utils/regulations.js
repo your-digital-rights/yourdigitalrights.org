@@ -337,7 +337,7 @@ const Regulations = {
   },
   LGPD: {
     displayName: 'LGPD',
-    gepgraphy: 'Brazil',
+    gepgraphy: 'Brasil',
     longName: 'Lei Geral de Proteção de Dados Pessoais',
     timeLimit: 15,
     escalation_timeLimit: 30,
@@ -466,6 +466,51 @@ const Regulations = {
       }
     } 
   },  
+  APPI: {
+    displayName: 'APPI',
+    gepgraphy: '日本',
+    longName: '個人情報の保護に関する法律',
+    timeLimit: 14,
+    escalation_timeLimit: 28,
+    dpa: {
+      shortName: '委員会',
+      longName: '個人情報保護委員会',
+      requestFormURL: 'https://www.ppc.go.jp/personalinfo/pipldial/',
+      phoneNumber: '03-6457-9849',
+      defaultAction: 'phone',
+      geographies: [
+        {
+          name: 'Japan',
+          countryCode: 'JP',
+          email: '',
+          website: 'https://www.ppc.go.jp/',
+        },
+      ],
+    },
+    regulationURL: 'https://elaws.e-gov.go.jp/document?lawid=415AC0000000057',
+    requestTypes: {
+      DELETION: {
+        name: '利用停止等請求',
+        article: '第三十条',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineAPPI"
+            defaultMessage="<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://elaws.e-gov.go.jp/document?lawid=415CO0000000507',
+      },
+      ACCESS: {
+        name: '開示請求',
+        article: '第二十八条',        
+      }
+    } 
+  },  
+ 
 };
 
 export default Regulations;

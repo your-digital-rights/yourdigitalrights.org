@@ -737,6 +737,9 @@
   "request.next.circumstancesToDecline": {
     "message": "Ci sono alcune circostanze eccezionali in cui un'organizzazione è legalmente autorizzata a rifiutare di soddisfare la vostra richiesta."
   },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+  },
   "request.next.declineCCPA": {
     "message": "<ul><li>Libera parola o altro diritto previsto dalla legge.</li><li>Trattamento a fini di ricerca, se la cancellazione di informazioni personali renderebbe impossibile o seriamente compromettere il conseguimento di tali ricerche.</li><li>Il trattamento di tali dati personali è necessario per proteggere da attività illecite o perseguire i responsabili dell'attività.</li><li>Per adempiere a un obbligo legale.</li><li>Per eseguire un contratto tra l'azienda e il consumatore.</li><li>Individuare gli incidenti di sicurezza, proteggere contro le attività maliziose, ingannevoli, fraudolente o illegali, o perseguire i responsabili di tale attività.</li><li>Debug per identificare e riparare gli errori che compromettono la funzionalità desiderata esistente.</li><li>Abilitare esclusivamente usi interni che siano ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa.</li><li>Altrimenti utilizzare le informazioni personali del consumatore, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni.</li></ul>"
   },
@@ -854,6 +857,9 @@
   "requestEscalation.geographyText ": {
     "message": "Seleziona il tuo luogo di residenza"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "In order to escalate your request please call the {authority} on {phone}."
+  },
   "requestEscalation.submit": {
     "message": "Rivedi e Invia"
   },
@@ -942,16 +948,10 @@
     "message": "Questo Anno"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "Migliora la tua privacy online nel tempo optando per 3 aziende ogni mese."
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "Il nostro team di ricerca sceglie a mano i peggiori trasgressori di privacy."
-  },
-  "subscribe.signup": {
-    "message": "Registrati"
+    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
   },
   "subscribe.title": {
-    "message": "Iscriviti ai nostri avvisi sulla privacy!"
+    "message": "Subscribe To Our Privacy Alerts!"
   },
   "thankyou.copyPart1Copy": {
     "message": "è stato copiato negli appunti, tutto quello che devi fare è incollarlo in un'e-mail, riprenderlo e fare clic su Invia."

@@ -25,6 +25,8 @@ async function getRegulationbyGeolocation() {
             return 'LGPD';     
           } else if (resultJson['country'] === 'CA') {
             return 'PIPEDA';                        
+          } else if (resultJson['country'] === 'JP') {
+            return 'APPI';             
           } else {
             return 'GDPR';
           }

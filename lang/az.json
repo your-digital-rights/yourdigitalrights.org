@@ -737,6 +737,9 @@
   "request.next.circumstancesToDecline": {
     "message": "crwdns2873:0crwdne2873:0"
   },
+  "request.next.declineAPPI": {
+    "message": "crwdns5822:0crwdne5822:0"
+  },
   "request.next.declineCCPA": {
     "message": "crwdns2875:0crwdne2875:0"
   },
@@ -854,6 +857,9 @@
   "requestEscalation.geographyText ": {
     "message": "crwdns2941:0crwdne2941:0"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "crwdns5820:0{authority}crwdnd5820:0{phone}crwdne5820:0"
+  },
   "requestEscalation.submit": {
     "message": "crwdns3485:0crwdne3485:0"
   },
@@ -942,16 +948,10 @@
     "message": "crwdns3740:0crwdne3740:0"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "crwdns3563:0crwdne3563:0"
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "crwdns3565:0crwdne3565:0"
-  },
-  "subscribe.signup": {
-    "message": "crwdns3559:0crwdne3559:0"
+    "message": "crwdns5824:0crwdne5824:0"
   },
   "subscribe.title": {
-    "message": "crwdns3696:0crwdne3696:0"
+    "message": "crwdns5826:0crwdne5826:0"
   },
   "thankyou.copyPart1Copy": {
     "message": "crwdns3499:0crwdne3499:0"

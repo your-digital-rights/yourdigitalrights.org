@@ -1,0 +1,67 @@
+Aos cuidados do Encarregado de dados / Departamento Jurídico de {{ companyName }} ({{ companyUrl }}),
+
+Escrevo-lhes para obter as seguintes informações pessoais que tenho o direito de receber, nos termos da {{ regulation.requestTypes[requestType].article }} do {{ regulation.longName }} ({{ regulation.displayName }}). 
+
+Por favor, confirme se os meus dados pessoais foram ou não coletados, vendidos ou divulgados, e, quando for esse o caso, forneça as seguintes informações:
+
+1. Uma cópia dos meus dados pessoais que foram coletados, vendidos ou divulgados
+
+2. Um registro detalhado dos propósitos comerciais para os quais você está coletando, vendendo ou divulgando meus dados pessoais
+
+3. As categorias de dados pessoais em causa
+
+4. Uma lista de todos os terceiros com os quais meus dados pessoais foram (ou podem ter sido) compartilhados, bem como uma descrição de quais dados pessoais específicos e categorias de dados foram compartilhados com cada terceiro
+
+5. Where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period
+
+6. What sources were used to obtain my personal data
+
+7. The existence of automated decision-making, including profiling, and at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for me
+
+8. Please advise in which countries my personal information is stored, or accessible from. In case you make use of cloud services to store or process my data, please include the countries in which the servers are located where my data are or were (in the past 12 months) stored
+
+9. Please describe the safeguards you provide when transferring my personal data to a third country or international organization
+
+10. In addition, I would like to know whether or not my personal data has been disclosed inadvertently by your organization in the past, or as a result of a security or privacy breach:
+
+    10.1 A general description of what occurred
+
+    10.2 The date and time of the breach (or the best possible estimate)
+
+    10.3 The date and time the breach was discovered
+
+    10.4 The source of the breach (either your own organization or a third party to whom you have transferred my personal data)
+
+    10.5 Details of my personal data that was disclosed
+
+    10.6 Your company’s assessment of the risk of harm to myself, as a result of the breach
+
+    10.7 A description of the measures taken or that will be taken to prevent further unauthorized access to my personal data
+
+    10.8 Contact information so that I can obtain more information and assistance in relation to such a breach
+
+    10.9 Information and advice on what I can do to protect myself against any harm, including identity theft and fraud
+
+My preferred method of contact is email. 
+
+Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
+
+This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+
+Please note that I do not consent to any personal information which is part of this request and that you do not already possess, to be used for any purpose other than fulfilling this request.
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org
+

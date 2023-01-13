@@ -30,6 +30,8 @@ export default {
     var templateFile = "escalation.template";
     if (requestItem.regulationType.S === "LGPD") {
       templateFile = "escalation.lgpd.template";
+    } else if (data.regulationType === "APPI") {
+      templateFile = "escalation.ja.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

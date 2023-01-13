@@ -1,0 +1,25 @@
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+
+On {{ requestSentDate }} I have sent you a Data {{ requestType.name | capitalize  }} Request via email, pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+
+{% if status === 'PARTIAL' %}
+So far you have failed to fully comply with my request. 
+{% elif status === 'DECLINED' %}
+So far you have refused to comply with my request.
+{% elif status === 'NO_REPLY' %}
+So far I did not receive a reply to my request.
+{% endif %}
+
+{% if daysSinceRequest > regulation.timeLimit %}
+Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+{% endif %}
+
+I am sending this email to remind you of my request and reserve the right to escalate the matter to the {{ regulation.dpa.longName }} if you do not fully comply with it. 
+
+何卒宜しくお願いします。
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
+{{ previousEmails }}

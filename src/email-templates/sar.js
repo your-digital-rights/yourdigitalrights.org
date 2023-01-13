@@ -19,6 +19,8 @@ export default {
     var templateFile = "access.template";
     if (data.regulationType === "LGPD") {
       templateFile = "access.lgpd.template";
+    } else if (data.regulationType === "APPI") {
+      templateFile = "access.ja.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });

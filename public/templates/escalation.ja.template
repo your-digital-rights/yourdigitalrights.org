@@ -1,0 +1,32 @@
+Dear {{ regulation.dpa.longName }},
+
+On {{ requestSentDate }} I have sent {{ requestItem.companyName.S }} (website: {{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
+
+{% if status === 'PARTIAL' %}
+I would like to submit a formal complaint because the organization failed to fully comply with my request.
+{% elif status === 'DECLINED' %}
+I would like to submit a formal complaint because the organization declined to comply with my request.
+{% elif status === 'NO_REPLY' %}
+I would like to submit a formal complaint because the organization did not reply to my request, which I sent {{ daysSinceRequest }} days ago.
+{% endif %}
+
+{% if complaintText %}
+Additional details: 
+{{ complaintText }}
+{% endif %}
+
+{% if reminderSentDate %}
+On {{ reminderSentDate }} I have sent the organization a reminder email which you can see below.
+{% endif %}
+
+Please keep me updated as to the status of your investigation. Please let me know if you would like me to provide any additional information. My preferred method of communication is email. 
+
+Please note that I have copied {{ requestItem.companyName.S }} to this email.
+
+何卒宜しくお願いします。
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
+{{ previousEmails }}
