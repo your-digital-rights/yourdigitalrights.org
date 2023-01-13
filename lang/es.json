@@ -737,6 +737,9 @@
   "request.next.circumstancesToDecline": {
     "message": "Existen ciertas circunstancias excepcionales cuando se permite legalmente a una organización negarse a cumplir con su petición."
   },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+  },
   "request.next.declineCCPA": {
     "message": "<ul><li>Texto libre u otro derecho proporcionado por la ley.</li><li>Procesamiento con fines de investigación, si la eliminación de información personal haría imposible o perjudicaría gravemente el logro de dicha investigación.</li><li>El tratamiento de esa información personal es necesario para proteger contra la actividad ilegal o procesar a los responsables de la actividad.</li><li>Por cumplir con una obligación legal.</li><li>Realizar un contrato entre la empresa y el consumidor.</li><li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad.</li><li>Depuración para identificar y reparar errores que perjudican la funcionalidad predefinida existente.</li><li>Para permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basándose en la relación del consumidor con el negocio.</li><li>En caso contrario, utilice internamente la información personal del consumidor de forma legal que sea compatible con el contexto en el que el consumidor facilitó la información.</li></ul>"
   },
@@ -945,16 +948,10 @@
     "message": "Este año"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "Mejore su privacidad en línea con el tiempo optando por 3 empresas cada mes."
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "Nuestro equipo de investigación escoge a los peores infractores de la privacidad."
-  },
-  "subscribe.signup": {
-    "message": "Regístrate"
+    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
   },
   "subscribe.title": {
-    "message": "Regístrese en nuestros correos de alertas de privacidad!"
+    "message": "Subscribe To Our Privacy Alerts!"
   },
   "thankyou.copyPart1Copy": {
     "message": "ha sido copiado al portapapeles, todo lo que necesita hacer es pegarlo en un correo electrónico, reivusiéndolo y haga clic en Enviar."
