@@ -1,27 +1,27 @@
-Dear {{ regulation.dpa.longName }},
+{{ regulation.dpa.longName }} 御中
 
-On {{ requestSentDate }} I have sent {{ requestItem.companyName.S }} (website: {{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
+{{ requestSentDate }}、私は、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestItem.companyName.S }}（Webサイト: {{ requestItem.companyUrl.S }}）に対し、{{ requestType.name | capitalize }}請求を致しました。
 
 {% if status === 'PARTIAL' %}
-I would like to submit a formal complaint because the organization failed to fully comply with my request.
+これに対する {{ requestItem.companyName.S}} の対応は不完全なものであったため、苦情として申し立てたく存じます。
 {% elif status === 'DECLINED' %}
-I would like to submit a formal complaint because the organization declined to comply with my request.
+{{ requestItem.companyName.S}} はこれに対する対応を拒んだため、苦情として申し立てたく存じます。
 {% elif status === 'NO_REPLY' %}
-I would like to submit a formal complaint because the organization did not reply to my request, which I sent {{ daysSinceRequest }} days ago.
+{{ requestItem.companyName.S}} からは、請求から{{ daysSinceRequest }} 日以内に返信を得ることができなかったため、苦情として申し立てたく存じます。
 {% endif %}
 
 {% if complaintText %}
-Additional details: 
+詳細: 
 {{ complaintText }}
 {% endif %}
 
 {% if reminderSentDate %}
-On {{ reminderSentDate }} I have sent the organization a reminder email which you can see below.
+{{ requestItem.companyName.S}} に対しては、 {{ reminderSentDate }} にも状況確認のご連絡を送っております（本メール末尾に記載致しました）。
 {% endif %}
 
-Please keep me updated as to the status of your investigation. Please let me know if you would like me to provide any additional information. My preferred method of communication is email. 
+貴機関での調査の状況に進展があり次第お知らせください。 もし追加の情報が必要となる場合はお知らせください。 電子メールでのご連絡を希望します。 
 
-Please note that I have copied {{ requestItem.companyName.S }} to this email.
+なお、本メールは {{ requestItem.companyName.S }} にも同時送信しております。
 
 何卒宜しくお願いします。
 
