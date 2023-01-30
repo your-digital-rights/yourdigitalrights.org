@@ -6,7 +6,7 @@
     "message": "私たちについて"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.orgは、デジタル人権を促進し、進歩させる人々を中心としたデジタルイニシアチブを作成して登録された慈善団体 {cd}の創造です。"
+    "message": "YourDigitalRights.org は、 登録非営利団体 {cd} によるオンラインサービスです。 {cd} は、デジタル人権を提唱し、推進する、人間中心のイニシアチブです。"
   },
   "about.contact": {
     "message": "お問い合わせ"
@@ -384,7 +384,7 @@
     "message": "Your Digital Rights を使用して、企業や団体が持つあなたに関するデータの削除や開示をリクエストしましょう。"
   },
   "nav.about": {
-    "message": "だいたい"
+    "message": "私たちについて"
   },
   "nav.contact": {
     "message": "お問い合わせ"
@@ -516,7 +516,7 @@
     "message": "有効なメールアドレスを入力してください。"
   },
   "pressIntro.title": {
-    "message": "特集として"
+    "message": "メディア掲載"
   },
   "privacy.additionalPersonalData": {
     "message": "企業・団体へのリマインドメールを送信する"
@@ -738,7 +738,7 @@
     "message": "特定の例外的な状況では、企業・団体が適法にあなたのリクエストを拒否することが認められています。"
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>当該個人データの存否が明らかになることにより、本人又は第三者の生命、身体又は財産に危害が及ぶおそれがあるもの</li><li>当該個人データの存否が明らかになることにより、違法又は不当な行為を助長し、又は誘発するおそれがあるもの</li><li>当該個人データの存否が明らかになることにより、国の安全が害されるおそれ、他国若しくは国際機関との信頼関係が損なわれるおそれ又は他国若しくは国際機関との交渉上不利益を被るおそれがあるもの</li><li>当該個人データの存否が明らかになることにより、犯罪の予防、鎮圧又は捜査その他の公共の安全と秩序の維持に支障が及ぶおそれがあるもの</li></ul>"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>言論の自由または法律で定められたその他の権利。</li><li>研究目的での処理（その個人情報の削除により、その研究の成果を著しく損なう場合）</li><li>その個人情報の処理が、違法行為からの保護に必要である場合、またはその行為の責任者を起訴するために必要な場合。</li><li>法的義務を遵守するため。</li><li>事業者と消費者との間の契約を履行するのに必要場合。</li><li>セキュリティインシデントを検知し、悪意のある、欺瞞的・詐欺的・違法・活動から保護したり、その活動の責任者を訴追するため。</li><li>既存の意図された機能を損なう問題をデバッグし、問題を特定・解決するため。</li><li>事業者と消費者の関係に基づき、消費者の期待に合理的に沿う内部的使用のみを可能にするため。</li><li>それ以外の場合、消費者が情報を提供した状況に適合する合法的な方法で、消費者の個人情報を内部で使用します。</li></ul>"
@@ -858,7 +858,7 @@
     "message": "居住地を選択してください"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "リクエストをエスカレーションするには、 {authority} on {phone} に電話してください。"
   },
   "requestEscalation.submit": {
     "message": "内容を確認して送信する"
@@ -948,10 +948,10 @@
     "message": "毎年"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "私たちの研究チームが特定した、プライバシーを侵害する企業・団体のワースト3をお知らせする月刊のメールマガジン。これらの企業からオプトアウトすることに月にたった5分を費やすことにより、オンラインプライバシーを改善し、個人情報のコントロール取り戻しましょう。"
   },
   "subscribe.title": {
-    "message": "Subscribe To Our Privacy Alerts!"
+    "message": "月刊メールマガジン「Privacy Alerts」を購読する!"
   },
   "thankyou.copyPart1Copy": {
     "message": "クリップボードにコピーされました。あとはメールに貼り付けて、再び送信をクリックするだけです。"

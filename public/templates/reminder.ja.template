@@ -1,20 +1,24 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+{{ companyName }}
+プライバシー部門・法務部門ご担当者
+（またはデータ保護責任者の方）
 
-On {{ requestSentDate }} I have sent you a Data {{ requestType.name | capitalize  }} Request via email, pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+お世話になっております。{{ name }} と申します。
+
+{{ requestSentDate }}、私は貴社にに対し、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestType.name | capitalize }}請求を致しました。 
 
 {% if status === 'PARTIAL' %}
-So far you have failed to fully comply with my request. 
+これまでのところ、貴社の私の請求への対応は不完全であると理解しております。 
 {% elif status === 'DECLINED' %}
-So far you have refused to comply with my request.
+これまでのところ、貴社の私の請求への対応を拒んでいるものと理解しております。
 {% elif status === 'NO_REPLY' %}
-So far I did not receive a reply to my request.
+これまでのところ、貴社から返信を得ることができれいません。
 {% endif %}
 
 {% if daysSinceRequest > regulation.timeLimit %}
-Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+請求をお伝えしてから既に{{ daysSinceRequest }}日が経過しており、貴社は {{ regulation.displayName }} {{ requestType.article }} に違反している状態となっていることをご認識ください。 
 {% endif %}
 
-I am sending this email to remind you of my request and reserve the right to escalate the matter to the {{ regulation.dpa.longName }} if you do not fully comply with it. 
+本メールは対応が必要な請求の存在についてお知らせするものであり、本件について貴社から十分な対応が得られない場合は、{{ regulation.dpa.longName }}に対し苦情の申し立てをする権利を有しますので、ご承知おきください。 
 
 何卒宜しくお願いします。
 
