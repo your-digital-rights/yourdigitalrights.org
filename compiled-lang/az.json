@@ -1739,6 +1739,12 @@
       "value": "crwdns2873:0crwdne2873:0"
     }
   ],
+  "request.next.declineAPPI": [
+    {
+      "type": 0,
+      "value": "crwdns5822:0crwdne5822:0"
+    }
+  ],
   "request.next.declineCCPA": [
     {
       "type": 0,
@@ -2332,25 +2338,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "crwdns3563:0crwdne3563:0"
-    }
-  ],
-  "subscribe.alertsOneLiner2": [
-    {
-      "type": 0,
-      "value": "crwdns3565:0crwdne3565:0"
-    }
-  ],
-  "subscribe.signup": [
-    {
-      "type": 0,
-      "value": "crwdns3559:0crwdne3559:0"
+      "value": "crwdns5824:0crwdne5824:0"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "crwdns3696:0crwdne3696:0"
+      "value": "crwdns5826:0crwdne5826:0"
     }
   ],
   "thankyou.copyPart1Copy": [

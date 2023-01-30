@@ -2105,6 +2105,54 @@
       "value": "Há determinadas circunstâncias excepcionais em que uma organização tem autorização legal para se recusar a cumprir a sua solicitação."
     }
   ],
+  "request.next.declineAPPI": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineCCPA": [
     {
       "children": [
@@ -3271,25 +3319,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Melhore sua privacidade on-line com o tempo, optando por sair de 3 empresas por mês."
-    }
-  ],
-  "subscribe.alertsOneLiner2": [
-    {
-      "type": 0,
-      "value": "Nossa equipe de pesquisa escolhe os piores autores de privacidade."
-    }
-  ],
-  "subscribe.signup": [
-    {
-      "type": 0,
-      "value": "Criar conta"
+      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Inscreva-se nos nossos e-mails de alertas de privacidade!"
+      "value": "Subscribe To Our Privacy Alerts!"
     }
   ],
   "thankyou.copyPart1Copy": [

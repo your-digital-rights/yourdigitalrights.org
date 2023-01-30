@@ -192,7 +192,20 @@ const About = ({ classes, router }) => {
                 ),
               }}
             />
-          </Typography>                  
+          </Typography>      
+          <Typography gutterBottom={true}>
+            <FormattedMessage
+              id="about.contributorsBody6"
+              defaultMessage="{link} - Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+              values={{
+                link: (
+                  <a target="_blank" href="https://tnzk.org">
+                    Kyohei Hamaguchi
+                  </a>
+                ),
+              }}
+            />
+          </Typography>                          
           <br />
           <Typography gutterBottom={true} component="h2" variant="h3">
             <FormattedMessage id="about.sponsors" defaultMessage="Supporting Organizations" />
