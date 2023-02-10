@@ -4,7 +4,7 @@ import { theme } from "../../styles/theme";
 const Theme = (theme) => ({
   heading: {
     color: "white",
-    padding: "25px 20px",
+    padding: "25px 8% 0px",
     backgroundColor: "#039277",
     borderRadius: "20px",
     maxWidth: "980px !important",
