@@ -8,7 +8,7 @@ const Theme = (theme) => ({
     backgroundColor: "#039277",
     borderRadius: "20px",
     maxWidth: "980px !important",
-    margin: "0px 30px",
+    margin: "30px 30px 60px",
     [theme.breakpoints.down("sm")]: {
       display: "inherit",
       margin: "auto 10px",
