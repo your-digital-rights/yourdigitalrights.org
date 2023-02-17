@@ -12,7 +12,7 @@ import RequestWhatsNext from "../../../components/RequestWhatsNext";
 import RequestHero from "../../../components/RequestHero";
 import RequestTimeline from "../../../components/RequestTimeline";
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
-import fetchSheetData from "../../../utils/sheets";
+import fetchDomainsData from "../../../utils/domains";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
 
@@ -188,7 +188,7 @@ export async function getServerSideProps(context) {
     }
   }
 
-  const data = await fetchSheetData();
+  const data = await fetchDomainsData();
   const organization = data['Organizations'].find(
     ({ url }) => requestDetails.Item.companyUrl.S === url
   );  

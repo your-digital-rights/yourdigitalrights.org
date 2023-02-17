@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
 import Nav from "../../components/Nav";
 import PersonalInfoForm from "../../components/PersonalInfoForm";
-import fetchSheetData from "../../utils/sheets";
+import fetchDomainData from "../../utils/domains";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
@@ -76,7 +76,7 @@ export async function getStaticProps({ params }) {
       }
     }
   } 
-  const data = await fetchSheetData();
+  const data = await fetchDomainData();
   const organization = data['Organizations'].find(
     ({ url }) => params.domain === url
   );  

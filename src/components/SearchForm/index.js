@@ -10,7 +10,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
-import fetchSheetData from "../../utils/sheets";
+import fetchDomainData from "../../utils/domains";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -44,7 +44,7 @@ class Form extends Component {
       this.focusInput();
     }
 
-    const companies = fetchSheetData();
+    const companies = fetchDomainData();
     this.setState({ companies });
     await companies;
     this.setState({ companiesLoaded: true });
