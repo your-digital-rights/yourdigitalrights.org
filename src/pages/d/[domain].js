@@ -5,7 +5,7 @@ import Footer from "../../components/Footer";
 import Hero from "../../components/OrgHero";
 import Nav from "../../components/Nav";
 import PersonalInfoForm from "../../components/PersonalInfoForm";
-import fetchDomainData from "../../utils/domains";
+import { fetchDomainDetails } from "../../utils/domains";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
@@ -76,14 +76,12 @@ export async function getStaticProps({ params }) {
       }
     }
   } 
-  const data = await fetchDomainData();
-  const organization = data['Organizations'].find(
-    ({ url }) => params.domain === url
-  );  
+  const data = await fetchDomainDetails(params.domain);
+  console.log(data);
   return {
-    notFound: typeof organization == 'undefined',
+    notFound: data.statusCode >= 400 && data.statusCode < 500,
     props: {
-      organization,
+      organization: data['Domain'],
     },
     revalidate: 60*60
   }
