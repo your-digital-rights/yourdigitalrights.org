@@ -76,10 +76,17 @@ export async function getStaticProps({ params }) {
       }
     }
   } 
-  const data = await fetchDomainDetails(params.domain);
-  console.log(data);
+ 
+  const data = await fetchDomainDetails(params.domain); 
+  
+  if (typeof data == 'undefined') {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
-    notFound: data.statusCode >= 400 && data.statusCode < 500,
+    notFound: data.statusCode > 400,
     props: {
       organization: data['Domain'],
     },

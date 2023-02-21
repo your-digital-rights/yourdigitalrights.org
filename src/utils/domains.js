@@ -1,11 +1,13 @@
 import { DOMAINS_API_URL } from "./domain";
 import fetch from "isomorphic-fetch";
-var data = null;
+var allDomains = null;
+var domainDetails = {};
+var dd = null;
 
 async function fetchDomains() {
   const url = `${DOMAINS_API_URL}/domains`;
-  if (data == null) {
-    data = fetch(url)
+  if (allDomains == null) {
+    allDomains = fetch(url)
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -17,15 +19,15 @@ async function fetchDomains() {
       })
       .catch(console.error);
   }
-  return data;
+  return allDomains;
 }
 
 async function fetchDomainDetails(domain) {
   const url = `${DOMAINS_API_URL}/domains/${domain}`;
-  if (data == null) {
-    data = fetch(url)
+  if (!(domain in domainDetails)) {
+    domainDetails[domain] = fetch(url)
       .then((response) => {
-        if (response.ok) {
+        if (response.status <= 400) {
           return response.json();
         }
         throw new Error(`HTTP error ${response.status} from ${url}`);
@@ -35,7 +37,7 @@ async function fetchDomainDetails(domain) {
       })
       .catch(console.error);
   }
-  return data;
+  return domainDetails[domain];
 }
 
 export {fetchDomains, fetchDomainDetails}
