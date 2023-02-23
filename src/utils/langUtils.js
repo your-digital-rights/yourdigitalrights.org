@@ -1,15 +1,7 @@
 import {DOMAIN} from "./domain";
+import config from "../../ydr-config.json";
 
-const ALT_LANGUAGES = {
-	"de": "Deutsch", 
-	"en": "English", 
-	"es": "Español", 
-	"fr": "Français", 
-	"it": "Italiano",
-	"pt": "Português",
-	"ja": "日本語",
-};
-
+const ALT_LANGUAGES = config.altLanguages;
 const TRANSLATION_PSEUDO_LOCAL = 'az';
 
 
