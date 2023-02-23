@@ -35,11 +35,11 @@ module.exports = {
         },
         {
           source: '/sitemaps.xml',
-          destination: '/sitemaps',
+          destination: '/dynamic-sitemaps',
         },
         {
           source: '/sitemaps-:page.xml',
-          destination: '/sitemaps/:page',
+          destination: '/dynamic-sitemaps/:page',
         },        
 			];
 	},
