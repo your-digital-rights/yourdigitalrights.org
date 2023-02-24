@@ -21,7 +21,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        '/Users/Yoav/Projects/cd/ydr/test/specs/**/*.js'
+        './test/specs/**/*.js'
     ],
     // Patterns to exclude.
     exclude: [
