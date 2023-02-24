@@ -1,5 +1,6 @@
 import { DOMAINS_API_URL } from "./domain";
 import fetch from "isomorphic-fetch";
+
 var allDomains = null;
 var domainDetails = {};
 var dd = null;

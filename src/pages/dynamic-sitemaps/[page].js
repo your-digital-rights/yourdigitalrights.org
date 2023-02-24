@@ -22,6 +22,11 @@ export const getServerSideProps = async ctx => {
     const data = await fetchDomains();
     const start = page*URLS_PER_SITEMAP;
     const end = (page+1)*URLS_PER_SITEMAP;
+
+    if (start > data['Count']) {
+        return { notFound: true };
+    }
+
     const domains = data['Domains'].slice(start,end);
 
     const fields = domains.map((domain) => ({
