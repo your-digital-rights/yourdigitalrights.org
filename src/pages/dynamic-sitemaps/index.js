@@ -4,7 +4,7 @@ import { DOMAIN_URL } from "../../utils/domain";
 
 const cacheMaxAgeUntilStaleSeconds =  60 * 60; // 1 hour
 const cacheMaxAgeStaleDataReturnSeconds =  60 * 60; // 1 hour
-const URLS_PER_SITEMAP = 1000;
+const URLS_PER_SITEMAP = 5000;
 
 export const getServerSideProps = async (ctx) => {
   ctx.res.setHeader(
