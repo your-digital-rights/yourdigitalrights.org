@@ -19,9 +19,7 @@ export const getServerSideProps = async ctx => {
     const page = Number(ctx.params?.page);
 
     // this would load the items that make dynamic pages
-    console.log("before fetch");
     const data = await fetchDomains();
-    console.log("after fetch");
     const start = page*URLS_PER_SITEMAP;
     const end = (page+1)*URLS_PER_SITEMAP;
 
@@ -29,9 +27,7 @@ export const getServerSideProps = async ctx => {
         return { notFound: true };
     }
 
-    console.log("before slice");
     const domains = data['Domains'].slice(start,end);
-    console.log("after slice");
     const fields = domains.map((domain) => ({
             loc: `https://${DOMAIN}/d/${domain.url}`,
             changefreq: "weekly",
@@ -41,7 +37,6 @@ export const getServerSideProps = async ctx => {
                 hreflang: locale,
             }))
     }));
-    console.log("before return getServerSideSitemap");
     return getServerSideSitemap(ctx, fields);
 };
 

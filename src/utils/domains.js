@@ -6,16 +6,13 @@ var domainDetails = {};
 var dd = null;
 
 async function fetchDomains() {
-  console.log("DOMAINS_API_URL",DOMAINS_API_URL);
   const url = `${DOMAINS_API_URL}/domains`;
   if (allDomains == null) {
-    console.log("allDomains is null");
     allDomains = fetch(url)
       .then((response) => {
         if (response.ok) {
           return response.json();
         }
-        console.log("response not ok");
         throw new Error(`HTTP error ${response.status} from ${url}`);
       })
       .then((json) => {
@@ -23,7 +20,6 @@ async function fetchDomains() {
       })
       .catch(console.error);
   }
-  console.log("before return");
   return allDomains;
 }
 
