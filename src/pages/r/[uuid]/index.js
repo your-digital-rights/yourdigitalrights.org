@@ -12,7 +12,7 @@ import RequestWhatsNext from "../../../components/RequestWhatsNext";
 import RequestHero from "../../../components/RequestHero";
 import RequestTimeline from "../../../components/RequestTimeline";
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
-import fetchSheetData from "../../../utils/sheets";
+import { fetchDomainDetails } from "../../../utils/domains";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
 
@@ -188,17 +188,20 @@ export async function getServerSideProps(context) {
     }
   }
 
-  const data = await fetchSheetData();
-  const organization = data['Organizations'].find(
-    ({ url }) => requestDetails.Item.companyUrl.S === url
-  );  
+  const data = await fetchDomainDetails(requestDetails.Item.companyUrl.S);
 
+  if (typeof data == 'undefined') {
+    return {
+      notFound: true,
+    }
+  }
+  
   return {
-    notFound: typeof organization == 'undefined',
+    notFound: data.statusCode >= 400,
     props: {
       data: {
         item: requestDetails.Item,
-        organization,
+        organization: data['Domain'],
       },
     },
   }

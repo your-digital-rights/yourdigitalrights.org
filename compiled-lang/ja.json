@@ -14,7 +14,7 @@
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.orgは、デジタル人権を促進し、進歩させる人々を中心としたデジタルイニシアチブを作成して登録された慈善団体 "
+      "value": "YourDigitalRights.org は、 登録非営利団体 "
     },
     {
       "type": 1,
@@ -22,7 +22,15 @@
     },
     {
       "type": 0,
-      "value": "の創造です。"
+      "value": " によるオンラインサービスです。 "
+    },
+    {
+      "type": 1,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": " は、デジタル人権を提唱し、推進する、人間中心のイニシアチブです。"
     }
   ],
   "about.contact": [
@@ -85,6 +93,16 @@
     {
       "type": 0,
       "value": " - インフラエンジニア"
+    }
+  ],
+  "about.contributorsBody6": [
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " - フルスタック エンジニア。APPI サポートと全体的な日本語翻訳を YourDigitalRights.org に貢献。"
     }
   ],
   "about.createdByBody2": [
@@ -1202,7 +1220,7 @@
   "nav.about": [
     {
       "type": 0,
-      "value": "だいたい"
+      "value": "私たちについて"
     }
   ],
   "nav.contact": [
@@ -1344,7 +1362,7 @@
       "children": [
         {
           "type": 0,
-          "value": "私たちの"
+          "value": "私たちについて"
         }
       ],
       "type": 8,
@@ -1552,7 +1570,7 @@
   "pressIntro.title": [
     {
       "type": 0,
-      "value": "特集として"
+      "value": "メディア掲載"
     }
   ],
   "privacy.additionalPersonalData": [
@@ -2088,7 +2106,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+              "value": "当該個人データの存否が明らかになることにより、本人又は第三者の生命、身体又は財産に危害が及ぶおそれがあるもの"
             }
           ],
           "type": 8,
@@ -2098,7 +2116,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+              "value": "当該個人データの存否が明らかになることにより、違法又は不当な行為を助長し、又は誘発するおそれがあるもの"
             }
           ],
           "type": 8,
@@ -2108,7 +2126,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+              "value": "当該個人データの存否が明らかになることにより、国の安全が害されるおそれ、他国若しくは国際機関との信頼関係が損なわれるおそれ又は他国若しくは国際機関との交渉上不利益を被るおそれがあるもの"
             }
           ],
           "type": 8,
@@ -2118,7 +2136,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+              "value": "当該個人データの存否が明らかになることにより、犯罪の予防、鎮圧又は捜査その他の公共の安全と秩序の維持に支障が及ぶおそれがあるもの"
             }
           ],
           "type": 8,
@@ -3071,7 +3089,7 @@
   "requestEscalation.phoneDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request please call the "
+      "value": "リクエストをエスカレーションするには、 "
     },
     {
       "type": 1,
@@ -3087,7 +3105,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " に電話してください。"
     }
   ],
   "requestEscalation.submit": [
@@ -3267,13 +3285,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+      "value": "私たちの研究チームが特定した、プライバシーを侵害する企業・団体のワースト3をお知らせする月刊のメールマガジン。これらの企業からオプトアウトすることに月にたった5分を費やすことにより、オンラインプライバシーを改善し、個人情報のコントロール取り戻しましょう。"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Our Privacy Alerts!"
+      "value": "月刊メールマガジン「Privacy Alerts」を購読する!"
     }
   ],
   "thankyou.copyPart1Copy": [
@@ -3285,7 +3303,7 @@
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "電子メールアプリケーションで開いているはずです。メールを確認し、format@@0をクリックするだけです。"
+      "value": "電子メールアプリケーションで開いているはずです。メールを確認し、送信ボタンをクリックするだけです。"
     }
   ],
   "thankyou.copyPart2CCPA": [

@@ -10,7 +10,7 @@ import ListItemText from "@material-ui/core/ListItemText";
 import MenuItem from "@material-ui/core/MenuItem";
 import MenuList from "@material-ui/core/MenuList";
 import Paper from "@material-ui/core/Paper";
-import fetchSheetData from "../../utils/sheets";
+import { fetchDomains } from "../../utils/domains";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
 import { withStyles } from "@material-ui/core/styles";
@@ -40,11 +40,11 @@ class Form extends Component {
   }
 
   async componentDidMount() {
-    if (this.props.beforeFocus()) {
+    if (this.props.beforeFocus()) { 
       this.focusInput();
     }
 
-    const companies = fetchSheetData();
+    const companies = fetchDomains();
     this.setState({ companies });
     await companies;
     this.setState({ companiesLoaded: true });
@@ -71,13 +71,13 @@ class Form extends Component {
 
     if (search) {
       const companies = await this.state.companies;
-      searchResults = companies['Organizations']
+      searchResults = companies['Domains']
         .filter((company) => {
           return company.searchTerms
             .toLowerCase()
             .match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
         }).concat(
-          companies['Organizations'].filter((company) => {
+          companies['Domains'].filter((company) => {
             return company.url
               .toLowerCase()
               .match("^" + search.toLowerCase());

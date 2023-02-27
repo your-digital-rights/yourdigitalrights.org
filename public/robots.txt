@@ -1,3 +1,11 @@
+# *
 User-agent: *
+Allow: /
 Disallow: /r/
+
+# Host
+Host: https://yourdigitalrights.org
+
+# Sitemaps
 Sitemap: https://yourdigitalrights.org/sitemap.xml
+Sitemap: https://yourdigitalrights.org/sitemaps.xml

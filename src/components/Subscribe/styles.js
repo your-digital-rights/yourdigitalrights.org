@@ -4,11 +4,11 @@ import { theme } from "../../styles/theme";
 const Theme = (theme) => ({
   heading: {
     color: "white",
-    padding: "25px 20px",
+    padding: "25px 8% 0px",
     backgroundColor: "#039277",
     borderRadius: "20px",
     maxWidth: "980px !important",
-    margin: "0px 30px",
+    margin: "30px 30px 60px",
     [theme.breakpoints.down("sm")]: {
       display: "inherit",
       margin: "auto 10px",
