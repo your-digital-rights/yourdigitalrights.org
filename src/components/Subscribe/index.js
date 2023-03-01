@@ -55,7 +55,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               }
             };`}
           </Script>
-          <Script src="https://substackapi.com/widget.js"></Script>
+          <Script src="https://substackapi.com/widget.js" ></Script>
         </div>
       </div>
     </div>
