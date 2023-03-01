@@ -29,6 +29,9 @@
   "about.contributorsBody5": {
     "message": "{linkedin} - Infrastructure Engineer."
   },
+  "about.contributorsBody6": {
+    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+  },
   "about.createdByBody2": {
     "message": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
   },
@@ -243,7 +246,7 @@
     "message": "Full Name"
   },
   "faq.body.regulations.short-name": {
-    "message": "Name (link)"
+    "message": "Abbreviation"
   },
   "faq.body.regulations.timelimit": {
     "message": "Time to Reply"
@@ -336,13 +339,13 @@
     "message": "make a wish on our roadmap"
   },
   "hero.headerText": {
-    "message": "Get organizations to delete your account or send you a copy of your personal data."
+    "message": "Get organizations to delete your account or provide a copy of your personal information."
   },
   "hero.heading": {
     "message": "Own Your Data"
   },
   "hero.intro": {
-    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below. Don't know where to start? Opt out of these top <a>Data Brokers</a>."
+    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
   },
   "howItWorks.followUp": {
     "message": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
@@ -594,7 +597,7 @@
     "message": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
   },
   "privacyAlerts.description1": {
-    "message": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+    "message": "Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information."
   },
   "privacyAlerts.seoDescription": {
     "message": "Subscribe to our monthly privacy alerts"
@@ -602,11 +605,35 @@
   "privacyAlerts.seoTitle": {
     "message": "Privacy Alerts"
   },
-  "privacyAlerts.strapline": {
-    "message": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
-  },
   "privacyAlerts.title": {
-    "message": "Keep it private!"
+    "message": "Privacy Alerts"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Why you should invest in your privacy?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "So how do we get it back under control?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+  },
+  "privacyAlerts.whySubscribeBody1": {
+    "message": "Here are two great reasons why you should subscribe now:"
+  },
+  "privacyAlerts.whySubscribeBody2": {
+    "message": "Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
+  },
+  "privacyAlerts.whySubscribeBody3": {
+    "message": "Help support this service and the <a>nonprofit organization</a> that operates it"
+  },
+  "privacyAlerts.whySubscribeTitle": {
+    "message": "Why Subscribe?"
   },
   "redirect.continueText": {
     "message": "Continue"
@@ -713,6 +740,9 @@
   "request.next.circumstancesToDecline": {
     "message": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
   },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+  },
   "request.next.declineCCPA": {
     "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
   },
@@ -721,6 +751,12 @@
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
     "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
@@ -824,6 +860,9 @@
   "requestEscalation.geographyText ": {
     "message": "Please select your place of residence"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "In order to escalate your request please call the {authority} on {phone}."
+  },
   "requestEscalation.submit": {
     "message": "Review and Send"
   },
@@ -881,17 +920,41 @@
   "social.twitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
+  "stats.alltime": {
+    "message": "All Time"
+  },
+  "stats.body.count": {
+    "message": "Count"
+  },
+  "stats.body.org-name": {
+    "message": "Organization"
+  },
+  "stats.description": {
+    "message": "Data protection request statistics."
+  },
+  "stats.month": {
+    "message": "This Month"
+  },
+  "stats.statsTitle": {
+    "message": "Request Statistics"
+  },
+  "stats.title": {
+    "message": "Request Statistics"
+  },
+  "stats.total": {
+    "message": "Total requests sent:"
+  },
+  "stats.week": {
+    "message": "This Week"
+  },
+  "stats.year": {
+    "message": "This Year"
+  },
   "subscribe.alertsOneLiner1": {
-    "message": "Improve your online privacy over time by opting out of 3 companies each month."
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "Our research team hand-picks the worst privacy offenders."
-  },
-  "subscribe.signup": {
-    "message": "Sign up"
+    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
   },
   "subscribe.title": {
-    "message": "Sign up to our privacy alerts!"
+    "message": "Subscribe To Our Privacy Alerts!"
   },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."

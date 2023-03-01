@@ -25,7 +25,7 @@ export default [
       <FormattedMessage
         id="faq.body.YDR.1"
         defaultMessage="YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
-      />,
+      />
     ],
   },
   {   
@@ -39,7 +39,7 @@ export default [
       <FormattedMessage
         id="faq.body.data-protection.1"
         defaultMessage="Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
-      />,
+      />
     ],
   },
   {   
@@ -55,7 +55,7 @@ export default [
           <TableHead>
             <TableRow>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.location" defaultMessage="Location"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Name (link)"/></TableCell>
+              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Abbreviation"/></TableCell>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.name" defaultMessage="Full Name"/></TableCell>
               <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.timelimit" defaultMessage="Time to Reply"/></TableCell>
             </TableRow>
@@ -66,7 +66,7 @@ export default [
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
                 <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit}</TableCell>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit} days</TableCell>
               </TableRow>
             )}
           </TableBody>

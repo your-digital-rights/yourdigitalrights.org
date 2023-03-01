@@ -1,0 +1,29 @@
+{{ companyName }}
+プライバシー部門・法務部門ご担当者
+（またはデータ保護責任者の方）
+
+お世話になっております。{{ name }} と申します。
+
+{{ requestSentDate }}、私は貴社にに対し、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestType.name | capitalize }}請求を致しました。 
+
+{% if status === 'PARTIAL' %}
+これまでのところ、貴社の私の請求への対応は不完全であると理解しております。 
+{% elif status === 'DECLINED' %}
+これまでのところ、貴社の私の請求への対応を拒んでいるものと理解しております。
+{% elif status === 'NO_REPLY' %}
+これまでのところ、貴社から返信を得ることができれいません。
+{% endif %}
+
+{% if daysSinceRequest > regulation.timeLimit %}
+請求をお伝えしてから既に{{ daysSinceRequest }}日が経過しており、貴社は {{ regulation.displayName }} {{ requestType.article }} に違反している状態となっていることをご認識ください。 
+{% endif %}
+
+本メールは対応が必要な請求の存在についてお知らせするものであり、本件について貴社から十分な対応が得られない場合は、{{ regulation.dpa.longName }}に対し苦情の申し立てをする権利を有しますので、ご承知おきください。 
+
+何卒宜しくお願いします。
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
+{{ previousEmails }}

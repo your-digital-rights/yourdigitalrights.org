@@ -1,7 +1,7 @@
 import fetch from "isomorphic-fetch";
 import url from 'url';
 
-const SHEET_ID = "1tBtKWcOnLOs2cwqs_EX0ldTCaG3gh_7neQpaIYHBvJE";
+const API_GATEWAY_URL = 'd-7r4t96aa9a.execute-api.eu-west-1.amazonaws.com';
 const API_KEY = process.env.GOOGLE_SHEETS_API_KEY;
 
 const DOMAIN = 0;
@@ -44,7 +44,7 @@ setInterval(() => {
 export default async (req, res) => {
   const query = url.parse(req.url,true).query;
   
-  if (query.flush == process.env.CACHE_INVALIDATION) {
+  if (query.flush === process.env.CACHE_INVALIDATION) {
     console.log("Flushing the cache.");
     data = fetchCompanies();
   }
@@ -55,3 +55,9 @@ export default async (req, res) => {
   let response = await data;
   res.json(response);
 };
+
+export const config = {
+  api: {
+    responseLimit: '8mb',
+  },
+}

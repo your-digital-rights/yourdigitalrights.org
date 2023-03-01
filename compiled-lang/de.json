@@ -2,7 +2,7 @@
   "about.aboutTitle": [
     {
       "type": 0,
-      "value": "Unsere Aufgabe"
+      "value": "Unsere Mission"
     }
   ],
   "about.consciousDigital": [
@@ -14,7 +14,7 @@
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a creation of "
+      "value": "YourDigitalRights.org ist eine Unternehmung von "
     },
     {
       "type": 1,
@@ -22,7 +22,7 @@
     },
     {
       "type": 0,
-      "value": ", a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+      "value": ", einer eingetragenen Wohltätigkeitsorganisation, die menschenorientierte digitale Initiativen zur Förderung und Verbreitung der digitalen Menschenrechte entwickelt."
     }
   ],
   "about.contact": [
@@ -34,7 +34,7 @@
   "about.contactText": [
     {
       "type": 0,
-      "value": "Contact us at "
+      "value": "Kontaktieren Sie uns unter "
     },
     {
       "type": 1,
@@ -91,6 +91,16 @@
       "value": " - Infrastrukturingenieur."
     }
   ],
+  "about.contributorsBody6": [
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " - Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
+    }
+  ],
   "about.createdByBody2": [
     {
       "type": 1,
@@ -104,7 +114,7 @@
   "about.description": [
     {
       "type": 0,
-      "value": "Your Digital Rights wurde geschaffen, weil wir glauben, dass Sie das Recht auf Privatsphäre haben und dass die Ausübung Ihres Rechts auf Privatsphäre einfach sein sollte."
+      "value": "Your Digital Rights wurde gegründet, weil wir überzeugt davon sind, dass Sie ein Recht auf Privatsphäre haben und dass die Ausübung dieses Rechts einfach sein sollte."
     }
   ],
   "about.funding": [
@@ -116,13 +126,13 @@
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "This project is funded by its creators, and with the help of your donations."
+      "value": "Dieses Projekt wird von seinen Gründern und mit Hilfe Ihrer Spenden finanziert."
     }
   ],
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the "
+      "value": "Wir sind der Meinung, dass Privatsphäre ein grundlegendes Menschenrecht ist und dass die Ausübung dieses Rechts für jeden leicht zugänglich sein sollte. Datenschutzbestimmungen wie die "
     },
     {
       "type": 1,
@@ -130,7 +140,7 @@
     },
     {
       "type": 0,
-      "value": " (EU), the "
+      "value": " (EU), der "
     },
     {
       "type": 1,
@@ -138,7 +148,7 @@
     },
     {
       "type": 0,
-      "value": " (California), and the "
+      "value": " (Kalifornien) und der "
     },
     {
       "type": 1,
@@ -146,19 +156,19 @@
     },
     {
       "type": 0,
-      "value": " (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+      "value": " (Brasilien) bieten die rechtliche Infrastruktur, um das Grundrecht auf Privatsphäre im Internet zu schützen."
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+      "value": "Die Datenschutzbestimmungen sind ein Schritt in die richtige Richtung. Die Ausübung der Rechte, die sich aus diesen Vorschriften ergeben, ist jedoch immer noch so schwierig, dass sich die Meisten nicht damit auseinandersetzen. Die Situation wird noch dadurch verschlimmert, dass viele Organisationen Datenanfragen erschweren (z. B. indem sie keine Unternehmens-E-Mail-Adressen auf ihrer Website veröffentlichen). Unser Ziel ist es, die durch Rechtsvorschriften gewährten Rechte für alle zugänglich zu machen."
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
+      "value": "Dieses Angebot ist kostenlos. Wir sind kein Unternehmen und haben kein Geschäftsmodell. Wir bieten den Organisationen auf der Liste keine Dienstleistungen an. Wir sammeln oder verkaufen keine persönlichen Daten. Dieses Angebot ist "
     },
     {
       "children": [
@@ -216,7 +226,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+      "value": " - für die Bereitstellung einer gehosteten Version von Matomo (Piwik), der quelloffenen und datenschutzfreundlichen Webanalyseplattform."
     }
   ],
   "about.sponsorsBody6": [
@@ -242,7 +252,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+      "value": "Wir möchten uns bei den folgenden Organisationen bedanken, die unsere Open-Source-Bemühungen durch die Bereitstellung einer kostenlosen oder preisreduzierten Version ihrer Leistungen unterstützen:"
     }
   ],
   "about.title": [
@@ -254,7 +264,7 @@
   "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Zusätzliche Information:"
+      "value": "Zusätzliche Informationen:"
     }
   ],
   "aboutOrg.numRequests": [
@@ -266,7 +276,7 @@
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
-      "value": "Datenschutz-Bestimmungen:"
+      "value": "Datenschutzerklärung:"
     }
   ],
   "contribute.creadit": [
@@ -318,7 +328,7 @@
     },
     {
       "type": 0,
-      "value": " um das Übersetzungssystem zu laden."
+      "value": " um das Übersetzungssystem zu öffnen."
     }
   ],
   "contribute.crowdinStep3": [
@@ -342,13 +352,13 @@
   "contribute.crowdinStep6": [
     {
       "type": 0,
-      "value": "If you are experiencing any problems please "
+      "value": "Wenn Sie Schwierigkeiten bei der Nutzung haben, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us."
+          "value": "kontaktieren Sie uns bitte."
         }
       ],
       "type": 8,
@@ -398,7 +408,7 @@
   "contribute.devSkills": [
     {
       "type": 0,
-      "value": "We are currently looking for Machine Learning, React and AWS engineers."
+      "value": "Wir sind derzeit auf der Suche nach Entwicklern für Machine Learning, React und AWS."
     }
   ],
   "contribute.devTitle": [
@@ -476,7 +486,7 @@
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+      "value": "Dieses Projekt wird ausschließlich von Freiwilligen entwickelt und gepflegt. Wenn Sie auch besorgt sind über die zunehmenden Privatsphäreverletzungen, den ausufernden Überwachungskapitalismus, Micro-Targeting und Fehlinformationen sowie den Suchtfaktor digitaler Dienste, dann können Sie helfen:"
     }
   ],
   "contribute.title": [
@@ -494,7 +504,7 @@
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "Wir verwenden die Online-Plattform "
     },
     {
       "children": [
@@ -508,13 +518,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available "
+      "value": " zur einfachen Erstellung von Übersetzungen. Es macht den Arbeitsablauf wesentlich einfacher, und Sie benötigen keine Programmierkenntnisse. Eine kurze Anleitung gibt es "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "hier"
         }
       ],
       "type": 8,
@@ -522,7 +532,7 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": ". Folgen Sie diesen Schritten, um loszulegen:"
     }
   ],
   "contribute.translateTitle": [
@@ -596,61 +606,43 @@
   "donations.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Spenden"
     }
   ],
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+      "value": "Wir haben YourDigitalRights.org gegründet, weil wir der Meinung sind, dass Privatsphäre einen hohen Stellenwert hat und dass die Ausübung Ihres Rechts auf Privatsphäre leicht zugänglich sein sollte. Deshalb ist unser Angebot kostenlos. Durch eine Spende oder eine Fördermitgliedschaft können Sie dazu beitragen, unsere langfristige finanzielle Stabilität und Unabhängigkeit zu sichern."
     }
   ],
   "donations.headingDonate": [
     {
       "type": 0,
-      "value": "Wir brauchen Deine Unterstützung"
+      "value": "Wir brauchen Ihre Unterstützung"
     }
   ],
-  "faq.body0A": [
+  "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "Datenschutzgesetze schützen Einzelpersonen bei der Verarbeitung ihrer persönlichen Daten durch Organisationen. Sie definieren die Verantwortlichkeiten, die Organisationen bei der Verarbeitung personenbezogener Daten haben, und gewähren dem Einzelnen bestimmte Rechte in Bezug auf seine Daten."
+      "value": "Ihre digitalen Rechte. rg ist ein kostenloser Dienst, der Ihnen hilft, die Kontrolle über Ihre Online-Privatsphäre wiederzuerlangen, indem Sie es einfach machen, Organisationen zu löschen oder eine Kopie der persönlichen Informationen, die sie über Sie haben. Wir automatisieren den Prozess, der in leistungsstarken Datenschutzgesetzen beschrieben ist, die Ihnen das Recht geben, Ihre Daten zu löschen oder auf sie zuzugreifen. Zusätzlich zu den Anfragen an Organisationen können wir dazu beitragen, dass Anfragen zu Ihren Gunsten beantwortet werden."
     }
   ],
-  "faq.body1": [
+  "faq.body.contact.1": [
     {
       "type": 0,
-      "value": "Verschiedene Länder haben unterschiedliche Vorschriften zum Schutz der Privatsphäre im Internet. Diese Website unterstützt folgende Regelungen:"
+      "value": "Bitte haben Sie Verständnis, dass wir Ihnen keine persönliche Unterstützung in Bezug auf spezifische Datenanfragen oder Ihre Erfahrungen mit einer bestimmten Organisation geben können. Wir wissen, dass Organisationen in manchen Fällen ziemlich frustrierend sein können, aber leider können wir nicht helfen und werden solche E-Mails nicht beantworten."
     }
   ],
-  "faq.body10A": [
+  "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
-    }
-  ],
-  "faq.body10B": [
-    {
-      "type": 0,
-      "value": "Wenn Sie mit der Behandlung Ihrer Anfrage durch die Organisation unzufrieden sind, sollten Sie der Organisation zunächst eine Erinnerungsmail senden, in der Sie Ihre Unzufriedenheit erklären. Wenn Sie nach der Übersendung einer Mahnung noch unzufrieden sind, können Sie sich bei der Datenschutzagentur, einer staatlichen Regulierungsbehörde, beschweren. Einige Verordnungen geben Einzelpersonen ein privates Klagerecht - die Möglichkeit, eine Organisation vor Gericht zu verklagen. Wenn Sie sich dazu entschließen, empfehlen wir Ihnen dringend, zunächst eine unabhängige Rechtsberatung einzuholen."
-    }
-  ],
-  "faq.body10C": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body10Ci": [
-    {
-      "type": 0,
-      "value": "Sie können sich bei den lokalen Datenschutzbehörden (DPA) beschweren. Sie können auch versuchen, Ihre Rechte durch die Gerichte durchzusetzen. Sie können eine Liste von DPAs "
+      "value": "Für alle anderen Anfragen kontaktieren Sie uns bitte per "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "hier herunterladen"
+          "value": "E-Mail"
         }
       ],
       "type": 8,
@@ -658,25 +650,25 @@
     },
     {
       "type": 0,
-      "value": " (PDF)."
+      "value": "."
     }
   ],
-  "faq.body10D": [
+  "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "Unter dem CCPA:"
+      "value": "Ja bitte!"
     }
   ],
-  "faq.body10Di": [
+  "faq.body.contribute.2": [
     {
       "type": 0,
-      "value": "You can make a complaint to the California "
+      "value": "Wir sind auf "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Attorney General"
+          "value": "Spenden"
         }
       ],
       "type": 8,
@@ -684,905 +676,353 @@
     },
     {
       "type": 0,
-      "value": ". You can also seek to enforce your rights through the courts."
+      "value": " angewiesen, um unsere langfristige finanzielle Stabilität und Unabhängigkeit zu gewährleisten. Sie können hier einen Beitrag leisten."
     }
   ],
-  "faq.body10E": [
+  "faq.body.contribute.3": [
     {
       "type": 0,
-      "value": "Unter LGPD:"
-    }
-  ],
-  "faq.body10Ei": [
-    {
-      "type": 0,
-      "value": "Sie können eine Beschwerde beim ANPD einreichen. Sie können auch versuchen, Ihre Rechte durch die Gerichte durchzusetzen."
-    }
-  ],
-  "faq.body11A": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body11Ai": [
-    {
-      "type": 0,
-      "value": "Organisationen können wegen Verstoßes gegen die DSGVO mit einer Geldstrafe von bis zu 4 % des weltweiten Jahresumsatzes oder 20 Millionen Euro belegt werden."
-    }
-  ],
-  "faq.body11Aii": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Mehr erfahren"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body11B": [
-    {
-      "type": 0,
-      "value": "Unter dem CCPA:"
-    }
-  ],
-  "faq.body11Bi": [
-    {
-      "type": 0,
-      "value": "Die Strafe für einen vorsätzlichen Verstoß gegen den CCPA beträgt 7.500 USD pro Vorfall und für einen unbeabsichtigten Verstoß 2.500 USD pro Vorfall. Verbraucher haben Anspruch auf eine $100-$750 pro Vorfall oder tatsächlichem Schaden, je nachdem, welcher Betrag höher ist, wenn ein Unternehmen im Falle einer Verletzung sensibler personenbezogener Daten keine angemessenen Sicherheitsmaßnahmen ergriffen hat."
-    }
-  ],
-  "faq.body11Biii": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Mehr erfahren"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body11C": [
-    {
-      "type": 0,
-      "value": "Die Sanktionen können kumulativ nach Tag und Verstoß angewendet werden, aber immer aufgrund der Schwere und des Ausmaßes der Verletzung."
-    }
-  ],
-  "faq.body11C0": [
-    {
-      "type": 0,
-      "value": "Die administrativen Sanktionen gelten für folgende Bereiche:"
-    }
-  ],
-  "faq.body11Ci": [
-    {
-      "type": 0,
-      "value": "Warnung."
-    }
-  ],
-  "faq.body11Cii": [
-    {
-      "type": 0,
-      "value": "Durch eine klare und vollständige Erklärung mit Angabe des Ursprungs der Daten, das Nichtbestehen der Datensätze, für die Verarbeitung verwendete Kriterien und den Zweck der Verarbeitung innerhalb von 15 Tagen ab dem Datum des Antrags gezählt."
-    }
-  ],
-  "faq.body11Ciii": [
-    {
-      "type": 0,
-      "value": "Fine that could reach 2% of the Konzernumsatz in Brazil, limited to BRL$ 50 million per violation."
-    }
-  ],
-  "faq.body11Civ": [
-    {
-      "type": 0,
-      "value": "Tägliche Geldstrafe."
-    }
-  ],
-  "faq.body11Cix": [
-    {
-      "type": 0,
-      "value": "Teilweise oder vollständiges Verbot der Ausübung von Tätigkeiten im Zusammenhang mit der Datenverarbeitung."
-    }
-  ],
-  "faq.body11Cv": [
-    {
-      "type": 0,
-      "value": "Tägliche Geldstrafe."
-    }
-  ],
-  "faq.body11Cvi": [
-    {
-      "type": 0,
-      "value": "Sperrung der personenbezogenen Daten, auf die sich der Verstoß bezieht, bis zu deren Regelung."
-    }
-  ],
-  "faq.body11Cvii": [
-    {
-      "type": 0,
-      "value": "Löschung der personenbezogenen Daten, auf die sich der Verstoß bezieht."
-    }
-  ],
-  "faq.body11Cviii": [
-    {
-      "type": 0,
-      "value": "Teilweise Aussetzung des Betriebs der Datenbank, auf die sich der Verstoß bezieht, für einen maximalen Zeitraum von 6 (sechs) Monaten erweiterbar um einen gleichen Zeitraum, bis die Verarbeitungstätigkeit durch die Organisation reguliert wird."
-    }
-  ],
-  "faq.body11D": [
-    {
-      "type": 0,
-      "value": "Unter LGPD:"
-    }
-  ],
-  "faq.body12A": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body12Ai": [
-    {
-      "type": 0,
-      "value": "Das Data Protection Office (DPO), obwohl die Gesetzgebung vorschreibt, dass Organisationen Mitarbeiter darin schulen sollten, GDPR-Anfragen zu erkennen, unabhängig davon, wen sie erreichen oder in welchem Format."
-    }
-  ],
-  "faq.body12B": [
-    {
-      "type": 0,
-      "value": "Unter dem CCPA:"
-    }
-  ],
-  "faq.body12Bi": [
-    {
-      "type": 0,
-      "value": "Der CCPA definiert nicht, wer innerhalb einer Organisation dafür verantwortlich ist."
-    }
-  ],
-  "faq.body12C": [
-    {
-      "type": 0,
-      "value": "Unter LGPD:"
-    }
-  ],
-  "faq.body12Ci": [
-    {
-      "type": 0,
-      "value": "Der Datenschutzbeauftragte (DPO). Kleine Datenverarbeitungsagenturen wie Kleinstunternehmen, Startups und juristische Personen des Privatrechts sind nicht verpflichtet, den Inhaber personenbezogener Daten zu benennen, sondern müssen einen Kommunikationskanal mit den Verbrauchern bereitstellen."
-    }
-  ],
-  "faq.body13A": [
-    {
-      "type": 0,
-      "value": "Um dieses Problem zu beheben, müssen Sie einen Standard-E-Mail-Client auf Ihrem System konfigurieren. Hier finden Sie Anweisungen dazu, wie Sie dies auf "
+      "value": "Please see the information on "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Mac"
+          "value": "this page"
         }
       ],
       "type": 8,
-      "value": "a1"
+      "value": "a"
     },
     {
       "type": 0,
-      "value": " und "
+      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+    }
+  ],
+  "faq.body.data-protection.1": [
+    {
+      "type": 0,
+      "value": "Datenschutzgesetze schützen den Einzelnen bei der Verarbeitung seiner persönlichen Daten durch Organisationen. Sie definieren die Verantwortlichkeiten der Organisationen bei der Verarbeitung personenbezogener Daten und geben dem Einzelnen bestimmte Rechte in Bezug auf seine Daten. In vielen Ländern gibt es Datenschutzgesetze. Einige gehen hinsichtlich des von ihnen gewährten Schutzes weiter als andere."
+    }
+  ],
+  "faq.body.escalate.1": [
+    {
+      "type": 0,
+      "value": "Datenschutzgesetze bieten für solche Fälle verschiedene Eskalationsmechanismen einschließlich der Möglichkeit, eine Beschwerde gegen die Organisation bei einer staatlichen Regulierungsbehörde einzureichen oder die Organisation vor Gericht zu bringen (ein privates Klagerecht genannt)."
+    }
+  ],
+  "faq.body.escalate.2": [
+    {
+      "type": 0,
+      "value": "Wenn das kompliziert klingt, bitte keine Sorge, wir können helfen. Bei der Übermittlung einer Datenanfrage über diesen Dienst schalten Sie die Option „Smart Follow-up Assistance“ ein, um persönliche Beratung zu erhalten, was zu tun ist, falls eine Organisation Ihre Anfrage nicht erfüllt hat. Wir werden Ihnen helfen, mit der Organisation zu kommunizieren und bei Bedarf mit der staatlichen Regulierungsbehörde zu eskalieren."
+    }
+  ],
+  "faq.body.how.1": [
+    {
+      "type": 0,
+      "value": "Nachdem Sie eine Organisation ausgewählt haben und ein kurzes Formular ausgefüllt haben, werden wir eine E-Mail mit Anfragen an die von Ihnen gewählte Organisation erstellen. Diese E-Mail wird sich in Ihrer E-Mail-App öffnen, damit Sie sie überprüfen und versenden können. Optional wir können mit Ihnen kurz nachgehen, nachdem eine Anfrage gesendet wurde, um sicherzustellen, dass die Anfrage zu Ihren Gunsten beantwortet wird. Dies kann das Versenden von Erinnerungs-E-Mails der Organisation oder die Eskalation an die staatliche Regulierungsbehörde beinhalten."
+    }
+  ],
+  "faq.body.new-regulation.1": [
+    {
+      "type": 0,
+      "value": "Wir möchten alle Datenschutzgesetze unterstützen, die dem Einzelnen das Recht auf Zugang und Löschung seiner persönlichen Daten einräumen. Bitte "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Windows"
+          "value": "kontaktieren Sie uns"
         }
       ],
       "type": 8,
-      "value": "a2"
+      "value": "a"
     },
     {
       "type": 0,
-      "value": "tun."
+      "value": " wenn Sie möchten, dass wir Unterstützung für eine bestimmte Regelung hinzufügen."
     }
   ],
-  "faq.body1A": [
+  "faq.body.refuse.1": [
     {
       "type": 0,
-      "value": "Europäische Union - Allgemeine Datenschutzbestimmungen (BIP)"
+      "value": "Datenschutzgesetze erlauben es Organisationen, Ihre persönlichen Daten unter bestimmten Ausnahmesituationen zu löschen. Hier sind einige allgemeine Beispiele, aber Sie sollten die für Sie geltende spezifische Verordnung für Einzelheiten lesen:"
     }
   ],
-  "faq.body1B": [
+  "faq.body.refuse.1.1": [
     {
       "type": 0,
-      "value": "California - Verbraucherschutzgesetz (CCPA)"
+      "value": "Wenn die Organisation gesetzlich verpflichtet ist, Ihre Daten zu behalten (z. B. Finanzinstitute müssen Ihre Transaktionen protokollieren, um die Bestimmungen zur Geldwäschebekämpfung einzuhalten)"
     }
   ],
-  "faq.body1C": [
+  "faq.body.refuse.1.2": [
     {
       "type": 0,
-      "value": "Brasilien - Allgemeine Datenschutzgesetze (LGPD)"
+      "value": "Bei der Speicherung Ihrer Daten ist aus Gründen der Meinungs- und Informationsfreiheit erforderlich (dies schließt Journalismus und akademische, künstlerische und literarische Zwecke ein)"
     }
   ],
-  "faq.body2A": [
+  "faq.body.refuse.1.3": [
     {
       "type": 0,
-      "value": "Die Datenschutz-Grundverordnung, kurz DSGVO, ist eine EU-Verordnung, die das Grundrecht der Menschen auf Schutz ihrer personenbezogenen Daten schützt."
+      "value": "Wenn Sie Ihre Daten behalten möchten, ist dies aus Gründen der öffentlichen Gesundheit erforderlich"
     }
   ],
-  "faq.body2Ai": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Lesen Sie die Vorschrift"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body2B": [
+  "faq.body.refuse.1.4": [
     {
       "type": 0,
-      "value": "Die DSGVO gilt nicht für bestimmte Aktivitäten, einschließlich Strafverfolgung, nationale Sicherheit und ausschließlich für persönliche / Haushaltsaktivitäten."
+      "value": "Wenn Ihre Daten gespeichert werden müssen, um Rechtsansprüche zu erheben, auszuüben oder zu verteidigen"
     }
   ],
-  "faq.body2C": [
+  "faq.body.refuse.1.5": [
+    {
+      "type": 0,
+      "value": "Wenn Sie Ihre Daten löschen, würden wissenschaftliche oder historische Forschung oder Archivierung beeinträchtigen, die im öffentlichen Interesse liegt"
+    }
+  ],
+  "faq.body.regulations.1": [
+    {
+      "type": 0,
+      "value": "Bitte "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Mehr erfahren"
+          "value": "kontaktieren Sie uns"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body3A": [
+    },
     {
       "type": 0,
-      "value": "Die DSGVO gilt für:"
+      "value": " wenn Sie uns helfen möchten, Support für zusätzliche Regelungen zu implementieren."
     }
   ],
-  "faq.body3Ai": [
+  "faq.body.regulations.location": [
     {
       "type": 0,
-      "value": "Organisationen mit Sitz innerhalb der EU, die personenbezogene Daten erheben oder verarbeiten (auch von Personen außerhalb der EU)"
+      "value": "Standort"
     }
   ],
-  "faq.body3Aii": [
+  "faq.body.regulations.name": [
     {
       "type": 0,
-      "value": "Organisationen mit Sitz außerhalb der EU, die personenbezogene Daten sammeln oder verarbeiten, während sie Waren oder Dienstleistungen (kostenpflichtig oder kostenlos) für Personen in der EU bereitstellen"
+      "value": "Voller Name"
     }
   ],
-  "faq.body3Aiii": [
+  "faq.body.regulations.short-name": [
     {
       "type": 0,
-      "value": "Organisationen mit Sitz außerhalb der EU, die personenbezogene Daten sammeln oder verarbeiten, während sie das Verhalten von Personen überwachen, während sie sich in der EU aufhalten"
+      "value": "Abkürzung"
     }
   ],
-  "faq.body4A": [
+  "faq.body.regulations.timelimit": [
     {
       "type": 0,
-      "value": "Das California Consumer Privacy Act, kurz CCPA, ist eine Verordnung, die im Januar 2020 in Kalifornien eingeführt wurde. Sie schützt das Grundrecht der Menschen auf den Schutz ihrer persönlichen Daten und der Privatsphäre im Internet."
+      "value": "Zeit zu antworten"
     }
   ],
-  "faq.body4Ai": [
+  "faq.body.requests.1": [
+    {
+      "type": 0,
+      "value": "Wir unterstützen zwei Arten von Anfragen:"
+    }
+  ],
+  "faq.body.requests.1.1": [
     {
       "children": [
         {
           "type": 0,
-          "value": "Lesen Sie die Vorschrift"
+          "value": "Anfragen zum Löschen von Daten"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body5A": [
+      "value": "b"
+    },
     {
       "type": 0,
-      "value": "Das CCPA gilt für Organisationen, die persönliche Verbraucherinformationen sammeln oder in dem diese Informationen gesammelt werden und allein oder gemeinsam mit anderen bestimmt die Zwecke und die Mittel zur Verarbeitung der persönlichen Daten des Verbrauchers die Geschäfte im Bundesstaat Kalifornien macht, und das erfüllt einen oder mehrere der folgenden Schwellenwerte:"
+      "value": " (auch als Löschanfragen oder das Recht auf vergessene Anfragen bekannt) erlauben es dir, eine Organisation um die Löschung deiner persönlichen Daten zu bitten."
     }
   ],
-  "faq.body5Ai": [
-    {
-      "type": 0,
-      "value": "Hat jährliche Bruttoeinnahmen von über fünfundzwanzig Millionen Dollar (25.000.000 $)"
-    }
-  ],
-  "faq.body5Aii": [
-    {
-      "type": 0,
-      "value": "Kauft, empfängt, verkauft oder teilt jährlich für kommerzielle Zwecke einzeln oder in Kombination die personenbezogenen Daten von 50.000 oder mehr Verbrauchern, Haushalten oder Geräten"
-    }
-  ],
-  "faq.body5Aiii": [
-    {
-      "type": 0,
-      "value": "Stellt 50 Prozent oder mehr der jährlichen Einnahmen aus dem Verkauf persönlicher Verbraucherinformationen ab"
-    }
-  ],
-  "faq.body6Ai": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body6Aii": [
-    {
-      "type": 0,
-      "value": "Alle Informationen, die sich auf eine Person beziehen, die direkt oder indirekt verwendet werden können, um sie zu identifizieren. Eine Person kann auf vielfältige Weise identifiziert werden, darunter Name, Identifikationsnummer, Standortdaten oder andere Online-Identifikatoren."
-    }
-  ],
-  "faq.body6Aiii": [
+  "faq.body.requests.1.2": [
     {
       "children": [
         {
           "type": 0,
-          "value": "Mehr erfahren"
+          "value": "Zugriffsanfragen"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body6Bi": [
+      "value": "b"
+    },
     {
       "type": 0,
-      "value": "Unter dem CCPA:"
+      "value": " (auch bekannt als Subject Access Requests oder SAR kurz) erlauben es Ihnen, eine Organisation um die Bereitstellung einer Kopie Ihrer persönlichen Daten zu bitten."
     }
   ],
-  "faq.body6Bii": [
+  "faq.body.trust.1": [
     {
       "type": 0,
-      "value": "Personenbezogene Daten sind alles, was einen bestimmten Verbraucher oder Haushalt identifiziert, sich auf ihn bezieht, ihn beschreibt oder mit ihm in Verbindung gebracht werden kann oder vernünftigerweise direkt oder indirekt mit ihm in Verbindung gebracht werden könnte."
-    }
-  ],
-  "faq.body6Biii": [
+      "value": "Wir sind eine registrierte gemeinnützige Organisation namens "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Definition lesen"
+          "value": "Conscious Digital"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body6Ci": [
+    },
     {
       "type": 0,
-      "value": "Unter dem LDPG:"
-    }
-  ],
-  "faq.body6Cii": [
-    {
-      "type": 0,
-      "value": "Alle Informationen über eine identifizierte oder identifizierbare natürliche Person wie Name, ID-Nummer, Standortdaten, E-Mail etc."
-    }
-  ],
-  "faq.body6Ciii": [
-    {
-      "type": 0,
-      "value": "Sensitive personenbezogene Daten werden als Unterkategorie personenbezogener Daten definiert und gelten dann, wenn die verarbeiteten Daten rassische oder ethnische Herkunft, religiöser Glaube, politische, gewerkschaftliche oder religiöse, philosophische oder politische Organisationsmitgliedschaft, Daten über Gesundheit oder Sexualleben, genetische oder biometrische Daten."
-    }
-  ],
-  "faq.body7A": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body7Ai": [
-    {
-      "type": 0,
-      "value": "Das Recht auf Löschung ist nicht absolut und betrifft die Datenverarbeitung, bei der die Einwilligung die Rechtsgrundlage für die Verarbeitung ist. Beispielsweise fallen Daten, die aufgrund eines Vertrags erforderlich sind, oder Daten, die im öffentlichen Interesse liegen, nicht unter diese Definition. Genauer gesagt gilt das Recht nur unter den folgenden Umständen:"
-    }
-  ],
-  "faq.body7Aii": [
-    {
-      "type": 0,
-      "value": "Die Organisation benötigt Ihre Daten nicht mehr. Beispiel: Nachdem Sie Ihre Mitgliedschaft im Fitnessstudio gekündigt haben, müssen keine Angaben zu Ihrem Namen, Ihrer Adresse, Ihrem Alter und Ihrem Gesundheitszustand mehr gespeichert werden."
-    }
-  ],
-  "faq.body7Aiii": [
-    {
-      "type": 0,
-      "value": "Sie haben der Nutzung Ihrer Daten zunächst zugestimmt, diese inzwischen aber widerrufen. Beispiel: Sie haben der Teilnahme an einer Marktforschungsstudie zugestimmt und möchten dies nun nicht mehr tun."
-    }
-  ],
-  "faq.body7Aiv": [
-    {
-      "type": 0,
-      "value": "Sie haben der Verwendung Ihrer Daten widersprochen und Ihre Interessen überwiegen die der verwendenden Organisation."
-    }
-  ],
-  "faq.body7Av": [
-    {
-      "type": 0,
-      "value": "Die Organisation hat Ihre Daten unrechtmäßig gesammelt oder verwendet. Beispiel: Sie ist nicht mit den Regeln zum Datenschutz eingehalten."
-    }
-  ],
-  "faq.body7Avi": [
-    {
-      "type": 0,
-      "value": "Die Organisation ist gesetzlich verpflichtet, Ihre Daten zu löschen."
-    }
-  ],
-  "faq.body7Avii": [
-    {
-      "type": 0,
-      "value": "Die Daten wurden von Ihnen als Kind für einen Onlinedienst erhoben. Beispiel: Social Media oder eine Gaming-App. Das Gesetz gewährt Kindern besonderen Schutz, da sie sich der Risiken und Folgen der Weitergabe ihrer Daten an Organisationen möglicherweise weniger bewusst sind. Auch wenn Sie jetzt volljährig sind, haben Sie ein Recht auf Löschung Ihrer Daten, wenn diese als Kind bei Ihnen erhoben wurden."
-    }
-  ],
-  "faq.body7Aviii": [
+      "value": ". Wir glauben an Transparenz, und deshalb ist der Quellcode für diesen Dienst "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Mehr erfahren"
+          "value": "Open Source"
         }
       ],
       "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.body7B": [
+      "value": "aa"
+    },
     {
       "type": 0,
-      "value": "Unter dem CCPA:"
+      "value": ". Im Oktober 2022 haben wir Einzelpersonen geholfen, mehr als 100.000 Anfragen an Varius-Organisationen einzureichen"
     }
   ],
-  "faq.body7Bi": [
+  "faq.body.trust.2": [
     {
       "type": 0,
-      "value": "Verbraucher können das Recht ausüben, ihre persönlichen Daten zu löschen, wenn:"
-    }
-  ],
-  "faq.body7Bii": [
-    {
-      "type": 0,
-      "value": "Die persönlichen Daten wurden vom Unternehmen vom Verbraucher gesammelt."
-    }
-  ],
-  "faq.body7Biii": [
-    {
-      "type": 0,
-      "value": "Es ist nicht mehr notwendig, dass der Dienstleister die persönlichen Daten aufbewahrt, um einen der gesetzlich festgelegten Zwecke zu erfüllen (Kaliforniens Zivilgesetzbuch § 1798. 05 (d))."
-    }
-  ],
-  "faq.body7Biv": [
-    {
-      "type": 0,
-      "value": "Das Unternehmen ist nicht berechtigt, die persönlichen Daten unter einer der allgemeinen Ausnahmen nach dem Gesetz (Kaliforniens Zivilgesetzbuch Abschnitt 17988.145) zu speichern."
-    }
-  ],
-  "faq.body7C": [
-    {
-      "type": 0,
-      "value": "Unter LGPD:"
-    }
-  ],
-  "faq.body7Ci": [
-    {
-      "type": 0,
-      "value": "Die Verordnung sieht vor, dass Organisationen die personenbezogenen Daten einer natürlichen Person löschen, wenn sie angefordert wurden, da die Daten auf der Grundlage der Einwilligung gesammelt wurden."
-    }
-  ],
-  "faq.body7Cii": [
-    {
-      "type": 0,
-      "value": "Im Falle einer Datenverarbeitung auf der Grundlage der Einwilligung kann der Betroffene die Löschung der erfassten Daten beantragen ausgenommen wenn die Speicherung vom LGPD erlaubt ist."
-    }
-  ],
-  "faq.body7Ciii": [
-    {
-      "type": 0,
-      "value": "Wenn eine Organisation die Daten mit Dritten geteilt hat es muss jeden Löschantrag mit diesen Dritten kommunizieren, damit das Verfahren wiederholt werden kann ausgenommen in Fällen, in denen eine solche Kommunikation nachweislich unmöglich ist oder unverhältnismäßige Anstrengungen erfordert."
-    }
-  ],
-  "faq.body7Ciiii": [
-    {
-      "type": 0,
-      "value": "Darüber hinaus stellt die LGPD fest, dass Daten gelöscht werden müssen, wenn sie aus übermäßigen, unnötigen oder rechtswidrigen Gründen verarbeitet wurden."
-    }
-  ],
-  "faq.body8A": [
-    {
-      "type": 0,
-      "value": "Unter bestimmten Umständen ist es einer Organisation gesetzlich gestattet, die Löschung Ihrer Daten zu verweigern."
-    }
-  ],
-  "faq.body8Ai": [
-    {
-      "type": 0,
-      "value": "Unter der DSGVO:"
-    }
-  ],
-  "faq.body8Aii": [
-    {
-      "type": 0,
-      "value": "Wenn die Aufbewahrung Ihrer Daten aus Gründen der Meinungs- und Informationsfreiheit erforderlich ist (dazu gehören journalistische und wissenschaftliche, künstlerische und literarische Zwecke)."
-    }
-  ],
-  "faq.body8Aiii": [
-    {
-      "type": 0,
-      "value": "Wenn die Organisation gesetzlich verpflichtet ist, Ihre Daten aufzubewahren."
-    }
-  ],
-  "faq.body8Aiv": [
-    {
-      "type": 0,
-      "value": "Wenn die Aufbewahrung Ihrer Daten aus Gründen der öffentlichen Gesundheit erforderlich ist."
-    }
-  ],
-  "faq.body8Av": [
-    {
-      "type": 0,
-      "value": "Wenn die Aufbewahrung Ihrer Daten zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist."
-    }
-  ],
-  "faq.body8Avi": [
-    {
-      "type": 0,
-      "value": "Wenn eine Löschung Ihrer Daten wissenschaftliche oder historische Forschung oder eine im öffentlichen Interesse liegende Archivierung beeinträchtigen würde."
-    }
-  ],
-  "faq.body8Avii": [
-    {
-      "type": 0,
-      "value": "Wenn die Organisation nach Prüfung Ihrer Anfrage entscheidet, dass sie Ihre Daten nicht löschen muss, muss sie Ihnen trotzdem antworten. Es sollte Ihnen erklären, warum es der Meinung ist, dass es Ihre Daten nicht löschen muss, und Sie über Ihr Recht informieren, sich gegen diese Entscheidung beim ICO oder vor Gericht zu beschweren."
-    }
-  ],
-  "faq.body8B": [
-    {
-      "type": 0,
-      "value": "Die Organisation kann Ihren Antrag auch ablehnen, wenn er laut Gesetz „offensichtlich unbegründet oder übertrieben“ ist."
-    }
-  ],
-  "faq.body8Bi": [
+      "value": "Wir sind unabhängig, verkaufen Ihre persönlichen Daten nicht, sind nicht mit einer der Organisationen verbunden, die wir Ihnen helfen Datenanfragen zu senden. Wir bieten diesen Organisationen auch keine Dienstleistungen an. Schließlich werden wir durch Ihre "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Mehr erfahren"
+          "value": "Spenden"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body8C": [
+    },
     {
       "type": 0,
-      "value": "Unter dem CCPA:"
+      "value": " finanziert."
     }
   ],
-  "faq.body8Ci": [
+  "faq.body.trust.3": [
     {
       "type": 0,
-      "value": "Meinungsfreiheit oder ein anderes gesetzlich vorgesehenes Recht."
-    }
-  ],
-  "faq.body8Cii": [
-    {
-      "type": 0,
-      "value": "Verarbeitung zu Forschungszwecken, wenn die Löschung personenbezogener Daten die Durchführung dieser Forschung unmöglich machen oder ernsthaft beeinträchtigen würde."
-    }
-  ],
-  "faq.body8Ciii": [
-    {
-      "type": 0,
-      "value": "Die Verarbeitung dieser personenbezogenen Daten ist erforderlich, um sich vor illegalen Aktivitäten zu schützen oder die für die Aktivität Verantwortlichen strafrechtlich zu verfolgen."
-    }
-  ],
-  "faq.body8Civ": [
-    {
-      "type": 0,
-      "value": "Zur Erfüllung einer gesetzlichen Verpflichtung."
-    }
-  ],
-  "faq.body8Cix": [
-    {
-      "type": 0,
-      "value": "Sonst verwenden Sie die persönlichen Informationen des Verbrauchers intern, in einer rechtmäßigen Weise, die mit dem Kontext vereinbar ist, in dem der Verbraucher die Informationen zur Verfügung gestellt hat."
-    }
-  ],
-  "faq.body8Cv": [
-    {
-      "type": 0,
-      "value": "Um einen Vertrag zwischen dem Unternehmen und dem Verbraucher zu erfüllen."
-    }
-  ],
-  "faq.body8Cvi": [
-    {
-      "type": 0,
-      "value": "Erkennen Sie Sicherheitsvorfälle, schützen Sie sich vor böswilligen, irreführenden, betrügerischen oder illegalen Aktivitäten oder verfolgen Sie die Verantwortlichen für diese Aktivitäten."
-    }
-  ],
-  "faq.body8Cvii": [
-    {
-      "type": 0,
-      "value": "Debuggen, um Fehler zu identifizieren und zu beheben, die die vorhandene beabsichtigte Funktionalität beeinträchtigen."
-    }
-  ],
-  "faq.body8Cviii": [
-    {
-      "type": 0,
-      "value": "Nur interne Verwendungen, die den Erwartungen des Verbrauchers auf der Grundlage des Verhältnisses des Verbrauchers zum Unternehmen angemessen entsprechen, zu ermöglichen."
-    }
-  ],
-  "faq.body8D": [
+      "value": "Wir haben diesen Service so konzipiert, dass er von uns nicht verlangt, Ihre persönlichen Daten zu erheben. Wenn bestimmte optionale Funktionen von Ihnen persönliche Informationen verlangen, löschen wir diese Daten nach 120 Tagen. Details entnehmen Sie bitte unserer "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Mehr erfahren"
+          "value": "Datenschutzerklärung"
         }
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "faq.body8E": [
+    },
     {
       "type": 0,
-      "value": "Unter LGPD:"
+      "value": "."
     }
   ],
-  "faq.body8F": [
+  "faq.body.verify.1": [
     {
       "type": 0,
-      "value": "Die LGPD erlaubt die Speicherung von Daten für folgende Zwecke:"
+      "value": "Datenschutzgesetze verlangen, dass Organisationen die Identität der Person überprüfen, die eine Anfrage zur Betrugsbekämpfung eingereicht hat. Die meisten Gesetze besagen auch, dass die Überprüfungsmethode proportional zur Art der Daten sein sollte. Zum Beispiel wenn Sie eine Kopie Ihres Nachrichtenverlaufs von einem typischen Internet-Forum anfordern, sollte eine einfache Verifizierung der Email-Adresse, die mit Ihrem Konto verbunden ist, ausreichen. Auf der anderen Seite, wenn Sie Ihren Transaktionsverlauf bei einem Finanzinstitut anfordern, sie sind berechtigt, Sie um zusätzliche Informationen wie einen Lichtbildausweis und einen Adressnachweis zu bitten."
     }
   ],
-  "faq.body8Fi": [
+  "faq.body.verify.2": [
     {
       "type": 0,
-      "value": "Einhaltung einer gesetzlichen oder regulatorischen Verpflichtung durch die Organisation."
+      "value": "In den meisten Fällen sollte eine einfache Verifizierung der Email-Adresse, die mit Ihrem Konto verbunden ist, ausreichen. Wenn Sie diesen Dienst nutzen, um eine Anfrage zu senden, wird eine E-Mail von Ihrer E-Mail-App verschickt, die diese grundlegende Überprüfung bietet."
     }
   ],
-  "faq.body8Fii": [
+  "faq.body.verify.3": [
     {
       "type": 0,
-      "value": "Studien einer Forschungsstelle, die die Anonymisierung personenbezogener Daten nach Möglichkeit garantiert."
+      "value": "Zum weiteren Schutz Ihrer persönlichen Daten die Anforderungen, die wir in Ihrem Namen generieren, verbieten Organisationen ausdrücklich, die im Rahmen der Anfrage enthaltenen persönlichen Informationen für andere Zwecke als die Erfüllung der Anfrage zu verwenden."
     }
   ],
-  "faq.body8Fiii": [
+  "faq.heading.YDR": [
     {
       "type": 0,
-      "value": "Weitergabe an Dritte, unter Beachtung der in diesem Gesetz festgelegten Anforderungen an die Datenverarbeitung."
+      "value": "Was ist YourDigitalRights.org?"
     }
   ],
-  "faq.body8Fiv": [
+  "faq.heading.contact": [
     {
       "type": 0,
-      "value": "Ausschließliche Nutzung der Organisation anonymisierter Daten, unter der Voraussetzung, dass der Zugriff auf die Daten durch Dritte untersagt ist."
+      "value": "Ich habe eine weitere Frage, wie kann ich Sie kontaktieren?"
     }
   ],
-  "faq.body9A": [
+  "faq.heading.contribute": [
     {
       "type": 0,
-      "value": "Unter der DSGVO:"
+      "value": "Dieser Service ist fantastisch. Kann ich helfen?"
     }
   ],
-  "faq.body9Ai": [
-    {
-      "type": 0,
-      "value": "faq.Eine Organisation hat einen Monat Zeit, um einer Anfrage nachzukommen. Die Frist kann unter Berücksichtigung der Komplexität und Anzahl der Anträge auf 2 weitere Monate verlängert werden. In jedem Fall muss die Organisation Sie innerhalb eines Monats nach Eingang des Antrags über eine solche Verlängerung informieren."
-    }
-  ],
-  "faq.body9Aii": [
-    {
-      "type": 0,
-      "value": "Unter dem CCPA:"
-    }
-  ],
-  "faq.body9Aiii": [
-    {
-      "type": 0,
-      "value": "Die Frist zur Beantwortung einer Anfrage beträgt 45 Tage ab Erhalt der Anfrage des Verbrauchers. Die Frist kann um 45 zusätzliche Tage verlängert werden, wenn dies vernünftig erforderlich ist, wenn der Verbraucher innerhalb der ersten 45 Tage informiert wird."
-    }
-  ],
-  "faq.body9C": [
-    {
-      "type": 0,
-      "value": "Unter LGPD:"
-    }
-  ],
-  "faq.body9D": [
-    {
-      "type": 0,
-      "value": "Die LGPD legt eine Frist für das Recht auf Bestätigung der Existenz personenbezogener Daten und das Recht auf Zugang zu personenbezogenen Daten fest:"
-    }
-  ],
-  "faq.body9Di": [
-    {
-      "type": 0,
-      "value": "In vereinfachter Form, wenn die Bestätigung oder der Zugang sofort zur Verfügung gestellt wird."
-    }
-  ],
-  "faq.body9Dii": [
-    {
-      "type": 0,
-      "value": "Durch eine klare und vollständige Erklärung mit Angabe des Ursprungs der Daten, das Nichtbestehen der Datensätze, für die Verarbeitung verwendete Kriterien und den Zweck der Verarbeitung kann innerhalb von 15 (fünfzehn Tage) Tagen gezählt werden, die ab dem Datum der Anfrage."
-    }
-  ],
-  "faq.bodyWhatIsLGPD1": [
-    {
-      "type": 0,
-      "value": "Die LGPD (Lei Geral de Proteção de Dados Pessoais) ist eine brasilianische Verordnung, die Regeln für das Sammeln, Die von Organisationen verwalteten personenbezogenen Daten zu behandeln, zu speichern und weiterzugeben. Er legt den Schutz der Grundrechte der Freiheit und der Privatsphäre des Einzelnen als Hauptziele fest."
-    }
-  ],
-  "faq.bodyWhatIsLGPD2": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Lesen Sie die Vorschrift"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo1": [
-    {
-      "type": 0,
-      "value": "Das LGPD gilt für jede natürliche oder juristische Person des öffentlichen oder privaten Rechts zur Verarbeitung personenbezogener Daten (wie Erhebung, Produktion, Empfang, Klassifizierung, Verarbeitung usw.). auf brasilianischem Territorium und außerhalb des Landes, wenn:"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo2": [
-    {
-      "type": 0,
-      "value": "Personenbezogene Daten werden in Brasilien erfasst"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo3": [
-    {
-      "type": 0,
-      "value": "Daten beziehen sich auf Personen im brasilianischen Hoheitsgebiet oder"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo4": [
-    {
-      "type": 0,
-      "value": "Ihr Ziel ist es, Einzelpersonen in Brasilien Produkte und/oder Dienstleistungen anzubieten, sei es Brasiliens oder Brasiliens"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo5": [
-    {
-      "type": 0,
-      "value": "Das LGPD ist nicht anwendbar, wenn die Verarbeitung personenbezogener Daten vorgenommen wird:"
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo6": [
-    {
-      "type": 0,
-      "value": "Von einer natürlichen Person für ausschließlich private und nicht-kommerzielle Zwecke."
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo7": [
-    {
-      "type": 0,
-      "value": "Exklusiv für journalistische, künstlerische oder akademische Zwecke."
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo8": [
-    {
-      "type": 0,
-      "value": "Von öffentlichen Behörden, im Falle der Nutzung zur Förderung der öffentlichen Sicherheit, nationale Verteidigung, Staatssicherheit oder Ermittlungs- und Strafverfolgung von Straftaten."
-    }
-  ],
-  "faq.bodyWhoLGPDAppliesTo9": [
-    {
-      "type": 0,
-      "value": "Wenn der Ursprung der Daten kein brasilianisches Territorium ist und a) nicht Gegenstand irgendeiner Datenverarbeitung in Brasilien; c) nicht an brasilianische Verarbeitungsagenturen weitergegeben; d) wird nicht mit anderen Ländern geteilt, die nicht das Herkunftsland sind, solange das Herkunftsland ein Gesetz oder eine Verordnung hat, die ein Niveau des Schutzes personenbezogener Daten bietet, das dem Datenschutz des LGPD entspricht."
-    }
-  ],
-  "faq.heading0": [
+  "faq.heading.data-protection": [
     {
       "type": 0,
       "value": "Was sind Datenschutzgesetze?"
     }
   ],
-  "faq.heading1": [
+  "faq.heading.escalate": [
     {
       "type": 0,
-      "value": "Welche Datenschutzgesetze schützen mich?"
+      "value": "Was soll ich tun, wenn eine Organisation meine Anfrage nicht vollständig erfüllt?"
     }
   ],
-  "faq.heading10": [
+  "faq.heading.how": [
     {
       "type": 0,
-      "value": "What should I do if an organization did not reply, or did not fully comply with my request?"
+      "value": "Wie funktioniert der Dienst?"
     }
   ],
-  "faq.heading11": [
+  "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "Welche Strafen drohen einer Organisation, die einer Aufforderung nicht nachkommt?"
+      "value": "Mein Land hat ein neues Datenschutzgesetz. Werden Sie es unterstützen?"
     }
   ],
-  "faq.heading12": [
+  "faq.heading.refuse": [
     {
       "type": 0,
-      "value": "Wer in einer Organisation ist für die Bearbeitung der Anfragen verantwortlich?"
+      "value": "Können Organisationen die Anfrage ablehnen?"
     }
   ],
-  "faq.heading13": [
+  "faq.heading.regulations": [
     {
       "type": 0,
-      "value": "Beim Senden einer Anfrage über die Website erhalte ich eine Fehlermeldung oder es passiert nichts"
+      "value": "Welche Länder, Staaten oder Vorschriften werden unterstützt?"
     }
   ],
-  "faq.heading2": [
+  "faq.heading.requests": [
     {
       "type": 0,
-      "value": "Was ist die DSGVO?"
+      "value": "Welche Art von Anfragen kann ich über dieses Angebot stellen?"
     }
   ],
-  "faq.heading3": [
+  "faq.heading.trust": [
     {
       "type": 0,
-      "value": "Für wen gilt die DSGVO?"
+      "value": "Von wem kommt dieses Angebot? Kann ich Ihnen vertrauen?"
     }
   ],
-  "faq.heading4": [
+  "faq.heading.verify": [
     {
       "type": 0,
-      "value": "Was ist der CCPA?"
-    }
-  ],
-  "faq.heading5": [
-    {
-      "type": 0,
-      "value": "Für wen gilt der CCPA?"
-    }
-  ],
-  "faq.heading6": [
-    {
-      "type": 0,
-      "value": "Was sind personenbezogene Daten?"
-    }
-  ],
-  "faq.heading7": [
-    {
-      "type": 0,
-      "value": "Wann kann ich die Löschung meiner personenbezogenen Daten verlangen?"
-    }
-  ],
-  "faq.heading8": [
-    {
-      "type": 0,
-      "value": "Wann kann die Organisation nein sagen?"
-    }
-  ],
-  "faq.heading9": [
-    {
-      "type": 0,
-      "value": "Wie lange müssen Organisationen einer Anfrage nachkommen?"
-    }
-  ],
-  "faq.headingWhatIsLGPD": [
-    {
-      "type": 0,
-      "value": "Was ist der LGPD?"
-    }
-  ],
-  "faq.headingWhoLGPDAppliesTo": [
-    {
-      "type": 0,
-      "value": "Für wen gilt die LGPD?"
+      "value": "Eine Organisation hat mich gebeten, weitere personenbezogene Daten anzugeben, um meine Identität zu überprüfen. Ist dies rechtmäßig? Kann die Organisation diese Informationen für andere Zwecke verwenden?"
     }
   ],
   "faq.title": [
@@ -1648,7 +1088,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Datenschutzrichtlinie"
+          "value": "Datenschutzerklärung"
         }
       ],
       "type": 8,
@@ -1658,39 +1098,25 @@
   "footer.wishList": [
     {
       "type": 0,
-      "value": "Wünsch dir etwas auf unserer Roadmap"
+      "value": "wünschen Sie sich etwas auf unserer Roadmap"
     }
   ],
   "hero.headerText": [
     {
       "type": 0,
-      "value": "Fordern Sie Organisationen auf, Ihr Konto zu löschen oder Ihnen eine Kopie Ihrer personenbezogenen Daten zuzusenden."
+      "value": "Bringen Sie Organisationen dazu, Ihr Konto zu löschen oder Ihnen eine Kopie Ihrer personenbezogenen Daten zur Verfügung zu stellen."
     }
   ],
   "hero.heading": [
     {
       "type": 0,
-      "value": "Besitzen Sie Ihre Daten"
+      "value": "Übernehmen Sie die Kontrolle über Ihre Daten"
     }
   ],
   "hero.intro": [
     {
       "type": 0,
-      "value": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Verwenden Sie diesen kostenlosen Service, um ihnen eine Datenlöschungs- oder Zugriffsanfrage zu senden. Suchen Sie zunächst unten nach einer Organisation. Sie wissen nicht, wo Sie anfangen sollen? Melden Sie sich von diesen Top "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Datenbrokern ab"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Viele Organisationen sammeln und verkaufen Ihre personenbezogenen Daten, oft ohne Ihre Zustimmung. Nutzen Sie dieses kostenlose Angebot, um einen Antrag auf Löschung oder Zugang zu Ihren Daten zu stellen. Beginnen Sie mit der Suche nach einer Organisation unten."
     }
   ],
   "howItWorks.followUp": [
@@ -1726,7 +1152,7 @@
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "die Organisation eine Anfrage zum Löschen oder senden Sie eine Kopie Ihrer Daten."
+      "value": "die Organisation eine Anfrage zum Löschen oder zur Bereitstellung einer Kopie Ihrer Daten."
     }
   ],
   "howItWorks.sendTitle": [
@@ -1758,7 +1184,7 @@
     },
     {
       "type": 0,
-      "value": ". Wir haben diesen Service geschaffen, weil wir glauben, dass die Privatsphäre wichtig ist und dass die Ausübung Ihres Rechts auf Privatsphäre einfach und kostenlos sein sollte. Wir erheben oder verkaufen keine personenbezogenen Daten. Der Dienst wird von seinen Schöpfern finanziert und mit Hilfe Ihrer "
+      "value": ". Wir haben dieses Angebot geschaffen, weil wir der Meinung sind, dass Privatsphäre einen hohen Stellenwert hat und dass die Ausübung des Rechts auf Privatsphäre einfach und kostenlos sein sollte. Wir sammeln oder verkaufen keine personenbezogenen Daten. Der Dienst wird von seinen Gründern und mit Hilfe Ihrer "
     },
     {
       "children": [
@@ -1772,7 +1198,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " finanziert."
     }
   ],
   "howItWorks.whyTitle": [
@@ -1784,7 +1210,7 @@
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "Datenschutzgesetze verlangen, dass Organisationen Ihre Daten auf Anfrage löschen oder Ihnen eine Kopie zukommen lassen. Organisationen haben einen kurzen Zeitraum, um sie einzuhalten, andernfalls können sie mit hohen Geldstrafen rechnen. Unsere Aufgabe ist es, Ihnen die Ausübung Ihrer gesetzlichen Rechte zu erleichtern."
     }
   ],
   "howItWorks.yourDataTitle": [
@@ -1996,7 +1422,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
+          "value": "Durch die Auswahl dieser Option erklären Sie sich damit einverstanden, dass wir die folgenden persönlichen Daten verarbeiten und speichern: Ihre E-Mail-Adresse Name und der Text Ihrer Anfrage-E-Mails. Alle persönlichen Informationen, die sich auf diese Anfrage beziehen, werden innerhalb von 120 Tagen automatisch aus unseren Systemen gelöscht sofern Sie nichts anderes angeben und immer die Wahl haben, diese Daten sofort löschen zu lassen. Wir sammeln diese Informationen automatisch, indem wir dem CC-Feld der Anfrage-E-Mail eine spezielle E-Mail-Adresse hinzufügen."
         }
       ],
       "type": 8,
@@ -2144,7 +1570,7 @@
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Überprüfen und senden"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -2336,31 +1762,93 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+      "value": "Abonnieren Sie unsere E-Mails zum Schutz der Privatsphäre und Sie erhalten jeden Monat eine E-Mail, die die schlimmsten Unternehmen auflistet, die von unserem Forschungsteam identifiziert wurden. Indem Sie fünf Minuten pro Monat aus diesen Unternehmen auswählen, können Sie Ihre Online-Privatsphäre im Laufe der Zeit verbessern und die Kontrolle über Ihre persönlichen Daten zurücknehmen."
     }
   ],
   "privacyAlerts.seoDescription": [
     {
       "type": 0,
-      "value": "Subscribe to our monthly privacy alerts"
+      "value": "Abonnieren Sie unsere monatlichen Datenschutzbenachrichtigungen"
     }
   ],
   "privacyAlerts.seoTitle": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
-    }
-  ],
-  "privacyAlerts.strapline": [
-    {
-      "type": 0,
-      "value": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
+      "value": "Datenschutz-Warnungen"
     }
   ],
   "privacyAlerts.title": [
     {
       "type": 0,
-      "value": "Keep it private!"
+      "value": "Datenschutz-Warnungen"
+    }
+  ],
+  "privacyAlerts.whyPrivacy": [
+    {
+      "type": 0,
+      "value": "Warum sollten Sie in Ihre Privatsphäre investieren?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody1": [
+    {
+      "type": 0,
+      "value": "Jede Online-Interaktion hinterlässt Spuren unserer persönlichen Daten. Unternehmen, mit denen wir interagieren, Datenvermittler, Regierungen und Einzelpersonen, die nichts nützen, sind alle an unseren Daten interessiert."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody2": [
+    {
+      "type": 0,
+      "value": "Diese Realität lässt uns einer Vielzahl von Einflusskampagnen aussetzen. Dazu gehören gezielte Online-Werbung, politische und soziale Manipulation mittels gefälschter Nachrichten, verschiedene Betrugsarten wie Identitätsdiebstahl, suchterzeugende Apps und Online-Dienste. All dies wird durch die Fülle an persönlichen Informationen, die wir hinterlassen, ermöglicht."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody3": [
+    {
+      "type": 0,
+      "value": "Wie können wir es also wieder unter Kontrolle bringen?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody4": [
+    {
+      "type": 0,
+      "value": "Wir haben auf der Grundlage von Rückmeldungen von Personen, die unsere Dienste nutzen, Datenschutzhinweise erstellt. Es ist eine einfache Möglichkeit, Ihre Online-Privatsphäre im Laufe der Zeit zu verbessern, indem Sie nur fünf Minuten pro Monat dafür verbringen, sich gegen die von unserem Forschungsteam persönlich ausgewählten Unternehmen zu entscheiden."
+    }
+  ],
+  "privacyAlerts.whySubscribeBody1": [
+    {
+      "type": 0,
+      "value": "Hier zwei große Gründe, warum Sie jetzt abonnieren sollten:"
+    }
+  ],
+  "privacyAlerts.whySubscribeBody2": [
+    {
+      "type": 0,
+      "value": "Verbesserung Ihrer Online-Privatsphäre, und schützen Sie sich und Ihre Familie vor Einflusskampagnen, indem Sie jeden Monat nur fünf Minuten lang aus den von unserem Forschungsteam persönlich ausgewählten Unternehmen ausscheiden."
+    }
+  ],
+  "privacyAlerts.whySubscribeBody3": [
+    {
+      "type": 0,
+      "value": "Hilf dabei, diesen Service und die "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "gemeinnützige Organisation"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " zu unterstützen, die ihn betreibt"
+    }
+  ],
+  "privacyAlerts.whySubscribeTitle": [
+    {
+      "type": 0,
+      "value": "Warum abonnieren?"
     }
   ],
   "redirect.continueText": [
@@ -2602,7 +2090,7 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Reference:"
+      "value": "Referenz:"
     }
   ],
   "request.hero.requestNotSent": [
@@ -2621,6 +2109,54 @@
     {
       "type": 0,
       "value": "Es gibt bestimmte außergewöhnliche Umstände, in denen eine Organisation gesetzlich erlaubt ist, Ihre Anfrage abzulehnen."
+    }
+  ],
+  "request.next.declineAPPI": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "request.next.declineCCPA": [
@@ -2887,10 +2423,208 @@
       "value": "ul"
     }
   ],
+  "request.next.declinePIPEDA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Ausnahmen von der Zugangsvoraussetzung sollten begrenzt und spezifisch sein."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Die Gründe für die Verweigerung des Zugriffs sollten dem Einzelnen auf Anfrage mitgeteilt werden."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Ausnahmen können Informationen enthalten, die unerschwinglich kostspielig sind, Informationen, die Verweise auf andere Personen enthalten, Informationen, die aus rechtlichen, sicherheitsrelevanten oder gewerblichen urheberrechtlichen Gründen nicht offengelegt werden können, sowie Informationen, die dem Rechtsanwalts- oder Streitbeilegungsrecht unterliegen."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineVCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Protected health information under HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health records for purposes of Title 32.1;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient identifying information for purposes of 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Information used only for public health activities and purposes as authorized by HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommendation: escalate your request to your "
+      "value": "Empfehlung: Eskalieren Sie Ihre Anfrage an "
     },
     {
       "type": 1,
@@ -2912,7 +2646,7 @@
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "Recommendation: if you believe "
+      "value": "Empfehlung: Wenn Sie der Meinung sind, dass "
     },
     {
       "type": 1,
@@ -2920,7 +2654,7 @@
     },
     {
       "type": 0,
-      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
+      "value": " Ihrer Anfrage vollständig nachgekommen sein sollte dann empfehlen wir, dass Sie Ihre Anfrage an "
     },
     {
       "type": 1,
@@ -2936,13 +2670,13 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": " ) eskalieren."
     }
   ],
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated your request to the "
+      "value": "Du hast deine Anfrage an "
     },
     {
       "type": 1,
@@ -2958,7 +2692,7 @@
     },
     {
       "type": 0,
-      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": ") erhöht, bitte kommuniziere weiterhin direkt mit ihnen. Es gibt nichts anderes, was wir tun können, um zu helfen."
     }
   ],
   "request.next.esclateButton": [
@@ -3066,7 +2800,7 @@
   "request.success": [
     {
       "type": 0,
-      "value": "Congratulations, "
+      "value": "Herzlichen Glückwunsch, "
     },
     {
       "type": 1,
@@ -3074,13 +2808,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
+      "value": " hat Ihre Anfrage erfolgreich erfüllt. Ihre persönlichen Daten werden innerhalb von 120 Tagen ab dem Datum Ihrer ursprünglichen Anfrage automatisch von dieser Website gelöscht. Alternativ können Sie Ihre persönlichen Daten "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data now"
+          "value": "jetzt löschen"
         }
       ],
       "type": 8,
@@ -3355,13 +3089,13 @@
   "requestEscalation.esclateButtonForm": [
     {
       "type": 0,
-      "value": "Open Escalation Form"
+      "value": "Öffne Eskalationsformular"
     }
   ],
   "requestEscalation.formDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request you will need to complete a form on the "
+      "value": "Um Ihre Anfrage zu eskalieren, müssen Sie ein Formular auf der "
     },
     {
       "type": 1,
@@ -3369,7 +3103,7 @@
     },
     {
       "type": 0,
-      "value": " website. Click the button bellow to open the form in a new tab."
+      "value": " Website ausfüllen. Klicken Sie auf die Schaltfläche unten, um das Formular in einem neuen Tab zu öffnen."
     }
   ],
   "requestEscalation.geography": [
@@ -3384,10 +3118,32 @@
       "value": "Bitte wählen Sie Ihren Wohnort aus"
     }
   ],
+  "requestEscalation.phoneDisclamer": [
+    {
+      "type": 0,
+      "value": "In order to escalate your request please call the "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " on "
+    },
+    {
+      "type": 1,
+      "value": "phone"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "Überprüfen und senden"
     }
   ],
   "search.companyPlaceholder": [
@@ -3411,25 +3167,25 @@
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copy email text to clipboard"
+      "value": "E-Mail-Text in Zwischenablage kopieren"
     }
   ],
   "sendEmailButton.default": [
     {
       "type": 0,
-      "value": "Open in your default email client"
+      "value": "In Ihrem Standard-E-Mail-Client öffnen"
     }
   ],
   "sendEmailButton.gmail": [
     {
       "type": 0,
-      "value": "Open in Gmail"
+      "value": "In Google Mail öffnen"
     }
   ],
   "sendEmailButton.yahoo": [
     {
       "type": 0,
-      "value": "Open in Yahoo Mail"
+      "value": "In Yahoo Mail öffnen"
     }
   ],
   "social.chromeCTA": [
@@ -3498,40 +3254,88 @@
       "value": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
     }
   ],
+  "stats.alltime": [
+    {
+      "type": 0,
+      "value": "Alle Zeiten"
+    }
+  ],
+  "stats.body.count": [
+    {
+      "type": 0,
+      "value": "Anzahl"
+    }
+  ],
+  "stats.body.org-name": [
+    {
+      "type": 0,
+      "value": "Organisation"
+    }
+  ],
+  "stats.description": [
+    {
+      "type": 0,
+      "value": "Statistiken für Datenschutzanfragen."
+    }
+  ],
+  "stats.month": [
+    {
+      "type": 0,
+      "value": "Diesen Monat"
+    }
+  ],
+  "stats.statsTitle": [
+    {
+      "type": 0,
+      "value": "Statistiken anfordern"
+    }
+  ],
+  "stats.title": [
+    {
+      "type": 0,
+      "value": "Statistiken anfordern"
+    }
+  ],
+  "stats.total": [
+    {
+      "type": 0,
+      "value": "Gesamte gesendete Anfragen:"
+    }
+  ],
+  "stats.week": [
+    {
+      "type": 0,
+      "value": "Diese Woche"
+    }
+  ],
+  "stats.year": [
+    {
+      "type": 0,
+      "value": "Dieses Jahr"
+    }
+  ],
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Improve your online privacy over time by opting out of 3 companies each month."
-    }
-  ],
-  "subscribe.alertsOneLiner2": [
-    {
-      "type": 0,
-      "value": "Our research team hand-picks the worst privacy offenders."
-    }
-  ],
-  "subscribe.signup": [
-    {
-      "type": 0,
-      "value": "Sign up"
+      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Sign up to our privacy alerts!"
+      "value": "Subscribe To Our Privacy Alerts!"
     }
   ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+      "value": "wurde in die Zwischenablage kopiert, alles was Sie tun müssen, ist sie in eine E-Mail einzufügen, sie neu zu lesen und auf Absenden zu klicken."
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "-E-Mail sollte in Ihrer E-Mail-Anwendung geöffnet worden sein, alles was Sie tun müssen, ist, sie zu überprüfen und auf Absenden zu klicken."
     }
   ],
   "thankyou.copyPart2CCPA": [
@@ -3593,13 +3397,13 @@
   "thankyou.description": [
     {
       "type": 0,
-      "value": "Thank you"
+      "value": "Vielen Dank"
     }
   ],
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+      "value": "Bitte erwägen Sie eine Spende, um unsere langfristige finanzielle Stabilität und Unabhängigkeit zu gewährleisten:"
     }
   ],
   "thankyou.findCompany": [
@@ -3625,25 +3429,25 @@
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access request"
+      "value": "Eine Zugriffsanfrage"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion request"
+      "value": "Eine Löschanfrage"
     }
   ],
   "thankyou.seotitle": [
     {
       "type": 0,
-      "value": "Thank You"
+      "value": "Vielen Dank"
     }
   ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "Thank You!"
+      "value": "Vielen Dank!"
     }
   ]
 }

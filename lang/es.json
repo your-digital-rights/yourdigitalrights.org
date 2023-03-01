@@ -6,13 +6,13 @@
     "message": "Quienes somos"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+    "message": "YourDigitalRights.org es una creación de {cd}, una organización benéfica registrada que crea iniciativas digitales centradas en las personas promocionando y promocionando los derechos humanos digitales."
   },
   "about.contact": {
     "message": "Contáctenos"
   },
   "about.contactText": {
-    "message": "Contact us at {email}."
+    "message": "Contáctenos en {email}."
   },
   "about.contributors": {
     "message": "Contribuciones"
@@ -29,6 +29,9 @@
   "about.contributorsBody5": {
     "message": "{linkedin} - Ingeniero de Infraestructura."
   },
+  "about.contributorsBody6": {
+    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
+  },
   "about.createdByBody2": {
     "message": "{linkedin} - Ingeniero Frontend, Ingeniero de aplicaciones moviles y creador de Skyjacker, el simulador de seguimiento de aviones con Realidad Aumentada\n"
   },
@@ -39,13 +42,13 @@
     "message": "Financiación"
   },
   "about.fundingBody1": {
-    "message": "This project is funded by its creators, and with the help of your donations."
+    "message": "Este proyecto está financiado por sus creadores y con la ayuda de sus donaciones."
   },
   "about.missionBody1": {
-    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+    "message": "Creemos que la privacidad es un derecho humano básico y que el ejercicio de este derecho debería ser fácilmente accesible para todos. Normas de protección de datos tales como {GDPR} (UE), {CCPA} (California), y el {LGPD} (Brasil) proporcionan la infraestructura legal para proteger el derecho fundamental de las personas a la privacidad en línea."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+    "message": "Las normas de privacidad son un paso en la dirección correcta. pero ejercer sus derechos en virtud de estas legislaciones sigue siendo bastante difícil para la mayoría de la gente no molestarse en ello. La situación se agrava porque muchas organizaciones dificultan la presentación de solicitudes de datos (por ejemplo, no publicando ninguna dirección de correo electrónico corporativo en su sitio web). Nuestro objetivo es hacer que los derechos otorgados por estas legislaciones sean accesibles para todos."
   },
   "about.missionBody3": {
     "message": "Es un servicio gratuito. No somos un negocio y no tenemos un modelo de negocio. No ofrecemos ningún servicio a las organizaciones de la lista. No recopilamos ni comercializamos ningún dato personal. Este servicio es <a>Código Abierto</a>."
@@ -60,7 +63,7 @@
     "message": "{featureupvote} - por proporcionar una manera efectiva de capturar nuevas propuestas por parte de la comunidad con respecto a nuestra {roadmap}."
   },
   "about.sponsorsBody4": {
-    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+    "message": "{innocraft} - por proporcionar una versión alojada de Matomo (Piwik), la plataforma de análisis web de código abierto y privacidad."
   },
   "about.sponsorsBody6": {
     "message": "{sws} - por ayudarnos con la estrategia SEO."
@@ -69,7 +72,7 @@
     "message": "{ama} - para ayudarnos a entender y apoyar la normativa de privacidad de datos brasileña, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+    "message": "Nos gustaría dar las gracias a las siguientes organizaciones por apoyar nuestro esfuerzo de código abierto proporcionando una versión gratuita o descontada de sus servicios:"
   },
   "about.title": {
     "message": "Sobre nosotros"
@@ -114,7 +117,7 @@
     "message": "Nuestros repositorios están alojados en GitHub, siendo este <a>sitio web</a> eel principal. La mejor manera de empezar es ponerse en contacto con nosotros a través de nuestro <email>correo electrónico</email>  y asi luego podremos agregarerle a nuestro canal de Slack, donde compartiremos eel estado del desarrollo de la aplicación. Tambieen puede clonar el repositorio y enviar solicitudes de fusión con su contribución."
   },
   "contribute.devSkills": {
-    "message": "We are currently looking for Machine Learning, React and AWS engineers."
+    "message": "Actualmente estamos buscando ingenieros Machine Learning, React y AWS."
   },
   "contribute.devTitle": {
     "message": "Ayuda con el desarrollo"
@@ -132,7 +135,7 @@
     "message": "Ayuda con la investigación"
   },
   "contribute.subtitle": {
-    "message": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    "message": "Este proyecto es desarrollado y mantenido enteramente por voluntarios. Si le preocupa la pérdida de privacidad, el capitalismo de vigilancia desenfrenado, la microorientación y la desinformación y la naturaleza addictiva de los servicios digitales pueden ayudar:"
   },
   "contribute.title": {
     "message": "Colabora"
@@ -141,7 +144,7 @@
     "message": "Nos gustaría que este servicio estuviera disponible en muchos idiomas. Si el suyo no estuviera entre los que actualmente están disponibles, o necesitara actualizaciones o mejoras, nos encantaría su ayuda!"
   },
   "contribute.translate2": {
-    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+    "message": "Utilizamos la plataforma en línea <a>Crowdin</a> para fabricar fácilmente las cadenas de traducción. Hace que el proceso sea mucho más fácil y no requiere que sepa nada sobre programación. Hay un tutorial rápido disponible <b>aquí</b>. Sigue estos pasos para empezar:"
   },
   "contribute.translateTitle": {
     "message": "Traduce esta web"
@@ -174,439 +177,142 @@
     "message": "Eliminar mis datos"
   },
   "donations.donate": {
-    "message": "Donate"
+    "message": "Donar"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+    "message": "YourDigitalRights.org fue creado porque creemos que la privacidad importa, y que el ejercicio de su derecho a la privacidad debería ser fácil. Por eso lo hemos hecho gratis. Al donar o convertirse en miembro de apoyo puedes ayudar a garantizar nuestra estabilidad financiera e independencia a largo plazo."
   },
   "donations.headingDonate": {
     "message": "Necesitamos tu apoyo"
   },
-  "faq.body0A": {
-    "message": "Las leyes de protección de datos protegen a las personas con respecto al tratamiento de sus datos personales por organizaciones. Definen las responsabilidades que las organizaciones tienen al procesar datos personales y conceden ciertos derechos individuales con respecto a sus datos."
+  "faq.body.YDR.1": {
+    "message": "Sus derechos digitales. rg es un servicio gratuito que le ayuda a recuperar el control de su privacidad en línea al facilitar que las organizaciones eliminen o proporcionen una copia de la información personal que tienen sobre usted. Lo hacemos automatizando el proceso descrito en las leyes de protección de datos que le dan derecho a eliminar o acceder a sus datos. Además de enviar solicitudes a organizaciones, podemos ayudar a asegurar que las solicitudes se resuelvan a su favor."
   },
-  "faq.body1": {
-    "message": "Los diferentes países tienen diferentes regulaciones que protegen la privacidad individual en línea. Este sitio web soporta las siguientes reglas:"
+  "faq.body.contact.1": {
+    "message": "Por favor, entienda que no podemos proporcionar apoyo personal con respecto a peticiones específicas de datos o su experiencia con una organización en particular. Sabemos que, en algunos casos, las organizaciones pueden ser bastante frustrantes, pero por desgracia no podemos ayudar y no vamos a responder a tales correos electrónicos."
   },
-  "faq.body10A": {
-    "message": "When submitting a data request via this website, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not reply or did not fully complied with your request."
+  "faq.body.contact.2": {
+    "message": "Para todas las demás peticiones, por favor contáctenos por <a>correo electrónico</a>."
   },
-  "faq.body10B": {
-    "message": "Si no está satisfecho con la forma en que la organización ha manejado su solicitud, primero debe enviar a la organización un recordatorio por correo electrónico explicando su insatisfacción. Si después de enviar a la organización un recordatorio todavía no está satisfecho, puede quejarse ante la Agencia de Protección de Datos, un organismo regulador gubernamental. Algunas regulaciones brindan a las personas un derecho de acción privado - la capacidad de demandar a una organización en un tribunal. Si usted decide hacer esto, le aconsejamos encarecidamente que primero busque asesoramiento jurídico independiente."
+  "faq.body.contribute.1": {
+    "message": "¡Sí, por favor!"
   },
-  "faq.body10C": {
-    "message": "Bajo GDPR:"
+  "faq.body.contribute.2": {
+    "message": "Nos basamos en <a>donaciones</a> para garantizar nuestra estabilidad financiera e independencia a largo plazo. Puedes hacer una contribución aquí."
   },
-  "faq.body10Ci": {
-    "message": "Usted puede presentar una queja a las Autoridades locales de Protección de Datos (DPA). También puedes intentar hacer valer tus derechos a través de las cortes. Puedes descargar una lista de DPAs <a>aquí</a> (PDF)."
+  "faq.body.contribute.3": {
+    "message": "Por favor vea la información en <a>esta página</a> si desea reportar un error, ayudar a traducir el sitio web, ayudar con el desarrollo o llevar a cabo la investigación."
   },
-  "faq.body10D": {
-    "message": "Bajo CCPA:"
+  "faq.body.data-protection.1": {
+    "message": "Las leyes de protección de datos protegen a las personas con respecto al tratamiento de su información personal por organizaciones. Definen las responsabilidades que tienen las organizaciones a la hora de procesar información personal y conceden a las personas ciertos derechos en relación con sus datos. Muchos países tienen leyes de protección de datos; algunos van más lejos que otros en cuanto a la protección que ofrecen."
   },
-  "faq.body10Di": {
-    "message": "Puedes presentar una queja al <a>Procurador General de California</a>. También puedes intentar hacer valer tus derechos a través de los tribunales."
+  "faq.body.escalate.1": {
+    "message": "Las leyes de protección de datos proporcionan diversos mecanismos de escalación para estos casos, incluyendo la posibilidad de presentar una queja contra la organización ante una agencia reguladora gubernamental o de llevar a la organización ante un tribunal (llamado derecho privado de acción)."
   },
-  "faq.body10E": {
-    "message": "Bajo la LGPD:"
+  "faq.body.escalate.2": {
+    "message": "Si esto suena complicado, por favor no te preocupes; podemos ayudar. Al enviar una solicitud de datos a través de este servicio, activa la opción “Asistencia de Seguimiento Inteligente” para obtener asesoramiento personalizado sobre qué hacer en caso de que una organización no haya cumplido con su solicitud. Le ayudaremos a comunicarse con la organización y, si es necesario, a escalar a la agencia reguladora gubernamental."
   },
-  "faq.body10Ei": {
-    "message": "Usted puede presentar una queja a la ANPD y también puede tratar de hacer valer sus derechos a través de los tribunales."
+  "faq.body.how.1": {
+    "message": "Después de seleccionar una organización y rellenar un breve formulario, generaremos un correo electrónico de solicitud dirigido a la organización que usted ha elegido. El correo electrónico se abrirá en tu aplicación de correo electrónico para que puedas revisar y enviar. Opcionalmente, podemos hacer un seguimiento con usted un poco después de que se haya enviado una solicitud para asegurarse de que la solicitud se resuelve a su favor. Esto puede incluir enviar mensajes de recordatorio a la organización o escalar a la agencia reguladora gubernamental."
   },
-  "faq.body11A": {
-    "message": "Bajo GDPR:"
+  "faq.body.new-regulation.1": {
+    "message": "Nos gustaría apoyar todas las leyes de protección de datos que conceden a las personas el derecho a acceder y eliminar sus datos personales. Por favor, <a>contáctenos</a> si desea que añadamos soporte para un reglamento en particular."
   },
-  "faq.body11Ai": {
-    "message": "Las organizaciones pueden recibir una multa de hasta el 4% de la facturación global anual o 20 millones de euros por infringir el la Ley de protección de datos (GDPR)."
+  "faq.body.refuse.1": {
+    "message": "Las leyes de protección de datos permiten a las organizaciones negarse a eliminar su información personal en determinadas circunstancias excepcionales. He aquí algunos ejemplos generales, pero debería leer el reglamento específico que se le aplica para los detalles:"
   },
-  "faq.body11Aii": {
-    "message": "<a>Más información</a>"
+  "faq.body.refuse.1.1": {
+    "message": "Cuando la organización está legalmente obligada a mantener sus datos (por ejemplo, las instituciones financieras deben guardar los registros de sus transacciones para cumplir con las normas antilavado de dinero)"
   },
-  "faq.body11B": {
-    "message": "Bajo CCPA:"
+  "faq.body.refuse.1.2": {
+    "message": "Cuando conservar sus datos es necesario por razones de libertad de expresión e información (esto incluye el periodismo y los propósitos académicos, artísticos y literarios)"
   },
-  "faq.body11Bi": {
-    "message": "La sanción por una violación intencional de CCPA es de 7,500 dolares por incidente y por una violación no intencional de 2,500 dolares por incidente. Si una empresa no tomó las medidas de seguridad razonables en caso de una violación de la información personal, los consumidores tienen derecho a una compensacion de entere 100 y 750 dolares por incidente o daños reales (la ofensa que sea de mayor coste)."
+  "faq.body.refuse.1.3": {
+    "message": "Al conservar sus datos es necesario por razones de salud pública"
   },
-  "faq.body11Biii": {
-    "message": "<a>Más información</a>"
+  "faq.body.refuse.1.4": {
+    "message": "Al guardar tus datos es necesario para establecer, ejercitar o defender reclamaciones legales"
   },
-  "faq.body11C": {
-    "message": "Las sanciones pueden aplicarse acumulativamente, por día y por violación, pero siempre basándose en la gravedad y el alcance de la violación."
+  "faq.body.refuse.1.5": {
+    "message": "Al borrar sus datos prejuzgaría la investigación científica o histórica o archivaría que es de interés público"
   },
-  "faq.body11C0": {
-    "message": "Las sanciones administrativas que se aplican son:"
+  "faq.body.regulations.1": {
+    "message": "Por favor, <a>contáctenos</a> si desea ayudarnos a implementar soporte para regulaciones adicionales."
   },
-  "faq.body11Ci": {
-    "message": "Advertencia."
+  "faq.body.regulations.location": {
+    "message": "Ubicación"
   },
-  "faq.body11Cii": {
-    "message": "Por medio de una declaración clara y completa, indicando el origen de los datos, no existencia de registros, se utiliza y el propósito de la tramitación, según el caso, en un plazo de quince días contados a partir de la fecha de la solicitud."
+  "faq.body.regulations.name": {
+    "message": "Nombre completo"
   },
-  "faq.body11Ciii": {
-    "message": "Fino que podría alcanzar el 2% de los ingresos del grupo en Brasil, limitado a 50 millones de BRL por violación."
+  "faq.body.regulations.short-name": {
+    "message": "Abreviatura"
   },
-  "faq.body11Civ": {
-    "message": "Bien diaria."
+  "faq.body.regulations.timelimit": {
+    "message": "Hora de responder"
   },
-  "faq.body11Cix": {
-    "message": "Prohibición parcial o total del ejercicio de actividades relacionadas con el tratamiento de datos."
+  "faq.body.requests.1": {
+    "message": "Apoyamos dos tipos de solicitudes:"
   },
-  "faq.body11Cv": {
-    "message": "Bien diaria."
+  "faq.body.requests.1.1": {
+    "message": "<b>Solicitudes de eliminación de datos</b> (también conocidas como solicitudes de borrado o el derecho a ser olvidadas) le permiten solicitar a una organización que borre su información personal."
   },
-  "faq.body11Cvi": {
-    "message": "Bloqueo de los datos personales a los que se refiere la infracción hasta su regularización."
+  "faq.body.requests.1.2": {
+    "message": "<b>Solicitudes de acceso</b> (también conocidas como Solicitudes de Acceso a Asunto o SAR para abreviar) le permiten solicitar a una organización que proporcione una copia de su información personal."
   },
-  "faq.body11Cvii": {
-    "message": "Eliminación de los datos personales a los que se refiere la infracción."
+  "faq.body.trust.1": {
+    "message": "Somos una organización sin fines de lucro registrada llamada <a>Conscious Digital</a>. Creemos en la transparencia, y por lo tanto el código fuente de este servicio es <aa>código abierto</aa>. En octubre de 2022, hemos ayudado a los individuos a enviar más de 100.000 solicitudes a diversas organizaciones"
   },
-  "faq.body11Cviii": {
-    "message": "Suspensión parcial de la operación de la base de datos a la que se refiere la infracción durante un período máximo de 6 (seis) meses extensible por un período igual, hasta que la actividad de procesamiento sea regularizada por la organización."
+  "faq.body.trust.2": {
+    "message": "Somos independientes, no vendemos su información personal, no estamos afiliados a ninguna de las organizaciones a las que le ayudamos a enviar solicitudes de datos. Tampoco proporcionamos ningún servicio a estas organizaciones. Finalmente, estamos financiados por sus <a>donaciones</a>."
   },
-  "faq.body11D": {
-    "message": "Bajo la LGPD:"
+  "faq.body.trust.3": {
+    "message": "Hemos diseñado este servicio para que, de forma predeterminada, no nos obligue a recopilar ninguna de sus datos personales. Cuando ciertas características opcionales requieren que usted proporcione información personal, eliminamos estos datos después de 120 días. Consulte nuestra <a>política de privacidad</a> para más detalles."
   },
-  "faq.body12A": {
-    "message": "Bajo GDPR:"
+  "faq.body.verify.1": {
+    "message": "Las leyes de protección de datos requieren que las organizaciones verifiquen la identidad del individuo que presenta una solicitud para prevenir el fraude. La mayoría de las leyes también establecen que el método de verificación debe ser proporcional a la naturaleza de los datos implicados. Por ejemplo, si usted solicita una copia de su historial de mensajes de un foro típico de Internet, una simple verificación de que usted posee la dirección de correo electrónico asociada a su cuenta debería ser suficiente. Por otro lado, si usted solicita su historial de transacciones a una institución financiera, están justificados por pedirle que facilite información adicional, como un documento de identidad con foto y un comprobante de dirección."
   },
-  "faq.body12Ai": {
-    "message": "La Oficina de Protección de Datos (DPO), aunque la legislación establece que las organizaciones deben capacitar a su personal para lidiar con las solicitudes de GDPR sin importar a quién lleguen o en qué formato."
+  "faq.body.verify.2": {
+    "message": "En la mayoría de los casos, debería bastar una simple verificación de que usted posee la dirección de correo electrónico asociada a su cuenta. Cuando utilizas este servicio para enviar una solicitud, se envía un correo electrónico desde tu aplicación de correo electrónico, que proporciona esta verificación básica."
   },
-  "faq.body12B": {
-    "message": "Bajo CCPA:"
+  "faq.body.verify.3": {
+    "message": "Para protegerte aún más tu información personal las solicitudes que generamos en su nombre prohíben explícitamente que las organizaciones usen la información personal incluida como parte de la solicitud para cualquier otro propósito que no sea el cumplimiento de la solicitud."
   },
-  "faq.body12Bi": {
-    "message": "CCPA no define quién específicamente dentro de una organización es responsable de esto."
+  "faq.heading.YDR": {
+    "message": "¿Qué es YourDigitalRights.org?"
   },
-  "faq.body12C": {
-    "message": "Bajo la LGPD:"
+  "faq.heading.contact": {
+    "message": "Tengo otra pregunta, ¿cómo puedo ponerme en contacto contigo?"
   },
-  "faq.body12Ci": {
-    "message": "El Responsable de Protección de Datos (DPO). Sin embargo, agentes de procesamiento de datos pequeños como microempresas, empresas nuevas y entidades jurídicas de derecho privado. no están obligados a designar al controlador de datos personales, sino que deben proporcionar un canal de comunicación con los consumidores."
+  "faq.heading.contribute": {
+    "message": "Este servicio es fantástico. ¿Puedo ayudar?"
   },
-  "faq.body13A": {
-    "message": "Para solucionar este problema, deberá configurar un cliente de correo electrónico predeterminado en su sistema. Aquí hay instrucciones sobre cómo hacer esto en <a1>Mac</a1> y <a2>Windows</a2>."
-  },
-  "faq.body1A": {
-    "message": "Unión Europea - Regulaciones Generales de Protección de Datos (PIB)"
-  },
-  "faq.body1B": {
-    "message": "California - Ley de privacidad del consumidor (CCPA)"
-  },
-  "faq.body1C": {
-    "message": "Brasil - Ley General de Protección de Datos (LGPD)"
-  },
-  "faq.body2A": {
-    "message": "La ley General de Protección de Datos (GDPR) es un reglamento de la Unión Europea que protege el derecho fundamental de las personas a la protección de sus datos personales."
-  },
-  "faq.body2Ai": {
-    "message": "<a>lea más sonbre la ley</a>"
-  },
-  "faq.body2B": {
-    "message": "El GDPR no se aplica a ciertas actividades que incluyen, la aplicación de la ley nacional, la seguridad nacional y las actividades exclusivamente personales / domésticas."
-  },
-  "faq.body2C": {
-    "message": "<a>Más información</a>"
-  },
-  "faq.body3A": {
-    "message": "GDPR se aplica a:"
-  },
-  "faq.body3Ai": {
-    "message": "Organizaciones establecidas dentro de la Union Europea que recopilan o procesan datos personales (incluso de personas ubicadas fuera de la UE)"
-  },
-  "faq.body3Aii": {
-    "message": "Organizaciones establecidas fuera de la UE que recopilan o procesan información personal mientras proporcionan bienes o servicios (pagados o gratuitos) a personas ubicadas dentro de la UE"
-  },
-  "faq.body3Aiii": {
-    "message": "Organizaciones establecidas fuera de la UE que recopilan o procesan información personal mientras se dedican al seguimiento del comportamiento de las personas mientras se encuentran en la UE."
-  },
-  "faq.body4A": {
-    "message": "La Ley de privacidad de los consumidores de California, o CCPA, es una regulación introducida en California en enero de 2020. Protege el derecho fundamental de las personas a la protección de sus datos personales y de la privacidad en línea."
-  },
-  "faq.body4Ai": {
-    "message": "<a>lea más sonbre la ley</a>"
-  },
-  "faq.body5A": {
-    "message": "La CCPA se aplica a las organizaciones que recopilan información personal del consumidor o en nombre del cual se recopila dicha información y que solo, o conjuntamente con otros, determina los propósitos y medios del tratamiento de la información personal del consumidor que hace negocios en el Estado de California, y que satisface uno o más de los siguientes umbrales:"
-  },
-  "faq.body5Ai": {
-    "message": "Tiene ingresos brutos anuales superiores a veinticinco millones de dólares (25,000,000)"
-  },
-  "faq.body5Aii": {
-    "message": "Compra, recibe, vende o comparte anualmente con fines comerciales (solo o en conjunto) la información personal de 50.000 o más consumidores, hogares o dispositivos."
-  },
-  "faq.body5Aiii": {
-    "message": "Obtiene el 50 por ciento o más de sus ingresos anuales por la venta de información personal del consumidor"
-  },
-  "faq.body6Ai": {
-    "message": "Bajo GDPR:"
-  },
-  "faq.body6Aii": {
-    "message": "Cualquier información relacionada con una persona que pueda usarse directa o indirectamente para identificarla. Se puede identificar a una persona de diversas formas, incluido el nombre, el número de identificación, los datos de ubicación u otros identificadores en línea."
-  },
-  "faq.body6Aiii": {
-    "message": "<a>Más información</a>"
-  },
-  "faq.body6Bi": {
-    "message": "Bajo CCPA:"
-  },
-  "faq.body6Bii": {
-    "message": "Información personal es cualquier información que se identifique, describa o pueda asociarse con, o pueda estar razonablemente relacionado, directa o indirectamente, con un consumidor u hogar en particular."
-  },
-  "faq.body6Biii": {
-    "message": "<a>Lea la definición</a>"
-  },
-  "faq.body6Ci": {
-    "message": "Bajo el LDPG:"
-  },
-  "faq.body6Cii": {
-    "message": "Cualquier información relacionada con una persona natural identificada o identificable como nombre, número de identificación, datos de ubicación, correo electrónico, etc."
-  },
-  "faq.body6Ciii": {
-    "message": "Los datos personales sensibles se definen como una subcategoría a los datos personales y se aplican cuando los datos procesados se refieren al origen racial o étnico, creencias religiosas, la opinión política, sindical o religiosa, la membresía de organizaciones políticas u ofólicas, datos relativos a la salud o la vida sexual, la genética o biométrica."
-  },
-  "faq.body7A": {
-    "message": "Bajo GDPR:"
-  },
-  "faq.body7Ai": {
-    "message": "El derecho al olvido no es absoluto y se refiere al procesamiento de datos donde el consentimiento es la base legal para el procesamiento. Por ejemplo, los datos necesarios para un contrato o los datos de interés público, no se incluyen en esta definición. Más específicamente, el derecho solo se aplica en las siguientes circunstancias:"
-  },
-  "faq.body7Aii": {
-    "message": "La organización ya no necesita sus datos. Ejemplo: después de haber cancelado su suscripción al gimnasio. No es necesario que esta organización conserve sus detalles como: su nombre, dirección, edad y condiciones de salud."
-  },
-  "faq.body7Aiii": {
-    "message": "Inicialmente dio su consentimiento para el uso de sus datos, pero ahora lo ha retirado. Ejemplo: aceptó participar en un estudio de investigación de mercado y ahora ya no desea hacerlo."
-  },
-  "faq.body7Aiv": {
-    "message": "Se ha negado a que usen sus datos y sus intereses superan a los de la organización que los utiliza."
-  },
-  "faq.body7Av": {
-    "message": "La organización ha recopilado o utilizado sus datos de forma ilegal. Por ejemplo: no ha cumplido la normativa sobre protección de datos."
-  },
-  "faq.body7Avi": {
-    "message": "La organización tiene la obligación legal de borrar sus datos."
-  },
-  "faq.body7Avii": {
-    "message": "Sus datos se recopilaron para un servicio en línea cuando era menor de  edad. Ejemplo: redes sociales o una aplicación de juegos. La ley otorga una protección especial al menor ya que puede ser menos consciente de los riesgos y las consecuencias de proporcionar sus datos a las organizaciones. Incluso si ahora es un adulto, tiene derecho a que se borren sus datos si éstos se recopilaron cuando era menor de edad."
-  },
-  "faq.body7Aviii": {
-    "message": "<a>Más información</a>"
-  },
-  "faq.body7B": {
-    "message": "Bajo CCPA:"
-  },
-  "faq.body7Bi": {
-    "message": "Los consumidores pueden ejercer el derecho a eliminar sus datos personales:"
-  },
-  "faq.body7Bii": {
-    "message": "La información personal fue recopilada por la empresa del consumidor."
-  },
-  "faq.body7Biii": {
-    "message": "Ya no es necesario que el empresario o proveedor de servicios mantenga la información personal con el fin de cumplir con uno de los propósitos identificados por la ley (código civil de California 1798. 05 (d))."
-  },
-  "faq.body7Biv": {
-    "message": "La empresa no tiene derecho a retener la información personal bajo una de las exenciones generales de la ley (California código civil sección 1798.145)."
-  },
-  "faq.body7C": {
-    "message": "Bajo la LGPD:"
-  },
-  "faq.body7Ci": {
-    "message": "El reglamento requiere que las organizaciones eliminen los datos personales de una persona física si se han solicitado, dado que los datos han sido recogidos en base al consentimiento."
-  },
-  "faq.body7Cii": {
-    "message": "En caso de procesamiento de datos basado en el consentimiento, el interesado podrá solicitar la eliminación de cualquier dato recopilado, excepto si el almacenamiento está permitido por el LGPD."
-  },
-  "faq.body7Ciii": {
-    "message": "Si una organización ha compartido los datos con terceras partes, deberá comunicar cualquier solicitud de eliminación con estos terceros para que el procedimiento pueda ser repetido, excepto en los casos en que dicha comunicación sea demostrablemente imposible o implique un esfuerzo desproporcionado."
-  },
-  "faq.body7Ciiii": {
-    "message": "Además, el LGPD establece que los datos deben eliminarse si se procesan por razones que son excesivas, innecesarias o ilegales."
-  },
-  "faq.body8A": {
-    "message": "Hay ciertas circunstancias en las que una organización está legalmente autorizada a negarse a borrar sus datos."
-  },
-  "faq.body8Ai": {
-    "message": "Bajo GDPR:"
-  },
-  "faq.body8Aii": {
-    "message": "Cuando la conservación de sus datos sea necesaria por motivos de libertad de expresión e información (esto incluye periodismo y fines académicos, artísticos y literarios)."
-  },
-  "faq.body8Aiii": {
-    "message": "Cuando la organización esté obligada legalmente a conservar sus datos."
-  },
-  "faq.body8Aiv": {
-    "message": "Cuando sea necesario conservar sus datos por motivos de salud pública."
-  },
-  "faq.body8Av": {
-    "message": "Cuando la conservación de sus datos sea necesaria para el establecimiento, ejercicio o defensa de reclamaciones legales."
-  },
-  "faq.body8Avi": {
-    "message": "Cuando borrar sus datos perjudicaría la investigación científica o histórica, o el archivo éstos sea de interés público."
-  },
-  "faq.body8Avii": {
-    "message": "Si, después de considerar su solicitud, la organización decide que no necesita borrar sus datos, aún debe responderle. Debería explicarle por qué cree que no tiene que borrar sus datos y hacerle saber sobre su derecho a presentar una queja sobre esta decisión ante la ICO o ante los tribunales."
-  },
-  "faq.body8B": {
-    "message": "La organización también puede rechazar su solicitud si, como establece la ley, es claramente infundada o excesiva."
-  },
-  "faq.body8Bi": {
-    "message": "<a>Más información</a>"
-  },
-  "faq.body8C": {
-    "message": "Bajo CCPA:"
-  },
-  "faq.body8Ci": {
-    "message": "La libertad de expresión u otro derecho establecido por la ley."
-  },
-  "faq.body8Cii": {
-    "message": "El uso con fines de investigación, si la eliminación de datos personales hiciera imposible o perjudicara el logro de dicha investigación."
-  },
-  "faq.body8Ciii": {
-    "message": "El procesamiento de esa información es necesario para proteger de actividades ilegales o para enjuiciar a los responsables de la actividad."
-  },
-  "faq.body8Civ": {
-    "message": "Por cumplir con una obligación legal."
-  },
-  "faq.body8Cix": {
-    "message": "De lo contrario, utilice internamente la información personal del consumidor, de forma que sea compatible con el contexto en el que el consumidor facilitó la información."
-  },
-  "faq.body8Cv": {
-    "message": "Para llevar a cabo un contrato entre la empresa y el consumidor."
-  },
-  "faq.body8Cvi": {
-    "message": "Detectar incidentes de seguridad, protéjer contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad."
-  },
-  "faq.body8Cvii": {
-    "message": "Identificar y reparar los errores que perjudican a una funcionalidad existente."
-  },
-  "faq.body8Cviii": {
-    "message": "Permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basadas en la relación del consumidor con el negocio."
-  },
-  "faq.body8D": {
-    "message": "<a>Más información</a>"
-  },
-  "faq.body8E": {
-    "message": "Bajo la LGPD:"
-  },
-  "faq.body8F": {
-    "message": "El LGPD permite guardar datos para los siguientes fines:"
-  },
-  "faq.body8Fi": {
-    "message": "Cumplimiento de una obligación estatutaria o reglamentaria por parte de la organización."
-  },
-  "faq.body8Fii": {
-    "message": "Estudios realizados por un organismo de investigación, garantizando, siempre que sea posible, la anonimización de los datos personales."
-  },
-  "faq.body8Fiii": {
-    "message": "Transferir a terceros, en cumplimiento de los requisitos de procesamiento de datos establecidos en la presente ley."
-  },
-  "faq.body8Fiv": {
-    "message": "Uso exclusivo de la organización de datos anónimos, con la condición de que se prohíba el acceso de terceros a los datos."
-  },
-  "faq.body9A": {
-    "message": "Bajo GDPR:"
-  },
-  "faq.body9Ai": {
-    "message": "faq. Cualquier organization tiene un (1) mes para cumplir con una solicitud. El plazo puede ampliarse a dos (2) meses adicionales teniendo en cuenta la complejidad y el número de solicitudes. En cualquier caso, la organización deberá informarte de dicha prórroga en el plazo de un (1) mes a partir de la recepción de la solicitud."
-  },
-  "faq.body9Aii": {
-    "message": "Bajo CCPA:"
-  },
-  "faq.body9Aiii": {
-    "message": "El plazo para responder a una solicitud es de 45 días a partir de la recepción de la solicitud del consumidor. El plazo puede prorrogarse 45 días adicionales cuando sea razonablemente necesario, si se informa al consumidor en los primeros 45 días."
-  },
-  "faq.body9C": {
-    "message": "Bajo la LGPD:"
-  },
-  "faq.body9D": {
-    "message": "El LGPD especifica un plazo con respecto al derecho a la confirmación de la existencia de datos personales y el derecho de acceso a los datos personales:"
-  },
-  "faq.body9Di": {
-    "message": "De forma simplificada, si la confirmación o el acceso se proporciona inmediatamente."
-  },
-  "faq.body9Dii": {
-    "message": "Por medio de una declaración clara y completa, indicando el origen de los datos, no existencia de registros, se utiliza y el propósito del tratamiento, según el caso, en un plazo de 15 (quince) días contados a partir de la fecha de la solicitud."
-  },
-  "faq.bodyWhatIsLGPD1": {
-    "message": "La LGPD (Lei Geral de Proteção de Dados Pessoais) es una regulación brasileña que establece reglas para la recolección, tratando, almacenando y compartiendo datos personales gestionados por organizaciones. Establece la protección de los derechos fundamentales de la libertad y de la intimidad de las personas como sus principales objetivos."
-  },
-  "faq.bodyWhatIsLGPD2": {
-    "message": "<a>lea más sonbre la ley</a>"
-  },
-  "faq.bodyWhoLGPDAppliesTo1": {
-    "message": "El LGPD se aplica a cualquier persona individual o jurídica regida por el derecho público o privado, que procesa datos personales (como recogida, producción, recepción, clasificación, tratamiento, etc. en el territorio brasileño y fuera del país, cuando:"
-  },
-  "faq.bodyWhoLGPDAppliesTo2": {
-    "message": "Datos personales recogidos en Brasil"
-  },
-  "faq.bodyWhoLGPDAppliesTo3": {
-    "message": "Los datos están relacionados con un individuo localizado en el territorio brasileño, o"
-  },
-  "faq.bodyWhoLGPDAppliesTo4": {
-    "message": "Su objetivo es ofrecer productos y/o servicios a individuos, brasileños o extranjeros, en Brasil"
-  },
-  "faq.bodyWhoLGPDAppliesTo5": {
-    "message": "El LGPD no es aplicable en los casos en los que se realiza el procesamiento de datos personales:"
-  },
-  "faq.bodyWhoLGPDAppliesTo6": {
-    "message": "Por una persona natural con fines exclusivamente privados y no comerciales."
-  },
-  "faq.bodyWhoLGPDAppliesTo7": {
-    "message": "Exclusivamente para fines periodísticos, artísticos o académicos."
-  },
-  "faq.bodyWhoLGPDAppliesTo8": {
-    "message": "Por parte de las autoridades públicas, en caso de uso para la promoción de la seguridad pública, la defensa nacional, seguridad estatal o actividades de investigación y enjuiciamiento de delitos penales."
-  },
-  "faq.bodyWhoLGPDAppliesTo9": {
-    "message": "Cuando el origen de los datos no es territorio brasileño y: a) no es objeto de ningún procesamiento de datos en Brasil; c) no es compartido con los agentes de procesamiento brasileños; d) no se comparte con otros países que no son el país de origen siempre y cuando el país de origen tenga una ley o un reglamento que proporcione un nivel de protección de datos personales equivalente a la protección de datos ofrecida por la LGPD."
-  },
-  "faq.heading0": {
+  "faq.heading.data-protection": {
     "message": "¿Cuáles son las leyes de protección de datos?"
   },
-  "faq.heading1": {
-    "message": "¿Qué leyes de protección de datos me protegen?"
+  "faq.heading.escalate": {
+    "message": "¿Qué debo hacer si una organización no cumple plenamente mi petición?"
   },
-  "faq.heading10": {
-    "message": "What should I do if an organization did not reply, or did not fully comply with my request?"
+  "faq.heading.how": {
+    "message": "¿Cómo funciona el servicio?"
   },
-  "faq.heading11": {
-    "message": "¿Cuáles son las sanciones que puede enfrentar una organización que no cumpla con una solicitud?"
+  "faq.heading.new-regulation": {
+    "message": "Mi país tiene una nueva ley de protección de datos, ¿la apoyará?"
   },
-  "faq.heading12": {
-    "message": "¿Quién es responsable de la gestión de las solicitudes?"
+  "faq.heading.refuse": {
+    "message": "¿Pueden las organizaciones decir que no?"
   },
-  "faq.heading13": {
-    "message": "Al enviar una solicitud a través de la web, recibo un mensaje de error o no sucede nada"
+  "faq.heading.regulations": {
+    "message": "¿Qué países, estados o reglamentos son apoyados?"
   },
-  "faq.heading2": {
-    "message": "¿Qué es GDPR?"
+  "faq.heading.requests": {
+    "message": "¿Qué tipo de solicitudes puedo hacer utilizando este servicio?"
   },
-  "faq.heading3": {
-    "message": "¿A quién afecta GDPR?"
+  "faq.heading.trust": {
+    "message": "¿Quién está operando este servicio? ¿Puedo confiar en usted?"
   },
-  "faq.heading4": {
-    "message": "¿Qué es CCPA?"
-  },
-  "faq.heading5": {
-    "message": "¿A quién afecta CCPA?"
-  },
-  "faq.heading6": {
-    "message": "¿Qué son los datos personales?"
-  },
-  "faq.heading7": {
-    "message": "¿Cuándo puedo solicitar la eliminación de mis datos personales?"
-  },
-  "faq.heading8": {
-    "message": "¿Cuándo podrían decir que no a la solicitud?"
-  },
-  "faq.heading9": {
-    "message": "¿Cuánto tiempo tienen que cumplir las organizaciones con una petición?"
-  },
-  "faq.headingWhatIsLGPD": {
-    "message": "¿Qué es el LGPD?"
-  },
-  "faq.headingWhoLGPDAppliesTo": {
-    "message": "¿A quién se aplica el LGPD?"
+  "faq.heading.verify": {
+    "message": "Una organización me ha pedido que proporcione más información personal para verificar mi identidad. ¿Es esto legal? ¿Pueden usar esta información para otros fines?"
   },
   "faq.title": {
     "message": "Preguntas frecuentes"
@@ -633,16 +339,16 @@
     "message": "Contribuye nuestra hoja de ruta"
   },
   "hero.headerText": {
-    "message": "Consiga que las organizaciones eliminen o le envíen una copia de sus datos personales."
+    "message": "Consiga que las organizaciones eliminen su cuenta o proporcionen una copia de su información personal."
   },
   "hero.heading": {
     "message": "Controla tus datos personales"
   },
   "hero.intro": {
-    "message": "Muchas organizaciones recopilan y venden sus datos personales, a menudo sin su consentimiento. Utilice este servicio gratuito para enviarles una solicitud de acceso o eliminación de datos. Busca el nombre de una organización a continuación y elimina tus datos. ¿No sabes por dónde empezar? Puedes comenzar por los <a>principales corredores de datos</a>."
+    "message": "Muchas organizaciones recogen y venden sus datos personales, a menudo sin su consentimiento. Utilice este servicio gratuito para enviarles una eliminación de datos o solicitud de acceso. Empiece por buscar una organización a continuación."
   },
   "howItWorks.followUp": {
-    "message": "utilizando nuestro asistente de seguimiento inteligente para asegurar que la organización cumple con su petición, e incluso ayudarlo a ampliar su solicitud al regulador gubernamental competente."
+    "message": "utilizando nuestro asistente de seguimiento inteligente para asegurarse de que la organización cumple con su petición, e incluso ayudarlo a ampliar su solicitud al regulador gubernamental competente."
   },
   "howItWorks.followUpTitle": {
     "message": "Seguimiento"
@@ -657,7 +363,7 @@
     "message": "Busque"
   },
   "howItWorks.send": {
-    "message": "la organización una solicitud para eliminar, o enviarle una copia de sus datos."
+    "message": "la organización una solicitud para eliminar, o proporcionar una copia de sus datos."
   },
   "howItWorks.sendTitle": {
     "message": "Envía"
@@ -666,13 +372,13 @@
     "message": "Cómo funciona"
   },
   "howItWorks.whyBody": {
-    "message": "Somos una organización benéfica registrada llamada <cd>Consulta Digital</cd>. Hemos creado este servicio porque creemos que la privacidad importa, y que el ejercicio de su derecho a la privacidad debe ser fácil y gratuito. No recopilamos ni vendemos datos personales. El servicio es financiado por sus creadores, y con la ayuda de sus <donations>donaciones</donations>."
+    "message": "Somos una organización benéfica registrada llamada <cd>Consulta Digital</cd>. Hemos creado este servicio porque creemos que la privacidad importa, y que el ejercicio de su derecho a la privacidad debe ser fácil y gratuito. No recopilamos ni vendemos datos personales. El servicio es financiado por sus creadores y con la ayuda de tus <donations>donaciones</donations>."
   },
   "howItWorks.whyTitle": {
     "message": "¿Por qué confiar en nosotros?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws such as the GDPR (European Union), the CCPA (California), and the LGPD (Brazil) require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Las leyes de protección de datos requieren que las organizaciones le eliminen o le proporcionen una copia de sus datos previa solicitud. Las organizaciones tienen un corto período de tiempo para cumplir, de lo contrario, pueden enfrentarse a fuertes multas. Nuestra misión es facilitarle el ejercicio de sus derechos legales."
   },
   "howItWorks.yourDataTitle": {
     "message": "¡Usted tiene derecho a la privacidad!"
@@ -747,7 +453,7 @@
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
+    "message": "<strong>Al seleccionar esta opción, usted acepta dejarnos procesar y almacenar la siguiente información personal: su dirección de correo electrónico, nombre y el texto de su solicitud de correo electrónico. Toda la información personal relacionada con esta solicitud se eliminará automáticamente de nuestros sistemas en el plazo de 120 días a menos que especifique lo contrario y siempre tenga la opción de que estos datos se eliminen inmediatamente. Recogemos esta información automáticamente al añadir una dirección de correo electrónico especial al campo CC del correo electrónico de solicitud.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
     "message": "Activar Asistencia de Seguimiento Inteligente"
@@ -807,7 +513,7 @@
     "message": "Tipo de solicitud"
   },
   "personalInfoForm.sendButton": {
-    "message": "Review and Send"
+    "message": "Revisar y enviar"
   },
   "personalInfoForm.validEmail": {
     "message": "Por favor, introduzca un correo electrónico válido."
@@ -891,19 +597,43 @@
     "message": "Trabajamos con los siguientes proveedores de terceros para realizar algunas tareas de procesamiento de datos en nuestro nombre. Involucramos a estos proveedores en términos que garanticen la confidencialidad y la seguridad de sus datos."
   },
   "privacyAlerts.description1": {
-    "message": "Each month our research team hand-picks the three worst privacy offenders to share with our paid subscribers. In less than 5 minutes you can improve your online privacy month by month and take back control of your data."
+    "message": "Suscríbete a nuestros correos electrónicos de Alertas de Privacidad y cada mes recibirás un correo electrónico que enumera las peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Al pasar cinco minutos al mes optando por no participar en estas compañías, puede mejorar su privacidad en línea con el tiempo y recuperar el control de su información personal."
   },
   "privacyAlerts.seoDescription": {
-    "message": "Subscribe to our monthly privacy alerts"
+    "message": "Suscríbete a nuestras alertas mensuales de privacidad"
   },
   "privacyAlerts.seoTitle": {
-    "message": "Privacy Alerts"
-  },
-  "privacyAlerts.strapline": {
-    "message": "Your data is all over the internet, but you're not sure how to get it back? We can help you get your privacy to a better place."
+    "message": "Alertas de privacidad"
   },
   "privacyAlerts.title": {
-    "message": "Keep it private!"
+    "message": "Alertas de privacidad"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "¿Por qué debería invertir en su privacidad?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Cada interacción en línea que realizamos deja tras de sí un rastro de nuestra información personal. Las empresas con las que interactuamos, los corredores de datos, los gobiernos y las personas que no tienen nada de bueno están todas interesadas en nuestros datos."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Esta realidad nos deja expuestos a una variedad de campañas de influencia. Entre ellas se incluyen la publicidad en línea selectiva, la manipulación política y social a través de noticias falsas, varios tipos de fraude, como robo de identidad, aplicaciones addictivas y servicios en línea. Todo ello se hace posible gracias a la abundante información personal que dejamos atrás."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "¿Cómo conseguimos que vuelva a estar bajo control?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Hemos diseñado Alertas de Privacidad basadas en comentarios de las personas que utilizan nuestros servicios. Es una forma sencilla de mejorar su privacidad en línea a lo largo del tiempo gastando sólo cinco minutos al mes optando por las empresas más ofendentes escogidas a mano por nuestro equipo de investigación."
+  },
+  "privacyAlerts.whySubscribeBody1": {
+    "message": "Estas son dos grandes razones por las que debes suscribirte ahora:"
+  },
+  "privacyAlerts.whySubscribeBody2": {
+    "message": "Mejora tu privacidad en línea, y protégase a usted y a su familia de las campañas de influencia dedicando sólo cinco minutos cada mes a excluirse de las peores empresas dedicadas a la privacidad, escogidas por nuestro equipo de investigación"
+  },
+  "privacyAlerts.whySubscribeBody3": {
+    "message": "Ayude a apoyar este servicio y la <a>organización sin fines de lucro</a> que lo gestiona"
+  },
+  "privacyAlerts.whySubscribeTitle": {
+    "message": "¿Por qué suscribirse?"
   },
   "redirect.continueText": {
     "message": "Continuar"
@@ -975,7 +705,7 @@
     "message": "{companyName} aún no respondió."
   },
   "request.hero.domainTitle": {
-    "message": "Domain:"
+    "message": "Dominio:"
   },
   "request.hero.handledPartially": {
     "message": "Manejado parcialmente"
@@ -999,7 +729,7 @@
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Reference:"
+    "message": "Referencia:"
   },
   "request.hero.requestNotSent": {
     "message": "por favor envíe el correo electrónico de solicitud y actualice esta página."
@@ -1010,6 +740,9 @@
   "request.next.circumstancesToDecline": {
     "message": "Existen ciertas circunstancias excepcionales cuando se permite legalmente a una organización negarse a cumplir con su petición."
   },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+  },
   "request.next.declineCCPA": {
     "message": "<ul><li>Texto libre u otro derecho proporcionado por la ley.</li><li>Procesamiento con fines de investigación, si la eliminación de información personal haría imposible o perjudicaría gravemente el logro de dicha investigación.</li><li>El tratamiento de esa información personal es necesario para proteger contra la actividad ilegal o procesar a los responsables de la actividad.</li><li>Por cumplir con una obligación legal.</li><li>Realizar un contrato entre la empresa y el consumidor.</li><li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad.</li><li>Depuración para identificar y reparar errores que perjudican la funcionalidad predefinida existente.</li><li>Para permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basándose en la relación del consumidor con el negocio.</li><li>En caso contrario, utilice internamente la información personal del consumidor de forma legal que sea compatible con el contexto en el que el consumidor facilitó la información.</li></ul>"
   },
@@ -1019,14 +752,20 @@
   "request.next.declineLGPD": {
     "message": "<ul><li>Texto libre u otro derecho proporcionado por la ley.</li><li>Procesamiento con fines de investigación, si la eliminación de información personal haría imposible o perjudicaría gravemente el logro de dicha investigación.</li><li>El tratamiento de esa información personal es necesario para proteger contra la actividad ilegal o procesar a los responsables de la actividad.</li><li>Por cumplir con una obligación legal.</li><li>Realizar un contrato entre la empresa y el consumidor.</li><li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad.</li><li>Depuración para identificar y reparar errores que perjudican la funcionalidad predefinida existente.</li><li>Para permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basándose en la relación del consumidor con el negocio.</li><li>En caso contrario, utilice internamente la información personal del consumidor de forma legal que sea compatible con el contexto en el que el consumidor facilitó la información.</li></ul>"
   },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Las excepciones al requisito de acceso deben ser limitadas y específicas.</li><li>Las razones para denegar el acceso deben proporcionarse al individuo si así lo solicita.</li><li>Las excepciones pueden incluir información que es prohibitivamente costosa de proporcionar, información que contiene referencias a otras personas, información que no puede ser revelada por razones jurídicas, de seguridad o de propiedad comercial, y que está sujeta al privilegio de abogado-cliente o litigio.</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
+  },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
+    "message": "Recomendación: aumente su solicitud a su { authorityLong } ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
+    "message": "Recomendación: si crees que { companyName } debería haber cumplido por completo con tu solicitud, le recomendamos que intensifique su solicitud hasta el { authorityLong } ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
+    "message": "Has escalado tu solicitud al {dpaLong} ({dpaShort}), por favor continúa comunicándote con ellos directamente. No hay nada más que podamos hacer para ayudar."
   },
   "request.next.esclateButton": {
     "message": "Escalar hasta el { authority }"
@@ -1062,7 +801,7 @@
     "message": "Lo siguiente"
   },
   "request.success": {
-    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+    "message": "Enhorabuena, { companyName } ha cumplido con éxito su solicitud. Sus datos personales se eliminarán automáticamente de este sitio web en un plazo de 120 días a partir de la fecha de su solicitud original. También puede <a>eliminar sus datos personales ahora</a>."
   },
   "request.timeline.esclateTo": {
     "message": "Escale su solicitud"
@@ -1110,10 +849,10 @@
     "message": "Por favor, explique por qué no está satisfecho con cómo la organización ha tratado su solicitud"
   },
   "requestEscalation.esclateButtonForm": {
-    "message": "Open Escalation Form"
+    "message": "Abrir formulario de escalación"
   },
   "requestEscalation.formDisclamer": {
-    "message": "In order to escalate your request you will need to complete a form on the {authority} website. Click the button bellow to open the form in a new tab."
+    "message": "Para escalar su solicitud, tendrá que completar un formulario en el sitio web {authority} . Haga clic en el botón de abajo para abrir el formulario en una nueva pestaña."
   },
   "requestEscalation.geography": {
     "message": "Ubicación"
@@ -1121,8 +860,11 @@
   "requestEscalation.geographyText ": {
     "message": "Por favor, seleccione su lugar de residencia"
   },
+  "requestEscalation.phoneDisclamer": {
+    "message": "In order to escalate your request please call the {authority} on {phone}."
+  },
   "requestEscalation.submit": {
-    "message": "Review and Send"
+    "message": "Revisar y enviar"
   },
   "search.companyPlaceholder": {
     "message": "Buscar una organización"
@@ -1134,16 +876,16 @@
     "message": "Haga clic aquí para añadir una organización"
   },
   "sendEmailButton.copy": {
-    "message": "Copy email text to clipboard"
+    "message": "Copiar texto del email al portapapeles"
   },
   "sendEmailButton.default": {
-    "message": "Open in your default email client"
+    "message": "Abrir en tu cliente de correo por defecto"
   },
   "sendEmailButton.gmail": {
-    "message": "Open in Gmail"
+    "message": "Abrir en Gmail"
   },
   "sendEmailButton.yahoo": {
-    "message": "Open in Yahoo Mail"
+    "message": "Abrir en Correo"
   },
   "social.chromeCTA": {
     "message": "Descárgalo para Chrome"
@@ -1178,23 +920,47 @@
   "social.twitterTitle": {
     "message": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org."
   },
+  "stats.alltime": {
+    "message": "Todo"
+  },
+  "stats.body.count": {
+    "message": "Contador"
+  },
+  "stats.body.org-name": {
+    "message": "Organización"
+  },
+  "stats.description": {
+    "message": "La protección de datos solicita estadísticas."
+  },
+  "stats.month": {
+    "message": "Este mes"
+  },
+  "stats.statsTitle": {
+    "message": "Estadísticas de Solicitud"
+  },
+  "stats.title": {
+    "message": "Estadísticas de Solicitud"
+  },
+  "stats.total": {
+    "message": "Total de solicitudes enviadas:"
+  },
+  "stats.week": {
+    "message": "Esta semana"
+  },
+  "stats.year": {
+    "message": "Este año"
+  },
   "subscribe.alertsOneLiner1": {
-    "message": "Improve your online privacy over time by opting out of 3 companies each month."
-  },
-  "subscribe.alertsOneLiner2": {
-    "message": "Our research team hand-picks the worst privacy offenders."
-  },
-  "subscribe.signup": {
-    "message": "Sign up"
+    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
   },
   "subscribe.title": {
-    "message": "Sign up to our privacy alerts!"
+    "message": "Subscribe To Our Privacy Alerts!"
   },
   "thankyou.copyPart1Copy": {
-    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+    "message": "ha sido copiado al portapapeles, todo lo que necesita hacer es pegarlo en un correo electrónico, reivusiéndolo y haga clic en Enviar."
   },
   "thankyou.copyPart1Email": {
-    "message": "email should have opened in your email application, all you need to do is review it and click Send."
+    "message": "debería haber abierto en su aplicación de correo electrónico, todo lo que necesita hacer es revisarlo y hacer clic en Enviar."
   },
   "thankyou.copyPart2CCPA": {
     "message": "La organización tiene <em>45 días</em> para cumplir con su solicitud. La organización podría solicitarle información adicional para ayudar a identificarlo en sus sistemas."
@@ -1206,10 +972,10 @@
     "message": "Consulte nuestras <a>Preguntas frecuentes</a> para obtener información adicional."
   },
   "thankyou.description": {
-    "message": "Thank you"
+    "message": "Gracias."
   },
   "thankyou.donation": {
-    "message": "Please consider making a donation to help ensure our long-term financial stability and independence:"
+    "message": "Por favor, considere hacer una donación para ayudar a garantizar nuestra estabilidad financiera e independencia a largo plazo:"
   },
   "thankyou.findCompany": {
     "message": "Busca otra organización"
@@ -1218,10 +984,10 @@
     "message": "Las organizaciones tienen {days} que cumplir, y pueden pedirle información adicional para ayudarle a identificar en sus sistemas."
   },
   "thankyou.requestTypeAccess": {
-    "message": "An access request"
+    "message": "Una solicitud de acceso"
   },
   "thankyou.requestTypeDelete": {
-    "message": "A deletion request"
+    "message": "Una solicitud de eliminación"
   },
   "thankyou.seotitle": {
     "message": "Gracias"

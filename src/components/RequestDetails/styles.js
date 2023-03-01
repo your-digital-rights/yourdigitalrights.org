@@ -3,7 +3,7 @@ import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
   root: {
-    paddingBottom: "40px",
+    marginBottom: "40px",
     display: "flex",
     flexDirection: "column",
     backgroundColor: "#FFF",

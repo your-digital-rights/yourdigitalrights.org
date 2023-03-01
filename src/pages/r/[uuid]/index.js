@@ -4,7 +4,7 @@ import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import { withStyles } from "@material-ui/core/styles";
-import Donations from "../../../components/Donations";
+import Subscribe from "../../../components/Subscribe";
 import Footer from "../../../components/Footer";
 import Nav from "../../../components/Nav";
 import RequestDetails from "../../../components/RequestDetails";
@@ -12,9 +12,10 @@ import RequestWhatsNext from "../../../components/RequestWhatsNext";
 import RequestHero from "../../../components/RequestHero";
 import RequestTimeline from "../../../components/RequestTimeline";
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
-import fetchSheetData from "../../../utils/sheets";
+import { fetchDomainDetails } from "../../../utils/domains";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
+
 
 async function getRequest(id) {
   aws.config.update({
@@ -59,6 +60,12 @@ const styles = (theme) => ({
     marginBottom: "30px",
     textAlign: "left",
   },
+  subscribeContainer: {
+    backgroundColor: theme.palette.primary.main,
+    marginTop: "-145px",
+    paddingTop: "150px",
+    paddingBottom: "30px",
+  },  
 });
 
 const Uuid = ({classes, data, router, intl}) => {
@@ -145,24 +152,28 @@ const Uuid = ({classes, data, router, intl}) => {
         days={days}
       />
       { requestItem.requestEmailSentAt && (
-        <RequestWhatsNext 
-          requestItem={requestItem}
-          days={days}
-          selectedCompany={data.organization}
-          intl={intl}
-          status={status}
-        >
-          <RequestDetails
-            selectedCompany={data.organization}
+        <>
+          <RequestWhatsNext 
             requestItem={requestItem}
             days={days}
+            selectedCompany={data.organization}
             intl={intl}
             status={status}
-          />
-        </RequestWhatsNext>
+          >
+            <RequestDetails
+              selectedCompany={data.organization}
+              requestItem={requestItem}
+              days={days}
+              intl={intl}
+              status={status}
+            />
+          </RequestWhatsNext>
+          <div className={classes.subscribeContainer}>
+            <Subscribe page="requests"/>
+          </div>
+        </>
       )}
-      <Donations />
-      <Footer />
+      <Footer showRoadmap={false}/>
     </div>
   )
 };
@@ -177,17 +188,20 @@ export async function getServerSideProps(context) {
     }
   }
 
-  const data = await fetchSheetData();
-  const organization = data['Organizations'].find(
-    ({ url }) => requestDetails.Item.companyUrl.S === url
-  );  
+  const data = await fetchDomainDetails(requestDetails.Item.companyUrl.S);
 
+  if (typeof data == 'undefined') {
+    return {
+      notFound: true,
+    }
+  }
+  
   return {
-    notFound: typeof organization == 'undefined',
+    notFound: data.statusCode >= 400,
     props: {
       data: {
         item: requestDetails.Item,
-        organization,
+        organization: data['Domain'],
       },
     },
   }

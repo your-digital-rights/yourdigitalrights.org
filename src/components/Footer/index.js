@@ -164,9 +164,6 @@ const Footer = ({ classes, showRoadmap=true }) => {
           <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
             {DisclaimerText}
           </Typography>
-          <Typography color="textSecondary" variant="subtitle2">
-            {QueryText}
-          </Typography>
         </div>
       </div>
     </div>

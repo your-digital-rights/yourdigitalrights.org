@@ -1,3 +1,6 @@
+const ALT_LANGUAGES = require("./ydr-config.json").altLanguages;
+const LOCALES = Array(...Object.keys(ALT_LANGUAGES), "az");
+
 module.exports = {
   async redirects() {
     return [
@@ -26,20 +29,24 @@ module.exports = {
           source: "/save",
           destination: "/api/save",
         },        
-				{ 
-          source: "/sitemap.xml", 
-          destination: "/api/sitemap", 
-        },
         { 
           source: "/companies", 
           destination: "/api/companies",
-        }
+        },
+        {
+          source: '/sitemaps.xml',
+          destination: '/dynamic-sitemaps',
+        },
+        {
+          source: '/sitemaps-:page.xml',
+          destination: '/dynamic-sitemaps/:page',
+        },        
 			];
 	},
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: ["de", "en", "es", "fr", "it", "pt", "az"],
+    locales: LOCALES,
     defaultLocale: "en",   
   },
   images: {
@@ -57,7 +64,7 @@ module.exports = {
           },             
           {
             key: 'Content-Security-Policy',
-            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com"
+            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud *.stripe.com substackapi.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com"
           },            
         ],
       },
