@@ -43,7 +43,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
           <div id="custom-substack-embed" className={classes.substack}/>
           <Script id="substack-embed">
             {`window.CustomSubstackWidget = {
-              substackUrl: "newsletter.yourdigitalrights.org",
+              substackUrl: "consciousdigital.substack.com",
               placeholder: "you@example.com",
               buttonText: "Subscribe",
               theme: "custom",
