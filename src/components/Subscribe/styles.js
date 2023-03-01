@@ -4,7 +4,7 @@ import { theme } from "../../styles/theme";
 const Theme = (theme) => ({
   heading: {
     color: "white",
-    padding: "25px 8% 0px",
+    padding: "25px 8% 20px",
     backgroundColor: "#039277",
     borderRadius: "20px",
     maxWidth: "980px !important",
@@ -37,7 +37,16 @@ const Theme = (theme) => ({
   },
   substack: {
     marginTop: "20px",
+    justifyContent: "center",
     alignItems: "center",
+    display: "flex",
+    flexDirection: "column",
+  },
+  error: {
+    color: "black",
+  }, 
+  success: {
+    color: "black",
   },
   signUpButton: {
     marginTop: "20px",

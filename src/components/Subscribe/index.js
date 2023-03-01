@@ -40,9 +40,22 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
 
             </Typography> 
           </div>
-          <div className={classes.substack}>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="100" frameborder="0" ></iframe>
-          </div>    
+          <div id="custom-substack-embed" className={classes.substack}/>
+          <Script id="substack-embed">
+            {`window.CustomSubstackWidget = {
+              substackUrl: "newsletter.yourdigitalrights.org",
+              placeholder: "you@example.com",
+              buttonText: "Subscribe",
+              theme: "custom",
+              colors: {
+                primary: "#005EA5",
+                input: "#039277",
+                email: "#000000",
+                text: "#FFFFFF",
+              }
+            };`}
+          </Script>
+          <Script src="https://substackapi.com/widget.js"></Script>
         </div>
       </div>
     </div>
