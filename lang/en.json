@@ -77,8 +77,14 @@
   "about.title": {
     "message": "About Us"
   },
+  "aboutOrg.description": {
+    "message": "In their own words:"
+  },
   "aboutOrg.details": {
-    "message": "Additional information:"
+    "message": "About {org}"
+  },
+  "aboutOrg.email": {
+    "message": "Email:"
   },
   "aboutOrg.numRequests": {
     "message": "Number of request sent:"

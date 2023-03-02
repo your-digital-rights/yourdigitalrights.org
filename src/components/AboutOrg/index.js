@@ -10,6 +10,8 @@ function Capitalize(str){
 
 
 const AboutOrg = ({ classes, selectedCompany }) => {
+  const description = selectedCompany.description.length > 0 ? selectedCompany.description : selectedCompany.slogan;
+  console.log(description);
   return (
     <div className={classes.about}>
       <div id="about-org" className={classes.container}>
@@ -23,39 +25,51 @@ const AboutOrg = ({ classes, selectedCompany }) => {
             >
               <FormattedMessage 
                 id="aboutOrg.details" 
-                defaultMessage="Additional information:" 
+                defaultMessage="About {org}" 
+                values={{
+                  org: selectedCompany.name
+                }}
               />
             </Typography>
           </div>
           <div id="about-detail-text" className={classes.detailText}>
-            Email:{" "}
+            { description.length > 0 && (
+              <>
+              <strong>
+                <FormattedMessage id="aboutOrg.description" defaultMessage="In their own words:" />
+              </strong>
+              <br/>
+              {description}
+              <br/>
+              </>
+            )}
             <strong>
-              <a
-                target="_blank"
-                rel="noreferrer noopener"
-                href={`mailto:${selectedCompany.email}`}
-                className={classes.link}
-              >
-                {selectedCompany.email}
-              </a>
+              <FormattedMessage id="aboutOrg.email" defaultMessage="Email:" />{" "}
             </strong>
-            {selectedCompany.privacyPolicyUrl && (
-              <span>
-                <br />
-                <FormattedMessage id="aboutOrg.privacyPolicy" defaultMessage="Privacy Policy:" />{" "}
+            <a
+              target="_blank"
+              rel="noreferrer noopener"
+              href={`mailto:${selectedCompany.email}`}
+              className={classes.link}
+            >
+              {selectedCompany.email}
+            </a>
+            <br />
+            {selectedCompany.privacyPolicy && (
+              <>
+                <strong>
+                  <FormattedMessage id="aboutOrg.privacyPolicy" defaultMessage="Privacy Policy:" />{" "}
+                </strong>
                 <a
                   target="_blank"
                   rel="noreferrer noopener"
-                  href={`${selectedCompany.privacyPolicyUrl}`}
+                  href={`${selectedCompany.privacyPolicy}`}
                   className={classes.link}
                 >
-                  {selectedCompany.privacyPolicyUrl}
+                  {selectedCompany.privacyPolicy}
                 </a>
-              </span>
+              </>
             )}
-            <br />
-            <FormattedMessage id="aboutOrg.numRequests" defaultMessage="Number of request sent:"/>{" "}
-            <strong>{selectedCompany.emailsSent}</strong>
           </div>
         </div>
       </div>
