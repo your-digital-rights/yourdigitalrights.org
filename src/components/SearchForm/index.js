@@ -3,7 +3,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import { Component } from "react";
 import Downshift from "downshift";
 import { FormattedMessage, injectIntl } from "react-intl";
-import Icon from "@material-ui/core/Icon";
+import Search from '@material-ui/icons/Search';
 import Input from "@material-ui/core/Input";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import ListItemText from "@material-ui/core/ListItemText";
@@ -108,7 +108,7 @@ class Form extends Component {
               value={this.state.companyNameSearch}
               startAdornment={
                 <InputAdornment position="start" className={classes.searchIcon}>
-                  <Icon>search</Icon>
+                  <Search/>
                 </InputAdornment>
               }
               endAdornment={

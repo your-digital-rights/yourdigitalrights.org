@@ -3,7 +3,7 @@ import { Component } from "react";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionDetails from "@material-ui/core/AccordionActions";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
-import Icon from "@material-ui/core/Icon";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Typography from "@material-ui/core/Typography";
 import styles from "./styles";
 import { withStyles } from "@material-ui/core/styles";
@@ -64,7 +64,7 @@ class FAQ extends Component {
       >
         <AccordionSummary
           id={`faq-${index}`}
-          expandIcon={<Icon>expand_more</Icon>}
+          expandIcon={<ExpandMoreIcon />}
         >
           <Typography variant={"body2"}>{heading}</Typography>
         </AccordionSummary>
