@@ -4,6 +4,8 @@ import theme from '../styles/theme';
 import React from "react";
 import { DOMAIN } from "../utils/domain";
 
+
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -13,10 +15,6 @@ export default class MyDocument extends Document {
             name="theme-color"
             content={theme.palette.primary.main}
           />       
-          <link
-            rel="stylesheet" 
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          />
           <link rel="stylesheet" href="/images/mobile.css" />
           <link
             rel="stylesheet"
@@ -47,7 +45,7 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <NextScript />
+          <NextScript />                        
         </body>
       </Html>
     );

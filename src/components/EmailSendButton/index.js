@@ -1,7 +1,6 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import ButtonGroup from '@material-ui/core/ButtonGroup';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
 import Paper from '@material-ui/core/Paper';
@@ -16,6 +15,7 @@ import escalationEmail from "../../email-templates/escalation";
 import getInboundEmailAddress from "../../utils/email";
 import mailtoLink from "mailto-link";
 import { useIntl } from "react-intl";
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import EmailIcon from '@material-ui/icons/Email';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 import Image from 'next/image'
