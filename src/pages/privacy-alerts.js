@@ -9,6 +9,8 @@ import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
 import Social from "../components/Social";
+import { useEffect } from "react";
+import tracking from "../utils/tracking";
 import Script from 'next/script'
 
 const styles = (theme) => ({
@@ -51,7 +53,8 @@ const styles = (theme) => ({
     }
   },
   substack: {
-    marginTop: "20px",
+    marginTop: "40px",
+    marginBottom: "40px",
     display: "flex",
     flexDirection: "row ",
     alignItems: "center",
@@ -74,6 +77,25 @@ const PrivacyAlerts = ({ classes, router }) => {
   const Description = intl.formatMessage({id: "privacyAlerts.seoDescription", defaultMessage: "Subscribe to our monthly privacy alerts"});
   const BaseURL = "/privacy-alerts";
 
+  const trackSubscribe = () => {
+    tracking.trackSubscribe('Privacy Alerts Page');
+  };
+
+  useEffect(() => {
+    window.CustomSubstackWidget = {
+      substackUrl: "consciousdigital.substack.com",
+      placeholder: "you@example.com",
+      buttonText: "Subscribe",
+      theme: "custom",
+      colors: {
+        primary: "#005EA5",
+        input: "#FFFFFF",
+        email: "#000000",
+        text: "#FFFFFF",
+      }
+    };
+  }, []);
+
   return (
     <div>
       <NextSeo
@@ -94,19 +116,11 @@ const PrivacyAlerts = ({ classes, router }) => {
               defaultMessage="Privacy Alerts"
             />
           </Typography>            
-          <div className={classes.columns}>
-            <div className={classes.descriptionColumn}>
-              <Typography component="h2" variant="h6" className={classes.mainDescription}>
-                <FormattedMessage id="privacyAlerts.description1" defaultMessage="Subscribe to our Privacy Alerts emails and each month you will receive an email listing the worst privacy-offending companies identified by our research team. By spending five minutes a month opting out of these companies you can improve your online privacy over time and take back control of your personal information." />
-              </Typography>
-            </div>               
-            <div className={classes.pricing}>
-              <Script src="https://js.stripe.com/v3/pricing-table.js" />
-              <stripe-pricing-table pricing-table-id="prctbl_1M6tTaL6744XdVfOcVKzvZ3o"
-              publishable-key="pk_live_51Lhpu4L6744XdVfOEOM0kOeRaOaag73Lo9wbjnXqU4G9kfniyJf8aeQw8exGhu6yZwaPkJMHH6fQbB64Yx42JKR5008umYBaAw">
-              </stripe-pricing-table>
-            </div>
-          </div>  
+          <Typography component="h2" variant="h6" className={classes.mainDescription}>
+            <FormattedMessage id="privacyAlerts.description1" defaultMessage="A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies." />
+          </Typography>
+          <div id="custom-substack-embed" className={classes.substack}/>
+          <Script id="substack-embed-external" src={`https://substackapi.com/widget.js?foo=${Math.round(Math.random() * 100)}`}/>      
           <Typography component="h3" variant="h5" gutterBottom={true} >
             <FormattedMessage
               id="privacyAlerts.whyPrivacy"
@@ -134,38 +148,11 @@ const PrivacyAlerts = ({ classes, router }) => {
             <br/>
             <FormattedMessage 
               id="privacyAlerts.whyPrivacyBody4" 
-              defaultMessage="We have designed Privacy Alerts based on feedback from the individuals using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team." 
+              defaultMessage="We have designed Privacy Alerts based on feedback from the people using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team." 
             />
             <br/>
             <br/>
-          </Typography>          
-          <Typography component="h3" variant="h5" gutterBottom={true} >
-            <FormattedMessage
-              id="privacyAlerts.whySubscribeTitle"
-              defaultMessage="Why Subscribe?"
-            />
-          </Typography>           
-          <Typography gutterBottom={true}>
-            <FormattedMessage id="privacyAlerts.whySubscribeBody1" defaultMessage="Here are two great reasons why you should subscribe now:" />
-          </Typography>
-          <ul className={classes.list}>
-            <li>
-              <FormattedMessage
-                id="privacyAlerts.whySubscribeBody2"
-                defaultMessage="Improve your online privacy, and protect yourself and your family from influence campaigns by spending only five minutes each month opting out of the worst privacy-offending companies hand-picked by our research team"
-              />
-            </li>
-            <li>
-              <FormattedMessage
-                id="privacyAlerts.whySubscribeBody3"
-                defaultMessage="Help support this service and the <a>nonprofit organization</a> that operates it"
-                values={{
-                  a: txt => ( <a href="https://consciousdigital.org" target="_blank">{txt}</a>),
-                }}
-              />
-            </li>
-          </ul>
-          <br/>         
+          </Typography>                
         </Paper>
       </div>
       <Social sourcePage="priceAlerts"/>

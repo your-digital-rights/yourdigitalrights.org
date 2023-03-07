@@ -14,26 +14,22 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
   };
-
-  useEffect (() => {
-    <>
-      <Script id="substack-embed">
-        {`window.CustomSubstackWidget = {
-          substackUrl: "consciousdigital.substack.com",
-          placeholder: "you@example.com",
-          buttonText: "Subscribe",
-          theme: "custom",
-          colors: {
-            primary: "#005EA5",
-            input: "#039277",
-            email: "#000000",
-            text: "#FFFFFF",
-          }
-      };`}
-      </Script>
-      <Script id="substack-embed-external" src="https://substackapi.com/widget.js"></Script>
-    </>
+  
+  useEffect(() => {
+    window.CustomSubstackWidget = {
+      substackUrl: "consciousdigital.substack.com",
+      placeholder: "you@example.com",
+      buttonText: "Subscribe",
+      theme: "custom",
+      colors: {
+        primary: "#005EA5",
+        input: "#039277",
+        email: "#000000",
+        text: "#FFFFFF",
+      }
+    };
   }, []);
+
   return (
     <>
       <div className={classes.container}>
@@ -62,6 +58,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               </Typography> 
             </div>
             <div id="custom-substack-embed" className={classes.substack}/>
+            <Script id="substack-embed-external" src={`https://substackapi.com/widget.js?foo=${Math.round(Math.random() * 100)}`}/>      
           </div>
         </div>
       </div>

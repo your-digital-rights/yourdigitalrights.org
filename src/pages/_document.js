@@ -4,6 +4,8 @@ import theme from '../styles/theme';
 import React from "react";
 import { DOMAIN } from "../utils/domain";
 
+
+
 export default class MyDocument extends Document {
   render() {
     return (
@@ -43,7 +45,7 @@ export default class MyDocument extends Document {
         </Head>
         <body>
           <Main />
-          <NextScript />
+          <NextScript />                        
         </body>
       </Html>
     );
