@@ -64,7 +64,6 @@ const Style = (theme) => ({
     lineHeight: "1.8",
     letterSpacing: "normal",
     color: "#ffffff",
-    wordBreak: "break-all",
   },
   aboutText: {
     margin: "0px 198px",
@@ -126,6 +125,11 @@ const Style = (theme) => ({
     "&:hover": {
       textDecoration: "underline",
     },
+  },
+  showMore: {
+    textDecoration: "underline",
+    cursor: "pointer",
+    color: "white",
   },
 });
 

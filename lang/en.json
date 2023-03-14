@@ -77,14 +77,32 @@
   "about.title": {
     "message": "About Us"
   },
-  "aboutOrg.details": {
-    "message": "Additional information:"
+  "aboutOrg.description": {
+    "message": "In their own words:"
   },
-  "aboutOrg.numRequests": {
-    "message": "Number of request sent:"
+  "aboutOrg.details": {
+    "message": "About {org}"
+  },
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "Founded:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Headquarters:"
+  },
+  "aboutOrg.industry": {
+    "message": "Industry:"
   },
   "aboutOrg.privacyPolicy": {
-    "message": "Privacy Policy:"
+    "message": "View {org}'s <a>Privacy Policy</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Company Specialties:"
+  },
+  "aboutOrg.type": {
+    "message": "Company Type:"
   },
   "contribute.creadit": {
     "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
