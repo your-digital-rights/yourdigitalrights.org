@@ -24,7 +24,7 @@ function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ classes, organization, router }) => {
+const Org = ({ classes, organization, router, newOrg }) => {
   const intl = useIntl();
   const Title = organization ? 
     intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "{org} - Delete Your Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
@@ -54,9 +54,11 @@ const Org = ({ classes, organization, router }) => {
       <PersonalInfoForm
         selectedCompany={organization}
       />
-      <AboutOrg  
-        selectedCompany={organization}
-      />
+      { !newOrg && (
+        <AboutOrg  
+          selectedCompany={organization}
+        />
+      )}
       <div className={classes.subscribeContainer}>
         <Subscribe page="org"/>
       </div>
