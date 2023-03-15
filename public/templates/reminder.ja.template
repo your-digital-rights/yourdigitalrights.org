@@ -1,8 +1,4 @@
-{{ companyName }}
-プライバシー部門・法務部門ご担当者
-（またはデータ保護責任者の方）
-
-お世話になっております。{{ name }} と申します。
+{{ companyName }} プライバシー部門・法務部門ご担当者 （またはデータ保護責任者の方） お世話になっております。{{ name }} と申します。
 
 {{ requestSentDate }}、私は貴社にに対し、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestType.name | capitalize }}請求を致しました。 
 
