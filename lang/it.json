@@ -77,14 +77,32 @@
   "about.title": {
     "message": "Chi siamo"
   },
+  "aboutOrg.description": {
+    "message": "Nelle loro parole:"
+  },
   "aboutOrg.details": {
     "message": "Informazioni aggiuntive:"
   },
-  "aboutOrg.numRequests": {
-    "message": "Numero di richiesta inviata:"
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "Fondato:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Quartier Generale:"
+  },
+  "aboutOrg.industry": {
+    "message": "Settore:"
   },
   "aboutOrg.privacyPolicy": {
     "message": "Politica sulla riservatezza:"
+  },
+  "aboutOrg.specialties": {
+    "message": "Specialità Aziendali:"
+  },
+  "aboutOrg.type": {
+    "message": "Tipo Azienda:"
   },
   "contribute.creadit": {
     "message": "Mentre non possiamo permetterci di pagare per il vostro lavoro, siamo più che felici di darvi credito per i vostri contributi, se è su questo sito web, su github, o in altri modi."
@@ -597,7 +615,7 @@
     "message": "Lavoriamo con i seguenti fornitori di terze parti per eseguire alcune attività di elaborazione dei dati per nostro conto. Ci impegniamo questi fornitori a condizioni che garantiscano la riservatezza e la sicurezza dei vostri dati."
   },
   "privacyAlerts.description1": {
-    "message": "Iscriviti alle email dei nostri Avvisi sulla privacy e ogni mese riceverai un'email che elenca le peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Trascorrendo cinque minuti al mese optando per queste aziende, puoi migliorare la tua privacy online nel tempo e riprendere il controllo delle tue informazioni personali."
+    "message": "Una email mensile che elenca le tre peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Migliora la tua privacy e riprendi il controllo delle tue informazioni personali spendendo cinque minuti al mese scegliendo di uscire da queste aziende."
   },
   "privacyAlerts.seoDescription": {
     "message": "Iscriviti ai nostri avvisi di privacy mensili"
@@ -741,7 +759,7 @@
     "message": "Ci sono alcune circostanze eccezionali in cui un'organizzazione è legalmente autorizzata a rifiutare di soddisfare la vostra richiesta."
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>Qualsiasi dato personale la cui presenza o assenza nota di un database rischia di minacciare la vita, l’organismo o i beni della persona identificabile;</li><li>I dati personali la cui presenza o assenza nota di una banca dati possono indurre o scatenare un'attività illecita o comportamenti illeciti;</li><li>Qualsiasi dato personale la cui presenza o assenza nota di una banca dati rischia di compromettere la sicurezza nazionale, danneggiare un rapporto di fiducia con un paese straniero o un'organizzazione internazionale, oppure svantaggiare il paese nei negoziati con un altro paese o con un'organizzazione internazionale;</li><li>I dati personali la cui presenza o assenza nota di una banca dati potrebbero interferire con la prevenzione della criminalità, il controllo della criminalità, le indagini penali o la difesa della pubblica sicurezza e dell’ordine pubblico.</li></ul>"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>Libera parola o altro diritto previsto dalla legge.</li><li>Trattamento a fini di ricerca, se la cancellazione di informazioni personali renderebbe impossibile o seriamente compromettere il conseguimento di tali ricerche.</li><li>Il trattamento di tali dati personali è necessario per proteggere da attività illecite o perseguire i responsabili dell'attività.</li><li>Per adempiere a un obbligo legale.</li><li>Per eseguire un contratto tra l'azienda e il consumatore.</li><li>Individuare gli incidenti di sicurezza, proteggere contro le attività maliziose, ingannevoli, fraudolente o illegali, o perseguire i responsabili di tale attività.</li><li>Debug per identificare e riparare gli errori che compromettono la funzionalità desiderata esistente.</li><li>Abilitare esclusivamente usi interni che siano ragionevolmente in linea con le aspettative del consumatore in base al rapporto del consumatore con l'impresa.</li><li>Altrimenti utilizzare le informazioni personali del consumatore, in modo lecito e compatibile con il contesto in cui il consumatore ha fornito le informazioni.</li></ul>"
@@ -861,7 +879,7 @@
     "message": "Seleziona il tuo luogo di residenza"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "Al fine di aumentare la tua richiesta, si prega di chiamare il {authority} su {phone}."
   },
   "requestEscalation.submit": {
     "message": "Rivedi e Invia"
@@ -951,10 +969,10 @@
     "message": "Questo Anno"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "Una email mensile che elenca le tre peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Migliora la tua privacy e riprendi il controllo delle tue informazioni personali spendendo cinque minuti al mese scegliendo di uscire da queste aziende."
   },
   "subscribe.title": {
-    "message": "Subscribe To Our Privacy Alerts!"
+    "message": "Iscriviti Ai Nostri Avvisi Sulla Privacy!"
   },
   "thankyou.copyPart1Copy": {
     "message": "è stato copiato negli appunti, tutto quello che devi fare è incollarlo in un'e-mail, riprenderlo e fare clic su Invia."

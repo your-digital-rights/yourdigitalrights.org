@@ -77,14 +77,32 @@
   "about.title": {
     "message": "Über uns"
   },
+  "aboutOrg.description": {
+    "message": "In ihren eigenen Worten:"
+  },
   "aboutOrg.details": {
     "message": "Zusätzliche Informationen:"
   },
-  "aboutOrg.numRequests": {
-    "message": "Nummer der gesendeten Anfrage:"
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "Gegründet:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Hauptquartiere:"
+  },
+  "aboutOrg.industry": {
+    "message": "Branche:"
   },
   "aboutOrg.privacyPolicy": {
     "message": "Datenschutzerklärung:"
+  },
+  "aboutOrg.specialties": {
+    "message": "Firmen-Spezialitäten:"
+  },
+  "aboutOrg.type": {
+    "message": "Unternehmenstyp:"
   },
   "contribute.creadit": {
     "message": "Auch wenn wir es uns nicht leisten können, Sie für Ihre Arbeit zu bezahlen, geben wir Ihnen gerne Anerkennung für Ihre Beiträge, ob es auf dieser Website, auf github, oder auf andere Weise."
@@ -597,7 +615,7 @@
     "message": "Wir arbeiten mit den folgenden Drittanbietern zusammen, um in unserem Auftrag einige Datenverarbeitungsaufgaben zu erledigen. Wir verpflichten diese Anbieter zu Bedingungen, die die Vertraulichkeit und Sicherheit Ihrer Daten gewährleisten."
   },
   "privacyAlerts.description1": {
-    "message": "Abonnieren Sie unsere E-Mails zum Schutz der Privatsphäre und Sie erhalten jeden Monat eine E-Mail, die die schlimmsten Unternehmen auflistet, die von unserem Forschungsteam identifiziert wurden. Indem Sie fünf Minuten pro Monat aus diesen Unternehmen auswählen, können Sie Ihre Online-Privatsphäre im Laufe der Zeit verbessern und die Kontrolle über Ihre persönlichen Daten zurücknehmen."
+    "message": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
   },
   "privacyAlerts.seoDescription": {
     "message": "Abonnieren Sie unsere monatlichen Datenschutzbenachrichtigungen"
@@ -741,7 +759,7 @@
     "message": "Es gibt bestimmte außergewöhnliche Umstände, in denen eine Organisation gesetzlich erlaubt ist, Ihre Anfrage abzulehnen."
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank das Leben bedrohen könnte Körper, oder Eigentum der identifizierbaren Person;</li><li>Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank eine illegale Aktivität oder ein falsches Verhalten auslösen oder einleiten;</li><li>Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank die nationale Sicherheit unterminiert ein Vertrauensverhältnis zu einem fremden Land oder einer internationalen Organisation zerstören, oder das Land in Verhandlungen mit einem anderen Land oder mit einer internationalen Organisation benachteiligen;</li><li>Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank die Kriminalprävention beeinträchtigen könnte, B. Verbrechenskontrolle, strafrechtliche Ermittlungen oder anderweitige Aufrechterhaltung der öffentlichen Sicherheit und Ordnung.</li></ul>"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>Redefreiheit oder ein anderes Recht, das gesetzlich vorgesehen ist.</li><li>Verarbeitung zu Forschungszwecken, wenn die Löschung personenbezogener Daten die Erreichung dieser Forschung unmöglich oder ernsthaft beeinträchtigen würde.</li><li>Die Verarbeitung dieser persönlichen Daten ist notwendig, um gegen illegale Aktivitäten zu schützen oder die Verantwortlichen der Aktivität zu verfolgen.</li><li>zur Erfüllung einer gesetzlichen Verpflichtung.</li><li>Um einen Vertrag zwischen dem Unternehmen und dem Verbraucher auszuführen.</li><li>Erkenne Sicherheitsvorfälle, schütze vor schädlichen, betrügerischen oder illegalen Aktivitäten, oder verfolge die Verantwortlichen für diese Aktivität.</li><li>Debug um Fehler zu identifizieren und zu reparieren, die die bereits beabsichtigte Funktionalität beeinträchtigen.</li><li>Um ausschließlich interne Verwendungen zu ermöglichen, die den Erwartungen des Verbrauchers auf der Grundlage der Beziehung des Verbrauchers zum Unternehmen angemessen entsprechen.</li><li>Andernfalls verwenden Sie die persönlichen Daten des Verbrauchers intern, auf rechtmäßige Weise, die mit dem Kontext vereinbar ist, in dem der Verbraucher die Informationen zur Verfügung gestellt hat.</li></ul>"
@@ -861,7 +879,7 @@
     "message": "Bitte wählen Sie Ihren Wohnort aus"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "Um Ihre Anfrage zu eskalieren, rufen Sie bitte die {authority} auf {phone} an."
   },
   "requestEscalation.submit": {
     "message": "Überprüfen und senden"
@@ -951,10 +969,10 @@
     "message": "Dieses Jahr"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
   },
   "subscribe.title": {
-    "message": "Subscribe To Our Privacy Alerts!"
+    "message": "Abonnieren Sie unsere Datenschutz-Warnungen!"
   },
   "thankyou.copyPart1Copy": {
     "message": "wurde in die Zwischenablage kopiert, alles was Sie tun müssen, ist sie in eine E-Mail einzufügen, sie neu zu lesen und auf Absenden zu klicken."
