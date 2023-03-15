@@ -11,6 +11,7 @@ import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
 import * as locales from "../../compiled-lang";
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -64,6 +65,7 @@ export default function MyApp({ Component, pageProps }) {
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
           <Component {...pageProps} />
+          <Analytics />
       </ThemeProvider>
     </IntlProvider>
 	</>
