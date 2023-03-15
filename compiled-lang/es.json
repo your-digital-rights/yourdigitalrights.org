@@ -261,22 +261,58 @@
       "value": "Sobre nosotros"
     }
   ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "En sus propias palabras:"
+    }
+  ],
   "aboutOrg.details": [
     {
       "type": 0,
       "value": "Información adicional:"
     }
   ],
-  "aboutOrg.numRequests": [
+  "aboutOrg.email": [
     {
       "type": 0,
-      "value": "Número de solicitudes enviadas:"
+      "value": "Email:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "Fundado:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "Artes curativas:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "Industria:"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
       "value": "Política de Privacidad:"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "Especialidades de la empresa:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "Tipo de empresa:"
     }
   ],
   "contribute.creadit": [
@@ -1758,7 +1794,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Suscríbete a nuestros correos electrónicos de Alertas de Privacidad y cada mes recibirás un correo electrónico que enumera las peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Al pasar cinco minutos al mes optando por no participar en estas compañías, puede mejorar su privacidad en línea con el tiempo y recuperar el control de su información personal."
+      "value": "Un correo electrónico mensual que enumera las tres peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Mejore su privacidad y recupere el control de su información personal al pasar cinco minutos al mes optando por no participar de estas empresas."
     }
   ],
   "privacyAlerts.seoDescription": [
@@ -1807,44 +1843,6 @@
     {
       "type": 0,
       "value": "Hemos diseñado Alertas de Privacidad basadas en comentarios de las personas que utilizan nuestros servicios. Es una forma sencilla de mejorar su privacidad en línea a lo largo del tiempo gastando sólo cinco minutos al mes optando por las empresas más ofendentes escogidas a mano por nuestro equipo de investigación."
-    }
-  ],
-  "privacyAlerts.whySubscribeBody1": [
-    {
-      "type": 0,
-      "value": "Estas son dos grandes razones por las que debes suscribirte ahora:"
-    }
-  ],
-  "privacyAlerts.whySubscribeBody2": [
-    {
-      "type": 0,
-      "value": "Mejora tu privacidad en línea, y protégase a usted y a su familia de las campañas de influencia dedicando sólo cinco minutos cada mes a excluirse de las peores empresas dedicadas a la privacidad, escogidas por nuestro equipo de investigación"
-    }
-  ],
-  "privacyAlerts.whySubscribeBody3": [
-    {
-      "type": 0,
-      "value": "Ayude a apoyar este servicio y la "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "organización sin fines de lucro"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": " que lo gestiona"
-    }
-  ],
-  "privacyAlerts.whySubscribeTitle": [
-    {
-      "type": 0,
-      "value": "¿Por qué suscribirse?"
     }
   ],
   "redirect.continueText": [
@@ -2114,7 +2112,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+              "value": "Cualquier dato personal cuya presencia o ausencia conocida de una base de datos es probable que amenace la vida, cuerpo, o propiedad de la persona identificable;"
             }
           ],
           "type": 8,
@@ -2124,7 +2122,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+              "value": "Cualquier dato personal cuya presencia o ausencia conocida de una base de datos es probable que solicite o active una actividad ilegal o una conducta indebida;"
             }
           ],
           "type": 8,
@@ -2134,7 +2132,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+              "value": "Cualquier dato personal cuya presencia o ausencia conocida de una base de datos puede socavar la seguridad nacional dañar una relación de confianza con un país extranjero u organización internacional, o poner al país en desventaja en las negociaciones con otro país o con una organización internacional;"
             }
           ],
           "type": 8,
@@ -2144,7 +2142,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+              "value": "Cualquier dato personal cuya presencia o ausencia conocida de una base de datos puede interferir en la prevención de la delincuencia, el control de la delincuencia, o investigaciones criminales o con la defensa de la seguridad y el orden públicos."
             }
           ],
           "type": 8,
@@ -3125,7 +3123,7 @@
   "requestEscalation.phoneDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request please call the "
+      "value": "Para escalar tu solicitud, por favor llama al "
     },
     {
       "type": 1,
@@ -3133,7 +3131,7 @@
     },
     {
       "type": 0,
-      "value": " on "
+      "value": " el "
     },
     {
       "type": 1,
@@ -3321,13 +3319,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+      "value": "Un correo electrónico mensual que enumera las tres peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Mejore su privacidad y recupere el control de su información personal al pasar cinco minutos al mes optando por no participar de estas empresas."
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Our Privacy Alerts!"
+      "value": "Suscríbete a nuestras alertas de privacidad!"
     }
   ],
   "thankyou.copyPart1Copy": [
