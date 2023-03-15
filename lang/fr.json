@@ -77,14 +77,32 @@
   "about.title": {
     "message": "À propos de nous"
   },
+  "aboutOrg.description": {
+    "message": "In their own words:"
+  },
   "aboutOrg.details": {
     "message": "Information additionnelle:"
   },
-  "aboutOrg.numRequests": {
-    "message": "Nombre de requêtes envoyées :"
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "Founded:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Headquarters:"
+  },
+  "aboutOrg.industry": {
+    "message": "Industry:"
   },
   "aboutOrg.privacyPolicy": {
     "message": "Politique de confidentialité:"
+  },
+  "aboutOrg.specialties": {
+    "message": "Company Specialties:"
+  },
+  "aboutOrg.type": {
+    "message": "Company Type:"
   },
   "contribute.creadit": {
     "message": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus que heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur github, ou par d'autres moyens."
@@ -597,7 +615,7 @@
     "message": "Nous travaillons avec les fournisseurs tiers suivants pour effectuer des tâches de traitement de données en notre nom. Nous engageons ces fournisseurs à respecter des conditions qui garantissent la confidentialité et la sécurité de vos données."
   },
   "privacyAlerts.description1": {
-    "message": "Abonnez-vous à nos courriels d'alerte à la protection de la vie privée et vous recevrez chaque mois un courriel répertoriant les entreprises les plus gravement atteintes à la vie privée identifiées par notre équipe de recherche. En consacrant cinq minutes par mois à se retirer de ces sociétés, vous pouvez améliorer votre confidentialité en ligne au fil du temps et reprendre le contrôle de vos renseignements personnels."
+    "message": "Un courriel mensuel répertoriant les trois entreprises les plus gravement atteintes à la vie privée identifiées par notre équipe de recherche. Améliorez votre vie privée et reprenez le contrôle de vos renseignements personnels en consacrant cinq minutes par mois pour vous retirer de ces sociétés."
   },
   "privacyAlerts.seoDescription": {
     "message": "Abonnez-vous à nos alertes mensuelles de confidentialité"
@@ -741,7 +759,7 @@
     "message": "Il y a certaines circonstances exceptionnelles lorsqu'une organisation est légalement autorisée à refuser de se conformer à votre demande."
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>Toute donnée personnelle dont la présence connue ou l'absence d'une base de données risque de menacer la vie, corps, ou propriété de la personne identifiable ;</li><li>Toute donnée à caractère personnel dont la présence connue ou l'absence de base de données est susceptible d'accélérer ou de déclencher une activité illégale ou une conduite injustifiée ;</li><li>Toute donnée à caractère personnel dont la présence connue ou l'absence de base de données est susceptible de nuire à la sécurité nationale. endommager une relation de confiance avec un pays étranger ou une organisation internationale ou mettre le pays en situation de désavantage dans les négociations avec un autre pays ou avec une organisation internationale ;</li><li>Toute donnée à caractère personnel dont la présence ou l'absence de base de données connue est susceptible d'interférer avec la prévention de la criminalité, le contrôle de la criminalité ou les enquêtes criminelles ou avec le maintien de l'ordre et de la sécurité publique.</li></ul>"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>Libre parole ou autre droit fourni par la loi.</li><li>Traitement à des fins de recherche, si la suppression de renseignements personnels rendrait impossible ou nuirait gravement à la réalisation de telles recherches.</li><li>Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité.</li><li>Pour se conformer à une obligation légale.</li><li>Effectuer un contrat entre l'entreprise et le consommateur.</li><li>Détecter les incidents de sécurité, se protéger contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivre les responsables de cette activité.</li><li>Débogage pour identifier et réparer les erreurs qui entravent les fonctionnalités existantes.</li><li>Permettre uniquement des utilisations internes qui sont raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise.</li><li>Sinon, utilisez les informations personnelles du consommateur, en interne, de façon licite et compatible avec le contexte dans lequel le consommateur a fourni les renseignements.</li></ul>"
@@ -861,7 +879,7 @@
     "message": "Veuillez sélectionner votre lieu de résidence"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "Afin d'escalader votre demande, veuillez appeler le {authority} le {phone}."
   },
   "requestEscalation.submit": {
     "message": "Personnaliser et envoyer"
@@ -951,10 +969,10 @@
     "message": "Cette Année"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "Un courriel mensuel répertoriant les trois entreprises les plus gravement atteintes à la vie privée identifiées par notre équipe de recherche. Améliorez votre vie privée et reprenez le contrôle de vos renseignements personnels en consacrant cinq minutes par mois pour vous retirer de ces sociétés."
   },
   "subscribe.title": {
-    "message": "Subscribe To Our Privacy Alerts!"
+    "message": "Abonnez-vous à nos alertes de confidentialité!"
   },
   "thankyou.copyPart1Copy": {
     "message": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
