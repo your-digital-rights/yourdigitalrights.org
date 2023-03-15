@@ -77,14 +77,32 @@
   "about.title": {
     "message": "Sobre nosotros"
   },
+  "aboutOrg.description": {
+    "message": "In their own words:"
+  },
   "aboutOrg.details": {
     "message": "Información adicional:"
   },
-  "aboutOrg.numRequests": {
-    "message": "Número de solicitudes enviadas:"
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "Founded:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Headquarters:"
+  },
+  "aboutOrg.industry": {
+    "message": "Industry:"
   },
   "aboutOrg.privacyPolicy": {
     "message": "Política de Privacidad:"
+  },
+  "aboutOrg.specialties": {
+    "message": "Company Specialties:"
+  },
+  "aboutOrg.type": {
+    "message": "Company Type:"
   },
   "contribute.creadit": {
     "message": "Si bien no podemos permitirnos pagarle por su trabajo, estamos más que dispuestos de darle crédito por sus contribuciones, ya sea en este sitio web, en Github o en otras plataformas."
@@ -597,7 +615,7 @@
     "message": "Trabajamos con los siguientes proveedores de terceros para realizar algunas tareas de procesamiento de datos en nuestro nombre. Involucramos a estos proveedores en términos que garanticen la confidencialidad y la seguridad de sus datos."
   },
   "privacyAlerts.description1": {
-    "message": "Suscríbete a nuestros correos electrónicos de Alertas de Privacidad y cada mes recibirás un correo electrónico que enumera las peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Al pasar cinco minutos al mes optando por no participar en estas compañías, puede mejorar su privacidad en línea con el tiempo y recuperar el control de su información personal."
+    "message": "Un correo electrónico mensual que enumera las tres peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Mejore su privacidad y recupere el control de su información personal al pasar cinco minutos al mes optando por no participar de estas empresas."
   },
   "privacyAlerts.seoDescription": {
     "message": "Suscríbete a nuestras alertas mensuales de privacidad"
@@ -741,7 +759,7 @@
     "message": "Existen ciertas circunstancias excepcionales cuando se permite legalmente a una organización negarse a cumplir con su petición."
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>Cualquier dato personal cuya presencia o ausencia conocida de una base de datos es probable que amenace la vida, cuerpo, o propiedad de la persona identificable;</li><li>Cualquier dato personal cuya presencia o ausencia conocida de una base de datos es probable que solicite o active una actividad ilegal o una conducta indebida;</li><li>Cualquier dato personal cuya presencia o ausencia conocida de una base de datos puede socavar la seguridad nacional dañar una relación de confianza con un país extranjero u organización internacional, o poner al país en desventaja en las negociaciones con otro país o con una organización internacional;</li><li>Cualquier dato personal cuya presencia o ausencia conocida de una base de datos puede interferir en la prevención de la delincuencia, el control de la delincuencia, o investigaciones criminales o con la defensa de la seguridad y el orden públicos.</li></ul>"
   },
   "request.next.declineCCPA": {
     "message": "<ul><li>Texto libre u otro derecho proporcionado por la ley.</li><li>Procesamiento con fines de investigación, si la eliminación de información personal haría imposible o perjudicaría gravemente el logro de dicha investigación.</li><li>El tratamiento de esa información personal es necesario para proteger contra la actividad ilegal o procesar a los responsables de la actividad.</li><li>Por cumplir con una obligación legal.</li><li>Realizar un contrato entre la empresa y el consumidor.</li><li>Detectar incidentes de seguridad, proteger contra actividades maliciosas, engañosas, fraudulentas o ilegales, o procesar a los responsables de esa actividad.</li><li>Depuración para identificar y reparar errores que perjudican la funcionalidad predefinida existente.</li><li>Para permitir únicamente usos internos que estén razonablemente alineados con las expectativas del consumidor basándose en la relación del consumidor con el negocio.</li><li>En caso contrario, utilice internamente la información personal del consumidor de forma legal que sea compatible con el contexto en el que el consumidor facilitó la información.</li></ul>"
@@ -861,7 +879,7 @@
     "message": "Por favor, seleccione su lugar de residencia"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "Para escalar tu solicitud, por favor llama al {authority} el {phone}."
   },
   "requestEscalation.submit": {
     "message": "Revisar y enviar"
@@ -951,10 +969,10 @@
     "message": "Este año"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "Un correo electrónico mensual que enumera las tres peores empresas que ofenden la privacidad identificadas por nuestro equipo de investigación. Mejore su privacidad y recupere el control de su información personal al pasar cinco minutos al mes optando por no participar de estas empresas."
   },
   "subscribe.title": {
-    "message": "Subscribe To Our Privacy Alerts!"
+    "message": "Suscríbete a nuestras alertas de privacidad!"
   },
   "thankyou.copyPart1Copy": {
     "message": "ha sido copiado al portapapeles, todo lo que necesita hacer es pegarlo en un correo electrónico, reivusiéndolo y haga clic en Enviar."
