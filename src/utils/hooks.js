@@ -1,8 +1,9 @@
 import { useEffect } from 'react';
+import Script from 'next/script'
 
 const useScript = url => {
   useEffect(() => {
-    const script = document.createElement('script');
+    const script = document.createElement("Script");
 
     script.src = url;
     script.async = true;
