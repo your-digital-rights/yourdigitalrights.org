@@ -265,22 +265,58 @@
       "value": "私たちについて"
     }
   ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "彼ら自身の言葉で:"
+    }
+  ],
   "aboutOrg.details": [
     {
       "type": 0,
       "value": "追加情報:"
     }
   ],
-  "aboutOrg.numRequests": [
+  "aboutOrg.email": [
     {
       "type": 0,
-      "value": "送信されたリクエスト数:"
+      "value": "Email:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "設立日時:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "本社:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "業界:"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
       "value": "プライバシーポリシー:"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "会社特産品:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "会社タイプ:"
     }
   ],
   "contribute.creadit": [
@@ -1750,7 +1786,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "メールマガジン「Privacy Alerts」では、毎月、最もひどいプライバシー侵害を行う企業・団体をリスト化して配信しています。毎月5分、リストに含まれる企業・団体からのオプトアウトに時間をかけることで、徐々にあなたのオンラインプライバシーの状況を改善し、個人情報の管理を自分の手に取り戻すことができます。"
+      "value": "私たちの研究チームが特定した、プライバシーを侵害する企業・団体のワースト3をお知らせする月刊のメールマガジン。これらの企業からオプトアウトすることに月にたった5分を費やすことにより、オンラインプライバシーを改善し、個人情報のコントロール取り戻しましょう。"
     }
   ],
   "privacyAlerts.seoDescription": [

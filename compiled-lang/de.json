@@ -261,22 +261,58 @@
       "value": "Über uns"
     }
   ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "In ihren eigenen Worten:"
+    }
+  ],
   "aboutOrg.details": [
     {
       "type": 0,
       "value": "Zusätzliche Informationen:"
     }
   ],
-  "aboutOrg.numRequests": [
+  "aboutOrg.email": [
     {
       "type": 0,
-      "value": "Nummer der gesendeten Anfrage:"
+      "value": "Email:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "Gegründet:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "Hauptquartiere:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "Branche:"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
       "value": "Datenschutzerklärung:"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "Firmen-Spezialitäten:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "Unternehmenstyp:"
     }
   ],
   "contribute.creadit": [
@@ -1762,7 +1798,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Abonnieren Sie unsere E-Mails zum Schutz der Privatsphäre und Sie erhalten jeden Monat eine E-Mail, die die schlimmsten Unternehmen auflistet, die von unserem Forschungsteam identifiziert wurden. Indem Sie fünf Minuten pro Monat aus diesen Unternehmen auswählen, können Sie Ihre Online-Privatsphäre im Laufe der Zeit verbessern und die Kontrolle über Ihre persönlichen Daten zurücknehmen."
+      "value": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
     }
   ],
   "privacyAlerts.seoDescription": [
@@ -2118,7 +2154,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+              "value": "Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank das Leben bedrohen könnte Körper, oder Eigentum der identifizierbaren Person;"
             }
           ],
           "type": 8,
@@ -2128,7 +2164,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+              "value": "Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank eine illegale Aktivität oder ein falsches Verhalten auslösen oder einleiten;"
             }
           ],
           "type": 8,
@@ -2138,7 +2174,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+              "value": "Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank die nationale Sicherheit unterminiert ein Vertrauensverhältnis zu einem fremden Land oder einer internationalen Organisation zerstören, oder das Land in Verhandlungen mit einem anderen Land oder mit einer internationalen Organisation benachteiligen;"
             }
           ],
           "type": 8,
@@ -2148,7 +2184,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+              "value": "Alle persönlichen Daten, deren bekanntes Vorhandensein oder Fehlen einer Datenbank die Kriminalprävention beeinträchtigen könnte, B. Verbrechenskontrolle, strafrechtliche Ermittlungen oder anderweitige Aufrechterhaltung der öffentlichen Sicherheit und Ordnung."
             }
           ],
           "type": 8,
@@ -3121,7 +3157,7 @@
   "requestEscalation.phoneDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request please call the "
+      "value": "Um Ihre Anfrage zu eskalieren, rufen Sie bitte die "
     },
     {
       "type": 1,
@@ -3129,7 +3165,7 @@
     },
     {
       "type": 0,
-      "value": " on "
+      "value": " auf "
     },
     {
       "type": 1,
@@ -3137,7 +3173,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " an."
     }
   ],
   "requestEscalation.submit": [
@@ -3317,13 +3353,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+      "value": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Our Privacy Alerts!"
+      "value": "Abonnieren Sie unsere Datenschutz-Warnungen!"
     }
   ],
   "thankyou.copyPart1Copy": [

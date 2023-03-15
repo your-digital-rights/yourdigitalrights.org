@@ -5,6 +5,7 @@ import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 import Script from 'next/script'
 import { useEffect } from "react";
+import { useScript } from "../../utils/hooks";
 
 const handleSignUpClick = (e) => {
   e.preventDefault();
@@ -15,6 +16,8 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
     tracking.trackSubscribe(page);
   };
   
+  useScript("https://substackapi.com/widget.js");
+
   useEffect(() => {
     window.CustomSubstackWidget = {
       substackUrl: "consciousdigital.substack.com",
@@ -58,7 +61,6 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               </Typography> 
             </div>
             <div id="custom-substack-embed" className={classes.substack}/>
-            <Script id="substack-embed-external" src={`https://substackapi.com/widget.js?foo=${Math.round(Math.random() * 100)}`}/>      
           </div>
         </div>
       </div>

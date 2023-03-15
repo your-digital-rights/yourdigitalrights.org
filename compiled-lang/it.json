@@ -261,22 +261,58 @@
       "value": "Chi siamo"
     }
   ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "Nelle loro parole:"
+    }
+  ],
   "aboutOrg.details": [
     {
       "type": 0,
       "value": "Informazioni aggiuntive:"
     }
   ],
-  "aboutOrg.numRequests": [
+  "aboutOrg.email": [
     {
       "type": 0,
-      "value": "Numero di richiesta inviata:"
+      "value": "Email:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "Fondato:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "Quartier Generale:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "Settore:"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
       "value": "Politica sulla riservatezza:"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "Specialità Aziendali:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "Tipo Azienda:"
     }
   ],
   "contribute.creadit": [
@@ -1766,7 +1802,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "Iscriviti alle email dei nostri Avvisi sulla privacy e ogni mese riceverai un'email che elenca le peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Trascorrendo cinque minuti al mese optando per queste aziende, puoi migliorare la tua privacy online nel tempo e riprendere il controllo delle tue informazioni personali."
+      "value": "Una email mensile che elenca le tre peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Migliora la tua privacy e riprendi il controllo delle tue informazioni personali spendendo cinque minuti al mese scegliendo di uscire da queste aziende."
     }
   ],
   "privacyAlerts.seoDescription": [
@@ -2122,7 +2158,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+              "value": "Qualsiasi dato personale la cui presenza o assenza nota di un database rischia di minacciare la vita, l’organismo o i beni della persona identificabile;"
             }
           ],
           "type": 8,
@@ -2132,7 +2168,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+              "value": "I dati personali la cui presenza o assenza nota di una banca dati possono indurre o scatenare un'attività illecita o comportamenti illeciti;"
             }
           ],
           "type": 8,
@@ -2142,7 +2178,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+              "value": "Qualsiasi dato personale la cui presenza o assenza nota di una banca dati rischia di compromettere la sicurezza nazionale, danneggiare un rapporto di fiducia con un paese straniero o un'organizzazione internazionale, oppure svantaggiare il paese nei negoziati con un altro paese o con un'organizzazione internazionale;"
             }
           ],
           "type": 8,
@@ -2152,7 +2188,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+              "value": "I dati personali la cui presenza o assenza nota di una banca dati potrebbero interferire con la prevenzione della criminalità, il controllo della criminalità, le indagini penali o la difesa della pubblica sicurezza e dell’ordine pubblico."
             }
           ],
           "type": 8,
@@ -3121,7 +3157,7 @@
   "requestEscalation.phoneDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request please call the "
+      "value": "Al fine di aumentare la tua richiesta, si prega di chiamare il "
     },
     {
       "type": 1,
@@ -3129,7 +3165,7 @@
     },
     {
       "type": 0,
-      "value": " on "
+      "value": " su "
     },
     {
       "type": 1,
@@ -3317,13 +3353,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+      "value": "Una email mensile che elenca le tre peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Migliora la tua privacy e riprendi il controllo delle tue informazioni personali spendendo cinque minuti al mese scegliendo di uscire da queste aziende."
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Our Privacy Alerts!"
+      "value": "Iscriviti Ai Nostri Avvisi Sulla Privacy!"
     }
   ],
   "thankyou.copyPart1Copy": [

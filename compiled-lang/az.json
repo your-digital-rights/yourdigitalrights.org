@@ -110,7 +110,7 @@
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "crwdns5828:0"
+      "value": "crwdns5830:0"
     },
     {
       "type": 1,
@@ -118,7 +118,7 @@
     },
     {
       "type": 0,
-      "value": "crwdne5828:0"
+      "value": "crwdne5830:0"
     }
   ],
   "about.createdByBody2": [
@@ -291,22 +291,74 @@
       "value": "crwdns2285:0crwdne2285:0"
     }
   ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "crwdns5832:0crwdne5832:0"
+    }
+  ],
   "aboutOrg.details": [
     {
       "type": 0,
-      "value": "crwdns2753:0crwdne2753:0"
-    }
-  ],
-  "aboutOrg.numRequests": [
+      "value": "crwdns5834:0"
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
     {
       "type": 0,
-      "value": "crwdns2291:0crwdne2291:0"
+      "value": "crwdne5834:0"
+    }
+  ],
+  "aboutOrg.email": [
+    {
+      "type": 0,
+      "value": "crwdns5836:0crwdne5836:0"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "crwdns5838:0crwdne5838:0"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "crwdns5840:0crwdne5840:0"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "crwdns5842:0crwdne5842:0"
     }
   ],
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
-      "value": "crwdns2293:0crwdne2293:0"
+      "value": "crwdns5844:0"
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": "crwdne5844:0"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "crwdns5846:0crwdne5846:0"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "crwdns5848:0crwdne5848:0"
     }
   ],
   "contribute.creadit": [
@@ -1404,7 +1456,7 @@
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "crwdns3698:0crwdne3698:0"
+      "value": "crwdns5850:0crwdne5850:0"
     }
   ],
   "privacyAlerts.seoDescription": [
