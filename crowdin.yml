@@ -7,7 +7,6 @@ files:
   - source: /lang/en.json
     translation: /lang/%two_letters_code%.json
   - source: /public/templates/*.template
-    ignore_settings: 1
     ignore:
       - '*lgpd*'
       - '*.??.*'
