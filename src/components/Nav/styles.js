@@ -37,7 +37,7 @@ const Theme = (theme) => ({
     },
     item: {
         padding: "10px 0 0px",
-        marginRight: "24px",
+        marginRight: "20px",
         outlineColor: "#e8f4f8",
     },
     link: {

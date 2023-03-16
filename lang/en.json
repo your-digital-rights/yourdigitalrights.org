@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "Search Organizations"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
   },
-  "stats.alltime": {
-    "message": "All Time"
-  },
-  "stats.body.count": {
-    "message": "Count"
-  },
-  "stats.body.org-name": {
-    "message": "Organization"
-  },
   "stats.description": {
     "message": "Data protection request statistics."
   },
-  "stats.month": {
-    "message": "This Month"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "Request Statistics"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "Request Statistics"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "Total requests sent:"
-  },
-  "stats.week": {
-    "message": "This Week"
-  },
-  "stats.year": {
-    "message": "This Year"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."

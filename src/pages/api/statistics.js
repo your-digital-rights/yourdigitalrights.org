@@ -15,7 +15,7 @@ const dynamodb = new aws.DynamoDB();
 export default async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Content-Type', 'application/json')
-    res.setHeader('Cache-Control', 'stale-while-revalidate=600, max-age=3600, s-maxage=3600');  
+    res.setHeader('Cache-Control', 'public, stale-while-revalidate=600,  stale-if-error=600, max-age=86400, s-maxage=86400');  
 
     const alltime_bucket = 'alltime';
     const date = DateTime.now()
