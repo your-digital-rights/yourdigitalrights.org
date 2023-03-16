@@ -95,7 +95,7 @@ export async function getStaticProps({ params }) {
     props: {
       organization: data['Domain'],
     },
-    revalidate: 60*60
+    revalidate: 60*60*24
   }
 }
 
