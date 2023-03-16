@@ -43,9 +43,6 @@ const NavItem = ({
 
 
 const NavListDesktop = ({ classes, router, handleLangChange }) => {
-
-
-
   return (
     <ul className={classes.container}>
       <NavItem
@@ -67,17 +64,16 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         }
         classes={classes}
       />
-      {/* <NavItem
-        href="/#Extension"
-        text={
-          <FormattedMessage id="nav.extension" defaultMessage="Browser Extension" />
-        }
-        classes={classes}
-      /> */}
 
       <NavItem
         href="/contribute"
         text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
+        classes={classes} 
+      />
+
+      <NavItem
+        href="/stats"
+        text={<FormattedMessage id="nav.stats" defaultMessage="Stats" />}
         classes={classes} 
       />
 
@@ -199,18 +195,13 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           classes={classes}
         />        
 
-        {/* <NavItem
+        <NavItem
           onClickHandler={toggleMobileNav}
-          href="/#Extension"
+          href="/stats"
           subsection={true}
-          text={
-            <FormattedMessage
-              id="nav.extension"
-              defaultMessage="Browser Extension"
-            />
-          }
+          text={<FormattedMessage id="nav.stats" defaultMessage="Stats" />}
           classes={classes}
-        /> */}
+        />     
 
         <NavItem
           onClickHandler={toggleMobileNav}

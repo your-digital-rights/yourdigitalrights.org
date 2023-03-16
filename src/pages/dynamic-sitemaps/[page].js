@@ -3,14 +3,12 @@ import { fetchDomains } from "../../utils/domains";
 import { DOMAIN } from "../../utils/domain";
 import { ALT_LANGUAGES } from "../../utils/langUtils";
 
-const cacheMaxAgeUntilStaleSeconds =  60 * 60 * 24; // 1 day
-const cacheMaxAgeStaleDataReturnSeconds =  60 * 60 * 24; // 1 day
 const URLS_PER_SITEMAP = 5000;
 
 export const getServerSideProps = async ctx => {
     ctx.res.setHeader(
         'Cache-Control',
-        `public, s-maxage=${cacheMaxAgeUntilStaleSeconds}, stale-while-revalidate=${cacheMaxAgeStaleDataReturnSeconds} stale-if-error=${cacheMaxAgeStaleDataReturnSeconds}`
+        'public, stale-while-revalidate=600,  stale-if-error=600, max-age=86400, s-maxage=86400',
     );
 
     if (!ctx.params?.page || isNaN(Number(ctx.params?.page))) {

@@ -2,8 +2,8 @@ import aws from "aws-sdk";
 import { DateTime } from "luxon";
 
 aws.config.update({
-  accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  accessKeyId: "AKIA2ZYFNUG23OOFYEUL", //process.env.ACCESS_KEY_ID,
+  secretAccessKey: "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", // process.env.SECRET_ACCESS_KEY,
   region: process.env.REGION,
 });
 
@@ -15,7 +15,7 @@ const dynamodb = new aws.DynamoDB();
 export default async (req, res) => {
     res.setHeader('Access-Control-Allow-Origin', '*')
     res.setHeader('Content-Type', 'application/json')
-    res.setHeader('Cache-Control', 'stale-while-revalidate=600, max-age=3600, s-maxage=3600');  
+    res.setHeader('Cache-Control', 'public, stale-while-revalidate=600,  stale-if-error=600, max-age=86400, s-maxage=86400');  
 
     const alltime_bucket = 'alltime';
     const date = DateTime.now()
