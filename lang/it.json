@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "Cerca organizzazioni"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#possederei tuoidati"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
   },
-  "stats.alltime": {
-    "message": "Tutto Il Tempo"
-  },
-  "stats.body.count": {
-    "message": "Conteggio"
-  },
-  "stats.body.org-name": {
-    "message": "Organizzazione"
-  },
   "stats.description": {
     "message": "Statistiche sulla protezione dei dati."
   },
-  "stats.month": {
-    "message": "Questo Mese"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "Richiedi Statistiche"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "Richiedi Statistiche"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "Totale richieste inviate:"
-  },
-  "stats.week": {
-    "message": "Questa Settimana"
-  },
-  "stats.year": {
-    "message": "Questo Anno"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Una email mensile che elenca le tre peggiori aziende che violano la privacy identificate dal nostro team di ricerca. Migliora la tua privacy e riprendi il controllo delle tue informazioni personali spendendo cinque minuti al mese scegliendo di uscire da queste aziende."
