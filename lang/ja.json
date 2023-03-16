@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "企業や団体を検索"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "無数の企業・団体が保有するあなたのデータを見つけ出し、削除させようyourdigitalrights.org"
   },
-  "stats.alltime": {
-    "message": "すべて"
-  },
-  "stats.body.count": {
-    "message": "数"
-  },
-  "stats.body.org-name": {
-    "message": "企業・団体"
-  },
   "stats.description": {
     "message": "データ保護リクエストの統計"
   },
-  "stats.month": {
-    "message": "今月"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "リクエストの統計"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "リクエストの統計"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "送信された合計リクエスト数:"
-  },
-  "stats.week": {
-    "message": "今週"
-  },
-  "stats.year": {
-    "message": "毎年"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "私たちの研究チームが特定した、プライバシーを侵害する企業・団体のワースト3をお知らせする月刊のメールマガジン。これらの企業からオプトアウトすることに月にたった5分を費やすことにより、オンラインプライバシーを改善し、個人情報のコントロール取り戻しましょう。"
