@@ -2,8 +2,8 @@ import aws from "aws-sdk";
 import { DateTime } from "luxon";
 
 aws.config.update({
-  accessKeyId: "AKIA2ZYFNUG23OOFYEUL", //process.env.ACCESS_KEY_ID,
-  secretAccessKey: "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", // process.env.SECRET_ACCESS_KEY,
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_ACCESS_KEY,
   region: process.env.REGION,
 });
 
