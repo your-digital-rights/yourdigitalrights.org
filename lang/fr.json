@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "Rechercher des organisations"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#possédervosdonnées"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer. Consultez yourdigitalrights.org."
   },
-  "stats.alltime": {
-    "message": "Tout le temps"
-  },
-  "stats.body.count": {
-    "message": "Compter"
-  },
-  "stats.body.org-name": {
-    "message": "Organisation"
-  },
   "stats.description": {
     "message": "Statistiques de la demande de protection des données."
   },
-  "stats.month": {
-    "message": "Ce mois-ci"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "Statistiques de la requête"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "Statistiques de la requête"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "Total des demandes envoyées:"
-  },
-  "stats.week": {
-    "message": "Cette semaine"
-  },
-  "stats.year": {
-    "message": "Cette Année"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Un courriel mensuel répertoriant les trois entreprises les plus gravement atteintes à la vie privée identifiées par notre équipe de recherche. Améliorez votre vie privée et reprenez le contrôle de vos renseignements personnels en consacrant cinq minutes par mois pour vous retirer de ces sociétés."
