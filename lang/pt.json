@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "Pesquisar organizações"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#reinvindiqueseusdados"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "Descubra quais organizações possuem dados pessoais sobre você e solicite a exclusão dos mesmos. Confira mais em yourdigitalrights.org."
   },
-  "stats.alltime": {
-    "message": "Todos os tempos"
-  },
-  "stats.body.count": {
-    "message": "Quantidade"
-  },
-  "stats.body.org-name": {
-    "message": "Cliente"
-  },
   "stats.description": {
     "message": "Estatísticas de requisição de dados"
   },
-  "stats.month": {
-    "message": "Este Mês"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "Solicitar estatísticas"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "Solicitar estatísticas"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "Total de pedidos enviados:"
-  },
-  "stats.week": {
-    "message": "Esta semana"
-  },
-  "stats.year": {
-    "message": "Este Ano"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Um e-mail mensal listando as três maiores empresas que violam a privacidade identificadas pela nossa equipe de pesquisa. Melhore sua privacidade e assuma de volta o controle de suas informações pessoais ao gastar cinco minutos por mês optando por sair dessas empresas."

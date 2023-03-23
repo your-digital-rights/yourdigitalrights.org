@@ -434,6 +434,9 @@
   "nav.search": {
     "message": "Organisationen suchen"
   },
+  "nav.stats": {
+    "message": "Stats"
+  },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
@@ -926,20 +929,11 @@
   "social.twitterTitle": {
     "message": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
   },
-  "stats.alltime": {
-    "message": "Alle Zeiten"
-  },
-  "stats.body.count": {
-    "message": "Anzahl"
-  },
-  "stats.body.org-name": {
-    "message": "Organisation"
-  },
   "stats.description": {
     "message": "Statistiken für Datenschutzanfragen."
   },
-  "stats.month": {
-    "message": "Diesen Monat"
+  "stats.statsSubTitle": {
+    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
   },
   "stats.statsTitle": {
     "message": "Statistiken anfordern"
@@ -947,14 +941,20 @@
   "stats.title": {
     "message": "Statistiken anfordern"
   },
+  "stats.titleAlltime": {
+    "message": "Top all-time requests"
+  },
+  "stats.titleMonth": {
+    "message": "Top requests this month"
+  },
+  "stats.titleWeek": {
+    "message": "Top requests this week"
+  },
+  "stats.titleYear": {
+    "message": "Top requests this year"
+  },
   "stats.total": {
-    "message": "Gesamte gesendete Anfragen:"
-  },
-  "stats.week": {
-    "message": "Diese Woche"
-  },
-  "stats.year": {
-    "message": "Dieses Jahr"
+    "message": "Total requests sent: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
