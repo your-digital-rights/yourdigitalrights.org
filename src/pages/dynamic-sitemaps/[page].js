@@ -31,7 +31,7 @@ export const getServerSideProps = async ctx => {
             changefreq: "weekly",
             priority: 0.5,
             alternateRefs: Object.keys(ALT_LANGUAGES).map((locale) => ({
-                href: `https:/${DOMAIN}/${locale}/d/${domain.url}`,
+                href: `https://${DOMAIN}/${locale}/d/${domain.url}`,
                 hreflang: locale,
             }))
     }));
