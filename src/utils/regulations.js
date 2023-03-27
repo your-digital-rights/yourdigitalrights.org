@@ -120,7 +120,7 @@ const Regulations = {
         {
           name: 'Latvia',
           countryCode: 'LV',
-          email: 'info@dvi.gov.lv',
+          email: 'pasts@dvi.gov.lv',
           website: 'http://www.dvi.gov.lv/',
           chairman: 'Ms Jekaterina Macuka'
         },
