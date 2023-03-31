@@ -66,25 +66,29 @@ const styles = (theme) => ({
 });
 
 function getTable(data, bucket, classes, message) {
-  return (
-    <div className={classes.column}>
-      <Typography gutterBottom={true} variant="h7" className={classes.tableTitle}>
-        {message}
-      </Typography>
-      <TableContainer component={Paper} className={classes.table} >
-        <Table size="small" >
-          <TableBody>           
-            {data[bucket].map((row) => (
-              <TableRow key={bucket}>
-                <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
-                <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
-    </div>
-    )
+  if (bucket in data) {
+    return (
+      <div className={classes.column}>
+        <Typography gutterBottom={true} variant="h7" className={classes.tableTitle}>
+          {message}
+        </Typography>
+        <TableContainer component={Paper} className={classes.table} >
+          <Table size="small" >
+            <TableBody>           
+              {data[bucket].map((row) => (
+                <TableRow key={bucket}>
+                  <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
+                  <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>
+      );
+    } else {
+      return;
+    }
 }
 
 const fetcher = (url) => fetch(url).then((res) => res.json())

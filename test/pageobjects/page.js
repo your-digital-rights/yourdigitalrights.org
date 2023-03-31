@@ -114,11 +114,14 @@ class Page {
       get linkFiveText() {
         return $("nav li:nth-child(5)").getText();
       },
+      get linkSixText() {
+        return $("nav li:nth-child(6)").getText();
+      },
       get linkLangSelect() {
-        return $("nav  li:nth-child(6) > div > div").getText();
+        return $("nav  li:nth-child(7) > div > div").getText();
       },
       get linkButton() {
-        return $("nav  li:nth-child(7) a");
+        return $("nav  li:nth-child(8) a");
       },
       get linkButtonText() {
         return this.linkButton.getText();
@@ -166,7 +169,7 @@ class Page {
       get linkElevenMobText() {
         return $(".mob-navbar ul li:nth-child(11)").getText();
       },
-      get linkTwelvMobText() {
+      get linkTwelveMobText() {
         return $(".mob-navbar ul li:nth-child(12)").getText();
       },
     };

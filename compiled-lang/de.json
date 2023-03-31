@@ -1321,6 +1321,12 @@
       "value": "Organisationen suchen"
     }
   ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Stats"
+    }
+  ],
   "nav.twitterHastag": [
     {
       "type": 0,
@@ -3252,34 +3258,16 @@
       "value": "Finden Sie heraus, welche personenbezogenen Daten Tausende von Organisationen über Sie gespeichert haben, und veranlassen Sie sie, diese zu löschen. Besuchen Sie yourdigitalrights.org."
     }
   ],
-  "stats.alltime": [
-    {
-      "type": 0,
-      "value": "Alle Zeiten"
-    }
-  ],
-  "stats.body.count": [
-    {
-      "type": 0,
-      "value": "Anzahl"
-    }
-  ],
-  "stats.body.org-name": [
-    {
-      "type": 0,
-      "value": "Organisation"
-    }
-  ],
   "stats.description": [
     {
       "type": 0,
       "value": "Statistiken für Datenschutzanfragen."
     }
   ],
-  "stats.month": [
+  "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Diesen Monat"
+      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
     }
   ],
   "stats.statsTitle": [
@@ -3294,22 +3282,39 @@
       "value": "Statistiken anfordern"
     }
   ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Top all-time requests"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Top requests this month"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Top requests this week"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Top requests this year"
+    }
+  ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Gesamte gesendete Anfragen:"
-    }
-  ],
-  "stats.week": [
+      "value": "Total requests sent: "
+    },
     {
-      "type": 0,
-      "value": "Diese Woche"
-    }
-  ],
-  "stats.year": [
-    {
-      "type": 0,
-      "value": "Dieses Jahr"
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
     }
   ],
   "subscribe.alertsOneLiner1": [

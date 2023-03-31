@@ -1321,6 +1321,12 @@
       "value": "Cerca organizzazioni"
     }
   ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Stats"
+    }
+  ],
   "nav.twitterHastag": [
     {
       "type": 0,
@@ -3252,34 +3258,16 @@
       "value": "Scopri quali dati personali hanno su di te migliaia di organizzazioni e chiedi loro di eliminarli. Dai un'occhiata a yourdigitalrights.org."
     }
   ],
-  "stats.alltime": [
-    {
-      "type": 0,
-      "value": "Tutto Il Tempo"
-    }
-  ],
-  "stats.body.count": [
-    {
-      "type": 0,
-      "value": "Conteggio"
-    }
-  ],
-  "stats.body.org-name": [
-    {
-      "type": 0,
-      "value": "Organizzazione"
-    }
-  ],
   "stats.description": [
     {
       "type": 0,
       "value": "Statistiche sulla protezione dei dati."
     }
   ],
-  "stats.month": [
+  "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Questo Mese"
+      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
     }
   ],
   "stats.statsTitle": [
@@ -3294,22 +3282,39 @@
       "value": "Richiedi Statistiche"
     }
   ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Top all-time requests"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Top requests this month"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Top requests this week"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Top requests this year"
+    }
+  ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Totale richieste inviate:"
-    }
-  ],
-  "stats.week": [
+      "value": "Total requests sent: "
+    },
     {
-      "type": 0,
-      "value": "Questa Settimana"
-    }
-  ],
-  "stats.year": [
-    {
-      "type": 0,
-      "value": "Questo Anno"
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
     }
   ],
   "subscribe.alertsOneLiner1": [

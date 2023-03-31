@@ -1317,6 +1317,12 @@
       "value": "Buscar organizaciones"
     }
   ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Stats"
+    }
+  ],
   "nav.twitterHastag": [
     {
       "type": 0,
@@ -3256,34 +3262,16 @@
       "value": "Descubre qué datos personales tienen sobre usted y haga que los eliminen. Visite yourdigitalrights.org."
     }
   ],
-  "stats.alltime": [
-    {
-      "type": 0,
-      "value": "Todo"
-    }
-  ],
-  "stats.body.count": [
-    {
-      "type": 0,
-      "value": "Contador"
-    }
-  ],
-  "stats.body.org-name": [
-    {
-      "type": 0,
-      "value": "Organización"
-    }
-  ],
   "stats.description": [
     {
       "type": 0,
       "value": "La protección de datos solicita estadísticas."
     }
   ],
-  "stats.month": [
+  "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Este mes"
+      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
     }
   ],
   "stats.statsTitle": [
@@ -3298,22 +3286,39 @@
       "value": "Estadísticas de Solicitud"
     }
   ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Top all-time requests"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Top requests this month"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Top requests this week"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Top requests this year"
+    }
+  ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total de solicitudes enviadas:"
-    }
-  ],
-  "stats.week": [
+      "value": "Total requests sent: "
+    },
     {
-      "type": 0,
-      "value": "Esta semana"
-    }
-  ],
-  "stats.year": [
-    {
-      "type": 0,
-      "value": "Este año"
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
     }
   ],
   "subscribe.alertsOneLiner1": [
