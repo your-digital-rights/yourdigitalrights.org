@@ -1313,6 +1313,12 @@
       "value": "企業や団体を検索"
     }
   ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Stats"
+    }
+  ],
   "nav.twitterHastag": [
     {
       "type": 0,
@@ -3220,34 +3226,16 @@
       "value": "無数の企業・団体が保有するあなたのデータを見つけ出し、削除させようyourdigitalrights.org"
     }
   ],
-  "stats.alltime": [
-    {
-      "type": 0,
-      "value": "すべて"
-    }
-  ],
-  "stats.body.count": [
-    {
-      "type": 0,
-      "value": "数"
-    }
-  ],
-  "stats.body.org-name": [
-    {
-      "type": 0,
-      "value": "企業・団体"
-    }
-  ],
   "stats.description": [
     {
       "type": 0,
       "value": "データ保護リクエストの統計"
     }
   ],
-  "stats.month": [
+  "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "今月"
+      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
     }
   ],
   "stats.statsTitle": [
@@ -3262,22 +3250,39 @@
       "value": "リクエストの統計"
     }
   ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Top all-time requests"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Top requests this month"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Top requests this week"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Top requests this year"
+    }
+  ],
   "stats.total": [
     {
       "type": 0,
-      "value": "送信された合計リクエスト数:"
-    }
-  ],
-  "stats.week": [
+      "value": "Total requests sent: "
+    },
     {
-      "type": 0,
-      "value": "今週"
-    }
-  ],
-  "stats.year": [
-    {
-      "type": 0,
-      "value": "毎年"
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
     }
   ],
   "subscribe.alertsOneLiner1": [
