@@ -45,6 +45,7 @@ export default async (req, res) => {
         },
       },
       UpdateExpression: "SET #S = :s",
+      ConditionExpression: 'attribute_exists(id)',
       ExpressionAttributeNames: {
         "#S": "status",
       },
@@ -56,10 +57,14 @@ export default async (req, res) => {
       ReturnValues: "ALL_NEW",
     }, (err, data) => {
       if (err) {
-        res.statusCode = 500;
-        res.send({
-          error: 'Could not update status in YDRFollowups: ' + err,
-        });
+        if (err.code === 'ConditionalCheckFailedException') {
+          res.redirect(301, `/r/${uuid}`);
+        } else {
+          res.statusCode = 500;
+          res.send({
+            error: 'Could not update status in YDRFollowups: ' + err,
+          });
+        }
       } else {  
         dynamodb.updateItem({
           TableName: 'YDRRequests',    
