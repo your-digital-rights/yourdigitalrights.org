@@ -73,7 +73,7 @@ export default async (req, res) => {
               S: uuid,
             },
           },
-          UpdateExpression: "SET statusHistory = list_append(if_not_exists(statusHistory, :empty_list), :s)",
+          UpdateExpression: "SET statusHistory = list_append(if_not_exists(statusHistory, :empty_list), :s), currentStatus = :cs",
           ExpressionAttributeValues: {
             ":s":{L: [{
               M: { 
@@ -86,6 +86,7 @@ export default async (req, res) => {
               }  
             }]},
             ":empty_list": {L: [] },
+            ":cs": {S: status},
           },
           ReturnValues: "ALL_NEW",
         }, (err, data) => {
