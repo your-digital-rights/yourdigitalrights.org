@@ -36,6 +36,7 @@ export default async (req, res) => {
         },
       },
       UpdateExpression: "SET escalationDate = :d, dpaCountryCode = :cc",
+      ConditionExpression: 'attribute_exists(id)',
       ExpressionAttributeValues: {
         ":d": {
           S: DateTime.now().toUTC().toISO(),

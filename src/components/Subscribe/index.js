@@ -42,7 +42,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               </Typography> 
             </div>
             <div className={classes.substack}>
-              <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="100" frameborder="0" ></iframe>
+              <iframe src="https://consciousdigital.substack.com/embed" width="350" height="100" frameborder="0" ></iframe>
             </div>
           </div>
         </div>
