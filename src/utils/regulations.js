@@ -510,7 +510,50 @@ const Regulations = {
       }
     } 
   },  
- 
+  CPA: {
+    displayName: 'CPA',
+    gepgraphy: 'Colorado',
+    longName: 'Colorado Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'CO AG',
+      longName: 'Attorney General of Colorado',
+      requestFormURL: 'https://complaints.coag.gov/s/contact-us',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Colorado',
+          countryCode: 'CO',
+          email: 'attorney.general@coag.gov',
+          website: 'https://coag.gov/',
+          chairman: 'Phil Weiser'
+        },
+      ],
+    },
+    regulationURL: 'https://leg.colorado.gov/bills/sb21-190',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Subsection (1)(a)(IV)(C)(d)',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineCPA"
+            defaultMessage="<ul><li>Financial institutions and affiliates subject to the Gramm-Leach-Bliley Act</li><li>Air carriers subject to Federal Aviation Administration regulation</li><li>National securities associations registered under the Securities Exchange Act</li><li>Certain types of personal data maintained in compliance with specific federal privacy laws, such the Health Insurance Portability and Accountability Act and the Fair Credit Reporting Act, or for certain governmental purposes.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Subsection (1)(a)(IV)(C)(b)',        
+      }
+    } 
+  }, 
 };
 
 export default Regulations;
