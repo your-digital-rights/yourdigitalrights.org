@@ -336,7 +336,7 @@ class Form extends Component {
             helperText={RegulationTypeHelperText}
             margin="normal"
           >
-            { Object.keys(Regulations).map((key) => 
+            { Object.keys(Regulations).sort().map((key) => 
               <option key={key} value={key}>{`${Regulations[key].gepgraphy} (${Regulations[key].displayName})`}</option>
             )}
           </TextField>

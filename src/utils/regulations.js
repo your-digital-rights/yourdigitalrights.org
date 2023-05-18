@@ -389,7 +389,7 @@ const Regulations = {
       shortName: 'VA AG',
       longName: 'Attorney General of Virginia',
       requestFormURL: 'https://www.oag.state.va.us/consumercomplaintform/form/start',
-      defaultAction: 'form',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'Virginia',
@@ -554,6 +554,51 @@ const Regulations = {
       }
     } 
   }, 
+  CTDPA: {
+    displayName: 'CTDPA',
+    gepgraphy: 'Connecticut',
+    longName: 'Connecticut Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'CT AG',
+      longName: 'Attorney General of Connecticut',
+      requestFormURL: 'https://www.dir.ct.gov/ag/complaint/e-complaint.aspx',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Connecticut',
+          countryCode: 'CT',
+          email: 'attorney.general@ct.gov',
+          website: 'https://portal.ct.gov/AG',
+          chairman: 'William Tong'
+        },
+      ],
+    },
+    regulationURL: 'https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00006&which_year=2022',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 4.3',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineCTDPA"
+            defaultMessage="<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 4.1',        
+      }
+    } 
+  }, 
+
 };
 
 export default Regulations;
