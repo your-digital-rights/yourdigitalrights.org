@@ -61,7 +61,7 @@ export default [
             </TableRow>
           </TableHead>
           <TableBody>           
-            { Object.keys(Regulations).map((key) => 
+            { Object.keys(Regulations).sort().map((key) => 
               <TableRow key={key}>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
                 <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>

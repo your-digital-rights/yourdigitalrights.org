@@ -389,7 +389,7 @@ const Regulations = {
       shortName: 'VA AG',
       longName: 'Attorney General of Virginia',
       requestFormURL: 'https://www.oag.state.va.us/consumercomplaintform/form/start',
-      defaultAction: 'form',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'Virginia',
@@ -510,7 +510,95 @@ const Regulations = {
       }
     } 
   },  
- 
+  CPA: {
+    displayName: 'CPA',
+    gepgraphy: 'Colorado',
+    longName: 'Colorado Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'CO AG',
+      longName: 'Attorney General of Colorado',
+      requestFormURL: 'https://complaints.coag.gov/s/contact-us',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Colorado',
+          countryCode: 'CO',
+          email: 'attorney.general@coag.gov',
+          website: 'https://coag.gov/',
+          chairman: 'Phil Weiser'
+        },
+      ],
+    },
+    regulationURL: 'https://leg.colorado.gov/bills/sb21-190',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Subsection (1)(a)(IV)(C)(d)',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineCPA"
+            defaultMessage="<ul><li>Financial institutions and affiliates subject to the Gramm-Leach-Bliley Act</li><li>Air carriers subject to Federal Aviation Administration regulation</li><li>National securities associations registered under the Securities Exchange Act</li><li>Certain types of personal data maintained in compliance with specific federal privacy laws, such the Health Insurance Portability and Accountability Act and the Fair Credit Reporting Act, or for certain governmental purposes.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Subsection (1)(a)(IV)(C)(b)',        
+      }
+    } 
+  }, 
+  CTDPA: {
+    displayName: 'CTDPA',
+    gepgraphy: 'Connecticut',
+    longName: 'Connecticut Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'CT AG',
+      longName: 'Attorney General of Connecticut',
+      requestFormURL: 'https://www.dir.ct.gov/ag/complaint/e-complaint.aspx',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Connecticut',
+          countryCode: 'CT',
+          email: 'attorney.general@ct.gov',
+          website: 'https://portal.ct.gov/AG',
+          chairman: 'William Tong'
+        },
+      ],
+    },
+    regulationURL: 'https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00006&which_year=2022',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 4.3',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineCTDPA"
+            defaultMessage="<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 4.1',        
+      }
+    } 
+  }, 
+
 };
 
 export default Regulations;
