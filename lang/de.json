@@ -435,7 +435,7 @@
     "message": "Organisationen suchen"
   },
   "nav.stats": {
-    "message": "Stats"
+    "message": "Statistik"
   },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
@@ -755,6 +755,12 @@
   "request.next.declineCCPA": {
     "message": "<ul><li>Redefreiheit oder ein anderes Recht, das gesetzlich vorgesehen ist.</li><li>Verarbeitung zu Forschungszwecken, wenn die Löschung personenbezogener Daten die Erreichung dieser Forschung unmöglich oder ernsthaft beeinträchtigen würde.</li><li>Die Verarbeitung dieser persönlichen Daten ist notwendig, um gegen illegale Aktivitäten zu schützen oder die Verantwortlichen der Aktivität zu verfolgen.</li><li>zur Erfüllung einer gesetzlichen Verpflichtung.</li><li>Um einen Vertrag zwischen dem Unternehmen und dem Verbraucher auszuführen.</li><li>Erkenne Sicherheitsvorfälle, schütze vor schädlichen, betrügerischen oder illegalen Aktivitäten, oder verfolge die Verantwortlichen für diese Aktivität.</li><li>Debug um Fehler zu identifizieren und zu reparieren, die die bereits beabsichtigte Funktionalität beeinträchtigen.</li><li>Um ausschließlich interne Verwendungen zu ermöglichen, die den Erwartungen des Verbrauchers auf der Grundlage der Beziehung des Verbrauchers zum Unternehmen angemessen entsprechen.</li><li>Andernfalls verwenden Sie die persönlichen Daten des Verbrauchers intern, auf rechtmäßige Weise, die mit dem Kontext vereinbar ist, in dem der Verbraucher die Informationen zur Verfügung gestellt hat.</li></ul>"
   },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finanzinstitutionen und Tochtergesellschaften unterliegen dem Gramm-Leach-Bliley-Gesetz</li><li>Luftfahrtgesellschaften, die der Federal Aviation Administration Verordnung unterliegen,</li><li>Nationale Wertpapiervereinigungen, die nach dem Securities Exchange Act registriert sind</li><li>Bestimmte Arten personenbezogener Daten, die in Übereinstimmung mit bestimmten Bundesdatenschutzgesetzen gespeichert werden, B. das Krankenkassen Portability and Accountability Act und das Fair Credit Reporting Act oder für bestimmte staatliche Zwecke.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Entitäten einschließlich staatlicher und lokaler Regierungen, gemeinnütziger, Hochschuleinrichtungen, bestimmter nationaler Wertpapierverbände, Finanzinstitutionen und betroffene Unternehmen unter bestimmten Rechtsakten, wie dem Gramm-Leach-Bliley-Gesetz und dem Gesetz über die Portabilität und Rechenschaftspflicht der Krankenversicherung. sind ausgenommen</li><li>Geschützte Gesundheitsdaten</li><li>Mitarbeiterdaten einschließlich Bewerberdaten</li><li>De-identifizierte Daten</li><li>öffentlich verfügbare Informationen</li><li>Aggregate Informationen</li><li>Persönliche Informationen, die für Forschung an Menschen oder im Rahmen einer klinischen Studie gesammelt wurden</li></ul>"
+  },
   "request.next.declineGDPR": {
     "message": "<ul><li>Wenn Ihre Daten gespeichert werden, ist aus Gründen der Meinungs- und Informationsfreiheit erforderlich (dies schließt Journalismus und Akademiker mit ein B. künstlerische und literarische Zwecke).</li><li>Wenn die Organisation gesetzlich verpflichtet ist, Ihre Daten zu behalten.</li><li>Ihre Daten müssen aus Gründen der öffentlichen Gesundheit gespeichert werden.</li><li>Bei der Aufbewahrung Ihrer Daten ist für die Erstellung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich.</li><li>Wenn Sie Ihre Daten löschen, beeinträchtigen Sie die wissenschaftliche oder historische Forschung oder Archivierung, die im öffentlichen Interesse liegt.</li><li>Wenn die Organisation unter Berücksichtigung Ihrer Anfrage entscheidet, dass sie Ihre Daten nicht löschen muss, muss sie dennoch auf Sie reagieren. Sie sollte Ihnen erklären, warum sie glaubt, dass sie Ihre Daten nicht löschen muss und informieren Sie über Ihr Recht, sich über diese Entscheidung bei der DPA oder über die Gerichte zu beschweren.</li></ul>"
   },
@@ -933,7 +939,7 @@
     "message": "Statistiken für Datenschutzanfragen."
   },
   "stats.statsSubTitle": {
-    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+    "message": "Unsere Mission ist es, Einzelpersonen dabei zu helfen, die Kontrolle über ihre Online-Privatsphäre wiederzuerlangen, indem sie sie ermächtigen, die Löschung oder Bereitstellung einer Kopie ihrer persönlichen Daten anzufordern. Die folgenden Statistiken zeigen, welche Organisationen die meisten Anfragen für verschiedene Zeiträume erhalten haben."
   },
   "stats.statsTitle": {
     "message": "Statistiken anfordern"
@@ -942,19 +948,19 @@
     "message": "Statistiken anfordern"
   },
   "stats.titleAlltime": {
-    "message": "Top all-time requests"
+    "message": "Top-Allzeit-Anfragen"
   },
   "stats.titleMonth": {
-    "message": "Top requests this month"
+    "message": "Top Anfragen in diesem Monat"
   },
   "stats.titleWeek": {
-    "message": "Top requests this week"
+    "message": "Top Anfragen in dieser Woche"
   },
   "stats.titleYear": {
-    "message": "Top requests this year"
+    "message": "Top Anfragen in diesem Jahr"
   },
   "stats.total": {
-    "message": "Total requests sent: {requestCount, number}"
+    "message": "Gesamte Anfragen gesendet: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Eine monatliche E-Mail, in der die drei von unserem Forschungsteam identifizierten Unternehmen aufgelistet sind, die gegen die Privatsphäre verstoßen. Verbessern Sie Ihre Privatsphäre und nehmen Sie die Kontrolle über Ihre persönlichen Daten zurück, indem Sie fünf Minuten im Monat für das Ausscheiden aus diesen Unternehmen aufwenden."
