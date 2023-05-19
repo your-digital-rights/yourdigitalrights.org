@@ -435,7 +435,7 @@
     "message": "企業や団体を検索"
   },
   "nav.stats": {
-    "message": "Stats"
+    "message": "統計"
   },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
@@ -939,7 +939,7 @@
     "message": "データ保護リクエストの統計"
   },
   "stats.statsSubTitle": {
-    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+    "message": "私たちの使命は、個人が自分の個人情報の削除またはコピーを提供することを組織に要求することを許可することによって、オンラインプライバシーの管理を取り戻すのを支援することです。 以下の統計は、異なる期間で最も多くのリクエストを受けた組織を示しています。"
   },
   "stats.statsTitle": {
     "message": "リクエストの統計"
@@ -948,19 +948,19 @@
     "message": "リクエストの統計"
   },
   "stats.titleAlltime": {
-    "message": "Top all-time requests"
+    "message": "一番上のすべてのリクエスト数"
   },
   "stats.titleMonth": {
-    "message": "Top requests this month"
+    "message": "今月のトップリクエスト"
   },
   "stats.titleWeek": {
-    "message": "Top requests this week"
+    "message": "今週のトップリクエスト"
   },
   "stats.titleYear": {
-    "message": "Top requests this year"
+    "message": "今年のトップリクエスト"
   },
   "stats.total": {
-    "message": "Total requests sent: {requestCount, number}"
+    "message": "送信されたリクエストの合計: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "私たちの研究チームが特定した、プライバシーを侵害する企業・団体のワースト3をお知らせする月刊のメールマガジン。これらの企業からオプトアウトすることに月にたった5分を費やすことにより、オンラインプライバシーを改善し、個人情報のコントロール取り戻しましょう。"
