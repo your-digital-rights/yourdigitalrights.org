@@ -16,6 +16,10 @@ async function getRegulationbyGeolocation() {
         if (resultJson['country'] === 'US') {
             if (resultJson['region'] === 'VA') {
               return 'VCDPA';
+            } else if (resultJson['region'] === 'CO') {
+              return 'CPA';
+            } if (resultJson['region'] === 'CT') {
+              return 'CTDPA';              
             } else {
               return 'CCPA';
             }
