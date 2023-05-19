@@ -590,7 +590,7 @@ const Regulations = {
             }}
           />
         ),          
-        exceptionURL: 'https://leg.colorado.gov/sites/default/files/2021a_190_signed.pdf',
+        exceptionURL: 'https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=SB00006&which_year=2022',
       },
       ACCESS: {
         name: 'access',
