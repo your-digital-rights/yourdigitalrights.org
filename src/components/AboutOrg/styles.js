@@ -10,7 +10,6 @@ const Style = (theme) => ({
     maxWidth: "850px !important",
     margin: "45px auto auto",
     lineHeight: "0.9em",
-
     [theme.breakpoints.down('md')]: {
       marginTop: "-140px",
       paddingTop: "150px",
@@ -53,6 +52,10 @@ const Style = (theme) => ({
     letterSpacing: "normal",
     color: "#ffffff",
     lineHeight: "0.9em",
+    [theme.breakpoints.down('md')]: {
+      fontSize: "30px",
+      marginLeft: "-20px",
+    },    
   },
   detailText: {
     paddingBottom: "20px",

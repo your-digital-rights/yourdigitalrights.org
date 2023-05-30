@@ -5,6 +5,8 @@ import withStyles from '@mui/styles/withStyles';
 import { ImageList } from '@mui/material';
 import { ImageListItem } from '@mui/material';
 import Image from 'next/image';
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const items = [
   { name: "Fast Company", image: "/images/press/fastcompany.png", url: "https://www.fastcompany.com/90310803/here-are-the-data-brokers-quietly-buying-and-selling-your-personal-information" },
@@ -13,12 +15,15 @@ const items = [
   { name: "Karspesky", image: "/images/press/kaspersky_b.png", url: "https://www.kaspersky.com/resource-center/preemptive-safety/how-to-stop-data-brokers-from-selling-your-personal-information" },
   { name: "How To Geek", image: "/images/press/howtogeek.png", url: "https://www.howtogeek.com/570124/how-to-delete-your-personal-information-from-people-finder-sites/" },
   //{ name: "MSN", image: "/images/press/msn.png", url: "https://www.msn.com/en-us/news/technology/how-to-delete-yourself-from-the-internet-with-5-different-methods/ar-BB1aZJ4A?li=BBnb7Kz" },
-  { name: "Indivigital", image: "/images/press/indivigital.png", url: "https://indivigital.com/news/new-gdpr-tool-targets-google-facebook-with-automated-right-to-be-forgotten-requests/" },
   { name: "Bed Credit", image: "/images/press/bc-logo-2x.png", url: "https://www.badcredit.org/news/yourdigitalrights-offers-digital-privacy-resources/" },
+  { name: "Indivigital", image: "/images/press/indivigital.png", url: "https://indivigital.com/news/new-gdpr-tool-targets-google-facebook-with-automated-right-to-be-forgotten-requests/" },
 ];
 
 
 const PressCoverage = ({ classes }) => {
+
+  const theme = useTheme();
+  const slicedItems = useMediaQuery(theme.breakpoints.up('md')) ? items : items.slice(0,4);
   return (
     <div className={classes.container}>
         <Typography
@@ -30,8 +35,8 @@ const PressCoverage = ({ classes }) => {
         {Title}
       </Typography>
       <div className={classes.inner}>
-        <ImageList className={classes.gridList} cols={items.length} rowHeight={50} gap={50}>
-          {items.map((item) => (
+        <ImageList className={classes.gridList} cols={slicedItems.length} rowHeight={50} gap={50}>
+          {slicedItems.map((item) => (
             <ImageListItem
               button="true"
               component="a"
