@@ -17,6 +17,8 @@ import {
   heroUrlAnchor,
 } from "../utils/urlAnchors";
 import PressCoverage from "../components/PressCoverage";
+import useMediaQuery from '@mui/material/useMediaQuery';
+import { useTheme } from '@mui/material/styles';
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -41,7 +43,7 @@ const styles = (theme) => ({
   },  
 });
 
-const tabletBreakpoint = 960;
+const tabletBreakpoint = 900;
 
 const Index = ({ classes, intl, router }) => {
   const searchFormRef = createRef();

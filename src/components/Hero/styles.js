@@ -3,7 +3,6 @@ import { theme } from "../../styles/theme";
 
 const Theme = (theme) => ({
   hero: {
-    color: "#005ea5",
     backgroundColor: theme.palette.primary.main,
     [theme.breakpoints.down('md')]: {
       paddingTop: "50px",

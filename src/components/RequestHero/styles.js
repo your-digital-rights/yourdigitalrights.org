@@ -8,7 +8,7 @@ const Style = (theme) => ({
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
-    ...theme,
+    color: "white",
     [theme.breakpoints.down('md')]: {
       padding: "60px 0px 55px",
     },

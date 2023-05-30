@@ -141,7 +141,7 @@ class Form extends Component {
     var src = `https://logo.uplead.com/${result.url}`;
     return (
       <MenuItem
-        button
+        button="true"
         key={result.url}
         selected={isHighlighted}
         dense={true}
@@ -202,7 +202,7 @@ class Form extends Component {
                         })
                       )}
                     <MenuItem
-                      button
+                      button="true"
                       selected={
                         highlightedIndex === this.state.searchResults.length
                       }

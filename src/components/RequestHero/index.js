@@ -23,7 +23,7 @@ class Hero extends Component {
       if (!response.ok) {
         // If the status didn't update, revert it back
         this.props.setStatus(oldStatus);
-      }
+      } 
       else {
         tracking.trackRequestStatusChange(newStatus);
       }
@@ -31,7 +31,7 @@ class Hero extends Component {
   }
   
   render() {
-    const {classes, requestItem, selectedCompany, status} = this.props;;
+    const {classes, requestItem, selectedCompany, status} = this.props;
     const requestType = Regulations[requestItem.regulationType.S].requestTypes[requestItem.requestType.S].name;
     return (
       <div className={classes.root} id="requestHero">
