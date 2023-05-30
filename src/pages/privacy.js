@@ -1,10 +1,10 @@
 import { useIntl, FormattedDate, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";

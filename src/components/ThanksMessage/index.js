@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+import Paper from "@mui/material/Paper";
+import withStyles from '@mui/styles/withStyles';
 import Subscribe from "../Subscribe";
 import tracking from "../../utils/tracking";
 import { 
@@ -22,13 +22,13 @@ const styles = (theme) => ({
     marginBottom: "30px",
     textAlign: "center",
     position: "relative",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "-120px",
     },
   },
   content: {
     padding: "60px 77px 15px 77px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "60px 25px 0 25px",
     },
   },

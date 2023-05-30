@@ -9,7 +9,7 @@ const Style = (theme) => ({
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
     ...theme,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "60px 0px 150px",
     },
   },
@@ -17,7 +17,7 @@ const Style = (theme) => ({
     paddingTop: "5px",
     paddingRight: "25px",
     display: "block",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
   },
@@ -28,14 +28,14 @@ const Style = (theme) => ({
     maxWidth: "100%",
     marginBottom: "5px",
     lineHeight: "1em",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       margin: "auto 0px 0px",
       maxWidth: "100%",
     },
   },
   addOrg: {
     width: "660px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
     },
   },
@@ -48,7 +48,7 @@ const Style = (theme) => ({
     margin: "auto",
     paddingLeft: "30px",
     paddingRight: "30px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "50px 30px 0px",
       width: "100%",
     },
@@ -56,7 +56,7 @@ const Style = (theme) => ({
   logo: {
     width: "44px",
     outlineColor: "#e8f4f8",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
   },

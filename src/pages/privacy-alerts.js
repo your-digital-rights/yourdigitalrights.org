@@ -1,10 +1,10 @@
 import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
@@ -28,7 +28,7 @@ const styles = (theme) => ({
     paddingRight: 120,
     paddingTop: 30,
     paddingBottom: 50,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       paddingLeft: 30,
       paddingRight: 30,
     },
@@ -36,19 +36,19 @@ const styles = (theme) => ({
   columns: {
     marginTop: "2em",
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       flexDirection: "column",
     },
   },
   descriptionColumn: {
     width: "60%",   
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",    
     }
   },
   mainDescription: {
     fontSize: "1.65rem",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "18px",
     }
   },
@@ -65,7 +65,7 @@ const styles = (theme) => ({
   },
   pricing: {
       marginLeft: "40px",
-      [theme.breakpoints.down("sm")]: {
+      [theme.breakpoints.down('md')]: {
         marginTop: "20px",    
       }      
   }

@@ -1,11 +1,11 @@
 import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Paper from "@material-ui/core/Paper";
+import Paper from "@mui/material/Paper";
 import Social from "../components/Social";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
@@ -24,7 +24,7 @@ const styles = (theme) => ({
     paddingRight: 120,
     paddingTop: 50,
     paddingBottom: 50,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       paddingLeft: 30,
       paddingRight: 30,
     },

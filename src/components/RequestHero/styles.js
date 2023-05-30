@@ -9,7 +9,7 @@ const Style = (theme) => ({
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
     ...theme,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "60px 0px 55px",
     },
   },
@@ -19,7 +19,7 @@ const Style = (theme) => ({
     boxSizing: "border-box",
     margin: "0px auto",
     width: "860px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "20px 30px 0px",
       width: "100%",
     },
@@ -28,7 +28,7 @@ const Style = (theme) => ({
     fontSize: "38px",
     fontWeight: "normal",
     marginBottom: "-15px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "28px",
     },    
   },
@@ -36,7 +36,7 @@ const Style = (theme) => ({
     fontSize: "24px",
     fontWeight: "normal",
     marginBottom: "30px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "16px",
     },      
   },
@@ -44,7 +44,7 @@ const Style = (theme) => ({
     fontSize: "24px",
     fontWeight: "normal",
     marginBottom: "30px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       fontSize: "16px",
     },      
   },
@@ -66,7 +66,7 @@ const Style = (theme) => ({
     "&:hover": {
       background: "#fff",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "10px",
       fontSize: "12px",
     },      
@@ -82,7 +82,7 @@ const Style = (theme) => ({
     "&:hover": {
       background: "#00ae8d",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "10px",
       fontSize: "12px",
     },      

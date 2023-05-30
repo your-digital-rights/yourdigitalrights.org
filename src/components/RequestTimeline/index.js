@@ -1,5 +1,5 @@
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import { FormattedMessage, FormattedDate} from 'react-intl'
 
 const Timeline = ({ classes, requestItem, days }) => {

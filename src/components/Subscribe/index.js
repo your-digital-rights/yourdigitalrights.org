@@ -1,6 +1,6 @@
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 

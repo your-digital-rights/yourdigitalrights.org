@@ -1,7 +1,7 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){

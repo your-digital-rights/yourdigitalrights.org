@@ -1,13 +1,13 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+import withStyles from '@mui/styles/withStyles';
 import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
 import styles from "./styles";
 import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
-import Select from '@material-ui/core/Select';
-import MenuItem from '@material-ui/core/MenuItem';
+import Select from '@mui/material/Select';
+import MenuItem from '@mui/material/MenuItem';
 import { ALT_LANGUAGES } from '../../utils/langUtils';
 import { withRouter } from 'next/router'
 import Link from 'next/link'

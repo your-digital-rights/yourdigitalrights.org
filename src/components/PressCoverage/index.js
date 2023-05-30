@@ -1,9 +1,9 @@
 import { Title } from "./text";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
-import { ImageList } from '@material-ui/core';
-import { ImageListItem } from '@material-ui/core';
+import withStyles from '@mui/styles/withStyles';
+import { ImageList } from '@mui/material';
+import { ImageListItem } from '@mui/material';
 import Image from 'next/image';
 
 const items = [

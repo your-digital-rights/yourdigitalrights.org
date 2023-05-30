@@ -5,10 +5,10 @@ const Theme = (theme) => ({
   hero: {
     color: "#005ea5",
     backgroundColor: theme.palette.primary.main,
-    ...theme,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       paddingTop: "50px",
     },
+    color: "white",
   },
   heading: {
     maxWidth: "970px !important",
@@ -42,13 +42,6 @@ const Theme = (theme) => ({
   title: {
     marginBottom: 0,
   },
-  introLink: {
-    color: "white !important",
-    textDecoration: "underline",
-  },
-  subHeader: {
-    
-  }
 });
 
 export default Theme;
