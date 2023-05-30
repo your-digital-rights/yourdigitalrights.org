@@ -2,16 +2,23 @@ import { createTheme } from '@mui/material/styles';
 
 // Create a theme instance.
 const theme = createTheme({
-  overrides: {
+  components: {
     MuiCssBaseline: {
-      '@global': {
-        a: {
-          color: '#005ea5',
-          fontWeight: '900',
-        },
-          "a:hover": {
-        },
-      },
+      styleOverrides: `
+      hyml: {
+          a: {
+            color: '#005ea5',
+            fontWeight: '900',
+          },
+            "a:hover": {
+          },
+          body: {
+            fontSize: '0.875rem',
+            lineHeight: 1.43,
+            letterSpacing: '0.01071em',
+          },          
+        }
+      `
     },
   },
   palette: {

@@ -102,7 +102,6 @@ const Index = ({ classes, intl, router }) => {
   }
 
   const triggerFocusOnSearchForm = () => {
-    console.log("here");
     if (searchFormRef.current !== null) {
       searchFormRef.current.focusInput();
     }
