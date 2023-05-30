@@ -85,6 +85,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
 
       <li>
         <Select
+          variant="standard"
           value={router.locale}
           onChange={event => handleLangChange(event, router)}
           MenuProps={{style: {zIndex: "100000"}}}
