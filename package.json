@@ -65,6 +65,11 @@
     "vercel": "^28.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/plugin-transform-runtime": "^7.22.4",
+    "@babel/preset-env": "^7.22.4",
+    "@babel/register": "^7.21.0",
+    "@babel/runtime-corejs2": "^7.22.2",
     "@mui/codemod": "https://pkg.csb.dev/mui/material-ui/commit/479b4ded/@mui/codemod",
     "@wdio/cli": "^8.3.11",
     "@wdio/local-runner": "^8.3.11",
@@ -72,10 +77,6 @@
     "@wdio/spec-reporter": "^8.3.0",
     "babel-plugin-formatjs": "^10.3.20",
     "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
-    "babel-runtime": "^6.26.0",
     "chai": "^4.1.2",
     "chromedriver": "*112.0.0",
     "mailto-parser": "^1.0.1",
