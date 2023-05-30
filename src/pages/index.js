@@ -102,11 +102,10 @@ const Index = ({ classes, intl, router }) => {
   }
 
   const triggerFocusOnSearchForm = () => {
-    if (!beforeFocusOnSearchForm()) {
-      return;
+    console.log("here");
+    if (searchFormRef.current !== null) {
+      searchFormRef.current.focusInput();
     }
-
-    searchFormRef.current.focusInput();
   }
 
   const renderSearchForm = () => {

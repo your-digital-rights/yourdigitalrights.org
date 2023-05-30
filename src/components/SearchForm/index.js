@@ -102,6 +102,7 @@ class Form extends Component {
     return (
           <div>
             <Input
+              autoFocus
               {...InputProps}
               id="companyNameSearch"
               onInput={this.handleInput}
