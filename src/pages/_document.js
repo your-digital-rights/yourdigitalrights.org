@@ -14,7 +14,8 @@ export default class MyDocument extends Document {
           <meta
             name="theme-color"
             content={theme.palette.primary.main}
-          />       
+          />   
+          <link rel="stylesheet" href="/fonts/style.css" />    
           <link rel="stylesheet" href="/images/mobile.css" />
           <link
             rel="stylesheet"

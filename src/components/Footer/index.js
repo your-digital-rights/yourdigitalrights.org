@@ -134,7 +134,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
               values={{
-                a: txt=> (<Link href="/privacy" ><a href="/privacy" className={classes.DisclaimerLink}>{txt}</a></Link>)
+                a: txt=> (<Link href="/privacy" className={classes.DisclaimerLink}>{txt}</Link>)
               }}
             />
           </Typography>
@@ -143,7 +143,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
               values={{
-                a: txt=> (<Link href="/about" ><a href="/about" className={classes.DisclaimerLink}>{txt}</a></Link>)
+                a: txt=> (<Link href="/about" className={classes.DisclaimerLink}>{txt}</Link>)
               }}
             />
           </Typography> 

@@ -18,7 +18,7 @@ import { useIntl } from "react-intl";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EmailIcon from '@mui/icons-material/Email';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import Image from 'next/image'
+import Image from "next/legacy/image"
 
 
 const Style = (theme) => ({
