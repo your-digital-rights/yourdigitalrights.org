@@ -755,6 +755,12 @@
   "request.next.declineCCPA": {
     "message": "<ul><li>Libre parole ou autre droit fourni par la loi.</li><li>Traitement à des fins de recherche, si la suppression de renseignements personnels rendrait impossible ou nuirait gravement à la réalisation de telles recherches.</li><li>Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité.</li><li>Pour se conformer à une obligation légale.</li><li>Effectuer un contrat entre l'entreprise et le consommateur.</li><li>Détecter les incidents de sécurité, se protéger contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivre les responsables de cette activité.</li><li>Débogage pour identifier et réparer les erreurs qui entravent les fonctionnalités existantes.</li><li>Permettre uniquement des utilisations internes qui sont raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise.</li><li>Sinon, utilisez les informations personnelles du consommateur, en interne, de façon licite et compatible avec le contexte dans lequel le consommateur a fourni les renseignements.</li></ul>"
   },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Institutions financières et sociétés affiliées soumises à la Loi Gramm-Leach-Bliley</li><li>Les transporteurs aériens soumis à la réglementation de la Federal Aviation Administration</li><li>Les associations nationales de valeurs mobilières enregistrées en vertu de la Loi sur la bourse de valeurs mobilières</li><li>Certains types de données à caractère personnel sont maintenus en conformité avec les lois spécifiques fédérales sur la protection des renseignements personnels, la Loi sur la transférabilité et la responsabilisation de l'assurance-maladie et la Loi sur la déclaration de crédit équitable, ou à certaines fins gouvernementales.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés</li><li>Données sanitaires protégées</li><li>données employées incluant les données du candidat à l'emploi</li><li>données déidentifiées</li><li>Informations publiquement disponibles</li><li>Informations globales</li><li>Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
+  },
   "request.next.declineGDPR": {
     "message": "<ul><li>Lors de la conservation de vos données est nécessaire pour des raisons de liberté d'expression et d'information (cela inclut le journalisme et le universitaire, fins artistiques et littéraires).</li><li>Lorsque l'organisation est légalement obligée de conserver vos données.</li><li>La conservation de vos données est nécessaire pour des raisons de santé publique.</li><li>Lors de la conservation de vos données est nécessaire pour l'établissement, l'exercice ou la défense des recours juridiques.</li><li>L'effacement de vos données nuirait à la recherche scientifique ou historique ou à l'archivage dans l'intérêt du public.</li><li>Si, après avoir examiné votre demande, l'organisation décide qu'elle n'a pas besoin d'effacer vos données, elle doit tout de même vous répondre. Il devrait vous expliquer pourquoi il pense qu'il ne doit pas effacer vos données, et vous informer de votre droit de vous plaindre de cette décision devant le DPA, ou par les tribunaux.</li></ul>"
   },
@@ -933,7 +939,7 @@
     "message": "Statistiques de la demande de protection des données."
   },
   "stats.statsSubTitle": {
-    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+    "message": "Notre mission est d'aider les personnes à reprendre le contrôle de leur vie privée en ligne en leur donnant le pouvoir de demander que les organisations suppriment ou fournissent une copie de leurs renseignements personnels. Les statistiques suivantes indiquent quelles organisations ont reçu le plus de demandes pour différentes périodes."
   },
   "stats.statsTitle": {
     "message": "Statistiques de la requête"
@@ -942,19 +948,19 @@
     "message": "Statistiques de la requête"
   },
   "stats.titleAlltime": {
-    "message": "Top all-time requests"
+    "message": "Les demandes les plus fréquentes"
   },
   "stats.titleMonth": {
-    "message": "Top requests this month"
+    "message": "Meilleures demandes ce mois-ci"
   },
   "stats.titleWeek": {
-    "message": "Top requests this week"
+    "message": "Meilleures requêtes cette semaine"
   },
   "stats.titleYear": {
-    "message": "Top requests this year"
+    "message": "Meilleures demandes cette année"
   },
   "stats.total": {
-    "message": "Total requests sent: {requestCount, number}"
+    "message": "Total des demandes envoyées: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
     "message": "Un courriel mensuel répertoriant les trois entreprises les plus gravement atteintes à la vie privée identifiées par notre équipe de recherche. Améliorez votre vie privée et reprenez le contrôle de vos renseignements personnels en consacrant cinq minutes par mois pour vous retirer de ces sociétés."
