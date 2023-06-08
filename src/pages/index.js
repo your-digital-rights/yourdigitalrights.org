@@ -1,5 +1,5 @@
 import { injectIntl } from "react-intl";
-import { createRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import Subscribe from "../components/Subscribe";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -12,13 +12,7 @@ import withStyles from '@mui/styles/withStyles';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
-import {
-  searchOrganizationsUrlAnchor,
-  heroUrlAnchor,
-} from "../utils/urlAnchors";
 import PressCoverage from "../components/PressCoverage";
-import useMediaQuery from '@mui/material/useMediaQuery';
-import { useTheme } from '@mui/material/styles';
 
 const styles = (theme) => ({
   topOfPagePlaceholder: {
@@ -46,8 +40,6 @@ const styles = (theme) => ({
 const tabletBreakpoint = 900;
 
 const Index = ({ classes, intl, router }) => {
-  const searchFormRef = createRef();
-  const [selectedCompany, setSelectedCompany] = useState(null);
   const [screenWidth, setScreenWidth] = useState(null);
   const BaseURL = "";
   const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
@@ -56,13 +48,9 @@ const Index = ({ classes, intl, router }) => {
     if (typeof window !== "undefined") {
       setScreenWidth(window.innerWidth);
       window.addEventListener("resize", onScreenResize);
-
-      window.addEventListener("hashchange", onLocationHashChange);
-      remapLocationHash();
     }
     return () => {
       if (typeof window !== "undefined") {
-        window.removeEventListener("hashchange", onLocationHashChange);
         window.removeEventListener("resize", onScreenResize);
       }
     }
@@ -72,49 +60,9 @@ const Index = ({ classes, intl, router }) => {
     setScreenWidth(window.innerWidth);
   };
 
-  const onCompanySelected = (selectedCompany) => {
-    if (selectedCompany.name) {
-      tracking.trackSelectedCompany(selectedCompany.url);
-    }
-  };
-
-  const onLocationHashChange = () => {
-    remapLocationHash();
-    triggerFocusOnSearchForm();
-  };
-
-  const remapLocationHash = () => {
-    if (!window) {
-      return;
-    }
-
-    if (window.location.hash === `#${searchOrganizationsUrlAnchor}`) {
-      window.location.hash = heroUrlAnchor;
-    }
-  };
-
-  const beforeFocusOnSearchForm = () => {
-    const shouldFocus = window && window.location.hash === `#${heroUrlAnchor}`;
-    if (!shouldFocus) {
-      return false;
-    }
-
-    setSelectedCompany(null);
-    return true;
-  }
-
-  const triggerFocusOnSearchForm = () => {
-    if (searchFormRef.current !== null) {
-      searchFormRef.current.focusInput();
-    }
-  }
-
   const renderSearchForm = () => {
     return (
-      <SearchForm
-        innerRef={searchFormRef}
-        beforeFocus={beforeFocusOnSearchForm}
-      />
+      <SearchForm/>
     );
   }
 

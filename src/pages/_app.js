@@ -29,7 +29,6 @@ export default function MyApp({ Component, pageProps }) {
   return <>
     <DefaultSeo {...SEO} />
     <Head>
-      <link rel="stylesheet" href="/fonts/style.css" />
       <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       {locale == TRANSLATION_PSEUDO_LOCAL && (
         <>

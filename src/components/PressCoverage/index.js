@@ -4,7 +4,7 @@ import styles from "./styles";
 import withStyles from '@mui/styles/withStyles';
 import { ImageList } from '@mui/material';
 import { ImageListItem } from '@mui/material';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 

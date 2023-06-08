@@ -29,21 +29,10 @@ class Form extends Component {
   constructor(props) {
     super(props);
 
-    this.searchRef = React.createRef();
-  }
-
-  focusInput() {
-    let state = Object.assign({}, this.state);
-    state.companyNameSearch = "";
-    this.setState(state);
-    this.searchRef.current.focus();
+    console.log(props);
   }
 
   async componentDidMount() {
-    if (this.props.beforeFocus()) { 
-      this.focusInput();
-    }
-
     const companies = fetchDomains();
     this.setState({ companies });
     await companies;
@@ -123,7 +112,6 @@ class Form extends Component {
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
-              inputRef={this.searchRef}
             />
           </div>
     );
@@ -147,7 +135,7 @@ class Form extends Component {
         dense={true}
         {...itemProps}
       >
-        <Link href="/d/[domain]" as="/d/result.url">
+        <Link href="/d/[domain]" as="/d/result.url" legacyBehavior>
           <>
             <ImageWithFallback
               role="presentation"
@@ -208,7 +196,7 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add/">
+                      <Link href="/d/[domain]" as="/d/add/" legacyBehavior>
                         <ListItemText>
                           <strong>
                             <FormattedMessage

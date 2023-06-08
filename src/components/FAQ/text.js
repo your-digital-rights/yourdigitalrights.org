@@ -233,7 +233,7 @@ export default [
         id="faq.body.trust.3"
         defaultMessage="We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
         values={{
-          a: txt => ( <Link href="/privacy"><a target="_blank" >{txt}</a></Link>),
+          a: txt => ( <Link href="/privacy" target="_blank">{txt}</Link>),
         }}
       />,      
     ],
@@ -299,7 +299,7 @@ export default [
         id="faq.body.contribute.3"
         defaultMessage="Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
         values={{
-          a: txt => ( <Link href="/contribute"><a target="_blank">{txt}</a></Link>),
+          a: txt => ( <Link href="/contribute" target="_blank">{txt}</Link>),
         }}        
       />,              
     ],

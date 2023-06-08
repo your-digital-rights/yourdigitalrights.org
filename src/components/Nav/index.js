@@ -5,7 +5,6 @@ import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
 import styles from "./styles";
-import { searchOrganizationsUrlAnchor } from "../../utils/urlAnchors";
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import { ALT_LANGUAGES } from '../../utils/langUtils';
@@ -28,7 +27,7 @@ const NavItem = ({
 }) => {
   return (
     <li className={classes.item} onClick={onClickHandler}>
-      <Link href={href} className={classes.link} passHref>
+      <Link href={href} className={classes.link} passHref legacyBehavior>
         <Typography
           component="a"
           target={target}
@@ -105,7 +104,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
 
       <li>
         <a
-          href={`/#${searchOrganizationsUrlAnchor}`}
+          href="/"
           className={classes.OptOutRedButtonDesktop}
           tabIndex={0}
           onClick={() => trackSearchButtonLinkClick("desktop")}
@@ -175,7 +174,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           </MenuItem>             
         </Select>
         <a
-          href={`/#${searchOrganizationsUrlAnchor}`}
+          href="/"
           className={classes.OptOutRedButton}
           tabIndex={0}
           onClick={() => {
@@ -287,12 +286,8 @@ class Nav extends Component {
   }
 
   handleLangChange = (event, router) => {
-    if (event.target.value === "contribute") {
-      router.push("/contribute");  
-    } else {
-      cookieCutter.set('NEXT_LOCALE', event.target.value);
-      router.push(router.asPath, router.asPath, {locale: event.target.value});
-    }
+    cookieCutter.set('NEXT_LOCALE', event.target.value);
+    router.push(router.asPath, router.asPath, {locale: event.target.value});
   };
 
   handleCloseNav(event) {
@@ -315,7 +310,11 @@ class Nav extends Component {
           <a className={classes.logoLink} href="/">
             <img className={classes.logo} src="/images/type.svg" tabIndex={0} />
           </a>
-          <NavListDesktop classes={classes} router={this.props.router} handleLangChange={this.handleLangChange} />
+          <NavListDesktop 
+            classes={classes} 
+            router={this.props.router} 
+            handleLangChange={this.handleLangChange} 
+          />
           <img
             className={classes.hamburgerButton}
             src={
