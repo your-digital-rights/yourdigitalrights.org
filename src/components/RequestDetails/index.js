@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
+import withStyles from '@mui/styles/withStyles';
+import Paper from "@mui/material/Paper";
 import {FormattedDate} from 'react-intl'
 import Regulations from "../../utils/regulations";
 

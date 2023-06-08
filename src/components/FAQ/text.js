@@ -1,13 +1,13 @@
 import { FormattedMessage } from "react-intl";
 import Regulations from "../../utils/regulations";
 import Link from "next/link";
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
 
 export const Title = (
   <FormattedMessage id="faq.title" defaultMessage="Frequently Asked Questions" />
@@ -233,7 +233,7 @@ export default [
         id="faq.body.trust.3"
         defaultMessage="We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
         values={{
-          a: txt => ( <Link href="/privacy"><a target="_blank" >{txt}</a></Link>),
+          a: txt => ( <Link href="/privacy" target="_blank">{txt}</Link>),
         }}
       />,      
     ],
@@ -299,7 +299,7 @@ export default [
         id="faq.body.contribute.3"
         defaultMessage="Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
         values={{
-          a: txt => ( <Link href="/contribute"><a target="_blank">{txt}</a></Link>),
+          a: txt => ( <Link href="/contribute" target="_blank">{txt}</Link>),
         }}        
       />,              
     ],

@@ -9,7 +9,7 @@ const Theme = (theme) => ({
     borderRadius: "20px",
     maxWidth: "980px !important",
     margin: "30px 30px 60px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       display: "inherit",
       margin: "auto 10px",
     },
@@ -19,13 +19,13 @@ const Theme = (theme) => ({
     boxSizing: "border-box",
     textAlign: "center",
     ...container,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       paddingLeft: "0px",
       paddingRight: "0px",
     }
   },
   image: {
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       display: "none",
     },
   },

@@ -1,8 +1,8 @@
-import Button from "@material-ui/core/Button";
+import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import { container } from "../../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import Link from 'next/link'
 
@@ -25,7 +25,7 @@ const styles = (theme) => ({
     width: "20%",
     float: "left",
     marginBottom: 30,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       textAlign: "center",
     },
@@ -37,7 +37,7 @@ const styles = (theme) => ({
     marginBottom: 60,
     fontSize: '14px',
     fontWeight: "400",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       fontSize: '10px',
     },
@@ -134,7 +134,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
               values={{
-                a: txt=> (<Link href="/privacy" ><a href="/privacy" className={classes.DisclaimerLink}>{txt}</a></Link>)
+                a: txt=> (<Link href="/privacy" className={classes.DisclaimerLink}>{txt}</Link>)
               }}
             />
           </Typography>
@@ -143,7 +143,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.mission"
               defaultMessage="<a>Mission</a>"
               values={{
-                a: txt=> (<Link href="/about" ><a href="/about" className={classes.DisclaimerLink}>{txt}</a></Link>)
+                a: txt=> (<Link href="/about" className={classes.DisclaimerLink}>{txt}</Link>)
               }}
             />
           </Typography> 

@@ -53,7 +53,7 @@ describe("When I visit the home page", () => {
       });
 
       it("does not open a mailto url", async () => {
-        (await page.mailTo == null).should.be.true;
+        ((await page.mailTo) == null).should.be.true;
       });
     });
 

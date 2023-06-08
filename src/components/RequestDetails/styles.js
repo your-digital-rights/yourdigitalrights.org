@@ -12,7 +12,7 @@ const Style = (theme) => ({
   container: {
     maxWidth: "860px",
     boxSizing: "border-box",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "30px 30px 0px",
       width: "100%",
     },

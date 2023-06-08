@@ -1,19 +1,19 @@
 import React from "react";
-import CircularProgress from "@material-ui/core/CircularProgress";
+import CircularProgress from "@mui/material/CircularProgress";
 import { Component } from "react";
 import Downshift from "downshift";
 import { FormattedMessage, injectIntl } from "react-intl";
-import Search from '@material-ui/icons/Search';
-import Input from "@material-ui/core/Input";
-import InputAdornment from "@material-ui/core/InputAdornment";
-import ListItemText from "@material-ui/core/ListItemText";
-import MenuItem from "@material-ui/core/MenuItem";
-import MenuList from "@material-ui/core/MenuList";
-import Paper from "@material-ui/core/Paper";
+import Search from '@mui/icons-material/Search';
+import Input from "@mui/material/Input";
+import InputAdornment from "@mui/material/InputAdornment";
+import ListItemText from "@mui/material/ListItemText";
+import MenuItem from "@mui/material/MenuItem";
+import MenuList from "@mui/material/MenuList";
+import Paper from "@mui/material/Paper";
 import { fetchDomains } from "../../utils/domains";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Link from "next/link";
 import Router from "next/router";
 import ImageWithFallback from '../../utils/image';
@@ -29,21 +29,10 @@ class Form extends Component {
   constructor(props) {
     super(props);
 
-    this.searchRef = React.createRef();
-  }
-
-  focusInput() {
-    let state = Object.assign({}, this.state);
-    state.companyNameSearch = "";
-    this.setState(state);
-    this.searchRef.current.focus();
+    console.log(props);
   }
 
   async componentDidMount() {
-    if (this.props.beforeFocus()) { 
-      this.focusInput();
-    }
-
     const companies = fetchDomains();
     this.setState({ companies });
     await companies;
@@ -102,6 +91,7 @@ class Form extends Component {
     return (
           <div>
             <Input
+              autoFocus
               {...InputProps}
               id="companyNameSearch"
               onInput={this.handleInput}
@@ -122,7 +112,6 @@ class Form extends Component {
               fullWidth={true}
               className={classes.searchInputWrapper}
               autoComplete="off"
-              inputRef={this.searchRef}
             />
           </div>
     );
@@ -140,13 +129,13 @@ class Form extends Component {
     var src = `https://logo.uplead.com/${result.url}`;
     return (
       <MenuItem
-        button
+        button="true"
         key={result.url}
         selected={isHighlighted}
         dense={true}
         {...itemProps}
       >
-        <Link href="/d/[domain]" as="/d/result.url">
+        <Link href="/d/[domain]" as="/d/result.url" legacyBehavior>
           <>
             <ImageWithFallback
               role="presentation"
@@ -201,13 +190,13 @@ class Form extends Component {
                         })
                       )}
                     <MenuItem
-                      button
+                      button="true"
                       selected={
                         highlightedIndex === this.state.searchResults.length
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add/">
+                      <Link href="/d/[domain]" as="/d/add/" legacyBehavior>
                         <ListItemText>
                           <strong>
                             <FormattedMessage

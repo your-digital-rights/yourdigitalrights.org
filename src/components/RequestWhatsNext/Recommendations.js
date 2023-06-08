@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Regulations from "../../utils/regulations";
 import capitalize from "../../utils/capitalize";
 

@@ -8,7 +8,7 @@ const Theme = (theme) => ({
   heading: {
     maxWidth: "850px !important",
     margin: "auto auto",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "-140px",
       paddingTop: "150px",
     },
@@ -33,7 +33,7 @@ const Theme = (theme) => ({
     "&:hover": {
       background: "#04487B",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginBottom: '35px',
     },     
   },
@@ -47,7 +47,7 @@ const Theme = (theme) => ({
     "&:hover": {
       background: "#04487B",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginBottom: '35px',
     },
   },

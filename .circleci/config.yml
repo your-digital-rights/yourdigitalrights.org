@@ -23,7 +23,7 @@ jobs:
       - browser-tools/install-chrome:
           replace-existing: true 
 
-      - run: npm install
+      - run: npm install --legacy-peer-deps
 
       - save_cache:
           key: v2-dependencies-{{ checksum "package.json" }}

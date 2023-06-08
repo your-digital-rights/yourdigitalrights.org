@@ -14,10 +14,10 @@ import {
 } from "./text";
 
 import LowerSection from "./LowerSection";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import UpperSection from "./UpperSection";
 import { indexStyles as styles } from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 
 const HowItWorks = ({ classes }) => {
   return (

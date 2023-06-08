@@ -10,8 +10,7 @@ const Style = (theme) => ({
     maxWidth: "850px !important",
     margin: "45px auto auto",
     lineHeight: "0.9em",
-
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "-140px",
       paddingTop: "150px",
       maxWidth: "350px !important",
@@ -19,7 +18,7 @@ const Style = (theme) => ({
     },
   },
   container: {
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       fontSize: "18px",
     },
@@ -29,7 +28,7 @@ const Style = (theme) => ({
     margin: "auto",
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "30px",
       margin: "auto auto",
     },
@@ -53,6 +52,10 @@ const Style = (theme) => ({
     letterSpacing: "normal",
     color: "#ffffff",
     lineHeight: "0.9em",
+    [theme.breakpoints.down('md')]: {
+      fontSize: "30px",
+      marginLeft: "-20px",
+    },    
   },
   detailText: {
     paddingBottom: "20px",
@@ -67,7 +70,7 @@ const Style = (theme) => ({
   },
   aboutText: {
     margin: "0px 198px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       margin: "auto auto;",
     },
@@ -83,7 +86,7 @@ const Style = (theme) => ({
     backgroundColor: "white",
     padding: "21px 50px",
     margin: "auto",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       margin: "auto 0;",
       padding: "21px 30px",
@@ -101,7 +104,7 @@ const Style = (theme) => ({
     lineHeight: "normal",
     letterSpacing: "normal",
     color: "#005ea5",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
       margin: "auto 0;",
     },

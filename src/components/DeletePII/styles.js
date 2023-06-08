@@ -36,7 +36,7 @@ const Theme = (theme) => ({
     "&:hover": {
       background: "#04487B",
     },
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginBottom: '35px',
     },
   },
