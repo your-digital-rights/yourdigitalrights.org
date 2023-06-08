@@ -8,7 +8,7 @@ Source code for [YourDigitalRights.org](https://yourdigitalrights.org/), a free 
 
 # Installation 
 
-Requires Node.js >= v15
+Requires Node.js >= v18
 
 `npm install`
 
@@ -33,7 +33,7 @@ What’s the name of your existing project? = ydr
 `npm test`
 
 # Contributions
-We welcome your contributions. Please submit PRs, open issues or contact us at info@opt-out.eu.
+We welcome your contributions. Please submit PRs, open issues or contact us at info@consciousdigital.org.
 
 ## Contributors ✨
 

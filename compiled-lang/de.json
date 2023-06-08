@@ -1324,7 +1324,7 @@
   "nav.stats": [
     {
       "type": 0,
-      "value": "Stats"
+      "value": "Statistik"
     }
   ],
   "nav.twitterHastag": [
@@ -2251,6 +2251,132 @@
             {
               "type": 0,
               "value": "Andernfalls verwenden Sie die persönlichen Daten des Verbrauchers intern, auf rechtmäßige Weise, die mit dem Kontext vereinbar ist, in dem der Verbraucher die Informationen zur Verfügung gestellt hat."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Finanzinstitutionen und Tochtergesellschaften unterliegen dem Gramm-Leach-Bliley-Gesetz"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Luftfahrtgesellschaften, die der Federal Aviation Administration Verordnung unterliegen,"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Nationale Wertpapiervereinigungen, die nach dem Securities Exchange Act registriert sind"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Bestimmte Arten personenbezogener Daten, die in Übereinstimmung mit bestimmten Bundesdatenschutzgesetzen gespeichert werden, B. das Krankenkassen Portability and Accountability Act und das Fair Credit Reporting Act oder für bestimmte staatliche Zwecke."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCTDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entitäten einschließlich staatlicher und lokaler Regierungen, gemeinnütziger, Hochschuleinrichtungen, bestimmter nationaler Wertpapierverbände, Finanzinstitutionen und betroffene Unternehmen unter bestimmten Rechtsakten, wie dem Gramm-Leach-Bliley-Gesetz und dem Gesetz über die Portabilität und Rechenschaftspflicht der Krankenversicherung. sind ausgenommen"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Geschützte Gesundheitsdaten"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Mitarbeiterdaten einschließlich Bewerberdaten"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identifizierte Daten"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "öffentlich verfügbare Informationen"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate Informationen"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Persönliche Informationen, die für Forschung an Menschen oder im Rahmen einer klinischen Studie gesammelt wurden"
             }
           ],
           "type": 8,
@@ -3267,7 +3393,7 @@
   "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+      "value": "Unsere Mission ist es, Einzelpersonen dabei zu helfen, die Kontrolle über ihre Online-Privatsphäre wiederzuerlangen, indem sie sie ermächtigen, die Löschung oder Bereitstellung einer Kopie ihrer persönlichen Daten anzufordern. Die folgenden Statistiken zeigen, welche Organisationen die meisten Anfragen für verschiedene Zeiträume erhalten haben."
     }
   ],
   "stats.statsTitle": [
@@ -3285,31 +3411,31 @@
   "stats.titleAlltime": [
     {
       "type": 0,
-      "value": "Top all-time requests"
+      "value": "Top-Allzeit-Anfragen"
     }
   ],
   "stats.titleMonth": [
     {
       "type": 0,
-      "value": "Top requests this month"
+      "value": "Top Anfragen in diesem Monat"
     }
   ],
   "stats.titleWeek": [
     {
       "type": 0,
-      "value": "Top requests this week"
+      "value": "Top Anfragen in dieser Woche"
     }
   ],
   "stats.titleYear": [
     {
       "type": 0,
-      "value": "Top requests this year"
+      "value": "Top Anfragen in diesem Jahr"
     }
   ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total requests sent: "
+      "value": "Gesamte Anfragen gesendet: "
     },
     {
       "style": null,

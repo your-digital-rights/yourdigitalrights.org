@@ -2253,6 +2253,132 @@
       "value": "ul"
     }
   ],
+  "request.next.declineCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Institutions financières et sociétés affiliées soumises à la Loi Gramm-Leach-Bliley"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Les transporteurs aériens soumis à la réglementation de la Federal Aviation Administration"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Les associations nationales de valeurs mobilières enregistrées en vertu de la Loi sur la bourse de valeurs mobilières"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Certains types de données à caractère personnel sont maintenus en conformité avec les lois spécifiques fédérales sur la protection des renseignements personnels, la Loi sur la transférabilité et la responsabilisation de l'assurance-maladie et la Loi sur la déclaration de crédit équitable, ou à certaines fins gouvernementales."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCTDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires protégées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données employées incluant les données du candidat à l'emploi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données déidentifiées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiquement disponibles"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations globales"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineGDPR": [
     {
       "children": [
@@ -3267,7 +3393,7 @@
   "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+      "value": "Notre mission est d'aider les personnes à reprendre le contrôle de leur vie privée en ligne en leur donnant le pouvoir de demander que les organisations suppriment ou fournissent une copie de leurs renseignements personnels. Les statistiques suivantes indiquent quelles organisations ont reçu le plus de demandes pour différentes périodes."
     }
   ],
   "stats.statsTitle": [
@@ -3285,31 +3411,31 @@
   "stats.titleAlltime": [
     {
       "type": 0,
-      "value": "Top all-time requests"
+      "value": "Les demandes les plus fréquentes"
     }
   ],
   "stats.titleMonth": [
     {
       "type": 0,
-      "value": "Top requests this month"
+      "value": "Meilleures demandes ce mois-ci"
     }
   ],
   "stats.titleWeek": [
     {
       "type": 0,
-      "value": "Top requests this week"
+      "value": "Meilleures requêtes cette semaine"
     }
   ],
   "stats.titleYear": [
     {
       "type": 0,
-      "value": "Top requests this year"
+      "value": "Meilleures demandes cette année"
     }
   ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total requests sent: "
+      "value": "Total des demandes envoyées: "
     },
     {
       "style": null,

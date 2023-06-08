@@ -1324,7 +1324,7 @@
   "nav.stats": [
     {
       "type": 0,
-      "value": "Stats"
+      "value": "Estatísticas"
     }
   ],
   "nav.twitterHastag": [
@@ -2255,6 +2255,132 @@
             {
               "type": 0,
               "value": "Outros usos das informações pessoais do consumidor internamente, de maneira legal e compatível com o contexto em que o consumidor forneceu a informação."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Instituições e afiliados financeiros sujeitos à Gramm-Leach-Bliley Act"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "transportadoras aéreas sujeitas ao regulamento de Administração da Aviação Federal"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "associações nacionais de títulos registradas sob a Securities Exchange Act"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Certos tipos de dados pessoais mantidos em conformidade com leis federais específicas de privacidade. tais a Lei de Portabilidade do Seguro de Saúde e Responsabilidade e a Lei de Relato de Crédito Equitativo, ou para certos fins governamentais."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCTDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Protected health data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Employee data including job applicant data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Publicly available information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
             }
           ],
           "type": 8,
@@ -3279,7 +3405,7 @@
   "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+      "value": "Nossa missão é ajudar as pessoas a recuperarem o controle de sua privacidade on-line, permitindo que as organizações excluam ou forneçam uma cópia de suas informações pessoais. As estatísticas seguintes mostram quais as organizações que receberam mais pedidos durante diferentes períodos de tempo."
     }
   ],
   "stats.statsTitle": [
@@ -3297,31 +3423,31 @@
   "stats.titleAlltime": [
     {
       "type": 0,
-      "value": "Top all-time requests"
+      "value": "Principais pedidos desde sempre"
     }
   ],
   "stats.titleMonth": [
     {
       "type": 0,
-      "value": "Top requests this month"
+      "value": "Principais solicitações deste mês"
     }
   ],
   "stats.titleWeek": [
     {
       "type": 0,
-      "value": "Top requests this week"
+      "value": "Principais pedidos desta semana"
     }
   ],
   "stats.titleYear": [
     {
       "type": 0,
-      "value": "Top requests this year"
+      "value": "Principais pedidos deste ano"
     }
   ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total requests sent: "
+      "value": "Total de solicitações enviadas: "
     },
     {
       "style": null,
