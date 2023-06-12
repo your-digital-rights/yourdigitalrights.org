@@ -1,9 +1,9 @@
 {{ regulation.dpa.longName }} 御中
 
-On {{ requestSentDate }}, I sent {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
+{{ requestSentDate }}、私は、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestItem.companyName.S }}（Webサイト: {{ requestItem.companyUrl.S }}）に対し、{{ requestType.name | capitalize }}請求を致しました。
 
 {% if status === 'PARTIAL' %}
-I would like to submit a formal complaint because the organization failed to comply with my request fully.
+{{ requestItem.companyName.S}} はリクエストに対する対応をしなかったため、苦情として申し立てたく存じます。
 {% elif status === 'DECLINED' %}
 {{ requestItem.companyName.S}} はこれに対する対応を拒んだため、苦情として申し立てたく存じます。
 {% elif status === 'NO_REPLY' %}
