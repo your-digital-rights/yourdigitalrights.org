@@ -1,12 +1,12 @@
 import Text, { Title } from "./text";
 import { Component } from "react";
-import Accordion from "@material-ui/core/Accordion";
-import AccordionDetails from "@material-ui/core/AccordionActions";
-import AccordionSummary from "@material-ui/core/AccordionSummary";
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import Typography from "@material-ui/core/Typography";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionActions";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 
 class FAQ extends Component {
   state = {
@@ -27,7 +27,7 @@ class FAQ extends Component {
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography component="p" className={classes.list}>
+              <Typography component="div" className={classes.list}>
                 {text.item || text}
               </Typography>
               {text.subItems && (

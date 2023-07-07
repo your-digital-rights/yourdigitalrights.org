@@ -1,18 +1,38 @@
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
-
+import Script from 'next/script'
+import { useEffect } from "react";
+import { useScript } from "../../utils/hooks";
 
 const handleSignUpClick = (e) => {
   e.preventDefault();
 }
 
 const Subscribe = ({ classes, children, page="thank-you"}) => {
+  
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
   };
+
+  useScript("https://substackapi.com/widget.js");
+
+  useEffect(() => {
+    window.CustomSubstackWidget = {
+      substackUrl: "newsletter.yourdigitalrights.org",
+      placeholder: "you@example.com",
+      buttonText: "Subscribe",
+      theme: "custom",
+      colors: {
+        primary: "#005EA5",
+        input: "#039277",
+        email: "#000000",
+        text: "#FFFFFF",
+      }
+    };
+  }, []);
 
   return (
     <>
@@ -41,9 +61,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
 
               </Typography> 
             </div>
-            <div className={classes.substack}>
-              <iframe src="https://consciousdigital.substack.com/embed" width="350" height="100" frameborder="0" ></iframe>
-            </div>
+            <div id="custom-substack-embed" className={classes.substack}/>
           </div>
         </div>
       </div>

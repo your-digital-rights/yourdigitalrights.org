@@ -62,9 +62,9 @@ describe("When I visit the Home page in Desktop view", () => {
   });
 });
 
-describe("When I visit the Home page with #hero hash in Desktop view", () => {
+describe("When I visit the Home page in Desktop view", () => {
   it("focuses the Search input field", async () => {
-    const page = await setupPageInDesktopView("/#hero", false);
+    const page = await setupPageInDesktopView("/", false);
 
     (await page.searchIsFocused()).should.be.true;
   });
@@ -130,9 +130,9 @@ describe("When I visit the Home page in Mobile view", () => {
   });
 });
 
-describe("When I visit the Home page with #hero hash in Mobile view", () => {
+describe("When I visit the Home page in Mobile view", () => {
   it("focuses the Search input field", async () => {
-    const page = await setupPageInMobileView("/#hero", false);
+    const page = await setupPageInMobileView("/", false);
 
     (await page.searchIsFocused()).should.be.true;
   });

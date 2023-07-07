@@ -8,7 +8,7 @@ const Style = (theme) => ({
     flexDirection: "column",
     backgroundColor: "#FFF",
     textAlign: "left",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "20px 0px 0px",
     },
   },
@@ -21,7 +21,7 @@ const Style = (theme) => ({
     boxSizing: "border-box",
     margin: "0px auto",
     width: "860px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "90%",
     },
   },
@@ -42,7 +42,7 @@ const Style = (theme) => ({
     color: "white",
     color: "#fff",
     background: theme.palette.primary.main,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "10px",
       marginLeft: "0px",
     },

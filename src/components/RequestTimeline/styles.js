@@ -7,7 +7,7 @@ const Style = (theme) => ({
     flexDirection: "column",
     backgroundColor: "white",
     textAlign: "left",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "60px 0px 0px",
     },
   },
@@ -18,7 +18,7 @@ const Style = (theme) => ({
     boxSizing: "border-box",
     margin: "0px auto",
     width: "860px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "90%",
       paddingBottom: "0px",
       paddingTop: "0px",

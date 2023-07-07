@@ -1,11 +1,10 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import { heroUrlAnchor } from "../../utils/urlAnchors";
-import Link from 'next/link'
 
-const Hero = ({ classes, onCompanySelected, children }) => {
+const Hero = ({ classes, children }) => {
   return (
     <div className={classes.hero} id={heroUrlAnchor}>
       <div className={classes.container}>
@@ -42,9 +41,6 @@ const Hero = ({ classes, onCompanySelected, children }) => {
             <FormattedMessage
               id="hero.intro"
               defaultMessage="Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
-              values={{
-                a: txt => (<Link href="/data-brokers"><a className={classes.introLink}>{txt}</a></Link>),
-              }}
             />            
           </Typography>
           {children}

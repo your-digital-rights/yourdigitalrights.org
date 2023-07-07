@@ -1,22 +1,22 @@
 import { useIntl, FormattedMessage } from "react-intl";
 import Footer from "../components/Footer";
 import Nav from "../components/Nav";
-import Paper from "@material-ui/core/Paper";
-import Typography from "@material-ui/core/Typography";
+import Paper from "@mui/material/Paper";
+import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Subscribe from "../components/Subscribe";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableContainer from '@material-ui/core/TableContainer';
-import TableRow from '@material-ui/core/TableRow';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableRow from '@mui/material/TableRow';
 import fetch from "isomorphic-fetch";
 import { withRouter } from "next/router";
 import useSwr from 'swr'
-import CircularProgress from "@material-ui/core/CircularProgress";
+import CircularProgress from "@mui/material/CircularProgress";
 
 const styles = (theme) => ({
   container: {
@@ -31,7 +31,7 @@ const styles = (theme) => ({
   columns: {
     marginTop: "2em",
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       flexDirection: "column",
     },
   },
@@ -39,7 +39,7 @@ const styles = (theme) => ({
     width: "100%",
     margin: "10px",
     textAlign: "center",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
     },    
   },
@@ -59,7 +59,7 @@ const styles = (theme) => ({
     justifyContent: "center",
     alignItems: "center",
     display: "flex",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       height: "200px",
     },     
   },

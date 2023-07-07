@@ -1,5 +1,5 @@
-import Typography from "@material-ui/core/Typography";
-import { withStyles } from "@material-ui/core/styles";
+import Typography from "@mui/material/Typography";
+import withStyles from '@mui/styles/withStyles';
 
 const styles = (theme) => ({
   root: {

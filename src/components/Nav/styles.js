@@ -9,7 +9,7 @@ const Theme = (theme) => ({
         height: "72px",
         width: "100%",
         zIndex: "11000",
-        [theme.breakpoints.down("xs")]: {
+        [theme.breakpoints.down('sm')]: {
             padding: "0 15px",        
         },
         position: "fixed",                
@@ -23,7 +23,7 @@ const Theme = (theme) => ({
         width: "90px",
         outlineColor: "#e8f4f8",
 
-        [theme.breakpoints.down("xs")]: {
+        [theme.breakpoints.down('sm')]: {
             width: "80px",
         },
     },
@@ -31,7 +31,7 @@ const Theme = (theme) => ({
         listStyle: "none",
         display: "flex",
         alignItems: "center",
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down('md')]: {
             display: "none",
         },
     },
@@ -69,7 +69,7 @@ const Theme = (theme) => ({
         cursor: "pointer",
         outlineColor: "#e8f4f8",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down('md')]: {
             display: "block",
         },
     },
@@ -93,7 +93,7 @@ const Theme = (theme) => ({
         overflowY: "hidden",
         zIndex: "10000",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down('md')]: {
             display: "flex",
             justifyContent: "center",
         },
@@ -180,7 +180,7 @@ const Theme = (theme) => ({
         zIndex: "9999",
         display: "none",
 
-        [theme.breakpoints.down("sm")]: {
+        [theme.breakpoints.down('md')]: {
             display: "block",
         },
     },

@@ -10,7 +10,7 @@ const Style = (theme) => ({
     paddingTop: "30px",
     maxWidth: "860px",
     boxSizing: "border-box",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "30px 30px 0px",
       width: "100%",
     },
@@ -32,14 +32,14 @@ const Style = (theme) => ({
     color: "white",
     color: "#fff",
     background: theme.palette.primary.main,
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "10px",
       marginLeft: "0px",
     },
   },  
   disclamer: {
     margin: "30px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "10px",
       marginLeft: "0px",
       marginRight: "0px", 

@@ -3,13 +3,13 @@ import React from "react";
 import styles from "./styles";
 import { RedirectHeadingText, RedirectText, ContinueText } from "./text";
 
-import Modal from "@material-ui/core/Modal";
-import Card from "@material-ui/core/Card";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
+import Modal from "@mui/material/Modal";
+import Card from "@mui/material/Card";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
 
 import { injectIntl } from "react-intl";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 
 const Overlay = (props) => {
   const { classes } = props;

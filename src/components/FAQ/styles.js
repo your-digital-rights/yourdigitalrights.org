@@ -10,8 +10,8 @@ const Theme = (theme) => ({
       padding: "60px 60px 0",
       margin: "60px auto 0",
     },
-    [theme.breakpoints.down("sm")]: {
-      marginTop: "-60px",
+    [theme.breakpoints.down('md')]: {
+      marginTop: "-120px",
       paddingTop: "150px",
     },
   },

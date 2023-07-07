@@ -1,5 +1,5 @@
 import { injectIntl } from "react-intl";
-import { createRef, Component } from "react";
+import { useRef, useState, useEffect } from "react";
 import Subscribe from "../components/Subscribe";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -8,14 +8,10 @@ import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import SearchForm from "../components/SearchForm";
 import tracking from "../utils/tracking";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
-import {
-  searchOrganizationsUrlAnchor,
-  heroUrlAnchor,
-} from "../utils/urlAnchors";
 import PressCoverage from "../components/PressCoverage";
 
 const styles = (theme) => ({
@@ -29,7 +25,7 @@ const styles = (theme) => ({
     display: "block",
   },
   press: {
-    [theme.breakpoints.down("xs")]: {
+    [theme.breakpoints.down('sm')]: {
       display: "none",
     },    
   },
@@ -41,145 +37,72 @@ const styles = (theme) => ({
   },  
 });
 
-const tabletBreakpoint = 960;
+const tabletBreakpoint = 900;
 
-class Index extends Component {
-  constructor(props) {
-    super(props);
+const Index = ({ classes, intl, router }) => {
+  const [screenWidth, setScreenWidth] = useState(null);
+  const BaseURL = "";
+  const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
 
-    this.searchFormRef = createRef();
-    this.beforeFocusOnSearchForm = this.beforeFocusOnSearchForm.bind(this);
-
-    this.state = {
-      selectedCompany: null,
-      screenWidth: null,
-    };
-  }
-
-  componentDidMount() {
+  useEffect(() => {
     if (typeof window !== "undefined") {
-      this.setState({ screenWidth: window.innerWidth });
-      window.addEventListener("resize", this.onScreenResize);
-
-      window.addEventListener("hashchange", this.onLocationHashChange);
-      this.remapLocationHash();
+      setScreenWidth(window.innerWidth);
+      window.addEventListener("resize", onScreenResize);
     }
-  }
-
-  componentWillUnmount() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("hashchange", this.onLocationHashChange);
-      window.removeEventListener("resize", this.onScreenResize);
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("resize", onScreenResize);
+      }
     }
-  }
+  }, []);
 
-  componentDidUpdate() {
-    if (typeof window !== "undefined" && this.infoForm) {
-      let scrollTop =
-        this.infoForm.getBoundingClientRect().top + window.pageYOffset - 122;
-      window.scrollTo({ top: scrollTop });
-    }
-  }
-
-  onScreenResize = () => {
-    this.setState({ screenWidth: window.innerWidth });
+  const onScreenResize = () => {
+    setScreenWidth(window.innerWidth);
   };
 
-  onCompanySelected = (selectedCompany) => {
-    if (selectedCompany.name) {
-      tracking.trackSelectedCompany(selectedCompany.url);
-    }
-  };
-
-  onLocationHashChange = () => {
-    this.remapLocationHash();
-    this.triggerFocusOnSearchForm();
-  };
-
-  remapLocationHash = () => {
-    if (!window) {
-      return;
-    }
-
-    if (window.location.hash === `#${searchOrganizationsUrlAnchor}`) {
-      window.location.hash = heroUrlAnchor;
-    }
-  };
-
-  beforeFocusOnSearchForm() {
-    const shouldFocus = window && window.location.hash === `#${heroUrlAnchor}`;
-    if (!shouldFocus) {
-      return false;
-    }
-
-    let state = Object.assign({}, this.state);
-    state.selectedCompany = null;
-    this.setState(state);
-
-    return true;
-  }
-
-  triggerFocusOnSearchForm() {
-    if (!this.beforeFocusOnSearchForm()) {
-      return;
-    }
-
-    this.searchFormRef.current.focusInput();
-  }
-
-  renderSearchForm() {
+  const renderSearchForm = () => {
     return (
-      <SearchForm
-        innerRef={this.searchFormRef}
-        beforeFocus={this.beforeFocusOnSearchForm}
-      />
+      <SearchForm/>
     );
   }
 
-  render() {
-    const { classes, intl } = this.props;
-    const { screenWidth } = this.state;
-    const BaseURL = "";
-    const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
-    
-    return (
-      <div>
-        <Nav>
-          {screenWidth !== null &&
-            screenWidth < tabletBreakpoint &&
-            this.renderSearchForm()}
-        </Nav>
-        <div className={classes.mainContainer}>
-          <div className={classes.scrollableContainer}></div>
-          <NextSeo
-            canonical = {generateCanonical(BaseURL, this.props.router.locale)}
-            description = {Description}
-            openGraph = {{
-              description: Description,
-            }}
-            languageAlternates = {generateLangLinks(BaseURL)}
-          />
-          <input className={classes.topOfPagePlaceholder} />
-          <Hero>
-            {screenWidth !== null && screenWidth >= tabletBreakpoint && (
-              <div className={classes.desktopSearchbar}>
-                {this.renderSearchForm()}
-              </div>
-            )}
-          </Hero>
-          <div className={classes.press}>
-            <PressCoverage />
-          </div>
-          <HowItWorks />
-          <FAQ />
-          <div className={classes.subscribeContainer}>
-            <Subscribe page="homepage" />
-          </div>
-          <Footer />
+  return (
+    <div>
+      <Nav>
+        {screenWidth !== null &&
+          screenWidth < tabletBreakpoint &&
+          renderSearchForm()}
+      </Nav>
+      <div className={classes.mainContainer}>
+        <div className={classes.scrollableContainer}></div>
+        <NextSeo
+          canonical = {generateCanonical(BaseURL, router.locale)}
+          description = {Description}
+          openGraph = {{
+            description: Description,
+          }}
+          languageAlternates = {generateLangLinks(BaseURL)}
+        />
+        <input className={classes.topOfPagePlaceholder} />
+        <Hero>
+          {screenWidth !== null && screenWidth >= tabletBreakpoint && (
+            <div className={classes.desktopSearchbar}>
+              {renderSearchForm()}
+            </div>
+          )}
+        </Hero>
+        <div className={classes.press}>
+          <PressCoverage />
         </div>
+        <HowItWorks />
+        <FAQ />
+        <div className={classes.subscribeContainer}>
+          <Subscribe page="homepage" />
+        </div>
+        <Footer />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default withStyles(styles)(withRouter(injectIntl(Index)));

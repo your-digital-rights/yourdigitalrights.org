@@ -1,8 +1,8 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
+import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+import withStyles from '@mui/styles/withStyles';
+import Button from "@mui/material/Button";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 import fetch from "isomorphic-fetch";

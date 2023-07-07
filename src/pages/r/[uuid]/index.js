@@ -3,7 +3,7 @@ import { injectIntl } from "react-intl";
 import aws from "aws-sdk";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
-import { withStyles } from "@material-ui/core/styles";
+import withStyles from '@mui/styles/withStyles';
 import Subscribe from "../../../components/Subscribe";
 import Footer from "../../../components/Footer";
 import Nav from "../../../components/Nav";
@@ -49,7 +49,7 @@ const styles = (theme) => ({
   content: {
     padding: "60px 77px 0 77px",
 
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       padding: "60px 25px 0 25px",
     },
   },

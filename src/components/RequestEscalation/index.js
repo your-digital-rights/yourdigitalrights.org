@@ -1,15 +1,15 @@
 import { useRef, useState, useEffect } from 'react';
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import { withStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
+import withStyles from '@mui/styles/withStyles';
+import Paper from "@mui/material/Paper";
 import Regulations from "../../utils/regulations";
 import {getCountryCode} from "../../utils/geolocation";
-import TextField from "@material-ui/core/TextField";
+import TextField from "@mui/material/TextField";
 import tracking from "../../utils/tracking";
 import EmailSendButton from "../EmailSendButton";
-import Button from "@material-ui/core/Button";
-import Typography from "@material-ui/core/Typography";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {
   const form = useRef();

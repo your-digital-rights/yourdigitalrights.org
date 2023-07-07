@@ -1,7 +1,7 @@
 import { FormattedMessage, injectIntl } from "react-intl";
-import { withStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Fab from '@material-ui/core/Fab';
+import withStyles from '@mui/styles/withStyles';
+import Typography from "@mui/material/Typography";
+import Fab from '@mui/material/Fab';
 import mailtoLink from "mailto-link";
 import {
   FacebookShareButton,
@@ -52,7 +52,7 @@ const styles = (theme) => ({
     width: "100%",
     marginBottom: "60px",
     paddingTop: "90px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "-100px",
       paddingTop: "150px",
     },
@@ -62,7 +62,7 @@ const styles = (theme) => ({
     display: "flex",
     justifyContent: "space-between",
     width: "900px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       flexDirection: "column",
       alignItems: "center",
     },
@@ -71,7 +71,7 @@ const styles = (theme) => ({
   extensionHelpImgContainer: {
     display: "flex",
     marginTop: "40px",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       marginTop: "0",
       marginBottom: "30px",
     },
@@ -81,7 +81,7 @@ const styles = (theme) => ({
     width: "390px",
     height: "197px",
     objectFit: "contain",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "300px",
     },
   },
@@ -92,7 +92,7 @@ const styles = (theme) => ({
     width: "430px",
     fontFamily: theme.palette.fontFamily,
     textAlign: "left",
-    [theme.breakpoints.down("sm")]: {
+    [theme.breakpoints.down('md')]: {
       width: "100%",
     },
   },

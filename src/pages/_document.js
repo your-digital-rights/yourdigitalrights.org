@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { ServerStyleSheets } from '@material-ui/core/styles';
+import ServerStyleSheets from '@mui/styles/ServerStyleSheets';
 import theme from '../styles/theme';
 import React from "react";
 import { DOMAIN } from "../utils/domain";
@@ -14,7 +14,8 @@ export default class MyDocument extends Document {
           <meta
             name="theme-color"
             content={theme.palette.primary.main}
-          />       
+          />   
+          <link rel="stylesheet" href="/fonts/style.css" />    
           <link rel="stylesheet" href="/images/mobile.css" />
           <link
             rel="stylesheet"

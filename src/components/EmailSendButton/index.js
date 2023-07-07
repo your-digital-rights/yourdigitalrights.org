@@ -1,13 +1,13 @@
 import React from 'react';
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import ClickAwayListener from '@material-ui/core/ClickAwayListener';
-import Grow from '@material-ui/core/Grow';
-import Paper from '@material-ui/core/Paper';
-import Popper from '@material-ui/core/Popper';
-import MenuItem from '@material-ui/core/MenuItem';
-import MenuList from '@material-ui/core/MenuList';
-import { withStyles } from "@material-ui/core/styles";
+import Button from '@mui/material/Button';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import ClickAwayListener from '@mui/material/ClickAwayListener';
+import Grow from '@mui/material/Grow';
+import Paper from '@mui/material/Paper';
+import Popper from '@mui/material/Popper';
+import MenuItem from '@mui/material/MenuItem';
+import MenuList from '@mui/material/MenuList';
+import withStyles from '@mui/styles/withStyles';
 import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import reminderEmail from "../../email-templates/reminder";
@@ -15,10 +15,10 @@ import escalationEmail from "../../email-templates/escalation";
 import getInboundEmailAddress from "../../utils/email";
 import mailtoLink from "mailto-link";
 import { useIntl } from "react-intl";
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import EmailIcon from '@material-ui/icons/Email';
-import AssignmentIcon from '@material-ui/icons/Assignment';
-import Image from 'next/image'
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import EmailIcon from '@mui/icons-material/Email';
+import AssignmentIcon from '@mui/icons-material/Assignment';
+import Image from "next/legacy/image"
 
 
 const Style = (theme) => ({
