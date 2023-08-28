@@ -3,7 +3,7 @@
 {{ requestSentDate }}、私は、{{ regulation.longName }}（{{ regulation.displayName }}）{{ requestType.article }}に基づき、{{ requestItem.companyName.S }}（Webサイト: {{ requestItem.companyUrl.S }}）に対し、{{ requestType.name | capitalize }}請求を致しました。
 
 {% if status === 'PARTIAL' %}
-これに対する {{ requestItem.companyName.S}} の対応は不完全なものであったため、苦情として申し立てたく存じます。
+{{ requestItem.companyName.S}} はリクエストに対する対応をしなかったため、苦情として申し立てたく存じます。
 {% elif status === 'DECLINED' %}
 {{ requestItem.companyName.S}} はこれに対する対応を拒んだため、苦情として申し立てたく存じます。
 {% elif status === 'NO_REPLY' %}

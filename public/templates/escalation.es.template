@@ -1,9 +1,9 @@
 Dear {{ regulation.dpa.longName }},
 
-On {{ requestSentDate }} I have sent {{ requestItem.companyName.S }} (website: {{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
+On {{ requestSentDate }}, I sent {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
 
 {% if status === 'PARTIAL' %}
-I would like to submit a formal complaint because the organization failed to fully comply with my request.
+I would like to submit a formal complaint because the organization failed to comply with my request fully.
 {% elif status === 'DECLINED' %}
 I would like to submit a formal complaint because the organization declined to comply with my request.
 {% elif status === 'NO_REPLY' %}
