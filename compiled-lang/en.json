@@ -1391,66 +1391,10 @@
       "value": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
     }
   ],
-  "orgHero.newOrgSubTitle": [
-    {
-      "type": 0,
-      "value": "Send any organization a "
-    },
-    {
-      "type": 1,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " or a "
-    },
-    {
-      "type": 1,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " request."
-    }
-  ],
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Delete or Get a Copy of Your Personal Data"
-    }
-  ],
-  "orgHero.notAffiliatedDisclamer": [
-    {
-      "type": 0,
-      "value": "This service is "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "not affiliated with"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " (find out more "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "about us"
-        }
-      ],
-      "type": 8,
-      "value": "about"
-    },
-    {
-      "type": 0,
-      "value": ")."
+      "value": "Delete or Get a Copy of Your Personal Data."
     }
   ],
   "orgHero.orgName": [
@@ -1470,13 +1414,27 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Use this free service to send GDPR, CCPA and LGPD data requests."
+      "value": "Send a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Request account deletion or a copy of your personal data."
+      "value": "Delete your account or get a copy of your personal data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1582,21 +1540,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Frequently Asked Questions"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Fill in the form to create a request email which you can then review and send."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1639,6 +1583,12 @@
     {
       "type": 0,
       "value": "Review and Send"
+    }
+  ],
+  "personalInfoForm.supportButtonCTA": [
+    {
+      "type": 0,
+      "value": "Support"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3479,6 +3429,30 @@
     {
       "type": 0,
       "value": "Subscribe To Our Privacy Alerts!"
+    }
+  ],
+  "support.description1": [
+    {
+      "type": 0,
+      "value": "We understand that getting companies to delete your data can sometimes be confusing. Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    }
+  ],
+  "support.seoDescription": [
+    {
+      "type": 0,
+      "value": "Paid support service gives you direct access to one of our staff members"
+    }
+  ],
+  "support.seoTitle": [
+    {
+      "type": 0,
+      "value": "Paid Support"
+    }
+  ],
+  "support.title": [
+    {
+      "type": 0,
+      "value": "Paid Support"
     }
   ],
   "thankyou.copyPart1Copy": [

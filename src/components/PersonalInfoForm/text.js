@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 export const Headline = (
   <FormattedMessage
     id="personalInfoForm.headline"
-    defaultMessage="Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a>Frequently Asked Questions</a>."
+    defaultMessage="Fill in the form to create a request email which you can then review and send."
     values={{
       a: txt => (<a target="_blank" href="/#faq">{txt}</a>),
     }}
@@ -148,5 +148,12 @@ export const AccessRequestLabelText = (
   <FormattedMessage
     id="personalInfoForm.accessRequestLabelText"
     defaultMessage="Send me a copy of my data"
+  />
+);
+
+export const supportButtonCTA = (
+  <FormattedMessage
+    id="personalInfoForm.supportButtonCTA"
+    defaultMessage="Support"
   />
 );

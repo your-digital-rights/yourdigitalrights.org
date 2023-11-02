@@ -10,7 +10,28 @@ function Capitalize(str){
 
 
 const Hero = ({ classes, selectedCompany }) => {
-  const companyName = selectedCompany ? Capitalize(selectedCompany.name) : null;
+  let showOrg = false;
+  let disclamer;
+  if (selectedCompany) {
+    showOrg = selectedCompany.name.toUpperCase() != selectedCompany.url.toUpperCase();
+      disclamer=<FormattedMessage
+      id="orgHero.subTitle"
+      defaultMessage="Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+      values={{
+        domain: <strong>{Capitalize(selectedCompany.url)}</strong>,
+        disclamer: txt =>(<strong>{txt}</strong>),
+      }}
+    />
+  } else {
+      disclamer=<FormattedMessage
+      id="orgHero.subTitle"
+      defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+      values={{
+        disclamer: txt =>(<strong>{txt}</strong>),
+      }}
+    />
+  }
+
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -37,15 +58,17 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 {Capitalize(selectedCompany.url)}
               </Typography>
-              <Typography color="inherit">
-              <FormattedMessage
-                  id="orgHero.orgName"
-                  defaultMessage="Organization: {org}."
-                  values={{ 
-                    org: <strong>{selectedCompany.name}</strong> 
-                  }}
-              />                
-              </Typography>               
+              {showOrg && (
+                <Typography color="inherit">
+                  <FormattedMessage
+                      id="orgHero.orgName"
+                      defaultMessage="Organization: {org}."
+                      values={{ 
+                        org: <strong>{selectedCompany.name}</strong> 
+                      }}
+                  />                
+                </Typography>         
+              )}      
               <Typography
                 color="inherit"
                 component="h1"
@@ -54,7 +77,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.title"
-                  defaultMessage="Request account deletion or a copy of your personal data."
+                  defaultMessage="Delete your account or get a copy of your personal data."
                 />
               </Typography>
               <Typography
@@ -62,31 +85,15 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h2"
                 gutterBottom={true}
               >
-                <FormattedMessage
-                  id="orgHero.subTitle"
-                  defaultMessage="Use this free service to send GDPR, CCPA and LGPD data requests."
-                />
-              </Typography>                           
-              <Typography
-                color="inherit"
-                component="p"
-              >
-                <FormattedMessage
-                  id="orgHero.notAffiliatedDisclamer"
-                  defaultMessage="This service is <disclamer>not affiliated with</disclamer> (find out more <about>about us</about>)."
-                  values={{
-                    disclamer: txt =>(<strong>{txt + " " + Capitalize(selectedCompany.name)}</strong>),
-                    about: txt => (<a className={classes.introLink} target="_blank" href='/about'>{txt}</a>),
-                  }}
-                />
-              </Typography>   
+                {disclamer}
+              </Typography>                            
             </>
           )}
           {!selectedCompany && (
 
             <div id="add-org" className={classes.addOrg}>
               <Typography
-                variant="h4"
+                variant="h3"
                 color="inherit"
                 gutterBottom={true}
                 component="h1"
@@ -94,21 +101,14 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.newOrgTitle"
-                  defaultMessage="Delete or Get a Copy of Your Personal Data"
+                  defaultMessage="Delete or Get a Copy of Your Personal Data."
                 />
             </Typography>
               <Typography
                 color="inherit"
                 component="h2"
               >
-                <FormattedMessage
-                  id="orgHero.newOrgSubTitle"
-                  defaultMessage="Send any organization a {ccpa} or a {gdpr} request."
-                  values = {{
-                    ccpa: <a className={classes.introLink} target="_blank" href='/#faq'>CCPA</a>,
-                    gdpr: <a className={classes.introLink} target="_blank" href='/#faq'>GDPR</a>,
-                  }}
-                />
+                {disclamer}
               </Typography>
             </div>
           )}
