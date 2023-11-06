@@ -207,6 +207,13 @@ class Form extends Component {
     );
   }
 
+  onSupportButtonClick = (e) => {
+    tracking.trackSupportClick(
+      this.state.companyUrl,
+    );
+    window.location = "/support";
+  }
+
   async addNewCompany() {
     try {
       const response = await fetch(
@@ -242,19 +249,14 @@ class Form extends Component {
           ref={this.form}
         >
           <div className={classes.support}>
-            <Link
-              href="/support"
-              passHref
-              className={classes.supportLink}
-            >
               <Button 
                 variant="contained" 
                 startIcon={<SupportAgentIcon />} 
                 className={classes.supportButton}
+                onClick={this.onSupportButtonClick}
               >
                 {supportButtonCTA}
               </Button>
-            </Link>
           </div>
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>

@@ -1361,58 +1361,10 @@
       "value": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
     }
   ],
-  "orgHero.newOrgSubTitle": [
-    {
-      "type": 1,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " または "
-    },
-    {
-      "type": 1,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": " に基づくリクエストを任意の組織に送信しましょう"
-    }
-  ],
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "あなたの個人データを削除や開示させましょう"
-    }
-  ],
-  "orgHero.notAffiliatedDisclamer": [
-    {
-      "type": 0,
-      "value": "このサービスは、 "
-    },
-    {
-      "children": [
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " との間に一切の取引関係がありません (詳細は "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "私たちについて"
-        }
-      ],
-      "type": 8,
-      "value": "about"
-    },
-    {
-      "type": 0,
-      "value": " を参照してください)。"
+      "value": "あなたの個人データを削除や開示させましょう."
     }
   ],
   "orgHero.orgName": [
@@ -1432,13 +1384,27 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Your Digital Rights を使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
+      "value": "Send a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "アカウントの削除または個人データのコピーを要求します。"
+      "value": "Delete your account or get a copy of your personal data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1544,21 +1510,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "データに関するリクエストのメールを作成するには、次のフォームに入力してください。メールの内容は送信前に確認することができます。詳細については、 "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "よく寄せられる質問"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": " をご覧ください。"
+      "value": "Fill in the form to create a request email which you can then review and send."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1601,6 +1553,12 @@
     {
       "type": 0,
       "value": "内容を確認して送信する"
+    }
+  ],
+  "personalInfoForm.supportButtonCTA": [
+    {
+      "type": 0,
+      "value": "Support"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3421,6 +3379,58 @@
     {
       "type": 0,
       "value": "月刊メールマガジン「Privacy Alerts」を購読する!"
+    }
+  ],
+  "support.description1": [
+    {
+      "type": 0,
+      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+    }
+  ],
+  "support.description2": [
+    {
+      "type": 0,
+      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    }
+  ],
+  "support.posPaidtitle": [
+    {
+      "type": 0,
+      "value": "ありがとうございます!"
+    }
+  ],
+  "support.postPaidDescription1": [
+    {
+      "type": 0,
+      "value": "Please contact us via the following email address to access paid support:"
+    }
+  ],
+  "support.postPaidDescription2": [
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "support.seoDescription": [
+    {
+      "type": 0,
+      "value": "Paid support service gives you direct access to one of our staff members"
+    }
+  ],
+  "support.seoTitle": [
+    {
+      "type": 0,
+      "value": "Support"
+    }
+  ],
+  "support.title": [
+    {
+      "type": 0,
+      "value": "Paid Support"
     }
   ],
   "thankyou.copyPart1Copy": [
