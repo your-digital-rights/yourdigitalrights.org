@@ -452,23 +452,17 @@
   "org.titleNewOrg": {
     "message": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
   },
-  "orgHero.newOrgSubTitle": {
-    "message": "Envíe a cualquier organización una solicitud bajo {ccpa} o {gdpr}"
-  },
   "orgHero.newOrgTitle": {
-    "message": "Eliminar u obtener una copia de sus datos personales"
-  },
-  "orgHero.notAffiliatedDisclamer": {
-    "message": "Este servicio <disclamer> no esta afiliado con</disclamer> (descubre más <about>sobre nosotros</about>)."
+    "message": "Eliminar u obtener una copia de sus datos personales."
   },
   "orgHero.orgName": {
     "message": "Dominio: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Utilice este servicio gratuito para enviar solicitudes de datos GDPR, CCPA y LGPD."
+    "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Solicite la eliminación o la copia de sus datos personales."
+    "message": "Delete your account or get a copy of your personal data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
@@ -513,7 +507,7 @@
     "message": "Eliminar mis datos"
   },
   "personalInfoForm.headline": {
-    "message": "Rellene el siguiente formulario para crear una solicitud que luego puede revisar y enviar. Para más información, lea nuestras <a>Preguntas Frecuentes</a>."
+    "message": "Fill in the form to create a request email which you can then review and send."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Información de identificación adicional (opcional)"
@@ -535,6 +529,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "Revisar y enviar"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
   },
   "personalInfoForm.validEmail": {
     "message": "Por favor, introduzca un correo electrónico válido."
@@ -967,6 +964,30 @@
   },
   "subscribe.title": {
     "message": "Suscríbete a nuestras alertas de privacidad!"
+  },
+  "support.description1": {
+    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+  },
+  "support.description2": {
+    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+  },
+  "support.posPaidtitle": {
+    "message": "Thank you!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Please contact us via the following email address to access paid support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Paid support service gives you direct access to one of our staff members"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Paid Support"
   },
   "thankyou.copyPart1Copy": {
     "message": "ha sido copiado al portapapeles, todo lo que necesita hacer es pegarlo en un correo electrónico, reivusiéndolo y haga clic en Enviar."
