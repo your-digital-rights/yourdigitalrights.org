@@ -106,4 +106,8 @@ export default {
   trackRequestStatusChange(status) {
     this.trackEvent("Request Status Change", status);
   },
+
+  trackSupportClick(companyUrl) {
+    this.trackEvent("Support Button Click", companyUrl);
+  },
 };

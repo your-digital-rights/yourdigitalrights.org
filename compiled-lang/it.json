@@ -1369,66 +1369,10 @@
       "value": "Invia GDPR, CCPA e LGPD Data Deletion and Access Requests"
     }
   ],
-  "orgHero.newOrgSubTitle": [
-    {
-      "type": 0,
-      "value": "Invia a qualsiasi organizzazione una richiesta "
-    },
-    {
-      "type": 1,
-      "value": "ccpa"
-    },
-    {
-      "type": 0,
-      "value": " o "
-    },
-    {
-      "type": 1,
-      "value": "gdpr"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Elimina o ottieni una copia dei tuoi dati personali"
-    }
-  ],
-  "orgHero.notAffiliatedDisclamer": [
-    {
-      "type": 0,
-      "value": "Questo servizio è "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "non affiliato a"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " (scopri di più "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "su di noi"
-        }
-      ],
-      "type": 8,
-      "value": "about"
-    },
-    {
-      "type": 0,
-      "value": ")."
+      "value": "Elimina o ottieni una copia dei tuoi dati personali."
     }
   ],
   "orgHero.orgName": [
@@ -1448,13 +1392,27 @@
   "orgHero.subTitle": [
     {
       "type": 0,
-      "value": "Utilizzare questo servizio gratuito per inviare richieste di dati GDPR, CCPA e LGPD."
+      "value": "Send a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Richiedi la cancellazione dell'account o una copia dei tuoi dati personali."
+      "value": "Delete your account or get a copy of your personal data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1560,21 +1518,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Compila il seguente modulo per creare un'e-mail di richiesta dati che puoi quindi rivedere e inviare. Per maggiori informazioni leggi le nostre "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Domande frequenti"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Fill in the form to create a request email which you can then review and send."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1617,6 +1561,12 @@
     {
       "type": 0,
       "value": "Rivedi e Invia"
+    }
+  ],
+  "personalInfoForm.supportButtonCTA": [
+    {
+      "type": 0,
+      "value": "Support"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3453,6 +3403,58 @@
     {
       "type": 0,
       "value": "Iscriviti Ai Nostri Avvisi Sulla Privacy!"
+    }
+  ],
+  "support.description1": [
+    {
+      "type": 0,
+      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+    }
+  ],
+  "support.description2": [
+    {
+      "type": 0,
+      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    }
+  ],
+  "support.posPaidtitle": [
+    {
+      "type": 0,
+      "value": "Grazie!"
+    }
+  ],
+  "support.postPaidDescription1": [
+    {
+      "type": 0,
+      "value": "Please contact us via the following email address to access paid support:"
+    }
+  ],
+  "support.postPaidDescription2": [
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "support.seoDescription": [
+    {
+      "type": 0,
+      "value": "Paid support service gives you direct access to one of our staff members"
+    }
+  ],
+  "support.seoTitle": [
+    {
+      "type": 0,
+      "value": "Support"
+    }
+  ],
+  "support.title": [
+    {
+      "type": 0,
+      "value": "Paid Support"
     }
   ],
   "thankyou.copyPart1Copy": [
