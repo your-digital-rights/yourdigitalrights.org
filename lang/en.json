@@ -452,23 +452,17 @@
   "org.titleNewOrg": {
     "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
   },
-  "orgHero.newOrgSubTitle": {
-    "message": "Send any organization a {ccpa} or a {gdpr} request."
-  },
   "orgHero.newOrgTitle": {
-    "message": "Delete or Get a Copy of Your Personal Data"
-  },
-  "orgHero.notAffiliatedDisclamer": {
-    "message": "This service is <disclamer>not affiliated with</disclamer> (find out more <about>about us</about>)."
+    "message": "Delete or Get a Copy of Your Personal Data."
   },
   "orgHero.orgName": {
     "message": "Organization: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Use this free service to send GDPR, CCPA and LGPD data requests."
+    "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Request account deletion or a copy of your personal data."
+    "message": "Delete your account or get a copy of your personal data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
@@ -513,7 +507,7 @@
     "message": "Delete my data"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the following form to creates a Data Request email which you can then review and send. For more information read our <a>Frequently Asked Questions</a>."
+    "message": "Fill in the form to create a request email which you can then review and send."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Additional identifying information (optional)"
@@ -535,6 +529,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "Review and Send"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
   },
   "personalInfoForm.validEmail": {
     "message": "Please enter a valid email."
@@ -967,6 +964,30 @@
   },
   "subscribe.title": {
     "message": "Subscribe To Our Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+  },
+  "support.description2": {
+    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+  },
+  "support.posPaidtitle": {
+    "message": "Thank you!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Please contact us via the following email address to access paid support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Paid support service gives you direct access to one of our staff members"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Paid Support"
   },
   "thankyou.copyPart1Copy": {
     "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."

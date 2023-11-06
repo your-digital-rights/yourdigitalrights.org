@@ -8,9 +8,9 @@ import styles from "./styles";
 import Select from '@mui/material/Select';
 import MenuItem from '@mui/material/MenuItem';
 import { ALT_LANGUAGES } from '../../utils/langUtils';
-import { withRouter } from 'next/router'
-import Link from 'next/link'
-import cookieCutter from 'cookie-cutter'
+import { withRouter } from 'next/router';
+import Link from 'next/link';
+import cookieCutter from 'cookie-cutter';
 
 
 const trackSearchButtonLinkClick = (device) => {
