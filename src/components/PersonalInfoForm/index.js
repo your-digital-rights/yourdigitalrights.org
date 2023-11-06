@@ -21,6 +21,7 @@ import {
   RequestTypeLabelText,
   AccessRequestLabelText,
   DeletionRequestLabelText,
+  supportButtonCTA
 } from "./text";
 import { injectIntl } from "react-intl";
 import React, { Component, Fragment } from "react";
@@ -43,6 +44,9 @@ import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
 import { withRouter } from 'next/router'
 import { mailgoValidateEmail } from "mailgo";
+import SupportAgentIcon from '@mui/icons-material/SupportAgent';
+import Button from '@mui/material/Button';
+import Link from 'next/link';
 
 const screenHeightBreakpoint = 560;
 
@@ -237,6 +241,21 @@ class Form extends Component {
           elevation={10}
           ref={this.form}
         >
+          <div className={classes.support}>
+            <Link
+              href="/support"
+              passHref
+              className={classes.supportLink}
+            >
+              <Button 
+                variant="contained" 
+                startIcon={<SupportAgentIcon />} 
+                className={classes.supportButton}
+              >
+                {supportButtonCTA}
+              </Button>
+            </Link>
+          </div>
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
               {Headline}
@@ -391,6 +410,7 @@ class Form extends Component {
           </FormControl>
           <div className={classes.formButton}>
             <EmailSendButton
+              id="EmailSendButton"
               emailType={this.state.requestType}
               onClick={this.handleEmailSendClick}
             >

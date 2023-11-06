@@ -288,7 +288,7 @@ class Form {
   }
 
   get submitButton() {
-    return $("button");
+    return $("button.MuiButtonGroup-grouped:nth-child(1)");
   }
 }
 
