@@ -410,6 +410,7 @@ class Form extends Component {
           </FormControl>
           <div className={classes.formButton}>
             <EmailSendButton
+              id="EmailSendButton"
               emailType={this.state.requestType}
               onClick={this.handleEmailSendClick}
             >
