@@ -452,23 +452,17 @@
   "org.titleNewOrg": {
     "message": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
   },
-  "orgHero.newOrgSubTitle": {
-    "message": "{ccpa} または {gdpr} に基づくリクエストを任意の組織に送信しましょう"
-  },
   "orgHero.newOrgTitle": {
-    "message": "あなたの個人データを削除や開示させましょう"
-  },
-  "orgHero.notAffiliatedDisclamer": {
-    "message": "このサービスは、 <disclamer></disclamer> との間に一切の取引関係がありません (詳細は <about>私たちについて</about> を参照してください)。"
+    "message": "あなたの個人データを削除や開示させましょう."
   },
   "orgHero.orgName": {
     "message": "企業や団体: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Your Digital Rights を使用して、GDPR、CCPA、およびLGPDデータリクエストを送信します。"
+    "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "アカウントの削除または個人データのコピーを要求します。"
+    "message": "Delete your account or get a copy of your personal data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
@@ -513,7 +507,7 @@
     "message": "データを削除する"
   },
   "personalInfoForm.headline": {
-    "message": "データに関するリクエストのメールを作成するには、次のフォームに入力してください。メールの内容は送信前に確認することができます。詳細については、 <a>よく寄せられる質問</a> をご覧ください。"
+    "message": "Fill in the form to create a request email which you can then review and send."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "企業・団体があなたを特定するための追加情報（任意）"
@@ -535,6 +529,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "内容を確認して送信する"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
   },
   "personalInfoForm.validEmail": {
     "message": "有効なメールアドレスを入力してください。"
@@ -967,6 +964,30 @@
   },
   "subscribe.title": {
     "message": "月刊メールマガジン「Privacy Alerts」を購読する!"
+  },
+  "support.description1": {
+    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+  },
+  "support.description2": {
+    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+  },
+  "support.posPaidtitle": {
+    "message": "ありがとうございます!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Please contact us via the following email address to access paid support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Paid support service gives you direct access to one of our staff members"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Paid Support"
   },
   "thankyou.copyPart1Copy": {
     "message": "クリップボードにコピーされました。あとはメールに貼り付けて、再び送信をクリックするだけです。"
