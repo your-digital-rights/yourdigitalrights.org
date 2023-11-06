@@ -147,7 +147,6 @@ const Support = ({ classes }) => {
                 <stripe-pricing-table 
                   pricing-table-id="prctbl_1O6vggL6744XdVfOWc48gZU5"
                   publishable-key="pk_live_51Lhpu4L6744XdVfOEOM0kOeRaOaag73Lo9wbjnXqU4G9kfniyJf8aeQw8exGhu6yZwaPkJMHH6fQbB64Yx42JKR5008umYBaAw"
-                  customer-email="test+location_FR@email.com"
                 >
                 </stripe-pricing-table>
               </div>    
