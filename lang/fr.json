@@ -452,23 +452,17 @@
   "org.titleNewOrg": {
     "message": "Envoyer des requêtes RGPD, CCPA et LGPD de suppression de données et d'accès"
   },
-  "orgHero.newOrgSubTitle": {
-    "message": "Envoyez à n'importe quelle organisation une demande {ccpa} ou {gdpr}"
-  },
   "orgHero.newOrgTitle": {
-    "message": "Supprimer ou obtenir une copie de vos données personnelles"
-  },
-  "orgHero.notAffiliatedDisclamer": {
-    "message": "Ce service n'est <disclamer>pas affilié à</disclamer> (en savoir plus <about>sur nous</about>)."
+    "message": "Supprimer ou obtenir une copie de vos données personnelles."
   },
   "orgHero.orgName": {
     "message": "Organisation: {org}."
   },
   "orgHero.subTitle": {
-    "message": "Utilisez ce service gratuit pour envoyer des requêtes de données RGPD, CCPA et LGPD."
+    "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Demander la suppression du compte ou une copie de vos données personnelles."
+    "message": "Delete your account or get a copy of your personal data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
@@ -513,7 +507,7 @@
     "message": "Supprimer mes données"
   },
   "personalInfoForm.headline": {
-    "message": "Remplissez le formulaire suivant pour créer un e-mail de demande de données que vous pourrez ensuite consulter et envoyer. Pour plus d'informations, lisez notre <a>Foire Aux Questions</a>."
+    "message": "Fill in the form to create a request email which you can then review and send."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Informations d'identification supplémentaires (facultatif)"
@@ -535,6 +529,9 @@
   },
   "personalInfoForm.sendButton": {
     "message": "Personnaliser et envoyer"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
   },
   "personalInfoForm.validEmail": {
     "message": "Veuillez entrer une adresse e-mail valide."
@@ -967,6 +964,30 @@
   },
   "subscribe.title": {
     "message": "Abonnez-vous à nos alertes de confidentialité!"
+  },
+  "support.description1": {
+    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+  },
+  "support.description2": {
+    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+  },
+  "support.posPaidtitle": {
+    "message": "Merci!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Please contact us via the following email address to access paid support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Paid support service gives you direct access to one of our staff members"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Paid Support"
   },
   "thankyou.copyPart1Copy": {
     "message": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
