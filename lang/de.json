@@ -219,7 +219,7 @@
     "message": "Wir sind auf <a>Spenden</a> angewiesen, um unsere langfristige finanzielle Stabilität und Unabhängigkeit zu gewährleisten. Sie können hier einen Beitrag leisten."
   },
   "faq.body.contribute.3": {
-    "message": "Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+    "message": "Bitte sehen Sie sich die Informationen auf <a>dieser Seite</a> an, wenn Sie einen Fehler melden möchten, Helfen Sie bei der Übersetzung der Website, helfen Sie bei der Entwicklung oder führen Sie Recherchen."
   },
   "faq.body.data-protection.1": {
     "message": "Datenschutzgesetze schützen den Einzelnen bei der Verarbeitung seiner persönlichen Daten durch Organisationen. Sie definieren die Verantwortlichkeiten der Organisationen bei der Verarbeitung personenbezogener Daten und geben dem Einzelnen bestimmte Rechte in Bezug auf seine Daten. In vielen Ländern gibt es Datenschutzgesetze. Einige gehen hinsichtlich des von ihnen gewährten Schutzes weiter als andere."
@@ -458,11 +458,14 @@
   "orgHero.orgName": {
     "message": "Organisation: {org}."
   },
-  "orgHero.subTitle": {
+  "orgHero.subTitle1": {
+    "message": "Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+  },
+  "orgHero.subTitle2": {
     "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your personal data."
+    "message": "Lösche deinen Account oder erhalte eine Kopie deiner persönlichen Daten."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Um sicherzustellen, dass die Organisation Ihre Anfrage erfüllt, werden wir Ihnen eine E-Mail schicken, sobald es Zeit ist, weitere Maßnahmen zu ergreifen. Sie erhalten die Wahl, der Organisation eine Erinnerungs-E-Mail zu senden oder sich an die örtliche Datenschutzagentur zu wenden."
@@ -507,7 +510,7 @@
     "message": "Meine Daten löschen"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the form to create a request email which you can then review and send."
+    "message": "Füllen Sie das Formular aus, um eine Anfrage E-Mail zu erstellen, die Sie dann überprüfen und senden können."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Zusätzliche Identifizierungsinformationen (optional)"
@@ -531,7 +534,7 @@
     "message": "Überprüfen und senden"
   },
   "personalInfoForm.supportButtonCTA": {
-    "message": "Support"
+    "message": "Unterstützung"
   },
   "personalInfoForm.validEmail": {
     "message": "Bitte geben Sie eine gültige E-Mail ein."
@@ -966,28 +969,28 @@
     "message": "Abonnieren Sie unsere Datenschutz-Warnungen!"
   },
   "support.description1": {
-    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+    "message": "Wir verstehen, dass es manchmal frustrierend sein kann, wenn Unternehmen Ihre Daten löschen."
   },
   "support.description2": {
-    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    "message": "Unser kostenpflichtiger Support-Service bietet Ihnen direkten Zugang zu einem unserer Mitarbeiter die Ihnen gerne bei der Löschung Ihrer Daten oder bei der Anfrage behilflich sind."
   },
   "support.posPaidtitle": {
     "message": "Vielen Dank!"
   },
   "support.postPaidDescription1": {
-    "message": "Please contact us via the following email address to access paid support:"
+    "message": "Bitte kontaktieren Sie uns über folgende E-Mail-Adresse, um auf kostenpflichtigen Support zugreifen zu können:"
   },
   "support.postPaidDescription2": {
     "message": "{email}."
   },
   "support.seoDescription": {
-    "message": "Paid support service gives you direct access to one of our staff members"
+    "message": "Kostenpflichtiger Support-Service gibt Ihnen direkten Zugang zu einem unserer Mitarbeiter"
   },
   "support.seoTitle": {
-    "message": "Support"
+    "message": "Unterstützung"
   },
   "support.title": {
-    "message": "Paid Support"
+    "message": "Bezahlte Unterstützung"
   },
   "thankyou.copyPart1Copy": {
     "message": "wurde in die Zwischenablage kopiert, alles was Sie tun müssen, ist sie in eine E-Mail einzufügen, sie neu zu lesen und auf Absenden zu klicken."
