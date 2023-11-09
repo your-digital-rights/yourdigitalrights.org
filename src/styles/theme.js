@@ -1,4 +1,71 @@
 import { createTheme } from '@mui/material/styles';
+import localFont from 'next/font/local';
+
+const source_sans_pro = localFont({
+  src: [
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-200.woff2',
+      weight: '200',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-200italic.woff2',
+      weight: '200',
+      style: 'italic',
+    },    
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-300.woff2',
+      weight: '300',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-300italic.woff2',
+      weight: '300',
+      style: 'italic',
+    },   
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-regular.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-italic.woff2',
+      weight: '400',
+      style: 'italic',
+    }, 
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-600.woff2',
+      weight: '600',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-600italic.woff2',
+      weight: '600',
+      style: 'italic',
+    },  
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-700.woff2',
+      weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-700italic.woff2',
+      weight: '700',
+      style: 'italic',
+    },  
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-900.woff2',
+      weight: '900',
+      style: 'normal',
+    },
+    {
+      path: '../../fonts/source-sans-pro-v21-latin-ext_latin-900italic.woff2',
+      weight: '900',
+      style: 'italic',
+    },                   
+  ],
+})
+
 
 // Create a theme instance.
 const theme = createTheme({
@@ -65,7 +132,7 @@ const theme = createTheme({
     textSecondary: {
       main: "blue",
     },
-    fontFamily: ["Source Sans Pro", "sans-serif"].join(","),
+    fontFamily: [source_sans_pro.style.fontFamily, "sans-serif"].join(","),
   },	
   backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",
   color: "white",

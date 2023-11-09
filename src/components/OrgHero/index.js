@@ -15,7 +15,7 @@ const Hero = ({ classes, selectedCompany }) => {
   if (selectedCompany) {
     showOrg = selectedCompany.name.toUpperCase() != selectedCompany.url.toUpperCase();
       disclamer=<FormattedMessage
-      id="orgHero.subTitle"
+      id="orgHero.subTitle1"
       defaultMessage="Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
       values={{
         domain: <strong>{Capitalize(selectedCompany.url)}</strong>,
@@ -24,7 +24,7 @@ const Hero = ({ classes, selectedCompany }) => {
     />
   } else {
       disclamer=<FormattedMessage
-      id="orgHero.subTitle"
+      id="orgHero.subTitle2"
       defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
       values={{
         disclamer: txt =>(<strong>{txt}</strong>),
