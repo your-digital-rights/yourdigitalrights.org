@@ -1385,7 +1385,35 @@
       "value": "."
     }
   ],
-  "orgHero.subTitle": [
+  "orgHero.subTitle1": [
+    {
+      "type": 0,
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
+    }
+  ],
+  "orgHero.subTitle2": [
     {
       "type": 0,
       "value": "Send a data deletion or access request using this "
@@ -1408,7 +1436,7 @@
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your personal data."
+      "value": "Elimina tu cuenta o recibe una copia de tus datos personales."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1514,7 +1542,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the form to create a request email which you can then review and send."
+      "value": "Rellene el formulario para crear un correo electrónico de solicitud que podrá revisar y enviar."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1562,7 +1590,7 @@
   "personalInfoForm.supportButtonCTA": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Soporte"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3416,25 +3444,25 @@
   "support.description1": [
     {
       "type": 0,
-      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+      "value": "Entendemos que conseguir que las empresas eliminen sus datos a veces puede ser frustrante."
     }
   ],
   "support.description2": [
     {
       "type": 0,
-      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+      "value": "Nuestro servicio de soporte pagado le da acceso directo a uno de nuestros miembros del personal que estará encantado de ayudarle con su eliminación de datos o solicitud de acceso."
     }
   ],
   "support.posPaidtitle": [
     {
       "type": 0,
-      "value": "Thank you!"
+      "value": "Gracias."
     }
   ],
   "support.postPaidDescription1": [
     {
       "type": 0,
-      "value": "Please contact us via the following email address to access paid support:"
+      "value": "Por favor contáctenos a través de la siguiente dirección de correo electrónico para acceder al soporte de pago:"
     }
   ],
   "support.postPaidDescription2": [
@@ -3450,19 +3478,19 @@
   "support.seoDescription": [
     {
       "type": 0,
-      "value": "Paid support service gives you direct access to one of our staff members"
+      "value": "El servicio de soporte pagado le da acceso directo a uno de nuestros miembros del personal"
     }
   ],
   "support.seoTitle": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Soporte"
     }
   ],
   "support.title": [
     {
       "type": 0,
-      "value": "Paid Support"
+      "value": "Soporte pagado"
     }
   ],
   "thankyou.copyPart1Copy": [

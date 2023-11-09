@@ -12,6 +12,12 @@ import classNames from "classnames";
 import tracking from "../../utils/tracking";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChrome, faFirefox } from "@fortawesome/free-brands-svg-icons";
+import Image from 'next/image';
+import ExtensionToolTipImage from "../../../public/images/extensionHelperImages/extensionToolTipImage.png";
+import FBIcon from "../../../public/images/sh/fb.svg";
+import LinkedInIcon from "../../../public/images/sh/lin.svg";
+import TwitterIcon from "../../../public/images/sh/tw.svg";
+import EmailIcon from "../../../public/images/sh/mail.svg";
 
 const styles = (theme) => ({
   root: {
@@ -196,10 +202,10 @@ const Social = ({
         <div id="Extension" className={classes.extensionHelperPlaceHolder}>
           <div className={classes.extensionHelperContainer}>
             <div className={classes.extensionHelpImgContainer}>
-              <img
-                src="/images/extensionHelperImages/extensionToolTipImage.png"
+              <Image
+                src={ExtensionToolTipImage}
                 className={classes.extensionHelpImg}
-              ></img>
+              />
             </div>
             <div className={classes.extensionHelpTextContainer}>
               <Typography
@@ -278,7 +284,7 @@ const Social = ({
           className="ss-btn SocialMediaShareButton--facebook"
           quote={facebookQuote}
         >
-          <img src="/images/sh/fb.svg" />
+          <Image src={FBIcon} />
         </FacebookShareButton>
       </div>
       <div className={classes.shareButton}>
@@ -291,7 +297,7 @@ const Social = ({
           }
           className="ss-btn SocialMediaShareButton--linkedin"
         >
-          <img src="/images/sh/lin.svg" />
+          <Image src={LinkedInIcon} />
         </LinkedinShareButton>
       </div>
       <div className={classes.shareButton}>
@@ -314,7 +320,7 @@ const Social = ({
           ]}
           className="ss-btn SocialMediaShareButton--twitter"
         >
-          <img src="/images/sh/tw.svg" />
+          <Image src={TwitterIcon} />
         </TwitterShareButton>
       </div>
       <a
@@ -322,7 +328,7 @@ const Social = ({
         onClick={handleEmailClick}
         className="ss-btn SocialMediaShareButton--email"
       >
-        <img src="/images/sh/mail.svg" />
+        <Image src={EmailIcon} />
       </a>
     </div>
   );

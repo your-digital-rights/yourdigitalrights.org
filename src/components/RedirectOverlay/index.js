@@ -2,14 +2,15 @@ import React from "react";
 
 import styles from "./styles";
 import { RedirectHeadingText, RedirectText, ContinueText } from "./text";
-
 import Modal from "@mui/material/Modal";
 import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-
 import { injectIntl } from "react-intl";
 import withStyles from '@mui/styles/withStyles';
+import Image from 'next/image';
+import Close from "../../../public/images/close.svg";
+import Logo from "../../../public/images/logo.svg";
 
 const Overlay = (props) => {
   const { classes } = props;
@@ -20,12 +21,12 @@ const Overlay = (props) => {
     <Modal BackdropProps={backdropProps} open={true} onClose={props.close}>
       <Card className={classes.paper} elevation={10}>
         <button onClick={() => props.close()} className={classes.close}>
-          <img src="/images/close.svg" className={classes.closeImg} />
+          <Image src={Close} className={classes.closeImg} />
         </button>
 
         <header id="redirectOverlay" className={classes.header}>
-          <img
-            src="/images/logo.svg"
+          <Image
+            src={Logo}
             alt="yourdigitalrights.org"
             className={classes.logo}
           />

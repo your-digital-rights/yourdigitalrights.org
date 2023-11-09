@@ -718,13 +718,13 @@
   "faq.body.contribute.3": [
     {
       "type": 0,
-      "value": "Please see the information on "
+      "value": "Bitte sehen Sie sich die Informationen auf "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "this page"
+          "value": "dieser Seite"
         }
       ],
       "type": 8,
@@ -732,7 +732,7 @@
     },
     {
       "type": 0,
-      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+      "value": " an, wenn Sie einen Fehler melden möchten, Helfen Sie bei der Übersetzung der Website, helfen Sie bei der Entwicklung oder führen Sie Recherchen."
     }
   ],
   "faq.body.data-protection.1": [
@@ -1385,7 +1385,35 @@
       "value": "."
     }
   ],
-  "orgHero.subTitle": [
+  "orgHero.subTitle1": [
+    {
+      "type": 0,
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
+    }
+  ],
+  "orgHero.subTitle2": [
     {
       "type": 0,
       "value": "Send a data deletion or access request using this "
@@ -1408,7 +1436,7 @@
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your personal data."
+      "value": "Lösche deinen Account oder erhalte eine Kopie deiner persönlichen Daten."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1514,7 +1542,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the form to create a request email which you can then review and send."
+      "value": "Füllen Sie das Formular aus, um eine Anfrage E-Mail zu erstellen, die Sie dann überprüfen und senden können."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1562,7 +1590,7 @@
   "personalInfoForm.supportButtonCTA": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Unterstützung"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3408,13 +3436,13 @@
   "support.description1": [
     {
       "type": 0,
-      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+      "value": "Wir verstehen, dass es manchmal frustrierend sein kann, wenn Unternehmen Ihre Daten löschen."
     }
   ],
   "support.description2": [
     {
       "type": 0,
-      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+      "value": "Unser kostenpflichtiger Support-Service bietet Ihnen direkten Zugang zu einem unserer Mitarbeiter die Ihnen gerne bei der Löschung Ihrer Daten oder bei der Anfrage behilflich sind."
     }
   ],
   "support.posPaidtitle": [
@@ -3426,7 +3454,7 @@
   "support.postPaidDescription1": [
     {
       "type": 0,
-      "value": "Please contact us via the following email address to access paid support:"
+      "value": "Bitte kontaktieren Sie uns über folgende E-Mail-Adresse, um auf kostenpflichtigen Support zugreifen zu können:"
     }
   ],
   "support.postPaidDescription2": [
@@ -3442,19 +3470,19 @@
   "support.seoDescription": [
     {
       "type": 0,
-      "value": "Paid support service gives you direct access to one of our staff members"
+      "value": "Kostenpflichtiger Support-Service gibt Ihnen direkten Zugang zu einem unserer Mitarbeiter"
     }
   ],
   "support.seoTitle": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Unterstützung"
     }
   ],
   "support.title": [
     {
       "type": 0,
-      "value": "Paid Support"
+      "value": "Bezahlte Unterstützung"
     }
   ],
   "thankyou.copyPart1Copy": [

@@ -1,5 +1,6 @@
 import Typography from "@mui/material/Typography";
 import withStyles from '@mui/styles/withStyles';
+import Image from 'next/image';
 
 const styles = (theme) => ({
   root: {
@@ -20,7 +21,7 @@ const styles = (theme) => ({
 const LowerSection = ({ title, body, imgSrc, classes }) => {
   return (
     <div className={classes.root}>
-      <img src={imgSrc} role="presentation" className={classes.img} />
+      <Image src={imgSrc} role="presentation" className={classes.img} />
       <Typography component="h3" variant="h5" gutterBottom={true}>
         {title}
       </Typography>

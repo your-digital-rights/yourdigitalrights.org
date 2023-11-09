@@ -1389,16 +1389,24 @@
       "value": "."
     }
   ],
-  "orgHero.subTitle": [
+  "orgHero.subTitle1": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request using this "
+      "value": "Envie uma exclusão de dados "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " ou uma solicitação de acesso usando este serviço "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "gratuito e independente"
         }
       ],
       "type": 8,
@@ -1406,13 +1414,33 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": "."
+    }
+  ],
+  "orgHero.subTitle2": [
+    {
+      "type": 0,
+      "value": "Envie uma exclusão de dados ou uma solicitação de acesso usando este serviço "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "gratuito e independente"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your personal data."
+      "value": "Excluir sua conta ou obter uma cópia de seus dados pessoais."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1518,7 +1546,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the form to create a request email which you can then review and send."
+      "value": "Preencha o formulário para criar o e-mail da solicitação que você pode revisar e enviar."
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1566,7 +1594,7 @@
   "personalInfoForm.supportButtonCTA": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "SUPORTE"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3420,13 +3448,13 @@
   "support.description1": [
     {
       "type": 0,
-      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+      "value": "Entendemos que fazer com que as empresas excluam seus dados por vezes pode ser frustrante."
     }
   ],
   "support.description2": [
     {
       "type": 0,
-      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+      "value": "Nosso serviço de suporte pago oferece acesso direto a um dos membros da nossa equipe quem ficará feliz em ajudá-lo com sua exclusão de dados ou solicitação de acesso."
     }
   ],
   "support.posPaidtitle": [
@@ -3438,7 +3466,7 @@
   "support.postPaidDescription1": [
     {
       "type": 0,
-      "value": "Please contact us via the following email address to access paid support:"
+      "value": "Entre em contato conosco através do seguinte endereço de e-mail para acessar o suporte pago:"
     }
   ],
   "support.postPaidDescription2": [
@@ -3454,19 +3482,19 @@
   "support.seoDescription": [
     {
       "type": 0,
-      "value": "Paid support service gives you direct access to one of our staff members"
+      "value": "O serviço de suporte pago oferece acesso direto a um dos membros da nossa equipe"
     }
   ],
   "support.seoTitle": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "SUPORTE"
     }
   ],
   "support.title": [
     {
       "type": 0,
-      "value": "Paid Support"
+      "value": "Suporte pago"
     }
   ],
   "thankyou.copyPart1Copy": [

@@ -11,7 +11,11 @@ import { ALT_LANGUAGES } from '../../utils/langUtils';
 import { withRouter } from 'next/router';
 import Link from 'next/link';
 import cookieCutter from 'cookie-cutter';
-
+import Image from 'next/image';
+import TWGrey from "../../../public/images/sh/tw-grey.svg";
+import Logo from "../../../public/images/type.svg";
+import CloseIcon from "../../../public/images/close-icon.svg";
+import HamburgerIcon from "../../../public/images/hamburgerIcon.svg";
 
 const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
@@ -240,7 +244,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           href="https://twitter.com/search?q=ownyourdata&src=typeahead_click"
           text={
             <div className={classes.twitterHandle}>
-              <img src="/images/sh/tw-grey.svg" />
+              <Image src={TWGrey} />
               <FormattedMessage
                 id="nav.twitterHastag"
                 defaultMessage="#ownyourdata"
@@ -303,25 +307,21 @@ class Nav extends Component {
   render() {
     const { classes, children } = this.props;
     const { mobileNavOpen } = this.state;
-
+    const menuIcon = mobileNavOpen ? CloseIcon : HamburgerIcon;
     return (
       <div>
         <nav ref={this.toggleMenu} className={classes.nav}>
           <a className={classes.logoLink} href="/">
-            <img className={classes.logo} src="/images/type.svg" tabIndex={0} />
+            <Image className={classes.logo} src={Logo} tabIndex={0} />
           </a>
           <NavListDesktop 
             classes={classes} 
             router={this.props.router} 
             handleLangChange={this.handleLangChange} 
           />
-          <img
+          <Image
             className={classes.hamburgerButton}
-            src={
-              mobileNavOpen
-                ? "/images/close-icon.svg"
-                : "/images/hamburgerIcon.svg"
-            }
+            src={menuIcon}
             onBlur={this.onBlurHandler}
             onClick={this.toggleMobileNav}
             tabIndex={0}

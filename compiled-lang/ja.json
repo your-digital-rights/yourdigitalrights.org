@@ -1381,7 +1381,35 @@
       "value": "."
     }
   ],
-  "orgHero.subTitle": [
+  "orgHero.subTitle1": [
+    {
+      "type": 0,
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
+    }
+  ],
+  "orgHero.subTitle2": [
     {
       "type": 0,
       "value": "Send a data deletion or access request using this "
@@ -1404,7 +1432,7 @@
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your personal data."
+      "value": "アカウントを削除するか、個人データのコピーを取得します。"
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -1510,7 +1538,7 @@
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the form to create a request email which you can then review and send."
+      "value": "フォームに入力して、確認して送信できるリクエストメールを作成します。"
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
@@ -1558,7 +1586,7 @@
   "personalInfoForm.supportButtonCTA": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "サポート"
     }
   ],
   "personalInfoForm.validEmail": [
@@ -3384,13 +3412,13 @@
   "support.description1": [
     {
       "type": 0,
-      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+      "value": "企業にデータを削除させることは時々イライラすることがあります。"
     }
   ],
   "support.description2": [
     {
       "type": 0,
-      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+      "value": "当社の有料サポートサービスは、当社のスタッフメンバーの一人に直接アクセスできます。 あなたのデータ削除やアクセスリクエストを喜んでお手伝いします。"
     }
   ],
   "support.posPaidtitle": [
@@ -3402,7 +3430,7 @@
   "support.postPaidDescription1": [
     {
       "type": 0,
-      "value": "Please contact us via the following email address to access paid support:"
+      "value": "有料サポートにアクセスするには、次のメールアドレスからお問い合わせください:"
     }
   ],
   "support.postPaidDescription2": [
@@ -3418,19 +3446,19 @@
   "support.seoDescription": [
     {
       "type": 0,
-      "value": "Paid support service gives you direct access to one of our staff members"
+      "value": "有料サポートサービスは、当社のスタッフメンバーの一人に直接アクセスできます。"
     }
   ],
   "support.seoTitle": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "サポート"
     }
   ],
   "support.title": [
     {
       "type": 0,
-      "value": "Paid Support"
+      "value": "有料サポート"
     }
   ],
   "thankyou.copyPart1Copy": [
