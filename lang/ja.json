@@ -458,11 +458,14 @@
   "orgHero.orgName": {
     "message": "企業や団体: {org}."
   },
-  "orgHero.subTitle": {
+  "orgHero.subTitle1": {
+    "message": "Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+  },
+  "orgHero.subTitle2": {
     "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your personal data."
+    "message": "アカウントを削除するか、個人データのコピーを取得します。"
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
@@ -507,7 +510,7 @@
     "message": "データを削除する"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the form to create a request email which you can then review and send."
+    "message": "フォームに入力して、確認して送信できるリクエストメールを作成します。"
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "企業・団体があなたを特定するための追加情報（任意）"
@@ -531,7 +534,7 @@
     "message": "内容を確認して送信する"
   },
   "personalInfoForm.supportButtonCTA": {
-    "message": "Support"
+    "message": "サポート"
   },
   "personalInfoForm.validEmail": {
     "message": "有効なメールアドレスを入力してください。"
@@ -966,28 +969,28 @@
     "message": "月刊メールマガジン「Privacy Alerts」を購読する!"
   },
   "support.description1": {
-    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+    "message": "企業にデータを削除させることは時々イライラすることがあります。"
   },
   "support.description2": {
-    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    "message": "当社の有料サポートサービスは、当社のスタッフメンバーの一人に直接アクセスできます。 あなたのデータ削除やアクセスリクエストを喜んでお手伝いします。"
   },
   "support.posPaidtitle": {
     "message": "ありがとうございます!"
   },
   "support.postPaidDescription1": {
-    "message": "Please contact us via the following email address to access paid support:"
+    "message": "有料サポートにアクセスするには、次のメールアドレスからお問い合わせください:"
   },
   "support.postPaidDescription2": {
     "message": "{email}."
   },
   "support.seoDescription": {
-    "message": "Paid support service gives you direct access to one of our staff members"
+    "message": "有料サポートサービスは、当社のスタッフメンバーの一人に直接アクセスできます。"
   },
   "support.seoTitle": {
-    "message": "Support"
+    "message": "サポート"
   },
   "support.title": {
-    "message": "Paid Support"
+    "message": "有料サポート"
   },
   "thankyou.copyPart1Copy": {
     "message": "クリップボードにコピーされました。あとはメールに貼り付けて、再び送信をクリックするだけです。"
