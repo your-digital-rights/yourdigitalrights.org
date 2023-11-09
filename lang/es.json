@@ -458,11 +458,14 @@
   "orgHero.orgName": {
     "message": "Dominio: {org}."
   },
-  "orgHero.subTitle": {
+  "orgHero.subTitle1": {
+    "message": "Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+  },
+  "orgHero.subTitle2": {
     "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your personal data."
+    "message": "Elimina tu cuenta o recibe una copia de tus datos personales."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
@@ -507,7 +510,7 @@
     "message": "Eliminar mis datos"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the form to create a request email which you can then review and send."
+    "message": "Rellene el formulario para crear un correo electrónico de solicitud que podrá revisar y enviar."
   },
   "personalInfoForm.identifyingInfoLabel": {
     "message": "Información de identificación adicional (opcional)"
@@ -531,7 +534,7 @@
     "message": "Revisar y enviar"
   },
   "personalInfoForm.supportButtonCTA": {
-    "message": "Support"
+    "message": "Soporte"
   },
   "personalInfoForm.validEmail": {
     "message": "Por favor, introduzca un correo electrónico válido."
@@ -966,28 +969,28 @@
     "message": "Suscríbete a nuestras alertas de privacidad!"
   },
   "support.description1": {
-    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+    "message": "Entendemos que conseguir que las empresas eliminen sus datos a veces puede ser frustrante."
   },
   "support.description2": {
-    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    "message": "Nuestro servicio de soporte pagado le da acceso directo a uno de nuestros miembros del personal que estará encantado de ayudarle con su eliminación de datos o solicitud de acceso."
   },
   "support.posPaidtitle": {
-    "message": "Thank you!"
+    "message": "Gracias."
   },
   "support.postPaidDescription1": {
-    "message": "Please contact us via the following email address to access paid support:"
+    "message": "Por favor contáctenos a través de la siguiente dirección de correo electrónico para acceder al soporte de pago:"
   },
   "support.postPaidDescription2": {
     "message": "{email}."
   },
   "support.seoDescription": {
-    "message": "Paid support service gives you direct access to one of our staff members"
+    "message": "El servicio de soporte pagado le da acceso directo a uno de nuestros miembros del personal"
   },
   "support.seoTitle": {
-    "message": "Support"
+    "message": "Soporte"
   },
   "support.title": {
-    "message": "Paid Support"
+    "message": "Soporte pagado"
   },
   "thankyou.copyPart1Copy": {
     "message": "ha sido copiado al portapapeles, todo lo que necesita hacer es pegarlo en un correo electrónico, reivusiéndolo y haga clic en Enviar."

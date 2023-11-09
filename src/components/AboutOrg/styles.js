@@ -43,7 +43,7 @@ const Style = (theme) => ({
     },
   },
   title: {
-    fontFamily: "Source Sans Pro,sans-serif",
+    fontFamily: theme.palette.fontFamily,
     fontSize: "50px",
     fontWeight: "bold",
     fontStretch: "normal",
@@ -59,7 +59,7 @@ const Style = (theme) => ({
   },
   detailText: {
     paddingBottom: "20px",
-    fontFamily: "Source Sans Pro,sans-serif",
+    fontFamily: theme.palette.fontFamily,
     fontSize: "15px",
     fontWeight: "normal",
     fontStretch: "normal",
@@ -96,7 +96,7 @@ const Style = (theme) => ({
     marginTop: "20px",
   },
   discussionHeading: {
-    fontFamily: "Source Sans Pro,sans-serif",
+    fontFamily: theme.palette.fontFamily,
     fontSize: "28px",
     fontWeight: "600",
     fontStretch: "normal",
@@ -110,7 +110,7 @@ const Style = (theme) => ({
     },
   },
   discussionSubHeading: {
-    fontFamily: "Source Sans Pro,sans-serif",
+    fontFamily: theme.palette.fontFamily,
     fontSize: "18px",
     fontWeight: "normal",
     fontStretch: "normal",

@@ -1411,7 +1411,35 @@
       "value": "."
     }
   ],
-  "orgHero.subTitle": [
+  "orgHero.subTitle1": [
+    {
+      "type": 0,
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
+    }
+  ],
+  "orgHero.subTitle2": [
     {
       "type": 0,
       "value": "Send a data deletion or access request using this "
