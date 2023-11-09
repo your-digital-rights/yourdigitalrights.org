@@ -12,19 +12,22 @@ import {
   YourDataBody,
   YourDataTitle,
 } from "./text";
-
 import LowerSection from "./LowerSection";
 import Typography from "@mui/material/Typography";
 import UpperSection from "./UpperSection";
 import { indexStyles as styles } from "./styles";
 import withStyles from '@mui/styles/withStyles';
+import Image from 'next/image';
+import HowItWorksImage from "../../../public/images/img-howto.svg";
+import ICHappy from "../../../public/images/ic-happy.svg";
+import ICVerified from "../../../public/images/ic-verified-user.svg";
 
 const HowItWorks = ({ classes }) => {
   return (
     <div className={classes.root} id="howItWorks">
       <div className={classes.upperContainer}>
-        <img
-          src="images/img-howto.svg"
+        <Image
+          src={HowItWorksImage}
           alt={TitleImgAlt}
           className={classes.titleImg}
         />
@@ -46,12 +49,12 @@ const HowItWorks = ({ classes }) => {
         <LowerSection
           title={YourDataTitle}
           body={YourDataBody}
-          imgSrc="images/ic-happy.svg"
+          imgSrc={ICHappy}
         />
         <LowerSection
           title={WhyTitle}
           body={WhyBody}
-          imgSrc="images/ic-verified-user.svg"
+          imgSrc={ICVerified}
         />
       </div>
     </div>

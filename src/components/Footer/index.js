@@ -4,7 +4,9 @@ import Typography from "@mui/material/Typography";
 import { container } from "../../styles/layout";
 import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
-import Link from 'next/link'
+import Link from 'next/link';
+import Image from 'next/image';
+import Vercel from "../../../public/images/powered-by-vercel.svg";
 
 const styles = (theme) => ({
   root: {
@@ -153,8 +155,8 @@ const Footer = ({ classes, showRoadmap=true }) => {
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
-            <img 
-              src="/images/powered-by-vercel.svg" 
+            <Image 
+              src={Vercel}
               alt={PoweredBy}
               className={classes.VercelLogo}
             />
