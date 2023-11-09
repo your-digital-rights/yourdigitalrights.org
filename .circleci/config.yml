@@ -8,7 +8,7 @@ jobs:
   build:
     working_directory: ~/yourdigitalrights
     docker:
-      - image: cimg/node:16.19.1-browsers
+      - image: cimg/node:18.17.0-browsers
 
     steps:
       - checkout
