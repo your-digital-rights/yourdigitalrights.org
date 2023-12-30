@@ -643,7 +643,6 @@ const Regulations = {
     } 
   }, 
 
-
 };
 
 export default Regulations;
