@@ -31,7 +31,7 @@ async function fetchDomainDetails(domain) {
         if (response.status <= 400) {
           return response.json();
         }
-        throw new Error(`HTTP error ${response.status} from '${url}', headers: ${JSON.stringify([...response.headers])}`);
+        throw new Error(`HTTP error ${response.status} from '${url}'`);
       })
       .then((json) => {
         return json;

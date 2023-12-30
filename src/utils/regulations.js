@@ -598,6 +598,51 @@ const Regulations = {
       }
     } 
   }, 
+  UCPA: {
+    displayName: 'UCPA',
+    gepgraphy: 'Utah',
+    longName: 'Utah Consumer Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'UT AG',
+      longName: 'Attorney General of Utah',
+      requestFormURL: 'https://www.attorneygeneral.utah.gov/contact/complaint-form/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Utah',
+          countryCode: 'UT',
+          email: 'uag@agutah.gov',
+          website: 'https://www.attorneygeneral.utah.gov/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://le.utah.gov/~2022/bills/static/SB0227.html',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 13-61-201',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineUCPA"
+            defaultMessage="<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://le.utah.gov/~2022/bills/static/SB0227.html',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 13-61-304',        
+      }
+    } 
+  }, 
+
 
 };
 
