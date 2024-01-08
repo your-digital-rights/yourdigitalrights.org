@@ -18,22 +18,24 @@ async function getRegulationbyGeolocation() {
               return 'VCDPA';
             } else if (resultJson['region'] === 'CO') {
               return 'CPA';
-            } if (resultJson['region'] === 'CT') {
-              return 'CTDPA';              
+            } else if (resultJson['region'] === 'CT') {
+              return 'CTDPA';   
+            } else if (resultJson['region'] === 'UT') {
+              return 'UCPA';                                     
             } else {
               return 'CCPA';
             }
-          } else if (resultJson['country'] === 'GB') {
-            return 'GDPRUK';
-          } else if (resultJson['country'] === 'BR') {
-            return 'LGPD';     
-          } else if (resultJson['country'] === 'CA') {
-            return 'PIPEDA';                        
-          } else if (resultJson['country'] === 'JP') {
-            return 'APPI';             
-          } else {
-            return 'GDPR';
-          }
+        } else if (resultJson['country'] === 'GB') {
+          return 'GDPRUK';
+        } else if (resultJson['country'] === 'BR') {
+          return 'LGPD';     
+        } else if (resultJson['country'] === 'CA') {
+          return 'PIPEDA';                        
+        } else if (resultJson['country'] === 'JP') {
+          return 'APPI';             
+        } else {
+          return 'GDPR';
+        }
       }).catch(function(err){
         return "GDPR"
       });
