@@ -2573,6 +2573,84 @@
       "value": "ul"
     }
   ],
+  "request.next.declineUCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entità, comprese le amministrazioni statali e locali, senza scopo di lucro, istituti di istruzione superiore, alcune associazioni nazionali di valori mobiliari, gli istituti finanziari e le entità coperte da atti specifici, quali la legge Gramm-Leach-Bliley e la legge sulla portabilità e la rendicontabilità dell’assicurazione malattia. sono esenti"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Dati sanitari protetti"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Dati dei dipendenti inclusi i dati dei richiedenti lavoro"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Dati identificati"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informazioni disponibili al pubblico"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informazioni aggregate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informazioni personali raccolte per la ricerca su soggetti umani o nell'ambito di una sperimentazione clinica"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineVCDPA": [
     {
       "children": [

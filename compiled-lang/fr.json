@@ -1384,7 +1384,7 @@
   "orgHero.subTitle1": [
     {
       "type": 0,
-      "value": "Send "
+      "value": "Envoyez à "
     },
     {
       "type": 1,
@@ -1392,13 +1392,13 @@
     },
     {
       "type": 0,
-      "value": " a data deletion or access request using this "
+      "value": " une suppression de données ou une demande d'accès en utilisant ce service "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "gratuit et indépendant"
         }
       ],
       "type": 8,
@@ -1406,19 +1406,19 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": "."
     }
   ],
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request using this "
+      "value": "Envoyer une demande de suppression de données ou d'accès à l'aide de ce service "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "gratuit et indépendant"
         }
       ],
       "type": 8,
@@ -1426,7 +1426,7 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": "."
     }
   ],
   "orgHero.title": [
@@ -2555,6 +2555,84 @@
             {
               "type": 0,
               "value": "Les exceptions peuvent inclure des informations qui sont prohibitivement coûteuses à fournir, des informations qui contiennent des références à d'autres personnes, des renseignements qui ne peuvent pas être divulgués pour des raisons juridiques, de sécurité ou de propriété commerciale, et des renseignements qui sont assujettis à des privilèges d’avocat-client ou de litige."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineUCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires protégées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données employées incluant les données du candidat à l'emploi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données déidentifiées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiquement disponibles"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations globales"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique"
             }
           ],
           "type": 8,
