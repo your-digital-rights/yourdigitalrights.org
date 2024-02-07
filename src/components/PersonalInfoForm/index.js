@@ -207,13 +207,13 @@ class Form extends Component {
     );
   }
 
-  onSupportButtonClick = (e) => {
+/*  onSupportButtonClick = (e) => {
     tracking.trackSupportClick(
       this.state.companyUrl,
     );
     window.location = "/support";
   }
-
+*/
   async addNewCompany() {
     try {
       const response = await fetch(
@@ -248,6 +248,7 @@ class Form extends Component {
           elevation={10}
           ref={this.form}
         >
+{/*
           <div className={classes.support}>
               <Button 
                 variant="contained" 
@@ -258,6 +259,7 @@ class Form extends Component {
                 {supportButtonCTA}
               </Button>
           </div>
+*/}          
           <Typography gutterBottom={true} variant={"body1"}>
             <span data-nosnippet>
               {Headline}
