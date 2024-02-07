@@ -75,12 +75,6 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
       />
 
       <NavItem
-        href="/stats"
-        text={<FormattedMessage id="nav.stats" defaultMessage="Stats" />}
-        classes={classes} 
-      />
-
-      <NavItem
         href="/about"
         text={<FormattedMessage id="nav.about" defaultMessage="About" />}
         classes={classes} 
