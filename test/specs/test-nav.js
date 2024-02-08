@@ -12,8 +12,7 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkTwoText).should.equal("FAQ");
     (await page.navigationBar.linkThreeText).should.equal("Data Brokers");
     (await page.navigationBar.linkFourText).should.equal("Contribute");
-    (await page.navigationBar.linkFiveText).should.equal("Stats");
-    (await page.navigationBar.linkSixText).should.equal("About");
+    (await page.navigationBar.linkFiveText).should.equal("About");
     (await page.navigationBar.linkLangSelect).should.equal("English");
     (await page.navigationBar.linkButtonText).should.equal("SEARCH ORGANIZATIONS");
   });

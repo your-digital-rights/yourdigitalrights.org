@@ -69,8 +69,11 @@ const styles = (theme) => ({
     },
   },
   VercelLogo: {
-    height: "2.4em",
+    height: "1.8em",
     marginTop: "5px",
+    [theme.breakpoints.up('md')]: {
+      marginLeft: "-27px",
+    },    
   }
 });
 
@@ -130,7 +133,16 @@ const Footer = ({ classes, showRoadmap=true }) => {
                 a: txt=> (<a target="_blank" href="https://consciousdigital.org" className={classes.DisclaimerLink}>{txt}</a>)
               }}
             />
-          </Typography>          
+          </Typography>   
+          <Typography component="p" variant="subtitle2">
+            <FormattedMessage
+              id="footer.stats"
+              defaultMessage="<a>Statistics</a>"
+              values={{
+                a: txt=> (<Link href="/stats" className={classes.DisclaimerLink}>{txt}</Link>)
+              }}
+            />
+          </Typography>                          
           <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.privacyPolicy"
@@ -140,15 +152,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               }}
             />
           </Typography>
-          <Typography component="p" variant="subtitle2">
-            <FormattedMessage
-              id="footer.mission"
-              defaultMessage="<a>Mission</a>"
-              values={{
-                a: txt=> (<Link href="/about" className={classes.DisclaimerLink}>{txt}</Link>)
-              }}
-            />
-          </Typography> 
+
           <Typography component="p" variant="subtitle2">
             <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
           </Typography> 
