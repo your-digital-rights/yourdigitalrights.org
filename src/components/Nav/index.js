@@ -21,6 +21,10 @@ const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
 };
 
+const trackDonateButtonLinkClick = (device) => {
+  tracking.trackDonate(device);
+};
+
 const NavItem = ({
   href,
   text,
@@ -102,13 +106,14 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
 
       <li>
         <a
-          href="/"
-          className={classes.OptOutRedButtonDesktop}
+          href="https://opencollective.com/consciousdigital"
+          target="_blank"
+          className={classes.DonateRedButtonDesktop}
           tabIndex={0}
-          onClick={() => trackSearchButtonLinkClick("desktop")}
+          onClick={() => trackDonateButtonLinkClick("desktop")}
         >
           <Typography component="span" className={classes.linkButton}>
-            <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
+            <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
         </a>
       </li>
@@ -173,15 +178,15 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
         </Select>
         <a
           href="/"
-          className={classes.OptOutRedButton}
+          className={classes.DonateRedButton}
           tabIndex={0}
           onClick={() => {
             toggleMobileNav();
-            trackSearchButtonLinkClick("mobile");
+            trackDonateButtonLinkClick("mobile");
           }}
         >
           <Typography component="span" className={classes.linkButton}>
-            <FormattedMessage id="nav.search" defaultMessage="Search Organizations"/>
+            <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
         </a>
 
