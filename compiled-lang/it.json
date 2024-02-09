@@ -1101,18 +1101,6 @@
       "value": "a"
     }
   ],
-  "footer.mission": [
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Missione"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    }
-  ],
   "footer.poweredBy": [
     {
       "type": 0,
@@ -1125,6 +1113,18 @@
         {
           "type": 0,
           "value": "Informativa sulla privacy"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.stats": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Statistiche"
         }
       ],
       "type": 8,

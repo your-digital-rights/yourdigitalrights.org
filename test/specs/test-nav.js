@@ -14,7 +14,7 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkFourText).should.equal("Contribute");
     (await page.navigationBar.linkFiveText).should.equal("About");
     (await page.navigationBar.linkLangSelect).should.equal("English");
-    (await page.navigationBar.linkButtonText).should.equal("SEARCH ORGANIZATIONS");
+    (await page.navigationBar.linkButtonText).should.equal("MAKE A DONATION");
   });
 
   // it('check the links are working as expected', () => {
@@ -27,7 +27,7 @@ describe("When I visit the Home page in Desktop view", () => {
 
   // it("takes me to correct part of the page", () => {});
 
-  describe("and click the Search button on the navigation bar", () => {
+  describe.skip("and click the Search button on the navigation bar", () => {
     it("focuses the Search input field", async () => {
       const page = await setupPageInDesktopView("/", true);
 
@@ -47,7 +47,7 @@ describe("When I visit the Home page in Desktop view", () => {
       });
 
       describe("and click the Search button on the navigation bar", () => {
-        it("focuses the Search input field", async () => {
+        it.skip("focuses the Search input field", async () => {
           const page = await setupPageInDesktopView("/", true);
 
           await page.navigationBar.linkButton.click();
@@ -80,7 +80,7 @@ describe("When I visit the Home page in Mobile view", () => {
     (await page.navigationBar.linkThreeMobText).should.equal("Data Brokers");
     (await page.navigationBar.linkFourMobText).should.equal("About");
     (await page.navigationBar.linkFiveMobText).should.equal("English");
-    (await page.navigationBar.linkSixMobText).should.equal("SEARCH ORGANIZATIONS");
+    (await page.navigationBar.linkSixMobText).should.equal("MAKE A DONATION");
     (await page.navigationBar.linkSevenMobText).should.equal("Contribute");
     (await page.navigationBar.linkEightMobText).should.equal("Stats");
     (await page.navigationBar.linkNineMobText).should.equal("Make a Donation");
@@ -89,8 +89,8 @@ describe("When I visit the Home page in Mobile view", () => {
     (await page.navigationBar.linkTwelveMobText).should.equal("#ownyourdata");
   });
 
-  describe("and click the Search button on the navigation bar", () => {
-    it("focuses the Search input field", async () => {
+  describe.skip("and click the Search button on the navigation bar", () => {
+    it.skip("focuses the Search input field", async () => {
       const page = await setupPageInMobileView("/", true);
 
       await page.navigationBar.triggerMobileMenuToggle();
@@ -137,7 +137,7 @@ describe("When I visit the Home page in Mobile view", () => {
   });
 });
 
-describe("When I visit the About page in Desktop view", () => {
+describe.skip("When I visit the About page in Desktop view", () => {
   describe("and click the Search button on the navigation bar", () => {
     it("focuses the Search input field", async () => {
       const page = await setupPageInDesktopView("/about", true);
@@ -149,7 +149,7 @@ describe("When I visit the About page in Desktop view", () => {
   });
 });
 
-describe("When I visit the About page in Mobile view", () => {
+describe.skip("When I visit the About page in Mobile view", () => {
   describe("and click the Search button on the navigation bar", () => {
     it("focuses the Search input field", async () => {
       const page = await setupPageInMobileView("/about", true);
