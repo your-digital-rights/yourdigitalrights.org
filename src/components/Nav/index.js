@@ -177,7 +177,8 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           </MenuItem>             
         </Select>
         <a
-          href="/"
+          href="https://opencollective.com/consciousdigital"
+          target="_blank"
           className={classes.DonateRedButton}
           tabIndex={0}
           onClick={() => {
