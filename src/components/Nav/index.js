@@ -110,7 +110,7 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
           target="_blank"
           className={classes.DonateRedButtonDesktop}
           tabIndex={0}
-          onClick={() => trackDonateButtonLinkClick("desktop")}
+          onClick={() => trackDonateButtonLinkClick("nav desktop")}
         >
           <Typography component="span" className={classes.linkButton}>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
@@ -183,7 +183,7 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           tabIndex={0}
           onClick={() => {
             toggleMobileNav();
-            trackDonateButtonLinkClick("mobile");
+            trackDonateButtonLinkClick("nav mobile");
           }}
         >
           <Typography component="span" className={classes.linkButton}>
