@@ -1277,6 +1277,12 @@
       "value": "データブローカー"
     }
   ],
+  "nav.donate": [
+    {
+      "type": 0,
+      "value": "寄付をする"
+    }
+  ],
   "nav.donation": [
     {
       "type": 0,
@@ -1305,12 +1311,6 @@
     {
       "type": 0,
       "value": "プライバシーポリシー"
-    }
-  ],
-  "nav.search": [
-    {
-      "type": 0,
-      "value": "企業や団体を検索"
     }
   ],
   "nav.stats": [

@@ -9,7 +9,7 @@ import {
   ThanksCopyPart1Email,
   ThanksCopyPart1Copy, 
   ThanksRequestTypeDelete,
-  ThanksRequestTypeAccess,
+  ThanksRequestTypeAccess
 } from "./text";
 import {useIntl} from 'react-intl';
 import Regulations from "../../utils/regulations";
@@ -36,7 +36,6 @@ const styles = (theme) => ({
     marginBottom: "20px",
   },
   text: {
-    marginBottom: "30px",
     textAlign: "left",
   },
   donateButton: {
@@ -109,7 +108,20 @@ const ThanksMessage = (props) => {
           className={classes.text}
           id="ThanksMessageText"
         >
-          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}{/*{" "}{ThanksCopyPart3} */}
+          {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}
+        </Typography>
+        <Typography
+          component="p"
+          gutterBottom={false}
+          className={classes.text}
+        >      
+          <FormattedMessage
+            id="thankyou.donation"
+            defaultMessage="Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
+            values={{
+              a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
+            }}
+          />
         </Typography>
       </div>
       <Subscribe/>
