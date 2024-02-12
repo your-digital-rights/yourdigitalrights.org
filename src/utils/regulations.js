@@ -299,16 +299,16 @@ const Regulations = {
     escalation_timeLimit: 90,
     dpa: {
       shortName: 'CA AG',
-      longName: 'Attorney General of California',
-      requestFormURL: 'https://www.oag.ca.gov/contact/consumer-complaint-against-business-or-company',
-      defaultAction: 'form',
+      longName: 'California Privacy Protection Agency',
+      requestFormURL: 'https://cppa.ca.gov/webapplications/complaint',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'California',
           countryCode: 'CA',
-          email: 'PrivacyOffice@doj.ca.gov',
-          website: 'https://www.oag.ca.gov/',
-          chairman: 'Rob Nota'
+          email: 'info@cppa.ca.gov',
+          website: 'https://cppa.ca.gov/',
+          chairman: 'Rob Bonta'
         },
       ],
     },
