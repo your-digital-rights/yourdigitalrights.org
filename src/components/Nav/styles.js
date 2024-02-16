@@ -68,7 +68,7 @@ const Theme = (theme) => ({
         height: "50px",
         cursor: "pointer",
         outlineColor: "#e8f4f8",
-
+        marginRight: "-45px",
         [theme.breakpoints.down('md')]: {
             display: "block",
         },

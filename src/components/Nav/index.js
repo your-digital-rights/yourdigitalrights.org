@@ -73,6 +73,12 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
       />
 
       <NavItem
+        href="https://consciousdigital.org/blog"
+        text={<FormattedMessage id="nav.blog" defaultMessage="Blog" />}
+        classes={classes} 
+      />
+
+      <NavItem
         href="/contribute"
         text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
         classes={classes} 
@@ -150,6 +156,15 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           href="https://databrokerswatch.org/top-ten"
           text={
             <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
+          }
+          classes={classes}
+        />
+
+        <NavItem
+          onClickHandler={toggleMobileNav}
+          href="https://consciousdigital.org/blog"
+          text={
+            <FormattedMessage id="nav.blog" defaultMessage="Blog" />
           }
           classes={classes}
         />
