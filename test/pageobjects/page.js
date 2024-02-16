@@ -96,29 +96,17 @@ class Page {
       get nav() {
         return $("#nav");
       },
-      get linkOne() {
-        return $("nav li:nth-child(1)");
+      link(num) {
+        return $(`nav li:nth-child(${num})`);
       },
-      get linkOneText() {
-        return this.linkOne.getText();
-      },
-      get linkTwoText() {
-        return $("nav li:nth-child(2)").getText();
-      },
-      get linkThreeText() {
-        return $("nav li:nth-child(3)").getText();
-      },
-      get linkFourText() {
-        return $("nav li:nth-child(4)").getText();
-      },
-      get linkFiveText() {
-        return $("nav li:nth-child(5)").getText();
+      linkText(num) {
+        return this.link(num).getText();
       },
       get linkLangSelect() {
-        return $("nav  li:nth-child(6) > div > div").getText();
+        return $("nav  li:nth-child(7) > div > div").getText();
       },
       get linkButton() {
-        return $("nav  li:nth-child(7) a");
+        return $("nav  li:nth-child(8) a");
       },
       get linkButtonText() {
         return this.linkButton.getText();
@@ -127,47 +115,20 @@ class Page {
         await $("nav ul + img").click();
         await $(".mob-navbar ul li").waitForClickable();
       },
-      get linkOneMob() {
-        return $(".mob-navbar ul li:nth-child(1)");
+      mobLink(num) {
+        return $(`.mob-navbar ul li:nth-child(${num})`);
       },
-      get linkOneMobText() {
-        return this.linkOneMob.getText();
+      mobLinkText(num) {
+        return this.mobLink(num).getText();
       },
-      get linkTwoMobText() {
-        return $(".mob-navbar ul li:nth-child(2)").getText();
-      },
-      get linkThreeMobText() {
-        return $(".mob-navbar ul li:nth-child(3)").getText();
-      },
-      get linkFourMobText() {
-        return $(".mob-navbar ul li:nth-child(4)").getText();
-      },
-      get linkFiveMobText() {
+      get mobLangSelect() {
         return $(".mob-navbar div > div").getText();
       },
-      get linkSixMob() {
+      get mobButton() {
         return $(".mob-navbar ul > a");
       },
-      get linkSixMobText() {
-        return this.linkSixMob.getText();
-      },
-      get linkSevenMobText() {
-        return $(".mob-navbar ul li:nth-child(7)").getText();
-      },
-      get linkEightMobText() {
-        return $(".mob-navbar ul li:nth-child(8)").getText();
-      },
-      get linkNineMobText() {
-        return $(".mob-navbar ul li:nth-child(9)").getText();
-      },
-      get linkTenMobText() {
-        return $(".mob-navbar ul li:nth-child(10)").getText();
-      },
-      get linkElevenMobText() {
-        return $(".mob-navbar ul li:nth-child(11)").getText();
-      },
-      get linkTwelveMobText() {
-        return $(".mob-navbar ul li:nth-child(12)").getText();
+      get mobButtonText() {
+        return this.mobButton.getText();
       },
     };
   }

@@ -65,7 +65,7 @@ const Theme = (theme) => ({
     },
     hamburgerButton: {
         display: "none",
-        height: "50px",
+        height: "20px",
         cursor: "pointer",
         outlineColor: "#e8f4f8",
 
