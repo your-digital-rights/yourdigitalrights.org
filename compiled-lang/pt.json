@@ -3656,7 +3656,21 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Por favor, considere fazer uma doação para ajudar a garantir a nossa estabilidade financeira e independência a longo prazo:"
+      "value": "Please consider "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "making a donation"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to help ensure our long-term financial stability and independence."
     }
   ],
   "thankyou.findCompany": [

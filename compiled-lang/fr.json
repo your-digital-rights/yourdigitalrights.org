@@ -3648,7 +3648,21 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "N'hésitez pas à faire un don pour contribuer à assurer notre stabilité et notre indépendance financières à long terme :"
+      "value": "Please consider "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "making a donation"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to help ensure our long-term financial stability and independence."
     }
   ],
   "thankyou.findCompany": [
