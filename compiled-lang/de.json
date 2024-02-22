@@ -3640,7 +3640,21 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Bitte erwägen Sie eine Spende, um unsere langfristige finanzielle Stabilität und Unabhängigkeit zu gewährleisten:"
+      "value": "Please consider "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "making a donation"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to help ensure our long-term financial stability and independence."
     }
   ],
   "thankyou.findCompany": [
