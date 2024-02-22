@@ -3616,7 +3616,21 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "私たちの長期的な財務的安定性と独立性の確保を支援するために、寄付をご検討ください。"
+      "value": "Please consider "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "making a donation"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to help ensure our long-term financial stability and independence."
     }
   ],
   "thankyou.findCompany": [
