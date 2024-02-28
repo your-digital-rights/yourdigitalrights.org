@@ -1,12 +1,10 @@
 const Theme = (theme) => ({
     nav: {
         display: "flex",
-        alignItems: "center",
         justifyContent: "space-between",
         padding: "0 60px",
         backgroundColor: "#005ea5",
         borderBottom: "4px solid #0a74be",
-        height: "72px",
         width: "100%",
         zIndex: "11000",
         [theme.breakpoints.down('sm')]: {
