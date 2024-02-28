@@ -146,7 +146,7 @@ const theme = createTheme({
       main: "blue",
     },
     allVariants: {
-
+      fontFamily: source_sans_pro.style.fontFamily,
     },
   },	
   backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",
