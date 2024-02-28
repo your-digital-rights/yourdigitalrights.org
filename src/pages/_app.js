@@ -29,7 +29,7 @@ export default function MyApp({ Component, pageProps }) {
   return <>
     <DefaultSeo {...SEO} />
     <Head>
-      <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+    <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       {locale == TRANSLATION_PSEUDO_LOCAL && (
         <>
           <Script id="crowdin">
@@ -65,7 +65,7 @@ export default function MyApp({ Component, pageProps }) {
           <CssBaseline />
           <Component {...pageProps} />
           <Analytics />
-      </ThemeProvider>
+        </ThemeProvider>
       </StyledEngineProvider>
   </IntlProvider>
   </>;
