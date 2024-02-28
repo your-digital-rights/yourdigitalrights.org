@@ -70,10 +70,8 @@ const styles = (theme) => ({
   },
   VercelLogo: {
     height: "1.8em",
-    marginTop: "5px",
-    [theme.breakpoints.up('md')]: {
-      marginLeft: "-27px",
-    },    
+    width: "auto",
+    marginTop: "5px",   
   }
 });
 

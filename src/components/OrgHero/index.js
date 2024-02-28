@@ -43,6 +43,7 @@ const Hero = ({ classes, selectedCompany }) => {
               width={44}
               height={44}
               fallbackSrc="/images/Keep-it-private.png"
+              alt="Organization logo"
             />
           </div>
         )}
