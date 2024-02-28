@@ -11,27 +11,6 @@ function Capitalize(str){
 
 const Hero = ({ classes, selectedCompany }) => {
   let showOrg = false;
-  let disclamer;
-  if (selectedCompany) {
-    showOrg = selectedCompany.name.toUpperCase() != selectedCompany.url.toUpperCase();
-      disclamer=<FormattedMessage
-      id="orgHero.subTitle1"
-      defaultMessage="Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
-      values={{
-        domain: <strong>{Capitalize(selectedCompany.url)}</strong>,
-        disclamer: txt =>(<strong>{txt}</strong>),
-      }}
-    />
-  } else {
-      disclamer=<FormattedMessage
-      id="orgHero.subTitle2"
-      defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
-      values={{
-        disclamer: txt =>(<strong>{txt}</strong>),
-      }}
-    />
-  }
-
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -86,7 +65,13 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h2"
                 gutterBottom={true}
               >
-                {disclamer}
+                <FormattedMessage
+                  id="orgHero.subTitle2"
+                  defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+                  values={{
+                    disclamer: txt =>(<strong>{txt}</strong>),
+                  }}
+                />
               </Typography>                            
             </>
           )}
