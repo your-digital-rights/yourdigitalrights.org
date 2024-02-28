@@ -138,7 +138,7 @@ const Theme = (theme) => ({
         color: "#ffffff",
         borderRadius: "25px",
         margin: "20px 0",
-    },    
+    },       
     DonateRedButtonDesktop: {
         display: "flex",
         alignItems: "center",

@@ -114,14 +114,11 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
       <li>
         <Button
           onClick={() => trackDonateButtonLinkClick("nav desktop")}
-          variant="contained"
-          color="secondary"
           href="https://opencollective.com/consciousdigital"
           target="_blank"
           className={classes.DonateRedButtonDesktop}
-          tabIndex={0}
         >
-          <Typography component="span" className={classes.linkButton}>
+          <Typography className={classes.linkButton}>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
         </Button>        
