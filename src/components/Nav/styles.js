@@ -140,6 +140,7 @@ const Theme = (theme) => ({
         margin: "20px 0",
     },       
     DonateRedButtonDesktop: {
+        width: "160px",
         display: "flex",
         alignItems: "center",
         height: "40px",
