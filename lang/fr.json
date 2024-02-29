@@ -456,7 +456,7 @@
     "message": "Envoyer des requêtes RGPD, CCPA et LGPD de suppression de données et d'accès"
   },
   "orgHero.newOrgTitle": {
-    "message": "Supprimer ou obtenir une copie de vos données personnelles."
+    "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
     "message": "Organisation: {org}."
@@ -464,8 +464,11 @@
   "orgHero.subTitle2": {
     "message": "Envoyer une demande de suppression de données ou d'accès à l'aide de ce service <disclamer>gratuit et indépendant</disclamer>."
   },
+  "orgHero.subTitleNewOrg": {
+    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+  },
   "orgHero.title": {
-    "message": "Supprimez votre compte ou obtenez une copie de vos données personnelles."
+    "message": "Delete your account or get a copy of your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
