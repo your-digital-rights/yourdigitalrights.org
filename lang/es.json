@@ -456,7 +456,7 @@
     "message": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
   },
   "orgHero.newOrgTitle": {
-    "message": "Eliminar u obtener una copia de sus datos personales."
+    "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
     "message": "Dominio: {org}."
@@ -464,8 +464,11 @@
   "orgHero.subTitle2": {
     "message": "Envía una eliminación de datos o una solicitud de acceso utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
   },
+  "orgHero.subTitleNewOrg": {
+    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+  },
   "orgHero.title": {
-    "message": "Elimina tu cuenta o recibe una copia de tus datos personales."
+    "message": "Delete your account or get a copy of your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
