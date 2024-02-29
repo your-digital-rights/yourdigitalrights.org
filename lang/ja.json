@@ -456,7 +456,7 @@
     "message": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
   },
   "orgHero.newOrgTitle": {
-    "message": "あなたの個人データを削除や開示させましょう."
+    "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
     "message": "企業や団体: {org}."
@@ -464,8 +464,11 @@
   "orgHero.subTitle2": {
     "message": "この <disclamer>無料で独立した</disclamer> サービスを使用して、データ削除またはアクセスリクエストを送信します。"
   },
+  "orgHero.subTitleNewOrg": {
+    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+  },
   "orgHero.title": {
-    "message": "アカウントを削除するか、個人データのコピーを取得します。"
+    "message": "Delete your account or get a copy of your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
