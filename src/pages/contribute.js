@@ -5,14 +5,14 @@ import Paper from "@mui/material/Paper";
 import Social from "../components/Social";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
-import { withRouter } from "next/router";
+import { useRouter } from "next/router";
 
 
-const styles = (theme) => ({
+const useStyles = makeStyles((theme) => ({
   container: {
     position: "relative",
     ...container,
@@ -29,11 +29,13 @@ const styles = (theme) => ({
       paddingRight: 30,
     },
   },
-});
+}));
 
 
-const Contribute = ({ classes, router }) => {
+export default function Contribute(){
+  const classes = useStyles();
   const intl = useIntl();
+  const router = useRouter();
   const Description = intl.formatMessage({id: "contribute.description", defaultMessage: "Help us improve YourDigitalRights.org."});
   const BaseURL = "/contribute";
 
@@ -273,5 +275,3 @@ const Contribute = ({ classes, router }) => {
     </div>
   );
 };
-
-export default withStyles(styles)(withRouter(Contribute));

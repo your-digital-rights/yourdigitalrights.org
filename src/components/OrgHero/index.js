@@ -57,7 +57,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.title"
-                  defaultMessage="Delete your account or get a copy of your personal data."
+                  defaultMessage="Delete your account or get a copy of your data."
                 />
               </Typography>
               <Typography
@@ -76,25 +76,29 @@ const Hero = ({ classes, selectedCompany }) => {
             </>
           )}
           {!selectedCompany && (
-
             <div id="add-org" className={classes.addOrg}>
               <Typography
                 variant="h3"
                 color="inherit"
                 gutterBottom={true}
                 component="h1"
-                className={classes.heading}
               >
                 <FormattedMessage
                   id="orgHero.newOrgTitle"
-                  defaultMessage="Delete or Get a Copy of Your Personal Data."
+                  defaultMessage="Send a data deletion or access request."
                 />
             </Typography>
               <Typography
                 color="inherit"
                 component="h2"
               >
-                {disclamer}
+                <FormattedMessage
+                  id="orgHero.subTitleNewOrg"
+                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+                  values={{
+                    disclamer: txt =>(<strong>{txt}</strong>),
+                  }}
+                />
               </Typography>
             </div>
           )}

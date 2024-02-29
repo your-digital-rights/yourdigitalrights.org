@@ -145,7 +145,7 @@ const theme = createTheme({
     textSecondary: {
       main: "blue",
     },
-
+    fontFamily: source_sans_pro.style.fontFamily,
   },	
   backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",
   color: "white",
