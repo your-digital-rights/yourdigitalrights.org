@@ -64,7 +64,7 @@ module.exports = {
           },             
           {
             key: 'Content-Security-Policy',
-            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud js.stripe.com substackapi.com *.cloudflareinsights.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com; frame-src js.stripe.com"
+            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud js.stripe.com substackapi.com *.cloudflareinsights.com *.vercel-scripts.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com; frame-src js.stripe.com"
           },            
         ],
       },

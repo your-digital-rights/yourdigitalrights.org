@@ -1400,7 +1400,7 @@
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Delete or Get a Copy of Your Personal Data."
+      "value": "Send a data deletion or access request."
     }
   ],
   "orgHero.orgName": [
@@ -1415,34 +1415,6 @@
     {
       "type": 0,
       "value": "."
-    }
-  ],
-  "orgHero.subTitle1": [
-    {
-      "type": 0,
-      "value": "Send "
-    },
-    {
-      "type": 1,
-      "value": "domain"
-    },
-    {
-      "type": 0,
-      "value": " a data deletion or access request using this "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "free and independent"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " service."
     }
   ],
   "orgHero.subTitle2": [
@@ -1465,10 +1437,30 @@
       "value": " service."
     }
   ],
+  "orgHero.subTitleNewOrg": [
+    {
+      "type": 0,
+      "value": "Get organizations to delete or send you a copy of your personal data using this "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "free and independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " service."
+    }
+  ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your personal data."
+      "value": "Delete your account or get a copy of your data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [

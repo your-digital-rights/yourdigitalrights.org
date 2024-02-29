@@ -16,6 +16,7 @@ import TWGrey from "../../../public/images/sh/tw-grey.svg";
 import Logo from "../../../public/images/type.svg";
 import CloseIcon from "../../../public/images/close-icon.svg";
 import HamburgerIcon from "../../../public/images/hamburgerIcon.svg";
+import Button from "@mui/material/Button";
 
 const trackSearchButtonLinkClick = (device) => {
   tracking.trackSearchButtonLinkClick(device);
@@ -111,17 +112,16 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
       </li>
 
       <li>
-        <a
+        <Button
+          onClick={() => trackDonateButtonLinkClick("nav desktop")}
           href="https://opencollective.com/consciousdigital"
           target="_blank"
           className={classes.DonateRedButtonDesktop}
-          tabIndex={0}
-          onClick={() => trackDonateButtonLinkClick("nav desktop")}
         >
-          <Typography component="span" className={classes.linkButton}>
+          <Typography className={classes.linkButton}>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
-        </a>
+        </Button>        
       </li>
 
     </ul>
@@ -191,20 +191,23 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
           </MenuItem>             
         </Select>
-        <a
-          href="https://opencollective.com/consciousdigital"
-          target="_blank"
-          className={classes.DonateRedButton}
-          tabIndex={0}
+
+        <Button
           onClick={() => {
             toggleMobileNav();
             trackDonateButtonLinkClick("nav mobile");
           }}
+          variant="contained"
+          color="secondary"
+          href="https://opencollective.com/consciousdigital"
+          target="_blank"
+          className={classes.DonateRedButton}
+          tabIndex={0}
         >
           <Typography component="span" className={classes.linkButton}>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
-        </a>
+        </Button>  
 
         <NavItem
           onClickHandler={toggleMobileNav}
@@ -327,7 +330,7 @@ class Nav extends Component {
       <div>
         <nav ref={this.toggleMenu} className={classes.nav}>
           <a className={classes.logoLink} href="/">
-            <Image className={classes.logo} src={Logo} tabIndex={0} />
+            <Image className={classes.logo} alt="YourDigitalRights.org" src={Logo} tabIndex={0} />
           </a>
           <NavListDesktop 
             classes={classes} 

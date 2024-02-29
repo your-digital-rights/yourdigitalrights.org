@@ -3,12 +3,12 @@ import { theme } from "../../styles/theme";
 
 const Style = (theme) => ({
   hero: {
+    color: "white",
     paddingBottom: "150px",
     display: "flex",
     flexDirection: "column",
     backgroundColor: theme.palette.primary.main,
     textAlign: "left",
-    ...theme,
     [theme.breakpoints.down('md')]: {
       padding: "60px 0px 150px",
     },

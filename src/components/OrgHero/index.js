@@ -11,27 +11,6 @@ function Capitalize(str){
 
 const Hero = ({ classes, selectedCompany }) => {
   let showOrg = false;
-  let disclamer;
-  if (selectedCompany) {
-    showOrg = selectedCompany.name.toUpperCase() != selectedCompany.url.toUpperCase();
-      disclamer=<FormattedMessage
-      id="orgHero.subTitle1"
-      defaultMessage="Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
-      values={{
-        domain: <strong>{Capitalize(selectedCompany.url)}</strong>,
-        disclamer: txt =>(<strong>{txt}</strong>),
-      }}
-    />
-  } else {
-      disclamer=<FormattedMessage
-      id="orgHero.subTitle2"
-      defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
-      values={{
-        disclamer: txt =>(<strong>{txt}</strong>),
-      }}
-    />
-  }
-
   return (
     <div className={classes.hero} id="hero">
       <div className={classes.container}>
@@ -43,6 +22,7 @@ const Hero = ({ classes, selectedCompany }) => {
               width={44}
               height={44}
               fallbackSrc="/images/Keep-it-private.png"
+              alt="Organization logo"
             />
           </div>
         )}
@@ -77,7 +57,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.title"
-                  defaultMessage="Delete your account or get a copy of your personal data."
+                  defaultMessage="Delete your account or get a copy of your data."
                 />
               </Typography>
               <Typography
@@ -85,30 +65,40 @@ const Hero = ({ classes, selectedCompany }) => {
                 component="h2"
                 gutterBottom={true}
               >
-                {disclamer}
+                <FormattedMessage
+                  id="orgHero.subTitle2"
+                  defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+                  values={{
+                    disclamer: txt =>(<strong>{txt}</strong>),
+                  }}
+                />
               </Typography>                            
             </>
           )}
           {!selectedCompany && (
-
             <div id="add-org" className={classes.addOrg}>
               <Typography
                 variant="h3"
                 color="inherit"
                 gutterBottom={true}
                 component="h1"
-                className={classes.heading}
               >
                 <FormattedMessage
                   id="orgHero.newOrgTitle"
-                  defaultMessage="Delete or Get a Copy of Your Personal Data."
+                  defaultMessage="Send a data deletion or access request."
                 />
             </Typography>
               <Typography
                 color="inherit"
                 component="h2"
               >
-                {disclamer}
+                <FormattedMessage
+                  id="orgHero.subTitleNewOrg"
+                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+                  values={{
+                    disclamer: txt =>(<strong>{txt}</strong>),
+                  }}
+                />
               </Typography>
             </div>
           )}

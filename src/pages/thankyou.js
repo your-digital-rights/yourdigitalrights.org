@@ -8,6 +8,7 @@ import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
 import ThanksMessage from "../components/ThanksMessage";
+import PropTypes from 'prop-types';
 
 const styles = (theme) => ({
   container: {

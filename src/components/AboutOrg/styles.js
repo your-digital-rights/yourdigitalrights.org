@@ -4,7 +4,6 @@ import { container } from "../../styles/layout";
 const Style = (theme) => ({
   about: {
     backgroundColor: theme.palette.primary.main,
-    ...theme,
   },
   heading: {
     maxWidth: "850px !important",

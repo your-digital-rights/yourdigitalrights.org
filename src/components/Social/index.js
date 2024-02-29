@@ -28,7 +28,6 @@ const styles = (theme) => ({
     justifyContent: "center",
     textAlign: "center",
     alignItems: "baseline",
-    ...theme,
   },
 
   offsetThankYou: {
