@@ -21,7 +21,6 @@ import {
   RequestTypeLabelText,
   AccessRequestLabelText,
   DeletionRequestLabelText,
-  supportButtonCTA
 } from "./text";
 import { injectIntl } from "react-intl";
 import React, { Component, Fragment } from "react";
@@ -43,10 +42,8 @@ import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
 import { withRouter } from 'next/router'
-import { mailgoValidateEmail } from "mailgo";
-import SupportAgentIcon from '@mui/icons-material/SupportAgent';
-import Button from '@mui/material/Button';
-import Link from 'next/link';
+import isEmail from 'validator/lib/isEmail';
+
 
 const screenHeightBreakpoint = 560;
 
@@ -109,7 +106,7 @@ class Form extends Component {
 
   validateInput(inputName, inputValue) {
     if (inputName === "companyEmail") {
-      const companyEmailError = mailgoValidateEmail(inputValue)
+      const companyEmailError = isEmail(inputValue)
         ? ""
         : this.props.intl.formatMessage({
           id: "personalInfoForm.validEmail",
