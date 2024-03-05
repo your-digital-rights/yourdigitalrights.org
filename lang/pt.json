@@ -456,19 +456,19 @@
     "message": "Enviar GDPR, CCPA e Exclusão de Dados e Requisições de Acesso"
   },
   "orgHero.newOrgTitle": {
-    "message": "Exclua ou obtenha uma cópia de seus dados pessoais."
+    "message": "Envie uma solicitação de acesso ou exclusão de dados."
   },
   "orgHero.orgName": {
     "message": "Organização: {org}."
   },
-  "orgHero.subTitle1": {
-    "message": "Envie uma exclusão de dados {domain} ou uma solicitação de acesso usando este serviço <disclamer>gratuito e independente</disclamer>."
-  },
   "orgHero.subTitle2": {
     "message": "Envie uma exclusão de dados ou uma solicitação de acesso usando este serviço <disclamer>gratuito e independente</disclamer>."
   },
+  "orgHero.subTitleNewOrg": {
+    "message": "Faça com que as organizações excluam ou enviem uma cópia dos seus dados pessoais usando este serviço <disclamer>gratuito e independente</disclamer>."
+  },
   "orgHero.title": {
-    "message": "Excluir sua conta ou obter uma cópia de seus dados pessoais."
+    "message": "Exclua a sua conta ou obtenha uma cópia dos seus dados."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para garantir que a organização atenda à sua solicitação, enviaremos um e-mail a você quando mais ações foram necessárias. Você terá a opção de enviar um e-mail de lembrete à organização, ou de recorrer à agência apropriada de proteção de dados."

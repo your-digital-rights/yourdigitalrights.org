@@ -456,19 +456,19 @@
     "message": "Invia GDPR, CCPA e LGPD Data Deletion and Access Requests"
   },
   "orgHero.newOrgTitle": {
-    "message": "Elimina o ottieni una copia dei tuoi dati personali."
+    "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
     "message": "Organizzazione: {org}."
   },
-  "orgHero.subTitle1": {
-    "message": "Send {domain} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
-  },
   "orgHero.subTitle2": {
     "message": "Invia una cancellazione dei dati o una richiesta di accesso utilizzando questo servizio <disclamer>gratuito e indipendente</disclamer>."
   },
+  "orgHero.subTitleNewOrg": {
+    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+  },
   "orgHero.title": {
-    "message": "Elimina il tuo account o ricevi una copia dei tuoi dati personali."
+    "message": "Delete your account or get a copy of your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Per garantire che l'organizzazione rispetti la tua richiesta, ti invieremo un'email quando sarà il momento di intraprendere ulteriori azioni. Ti verrà data la scelta di inviare all'organizzazione una e-mail di promemoria, o di aumentare all'agenzia di protezione dei dati locale."
