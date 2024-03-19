@@ -25,9 +25,17 @@ export default function MyDocument(props) {
         />   
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="me" href="https://twitter.com/ConsciousDigit" />
-        <Script id="matomo">
-          {`var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*.${DOMAIN}']); _paq.push(['setDomains', ['*.${DOMAIN}']]); _paq.push(['alwaysUseSendBeacon']); _paq.push(['disableCookies']); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();`}
-        </Script>
+        <script
+          id="matomo"
+          dangerouslySetInnerHTML={{
+            __html:
+              "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." +
+              DOMAIN +
+              "']); _paq.push(['setDomains', ['*." +
+              DOMAIN +
+              "']]); _paq.push(['alwaysUseSendBeacon']); _paq.push(['disableCookies']); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();",
+          }}
+        />        
         <noscript>
           <p>
             <img

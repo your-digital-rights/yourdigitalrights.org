@@ -1378,7 +1378,7 @@
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Exclua ou obtenha uma cópia de seus dados pessoais."
+      "value": "Envie uma solicitação de acesso ou exclusão de dados."
     }
   ],
   "orgHero.orgName": [
@@ -1389,34 +1389,6 @@
     {
       "type": 1,
       "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
-  "orgHero.subTitle1": [
-    {
-      "type": 0,
-      "value": "Envie uma exclusão de dados "
-    },
-    {
-      "type": 1,
-      "value": "domain"
-    },
-    {
-      "type": 0,
-      "value": " ou uma solicitação de acesso usando este serviço "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "gratuito e independente"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
     },
     {
       "type": 0,
@@ -1443,10 +1415,30 @@
       "value": "."
     }
   ],
+  "orgHero.subTitleNewOrg": [
+    {
+      "type": 0,
+      "value": "Faça com que as organizações excluam ou enviem uma cópia dos seus dados pessoais usando este serviço "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "gratuito e independente"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Excluir sua conta ou obter uma cópia de seus dados pessoais."
+      "value": "Exclua a sua conta ou obtenha uma cópia dos seus dados."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
