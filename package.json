@@ -68,7 +68,7 @@
     "vercel": "^33.5.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.1",
+    "@babel/core": "^7.24.3",
     "@babel/plugin-transform-runtime": "^7.23.9",
     "@babel/preset-env": "^7.24.0",
     "@babel/register": "^7.21.0",
