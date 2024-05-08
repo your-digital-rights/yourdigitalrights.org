@@ -36,16 +36,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 className={classes.heading}
               >
                 {Capitalize(selectedCompany.url)}
-              </Typography>
-              <Typography color="inherit">
-                <FormattedMessage
-                    id="orgHero.orgName"
-                    defaultMessage="Organization: {org}."
-                    values={{ 
-                      org: <strong>{selectedCompany.name}</strong> 
-                    }}
-                />                
-              </Typography>         
+              </Typography>      
               <Typography
                 color="inherit"
                 component="h1"
@@ -54,7 +45,7 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.title"
-                  defaultMessage="Delete your {domain} account or get a copy of your data."
+                  defaultMessage="Delete your {domain} account or request your data."
                   values={{ 
                     domain: <strong>{selectedCompany.url}</strong> 
                   }}
@@ -67,12 +58,13 @@ const Hero = ({ classes, selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitle2"
-                  defaultMessage="Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+                  defaultMessage="Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
                   values={{
                     disclamer: txt =>(<strong>{txt}</strong>),
+                    name: <strong>{selectedCompany.name}</strong>,
                   }}
                 />
-              </Typography>                            
+              </Typography>                           
             </>
           )}
           {!selectedCompany && (

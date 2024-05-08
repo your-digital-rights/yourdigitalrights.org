@@ -1410,7 +1410,7 @@
   "orgHero.orgName": [
     {
       "type": 0,
-      "value": "Organization: "
+      "value": "Name: "
     },
     {
       "type": 1,
@@ -1424,7 +1424,15 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request using this "
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
     },
     {
       "children": [
@@ -1472,7 +1480,7 @@
     },
     {
       "type": 0,
-      "value": " account or get a copy of your data."
+      "value": " account or request your data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [

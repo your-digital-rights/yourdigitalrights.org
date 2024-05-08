@@ -63,7 +63,7 @@ const Style = (theme) => ({
   title: {
     fontWeight: "600",
     color: "white",
-    fontSize: "1.5rem",
+    fontSize: "1.7rem",
     paddingTop: "10px",
     lineHeight: "1.13333em",
   },
