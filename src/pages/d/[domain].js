@@ -27,11 +27,11 @@ function Capitalize(str){
 const Org = ({ classes, organization, router, newOrg }) => {
   const intl = useIntl();
   const Title = organization ? 
-    intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "{org} - Delete Your Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "Delete Your {org} Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
     intl.formatMessage({id: "org.titleNewOrg", defaultMessage: "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"});
   const Description = organization ? 
-    intl.formatMessage({id: "org.descriptionExistingOrg", defaultMessage:"Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."},{org: Capitalize(organization.url)}) : 
-    intl.formatMessage({id: "org.DescriptionNewOrg", defaultMessage:"Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."});
+    intl.formatMessage({id: "org.descriptionExistingOrg", defaultMessage:"Request account deletion or a copy of your personal data from {org} quickly and easily."},{org: Capitalize(organization.url)}) : 
+    intl.formatMessage({id: "org.DescriptionNewOrg", defaultMessage:"Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."});
   const BaseURL = organization ? 
     "/d/" + organization.url : 
     "/d/add";
