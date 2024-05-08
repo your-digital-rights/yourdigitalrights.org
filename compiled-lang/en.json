@@ -1364,7 +1364,7 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
+      "value": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
     }
   ],
   "org.descriptionExistingOrg": [
@@ -1378,17 +1378,21 @@
     },
     {
       "type": 0,
-      "value": " quickly and easily using this free service."
+      "value": " quickly and easily."
     }
   ],
   "org.titleExistingOrg": [
+    {
+      "type": 0,
+      "value": "Delete Your "
+    },
     {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": " - Delete Your Account or Get a Copy of Your Data"
+      "value": " Account or Get a Copy of Your Data"
     }
   ],
   "org.titleNewOrg": [
@@ -1403,24 +1407,18 @@
       "value": "Send a data deletion or access request."
     }
   ],
-  "orgHero.orgName": [
-    {
-      "type": 0,
-      "value": "Organization: "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request using this "
+      "value": "Send "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " a data deletion or access request using this "
     },
     {
       "children": [
@@ -1460,7 +1458,15 @@
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your data."
+      "value": "Delete your "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " account or request your data."
     }
   ],
   "personalInfoForm.FollowUpDetails": [

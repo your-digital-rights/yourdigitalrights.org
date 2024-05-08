@@ -60,6 +60,13 @@ const Style = (theme) => ({
       display: "none",
     },
   },
+  title: {
+    fontWeight: "600",
+    color: "white",
+    fontSize: "1.7rem",
+    paddingTop: "10px",
+    lineHeight: "1.13333em",
+  },
   titleLink: {
     color: "#ffffff",
     textDecoration: "none",

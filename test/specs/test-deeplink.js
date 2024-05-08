@@ -11,7 +11,7 @@ describe("When I visit an org page", () => {
     const heading = await page.heading;
     const headingText = await heading.getText();
     headingText.should.equal(
-      "Delete your account or get a copy of your data."
+      "Delete your slack.com account or request your data."
     );
   });
 });

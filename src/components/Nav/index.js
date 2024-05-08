@@ -327,7 +327,7 @@ class Nav extends Component {
     const { mobileNavOpen } = this.state;
     const menuIcon = mobileNavOpen ? CloseIcon : HamburgerIcon;
     return (
-      <div>
+      <div data-nosnippet>
         <nav ref={this.toggleMenu} className={classes.nav}>
           <a className={classes.logoLink} href="/">
             <Image className={classes.logo} alt="YourDigitalRights.org" src={Logo} tabIndex={0} />

@@ -444,13 +444,13 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily using this free service."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
   },
   "org.descriptionExistingOrg": {
-    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily using this free service."
+    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Delete Your Account or Get a Copy of Your Data"
+    "message": "Delete Your {org} Account or Get a Copy of Your Data"
   },
   "org.titleNewOrg": {
     "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
@@ -458,17 +458,14 @@
   "orgHero.newOrgTitle": {
     "message": "Send a data deletion or access request."
   },
-  "orgHero.orgName": {
-    "message": "Organization: {org}."
-  },
   "orgHero.subTitle2": {
-    "message": "Send a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+    "message": "Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.subTitleNewOrg": {
     "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Delete your {domain} account or request your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
