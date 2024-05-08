@@ -236,7 +236,7 @@ class Form extends Component {
     const { classes, selectedCompany } = this.props;
 
     return (
-      <div id="Form">
+      <div data-nosnippet id="Form">
         <Paper
           component="form"
           className={classes.formContainer}
@@ -258,7 +258,7 @@ class Form extends Component {
           </div>
 */}          
           <Typography gutterBottom={true} variant={"body1"}>
-            <span data-nosnippet>
+            <span>
               {Headline}
             </span>
           </Typography>
