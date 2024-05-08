@@ -444,13 +444,13 @@
     "message": "#possédervosdonnées"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation en utilisant ce service gratuit rapidement et facilement."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
   },
   "org.descriptionExistingOrg": {
-    "message": "Demandez la suppression de votre compte ou une copie de vos données personnelles à {org} rapidement et facilement en utilisant ce service gratuit."
+    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Supprimer votre compte ou obtenir une copie de vos données"
+    "message": "Delete Your {org} Account or Get a Copy of Your Data"
   },
   "org.titleNewOrg": {
     "message": "Envoyer des requêtes RGPD, CCPA et LGPD de suppression de données et d'accès"
@@ -459,16 +459,16 @@
     "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
-    "message": "Organisation: {org}."
+    "message": "Name: {org}."
   },
   "orgHero.subTitle2": {
-    "message": "Envoyer une demande de suppression de données ou d'accès à l'aide de ce service <disclamer>gratuit et indépendant</disclamer>."
+    "message": "Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.subTitleNewOrg": {
     "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Delete your {domain} account or request your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
