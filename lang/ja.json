@@ -444,13 +444,13 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Your Digital Rights を使って、 GDPR, CCPA, LGPD に基づくデータの削除・開示リクエストを素早く簡単に送信しましょう。"
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
   },
   "org.descriptionExistingOrg": {
-    "message": "Your Digital Rights を使用して、 {org} が持つあなたに関するデータの削除・開示を素早く簡単にリクエストしましょう。"
+    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - あなたに関するデータの削除や開示の請求をリクエストしましょう"
+    "message": "Delete Your {org} Account or Get a Copy of Your Data"
   },
   "org.titleNewOrg": {
     "message": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
@@ -459,16 +459,16 @@
     "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
-    "message": "企業や団体: {org}."
+    "message": "Name: {org}."
   },
   "orgHero.subTitle2": {
-    "message": "この <disclamer>無料で独立した</disclamer> サービスを使用して、データ削除またはアクセスリクエストを送信します。"
+    "message": "<disclamer>無料・中立</disclamer>の本サービスを使用して、 {name} に対してデータ削除または開示請求を送信します。"
   },
   "orgHero.subTitleNewOrg": {
     "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Delete your {domain} account or request your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
