@@ -444,13 +444,13 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envíe los datos de GDPR, CCPA y LGPD y las solicitudes de acceso a cualquier organización rápida y fácilmente utilizando este servicio gratuito."
+    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
   },
   "org.descriptionExistingOrg": {
-    "message": "Solicite la eliminación o copia de sus datos personales de {org} rápida y sencilla utilizando este servicio gratuito."
+    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Elimine su cuenta u obtenga una copia de sus datos"
+    "message": "Delete Your {org} Account or Get a Copy of Your Data"
   },
   "org.titleNewOrg": {
     "message": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
@@ -459,16 +459,16 @@
     "message": "Send a data deletion or access request."
   },
   "orgHero.orgName": {
-    "message": "Dominio: {org}."
+    "message": "Name: {org}."
   },
   "orgHero.subTitle2": {
-    "message": "Envía una eliminación de datos o una solicitud de acceso utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
+    "message": "Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.subTitleNewOrg": {
     "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Delete your {domain} account or request your data."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
