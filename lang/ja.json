@@ -408,7 +408,7 @@
     "message": "私たちについて"
   },
   "nav.blog": {
-    "message": "Blog"
+    "message": "ブログ"
   },
   "nav.contact": {
     "message": "お問い合わせ"
@@ -444,28 +444,28 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
+    "message": "GDPR、CCPA、LGPDデータの削除を送信し、あらゆる組織への要求に迅速かつ簡単にアクセスできます。"
   },
   "org.descriptionExistingOrg": {
-    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
+    "message": "アカウントの削除または {org} からのあなたの個人データのコピーを迅速かつ簡単に要求します。"
   },
   "org.titleExistingOrg": {
-    "message": "Delete Your {org} Account or Get a Copy of Your Data"
+    "message": "{org} アカウントを削除するか、データのコピーを取得してください"
   },
   "org.titleNewOrg": {
     "message": "GDPR、CCPA、LGPDに基づくデータの削除・開示リクエストを送信しましょう"
   },
   "orgHero.newOrgTitle": {
-    "message": "Send a data deletion or access request."
+    "message": "データ削除またはアクセスリクエストを送信します。"
   },
   "orgHero.subTitle2": {
     "message": "<disclamer>無料・中立</disclamer>の本サービスを使用して、 {name} に対してデータ削除または開示請求を送信します。"
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+    "message": "この <disclamer>無料で独立した</disclamer> サービスを使用して、組織にあなたの個人データのコピーを削除または送信させます。"
   },
   "orgHero.title": {
-    "message": "Delete your {domain} account or request your data."
+    "message": "{domain} アカウントを削除するか、データをリクエストしてください。"
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "企業や団体を確実にあなたのリクエストに従わせるため、アクションが必要となる時点で企業や団体に対してリマインダーメールを送信します。リマインダーメールを送信するか、地域のデータ保護機関にエスカレーションするかは、選択することができます。"
@@ -1014,7 +1014,7 @@
     "message": "ありがとうございます"
   },
   "thankyou.donation": {
-    "message": "Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
+    "message": "<a>が長期的な金融の安定と独立性を確保するために、</a> 寄付を行うことをご検討ください。"
   },
   "thankyou.findCompany": {
     "message": "別の企業・団体を探す"
