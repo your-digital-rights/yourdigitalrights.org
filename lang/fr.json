@@ -408,7 +408,7 @@
     "message": "Sur"
   },
   "nav.blog": {
-    "message": "Blog"
+    "message": "Blogue"
   },
   "nav.contact": {
     "message": "Nous contacter"
@@ -444,31 +444,28 @@
     "message": "#possédervosdonnées"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation en utilisant ce service gratuit rapidement et facilement."
+    "message": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation rapidement et facilement."
   },
   "org.descriptionExistingOrg": {
-    "message": "Demandez la suppression de votre compte ou une copie de vos données personnelles à {org} rapidement et facilement en utilisant ce service gratuit."
+    "message": "Demandez la suppression de votre compte ou une copie de vos données personnelles à partir de {org} rapidement et facilement."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Supprimer votre compte ou obtenir une copie de vos données"
+    "message": "Supprimez votre compte {org} ou obtenez une copie de vos données"
   },
   "org.titleNewOrg": {
     "message": "Envoyer des requêtes RGPD, CCPA et LGPD de suppression de données et d'accès"
   },
   "orgHero.newOrgTitle": {
-    "message": "Send a data deletion or access request."
-  },
-  "orgHero.orgName": {
-    "message": "Organisation: {org}."
+    "message": "Envoyer une demande de suppression de données ou d'accès."
   },
   "orgHero.subTitle2": {
-    "message": "Envoyer une demande de suppression de données ou d'accès à l'aide de ce service <disclamer>gratuit et indépendant</disclamer>."
+    "message": "Envoyez à {name} une suppression de données ou une demande d'accès en utilisant ce service <disclamer>gratuit et indépendant</disclamer>."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+    "message": "Demandez aux organisations de vous supprimer ou de vous envoyer une copie de vos données personnelles en utilisant ce service <disclamer>gratuit et indépendant</disclamer>."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Supprimez votre compte {domain} ou demandez vos données."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Pour vous assurer que l'organisation répond à votre demande, nous vous enverrons un courriel dès qu'il sera temps de prendre des mesures supplémentaires. Vous aurez le choix d'envoyer un courriel de rappel à l'organisation ou de passer à l'agence locale de protection des données."
@@ -1017,7 +1014,7 @@
     "message": "Merci"
   },
   "thankyou.donation": {
-    "message": "Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
+    "message": "Veuillez envisager <a>de faire un don</a> pour nous aider à assurer notre stabilité financière à long terme et notre indépendance."
   },
   "thankyou.findCompany": {
     "message": "Trouver une autre organisation"
