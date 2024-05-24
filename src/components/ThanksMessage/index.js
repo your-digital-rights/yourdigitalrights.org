@@ -110,21 +110,43 @@ const ThanksMessage = (props) => {
         >
           {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}
         </Typography>
+        <div style={{display: "flex", alignItems: "center", flexDirection: "column", marginTop: "30px", marginBottom: "30px"}}>
         <Typography
           component="p"
-          gutterBottom={false}
+          variant="h5"
+          gutterBottom={true}
           className={classes.text}
         >      
           <FormattedMessage
-            id="thankyou.donation"
+/*            id="thankyou.donation"
             defaultMessage="Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
             values={{
               a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
             }}
+*/            
+            id="thankyou.nominate"
+            defaultMessage="Support this nonprofit organization by nominating us to the <a>EFF Awards</a>."
+            values={{
+              a: txt => ( <a rel="noreferrer noopener" href="https://www.eff.org/nominations-open-2024-eff-awards#A" target="_blank">{txt}</a>),
+            }}
           />
         </Typography>
+        <Typography
+          component="p"
+          gutterBottom={false}
+          className={classes.text}
+        >           
+          <FormattedMessage  
+            id="thankyou.nominate2"
+            defaultMessage="Use nominee name: Conscious Digital, and website: <a>https://consciousdigital.org/</a>"
+            values={{
+              a: txt => ( <a href="https://consciousdigital.org/" target="_blank">{txt}</a>),
+            }}
+          />          
+        </Typography>
+        </div>
       </div>
-      <Subscribe/>
+      {/*<Subscribe/>*/}
 {/*      <Button
           variant="contained"
           color="secondary"
