@@ -444,31 +444,28 @@
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Envíe los datos de GDPR, CCPA y LGPD y las solicitudes de acceso a cualquier organización rápida y fácilmente utilizando este servicio gratuito."
+    "message": "Enviar datos GDPR, CCPA y LGPD borrados y solicitudes de acceso a cualquier organización rápida y fácilmente."
   },
   "org.descriptionExistingOrg": {
-    "message": "Solicite la eliminación o copia de sus datos personales de {org} rápida y sencilla utilizando este servicio gratuito."
+    "message": "Solicitar la eliminación de la cuenta o una copia de tus datos personales de {org} rápida y fácilmente."
   },
   "org.titleExistingOrg": {
-    "message": "{org} - Elimine su cuenta u obtenga una copia de sus datos"
+    "message": "Eliminar su cuenta {org} o obtener una copia de sus datos"
   },
   "org.titleNewOrg": {
     "message": "Enviar solicitudes de acceso y eliminación de datos GDPR, CCPA y LGPD"
   },
   "orgHero.newOrgTitle": {
-    "message": "Send a data deletion or access request."
-  },
-  "orgHero.orgName": {
-    "message": "Dominio: {org}."
+    "message": "Enviar una eliminación de datos o solicitud de acceso."
   },
   "orgHero.subTitle2": {
-    "message": "Envía una eliminación de datos o una solicitud de acceso utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
+    "message": "Enviar a {name} una eliminación de datos o una solicitud de acceso utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+    "message": "Obtén organizaciones que te eliminen o te envíen una copia de tus datos personales utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
   },
   "orgHero.title": {
-    "message": "Delete your account or get a copy of your data."
+    "message": "Elimina tu cuenta {domain} o solicita tus datos."
   },
   "personalInfoForm.FollowUpDetails": {
     "message": "Para asegurarse de que la organización cumple con su petición, le enviaremos un correo electrónico cuando llegue el momento de tomar medidas adicionales. Se le dará la opción de enviar un correo electrónico de recordatorio a la organización o de escalar a la agencia local de protección de datos."
@@ -1017,7 +1014,7 @@
     "message": "Gracias."
   },
   "thankyou.donation": {
-    "message": "Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
+    "message": "Por favor considere <a>hacer una donación</a> para ayudar a garantizar nuestra estabilidad financiera e independencia a largo plazo."
   },
   "thankyou.findCompany": {
     "message": "Busca otra organización"
