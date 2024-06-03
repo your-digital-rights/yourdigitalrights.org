@@ -1262,7 +1262,7 @@
   "nav.blog": [
     {
       "type": 0,
-      "value": "Blog"
+      "value": "Blogue"
     }
   ],
   "nav.contact": [
@@ -1334,13 +1334,13 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation en utilisant ce service gratuit rapidement et facilement."
+      "value": "Envoyez des demandes de suppression des données RGPD, CCPA et LGPD à n'importe quelle organisation rapidement et facilement."
     }
   ],
   "org.descriptionExistingOrg": [
     {
       "type": 0,
-      "value": "Demandez la suppression de votre compte ou une copie de vos données personnelles à "
+      "value": "Demandez la suppression de votre compte ou une copie de vos données personnelles à partir de "
     },
     {
       "type": 1,
@@ -1348,17 +1348,21 @@
     },
     {
       "type": 0,
-      "value": " rapidement et facilement en utilisant ce service gratuit."
+      "value": " rapidement et facilement."
     }
   ],
   "org.titleExistingOrg": [
     {
+      "type": 0,
+      "value": "Supprimez votre compte "
+    },
+    {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": " - Supprimer votre compte ou obtenir une copie de vos données"
+      "value": " ou obtenez une copie de vos données"
     }
   ],
   "org.titleNewOrg": [
@@ -1370,27 +1374,21 @@
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request."
-    }
-  ],
-  "orgHero.orgName": [
-    {
-      "type": 0,
-      "value": "Organisation: "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Envoyer une demande de suppression de données ou d'accès."
     }
   ],
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Envoyer une demande de suppression de données ou d'accès à l'aide de ce service "
+      "value": "Envoyez à "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " une suppression de données ou une demande d'accès en utilisant ce service "
     },
     {
       "children": [
@@ -1410,13 +1408,13 @@
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Get organizations to delete or send you a copy of your personal data using this "
+      "value": "Demandez aux organisations de vous supprimer ou de vous envoyer une copie de vos données personnelles en utilisant ce service "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "gratuit et indépendant"
         }
       ],
       "type": 8,
@@ -1424,13 +1422,21 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": "."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your data."
+      "value": "Supprimez votre compte "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " ou demandez vos données."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -3646,13 +3652,13 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider "
+      "value": "Veuillez envisager "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "making a donation"
+          "value": "de faire un don"
         }
       ],
       "type": 8,
@@ -3660,7 +3666,7 @@
     },
     {
       "type": 0,
-      "value": " to help ensure our long-term financial stability and independence."
+      "value": " pour nous aider à assurer notre stabilité financière à long terme et notre indépendance."
     }
   ],
   "thankyou.findCompany": [
