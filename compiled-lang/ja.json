@@ -1262,7 +1262,7 @@
   "nav.blog": [
     {
       "type": 0,
-      "value": "Blog"
+      "value": "ブログ"
     }
   ],
   "nav.contact": [
@@ -1334,13 +1334,13 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Your Digital Rights を使って、 GDPR, CCPA, LGPD に基づくデータの削除・開示リクエストを素早く簡単に送信しましょう。"
+      "value": "GDPR、CCPA、LGPDデータの削除を送信し、あらゆる組織への要求に迅速かつ簡単にアクセスできます。"
     }
   ],
   "org.descriptionExistingOrg": [
     {
       "type": 0,
-      "value": "Your Digital Rights を使用して、 "
+      "value": "アカウントの削除または "
     },
     {
       "type": 1,
@@ -1348,7 +1348,7 @@
     },
     {
       "type": 0,
-      "value": " が持つあなたに関するデータの削除・開示を素早く簡単にリクエストしましょう。"
+      "value": " からのあなたの個人データのコピーを迅速かつ簡単に要求します。"
     }
   ],
   "org.titleExistingOrg": [
@@ -1358,7 +1358,7 @@
     },
     {
       "type": 0,
-      "value": " - あなたに関するデータの削除や開示の請求をリクエストしましょう"
+      "value": " アカウントを削除するか、データのコピーを取得してください"
     }
   ],
   "org.titleNewOrg": [
@@ -1370,24 +1370,34 @@
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request."
-    }
-  ],
-  "orgHero.orgName": [
-    {
-      "type": 0,
-      "value": "企業や団体: "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "データ削除またはアクセスリクエストを送信します。"
     }
   ],
   "orgHero.subTitle2": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "無料・中立"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": "の本サービスを使用して、 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " に対してデータ削除または開示請求を送信します。"
+    }
+  ],
+  "orgHero.subTitleNewOrg": [
     {
       "type": 0,
       "value": "この "
@@ -1404,33 +1414,17 @@
     },
     {
       "type": 0,
-      "value": " サービスを使用して、データ削除またはアクセスリクエストを送信します。"
-    }
-  ],
-  "orgHero.subTitleNewOrg": [
-    {
-      "type": 0,
-      "value": "Get organizations to delete or send you a copy of your personal data using this "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "free and independent"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " service."
+      "value": " サービスを使用して、組織にあなたの個人データのコピーを削除または送信させます。"
     }
   ],
   "orgHero.title": [
     {
+      "type": 1,
+      "value": "domain"
+    },
+    {
       "type": 0,
-      "value": "Delete your account or get a copy of your data."
+      "value": " アカウントを削除するか、データをリクエストしてください。"
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -3617,14 +3611,10 @@
   ],
   "thankyou.donation": [
     {
-      "type": 0,
-      "value": "Please consider "
-    },
-    {
       "children": [
         {
           "type": 0,
-          "value": "making a donation"
+          "value": "が長期的な金融の安定と独立性を確保するために、"
         }
       ],
       "type": 8,
@@ -3632,7 +3622,7 @@
     },
     {
       "type": 0,
-      "value": " to help ensure our long-term financial stability and independence."
+      "value": " 寄付を行うことをご検討ください。"
     }
   ],
   "thankyou.findCompany": [

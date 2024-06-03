@@ -1270,7 +1270,7 @@
   "nav.blog": [
     {
       "type": 0,
-      "value": "Blog"
+      "value": "Blogue"
     }
   ],
   "nav.contact": [
@@ -1342,13 +1342,13 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Envie GDPR, CCPA e exclusão de dados LGPD e pedidos de acesso a qualquer organização para usar rápida e facilmente esse serviço gratuito."
+      "value": "Enviar GDPR, CCPA e exclusão de dados LGPD e solicitações de acesso a qualquer organização de forma rápida e fácil."
     }
   ],
   "org.descriptionExistingOrg": [
     {
       "type": 0,
-      "value": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais de "
+      "value": "Solicite a exclusão da conta ou uma cópia dos seus dados pessoais do "
     },
     {
       "type": 1,
@@ -1356,17 +1356,21 @@
     },
     {
       "type": 0,
-      "value": " de maneira rápida e fácil através deste serviço gratuito."
+      "value": " de forma rápida e fácil."
     }
   ],
   "org.titleExistingOrg": [
     {
+      "type": 0,
+      "value": "Excluir sua conta "
+    },
+    {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": " - Excluir sua conta ou obter uma cópia de seus dados"
+      "value": " ou obter uma cópia dos seus dados"
     }
   ],
   "org.titleNewOrg": [
@@ -1381,24 +1385,18 @@
       "value": "Envie uma solicitação de acesso ou exclusão de dados."
     }
   ],
-  "orgHero.orgName": [
-    {
-      "type": 0,
-      "value": "Organização: "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
-    }
-  ],
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Envie uma exclusão de dados ou uma solicitação de acesso usando este serviço "
+      "value": "Envie uma exclusão de dados "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " ou uma solicitação de acesso usando este serviço "
     },
     {
       "children": [
@@ -1438,7 +1436,15 @@
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Exclua a sua conta ou obtenha uma cópia dos seus dados."
+      "value": "Excluir sua conta "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " ou solicitar seus dados."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -3654,13 +3660,13 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider "
+      "value": "Considere "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "making a donation"
+          "value": "fazer uma doação"
         }
       ],
       "type": 8,
@@ -3668,7 +3674,7 @@
     },
     {
       "type": 0,
-      "value": " to help ensure our long-term financial stability and independence."
+      "value": " para ajudar a garantir nossa estabilidade financeira e independência a longo prazo."
     }
   ],
   "thankyou.findCompany": [

@@ -1338,13 +1338,13 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Envíe los datos de GDPR, CCPA y LGPD y las solicitudes de acceso a cualquier organización rápida y fácilmente utilizando este servicio gratuito."
+      "value": "Enviar datos GDPR, CCPA y LGPD borrados y solicitudes de acceso a cualquier organización rápida y fácilmente."
     }
   ],
   "org.descriptionExistingOrg": [
     {
       "type": 0,
-      "value": "Solicite la eliminación o copia de sus datos personales de "
+      "value": "Solicitar la eliminación de la cuenta o una copia de tus datos personales de "
     },
     {
       "type": 1,
@@ -1352,17 +1352,21 @@
     },
     {
       "type": 0,
-      "value": " rápida y sencilla utilizando este servicio gratuito."
+      "value": " rápida y fácilmente."
     }
   ],
   "org.titleExistingOrg": [
     {
+      "type": 0,
+      "value": "Eliminar su cuenta "
+    },
+    {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": " - Elimine su cuenta u obtenga una copia de sus datos"
+      "value": " o obtener una copia de sus datos"
     }
   ],
   "org.titleNewOrg": [
@@ -1374,27 +1378,21 @@
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request."
-    }
-  ],
-  "orgHero.orgName": [
-    {
-      "type": 0,
-      "value": "Dominio: "
-    },
-    {
-      "type": 1,
-      "value": "org"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Enviar una eliminación de datos o solicitud de acceso."
     }
   ],
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Envía una eliminación de datos o una solicitud de acceso utilizando este servicio "
+      "value": "Enviar a "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " una eliminación de datos o una solicitud de acceso utilizando este servicio "
     },
     {
       "children": [
@@ -1414,13 +1412,13 @@
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Get organizations to delete or send you a copy of your personal data using this "
+      "value": "Obtén organizaciones que te eliminen o te envíen una copia de tus datos personales utilizando este servicio "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "gratuito e independiente"
         }
       ],
       "type": 8,
@@ -1428,13 +1426,21 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": "."
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your account or get a copy of your data."
+      "value": "Elimina tu cuenta "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " o solicita tus datos."
     }
   ],
   "personalInfoForm.FollowUpDetails": [
@@ -3650,13 +3656,13 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Please consider "
+      "value": "Por favor considere "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "making a donation"
+          "value": "hacer una donación"
         }
       ],
       "type": 8,
@@ -3664,7 +3670,7 @@
     },
     {
       "type": 0,
-      "value": " to help ensure our long-term financial stability and independence."
+      "value": " para ayudar a garantizar nuestra estabilidad financiera e independencia a largo plazo."
     }
   ],
   "thankyou.findCompany": [
