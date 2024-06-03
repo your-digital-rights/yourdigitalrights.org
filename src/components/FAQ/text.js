@@ -216,7 +216,7 @@ export default [
     body: [
       <FormattedMessage
         id="faq.body.trust.1"
-        defaultMessage="We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to varius organizations"
+        defaultMessage="We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to various organizations"
         values={{
           a: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://consciousdigital.org">{txt}</a>),
           aa: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://github.com/your-digital-rights">{txt}</a>),
