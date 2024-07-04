@@ -642,6 +642,90 @@ const Regulations = {
       }
     } 
   }, 
+  TDPSA: {
+    displayName: 'TDPSA',
+    gepgraphy: 'Texas',
+    longName: 'Texas Data Privacy and Security Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'UT TX',
+      longName: 'Attorney General of Texas',
+      requestFormURL: 'https://oag.my.salesforce-sites.com/CPDOnlineForm',
+      defaultAction: 'form',
+      geographies: [
+        {
+          name: 'Texas',
+          countryCode: 'TX',
+          email: '',
+          website: 'https://www.texasattorneygeneral.gov/consumer-protection',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://capitol.texas.gov/BillLookup/Text.aspx?LegSess=88R&Bill=HB4',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: '541.051.A.b.3',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineUCPA"
+            defaultMessage="Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
+          />
+        ),          
+        exceptionURL: 'https://capitol.texas.gov/tlodocs/88R/billtext/html/HB00004F.htm',
+      },
+      ACCESS: {
+        name: 'access',
+        article: '541.051.A.b.4',        
+      }
+    } 
+  }, 
+  OPCA: {
+    displayName: 'OPCA',
+    gepgraphy: 'Oregon',
+    longName: 'Oregon Consumer Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'OR AG',
+      longName: 'Attorney General of Oregon',
+      requestFormURL: 'https://justice.oregon.gov/consumercomplaints/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Oregon',
+          countryCode: 'OR',
+          email: 'help@oregonconsumer.gov',
+          website: 'https://www.doj.state.or.us/oregon-department-of-justice/office-of-the-attorney-general/office-of-the-attorney-general/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://olis.oregonlegislature.gov/liz/2023R1/Downloads/MeasureDocument/SB619/Enrolled',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 3.1.c',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineUCPA"
+            defaultMessage="Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:<ul><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://olis.oregonlegislature.gov/liz/2023R1/Downloads/PublicTestimonyDocument/59856',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 3.1.a',        
+      }
+    } 
+  }, 
 
 };
 
