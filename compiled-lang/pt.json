@@ -906,7 +906,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Consciente Digital"
+          "value": "Conscious Digital"
         }
       ],
       "type": 8,
@@ -920,7 +920,7 @@
       "children": [
         {
           "type": 0,
-          "value": "de código aberto"
+          "value": "open source"
         }
       ],
       "type": 8,
@@ -928,7 +928,7 @@
     },
     {
       "type": 0,
-      "value": ". Quanto a outubro de 2022, ajudamos os indivíduos a enviar mais de 100.000 pedidos para organizações variadas"
+      "value": ". Quanto a outubro de 2022, ajudamos os indivíduos a enviar mais de 100.000 pedidos para várias organizações"
     }
   ],
   "faq.body.trust.2": [
@@ -2579,17 +2579,11 @@
   ],
   "request.next.declineUCPA": [
     {
+      "type": 0,
+      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:"
+    },
+    {
       "children": [
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
         {
           "children": [
             {

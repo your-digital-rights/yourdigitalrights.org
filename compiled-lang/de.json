@@ -928,7 +928,7 @@
     },
     {
       "type": 0,
-      "value": ". Im Oktober 2022 haben wir Einzelpersonen geholfen, mehr als 100.000 Anfragen an Varius-Organisationen einzureichen"
+      "value": ". Im Oktober 2022 haben wir Einzelpersonen geholfen, mehr als 100.000 Anfragen an verschiedene Organisationen einzureichen"
     }
   ],
   "faq.body.trust.2": [
@@ -2579,17 +2579,11 @@
   ],
   "request.next.declineUCPA": [
     {
+      "type": 0,
+      "value": "Entitäten, darunter staatliche und lokale Regierungen, gemeinnützige Einrichtungen, Hochschuleinrichtungen, bestimmte nationale Wertpapierverbände und Finanzinstitutionen sind davon ausgenommen. Zusätzlich einige Arten von Daten sind ausgenommen:"
+    },
+    {
       "children": [
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Entitäten einschließlich staatlicher und lokaler Regierungen, gemeinnütziger, Hochschuleinrichtungen, bestimmter nationaler Wertpapierverbände, Finanzinstitutionen und betroffene Unternehmen unter bestimmten Rechtsakten, wie dem Gramm-Leach-Bliley-Gesetz und dem Gesetz über die Portabilität und Rechenschaftspflicht der Krankenversicherung. sind ausgenommen"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
         {
           "children": [
             {
@@ -2604,7 +2598,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Mitarbeiterdaten einschließlich Bewerberdaten"
+              "value": "Arbeitnehmerdaten einschließlich Bewerberdaten"
             }
           ],
           "type": 8,
@@ -2614,7 +2608,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identifizierte Daten"
+              "value": "de-identifizierte Daten"
             }
           ],
           "type": 8,
@@ -2644,7 +2638,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Persönliche Informationen, die für Forschung an Menschen oder im Rahmen einer klinischen Studie gesammelt wurden"
+              "value": "Persönliche Informationen, die für die Forschung von Menschen oder als Teil einer klinischen Studie"
             }
           ],
           "type": 8,
@@ -2653,6 +2647,10 @@
       ],
       "type": 8,
       "value": "ul"
+    },
+    {
+      "type": 0,
+      "value": " gesammelt werden"
     }
   ],
   "request.next.declineVCDPA": [

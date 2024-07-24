@@ -892,7 +892,7 @@
   "faq.body.trust.1": [
     {
       "type": 0,
-      "value": "私たちは "
+      "value": "We are a registered nonprofit organization called "
     },
     {
       "children": [
@@ -906,13 +906,13 @@
     },
     {
       "type": 0,
-      "value": "という登録非営利団体です。私たちは透明性を重視しており、このサービスのソースコードは "
+      "value": ". We believe in transparency, and therefore the source code for this service is "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "オープンソース"
+          "value": "open source"
         }
       ],
       "type": 8,
@@ -920,7 +920,7 @@
     },
     {
       "type": 0,
-      "value": "です。2022年10月の時点で、個人がさまざまな組織に100,000 件を超えるリクエストを送信するのを支援してきました。"
+      "value": ". As for October 2022, we have helped individuals submit more than 100,000 requests to various organizations"
     }
   ],
   "faq.body.trust.2": [
@@ -2559,12 +2559,16 @@
   ],
   "request.next.declineUCPA": [
     {
+      "type": 0,
+      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:"
+    },
+    {
       "children": [
         {
           "children": [
             {
               "type": 0,
-              "value": "国や州及び地方自治体、非営利団体、高等教育機関、特定の全国証券協会、金融機関、及びグラム・リーチ・ブライリー法や医療保険の携行性と責任に関する法律等の特定の法令の対象となる組織・団体は除かれます。"
+              "value": "Protected health data"
             }
           ],
           "type": 8,
@@ -2574,7 +2578,7 @@
           "children": [
             {
               "type": 0,
-              "value": "保護対象保健情報"
+              "value": "Employee data including job applicant data"
             }
           ],
           "type": 8,
@@ -2584,7 +2588,7 @@
           "children": [
             {
               "type": 0,
-              "value": "従業員情報（求職者情報を含む）"
+              "value": "De-identified data"
             }
           ],
           "type": 8,
@@ -2594,7 +2598,7 @@
           "children": [
             {
               "type": 0,
-              "value": "非特定化データ"
+              "value": "Publicly available information"
             }
           ],
           "type": 8,
@@ -2604,7 +2608,7 @@
           "children": [
             {
               "type": 0,
-              "value": "公開されている情報"
+              "value": "Aggregate information"
             }
           ],
           "type": 8,
@@ -2614,17 +2618,7 @@
           "children": [
             {
               "type": 0,
-              "value": "統計的に集計された情報"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "人間を対象とする研究または臨床試験の一環として収集された個人情報"
+              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
             }
           ],
           "type": 8,
