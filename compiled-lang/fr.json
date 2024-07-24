@@ -2571,12 +2571,16 @@
   ],
   "request.next.declineUCPA": [
     {
+      "type": 0,
+      "value": "Les entités telles que les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières et certaines institutions financières sont exonérées. De plus, certains types de données sont exonérés :"
+    },
+    {
       "children": [
         {
           "children": [
             {
               "type": 0,
-              "value": "Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés"
+              "value": "Données de santé protégées"
             }
           ],
           "type": 8,
@@ -2586,7 +2590,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Données sanitaires protégées"
+              "value": "Données des employés, y compris les données des candidats à l'emploi"
             }
           ],
           "type": 8,
@@ -2596,7 +2600,7 @@
           "children": [
             {
               "type": 0,
-              "value": "données employées incluant les données du candidat à l'emploi"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2606,7 +2610,7 @@
           "children": [
             {
               "type": 0,
-              "value": "données déidentifiées"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2616,7 +2620,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Informations publiquement disponibles"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2626,17 +2630,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Informations globales"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique"
+              "value": "Données personnelles collectées pour des recherches sur des sujets humains ou dans le cadre d'un essai clinique"
             }
           ],
           "type": 8,
