@@ -327,7 +327,7 @@ const Regulations = {
             }}
           />
         ),          
-        exceptionURL: 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&nodeTreePath=8.4.45&lawCode=CIV',
+        exceptionURL: 'https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=1798.105.&lawCode=CIV',
       },
       ACCESS: {
         name: 'access',
