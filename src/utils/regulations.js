@@ -825,7 +825,7 @@ const Regulations = {
     escalation_timeLimit: 60,
     dpa: {
       shortName: 'FDPIC',
-      longName: 'Federal Data Protection and Information Commissioner',
+      longName: 'Federal Data Protection Commissioner',
       requestFormURL: 'https://www.edoeb.admin.ch/edoeb/de/home/deredoeb/kontakt/anzeigeformular_betroffene.html',
       defaultAction: 'form',
       geographies: [
@@ -846,7 +846,7 @@ const Regulations = {
         exceptions: (
           <FormattedMessage
             id="request.next.declineFADP"
-            defaultMessage="The controller may refuse to provide information, or restrict or delay the provision of information if:<ul><li>a. a formal law so provides, in particular in order to preserve professional secrecy;</li><li>b. this is required to safeguard overriding third-party interests; or</li><li>c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous.</li></br>Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:<ul><li>a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties.</li><li>b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings.</li></ul>"
+            defaultMessage="The controller may refuse to provide information, or restrict or delay the provision of information if:<ul><li>a. a formal law so provides, in particular in order to preserve professional secrecy;</li><li>b. this is required to safeguard overriding third-party interests; or</li><li>c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous.</li></ul><br/>Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:<ul><li>a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties.</li><li>b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings.</li></ul>"
             values={{
               ul: txt => (<ul>{txt}</ul>),
               li: txt => (<li>{txt}</li>),
