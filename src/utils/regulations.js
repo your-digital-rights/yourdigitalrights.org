@@ -649,7 +649,7 @@ const Regulations = {
     timeLimit: 45,
     escalation_timeLimit: 90,
     dpa: {
-      shortName: 'UT TX',
+      shortName: 'TX AG',
       longName: 'Attorney General of Texas',
       requestFormURL: 'https://oag.my.salesforce-sites.com/CPDOnlineForm',
       defaultAction: 'form',
@@ -667,10 +667,10 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'deletion',
-        article: '541.051.A.b.3',
+        article: 'Section 541.051.A.b.3',
         exceptions: (
           <FormattedMessage
-            id="request.next.declineUCPA"
+            id="request.next.declineTDPSA"
             defaultMessage="Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
           />
         ),          
@@ -678,7 +678,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: '541.051.A.b.4',        
+        article: 'Section 541.051.A.b.4',        
       }
     } 
   }, 
@@ -710,7 +710,7 @@ const Regulations = {
         article: 'Section 3.1.c',
         exceptions: (
           <FormattedMessage
-            id="request.next.declineUCPA"
+            id="request.next.declineOPCA"
             defaultMessage="Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:<ul><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
             values={{
               ul: txt => (<ul>{txt}</ul>),
@@ -727,6 +727,140 @@ const Regulations = {
     } 
   }, 
 
+  FDBR: {
+    displayName: 'FDBR',
+    gepgraphy: 'Florida',
+    longName: 'Florida Digital Bill of Rights',
+    timeLimit: 45,
+    escalation_timeLimit: 60,
+    dpa: {
+      shortName: 'FL AG',
+      longName: 'Attorney General of Florida',
+      requestFormURL: 'https://legacy.myfloridalegal.com/Contact.nsf/DBOR?OpenForm',
+      defaultAction: 'form',
+      geographies: [
+        {
+          name: 'Florida',
+          countryCode: 'FL',
+          email: 'oag.civil.eserve@myfloridalegal.com',
+          website: 'myfloridalegal.com',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://www.flsenate.gov/Session/Bill/2023/262/BillText/er/HTML',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 501.705 2c',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineFDBR"
+            defaultMessage="<ul><il>(a) Comply with federal or state laws, rules, or regulations.</il><il>(b) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities.</il><il>(c) Investigate, establish, exercise, prepare for, or defend legal claims.</il><il>(d) Provide a product or service specifically requested by a consumer or the parent or guardian of a child, perform a contract to which the consumer is a party, including fulfilling the terms of a written warranty, or take steps at the request of the consumer before entering into a contract.</il><il>(e) Take immediate steps to protect an interest that is essential for the life or physical safety of the consumer or of another individual and in which the processing cannot be manifestly based on another legal basis.</il><il>(f) Prevent, detect, protect against, or respond to security incidents, identity theft, fraud, harassment, malicious or deceptive activities, or any illegal activity.</il><il>(g) Preserve the integrity or security of systems or investigate, report, or prosecute those responsible for breaches of system security.</il><il>(h) Engage in public or peer-reviewed scientific or statistical research in the public interest which adheres to all other applicable ethics and privacy laws and is approved, monitored, and governed by an institutional review board or similar independent oversight entity that determines: 1. Whether the deletion of the information is likely to provide substantial benefits that do not exclusively accrue to the controller; 2. Whether the expected benefits of the research outweigh the privacy risks; and 3. Whether the controller has implemented reasonable safeguards to mitigate privacy risks associated with research, including any risks associated with reidentification.</il><il>(i) Assist another controller, processor, or third party in complying with the requirements of this part.</il><il>(j) Disclose personal data disclosed when a consumer uses or directs the controller to intentionally disclose information to a third party or uses the controller to intentionally interact with a third party. An intentional interaction occurs when the consumer intends to interact with the third party, by one or more deliberate interactions. Hovering over, muting, pausing, or closing a given piece of content does not constitute a consumer’s intent to interact with a third party.</il><il>(k) Transfer personal data to a third party as an asset that is part of a merger, an acquisition, a bankruptcy, or other transaction in which the third party assumes control of all or part of the controller, provided that the information is used or shared in a manner consistent with this part. If a third party materially alters how it uses or shares the personal data of a consumer in a manner that is materially inconsistent with the commitments or promises made at the time of collection, it must provide prior notice of the new or changed practice to the consumer. The notice must be sufficiently prominent and robust to ensure that consumers can easily exercise choices consistent with this part.</il></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.flsenate.gov/Session/Bill/2023/262/BillText/er/HTML',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 501.705 2a',        
+      }
+    } 
+  }, 
+
+  DPDPA: {
+    displayName: 'DPDPA',
+    gepgraphy: 'India',
+    longName: 'Digital Personal Data Protection Act',
+    timeLimit: 30,
+    escalation_timeLimit: 60,
+    dpa: {
+      shortName: 'DPBI',
+      longName: 'Data Protection Board of India',
+      requestFormURL: 'https://pgportal.gov.in/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'India',
+          countryCode: 'IN',
+          email: 'grievance-it@meity.gov.in',
+          website: 'https://www.meity.gov.in/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://dpdpa.in/',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 12',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineDPDPA"
+            defaultMessage="<ul><li>(a) the processing of personal data is necessary for enforcing any legal right or claim;</li><li>(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;</li><li>(c) personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India;</li><li>(d) personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India;</li><li>(e) the processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force; and</li><li>(f) the processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.meity.gov.in/writereaddata/files/Digital%20Personal%20Data%20Protection%20Act%202023.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 11',        
+      }
+    } 
+  }, 
+
+  FADP: {
+    displayName: 'FADP',
+    gepgraphy: 'Switzerland',
+    longName: 'Federal Act on Data Protection',
+    timeLimit: 30,
+    escalation_timeLimit: 60,
+    dpa: {
+      shortName: 'FDPIC',
+      longName: 'Federal Data Protection Commissioner',
+      requestFormURL: 'https://www.edoeb.admin.ch/edoeb/de/home/deredoeb/kontakt/anzeigeformular_betroffene.html',
+      defaultAction: 'form',
+      geographies: [
+        {
+          name: 'Switzerland',
+          countryCode: 'CH',
+          email: '',
+          website: 'https://www.edoeb.admin.ch/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://www.fedlex.admin.ch/eli/fga/2020/1998/it',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Article 32',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineFADP"
+            defaultMessage="The controller may refuse to provide information, or restrict or delay the provision of information if:<ul><li>a. a formal law so provides, in particular in order to preserve professional secrecy;</li><li>b. this is required to safeguard overriding third-party interests; or</li><li>c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous.</li></ul><br/>Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:<ul><li>a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties.</li><li>b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.fedlex.admin.ch/eli/fga/2020/1998/it',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Article 25',        
+      }
+    } 
+  },   
 };
 
 export default Regulations;
