@@ -21,7 +21,13 @@ async function getRegulationbyGeolocation() {
             } else if (resultJson['region'] === 'CT') {
               return 'CTDPA';   
             } else if (resultJson['region'] === 'UT') {
-              return 'UCPA';                                     
+              return 'UCPA';       
+            } else if (resultJson['region'] === 'TX') {
+              return 'TDPSA';      
+            } else if (resultJson['region'] === 'OR') {
+              return 'OPCA';      
+            } else if (resultJson['region'] === 'FL') {
+              return 'FDBR';                                                                              
             } else {
               return 'CCPA';
             }
@@ -32,7 +38,11 @@ async function getRegulationbyGeolocation() {
         } else if (resultJson['country'] === 'CA') {
           return 'PIPEDA';                        
         } else if (resultJson['country'] === 'JP') {
-          return 'APPI';             
+          return 'APPI';       
+        } else if (resultJson['country'] === 'IN') {
+          return 'DPDPA';             
+        } else if (resultJson['country'] === 'CH') {
+          return 'FADP';       
         } else {
           return 'GDPR';
         }
