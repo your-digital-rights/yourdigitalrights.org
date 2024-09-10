@@ -1803,6 +1803,24 @@
       "value": "crwdns5869:0crwdne5869:0"
     }
   ],
+  "request.next.declineDPDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5937:0crwdne5937:0"
+    }
+  ],
+  "request.next.declineFADP": [
+    {
+      "type": 0,
+      "value": "crwdns5939:0crwdne5939:0"
+    }
+  ],
+  "request.next.declineFDBR": [
+    {
+      "type": 0,
+      "value": "crwdns5941:0crwdne5941:0"
+    }
+  ],
   "request.next.declineGDPR": [
     {
       "type": 0,
@@ -1815,16 +1833,28 @@
       "value": "crwdns3420:0crwdne3420:0"
     }
   ],
+  "request.next.declineOPCA": [
+    {
+      "type": 0,
+      "value": "crwdns5943:0crwdne5943:0"
+    }
+  ],
   "request.next.declinePIPEDA": [
     {
       "type": 0,
       "value": "crwdns3694:0crwdne3694:0"
     }
   ],
+  "request.next.declineTDPSA": [
+    {
+      "type": 0,
+      "value": "crwdns5945:0crwdne5945:0"
+    }
+  ],
   "request.next.declineUCPA": [
     {
       "type": 0,
-      "value": "crwdns5936:0crwdne5936:0"
+      "value": "crwdns5947:0crwdne5947:0"
     }
   ],
   "request.next.declineVCDPA": [
