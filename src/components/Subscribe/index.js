@@ -47,7 +47,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
                 className={classes.intro}
                 gutterBottom={true}
               >
-                <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Our Privacy Alerts!" />
+                <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Privacy Alerts!" />
               </Typography>          
               <Typography 
                 color="inherit" 
@@ -56,7 +56,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               >
                 <FormattedMessage
                   id="subscribe.alertsOneLiner1"
-                  defaultMessage="A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+                  defaultMessage="Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
                 />
 
               </Typography> 
