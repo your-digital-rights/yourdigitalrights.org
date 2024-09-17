@@ -17,23 +17,6 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
     tracking.trackSubscribe(page);
   };
 
-  useScript("https://substackapi.com/widget.js");
-
-  useEffect(() => {
-    window.CustomSubstackWidget = {
-      substackUrl: "newsletter.yourdigitalrights.org",
-      placeholder: "you@example.com",
-      buttonText: "Subscribe",
-      theme: "custom",
-      colors: {
-        primary: "#005EA5",
-        input: "#039277",
-        email: "#000000",
-        text: "#FFFFFF",
-      }
-    };
-  }, []);
-
   return (
     <>
       <div className={classes.container}>
@@ -44,7 +27,6 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
                 color="inherit" 
                 variant="h3"
                 component="h3"
-                className={classes.intro}
                 gutterBottom={true}
               >
                 <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Privacy Alerts!" />
@@ -61,7 +43,7 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
 
               </Typography> 
             </div>
-            <div id="custom-substack-embed" className={classes.substack}/>
+            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="150" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
       </div>
