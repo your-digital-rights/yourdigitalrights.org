@@ -50,6 +50,9 @@ const Theme = (theme) => ({
   },
   signUpButton: {
     marginTop: "20px",
+  },
+  intro: {
+    marginBottom: "20px",
   }
 });
 
