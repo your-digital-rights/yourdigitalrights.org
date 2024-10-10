@@ -3,13 +3,6 @@ import styles from "./styles";
 import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
-import Script from 'next/script'
-import { useEffect } from "react";
-import { useScript } from "../../utils/hooks";
-
-const handleSignUpClick = (e) => {
-  e.preventDefault();
-}
 
 const Subscribe = ({ classes, children, page="thank-you"}) => {
   

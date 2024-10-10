@@ -28,6 +28,8 @@ async function getRegulationbyGeolocation() {
               return 'OPCA';      
             } else if (resultJson['region'] === 'FL') {
               return 'FDBR';                                                                              
+            } else if (resultJson['region'] === 'MT') {
+              return 'MTCDPA';                                                                              
             } else {
               return 'CCPA';
             }
