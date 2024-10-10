@@ -732,7 +732,7 @@ const Regulations = {
     gepgraphy: 'Florida',
     longName: 'Florida Digital Bill of Rights',
     timeLimit: 45,
-    escalation_timeLimit: 60,
+    escalation_timeLimit: 90,
     dpa: {
       shortName: 'FL AG',
       longName: 'Attorney General of Florida',
@@ -861,6 +861,51 @@ const Regulations = {
       }
     } 
   },   
+
+  MTCDPA: {
+    displayName: 'MTCDPA',
+    gepgraphy: 'Montana',
+    longName: 'Montana Consumer Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'MT AG',
+      longName: 'Attorney General of Montana',
+      requestFormURL: 'https://app.doj.mt.gov/OCPPortal/?q=node/395/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Montana',
+          countryCode: 'MT',
+          email: 'oag.civil.eserve@myfloridalegal.com',
+          website: 'contactocp@mt.gov',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://leg.mt.gov/bills/2023/billpdf/SB0384.pdf',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 5.1d',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineMTCDPA"
+            defaultMessage="<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://leg.mt.gov/bills/2023/billpdf/SB0384.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 5.1a',        
+      }
+    } 
+  }, 
 };
 
 export default Regulations;
