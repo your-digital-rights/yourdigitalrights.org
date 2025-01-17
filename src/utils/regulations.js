@@ -877,8 +877,8 @@ const Regulations = {
         {
           name: 'Montana',
           countryCode: 'MT',
-          email: 'oag.civil.eserve@myfloridalegal.com',
-          website: 'contactocp@mt.gov',
+          email: 'contactocp@mt.gov',
+          website: 'https://dojmt.gov',
           chairman: ''
         },
       ],
@@ -906,6 +906,233 @@ const Regulations = {
       }
     } 
   }, 
+/* edit */
+  ICDPA: {
+    displayName: 'ICDPA',
+    gepgraphy: 'Iowa',
+    longName: 'Iowa Consumer Data Protection Act',
+    timeLimit: 90,
+    escalation_timeLimit: 45,
+    dpa: {
+      shortName: 'IA AG',
+      longName: 'Attorney General of Iowa',
+      requestFormURL: 'https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Iowa',
+          countryCode: 'IA',
+          email: 'consumer@ag.iowa.gov',
+          website: 'ag.iowa.gov',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://www.legis.iowa.gov/docs/publications/LGE/90/SF262.pdf',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: '715D.3 1.b',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineICDPA"
+            defaultMessage="<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.legis.iowa.gov/docs/publications/LGE/90/SF262.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: '715D.3 1.c',        
+      }
+    } 
+  }, 
+
+
+  DPDPA: {
+    displayName: 'DPDPA',
+    gepgraphy: 'Delaware',
+    longName: 'Delaware Personal Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'DE AG',
+      longName: 'Attorney General of Delaware',
+      requestFormURL: 'https://attorneygeneral.delaware.gov/fraud/cmu/complaint/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Delaware',
+          countryCode: 'DE',
+          email: 'consumer.protection@delaware.gov',
+          website: 'https://attorneygeneral.delaware.gov',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocumentEngrossment?engrossmentId=35877&docTypeId=6',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: '§ 12D-104 a.3',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineDPDPA"
+            defaultMessage="<ul><li>Provide a product or service specifically requested by the consumer.</li><li>Perform certain internal operations that reasonably align with consumer expectations.</li><li>Issue a product recall or repair technical errors.</li><li>Respond to and prevent security incidents, identity theft, and fraud.</li><li>Comply with federal, state, or local law.</li><li>Pseudonymous data.</li><li>De-identified data.</li><li>Publicly available information.</li><li>Public or peer-reviewed scientific research.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://attorneygeneral.delaware.gov/fraud/personal-data-privacy-portal/frequently-asked-questions/',
+      },
+      ACCESS: {
+        name: 'access',
+        article: '§ 12D-104 a.4',      
+      }
+    } 
+  }, 
+
+  NHDPA: {
+    displayName: 'NHDPA',
+    gepgraphy: 'New Hampshire',
+    longName: 'New Hampshire Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'NH AG',
+      longName: 'Attorney General of New Hampshire',
+      requestFormURL: 'https://app.doj.mt.gov/OCPPortal/?q=node/395/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'New Hampshire',
+          countryCode: 'NH',
+          email: 'CPB-DOJ@doj.nh.gov',
+          website: 'https://www.doj.nh.gov/index.htm',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://www.gencourt.state.nh.us/rsa/html/LII/507-H/507-H-mrg.htm',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: '507-H:4 1.c',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineNHDPA"
+            defaultMessage="<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.gencourt.state.nh.us/rsa/html/LII/507-H/507-H-mrg.htm',
+      },
+      ACCESS: {
+        name: 'access',
+        article: '507-H:4 1.d',        
+      }
+    } 
+  }, 
+
+  NDPA: {
+    displayName: 'NDPA',
+    gepgraphy: 'Nebraska',
+    longName: 'Nebraska Data Privacy Act',
+    timeLimit: 45,
+    escalation_timeLimit: 90,
+    dpa: {
+      shortName: 'NE AG',
+      longName: 'Attorney General of Nebraska',
+      requestFormURL: 'https://www.nebraska.gov/apps-ago-complaints/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'Nebraska',
+          countryCode: 'NE',
+          email: 'ago.info.help@nebraska.gov',
+          website: 'https://ago.nebraska.gov/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1074.pdf',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Sec. 7.2.c',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineNDPA"
+            defaultMessage="<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://nebraskalegislature.gov/FloorDocs/108/PDF/Slip/LB1074.pdf',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Sec. 7.2.d',        
+      }
+    } 
+  }, 
+
+  NJDPL: {
+    displayName: 'NJDPL',
+    gepgraphy: 'New Jersey',
+    longName: 'New Jersey Data Privacy Law',
+    timeLimit: 45,
+    escalation_timeLimit: 45,
+    dpa: {
+      shortName: 'NJ AG',
+      longName: 'Attorney General of New Jersey',
+      requestFormURL: 'https://njconsumeraffairs.nj.gov/file-a-complaint/',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: 'New Jersey',
+          countryCode: 'NJ',
+          email: 'askconsumeraffairs@dca.njoag.gov',
+          website: 'https://www.njoag.gov/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'https://pub.njleg.state.nj.us/Bills/2022/S0500/332_R6.PDF',
+    requestTypes: {
+      DELETION: {
+        name: 'deletion',
+        article: 'Section 7.a.3',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declineNJDPL"
+            defaultMessage="<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'https://www.njconsumeraffairs.gov/ocp/Pages/NJ-Data-Privacy-Law-FAQ.aspx',
+      },
+      ACCESS: {
+        name: 'access',
+        article: 'Section 7.a.4',        
+      }
+    } 
+  }, 
+
 };
 
 export default Regulations;
