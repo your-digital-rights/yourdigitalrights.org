@@ -906,13 +906,13 @@ const Regulations = {
       }
     } 
   }, 
-/* edit */
+
   ICDPA: {
     displayName: 'ICDPA',
     gepgraphy: 'Iowa',
     longName: 'Iowa Consumer Data Protection Act',
-    timeLimit: 90,
-    escalation_timeLimit: 45,
+    timeLimit: 45,
+    escalation_timeLimit: 90,
     dpa: {
       shortName: 'IA AG',
       longName: 'Attorney General of Iowa',
@@ -953,8 +953,8 @@ const Regulations = {
   }, 
 
 
-  DPDPA: {
-    displayName: 'DPDPA',
+  DPDP: {
+    displayName: 'DPDP',
     gepgraphy: 'Delaware',
     longName: 'Delaware Personal Data Privacy Act',
     timeLimit: 45,
@@ -981,7 +981,7 @@ const Regulations = {
         article: '§ 12D-104 a.3',
         exceptions: (
           <FormattedMessage
-            id="request.next.declineDPDPA"
+            id="request.next.declineDPDP"
             defaultMessage="<ul><li>Provide a product or service specifically requested by the consumer.</li><li>Perform certain internal operations that reasonably align with consumer expectations.</li><li>Issue a product recall or repair technical errors.</li><li>Respond to and prevent security incidents, identity theft, and fraud.</li><li>Comply with federal, state, or local law.</li><li>Pseudonymous data.</li><li>De-identified data.</li><li>Publicly available information.</li><li>Public or peer-reviewed scientific research.</li></ul>"
             values={{
               ul: txt => (<ul>{txt}</ul>),
