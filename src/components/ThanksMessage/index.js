@@ -66,7 +66,7 @@ const ThanksMessage = (props) => {
   let ThanksCopyPart1 = (selectedActionName == "Copy") ? ThanksCopyPart1Copy : ThanksCopyPart1Email;
   let replyTimeText = regulationType ? intl.formatMessage({
       id: "thankyou.howLongToReply",
-      defaultMessage: "Organizations have {days} to comply, and may ask you for additional information to help identify you in their systems.",
+      defaultMessage: "Organizations have {days} to comply, and may request additional information in order to verify your identity.",
     },
     {
       days: (<em>{Regulations[regulationType].timeLimit} days</em>),
@@ -119,7 +119,7 @@ const ThanksMessage = (props) => {
         >      
           <FormattedMessage
             id="thankyou.donation"
-            defaultMessage="Please consider <a>making a donation</a> to help ensure our long-term financial stability and independence."
+            defaultMessage="Help us keep this service free by <a>making a donation</a> to help ensure our long-term financial stability and independence."
             values={{
               a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
             }}

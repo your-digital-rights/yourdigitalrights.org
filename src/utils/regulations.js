@@ -932,7 +932,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'deletion',
-        article: '715D.3 1.b',
+        article: 'Section 715D.3 1.b',
         exceptions: (
           <FormattedMessage
             id="request.next.declineICDPA"
@@ -947,7 +947,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: '715D.3 1.c',        
+        article: 'Section 715D.3 1.c',        
       }
     } 
   }, 
@@ -1023,7 +1023,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'deletion',
-        article: '507-H:4 1.c',
+        article: 'Section 507-H:4 1.c',
         exceptions: (
           <FormattedMessage
             id="request.next.declineNHDPA"
@@ -1038,7 +1038,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: '507-H:4 1.d',        
+        article: 'Section 507-H:4 1.d',        
       }
     } 
   }, 
@@ -1068,7 +1068,7 @@ const Regulations = {
     requestTypes: {
       DELETION: {
         name: 'deletion',
-        article: 'Sec. 7.2.c',
+        article: 'Section 7.2.c',
         exceptions: (
           <FormattedMessage
             id="request.next.declineNDPA"
@@ -1083,7 +1083,7 @@ const Regulations = {
       },
       ACCESS: {
         name: 'access',
-        article: 'Sec. 7.2.d',        
+        article: 'Section 7.2.d',        
       }
     } 
   }, 
