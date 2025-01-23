@@ -907,7 +907,7 @@ const Regulations = {
     } 
   }, 
 
-  ICDPA: {
+  ICDPA : {
     displayName: 'ICDPA',
     gepgraphy: 'Iowa',
     longName: 'Iowa Consumer Data Protection Act',
@@ -1093,7 +1093,7 @@ const Regulations = {
     gepgraphy: 'New Jersey',
     longName: 'New Jersey Data Privacy Law',
     timeLimit: 45,
-    escalation_timeLimit: 45,
+    escalation_timeLimit: 90,
     dpa: {
       shortName: 'NJ AG',
       longName: 'Attorney General of New Jersey',
