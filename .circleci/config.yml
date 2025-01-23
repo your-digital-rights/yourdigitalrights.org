@@ -3,7 +3,7 @@
 #
 version: 2.1
 orbs:
-  browser-tools: circleci/browser-tools@1.4.6
+  browser-tools: circleci/browser-tools@1.5.0
 jobs:
   build:
     working_directory: ~/yourdigitalrights

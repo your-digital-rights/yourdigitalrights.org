@@ -29,7 +29,17 @@ async function getRegulationbyGeolocation() {
             } else if (resultJson['region'] === 'FL') {
               return 'FDBR';                                                                              
             } else if (resultJson['region'] === 'MT') {
-              return 'MTCDPA';                                                                              
+              return 'MTCDPA';                  
+            } else if (resultJson['region'] === 'IA') {
+              return 'ICDPA';    
+            } else if (resultJson['region'] === 'DE') {
+              return 'DPDPA';    
+            } else if (resultJson['region'] === 'NH') {
+              return 'NHDPA';    
+            } else if (resultJson['region'] === 'NE') {
+              return 'NDPA';            
+            } else if (resultJson['region'] === 'NJ') {
+              return 'NJDPL';                          
             } else {
               return 'CCPA';
             }
