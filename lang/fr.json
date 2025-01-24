@@ -761,6 +761,9 @@
   "request.next.declineCTDPA": {
     "message": "<ul><li>Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés</li><li>Données sanitaires protégées</li><li>données employées incluant les données du candidat à l'emploi</li><li>données déidentifiées</li><li>Informations publiquement disponibles</li><li>Informations globales</li><li>Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
   },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Provide a product or service specifically requested by the consumer.</li><li>Perform certain internal operations that reasonably align with consumer expectations.</li><li>Issue a product recall or repair technical errors.</li><li>Respond to and prevent security incidents, identity theft, and fraud.</li><li>Comply with federal, state, or local law.</li><li>Pseudonymous data.</li><li>De-identified data.</li><li>Publicly available information.</li><li>Public or peer-reviewed scientific research.</li></ul>"
+  },
   "request.next.declineDPDPA": {
     "message": "<ul><li>(a) the processing of personal data is necessary for enforcing any legal right or claim;</li><li>(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;</li><li>(c) personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India;</li><li>(d) personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India;</li><li>(e) the processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force; and</li><li>(f) the processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force.</li></ul>"
   },
@@ -773,8 +776,23 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>Lors de la conservation de vos données est nécessaire pour des raisons de liberté d'expression et d'information (cela inclut le journalisme et le universitaire, fins artistiques et littéraires).</li><li>Lorsque l'organisation est légalement obligée de conserver vos données.</li><li>La conservation de vos données est nécessaire pour des raisons de santé publique.</li><li>Lors de la conservation de vos données est nécessaire pour l'établissement, l'exercice ou la défense des recours juridiques.</li><li>L'effacement de vos données nuirait à la recherche scientifique ou historique ou à l'archivage dans l'intérêt du public.</li><li>Si, après avoir examiné votre demande, l'organisation décide qu'elle n'a pas besoin d'effacer vos données, elle doit tout de même vous répondre. Il devrait vous expliquer pourquoi il pense qu'il ne doit pas effacer vos données, et vous informer de votre droit de vous plaindre de cette décision devant le DPA, ou par les tribunaux.</li></ul>"
   },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li></ul>"
+  },
   "request.next.declineLGPD": {
     "message": "<ul><li>Libre parole ou autre droit fourni par la loi.</li><li>Traitement à des fins de recherche, si la suppression de renseignements personnels rendrait impossible ou nuirait gravement à la réalisation de telles recherches.</li><li>Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité.</li><li>Pour se conformer à une obligation légale.</li><li>Effectuer un contrat entre l'entreprise et le consommateur.</li><li>Détecter les incidents de sécurité, se protéger contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivre les responsables de cette activité.</li><li>Débogage pour identifier et réparer les erreurs qui entravent les fonctionnalités existantes.</li><li>Permettre uniquement des utilisations internes qui sont raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise.</li><li>Sinon, utilisez les informations personnelles du consommateur, en interne, de façon licite et compatible avec le contexte dans lequel le consommateur a fourni les renseignements.</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés</li><li>Données sanitaires protégées</li><li>données employées incluant les données du candidat à l'emploi</li><li>données déidentifiées</li><li>Informations publiquement disponibles</li><li>Informations globales</li><li>Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
   },
   "request.next.declineOPCA": {
     "message": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:<ul><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
@@ -1016,26 +1034,17 @@
   "thankyou.copyPart1Email": {
     "message": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
   },
-  "thankyou.copyPart2CCPA": {
-    "message": "L'organisation dispose de <em>45 jours</em> pour se conformer et peut vous demander des informations supplémentaires pour aider à vous identifier dans ses systèmes."
-  },
-  "thankyou.copyPart2GDPR": {
-    "message": "Les organisations ont <em>un mois</em> pour se conformer et peuvent vous demander des informations supplémentaires pour vous identifier dans leurs systèmes."
-  },
-  "thankyou.copyPart3": {
-    "message": "Veuillez consulter notre liste de <a>questions fréquemment posées</a> pour plus d'informations."
-  },
   "thankyou.description": {
     "message": "Merci"
   },
   "thankyou.donation": {
-    "message": "Veuillez envisager <a>de faire un don</a> pour nous aider à assurer notre stabilité financière à long terme et notre indépendance."
+    "message": "Help us keep this service free by <a>making a donation</a> to help ensure our long-term financial stability and independence."
   },
   "thankyou.findCompany": {
     "message": "Trouver une autre organisation"
   },
   "thankyou.howLongToReply": {
-    "message": "Les organisations ont {days} à respecter et peuvent vous demander des informations supplémentaires pour vous aider à vous identifier dans leurs systèmes."
+    "message": "Organizations have {days} to comply, and may request additional information in order to verify your identity."
   },
   "thankyou.requestTypeAccess": {
     "message": "Une demande d'accès"
