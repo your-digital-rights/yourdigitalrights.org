@@ -345,7 +345,7 @@ const Regulations = {
       shortName: 'ANPD',
       longName: 'Autoridade Nacional de Proteção de Dados',
       requestFormURL: 'https://www.gov.br/secretariageral/pt-br/sei-peticionamento-eletronico',
-      defaultAction: 'form',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'Brasil',
