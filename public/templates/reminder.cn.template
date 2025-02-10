@@ -1,0 +1,34 @@
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+致 {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) 的隐私部门/数据保护官/法律部门，
+
+On {{ requestSentDate }} I have sent you a Data {{ requestType.name | capitalize  }} Request via email, pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+我依据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ requestType.article }}，于 {{ requestSentDate }} 通过电子邮件向您发送了数据 {{ requestType.name | capitalize }} 请求。
+
+{% if status === 'PARTIAL' %}
+So far you have failed to fully comply with my request. 
+到目前为止，您未能完全遵守我的请求。
+{% elif status === 'DECLINED' %}
+So far you have refused to comply with my request.
+到目前为止，您拒绝遵守我的请求。
+{% elif status === 'NO_REPLY' %}
+So far I did not receive a reply to my request.
+到目前为止，我尚未收到对我的请求的回复。
+{% endif %}
+
+{% if daysSinceRequest > regulation.timeLimit %}
+Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+请注意，自首次发送请求以来已过去 {{ daysSinceRequest }} 天，您现在违反了 {{ regulation.displayName }} 的 {{ requestType.article }}。
+{% endif %}
+
+I am sending this email to remind you of my request and reserve the right to escalate the matter to the {{ regulation.dpa.longName }} if you do not fully comply with it. 
+我发送这封电子邮件是为了提醒您我的请求，如果您不完全遵守，我保留将此事上报给 {{ regulation.dpa.longName }} 的权利。
+
+Kind regards,
+谨致问候，
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+由 YourDigitalRights.org 提供支持
+
+{{ previousEmails }}
