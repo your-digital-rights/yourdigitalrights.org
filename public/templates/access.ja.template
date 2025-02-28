@@ -65,3 +65,25 @@
 
 Powered by YourDigitalRights.org
 
+
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+
+I am writing to request a copy of my personal inforation pursuant to Japan's data protection regulation - Article 30 of the Act on the Protection of Personal Information (APPL). 
+
+Please also confirm whether or not my personal data has been collected, sold, or disclosed.
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org

@@ -1,0 +1,59 @@
+致 {{ companyName }} ({{ companyUrl }}) 隐私部门/数据保护官/法律部门，
+
+我写此信的目的是请求您根据 {{regulation.longName }} ({{regulation.displayName }}) 的 {{regulation.requestTypes[requestType].article }} 从您的所有纸质和/或计算机记录中删除我的个人数据。
+
+如果您需要同意才能处理我的个人数据，我将撤回该同意。 如果您依赖您的“合法利益”来处理我的个人数据，我反对这种处理，因为没有压倒性的合法理由。
+
+如果您将我的个人数据出售给第三方，请将此电子邮件视为我向您发出的指示，不要将我的个人数据出售给第三方。
+
+请不要要求我执行自助服务流程，例如在您的网站上查找我的信息、填写表格或提供移动广告 ID。这些要求给我带来了过度的负担。
+
+{% if identifyingInfo %}
+请在您的记录中，使用以下信息识别我的身份：
+
+{{ identifyingInfo }}
+{% endif %}
+
+如果您无法满足我删除所有个人数据的请求，请告知无法执行此请求的具体原因。请告知您依赖的法律章节和小节，并说明依赖这些例外情况的具体原因，例如哪项法律义务或内部目的或用途。请删除所有不属于这些例外情况的个人数据。
+
+本电子邮件消息是从我的帐户发送的（如电子邮件标题所示）。请使用此事实来验证我的身份。请不要要求我提供任何进一步的身份信息，因为这会给我带来过度负担。如果您有法律义务要求提供其他身份信息以验证我的身份，请尽快通知我。
+
+请确认您已从纸质和/或计算机记录中删除了我的个人数据，并且您已与共享了我的信息的任何第三方组织进行了跟进，以确保他们删除了他们的数据副本。
+
+我首选的联系方式是电子邮件。
+
+请注意，我不同意将此请求中的任何个人数据用于除满足此请求之外的任何其他目的，除非是禁止列表，您可以保留该列表以确保将来不会收集我的任何个人数据。
+
+请注意，您有 {{ regulation.timeLimit }} 天的时间来满足此请求。
+
+
+谨致问候，
+
+{{ name }}
+
+由 YourDigitalRights.org 提供支持
+
+
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+
+I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to China's data protection regulation - Article 47 of the Personal Information Protection Law (PIPL). 
+
+To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
+
+If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
+
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org
+

@@ -12,6 +12,10 @@ export default {
     
     if (requestItem.regulationType.S === "LGPD") {
       return `Aviso: Minha Solicitação de ${capitalize(requestType.name)} de Dados ${regulation.displayName} enviada ${new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate))} (ref: ${requestItem.id.S.split("-")[0]})`;
+    } else if (requestItem.regulationType.S === "PIPL") {
+      return `提醒：我的数据请求 (ref: ${requestItem.id.S.split("-")[0]})`;
+    } else if (requestItem.regulationType.S === "APPI") {
+      return `リマインダー: データリクエスト (ref: ${requestItem.id.S.split("-")[0]})`;
     } else {
       return `Reminder: My ${regulation.displayName} Data ${capitalize(requestType.name)} Request sent ${new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate))} (ref: ${requestItem.id.S.split("-")[0]})`;
     }
@@ -22,20 +26,26 @@ export default {
     data.requestType = data.regulation['requestTypes'][requestItem.requestType.S];
     const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
     data.daysSinceRequest = daysSince(new Date(requestSentDate));
-    data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
-    data.previousEmails = assemblePreviusEmails(requestItem, "en")
+    data.previousEmails = assemblePreviusEmails(requestItem, "en");
+    data.requestSentDate_en = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
+    var templateFile;
 
-    var templateFile = "reminder.template";
     if (requestItem.regulationType.S === "LGPD") {
+      data.requestSentDate = new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate));
       templateFile = "reminder.lgpd.template";
-    } else if (data.regulationType === "APPI") {
+    } else if (requestItem.regulationType.S === "APPI") {
+      data.requestSentDate = new Intl.DateTimeFormat('ja', { dateStyle: 'full'}).format(new Date(requestSentDate));
       templateFile = "reminder.ja.template";
+    } else if (requestItem.regulationType.S === "PIPL") {
+      data.requestSentDate = new Intl.DateTimeFormat('zh', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      templateFile = "reminder.cn.template";
+    } else {
+      data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      templateFile = "reminder.template";
     }
-
+    
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });
-    var res = env.render(templateFile, data);
-
-    return res;
+    return env.render(templateFile, data);
   },
 };
 

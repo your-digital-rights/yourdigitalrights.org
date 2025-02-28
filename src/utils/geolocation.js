@@ -54,7 +54,9 @@ async function getRegulationbyGeolocation() {
         } else if (resultJson['country'] === 'IN') {
           return 'DPDPA';             
         } else if (resultJson['country'] === 'CH') {
-          return 'FADP';       
+          return 'FADP';   
+        } else if (resultJson['country'] === 'CN') {
+          return 'PIPL';                 
         } else {
           return 'GDPR';
         }

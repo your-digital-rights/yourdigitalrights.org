@@ -1,0 +1,88 @@
+致 {{ companyName }} ({{ companyUrl }}) 的隐私部门/数据保护官/法律部门，
+
+我写此信是为了获取以下个人信息，根据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ regulation.requestTypes[requestType].article }}，我有权获取这些信息。
+
+请确认我的个人数据是否已被收集、出售或披露，如果是，请提供以下信息：
+
+1. 您收集、出售或披露的我的个人数据的副本
+
+2. 您收集、出售或披露我的个人数据的具体业务或商业目的的详细说明
+
+3. 相关的个人数据类别
+
+4. 您与之共享（或可能共享）我的个人数据的所有第三方的列表，以及您与每个第三方共享的具体个人数据和数据类别的说明
+
+5. 在可能的情况下，个人数据的预计存储期限，或者，如果不可能，则使用确定该期限的标准
+
+6. 获取我的个人数据的来源
+
+7. 是否存在自动决策，包括分析，至少在这些情况下，提供有关所涉及逻辑的有意义的信息，以及此类处理对我的意义和预期后果
+
+8. 请告知我的个人信息在哪些国家存储或可访问 从。 如果您使用云服务来存储或处理我的数据，请说明服务器所在的国家/地区以及我的数据（过去 12 个月内）的存储地点
+
+9. 请描述您在将我的个人数据转移到第三国或国际组织时提供的保障措施
+
+10. 此外，我想知道我的个人数据是否曾被贵组织无意泄露，或是否因安全或隐私泄露而泄露：
+
+    10.1 发生情况的一般描述
+
+    10.2 泄露的日期和时间（或最佳估计）
+
+    10.3 发现泄露的日期和时间
+
+    10.4 泄露的来源（贵组织或您已将我的个人数据转移给的第三方）
+
+    10.5 已泄露的我的个人数据的详细信息
+
+    10.6 贵公司对泄露对我造成伤害的风险的评估
+
+    10.7 为防止进一步未经授权访问我的个人数据而采取或将要采取的措施的描述
+
+    10.8 联系信息，以便我可以获得有关此类违规行为的更多信息和帮助
+
+    10.9 有关我可以采取哪些措施来保护自己免受任何伤害（包括身份盗窃和欺诈）的信息和建议
+
+我首选的联系方式是电子邮件。
+
+请不要要求我执行自助服务流程，例如在您的网站上查找我的信息、填写表格或提供移动广告 ID。这些要求会给我带来过度负担。
+
+{% if identifyingInfo %}
+请在您的记录中，使用以下信息识别我的身份：
+{{ identifyingInfo }}
+{% endif %}
+
+如果您无法满足我的请求，请告知无法执行此请求的具体原因。请告知您依赖的法律条款和子条款，并说明您依赖这些例外情况的具体原因，例如哪项法律义务或内部目的或用途。请提供一份副本以及上述要求的所有其他信息，以说明我的个人数据不属于这些例外情况。
+
+本电子邮件消息是从我的帐户发送的（如电子邮件标题所示）。请使用此事实来验证我的身份。请不要要求我提供任何进一步的身份信息，因为这会给我带来过度负担。如果您有法律义务要求提供其他身份信息以验证我的身份，请尽快通知我。
+
+请注意，我不同意将此请求中的任何个人信息（您尚未拥有）用于除满足此请求之外的任何目的。
+
+请注意，您有 {{ regulation.timeLimit }} 天的时间来满足此请求。
+
+谨致问候，
+
+{{ name }}
+
+由 YourDigitalRights.org 提供支持
+
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+
+I am writing to request a copy of my personal inforation pursuant to China's data protection regulation - Article 45 of the Personal Information Protection Law (PIPL). 
+
+Please also confirm whether or not my personal data has been collected, sold, or disclosed.
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org

@@ -30,3 +30,27 @@
 {{ name }}
 
 Powered by YourDigitalRights.org
+
+
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+
+I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to Japan's data protection regulation - Article 28 of the Act on the Protection of Personal Information (APPL). 
+
+To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
+
+If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
+
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org

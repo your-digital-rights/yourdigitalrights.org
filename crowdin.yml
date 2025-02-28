@@ -9,5 +9,7 @@ files:
   - source: /public/templates/*.template
     ignore:
       - '*lgpd*'
+      - '*cn*'
+      - '*ja*'
       - '*.??.*'
     translation: /public/templates/%file_name%.%two_letters_code%.template

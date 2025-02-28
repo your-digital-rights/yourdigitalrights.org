@@ -1133,6 +1133,51 @@ const Regulations = {
     } 
   }, 
 
+  PIPL: {
+    displayName: 'PIPL',
+    gepgraphy: '中国',
+    longName: '个人信息保护法',
+    timeLimit: 30,
+    escalation_timeLimit: 60,
+    dpa: {
+      shortName: 'CAC',
+      longName: '国家互联网信息办公室',
+      requestFormURL: 'https://www.12377.cn/qql/qqljb.html',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: '中国',
+          countryCode: 'CN',
+          email: 'jubao@12377.cn',
+          website: 'https://www.12377.cn/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html',
+    requestTypes: {
+      DELETION: {
+        name: '删除',
+        article: '第四十七条',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declinePIPL"
+            defaultMessage="个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项."
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),          
+        exceptionURL: 'http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html',
+      },
+      ACCESS: {
+        name: '审阅并复制',
+        article: '第四十五条',        
+      }
+    } 
+  }, 
+
 };
 
 export default Regulations;
