@@ -2365,6 +2365,104 @@
       "value": "ul"
     }
   ],
+  "request.next.declineDPDP": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Fournir un produit ou un service spécifiquement demandé par le consommateur."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Effectuer certaines opérations internes qui correspondent raisonnablement aux attentes des consommateurs."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "procéder au rappel d'un produit ou à la réparation d'une erreur technique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Répondre aux incidents de sécurité, au vol d'identité et à la fraude et les prévenir."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "se conformer à la législation fédérale, nationale ou locale."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données pseudonymes."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données dépersonnalisées."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations accessibles au public."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recherche scientifique publique ou évaluée par les pairs."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineDPDPA": [
     {
       "children": [
@@ -2372,7 +2470,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(a) the processing of personal data is necessary for enforcing any legal right or claim;"
+              "value": "(a) le traitement des données à caractère personnel est nécessaire pour faire valoir un droit ou une prétention ;"
             }
           ],
           "type": 8,
@@ -2382,7 +2480,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;"
+              "value": "(b) le traitement de données à caractère personnel par une cour ou un tribunal ou tout autre organisme en Inde chargé par la loi d'exercer une fonction judiciaire ou quasi-judiciaire, de réglementation ou de contrôle, lorsque ce traitement est nécessaire à l'exercice de cette fonction ;"
             }
           ],
           "type": 8,
@@ -2392,7 +2490,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(c) personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India;"
+              "value": "(c) les données à caractère personnel sont traitées dans l'intérêt de la prévention, de la détection, de l'investigation ou de la poursuite d'une infraction ou d'une contravention à toute loi actuellement en vigueur en Inde ;"
             }
           ],
           "type": 8,
@@ -2402,7 +2500,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(d) personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India;"
+              "value": "(d) les données à caractère personnel des responsables des données ne se trouvant pas sur le territoire de l'Inde sont traitées en vertu d'un contrat conclu avec une personne se trouvant en dehors du territoire de l'Inde par une personne basée en Inde ;"
             }
           ],
           "type": 8,
@@ -2412,7 +2510,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(e) the processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force; and"
+              "value": "(e) le traitement est nécessaire pour un plan de compromis ou d'arrangement ou une fusion ou un amalgame de deux ou plusieurs sociétés ou une reconstruction par voie de scission ou autre d'une société, ou un transfert d'entreprise d'une ou plusieurs sociétés à une autre société, ou impliquant la division d'une ou plusieurs sociétés, approuvé par un tribunal ou une autre autorité compétente en vertu d'une loi en vigueur ; et"
             }
           ],
           "type": 8,
@@ -2422,7 +2520,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(f) the processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force."
+              "value": "f) le traitement a pour but de déterminer les informations financières et les actifs et passifs de toute personne qui n'a pas effectué le paiement dû au titre d'un prêt ou d'une avance contracté(e) auprès d'une institution financière, sous réserve que ce traitement soit conforme aux dispositions relatives à la divulgation d'informations ou de données de toute autre loi en vigueur."
             }
           ],
           "type": 8,
@@ -2436,7 +2534,7 @@
   "request.next.declineFADP": [
     {
       "type": 0,
-      "value": "The controller may refuse to provide information, or restrict or delay the provision of information if:"
+      "value": "Le contrôleur peut refuser de fournir des informations, ou restreindre ou retarder la fourniture d'informations si :"
     },
     {
       "children": [
@@ -2444,7 +2542,7 @@
           "children": [
             {
               "type": 0,
-              "value": "a. a formal law so provides, in particular in order to preserve professional secrecy;"
+              "value": "a. une loi formelle ainsi prévoit, en particulier pour préserver le secret professionnel;"
             }
           ],
           "type": 8,
@@ -2454,7 +2552,7 @@
           "children": [
             {
               "type": 0,
-              "value": "b. this is required to safeguard overriding third-party interests; or"
+              "value": "b. ceci est requis pour protéger les intérêts prépondérants de tierces parties ; ou"
             }
           ],
           "type": 8,
@@ -2464,7 +2562,7 @@
           "children": [
             {
               "type": 0,
-              "value": "c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous."
+              "value": "c. la demande d'information est évidemment injustifiée, en particulier si elle ne sert pas l'objectif de la protection des données ou est clairement frivole."
             }
           ],
           "type": 8,
@@ -2480,7 +2578,7 @@
     },
     {
       "type": 0,
-      "value": "Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:"
+      "value": "En outre, il est possible de refuser, restreindre ou retarder la fourniture d’informations dans les cas suivants :"
     },
     {
       "children": [
@@ -2488,7 +2586,7 @@
           "children": [
             {
               "type": 0,
-              "value": "a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties."
+              "value": "a. Le contrôleur est une personne privée et les exigences suivantes sont satisfaites : 1. Les intérêts du contrôleur doivent être pris en compte. 2. Le contrôleur n'a pas l'intention de divulguer les données personnelles à des tiers."
             }
           ],
           "type": 8,
@@ -2498,7 +2596,7 @@
           "children": [
             {
               "type": 0,
-              "value": "b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings."
+              "value": "b. Le contrôleur est un organisme fédéral et l'une des exigences suivantes est satisfaite : 1. Cette mesure est nécessaire pour satisfaire les intérêts publics prépondérants, en particulier la sécurité intérieure ou extérieure de la Suisse. La communication des informations peut compromettre une enquête, une enquête ou une procédure administrative ou judiciaire."
             }
           ],
           "type": 8,
@@ -2516,7 +2614,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(a) Comply with federal or state laws, rules, or regulations."
+              "value": "(a) se conformer aux lois, règles ou réglementations fédérales ou étatiques"
             }
           ],
           "type": 8,
@@ -2526,7 +2624,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(b) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities."
+              "value": "(b) se conformer à une enquête civile, pénale ou réglementaire, à une investigation, à une citation à comparaître ou à une assignation par les autorités fédérales, étatiques, locales ou d'autres autorités gouvernementales."
             }
           ],
           "type": 8,
@@ -2536,7 +2634,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(c) Investigate, establish, exercise, prepare for, or defend legal claims."
+              "value": "(c) Enquêter, établir, exercer, préparer ou défendre des réclamations légales."
             }
           ],
           "type": 8,
@@ -2546,7 +2644,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(d) Provide a product or service specifically requested by a consumer or the parent or guardian of a child, perform a contract to which the consumer is a party, including fulfilling the terms of a written warranty, or take steps at the request of the consumer before entering into a contract."
+              "value": "(d) fournir un produit ou un service spécifiquement demandé par un consommateur ou par le parent ou le tuteur d'un enfant, exécuter un contrat auquel le consommateur est partie, y compris remplir les conditions d'une garantie écrite, ou prendre des mesures à la demande du consommateur avant de conclure un contrat."
             }
           ],
           "type": 8,
@@ -2556,7 +2654,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(e) Take immediate steps to protect an interest that is essential for the life or physical safety of the consumer or of another individual and in which the processing cannot be manifestly based on another legal basis."
+              "value": "(e) prendre des mesures immédiates pour sauvegarder un intérêt essentiel pour la vie ou la sécurité physique du consommateur ou d'une autre personne et pour lequel le traitement ne peut manifestement pas être fondé sur une autre base juridique."
             }
           ],
           "type": 8,
@@ -2566,7 +2664,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(f) Prevent, detect, protect against, or respond to security incidents, identity theft, fraud, harassment, malicious or deceptive activities, or any illegal activity."
+              "value": "(f) prévenir, détecter et protéger les incidents de sécurité, l'usurpation d'identité, la fraude, le harcèlement, les activités malveillantes ou trompeuses, ou toute activité illégale, ou y réagir."
             }
           ],
           "type": 8,
@@ -2576,7 +2674,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(g) Preserve the integrity or security of systems or investigate, report, or prosecute those responsible for breaches of system security."
+              "value": "(g) Préserver l'intégrité ou la sécurité des systèmes ou enquêter, signaler ou poursuivre les responsables de violations de la sécurité des systèmes."
             }
           ],
           "type": 8,
@@ -2586,7 +2684,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(h) Engage in public or peer-reviewed scientific or statistical research in the public interest which adheres to all other applicable ethics and privacy laws and is approved, monitored, and governed by an institutional review board or similar independent oversight entity that determines: 1. Whether the deletion of the information is likely to provide substantial benefits that do not exclusively accrue to the controller; 2. Whether the expected benefits of the research outweigh the privacy risks; and 3. Whether the controller has implemented reasonable safeguards to mitigate privacy risks associated with research, including any risks associated with reidentification."
+              "value": "(h) mener, dans l'intérêt public, des recherches scientifiques ou statistiques publiques ou évaluées par des pairs, qui respectent toutes les autres lois applicables en matière d'éthique et de protection de la vie privée et qui sont approuvées, contrôlées et régies par un comité d'examen institutionnel ou une entité de contrôle indépendante similaire qui détermine : 1. Si la suppression des informations est susceptible d'apporter des avantages substantiels qui ne reviennent pas exclusivement au responsable du traitement ; 2. si les avantages escomptés de la recherche l'emportent sur les risques pour la vie privée ; et 3. si le responsable du traitement a mis en place des garanties raisonnables pour assurer la protection de la vie privée des personnes concernées. Si le responsable du traitement a mis en œuvre des garanties raisonnables pour atténuer les risques d'atteinte à la vie privée liés à la recherche, y compris tout risque lié à la réidentification."
             }
           ],
           "type": 8,
@@ -2596,7 +2694,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(i) Assist another controller, processor, or third party in complying with the requirements of this part."
+              "value": "(i) Aider un autre responsable du traitement, un sous-traitant ou un tiers à se conformer aux exigences de la présente partie."
             }
           ],
           "type": 8,
@@ -2606,7 +2704,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(j) Disclose personal data disclosed when a consumer uses or directs the controller to intentionally disclose information to a third party or uses the controller to intentionally interact with a third party. An intentional interaction occurs when the consumer intends to interact with the third party, by one or more deliberate interactions. Hovering over, muting, pausing, or closing a given piece of content does not constitute a consumer’s intent to interact with a third party."
+              "value": "(j) divulguer les données à caractère personnel communiquées lorsqu'un consommateur utilise ou ordonne au responsable du traitement de divulguer intentionnellement des informations à un tiers ou utilise le responsable du traitement pour interagir intentionnellement avec un tiers. Il y a interaction intentionnelle lorsque le consommateur a l'intention d'interagir avec le tiers, par une ou plusieurs interactions délibérées. Le fait de survoler, de mettre en sourdine, de mettre en pause ou de fermer un élément de contenu donné ne constitue pas l'intention d'un consommateur d'interagir avec un tiers."
             }
           ],
           "type": 8,
@@ -2616,7 +2714,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(k) Transfer personal data to a third party as an asset that is part of a merger, an acquisition, a bankruptcy, or other transaction in which the third party assumes control of all or part of the controller, provided that the information is used or shared in a manner consistent with this part. If a third party materially alters how it uses or shares the personal data of a consumer in a manner that is materially inconsistent with the commitments or promises made at the time of collection, it must provide prior notice of the new or changed practice to the consumer. The notice must be sufficiently prominent and robust to ensure that consumers can easily exercise choices consistent with this part."
+              "value": "(k) Transférer des données à caractère personnel à un tiers en tant qu'actif faisant partie d'une fusion, d'une acquisition, d'une faillite ou d'une autre transaction dans le cadre de laquelle le tiers prend le contrôle de tout ou partie du responsable du traitement, à condition que les informations soient utilisées ou partagées d'une manière conforme à la présente partie. Si un tiers modifie substantiellement la manière dont il utilise ou partage les données à caractère personnel d'un consommateur d'une manière qui est substantiellement incompatible avec les engagements ou les promesses faites au moment de la collecte, il doit informer au préalable le consommateur de la nouvelle pratique ou de la pratique modifiée. La notification doit être suffisamment visible et solide pour que les consommateurs puissent facilement exercer des choix conformes à la présente partie."
             }
           ],
           "type": 8,
@@ -2685,6 +2783,54 @@
             {
               "type": 0,
               "value": "Si, après avoir examiné votre demande, l'organisation décide qu'elle n'a pas besoin d'effacer vos données, elle doit tout de même vous répondre. Il devrait vous expliquer pourquoi il pense qu'il ne doit pas effacer vos données, et vous informer de votre droit de vous plaindre de cette décision devant le DPA, ou par les tribunaux."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineICDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données pseudonymes"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiques"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recherche scientifique"
             }
           ],
           "type": 8,
@@ -2793,10 +2939,262 @@
       "value": "ul"
     }
   ],
+  "request.next.declineMTCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires protégées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données employées incluant les données du candidat à l'emploi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "données déidentifiées"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiquement disponibles"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations globales"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données pseudonymes"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiques"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recherche scientifique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNHDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données pseudonymes"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiques"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recherche scientifique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNJDPL": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données pseudonymes"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informations publiques"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Recherche scientifique"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données sanitaires"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineOPCA": [
     {
       "type": 0,
-      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:"
+      "value": "Les entités telles que les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières et certaines institutions financières sont exonérées. De plus, certains types de données sont exonérés :"
     },
     {
       "children": [
@@ -2804,7 +3202,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "Données de santé protégées"
             }
           ],
           "type": 8,
@@ -2814,7 +3212,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employee data including job applicant data"
+              "value": "Données des employés, y compris les données des candidats à l'emploi"
             }
           ],
           "type": 8,
@@ -2824,7 +3222,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2834,7 +3232,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2844,7 +3242,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Aggregate information"
+              "value": "Données"
             }
           ],
           "type": 8,
@@ -2854,7 +3252,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
+              "value": "Données personnelles collectées pour des recherches sur des sujets humains ou dans le cadre d'un essai clinique"
             }
           ],
           "type": 8,
@@ -2906,7 +3304,7 @@
   "request.next.declineTDPSA": [
     {
       "type": 0,
-      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
+      "value": "Entités comprenant les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières, et des entités couvertes en vertu de lois particulières, telles que la Loi sur la transférabilité et la Loi sur la responsabilité en matière d'assurance maladie. sont exonérés."
     }
   ],
   "request.next.declineUCPA": [
@@ -2994,7 +3392,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health information under HIPAA;"
+              "value": "Informations de santé protégées en vertu de l'HIPAA ;"
             }
           ],
           "type": 8,
@@ -3004,7 +3402,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Health records for purposes of Title 32.1;"
+              "value": "Dossiers médicaux aux fins du titre 32.1 ;"
             }
           ],
           "type": 8,
@@ -3014,7 +3412,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient identifying information for purposes of 42 U.S.C. § 290dd-2;"
+              "value": "Informations d'identification du patient aux fins de l'article 42 U.S.C. § 290dd-2 ;"
             }
           ],
           "type": 8,
@@ -3024,71 +3422,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Information used only for public health activities and purposes as authorized by HIPAA;"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);"
+              "value": "Informations privées identifiables aux fins de la politique fédérale de protection des sujets humains en vertu de 45 C.F.R. Part 46 ; informations privées identifiables qui sont par ailleurs des informations collectées dans le cadre de recherches sur des sujets humains conformément aux lignes directrices sur les bonnes pratiques cliniques publiées par le Conseil international pour l'harmonisation des exigences techniques relatives aux produits pharmaceutiques à usage humain ; protection des sujets humains en vertu de 21 C.F.R. Parts 6, 50 et 56, ou données personnelles utilisées ou partagées dans le cadre de recherches menées conformément aux exigences énoncées dans le présent chapitre, ou d'autres recherches menées conformément à la législation applicable ;"
             }
           ],
           "type": 8,
@@ -3102,7 +3436,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);"
+              "value": "les informations et documents créés aux fins de la loi fédérale de 1986 sur l'amélioration de la qualité des soins de santé (42 U.S.C. § 11101 et seq.) ;"
             }
           ],
           "type": 8,
@@ -3112,7 +3446,47 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);"
+              "value": "le produit du travail sur la sécurité des patients aux fins de la loi fédérale sur la sécurité des patients et l'amélioration de la qualité (42 U.S.C. § 299b-21 et seq.) ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "les informations dérivées de l'une des informations relatives aux soins de santé énumérées dans la présente sous-section qui sont dépersonnalisées conformément aux exigences de dépersonnalisation prévues par l'HIPAA ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "les informations provenant d'une entité couverte ou d'un associé commercial au sens de l'HIPAA, d'un programme ou d'un organisme de service qualifié au sens de l'article 42 U.S.C. § 290dd-2, et qui sont mélangées de manière à ne pas pouvoir être distinguées ou traitées de la même manière que les informations exemptées en vertu de ce paragraphe et conservées par une entité couverte ou un associé commercial au sens de l'HIPAA ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "les informations utilisées uniquement pour les activités et les objectifs de santé publique autorisés par l'HIPAA ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "La collecte, la maintenance, la divulgation, la vente, la communication ou l'utilisation de toute information personnelle relative à la solvabilité, à la capacité de crédit, au caractère, à la réputation générale, aux caractéristiques personnelles ou au mode de vie d'un consommateur par une agence de renseignements sur les consommateurs ou un fournisseur qui fournit des informations à utiliser dans un rapport sur les consommateurs, et par un utilisateur d'un rapport sur les consommateurs, mais uniquement dans la mesure où une telle activité est réglementée et autorisée par la loi fédérale Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.) ;"
             }
           ],
           "type": 8,
@@ -3126,7 +3500,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);"
+              "value": "Données personnelles collectées, traitées, vendues ou divulguées conformément à la loi fédérale de 1994 sur la protection de la vie privée des conducteurs (18 U.S.C. § 2721 et seq.) ;"
             }
           ],
           "type": 8,
@@ -3136,7 +3510,31 @@
           "children": [
             {
               "type": 0,
-              "value": "Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits."
+              "value": "les données à caractère personnel régies par la loi fédérale sur les droits et la confidentialité en matière d'éducation familiale (20 U.S.C. § 1232g et seq.) ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Données à caractère personnel collectées, traitées, vendues ou divulguées conformément à la loi fédérale sur le crédit agricole (12 U.S.C. § 2001 et seq.) ;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Les données traitées ou conservées (i) dans le cadre d'une candidature, d'un emploi ou d'une fonction d'agent ou d'entrepreneur indépendant d'un responsable du traitement, d'un sous-traitant ou d'un tiers, dans la mesure où les données sont collectées et utilisées dans le contexte de ce rôle ; (ii) en tant que coordonnées d'urgence d'une personne en vertu du présent chapitre, utilisées à des fins de contact d'urgence ; ou (iii) qui sont nécessaires à la gestion des prestations pour une autre personne en rapport avec la personne visée à la clause (i) et utilisées à des fins de gestion de ces prestations."
             }
           ],
           "type": 8,
@@ -3850,13 +4248,13 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
+      "value": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et enrichi !"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Privacy Alerts!"
+      "value": "Abonnez-vous aux alertes de confidentialité !"
     }
   ],
   "support.description1": [
@@ -3923,66 +4321,6 @@
       "value": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
     }
   ],
-  "thankyou.copyPart2CCPA": [
-    {
-      "type": 0,
-      "value": "L'organisation dispose de "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "45 jours"
-        }
-      ],
-      "type": 8,
-      "value": "em"
-    },
-    {
-      "type": 0,
-      "value": " pour se conformer et peut vous demander des informations supplémentaires pour aider à vous identifier dans ses systèmes."
-    }
-  ],
-  "thankyou.copyPart2GDPR": [
-    {
-      "type": 0,
-      "value": "Les organisations ont "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "un mois"
-        }
-      ],
-      "type": 8,
-      "value": "em"
-    },
-    {
-      "type": 0,
-      "value": " pour se conformer et peuvent vous demander des informations supplémentaires pour vous identifier dans leurs systèmes."
-    }
-  ],
-  "thankyou.copyPart3": [
-    {
-      "type": 0,
-      "value": "Veuillez consulter notre liste de "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "questions fréquemment posées"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": " pour plus d'informations."
-    }
-  ],
   "thankyou.description": [
     {
       "type": 0,
@@ -3992,13 +4330,13 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Veuillez envisager "
+      "value": "Aidez-nous à maintenir ce service gratuitement par "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "de faire un don"
+          "value": "faisant un don"
         }
       ],
       "type": 8,
@@ -4026,7 +4364,7 @@
     },
     {
       "type": 0,
-      "value": " à respecter et peuvent vous demander des informations supplémentaires pour vous aider à vous identifier dans leurs systèmes."
+      "value": " à respecter, et peuvent demander des informations supplémentaires afin de vérifier votre identité."
     }
   ],
   "thankyou.requestTypeAccess": [
