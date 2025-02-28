@@ -11,6 +11,10 @@ export default {
    
     if (requestItem.regulationType.S === "LGPD") {
       return `Reclamação contra "${requestItem.companyName.S}" em relação a ${regulation.displayName} minha solicitação de ${capitalize(requestType.name)} (ref: ${requestItem.id.S.split("-")[0]}).`;
+    } else if (requestItem.regulationType.S === "PIPL") {
+      return `提醒：我的数据请求 (ref: ${requestItem.id.S.split("-")[0]})`;
+    } else if (requestItem.regulationType.S === "APPI") {
+      return `リマインダー: データリクエスト (ref: ${requestItem.id.S.split("-")[0]})`;      
     } else {
       return `Complaint against "${requestItem.companyName.S}" regarding a ${regulation.displayName} Data ${capitalize(requestType.name)} Request (ref: ${requestItem.id.S.split("-")[0]}).`;
     }
@@ -21,23 +25,37 @@ export default {
     data.requestType = data.regulation['requestTypes'][requestItem.requestType.S];
     const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
     data.daysSinceRequest = daysSince(new Date(requestSentDate));
-    data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
-    if (requestItem.reminderEmailSentAt) {
-      data.reminderSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
-    }
     data.previousEmails = assemblePreviusEmails(requestItem, "en")
-
-    var templateFile = "escalation.template";
+    var templateFile;
+    
     if (requestItem.regulationType.S === "LGPD") {
+      data.requestSentDate = new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      if (requestItem.reminderEmailSentAt) {
+        data.reminderSentDate = new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
+      }
       templateFile = "escalation.lgpd.template";
     } else if (data.regulationType === "APPI") {
+      data.requestSentDate = new Intl.DateTimeFormat('ja', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      if (requestItem.reminderEmailSentAt) {
+        data.reminderSentDate = new Intl.DateTimeFormat('ja', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
+      }
       templateFile = "escalation.ja.template";
+    } else if (requestItem.regulationType.S === "PIPL") {
+      data.requestSentDate = new Intl.DateTimeFormat('zh', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      if (requestItem.reminderEmailSentAt) {
+        data.reminderSentDate = new Intl.DateTimeFormat('zh', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
+      }
+      templateFile = "reminder.cn.template";
+    }  else {
+      data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
+      if (requestItem.reminderEmailSentAt) {
+        data.reminderSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
+      }
+      templateFile = "escalation.template";
     }
 
     var env = new nunjucks.Environment(new nunjucks.WebLoader('/templates'), { autoescape: false, trimBlocks: true });
-    var res = env.render(templateFile, data);
-
-    return res;
+    return env.render(templateFile, data);
   },
 };
 

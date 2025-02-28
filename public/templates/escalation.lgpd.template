@@ -10,10 +10,6 @@ Eu gostaria de apresentar uma reclamação formal porque a organização recusou
 Eu gostaria de apresentar uma reclamação formal porque a organização não respondeu a minha solicitação.
 {% endif %}
 
-{IF $REMINDER_DATE$}
-Eu também enviei à organização um e-mail reiterando o pedido em $REMINDER_DATE$.
-{ENDIF}
-
 {% if complaintText %}
 Informações adicionais: 
 {{ complaintText }}

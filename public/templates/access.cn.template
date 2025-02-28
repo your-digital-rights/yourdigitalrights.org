@@ -1,98 +1,88 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
 致 {{ companyName }} ({{ companyUrl }}) 的隐私部门/数据保护官/法律部门，
 
-I am writing to obtain the following personal information that I am entitled to receive pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 我写此信是为了获取以下个人信息，根据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ regulation.requestTypes[requestType].article }}，我有权获取这些信息。
 
-Please confirm whether or not my personal data has been collected, sold, or disclosed, and, where that is the case, please provide the following information:
 请确认我的个人数据是否已被收集、出售或披露，如果是，请提供以下信息：
 
-1. A copy of my personal data that you have collected, sold, or disclosed
 1. 您收集、出售或披露的我的个人数据的副本
 
-2. A detailed accounting of the specific business or commercial purposes for which you are collecting, selling, or disclosing my personal data
 2. 您收集、出售或披露我的个人数据的具体业务或商业目的的详细说明
 
-3. The categories of personal data concerned
 3. 相关的个人数据类别
 
-4. A list of all third parties with whom you have (or may have) shared my personal data, and an account of which specific personal data, and which categories of data you have shared with each third party
 4. 您与之共享（或可能共享）我的个人数据的所有第三方的列表，以及您与每个第三方共享的具体个人数据和数据类别的说明
 
-5. Where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period
 5. 在可能的情况下，个人数据的预计存储期限，或者，如果不可能，则使用确定该期限的标准
 
-6. What sources were used to obtain my personal data
 6. 获取我的个人数据的来源
 
-7. The existence of automated decision-making, including profiling, and at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for me
 7. 是否存在自动决策，包括分析，至少在这些情况下，提供有关所涉及逻辑的有意义的信息，以及此类处理对我的意义和预期后果
 
-8. Please advise in which countries my personal information is stored, or accessible from. In case you make use of cloud services to store or process my data, please include the countries in which the servers are located where my data are or were (in the past 12 months) stored
 8. 请告知我的个人信息在哪些国家存储或可访问 从。 如果您使用云服务来存储或处理我的数据，请说明服务器所在的国家/地区以及我的数据（过去 12 个月内）的存储地点
 
-9. Please describe the safeguards you provide when transferring my personal data to a third country or international organization
 9. 请描述您在将我的个人数据转移到第三国或国际组织时提供的保障措施
 
-10. In addition, I would like to know whether or not my personal data has been disclosed inadvertently by your organization in the past, or as a result of a security or privacy breach:
 10. 此外，我想知道我的个人数据是否曾被贵组织无意泄露，或是否因安全或隐私泄露而泄露：
 
-    10.1 A general description of what occurred
     10.1 发生情况的一般描述
 
-    10.2 The date and time of the breach (or the best possible estimate)
     10.2 泄露的日期和时间（或最佳估计）
 
-    10.3 The date and time the breach was discovered
     10.3 发现泄露的日期和时间
 
-    10.4 The source of the breach (either your own organization or a third party to whom you have transferred my personal data)
     10.4 泄露的来源（贵组织或您已将我的个人数据转移给的第三方）
 
-    10.5 Details of my personal data that was disclosed
     10.5 已泄露的我的个人数据的详细信息
 
-    10.6 Your company’s assessment of the risk of harm to myself, as a result of the breach
     10.6 贵公司对泄露对我造成伤害的风险的评估
 
-    10.7 A description of the measures taken or that will be taken to prevent further unauthorized access to my personal data
     10.7 为防止进一步未经授权访问我的个人数据而采取或将要采取的措施的描述
 
-    10.8 Contact information so that I can obtain more information and assistance in relation to such a breach
     10.8 联系信息，以便我可以获得有关此类违规行为的更多信息和帮助
 
-    10.9 Information and advice on what I can do to protect myself against any harm, including identity theft and fraud
     10.9 有关我可以采取哪些措施来保护自己免受任何伤害（包括身份盗窃和欺诈）的信息和建议
 
-My preferred method of contact is email. 
 我首选的联系方式是电子邮件。
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
 请不要要求我执行自助服务流程，例如在您的网站上查找我的信息、填写表格或提供移动广告 ID。这些要求会给我带来过度负担。
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
 请在您的记录中，使用以下信息识别我的身份：
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
 如果您无法满足我的请求，请告知无法执行此请求的具体原因。请告知您依赖的法律条款和子条款，并说明您依赖这些例外情况的具体原因，例如哪项法律义务或内部目的或用途。请提供一份副本以及上述要求的所有其他信息，以说明我的个人数据不属于这些例外情况。
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
 本电子邮件消息是从我的帐户发送的（如电子邮件标题所示）。请使用此事实来验证我的身份。请不要要求我提供任何进一步的身份信息，因为这会给我带来过度负担。如果您有法律义务要求提供其他身份信息以验证我的身份，请尽快通知我。
 
-Please note that I do not consent to any personal information which is part of this request and that you do not already possess, to be used for any purpose other than fulfilling this request.
 请注意，我不同意将此请求中的任何个人信息（您尚未拥有）用于除满足此请求之外的任何目的。
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
 请注意，您有 {{ regulation.timeLimit }} 天的时间来满足此请求。
 
-Kind regards,
 谨致问候，
 
 {{ name }}
 
-Powered by YourDigitalRights.org
 由 YourDigitalRights.org 提供支持
 
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+
+I am writing to request a copy of my personal inforation pursuant to China's data protection regulation - Article 45 of the Personal Information Protection Law (PIPL). 
+
+Please also confirm whether or not my personal data has been collected, sold, or disclosed.
+{% if identifyingInfo %}
+Please use the following information to identify me in your records:
+{{ identifyingInfo }}
+{% endif %}
+
+If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
+
+Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+
+Kind regards,
+
+{{ name }}
+
+Powered by YourDigitalRights.org

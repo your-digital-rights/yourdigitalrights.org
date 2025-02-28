@@ -1,43 +1,32 @@
-Dear {{ regulation.dpa.longName }},
 尊敬的 {{ regulation.dpa.longName }}，
 
-On {{ requestSentDate }}, I sent {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
 我依据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ requestType.article }}，于 {{ requestSentDate }} 向 {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) 发送了一份数据 {{ requestType.name | capitalize }} 请求。
 
 {% if status === 'PARTIAL' %}
-I would like to submit a formal complaint because the organization failed to comply with my request fully.
 我想提交正式投诉，因为该组织未能完全遵守我的请求。
 {% elif status === 'DECLINED' %}
-I would like to submit a formal complaint because the organization declined to comply with my request.
 我想提交正式投诉，因为该组织拒绝遵守我的请求。
 {% elif status === 'NO_REPLY' %}
-I would like to submit a formal complaint because the organization did not reply to my request, which I sent {{ daysSinceRequest }} days ago.
 我想提交正式投诉，因为该组织尚未回复我 {{ daysSinceRequest }} 天前发送的请求。
 {% endif %}
 
 {% if complaintText %}
-Additional details: 
 其他详细信息：
 {{ complaintText }}
 {% endif %}
 
 {% if reminderSentDate %}
-On {{ reminderSentDate }} I have sent the organization a reminder email which you can see below.
 在 {{ reminderSentDate }}，我已向该组织发送了一封提醒电子邮件，您可以在下方查看。
 {% endif %}
 
-Please keep me updated as to the status of your investigation. Please let me know if you would like me to provide any additional information. My preferred method of communication is email. 
 请随时告知我您的调查状态。如果您希望我提供任何其他信息，请告诉我。我首选的沟通方式是电子邮件。
 
-Please note that I have copied {{ requestItem.companyName.S }} to this email.
 请注意，我已将 {{ requestItem.companyName.S }} 复制到本电子邮件。
 
-Kind regards,
 谨致问候，
 
 {{ requestItem.name.S }}
 
-Powered by YourDigitalRights.org
 由 YourDigitalRights.org 提供支持
 
 {{ previousEmails }}
