@@ -1,0 +1,1061 @@
+{
+  "about.aboutTitle": {
+    "message": "我们的任务"
+  },
+  "about.consciousDigital": {
+    "message": "我们是谁的"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org由 {cd}创建，这是一家注册慈善机构，旨在创建以人为本的数字倡议，促进和推动数字人权。"
+  },
+  "about.contact": {
+    "message": "聯繫人"
+  },
+  "about.contactText": {
+    "message": "请通过 {email}与我们联系。"
+  },
+  "about.contributors": {
+    "message": "贡献者"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} ——前端网络开发人员。"
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} ——前端网络开发人员。"
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} ——前端网络开发人员。"
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - 基础设施工程师。"
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - 全栈工程师，负责 APPI 支持和网站的整体日语翻译。"
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - 前端网络开发人员、移动应用开发人员，AR 飞行追踪游戏 Skyjacker 的创造者。"
+  },
+  "about.description": {
+    "message": "你的数字权利之所以创立，是因为我们认为你有隐私权，而行使你的隐私权应该是容易的。"
+  },
+  "about.funding": {
+    "message": "B. 供资"
+  },
+  "about.fundingBody1": {
+    "message": "这个项目由其创作者提供资金，并得到您的捐助。"
+  },
+  "about.missionBody1": {
+    "message": "我们认为，隐私权是一项基本人权，每个人都应能方便地行使这项权利。 {GDPR} （欧盟）、 {CCPA} （加利福尼亚）和 {LGPD} （巴西）等数据保护法规为保护人们的基本网络隐私权提供了法律基础。"
+  },
+  "about.missionBody2": {
+    "message": "隐私条例是朝正确方向迈出的一步。 但在这些立法下行使你的权利仍然很难让大多数人不屈服。 这种情况更加恶化，因为许多组织难以提交数据请求（例如不在其网站上发布任何公司电子邮件地址）。 我们的目标是使每个人都能享有这些立法赋予的权利。"
+  },
+  "about.missionBody3": {
+    "message": "这是一种免费服务。我们不是一个企业，也没有一个业务模式。 我们没有向名单上的组织提供任何服务。 我们不收集或交易任何个人数据。此服务是 <a>开源</a>。"
+  },
+  "about.sponsors": {
+    "message": "支助组织"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - 提供其公司数据库的快照，我们用它来丰富我们的组织列表。"
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - 为收集社区对我们 {roadmap}的反馈意见提供了有效途径。"
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - 提供 Matomo（Piwik）的托管版本，这是一个开源且注重隐私的网络分析平台。"
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - 帮助我们实施 SEO 策略。"
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - 帮助我们了解并支持巴西数据隐私法规 Lei Geral de Proteção de Dados Pessoais (LGPD)。"
+  },
+  "about.sponsorsTitle": {
+    "message": "我们要感谢下列组织通过提供免费或折扣版本的服务支持我们的开放源码努力："
+  },
+  "about.title": {
+    "message": "关于我们"
+  },
+  "aboutOrg.description": {
+    "message": "用他们自己的话说："
+  },
+  "aboutOrg.details": {
+    "message": "关于 {org}"
+  },
+  "aboutOrg.email": {
+    "message": "Email:"
+  },
+  "aboutOrg.founded": {
+    "message": "已填写："
+  },
+  "aboutOrg.headquarters": {
+    "message": "总部："
+  },
+  "aboutOrg.industry": {
+    "message": "行业："
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "查看 {org}的 <a>隐私政策</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "公司专业："
+  },
+  "aboutOrg.type": {
+    "message": "公司类型："
+  },
+  "contribute.creadit": {
+    "message": "虽然我们无力为您的工作付费，但我们非常高兴地感谢您的贡献。 是否以其他方式出现在这个网站、Github上。"
+  },
+  "contribute.creditTitle": {
+    "message": "学分"
+  },
+  "contribute.crowdinStep1": {
+    "message": "通过跟随此 <a>链接</a> 在 Crowdin 上创建一个帐户。"
+  },
+  "contribute.crowdinStep2": {
+    "message": "按照此 <a>链接</a> 加载翻译系统。"
+  },
+  "contribute.crowdinStep3": {
+    "message": "选择语言 (您需要登录到 Crowdin 来做这件事)。"
+  },
+  "contribute.crowdinStep4": {
+    "message": "您现在应该看到构成网站的各种文本的方框。 悬停在您想翻译的文本上，然后点击将出现在文本角的图标。"
+  },
+  "contribute.crowdinStep5": {
+    "message": "编辑器将打开您可以提供翻译的地方。不要忘记点击保存完成后再保存。"
+  },
+  "contribute.crowdinStep6": {
+    "message": "如果您遇到任何问题，请 <email>联系我们。</email>"
+  },
+  "contribute.description": {
+    "message": "帮助我们改进YourDigitalRights.org。"
+  },
+  "contribute.dev": {
+    "message": "我们的存储库托管在 GitHub 上，主要存储库用于此 <a>网站</a>。最好的开始方式是通过 <email>电子邮件</email>与我们联系。然后我们会将您添加到我们的 slack 频道并分享正在进行的开发工作。或者，您可以随意克隆存储库并提交合并请求。"
+  },
+  "contribute.devSkills": {
+    "message": "我们目前正在寻找机器学习、React和AWS工程师。"
+  },
+  "contribute.devTitle": {
+    "message": "帮助开发"
+  },
+  "contribute.reportAProblem": {
+    "message": "如果您在使用本网站时遇到问题，您可以在 <a1>问题跟踪器</a1>中报告，或通过 <a2>电子邮件</a2>进行报告。"
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "报告问题"
+  },
+  "contribute.research": {
+    "message": "我们一直在寻找更好的方式来推广数字权利并使其更容易获得。无论是为了更好地了解人们如何使用技术还是组织如何滥用技术，我们一直在进行研究项目。如果您想参与其中，请 <email>给我们发送电子邮件</email> 。"
+  },
+  "contribute.researchTitle": {
+    "message": "帮助研究"
+  },
+  "contribute.subtitle": {
+    "message": "这个项目完全由志愿人员开发和维持。 如果你担心失去隐私，则疯狂的监视资本主义， 微型目标和错误信息，以及数字服务的致瘾性质，您可以帮助："
+  },
+  "contribute.title": {
+    "message": "贡献"
+  },
+  "contribute.translate1": {
+    "message": "我们希望能够以多种语文提供这项服务。 如果您不在目前可用的范围内，或者需要更新或改进，我们会喜欢您的帮助！"
+  },
+  "contribute.translate2": {
+    "message": "我们使用在线平台 <a>Crowdin</a> 来轻松制作翻译字符串。 这使得这个过程更容易了，也不需要你知道任何有关编程的内容。 这里有一个快速教程， <b></b>。按照这些步骤开始："
+  },
+  "contribute.translateTitle": {
+    "message": "翻译网站"
+  },
+  "dataProcessors": {
+    "message": "数据共享和处理器"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "所有请求"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "此请求"
+  },
+  "deletePII.doneAll": {
+    "message": "我们已成功删除与您所有请求相关联的个人数据。"
+  },
+  "deletePII.doneRequest": {
+    "message": "我们已成功删除与此请求相关的个人数据。"
+  },
+  "deletePII.heading": {
+    "message": "删除我的数据"
+  },
+  "deletePII.intro": {
+    "message": "您的个人数据将在请求发出 120 天后自动删除，但您可以选择立即删除数据。您希望删除与此请求相关的数据（参考： {ref}），还是删除所有请求相关的数据？"
+  },
+  "deletemydata.description": {
+    "message": "删除我的数据"
+  },
+  "deletemydata.title": {
+    "message": "删除我的数据"
+  },
+  "donations.donate": {
+    "message": "捐助"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.org之所以创建，是因为我们认为隐私很重要，行使您的隐私权应该是容易的。 这就是为什么我们已经免费。通过捐赠或成为一个支持成员，你可以帮助确保我们的长期财政稳定和独立。"
+  },
+  "donations.headingDonate": {
+    "message": "我们需要您的支持"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights. rg 是一种免费服务，通过让组织很容易删除或提供他们在您身上拥有的个人信息副本，帮助您重新控制您的在线隐私。 我们这样做的方法是实现强大的数据保护法中概述的过程自动化，使您有权删除或访问您的数据。 除了向各组织发出请求外，我们还可以帮助确保这些请求在你们最喜欢的地方得到解决。"
+  },
+  "faq.body.contact.1": {
+    "message": "请了解我们无法提供个人支持的特定数据请求或您在特定组织中的经验。 我们知道，在某些情况下，各组织可能非常令人沮丧，但不幸的是，我们不能也不会回复这种电子邮件。"
+  },
+  "faq.body.contact.2": {
+    "message": "对于所有其他请求，请通过 <a>电子邮件</a>联系我们。"
+  },
+  "faq.body.contribute.1": {
+    "message": "是的，请！"
+  },
+  "faq.body.contribute.2": {
+    "message": "我们依靠 <a>捐款</a> 来确保我们的长期财务稳定和独立。您可以在此处捐款。"
+  },
+  "faq.body.contribute.3": {
+    "message": "如果您想要报告错误，请查看 <a>此页面</a> 的信息。 帮助翻译网站，协助开发或开展研究。"
+  },
+  "faq.body.data-protection.1": {
+    "message": "数据保护法在组织处理个人资料方面保护个人。 它们界定了各组织在处理个人信息时所承担的责任，并授予个人对其数据的某些权利。 许多国家有数据保护法；有些国家比其他国家更多地提供保护。"
+  },
+  "faq.body.escalate.1": {
+    "message": "数据保护法为这类案件提供了各种升级机制。 包括向政府管理机构提出控告或将该组织送交法院的可能性（被称为私人诉讼权）。"
+  },
+  "faq.body.escalate.2": {
+    "message": "如果听起来很复杂，请不要担心；我们可以帮助。 通过此服务提交数据请求时， 开启“智能后续援助”选项，在组织未遵守您的请求时获得个性化的建议。 我们将帮助你与该组织沟通，并在必要时向政府管理机构升级。"
+  },
+  "faq.body.how.1": {
+    "message": "在选择一个组织并填写一个短表格后，我们将生成一个请求电子邮件给您选择的组织。 电子邮件将在您的电子邮件应用程序中打开，供您审阅和发送。 可选的 我们可以在发送请求后的短时间内与您进行跟踪，以确保请求在您的喜好中得到解决。 这可以包括向政府监管机构发送提醒邮件或升级提醒邮件。"
+  },
+  "faq.body.new-regulation.1": {
+    "message": "我们支持所有数据保护法，这些法律赋予个人获取和删除个人信息的权利。 如果您想要我们添加对特定规则的支持，请 <a>联系我们</a>"
+  },
+  "faq.body.refuse.1": {
+    "message": "数据保护法允许各组织在某些特殊情况下拒绝删除您的个人信息。 这里有一些一般的例子，但你应该阅读适用于你的具体条例："
+  },
+  "faq.body.refuse.1.1": {
+    "message": "当组织在法律上有义务保存您的数据时(例如) 金融机构必须保存贵国交易的记录，以便遵守反洗钱条例）"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "为了言论自由和信息自由，有必要保存您的数据(包括新闻和学术、艺术和文学目的)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "当保存您的数据是出于公共健康原因所必需的"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "当保存数据是建立、行使或维护法律要求所必需的"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "当删除您的数据会损害符合公众利益的科学或历史研究或存档"
+  },
+  "faq.body.regulations.1": {
+    "message": "如果您想要帮助我们实现对附加规则的支持，请 <a>联系我们</a>"
+  },
+  "faq.body.regulations.location": {
+    "message": "地点"
+  },
+  "faq.body.regulations.name": {
+    "message": "全名"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "缩写"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "回复时间"
+  },
+  "faq.body.requests.1": {
+    "message": "我们支持两类请求："
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>数据删除请求</b> (也称为删除请求或被遗忘请求权) 允许您请求组织删除您的个人信息。"
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>访问请求</b> (也称为主题访问请求或短暂搜索条件)允许您要求组织提供您的个人信息副本。"
+  },
+  "faq.body.trust.1": {
+    "message": "我们是一家注册的非营利组织，名为 <a>Conscious Digital</a>。我们相信透明度，因此这项服务的源代码是 <aa>开源</aa>。截至 2022 年 10 月，我们已帮助个人向各种组织提交了超过 100,000 个请求"
+  },
+  "faq.body.trust.2": {
+    "message": "我们是独立的，不会出售您的个人信息，也不隶属于我们帮助您发送数据请求的任何组织。我们也不向这些组织提供任何服务。最后，我们的资金来自您的 <a>捐款</a>。"
+  },
+  "faq.body.trust.3": {
+    "message": "我们设计此服务是为了默认不要求我们收集您的任何个人信息。 当某些可选功能要求您提供个人信息时，我们在 120 天后删除此数据。 详情请查看我们的 <a>隐私政策</a>。"
+  },
+  "faq.body.verify.1": {
+    "message": "数据保护法要求各组织核实提出预防欺诈请求的个人的身份。 大多数法律还规定，核查方法应与所涉数据的性质相称。 例如， 如果您要求从一个典型的互联网论坛上复制您的消息历史，那么您拥有与您的帐户相关联的电子邮件地址的简单验证就足够了。 另一方面，如果您向金融机构请求您的交易历史， 他们有正当理由要求您提供额外信息，例如照片身份证件和地址证明。"
+  },
+  "faq.body.verify.2": {
+    "message": "在大多数情况下，简单地验证您拥有与您的帐户相关联的电子邮件地址就足够了。 当您使用此服务发送请求时，您的电子邮件应用将发送一封电子邮件，提供此基本验证。"
+  },
+  "faq.body.verify.3": {
+    "message": "为了进一步保护您的个人信息 我们代表你提出的请求明确禁止各组织将作为请求一部分的个人信息用于执行请求以外的任何其他目的。"
+  },
+  "faq.heading.YDR": {
+    "message": "什么是 YourDigitalRights.org？"
+  },
+  "faq.heading.contact": {
+    "message": "我还有一个问题，我如何与你联系？"
+  },
+  "faq.heading.contribute": {
+    "message": "这个服务很幻想。我能帮忙吗？"
+  },
+  "faq.heading.data-protection": {
+    "message": "什么是数据保护法？"
+  },
+  "faq.heading.escalate": {
+    "message": "如果一个组织不完全遵守我的要求，我应该怎么办？"
+  },
+  "faq.heading.how": {
+    "message": "服务是如何运作的？"
+  },
+  "faq.heading.new-regulation": {
+    "message": "我国有一项新的数据保护法，你会支持它吗？"
+  },
+  "faq.heading.refuse": {
+    "message": "各组织能否说不？"
+  },
+  "faq.heading.regulations": {
+    "message": "支持哪些国家、州或条例？"
+  },
+  "faq.heading.requests": {
+    "message": "我可以使用这个服务提出什么样的请求？"
+  },
+  "faq.heading.trust": {
+    "message": "谁在操作此服务？我能信任您吗？"
+  },
+  "faq.heading.verify": {
+    "message": "一个组织要求我提供更多的个人信息来核实我的身份，这是合法的吗？他们能否将这种信息用于其他目的？"
+  },
+  "faq.title": {
+    "message": "常见问题"
+  },
+  "footer.contact": {
+    "message": "©️ 版权 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>免责声明：</span> 此服务是按原样提供的，没有任何担保。 使用此服务完全由您自己承担风险。 我们不能对使用这种服务造成的任何直接或间接损害承担责任。 此服务提供的信息以及我们网站上有关法律事项的内容，供您私人使用，并不构成法律咨询。 如果你需要对某个特定问题提供法律咨询，你应该与领有执照的律师协商。"
+  },
+  "footer.madeBy": {
+    "message": "<a>由 Conscious Digital 制作</a>"
+  },
+  "footer.poweredBy": {
+    "message": "由Vercel 支持"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>隐私政策</a>"
+  },
+  "footer.stats": {
+    "message": "<a>统计</a>"
+  },
+  "footer.wishList": {
+    "message": "在我们的行进图上表示一种祝愿。"
+  },
+  "hero.headerText": {
+    "message": "获取组织删除您的帐户或提供您的个人信息的副本。"
+  },
+  "hero.heading": {
+    "message": "拥有您的数据"
+  },
+  "hero.intro": {
+    "message": "许多组织往往在未经您同意的情况下收集和出售您的个人资料。 使用此免费服务向他们发送数据删除或访问请求。开始搜索下面的组织。"
+  },
+  "howItWorks.followUp": {
+    "message": "使用我们的智能后续行动助理来帮助确保本组织遵守您的要求。 甚至帮助您将您的请求升级到相关的政府管理机构。"
+  },
+  "howItWorks.followUpTitle": {
+    "message": "后续行动"
+  },
+  "howItWorks.imgAlt": {
+    "message": "显示用户界面的图形"
+  },
+  "howItWorks.search": {
+    "message": "对于使用此页面顶部的搜索框的组织。"
+  },
+  "howItWorks.searchTitle": {
+    "message": "搜索"
+  },
+  "howItWorks.send": {
+    "message": "请求删除或提供数据副本的组织。"
+  },
+  "howItWorks.sendTitle": {
+    "message": "发送"
+  },
+  "howItWorks.title": {
+    "message": "它的工作方式"
+  },
+  "howItWorks.whyBody": {
+    "message": "我们是一家注册慈善机构，名为 <cd>Conscious Digital</cd>。我们创建这项服务是因为我们认为隐私很重要，行使隐私权应该简单且免费。我们不会收集或出售个人数据。该服务由其创建者资助，并借助您的 <donations>捐款</donations>。"
+  },
+  "howItWorks.whyTitle": {
+    "message": "为什么信任我们？"
+  },
+  "howItWorks.yourData": {
+    "message": "数据保护法要求各组织应要求删除或向你提供一份数据副本。 各组织遵守规定的时间很短，否则会面临巨额罚款。 我们的使命是使你能够很容易地行使自己的合法权利。"
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "你有隐私权！"
+  },
+  "index.description": {
+    "message": "删除您的帐户或访问您使用此免费服务的个人数据组织。"
+  },
+  "nav.about": {
+    "message": "关于"
+  },
+  "nav.blog": {
+    "message": "博客"
+  },
+  "nav.contact": {
+    "message": "联系我们"
+  },
+  "nav.contribute": {
+    "message": "贡献"
+  },
+  "nav.data-brokers": {
+    "message": "数据经纪商"
+  },
+  "nav.donate": {
+    "message": "捐款："
+  },
+  "nav.donation": {
+    "message": "捐款："
+  },
+  "nav.faq": {
+    "message": "常见问题"
+  },
+  "nav.helpTranslate": {
+    "message": "帮助翻译"
+  },
+  "nav.howItWorks": {
+    "message": "它的工作方式"
+  },
+  "nav.privacyPoilcy": {
+    "message": "隐私政策"
+  },
+  "nav.stats": {
+    "message": "统计信息"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "向任何组织发送GDPR、CCPA和LGPD数据删除和访问请求。"
+  },
+  "org.descriptionExistingOrg": {
+    "message": "快速轻松地向 {org} 请求删除帐户或复制您的个人数据。"
+  },
+  "org.titleExistingOrg": {
+    "message": "删除你的 {org} 帐户或获取你的数据副本"
+  },
+  "org.titleNewOrg": {
+    "message": "发送 GDPR、CCPA 和 LGPD 数据删除和访问请求"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "发送数据删除或访问请求。"
+  },
+  "orgHero.subTitle2": {
+    "message": "使用此 <disclamer>免费且独立的</disclamer> 服务向 {name} 发送数据删除或访问请求。"
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "使用此 <disclamer>免费和独立的</disclamer> 服务来删除或向您发送您的个人数据副本。"
+  },
+  "orgHero.title": {
+    "message": "删除您的 {domain} 帐户或请求您的数据。"
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "为了确保该组织遵守您的请求，我们将在采取进一步行动的时候给您发送电子邮件。 您将被赋予发送提醒电子邮件或升级到本地数据保护机构的选择。"
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>选择此选项即表示您同意我们处理和存储以下个人信息：您的电子邮件地址、姓名和请求电子邮件的文本。与此请求相关的所有个人信息将在 120 天内自动从我们的系统中删除，除非您另有说明，并且您始终可以选择立即删除这些数据。我们通过在请求电子邮件的抄送字段中添加特殊电子邮件地址来自动收集这些信息。</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "开启智能跟进帮助"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "可选择提供任何其他信息，以帮助组织在其信息系统中找到您的数据，例如用户名、客户 ID 或帐号。 <strong>请不要提供您的密码或组织尚未拥有的任何个人信息。</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "不，我可以自己管理"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "是的，请给我发电子邮件给我跟进说明"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "给我发送我的数据副本"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "请输入组织的域名(例如：google.co.uk 或 facebook.com)。"
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "组织域"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "组织电子邮件地址"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "请输入您想要联系的组织名称。"
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "组织名称"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "请输入负责处理GDPR / CCPA / 隐私/法律请求的个人或部门的电子邮件地址。 您通常可以在隐私政策、条款和条件下在组织网站上找到此信息，或联系我们页面。"
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "删除我的数据"
+  },
+  "personalInfoForm.headline": {
+    "message": "填写表格以创建请求电子邮件，然后您可以查看和发送。"
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "附加识别信息(可选)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "这将被本组织用来识别您。"
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "全名"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "条例"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "选择基于您的居住地的规章，除非您有其他选择的具体理由。"
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "请求类型"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "审核并发送"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "支持"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "请输入有效的电子邮件。"
+  },
+  "pressIntro.title": {
+    "message": "推荐于"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "请求跟随Ups"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "在使用此服务时，在提交数据请求后，您可以选择通过电子邮件接受我们的进一步支持。 如果您选择使用此可选功能，我们将收集以下额外个人数据："
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "您的电子邮件地址"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "数据请求电子邮件的内容您发送给各组织和数据保护机构(DPAs)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "关于您发送给各组织和数据保护机构的要求电子邮件的元数据 例如电子邮件发送时间和来往地址"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "我们保留最多120天的个人资料。"
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "通过自愿向我们提供个人数据，您同意我们根据此隐私政策使用它。 如果您为此网站提供个人数据， 您确认并同意此种个人数据可以从您当前的位置传输到YourDigitalRights的办公室和服务器。 c 本政策中提到的经授权的第三方。"
+  },
+  "privacy.contact": {
+    "message": "聯繫人"
+  },
+  "privacy.contactBody": {
+    "message": "如果您对本隐私政策有任何疑问或担忧，请通过 {mail}与我们联系。"
+  },
+  "privacy.cookies": {
+    "message": "Cookie和跟踪"
+  },
+  "privacy.cookiesBody": {
+    "message": "我们只能使用 cookie 来保存您在网站上做出的选择，以便您下次更容易使用该服务。 Cookie 是计算机托管我们服务时提供给您浏览器的一个信息。"
+  },
+  "privacy.description": {
+    "message": "您拥有您的数据，我们存在来帮助您控制谁有权访问它。这是我们的隐私政策页面。"
+  },
+  "privacy.lastUpdated": {
+    "message": "最后更新："
+  },
+  "privacy.personalData": {
+    "message": "发送请求"
+  },
+  "privacy.personalDataBody1": {
+    "message": "在发送请求时(不要打开可选的请求后续功能)，我们请您向我们提供以下个人信息："
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "您的姓名"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "您需要更多的信息来识别您选择要联系的组织 (例如用户名、客户ID或帐户编号)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "我们只在您发送生成电子邮件的请求时使用收集到的个人数据，不要将其存储在我们的服务器上。"
+  },
+  "privacy.privacyTitle": {
+    "message": "隐私政策"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo：Innocraft 推出的一款注重隐私的网络分析服务。我们使用 Matomo 收集有关如何访问和使用服务的匿名信息（“使用数据”）。您可以访问他们的 { matomo } 页面。"
+  },
+  "privacy.processorsB": {
+    "message": "亚马逊 AWS：云基础设施服务提供商。当您选择加入 \"请求跟进 \"时，我们会使用 AWS 处理您发送的邮件、存储相关信息并向您发送提醒邮件。您可以访问他们的 { matomo } 页面。"
+  },
+  "privacy.promise": {
+    "message": "我们的承诺"
+  },
+  "privacy.promiseBody": {
+    "message": "您拥有您的数据。我们的存在是为了帮助您控制谁有权访问它。 我们坚决相信你的个人信息是个人的、私人的和安全的。 我们不使用非基本的 cookie，我们从您收集的个人数据限制为提供此服务所需的绝对最低值 (YourDigitalRights)。 rg)在某些情况下您可以开启可选的功能，要求您提供额外的个人数据。 这种情况要求您明确选择加入，并且贴上明确的标签。 我们永远不会向任何人出售或出租您的个人信息，并且不会在我们的服务器上保留超过120天。 我们只会在需要提供服务时或在本政策中以其他方式介绍您的个人信息。"
+  },
+  "privacy.title": {
+    "message": "隐私政策"
+  },
+  "privacy.usageDataBody": {
+    "message": "我们与下列第三方提供商合作，代表我们执行一些数据处理任务。 我们以确保您的数据的保密性和安全性的条件与这些提供商进行接触。"
+  },
+  "privacyAlerts.description1": {
+    "message": "每月一封电子邮件，列出我们研究小组确定的三家最严重的侵犯隐私的公司。 提高您的隐私性，并通过每月五分钟的时间从这些公司中提取回来控制您的个人信息。"
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "订阅我们每月的隐私提醒"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "隐私提醒"
+  },
+  "privacyAlerts.title": {
+    "message": "隐私提醒"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "您为什么要投资于您的隐私？"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "我们每次在线互动都留下我们个人信息的痕迹。 我们与数据经纪人、政府和个人互动的公司都对我们的数据感兴趣。"
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "这种现实使我们面临各种影响运动。 其中包括有针对性的网上广告、通过假新闻进行政治和社会操纵， 各种欺诈，如盗用身份、吸毒成瘾的应用和在线服务。 所有这些都是因为我们留下了大量的个人信息。"
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "那么我们如何使它重新受到控制？"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "我们根据使用我们的服务的人的反馈设计了隐私警报。 这是一种随着时间的推移改善您在线隐私的简单方法，每月只花5分钟的时间离开我们的研究团队所挑选的最严重的冒险公司。"
+  },
+  "redirect.continueText": {
+    "message": "继续"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu 现在是你的 digitalrights.org"
+  },
+  "redirect.text": {
+    "message": "好消息，这项服务正在发展壮大！我们最近推出了对《加利福尼亚消费者隐私法案》（CCPA）的支持，不久还将推出对删除之外的其他请求类型的支持。因此，我们认为域名 \"opt-out.eu \"过于局限。我们比以往任何时候都更加致力于帮助您行使数字权利，欢迎访问我们的新网站 @<style>yourdigitalrights.org</style>！"
+  },
+  "request.description": {
+    "message": "查看通过此免费服务提交的 {regulationType} 请求的详细信息。"
+  },
+  "request.details.date": {
+    "message": "请求电子邮件日期："
+  },
+  "request.details.escalationDate": {
+    "message": "升级电子邮件日期："
+  },
+  "request.details.header": {
+    "message": "请求详情"
+  },
+  "request.details.hide.escalation": {
+    "message": "隐藏升级电子邮件"
+  },
+  "request.details.hide.reminder": {
+    "message": "隐藏提醒邮件"
+  },
+  "request.details.hide.request": {
+    "message": "隐藏请求电子邮件"
+  },
+  "request.details.name": {
+    "message": "请求人："
+  },
+  "request.details.nowDetails": {
+    "message": "此时请求的详细信息不可用。一旦您发送了电子邮件，请刷新页面。"
+  },
+  "request.details.organization": {
+    "message": "收件人："
+  },
+  "request.details.regulation": {
+    "message": "条例："
+  },
+  "request.details.reminderDate": {
+    "message": "提醒电子邮件日期："
+  },
+  "request.details.sentTo": {
+    "message": "收件人电子邮件地址："
+  },
+  "request.details.show.escalation": {
+    "message": "查看升级电子邮件"
+  },
+  "request.details.show.reminder": {
+    "message": "查看提醒电子邮件"
+  },
+  "request.details.show.request": {
+    "message": "查看请求电子邮件"
+  },
+  "request.details.type": {
+    "message": "请求类型："
+  },
+  "request.hero.declined": {
+    "message": "已拒绝"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} 拒绝了您的请求。"
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} 尚未回复。"
+  },
+  "request.hero.domainTitle": {
+    "message": "域名："
+  },
+  "request.hero.handledPartially": {
+    "message": "部分处理"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} 成功处理了您的请求。"
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "处理成功"
+  },
+  "request.hero.header": {
+    "message": "您的数据 {requestType} 请求 {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "没有回复"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} 部分处理了您的请求。"
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "参考："
+  },
+  "request.hero.requestNotSent": {
+    "message": "请发送请求电子邮件，然后刷新此页面。"
+  },
+  "request.hero.requestStatus": {
+    "message": "请求状态："
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "在某些特殊情况下，在法律上允许一个组织拒绝满足您的要求。"
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>已知存在或没有数据库可能威胁生命的任何个人数据 身体或可识别个人的财产；</li><li>已知存在或没有数据库可能会引发或触发非法活动或不法行为的任何个人资料；</li><li>已知存在或没有数据库可能损害国家安全的任何个人数据。 损害与外国或国际组织的信任关系 或使该国在与另一国或国际组织的谈判中处于不利地位；</li><li>已知存在或没有数据库可能妨碍预防犯罪的任何个人数据。 在这方面，委员会建议缔约国采取一切适当措施，包括采取有效措施打击犯罪，或进行刑事调查，或以其他方式维护公共安全和秩序。</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>言论自由或法律规定的其他权利。</li><li>出于研究目的而处理个人信息，如果删除个人信息会导致研究无法进行或严重影响研究成果。</li><li>为防止非法活动或起诉非法活动责任人而必须处理该个人信息。</li><li>履行法律义务。</li><li>履行企业与消费者之间的合同。</li><li>检测安全事故，防止恶意、欺骗、欺诈或非法活动，或起诉该活动的责任人。</li><li>调试以识别和修复损害现有预期功能的错误。</li><li>根据消费者与企业的关系，仅用于与消费者期望合理一致的内部用途。</li><li>以其他合法方式在内部使用消费者的个人信息，并与消费者提供信息的背景相符。</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>受《格雷姆-里奇-比利雷法案》约束的金融机构和附属机构</li><li>受联邦航空管理局监管的航空公司</li><li>根据《证券交易法》注册的国家证券协会</li><li>某些类型的个人数据符合特定的联邦隐私法，例如《健康保险流通与责任法案》和《公平信用报告法案》，或用于某些政府目的。</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>提供消费者特别要求的产品或服务。</li><li>执行某些合理符合消费者期望的内部操作。</li><li>发布产品召回信息或修复技术错误。</li><li>应对和预防安全事件、身份盗用和欺诈。</li><li>遵守联邦、州或地方法律。</li><li>假名数据。</li><li>去身份化数据。</li><li>公开信息。</li><li>公开或同行评审的科学研究。</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) 个人资料的处理是强制执行任何法定权利或要求所必需的；</li><li>(b) 印度任何法院或法庭或任何其他机构处理个人资料，法律授权其履行任何司法或准司法或管理或监督职能。 (b) 如果这种处理是履行这种职能所必需的；</li><li>(c) 个人资料的处理是为了预防、侦测。 调查或起诉在印度现行有效的任何罪行或违反任何法律的行为；</li><li>(d) 不在印度境内的数据主体的个人资料是根据任何驻印度人员与印度境外的任何人签订的任何合同处理的；</li><li>(e) 对于妥协或安排或合并或合并两个或两个以上的公司或以除名或以其他方式重建公司来说，处理是必要的。 或将一个或多个公司的企业转让给另一个公司，或涉及一个或多个公司的分部， 法院或法庭或其他主管当局根据任何现行法律有权这样做的当局批准；</li><li>(f) 处理是为了查明任何因从金融机构借出贷款或预付款而拖欠应付款的人的财务信息和资产及负债， 但须根据现行任何其他法律中关于披露资料或数据的规定进行这种处理。</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "如果出现以下情况，控制者可以拒绝提供信息，或者限制或延迟提供信息：<ul><li>a. 正式法律有此规定，特别是为了保守职业秘密；</li><li>b. 这对于保护第三方的首要利益是必要的；或</li><li>c. 信息请求明显不合理，特别是为了数据保护的目的或明显是无意义的。</li></ul><br/>此外，在以下情况下，可以拒绝、限制或延迟提供信息：<ul><li>a. 控制者是私人，并且满足以下要求：1. 控制者自身的首要利益要求采取措施。 2. 控制者无意向第三方披露个人数据。</li><li>b. 控制者是联邦机构，并且满足以下要求之一： 1. 该措施是满足压倒一切的公共利益所必需的，特别是瑞士的内部或外部安全。 2. 信息的传达可能会危及询问、调查或行政或司法程序。</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) 遵守联邦或州法律、法规或规章。</il><il>(b) 遵守联邦、州、地方或其他政府部门的民事、刑事或监管询问、调查、传票或传唤。</il><il>(c) 调查、确立、行使、准备或捍卫法律索赔。</il><il>(d) 提供消费者或儿童父母或监护人特别要求的产品或服务，履行消费者作为一方当事人的合同，包括履行书面担保条款，或在签订合同前应消费者要求采取措施。</il><il>(e) 立即采取措施，保护对消费者或其他个人的生命或人身安全至关重要的利益，且该处理显然不能以其他法律依据为基础。</il><il>(f) 预防、检测、防范或应对安全事件、身份盗窃、欺诈、骚扰、恶意或欺骗活动或任何非法活动。</il><il>(g) 维护系统的完整性或安全性，或调查、报告或起诉破坏系统安全的责任人。</il><il>(h) 从事符合公众利益的公开或经同行评审的科学或统计研究，这些研究应遵守所有其他适用的道德和隐私法，并由机构审查委员会或类似的独立监督实体批准、监督和管理，该实体应确定： 1：1.删除信息是否可能带来不完全属于控制者的实质性好处； 2. 研究的预期好处是否大于隐私风险；以及 3.控制者是否实施了合理的保障措施，以降低与研究相关的隐私风险，包括与重新识别相关的任何风险。</il><il>(i) 协助另一控制者、处理者或第三方遵守本部分的要求。</il><il>(j) 当消费者使用或指示控制者有意向第三方披露信息，或使用控制者有意与第三方互动时，披露所披露的个人数据。当消费者有意通过一次或多次蓄意互动与第三方进行互动时，即为蓄意互动。悬停、静音、暂停或关闭特定内容并不构成消费者与第三方互动的意图。</il><il>(k) 将个人数据作为合并、收购、破产或其他交易中第三方取得全部或部分控制权的一部分资产转让给第三方，前提是信息的使用或共享方式符合本部分规定。如果第三方对其使用或共享消费者个人数据的方式进行了重大改变，与收集数据时所作的承诺严重不符，则必须事先将新的或改变后的做法通知消费者。通知必须足够醒目和有力，以确保消费者能够轻松做出符合本部分规定的选择。</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>出于言论自由和信息自由的理由保存您的数据是必要的(这包括新闻和学术界)； 艺术和文学目的）。</li><li>组织在法律上有义务保存您的数据。</li><li>为了公共健康而保留数据是必要的。</li><li>保存数据对于建立、行使或维护法律权利主张是必要的。</li><li>删除数据会损害科学或历史研究或符合公众利益的归档。</li><li>如果考虑到你的请求，组织决定不需要删除你的数据，它仍然必须回复你。 它应该向你解释它为什么认为它不必清除你的数据。 并让你知道你有权就此决定向政治部投诉，或通过法院投诉。</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>言论自由或法律规定的其他权利。</li><li>出于研究目的而处理个人信息，如果删除个人信息会导致研究无法进行或严重影响研究成果。</li><li>为防止非法活动或起诉非法活动责任人而必须处理该个人信息。</li><li>履行法律义务。</li><li>履行企业与消费者之间的合同。</li><li>检测安全事故，防止恶意、欺骗、欺诈或非法活动，或起诉该活动的责任人。</li><li>调试以识别和修复损害现有预期功能的错误。</li><li>根据消费者与企业的关系，仅用于与消费者期望合理一致的内部用途。</li><li>以其他合法方式在内部使用消费者的个人信息，并与消费者提供信息的背景相符。</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li><li>受保护的健康数据</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li><li>受保护的健康数据</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li><li>受保护的健康数据</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会和金融机构在内的实体不受限制。 此外， 一些类型的数据是免费的：<ul><li>受保护的健康数据</li><li>雇员数据，包括求职者的就业数据</li><li></li><li>可公开获得的资料</li><li>合计信息</li><li>为研究人体科目的或作为临床试验的一部分收集的个人信息</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>访问要求的例外情况应该是有限和具体的。</li><li>应根据个人的请求向其说明拒绝接触的理由。</li><li>例外情况可能包括费用过高的提供信息，其中含有提及其他个人的信息。 (b) 出于法律、安全或商业所有权原因而无法披露的资料，以及受律师-客户或诉讼特权管辖的资料。</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "各实体，包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会、金融机构； 《格拉姆-莱克-布莱利法》和《健康保险可移植性和问责制法》等具体法案涵盖的实体。 免责。"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>受 HIPAA 保护的健康信息；</li><li>第 32.1 篇中的健康记录；</li><li>美国法典》第 42 编第 290dd-2 条规定的患者身份信息；</li><li>45 C.F.R. 第 46 部分规定的联邦人类受试者保护政策中的可识别私人信息；根据人 用药品技术要求国际协调理事会发布的良好临床实践指南，作为人类受试者研 究的一部分而收集的可识别私人信息；21 C.F.R. 第 6、50 和 56 部分规定的人 类受试者保护，或根据本章规定的要求进行的研究中使用或共享的个人数据， 或根据适用法律进行的其他研究中使用或共享的个人数据；</li> <li>为执行《1986 年联邦医疗质量改进法案》（42 U.S.C. § 11101 et seq；）</li><li>为联邦《患者安全和质量改进法案》（42 U.S.C. § 299b-21 et seq；）</li><li>从本分节所列的任何医疗保健相关信息中提取的信息，该信息已根据 HIPAA 的去标识化要求进行了去标识化；</li><li>源自 HIPAA 或 42 U.S.C. § 290dd-2 所定义的计划或合格服务组织的承保实体或业务协 理方维护的信息，与本分节规定的豁免信息混合后无法区分，或以相同方式处理的信 息；</li><li>仅用于 HIPAA 授权的公共卫生活动和目的的信息；</li><li>由消费者报告机构或提供信息用于消费者报告的提供者，以及消费者报告的使用者收集、维护、披露、出售、交流或使用与消费者的信用价值、信用状况、信用能力、性格、一般声誉、个人特征或生活方式有关的任何个人信息，但仅限于此类活动受联邦《公平信用报告法》（15 U.S.C. § 1681 et seq；）</li> <li>根据 1994 年《联邦驾驶员隐私保护法》（18 U.S.C. § 2721 et seq；）</li><li>受联邦《家庭教育权利和隐私法案》（20 U.S.C. § 1232g et seq；）</li> <li>根据《联邦农业信贷法》（12 U.S.C. § 2001 et seq；）</li><li>在以下情况下处理或维护的数据：(i) 个人向控制者、处理者或第三方提出申请、受其雇佣或作为其代理或独立承包商行事的过程中，且数据是在该角色范围内收集和使用的；(ii) 作为本章规定的个人紧急联系信息，用于紧急联系目的；或 (iii) 为管理与第 (i) 项所述个人相关的另一个人的福利而必须保留的数据，用于管理这些福利。</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "建议：将您的请求升级至您的 { authorityLong } ({authorityShort})。"
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "建议：如果您认为 { companyName } 本应完全满足您的请求，那么我们建议您将请求升级到 { authorityLong } ({authorityShort})。"
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "您已将请求升级到 {dpaLong} ({dpaShort})，请继续直接与他们联系。我们无能为力。"
+  },
+  "request.next.esclateButton": {
+    "message": "升级至 { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "了解更多关于这些异常"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "根据 {regulationType} ，组织有 { timeLimit } 天的时间回复您的请求。"
+  },
+  "request.next.reminderButton": {
+    "message": "向机构发送提醒邮件"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "请从以下选项中选择："
+  },
+  "request.next.selectTheOptions2": {
+    "message": "如果您想要采取进一步行动，请从以下选项中选择："
+  },
+  "request.next.selectTheOptions3": {
+    "message": "如果您不想等待，请从以下选项中选择："
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "建议：向该组织发送提醒邮件。"
+  },
+  "request.next.waitUntilXDays": {
+    "message": "建议：等待 { timeLimit } 天，以便公司有时间处理您的请求。"
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "建议：从发送请求之日起等待 { timeLimit } 天，以便组织有时间在收到提醒邮件后预先处理您的请求。"
+  },
+  "request.next.whatsNext": {
+    "message": "下一步"
+  },
+  "request.success": {
+    "message": "恭喜您， { companyName } 成功处理了您的请求。您的个人数据将在您最初提出申请之日起 120 天内从本网站自动删除。或者，您也可以<a>现在就删除您的个人数据</a>。"
+  },
+  "request.timeline.esclateTo": {
+    "message": "升级您的请求"
+  },
+  "request.timeline.reminderSent": {
+    "message": "已发送提醒"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "请求未发送"
+  },
+  "request.timeline.requestSent": {
+    "message": "请求已发送"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "您的请求时间表"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "升级已发送"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {今天} one {番茄土豆} other {#天内}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "发送提醒"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {今天} one {番茄土豆} other {#天内}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {今天} one {昨天} other {#天前}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {今天} one {昨天} other {#天前}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {今天} one {昨天} other {#天前}}"
+  },
+  "request.title": {
+    "message": "您的 {regulationType} 请求的详细信息"
+  },
+  "requestEscalation.complaint": {
+    "message": "更多详细信息"
+  },
+  "requestEscalation.complaintText": {
+    "message": "请解释为什么您不满意组织如何处理您的请求"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "打开升级表单"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "为了升级您的请求，您需要在 {authority} 网站上填写一份表格。单击下面的按钮在新选项卡中打开该表格。"
+  },
+  "requestEscalation.geography": {
+    "message": "地点"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "请选择您的居住地点"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "为了升级您的请求，请拨打 {phone}上的 {authority}。"
+  },
+  "requestEscalation.submit": {
+    "message": "审核并发送"
+  },
+  "search.companyPlaceholder": {
+    "message": "搜索组织"
+  },
+  "search.noResults": {
+    "message": "找不到一个组织？"
+  },
+  "search.noResultsMore": {
+    "message": "点击这里添加一个"
+  },
+  "sendEmailButton.copy": {
+    "message": "复制电子邮件文本到剪贴板"
+  },
+  "sendEmailButton.default": {
+    "message": "在您的默认电子邮件客户端打开"
+  },
+  "sendEmailButton.gmail": {
+    "message": "在 Gmail 中打开"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "在 Yahoo Mail 中打开"
+  },
+  "social.chromeCTA": {
+    "message": "为Chrome下载"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome 扩展"
+  },
+  "social.emailBody": {
+    "message": "查看 YourDigitalRights. rg, 一种免费的服务, 使您很容易找到成千上万个组织的个人数据。 然后让他们删除它。"
+  },
+  "social.emailSubject": {
+    "message": "了解数以千计的组织在您身上有什么个人数据，然后让它们删除它 | 你的数字权利"
+  },
+  "social.extensionHeadline": {
+    "message": "直接从您的浏览器中退出"
+  },
+  "social.extensionText": {
+    "message": "您想要更好地控制谁有权访问您的个人数据吗？ 我们的浏览器扩展允许您点击按钮退出您访问的网站。"
+  },
+  "social.facebookQuote": {
+    "message": "了解数以千计的组织在您身上有什么个人数据，然后让它们删除它。查看您的数字版rights.org。"
+  },
+  "social.firefoxCTA": {
+    "message": "下载 Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "FireFox 扩展"
+  },
+  "social.shareHeading": {
+    "message": "如果你发现这个服务有用，请传播这个单词"
+  },
+  "social.twitterTitle": {
+    "message": "了解数以千计的组织在您身上有什么个人数据，然后让它们删除它。查看您的数字版rights.org。"
+  },
+  "stats.description": {
+    "message": "数据保护要求统计。"
+  },
+  "stats.statsSubTitle": {
+    "message": "我们的任务是帮助个人重新控制其在线隐私，授权他们要求组织删除或提供个人信息副本。 以下统计数字显示哪些组织在不同时期收到的请求最多。"
+  },
+  "stats.statsTitle": {
+    "message": "请求统计"
+  },
+  "stats.title": {
+    "message": "请求统计"
+  },
+  "stats.titleAlltime": {
+    "message": "最常用的请求"
+  },
+  "stats.titleMonth": {
+    "message": "本月热门请求"
+  },
+  "stats.titleWeek": {
+    "message": "本周最大请求"
+  },
+  "stats.titleYear": {
+    "message": "今年最热门请求"
+  },
+  "stats.total": {
+    "message": "总请求已发送: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "保持在线威胁之前, 并使用隐私警告控制您的个人资料! 我们的通讯提供最新的专家咨询、提示和技巧，以保护您在数字世界的隐私。 立即订阅以随时了解情况并获得授权！"
+  },
+  "subscribe.title": {
+    "message": "订阅隐私提醒！"
+  },
+  "support.description1": {
+    "message": "我们知道，让公司删除您的数据有时可能令人沮丧。"
+  },
+  "support.description2": {
+    "message": "我们付费的支持服务让您直接接触我们的一名工作人员。 谁会乐意帮助您处理您的数据删除或访问请求。"
+  },
+  "support.posPaidtitle": {
+    "message": "谢谢！"
+  },
+  "support.postPaidDescription1": {
+    "message": "请通过以下电子邮件地址联系我们以访问付费支持："
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}。"
+  },
+  "support.seoDescription": {
+    "message": "付费支持服务让您直接访问我们的一名工作人员"
+  },
+  "support.seoTitle": {
+    "message": "支持"
+  },
+  "support.title": {
+    "message": "付费支持"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "已复制到剪贴板，您需要将其粘贴到电子邮件中，并点击发送。"
+  },
+  "thankyou.copyPart1Email": {
+    "message": "电子邮件应该已经在您的电子邮件应用程序中打开，您需要进行的只是审核并单击发送。"
+  },
+  "thankyou.description": {
+    "message": "谢谢你"
+  },
+  "thankyou.donation": {
+    "message": "通过 <a>帮助我们保持免费服务，捐款</a> 以帮助确保我们的长期财政稳定和独立。"
+  },
+  "thankyou.findCompany": {
+    "message": "寻找另一个组织"
+  },
+  "thankyou.howLongToReply": {
+    "message": "组织必须遵守 {days} ，并且可能会要求提供更多信息以验证您的身份。"
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "访问请求"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "删除请求"
+  },
+  "thankyou.seotitle": {
+    "message": "谢谢您！"
+  },
+  "thankyou.title": {
+    "message": "谢谢！"
+  }
+}
