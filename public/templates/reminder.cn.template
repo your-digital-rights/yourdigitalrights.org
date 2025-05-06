@@ -1,0 +1,25 @@
+致 {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) 的隐私部门/数据保护官/法律部门，
+
+我依据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ requestType.article }}，于 {{ requestSentDate }} 通过电子邮件向您发送了数据 {{ requestType.name | capitalize }} 请求。
+
+{% if status === 'PARTIAL' %}
+到目前为止，您未能完全遵守我的请求。
+{% elif status === 'DECLINED' %}
+到目前为止，您拒绝遵守我的请求。
+{% elif status === 'NO_REPLY' %}
+到目前为止，我尚未收到对我的请求的回复。
+{% endif %}
+
+{% if daysSinceRequest > regulation.timeLimit %}
+请注意，自首次发送请求以来已过去 {{ daysSinceRequest }} 天，您现在违反了 {{ regulation.displayName }} 的 {{ requestType.article }}。
+{% endif %}
+
+我发送这封电子邮件是为了提醒您我的请求，如果您不完全遵守，我保留将此事上报给 {{ regulation.dpa.longName }} 的权利。
+
+谨致问候，
+
+{{ requestItem.name.S }}
+
+由 YourDigitalRights.org 提供支持
+
+{{ previousEmails }}

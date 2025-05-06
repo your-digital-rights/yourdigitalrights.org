@@ -1,0 +1,32 @@
+尊敬的 {{ regulation.dpa.longName }}，
+
+我依据 {{ regulation.longName }} ({{ regulation.displayName }}) 的 {{ requestType.article }}，于 {{ requestSentDate }} 向 {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) 发送了一份数据 {{ requestType.name | capitalize }} 请求。
+
+{% if status === 'PARTIAL' %}
+我想提交正式投诉，因为该组织未能完全遵守我的请求。
+{% elif status === 'DECLINED' %}
+我想提交正式投诉，因为该组织拒绝遵守我的请求。
+{% elif status === 'NO_REPLY' %}
+我想提交正式投诉，因为该组织尚未回复我 {{ daysSinceRequest }} 天前发送的请求。
+{% endif %}
+
+{% if complaintText %}
+其他详细信息：
+{{ complaintText }}
+{% endif %}
+
+{% if reminderSentDate %}
+在 {{ reminderSentDate }}，我已向该组织发送了一封提醒电子邮件，您可以在下方查看。
+{% endif %}
+
+请随时告知我您的调查状态。如果您希望我提供任何其他信息，请告诉我。我首选的沟通方式是电子邮件。
+
+请注意，我已将 {{ requestItem.companyName.S }} 复制到本电子邮件。
+
+谨致问候，
+
+{{ requestItem.name.S }}
+
+由 YourDigitalRights.org 提供支持
+
+{{ previousEmails }}

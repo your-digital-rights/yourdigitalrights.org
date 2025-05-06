@@ -22,4 +22,33 @@ Atenciosamente,
 
 Powered by YourDigitalRights.org
 
+
+English Version:
+
+To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+
+On {{ requestSentDate_en }} I have sent you a Data Request via email, pursuant to Brazil's data protection regulation - the Lei Geral de Proteção de Dados Pessoais (LGPD). 
+
+{% if status === 'PARTIAL' %}
+So far you have failed to fully comply with my request. 
+{% elif status === 'DECLINED' %}
+So far you have refused to comply with my request.
+{% elif status === 'NO_REPLY' %}
+So far I did not receive a reply to my request.
+{% endif %}
+
+{% if daysSinceRequest > regulation.timeLimit %}
+Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+{% endif %}
+
+I am sending this email to remind you of my request and reserve the right to escalate the matter to the government regulator if you do not fully comply with it. 
+
+Kind regards,
+
+{{ requestItem.name.S }}
+
+Powered by YourDigitalRights.org
+
 {{ previousEmails }}
+
+
