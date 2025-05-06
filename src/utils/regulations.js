@@ -345,7 +345,7 @@ const Regulations = {
       shortName: 'ANPD',
       longName: 'Autoridade Nacional de Proteção de Dados',
       requestFormURL: 'https://www.gov.br/secretariageral/pt-br/sei-peticionamento-eletronico',
-      defaultAction: 'form',
+      defaultAction: 'email',
       geographies: [
         {
           name: 'Brasil',
@@ -1129,6 +1129,47 @@ const Regulations = {
       ACCESS: {
         name: 'access',
         article: 'Section 7.a.4',        
+      }
+    } 
+  }, 
+
+  PIPL: {
+    displayName: 'PIPL',
+    gepgraphy: '中国',
+    longName: '个人信息保护法',
+    timeLimit: 30,
+    escalation_timeLimit: 60,
+    dpa: {
+      shortName: 'CAC',
+      longName: '国家互联网信息办公室',
+      requestFormURL: 'https://www.12377.cn/qql/qqljb.html',
+      defaultAction: 'email',
+      geographies: [
+        {
+          name: '中国',
+          countryCode: 'CN',
+          email: 'jubao@12377.cn',
+          website: 'https://www.12377.cn/',
+          chairman: ''
+        },
+      ],
+    },
+    regulationURL: 'http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html',
+    requestTypes: {
+      DELETION: {
+        name: '删除',
+        article: '第47条',
+        exceptions: (
+          <FormattedMessage
+            id="request.next.declinePIPL"
+            defaultMessage="个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
+          />
+        ),          
+        exceptionURL: 'http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html',
+      },
+      ACCESS: {
+        name: '审查和复制',
+        article: '第45条',        
       }
     } 
   }, 

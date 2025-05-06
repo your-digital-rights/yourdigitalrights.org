@@ -1,36 +1,6 @@
-A  quem possa interessar,
-
-Venho por meio deste solicitar que você apague as minhas informações pessoais de seus registros, de acordo com o inciso VI do artigo 18 da Lei Geral de Proteção de Dados (LGPD). 
-
-Caso você trate os meus dados pessoais com base no consentimento, neste momento, eu revogo este consentimento. Por outro lado, caso você trate os meus dados pessoais com base em seu legítimo interesse, eu me oponho a este tratamento, nos termos do art. 18, §2º.
-
-Por favor, peço que confirme que você apagou minhas informações pessoais de seus sistemas, bem como comprove que orientou os seus prestadores de serviços, parceiros ou fornecedores, com quem minhas informações foram compartilhadas, a também excluir os meus dados dos seus respectivos sistemas, conforme prevê o art. 18, §6º.
-
-{% if identifyingInfo %}
-Use as seguintes informações para me identificar em seus sistemas:
-{{ identifyingInfo }}
-{% endif %}
-
-Se você precisar de mais informações para me identificar ou localizar meus registros em seus sistemas, por favor, entre em contato o mais rápido possível. Preferencialmente, o meu meio de contato é por e-mail.
-
-Se você não puder atender à minha solicitação para apagar minhas informações pessoais, por favor, informe o motivo específico pelo qual a minha solicitação não pode ser atendida. Se você estiver se baseando em outras bases legais do artigo 7º ou 11º da LGPD, por favor, me informe quais são e qual a justificativa para a sua utilização.
-
-Por favor, observe que eu não forneci o meu consentimento de que qualquer informação pessoal que faça parte desta solicitação, incluindo meu nome e endereço de e-mail, seja utilizado para qualquer outro fim que não seja o cumprimento da minha solicitação.
-
-Se você não é o responsável por atender a minha solicitação, por favor, encaminhe este e-mail para o Encarregado de Proteção de Dados (“DPO”) ou, se for o caso, para a pessoa responsável. Por favor, observe que você deve seguir os prazos estabelecidos pela LGPD e pelas regulamentações da ANPD, sob pena de ser responsabilizado pela legislação.
-
-Atenciosamente,
-
-{{ name }}
-
-Powered by YourDigitalRights.org
-
-
-English Version:
-
 To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
 
-I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to Brazil's data protection regulation - Article 18 of the Lei Geral de Proteção de Dados Pessoais (LGPD). 
+I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 
 To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
 

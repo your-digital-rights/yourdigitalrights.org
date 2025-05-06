@@ -1803,6 +1803,12 @@
       "value": "crwdns5869:0crwdne5869:0"
     }
   ],
+  "request.next.declineDPDP": [
+    {
+      "type": 0,
+      "value": "crwdns5953:0crwdne5953:0"
+    }
+  ],
   "request.next.declineDPDPA": [
     {
       "type": 0,
@@ -1827,10 +1833,40 @@
       "value": "crwdns2877:0crwdne2877:0"
     }
   ],
+  "request.next.declineICDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5955:0crwdne5955:0"
+    }
+  ],
   "request.next.declineLGPD": [
     {
       "type": 0,
       "value": "crwdns3420:0crwdne3420:0"
+    }
+  ],
+  "request.next.declineMTCDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5957:0crwdne5957:0"
+    }
+  ],
+  "request.next.declineNDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5959:0crwdne5959:0"
+    }
+  ],
+  "request.next.declineNHDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5961:0crwdne5961:0"
+    }
+  ],
+  "request.next.declineNJDPL": [
+    {
+      "type": 0,
+      "value": "crwdns5963:0crwdne5963:0"
     }
   ],
   "request.next.declineOPCA": [
@@ -2505,24 +2541,6 @@
       "value": "crwdns3501:0crwdne3501:0"
     }
   ],
-  "thankyou.copyPart2CCPA": [
-    {
-      "type": 0,
-      "value": "crwdns2681:0crwdne2681:0"
-    }
-  ],
-  "thankyou.copyPart2GDPR": [
-    {
-      "type": 0,
-      "value": "crwdns2683:0crwdne2683:0"
-    }
-  ],
-  "thankyou.copyPart3": [
-    {
-      "type": 0,
-      "value": "crwdns2685:0crwdne2685:0"
-    }
-  ],
   "thankyou.description": [
     {
       "type": 0,
@@ -2532,7 +2550,7 @@
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "crwdns5910:0crwdne5910:0"
+      "value": "crwdns5965:0crwdne5965:0"
     }
   ],
   "thankyou.findCompany": [
@@ -2544,7 +2562,7 @@
   "thankyou.howLongToReply": [
     {
       "type": 0,
-      "value": "crwdns3422:0"
+      "value": "crwdns5967:0"
     },
     {
       "type": 1,
@@ -2552,7 +2570,7 @@
     },
     {
       "type": 0,
-      "value": "crwdne3422:0"
+      "value": "crwdne5967:0"
     }
   ],
   "thankyou.requestTypeAccess": [
