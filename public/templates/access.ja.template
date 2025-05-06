@@ -18,7 +18,7 @@ Please also confirm whether or not my personal data has been collected, sold, or
 
 7. 自動化された意思決定の有無（プロファイリングを含む）。存在する場合には、その意思決定基準に関する意味のある説明、私について適用した場合に想定される影響の大きさと想定される結論
 
-8. 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 クラウドサービスを使用してデータを保管・処理している場合には、私の個人情報が保存されている（または過去12ヶ月以内に保存されていた）サーバが存在する国・地域
+8. 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 私の個人情報が保管されている国・地域及び私の個人情報にアクセス可能な国・地域。 クラウドサービスを使用してデータを保管・処理している場合には、私の個人情報が保存されている（または過去12ヶ月以内に保存されていた）サーバが存在する国・地域
 
 9. 第三国や国際機関に私の個人情報を移転する際に貴社が講じた保護措置についてもお知らせください。
 
@@ -65,25 +65,3 @@ Please also confirm whether or not my personal data has been collected, sold, or
 
 Powered by YourDigitalRights.org
 
-
-English Version:
-
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
-
-I am writing to request a copy of my personal inforation pursuant to Japan's data protection regulation - Article 30 of the Act on the Protection of Personal Information (APPL). 
-
-Please also confirm whether or not my personal data has been collected, sold, or disclosed.
-{% if identifyingInfo %}
-Please use the following information to identify me in your records:
-{{ identifyingInfo }}
-{% endif %}
-
-If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
-
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
-
-Kind regards,
-
-{{ name }}
-
-Powered by YourDigitalRights.org
