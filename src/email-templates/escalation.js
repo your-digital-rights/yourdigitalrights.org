@@ -12,7 +12,7 @@ export default {
     if (requestItem.regulationType.S === "LGPD") {
       return `Reclamação contra "${requestItem.companyName.S}" em relação a ${regulation.displayName} minha solicitação de ${capitalize(requestType.name)} (ref: ${requestItem.id.S.split("-")[0]}).`;
     } else if (requestItem.regulationType.S === "PIPL") {
-      return `提醒：我的数据请求 (ref: ${requestItem.id.S.split("-")[0]})`;
+      return `针对“${requestItem.companyName.S}”的${regulation.displayName}数据${requestType.name}请求（参考：${requestItem.id.S.split("-")[0]}）的投诉。`
     } else if (requestItem.regulationType.S === "APPI") {
       return `リマインダー: データリクエスト (ref: ${requestItem.id.S.split("-")[0]})`;      
     } else {

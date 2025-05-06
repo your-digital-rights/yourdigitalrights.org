@@ -13,7 +13,7 @@ export default {
     if (requestItem.regulationType.S === "LGPD") {
       return `Aviso: Minha Solicitação de ${capitalize(requestType.name)} de Dados ${regulation.displayName} enviada ${new Intl.DateTimeFormat('pt', { dateStyle: 'full'}).format(new Date(requestSentDate))} (ref: ${requestItem.id.S.split("-")[0]})`;
     } else if (requestItem.regulationType.S === "PIPL") {
-      return `提醒：我的数据请求 (ref: ${requestItem.id.S.split("-")[0]})`;
+      return `提醒：我的${regulation.displayName}数据${requestType.name}请求已发送${new Intl.DateTimeFormat('zh', { dateStyle: 'full'}).format(new Date(requestSentDate))}（参考：${requestItem.id.S.split("-")[0]}）`
     } else if (requestItem.regulationType.S === "APPI") {
       return `リマインダー: データリクエスト (ref: ${requestItem.id.S.split("-")[0]})`;
     } else {
