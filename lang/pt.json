@@ -800,6 +800,9 @@
   "request.next.declinePIPEDA": {
     "message": "<ul><li>As exceções ao requisito de acesso devem ser limitadas e específicas.</li><li>As razões para negar acesso devem ser fornecidas ao indivíduo mediante pedido.</li><li>Exceções podem incluir informações que são proibitivamente dispendiosas de fornecer, informação que contém referências a outros indivíduos, informações que não podem ser divulgadas por razões jurídicas, de segurança ou de propriedade comercial e de informação sujeita a privilégios de advogado ou litigioso.</li></ul>"
   },
+  "request.next.declinePIPL": {
+    "message": "个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项."
+  },
   "request.next.declineTDPSA": {
     "message": "Entidades que incluem governos estatais e locais, instituições de ensino superior, instituições de ensino superior, certas associações nacionais de valores mobiliários, instituições financeiras, e cobriu entidades ao abrigo de actos específicos, como o Gramm-Leach-Bliley Act e a portabilidade e responsabilidade do seguro de saúde. estão isentos."
   },
