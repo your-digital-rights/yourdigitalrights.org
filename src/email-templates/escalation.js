@@ -45,7 +45,7 @@ export default {
       if (requestItem.reminderEmailSentAt) {
         data.reminderSentDate = new Intl.DateTimeFormat('zh', { dateStyle: 'full'}).format(new Date(requestItem.reminderEmailSentAt.S));
       }
-      templateFile = "reminder.cn.template";
+      templateFile = "escalation.cn.template";
     }  else {
       data.requestSentDate = new Intl.DateTimeFormat('en', { dateStyle: 'full'}).format(new Date(requestSentDate));
       if (requestItem.reminderEmailSentAt) {
