@@ -80,10 +80,10 @@
     "chromedriver": "^135.0.0",
     "mailto-parser": "^1.0.1",
     "mocha": "^11.2.2",
+    "npm-check-updates": "^18.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.5.3",
-    "wdio-chromedriver-service": "^8.1.1",
-    "npm-check-updates": "^18.0.1"
+    "wdio-chromedriver-service": "^8.1.1"
   },
   "prettier": {
     "singleQuote": true,
