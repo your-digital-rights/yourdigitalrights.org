@@ -43,7 +43,6 @@
     "@mui/styles": "^5.15.11",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
-    "aws-sdk": "^2.1692.0",
     "@aws-sdk/client-dynamodb": "^3.0.0",
     "@aws-sdk/lib-dynamodb": "^3.0.0",
     "clean-css": "^5.3.3",
