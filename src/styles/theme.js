@@ -79,26 +79,33 @@ const source_sans_pro = localFont({
   fallback: ['sans-serif'],
 })
 
-
 // Create a theme instance.
 const theme = createTheme({
+  breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 960,
+      lg: 1280,
+      xl: 1920,
+    },
+  },
   components: {
     MuiCssBaseline: {
-      styleOverrides: `
-      hyml: {
+      styleOverrides: {
+        html: {
           a: {
             color: '#005ea5',
             fontWeight: '900',
           },
-            "a:hover": {
-          },
+          "a:hover": {},
           body: {
             fontSize: '0.875rem',
             lineHeight: 1.43,
             letterSpacing: '0.01071em',
           },          
         }
-      `
+      }
     },
   },
   palette: {
@@ -146,9 +153,26 @@ const theme = createTheme({
       main: "blue",
     },
     fontFamily: source_sans_pro.style.fontFamily,
-  },	
-  backgroundImage: "linear-gradient(152deg, #005ea5, #005ea5)",
-  color: "white",
+  },
+  // Add these properties for v5 compatibility
+  overrides: {
+    MuiCssBaseline: {
+      '@global': {
+        html: {
+          a: {
+            color: '#005ea5',
+            fontWeight: '900',
+          },
+          "a:hover": {},
+          body: {
+            fontSize: '0.875rem',
+            lineHeight: 1.43,
+            letterSpacing: '0.01071em',
+          },
+        }
+      }
+    }
+  }
 });
 
 export default theme;

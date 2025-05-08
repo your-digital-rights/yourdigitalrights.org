@@ -14,7 +14,6 @@ import {
   documentGetInitialProps,
 } from '@mui/material-nextjs/v14-pagesRouter';
 
-
 export default function MyDocument(props) {
   return (
     <Html lang="en">
@@ -54,7 +53,6 @@ export default function MyDocument(props) {
     </Html>
   );
 }
-
 
 // You can find a benchmark of the available CSS minifiers under
 // https://github.com/GoalSmashers/css-minification-benchmark
