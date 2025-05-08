@@ -31,5 +31,12 @@ describe("When I submit a request via gmail", () => {
     const currentUrl = await browser.getUrl();
     const baseUrl = new URL(currentUrl).origin;
     await browser.url(`${baseUrl}/r/${requestId}`);
+
+    // Get the Reference value from the hero section
+    const referenceElement = await $('//strong[contains(text(), "Reference:")]/following-sibling::text()');
+    const referenceValue = await referenceElement.getText();
+    
+    // Verify that the Reference value is contained within the request ID
+    expect(requestId).to.include(referenceValue.trim());
   });
 }); 
