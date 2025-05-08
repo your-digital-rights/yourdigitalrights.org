@@ -18,7 +18,7 @@ class Hero extends Component {
     // Optimistically assume the status update will succeed
     this.props.setStatus(newStatus);
 
-    fetch(`/api/status?uuid=${this.props.requestItem.id.S}&status=${newStatus}`, {
+    fetch(`/api/status?uuid=${this.props.requestItem.id}&status=${newStatus}`, {
     }).then((response) => {
       if (!response.ok) {
         // If the status didn't update, revert it back
@@ -32,7 +32,7 @@ class Hero extends Component {
   
   render() {
     const {classes, requestItem, selectedCompany, status} = this.props;
-    const requestType = Regulations[requestItem.regulationType.S].requestTypes[requestItem.requestType.S].name;
+    const requestType = Regulations[requestItem.regulationType].requestTypes[requestItem.requestType].name;
     return (
       <div className={classes.root} id="requestHero">
         <div className={classes.container}>
@@ -73,7 +73,7 @@ class Hero extends Component {
               id="request.hero.reference" 
               defaultMessage="{ref}" 
               values={{
-                ref: requestItem.id.S.split("-")[0],
+                ref: requestItem.id.split("-")[0],
               }}
             />     
             <br />            

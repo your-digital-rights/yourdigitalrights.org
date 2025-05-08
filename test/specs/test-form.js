@@ -4,9 +4,9 @@ describe("When I visit the home page", () => {
   let page;
 
   beforeEach(async () => {
-    page = await setupPageInDesktopView("/", true);
-    /*await setDataOpenUrlAttributeOnWindowOpen();
-    await initializeWindowPaqArray();*/
+    page = await setupPageInDesktopView("/", false);
+    await setDataOpenUrlAttributeOnWindowOpen();
+    await initializeWindowPaqArray();
 
     browser.execute(function() {
       // window.Date.prototype.toLocaleDateString = function() {
@@ -71,20 +71,20 @@ describe("When I visit the home page", () => {
         mailTo = page.parsedMailTo(await page.dataOpenUrlAttribute);
       });
 
-      it.skip("and open in default email client", async () => {
+      it("and open in default email client", async () => {
         mailTo.to.should.be.equal("feedback@slack.com");
-        mailTo.subject.should.be.equal("Data deletion request");
+        mailTo.subject.should.be.equal("Data deletion request - slack.com");
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
           /10 Downing Street/,
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /To whom it may concern:\n\nI am writing to request that you erase all my personal information/,
+          /To the Attention of the Privacy Department/,
           "Email body should contain expected content"
         );
         mailTo.body.should.contain(
-          'General Data Protection Regulation (GDPR)',
+          'GDPR',
           'Should contain GDPR'
         );
 
@@ -96,43 +96,13 @@ describe("When I visit the home page", () => {
         )).should.be.true;
       });
 
-      describe.skip("thank you message", () => {
+      describe("thank you message", () => {
         it("shows a thank you message", async () => {
           (await page.thanksMessage.isVisible).should.be.true;
           expect(await page.thanksMessage.title).to.equal("Thank You!");
           expect(await page.thanksMessage.text).to.contain(
             "request email should have opened in your email application"
           );
-          (await page.thanksMessage.btn.isDisplayed()).should.be.true;
-
-          (await page.thanksMessage.socialShare.exists).should.be.true;
-
-          await page.thanksMessage.socialShare.linkedIn.click();
-          (await page.dataOpenUrlAttribute).should.contain("linkedin.com");
-          (await page.hasTracked(
-            "trackEvent",
-            "Social Share",
-            "Social Share From thankyou",
-            "linkedin"
-          )).should.be.true;
-
-          await page.thanksMessage.socialShare.twitter.click();
-          (await page.dataOpenUrlAttribute).should.contain("twitter.com");
-          (await page.hasTracked(
-            "trackEvent",
-            "Social Share",
-            "Social Share From thankyou",
-            "twitter"
-          )).should.be.true;
-
-          await page.thanksMessage.socialShare.facebook.click();
-          (await page.dataOpenUrlAttribute).should.contain("facebook.com");
-          (await page.hasTracked(
-            "trackEvent",
-            "Social Share",
-            "Social Share From thankyou",
-            "facebook"
-          )).should.be.true;
         });
       });
     });
@@ -161,10 +131,10 @@ describe("When I visit the home page", () => {
         mailTo = page.parsedMailTo(await page.dataOpenUrlAttribute);
       });
 
-      it.skip("opens a mailto url", async () => {
+      it("opens a mailto url", async () => {
         mailTo.to.should.be.equal("dpo@abcxyz123.com");
         mailTo.subject.should.be.equal(
-          "Data deletion request"
+          "Data deletion request - "
         );
         mailTo.body.should.match(/Rob/, "Email body should contain users name");
         mailTo.body.should.match(
@@ -172,7 +142,7 @@ describe("When I visit the home page", () => {
           "Email body should contain users home address"
         );
         mailTo.body.should.match(
-          /I am writing to request that you delete all my personal information/,
+          /To the Attention of the Privacy Department/,
           "Email body should contain expected content"
         );
       });

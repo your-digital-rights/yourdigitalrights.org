@@ -1,13 +1,16 @@
-import aws from "aws-sdk";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import { DynamoDBDocumentClient, UpdateCommand } from "@aws-sdk/lib-dynamodb";
 import { DateTime } from "luxon";
 
-aws.config.update({
-  accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+const client = new DynamoDBClient({
   region: process.env.REGION,
+  credentials: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
 });
 
-const dynamodb = new aws.DynamoDB();
+const dynamodb = DynamoDBDocumentClient.from(client);
 
 /**
  * Update the follow up and requests tables with a status set by the user.
@@ -19,7 +22,7 @@ const dynamodb = new aws.DynamoDB();
  * @param {string} url an optional url to redirect to
  */
 export default async (req, res) => {
-  return new Promise((resolve, reject) => {
+  try {
     const { status, uuid, url } = req.query;
 
     res.setHeader('Content-Type', 'application/json');
@@ -37,78 +40,62 @@ export default async (req, res) => {
       return;
     }
 
-    dynamodb.updateItem({
-      TableName: 'YDRFollowups',    
-      Key: {
-        "id": {
-          S: uuid,
+    try {
+      await dynamodb.send(new UpdateCommand({
+        TableName: 'YDRFollowups',    
+        Key: {
+          id: uuid,
         },
-      },
-      UpdateExpression: "SET #S = :s",
-      ConditionExpression: 'attribute_exists(id)',
-      ExpressionAttributeNames: {
-        "#S": "status",
-      },
-      ExpressionAttributeValues: {
-        ":s": {
-          S: status,
+        UpdateExpression: "SET #S = :s",
+        ConditionExpression: 'attribute_exists(id)',
+        ExpressionAttributeNames: {
+          "#S": "status",
         },
-      },
-      ReturnValues: "ALL_NEW",
-    }, (err, data) => {
-      if (err) {
-        if (err.code === 'ConditionalCheckFailedException') {
-          res.redirect(301, `/r/${uuid}`);
-        } else {
-          res.statusCode = 500;
-          res.send({
-            error: 'Could not update status in YDRFollowups: ' + err,
-          });
-        }
-      } else {  
-        dynamodb.updateItem({
-          TableName: 'YDRRequests',    
-          Key: {
-            "id": {
-              S: uuid,
-            },
-          },
-          UpdateExpression: "SET statusHistory = list_append(if_not_exists(statusHistory, :empty_list), :s), currentStatus = :cs",
-          ExpressionAttributeValues: {
-            ":s":{L: [{
-              M: { 
-                "Date": {
-                  S: DateTime.now().toUTC().toISO(),
-                },
-                "Status": {
-                  S: status,
-                }
-              }  
-            }]},
-            ":empty_list": {L: [] },
-            ":cs": {S: status},
-          },
-          ReturnValues: "ALL_NEW",
-        }, (err, data) => {
-          if (err) {
-            res.statusCode = 500;
-            res.send({
-              error: 'Could not update status in YDRRequests: ' + err,
-            });
-          } else { 
-            if (url) {
-              res.redirect(302, `/r/${uuid}`);
-            } else {
-              res.statusCode = 200;
-              res.send({
-                success: 'Saved status.',
-              });
-            }
-          }
+        ExpressionAttributeValues: {
+          ":s": status,
+        },
+        ReturnValues: "ALL_NEW",
+      }));
+
+      await dynamodb.send(new UpdateCommand({
+        TableName: 'YDRRequests',    
+        Key: {
+          id: uuid,
+        },
+        UpdateExpression: "SET statusHistory = list_append(if_not_exists(statusHistory, :empty_list), :s), currentStatus = :cs",
+        ExpressionAttributeValues: {
+          ":s": [{
+            Date: DateTime.now().toUTC().toISO(),
+            Status: status
+          }],
+          ":empty_list": [],
+          ":cs": status,
+        },
+        ReturnValues: "ALL_NEW",
+      }));
+
+      if (url) {
+        res.redirect(302, `/r/${uuid}`);
+      } else {
+        res.statusCode = 200;
+        res.send({
+          success: 'Saved status.',
         });
       }
-      resolve();
-      return;
+    } catch (err) {
+      if (err.name === 'ConditionalCheckFailedException') {
+        res.redirect(301, `/r/${uuid}`);
+      } else {
+        res.statusCode = 500;
+        res.send({
+          error: 'Could not update status: ' + err,
+        });
+      }
+    }
+  } catch (err) {
+    res.statusCode = 500;
+    res.send({
+      error: 'Internal server error: ' + err,
     });
-  });
+  }
 };

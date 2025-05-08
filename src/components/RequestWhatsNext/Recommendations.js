@@ -5,9 +5,9 @@ import Regulations from "../../utils/regulations";
 import capitalize from "../../utils/capitalize";
 
 const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
-  const regulation = Regulations[requestItem.regulationType.S];
+  const regulation = Regulations[requestItem.regulationType];
   const timeLimit = regulation.timeLimit;
-  const requestType = regulation.requestTypes[requestItem.requestType.S];
+  const requestType = regulation.requestTypes[requestItem.requestType];
   const companyName = capitalize(selectedCompany.name);
   let action = <FormattedMessage id="request.next.selectTheOptions1" defaultMessage="Please select from the following options:"/>;
   let reply = [];
@@ -112,7 +112,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
           defaultMessage="There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request." 
         />
       )
-      if (requestItem.requestType.S == 'DELETION') {
+      if (requestItem.requestType == 'DELETION') {
         reply.push(<span>{requestType.exceptions}</span>);
       }
       reply.push(
@@ -146,7 +146,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
             defaultMessage="Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
             values={{
               companyName: companyName,
-              a: txt => (<a href={`/r/${requestItem.id.S}/delete`}>{txt}</a>),
+              a: txt => (<a href={`/r/${requestItem.id}/delete`}>{txt}</a>),
             }}
           />
         </strong>
@@ -157,7 +157,7 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
   return (
     <div>
       {reply.map((r, i) => {
-        return <p key={i}>{r}</p>
+        return <span key={i}>{r}</span>
       })}
       <p>{action}</p>
     </div>

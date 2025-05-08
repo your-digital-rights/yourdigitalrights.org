@@ -39,14 +39,14 @@ class WhatsNext extends Component {
     selectedAction.run();
 
     tracking.trackSendReminderEmail(
-      this.props.requestItem.companyUrl.S,
-      this.props.requestItem.regulationType.S
+      this.props.requestItem.companyUrl,
+      this.props.requestItem.regulationType
     );  
   }
 
   buttons(classes) {
     const { requestItem } = this.props;
-    const authority = Regulations[requestItem.regulationType.S].dpa.longName;
+    const authority = Regulations[requestItem.regulationType].dpa.longName;
     return (
       <ul className={classes.buttons}>
         <li>
