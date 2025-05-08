@@ -4,7 +4,7 @@ describe("When I visit the home page", () => {
   let page;
 
   beforeEach(async () => {
-    page = await setupPageInDesktopView("/", true);
+    page = await setupPageInDesktopView("/", false);
     await setDataOpenUrlAttributeOnWindowOpen();
     await initializeWindowPaqArray();
 

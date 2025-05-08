@@ -5,7 +5,7 @@ import {
 
 describe("When I visit the Home page in Desktop view", () => {
   it("shows the navigation bar and all of the items", async () => {
-    const page = await setupPageInDesktopView("/", true);
+    const page = await setupPageInDesktopView("/", false);
 
     (await page.navigationBar.nav).should.exist;
     (await page.navigationBar.linkText(1)).should.equal("How it works");
@@ -17,16 +17,6 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkLangSelect).should.equal("English");
     (await page.navigationBar.linkButtonText).should.equal("MAKE A DONATION");
   });
-
-  // it('check the links are working as expected', () => {
-  //   const page = setupPageInDesktopView("/", true);
-  //
-  //   page.navigationBar.fifthNavItem.click();
-  //   page.getCurrentUrl().should.equal('hello');
-  //   ...
-  // })
-
-  // it("takes me to correct part of the page", () => {});
 });
 
 describe("When I visit the Home page in Desktop view", () => {

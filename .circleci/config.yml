@@ -16,9 +16,9 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v2-dependencies-{{ checksum "package.json" }}
+            - dependency-cache-{{ checksum "yarn.lock" }}
             # fallback to using the latest cache if no exact match is found
-            - v2-dependencies-
+            - dependency-cache-
 
       - browser-tools/install-chrome:
           replace-existing: true
@@ -26,10 +26,9 @@ jobs:
       - run: npm install --legacy-peer-deps
 
       - save_cache:
-          key: v2-dependencies-{{ checksum "package.json" }}
+          key: dependency-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
-            - .next/cache
             - ./.next/cache
 
       # run tests!
