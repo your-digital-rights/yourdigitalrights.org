@@ -25,7 +25,8 @@ describe("When I submit a request via gmail", () => {
     const urlParams = new URLSearchParams(new URL(gmailUrl).search);
     const cc = urlParams.get('cc');
     const requestId = cc.split('.request@')[0];
-    
+    console.log('Request ID:', requestId);
+
     // Navigate to the request page using the same base URL
     const currentUrl = await browser.getUrl();
     const baseUrl = new URL(currentUrl).origin;
