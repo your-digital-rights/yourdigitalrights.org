@@ -801,7 +801,7 @@
     "message": "<ul><li>Ausnahmen von der Zugangsvoraussetzung sollten begrenzt und spezifisch sein.</li><li>Die Gründe für die Verweigerung des Zugriffs sollten dem Einzelnen auf Anfrage mitgeteilt werden.</li><li>Ausnahmen können Informationen enthalten, die unerschwinglich kostspielig sind, Informationen, die Verweise auf andere Personen enthalten, Informationen, die aus rechtlichen, sicherheitsrelevanten oder gewerblichen urheberrechtlichen Gründen nicht offengelegt werden können, sowie Informationen, die dem Rechtsanwalts- oder Streitbeilegungsrecht unterliegen.</li></ul>"
   },
   "request.next.declinePIPL": {
-    "message": "个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项."
+    "message": "个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
   },
   "request.next.declineTDPSA": {
     "message": "Einrichtungen wie staatliche und lokale Regierungen, gemeinnützige Einrichtungen, Hochschuleinrichtungen, bestimmte nationale Wertpapierverbände, Finanzinstitute, und betroffene Unternehmen im Rahmen bestimmter Rechtsakte, wie das Gramm-Leach-Bliley-Gesetz und das Gesetz über die Portabilität und Rechenschaftspflicht der Krankenversicherung. sind davon ausgenommen."
