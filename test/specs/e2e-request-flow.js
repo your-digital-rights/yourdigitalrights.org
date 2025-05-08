@@ -41,5 +41,17 @@ describe("When I submit a request via gmail", () => {
     
     // Verify that the Reference value is contained within the request ID
     expect(requestId).to.include(referenceValue);
+
+    // go to delete page
+    await browser.url(`${baseUrl}/r/${requestId}/delete`);
+
+    // Click the delete all button
+    const deleteAllButton = await $('//button[contains(text(), "All requests")]');
+    await deleteAllButton.click();
+
+    // Verify the success message appears
+    const successMessage = await $('#deletePII > p');
+    const messageText = await successMessage.getText();
+    expect(messageText).to.include("We have successfully deleted the personal data associated with all of your requests");
   });
 }); 
