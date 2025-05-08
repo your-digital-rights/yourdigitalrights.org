@@ -1,6 +1,7 @@
 import React from "react";
 import { injectIntl } from "react-intl";
-import aws from "aws-sdk";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import { DynamoDBDocumentClient, GetCommand } from "@aws-sdk/lib-dynamodb";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import withStyles from '@mui/styles/withStyles';
@@ -16,26 +17,25 @@ import { fetchDomainDetails } from "../../../utils/domains";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
 
-
 async function getRequest(id) {
-  aws.config.update({
-    accessKeyId: process.env.ACCESS_KEY_ID,
-    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  const client = new DynamoDBClient({
     region: process.env.REGION,
+    credentials: {
+      accessKeyId: process.env.ACCESS_KEY_ID,
+      secretAccessKey: process.env.SECRET_ACCESS_KEY,
+    },
   });
-  
-  const dynamodb = new aws.DynamoDB();
+
+  const dynamodb = DynamoDBDocumentClient.from(client);
 
   const params = {
     Key: {
-      "id": {
-        S: id,
-      },
-    }, 
+      id: id,
+    },
     TableName: "YDRFollowups",
   };
-  return await dynamodb.getItem(params).promise();
-};
+  return await dynamodb.send(new GetCommand(params));
+}
 
 const styles = (theme) => ({
   root: {
@@ -70,9 +70,9 @@ const styles = (theme) => ({
 
 const Uuid = ({classes, data, router, intl}) => {
   const requestItem = data.item;
-  const [status, setStatus] = React.useState(requestItem.status ? requestItem.status.S : "NO_REPLY");
+  const [status, setStatus] = React.useState(requestItem.status || "NO_REPLY");
   const { uuid } = router.query;
-  const regulationType = requestItem.regulationType.S;
+  const regulationType = requestItem.regulationType;
   const Title = intl.formatMessage(
     {
       id: "request.title",
@@ -92,15 +92,15 @@ const Uuid = ({classes, data, router, intl}) => {
     },
   );
   const BaseURL = "/r/" + uuid;
-  const requestSentDate = requestItem.requestEmailSentAt ? requestItem.requestEmailSentAt.S : requestItem.requestCreatedAt.S;
-  const regulation = Regulations[requestItem.regulationType.S];
+  const requestSentDate = requestItem.requestEmailSentAt || requestItem.requestCreatedAt;
+  const regulation = Regulations[requestItem.regulationType];
   const reminderTimeLimit = regulation.timeLimit;
   const escalationTimeLimit = regulation.escalation_timeLimit;
   const days = {
     reminderTimeLimit,
     sinceRequest: Math.abs(DateTime.now().diff(DateTime.fromISO(requestSentDate), ['days', 'hours']).toObject().days),
-    sinceReminder: requestItem.reminderEmailSentAt ? Math.abs(DateTime.fromISO(requestItem.reminderEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days) : null,
-    sinceEscalation: requestItem.escalationEmailSentAt ? Math.abs(DateTime.fromISO(requestItem.escalationEmailSentAt.S).diff(DateTime.now(), ['days', 'hours']).toObject().days) : null,
+    sinceReminder: requestItem.reminderEmailSentAt ? Math.abs(DateTime.fromISO(requestItem.reminderEmailSentAt).diff(DateTime.now(), ['days', 'hours']).toObject().days) : null,
+    sinceEscalation: requestItem.escalationEmailSentAt ? Math.abs(DateTime.fromISO(requestItem.escalationEmailSentAt).diff(DateTime.now(), ['days', 'hours']).toObject().days) : null,
     toReminder: !requestItem.reminderEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: reminderTimeLimit+1}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
     toEscalation: !requestItem.escalationEmailSentAt ? DateTime.fromISO(requestSentDate).plus({days: escalationTimeLimit+1}).diff(DateTime.now(), ['days', 'hours']).toObject().days : null,
   };
@@ -165,7 +165,7 @@ export async function getServerSideProps(context) {
     }
   }
 
-  const data = await fetchDomainDetails(requestDetails.Item.companyUrl.S);
+  const data = await fetchDomainDetails(requestDetails.Item.companyUrl);
 
   if (typeof data == 'undefined') {
     return {

@@ -3,7 +3,7 @@ const LOCALES = Object.keys(ALT_LANGUAGES);
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    sourceDir: 'src/.next',
+    sourceDir: '.next',
     siteUrl: 'https://yourdigitalrights.org',
     generateRobotsTxt: true,
     robotsTxtOptions: {

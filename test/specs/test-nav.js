@@ -5,7 +5,7 @@ import {
 
 describe("When I visit the Home page in Desktop view", () => {
   it("shows the navigation bar and all of the items", async () => {
-    const page = await setupPageInDesktopView("/", true);
+    const page = await setupPageInDesktopView("/", false);
 
     (await page.navigationBar.nav).should.exist;
     (await page.navigationBar.linkText(1)).should.equal("How it works");
@@ -16,49 +16,6 @@ describe("When I visit the Home page in Desktop view", () => {
     (await page.navigationBar.linkText(6)).should.equal("About");
     (await page.navigationBar.linkLangSelect).should.equal("English");
     (await page.navigationBar.linkButtonText).should.equal("MAKE A DONATION");
-  });
-
-  // it('check the links are working as expected', () => {
-  //   const page = setupPageInDesktopView("/", true);
-  //
-  //   page.navigationBar.fifthNavItem.click();
-  //   page.getCurrentUrl().should.equal('hello');
-  //   ...
-  // })
-
-  // it("takes me to correct part of the page", () => {});
-
-  describe.skip("and click the Search button on the navigation bar", () => {
-    it("focuses the Search input field", async () => {
-      const page = await setupPageInDesktopView("/", true);
-
-      await page.navigationBar.linkButton.click();
-
-      (await page.searchIsFocused()).should.be.true;
-    });
-
-    describe("and double-click on the Own Your Data text", () => {
-      it("removes focus from the Search input field", async () => {
-        const page = await setupPageInDesktopView("/", true);
-
-        await page.navigationBar.linkButton.click();
-        await page.ownYourData.doubleClick();
-
-        (await page.searchIsNotFocused()).should.be.true;
-      });
-
-      describe("and click the Search button on the navigation bar", () => {
-        it.skip("focuses the Search input field", async () => {
-          const page = await setupPageInDesktopView("/", true);
-
-          await page.navigationBar.linkButton.click();
-          await page.ownYourData.doubleClick();
-          await page.navigationBar.linkButton.click();
-
-          (await page.searchIsFocused()).should.be.true;
-        });
-      });
-    });
   });
 });
 
@@ -91,43 +48,17 @@ describe("When I visit the Home page in Mobile view", () => {
     (await page.navigationBar.mobLinkText(13)).should.equal("#ownyourdata");
   });
 
-  describe.skip("and click the Search button on the navigation bar", () => {
-    it.skip("focuses the Search input field", async () => {
-      const page = await setupPageInMobileView("/", true);
-
-      await page.navigationBar.triggerMobileMenuToggle();
-      await page.navigationBar.linkButton.click();
-
-      (await page.searchIsFocused()).should.be.true;
-    });
-
-    describe("and double-click on the Own Your Data text", () => {
+    describe("and double-click on the FAQ text", () => {
       it("removes focus from the Search input field", async () => {
         const page = await setupPageInMobileView("/", true);
 
         await page.navigationBar.triggerMobileMenuToggle();
-        await page.navigationBar.mobLink(13).click();
+        await page.navigationBar.mobLink(2).click();
         await page.ownYourData.scrollIntoView();
         await page.ownYourData.doubleClick();
 
         (await page.searchIsNotFocused()).should.be.true;
       });
-
-      describe("and click the Search button on the navigation bar", () => {
-        it("focuses the Search input field", async () => {
-          const page = await setupPageInMobileView("/", true);
-
-          await page.navigationBar.triggerMobileMenuToggle();
-          await page.navigationBar.linkButton.click();
-          await page.ownYourData.scrollIntoView();
-          await page.ownYourData.doubleClick();
-          await page.navigationBar.triggerMobileMenuToggle();
-          await page.navigationBar.linkButton.click();
-
-          (await page.searchIsFocused()).should.be.true;
-        });
-      });
-    });
   });
 });
 
@@ -136,30 +67,5 @@ describe("When I visit the Home page in Mobile view", () => {
     const page = await setupPageInMobileView("/", false);
 
     (await page.searchIsFocused()).should.be.true;
-  });
-});
-
-describe.skip("When I visit the About page in Desktop view", () => {
-  describe("and click the Search button on the navigation bar", () => {
-    it("focuses the Search input field", async () => {
-      const page = await setupPageInDesktopView("/about", true);
-
-      await page.navigationBar.linkButton.click();
-
-      (await page.searchIsFocused()).should.be.true;
-    });
-  });
-});
-
-describe.skip("When I visit the About page in Mobile view", () => {
-  describe("and click the Search button on the navigation bar", () => {
-    it("focuses the Search input field", async () => {
-      const page = await setupPageInMobileView("/about", true);
-
-      await page.navigationBar.triggerMobileMenuToggle();
-      await page.navigationBar.mobButton.click();
-
-      (await page.searchIsFocused()).should.be.true;
-    });
   });
 });

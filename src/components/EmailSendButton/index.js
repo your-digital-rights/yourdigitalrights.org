@@ -110,13 +110,13 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
             subject =  emailTemplate.subject(data);
             body =  emailTemplate.body(data);
         } else if (emailType === 'REMINDER') {
-            to = data.requestItem.requestEmailTo.S;
-            cc = getInboundEmailAddress(data.requestItem.id.S, 'reminder');
+            to = data.requestItem.requestEmailTo;
+            cc = getInboundEmailAddress(data.requestItem.id, 'reminder');
             subject = reminderEmail.subject(data);
             body = reminderEmail.body(data);
         } else if (emailType === 'ESCALATION') {
             to = data.geo.email;
-            cc = `${data.requestItem.requestEmailTo.S},${getInboundEmailAddress(data.requestItem.id.S, 'escalation')}`;
+            cc = `${data.requestItem.requestEmailTo},${getInboundEmailAddress(data.requestItem.id, 'escalation')}`;
             subject = escalationEmail.subject(data);
             body = escalationEmail.body(data);                
         } else {

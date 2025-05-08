@@ -1,14 +1,16 @@
-import aws from "aws-sdk";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import { DynamoDBDocumentClient, BatchWriteCommand } from "@aws-sdk/lib-dynamodb";
 import { DateTime } from "luxon";
 
-aws.config.update({
-  accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+const client = new DynamoDBClient({
   region: process.env.REGION,
+  credentials: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
 });
-/* aws.config.logger = console; */
 
-const dynamodb = new aws.DynamoDB();
+const dynamodb = DynamoDBDocumentClient.from(client);
 
 /**
  * Call this API endpoint to save a user's data. There are currently two
@@ -31,7 +33,7 @@ const dynamodb = new aws.DynamoDB();
  * @param {string} req.body.identifyingInfo of the requester, used for follow up, optional
  */
 export default async (req, res) => {
-  return new Promise((resolve, reject) => {
+  try {
     res.setHeader('Content-Type', 'application/json');
     if (
       !req.body.uuid ||
@@ -45,7 +47,6 @@ export default async (req, res) => {
       res.send({
         error: 'Missing one of uuid, requestType, regulationType, companyName, companyUrl, followUp',
       });
-      resolve();
       return;
     }
 
@@ -57,23 +58,17 @@ export default async (req, res) => {
           {
             PutRequest: {
               Item: { 
-                id: { S: req.body.uuid },
-                requestCreatedAt: { S: requestCreatedAt.toUTC().toISO() },
-                requestType: { S: req.body.requestType },
-                regulationType: { S: req.body.regulationType },
-                companyName: { S: req.body.companyName },
-                companyUrl: { S: req.body.companyUrl },
-                followup: { BOOL: req.body.followUp == "YES" ? true : false },
-                statusHistory: { L: [{ 
-                  M: { 
-                    "Date": {
-                      S: requestCreatedAt.toUTC().toISO()
-                    },
-                    "Status": {
-                      S: "NO_REPLY"
-                    }
-                  }  
-                }] },
+                id: req.body.uuid,
+                requestCreatedAt: requestCreatedAt.toUTC().toISO(),
+                requestType: req.body.requestType,
+                regulationType: req.body.regulationType,
+                companyName: req.body.companyName,
+                companyUrl: req.body.companyUrl,
+                followup: req.body.followUp === "YES",
+                statusHistory: [{ 
+                  Date: requestCreatedAt.toUTC().toISO(),
+                  Status: "NO_REPLY"
+                }],
               },
             },
           },
@@ -81,14 +76,12 @@ export default async (req, res) => {
       },
     };
 
-    if (req.body.followUp == "YES") {
+    if (req.body.followUp === "YES") {
       if (!req.body.lang) {
-        res.setHeader('Content-Type', 'application/json');
         res.statusCode = 400;
         res.send({
           error: 'Missing lang',
         });
-        resolve();
         return;
       }
 
@@ -96,28 +89,29 @@ export default async (req, res) => {
         {
           PutRequest: {
             Item: {
-              lang: { S: req.body.lang },
-              id: { S: req.body.uuid },
-              requestCreatedAt: { S: requestCreatedAt.toUTC().toISO() },
-              requestType: { S: req.body.requestType },
-              regulationType: { S: req.body.regulationType },
-              companyName: { S: req.body.companyName },
-              companyUrl: { S: req.body.companyUrl },
-              name: { S: req.body.name },
-              identifyingInfo: req.body.identifyingInfo ? { S: req.body.identifyingInfo } : null,
-              status: { S: 'NO_REPLY' },
-              ttl: { N:  TTL.toString() },
+              lang: req.body.lang,
+              id: req.body.uuid,
+              requestCreatedAt: requestCreatedAt.toUTC().toISO(),
+              requestType: req.body.requestType,
+              regulationType: req.body.regulationType,
+              companyName: req.body.companyName,
+              companyUrl: req.body.companyUrl,
+              name: req.body.name,
+              identifyingInfo: req.body.identifyingInfo || null,
+              status: 'NO_REPLY',
+              ttl: TTL,
             },
           },
         },
       ];
     }
 
-    dynamodb.batchWriteItem(requestItems, (err, data) => {
-      if (err || Object.keys(data.UnprocessedItems).length) {
+    try {
+      const data = await dynamodb.send(new BatchWriteCommand(requestItems));
+      if (Object.keys(data.UnprocessedItems || {}).length) {
         res.statusCode = 500;
         res.send({
-          error: 'Could not save request: ' + err,
+          error: 'Could not save request: Some items were not processed',
         });
       } else {
         res.statusCode = 201;
@@ -125,7 +119,16 @@ export default async (req, res) => {
           success: 'Saved request.',
         });
       }
-      resolve();
+    } catch (err) {
+      res.statusCode = 500;
+      res.send({
+        error: 'Could not save request: ' + err,
+      });
+    }
+  } catch (err) {
+    res.statusCode = 500;
+    res.send({
+      error: 'Internal server error: ' + err,
     });
-  });
+  }
 };

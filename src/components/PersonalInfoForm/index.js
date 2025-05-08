@@ -142,6 +142,10 @@ class Form extends Component {
       ? selectedCompany.name
       : this.state.companyName;
 
+    console.log('selectedCompany', selectedCompany);
+    console.log('this.state.companyUrl', this.state.companyUrl);
+    console.log('this.props.selectedCompany', this.props.selectedCompany);
+    console.log('this.state.companyDomain', this.state.companyDomain);
     const companyUrl = selectedCompany
       ? selectedCompany.url
       : this.state.companyUrl;

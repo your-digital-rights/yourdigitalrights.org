@@ -50,7 +50,12 @@ module.exports = {
     defaultLocale: "en",   
   },
   images: {
-    domains: ['logo.uplead.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'logo.uplead.com',
+      },
+    ],
   },  
   async headers() {
     return [

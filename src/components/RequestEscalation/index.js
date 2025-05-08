@@ -13,7 +13,7 @@ import Typography from "@mui/material/Typography";
 
 const RequestEscalation = ({ classes, intl, requestItem, status }) => {
   const form = useRef();
-  const regulation = Regulations[requestItem.regulationType.S];
+  const regulation = Regulations[requestItem.regulationType];
   const defaultDPAAction = regulation.dpa.defaultAction;
   const authority = regulation.dpa.longName;
   const geographies = regulation.dpa.geographies;
@@ -40,7 +40,7 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
 
 
   const handleEscalationEmailClick = (generateEmailFields) => {
-    const uuid = requestItem.id.S;
+    const uuid = requestItem.id;
     const formStatus  = form.current.reportValidity();
     if (!formStatus) return;
 
@@ -71,12 +71,12 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
 
     tracking.trackEscalationRequest(
       geograpghy,
-      requestItem.companyUrl.S,
+      requestItem.companyUrl,
     );
   }
 
   const handleEscalationFormClick = (e) => {
-    const uuid = requestItem.id.S;
+    const uuid = requestItem.id;
     const dpaCountryCode = regulation.dpa.geographies[0].countryCode;
     
     fetch(
@@ -95,7 +95,7 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
 
     tracking.trackEscalationRequest(
       dpaCountryCode,
-      requestItem.companyUrl.S,
+      requestItem.companyUrl,
     );
   }
 

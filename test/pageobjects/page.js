@@ -88,7 +88,7 @@ class Page {
   }
 
   get socialShare() {
-    return new SocialShare("#faq +");
+    return new SocialShare("");
   }
 
   get navigationBar() {
@@ -241,12 +241,33 @@ class Form {
     return select.selectByVisibleText(text);
   }
 
+  async selectRadio(text) {
+    const label = await $(`label=${text}`);
+    await label.click();
+  }
+
   submit() {
     return this.submitButton.click();
   }
 
   get submitButton() {
     return $("button.MuiButtonGroup-grouped:nth-child(1)");
+  }
+
+  get dropdownButton() {
+    return $("button.MuiButtonGroup-grouped:nth-child(2)");
+  }
+
+  async openGmailDropdown() {
+    const button = await this.dropdownButton;
+    await button.waitForDisplayed();
+    await button.waitForClickable();
+    await button.click();
+
+    const menuItem = await $("li.MuiButtonBase-root:nth-child(2)");
+    await menuItem.waitForDisplayed();
+    await menuItem.waitForClickable();
+    await menuItem.click();
   }
 }
 
