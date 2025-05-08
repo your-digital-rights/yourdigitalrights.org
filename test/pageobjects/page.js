@@ -88,7 +88,7 @@ class Page {
   }
 
   get socialShare() {
-    return new SocialShare("#faq +");
+    return new SocialShare("");
   }
 
   get navigationBar() {
