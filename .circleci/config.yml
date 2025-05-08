@@ -8,7 +8,7 @@ jobs:
   build:
     working_directory: ~/yourdigitalrights
     docker:
-      - image: cimg/node:18.17.0-browsers
+      - image: cimg/node:20.17.0-browsers
 
     steps:
       - checkout
@@ -36,3 +36,8 @@ jobs:
       - run: npm test
     # The resource_class feature allows configuring CPU and RAM resources for each job. Different resource classes are available for different executors. https://circleci.com/docs/2.0/configuration-reference/#resourceclass
     resource_class: large
+
+workflows:
+  build-and-test:
+    jobs:
+      - build
