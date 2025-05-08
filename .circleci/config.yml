@@ -29,7 +29,7 @@ jobs:
           key: v2-dependencies-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-            - ./src/.next/cache
+            - .next/cache
             - ./.next/cache
 
       # run tests!
