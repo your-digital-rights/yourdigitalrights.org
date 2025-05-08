@@ -1,14 +1,20 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import { heroUrlAnchor } from "../../utils/urlAnchors";
+import styles from "./styles";
 
-const Hero = ({ classes, children }) => {
+const HeroRoot = styled('div')(styles.hero);
+const HeroContainer = styled('div')(styles.container);
+const HeroHeading = styled('div')(styles.heading);
+const HeroIntro = styled('div')(styles.intro);
+const HeroIntroEnd = styled('div')(styles.introEnd);
+
+const Hero = ({ children }) => {
   return (
-    <div className={classes.hero} id={heroUrlAnchor}>
-      <div className={classes.container}>
-        <div className={classes.heading}>
+    <HeroRoot id={heroUrlAnchor}>
+      <HeroContainer>
+        <HeroHeading>
           <Typography
             variant="h4"
             color="inherit"
@@ -23,10 +29,10 @@ const Hero = ({ classes, children }) => {
           </Typography>
           <Typography
             color="inherit"
-            className={classes.intro}
             component="h1"
             variant="h3"
             gutterBottom={true}
+            sx={styles.intro}
           >  
             <FormattedMessage
               id="hero.headerText"
@@ -35,8 +41,8 @@ const Hero = ({ classes, children }) => {
           </Typography>
           <Typography
             color="inherit"
-            className={classes.introEnd}
             component="h2"
+            sx={styles.introEnd}
           >
             <FormattedMessage
               id="hero.intro"
@@ -44,9 +50,10 @@ const Hero = ({ classes, children }) => {
             />            
           </Typography>
           {children}
-        </div>
-      </div>
-    </div>
+        </HeroHeading>
+      </HeroContainer>
+    </HeroRoot>
   );
 };
-export default withStyles(styles)(Hero);
+
+export default Hero;

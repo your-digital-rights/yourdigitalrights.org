@@ -1,4 +1,4 @@
-const Theme = (theme) => ({
+const styles = {
     nav: {
         display: "flex",
         justifyContent: "space-between",
@@ -7,7 +7,7 @@ const Theme = (theme) => ({
         borderBottom: "4px solid #0a74be",
         width: "100%",
         zIndex: "11000",
-        [theme.breakpoints.down('sm')]: {
+        '@media (max-width:600px)': {
             padding: "0 15px",        
         },
         position: "fixed",                
@@ -21,7 +21,7 @@ const Theme = (theme) => ({
         width: "90px",
         outlineColor: "#e8f4f8",
         height: "auto",
-        [theme.breakpoints.down('sm')]: {
+        '@media (max-width:600px)': {
             width: "80px",
         },
     },
@@ -29,7 +29,7 @@ const Theme = (theme) => ({
         listStyle: "none",
         display: "flex",
         alignItems: "center",
-        [theme.breakpoints.down('md')]: {
+        '@media (max-width:900px)': {
             display: "none",
         },
     },
@@ -66,7 +66,7 @@ const Theme = (theme) => ({
         cursor: "pointer",
         outlineColor: "#e8f4f8",
         marginRight: "-45px",
-        [theme.breakpoints.down('md')]: {
+        '@media (max-width:900px)': {
             display: "block",
         },
     },
@@ -89,10 +89,8 @@ const Theme = (theme) => ({
         overflowX: "hidden",
         overflowY: "hidden",
         zIndex: "10000",
-
-        [theme.breakpoints.down('md')]: {
-            display: "flex",
-            justifyContent: "center",
+        '@media (max-width:900px)': {
+            display: "block",
         },
     },
     hideMobContainer: {
@@ -104,7 +102,7 @@ const Theme = (theme) => ({
     scrollOut: {
         position: "absolute",
         right: "-252px",
-        transition: " right 0.5s",
+        transition: "right 0.5s",
     },
     scrollIn: {
         position: "absolute",
@@ -156,8 +154,7 @@ const Theme = (theme) => ({
         backgroundColor: "rgba(255,255,255, 0.5)",
         zIndex: "9999",
         display: "none",
-
-        [theme.breakpoints.down('md')]: {
+        '@media (max-width:900px)': {
             display: "block",
         },
     },
@@ -167,9 +164,9 @@ const Theme = (theme) => ({
         width: "120px",
         alignItems: "center",
     },
-    langSelect :{
+    langSelect: {
         margin: "15px 24px 0px 0px",
     }
-});
+};
 
-export default Theme;
+export default styles;

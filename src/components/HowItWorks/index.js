@@ -15,27 +15,32 @@ import {
 import LowerSection from "./LowerSection";
 import Typography from "@mui/material/Typography";
 import UpperSection from "./UpperSection";
-import { indexStyles as styles } from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Image from 'next/image';
 import HowItWorksImage from "../../../public/images/img-howto.svg";
 import ICHappy from "../../../public/images/ic-happy.svg";
 import ICVerified from "../../../public/images/ic-verified-user.svg";
+import styles from "./styles";
 
-const HowItWorks = ({ classes }) => {
+const Root = styled('div')(styles.root);
+const UpperContainer = styled('div')(styles.upperContainer);
+const UpperContent = styled('div')(styles.upperContent);
+const LowerContainer = styled('div')(styles.lowerContainer);
+const StyledImage = styled(Image)(styles.titleImg);
+
+const HowItWorks = () => {
   return (
-    <div className={classes.root} id="howItWorks">
-      <div className={classes.upperContainer}>
-        <Image
+    <Root id="howItWorks">
+      <UpperContainer>
+        <StyledImage
           src={HowItWorksImage}
           alt={TitleImgAlt}
-          className={classes.titleImg}
         />
-        <div className={classes.upperContent}>
+        <UpperContent>
           <Typography
             variant="h4"
             component="h2"
-            className={classes.title}
+            sx={styles.title}
             gutterBottom={true}
           >
             {Title}
@@ -43,9 +48,9 @@ const HowItWorks = ({ classes }) => {
           <UpperSection title={SearchTitle} body={SearchBody} />
           <UpperSection title={FillInTitle} body={FillInBody} />
           <UpperSection title={SendTitle} body={SendBody} />
-        </div>
-      </div>
-      <div className={classes.lowerContainer}>
+        </UpperContent>
+      </UpperContainer>
+      <LowerContainer>
         <LowerSection
           title={YourDataTitle}
           body={YourDataBody}
@@ -56,8 +61,9 @@ const HowItWorks = ({ classes }) => {
           body={WhyBody}
           imgSrc={ICVerified}
         />
-      </div>
-    </div>
+      </LowerContainer>
+    </Root>
   );
 };
-export default withStyles(styles)(HowItWorks);
+
+export default HowItWorks;

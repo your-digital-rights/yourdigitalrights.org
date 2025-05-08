@@ -1,7 +1,6 @@
 import { container } from "../../styles/layout";
-import { themeBg } from "../../styles/theme";
 
-export default (theme) => ({
+const styles = {
   container: {
     backgroundColor: "#f2f2f2",
     position: "relative",
@@ -23,4 +22,6 @@ export default (theme) => ({
   pressLogo: {
     objectFit: "contain",
   },
-});
+};
+
+export default styles;

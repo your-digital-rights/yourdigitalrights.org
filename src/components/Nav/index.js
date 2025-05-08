@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
+import { withStyles } from '@mui/styles';
 import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
@@ -29,14 +29,14 @@ const trackDonateButtonLinkClick = (device) => {
 const NavItem = ({
   href,
   text,
-  classes,
   onClickHandler,
   subsection,
   target,
+  classes,
 }) => {
   return (
     <li className={classes.item} onClick={onClickHandler}>
-      <Link href={href} className={classes.link} passHref legacyBehavior>
+      <Link href={href} passHref legacyBehavior>
         <Typography
           component="a"
           target={target}
@@ -49,8 +49,7 @@ const NavItem = ({
   );
 };
 
-
-const NavListDesktop = ({ classes, router, handleLangChange }) => {
+const NavListDesktop = ({ router, handleLangChange, classes }) => {
   return (
     <ul className={classes.container}>
       <NavItem
@@ -72,25 +71,21 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
         }
         classes={classes}
       />
-
       <NavItem
         href="https://consciousdigital.org/blog"
         text={<FormattedMessage id="nav.blog" defaultMessage="Blog" />}
-        classes={classes} 
+        classes={classes}
       />
-
       <NavItem
         href="/contribute"
         text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
-        classes={classes} 
+        classes={classes}
       />
-
       <NavItem
         href="/about"
         text={<FormattedMessage id="nav.about" defaultMessage="About" />}
-        classes={classes} 
+        classes={classes}
       />
-
       <li>
         <Select
           variant="standard"
@@ -110,7 +105,6 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
           </MenuItem>          
         </Select>
       </li>
-
       <li>
         <Button
           onClick={() => trackDonateButtonLinkClick("nav desktop")}
@@ -123,12 +117,11 @@ const NavListDesktop = ({ classes, router, handleLangChange }) => {
           </Typography>
         </Button>        
       </li>
-
     </ul>
   );
 };
 
-const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handleLangChange }) => {
+const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChange, classes }) => {
   return (
     <div
       className={classNames(
@@ -159,7 +152,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-
         <NavItem
           onClickHandler={toggleMobileNav}
           href="https://consciousdigital.org/blog"
@@ -168,7 +160,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
@@ -191,7 +182,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
           </MenuItem>             
         </Select>
-
         <Button
           onClick={() => {
             toggleMobileNav();
@@ -207,24 +197,21 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           <Typography component="span" className={classes.linkButton}>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
           </Typography>
-        </Button>  
-
+        </Button>
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/contribute"
           subsection={true}
           text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
           classes={classes}
-        />        
-
+        />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/stats"
           subsection={true}
           text={<FormattedMessage id="nav.stats" defaultMessage="Stats" />}
           classes={classes}
-        />     
-
+        />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="https://opencollective.com/consciousdigital"
@@ -234,7 +221,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/privacy"
@@ -247,7 +233,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           }
           classes={classes}
         />
-
         <NavItem
           onClickHandler={toggleMobileNav}
           href="mailto:info@yourdigitalrights.org"
@@ -255,7 +240,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
           text={<FormattedMessage id="nav.contact" defaultMessage="Contact Us" />}
           classes={classes}
         />
-
         <NavItem
           subsection={true}
           target="_blank"
@@ -279,7 +263,6 @@ const NavListMobile = ({ classes, mobileNavOpen, toggleMobileNav, router, handle
 class Nav extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       mobileNavOpen: false,
     };
@@ -323,7 +306,7 @@ class Nav extends Component {
   }
 
   render() {
-    const { classes, children } = this.props;
+    const { children, classes } = this.props;
     const { mobileNavOpen } = this.state;
     const menuIcon = mobileNavOpen ? CloseIcon : HamburgerIcon;
     return (
@@ -333,14 +316,13 @@ class Nav extends Component {
             <Image className={classes.logo} alt="YourDigitalRights.org" src={Logo} tabIndex={0} />
           </a>
           <NavListDesktop 
-            classes={classes} 
             router={this.props.router} 
-            handleLangChange={this.handleLangChange} 
+            handleLangChange={this.handleLangChange}
+            classes={classes}
           />
           <Image
             className={classes.hamburgerButton}
             src={menuIcon}
-            onBlur={this.onBlurHandler}
             onClick={this.toggleMobileNav}
             tabIndex={0}
           />
@@ -353,14 +335,13 @@ class Nav extends Component {
             classes.mobileListContainer,
             mobileNavOpen ? classes.showMobContainer : classes.hideMobContainer
           )}
-          onFocus={this.onFocusHandler}
         >
           <NavListMobile
-            classes={classes}
             mobileNavOpen={mobileNavOpen}
             toggleMobileNav={this.toggleMobileNav}
             router={this.props.router}
             handleLangChange={this.handleLangChange}
+            classes={classes}
           />
         </div>
         {mobileNavOpen && <div className={classes.fadeBackground} />}
@@ -368,4 +349,5 @@ class Nav extends Component {
     );
   }
 }
+
 export default withStyles(styles)(withRouter(Nav));
