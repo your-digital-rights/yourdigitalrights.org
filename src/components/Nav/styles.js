@@ -1,14 +1,16 @@
+import { alpha } from '@mui/material/styles';
+
 const styles = {
     nav: {
         display: "flex",
         justifyContent: "space-between",
-        padding: "0 60px",
+        padding: "10px 60px",
         backgroundColor: "#005ea5",
         borderBottom: "4px solid #0a74be",
         width: "100%",
         zIndex: "11000",
         '@media (max-width:600px)': {
-            padding: "0 15px",        
+            padding: "10px 15px",        
         },
         position: "fixed",                
         top: "0",
@@ -121,7 +123,7 @@ const styles = {
         margin: "0",
         width: "252px",
         height: "110vh",
-        padding: "100px 25px",
+        padding: "110px 25px",
         zIndex: "11000",
     },
     DonateRedButton: {
@@ -134,6 +136,9 @@ const styles = {
         color: "#ffffff",
         borderRadius: "25px",
         margin: "20px 0",
+        '&:hover': {
+            backgroundColor: "#d45a5e",
+        },
     },       
     DonateRedButtonDesktop: {
         width: "160px",
@@ -145,6 +150,9 @@ const styles = {
         paddingLeft: "20px",
         paddingRight: "20px",
         textDecoration: "none",
+        '&:hover': {
+            backgroundColor: "#d45a5e",
+        },
     },    
     fadeBackground: {
         position: "fixed",
@@ -166,6 +174,16 @@ const styles = {
     },
     langSelect: {
         margin: "15px 24px 0px 0px",
+        color: "#f6f7fa",
+        '&:before': {
+            borderColor: "#f6f7fa",
+        },
+        '&:after': {
+            borderColor: "#f6f7fa",
+        },
+        '& .MuiSelect-icon': {
+            color: "#f6f7fa",
+        },
     }
 };
 

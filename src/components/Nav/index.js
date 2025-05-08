@@ -1,6 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
-import { withStyles } from '@mui/styles';
+import { styled } from '@mui/material/styles';
 import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
@@ -26,73 +26,87 @@ const trackDonateButtonLinkClick = (device) => {
   tracking.trackDonate(device);
 };
 
+const StyledNav = styled('nav')(() => styles.nav);
+const StyledLogoLink = styled('a')(() => styles.logoLink);
+const StyledLogo = styled(Image)(() => styles.logo);
+const StyledHamburgerButton = styled(Image)(() => styles.hamburgerButton);
+const StyledNavChildren = styled('div')(() => styles.navChildren);
+const StyledMobileListContainer = styled('div')(({ mobileNavOpen }) => ({
+  ...styles.mobileListContainer,
+  ...(mobileNavOpen ? styles.showMobContainer : styles.hideMobContainer)
+}));
+const StyledFadeBackground = styled('div')(() => styles.fadeBackground);
+const StyledNavItem = styled('li')(() => styles.item);
+const StyledNavLink = styled(Typography)(({ subsection }) => ({
+  ...(subsection ? styles.subsectionLink : styles.link)
+}));
+const StyledContainer = styled('ul')(() => styles.container);
+const StyledMobileList = styled('ul')(() => styles.mobileList);
+const StyledLangSelect = styled(Select)(() => styles.langSelect);
+const StyledDonateButton = styled(Button)(() => styles.DonateRedButton);
+const StyledDonateButtonDesktop = styled(Button)(() => styles.DonateRedButtonDesktop);
+const StyledLinkButton = styled(Typography)(() => styles.linkButton);
+const StyledTwitterHandle = styled('div')(() => styles.twitterHandle);
+
 const NavItem = ({
   href,
   text,
   onClickHandler,
   subsection,
   target,
-  classes,
 }) => {
   return (
-    <li className={classes.item} onClick={onClickHandler}>
-      <Link href={href} passHref legacyBehavior>
-        <Typography
-          component="a"
+    <StyledNavItem onClick={onClickHandler}>
+      <Link href={href} passHref>
+        <StyledNavLink
+          component="span"
           target={target}
-          className={subsection ? classes.subsectionLink : classes.link}
+          subsection={subsection ? "true" : undefined}
         >
           {text}
-        </Typography>
+        </StyledNavLink>
       </Link>
-    </li>
+    </StyledNavItem>
   );
 };
 
-const NavListDesktop = ({ router, handleLangChange, classes }) => {
+const NavListDesktop = ({ router, handleLangChange }) => {
   return (
-    <ul className={classes.container}>
+    <StyledContainer>
       <NavItem
         href="/#howItWorks"
         text={
           <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
         }
-        classes={classes}
       />
       <NavItem
         href="/#faq"
         text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
-        classes={classes}
       />
       <NavItem
         href="https://databrokerswatch.org/top-ten"
         text={
           <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
         }
-        classes={classes}
       />
       <NavItem
         href="https://consciousdigital.org/blog"
         text={<FormattedMessage id="nav.blog" defaultMessage="Blog" />}
-        classes={classes}
       />
       <NavItem
         href="/contribute"
         text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
-        classes={classes}
       />
       <NavItem
         href="/about"
         text={<FormattedMessage id="nav.about" defaultMessage="About" />}
-        classes={classes}
       />
       <li>
-        <Select
+        <StyledLangSelect
           variant="standard"
           value={router.locale}
           onChange={event => handleLangChange(event, router)}
           MenuProps={{style: {zIndex: "100000"}}}
-          className={classNames(classes.langSelect, classes.link)}
         >
           {Object.keys(ALT_LANGUAGES).map((locale) => (
             <MenuItem key={locale} value={locale}>
@@ -103,46 +117,43 @@ const NavListDesktop = ({ router, handleLangChange, classes }) => {
           <MenuItem key="help_translate" value="contribute">  
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
           </MenuItem>          
-        </Select>
+        </StyledLangSelect>
       </li>
       <li>
-        <Button
+        <StyledDonateButtonDesktop
           onClick={() => trackDonateButtonLinkClick("nav desktop")}
           href="https://opencollective.com/consciousdigital"
           target="_blank"
-          className={classes.DonateRedButtonDesktop}
         >
-          <Typography className={classes.linkButton}>
+          <StyledLinkButton>
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
-          </Typography>
-        </Button>        
+          </StyledLinkButton>
+        </StyledDonateButtonDesktop>        
       </li>
-    </ul>
+    </StyledContainer>
   );
 };
 
-const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChange, classes }) => {
+const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChange }) => {
   return (
     <div
       className={classNames(
-        mobileNavOpen ? classes.scrollIn : classes.scrollOut,
+        mobileNavOpen ? styles.scrollIn : styles.scrollOut,
         "mob-navbar"
       )}
     >
-      <ul className={classes.mobileList}>
+      <StyledMobileList>
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/#howItWorks"
           text={
             <FormattedMessage id="nav.howItWorks" defaultMessage="How it works" />
           }
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/#faq"
           text={<FormattedMessage id="nav.faq" defaultMessage="FAQ" />}
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
@@ -150,7 +161,6 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           text={
             <FormattedMessage id="nav.data-brokers" defaultMessage="Data Brokers" />
           }
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
@@ -158,19 +168,16 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           text={
             <FormattedMessage id="nav.blog" defaultMessage="Blog" />
           }
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/about"
           text={<FormattedMessage id="nav.about" defaultMessage="About" />}
-          classes={classes}
         />
-        <Select
+        <StyledLangSelect
           value={router.locale}
           onChange={event => handleLangChange(event, router)}
           MenuProps={{style: {zIndex: "10000"}}}
-          className={classNames(classes.langSelect, classes.link)}
         >
           {Object.keys(ALT_LANGUAGES).map((locale) => (
             <MenuItem key={locale} value={locale}>
@@ -181,8 +188,8 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           <MenuItem key="help_translate" value="contribute">  
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
           </MenuItem>             
-        </Select>
-        <Button
+        </StyledLangSelect>
+        <StyledDonateButton
           onClick={() => {
             toggleMobileNav();
             trackDonateButtonLinkClick("nav mobile");
@@ -191,26 +198,23 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           color="secondary"
           href="https://opencollective.com/consciousdigital"
           target="_blank"
-          className={classes.DonateRedButton}
           tabIndex={0}
         >
-          <Typography component="span" className={classes.linkButton}>
+          <StyledLinkButton component="span">
             <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
-          </Typography>
-        </Button>
+          </StyledLinkButton>
+        </StyledDonateButton>
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/contribute"
           subsection={true}
           text={<FormattedMessage id="nav.contribute" defaultMessage="Contribute" />}
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="/stats"
           subsection={true}
           text={<FormattedMessage id="nav.stats" defaultMessage="Stats" />}
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
@@ -219,7 +223,6 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           text={
             <FormattedMessage id="nav.donation" defaultMessage="Make a Donation" />
           }
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
@@ -231,31 +234,28 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
               defaultMessage="Privacy Policy"
             />
           }
-          classes={classes}
         />
         <NavItem
           onClickHandler={toggleMobileNav}
           href="mailto:info@yourdigitalrights.org"
           subsection={true}
           text={<FormattedMessage id="nav.contact" defaultMessage="Contact Us" />}
-          classes={classes}
         />
         <NavItem
           subsection={true}
           target="_blank"
           href="https://twitter.com/search?q=ownyourdata&src=typeahead_click"
           text={
-            <div className={classes.twitterHandle}>
+            <StyledTwitterHandle>
               <Image src={TWGrey} />
               <FormattedMessage
                 id="nav.twitterHastag"
                 defaultMessage="#ownyourdata"
               />
-            </div>
+            </StyledTwitterHandle>
           }
-          classes={classes}
         />
-      </ul>
+      </StyledMobileList>
     </div>
   );
 };
@@ -306,48 +306,42 @@ class Nav extends Component {
   }
 
   render() {
-    const { children, classes } = this.props;
+    const { children } = this.props;
     const { mobileNavOpen } = this.state;
     const menuIcon = mobileNavOpen ? CloseIcon : HamburgerIcon;
     return (
       <div data-nosnippet>
-        <nav ref={this.toggleMenu} className={classes.nav}>
-          <a className={classes.logoLink} href="/">
-            <Image className={classes.logo} alt="YourDigitalRights.org" src={Logo} tabIndex={0} />
-          </a>
+        <StyledNav ref={this.toggleMenu}>
+          <StyledLogoLink href="/">
+            <StyledLogo alt="YourDigitalRights.org" src={Logo} tabIndex={0} />
+          </StyledLogoLink>
           <NavListDesktop 
             router={this.props.router} 
             handleLangChange={this.handleLangChange}
-            classes={classes}
           />
-          <Image
-            className={classes.hamburgerButton}
+          <StyledHamburgerButton
             src={menuIcon}
             onClick={this.toggleMobileNav}
             tabIndex={0}
           />
-        </nav>
-        <div className={classes.navChildren}>{children}</div>
+        </StyledNav>
+        <StyledNavChildren>{children}</StyledNavChildren>
 
-        <div
+        <StyledMobileListContainer
           ref={this.hamburgerButton}
-          className={classNames(
-            classes.mobileListContainer,
-            mobileNavOpen ? classes.showMobContainer : classes.hideMobContainer
-          )}
+          mobileNavOpen={mobileNavOpen}
         >
           <NavListMobile
             mobileNavOpen={mobileNavOpen}
             toggleMobileNav={this.toggleMobileNav}
             router={this.props.router}
             handleLangChange={this.handleLangChange}
-            classes={classes}
           />
-        </div>
-        {mobileNavOpen && <div className={classes.fadeBackground} />}
+        </StyledMobileListContainer>
+        {mobileNavOpen && <StyledFadeBackground />}
       </div>
     );
   }
 }
 
-export default withStyles(styles)(withRouter(Nav));
+export default withRouter(Nav);
