@@ -21,6 +21,9 @@ describe("When I submit a request via gmail", () => {
     const gmailUrl = await page.dataOpenUrlAttribute;
     expect(gmailUrl).to.exist;
 
+    // Wait for backend to create the data
+    await browser.pause(2000);
+
     // Parse the Gmail URL to get the request ID from cc parameter
     const urlParams = new URLSearchParams(new URL(gmailUrl).search);
     const cc = urlParams.get('cc');
@@ -32,11 +35,12 @@ describe("When I submit a request via gmail", () => {
     const baseUrl = new URL(currentUrl).origin;
     await browser.url(`${baseUrl}/r/${requestId}`);
 
-    // Get the Reference value from the hero section
-    const referenceElement = await $('//strong[contains(text(), "Reference:")]/following-sibling::text()');
-    const referenceValue = await referenceElement.getText();
+    // Get the reference value from the hero section
+    const referenceElement = await $('//strong[contains(text(), "Reference:")]/..');
+    const referenceText = await referenceElement.getText();
+    const referenceValue = referenceText.split('Reference:')[1].split('\n')[0].trim();
     
     // Verify that the Reference value is contained within the request ID
-    expect(requestId).to.include(referenceValue.trim());
+    expect(requestId).to.include(referenceValue);
   });
 }); 
