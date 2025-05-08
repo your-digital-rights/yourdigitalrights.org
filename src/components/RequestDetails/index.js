@@ -10,8 +10,8 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
   const [showRequestEmail, setShowRequestEmail] = useState(false);
   const [showReminderEmail, showReminderEmailEmail] = useState(false);
   const [showEscalationEmail, showEscalationEmailEmail] = useState(false);
-  const regulationType = Regulations[requestItem.regulationType.S].longName;
-  const requestType = Regulations[requestItem.regulationType.S].requestTypes[requestItem.requestType.S].name;
+  const regulationType = Regulations[requestItem.regulationType].longName;
+  const requestType = Regulations[requestItem.regulationType].requestTypes[requestItem.requestType].name;
 
   return (
     <div className={classes.root} id="requestDetails">
@@ -31,23 +31,23 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
               <dt><FormattedMessage id="request.details.regulation" defaultMessage="Regulation:" /></dt>
               <dd>{ regulationType }</dd>
               <dt><FormattedMessage id="request.details.name" defaultMessage="Requested by:" /></dt>
-              <dd>{ requestItem.name.S }</dd>
+              <dd>{ requestItem.name }</dd>
               <dt><FormattedMessage id="request.details.organization" defaultMessage="Recipient:" /></dt>
-              <dd>{ requestItem.companyName.S }</dd>
+              <dd>{ requestItem.companyName }</dd>
               <dt><FormattedMessage id="request.details.date" defaultMessage="Request email date:" /></dt>
-              <dd><FormattedDate value={requestItem.requestEmailSentAt.S} /></dd>
+              <dd><FormattedDate value={requestItem.requestEmailSentAt} /></dd>
               <dt><FormattedMessage id="request.details.sentTo" defaultMessage="Recipient email address:" /></dt>
-              <dd>{ requestItem.requestEmailTo.S }</dd>
+              <dd>{ requestItem.requestEmailTo }</dd>
               {requestItem.reminderEmailSentAt && (
                 <>
                   <dt><FormattedMessage id="request.details.reminderDate" defaultMessage="Reminder email date:" /></dt>
-                  <dd><FormattedDate value={requestItem.reminderEmailSentAt.S} /></dd>
+                  <dd><FormattedDate value={requestItem.reminderEmailSentAt} /></dd>
                 </>
               )}
               {requestItem.escalationEmailSentAt && (
                 <>
                   <dt><FormattedMessage id="request.details.escalationDate" defaultMessage="Escalation email date:" /></dt>
-                  <dd><FormattedDate value={requestItem.escalationEmailSentAt.S} /></dd>
+                  <dd><FormattedDate value={requestItem.escalationEmailSentAt} /></dd>
                 </>
               )}
               <dt id="requestEmail">
@@ -61,9 +61,9 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
                 </a>
               </dt>
               <dd className={showRequestEmail ? classes.showFullEmail : classes.hideFullEmail}>
-                <h3>{ requestItem.requestEmailSubject.S }</h3>
+                <h3>{ requestItem.requestEmailSubject }</h3>
                 <p dangerouslySetInnerHTML={
-                  ({__html: requestItem.requestEmailContent.S.replace(/\n/g, '<br>')})
+                  ({__html: requestItem.requestEmailContent.replace(/\n/g, '<br>')})
                 } />
               </dd>
               {requestItem.reminderEmailSentAt && (
@@ -79,9 +79,9 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
                     </a>
                   </dt>
                   <dd className={showReminderEmail ? classes.showFullEmail : classes.hideFullEmail}>
-                    <h3>{ requestItem.reminderEmailSubject.S }</h3>
+                    <h3>{ requestItem.reminderEmailSubject }</h3>
                     <p dangerouslySetInnerHTML={
-                      ({__html: requestItem.reminderEmailContent.S.replace(/\n/g, '<br>')})
+                      ({__html: requestItem.reminderEmailContent.replace(/\n/g, '<br>')})
                     } />
                   </dd>
                 </>
@@ -99,9 +99,9 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
                     </a>
                   </dt>
                   <dd className={showEscalationEmail ? classes.showFullEmail : classes.hideFullEmail}>
-                    <h3>{ requestItem.escalationEmailSubject.S }</h3>
+                    <h3>{ requestItem.escalationEmailSubject }</h3>
                     <p dangerouslySetInnerHTML={
-                      ({__html: requestItem.escalationEmailContent.S.replace(/\n/g, '<br>')})
+                      ({__html: requestItem.escalationEmailContent.replace(/\n/g, '<br>')})
                     } />
                   </dd>
                 </>

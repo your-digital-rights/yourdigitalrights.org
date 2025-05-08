@@ -1,57 +1,57 @@
-import aws from "aws-sdk";
+import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
+import { DynamoDBDocumentClient, GetCommand, QueryCommand, BatchWriteCommand } from "@aws-sdk/lib-dynamodb";
 
-aws.config.update({
-  accessKeyId: process.env.ACCESS_KEY_ID,
-  secretAccessKey: process.env.SECRET_ACCESS_KEY,
+const client = new DynamoDBClient({
   region: process.env.REGION,
+  credentials: {
+    accessKeyId: process.env.ACCESS_KEY_ID,
+    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+  },
 });
 
-const dynamodb = new aws.DynamoDB();
+const dynamodb = DynamoDBDocumentClient.from(client);
 
-function batchDeleteRequests(ids, res) {
+async function batchDeleteRequests(ids, res) {
   const itemsToDelete = {
     RequestItems: {
       YDRFollowups: [],
     },
   };
 
-  function batchDelete(itemsToDelete){
-    dynamodb.batchWriteItem(itemsToDelete, (err, data) => {
-      if (err) {
-        res.statusCode = 500;
-        res.send({
-          error: 'Could not delete data: ' + err,
-        });
-      } else {
-        res.statusCode = 200;
-        res.send({
-          success: 'Data deleted.',
-        });
-      }
-    });
+  async function batchDelete(itemsToDelete) {
+    try {
+      await dynamodb.send(new BatchWriteCommand(itemsToDelete));
+      res.statusCode = 200;
+      res.send({
+        success: 'Data deleted.',
+      });
+    } catch (err) {
+      res.statusCode = 500;
+      res.send({
+        error: 'Could not delete data: ' + err,
+      });
+    }
   }
 
   let count = 0;
-  ids.forEach(function(id) {
+  for (const id of ids) {
     itemsToDelete.RequestItems.YDRFollowups.push({
       DeleteRequest: {
         Key: {
-          id: { S: id },
+          id: id,
         },
       },
     });
-    if (++count == 25) { // batchWriteItem has a limit of 25 items
-      batchDelete(itemsToDelete);
+    if (++count === 25) { // batchWriteItem has a limit of 25 items
+      await batchDelete(itemsToDelete);
       itemsToDelete.RequestItems.YDRFollowups = [];
       count = 0;
     }
-  });
-  if (count > 0) { 
-    batchDelete(itemsToDelete);
-    itemsToDelete.RequestItems.YDRFollowups = [];
-    count = 0;
   }
-};
+  if (count > 0) {
+    await batchDelete(itemsToDelete);
+  }
+}
 
 /**
  * Call this API endpoint to delete a user's data. There are currently two
@@ -64,83 +64,66 @@ function batchDeleteRequests(ids, res) {
  * @param {string} req.body.type of deletion (either "request" or "all")
  */
 export default async (req, res) => {
-  return new Promise((resolve, reject) => {
+  try {
     res.setHeader('Content-Type', 'application/json');
-    if (
-      !req.body.uuid ||
-      !req.body.type 
-    ) {
+    if (!req.body.uuid || !req.body.type) {
       res.statusCode = 400;
       res.send({
         error: 'Missing one of uuid or an type',
       });
-      resolve();
       return;
     }
 
     const params = {
       Key: {
-        "id": {"S": req.body.uuid}
-      }, 
+        id: req.body.uuid
+      },
       TableName: "YDRFollowups",
-    };                
+    };
 
-    dynamodb.getItem(params, (err, data) => {
-      try {
-        if (err) { // erorr while looking for request
-          res.statusCode = 500;
-          res.send({
-            error: 'Error while looking for request: ' + err,
-          });
-        } else if (!data.Item) { // could not find request
-          res.statusCode = 404;
-          res.send({
-            error: 'Could not find request: ' + req.body.uuid,
-          });
-        } else { // request found
-          if (req.body.type == 'request') {  // delete individual request
-            batchDeleteRequests([req.body.uuid], res);
-          } else if (req.body.type == 'all') {  // delete all the user's data
-            const params = {
-              ExpressionAttributeValues: {
-                ':e' : {S: data.Item.requestEmailFrom.S},
-              },
-              KeyConditionExpression: 'requestEmailFrom = :e',
-              ProjectionExpression: 'id',
-              TableName: 'YDRFollowups',
-              IndexName: "UserEmailAddressIndex",
-            };
-            
-            // get all the user's requests by email
-            dynamodb.query(params, (err, data) => { 
-              if (err) {
-                res.statusCode = 500;
-                res.send({
-                  error: 'Could not get requests by email: ' + error,
-                });
-              } else { // success 
-                let ids = [];
-                data.Items.forEach(function(request) {
-                  ids.push(request.id.S);
-                });
-                batchDeleteRequests(ids, res);
-              }
-            });  
-          } else { // invalid delete type
-            res.statusCode = 400;
-            res.send({
-              error: 'Invalid type: ' + req.body.type,
-            });
-            resolve();
-            return;
-          }
-        }
-      } catch (err) { // exceptions
-        res.statusCode = 500;
+    try {
+      const data = await dynamodb.send(new GetCommand(params));
+
+      if (!data.Item) {
+        res.statusCode = 404;
         res.send({
-          error: 'Error while processing deletion request: ' + err,
+          error: 'Could not find request: ' + req.body.uuid,
+        });
+        return;
+      }
+
+      if (req.body.type === 'request') {
+        await batchDeleteRequests([req.body.uuid], res);
+      } else if (req.body.type === 'all') {
+        const queryParams = {
+          ExpressionAttributeValues: {
+            ':e': data.Item.requestEmailFrom,
+          },
+          KeyConditionExpression: 'requestEmailFrom = :e',
+          ProjectionExpression: 'id',
+          TableName: 'YDRFollowups',
+          IndexName: "UserEmailAddressIndex",
+        };
+
+        const queryResult = await dynamodb.send(new QueryCommand(queryParams));
+        const ids = queryResult.Items.map(request => request.id);
+        await batchDeleteRequests(ids, res);
+      } else {
+        res.statusCode = 400;
+        res.send({
+          error: 'Invalid type: ' + req.body.type,
         });
       }
-    });  
-  });
-}
+    } catch (err) {
+      res.statusCode = 500;
+      res.send({
+        error: 'Error while processing deletion request: ' + err,
+      });
+    }
+  } catch (err) {
+    res.statusCode = 500;
+    res.send({
+      error: 'Internal server error: ' + err,
+    });
+  }
+};

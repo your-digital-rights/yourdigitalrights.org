@@ -77,8 +77,8 @@ function getTable(data, bucket, classes, message) {
             <TableBody>           
               {data[bucket].map((row) => (
                 <TableRow key={bucket}>
-                  <TableCell style={{fontWeight: "500"}}>{row.requestCount.N}</TableCell>
-                  <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl.S}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl.S}</a></TableCell>
+                  <TableCell style={{fontWeight: "500"}}>{row.requestCount}</TableCell>
+                  <TableCell style={{fontWeight: "500"}}><a href={`/d/${row.companyUrl}`} target="_blank" rel="noreferrer noopener" >{row.companyUrl}</a></TableCell>
                 </TableRow>
               ))}
             </TableBody>
