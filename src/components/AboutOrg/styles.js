@@ -1,35 +1,33 @@
-import { theme } from "../../styles/theme";
 import { container } from "../../styles/layout";
 
-const Style = (theme) => ({
+const Style = () => ({
   about: {
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: "#005ea5",
   },
   heading: {
-    maxWidth: "850px !important",
+    maxWidth: "777px",
     margin: "45px auto auto",
     lineHeight: "0.9em",
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 960px)": {
       marginTop: "-140px",
       paddingTop: "150px",
-      maxWidth: "350px !important",
+      maxWidth: "100%",
       lineHeight: "0.9em",
     },
   },
   container: {
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 960px)": {
       width: "100%",
       fontSize: "18px",
     },
     padding: "30px",
     boxSizing: "border-box",
-    ...container,
+    maxWidth: "777px",
     margin: "auto",
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.down('md')]: {
-      padding: "30px",
-      margin: "auto auto",
+    "@media (min-width: 960px)": {
+      padding: "60px",
     },
   },
   Continue: {
@@ -37,12 +35,12 @@ const Style = (theme) => ({
     margin: "25px 0px",
     borderRadius: "24px 24px 24px 24px",
     fontWeight: "600",
-    [theme.breakpoints.up("sm")]: {
+    "@media (min-width: 600px)": {
       textAlign: "left",
     },
   },
   title: {
-    fontFamily: theme.palette.fontFamily,
+    fontFamily: "Arial, sans-serif",
     fontSize: "50px",
     fontWeight: "bold",
     fontStretch: "normal",
@@ -51,14 +49,15 @@ const Style = (theme) => ({
     letterSpacing: "normal",
     color: "#ffffff",
     lineHeight: "0.9em",
-    [theme.breakpoints.down('md')]: {
+    textAlign: "left",
+    "@media (max-width: 960px)": {
       fontSize: "30px",
-      marginLeft: "-20px",
+      marginLeft: "0",
     },    
   },
   detailText: {
     paddingBottom: "20px",
-    fontFamily: theme.palette.fontFamily,
+    fontFamily: "Arial, sans-serif",
     fontSize: "15px",
     fontWeight: "normal",
     fontStretch: "normal",
@@ -68,10 +67,11 @@ const Style = (theme) => ({
     color: "#ffffff",
   },
   aboutText: {
-    margin: "0px 198px",
-    [theme.breakpoints.down('md')]: {
+    width: "100%",
+    margin: "0",
+    "@media (max-width: 960px)": {
       width: "100%",
-      margin: "auto auto;",
+      margin: "auto",
     },
   },
   discourse: {
@@ -85,9 +85,9 @@ const Style = (theme) => ({
     backgroundColor: "white",
     padding: "21px 50px",
     margin: "auto",
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 960px)": {
       width: "100%",
-      margin: "auto 0;",
+      margin: "auto 0",
       padding: "21px 30px",
     },
   },
@@ -95,7 +95,7 @@ const Style = (theme) => ({
     marginTop: "20px",
   },
   discussionHeading: {
-    fontFamily: theme.palette.fontFamily,
+    fontFamily: "Arial, sans-serif",
     fontSize: "28px",
     fontWeight: "600",
     fontStretch: "normal",
@@ -103,13 +103,13 @@ const Style = (theme) => ({
     lineHeight: "normal",
     letterSpacing: "normal",
     color: "#005ea5",
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 960px)": {
       width: "100%",
-      margin: "auto 0;",
+      margin: "auto 0",
     },
   },
   discussionSubHeading: {
-    fontFamily: theme.palette.fontFamily,
+    fontFamily: "Arial, sans-serif",
     fontSize: "18px",
     fontWeight: "normal",
     fontStretch: "normal",
