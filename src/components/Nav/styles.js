@@ -46,6 +46,9 @@ const styles = {
         fontSize: "15px",
         textDecoration: "none",
         outlineColor: "#e8f4f8",
+        '&:hover': {
+            color: '#d45a5e',
+        },
     },
     linkButton: {
         color: "#f6f7fa",
@@ -61,6 +64,9 @@ const styles = {
         fontSize: "15px",
         textDecoration: "none",
         outlineColor: "#e8f4f8",
+        '&:hover': {
+            color: '#d45a5e',
+        },
     },
     hamburgerButton: {
         display: "none",
