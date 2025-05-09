@@ -26,7 +26,7 @@ const Style = () => ({
     margin: "auto",
     display: "flex",
     flexDirection: "column",
-    "@media (min-width: 960px)": {
+    "@media (minWidth: 960px)": {
       padding: "60px",
     },
   },
@@ -35,7 +35,7 @@ const Style = () => ({
     margin: "25px 0px",
     borderRadius: "24px 24px 24px 24px",
     fontWeight: "600",
-    "@media (min-width: 600px)": {
+    "@media (minWidth: 600px)": {
       textAlign: "left",
     },
   },

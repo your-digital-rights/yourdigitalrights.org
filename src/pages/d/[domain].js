@@ -9,22 +9,20 @@ import { fetchDomainDetails } from "../../utils/domains";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 
-const styles = (theme) => ({
-  subscribeContainer: {
-    backgroundColor: theme.palette.primary.main,
-    marginTop: "-145px",
-    paddingTop: "150px",
-    paddingBottom: "30px",
-  },
+const StyledSubscribeContainer = styled('div')({
+  backgroundColor: "#005ea5",
+  marginTop: "-145px",
+  paddingTop: "150px",
+  paddingBottom: "30px",
 });
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ classes, organization, router, newOrg }) => {
+const Org = ({ organization, router, newOrg }) => {
   const intl = useIntl();
   const Title = organization ? 
     intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "Delete Your {org} Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
@@ -38,14 +36,14 @@ const Org = ({ classes, organization, router, newOrg }) => {
 
   return (
     <div>
-    <NextSeo
-        title = {Title}
-        canonical = {generateCanonical(BaseURL, router.locale)}
-        description = {Description}
-        openGraph = {{
+      <NextSeo
+        title={Title}
+        canonical={generateCanonical(BaseURL, router.locale)}
+        description={Description}
+        openGraph={{
           description: Description,
         }}
-        languageAlternates = {generateLangLinks(BaseURL)}
+        languageAlternates={generateLangLinks(BaseURL)}
       />       
       <Nav />
       <Hero 
@@ -59,14 +57,13 @@ const Org = ({ classes, organization, router, newOrg }) => {
           selectedCompany={organization}
         />
       )}
-      <div className={classes.subscribeContainer}>
+      <StyledSubscribeContainer>
         <Subscribe page="org"/>
-      </div>
+      </StyledSubscribeContainer>
       <Footer/>
     </div>
   )
 }
-
 
 // Render all pages on first request (to reduce build time)
 export async function getStaticPaths() {
@@ -99,4 +96,4 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default withStyles(styles)(withRouter(Org));
+export default withRouter(Org);

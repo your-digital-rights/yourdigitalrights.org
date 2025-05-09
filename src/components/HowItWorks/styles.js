@@ -10,6 +10,9 @@ const styles = {
       marginTop: "-100px",
       paddingTop: "160px",
     },
+    '& a': {
+      fontWeight: 400,
+    },
   },
   title: {
     textAlign: "center",
@@ -39,7 +42,7 @@ const styles = {
   lowerContainer: {
     '@media (min-width:600px)': {
       display: "flex",
-      alignItems: "top",
+      alignItems: "flex-start",
     },
   },
 };

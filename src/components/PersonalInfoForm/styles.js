@@ -6,7 +6,7 @@ const Style = () => ({
     padding: "30px",
     display: "flex",
     flexDirection: "column",
-    "@media (min-width: 960px)": {
+    "@media (minWidth: 960px)": {
       padding: "60px",
       margin: "-180px auto 50px",
     },
