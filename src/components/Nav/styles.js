@@ -173,8 +173,10 @@ const styles = {
         alignItems: "center",
     },
     langSelect: {
-        margin: "15px 24px 0px 0px",
+        margin: "10px 24px 0px 0px",
         color: "#f6f7fa",
+        fontSize: "15px",
+        fontWeight: "bolder",
         '&:before': {
             borderColor: "#f6f7fa",
         },
@@ -184,6 +186,11 @@ const styles = {
         '& .MuiSelect-icon': {
             color: "#f6f7fa",
         },
+        '& .MuiSelect-select': {
+            fontSize: "15px",
+            fontWeight: "bolder",
+            fontFamily: "inherit"
+        }
     }
 };
 
