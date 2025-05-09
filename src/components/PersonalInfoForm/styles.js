@@ -1,4 +1,4 @@
-const Style = (theme) => ({
+const Style = () => ({
   formContainer: {
     position: "relative",
     maxWidth: "777px",
@@ -6,7 +6,7 @@ const Style = (theme) => ({
     padding: "30px",
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.up("md")]: {
+    "@media (min-width: 960px)": {
       padding: "60px",
       margin: "-180px auto 50px",
     },
@@ -15,10 +15,10 @@ const Style = (theme) => ({
     marginTop: "30px",
   },
   formControl: {
-    marginTop: theme.spacing(1),
+    marginTop: "8px",
   },
   group: {
-    margin: theme.spacing(1),
+    margin: "8px",
     flexDirection: "row",
   },
   introText: {
@@ -53,7 +53,7 @@ const Style = (theme) => ({
     marginTop: "-40px",
     marginBottom: "20px",
     marginRight: "-30px",
-    [theme.breakpoints.down("md")]: {
+    "@media (max-width: 960px)": {
       marginTop: "-10px",
       marginBottom: "20px",
       marginRight: "-10px",

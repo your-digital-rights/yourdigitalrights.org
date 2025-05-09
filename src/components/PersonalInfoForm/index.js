@@ -30,7 +30,7 @@ import Typography from "@mui/material/Typography";
 import fetch from "isomorphic-fetch";
 import styles from "./styles";
 import tracking from "../../utils/tracking";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormHelperText from '@mui/material/FormHelperText';
@@ -46,6 +46,11 @@ import isEmail from 'validator/lib/isEmail';
 
 
 const screenHeightBreakpoint = 560;
+
+const StyledPaper = styled(Paper)(styles().formContainer);
+const StyledFormControl = styled(FormControl)(styles().formControl);
+const StyledRadioGroup = styled(RadioGroup)(styles().group);
+const StyledFormButton = styled('div')(styles().formButton);
 
 class Form extends Component {
   constructor(props) {
@@ -237,46 +242,29 @@ class Form extends Component {
 
   render() {
     const { screenHeight } = this.state;
-    const { classes, selectedCompany } = this.props;
+    const { selectedCompany } = this.props;
 
     return (
       <div data-nosnippet id="Form">
-        <Paper
+        <StyledPaper
           component="form"
-          className={classes.formContainer}
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
           ref={this.form}
         >
-{/*
-          <div className={classes.support}>
-              <Button 
-                variant="contained" 
-                startIcon={<SupportAgentIcon />} 
-                className={classes.supportButton}
-                onClick={this.onSupportButtonClick}
-              >
-                {supportButtonCTA}
-              </Button>
-          </div>
-*/}          
-          <Typography gutterBottom={true} variant={"body1"}>
+          <Typography gutterBottom variant="body1">
             <span>
               {Headline}
             </span>
           </Typography>
-          <FormControl
-            variant="outlined"
-            required={true}
-            focused={true}
+          <StyledFormControl
+            required
             component="fieldset"
-            className={classes.formControl}
           >
             <FormLabel>{RequestTypeLabelText}</FormLabel>
-            <RadioGroup
+            <StyledRadioGroup
               name="request1"
-              className={classes.group}
               onChange={this.handleInput("requestType")}
               value={this.state.requestType}
             >
@@ -290,13 +278,13 @@ class Form extends Component {
                 control={<Radio />}
                 label={AccessRequestLabelText}
               />
-            </RadioGroup>
-          </FormControl>
+            </StyledRadioGroup>
+          </StyledFormControl>
 
           {!selectedCompany && (
             <Fragment>
               <TextField
-                variant="outlined"
+                fullWidth
                 id="companyName"
                 label={CompanyNameLabelText}
                 value={this.state.companyName}
@@ -307,7 +295,7 @@ class Form extends Component {
                 autoFocus={screenHeight > screenHeightBreakpoint}
               />
               <TextField
-                variant="outlined"
+                fullWidth
                 id="companyDomain"
                 label={CompanyDomainLabelText}
                 value={this.state.companyDomain}
@@ -317,8 +305,8 @@ class Form extends Component {
                 helperText={CompanyDomainHelperText}
               />              
               <TextField
+                fullWidth
                 inputRef={this.companyEmail}
-                variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
                 value={this.state.companyEmail}
@@ -330,7 +318,7 @@ class Form extends Component {
             </Fragment>
           )}
           <TextField
-            variant="outlined"
+            fullWidth
             id="name"
             label={NameLabelText}
             value={this.state.name}
@@ -343,18 +331,17 @@ class Form extends Component {
             }
           />
           <TextField
-            variant="outlined"
+            fullWidth
             id="regulationType"
             select
             label={RegulationTypeText}
-            className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
-            value = {this.state.regulationType}
+            value={this.state.regulationType}
             SelectProps={{
               native: true,
               MenuProps: {
-                className: classes.menu,
+                className: styles().menu,
               },
             }}
             helperText={RegulationTypeHelperText}
@@ -365,7 +352,7 @@ class Form extends Component {
             )}
           </TextField>
           <TextField
-            variant="outlined"
+            fullWidth
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
             value={this.state.identifyingInfo}
@@ -382,16 +369,12 @@ class Form extends Component {
               value={this.props.selectedCompany.url}
             />
           )}
-          <FormControl
-            variant="outlined"
-            focused={true}
+          <StyledFormControl
             component="fieldset"
-            className={classes.formControl}
           >
             <FormLabel>{FollowUpLabelText}</FormLabel>
-            <RadioGroup
+            <StyledRadioGroup
               name="followup1"
-              className={classes.group}
               onChange={this.handleInput("followUp")}
               value={this.state.followUp}
             >
@@ -405,15 +388,15 @@ class Form extends Component {
                 control={<Radio />}
                 label={NoFollowUpLabelText}
               />
-            </RadioGroup>
+            </StyledRadioGroup>
             <FormHelperText>
               {FollowUpDetailsText}
               <br/>
               <br/>
               {FollowUpDetailsTextWarning}
             </FormHelperText>
-          </FormControl>
-          <div className={classes.formButton}>
+          </StyledFormControl>
+          <StyledFormButton>
             <EmailSendButton
               id="EmailSendButton"
               emailType={this.state.requestType}
@@ -421,10 +404,11 @@ class Form extends Component {
             >
               {SubmitButtonText}
             </EmailSendButton>
-          </div>
-        </Paper>
+          </StyledFormButton>
+        </StyledPaper>
       </div>
     )
   }
 }
-export default withRouter(injectIntl(withStyles(styles)(Form)));
+
+export default withRouter(injectIntl(Form));
