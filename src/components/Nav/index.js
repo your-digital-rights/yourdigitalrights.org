@@ -26,27 +26,27 @@ const trackDonateButtonLinkClick = (device) => {
   tracking.trackDonate(device);
 };
 
-const StyledNav = styled('nav')(() => styles.nav);
-const StyledLogoLink = styled('a')(() => styles.logoLink);
-const StyledLogo = styled(Image)(() => styles.logo);
-const StyledHamburgerButton = styled(Image)(() => styles.hamburgerButton);
-const StyledNavChildren = styled('div')(() => styles.navChildren);
+const StyledNav = styled('nav')(styles.nav);
+const StyledLogoLink = styled('a')(styles.logoLink);
+const StyledLogo = styled(Image)(styles.logo);
+const StyledHamburgerButton = styled(Image)(styles.hamburgerButton);
+const StyledNavChildren = styled('div')(styles.navChildren);
 const StyledMobileListContainer = styled('div')(({ mobileNavOpen }) => ({
   ...styles.mobileListContainer,
   ...(mobileNavOpen ? styles.showMobContainer : styles.hideMobContainer)
 }));
-const StyledFadeBackground = styled('div')(() => styles.fadeBackground);
-const StyledNavItem = styled('li')(() => styles.item);
+const StyledFadeBackground = styled('div')(styles.fadeBackground);
+const StyledNavItem = styled('li')(styles.item);
 const StyledNavLink = styled(Typography)(({ subsection }) => ({
   ...(subsection ? styles.subsectionLink : styles.link)
 }));
-const StyledContainer = styled('ul')(() => styles.container);
-const StyledMobileList = styled('ul')(() => styles.mobileList);
-const StyledLangSelect = styled(Select)(() => styles.langSelect);
-const StyledDonateButton = styled(Button)(() => styles.DonateRedButton);
-const StyledDonateButtonDesktop = styled(Button)(() => styles.DonateRedButtonDesktop);
-const StyledLinkButton = styled(Typography)(() => styles.linkButton);
-const StyledTwitterHandle = styled('div')(() => styles.twitterHandle);
+const StyledContainer = styled('ul')(styles.container);
+const StyledMobileList = styled('ul')(styles.mobileList);
+const StyledLangSelect = styled(Select)(styles.langSelect);
+const StyledDonateButton = styled(Button)(styles.DonateRedButton);
+const StyledDonateButtonDesktop = styled(Button)(styles.DonateRedButtonDesktop);
+const StyledLinkButton = styled(Typography)(styles.linkButton);
+const StyledTwitterHandle = styled('div')(styles.twitterHandle);
 
 const NavItem = ({
   href,

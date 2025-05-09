@@ -6,7 +6,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
 
 class FAQ extends Component {
   state = {
@@ -20,20 +19,18 @@ class FAQ extends Component {
   };
 
   renderItemBody = (body) => {
-    const { classes } = this.props;
-
     return (
       <div>
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography component="div" className={classes.list}>
+              <Typography component="div" sx={styles.list}>
                 {text.item || text}
               </Typography>
               {text.subItems && (
                 <>
                   <br />
-                  <ul className={classes.list}>
+                  <ul style={styles.list}>
                     {text.subItems.map((subItemText, index) => (
                       <li key={index}>
                         <Typography>
@@ -54,7 +51,6 @@ class FAQ extends Component {
 
   renderItem = ({ heading, body }, index) => {
     const { expanded } = this.state;
-    const { classes } = this.props;
 
     return (
       <Accordion
@@ -68,7 +64,7 @@ class FAQ extends Component {
         >
           <Typography variant={"body2"}>{heading}</Typography>
         </AccordionSummary>
-        <AccordionDetails className={classes.accordionBody}>
+        <AccordionDetails sx={styles.accordionBody}>
           {this.renderItemBody(body)}
         </AccordionDetails>
       </Accordion>
@@ -76,12 +72,11 @@ class FAQ extends Component {
   };
 
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.container} id="faq">
+      <div style={styles.container} id="faq">
         <Typography
           variant={"h5"}
-          className={classes.title}
+          sx={styles.title}
           gutterBottom={true}
           component={"h2"}
         >
@@ -93,4 +88,4 @@ class FAQ extends Component {
   }
 }
 
-export default withStyles(styles)(FAQ);
+export default FAQ;
