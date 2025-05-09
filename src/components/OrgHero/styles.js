@@ -1,15 +1,14 @@
 import { container } from "../../styles/layout";
-import { theme } from "../../styles/theme";
 
-const Style = (theme) => ({
+const styles = {
   hero: {
     color: "white",
     paddingBottom: "150px",
     display: "flex",
     flexDirection: "column",
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: "primary.main",
     textAlign: "left",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       padding: "60px 0px 150px",
     },
   },
@@ -17,7 +16,7 @@ const Style = (theme) => ({
     paddingTop: "5px",
     paddingRight: "25px",
     display: "block",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       display: "none",
     },
   },
@@ -28,14 +27,14 @@ const Style = (theme) => ({
     maxWidth: "100%",
     marginBottom: "5px",
     lineHeight: "1em",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       margin: "auto 0px 0px",
       maxWidth: "100%",
     },
   },
   addOrg: {
     width: "660px",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       width: "100%",
     },
   },
@@ -48,7 +47,7 @@ const Style = (theme) => ({
     margin: "auto",
     paddingLeft: "30px",
     paddingRight: "30px",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       padding: "50px 30px 0px",
       width: "100%",
     },
@@ -56,7 +55,7 @@ const Style = (theme) => ({
   logo: {
     width: "44px",
     outlineColor: "#e8f4f8",
-    [theme.breakpoints.down('md')]: {
+    "@media (maxWidth: 900px)": {
       display: "none",
     },
   },
@@ -81,6 +80,6 @@ const Style = (theme) => ({
       textDecoration: "underline",
     },
   },
-});
+};
 
-export default Style;
+export default styles;

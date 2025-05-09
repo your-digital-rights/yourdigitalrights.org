@@ -1,31 +1,30 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
 import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-
-const Hero = ({ classes, selectedCompany }) => {
+const Hero = ({ selectedCompany }) => {
   return (
-    <div className={classes.hero} id="hero">
-      <div className={classes.container}>
+    <Box sx={styles.hero} id="hero">
+      <Box sx={styles.container}>
         {selectedCompany && (
-          <div id="org-logo" className={classes.orgLogo}>
+          <Box id="org-logo" sx={styles.orgLogo}>
             <ImageWithFallback
-              className={classes.logo}
+              sx={styles.logo}
               src={`https://logo.uplead.com/${selectedCompany.url}`}
               width={44}
               height={44}
               fallbackSrc="/images/Keep-it-private.png"
               alt="Organization logo"
             />
-          </div>
+          </Box>
         )}
-        <div id="hero-text" className={classes.heroText}>
+        <Box id="hero-text" sx={styles.heroText}>
           {selectedCompany && (
             <>
               <Typography
@@ -33,7 +32,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 variant="h4"
                 color="inherit"
                 component="p"
-                className={classes.heading}
+                sx={styles.heading}
               >
                 {Capitalize(selectedCompany.url)}
               </Typography>      
@@ -41,7 +40,7 @@ const Hero = ({ classes, selectedCompany }) => {
                 color="inherit"
                 component="h1"
                 gutterBottom={true}
-                className={classes.title}
+                sx={styles.title}
               >
                 <FormattedMessage
                   id="orgHero.title"
@@ -68,7 +67,7 @@ const Hero = ({ classes, selectedCompany }) => {
             </>
           )}
           {!selectedCompany && (
-            <div id="add-org" className={classes.addOrg}>
+            <Box id="add-org" sx={styles.addOrg}>
               <Typography
                 variant="h3"
                 color="inherit"
@@ -79,7 +78,7 @@ const Hero = ({ classes, selectedCompany }) => {
                   id="orgHero.newOrgTitle"
                   defaultMessage="Send a data deletion or access request."
                 />
-            </Typography>
+              </Typography>
               <Typography
                 color="inherit"
                 component="h2"
@@ -92,11 +91,12 @@ const Hero = ({ classes, selectedCompany }) => {
                   }}
                 />
               </Typography>
-            </div>
+            </Box>
           )}
-        </div>
-      </div>
-    </div>
+        </Box>
+      </Box>
+    </Box>
   );
 };
-export default withStyles(styles)(Hero);
+
+export default Hero;
