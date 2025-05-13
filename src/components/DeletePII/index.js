@@ -1,14 +1,17 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Button from "@mui/material/Button";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 import fetch from "isomorphic-fetch";
 import { useRouter } from 'next/router'
 
-const DeletePII = ({ classes, uuid }) => {
+const useStyles = makeStyles(styles);
+
+const DeletePII = ({ uuid }) => {
+  const classes = useStyles();
   const router = useRouter();
   const ref = uuid ? uuid.split("-")[0] : "";
   const [dataDeleted, updateDataDeleted] = React.useState();
@@ -102,4 +105,5 @@ const DeletePII = ({ classes, uuid }) => {
     </div>
   );
 };
-export default withStyles(styles)(DeletePII);
+
+export default DeletePII;
