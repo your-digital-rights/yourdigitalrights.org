@@ -1,12 +1,14 @@
 import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Button from "@mui/material/Button";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 
+const useStyles = makeStyles(styles);
 
-const Donations = ({ classes, children }) => {
+const Donations = ({ children }) => {
+  const classes = useStyles();
 
   const trackDonate = (type) => {
     tracking.trackDonate(type, "Donation Component");
@@ -61,4 +63,5 @@ const Donations = ({ classes, children }) => {
     </div>
   );
 };
-export default withStyles(styles)(Donations);
+
+export default Donations;
