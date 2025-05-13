@@ -1,8 +1,7 @@
-import React from "react";
-import { Component } from "react";
+import React, { useRef, useState } from "react";
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Button from "@mui/material/Button";
 import Regulations from "../../utils/regulations";
 import RequestEscalation from "../RequestEscalation";
@@ -10,50 +9,49 @@ import tracking from "../../utils/tracking";
 import Recommendations from "./Recommendations";
 import EmailSendButton from "../EmailSendButton";
 
-class WhatsNext extends Component {
-  constructor(props) {
-    super(props);
+const useStyles = makeStyles(styles);
 
-    this.state = {
-      showEscalation: false,
-    };
-    this.reminderForm = React.createRef();
-  }
+const WhatsNext = ({ requestItem, days, selectedCompany, intl, status, children }) => {
+  const classes = useStyles();
+  const [showEscalation, setShowEscalation] = useState(false);
+  const reminderForm = useRef();
 
-  handleReminderFormSubmit = (e) => {
+  const handleReminderFormSubmit = (e) => {
     e.preventDefault();
   }
 
-  handleReminderEmailSendClick = (generateEmailFields) => {
-
-    const formStatus  = this.reminderForm.current.reportValidity();
+  const handleReminderEmailSendClick = (generateEmailFields) => {
+    const formStatus = reminderForm.current.reportValidity();
     if (!formStatus) return;
 
-    this.setState({showEscalation: false});
+    setShowEscalation(false);
 
     const data = {
-      ...this.props,
+      requestItem,
+      days,
+      selectedCompany,
+      intl,
+      status
     }
 
     const selectedAction = generateEmailFields(data);    
     selectedAction.run();
 
     tracking.trackSendReminderEmail(
-      this.props.requestItem.companyUrl,
-      this.props.requestItem.regulationType
+      requestItem.companyUrl,
+      requestItem.regulationType
     );  
   }
 
-  buttons(classes) {
-    const { requestItem } = this.props;
+  const buttons = () => {
     const authority = Regulations[requestItem.regulationType].dpa.longName;
     return (
       <ul className={classes.buttons}>
         <li>
-          <form onSubmit={this.handleReminderFormSubmit} ref={this.reminderForm}>
+          <form onSubmit={handleReminderFormSubmit} ref={reminderForm}>
             <EmailSendButton
               emailType="REMINDER"
-              onClick={this.handleReminderEmailSendClick}
+              onClick={handleReminderEmailSendClick}
               className={classes.button}
             >
               <FormattedMessage
@@ -69,7 +67,7 @@ class WhatsNext extends Component {
             color="primary"
             type="submit"
             className={classes.button}
-            onClick={e => this.setState({showEscalation: true})}
+            onClick={() => setShowEscalation(true)}
           >
             <FormattedMessage
               id="request.next.esclateButton"
@@ -84,32 +82,28 @@ class WhatsNext extends Component {
     )
   }
 
-  render() {
-    const { classes, requestItem, days, selectedCompany, intl, status, children} = this.props;
-    return (
-      <div className={classes.root} id="whatsNext">
-        <div className={classes.container}>
-          <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
-          <Recommendations 
-            requestItem={requestItem} 
-            days={days} 
-            selectedCompany={selectedCompany} 
+  return (
+    <div className={classes.root} id="whatsNext">
+      <div className={classes.container}>
+        <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
+        <Recommendations 
+          requestItem={requestItem} 
+          days={days} 
+          selectedCompany={selectedCompany} 
+          status={status}
+        />
+        { status !== 'SUCCESS' && buttons() }
+        { showEscalation && (
+          <RequestEscalation 
+            requestItem={requestItem}
+            intl={intl}
             status={status}
           />
-          { this.props.status !== 'SUCCESS' && (
-            this.buttons(classes)
-          )}
-          { this.state.showEscalation && (
-            <RequestEscalation 
-              requestItem={requestItem}
-              intl={intl}
-              status={status}
-            />
-          )}
-          {children}
-        </div>
+        )}
+        {children}
       </div>
-    );
-  }
+    </div>
+  );
 };
-export default withStyles(styles)(WhatsNext);
+
+export default WhatsNext;
