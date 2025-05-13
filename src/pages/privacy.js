@@ -4,43 +4,46 @@ import Nav from "../components/Nav";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
-import { withRouter } from "next/router";
+import { useRouter } from "next/router";
 
-const styles = (theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
-  },
-  inner: {
-    padding: 30,
-  },
+const Container = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
+
+const Inner = styled(Paper)({
+  padding: 30,
 });
 
-const Privacy = ({ classes, router }) => {
+const Privacy = () => {
+  const router = useRouter();
   const intl = useIntl();
   const Description = intl.formatMessage({id: "privacy.description", defaultMessage: "You own your data, we exist to help you control who has access to it. This is our privay policy page."});
   const BaseURL = "/privacy";
 
+  // Only generate SEO data if we have a router
+  const seoProps = router ? {
+    title: intl.formatMessage({id: "privacy.title", defaultMessage: "Privacy Policy"}),
+    canonical: generateCanonical(BaseURL, router.locale),
+    description: Description,
+    openGraph: {
+      description: Description,
+    },
+    languageAlternates: generateLangLinks(BaseURL)
+  } : {};
+
   return (
     <div>
-      <NextSeo
-        title = {intl.formatMessage({id: "privacy.title", defaultMessage: "Privacy Policy"})}
-        canonical = {generateCanonical(BaseURL, router.locale)}
-        description = {Description}
-        openGraph = {{
-          description: Description,
-        }}
-        languageAlternates = {generateLangLinks(BaseURL)}
-      />    
+      <NextSeo {...seoProps} />
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <Container>
+        <Inner elevation={2}>
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="privacy.privacyTitle"
@@ -204,12 +207,12 @@ const Privacy = ({ classes, router }) => {
               }}
             />
           </Typography>
-        </Paper>
-      </div>
+        </Inner>
+      </Container>
       <Donations />
       <Footer />
     </div>
   );
 };
 
-export default withStyles(styles)(withRouter(Privacy));
+export default Privacy;

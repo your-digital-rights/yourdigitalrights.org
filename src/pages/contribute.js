@@ -5,35 +5,31 @@ import Paper from "@mui/material/Paper";
 import Social from "../components/Social";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import { makeStyles } from '@mui/styles';
+import { styled } from '@mui/material/styles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { useRouter } from "next/router";
 
+const Container = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
 
-const useStyles = makeStyles((theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
-  },
-  inner: {
-    paddingLeft: 120,
-    paddingRight: 120,
-    paddingTop: 50,
-    paddingBottom: 50,
-    [theme.breakpoints.down('md')]: {
-      paddingLeft: 30,
-      paddingRight: 30,
-    },
+const Inner = styled(Paper)(({ theme }) => ({
+  paddingLeft: 120,
+  paddingRight: 120,
+  paddingTop: 50,
+  paddingBottom: 50,
+  [theme.breakpoints.down('md')]: {
+    paddingLeft: 30,
+    paddingRight: 30,
   },
 }));
 
-
 export default function Contribute(){
-  const classes = useStyles();
   const intl = useIntl();
   const router = useRouter();
   const Description = intl.formatMessage({id: "contribute.description", defaultMessage: "Help us improve YourDigitalRights.org."});
@@ -51,8 +47,8 @@ export default function Contribute(){
         languageAlternates = {generateLangLinks(BaseURL)}
       />   
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <Container>
+        <Inner elevation={2}>
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage id="contribute.title" defaultMessage="Contribute" />
           </Typography>
@@ -267,8 +263,8 @@ export default function Contribute(){
               defaultMessage="While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."           
             />
           </Typography> 
-        </Paper>
-      </div>
+        </Inner>
+      </Container>
       <Social offset={true} sourcePage="contribute" />
       <Donations />
       <Footer />
