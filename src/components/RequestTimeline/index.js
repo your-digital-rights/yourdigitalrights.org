@@ -1,8 +1,11 @@
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import { FormattedMessage, FormattedDate} from 'react-intl'
 
-const Timeline = ({ classes, requestItem, days }) => {
+const useStyles = makeStyles(styles);
+
+const Timeline = ({ requestItem, days }) => {
+  const classes = useStyles();
   const completionRatio = Math.min(days.sinceRequest / (days.reminderTimeLimit * 2), 1);
   const timelineTrackerStyle = {
     left: `calc(${Math.floor(completionRatio * 200 - 50)}% - 17px)`,
@@ -114,4 +117,5 @@ const Timeline = ({ classes, requestItem, days }) => {
     </div>
   );
 };
-export default withStyles(styles)(Timeline);
+
+export default Timeline;
