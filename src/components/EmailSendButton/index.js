@@ -138,7 +138,7 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
     };
 
     return (
-        <>
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
             <StyledButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button">
                 <StyledButton 
                     onClick={handleClick} 
@@ -185,7 +185,7 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
                     </Grow>
                 )}
             </StyledPopper>
-        </>
+        </div>
     );
 }
 
