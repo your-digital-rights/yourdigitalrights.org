@@ -1,12 +1,15 @@
 import { useState } from "react";
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Paper from "@mui/material/Paper";
 import {FormattedDate} from 'react-intl'
 import Regulations from "../../utils/regulations";
 
-const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }) => {
+const useStyles = makeStyles(styles);
+
+const Timeline = ({ intl, requestItem, days, selectedCompany, status }) => {
+  const classes = useStyles();
   const [showRequestEmail, setShowRequestEmail] = useState(false);
   const [showReminderEmail, showReminderEmailEmail] = useState(false);
   const [showEscalationEmail, showEscalationEmailEmail] = useState(false);
@@ -116,4 +119,5 @@ const Timeline = ({  classes, intl, requestItem, days, selectedCompany, status }
     </div>
   );
 }
-export default withStyles(styles)(Timeline);
+
+export default Timeline;

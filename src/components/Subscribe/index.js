@@ -1,46 +1,63 @@
 import Typography from "@mui/material/Typography";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
+import { useEffect } from "react";
+import { useScript } from "../../utils/hooks";
 
-const Subscribe = ({ classes, children, page="thank-you"}) => {
-  
+const Subscribe = ({ children, page="thank-you"}) => {
+  useScript("https://substackapi.com/widget.js");
+
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
   };
+  useEffect(() => {
+    window.CustomSubstackWidget = {
+      substackUrl: "newsletter.yourdigitalrights.org",
+      placeholder: "you@example.com",
+      buttonText: "Subscribe",
+      theme: "custom",
+      colors: {
+        primary: "#005EA5",
+        input: "#039277",
+        email: "#000000",
+        text: "#FFFFFF",
+      }
+    };
+  }, []);
 
   return (
     <>
-      <div className={classes.container}>
-        <div className={classes.subscribe}>
-          <div id="subscribe" className={classes.heading}>
-          <div className={classes.text}>
-            <Typography
+      <div style={styles.container}>
+        <div style={styles.subscribe}>
+          <div id="subscribe" style={styles.heading}>
+            <div style={styles.text}>
+              <Typography
                 color="inherit" 
                 variant="h3"
                 component="h3"
+                sx={styles.intro}
                 gutterBottom={true}
               >
                 <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Privacy Alerts!" />
               </Typography>          
               <Typography 
                 color="inherit" 
-                className={classes.intro} 
+                sx={styles.intro} 
                 gutterBottom={true}
               >
                 <FormattedMessage
                   id="subscribe.alertsOneLiner1"
                   defaultMessage="Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
                 />
-
               </Typography> 
             </div>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="150" frameborder="0" scrolling="no"></iframe>
+            <div id="custom-substack-embed" style={styles.substack}/>
           </div>
         </div>
       </div>
     </>
   );
 };
-export default withStyles(styles)(Subscribe);
+
+export default Subscribe;

@@ -7,7 +7,7 @@ import Paper from '@mui/material/Paper';
 import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import reminderEmail from "../../email-templates/reminder";
@@ -18,20 +18,8 @@ import { useIntl } from "react-intl";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EmailIcon from '@mui/icons-material/Email';
 import AssignmentIcon from '@mui/icons-material/Assignment';
-import Image from "next/legacy/image"
-
-
-const Style = (theme) => ({
-    border: {
-      borderRadius: "24px 24px 24px 24px",
-    },
-    menueItemIcon: {
-        marginRight: "10px",
-    },
-    popper: {
-        zIndex: "5",
-    }
-});
+import Image from "next/legacy/image";
+import { StyledButtonGroup, StyledButton, StyledPopper, StyledMenuItemIcon, StyledButtonTitle } from './styles';
 
 function defaultAction(to, cc, subject, body) {
     return function() {
@@ -69,7 +57,7 @@ function copyAction(to, cc, subject, body) {
     };
 }
 
-const EmailSendButton = ({ classes, children, emailType, onClick}) => {
+const EmailSendButton = ({ children, emailType, onClick}) => {
     const intl = useIntl();
     const [open, setOpen] = React.useState(false);
     const anchorRef = React.useRef(null);
@@ -79,23 +67,23 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
     const emailOptions = [
         {
             name: 'Default',
-            text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
-            icon: <EmailIcon className={classes.menueItemIcon}/>, 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"})}</StyledButtonTitle>, 
+            icon: <EmailIcon className={undefined}/>, 
             run: defaultAction},
         {
             name: 'Gmail',
-            text: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
-            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"})}</StyledButtonTitle>, 
+            icon: <StyledMenuItemIcon><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></StyledMenuItemIcon>, 
             run: gmailAction}, 
         {
             name: 'Yahoo mail',
-            text: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
-            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"})}</StyledButtonTitle>, 
+            icon: <StyledMenuItemIcon><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></StyledMenuItemIcon>, 
             run: yahooAction}, 
         {
             name: 'Copy',
-            text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
-            icon: <AssignmentIcon className={classes.menueItemIcon} />, 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"})}</StyledButtonTitle>, 
+            icon: <AssignmentIcon className={undefined} />, 
             run: copyAction},
     ];
     
@@ -150,17 +138,16 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
     };
 
     return (
-        <>
-            <ButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button" className={classes.border}>
-                <Button 
+        <div style={{ display: 'flex', justifyContent: 'flex-start', width: '100%' }} className="email-send-btn-wrapper">
+            <StyledButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button">
+                <StyledButton 
                     onClick={handleClick} 
-                    className={classes.border} 
                     ref={buttonRef}
                     type="submit"
                 >
                     {children}
-                </Button>
-                <Button
+                </StyledButton>
+                <StyledButton
                     color="primary"
                     size="small"
                     aria-controls={open ? 'split-button-menu' : undefined}
@@ -168,12 +155,11 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
                     aria-label="Review & Send"
                     aria-haspopup="menu"
                     onClick={handleToggle}
-                    className={classes.border}
                 >
                     <ArrowDropDownIcon />
-                </Button>
-            </ButtonGroup>
-            <Popper open={open} className={classes.popper} anchorEl={anchorRef.current} role={undefined} transition disablePortal >
+                </StyledButton>
+            </StyledButtonGroup>
+            <StyledPopper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal>
                 {({ TransitionProps, placement }) => (
                     <Grow
                         {...TransitionProps}
@@ -198,9 +184,9 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
                         </Paper>
                     </Grow>
                 )}
-            </Popper>
-        </>
+            </StyledPopper>
+        </div>
     );
 }
 
-export default withStyles(Style)(EmailSendButton);
+export default EmailSendButton;

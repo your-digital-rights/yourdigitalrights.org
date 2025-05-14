@@ -1,6 +1,6 @@
 import { visuallyHidden } from "../../styles/layout";
 
-const Theme = (theme) => ({
+const Style = () => ({
   searchInputWrapper: {
     padding: "6px 16px",
   },
@@ -8,7 +8,7 @@ const Theme = (theme) => ({
   form: {
     position: "relative",
     height: "44px",
-    [theme.breakpoints.up("md")]: {
+    "@media (minWidth: 900px)": {
       maxWidth: "80%",
       margin: "80px auto 0",
     },
@@ -32,4 +32,4 @@ const Theme = (theme) => ({
   }
 });
 
-export default Theme;
+export default Style;

@@ -5,34 +5,31 @@ import Paper from "@mui/material/Paper";
 import Social from "../components/Social";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
+import { styled } from '@mui/material/styles';
 
+const Container = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
 
-const styles = (theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
+const Inner = styled(Paper)(({ theme }) => ({
+  paddingLeft: 120,
+  paddingRight: 120,
+  paddingTop: 50,
+  paddingBottom: 50,
+  [theme.breakpoints.down('md')]: {
+    paddingLeft: 30,
+    paddingRight: 30,
   },
-  inner: {
-    paddingLeft: 120,
-    paddingRight: 120,
-    paddingTop: 50,
-    paddingBottom: 50,
-    [theme.breakpoints.down('md')]: {
-      paddingLeft: 30,
-      paddingRight: 30,
-    },
-  },
-});
+}));
 
-
-const About = ({ classes, router }) => {
+const About = ({ router }) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "about.description", defaultMessage: "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."});
   const BaseURL = "/about";
@@ -49,8 +46,8 @@ const About = ({ classes, router }) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />   
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <Container>
+        <Inner elevation={2} >
           <Typography gutterBottom={true} component="h1" variant="h4">
             <FormattedMessage id="about.consciousDigital" defaultMessage="Who we are" />
           </Typography>
@@ -213,7 +210,7 @@ const About = ({ classes, router }) => {
           <Typography gutterBottom={true}>
             <FormattedMessage
               id="about.sponsorsTitle"
-              defaultMessage="We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+              defaultMessage="We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
             />
           </Typography>
           <Typography gutterBottom={true}>
@@ -277,8 +274,8 @@ const About = ({ classes, router }) => {
               }}              
             />
           </Typography>                     
-        </Paper>
-      </div>
+        </Inner>
+      </Container>
       <Social offset={true} sourcePage="about" />
       <Donations />
       <Footer />
@@ -286,4 +283,4 @@ const About = ({ classes, router }) => {
   );
 };
 
-export default withStyles(styles)(withRouter(About));
+export default withRouter(About);

@@ -1,5 +1,5 @@
 import { FormattedMessage, injectIntl } from "react-intl";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Typography from "@mui/material/Typography";
 import Fab from '@mui/material/Fab';
 import mailtoLink from "mailto-link";
@@ -7,153 +7,35 @@ import {
   FacebookShareButton,
   LinkedinShareButton,
   TwitterShareButton,
+  WhatsappShareButton,
+  RedditShareButton,
+  EmailShareButton,
 } from "react-share";
 import classNames from "classnames";
 import tracking from "../../utils/tracking";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChrome, faFirefox } from "@fortawesome/free-brands-svg-icons";
+import { 
+  faChrome, 
+  faFirefox, 
+  faReddit, 
+  faWhatsapp,
+  faFacebook,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image';
 import ExtensionToolTipImage from "../../../public/images/extensionHelperImages/extensionToolTipImage.png";
-import FBIcon from "../../../public/images/sh/fb.svg";
-import LinkedInIcon from "../../../public/images/sh/lin.svg";
-import TwitterIcon from "../../../public/images/sh/tw.svg";
-import EmailIcon from "../../../public/images/sh/mail.svg";
+import styles from "./styles";
 
-const styles = (theme) => ({
-  root: {
-    backgroundColor: theme.palette.primary.main,
-    padding: "50px",
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    textAlign: "center",
-    alignItems: "baseline",
-  },
-
-  offsetThankYou: {
-    paddingTop: "50px",
-    marginTop: -10,
-  },
-  
-  offset: {
-    paddingTop: "200px",
-    marginTop: -160,
-  },
-
-  shareHeading: {
-    color: "white",
-    marginBottom: "30px",
-    flex: "1 0 100%",
-    fontWeight: "bold",
-  },
-
-  shareButton: {
-    marginLeft: "15px",
-  },
-
-  extensionHelperPlaceHolder: {
-    display: "flex",
-    justifyContent: "center",
-    width: "100%",
-    marginBottom: "60px",
-    paddingTop: "90px",
-    [theme.breakpoints.down('md')]: {
-      marginTop: "-100px",
-      paddingTop: "150px",
-    },
-  },
-
-  extensionHelperContainer: {
-    display: "flex",
-    justifyContent: "space-between",
-    width: "900px",
-    [theme.breakpoints.down('md')]: {
-      flexDirection: "column",
-      alignItems: "center",
-    },
-  },
-
-  extensionHelpImgContainer: {
-    display: "flex",
-    marginTop: "40px",
-    [theme.breakpoints.down('md')]: {
-      marginTop: "0",
-      marginBottom: "30px",
-    },
-  },
-
-  extensionHelpImg: {
-    width: "390px",
-    height: "197px",
-    objectFit: "contain",
-    [theme.breakpoints.down('md')]: {
-      width: "300px",
-    },
-  },
-
-  extensionHelpTextContainer: {
-    display: "flex",
-    flexDirection: "column",
-    width: "430px",
-    fontFamily: theme.palette.fontFamily,
-    textAlign: "left",
-    [theme.breakpoints.down('md')]: {
-      width: "100%",
-    },
-  },
-
-  extensionHelpHeading: {
-    marginBottom: "10px",
-  },
-
-  extensionHelpParagraph: {
-    marginBottom: "30px",
-  },
-
-  extensionHelpButtonContainer: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    cursor: "pointer",
-  },
-
-  extensionDownloadButton: {
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "flex-start",
-    paddingLeft: "10px",
-    paddingRight: "20px",
-    height: "39px",
-    borderRadius: "32px",
-    backgroundColor: "#eaeaea",
-    color: "#585858",
-    marginBottom: "20px",
-    fontSize: "16px",
-    textTransform: "capitalize",
-    fontWeight: "bold",
-    textAlign: "left",
-  },
-
-  extensionDownloadButtonIcon: {
-    width: "28px",
-    height: "28px",
-    marginRight: "10px",
-    fontSize: "40px",
-    textAlign: "left",
-  },
-
-  extensionDownloadButtonIconFireFox: {
-    marginLeft: "3px",
-  },
-
-});
+const useStyles = makeStyles(styles);
 
 const Social = ({
-  classes,
   intl,
   sourcePage = "thankyou" /* default value */,
   style,
 }) => {
+  const classes = useStyles();
   var rootClassName = (sourcePage === "thankyou") ? classes.offsetThankYou : classes.offset;
 
   const emailSubject = intl.formatMessage({
@@ -173,6 +55,16 @@ const Social = ({
   });
   const facebookQuote = intl.formatMessage({
     id: "social.facebookQuote",
+    defaultMessage:
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org.",
+  });
+  const whatsappMessage = intl.formatMessage({
+    id: "social.whatsappMessage",
+    defaultMessage:
+      "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org.",
+  });
+  const redditTitle = intl.formatMessage({
+    id: "social.redditTitle",
     defaultMessage:
       "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org.",
   });
@@ -262,75 +154,78 @@ const Social = ({
         </div>
       )}
 
-      <Typography
-        variant="h6"
-        gutterBottom={true}
-        className={classes.shareHeading}
-      >
-        <FormattedMessage
-          id="social.shareHeading"
-          defaultMessage="If you find this service useful, please spread the word"
-        />
+      <Typography className={classes.shareHeading} variant="h4">
+        <FormattedMessage id="social.shareHeading" defaultMessage="Share this page" />
       </Typography>
+
       <div className={classes.shareButton}>
         <FacebookShareButton
-          additionalProps={shareButtonProps}
-          beforeOnClick={trackShare.bind(null, "facebook")}
-          url={
-            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=facebook&pk_source=" +
-            sourcePage
-          }
-          className="ss-btn SocialMediaShareButton--facebook"
+          url="https://yourdigitalrights.org"
           quote={facebookQuote}
+          beforeOnClick={() => trackShare("facebook")}
+          {...shareButtonProps}
         >
-          <Image src={FBIcon} />
+          <FontAwesomeIcon icon={faFacebook} color="white" />
         </FacebookShareButton>
       </div>
-      <div className={classes.shareButton}>
-        <LinkedinShareButton
-          additionalProps={shareButtonProps}
-          beforeOnClick={trackShare.bind(null, "linkedin")}
-          url={
-            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=linkedin&pk_source=" +
-            sourcePage
-          }
-          className="ss-btn SocialMediaShareButton--linkedin"
-        >
-          <Image src={LinkedInIcon} />
-        </LinkedinShareButton>
-      </div>
+
       <div className={classes.shareButton}>
         <TwitterShareButton
-          borderRadius={15}
-          additionalProps={shareButtonProps}
-          beforeOnClick={trackShare.bind(null, "twitter")}
-          url={
-            "https://yourdigitalrights.org/?pk_campaign=siteshare&pk_kwd=twitter&pk_source=" +
-            sourcePage
-          }
+          url="https://yourdigitalrights.org"
           title={twitterTitle}
-          hashtags={[
-            "GDPR",
-            "CCPA",
-            "yourdigitalrights",
-            "righttobeforgotten",
-            "optout",
-            "ownyourdata",
-          ]}
-          className="ss-btn SocialMediaShareButton--twitter"
+          beforeOnClick={() => trackShare("twitter")}
+          {...shareButtonProps}
         >
-          <Image src={TwitterIcon} />
+          <FontAwesomeIcon icon={faTwitter} color="white" />
         </TwitterShareButton>
       </div>
-      <a
-        href={emailLink}
-        onClick={handleEmailClick}
-        className="ss-btn SocialMediaShareButton--email"
-      >
-        <Image src={EmailIcon} />
-      </a>
+
+      <div className={classes.shareButton}>
+        <LinkedinShareButton
+          url="https://yourdigitalrights.org"
+          beforeOnClick={() => trackShare("linkedin")}
+          {...shareButtonProps}
+        >
+          <FontAwesomeIcon icon={faLinkedin} color="white" />
+        </LinkedinShareButton>
+      </div>
+
+      <div className={classes.shareButton}>
+        <WhatsappShareButton
+          url="https://yourdigitalrights.org"
+          title={whatsappMessage}
+          beforeOnClick={() => trackShare("whatsapp")}
+          {...shareButtonProps}
+        >
+          <FontAwesomeIcon icon={faWhatsapp} color="white" />
+        </WhatsappShareButton>
+      </div>
+
+      <div className={classes.shareButton}>
+        <RedditShareButton
+          url="https://yourdigitalrights.org"
+          title={redditTitle}
+          beforeOnClick={() => trackShare("reddit")}
+          {...shareButtonProps}
+        >
+          <FontAwesomeIcon icon={faReddit} color="white" />
+        </RedditShareButton>
+      </div>
+
+      <div className={classes.shareButton}>
+        <button
+          onClick={() => {
+            trackShare("email");
+            window.open(`mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`, '_blank');
+          }}
+          className={shareButtonProps.className}
+          style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer' }}
+        >
+          <FontAwesomeIcon icon={faEnvelope} color="white" />
+        </button>
+      </div>
     </div>
   );
 };
 
-export default withStyles(styles)(injectIntl(Social));
+export default injectIntl(Social);

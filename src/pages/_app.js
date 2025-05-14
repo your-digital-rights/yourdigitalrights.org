@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Head from 'next/head'
 import Script from 'next/script'
-import { ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider as MuiThemeProvider } from '@mui/material/styles';
+import { ThemeProvider as StylesThemeProvider } from '@mui/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from '../styles/theme';
 import { IntlProvider } from "react-intl"
@@ -62,12 +63,14 @@ export default function MyApp(props) {
             throw err;
           }}
         >
-        <ThemeProvider theme={theme}>
-          {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-          <CssBaseline />
-          <Component {...pageProps} />
-          <Analytics />
-        </ThemeProvider>
+        <StylesThemeProvider theme={theme}>
+          <MuiThemeProvider theme={theme}>
+            {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
+            <CssBaseline />
+            <Component {...pageProps} />
+            <Analytics />
+          </MuiThemeProvider>
+        </StylesThemeProvider>
       </IntlProvider>
     </AppCacheProvider>
   );

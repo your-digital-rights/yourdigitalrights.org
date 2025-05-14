@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./styles";
 import { RedirectHeadingText, RedirectText, ContinueText } from "./text";
 import Modal from "@mui/material/Modal";
@@ -7,14 +6,15 @@ import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { injectIntl } from "react-intl";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Image from 'next/image';
 import Close from "../../../public/images/close.svg";
 import Logo from "../../../public/images/logo.svg";
 
-const Overlay = (props) => {
-  const { classes } = props;
+const useStyles = makeStyles(styles);
 
+const Overlay = (props) => {
+  const classes = useStyles();
   const backdropProps = { classes: { root: classes.backdrop } };
 
   return (
@@ -53,4 +53,4 @@ const Overlay = (props) => {
   );
 };
 
-export default injectIntl(withStyles(styles)(Overlay));
+export default injectIntl(Overlay);

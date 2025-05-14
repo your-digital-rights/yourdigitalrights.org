@@ -1,12 +1,12 @@
 import { Title } from "./text";
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import { ImageList } from '@mui/material';
 import { ImageListItem } from '@mui/material';
 import Image from "next/legacy/image";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import styles from "./styles";
 
 const items = [
   { name: "Fast Company", image: "/images/press/fastcompany.png", url: "https://www.fastcompany.com/90310803/here-are-the-data-brokers-quietly-buying-and-selling-your-personal-information" },
@@ -21,23 +21,27 @@ const items = [
   
 ];
 
+const PressCoverageContainer = styled('div')(styles.container);
+const PressCoverageInner = styled('div')(styles.inner);
+const StyledImageList = styled(ImageList)(styles.gridList);
+const StyledImage = styled(Image)(styles.pressLogo);
 
-const PressCoverage = ({ classes }) => {
-
+const PressCoverage = () => {
   const theme = useTheme();
   const slicedItems = useMediaQuery(theme.breakpoints.up('md')) ? items : items.slice(0,4);
+  
   return (
-    <div className={classes.container}>
-        <Typography
-          variant={"h5"}
-          className={classes.title}
-          gutterBottom={true}
-          component={"h2"}
-        >
+    <PressCoverageContainer>
+      <Typography
+        variant="h5"
+        gutterBottom={true}
+        component="h2"
+        sx={{ textAlign: "center" }}
+      >
         {Title}
       </Typography>
-      <div className={classes.inner}>
-        <ImageList className={classes.gridList} cols={slicedItems.length} rowHeight={50} gap={50}>
+      <PressCoverageInner>
+        <StyledImageList cols={slicedItems.length} rowHeight={50} gap={50}>
           {slicedItems.map((item) => (
             <ImageListItem
               button="true"
@@ -46,17 +50,17 @@ const PressCoverage = ({ classes }) => {
               href={item.url}
               key={item.url}
             >
-              <Image
-              className={classes.pressLogo}
-              src={item.image}
-              alt={item.name}
-              layout='fill'
-            />  
+              <StyledImage
+                src={item.image}
+                alt={item.name}
+                layout='fill'
+              />  
             </ImageListItem>
           ))}
-        </ImageList>
-      </div>
-    </div>
+        </StyledImageList>
+      </PressCoverageInner>
+    </PressCoverageContainer>
   );
 };
-export default withStyles(styles)(PressCoverage);
+
+export default PressCoverage;

@@ -21,7 +21,8 @@ const Theme = (theme) => ({
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",
-    padding: "10px 20px",
+    padding: "10px 30px",
+    minWidth: "180px",
     "&:hover": {
       background: "#04487B",
     },
@@ -32,12 +33,10 @@ const Theme = (theme) => ({
     borderRadius: "24px 24px 24px 24px",
     color: "white",
     fontWeight: "600",
-    padding: "10px 20px",
+    padding: "10px 30px",
+    minWidth: "180px",
     "&:hover": {
       background: "#04487B",
-    },
-    [theme.breakpoints.down('md')]: {
-      marginBottom: '35px',
     },
   },
   intro: {
@@ -54,6 +53,15 @@ const Theme = (theme) => ({
   buttons: {
     textAlign: "center",
     marginBottom: "30px",
+    display: "flex",
+    justifyContent: "center",
+    "@media (max-width: 900px)": {
+      flexDirection: "column",
+      gap: "30px",
+      "& $leftButton": {
+        marginRight: 0,
+      },
+    },
   },
 });
 

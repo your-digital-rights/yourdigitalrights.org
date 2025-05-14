@@ -4,11 +4,10 @@ import DeletePII from "../../../components/DeletePII";
 import Nav from "../../../components/Nav";
 import Paper from "@mui/material/Paper";
 import { container } from "../../../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
 import { useRouter } from 'next/router'
-
 
 const styles = (theme) => ({
   hero: {
@@ -37,8 +36,10 @@ const styles = (theme) => ({
   }
 });
 
+const useStyles = makeStyles(styles);
 
-const DeleteData = ({ classes }) => {
+const DeleteData = () => {
+  const classes = useStyles();
   const router = useRouter();
   const { uuid } = router.query;
   const intl = useIntl();
@@ -69,4 +70,4 @@ const DeleteData = ({ classes }) => {
   );
 };
 
-export default withStyles(styles)(DeleteData);
+export default DeleteData;

@@ -1,4 +1,4 @@
-const Theme = (theme) => ({
+const styles = {
   container: {
     maxWidth: "1000px",
     margin: "auto",
@@ -6,11 +6,11 @@ const Theme = (theme) => ({
     paddingBottom: 0,
     display: "flex",
     flexDirection: "column",
-    [theme.breakpoints.up("sm")]: {
+    "@media (min-width: 600px)": {
       padding: "60px 60px 0",
       margin: "60px auto 0",
     },
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 900px)": {
       marginTop: "-120px",
       paddingTop: "150px",
     },
@@ -18,6 +18,8 @@ const Theme = (theme) => ({
   title: {
     textAlign: "center",
     marginBottom: "1.5em",
+    fontSize: "2rem",
+    fontWeight: 700,
   },
   accordionBody: {
     justifyContent: "center",
@@ -26,6 +28,10 @@ const Theme = (theme) => ({
     margin: "0px 24px",
     color: "#2F4F4F",
   },
-});
+  accordionHeading: {
+    fontSize: "1.25rem",
+    fontWeight: 600,
+  },
+};
 
-export default Theme;
+export default styles;

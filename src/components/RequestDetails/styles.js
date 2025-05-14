@@ -12,9 +12,10 @@ const Style = (theme) => ({
   container: {
     maxWidth: "860px",
     boxSizing: "border-box",
+    margin: "0px auto",
+    width: "100%",
     [theme.breakpoints.down('md')]: {
-      padding: "30px 30px 0px",
-      width: "100%",
+      padding: "30px 0px 0px",
     },
   },
   header: {
@@ -25,6 +26,9 @@ const Style = (theme) => ({
     padding: "28px 50px",
     color: theme.palette.primary.main,
     fontWeight: "normal",
+    [theme.breakpoints.down('md')]: {
+      padding: "28px 30px",
+    },
   },
   detailsList: {
     fontSize: "18px",

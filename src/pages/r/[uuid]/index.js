@@ -4,7 +4,7 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, GetCommand } from "@aws-sdk/lib-dynamodb";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Subscribe from "../../../components/Subscribe";
 import Footer from "../../../components/Footer";
 import Nav from "../../../components/Nav";
@@ -68,7 +68,10 @@ const styles = (theme) => ({
   },  
 });
 
-const Uuid = ({classes, data, router, intl}) => {
+const useStyles = makeStyles(styles);
+
+const Uuid = ({data, router, intl}) => {
+  const classes = useStyles();
   const requestItem = data.item;
   const [status, setStatus] = React.useState(requestItem.status || "NO_REPLY");
   const { uuid } = router.query;
@@ -184,4 +187,4 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default withStyles(styles)(withRouter(injectIntl(Uuid)));
+export default withRouter(injectIntl(Uuid));

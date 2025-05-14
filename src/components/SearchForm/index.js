@@ -13,11 +13,17 @@ import Paper from "@mui/material/Paper";
 import { fetchDomains } from "../../utils/domains";
 import styles from "./styles";
 import tracker from "../../utils/tracking";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Link from "next/link";
 import Router from "next/router";
 import ImageWithFallback from '../../utils/image';
 
+const StyledForm = styled('form')(styles().form);
+const StyledPaper = styled(Paper)(styles().results);
+const StyledMenuList = styled(MenuList)(styles().list);
+const StyledInput = styled(Input)(styles().searchInputWrapper);
+const StyledInputAdornment = styled(InputAdornment)(styles().searchIcon);
+const StyledListItemText = styled(ListItemText)(styles().searchItem);
 
 class Form extends Component {
   state = {
@@ -81,34 +87,33 @@ class Form extends Component {
   }
 
   renderInput = (InputProps) => {
-    const { classes, companies, intl } = this.props;
+    const { intl } = this.props;
     const label = this.props.intl.formatMessage({
       id: "search.companyPlaceholder",
       defaultMessage: "Search for an organization"
     });
     return (
           <div>
-            <Input
+            <StyledInput
               autoFocus
               {...InputProps}
               id="companyNameSearch"
               onInput={this.handleInput}
               value={this.state.companyNameSearch}
               startAdornment={
-                <InputAdornment position="start" className={classes.searchIcon}>
+                <StyledInputAdornment position="start">
                   <Search/>
-                </InputAdornment>
+                </StyledInputAdornment>
               }
               endAdornment={
                 this.state.companyNameSearch && !this.state.companiesLoaded ? (
-                  <CircularProgress className={classes.progress} size={24} />
+                  <CircularProgress size={24} />
                 ) : null
               }
               disableUnderline={true}
               placeholder={label}
               label={label}
               fullWidth={true}
-              className={classes.searchInputWrapper}
               autoComplete="off"
             />
           </div>
@@ -121,7 +126,6 @@ class Form extends Component {
     highlightedIndex,
     selectedItem,
     itemProps,
-    classes,
   }) => {
     const isHighlighted = highlightedIndex === i;
     var src = `https://logo.uplead.com/${result.url}`;
@@ -142,9 +146,8 @@ class Form extends Component {
               height={24}
               fallbackSrc="/images/Keep-it-private.png"
             />
-            <ListItemText
+            <StyledListItemText
               disableTypography={true}
-              className={classes.searchItem}
               primary={`${result.name} (${result.url})`}
               id={`search-result-${result.url}`}
             />
@@ -155,9 +158,8 @@ class Form extends Component {
   };
 
   render() {
-    const { classes } = this.props;
     return (
-      <form id="searchForm" className={classes.form}>
+      <StyledForm id="searchForm">
         <Downshift
           onSelect={this.onItemSelected}
           itemToString={(result) => result && result.name}
@@ -172,10 +174,10 @@ class Form extends Component {
             highlightedIndex,
           }) => (
             <div>
-              <Paper className={classes.results} elevation={2} >
+              <StyledPaper elevation={2}>
                 {this.renderInput(getInputProps())}
                 {isOpen && (
-                  <MenuList className={classes.list}>
+                  <StyledMenuList>
                     {!!this.state.searchResults.length &&
                       this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({
@@ -184,7 +186,6 @@ class Form extends Component {
                           itemProps: getItemProps({ item: result }),
                           highlightedIndex,
                           selectedItem,
-                          classes,
                         })
                       )}
                     <MenuItem
@@ -209,14 +210,15 @@ class Form extends Component {
                         </ListItemText>
                       </Link>
                     </MenuItem>
-                  </MenuList>
+                  </StyledMenuList>
                 )}
-              </Paper>
+              </StyledPaper>
             </div>
           )}
         </Downshift>
-      </form>
+      </StyledForm>
     );
   }
 }
-export default injectIntl(withStyles(styles)(Form));
+
+export default injectIntl(Form);

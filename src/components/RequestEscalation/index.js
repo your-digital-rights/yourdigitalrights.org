@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import { FormattedMessage } from "react-intl";
 import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import { makeStyles } from '@mui/styles';
 import Paper from "@mui/material/Paper";
 import Regulations from "../../utils/regulations";
 import {getCountryCode} from "../../utils/geolocation";
@@ -11,7 +11,10 @@ import EmailSendButton from "../EmailSendButton";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const RequestEscalation = ({ classes, intl, requestItem, status }) => {
+const useStyles = makeStyles(styles);
+
+const RequestEscalation = ({ intl, requestItem, status }) => {
+  const classes = useStyles();
   const form = useRef();
   const regulation = Regulations[requestItem.regulationType];
   const defaultDPAAction = regulation.dpa.defaultAction;
@@ -37,7 +40,6 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
   const handleFormSubmit = (e) => {
     e.preventDefault();
   }
-
 
   const handleEscalationEmailClick = (generateEmailFields) => {
     const uuid = requestItem.id;
@@ -233,4 +235,5 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
     </div>
   );
 };
-export default withStyles(styles)(RequestEscalation);
+
+export default RequestEscalation;

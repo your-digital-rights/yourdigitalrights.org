@@ -1,19 +1,18 @@
 import { container } from "../../styles/layout";
-import { theme } from "../../styles/theme";
 
-const Theme = (theme) => ({
-  hero: {
+const styles = {
+  hero: ({ theme }) => ({
     backgroundColor: theme.palette.primary.main,
     [theme.breakpoints.down('md')]: {
       paddingTop: "50px",
     },
     color: "white",
-  },
+  }),
   heading: {
     maxWidth: "970px !important",
     margin: "auto auto",
   },
-  container: {
+  container: ({ theme }) => ({
     padding: "30px",
     boxSizing: "border-box",
     ...container,
@@ -23,7 +22,7 @@ const Theme = (theme) => ({
       backgroundPosition: "right 70px top 100px",
       backgroundRepeat: "no-repeat",
     },
-  },
+  }),
   intro: {
     maxWidth: "650px",
   },
@@ -41,6 +40,6 @@ const Theme = (theme) => ({
   title: {
     marginBottom: 0,
   },
-});
+};
 
-export default Theme;
+export default styles;

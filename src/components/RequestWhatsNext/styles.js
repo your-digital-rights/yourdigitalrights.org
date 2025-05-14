@@ -35,6 +35,7 @@ const Style = (theme) => ({
     listStyle: "none",
     margin: "39px 0 0",
     padding: "0px 0px 20px",
+    justifyContent: "center",
   },
   button: {
     margin: "0 10px 10px 10px",

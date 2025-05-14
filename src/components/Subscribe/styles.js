@@ -1,7 +1,6 @@
 import { container } from "../../styles/layout";
-import { theme } from "../../styles/theme";
 
-const Theme = (theme) => ({
+const styles = {
   heading: {
     color: "white",
     padding: "25px 8% 20px",
@@ -9,7 +8,7 @@ const Theme = (theme) => ({
     borderRadius: "20px",
     maxWidth: "980px !important",
     margin: "30px 30px 60px",
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 900px)": {
       display: "inherit",
       margin: "auto 10px",
     },
@@ -19,13 +18,13 @@ const Theme = (theme) => ({
     boxSizing: "border-box",
     textAlign: "center",
     ...container,
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 900px)": {
       paddingLeft: "0px",
       paddingRight: "0px",
     }
   },
   image: {
-    [theme.breakpoints.down('md')]: {
+    "@media (max-width: 900px)": {
       display: "none",
     },
   },
@@ -54,6 +53,6 @@ const Theme = (theme) => ({
   intro: {
     marginBottom: "20px",
   }
-});
+};
 
-export default Theme;
+export default styles;

@@ -8,38 +8,40 @@ import HowItWorks from "../components/HowItWorks";
 import Nav from "../components/Nav";
 import SearchForm from "../components/SearchForm";
 import tracking from "../utils/tracking";
-import withStyles from '@mui/styles/withStyles';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
 import PressCoverage from "../components/PressCoverage";
-
-const styles = (theme) => ({
-  topOfPagePlaceholder: {
-    height: "72px",
-  },
-  mainContainer: {
-    position: "relative",
-  },
-  desktopSearchbar: {
-    display: "block",
-  },
-  press: {
-    [theme.breakpoints.down('sm')]: {
-      display: "none",
-    },    
-  },
-  subscribeContainer: {
-    backgroundColor: theme.palette.primary.main,
-    marginTop: "-145px",
-    paddingTop: "210px",
-    paddingBottom: "30px",
-  },  
-});
+import { styled } from '@mui/material/styles';
 
 const tabletBreakpoint = 900;
 
-const Index = ({ classes, intl, router }) => {
+const TopOfPagePlaceholder = styled('input')({
+  height: "72px",
+});
+
+const MainContainer = styled('div')({
+  position: "relative",
+});
+
+const DesktopSearchbar = styled('div')({
+  display: "block",
+});
+
+const Press = styled('div')(({ theme }) => ({
+  [theme.breakpoints.down('sm')]: {
+    display: "none",
+  },
+}));
+
+const SubscribeContainer = styled('div')(({ theme }) => ({
+  backgroundColor: theme.palette.primary.main,
+  marginTop: "-145px",
+  paddingTop: "210px",
+  paddingBottom: "30px",
+}));
+
+const Index = ({ intl, router }) => {
   const [screenWidth, setScreenWidth] = useState(null);
   const BaseURL = "";
   const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
@@ -73,8 +75,8 @@ const Index = ({ classes, intl, router }) => {
           screenWidth < tabletBreakpoint &&
           renderSearchForm()}
       </Nav>
-      <div className={classes.mainContainer}>
-        <div className={classes.scrollableContainer}></div>
+      <MainContainer>
+        <div></div>
         <NextSeo
           canonical = {generateCanonical(BaseURL, router.locale)}
           description = {Description}
@@ -83,26 +85,26 @@ const Index = ({ classes, intl, router }) => {
           }}
           languageAlternates = {generateLangLinks(BaseURL)}
         />
-        <input className={classes.topOfPagePlaceholder} />
+        <TopOfPagePlaceholder />
         <Hero>
           {screenWidth !== null && screenWidth >= tabletBreakpoint && (
-            <div className={classes.desktopSearchbar}>
+            <DesktopSearchbar>
               {renderSearchForm()}
-            </div>
+            </DesktopSearchbar>
           )}
         </Hero>
-        <div className={classes.press}>
+        <Press>
           <PressCoverage />
-        </div>
+        </Press>
         <HowItWorks />
         <FAQ />
-        <div className={classes.subscribeContainer}>
+        <SubscribeContainer>
           <Subscribe page="homepage" />
-        </div>
+        </SubscribeContainer>
         <Footer />
-      </div>
+      </MainContainer>
     </div>
   );
 }
 
-export default withStyles(styles)(withRouter(injectIntl(Index)));
+export default withRouter(injectIntl(Index));
