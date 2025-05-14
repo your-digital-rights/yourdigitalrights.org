@@ -18,6 +18,8 @@ const styles = {
   title: {
     textAlign: "center",
     marginBottom: "1.5em",
+    fontSize: "2rem",
+    fontWeight: 700,
   },
   accordionBody: {
     justifyContent: "center",
@@ -25,6 +27,10 @@ const styles = {
   list: {
     margin: "0px 24px",
     color: "#2F4F4F",
+  },
+  accordionHeading: {
+    fontSize: "1.25rem",
+    fontWeight: 600,
   },
 };
 

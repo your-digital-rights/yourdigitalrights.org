@@ -62,7 +62,7 @@ class FAQ extends Component {
           id={`faq-${index}`}
           expandIcon={<ExpandMoreIcon />}
         >
-          <Typography variant={"body2"}>{heading}</Typography>
+          <Typography variant={"body2"} sx={styles.accordionHeading}>{heading}</Typography>
         </AccordionSummary>
         <AccordionDetails sx={styles.accordionBody}>
           {this.renderItemBody(body)}

@@ -19,7 +19,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EmailIcon from '@mui/icons-material/Email';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import Image from "next/legacy/image";
-import { StyledButtonGroup, StyledButton, StyledPopper, StyledMenuItemIcon } from './styles';
+import { StyledButtonGroup, StyledButton, StyledPopper, StyledMenuItemIcon, StyledButtonTitle } from './styles';
 
 function defaultAction(to, cc, subject, body) {
     return function() {
@@ -67,22 +67,22 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
     const emailOptions = [
         {
             name: 'Default',
-            text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"})}</StyledButtonTitle>, 
             icon: <EmailIcon className={undefined}/>, 
             run: defaultAction},
         {
             name: 'Gmail',
-            text: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"})}</StyledButtonTitle>, 
             icon: <StyledMenuItemIcon><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></StyledMenuItemIcon>, 
             run: gmailAction}, 
         {
             name: 'Yahoo mail',
-            text: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"})}</StyledButtonTitle>, 
             icon: <StyledMenuItemIcon><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></StyledMenuItemIcon>, 
             run: yahooAction}, 
         {
             name: 'Copy',
-            text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
+            text: <StyledButtonTitle>{intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"})}</StyledButtonTitle>, 
             icon: <AssignmentIcon className={undefined} />, 
             run: copyAction},
     ];
