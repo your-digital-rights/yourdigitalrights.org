@@ -42,98 +42,100 @@ const Footer = ({ showRoadmap = true }) => {
   };
 
   return (
-    <Box sx={{ maxWidth: "1000px", margin: "0 auto", padding: "0 30px" }}>
-      {showRoadmap && (
-        <Box sx={{ textAlign: "center", mb: 4 }}>
-          <StyledButton
-            onClick={trackWishlist}
-            variant="contained"
-            href="https://wishlist.yourdigitalrights.org/"
-            color="secondary"
-            type="submit"
-            target="_blank"
-          >
-            {WishButtonText}
-          </StyledButton>
-        </Box>
-      )}
-
-      <Box sx={{ 
-        mt: 4, 
-        pt: 4, 
-        pb: 4,
-        borderTop: "1px solid #eaeaea",
-        display: "flex",
-        flexDirection: { xs: "column", md: "row" },
-        gap: 4
-      }}>
-        <Box sx={{ 
-          width: { xs: "100%", md: "20%" },
-          textAlign: { xs: "center", md: "left" }
-        }}>
-          <Typography component="p" variant="subtitle2">
-            <FormattedMessage
-              id="footer.madeBy"
-              defaultMessage="<a>Made by Conscious Digital</a>"
-              values={{
-                a: txt => (<StyledLink target="_blank" href="https://consciousdigital.org">{txt}</StyledLink>)
-              }}
-            />
-          </Typography>
-          <Typography component="p" variant="subtitle2">
-            <FormattedMessage
-              id="footer.stats"
-              defaultMessage="<a>Statistics</a>"
-              values={{
-                a: txt => (
-                  <Link href="/stats" passHref legacyBehavior>
-                    <a style={{ color: "#005ea5", fontWeight: 600, textDecoration: "none" }}>
-                      {txt}
-                    </a>
-                  </Link>
-                )
-              }}
-            />
-          </Typography>
-          <Typography component="p" variant="subtitle2">
-            <FormattedMessage
-              id="footer.privacyPolicy"
-              defaultMessage="<a>Privacy Policy</a>"
-              values={{
-                a: txt => (
-                  <Link href="/privacy" passHref legacyBehavior>
-                    <a style={{ color: "#005ea5", fontWeight: 600, textDecoration: "none" }}>
-                      {txt}
-                    </a>
-                  </Link>
-                )
-              }}
-            />
-          </Typography>
-          <Typography component="p" variant="subtitle2">
-            <StyledLink target="_blank" rel="nofollow" href="https://www.uplead.com">
-              Logos by UpLead
-            </StyledLink>
-          </Typography>
-          <Link target="_blank" href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss" passHref>
-            <StyledVercelLogo 
-              src={Vercel}
-              alt={PoweredBy}
-            />
-          </Link>
-        </Box>
+    <>
+      <Box sx={{ width: '100vw', position: 'relative', left: '50%', right: '50%', marginLeft: '-50vw', marginRight: '-50vw', borderTop: '1px solid #eaeaea' }} />
+      <Box sx={{ maxWidth: "1000px", margin: "0 auto", padding: "0 30px" }}>
+        {showRoadmap && (
+          <Box sx={{ textAlign: "center", mb: 4 }}>
+            <StyledButton
+              onClick={trackWishlist}
+              variant="contained"
+              href="https://wishlist.yourdigitalrights.org/"
+              color="secondary"
+              type="submit"
+              target="_blank"
+            >
+              {WishButtonText}
+            </StyledButton>
+          </Box>
+        )}
 
         <Box sx={{ 
-          width: { xs: "100%", md: "80%" },
-          fontSize: { xs: '10px', md: '14px' },
-          fontWeight: 400
+          mt: 4, 
+          pt: 4, 
+          pb: 4,
+          display: "flex",
+          flexDirection: { xs: "column", md: "row" },
+          gap: 4
         }}>
-          <Typography gutterBottom color="textSecondary" variant="subtitle2">
-            {DisclaimerText}
-          </Typography>
+          <Box sx={{ 
+            width: { xs: "100%", md: "20%" },
+            textAlign: { xs: "center", md: "left" }
+          }}>
+            <Typography component="p" variant="subtitle2">
+              <FormattedMessage
+                id="footer.madeBy"
+                defaultMessage="<a>Made by Conscious Digital</a>"
+                values={{
+                  a: txt => (<StyledLink target="_blank" href="https://consciousdigital.org">{txt}</StyledLink>)
+                }}
+              />
+            </Typography>
+            <Typography component="p" variant="subtitle2">
+              <FormattedMessage
+                id="footer.stats"
+                defaultMessage="<a>Statistics</a>"
+                values={{
+                  a: txt => (
+                    <Link href="/stats" passHref legacyBehavior>
+                      <a style={{ color: "#005ea5", fontWeight: 600, textDecoration: "none" }}>
+                        {txt}
+                      </a>
+                    </Link>
+                  )
+                }}
+              />
+            </Typography>
+            <Typography component="p" variant="subtitle2">
+              <FormattedMessage
+                id="footer.privacyPolicy"
+                defaultMessage="<a>Privacy Policy</a>"
+                values={{
+                  a: txt => (
+                    <Link href="/privacy" passHref legacyBehavior>
+                      <a style={{ color: "#005ea5", fontWeight: 600, textDecoration: "none" }}>
+                        {txt}
+                      </a>
+                    </Link>
+                  )
+                }}
+              />
+            </Typography>
+            <Typography component="p" variant="subtitle2">
+              <StyledLink target="_blank" rel="nofollow" href="https://www.uplead.com">
+                Logos by UpLead
+              </StyledLink>
+            </Typography>
+            <Link target="_blank" href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss" passHref>
+              <StyledVercelLogo 
+                src={Vercel}
+                alt={PoweredBy}
+              />
+            </Link>
+          </Box>
+
+          <Box sx={{ 
+            width: { xs: "100%", md: "80%" },
+            fontSize: { xs: '10px', md: '14px' },
+            fontWeight: 400
+          }}>
+            <Typography gutterBottom color="textSecondary" variant="subtitle2">
+              {DisclaimerText}
+            </Typography>
+          </Box>
         </Box>
       </Box>
-    </Box>
+    </>
   );
 };
 
