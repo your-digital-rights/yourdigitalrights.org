@@ -19,12 +19,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EmailIcon from '@mui/icons-material/Email';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import Image from "next/legacy/image";
-import styles from './styles';
-
-const StyledButtonGroup = styled(ButtonGroup)(styles().border);
-const StyledButton = styled(Button)(styles().border);
-const StyledPopper = styled(Popper)(styles().popper);
-const StyledMenuItemIcon = styled('div')(styles().menueItemIcon);
+import { StyledButtonGroup, StyledButton, StyledPopper, StyledMenuItemIcon } from './styles';
 
 function defaultAction(to, cc, subject, body) {
     return function() {
@@ -73,7 +68,7 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
         {
             name: 'Default',
             text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
-            icon: <EmailIcon className={styles().menueItemIcon}/>, 
+            icon: <EmailIcon className={undefined}/>, 
             run: defaultAction},
         {
             name: 'Gmail',
@@ -88,7 +83,7 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
         {
             name: 'Copy',
             text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
-            icon: <AssignmentIcon className={styles().menueItemIcon} />, 
+            icon: <AssignmentIcon className={undefined} />, 
             run: copyAction},
     ];
     
