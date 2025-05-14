@@ -138,7 +138,7 @@ const EmailSendButton = ({ children, emailType, onClick}) => {
     };
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', width: '100%' }}>
+        <div style={{ display: 'flex', justifyContent: 'flex-start', width: '100%' }} className="email-send-btn-wrapper">
             <StyledButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button">
                 <StyledButton 
                     onClick={handleClick} 
