@@ -360,9 +360,12 @@ class Form extends Component {
             helperText={RegulationTypeHelperText}
             margin="normal"
           >
-            { Object.keys(Regulations).sort().map((key) => 
-              <option key={key} value={key}>{`${Regulations[key].gepgraphy} (${Regulations[key].displayName})`}</option>
-            )}
+            { Object.entries(Regulations)
+                .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
+                .map(([key, value]) => 
+                  <option key={key} value={key}>{`${value.geography} (${value.displayName})`}</option>
+                )
+            }
           </TextField>
           <TextField
             variant="outlined"
