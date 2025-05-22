@@ -1,4 +1,4 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+Zur Achtung der Datenschutzabteilung / Datenschutzbeauftragter / Rechtsabteilung von {{ companyName }} ({{ companyUrl }}),
 
 I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 
@@ -6,27 +6,27 @@ To the extent that you rely on consent to process my personal data, I withdraw t
 
 If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+Bitte bitten Sie mich nicht, einen Selbstbedienungsprozess durchzuführen, wie z.B. meine Daten auf Ihrer Website zu suchen, ein Formular auszufüllen oder eine mobile Werbe-ID anzugeben. Diese Anfragen stellen eine unangemessene Belastung für mich dar. 
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
+Bitte verwenden Sie die folgenden Informationen, um mich in Ihren Unterlagen zu identifizieren:
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please delete all my personal data which does not fall under these exceptions.
+If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Bitte geben Sie an, auf welche Abschnitte und Unterabschnitte des Gesetzes Sie sich berufen, und nennen Sie den konkreten Grund, aus dem Sie sich auf diese Ausnahmen berufen, z.B. welche rechtliche Verpflichtung oder welcher interne Zweck oder Nutzen. Please delete all my personal data which does not fall under these exceptions.
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+Diese E-Mail-Nachricht wurde von meinem persönlichen E-Mail-Konto gesendet (wie Sie in der Kopfzeile der E-Mail sehen können). Bitte nutzen Sie diese Tatsache, um meine Identität zu überprüfen. Bitte fordern Sie mich nicht auf, weitere Angaben zur Identifizierung zu machen, da dies eine unangemessene Belastung für mich darstellt. Sollten Sie gesetzlich verpflichtet sein, zusätzliche Informationen zur Identifizierung meiner Person zu verlangen, teilen Sie mir dies bitte so schnell wie möglich mit. 
 
 Please confirm that you have deleted my personal data from your paper and/or computer records and that you have followed up with any third-party organization with whom my information has been shared to ensure that they deleted their copy of the data. 
 
-My preferred method of contact is email. 
+Meine bevorzugte Methode der Kontaktaufnahme ist E-Mail. 
 
 Please note that I do not consent to any personal data which is part of this request to be used for any purpose other than fulfilling this request, except in the case of a suppression list, which you may keep in order to ensure that you do not collect any of my personal data in the future.
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+Bitte beachten Sie, dass Sie {{ regulation.timeLimit }} Tage Zeit haben, dieser Aufforderung nachzukommen. 
 
-Kind regards,
+Mit freundlichen Grüßen,
 
 {{ name }}
 
-Powered by YourDigitalRights.org
+Betrieben durch YourDigitalRights.org
