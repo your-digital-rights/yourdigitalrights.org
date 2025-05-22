@@ -361,7 +361,7 @@ class Form extends Component {
             margin="normal"
           >
             { Object.keys(Regulations).sort().map((key) => 
-              <option key={key} value={key}>{`${Regulations[key].gepgraphy} (${Regulations[key].displayName})`}</option>
+              <option key={key} value={key}>{`${Regulations[key].geography} (${Regulations[key].displayName})`}</option>
             )}
           </TextField>
           <TextField
