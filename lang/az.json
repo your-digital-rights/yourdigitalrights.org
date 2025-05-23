@@ -782,6 +782,9 @@
   "request.next.declineLGPD": {
     "message": "crwdns3420:0crwdne3420:0"
   },
+  "request.next.declineMCDPA": {
+    "message": "crwdns5973:0crwdne5973:0"
+  },
   "request.next.declineMTCDPA": {
     "message": "crwdns5957:0crwdne5957:0"
   },
@@ -797,14 +800,26 @@
   "request.next.declineOPCA": {
     "message": "crwdns5943:0crwdne5943:0"
   },
+  "request.next.declinePDPA": {
+    "message": "crwdns5975:0crwdne5975:0"
+  },
+  "request.next.declinePDPL": {
+    "message": "crwdns5977:0crwdne5977:0"
+  },
   "request.next.declinePIPEDA": {
     "message": "crwdns3694:0crwdne3694:0"
   },
   "request.next.declinePIPL": {
     "message": "crwdns5971:0crwdne5971:0"
   },
+  "request.next.declinePOPIA": {
+    "message": "crwdns5979:0crwdne5979:0"
+  },
   "request.next.declineTDPSA": {
     "message": "crwdns5945:0crwdne5945:0"
+  },
+  "request.next.declineTIPA": {
+    "message": "crwdns5981:0crwdne5981:0"
   },
   "request.next.declineUCPA": {
     "message": "crwdns5947:0crwdne5947:0"
