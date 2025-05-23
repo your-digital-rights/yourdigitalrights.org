@@ -3,7 +3,7 @@ import { FormattedMessage } from "react-intl";
 const Regulations = {
   GDPR: {
     displayName: 'GDPR',
-    gepgraphy: 'European Union',
+    geography: 'European Union',
     longName: 'General Data Protection Regulation',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -250,7 +250,7 @@ const Regulations = {
   },
   GDPRUK: {
     displayName: 'DPA',
-    gepgraphy: 'UK',
+    geography: 'UK',
     longName: 'Data Protection Act',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -293,7 +293,7 @@ const Regulations = {
   },
   CCPA: {
     displayName: 'CCPA',
-    gepgraphy: 'California',
+    geography: 'California',
     longName: 'California Consumer Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -337,7 +337,7 @@ const Regulations = {
   },
   LGPD: {
     displayName: 'LGPD',
-    gepgraphy: 'Brasil',
+    geography: 'Brasil',
     longName: 'Lei Geral de Proteção de Dados Pessoais',
     timeLimit: 15,
     escalation_timeLimit: 30,
@@ -381,7 +381,7 @@ const Regulations = {
   },
   VCDPA: {
     displayName: 'VCDPA',
-    gepgraphy: 'Virginia',
+    geography: 'Virginia',
     longName: 'Virginia Consumer Data Protection Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -425,7 +425,7 @@ const Regulations = {
   },
   PIPEDA: {
     displayName: 'PIPEDA',
-    gepgraphy: 'Canada',
+    geography: 'Canada',
     longName: 'Personal Information Protection and Electronic Documents Act',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -468,7 +468,7 @@ const Regulations = {
   },  
   APPI: {
     displayName: 'APPI',
-    gepgraphy: '日本',
+    geography: '日本',
     longName: '個人情報の保護に関する法律',
     timeLimit: 14,
     escalation_timeLimit: 28,
@@ -512,7 +512,7 @@ const Regulations = {
   },  
   CPA: {
     displayName: 'CPA',
-    gepgraphy: 'Colorado',
+    geography: 'Colorado',
     longName: 'Colorado Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -556,7 +556,7 @@ const Regulations = {
   }, 
   CTDPA: {
     displayName: 'CTDPA',
-    gepgraphy: 'Connecticut',
+    geography: 'Connecticut',
     longName: 'Connecticut Data Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -600,7 +600,7 @@ const Regulations = {
   }, 
   UCPA: {
     displayName: 'UCPA',
-    gepgraphy: 'Utah',
+    geography: 'Utah',
     longName: 'Utah Consumer Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -644,7 +644,7 @@ const Regulations = {
   }, 
   TDPSA: {
     displayName: 'TDPSA',
-    gepgraphy: 'Texas',
+    geography: 'Texas',
     longName: 'Texas Data Privacy and Security Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -684,7 +684,7 @@ const Regulations = {
   }, 
   OPCA: {
     displayName: 'OPCA',
-    gepgraphy: 'Oregon',
+    geography: 'Oregon',
     longName: 'Oregon Consumer Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -729,7 +729,7 @@ const Regulations = {
 
   FDBR: {
     displayName: 'FDBR',
-    gepgraphy: 'Florida',
+    geography: 'Florida',
     longName: 'Florida Digital Bill of Rights',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -774,7 +774,7 @@ const Regulations = {
 
   DPDPA: {
     displayName: 'DPDPA',
-    gepgraphy: 'India',
+    geography: 'India',
     longName: 'Digital Personal Data Protection Act',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -819,7 +819,7 @@ const Regulations = {
 
   FADP: {
     displayName: 'FADP',
-    gepgraphy: 'Switzerland',
+    geography: 'Switzerland',
     longName: 'Federal Act on Data Protection',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -864,7 +864,7 @@ const Regulations = {
 
   MTCDPA: {
     displayName: 'MTCDPA',
-    gepgraphy: 'Montana',
+    geography: 'Montana',
     longName: 'Montana Consumer Data Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -909,7 +909,7 @@ const Regulations = {
 
   ICDPA : {
     displayName: 'ICDPA',
-    gepgraphy: 'Iowa',
+    geography: 'Iowa',
     longName: 'Iowa Consumer Data Protection Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -955,7 +955,7 @@ const Regulations = {
 
   DPDP: {
     displayName: 'DPDP',
-    gepgraphy: 'Delaware',
+    geography: 'Delaware',
     longName: 'Delaware Personal Data Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -1000,7 +1000,7 @@ const Regulations = {
 
   NHDPA: {
     displayName: 'NHDPA',
-    gepgraphy: 'New Hampshire',
+    geography: 'New Hampshire',
     longName: 'New Hampshire Data Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -1045,7 +1045,7 @@ const Regulations = {
 
   NDPA: {
     displayName: 'NDPA',
-    gepgraphy: 'Nebraska',
+    geography: 'Nebraska',
     longName: 'Nebraska Data Privacy Act',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -1090,7 +1090,7 @@ const Regulations = {
 
   NJDPL: {
     displayName: 'NJDPL',
-    gepgraphy: 'New Jersey',
+    geography: 'New Jersey',
     longName: 'New Jersey Data Privacy Law',
     timeLimit: 45,
     escalation_timeLimit: 90,
@@ -1135,7 +1135,7 @@ const Regulations = {
 
   PIPL: {
     displayName: 'PIPL',
-    gepgraphy: '中国',
+    geography: '中国',
     longName: '个人信息保护法',
     timeLimit: 30,
     escalation_timeLimit: 60,
@@ -1174,6 +1174,230 @@ const Regulations = {
     } 
   }, 
 
+  "POPIA": {
+    "displayName": "POPIA",
+    "geography": "South Africa",
+    "longName": "Protection of Personal Information Act",
+    "timeLimit": 30,
+    "escalation_timeLimit": 60,
+    "dpa": {
+      "shortName": "IR",
+      "longName": "Information Regulator",
+      "requestFormURL": "https://inforegulator.org.za/popia/",
+      "defaultAction": "email",
+      "geographies": [
+        {
+          "name": "South Africa",
+          "countryCode": "ZA",
+          "email": "PAIAComplaints@inforegulator.org.za",
+          "website": "https://inforegulator.org.za",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://www.gov.za/sites/default/files/gcis_document/201409/3706726-11act4of2013popi.pdf",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "Section 24",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declinePOPIA"
+            defaultMessage="<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://popia.co.za/section-6-exclusions/"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "Section 23"
+      }
+    }
+  },
+
+  "TIPA": {
+    "displayName": "TIPA",
+    "geography": "Tennessee",
+    "longName": "Tennessee Information Protection Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "TN AG",
+      "longName": "Attorney General of Tennessee",
+      "requestFormURL": "https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/file-a-complaint.html",
+      "defaultAction": "email",
+      "geographies": [
+        {
+          "name": "Tennessee",
+          "countryCode": "TN",
+          "email": "consumer.affairs@ag.tn.gov",
+          "website": "https://www.tn.gov/attorneygeneral.html",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://www.capitol.tn.gov/Bills/113/Bill/HB1181.pdf",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "Section 47‑18‑3203(a)(2)(C)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineTIPA"
+            defaultMessage="<ul><li>Government entities and political subdivisions</li><li>Covered entities and business associates subject to HIPAA/HITECH</li><li>Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutions of higher education</li><li>Non‑profit organizations</li><li>Insurance companies licensed under Tennessee law</li><li>Personal data regulated by the Fair Credit Reporting Act (FCRA)</li><li>Employment‑related or commercial‑context personal data</li><li>Publicly available, aggregated or de‑identified data</li><li>Personal data regulated by FERPA or COPPA</li><li>Patient safety work product and other health data exempted under federal law</li><li>Scientific or statistical research data meeting statutory safeguards</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://www.capitol.tn.gov/Bills/113/Bill/HB1181.pdf"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "Section 47‑18‑3203(a)(2)(A)"
+      }
+    }
+  },
+
+  "MCDPA": {
+    "displayName": "MCDPA",
+    "geography": "Minnesota",
+    "longName": "Minnesota Consumer Data Privacy Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "MN AG",
+      "longName": "Attorney General of Minnesota",
+      "requestFormURL": "https://www.ag.state.mn.us/office/complaint.asp",
+      "defaultAction": "form",
+      "geographies": [
+        {
+          "name": "Minnesota",
+          "countryCode": "MN",
+          "email": '',
+          "website": "https://www.ag.state.mn.us/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://www.revisor.mn.gov/bills/text.php?number=SF2915&version=latest&session_year=2023&session_number=0",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "Section 6.325O(1)(d)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineMCDPA"
+            defaultMessage="<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://www.revisor.mn.gov/bills/text.php?number=SF2915&version=latest&session_year=2023&session_number=0"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "Section 6.325O(1)(b)"
+      }
+    }
+  },
+
+  "PDPL": {
+    "displayName": "PDPL",
+    "geography": "Jordan",
+    "longName": "Personal Data Protection Law",
+    "timeLimit": 30,
+    "escalation_timeLimit": 60,
+    "dpa": {
+      "shortName": "PDPC",
+      "longName": "Personal Data Protection Council",
+      "requestFormURL": "https://jordan.gov.jo/en/custompages/onyourservice",
+      "defaultAction": "email",
+      "geographies": [
+        {
+          "name": "Jordan",
+          "countryCode": "JO",
+          "email": "modee@modee.gov.jo",
+          "website": "https://www.modee.gov.jo/EN/Pages/Personal_Data_Protection_Council",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/pdpl.pdf",
+    "requestTypes": {
+      "DELETION": {
+        "name": "erasure",
+        "article": "Article 4 (B)(5)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declinePDPL"
+            defaultMessage="<ul><li>Processing of personal data by a natural person for purely personal purposes</li><li>Processing carried out directly by a competent public authority to perform its statutory tasks</li><li>Processing necessary for national security or public order purposes</li><li>Processing without consent in the banking and financial sector as permitted by law</li><li>Processing by security services for national interest objectives</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://www.modee.gov.jo/ebv4.0/root_storage/en/eb_list_page/pdpl.pdf"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "Article 4 (B)(1)"
+      }
+    }
+  },
+  
+  "PDPA": {
+    "displayName": "PDPA",
+    "geography": "Thailand",
+    "longName": "Personal Data Protection Act",
+    "timeLimit": 30,
+    "escalation_timeLimit": 60,
+    "dpa": {
+      "shortName": "PDPC",
+      "longName": "Personal Data Protection Committee",
+      "requestFormURL": "https://complaint.pdpc.or.th/",
+      "defaultAction": "email",
+      "geographies": [
+        {
+          "name": "Thailand",
+          "countryCode": "TH",
+          "email": "saraban@pdpc.or.th",
+          "website": "https://www.pdpc.or.th/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://mdes.go.th/law/detail/3577-Personal-Data-Protection-Act-B-E--2562--2019-",
+    "requestTypes": {
+      "DELETION": {
+        "name": "erasure",
+        "article": "Section 33",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declinePDPA"
+            defaultMessage="<ul><li>Personal data processed for personal or household activities</li><li>Processing by state authorities related to national security, public safety or taxation</li><li>Processing for journalistic, artistic or literary purposes in the public interest</li><li>Processing by the House of Representatives, Senate, Parliament or their committees</li><li>Processing by courts and judicial officers within their duties</li><li>Processing by credit bureaus and their members under the Credit Information Business Act</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://pdpathailand.com/pdpa/content_eng/article4_eng.php"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "Section 30"
+      }
+    }
+  }
 };
 
 export default Regulations;

@@ -801,7 +801,7 @@
     "message": "<ul><li>Les exceptions à l'exigence d'accès doivent être limitées et spécifiques.</li><li>Les raisons de refuser l'accès doivent être fournies à l'individu sur demande.</li><li>Les exceptions peuvent inclure des informations qui sont prohibitivement coûteuses à fournir, des informations qui contiennent des références à d'autres personnes, des renseignements qui ne peuvent pas être divulgués pour des raisons juridiques, de sécurité ou de propriété commerciale, et des renseignements qui sont assujettis à des privilèges d’avocat-client ou de litige.</li></ul>"
   },
   "request.next.declinePIPL": {
-    "message": "个人信息处理者处理个人信息，有法律、行政法规规定应当保密或者不需要告知的情形的，可以不向个人告知前条第一款规定的事项."
+    "message": "Lorsque les responsables du traitement d’informations personnelles traitent ces informations, si la loi ou les règlements administratifs exigent la confidentialité ou qu’aucune notification n’est requise, ils peuvent ne pas informer l’individu des points prévus au premier alinéa de l’article précédent."
   },
   "request.next.declineTDPSA": {
     "message": "Entités comprenant les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières, et des entités couvertes en vertu de lois particulières, telles que la Loi sur la transférabilité et la Loi sur la responsabilité en matière d'assurance maladie. sont exonérés."

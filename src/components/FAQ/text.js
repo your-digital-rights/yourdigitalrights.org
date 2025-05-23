@@ -63,7 +63,7 @@ export default [
           <TableBody>           
             { Object.keys(Regulations).sort().map((key) => 
               <TableRow key={key}>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].gepgraphy}</TableCell>
+                <TableCell style={{fontWeight: "500"}}>{Regulations[key].geography}</TableCell>
                 <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
                 <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit} days</TableCell>

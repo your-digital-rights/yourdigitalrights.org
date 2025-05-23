@@ -40,6 +40,10 @@ async function getRegulationbyGeolocation() {
               return 'NDPA';            
             } else if (resultJson['region'] === 'NJ') {
               return 'NJDPL';                          
+            } else if (resultJson['region'] === 'TN') {
+              return 'TIPA';   
+            } else if (resultJson['region'] === 'MN') {
+              return 'MCDPA';                               
             } else {
               return 'CCPA';
             }
@@ -57,6 +61,12 @@ async function getRegulationbyGeolocation() {
           return 'FADP';   
         } else if (resultJson['country'] === 'CN') {
           return 'PIPL';                 
+        } else if (resultJson['country'] === 'ZA') {
+          return 'POPIA';                 
+        } else if (resultJson['country'] === 'JO') {
+          return 'PDPL';                 
+        } else if (resultJson['country'] === 'TH') {
+          return 'PDPA';                           
         } else {
           return 'GDPR';
         }
