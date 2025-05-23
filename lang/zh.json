@@ -782,6 +782,9 @@
   "request.next.declineLGPD": {
     "message": "<ul><li>言论自由或法律规定的其他权利。</li><li>出于研究目的而处理个人信息，如果删除个人信息会导致研究无法进行或严重影响研究成果。</li><li>为防止非法活动或起诉非法活动责任人而必须处理该个人信息。</li><li>履行法律义务。</li><li>履行企业与消费者之间的合同。</li><li>检测安全事故，防止恶意、欺骗、欺诈或非法活动，或起诉该活动的责任人。</li><li>调试以识别和修复损害现有预期功能的错误。</li><li>根据消费者与企业的关系，仅用于与消费者期望合理一致的内部用途。</li><li>以其他合法方式在内部使用消费者的个人信息，并与消费者提供信息的背景相符。</li></ul>"
   },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+  },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
   },
@@ -797,14 +800,26 @@
   "request.next.declineOPCA": {
     "message": "包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会和金融机构在内的实体不受限制。 此外， 一些类型的数据是免费的：<ul><li>受保护的健康数据</li><li>雇员数据，包括求职者的就业数据</li><li></li><li>可公开获得的资料</li><li>合计信息</li><li>为研究人体科目的或作为临床试验的一部分收集的个人信息</li></ul>"
   },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Personal data processed for personal or household activities</li><li>Processing by state authorities related to national security, public safety or taxation</li><li>Processing for journalistic, artistic or literary purposes in the public interest</li><li>Processing by the House of Representatives, Senate, Parliament or their committees</li><li>Processing by courts and judicial officers within their duties</li><li>Processing by credit bureaus and their members under the Credit Information Business Act</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Processing of personal data by a natural person for purely personal purposes</li><li>Processing carried out directly by a competent public authority to perform its statutory tasks</li><li>Processing necessary for national security or public order purposes</li><li>Processing without consent in the banking and financial sector as permitted by law</li><li>Processing by security services for national interest objectives</li></ul>"
+  },
   "request.next.declinePIPEDA": {
     "message": "<ul><li>访问要求的例外情况应该是有限和具体的。</li><li>应根据个人的请求向其说明拒绝接触的理由。</li><li>例外情况可能包括费用过高的提供信息，其中含有提及其他个人的信息。 (b) 出于法律、安全或商业所有权原因而无法披露的资料，以及受律师-客户或诉讼特权管辖的资料。</li></ul>"
   },
   "request.next.declinePIPL": {
     "message": "个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
   },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+  },
   "request.next.declineTDPSA": {
     "message": "各实体，包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会、金融机构； 《格拉姆-莱克-布莱利法》和《健康保险可移植性和问责制法》等具体法案涵盖的实体。 免责。"
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Government entities and political subdivisions</li><li>Covered entities and business associates subject to HIPAA/HITECH</li><li>Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutions of higher education</li><li>Non‑profit organizations</li><li>Insurance companies licensed under Tennessee law</li><li>Personal data regulated by the Fair Credit Reporting Act (FCRA)</li><li>Employment‑related or commercial‑context personal data</li><li>Publicly available, aggregated or de‑identified data</li><li>Personal data regulated by FERPA or COPPA</li><li>Patient safety work product and other health data exempted under federal law</li><li>Scientific or statistical research data meeting statutory safeguards</li></ul>"
   },
   "request.next.declineUCPA": {
     "message": "<ul><li>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
