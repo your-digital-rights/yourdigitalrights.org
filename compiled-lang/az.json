@@ -1845,6 +1845,12 @@
       "value": "crwdns3420:0crwdne3420:0"
     }
   ],
+  "request.next.declineMCDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5973:0crwdne5973:0"
+    }
+  ],
   "request.next.declineMTCDPA": [
     {
       "type": 0,
@@ -1875,6 +1881,18 @@
       "value": "crwdns5943:0crwdne5943:0"
     }
   ],
+  "request.next.declinePDPA": [
+    {
+      "type": 0,
+      "value": "crwdns5975:0crwdne5975:0"
+    }
+  ],
+  "request.next.declinePDPL": [
+    {
+      "type": 0,
+      "value": "crwdns5977:0crwdne5977:0"
+    }
+  ],
   "request.next.declinePIPEDA": [
     {
       "type": 0,
@@ -1887,10 +1905,22 @@
       "value": "crwdns5971:0crwdne5971:0"
     }
   ],
+  "request.next.declinePOPIA": [
+    {
+      "type": 0,
+      "value": "crwdns5979:0crwdne5979:0"
+    }
+  ],
   "request.next.declineTDPSA": [
     {
       "type": 0,
       "value": "crwdns5945:0crwdne5945:0"
+    }
+  ],
+  "request.next.declineTIPA": [
+    {
+      "type": 0,
+      "value": "crwdns5981:0crwdne5981:0"
     }
   ],
   "request.next.declineUCPA": [
