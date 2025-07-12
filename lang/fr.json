@@ -45,7 +45,7 @@
     "message": "Ce projet est financé par ses créateurs, et avec l'aide de vos dons."
   },
   "about.missionBody1": {
-    "message": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Réglementation de la protection des données telles que le {GDPR} (UE), le {CCPA} (Californie), et le {LGPD} (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
+    "message": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Des réglementation de la protection des données telles que le {GDPR} (UE), le {CCPA} (Californie), et le {LGPD} (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
   },
   "about.missionBody2": {
     "message": "La réglementation en matière de protection de la vie privée est un pas dans la bonne direction. mais l'exercice de vos droits en vertu de ces lois est encore assez difficile pour la plupart des gens de ne pas s'en occuper. La situation est aggravée parce que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Notre objectif est de rendre les droits conférés par ces législations accessibles à tous."
@@ -141,13 +141,13 @@
     "message": "Aide au développement"
   },
   "contribute.reportAProblem": {
-    "message": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans le <a1>issue tracker</a1>, ou via <a2>email</a2>."
+    "message": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans l’<a1>outil de suivi des incidents</a1>, ou via <a2>courriel</a2>."
   },
   "contribute.reportAProblemTitle": {
     "message": "Signaler un problème"
   },
   "contribute.research": {
-    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez <email>e-mail</email>  si vous souhaitez vous impliquer."
+    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez nous envoyer un <email>courriel</email> si vous souhaitez vous impliquer."
   },
   "contribute.researchTitle": {
     "message": "Aide à la recherche"
@@ -204,7 +204,7 @@
     "message": "Nous avons besoin de votre soutien"
   },
   "faq.body.YDR.1": {
-    "message": "Vos droits numériques. rg est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
+    "message": "YourDigitalRights.org est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
   },
   "faq.body.contact.1": {
     "message": "Veuillez comprendre que nous ne pouvons pas fournir de soutien personnel concernant des demandes de données spécifiques ou votre expérience avec une organisation particulière. Nous savons que, dans certains cas, les organisations peuvent être assez frustrantes, mais malheureusement, nous ne pouvons pas aider et ne répondrons pas à de tels courriels."
@@ -405,10 +405,10 @@
     "message": "Supprimez votre compte ou accédez aux données personnelles que les organisations possèdent sur vous en utilisant ce service gratuit."
   },
   "nav.about": {
-    "message": "Sur"
+    "message": "À propos"
   },
   "nav.blog": {
-    "message": "Blogue"
+    "message": "Blog"
   },
   "nav.contact": {
     "message": "Nous contacter"
