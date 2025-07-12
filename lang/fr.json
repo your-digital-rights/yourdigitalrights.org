@@ -30,13 +30,13 @@
     "message": "{linkedin} - Ingénieur Infrastructures."
   },
   "about.contributorsBody6": {
-    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
+    "message": "{link} - Ingénieur full stack, a contribué à la prise en charge d'APPI et à la traduction complète du site web en japonais."
   },
   "about.createdByBody2": {
     "message": "{linkedin} - Développeur web frontend, développeur d'applications mobiles et créateur de Skyjacker, le jeu de suivi de vol AR."
   },
   "about.description": {
-    "message": "Vos droits numériques ont été créés parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
+    "message": "Your Digital Rights a été créé parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
   },
   "about.funding": {
     "message": "Financement"
@@ -78,13 +78,13 @@
     "message": "À propos de nous"
   },
   "aboutOrg.description": {
-    "message": "Dans leurs propres mots:"
+    "message": "En leurs propres termes :"
   },
   "aboutOrg.details": {
-    "message": "Information additionnelle:"
+    "message": "À propos de {org}"
   },
   "aboutOrg.email": {
-    "message": "Email:"
+    "message": "Courriel :"
   },
   "aboutOrg.founded": {
     "message": "Fondé :"
@@ -96,16 +96,16 @@
     "message": "Industrie :"
   },
   "aboutOrg.privacyPolicy": {
-    "message": "Politique de confidentialité:"
+    "message": "Consulter la <a>politique de confidentialité</a> de {org}"
   },
   "aboutOrg.specialties": {
-    "message": "Spécialités de l'entreprise:"
+    "message": "Spécialités de l'entreprise :"
   },
   "aboutOrg.type": {
     "message": "Type de société :"
   },
   "contribute.creadit": {
-    "message": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus que heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur github, ou par d'autres moyens."
+    "message": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus qu’heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur GitHub, ou par d'autres moyens."
   },
   "contribute.creditTitle": {
     "message": "Crédit"
@@ -132,7 +132,7 @@
     "message": "Aidez-nous à améliorer YourDigitalRights.org."
   },
   "contribute.dev": {
-    "message": "Nos référentiels sont hébergés sur GitHub, le principal étant pour ce <a>site</a>. La meilleure façon de commencer est de nous contacter par e-mail <email></email>. Nous vous ajouterons ensuite à notre chaîne Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
+    "message": "Nos référentiels sont hébergés sur GitHub, le principal étant pour ce <a>site</a>. La meilleure façon de commencer est de nous contacter par <email>courriel</email>. Nous vous ajouterons ensuite à notre canal Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
   },
   "contribute.devSkills": {
     "message": "Nous sommes actuellement à la recherche d'ingénieurs en apprentissage automatique, React et AWS."
@@ -186,7 +186,7 @@
     "message": "Supprimer mes données"
   },
   "deletePII.intro": {
-    "message": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (ref: {ref}), ou à toutes vos requêtes ?"
+    "message": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (réf : {ref}), ou à toutes vos requêtes ?"
   },
   "deletemydata.description": {
     "message": "Supprimer mes données"
@@ -210,10 +210,10 @@
     "message": "Veuillez comprendre que nous ne pouvons pas fournir de soutien personnel concernant des demandes de données spécifiques ou votre expérience avec une organisation particulière. Nous savons que, dans certains cas, les organisations peuvent être assez frustrantes, mais malheureusement, nous ne pouvons pas aider et ne répondrons pas à de tels courriels."
   },
   "faq.body.contact.2": {
-    "message": "Pour toute autre demande, veuillez nous contacter via <a>email</a>."
+    "message": "Pour toute autre demande, veuillez nous contacter par <a>courriel</a>."
   },
   "faq.body.contribute.1": {
-    "message": "Oui, s'il vous plaît!"
+    "message": "Oui, s'il vous plaît !"
   },
   "faq.body.contribute.2": {
     "message": "Nous comptons sur <a>dons</a> pour assurer notre stabilité financière à long terme et notre indépendance. Vous pouvez y contribuer."
@@ -270,7 +270,7 @@
     "message": "Il est temps de répondre"
   },
   "faq.body.requests.1": {
-    "message": "Nous soutenons deux types de demandes:"
+    "message": "Nous gérons deux types de demandes :"
   },
   "faq.body.requests.1.1": {
     "message": "<b>Les demandes de suppression de données</b> (également connues sous le nom de demandes d'effacement ou le droit d'être oubliées) vous permettent de demander à une organisation de supprimer vos informations personnelles."
@@ -315,7 +315,7 @@
     "message": "Comment fonctionne le service?"
   },
   "faq.heading.new-regulation": {
-    "message": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir?"
+    "message": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir ?"
   },
   "faq.heading.refuse": {
     "message": "Les organisations peuvent-elles dire non?"
@@ -324,7 +324,7 @@
     "message": "Quels sont les pays, les États ou les règlements qui sont soutenus?"
   },
   "faq.heading.requests": {
-    "message": "Quels types de demandes puis-je faire à l'aide de ce service?"
+    "message": "Quels types de demandes puis-je faire à l'aide de ce service ?"
   },
   "faq.heading.trust": {
     "message": "Qui gère ce service ? Puis-je vous faire confiance ?"
@@ -483,10 +483,10 @@
     "message": "Non, je peux me débrouiller seul"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Oui, envoyez-moi des instructions de suivi par e-mail"
+    "message": "Oui, envoyez-moi des instructions de suivi par courriel"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "Envoyez-moi une copie de mes données"
+    "message": "M’envoyer une copie de mes données"
   },
   "personalInfoForm.companyDomainHelper": {
     "message": "Veuillez saisir le nom de domaine de l'organisation (exemple : google.co.uk ou facebook.com)."
@@ -675,7 +675,7 @@
     "message": "Cacher l'e-mail de la demande"
   },
   "request.details.name": {
-    "message": "Demandé par:"
+    "message": "Demandé par :"
   },
   "request.details.nowDetails": {
     "message": "Les détails de la demande ne sont pas disponibles pour le moment, veuillez actualiser la page une fois que vous avez envoyé l'email."
@@ -684,7 +684,7 @@
     "message": "Destinataire :"
   },
   "request.details.regulation": {
-    "message": "Réglement:"
+    "message": "Règlement :"
   },
   "request.details.reminderDate": {
     "message": "Date de rappel de l'email :"
@@ -714,7 +714,7 @@
     "message": "{companyName} n'a pas encore répondu."
   },
   "request.hero.domainTitle": {
-    "message": "Domaine:"
+    "message": "Domaine :"
   },
   "request.hero.handledPartially": {
     "message": "Manipulé partiellement"
@@ -732,16 +732,16 @@
     "message": "Pas de réponse"
   },
   "request.hero.partiallyHandled": {
-    "message": "{companyName} a traité votre demande partiellement."
+    "message": "{companyName} a partiellement traité votre demande."
   },
   "request.hero.reference": {
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Référence:"
+    "message": "Référence :"
   },
   "request.hero.requestNotSent": {
-    "message": "veuillez envoyer l'e-mail de la demande, puis actualiser cette page."
+    "message": "veuillez envoyer le courriel de la demande, puis actualiser cette page."
   },
   "request.hero.requestStatus": {
     "message": "Statut de la requête :"
@@ -945,7 +945,7 @@
     "message": "Cliquez ici pour en ajouter un"
   },
   "sendEmailButton.copy": {
-    "message": "Copier le texte du mail dans le presse-papiers"
+    "message": "Copier le texte du courriel dans le presse-papiers"
   },
   "sendEmailButton.default": {
     "message": "Ouvrir dans votre application de messagerie par défaut"
@@ -966,7 +966,7 @@
     "message": "Consultez YourDigitalRights.org, un service gratuit qui permet de découvrir facilement les données personnelles que des milliers d'organisations possèdent sur vous et de les faire supprimer."
   },
   "social.emailSubject": {
-    "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Vos droits numériques"
+    "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Your Digital Rights"
   },
   "social.extensionHeadline": {
     "message": "Désactiver directement depuis votre navigateur"
@@ -1017,7 +1017,7 @@
     "message": "Total des demandes envoyées: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et enrichi !"
+    "message": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et capable d'agir !"
   },
   "subscribe.title": {
     "message": "Abonnez-vous aux alertes de confidentialité !"
@@ -1047,10 +1047,10 @@
     "message": "Support payant"
   },
   "thankyou.copyPart1Copy": {
-    "message": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
+    "message": "a été copié(e) dans le presse-papiers, il vous suffit de le coller dans le courriel, de le relire et de cliquer sur Envoyer."
   },
   "thankyou.copyPart1Email": {
-    "message": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
+    "message": "dans un courriel devrait être ouverte dans votre application de messagerie, il ne vous reste plus qu'à vérifier et à cliquer sur Envoyer."
   },
   "thankyou.description": {
     "message": "Merci"
@@ -1062,7 +1062,7 @@
     "message": "Trouver une autre organisation"
   },
   "thankyou.howLongToReply": {
-    "message": "Les organisations ont {days} à respecter, et peuvent demander des informations supplémentaires afin de vérifier votre identité."
+    "message": "Les organisations un délai de {days} à respecter, et peuvent demander des informations supplémentaires afin de vérifier votre identité."
   },
   "thankyou.requestTypeAccess": {
     "message": "Une demande d'accès"
