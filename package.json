@@ -44,7 +44,7 @@
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
     "@aws-sdk/client-dynamodb": "^3.0.0",
-    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.850.0",
     "clean-css": "^5.3.3",
     "cookie-cutter": "^0.2.0",
     "downshift": "^9.0.9",
