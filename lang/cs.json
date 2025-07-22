@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Naše poslání"
+  },
+  "about.consciousDigital": {
+    "message": "Kdo jsme"
+  },
+  "about.consciousDigital1": {
+    "message": "Služba YourDigitalRights.org je projektem organizace {cd}, registrované charity, jež tvoří projekty zaměřené na posílení digitálních lidských práv."
+  },
+  "about.contact": {
+    "message": "Kontakt"
+  },
+  "about.contactText": {
+    "message": "Kontaktujte nás na adrese {email}."
+  },
+  "about.contributors": {
+    "message": "Přispěvatelé"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontendový webový vývojář."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontendový webový vývojář."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontendový webový vývojář."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Infrastrukturní inženýr."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - Full stack vývojář, podílel se na podpoře APPI a na celkovém japonském překladu webu."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Frontendový webový vývojář, vývojář mobilních aplikací a tvůrce Skyjacker, AR hry pro sledování letů."
+  },
+  "about.description": {
+    "message": "Služba Your Digital Rights byla vytvořena, protože věříme, že máte právo na soukromí a že uplatňování tohoto práva by mělo být snadné."
+  },
+  "about.funding": {
+    "message": "Financování"
+  },
+  "about.fundingBody1": {
+    "message": "Tento projekt je financován samotnými tvůrci a také s pomocí vašich darů."
+  },
+  "about.missionBody1": {
+    "message": "Věříme, že soukromí je základní lidské právo a že jeho uplatňování by mělo být snadno dostupné pro každého. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) poskytují právní rámec pro ochranu základního práva na soukromí online."
+  },
+  "about.missionBody2": {
+    "message": "Předpisy na ochranu osobních údajů jsou krokem správným směrem, avšak jejich uplatnění je i nadále pro většinu lidí příliš obtížné. Situaci zhoršuje, že mnoho organizací ztěžuje odesílání žádostí o data (např. nezveřejněním e-mailových adres). Naším cílem je zpřístupnit práva garantovaná těmito předpisy všem."
+  },
+  "about.missionBody3": {
+    "message": "Toto je bezplatná služba. Nejsme podnik a nemáme obchodní model. Nenabízíme žádné služby organizacím uvedeným v seznamu. Neshromažďujeme ani neobchodujeme s osobními údaji. Tato služba je <a>open source</a>."
+  },
+  "about.sponsors": {
+    "message": "Podporující organizace"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - za poskytnutí přehledu jejich firemní databáze, kterou využíváme k rozšíření našeho seznamu organizací."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - za poskytnutí efektivní cesty ke sběru zpětné vazby od komunity ohledně naší {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - za poskytnutí hostované verze Matomo (Piwik), open-source a na soukromí zaměřené platformy pro webovou analytiku."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - za pomoc při implementaci naší SEO strategie."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - za pomoc při pochopení a podpoře brazilské datové legislativy Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Rádi bychom poděkovali následujícím organizacím za podporu našeho open-source úsilí poskytováním bezplatné nebo zlevněné verze svých služeb:"
+  },
+  "about.title": {
+    "message": "O nás"
+  },
+  "aboutOrg.description": {
+    "message": "Jejich vlastními slovy:"
+  },
+  "aboutOrg.details": {
+    "message": "O organizaci {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-mail:"
+  },
+  "aboutOrg.founded": {
+    "message": "Založeno:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Sídlo:"
+  },
+  "aboutOrg.industry": {
+    "message": "Odvětví:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Zobrazit <a>Zásady ochrany osobních údajů</a> organizace {org}"
+  },
+  "aboutOrg.specialties": {
+    "message": "Specializace společnosti:"
+  },
+  "aboutOrg.type": {
+    "message": "Typ společnosti:"
+  },
+  "contribute.creadit": {
+    "message": "I když vám za vaši práci nemůžeme zaplatit, rádi vám připíšeme zásluhy za váš přínos, ať už na tomto webu, na GitHubu, nebo jinde."
+  },
+  "contribute.creditTitle": {
+    "message": "Poděkování"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Vytvořte si účet na Crowdin pomocí tohoto <a>odkazu</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Následujte tento <a>odkaz</a> pro načtení překladatelského systému."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Vyberte jazyk (k tomu se musíte přihlásit do Crowdin)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Nyní byste měli vidět rámečky obklopující různé části textu, které tvoří web. Přejeďte myší nad text, který chcete přeložit, a klikněte na ikonu, jež se objeví v rohu textu."
+  },
+  "contribute.crowdinStep5": {
+    "message": "Otevře se editor, ve kterém můžete zadat svůj překlad. Nezapomeňte po dokončení kliknout na Uložit."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Pokud narazíte na potíže, <email>kontaktujte nás.</email>"
+  },
+  "contribute.description": {
+    "message": "Pomozte nám vylepšit YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Naše repozitáře jsou hostovány na GitHubu, z nichž hlavní je tento <a>web</a>. Nejlepší je začít tím, že nás kontaktujete přes <email>email</email>. Poté vás přidáme do našeho Slack kanálu a podělíme se o aktuální vývoj. Případně můžete repozitář naklonovat a poslat merge request."
+  },
+  "contribute.devSkills": {
+    "message": "Aktuálně hledáme inženýry specializované na strojové učení, React a AWS."
+  },
+  "contribute.devTitle": {
+    "message": "Pomáhejte s vývojem"
+  },
+  "contribute.reportAProblem": {
+    "message": "Pokud narazíte na problémy s tímto webem, můžete je nahlásit v <a1>issue trackeru</a1> nebo prostřednictvím <a2>emailu</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Nahlásit problém"
+  },
+  "contribute.research": {
+    "message": "Vždy hledáme lepší způsoby, jak prosazovat digitální práva a zpřístupnit je více lidem. Ať už jde o lepší pochopení toho, jak lidé používají technologie, nebo o to, jak je organizace zneužívají, neustále probíhají výzkumné projekty. Pokud se chcete zapojit, pošlete nám <email>email</email>."
+  },
+  "contribute.researchTitle": {
+    "message": "Pomáhejte s výzkumem"
+  },
+  "contribute.subtitle": {
+    "message": "Tento projekt je vyvíjen a udržován výhradně dobrovolníky. Pokud vám vadí ztráta soukromí, bující dohledový kapitalismus, mikrocílení a dezinformace a návykovost digitálních služeb, můžete nám pomoci:"
+  },
+  "contribute.title": {
+    "message": "Přispět"
+  },
+  "contribute.translate1": {
+    "message": "Rádi bychom, aby tato služba byla dostupná v mnoha jazycích. Pokud ta vaše mezi nimi chybí anebo potřebuje aktualizaci či vylepšení, oceníme vaši pomoc!"
+  },
+  "contribute.translate2": {
+    "message": "K vytváření překladů používáme online platformu <a>Crowdin</a>. Výrazně nám to usnadňuje práci a nevyžaduje žádné programátorské dovednosti. Krátký návod je k dispozici <b>zde</b>. Chcete-li začít, postupujte takto:"
+  },
+  "contribute.translateTitle": {
+    "message": "Přeložit web"
+  },
+  "dataProcessors": {
+    "message": "Sdílení dat a zpracovatelé"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Všechny žádosti"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "Tato žádost"
+  },
+  "deletePII.doneAll": {
+    "message": "Úspěšně jsme vymazali osobní údaje spojené se všemi vašimi žádostmi."
+  },
+  "deletePII.doneRequest": {
+    "message": "Úspěšně jsme vymazali osobní údaje spojené s touto žádostí."
+  },
+  "deletePII.heading": {
+    "message": "Odstraňte mé údaje"
+  },
+  "deletePII.intro": {
+    "message": "Vaše osobní údaje budou automaticky vymazány 120 dní po odeslání žádosti, můžete je však smazat i nyní. Přejete si smazat údaje spojené s touto žádostí (ref: {ref}), nebo se všemi vašimi žádostmi?"
+  },
+  "deletemydata.description": {
+    "message": "Odstraňte mé údaje"
+  },
+  "deletemydata.title": {
+    "message": "Odstraňte mé údaje"
+  },
+  "donations.donate": {
+    "message": "Přispět"
+  },
+  "donations.donateIntro": {
+    "message": "Služba YourDigitalRights.org byla vytvořena, protože věříme, že na soukromí záleží a že jeho uplatňování by mělo být snadné. Proto je nabízíme zdarma. Přispějte nebo se staňte podporujícím členem a pomozte nám zajistit naši dlouhodobou finanční stabilitu a nezávislost."
+  },
+  "donations.headingDonate": {
+    "message": "Potřebujeme vaši podporu"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org je bezplatná služba, která vám pomáhá znovu získat kontrolu nad vaším online soukromím tím, že usnadňuje požádat společnosti o smazání nebo poskytnutí kopie vašich osobních údajů. Dosahujeme toho zjednodušením procesu stanoveného silnými zákony na ochranu osobních údajů, které vám dávají právo nechat si smazat nebo získat kopii svých dat. Kromě odesílání žádostí organizacím vám můžeme pomoci zajistit, aby byly žádosti vyřešeny ve váš prospěch."
+  },
+  "faq.body.contact.1": {
+    "message": "Vezměte prosím na vědomí, že nemůžeme poskytovat osobní podporu týkající se konkrétních datových žádostí nebo vaší zkušenosti s konkrétní organizací. Uvědomujeme si, že někteří poskytovatelé mohou být frustrující, ale bohužel s tím nemůžeme pomoci a na takové e-maily nebudeme reagovat."
+  },
+  "faq.body.contact.2": {
+    "message": "Ohledně všech ostatních dotazů nás prosím kontaktujte prostřednictvím <a>emailu</a>."
+  },
+  "faq.body.contribute.1": {
+    "message": "Ano, prosím!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Spoléháme na <a>dary</a> k zajištění naší dlouhodobé finanční stability a nezávislosti. Přispět můžete zde."
+  },
+  "faq.body.contribute.3": {
+    "message": "Informace o tom, jak nahlásit chybu, pomoci s překladem webu, přispět k vývoji nebo se zapojit do výzkumu, najdete na <a>této stránce</a>."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Zákony na ochranu osobních údajů chrání jednotlivce při zpracování jejich osobních informací organizacemi. Definují povinnosti organizací při zpracování osobních informací a poskytují jednotlivcům určitá práva týkající se jejich dat. Mnoho zemí má své předpisy na ochranu osobních údajů; některé z nich jdou dále ohledně ochrany, kterou poskytují, než jiné."
+  },
+  "faq.body.escalate.1": {
+    "message": "Zákony na ochranu osobních údajů stanovují různé mechanismy eskalace, včetně možnosti podat stížnost na organizaci u vládní regulační agentury nebo ji žalovat (tzv. právo na soukromou žalobu)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Pokud vám to zní složitě, nemusíte se bát; můžeme vám pomoci. Když při odesílání datové žádosti prostřednictvím této služby zapnete volitelnou funkci „Chytrá následná asistence“, poskytneme vám individuální rady ohledně kroků v případě, že organizace vaší žádosti nevyhoví. Pomůžeme vám komunikovat s organizací a v případě potřeby eskalovat na vládní regulační úřad."
+  },
+  "faq.body.how.1": {
+    "message": "Po výběru organizace a vyplnění krátkého formuláře vám vygenerujeme žádost, která je adresována vámi zvolené organizaci. E-mail se otevře ve vaší e-mailové aplikaci, kde ho můžete zkontrolovat a odeslat. Volitelně vás můžeme po odeslání žádosti za nějaký čas znovu kontaktovat, abychom se ujistili, že byla vyřešena ve váš prospěch. To může zahrnovat zaslání připomínkových e-mailů organizaci nebo eskalaci na vládní regulační úřad."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Rádi bychom podporovali všechny zákony na ochranu osobních údajů, které poskytují jednotlivcům právo na přístup k jejich osobním informacím a jejich vymazání. Pokud byste rádi, abychom přidali podporu pro konkrétní legislativu, <a>kontaktujte nás</a>."
+  },
+  "faq.body.refuse.1": {
+    "message": "Zákony na ochranu osobních údajů umožňují organizacím odmítnout vymazání vašich osobních informací za určitých výjimečných okolností. Níže uvádíme obecné příklady, ale konkrétní detaily byste měli hledat v příslušném právním předpisu:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "Pokud je organizace povinna vaše údaje uchovávat ze zákona (například finanční instituce musí uchovávat záznamy o vašich transakcích kvůli dodržování zákonů proti praní špinavých peněz)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "Pokud je uchování vašich údajů nezbytné z důvodu svobody projevu a informací (včetně novinářských a akademických, uměleckých a literárních účelů)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "Pokud je uchování vašich údajů nezbytné z důvodů veřejného zdraví"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "Pokud je nezbytné uchovat vaše data pro založení, výkon nebo obhajobu právních nároků"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "Pokud by vymazání vašich dat bránilo vědeckému nebo historickému výzkumu či archivaci ve veřejném zájmu"
+  },
+  "faq.body.regulations.1": {
+    "message": "Pokud nám chcete pomoci s implementací podpory dalších předpisů, <a>kontaktujte nás</a>."
+  },
+  "faq.body.regulations.location": {
+    "message": "Umístění"
+  },
+  "faq.body.regulations.name": {
+    "message": "Celé jméno"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Zkratka"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Čas na odpověď"
+  },
+  "faq.body.requests.1": {
+    "message": "Podporujeme dva typy žádostí:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Žádosti o vymazání dat</b> (také známé jako žádosti o výmaz nebo právo být zapomenut) vám umožňují požádat organizaci o vymazání vašich osobních údajů."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Žádosti o přístup</b> (také známé jako žádosti o přístup k subjektním údajům neboli SAR) vám umožňují požádat organizaci o kopii vašich osobních údajů."
+  },
+  "faq.body.trust.1": {
+    "message": "Jsme registrovaná nezisková organizace nazvaná <a>Conscious Digital</a>. Věříme v transparentnost, a proto je zdrojový kód této služby <aa>open source</aa>. K říjnu 2022 jsme pomohli lidem odeslat přes 100 000 žádostí různým organizacím"
+  },
+  "faq.body.trust.2": {
+    "message": "Jsme nezávislí, neprodáváme vaše osobní informace, nejsme propojeni s žádnou z organizací, kterým pomáháme odesílat datové žádosti, ani jim neposkytujeme žádné služby. Jsme financováni z vašich <a>dárcovských příspěvků</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Tuto službu jsme navrhli tak, aby od vás ve výchozím nastavení nevyžadovala žádné osobní údaje. Pokud některé volitelné funkce vyžadují poskytnutí osobních informací, po 120 dnech je mažeme. Podrobnosti naleznete v našich <a>zásadách ochrany osobních údajů</a>."
+  },
+  "faq.body.verify.1": {
+    "message": "Zákony na ochranu osobních údajů vyžadují, aby organizace ověřily totožnost osoby, která žádost podává, aby se zabránilo podvodům. Většina zákonů také uvádí, že metoda ověření by měla být přiměřená povaze daných dat. Například pokud žádáte o kopii své historii zpráv na běžném internetovém fóru, mělo by stačit jednoduché ověření, že vlastníte e-mailovou adresu spojenou s vaším účtem. Pokud ovšem žádáte o historii transakcí u finanční instituce, je oprávněná žádat o další informace, například kopii dokladu totožnosti a potvrzení adresy."
+  },
+  "faq.body.verify.2": {
+    "message": "Ve většině případů stačí jednoduché ověření vlastnictví e-mailu spojeného s vaším účtem. Když pomocí této služby odesíláte žádost, pošle se e-mail z vaší e-mailové aplikace, což poskytuje toto základní ověření."
+  },
+  "faq.body.verify.3": {
+    "message": "Abychom dále chránili vaše osobní údaje, žádosti, které za vás generujeme, výslovně zakazují organizacím používat osobní údaje z žádosti k jiným účelům než k jejímu vyřízení."
+  },
+  "faq.heading.YDR": {
+    "message": "Co je YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Mám další dotaz, jak vás mohu kontaktovat?"
+  },
+  "faq.heading.contribute": {
+    "message": "Tato služba je skvělá. Mohu pomoci?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Co jsou zákony na ochranu osobních údajů?"
+  },
+  "faq.heading.escalate": {
+    "message": "Co mám dělat, pokud organizace zcela nevyhoví mé žádosti?"
+  },
+  "faq.heading.how": {
+    "message": "Jak tato služba funguje?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "V mé zemi platí nový zákon o ochraně osobních údajů. Budete ho podporovat?"
+  },
+  "faq.heading.refuse": {
+    "message": "Mohou organizace říci ne?"
+  },
+  "faq.heading.regulations": {
+    "message": "Které země, státy nebo předpisy jsou podporovány?"
+  },
+  "faq.heading.requests": {
+    "message": "Jaké typy žádostí mohu prostřednictvím této služby podávat?"
+  },
+  "faq.heading.trust": {
+    "message": "Kdo tuto službu provozuje? Mohu vám důvěřovat?"
+  },
+  "faq.heading.verify": {
+    "message": "Organizace mě požádala o poskytnutí dalších osobních údajů k ověření totožnosti. Je to legální? Mohou tyto informace používat k jiným účelům?"
+  },
+  "faq.title": {
+    "message": "Často kladené dotazy"
+  },
+  "footer.contact": {
+    "message": "© Copyright 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Upozornění:</span> Tato služba je poskytována tak, jak je, bez záruky jakéhokoli druhu. Použití této služby je zcela na vaše vlastní riziko. Nemůžeme nést odpovědnost za jakékoli přímé nebo nepřímé škody vyplývající z použití této služby. Informace poskytované touto službou spolu s obsahem na našich webových stránkách týkajícími se právních záležitostí slouží pouze pro vaše soukromé použití a nepředstavují právní poradenství. Pokud potřebujete právní radu pro konkrétní problém, měli byste se obrátit na licencovaného právníka."
+  },
+  "footer.madeBy": {
+    "message": "<a>Vytvořeno společností Conscious Digital</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Provozuje Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Zásady ochrany osobních údajů</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistiky</a>"
+  },
+  "footer.wishList": {
+    "message": "napište nám přání do našeho plánu"
+  },
+  "hero.headerText": {
+    "message": "Donuťte organizace vymazat váš účet nebo vám poskytnout kopii vašich osobních údajů."
+  },
+  "hero.heading": {
+    "message": "Vlastněte svá data"
+  },
+  "hero.intro": {
+    "message": "Mnoho organizací shromažďuje a prodává vaše osobní údaje, často bez vašeho souhlasu. Pomocí této bezplatné služby jim můžete poslat žádost o výmaz nebo přístup k vašim údajům. Začněte vyhledáním organizace níže."
+  },
+  "howItWorks.followUp": {
+    "message": "použitím naší chytré asistence následných kroků, která zajistí, že organizace vyhoví vaší žádosti, a v případě potřeby vám pomůže eskalovat žádost k příslušnému státnímu orgánu."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Následné kroky"
+  },
+  "howItWorks.imgAlt": {
+    "message": "Grafika znázorňující uživatelské rozhraní"
+  },
+  "howItWorks.search": {
+    "message": "pro organizaci pomocí vyhledávacího pole v horní části této stránky."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Vyhledávání"
+  },
+  "howItWorks.send": {
+    "message": "organizaci žádost o vymazání nebo poskytnutí kopie vašich dat."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Odeslat"
+  },
+  "howItWorks.title": {
+    "message": "Jak to funguje"
+  },
+  "howItWorks.whyBody": {
+    "message": "Jsme registrovaná charitativní organizace <cd>Conscious Digital</cd>. Tuto službu jsme vytvořili, protože věříme, že na soukromí záleží a že by uplatnění vašeho práva na soukromí mělo být jednoduché a bezplatné. Neshromažďujeme ani neprodáváme osobní údaje. Provoz služby je financován jejími tvůrci a s pomocí vašich <donations>darů</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Proč nám věřit?"
+  },
+  "howItWorks.yourData": {
+    "message": "Zákony na ochranu osobních údajů vyžadují, aby organizace na vaši žádost vymazaly nebo poskytly kopii vašich dat. Organizace mají na vyhovění relativně krátkou lhůtu a v případě neplnění jim hrozí vysoké pokuty. Naším cílem je usnadnit vám uplatnění vašich zákonných práv."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Máte právo na soukromí!"
+  },
+  "index.description": {
+    "message": "Vymažte svůj účet nebo získejte přístup k osobním údajům, které o vás organizace mají, pomocí této bezplatné služby."
+  },
+  "nav.about": {
+    "message": "O projektu"
+  },
+  "nav.blog": {
+    "message": "Blog"
+  },
+  "nav.contact": {
+    "message": "Kontaktujte nás"
+  },
+  "nav.contribute": {
+    "message": "Přispět"
+  },
+  "nav.data-brokers": {
+    "message": "Zprostředkovatelé dat"
+  },
+  "nav.donate": {
+    "message": "Přispět"
+  },
+  "nav.donation": {
+    "message": "Přispět"
+  },
+  "nav.faq": {
+    "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "Pomozte s překladem"
+  },
+  "nav.howItWorks": {
+    "message": "Jak to funguje"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Zásady ochrany osobních údajů"
+  },
+  "nav.stats": {
+    "message": "Statistiky"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Odesílejte žádosti o smazání a přístup k datům dle GDPR, CCPA a LGPD jakékoliv organizaci rychle a snadno."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Požádejte {org} o vymazání účtu nebo kopii vašich osobních údajů rychle a snadno."
+  },
+  "org.titleExistingOrg": {
+    "message": "Vymažte svůj účet u {org} nebo si vyžádejte kopii svých údajů"
+  },
+  "org.titleNewOrg": {
+    "message": "Odesílejte žádosti o výmaz a přístup k údajům dle GDPR, CCPA a LGPD"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Odešlete žádost o výmaz nebo přístup k údajům."
+  },
+  "orgHero.subTitle2": {
+    "message": "Pošlete {name} žádost o vymazání nebo přístup k údajům pomocí této <disclamer>bezplatné a nezávislé</disclamer> služby."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Přimějte organizace, aby vymazaly nebo vám poslalY kopii vašich osobních údajů pomocí této <disclamer>bezplatné a nezávislé</disclamer> služby."
+  },
+  "orgHero.title": {
+    "message": "Vymažte svůj účet u {domain} nebo si vyžádejte svá data."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "Abychom zajistili, že organizace splní vaši žádost, pošleme vám e-mail, až přijde čas podniknout další kroky. Budete mít možnost poslat organizaci připomínku, nebo žádost postoupit místnímu úřadu na ochranu osobních údajů."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Výběrem této možnosti souhlasíte, že nám dovolujete zpracovat a uložit následující osobní údaje: vaši e-mailovou adresu, jméno a text vašich e-mailů se žádostmi. Veškeré osobní údaje týkající se této žádosti budou po 120 dnech automaticky vymazány z našich systémů, pokud neurčíte jinak, a vždy máte možnost nechat tato data okamžitě vymazat. Tyto informace shromažďujeme automaticky tím, že do pole CC v e-mailu přidáme speciální adresu.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Zapnout chytrou asistenci následných kroků"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Volitelně uveďte další informace, které pomohou organizaci vyhledat vaše údaje v jejich systémech, například uživatelské jméno, ID zákazníka nebo číslo účtu. <strong>Prosím neposkytujte své heslo ani žádné osobní údaje, které organizace ještě nemá.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Ne, zvládnu to sám"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Ano, pošlete mi pokyny k dalším krokům e-mailem"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Pošlete mi kopii mých údajů"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Zadejte prosím doménové jméno organizace (např. google.co.uk nebo facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Doména organizace"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "E-mailová adresa organizace"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Zadejte prosím název organizace, se kterou se chcete spojit."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Název organizace"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Zadejte prosím e-mailovou adresu osoby nebo oddělení odpovědného za zpracování žádostí GDPR/CCPA/ochrany osobních údajů/právních záležitostí. Tyto informace obvykle najdete na webu organizace v zásadách ochrany osobních údajů, v obchodních podmínkách nebo na stránce kontaktů."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Odstraňte mé údaje"
+  },
+  "personalInfoForm.headline": {
+    "message": "Vyplňte formulář, abyste vytvořili žádost v podobě e-mailu, který pak můžete zkontrolovat a odeslat."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Další identifikační informace (volitelně)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Organizace to použije k vaší identifikaci."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Celé jméno"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Regulace"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Vyberte regulaci podle místa svého bydliště, pokud nemáte konkrétní důvod vybrat jinou."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Typ žádosti"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Zkontrolovat a odeslat"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Podpora"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Zadejte prosím platnou e-mailovou adresu."
+  },
+  "pressIntro.title": {
+    "message": "Uvádí se v"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Následné sledování žádostí"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Při používání této služby, po odeslání žádosti o data, se můžete rozhodnout pro další podporu formou e-mailu. Pokud se rozhodnete tuto volitelnou funkci použít, budeme shromažďovat následující dodatečné osobní údaje:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Vaše e-mailová adresa"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Obsah e-mailů se žádostmi o data, které odesíláte organizacím a úřadům pro ochranu osobních údajů (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadata týkající se e-mailů se žádostmi o data, které odesíláte organizacím a úřadům pro ochranu osobních údajů (DPA), například čas odeslání e-mailu a adresy odesílatele a příjemce"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Rozšířené osobní údaje uchováváme maximálně 120 dní."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Tím, že nám dobrovolně poskytnete osobní údaje, souhlasíte s jejich použitím v souladu s těmito Zásadami ochrany osobních údajů. Pokud poskytnete osobní údaje tomuto webu, berete na vědomí a souhlasíte s tím, že tyto osobní údaje mohou být přeneseny z vaší aktuální polohy na servery YourDigitalRights.org a k autorizovaným třetím stranám uvedeným v těchto zásadách."
+  },
+  "privacy.contact": {
+    "message": "Kontakt"
+  },
+  "privacy.contactBody": {
+    "message": "Pokud máte dotazy nebo připomínky k těmto Zásadám ochrany osobních údajů, kontaktujte nás na adrese {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Cookies a sledování"
+  },
+  "privacy.cookiesBody": {
+    "message": "Cookies používáme pouze k uložení voleb, které na webu provedete, aby pro vás bylo příště snazší službu použít. Cookie je kousek informace, který počítač hostující naši Službu předá vašemu prohlížeči při přístupu ke Službě."
+  },
+  "privacy.description": {
+    "message": "Vlastníte svá data a my existujeme proto, abychom vám pomohli kontrolovat, kdo k nim má přístup. Toto je stránka s našimi zásadami ochrany soukromí."
+  },
+  "privacy.lastUpdated": {
+    "message": "Naposledy aktualizováno:"
+  },
+  "privacy.personalData": {
+    "message": "Odesílání žádostí"
+  },
+  "privacy.personalDataBody1": {
+    "message": "Při odesílání žádostí (bez zapnutí volitelné funkce následného sledování žádostí) vás žádáme o poskytnutí následujících osobních údajů:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Vaše jméno"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Další informace potřebné k tomu, aby si vás mohly organizace spojit (např. uživatelské jméno, ID zákazníka nebo číslo účtu)."
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Osobní údaje shromážděné při odesílání žádostí používáme pouze k vygenerování e-mailu a neukládáme je na naše servery."
+  },
+  "privacy.privacyTitle": {
+    "message": "Zásady ochrany osobních údajů"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: služba webové analýzy orientovaná na soukromí od společnosti Innocraft. K shromažďování anonymizovaných informací o způsobu, jakým je Služba přistupována a využívána (\"Usage Data\"), používáme Matomo. Navštivte jejich stránku {matomo}."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: poskytovatel cloudových infrastrukturních služeb. Pokud se rozhodnete zapnout následné sledování žádostí, používáme AWS ke zpracování e-mailů, které odešlete, k ukládání souvisejících informací a k odesílání připomínek e-mailem. Více informací najdete na stránce {matomo}."
+  },
+  "privacy.promise": {
+    "message": "Náš slib"
+  },
+  "privacy.promiseBody": {
+    "message": "Vlastníte svá data. Naším posláním je pomoci vám kontrolovat, kdo k nim má přístup. Silně věříme v zachování osobních informací jako osobních, soukromých a bezpečných. Nepoužíváme nepotřebné soubory cookies a omezujeme shromažďované osobní údaje pouze na minimum nezbytné k poskytování této Služby (YourDigitalRights.org). V některých případech můžete zapnout volitelné funkce, které vyžadují zadání dalších osobních údajů. V takových případech je vyžadován váš výslovný souhlas. Nikdy neprodáme ani nepronajmeme vaše osobní údaje nikomu a na našich serverech je nebudeme uchovávat déle než 120 dní. Vaše osobní údaje sdílíme pouze v případě, že je to nutné k poskytování služby, nebo jak je jinak uvedeno v těchto Zásadách."
+  },
+  "privacy.title": {
+    "message": "Zásady ochrany osobních údajů"
+  },
+  "privacy.usageDataBody": {
+    "message": "Spolupracujeme s následujícími poskytovateli služeb, kteří za nás provádějí některé úkony zpracování dat. Jednáme s nimi za podmínek, které zajišťují důvěrnost a bezpečnost vašich údajů."
+  },
+  "privacyAlerts.description1": {
+    "message": "Měsíční e-mail, v němž představíme tři nejhorší společnosti porušující soukromí, identifikované naším výzkumným týmem. Zlepšete své soukromí a získejte kontrolu nad svými osobními informacemi tím, že měsíčně strávíte pět minut odhlašováním z těchto společností."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Přihlaste se k odběru našich měsíčních upozornění na ochranu soukromí"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Upozornění na ochranu soukromí"
+  },
+  "privacyAlerts.title": {
+    "message": "Upozornění na ochranu soukromí"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Proč byste měli investovat do svého soukromí?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Každá naše interakce online zanechává stopy našich osobních informací. Společnosti, se kterými přicházíme do styku, datoví zprostředkovatelé, vlády i podvodníci mají o naše data zájem."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Tato realita nás vystavuje různým formám manipulace. Patří sem cílená online reklama, politická a sociální manipulace prostřednictvím falešných zpráv, různé druhy podvodů, jako je krádež identity, a návykové aplikace a online služby. To vše umožňuje nadbytek osobních údajů, které po sobě zanecháváme."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Jak to tedy můžeme dostat zpět pod kontrolu?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Službu Privacy Alerts jsme navrhli na základě zpětné vazby od uživatelů našich služeb. Je to jednoduchý způsob, jak zlepšit své online soukromí postupně tím, že strávíte pouze pět minut měsíčně odhlašováním od nejhorších společností, které pro vás náš výzkumný tým vybral."
+  },
+  "redirect.continueText": {
+    "message": "Pokračovat"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu je nyní yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Skvělá zpráva, tato služba roste! Nedávno jsme spustili podporu zákona o ochraně soukromí (CCPA) v Kalifornii a brzy přidáme podporu dalších typů žádostí kromě odstranění osobních údajů. Proto se domníváme, že doména ‚opt-out.eu‘ je příliš omezující. Jsme více než kdy jindy odhodláni pomoci vám uplatnit vaše digitální práva, vítejte v našem novém domově @ <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Zobrazit podrobnosti o žádosti podle {regulationType}, která byla odeslána prostřednictvím této bezplatné služby."
+  },
+  "request.details.date": {
+    "message": "Datum odeslání žádosti e-mailem:"
+  },
+  "request.details.escalationDate": {
+    "message": "Datum e-mailu s eskalací:"
+  },
+  "request.details.header": {
+    "message": "Podrobnosti žádosti"
+  },
+  "request.details.hide.escalation": {
+    "message": "Skrýt e-mail s eskalací"
+  },
+  "request.details.hide.reminder": {
+    "message": "Skrýt e-mail s připomínkou"
+  },
+  "request.details.hide.request": {
+    "message": "Skrýt e-mail s žádostí"
+  },
+  "request.details.name": {
+    "message": "Žádost podal:"
+  },
+  "request.details.nowDetails": {
+    "message": "Podrobnosti žádosti nejsou momentálně k dispozici, prosím obnovte stránku poté, co odešlete e-mail."
+  },
+  "request.details.organization": {
+    "message": "Příjemce:"
+  },
+  "request.details.regulation": {
+    "message": "Regulace:"
+  },
+  "request.details.reminderDate": {
+    "message": "Datum e-mailu s připomínkou:"
+  },
+  "request.details.sentTo": {
+    "message": "E-mailová adresa příjemce:"
+  },
+  "request.details.show.escalation": {
+    "message": "Zobrazit e-mail s eskalací"
+  },
+  "request.details.show.reminder": {
+    "message": "Zobrazit e-mail s připomínkou"
+  },
+  "request.details.show.request": {
+    "message": "Zobrazit e-mail s žádostí"
+  },
+  "request.details.type": {
+    "message": "Typ žádosti:"
+  },
+  "request.hero.declined": {
+    "message": "Odmítnuto"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} odmítla vaši žádost."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} dosud neodpověděla."
+  },
+  "request.hero.domainTitle": {
+    "message": "Doména:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Částečně vyřešeno"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} úspěšně vyřešila vaši žádost."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Úspěšně vyřešeno"
+  },
+  "request.hero.header": {
+    "message": "Vaše žádost o {requestType} dat směrem k {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Žádná odpověď"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} částečně vyřešila vaši žádost."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Reference:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "prosím odešlete žádost e-mailem a poté obnovte tuto stránku."
+  },
+  "request.hero.requestStatus": {
+    "message": "Stav žádosti:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "Existují určité výjimečné okolnosti, kdy je organizace ze zákona oprávněna odmítnout vaší žádosti vyhovět."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Jakékoli osobní údaje, jejichž zjištění v databázi nebo její absence je pravděpodobně hrozbou pro život, zdraví nebo majetek identifikovatelné osoby;</li><li>Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi pravděpodobně podnítí nebo umožní nezákonné jednání či protiprávní činnost;</li><li>Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi může ohrozit národní bezpečnost, poškodit důvěru ve vztahu se zahraniční zemí nebo mezinárodní organizací anebo znevýhodnit zemi při jednání s jinou zemí či mezinárodní organizací;</li><li>Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi by pravděpodobně narušilo prevenci, odhalování, vyšetřování nebo stíhání trestné činnosti nebo jinak ohrozilo veřejnou bezpečnost a pořádek.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Svoboda projevu nebo jiné zákonné právo.</li><li>Zpracování pro účely výzkumu, pokud by odstranění osobních údajů znemožnilo nebo vážně ztížilo dosažení účelu takového výzkumu.</li><li>Zpracování těchto osobních údajů je nezbytné k ochraně proti nezákonným činnostem nebo k postihu odpovědných osob.</li><li>Ke splnění právní povinnosti.</li><li>Pro splnění smlouvy mezi společností a spotřebitelem.</li><li>Detekce bezpečnostních incidentů, ochrana před zlovolnou, klamavou, podvodnou nebo nezákonnou činností nebo stíhání osob odpovědných za tuto činnost.</li><li>Vyhledávání a oprava chyb, které narušují stávající funkcionalitu.</li><li>Využití pouze pro interní účely, které jsou v rozumném souladu s očekáváními spotřebitelů na základě jejich vztahu k této společnosti.</li><li>Jinak využít osobní informace spotřebitele v souladu se zákonem způsobem, který je slučitelný se souvislostí, v níž spotřebitel tyto informace poskytl.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finanční instituce a přidružené subjekty podléhající zákonu Gramm-Leach-Bliley Act</li><li>Letečtí dopravci podléhající předpisům Federálního leteckého úřadu (FAA)</li><li>Národní burzovní asociace registrované podle zákona The Securities Exchange Act</li><li>Některé typy osobních údajů uchovávané v souladu s konkrétními federálními zákony o ochraně soukromí, jako je Zákon o přenositelnosti a odpovědnosti v oblasti zdravotního pojištění (HIPAA) a Zákon o spravedlivém úvěrovém zpravodajství (FCRA), nebo pro určité vládní účely.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty.</li><li>Chráněné zdravotní údaje</li><li>Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání</li><li>De-identifikovaná data</li><li>Veřejně dostupné informace</li><li>Agregované informace</li><li>Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Poskytnout produkt nebo službu, které spotřebitel výslovně požaduje.</li><li>Provádět určité interní činnosti, které odpovídají očekáváním spotřebitele.</li><li>Provést stažení produktu z trhu nebo opravit technické chyby.</li><li>Reagovat na a předcházet bezpečnostním incidentům, krádeži identity a podvodům.</li><li>Plnit federální, státní nebo místní zákony.</li><li>Pseudonymizovaná data.</li><li>Anonymizovaná data.</li><li>Veřejně dostupné informace.</li><li>Veřejný či recenzovaný vědecký výzkum.</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) zpracování osobních údajů je nezbytné pro uplatnění jakéhokoli zákonného práva nebo nároku;</li><li>(b) zpracování osobních údajů soudem, tribunálem nebo jiným orgánem v Indii, který je pověřen zákonem výkonem soudní, kvazi-soudní nebo regulační či dozorové funkce, pokud je takové zpracování nezbytné pro výkon této funkce;</li><li>(c) osobní údaje jsou zpracovávány v zájmu předcházení, odhalování, vyšetřování nebo stíhání jakéhokoli trestného činu nebo porušení práva platného v Indii;</li><li>(d) osobní údaje subjektů údajů, které se nenacházejí na území Indie, jsou zpracovávány na základě smlouvy uzavřené s jakoukoli osobou mimo území Indie osobou se sídlem v Indii;</li><li>(e) zpracování je nezbytné pro účely akvizice, fúze, rozdělení či jiného uspořádání podniků schváleného soudem nebo jiným příslušným orgánem podle platného práva; a</li><li>(f) zpracování slouží k zjištění finanční situace a majetku či závazků jakékoli osoby, která je v prodlení s platbou úvěru či zálohy poskytnuté finanční institucí, za předpokladu, že toto zpracování je v souladu s ustanoveními o zveřejňování informací nebo údajů v souladu s platnými zákony v Indii.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Správce může odmítnout poskytnout informace, nebo omezit či oddálit jejich poskytnutí, pokud:<ul><li>a. tak stanoví formální zákon, zejména za účelem zachování profesního tajemství;</li><li>b. je to nezbytné k ochraně převažujících zájmů třetích stran; nebo</li><li>c. žádost o informace je zjevně neopodstatněná, zejména pokud neslouží účelu ochrany osobních údajů nebo je zjevně nepatřičná.</li></ul><br/>Dále je možné odmítnout, omezit nebo oddálit poskytnutí informací v následujících případech:<ul><li>a. Správce je soukromá osoba a jsou splněny následující požadavky: 1. Vlastní převažující zájmy správce toto opatření vyžadují. 2. Správce nemá v úmyslu předávat osobní údaje třetím stranám.</li><li>b. Správce je federální subjekt a je splněna jedna z následujících podmínek: 1. Opatření je nezbytné pro zajištění převažujícího veřejného zájmu, zejména vnitřní nebo vnější bezpečnosti Švýcarska. 2. Poskytnutí informací může ohrozit vyšetřování, šetření nebo správní či soudní řízení.</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Splnit federální nebo státní zákony, pravidla či předpisy.</il><il>(b) Splnit občanské, trestní či regulační šetření, vyšetřování, předvolání nebo příkaz k soudu vydaný federálními, státními, místními či jinými vládními orgány.</il><il>(c) Prošetřit, založit, uplatnit, připravit se na nebo hájit právní nároky.</il><il>(d) Poskytnout produkt nebo službu výslovně požadovanou spotřebitelem nebo rodičem či opatrovníkem dítěte, splnit smlouvu, jejíž je spotřebitel stranou, včetně splnění podmínek písemné záruky, nebo podniknout kroky na žádost spotřebitele před uzavřením smlouvy.</il><il>(e) Přijmout okamžitá opatření k ochraně zájmu, který je zásadní pro život nebo fyzickou bezpečnost spotřebitele či jiné osoby a pro které zpracování zjevně nemůže spočívat na jiném právním základě.</il><il>(f) Zabránit, odhalit, chránit před nebo reagovat na bezpečnostní incidenty, krádež identity, podvod, obtěžování, škodlivé či klamavé aktivity nebo jakoukoli nezákonnou činnost.</il><il>(g) Zachovat integritu či bezpečnost systémů nebo prošetřit, nahlásit či stíhat osoby odpovědné za prolomení bezpečnosti systému.</il><il>(h) Zapojit se do veřejného nebo recenzovaného vědeckého či statistického výzkumu ve veřejném zájmu, který dodržuje všechny ostatní příslušné etické a soukromé předpisy a je schválen, monitorován a řízen institucionální radou pro hodnocení nebo obdobným nezávislým kontrolním orgánem, který určí: 1. Zda je pravděpodobné, že vymazání informací poskytne významné přínosy, které nepřipadají výlučně správci; 2. Zda očekávané přínosy výzkumu převažují nad riziky pro soukromí; a 3. Zda správce zavedl přiměřená ochranná opatření ke zmírnění rizik pro soukromí spojených s výzkumem, včetně jakýchkoli rizik spojených s opětovnou identifikací.</il><il>(i) Pomáhat jinému správci, zpracovateli nebo třetí straně při dodržování požadavků této části.</il><il>(j) Zveřejnit osobní údaje zveřejněné, když spotřebitel použije nebo uloží správci záměrné poskytnutí informací třetí straně, nebo použije správce k záměrné interakci s třetí stranou. Záměrná interakce nastává, když spotřebitel zamýšlí komunikovat s touto třetí stranou prostřednictvím jedné či více cílených interakcí. Najetí myší, ztišení, pauza nebo zavření určitého obsahu nepředstavují spotřebitelův záměr komunikovat s třetí stranou.</il><il>(k) Předat osobní údaje třetí straně jako aktivum, které je součástí fúze, akvizice, konkurzu nebo jiné transakce, v rámci níž třetí strana přebírá kontrolu nad celým nebo částí správce, pokud jsou informace používány či sdíleny způsobem, který je v souladu s touto částí. Pokud třetí strana podstatně změní způsob, jakým používá nebo sdílí osobní údaje spotřebitele, a to významně v rozporu se závazky nebo sliby učiněnými v době shromažďování, musí spotřebiteli předem oznámit novou či změněnou praxi. Toto oznámení musí být dostatečně výrazné a silné, aby spotřebitelé mohli snadno uplatnit volby v souladu s touto částí.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>Pokud je uchování vašich údajů nezbytné z důvodu svobody projevu a informace (což zahrnuje novinářské a akademické, umělecké a literární účely).</li><li>Pokud má organizace zákonnou povinnost si vaše údaje ponechat.</li><li>Pokud je uchování vašich údajů nezbytné z důvodů veřejného zdraví.</li><li>Pokud je nezbytné uchovat vaše data pro uplatnění, výkon nebo obhajobu právních nároků.</li><li>Pokud by vymazání vašich údajů narušilo vědecký nebo historický výzkum nebo archivaci ve veřejném zájmu.</li><li>Pokud si organizace po zvážení vaší žádosti myslí, že vaše data vymazávat nemusí, musí vám to oznámit a vysvětlit, proč se domnívá, že není povinna vaše data vymazat, a poučit vás o vašem právu podat stížnost u dozorového úřadu nebo soudu.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseudonymizovaná data</li><li>Anonymizovaná data</li><li>Veřejně dostupné informace</li><li>Veřejný nebo recenzovaný vědecký výzkum</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Svoboda projevu nebo jiné zákonné právo.</li><li>Zpracování pro účely výzkumu, pokud by odstranění osobních údajů znemožnilo nebo vážně ztížilo dosažení účelu takového výzkumu.</li><li>Zpracování těchto osobních údajů je nezbytné k ochraně proti nezákonným činnostem nebo k postihu odpovědných osob.</li><li>Ke splnění právní povinnosti.</li><li>Pro splnění smlouvy mezi společností a spotřebitelem.</li><li>Detekce bezpečnostních incidentů, ochrana před zlovolnou, klamavou, podvodnou nebo nezákonnou činností nebo stíhání osob odpovědných za tuto činnost.</li><li>Vyhledávání a oprava chyb, které narušují stávající funkcionalitu.</li><li>Využití pouze pro interní účely, které jsou v rozumném souladu s očekáváními spotřebitelů na základě jejich vztahu k této společnosti.</li><li>Jinak využít osobní informace spotřebitele v souladu se zákonem způsobem, který je slučitelný se souvislostí, v níž spotřebitel tyto informace poskytl.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Vládní subjekty</li><li>Federálně uznávané indiánské kmeny</li><li>Subjekty a obchodní partneři krytí zákonem HIPAA</li><li>Státní nebo federálně registrované banky nebo družstevní záložny</li><li>Pojišťovny</li><li>Malé podniky, jak je definuje americká správa pro malé podniky (SBA)</li><li>Neziskové organizace zřízené výhradně za účelem odhalování nebo předcházení pojistného podvodu</li><li>Osobní údaje upravené zákony GLBA nebo FCRA</li><li>Osobní údaje v kontextu zaměstnání nebo uchazečů o zaměstnání, údaje pro výhody a údaje nouzových kontaktů</li><li>Anonymizovaná nebo veřejně dostupná data</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty.</li><li>Chráněné zdravotní údaje</li><li>Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání</li><li>De-identifikovaná data</li><li>Veřejně dostupné informace</li><li>Agregované informace</li><li>Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseudonymizovaná data</li><li>Anonymizovaná data</li><li>Veřejně dostupné informace</li><li>Veřejný nebo recenzovaný vědecký výzkum</li><li>Chráněné zdravotní údaje</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseudonymizovaná data</li><li>Anonymizovaná data</li><li>Veřejně dostupné informace</li><li>Veřejný nebo recenzovaný vědecký výzkum</li><li>Chráněné zdravotní údaje</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseudonymizovaná data</li><li>Anonymizovaná data</li><li>Veřejně dostupné informace</li><li>Veřejný nebo recenzovaný vědecký výzkum</li><li>Chráněné zdravotní údaje</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, určitých národních asociací pro cenné papíry a finančních institucí jsou vyňaty. Kromě toho jsou vyňaty některé typy údajů:<ul><li>Chráněné zdravotní údaje</li><li>Údaje o zaměstnancích včetně údajů o uchazečích o zaměstnání</li><li>Anonymizované (de-identifikované) údaje</li><li>Veřejně dostupné informace</li><li>Souhrnné informace</li><li>Osobní informace shromažďované pro výzkum lidských subjektů nebo jako součást klinické studie</li></ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Osobní údaje zpracovávané pro osobní nebo domácí účely</li><li>Zpracování státními orgány související s národní bezpečností, veřejnou bezpečností nebo zdaněním</li><li>Zpracování pro novinářské, umělecké nebo literární účely ve veřejném zájmu</li><li>Zpracování Poslaneckou sněmovnou, Senátem, Parlamentem nebo jejich výbory</li><li>Zpracování soudy a soudními úředníky v rámci jejich povinností</li><li>Zpracování úvěrovými společnostmi a jejich členy podle zákona o úvěrových informacích (Credit Information Business Act)</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Zpracování osobních údajů fyzickou osobou pro ryze osobní účely</li><li>Zpracování prováděné přímo příslušným veřejným orgánem za účelem plnění zákonných úkolů</li><li>Zpracování nezbytné z důvodu národní bezpečnosti nebo veřejného pořádku</li><li>Zpracování bez souhlasu v bankovním a finančním sektoru, pokud to umožňuje zákon</li><li>Zpracování bezpečnostními službami pro účely národních zájmů</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Výjimky z povinnosti poskytnout přístup by měly být omezené a konkrétní.</li><li>Důvody pro zamítnutí přístupu by měly být na vyžádání jednotlivci poskytnuty.</li><li>Výjimky mohou zahrnovat informace, jejichž poskytnutí by bylo neúměrně nákladné, informace obsahující odkazy na jiné osoby, informace, které nelze zveřejnit z právních, bezpečnostních nebo komerčně důvěrných důvodů, a informace chráněné advokátsko-klientským nebo soudním privilegem.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": "Pokud zpracovatel osobních údajů zpracovává osobní údaje a zákony či správní předpisy stanoví, že by tyto informace měly zůstat důvěrné nebo není nutné o nich informovat, pak není nutné oznámit jednotlivci skutečnosti stanovené v první větě předchozího článku."
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Osobní nebo domácí činnost</li><li>Plně anonymizovaná data</li><li>Národní bezpečnost</li><li>Vymáhání práva</li><li>Činnost kabinetu a jeho výborů nebo výkonné rady provincie</li><li>Týkající se soudní funkce soudu podle sekce 166 Ústavy.</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, určitých národních asociací pro cenné papíry, finančních institucí a subjektů podléhajících konkrétním zákonům, jako je zákon Gramm-Leach-Bliley Act a zákon o přenositelnosti a odpovědnosti v oblasti zdravotního pojištění (HIPAA), jsou vyňaty."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Vládní subjekty a politické celky</li><li>Subjekty a obchodní partneři krytí HIPAA/HITECH</li><li>Finanční instituce a přidružené subjekty podléhající zákonu Gramm‑Leach‑Bliley (GLBA)</li><li>Instituce vyššího vzdělávání</li><li>Neziskové organizace</li><li>Pojišťovny registrované podle zákonů státu Tennessee</li><li>Osobní údaje regulované zákonem o spravedlivém úvěrovém reportování (FCRA)</li><li>Osobní údaje v kontextu zaměstnání nebo obchodu</li><li>Veřejně dostupná, agregovaná nebo anonymizovaná data</li><li>Osobní údaje regulované zákonem FERPA nebo COPPA</li><li>Výrobky pro zajištění bezpečnosti pacientů a jiné zdravotní údaje osvobozené dle federálního práva</li><li>Vědecká či statistická data výzkumu splňující zákonné záruky</li></ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty.</li><li>Chráněné zdravotní údaje</li><li>Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání</li><li>De-identifikovaná data</li><li>Veřejně dostupné informace</li><li>Agregované informace</li><li>Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Chráněné zdravotní informace podle HIPAA;</li><li>Zdravotní záznamy pro účely hlavy 32.1;</li><li>Identifikovatelné údaje o pacientech pro účely 42 U.S.C. § 290dd-2;</li><li>Identifikovatelné soukromé informace pro účely federální politiky ochrany lidských subjektů podle 45 C.F.R. Část 46; identifikovatelné soukromé informace, které jsou jinak shromažďovány jako součást výzkumu s lidskými subjekty v souladu s pokyny pro správnou klinickou praxi Mezinárodní rady pro harmonizaci technických požadavků na farmaceutické přípravky pro lidské použití; ochrany lidských subjektů podle 21 C.F.R. Část 6, 50 a 56 nebo osobní údaje použité nebo sdílené ve výzkumu prováděném v souladu s požadavky stanovenými v této kapitole nebo jiném výzkumu prováděném v souladu s platným právem;</li><li>Informace a dokumenty vytvořené pro účely federálního zákona o zlepšování kvality zdravotní péče z roku 1986 (42 U.S.C. § 11101 a násl.);</li><li>Práce týkající se bezpečnosti pacientů pro účely federálního zákona o bezpečnosti pacientů a zlepšování kvality (42 U.S.C. § 299b-21 a násl.);</li><li>Informace odvozené z jakýchkoli informací souvisejících se zdravotní péčí uvedených v tomto odstavci, které jsou de-identifikovány v souladu s požadavky na odstranění identifikátorů podle HIPAA;</li><li>Informace pocházející z nebo spojené s informacemi, jež jsou vyňaty z tohoto odstavce a které jsou uchovávány subjektem spadajícím pod HIPAA nebo programem či kvalifikovanou servisní organizací podle 42 U.S.C. § 290dd-2;</li><li>Informace použité pouze pro veřejné zdravotní aktivity a účely povolené HIPAA;</li><li>Shromažďování, uchovávání, zveřejňování, prodej, komunikace nebo použití osobních informací, které se týkají úvěrové způsobilosti, stavu, kapacity, povahy, pověsti nebo způsobu života spotřebitele úvěrovou zpravodajskou agenturou nebo subjektem poskytujícím informace pro účely využití v úvěrové zprávě a uživatelem úvěrové zprávy, avšak pouze v rozsahu, ve kterém je tato činnost upravena a povolena podle federálního zákona o spravedlivém úvěrovém zpravodajství (15 U.S.C. § 1681 a násl.);</li><li>Osobní údaje shromažďované, zpracovávané, prodávané nebo zveřejňované v souladu s federálním zákonem o ochraně údajů z registru řidičů z roku 1994 (18 U.S.C. § 2721 a násl.);</li><li>Osobní údaje upravené federálním zákonem o právech a soukromí ve vzdělávání (20 U.S.C. § 1232g a násl.);</li><li>Osobní údaje shromažďované, zpracovávané, prodávané nebo zveřejňované v souladu s federálním zákonem o farmářském úvěru (12 U.S.C. § 2001 a násl.);</li><li>Údaje zpracovávané nebo uchovávané (i) v rámci žádosti jednotlivce, který se uchází, je zaměstnán nebo působí jako zástupce, nezávislý dodavatel nebo jiná strana vůči správci, zpracovateli nebo třetí straně, pokud jsou údaje shromažďovány a používány v souvislosti s touto rolí; (ii) jako informace o nouzovém kontaktu jednotlivce dle tohoto zákona, používané pouze pro účely nouzového kontaktu; nebo (iii) které je nezbytné uchovat pro správu výhod pro jiného jednotlivce spojeného s osobou podle bodu (i) a je použito pouze pro účely poskytování těchto výhod.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Doporučení: eskalujte svou žádost na {authorityLong} ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Doporučení: pokud se domníváte, že {companyName} měla vaší žádosti zcela vyhovět, doporučujeme eskalovat žádost na {authorityLong} ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Svoji žádost jste eskalovali k {dpaLong} ({dpaShort}), prosím pokračujte v komunikaci přímo s nimi. My už vám zde více pomoci nemůžeme."
+  },
+  "request.next.esclateButton": {
+    "message": "Eskalovat na { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Více informací o těchto výjimkách"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "Podle {regulationType} mají organizace {timeLimit} dní na odpověď na vaši žádost."
+  },
+  "request.next.reminderButton": {
+    "message": "Pošlete připomínkový e-mail organizaci"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Vyberte prosím z následujících možností:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Pokud chcete podniknout další kroky, vyberte prosím z následujících možností:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Pokud nechcete čekat, vyberte prosím z následujících možností:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Doporučení: pošlete organizaci připomínkový e-mail."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Doporučení: počkejte, dokud neuplyne { timeLimit } dnů, aby společnosti zbyl čas na zpracování vaší žádosti."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Doporučení: počkejte, dokud neuplyne { timeLimit } dnů od data odeslání žádosti, abyste organizaci dali čas na její zpracování po vaší připomínce."
+  },
+  "request.next.whatsNext": {
+    "message": "Co dál"
+  },
+  "request.success": {
+    "message": "Gratulujeme, {companyName} úspěšně vyhověla vaší žádosti. Vaše osobní údaje budou automaticky vymazány z tohoto webu do 120 dnů od data vaší původní žádosti. Případně můžete <a>odstranit své osobní údaje ihned</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Eskalovat vaši žádost"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Připomínka odeslána"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Žádost nebyla odeslána"
+  },
+  "request.timeline.requestSent": {
+    "message": "Žádost odeslána"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Časová osa vaší žádosti"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Eskalace odeslána"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {dnes} one {zítra} few {za # dny} many {za # dní} other {za # dní}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Poslat připomínku"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {dnes} one {zítra} few {za # dny} many {za # dní} other {za # dní}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {dnes} one {včera} few {před # dny} many {před # dny} other {před # dny}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {dnes} one {včera} few {před # dny} many {před # dny} other {před # dny}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {dnes} one {včera} few {před # dny} many {před # dny} other {před # dny}}"
+  },
+  "request.title": {
+    "message": "Podrobnosti o vaší žádosti podle {regulationType}"
+  },
+  "requestEscalation.complaint": {
+    "message": "Další podrobnosti"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Vysvětlete prosím, proč nejste spokojeni se způsobem, jakým organizace vyřídila vaši žádost"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Otevřít formulář eskalace"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "Pro eskalaci vaší žádosti budete muset vyplnit formulář na webu {authority}. Kliknutím na tlačítko níže otevřete formulář v novém panelu."
+  },
+  "requestEscalation.geography": {
+    "message": "Umístění"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Vyberte prosím své místo bydliště"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "Chcete-li eskalovat svou žádost, zavolejte prosím na {authority} na čísle {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Zkontrolovat a odeslat"
+  },
+  "search.companyPlaceholder": {
+    "message": "Vyhledejte organizaci"
+  },
+  "search.noResults": {
+    "message": "Nemůžete najít organizaci?"
+  },
+  "search.noResultsMore": {
+    "message": "Klikněte sem a přidejte ji"
+  },
+  "sendEmailButton.copy": {
+    "message": "Zkopírovat text e-mailu do schránky"
+  },
+  "sendEmailButton.default": {
+    "message": "Otevřít ve výchozím e-mailovém klientu"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Otevřít v Gmailu"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Otevřít v Yahoo Mail"
+  },
+  "social.chromeCTA": {
+    "message": "Stáhnout pro Chrome"
+  },
+  "social.chromeTitle": {
+    "message": "Doplněk pro Google Chrome"
+  },
+  "social.emailBody": {
+    "message": "Mrkněte na YourDigitalRights.org, bezplatnou službu, která vám umožňuje zjistit, jaké osobní údaje o vás tisíce organizací mají, a vyžádat si jejich smazání."
+  },
+  "social.emailSubject": {
+    "message": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a nechte je odstranit | Your Digital Rights"
+  },
+  "social.extensionHeadline": {
+    "message": "Odhlaste se přímo z prohlížeče"
+  },
+  "social.extensionText": {
+    "message": "Chcete mít lepší kontrolu nad tím, kdo má přístup k vašim osobním údajům? Náš doplněk do prohlížeče vám umožňuje odhlásit se z webových stránek, které navštěvujete, jediným kliknutím."
+  },
+  "social.facebookQuote": {
+    "message": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a přimějte je k jejich smazání. Podívejte se na yourdigitalrights.org."
+  },
+  "social.firefoxCTA": {
+    "message": "Stáhnout pro Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "Doplněk pro Firefox"
+  },
+  "social.shareHeading": {
+    "message": "Pokud shledáváte tuto službu užitečnou, prosím šiřte ji dál"
+  },
+  "social.twitterTitle": {
+    "message": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a přimějte je k jejich smazání. Podívejte se na yourdigitalrights.org."
+  },
+  "stats.description": {
+    "message": "Statistiky žádostí o ochranu osobních údajů."
+  },
+  "stats.statsSubTitle": {
+    "message": "Naším posláním je pomoci jednotlivcům znovu získat kontrolu nad jejich online soukromím, tím, že jim umožníme požádat organizace o vymazání či poskytnutí kopie osobních údajů. Níže uvedené statistiky ukazují, které organizace obdržely nejvíc žádostí v různých časových obdobích."
+  },
+  "stats.statsTitle": {
+    "message": "Statistiky žádostí"
+  },
+  "stats.title": {
+    "message": "Statistiky žádostí"
+  },
+  "stats.titleAlltime": {
+    "message": "Nejvíce žádostí za celou dobu"
+  },
+  "stats.titleMonth": {
+    "message": "Nejvíce žádostí tento měsíc"
+  },
+  "stats.titleWeek": {
+    "message": "Nejvíce žádostí tento týden"
+  },
+  "stats.titleYear": {
+    "message": "Nejvíce žádostí tento rok"
+  },
+  "stats.total": {
+    "message": "Celkově odeslaných žádostí: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Buďte o krok napřed před online hrozbami a získejte kontrolu nad svými osobními údaji s Privacy Alerts! Náš newsletter vám poskytne nejnovější odborné rady, tipy a triky, jak chránit vaše soukromí v digitálním světě. Přihlaste se hned a zůstaňte v obraze i v bezpečí!"
+  },
+  "subscribe.title": {
+    "message": "Přihlaste se k odběru Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "Chápeme, že přimět společnosti k vymazání vašich údajů může být někdy frustrující."
+  },
+  "support.description2": {
+    "message": "Naše placená podpora vám poskytne přímý kontakt s některým z našich zaměstnanců, který vám rád pomůže s žádostí o vymazání nebo přístup k údajům."
+  },
+  "support.posPaidtitle": {
+    "message": "Děkujeme!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Pro využití placené podpory nás prosím kontaktujte na následující e-mailové adrese:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Placená podpora vám poskytne přímý přístup k jednomu z našich zaměstnanců"
+  },
+  "support.seoTitle": {
+    "message": "Podpora"
+  },
+  "support.title": {
+    "message": "Placená podpora"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "byl zkopírován do schránky, stačí jej vložit do e-mailu, zkontrolovat a kliknout na Odeslat."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "e-mail by se měl otevřít ve vaší e-mailové aplikaci, stačí jej zkontrolovat a kliknout na Odeslat."
+  },
+  "thankyou.description": {
+    "message": "Děkujeme"
+  },
+  "thankyou.donation": {
+    "message": "Pomozte nám udržet tuto službu zdarma tím, že <a>přispějete finančním darem</a>, abyste podpořili naši dlouhodobou finanční stabilitu a nezávislost."
+  },
+  "thankyou.findCompany": {
+    "message": "Najít další organizaci"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organizace mají {days} na vyhovění a mohou požádat o dodatečné informace k ověření vaší identity."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "Žádost o přístup"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "Žádost o odstranění"
+  },
+  "thankyou.seotitle": {
+    "message": "Děkujeme"
+  },
+  "thankyou.title": {
+    "message": "Děkujeme!"
+  }
+}

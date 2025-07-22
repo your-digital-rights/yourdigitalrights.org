@@ -30,13 +30,13 @@
     "message": "{linkedin} - Ingénieur Infrastructures."
   },
   "about.contributorsBody6": {
-    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
+    "message": "{link} - Ingénieur full stack, a contribué à la prise en charge d'APPI et à la traduction complète du site web en japonais."
   },
   "about.createdByBody2": {
     "message": "{linkedin} - Développeur web frontend, développeur d'applications mobiles et créateur de Skyjacker, le jeu de suivi de vol AR."
   },
   "about.description": {
-    "message": "Vos droits numériques ont été créés parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
+    "message": "Your Digital Rights a été créé parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
   },
   "about.funding": {
     "message": "Financement"
@@ -45,7 +45,7 @@
     "message": "Ce projet est financé par ses créateurs, et avec l'aide de vos dons."
   },
   "about.missionBody1": {
-    "message": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Réglementation de la protection des données telles que le {GDPR} (UE), le {CCPA} (Californie), et le {LGPD} (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
+    "message": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Des réglementation de la protection des données telles que le {GDPR} (UE), le {CCPA} (Californie), et le {LGPD} (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
   },
   "about.missionBody2": {
     "message": "La réglementation en matière de protection de la vie privée est un pas dans la bonne direction. mais l'exercice de vos droits en vertu de ces lois est encore assez difficile pour la plupart des gens de ne pas s'en occuper. La situation est aggravée parce que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Notre objectif est de rendre les droits conférés par ces législations accessibles à tous."
@@ -78,13 +78,13 @@
     "message": "À propos de nous"
   },
   "aboutOrg.description": {
-    "message": "Dans leurs propres mots:"
+    "message": "En leurs propres termes :"
   },
   "aboutOrg.details": {
-    "message": "Information additionnelle:"
+    "message": "À propos de {org}"
   },
   "aboutOrg.email": {
-    "message": "Email:"
+    "message": "Courriel :"
   },
   "aboutOrg.founded": {
     "message": "Fondé :"
@@ -96,16 +96,16 @@
     "message": "Industrie :"
   },
   "aboutOrg.privacyPolicy": {
-    "message": "Politique de confidentialité:"
+    "message": "Consulter la <a>politique de confidentialité</a> de {org}"
   },
   "aboutOrg.specialties": {
-    "message": "Spécialités de l'entreprise:"
+    "message": "Spécialités de l'entreprise :"
   },
   "aboutOrg.type": {
     "message": "Type de société :"
   },
   "contribute.creadit": {
-    "message": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus que heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur github, ou par d'autres moyens."
+    "message": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus qu’heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur GitHub, ou par d'autres moyens."
   },
   "contribute.creditTitle": {
     "message": "Crédit"
@@ -132,7 +132,7 @@
     "message": "Aidez-nous à améliorer YourDigitalRights.org."
   },
   "contribute.dev": {
-    "message": "Nos référentiels sont hébergés sur GitHub, le principal étant pour ce <a>site</a>. La meilleure façon de commencer est de nous contacter par e-mail <email></email>. Nous vous ajouterons ensuite à notre chaîne Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
+    "message": "Nos référentiels sont hébergés sur GitHub, le principal étant pour ce <a>site</a>. La meilleure façon de commencer est de nous contacter par <email>courriel</email>. Nous vous ajouterons ensuite à notre canal Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
   },
   "contribute.devSkills": {
     "message": "Nous sommes actuellement à la recherche d'ingénieurs en apprentissage automatique, React et AWS."
@@ -141,13 +141,13 @@
     "message": "Aide au développement"
   },
   "contribute.reportAProblem": {
-    "message": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans le <a1>issue tracker</a1>, ou via <a2>email</a2>."
+    "message": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans l’<a1>outil de suivi des incidents</a1>, ou via <a2>courriel</a2>."
   },
   "contribute.reportAProblemTitle": {
     "message": "Signaler un problème"
   },
   "contribute.research": {
-    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez <email>e-mail</email>  si vous souhaitez vous impliquer."
+    "message": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez nous envoyer un <email>courriel</email> si vous souhaitez vous impliquer."
   },
   "contribute.researchTitle": {
     "message": "Aide à la recherche"
@@ -186,7 +186,7 @@
     "message": "Supprimer mes données"
   },
   "deletePII.intro": {
-    "message": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (ref: {ref}), ou à toutes vos requêtes ?"
+    "message": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (réf : {ref}), ou à toutes vos requêtes ?"
   },
   "deletemydata.description": {
     "message": "Supprimer mes données"
@@ -204,16 +204,16 @@
     "message": "Nous avons besoin de votre soutien"
   },
   "faq.body.YDR.1": {
-    "message": "Vos droits numériques. rg est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
+    "message": "YourDigitalRights.org est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
   },
   "faq.body.contact.1": {
     "message": "Veuillez comprendre que nous ne pouvons pas fournir de soutien personnel concernant des demandes de données spécifiques ou votre expérience avec une organisation particulière. Nous savons que, dans certains cas, les organisations peuvent être assez frustrantes, mais malheureusement, nous ne pouvons pas aider et ne répondrons pas à de tels courriels."
   },
   "faq.body.contact.2": {
-    "message": "Pour toute autre demande, veuillez nous contacter via <a>email</a>."
+    "message": "Pour toute autre demande, veuillez nous contacter par <a>courriel</a>."
   },
   "faq.body.contribute.1": {
-    "message": "Oui, s'il vous plaît!"
+    "message": "Oui, s'il vous plaît !"
   },
   "faq.body.contribute.2": {
     "message": "Nous comptons sur <a>dons</a> pour assurer notre stabilité financière à long terme et notre indépendance. Vous pouvez y contribuer."
@@ -270,7 +270,7 @@
     "message": "Il est temps de répondre"
   },
   "faq.body.requests.1": {
-    "message": "Nous soutenons deux types de demandes:"
+    "message": "Nous gérons deux types de demandes :"
   },
   "faq.body.requests.1.1": {
     "message": "<b>Les demandes de suppression de données</b> (également connues sous le nom de demandes d'effacement ou le droit d'être oubliées) vous permettent de demander à une organisation de supprimer vos informations personnelles."
@@ -315,7 +315,7 @@
     "message": "Comment fonctionne le service?"
   },
   "faq.heading.new-regulation": {
-    "message": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir?"
+    "message": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir ?"
   },
   "faq.heading.refuse": {
     "message": "Les organisations peuvent-elles dire non?"
@@ -324,7 +324,7 @@
     "message": "Quels sont les pays, les États ou les règlements qui sont soutenus?"
   },
   "faq.heading.requests": {
-    "message": "Quels types de demandes puis-je faire à l'aide de ce service?"
+    "message": "Quels types de demandes puis-je faire à l'aide de ce service ?"
   },
   "faq.heading.trust": {
     "message": "Qui gère ce service ? Puis-je vous faire confiance ?"
@@ -405,10 +405,10 @@
     "message": "Supprimez votre compte ou accédez aux données personnelles que les organisations possèdent sur vous en utilisant ce service gratuit."
   },
   "nav.about": {
-    "message": "Sur"
+    "message": "À propos"
   },
   "nav.blog": {
-    "message": "Blogue"
+    "message": "Blog"
   },
   "nav.contact": {
     "message": "Nous contacter"
@@ -483,10 +483,10 @@
     "message": "Non, je peux me débrouiller seul"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Oui, envoyez-moi des instructions de suivi par e-mail"
+    "message": "Oui, envoyez-moi des instructions de suivi par courriel"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "Envoyez-moi une copie de mes données"
+    "message": "M’envoyer une copie de mes données"
   },
   "personalInfoForm.companyDomainHelper": {
     "message": "Veuillez saisir le nom de domaine de l'organisation (exemple : google.co.uk ou facebook.com)."
@@ -675,7 +675,7 @@
     "message": "Cacher l'e-mail de la demande"
   },
   "request.details.name": {
-    "message": "Demandé par:"
+    "message": "Demandé par :"
   },
   "request.details.nowDetails": {
     "message": "Les détails de la demande ne sont pas disponibles pour le moment, veuillez actualiser la page une fois que vous avez envoyé l'email."
@@ -684,7 +684,7 @@
     "message": "Destinataire :"
   },
   "request.details.regulation": {
-    "message": "Réglement:"
+    "message": "Règlement :"
   },
   "request.details.reminderDate": {
     "message": "Date de rappel de l'email :"
@@ -714,7 +714,7 @@
     "message": "{companyName} n'a pas encore répondu."
   },
   "request.hero.domainTitle": {
-    "message": "Domaine:"
+    "message": "Domaine :"
   },
   "request.hero.handledPartially": {
     "message": "Manipulé partiellement"
@@ -732,16 +732,16 @@
     "message": "Pas de réponse"
   },
   "request.hero.partiallyHandled": {
-    "message": "{companyName} a traité votre demande partiellement."
+    "message": "{companyName} a partiellement traité votre demande."
   },
   "request.hero.reference": {
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Référence:"
+    "message": "Référence :"
   },
   "request.hero.requestNotSent": {
-    "message": "veuillez envoyer l'e-mail de la demande, puis actualiser cette page."
+    "message": "veuillez envoyer le courriel de la demande, puis actualiser cette page."
   },
   "request.hero.requestStatus": {
     "message": "Statut de la requête :"
@@ -783,7 +783,7 @@
     "message": "<ul><li>Libre parole ou autre droit fourni par la loi.</li><li>Traitement à des fins de recherche, si la suppression de renseignements personnels rendrait impossible ou nuirait gravement à la réalisation de telles recherches.</li><li>Le traitement de ces informations personnelles est nécessaire pour se protéger contre les activités illégales ou poursuivre les responsables de l'activité.</li><li>Pour se conformer à une obligation légale.</li><li>Effectuer un contrat entre l'entreprise et le consommateur.</li><li>Détecter les incidents de sécurité, se protéger contre les activités malveillantes, trompeuses, frauduleuses ou illégales, ou poursuivre les responsables de cette activité.</li><li>Débogage pour identifier et réparer les erreurs qui entravent les fonctionnalités existantes.</li><li>Permettre uniquement des utilisations internes qui sont raisonnablement alignées sur les attentes du consommateur en fonction de la relation du consommateur avec l'entreprise.</li><li>Sinon, utilisez les informations personnelles du consommateur, en interne, de façon licite et compatible avec le contexte dans lequel le consommateur a fourni les renseignements.</li></ul>"
   },
   "request.next.declineMCDPA": {
-    "message": "<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+    "message": "<ul><li>Entités gouvernementales</li><li>Tribus indiennes reconnues fédéralement</li><li>Entités couvertes et partenaires commerciaux relevant de la loi HIPAA</li><li>Banques ou coopératives de crédit constituées au niveau de l’État ou au niveau fédéral</li><li>Compagnies d’assurance</li><li>Petites entreprises au sens de la U.S. Small Business Administration</li><li>Organisations à but non lucratif établies uniquement pour détecter ou prévenir la fraude à l’assurance</li><li>Données personnelles régies par la GLBA ou la FCRA</li><li>Données personnelles liées à l’emploi ou à la candidature, prestations et coordonnées d’urgence</li><li>Données désidentifiées ou publiquement disponibles</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés</li><li>Données sanitaires protégées</li><li>données employées incluant les données du candidat à l'emploi</li><li>données déidentifiées</li><li>Informations publiquement disponibles</li><li>Informations globales</li><li>Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
@@ -801,10 +801,10 @@
     "message": "Les entités telles que les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières et certaines institutions financières sont exonérées. De plus, certains types de données sont exonérés :<ul><li>Données de santé protégées</li><li>Données des employés, y compris les données des candidats à l'emploi</li><li>Données</li><li>Données</li><li>Données</li><li>Données personnelles collectées pour des recherches sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
   },
   "request.next.declinePDPA": {
-    "message": "<ul><li>Personal data processed for personal or household activities</li><li>Processing by state authorities related to national security, public safety or taxation</li><li>Processing for journalistic, artistic or literary purposes in the public interest</li><li>Processing by the House of Representatives, Senate, Parliament or their committees</li><li>Processing by courts and judicial officers within their duties</li><li>Processing by credit bureaus and their members under the Credit Information Business Act</li></ul>"
+    "message": "<ul><li>Les données personnelles traitées à des fins personnelles ou domestiques</li><li>Traitement par les autorités de l’État concernant la sécurité nationale, la sûreté publique ou la fiscalité</li><li>Traitement à des fins journalistiques, artistiques ou littéraires dans l’intérêt public</li><li>Traitement par la Chambre des représentants, le Sénat, le Parlement ou leurs comités</li><li>Traitement par les tribunaux et les officiers de justice dans le cadre de leurs fonctions</li><li>Traitement par les agences de crédit et leurs membres en vertu de la Credit Information Business Act</li></ul>"
   },
   "request.next.declinePDPL": {
-    "message": "<ul><li>Processing of personal data by a natural person for purely personal purposes</li><li>Processing carried out directly by a competent public authority to perform its statutory tasks</li><li>Processing necessary for national security or public order purposes</li><li>Processing without consent in the banking and financial sector as permitted by law</li><li>Processing by security services for national interest objectives</li></ul>"
+    "message": "<ul><li>Traitement de données personnelles par une personne physique à des fins purement personnelles</li><li>Traitement effectué directement par une autorité publique compétente pour remplir ses missions légales</li><li>Traitement nécessaire à la sécurité nationale ou à l’ordre public</li><li>Traitement sans consentement dans le secteur bancaire et financier comme autorisé par la loi</li><li>Traitement par les services de sécurité pour des objectifs d’intérêt national</li></ul>"
   },
   "request.next.declinePIPEDA": {
     "message": "<ul><li>Les exceptions à l'exigence d'accès doivent être limitées et spécifiques.</li><li>Les raisons de refuser l'accès doivent être fournies à l'individu sur demande.</li><li>Les exceptions peuvent inclure des informations qui sont prohibitivement coûteuses à fournir, des informations qui contiennent des références à d'autres personnes, des renseignements qui ne peuvent pas être divulgués pour des raisons juridiques, de sécurité ou de propriété commerciale, et des renseignements qui sont assujettis à des privilèges d’avocat-client ou de litige.</li></ul>"
@@ -813,13 +813,13 @@
     "message": "Lorsque les responsables du traitement d’informations personnelles traitent ces informations, si la loi ou les règlements administratifs exigent la confidentialité ou qu’aucune notification n’est requise, ils peuvent ne pas informer l’individu des points prévus au premier alinéa de l’article précédent."
   },
   "request.next.declinePOPIA": {
-    "message": "<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+    "message": "<ul><li>Activité personnelle ou domestique</li><li>Données entièrement désidentifiées</li><li>Sécurité nationale</li><li>Application de la loi</li><li>Par le Cabinet et ses comités ou le Conseil exécutif d’une province</li><li>Relatif aux fonctions judiciaires d’un tribunal visé à la section 166 de la Constitution.</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "Entités comprenant les gouvernements publics et locaux, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières, et des entités couvertes en vertu de lois particulières, telles que la Loi sur la transférabilité et la Loi sur la responsabilité en matière d'assurance maladie. sont exonérés."
   },
   "request.next.declineTIPA": {
-    "message": "<ul><li>Government entities and political subdivisions</li><li>Covered entities and business associates subject to HIPAA/HITECH</li><li>Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutions of higher education</li><li>Non‑profit organizations</li><li>Insurance companies licensed under Tennessee law</li><li>Personal data regulated by the Fair Credit Reporting Act (FCRA)</li><li>Employment‑related or commercial‑context personal data</li><li>Publicly available, aggregated or de‑identified data</li><li>Personal data regulated by FERPA or COPPA</li><li>Patient safety work product and other health data exempted under federal law</li><li>Scientific or statistical research data meeting statutory safeguards</li></ul>"
+    "message": "<ul><li>Entités gouvernementales et subdivisions politiques</li><li>Entités couvertes et partenaires commerciaux soumises à HIPAA/HITECH</li><li>Institutions financières et affiliées soumises à la loi Gramm‑Leach‑Bliley (GLBA)</li><li>Établissements d’enseignement supérieur</li><li>Organisations à but non lucratif</li><li>Compagnies d’assurance autorisées en vertu de la loi du Tennessee</li><li>Données personnelles régies par le Fair Credit Reporting Act (FCRA)</li><li>Données personnelles liées à l’emploi ou à un contexte commercial</li><li>Données publiquement accessibles, agrégées ou désidentifiées</li><li>Données personnelles régies par la FERPA ou la COPPA</li><li>Produits de travail sur la sécurité des patients et autres données de santé exemptées en vertu de la loi fédérale</li><li>Données de recherche scientifique ou statistique répondant aux garanties légales</li></ul>"
   },
   "request.next.declineUCPA": {
     "message": "<ul><li>Entités incluant les gouvernements locaux et étatiques, les organismes sans but lucratif, les établissements d'enseignement supérieur, certaines associations nationales de valeurs mobilières, les institutions financières et les entités couvertes en vertu de lois particulières, telles que la Loi sur Gramm-Leach-Bliley et la Loi sur la transférabilité et la responsabilité des assurances de santé. sont exonérés</li><li>Données sanitaires protégées</li><li>données employées incluant les données du candidat à l'emploi</li><li>données déidentifiées</li><li>Informations publiquement disponibles</li><li>Informations globales</li><li>Informations personnelles recueillies pour la recherche sur des sujets humains ou dans le cadre d'un essai clinique</li></ul>"
@@ -945,7 +945,7 @@
     "message": "Cliquez ici pour en ajouter un"
   },
   "sendEmailButton.copy": {
-    "message": "Copier le texte du mail dans le presse-papiers"
+    "message": "Copier le texte du courriel dans le presse-papiers"
   },
   "sendEmailButton.default": {
     "message": "Ouvrir dans votre application de messagerie par défaut"
@@ -966,7 +966,7 @@
     "message": "Consultez YourDigitalRights.org, un service gratuit qui permet de découvrir facilement les données personnelles que des milliers d'organisations possèdent sur vous et de les faire supprimer."
   },
   "social.emailSubject": {
-    "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Vos droits numériques"
+    "message": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Your Digital Rights"
   },
   "social.extensionHeadline": {
     "message": "Désactiver directement depuis votre navigateur"
@@ -1017,7 +1017,7 @@
     "message": "Total des demandes envoyées: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et enrichi !"
+    "message": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et capable d'agir !"
   },
   "subscribe.title": {
     "message": "Abonnez-vous aux alertes de confidentialité !"
@@ -1047,10 +1047,10 @@
     "message": "Support payant"
   },
   "thankyou.copyPart1Copy": {
-    "message": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
+    "message": "a été copié(e) dans le presse-papiers, il vous suffit de le coller dans le courriel, de le relire et de cliquer sur Envoyer."
   },
   "thankyou.copyPart1Email": {
-    "message": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
+    "message": "dans un courriel devrait être ouverte dans votre application de messagerie, il ne vous reste plus qu'à vérifier et à cliquer sur Envoyer."
   },
   "thankyou.description": {
     "message": "Merci"
@@ -1062,7 +1062,7 @@
     "message": "Trouver une autre organisation"
   },
   "thankyou.howLongToReply": {
-    "message": "Les organisations ont {days} à respecter, et peuvent demander des informations supplémentaires afin de vérifier votre identité."
+    "message": "Les organisations un délai de {days} à respecter, et peuvent demander des informations supplémentaires afin de vérifier votre identité."
   },
   "thankyou.requestTypeAccess": {
     "message": "Une demande d'accès"

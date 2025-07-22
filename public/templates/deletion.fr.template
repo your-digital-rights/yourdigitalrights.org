@@ -1,4 +1,4 @@
-À l'attention du Service Confidentialité / Délégué à la Protection des Données / Service Juridique de {{ companyName }} ({{ companyUrl }}),
+À l'attention du Service confidentialité / du délégué à la protection des données / service juridique de {{ companyName }} ({{ companyUrl }}),
 
 I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
 
@@ -6,27 +6,27 @@ To the extent that you rely on consent to process my personal data, I withdraw t
 
 If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+Je vous demande de ne pas exiger de ma part l'accomplissement d'une démarche en libre-service telle que la recherche de mes informations sur votre site internet, le remplissage d'un formulaire, ou la fourniture d'un identifiant publicitaire mobile. Ces demandes imposent une charge indue à ma charge. 
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
+Je vous prie d'utiliser les informations ci-dessous pour procéder à mon identification dans vos registres :
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please delete all my personal data which does not fall under these exceptions.
+If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Veuillez préciser les sections et sous-sections de la loi sur lesquelles vous vous appuyez, et identifier la raison spécifique pour laquelle vous invoquez ces exceptions, telles que l'obligation légale, la finalité interne ou l'usage concerné. Please delete all my personal data which does not fall under these exceptions.
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+Ce message électronique a été envoyé depuis mon compte de messagerie personnel (comme vous pouvez le constater dans les en-têtes du courriel). Veuillez utiliser ce fait pour vérifier mon identité. Je vous prie de ne pas me demander de fournir d'autres informations d'identification, car cela constitue une charge excessive de mon côté. Si vous êtes légalement tenu de demander des informations d'identification supplémentaires pour vérifier mon identité, veuillez me le faire savoir dans les plus brefs délais. 
 
 Please confirm that you have deleted my personal data from your paper and/or computer records and that you have followed up with any third-party organization with whom my information has been shared to ensure that they deleted their copy of the data. 
 
-My preferred method of contact is email. 
+Mon mode de contact préféré est le courriel. 
 
 Please note that I do not consent to any personal data which is part of this request to be used for any purpose other than fulfilling this request, except in the case of a suppression list, which you may keep in order to ensure that you do not collect any of my personal data in the future.
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+Il convient de noter que vous avez {{ regulation.timeLimit }} jours pour satisfaire à cette demande. 
 
-Kind regards,
+Cordialement,
 
 {{ name }}
 
-Powered by YourDigitalRights.org
+Propulsé par YourDigitalRights.org

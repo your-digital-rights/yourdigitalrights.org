@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Meie missioon"
+  },
+  "about.consciousDigital": {
+    "message": "Kes me oleme"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org on loodud organisatsiooni {cd} poolt, mis on registreeritud heategevuslikuks ühinguks ning arendab inimestekeskseid digialgatusi, et edendada ja edastada digitaalseid inimõigusi."
+  },
+  "about.contact": {
+    "message": "Kontakt"
+  },
+  "about.contactText": {
+    "message": "Võtke meiega ühendust aadressil {email}."
+  },
+  "about.contributors": {
+    "message": "Kaastöötajad"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontendi veebiarendaja."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontendi veebiarendaja."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontendi veebiarendaja."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - infrastruktuuriinsener."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - täislaotusega insener, panustas APPI toetuse ja kogu veebisaidi jaapani keelde tõlkimisega."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Frontendi veebiarendaja, mobiilirakenduse arendaja ja Skyjackeri, AR-lennujälgimismängu looja."
+  },
+  "about.description": {
+    "message": "Lõime portaali Your Digital Rights, sest usume, et teil on õigus privaatsusele ja et selle õiguse kasutamine peaks olema lihtne."
+  },
+  "about.funding": {
+    "message": "Rahastamine"
+  },
+  "about.fundingBody1": {
+    "message": "Selle projekti rahastavad selle loojad ja teie annetused."
+  },
+  "about.missionBody1": {
+    "message": "Usume, et privaatsus on põhiline inimõigus ja et see peaks olema kõigile kättesaadav. Andmekaitsemäärused nagu {GDPR} (EL), {CCPA} (California) ja {LGPD} (Brasiilia) tagavad õigusraamistiku inimeste põhiõigusele privaatsusele veebis."
+  },
+  "about.missionBody2": {
+    "message": "Kuigi privaatsusreeglid on samm õiges suunas, on oma õiguste kasutamine nende alusel endiselt piisavalt keeruline, et paljud inimesed loobuksid sellest. Probleemi süvendavad organisatsioonid, kes teevad andmepäringu esitamise meelega raskeks (näiteks ei avaldata oma veebisaidil ühtegi e-posti aadressi). Meie eesmärk on muuta nende seadustega antud õigused kõigile kättesaadavaks."
+  },
+  "about.missionBody3": {
+    "message": "See on tasuta teenus. Me ei ole äriettevõte ja meil puudub ärimudel. Me ei paku loendis olevatele organisatsioonidele mingeid teenuseid. Me ei kogu ega kauple isikuandmetega. See teenus on <a>avatud lähtekoodiga</a>."
+  },
+  "about.sponsors": {
+    "message": "Toetavad organisatsioonid"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - tänu nende ettevõtte andmebaasi hetktõmmise pakkumise eest, mida kasutame oma organisatsioonide loendi täiendamiseks."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - tõhusa viisi pakkumise eest kogukonna tagasiside kogumiseks seoses meie {roadmap}iga."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - et pakkuda majutatud versiooni Matomost (Piwik), avatud lähtekoodiga ning privaatsusele orienteeritud veebianalüüsi platvormist."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - SEO strateegia rakendamisel abistamise eest."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - et aidata meil mõista ja rakendada Brasiilia andmekaitse seadust Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Täname järgmisi organisatsioone, kes on toetanud meie avatud lähtekoodiga püüdlusi, pakkudes tasuta või soodustariifiga versiooni oma teenustest:"
+  },
+  "about.title": {
+    "message": "Meist"
+  },
+  "aboutOrg.description": {
+    "message": "Nende sõnadega:"
+  },
+  "aboutOrg.details": {
+    "message": "Ettevõttest {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-post:"
+  },
+  "aboutOrg.founded": {
+    "message": "Asutatud:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Peakorter:"
+  },
+  "aboutOrg.industry": {
+    "message": "Tööstusharu:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Vaata {org} <a>privaatsuspoliitikat</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Ettevõtte erioskused:"
+  },
+  "aboutOrg.type": {
+    "message": "Ettevõtte tüüp:"
+  },
+  "contribute.creadit": {
+    "message": "Kuigi me ei saa teile teie töö eest tasuda, soovime teid heameelega tunnustada, olgu siis sellel veebisaidil, GitHubis või muul moel."
+  },
+  "contribute.creditTitle": {
+    "message": "Tunnustus"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Looge Crowdinis konto, klõpsates sellele <a>lingile</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Järgige seda <a>linki</a>, et avada tõlkesüsteem."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Valige keel (selleks peate Crowdinisse sisse logima)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Nüüd peaksite nägema erinevaid tekstilõike ümbritsevaid kaste, mis moodustavad veebisaidi. Liikuge tekstiosa kohale, mille soovite tõlkida, ja klõpsake nupul, mis ilmub selle nurka."
+  },
+  "contribute.crowdinStep5": {
+    "message": "Avaneb redaktor, kus saate oma tõlke sisestada. Ärge unustage lõpus salvestada."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Kui teil tekib probleeme, võtke <email>meiega ühendust.</email>"
+  },
+  "contribute.description": {
+    "message": "Aidake meil YourDigitalRights.org'i täiustada."
+  },
+  "contribute.dev": {
+    "message": "Meie repositooriumid asuvad GitHubis, peamine neist on selle <a>veebisaidi</a> jaoks. Parim viis alustamiseks on võtta meiega ühendust <email>e-posti</email> teel. Seejärel lisame teid meie Slacki kanalisse ja jagame jätkuvaid arendustegevusi. Võite ka repositooriumi kloonida ja esitada liitmistaotluse."
+  },
+  "contribute.devSkills": {
+    "message": "Otsime praegu masinõppe-, React- ja AWS-i insenere."
+  },
+  "contribute.devTitle": {
+    "message": "Abista arendusega"
+  },
+  "contribute.reportAProblem": {
+    "message": "Kui teil tekib probleeme selle saidi kasutamisel, saate neist teatada <a1>probleemide jälgijas</a1> või <a2>e-posti</a2> teel."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Teavita probleemist"
+  },
+  "contribute.research": {
+    "message": "Otsime alati paremaid võimalusi digitaalseid õigusi edendada ja muuta need kättesaadavamaks. Olgu see inimeste tehnoloogiakasutuse paremaks mõistmiseks või organisatsioonide poolt kuritarvitamise paljastamiseks, käib alati mingi uurimisprojekt. Palun <email>kirjutage</email> meile, kui soovite kaasa lüüa."
+  },
+  "contribute.researchTitle": {
+    "message": "Aita uurimistööga"
+  },
+  "contribute.subtitle": {
+    "message": "See projekt on loodud ja seda hoiavad ülal vabatahtlikud. Kui teid teeb murelikuks privaatsuse kadu, üha laialdasem jälgimismajandus, mikrosihtimine ja väärinfo levitamine ning digiteenuste sõltuvust tekitav olemus, saate aidata:"
+  },
+  "contribute.title": {
+    "message": "Panusta"
+  },
+  "contribute.translate1": {
+    "message": "Soovime, et see teenus oleks kättesaadav paljudes keeltes. Kui teie keele tugi puudub või vajab uuendamist, oleks meil väga hea meel teie abi üle!"
+  },
+  "contribute.translate2": {
+    "message": "Kasutame veebipõhist platvormi <a>Crowdin</a> tekstistringide tõlkimiseks. See lihtsustab protsessi ning ei eelda programmeerimise tundmist. Lühike õpetus on saadaval <b>siin</b>. Tõlkimise alustamiseks tehke nii:"
+  },
+  "contribute.translateTitle": {
+    "message": "Tõlgi veebisait"
+  },
+  "dataProcessors": {
+    "message": "Andmete jagamine ja töötlejad"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Kõik päringud"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "See päring"
+  },
+  "deletePII.doneAll": {
+    "message": "Oleme kõik teie päringutega seotud isikuandmed edukalt kustutanud."
+  },
+  "deletePII.doneRequest": {
+    "message": "Oleme edukalt kustutanud selle päringuga seotud isikuandmed."
+  },
+  "deletePII.heading": {
+    "message": "Kustuta minu andmed"
+  },
+  "deletePII.intro": {
+    "message": "Teie isikuandmed kustutatakse automaatselt 120 päeva pärast päringu esitamist, kuid soovi korral saate oma andmed kohe kustutada. Kas soovite kustutada selle päringuga seotud andmed (viide: {ref}) või kõikide oma päringutega seotud andmed?"
+  },
+  "deletemydata.description": {
+    "message": "Kustuta minu andmed"
+  },
+  "deletemydata.title": {
+    "message": "Kustuta minu andmed"
+  },
+  "donations.donate": {
+    "message": "Annetus"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.org loodi, sest usume, et privaatsus on oluline ja et privaatsusõiguse kasutamine peaks olema lihtne. Seepärast oleme teinud selle tasuta. Annetades või meie toetajaliikmeks astudes saate aidata tagada meie pikaajalise rahalise stabiilsuse ja sõltumatuse."
+  },
+  "donations.headingDonate": {
+    "message": "Me vajame teie toetust"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org on tasuta teenus, mis aitab teil taastada kontrolli oma veebipõhise privaatsuse üle, tehes hõlpsaks organisatsioonidele päringute esitamise, et nad kustutaksid teie isikuandmed või pakuksid teile nende koopia. Me teeme seda, kiirendades protsessi, mida nõuavad andmekaitset käsitlevad seadused, mis annavad teile õiguse andmed kustutada või neile ligi pääseda. Lisaks päringute esitamisele organisatsioonidele saame aidata ka tagada, et päringud laheneksid teie kasuks."
+  },
+  "faq.body.contact.1": {
+    "message": "Palun mõistke, et me ei paku isiklikku tuge konkreetsete andmepäringute või teatud organisatsioonidega seotud kogemuste kohta. Teame, et mõnikord võib asutustega suhtlemine olla frustreeriv, kuid kahjuks ei saa me aidata ega sellistele kirjadele vastata."
+  },
+  "faq.body.contact.2": {
+    "message": "Kõigi muude küsimuste korral võtke meiega ühendust <a>e-posti</a> teel."
+  },
+  "faq.body.contribute.1": {
+    "message": "Jah, palun!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Tugineme <a>annetustele</a>, et tagada meie pikaajaline rahaline stabiilsus ja sõltumatus. Saate teha oma panuse siin."
+  },
+  "faq.body.contribute.3": {
+    "message": "Kui soovite teatada veast, aidata veebilehte tõlkida, kaasa lüüa arenduses või teha uurimistööd, siis lugege palun <a>seda lehte</a>."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Andmekaitsealased seadused kaitsevad isikuid nende isikuandmete töötlemisel, määrates kindlaks organisatsioonide vastutuse isikuandmete töötlemisel ning andes inimestele teatud õigused oma andmete suhtes. Paljudes riikides on andmekaitset käsitlevad õigusaktid; mõned pakuvad ulatuslikumat kaitset kui teised."
+  },
+  "faq.body.escalate.1": {
+    "message": "Kui organisatsioon ei täida teie päringut või teeb seda osaliselt, võimaldavad andmekaitsealased õigusaktid kasutada erinevaid kaebuse esitamise mehhanisme, näiteks kaebuse esitamist valitsusasutusele või kohtusse andmist (õigus esitada hagi)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Kui see tundub keeruline, ärge muretsege; me saame aidata. Kui esitate selle teenuse kaudu andmepäringu, lülitage sisse \"nutikas järelkontroll\", et saada isikupärastatud juhiseid, mida teha, kui organisatsioon ei täida teie päringut. Aitame teil organisatsiooniga ühendust võtta ja vajaduse korral esitada kaebus valitsusasutusele."
+  },
+  "faq.body.how.1": {
+    "message": "Pärast organisatsiooni valimist ja lühikese vormi täitmist koostame e-kirja, mis on adresseeritud valitud organisatsioonile. E-kiri avaneb teie e-posti rakenduses, kust saate selle üle vaadata ja saata. Soovi korral võime mõne aja möödudes teiega uuesti ühendust võtta, et veenduda, et päring on lahendatud teie kasuks. See võib hõlmata meeldetuletuse saadetist organisatsioonile või kaebuse esitamist riiklikule andmekaitseasutusele."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Soovime toetada kõiki andmekaitse õigusakte, mis annavad inimestele õiguse oma isikuandmetele ligi pääseda ja need kustutada. Kui teil on soov, et lisaksime toe mõnele konkreetsele regulatsioonile, võtke meiega <a>ühendust</a>."
+  },
+  "faq.body.refuse.1": {
+    "message": "Andmekaitsealased õigusaktid lubavad organisatsioonidel teie isikuandmete kustutamisest keelduda teatud erandlikel juhtudel. Siin on üldised näited, kuid täpsemalt lugege kindlasti teie suhtes kehtivat seadust:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "Kui organisatsioon on seadusega kohustatud teie andmeid säilitama (näiteks on finantsasutused kohustatud säilitama teie tehingute kirjeid rahapesu tõkestamise seaduste järgimiseks)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "Kui andmete säilitamine on vajalik sõnavabaduse ja info säilitamise huvides (sh ajakirjanduslikel, akadeemilistel, kunstilistel ja kirjanduslikel eesmärkidel)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "Kui andmete säilitamine on vajalik rahvatervise põhjustel"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "Kui andmete säilitamine on vajalik õigusnõuete esitamiseks, teostamiseks või kaitsmiseks"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "Kui andmete kustutamine kahjustaks avalikes huvides olevat teadus- või ajaloolist uurimistööd või arhiveerimist"
+  },
+  "faq.body.regulations.1": {
+    "message": "Kui soovite aidata meil rakendada tuge täiendavatele regulatsioonidele, siis võtke meiega <a>ühendust</a>."
+  },
+  "faq.body.regulations.location": {
+    "message": "Asukoht"
+  },
+  "faq.body.regulations.name": {
+    "message": "Täisnimi"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Lühend"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Vastamise tähtaeg"
+  },
+  "faq.body.requests.1": {
+    "message": "Pakume kahte tüüpi päringuid:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Andmete kustutamise päringud</b> (tuntud ka kui kustutuspäringud või õigus olla unustatud) võimaldavad teil paluda organisatsioonil oma isikuandmed kustutada."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Juurdepääsu taotlused</b> (tuntud ka Subject Access Requests või SAR) võimaldavad teil paluda organisatsioonil anda teile koopia teie isikuandmetest."
+  },
+  "faq.body.trust.1": {
+    "message": "Me oleme registreeritud mittetulundusühing nimega <a>Conscious Digital</a>. Usume läbipaistvusse, mistõttu on selle teenuse lähtekood <aa>avatud</aa>. 2022. aasta oktoobri seisuga oleme aidanud kasutajatel esitada rohkem kui 100 000 päringut erinevatele organisatsioonidele."
+  },
+  "faq.body.trust.2": {
+    "message": "Oleme sõltumatu teenus, ei müü teie isikuandmeid ega ole seotud ühegi loendis oleva organisatsiooniga. Lisaks ei paku me nendele organisatsioonidele ühtegi teenust. Meid rahastavad teie <a>annetus</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Oleme loonud selle teenuse nii, et vaikimisi ei pea me koguma teie isikuandmeid. Kui mõni valikuline funktsioon nõuab teie isikuandmete esitamist, kustutame need 120 päeva pärast. Täpsemalt lugege meie <a>privaatsuspoliitikast</a>."
+  },
+  "faq.body.verify.1": {
+    "message": "Andmekaitset käsitlevad õigusaktid nõuavad, et organisatsioonid kontrolliksid päringu esitanu isikusamasust, vältimaks pettust. Enamik seadusi sätestab ka, et kontrolli meetod peaks olema proportsionaalne töödeldavate andmete iseloomuga. Näiteks kui nõuate koopiat oma sõnumite ajaloost tavaliselt internetifoorumilt, piisab lihtsast e-posti aadressi omamise kontrollimisest. Kui aga soovite pangandusasutuselt oma tehingute ajalugu, on neil õigus paluda teil esitada täiendavat teavet, näiteks foto ID ja elukohatõendit."
+  },
+  "faq.body.verify.2": {
+    "message": "Enamasti piisab lihtsast kontrollist, et omate päringus kasutatud e-posti aadressi. Kui kasutate selle teenuse kaudu päringu saatmiseks e-kirja, tuleb see teie enda e-posti rakendusest, mis on juba piisav omaniku tõendamine."
+  },
+  "faq.body.verify.3": {
+    "message": "Teie andmete täiendavaks kaitseks keelame meilt koostatud päringutes organisatsioonil kasutada edastatud isikuandmeid muul eesmärgil kui ainult päringu täitmiseks."
+  },
+  "faq.heading.YDR": {
+    "message": "Mis on YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Mul on veel küsimusi. Kuidas teiega ühendust saada?"
+  },
+  "faq.heading.contribute": {
+    "message": "See teenus on suurepärane. Kas ma saan aidata?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Mis on andmekaitset käsitlevad õigusaktid?"
+  },
+  "faq.heading.escalate": {
+    "message": "Mida teha, kui organisatsioon ei täida minu päringut täielikult?"
+  },
+  "faq.heading.how": {
+    "message": "Kuidas see teenus toimib?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "Minu riigis on uus andmekaitse seadus. Kas te hakkate seda toetama?"
+  },
+  "faq.heading.refuse": {
+    "message": "Kas organisatsioonid võivad keelduda?"
+  },
+  "faq.heading.regulations": {
+    "message": "Milliseid riike, osariike või regulatsioone te toetate?"
+  },
+  "faq.heading.requests": {
+    "message": "Milliseid päringuid saan selle teenuse kaudu esitada?"
+  },
+  "faq.heading.trust": {
+    "message": "Kes seda teenust haldab? Kas ma saan teid usaldada?"
+  },
+  "faq.heading.verify": {
+    "message": "Organisatsioon küsib minult rohkem isikuandmeid, et kinnitada minu isikusamasust. Kas see on seaduslik? Kas nad võivad seda teavet muul eesmärgil kasutada?"
+  },
+  "faq.title": {
+    "message": "Korduma kippuvad küsimused"
+  },
+  "footer.contact": {
+    "message": "© Copyright 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Lahtiütlus:</span> Seda teenust pakutakse \"nagu on\" ilma igasuguse garantiita. Teenuse kasutamine toimub täielikult omal vastutusel. Me ei võta endale vastutust mis tahes otseste või kaudsete kahjude eest, mis tulenevad selle teenuse kasutamisest. Selle teenuse kaudu edastatud teave koos meie veebisaidi juriidilisi küsimusi käsitleva sisuga on esitatud teie isiklikuks kasutamiseks ega kujuta endast juriidilist nõu. Kui vajate konkreetse probleemi korral juriidilist nõu, pidage nõu litsentseeritud advokaadiga."
+  },
+  "footer.madeBy": {
+    "message": "<a>Conscious Digitali loodud</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Toetab Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Privaatsuspoliitika</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistika</a>"
+  },
+  "footer.wishList": {
+    "message": "tehke soov meie teekaardil"
+  },
+  "hero.headerText": {
+    "message": "Saate organisatsioonidelt nõuda oma konto kustutamist või nõuda koopiat oma isikuandmetest."
+  },
+  "hero.heading": {
+    "message": "Oma andmed enda valdusesse"
+  },
+  "hero.intro": {
+    "message": "Paljud organisatsioonid koguvad ja müüvad teie isikuandmeid sageli ilma teie nõusolekuta. Kasutage seda tasuta teenust, et saata neile andmete kustutamise või juurdepääsu päring. Alustage allpool organisatsiooni otsinguga."
+  },
+  "howItWorks.followUp": {
+    "message": "meie nutikat järelkontrolli abil, et tagada organisatsiooni vastavus teie päringule või aidata teil pöörduda vastava riikliku regulaatori poole."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Järelkontroll"
+  },
+  "howItWorks.imgAlt": {
+    "message": "Graafiline kujutis kasutajaliidesest"
+  },
+  "howItWorks.search": {
+    "message": "et leida organisatsioon, kasutades selle lehe ülaosas olevat otsingukasti."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Otsi"
+  },
+  "howItWorks.send": {
+    "message": "organisatsioonile päringu, et teie andmed kustutataks või saadaks nende koopia."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Saada"
+  },
+  "howItWorks.title": {
+    "message": "Kuidas toimib"
+  },
+  "howItWorks.whyBody": {
+    "message": "Oleme registreeritud mittetulundusühing nimega <cd>Conscious Digital</cd>. Lõime selle teenuse, sest usume, et privaatsus on oluline ning et privaatsusõiguse kasutamine peaks olema lihtne ja tasuta. Me ei kogu ega müü isikuandmeid. Teenust rahastavad selle loojad ja teie <donations>annetus</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Miks meid usaldada?"
+  },
+  "howItWorks.yourData": {
+    "message": "Andmekaitset käsitlevad õigusaktid kohustavad organisatsioone teie nõudmisel kustutama või edastama teie andmeid. Organisatsioonidel on selleks lühike tähtaeg, vastasel juhul on neil oht saada suuri trahve. Meie missioon on teha teile lihtsaks oma seaduslike õiguste kasutamine."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Teil on õigus privaatsusele!"
+  },
+  "index.description": {
+    "message": "Kustutage oma konto või pääsete ligi teie kohta kogutud isikuandmetele, kasutades seda tasuta teenust."
+  },
+  "nav.about": {
+    "message": "Meist"
+  },
+  "nav.blog": {
+    "message": "Blogi"
+  },
+  "nav.contact": {
+    "message": "Võtke meiega ühendust"
+  },
+  "nav.contribute": {
+    "message": "Panusta"
+  },
+  "nav.data-brokers": {
+    "message": "Andmevahendajad"
+  },
+  "nav.donate": {
+    "message": "Tee annetus"
+  },
+  "nav.donation": {
+    "message": "Tee annetus"
+  },
+  "nav.faq": {
+    "message": "KKK"
+  },
+  "nav.helpTranslate": {
+    "message": "Aita tõlkida"
+  },
+  "nav.howItWorks": {
+    "message": "Kuidas toimib"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Privaatsuspoliitika"
+  },
+  "nav.stats": {
+    "message": "Statistika"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Saatke GDPR-i, CCPA ja LGPD andmete kustutamise või juurdepääsu päringud igale organisatsioonile kiiresti ja lihtsalt."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Küsige {org} kontot kustutada või taotlege oma isikuandmete koopiat kiiresti ja lihtsalt."
+  },
+  "org.titleExistingOrg": {
+    "message": "Kustutage oma {org} konto või hankige oma andmete koopia"
+  },
+  "org.titleNewOrg": {
+    "message": "Saada GDPR, CCPA ja LGPD andmete kustutamise ja juurdepääsu päringuid"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Saatke andmete kustutamise või juurdepääsu päring."
+  },
+  "orgHero.subTitle2": {
+    "message": "Saatke {name} andmete kustutamise või juurdepääsu päring, kasutades seda <disclamer>tasuta ja sõltumatut</disclamer> teenust."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Saatke GDPR-i, CCPA või LGPD andmete kustutamise või juurdepääsu päring mis tahes organisatsioonile, kasutades seda <disclamer>tasuta ja sõltumatut</disclamer> teenust."
+  },
+  "orgHero.title": {
+    "message": "Kustutage oma {domain} konto või taotlege oma andmeid."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "Selleks, et tagada organisatsiooni vastavus teie päringule, saadame teile e-kirja, kui on aeg võtta täiendavaid meetmeid. Teil on võimalus saata organisatsioonile meeldetuletav e-kiri või esitada kaebus kohalikule andmekaitseasutusele."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Selle valiku valimisega annate nõusoleku, et töötleme ja salvestame järgmisi isikuandmeid: teie e-posti aadress, nimi ja teie päringumeilide sisu. Kogu selle päringuga seotud teave kustutatakse meie süsteemidest automaatselt 120 päeva jooksul, välja arvatud juhul, kui otsustate teisiti, ning alati on teil võimalus need andmed kohe kustutada. Kogume neid andmeid automaatselt, lisades päringumeili koopia (CC) väljale spetsiaalse e-posti aadressi.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Lülita sisse nutikas järelkontroll"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Soovi korral esitage teavet, mis aitab organisatsioonil teie andmeid nende süsteemidest üles leida, näiteks kasutajanimi, kliendi ID või kontonumber. <strong>Palun ärge edastage oma parooli ega muid isikuandmeid, mida organisatsioonil juba ei ole.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Ei, saan ise hakkama"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Jah, saatke mulle järelmeetmete juhised e-posti teel"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Saada mulle koopia minu andmetest"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Sisestage organisatsiooni domeeninimi (näiteks google.co.uk või facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organisatsiooni domeen"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "Organisatsiooni e-posti aadress"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Sisestage organisatsiooni nimi, millega soovite ühendust võtta."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Organisatsiooni nimi"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Sisestage palun e-posti aadress inimesele või osakonnale, kes vastutab GDPR / CCPA / privaatsuse / juriidiliste taotluste käitlemise eest. Tavaliselt leiate selle teabe organisatsiooni veebisaidi privaatsuspoliitikast, tingimustest või kontaktilehelt."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Kustuta minu andmed"
+  },
+  "personalInfoForm.headline": {
+    "message": "Täida vorm, et luua päringumeil, mille saad seejärel üle vaadata ja saata."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Täiendav tuvastatav teave (valikuline)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Seda kasutab organisatsioon teie tuvastamiseks."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Täisnimi"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Seadus"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Valige seadus lähtuvalt oma elukohast, kui teil puudub konkreetne põhjus teisiti valida."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Päringu tüüp"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Vaata üle ja saada"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Tugi"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Sisestage kehtiv e-posti aadress."
+  },
+  "pressIntro.title": {
+    "message": "Esitatud kanalites"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Järelmeetmete päringud"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Seda teenust kasutades võite peale andmepäringu esitamist valida, et soovite meilt edasist tuge e-kirja teel. Kui otsustate seda valikulist funktsiooni kasutada, kogume järgmist täiendavat isikuandmeid:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Teie e-posti aadress"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Andmepäringu e-kirjade sisu, mida saadate organisatsioonidele ja andmekaitseasutustele (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Andmepäringuga seotud metaandmed, näiteks saatmise kellaaeg ning saatja ja saaja aadressid"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Hoiame laiendatud isikuandmeid maksimaalselt 120 päeva."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Kui edastate meile vabatahtlikult isikuandmeid, annate nõusoleku nende kasutamiseks vastavalt käesolevale privaatsuspoliitikale. Kui edastate sellele veebisaidile isikuandmeid, tunnistate ja nõustute, et selliseid isikuandmeid võidakse edastada teie praegusest asukohast YourDigitalRights.org-i kontoritesse ja serveritesse ning käesolevas poliitikas nimetatud volitatud kolmandatele osapooltele."
+  },
+  "privacy.contact": {
+    "message": "Kontakt"
+  },
+  "privacy.contactBody": {
+    "message": "Kui teil on selle privaatsuspoliitika kohta küsimusi või muresid, võtke meiega ühendust aadressil {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Küpsised ja jälgimine"
+  },
+  "privacy.cookiesBody": {
+    "message": "Kasutame küpsiseid ainult selleks, et salvestada teie veebisaidil tehtud valikuid, et teenust oleks mugavam järgmisel korral kasutada. Küpsis on teave, mille meie teenuse hostimise arvuti edastab teie brauserile, kui teenust kasutate."
+  },
+  "privacy.description": {
+    "message": "Teie olete oma andmete omanik, meie olemasolu eesmärk on aidata teil kontrollida, kes neile ligi pääseb. See on meie privaatsuspoliitika leht."
+  },
+  "privacy.lastUpdated": {
+    "message": "Viimati uuendatud:"
+  },
+  "privacy.personalData": {
+    "message": "Päringute saatmine"
+  },
+  "privacy.personalDataBody1": {
+    "message": "Päringute saatmisel (ilma valikulise järelkontrolli funktsioonita) palume teil esitada järgmised isikuandmed:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Teie nimi"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Täiendav teave, mis on vajalik organisatsiooni poolt teie tuvastamiseks (näiteks kasutajanimi, kliendi ID või kontonumber)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Kasutame teie poolt päringute saatmisel edastatud isikuandmeid ainult e-kirja koostamiseks ega salvesta neid oma serveritesse."
+  },
+  "privacy.privacyTitle": {
+    "message": "Privaatsuspoliitika"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: Innocrafti loodud privaatsusele orienteeritud veebianalüütika teenus. Kasutame Matomot, et koguda anonüümset teavet selle kohta, kuidas teenust kasutatakse (\"Kasutusandmed\"). Võite külastada nende { matomo } lehte."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: pilveinfrastruktuuri pakkuja. Kui lülitate sisse järelmeetmete funktsiooni, kasutame AWS-i teie saadetavate e-kirjade töötlemiseks, vastava teabe salvestamiseks ja teile meeldetuletuste saatmiseks. Nende kohta saate lugeda siit: { matomo }."
+  },
+  "privacy.promise": {
+    "message": "Meie lubadus"
+  },
+  "privacy.promiseBody": {
+    "message": "Te olete oma andmete omanik. Meie eesmärk on aidata teil kontrollida, kes sellele ligi pääseb. Usume tugevalt, et teie isikuandmed peaksid jääma privaatselt ja turvaliselt teie valdusesse. Me ei kasuta ebavajalikke küpsiseid ja piirame teie andmete kogumist absoluutse miinimumini, mis on vajalik selle teenuse (YourDigitalRights.org) pakkumiseks. Mõnel juhul saate lubada valikulisi funktsioone, mis nõuavad täiendavate isikuandmete esitamist. Need juhtumid eeldavad, et annate selgesõnalise nõusoleku, ning on selgelt märgistatud. Me ei müü ega rendi teie isikuandmeid kellelegi ja ei hoia neid oma serverites kauem kui 120 päeva. Jagame teie isikuandmeid ainult siis, kui see on teenuse osutamiseks vajalik või kui käesolevas poliitikas on sätestatud teisiti."
+  },
+  "privacy.title": {
+    "message": "Privaatsuspoliitika"
+  },
+  "privacy.usageDataBody": {
+    "message": "Teeme koostööd järgmiste kolmandate osapoolte pakkujatega, kes teostavad osa andmetöötlusest meie nimel. Me sõlmime nendega lepingud, mis tagavad teie andmete konfidentsiaalsuse ja turvalisuse."
+  },
+  "privacyAlerts.description1": {
+    "message": "Igakuine e-kiri, mis loetleb kolm suurimat privaatsust rikkuvat ettevõtet, mille on tuvastanud meie uurimisrühm. Parandage oma privaatsust ja võtke oma isikuandmete üle kontroll tagasi, veetes kuus vaid viis minutit, et neist ettevõtetest loobuda."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Tellige meie igakuiseid privaatsusteateid"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Privaatsusteated"
+  },
+  "privacyAlerts.title": {
+    "message": "Privaatsusteated"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Miks investeerida oma privaatsusesse?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Iga meie veebipõhine tegevus jätab endast maha jälje isikuandmetest. Ettevõtted, kelle teenuseid kasutame, andmevahendajad, valitsused ja halvad kavatsustega isikud on kõik huvitatud meie andmetest."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "See olukord muudab meid haavatavaks mitmesugustele mõjutamiskampaaniatele, sealhulgas sihitud veebireklaamid, poliitilised ja sotsiaalsed manipulatsioonid valeuudiste abil, mitmesugused pettused, näiteks identiteedivargus, ning sõltuvust tekitavad rakendused ja veebiteenused. Kõik need on võimalikud tänu meie isikuandmete rohkusele."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Kuidas me selle uuesti kontrolli alla saame?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Oleme kujundanud privaatsusteated lähtudes tagasisidest, mida oleme saanud teenuse kasutajatelt. See on lihtne viis oma veebipõhist privaatsust aja jooksul parandada, kulutades iga kuu kõigest viis minutit meie uurimisrühma käsitsi välja valitud kõige halvemate ettevõtete teenustest loobumiseks."
+  },
+  "redirect.continueText": {
+    "message": "Jätka"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu on nüüd yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Hea uudis, see teenus laieneb! Oleme hiljuti käivitanud California Consumer Privacy Acti (CCPA) toe ja peagi lisandub tugi ka muudele küpsetusnõuetele peale kustutamise. Seetõttu on domeeninimi \"opt-out.eu\" liiga piirav. Oleme nüüd pühendunud rohkem kui kunagi varem sellele, et aidata teil kasutada oma digitaalseid õigusi. Tere tulemast meie uude koju aadressil <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Kuva üksikasju {regulationType} päringu kohta, mida selle tasuta teenusega esitati."
+  },
+  "request.details.date": {
+    "message": "Päringu e-kirja kuupäev:"
+  },
+  "request.details.escalationDate": {
+    "message": "Edasikaebuse e-kirja kuupäev:"
+  },
+  "request.details.header": {
+    "message": "Päringu üksikasjad"
+  },
+  "request.details.hide.escalation": {
+    "message": "Peida edasikaebuse e-kiri"
+  },
+  "request.details.hide.reminder": {
+    "message": "Peida meeldetuletuse e-kiri"
+  },
+  "request.details.hide.request": {
+    "message": "Peida päringu e-kiri"
+  },
+  "request.details.name": {
+    "message": "Päringu esitas:"
+  },
+  "request.details.nowDetails": {
+    "message": "Päringu üksikasjad pole hetkel saadaval, värskendage lehte pärast e-kirja saatmist."
+  },
+  "request.details.organization": {
+    "message": "Saaja:"
+  },
+  "request.details.regulation": {
+    "message": "Seadus:"
+  },
+  "request.details.reminderDate": {
+    "message": "Meeldetuletuse e-kirja kuupäev:"
+  },
+  "request.details.sentTo": {
+    "message": "Saaja e-posti aadress:"
+  },
+  "request.details.show.escalation": {
+    "message": "Kuva edasikaebuse e-kiri"
+  },
+  "request.details.show.reminder": {
+    "message": "Kuva meeldetuletuse e-kiri"
+  },
+  "request.details.show.request": {
+    "message": "Kuva päringu e-kiri"
+  },
+  "request.details.type": {
+    "message": "Päringu tüüp:"
+  },
+  "request.hero.declined": {
+    "message": "Keelduti"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} keeldus teie päringust."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} ei ole veel vastanud."
+  },
+  "request.hero.domainTitle": {
+    "message": "Domeen:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Osa ulatuses täidetud"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} täitis teie päringu edukalt."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Edukalt täidetud"
+  },
+  "request.hero.header": {
+    "message": "Teie andmete {requestType} päring aadressile {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Vastus puudub"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} täitis teie päringu osaliselt."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Viide:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "palun saatke päringu e-kiri ja värskendage seejärel lehte."
+  },
+  "request.hero.requestStatus": {
+    "message": "Päringu staatus:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "On olemas teatud erandlikud asjaolud, kus organisatsioonil on seaduslik õigus keelduda teie päringu täitmisest."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Isikuandmed, mille olemasolu või puudumine andmebaasis võib ohustada tuvastatava isiku elu, keha või vara;</li><li>Isikuandmed, mille olemasolu või puudumine andmebaasis võib ajendada või käivitada ebaseaduslikku tegevust või väärkäitumist;</li><li>Isikuandmed, mille olemasolu või puudumine andmebaasis võib kahjustada riigi julgeolekut, välissuhteid või panna riigi ebasoodsasse olukorda teise riigi või rahvusvahelise organisatsiooniga peetavatel läbirääkimistel;</li><li>Isikuandmed, mille olemasolu või puudumine andmebaasis võib takistada kuritegude ennetamist, nende avastamist, uurimist või muul viisil mõjutada avalikku korda ja turvalisust.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Sõnavabadus või mõni muu seadusest tulenev õigus.</li><li>Töötlemine teadusuuringute eesmärgil, kui isikuandmete kustutamine muudaks võimatuks või tõsiselt takistaks selliste uuringute eesmärke.</li><li>Isikuandmete töötlemine on vajalik ebaseadusliku tegevuse ärahoidmiseks või kuriteo toimepanijate vastutusele võtmiseks.</li><li>Seadusest tuleneva kohustuse täitmiseks.</li><li>Lepingu täitmiseks ettevõtte ja tarbija vahel.</li><li>Turvaintsidentide tuvastamiseks, pettuse või ebaseadusliku tegevuse eest kaitsmiseks või nende eest vastutusele võtmiseks.</li><li>Vigade tuvastamiseks ja parandamiseks, mis takistavad olemasolevat planeeritud funktsionaalsust.</li><li>Ettevõtte sisemisteks kasutusteks, mis on põhjendatult kooskõlas tarbija ootustega lähtuvalt tarbija suhetest ettevõttega.</li><li>Muul seaduslikul viisil, mis on kooskõlas kontekstiga, milles tarbija andmeid edastas.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finantsasutused ja nendega seotud ettevõtted, kes alluvad Gramm-Leach-Bliley Act'ile</li><li>Õhutranspordiettevõtjad, kelle üle teostab järelevalvet Federal Aviation Administration</li><li>Riiklikud väärtpaberiliidud, mis on registreeritud Securities Exchange Act alusel</li><li>Teatud liiki isikuandmed, mida töödeldakse konkreetsete föderaalsete privaatsusseaduste järgi, näiteks Health Insurance Portability and Accountability Act ajal, või teatud valitsuslikel eesmärkidel.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Juriidilisest isikust isikud, sealhulgas riiklikud ja kohalikud omavalitused, mittetulundusühingud, kõrgkoolid, teatud riiklikud väärtpaberiliidud, finantsasutused ja asutused, mis on hõlmatud selliste õigusaktidega nagu Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act, on vabastatud.</li><li>Kaitstud terviseandmed</li><li>Töötaja andmed, sealhulgas tööle kandideerimise andmed</li><li>Isikustamata andmed</li><li>Avalikult kättesaadav teave</li><li>Kokkuvõtvad andmed</li><li>Isiklik teave, mis on kogutud inimkatsete või kliiniliste uuringute jooksul</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul>\n<li>Pakkuda toodet või teenust, mida tarbija konkreetselt taotles.</li>\n<li>Teostada teatud siseoperatsioone, mis on mõistlikult kooskõlas tarbija ootustega.</li>\n<li>Algatada toote tagasikutsumine või parandada tehnilisi vigu.</li>\n<li>Reageerida ja ennetada turvaintsidente, identiteedivargust ja pettusi.</li>\n<li>Järgida föderaalseid, osariigi või kohalikke seadusi.</li>\n<li>Pseudonüümitud andmed.</li>\n<li>Anonüümseks muudetud andmed.</li>\n<li>Avalikult kättesaadavad andmed.</li>\n<li>Avalik või eksperthinnanguga teaduslik uuring.</li>\n</ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) isikuandmete töötlemine on vajalik, et kaitsta mis tahes õiguslikku õigust või nõuet;</li><li>(b) isikuandmete töötlemine mis tahes kohtus või asutuses Indias, mis on volitatud seaduse alusel kohtuliku või järelevalvefunktsiooni täitmiseks, kus see töötlemine on vajalik selle funktsiooni täitmiseks;</li><li>(c) isikuandmeid töödeldakse kuriteo ennetamise, avastamise, uurimise või süüdistuse esitamise huvides;</li><li>(d) Indiast väljapoole jäävate andmesubjektide isikuandmeid töödeldakse lepingus sätestatud eesmärkidel, mis on sõlmitud isikuga väljaspool Indiat;</li><li>(e) töötlemine on vajalik kahe või enama ettevõtte ühinemiseks, jagunemiseks või muudeks restruktureerimise vormideks, mille on heaks kiitnud kohus või muu asutus;</li><li>(f) töötlemine on vajalik, et teha kindlaks rahalised andmed ja vara isiku kohta, kes on jätnud tasumata võla või laenu, mis on saadud finantsasutusest, eeldusel et selline töötlemine toimub vastavalt kehtivate seaduste sätetele.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Vastutav töötleja võib keelduda teabe esitamisest või piirata või viivitada teabe esitamist, kui:\n<ul>\n<li>a. formaalne seadus seda ette näeb, eelkõige kutsetegevuse saladuse kaitsmiseks;</li>\n<li>b. see on vajalik ülekaalukate kolmandate isikute huvide kaitseks; või</li>\n<li>c. teabepäring on ilmselgelt põhjendamatu, eriti kui see ei teeni andmekaitse eesmärki või on selgelt tühine.</li>\n</ul>\n<br/>\nLisaks on võimalik keelduda teabe esitamisest või seda piirata või viivitada järgmistes olukordades:\n<ul>\n<li>a. Vastutav töötleja on eraisik ja on täidetud järgmised nõuded: 1. Vastutav töötleja enda ülekaalukad huvid tingivad sellise meetme. 2. Vastutav töötleja ei kavatse isikuandmeid kolmandatele isikutele avaldada.</li>\n<li>b. Vastutav töötleja on föderaalasutus ning on täidetud üks järgmistest nõuetest: 1. Meede on vajalik ülekaaluka avaliku huvi kaitsmiseks, eelkõige Šveitsi sise- või välisjulgeoleku tagamiseks. 2. Teabe edastamine võib ohustada uurimist, juurdlust või haldus- või kohtumenetlust.</li>\n</ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Vastavus föderaalsetele või osariikide seadustele, eeskirjadele või regulatsioonidele.</il><il>(b) Täita tsiviil-, kriminaal- või haldusuurimist, juurdlust, kohtukutset või -määrust föderaalsete, osariikide, kohalike või muude valitsusasutuste poolt.</il><il>(c) Uurimise, õiguslike nõuete kehtestamise, esitamise, ettevalmistamise või kaitsmise eesmärgil.</il><il>(d) Pakkuda toodet või teenust, mida tarbija või lapsevanem või eestkostja on otseselt palunud, täita leping, mille osapooleks on tarbija, sealhulgas täita kirjaliku garantii tingimused, või astuda tarbija palvel samme enne lepingu sõlmimist.</il><il>(e) Viia läbi koheseid meetmeid tarbija või mõne teise isiku elu või füüsilise ohutuse seisukohalt olulise huvi kaitsmiseks, kusjuures andmete töötlemist ei ole selgelt võimalik muule õiguslikule alusele rajada.</il><il>(f) Ennetada, avastada, kaitsta või reageerida turvaintsidentidele, identiteedivargusele, pettusele, ahistamisele, pahatahtlikele või eksitavatele tegevustele või muule ebaseaduslikule tegevusele.</il><il>(g) Säilitada süsteemide terviklikkust või turvalisust või uurida, raporteerida või võtta vastutusele isikuid, kes vastutavad süsteemi turvarikkumiste eest.</il><il>(h) Osaleda avalikus või eksperthinnanguga teadus- või statistilises uuringus avalikes huvides, mis järgib kõiki muid kehtivaid eetika- ja privaatsusnõudeid ning mida on kinnitanud, kontrollinud ja juhendanud asjakohane järelevalveorgan, kes otsustab: 1. Kas teabe kustutamine annab tõenäoliselt märkimisväärset kasu, mis ei laiene ainult vastutavale töötlejale; 2. Kas uuringu oodatav kasu kaalub üles privaatsusriski; ja 3. Kas vastutav töötleja on rakendanud mõistlikke kaitsemeetmeid, et vähendada uuringuga seotud privaatsusriske, sealhulgas taasidentifitseerimise riske.</il><il>(i) Aidata teisel vastutaval töötlejal, volitatud töötlejal või kolmandal isikul täita käesoleva jao nõudeid.</il><il>(j) Avaldada isikuandmeid, kui tarbija kasutab või juhendab vastutavat töötlejat teavet tahtlikult kolmandale isikule avaldama või kasutab vastutavat töötlejat, et tahtlikult kolmanda isikuga suhelda. Tahtlik suhtlus toimub siis, kui tarbija kavatseb kolmanda isikuga suhelda ühe või mitme tahtliku tegevuse kaudu. Hiirekursoriga üle liikumine, vaigistamine, peatamine või sisu sulgemine ei tähenda tarbija kavatsust kolmanda isikuga suhelda.</il><il>(k) Anda isikuandmeid üle kolmandale isikule varana ühinemise, omandamise, pankroti või muu tehingu raames, mille käigus kolmas isik võtab üle kontrolli kogu vastutava töötleja või selle osa üle, tingimusel et teavet kasutatakse või jagatakse viisil, mis on kooskõlas käesoleva jao tingimustega. Kui kolmas isik muudab oluliselt viisi, kuidas ta kasutab või jagab tarbija isikuandmeid viisil, mis erineb oluliselt kogumise ajal antud lubadustest, peab ta eelnevalt teavitama tarbijat uuest või muudetud tavast. Teavitamine peab olema piisavalt silmatorkav ja põhjalik, et tagada tarbijale lihtne juurdepääs valikutele vastavalt käesoleva jao nõuetele.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>Kui on vaja andmeid säilitada sõnavabaduse ja teabega seotud põhjustel (sh ajakirjanduslikel, akadeemilistel, kunstilistel või kirjanduslikel eesmärkidel).</li><li>Kui organisatsioon on seaduslikult kohustatud teie andmeid säilitama.</li><li>Kui andmete säilitamine on vajalik rahvatervise kaalutlustel.</li><li>Kui andmete säilitamine on vajalik õigusnõuete esitamiseks, teostamiseks või kaitsmiseks.</li><li>Kui andmete kustutamine kahjustaks avalikes huvides olevat teadus- või ajaloolist uurimistööd või arhiveerimist.</li><li>Kui organisatsioon otsustab teie päringu läbivaatamisel, et andmete kustutamine ei ole vajalik, peab ta teile siiski vastama, selgitades, miks ta leiab, et andmeid pole vaja kustutada, ning teavitama teid õigusest esitada selles küsimuses kaebus andmekaitseasutusele või kohtusse.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul>\n<li>Pseudonüümitud andmed</li>\n<li>Anonüümseks muudetud andmed</li>\n<li>Avalikult kättesaadavad andmed</li>\n<li>Avalik või eksperthinnanguga teaduslik uuring</li>\n</ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Sõnavabadus või mõni muu seadusest tulenev õigus.</li><li>Töötlemine teadusuuringute eesmärgil, kui isikuandmete kustutamine muudaks võimatuks või tõsiselt takistaks selliste uuringute eesmärke.</li><li>Isikuandmete töötlemine on vajalik ebaseadusliku tegevuse ärahoidmiseks või kuriteo toimepanijate vastutusele võtmiseks.</li><li>Seadusest tuleneva kohustuse täitmiseks.</li><li>Lepingu täitmiseks ettevõtte ja tarbija vahel.</li><li>Turvaintsidentide tuvastamiseks, pettuse või ebaseadusliku tegevuse eest kaitsmiseks või nende eest vastutusele võtmiseks.</li><li>Vigade tuvastamiseks ja parandamiseks, mis takistavad olemasolevat planeeritud funktsionaalsust.</li><li>Ettevõtte sisemisteks kasutusteks, mis on põhjendatult kooskõlas tarbija ootustega lähtuvalt tarbija suhetest ettevõttega.</li><li>Muul seaduslikul viisil, mis on kooskõlas kontekstiga, milles tarbija andmeid edastas.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul>\n<li>Valitsusasutused</li>\n<li>Föderaalselt tunnustatud India hõimud</li>\n<li>HIPAA kohased hõlmatud üksused ja äripartnerid</li>\n<li>Osariigi või föderaalse harta alusel loodud pangad või krediidiühistud</li>\n<li>Kindlustusseltsid</li>\n<li>Väikeettevõtted vastavalt USA Väikeettevõtete Administratsiooni määratlusele</li>\n<li>Mittetulundusühingud, mis on loodud üksnes kindlustuspettuste avastamiseks või vältimiseks</li>\n<li>Isikuandmed, mida reguleerivad GLBA või FCRA</li>\n<li>Töökeskkonnaga või tööle kandideerijaga seotud isikuandmed, hüvitised ja hädaabi kontaktandmed</li>\n<li>Anonüümseks muudetud või avalikult kättesaadavad andmed</li>\n</ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Juriidilisest isikust isikud, sealhulgas riiklikud ja kohalikud omavalitused, mittetulundusühingud, kõrgkoolid, teatud riiklikud väärtpaberiliidud, finantsasutused ja asutused, mis on hõlmatud selliste õigusaktidega nagu Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act, on vabastatud.</li><li>Kaitstud terviseandmed</li><li>Töötaja andmed, sealhulgas tööle kandideerimise andmed</li><li>Isikustamata andmed</li><li>Avalikult kättesaadav teave</li><li>Kokkuvõtvad andmed</li><li>Isiklik teave, mis on kogutud inimkatsete või kliiniliste uuringute jooksul</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul>\n<li>Pseudonüümitud andmed</li>\n<li>Anonüümseks muudetud andmed</li>\n<li>Avalikult kättesaadavad andmed</li>\n<li>Avalik või eksperthinnanguga teaduslik uuring</li>\n<li>Kaitstud terviseandmed</li>\n</ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul>\n<li>Pseudonüümitud andmed</li>\n<li>Anonüümseks muudetud andmed</li>\n<li>Avalikult kättesaadavad andmed</li>\n<li>Avalik või eksperthinnanguga teaduslik uuring</li>\n<li>Kaitstud terviseandmed</li>\n</ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul>\n<li>Pseudonüümitud andmed</li>\n<li>Anonüümseks muudetud andmed</li>\n<li>Avalikult kättesaadavad andmed</li>\n<li>Avalik või eksperthinnanguga teaduslik uuring</li>\n<li>Kaitstud terviseandmed</li>\n</ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Asutused, sealhulgas osariigi ja kohaliku tasandi valitsusorganid, mittetulundusühingud, kõrgkoolid, teatud riiklikud väärtpaberiliidud ning finantsasutused, on vabastatud. Lisaks on teatud liiki andmed vabastatud:\n<ul>\n<li>Kaitstud terviseandmed</li>\n<li>Töötaja andmed, sh tööle kandideerijate andmed</li>\n<li>Anonüümseks muudetud andmed</li>\n<li>Avalikult kättesaadavad andmed</li>\n<li>Koondandmed</li>\n<li>Isikuandmed, mida kogutakse inimkatseteks või kliinilise uuringu osana</li>\n</ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul>\n<li>Isikuandmed, mida töödeldakse isiklikel või majapidamislikel eesmärkidel</li>\n<li>Töötlemine riigiasutuste poolt riikliku julgeoleku, avaliku ohutuse või maksustamisega seoses</li>\n<li>Töötlemine avalikes huvides ajakirjanduslikel, kunstilistel või kirjanduslikel eesmärkidel</li>\n<li>Töötlemine Esindajatekoja, Senati, Parlamendi või nende komisjonide poolt</li>\n<li>Töötlemine kohtute ja kohtunike poolt nende tööülesannete raames</li>\n<li>Töötlemine krediidiagentuuride ja nende liikmete poolt vastavalt Krediidiinformatsiooni äri seadusele</li>\n</ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul>\n<li>Isikuandmete töötlemine füüsilise isiku poolt ainult isiklikel eesmärkidel</li>\n<li>Töötlemine, mida viib otse läbi pädev riigiasutus oma seadusest tulenevate ülesannete täitmiseks</li>\n<li>Töötlemine, mis on vajalik riikliku julgeoleku või avaliku korra huvides</li>\n<li>Töötlemine pangandus- ja finantssektoris ilma nõusolekuta, kui seadus seda lubab</li>\n<li>Turvateenistuste poolt töötlemine riiklike huvide eesmärkidel</li>\n</ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Juurdepääsunõude erandid peaksid olema piiratud ja täpselt määratletud.</li><li>Nõudest keeldumise põhjused tuleb anda üksikisikule tema taotluse korral.</li><li>Erandid võivad sisaldada teavet, mille esitamine on ülemäära kulukas, mis sisaldab viiteid teistele inimestele, mida ei saa avaldada juriidilistel, turvalisuse või ärilise saladuse kaalutlustel, või teavet, mis kuulub advokaadisaladuse alla.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": "Kui isikuandmete töötleja töötleb isikuandmeid, kuid seadus või haldusõigusaktid nõuavad konfidentsiaalsust või ei nõua teavitamist, ei pruugita isikut teavitada eelmise artikli esimeses lõigus sätestatud asjaoludest."
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul>\n<li>Isiklik või majapidamislik tegevus</li>\n<li>Täielikult anonüümseks muudetud andmed</li>\n<li>Riiklik julgeolek</li>\n<li>Õiguskaitseasutused</li>\n<li>Valitsus ja selle komiteed või provintsi täitevnõukogu</li>\n<li>Seotud kohtulike funktsioonidega, mis on sätestatud põhiseaduse paragrahvis 166.</li>\n</ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Asutused, sealhulgas osariigi ja kohaliku tasandi valitsusorganid, mittetulundusühingud, kõrgkoolid, teatud riiklikud väärtpaberiliidud, finantsasutused ning teatud seaduste (nt Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) alusel hõlmatud üksused on vabastatud."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul>\n<li>Valitsusasutused ja poliitilised allüksused</li>\n<li>HIPAA/HITECHi reeglitele alluvad hõlmatud üksused ja äripartnerid</li>\n<li>Finantsasutused ja sidusettevõtted, mis kuuluvad Gramm‑Leach‑Bliley Act (GLBA) alla</li>\n<li>Kõrgkoolid</li>\n<li>Mittetulundusühingud</li>\n<li>Kindlustusseltsid, millel on litsents Tennessee seaduste kohaselt</li>\n<li>Isikuandmed, mida reguleerib Fair Credit Reporting Act (FCRA)</li>\n<li>Töösuhtega või ärilises kontekstis seotud isikuandmed</li>\n<li>Avalikult kättesaadavad, koondatud või anonüümseks muudetud andmed</li>\n<li>Isikuandmed, mida reguleerib FERPA või COPPA</li>\n<li>Patsiendi ohutusega seotud tööprodukt ja muud föderaalseaduses vabastatud terviseandmed</li>\n<li>Teadusliku või statistilise uuringu andmed, mis vastavad seadusest tulenevatele kaitsemeetmetele</li>\n</ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Juriidilisest isikust isikud, sealhulgas riiklikud ja kohalikud omavalitused, mittetulundusühingud, kõrgkoolid, teatud riiklikud väärtpaberiliidud, finantsasutused ja asutused, mis on hõlmatud selliste õigusaktidega nagu Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act, on vabastatud.</li><li>Kaitstud terviseandmed</li><li>Töötaja andmed, sealhulgas tööle kandideerimise andmed</li><li>Isikustamata andmed</li><li>Avalikult kättesaadav teave</li><li>Kokkuvõtvad andmed</li><li>Isiklik teave, mis on kogutud inimkatsete või kliiniliste uuringute jooksul</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Kaitstud terviseandmed HIPAA raames;</li><li>Vastavalt Tiitlile 32.1 terviseandmete registrid;</li><li>Patsiendi tuvastamist võimaldavad andmed 42 U.S.C. § 290dd-2 alusel;</li><li>Inimkatsetega seotud teave, mis on kooskõlas föderaalse inimkatsete kaitse poliitikaga (45 C.F.R. Osa 46) või muude seadustega;</li> <li>Teave ja dokumendid, mis on loodud Ameerika Ühendriikide Tervishoiukvaliteedi Parandamise Seaduse (Health Care Quality Improvement Act of 1986, 42 U.S.C. § 11101) alusel;</li><li>Patsiendi ohutuse ja kvaliteedi parandamise seaduse (Patient Safety and Quality Improvement Act, 42 U.S.C. § 299b-21) alusel loodud patsiendi ohutusandmed;</li><li>Teave, mis on saadud mis tahes ülalmainitud terviseandmetest ning mis on muudetud isikustamatuks HIPAA nõuete kohaselt;</li><li>Teave, mis pärineb või on segunenud nii, et seda pole võimalik eristada ülalnimetatud teabest, mida säilitatakse HIPAA määratletud kaetud üksuse või äripartneri poolt;</li><li>Teave, mida kasutatakse ainult rahvatervise tegevusteks ja eesmärkidel vastavalt HIPAA nõuetele;</li><li>Isikliku teabe kogumine, säilitamine, avaldamine või müümine, kui see on seotud tarbijakrediidi andmise, väärtuse hindamise või muu sarnasega vastavalt Fair Credit Reporting Act (15 U.S.C. § 1681) regulatsioonidele;</li> <li>Isikuandmed, mis on kogutud, töödeldud, müüdud või avalikustatud vastavalt föderaalsele autojuhtide privaatsuse kaitse seadusele (Driver's Privacy Protection Act of 1994, 18 U.S.C. § 2721);</li><li>Isikuandmeid käsitletakse vastavalt föderaalsele perehariduse õiguste ja privaatsuse seadusele (Family Educational Rights and Privacy Act, 20 U.S.C. § 1232g);</li> <li>Isikuandmed, mis on kogutud, töödeldud, müüdud või avalikustatud vastavalt föderaalsele Farm Credit Act-ile (12 U.S.C. § 2001);</li><li>Andmed, mida töödeldakse või säilitatakse (i) isiku tööle kandideerimise, töölevõtmise või agendi või sõltumatu töövõtja rollis tegutsemise käigus, kui andmeid kogutakse ja kasutatakse selle rolli kontekstis; (ii) hädaabikontakti info, mida kasutatakse hädaabikontaktina; või (iii) andmed, mida on vaja säilitada töötajale kasulike hüvede tagamiseks.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Soovitus: esitage kaebus oma { authorityLong }-le ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Soovitus: kui arvate, et { companyName } oleks pidanud teie päringu täielikult täitma, soovitame teil esitada kaebus { authorityLong }-le ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Olete esitanud kaebuse {dpaLong}-le ({dpaShort}), palun jätkake nendega otse suhtlemist. Meil ei ole võimalik midagi enamat teha."
+  },
+  "request.next.esclateButton": {
+    "message": "Esita kaebus { authority } juurde"
+  },
+  "request.next.findOutMore": {
+    "message": "Lugege lähemalt nende erandite kohta"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "{regulationType} kohaselt on organisatsioonidel { timeLimit } päeva aega teie päringule vastata."
+  },
+  "request.next.reminderButton": {
+    "message": "Saada organisatsioonile meeldetuletav e-kiri"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Valige alljärgnevatest valikutest:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Kui soovite täiendavaid meetmeid, siis valige alljärgnevatest valikutest:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Kui te ei soovi oodata, siis valige alljärgnevatest valikutest:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Soovitus: saatke organisatsioonile meeldetuletav e-kiri."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Soovitus: oodake, kuni { timeLimit } päeva on möödunud, et anda ettevõttele aega teie päringu töötlemiseks."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Soovitus: oodake, kuni { timeLimit } päeva on möödunud alates päringu saatmisest, et anda organisatsioonile aega teie päringu töötlemiseks pärast meeldetuletust."
+  },
+  "request.next.whatsNext": {
+    "message": "Mis edasi"
+  },
+  "request.success": {
+    "message": "Palju õnne, { companyName } on teie päringu edukalt täitnud. Teie isikuandmed kustutatakse siit veebisaidilt 120 päeva jooksul alates päringu esitamise kuupäevast. Soovi korral saate need kohe <a>kustutada</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Esita kaebus"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Meeldetuletus saadetud"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Päringut pole saadetud"
+  },
+  "request.timeline.requestSent": {
+    "message": "Päring saadetud"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Teie päringu ajajoon"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Edasikaebus saadetud"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {täna} one {homme} other {# päeva pärast}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Saada meeldetuletus"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {täna} one {homme} other {# päeva pärast}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {täna} one {eile} other {# päeva tagasi}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {täna} one {eile} other {# päeva tagasi}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {täna} one {eile} other {# päeva tagasi}}"
+  },
+  "request.title": {
+    "message": "Teie {regulationType} päringu üksikasjad"
+  },
+  "requestEscalation.complaint": {
+    "message": "Lisateave"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Palun selgitage, miks te pole rahul sellega, kuidas organisatsioon teie päringut käsitles"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Ava edasikaebuse vorm"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "Edasikaebuse esitamiseks peate täitma vormi veebilehel {authority}. Klõpsake alloleval nupul, et avada vorm uuel vahelehel."
+  },
+  "requestEscalation.geography": {
+    "message": "Asukoht"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Palun valige oma elukoht"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "Et oma päringut eskaleerida, helistage {authority} numbril {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Vaata üle ja saada"
+  },
+  "search.companyPlaceholder": {
+    "message": "Otsi organisatsiooni"
+  },
+  "search.noResults": {
+    "message": "Ei leia organisatsiooni?"
+  },
+  "search.noResultsMore": {
+    "message": "Lisa see siit"
+  },
+  "sendEmailButton.copy": {
+    "message": "Kopeeri meili tekst lõikelauale"
+  },
+  "sendEmailButton.default": {
+    "message": "Ava oma vaikimisi e-posti kliendis"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Ava Gmailis"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Ava Yahoo Mailis"
+  },
+  "social.chromeCTA": {
+    "message": "Laadi see alla Chrome'i jaoks"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome'i laiendus"
+  },
+  "social.emailBody": {
+    "message": "Vaadake YourDigitalRights.org’i, tasuta teenust, mis võimaldab hõlpsalt teada saada, milliseid isikuandmeid tuhanded organisatsioonid teie kohta koguvad, ja paluda neil need kustutada."
+  },
+  "social.emailSubject": {
+    "message": "Uuri, millised isikuandmed tuhandetel organisatsioonidel on sinu kohta, ja palu neil need kustutada | Your Digital Rights"
+  },
+  "social.extensionHeadline": {
+    "message": "Loobu otse oma brauserist"
+  },
+  "social.extensionText": {
+    "message": "Kas soovite paremat kontrolli selle üle, kes teie isikuandmetele ligi pääseb? Meie brauserilaiendus võimaldab teil loobuda veebisaitidest, mida külastate, vaid ühe nupuvajutusega."
+  },
+  "social.facebookQuote": {
+    "message": "Uuri, millised isikuandmed tuhandetel organisatsioonidel sinu kohta on, ja palu neil need kustutada. Tutvu yourdigitalrights.orgiga."
+  },
+  "social.firefoxCTA": {
+    "message": "Laadi see alla Firefoxi jaoks"
+  },
+  "social.frefoxTitle": {
+    "message": "Firefoxi laiendus"
+  },
+  "social.shareHeading": {
+    "message": "Kui peate seda teenust kasulikuks, siis levitage seda infot."
+  },
+  "social.twitterTitle": {
+    "message": "Uuri, millised isikuandmed tuhandetel organisatsioonidel sinu kohta on, ja palu neil need kustutada. Tutvu yourdigitalrights.orgiga."
+  },
+  "stats.description": {
+    "message": "Statistika andmekaitsepäringute kohta."
+  },
+  "stats.statsSubTitle": {
+    "message": "Meie missioon on aidata inimestel taastada kontroll oma veebipõhise privaatsuse üle, võimaldades neil paluda organisatsioonidel kustutada või edastada nende isikuandmeid. Järgnevad statistilised andmed näitavad, millised organisatsioonid on saanud erinevatel ajavahemikel kõige rohkem päringuid."
+  },
+  "stats.statsTitle": {
+    "message": "Päringu statistika"
+  },
+  "stats.title": {
+    "message": "Päringu statistika"
+  },
+  "stats.titleAlltime": {
+    "message": "Kõigi aegade populaarseimad päringud"
+  },
+  "stats.titleMonth": {
+    "message": "Selle kuu populaarseimad päringud"
+  },
+  "stats.titleWeek": {
+    "message": "Selle nädala populaarseimad päringud"
+  },
+  "stats.titleYear": {
+    "message": "Selle aasta populaarseimad päringud"
+  },
+  "stats.total": {
+    "message": "Kokku saadetud päringuid: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Olge veebiohtudest samm ees ja võtke oma isikuandmete üle kontroll Privacy Alertsi abil! Meie uudiskiri pakub uusimaid ekspertsoovitusi, näpunäiteid ja nippe, kuidas kaitsta oma privaatsust digitaalses maailmas. Tellige juba täna, et olla kursis ja enesekindel!"
+  },
+  "subscribe.title": {
+    "message": "Liitu Privacy Alertsiga!"
+  },
+  "support.description1": {
+    "message": "Mõistame, et mõnikord võib olla keeruline ettevõtetelt oma andmete kustutamist nõuda."
+  },
+  "support.description2": {
+    "message": "Meie tasulise toe teenus annab teile otsese juurdepääsu ühele meie töötajatest, kes aitab hea meelega teie andmete kustutamise või neile juurdepääsu päringuga."
+  },
+  "support.posPaidtitle": {
+    "message": "Aitäh!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Tasulise toe kasutamiseks võtke meiega ühendust järgneval e-posti aadressil:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Tasuline tugiteenus annab teile otsese ligipääsu ühele meie töötajatest"
+  },
+  "support.seoTitle": {
+    "message": "Tugi"
+  },
+  "support.title": {
+    "message": "Tasuline tugi"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "on lõikelauale kopeeritud, teil tuleb see ainult meilisse kleepida, üle vaadata ja Saada klõpsata."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "e-kiri peaks olema nüüd avanenud teie e-posti rakenduses, teil on vaja see vaid üle vaadata ja Saada klõpsata."
+  },
+  "thankyou.description": {
+    "message": "Aitäh"
+  },
+  "thankyou.donation": {
+    "message": "Aidake meil hoida see teenus tasuta, <a>tehes annetuse</a> meie pikaajalise rahalise stabiilsuse ja sõltumatuse tagamiseks."
+  },
+  "thankyou.findCompany": {
+    "message": "Leia veel üks organisatsioon"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organisatsioonidel on {days} aega nõuete täitmiseks, ning nad võivad paluda lisateavet teie isikusamasuse kinnitamiseks."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "päring andmetele juurdepääsuks"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "päring andmete kustutamiseks"
+  },
+  "thankyou.seotitle": {
+    "message": "Aitäh"
+  },
+  "thankyou.title": {
+    "message": "Aitäh!"
+  }
+}
