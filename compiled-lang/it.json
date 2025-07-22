@@ -2954,7 +2954,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities"
+              "value": "Entità governative"
             }
           ],
           "type": 8,
@@ -2964,7 +2964,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Federally recognised Indian tribes"
+              "value": "Tribù indiane riconosciute a livello federale"
             }
           ],
           "type": 8,
@@ -2974,7 +2974,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates under HIPAA"
+              "value": "Entità coperte e partner commerciali ai sensi dell'HIPAA"
             }
           ],
           "type": 8,
@@ -2984,7 +2984,7 @@
           "children": [
             {
               "type": 0,
-              "value": "State or federally chartered banks or credit unions"
+              "value": "Banche o cooperative di credito statali o federali"
             }
           ],
           "type": 8,
@@ -2994,7 +2994,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies"
+              "value": "Compagnie assicurative"
             }
           ],
           "type": 8,
@@ -3004,7 +3004,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Small businesses as defined by the U.S. Small Business Administration"
+              "value": "Piccole imprese come definite dalla U.S. Small Business Administration"
             }
           ],
           "type": 8,
@@ -3014,7 +3014,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profits established solely to detect or prevent insurance fraud"
+              "value": "Organizzazioni non profit istituite esclusivamente per rilevare o prevenire frodi assicurative"
             }
           ],
           "type": 8,
@@ -3024,7 +3024,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by GLBA or FCRA"
+              "value": "Dati personali regolati dal GLBA o dal FCRA"
             }
           ],
           "type": 8,
@@ -3034,7 +3034,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑context or job‑applicant personal data, benefits and emergency contact data"
+              "value": "Dati personali in ambito lavorativo o per candidati a un posto di lavoro, dati sui benefici e contatti di emergenza"
             }
           ],
           "type": 8,
@@ -3044,7 +3044,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De‑identified or publicly available data"
+              "value": "Dati anonimizzati o pubblicamente disponibili"
             }
           ],
           "type": 8,
@@ -3386,7 +3386,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data processed for personal or household activities"
+              "value": "Dati personali trattati per attività personali o domestiche"
             }
           ],
           "type": 8,
@@ -3396,7 +3396,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by state authorities related to national security, public safety or taxation"
+              "value": "Trattamento da parte di autorità statali relativo alla sicurezza nazionale, alla sicurezza pubblica o alla tassazione"
             }
           ],
           "type": 8,
@@ -3406,7 +3406,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for journalistic, artistic or literary purposes in the public interest"
+              "value": "Trattamento per scopi giornalistici, artistici o letterari nell'interesse pubblico"
             }
           ],
           "type": 8,
@@ -3416,7 +3416,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by the House of Representatives, Senate, Parliament or their committees"
+              "value": "Trattamento da parte della Camera dei Rappresentanti, del Senato, del Parlamento o dei loro comitati"
             }
           ],
           "type": 8,
@@ -3426,7 +3426,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by courts and judicial officers within their duties"
+              "value": "Trattamento da parte dei tribunali e degli ufficiali giudiziari nell'ambito delle loro funzioni"
             }
           ],
           "type": 8,
@@ -3436,7 +3436,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by credit bureaus and their members under the Credit Information Business Act"
+              "value": "Trattamento da parte delle agenzie di credito e dei loro membri ai sensi del Credit Information Business Act"
             }
           ],
           "type": 8,
@@ -3454,7 +3454,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of personal data by a natural person for purely personal purposes"
+              "value": "Trattamento di dati personali da parte di una persona fisica per scopi puramente personali"
             }
           ],
           "type": 8,
@@ -3464,7 +3464,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing carried out directly by a competent public authority to perform its statutory tasks"
+              "value": "Trattamento svolto direttamente da un'autorità pubblica competente per eseguire i propri compiti statutari"
             }
           ],
           "type": 8,
@@ -3474,7 +3474,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing necessary for national security or public order purposes"
+              "value": "Trattamento necessario per finalità di sicurezza nazionale o ordine pubblico"
             }
           ],
           "type": 8,
@@ -3484,7 +3484,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing without consent in the banking and financial sector as permitted by law"
+              "value": "Trattamento senza consenso nel settore bancario e finanziario come consentito dalla legge"
             }
           ],
           "type": 8,
@@ -3494,7 +3494,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by security services for national interest objectives"
+              "value": "Trattamento da parte dei servizi di sicurezza per obiettivi di interesse nazionale"
             }
           ],
           "type": 8,
@@ -3556,7 +3556,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal or household activity"
+              "value": "Attività personale o familiare"
             }
           ],
           "type": 8,
@@ -3566,7 +3566,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Fully de-identified data"
+              "value": "Dati completamente anonimizzati"
             }
           ],
           "type": 8,
@@ -3576,7 +3576,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National-security"
+              "value": "Sicurezza nazionale"
             }
           ],
           "type": 8,
@@ -3586,7 +3586,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Law-enforcement"
+              "value": "Forze dell'ordine"
             }
           ],
           "type": 8,
@@ -3596,7 +3596,7 @@
           "children": [
             {
               "type": 0,
-              "value": "By the Cabinet and its committees or the Executive Council of a province"
+              "value": "Da parte del Consiglio dei Ministri e dei suoi comitati o del Consiglio esecutivo di una provincia"
             }
           ],
           "type": 8,
@@ -3606,7 +3606,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Relating to the judicial functions of a court referred to in section 166 of the Constitution."
+              "value": "Relativo alle funzioni giudiziarie di una corte di cui alla sezione 166 della Costituzione."
             }
           ],
           "type": 8,
@@ -3630,7 +3630,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities and political subdivisions"
+              "value": "Entità governative e suddivisioni politiche"
             }
           ],
           "type": 8,
@@ -3640,7 +3640,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates subject to HIPAA/HITECH"
+              "value": "Entità coperte e partner commerciali soggetti a HIPAA/HITECH"
             }
           ],
           "type": 8,
@@ -3650,7 +3650,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)"
+              "value": "Istituzioni finanziarie e affiliate soggette al Gramm‑Leach‑Bliley Act (GLBA)"
             }
           ],
           "type": 8,
@@ -3660,7 +3660,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Institutions of higher education"
+              "value": "Istituzioni di istruzione superiore"
             }
           ],
           "type": 8,
@@ -3670,7 +3670,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profit organizations"
+              "value": "Organizzazioni non profit"
             }
           ],
           "type": 8,
@@ -3680,7 +3680,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies licensed under Tennessee law"
+              "value": "Compagnie assicurative autorizzate ai sensi della legge del Tennessee"
             }
           ],
           "type": 8,
@@ -3690,7 +3690,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the Fair Credit Reporting Act (FCRA)"
+              "value": "Dati personali regolati dal Fair Credit Reporting Act (FCRA)"
             }
           ],
           "type": 8,
@@ -3700,7 +3700,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑related or commercial‑context personal data"
+              "value": "Dati personali in ambito lavorativo o in contesto commerciale"
             }
           ],
           "type": 8,
@@ -3710,7 +3710,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available, aggregated or de‑identified data"
+              "value": "Dati disponibili pubblicamente, aggregati o anonimizzati"
             }
           ],
           "type": 8,
@@ -3720,7 +3720,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by FERPA or COPPA"
+              "value": "Dati personali regolati da FERPA o COPPA"
             }
           ],
           "type": 8,
@@ -3730,7 +3730,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product and other health data exempted under federal law"
+              "value": "Prodotti di lavoro sulla sicurezza dei pazienti e altri dati sanitari esentati dalla legge federale"
             }
           ],
           "type": 8,
@@ -3740,7 +3740,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Scientific or statistical research data meeting statutory safeguards"
+              "value": "Dati di ricerca scientifica o statistica che soddisfano le garanzie previste dalla legge"
             }
           ],
           "type": 8,
