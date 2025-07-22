@@ -783,7 +783,7 @@
     "message": "<ul><li>言論の自由または法律で定められたその他の権利。</li><li>研究目的での処理（その個人情報の削除により、その研究の成果を著しく損なう場合）</li><li>その個人情報の処理が、違法行為からの保護に必要である場合、またはその行為の責任者を起訴するために必要な場合。</li><li>法的義務を遵守するため。</li><li>事業者と消費者との間の契約を履行するのに必要場合。</li><li>セキュリティインシデントを検知し、悪意のある、欺瞞的・詐欺的・違法・活動から保護したり、その活動の責任者を訴追するため。</li><li>既存の意図された機能を損なう問題をデバッグし、問題を特定・解決するため。</li><li>事業者と消費者の関係に基づき、消費者の期待に合理的に沿う内部的使用のみを可能にするため。</li><li>それ以外の場合、消費者が情報を提供した状況に適合する合法的な方法で、消費者の個人情報を内部で使用します。</li></ul>"
   },
   "request.next.declineMCDPA": {
-    "message": "<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+    "message": "<ul><li>政府機関</li><li>連邦政府が承認するインディアン部族</li><li>HIPAAの対象事業体およびビジネスアソシエイト</li><li>州または連邦政府が認可する銀行や信用組合</li><li>保険会社</li><li>米国中小企業庁が定義する中小企業</li><li>保険詐欺の発見または防止のみを目的として設立された非営利団体</li><li>GLBAまたはFCRAにより規制される個人データ</li><li>雇用に関連するまたは応募者の個人データ、福利厚生および緊急連絡先に関するデータ</li><li>匿名化または一般公開されているデータ</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>国や州及び地方自治体、非営利団体、高等教育機関、特定の全国証券協会、金融機関、及びグラム・リーチ・ブライリー法や医療保険の携行性と責任に関する法律等の特定の法令の対象となる組織・団体は除かれます。</li><li>保護対象保健情報</li><li>従業員情報（求職者情報を含む）</li><li>非特定化データ</li><li>公開されている情報</li><li>統計的に集計された情報</li><li>人間を対象とする研究または臨床試験の一環として収集された個人情報</li></ul>"
@@ -801,10 +801,10 @@
     "message": "州政府、地方自治体、非営利団体、高等教育機関、特定の全国証券協会、金融機関などの団体は免除される。さらに、いくつかの種類のデータは免除される：<ul><li>保護された健康データ</li><li>求職者データを含む従業員データ</li><li>非特定データ</li><li>公に入手可能な情報</li><li>集計情報</li><li>人を対象とした研究または臨床試験の一環として収集された個人情報</li></ul>"
   },
   "request.next.declinePDPA": {
-    "message": "<ul><li>Personal data processed for personal or household activities</li><li>Processing by state authorities related to national security, public safety or taxation</li><li>Processing for journalistic, artistic or literary purposes in the public interest</li><li>Processing by the House of Representatives, Senate, Parliament or their committees</li><li>Processing by courts and judicial officers within their duties</li><li>Processing by credit bureaus and their members under the Credit Information Business Act</li></ul>"
+    "message": "<ul><li>個人または家庭での活動のために処理される個人データ</li><li>国家安全保障、公共の安全、または課税に関連する州当局による処理</li><li>公共の利益のための報道、芸術、または文学的目的での処理</li><li>代議院、上院、議会、またはその委員会による処理</li><li>裁判所および司法担当官がその職務の範囲内で行う処理</li><li>与信情報事業法の下で行われる信用情報機関およびその会員による処理</li></ul>"
   },
   "request.next.declinePDPL": {
-    "message": "<ul><li>Processing of personal data by a natural person for purely personal purposes</li><li>Processing carried out directly by a competent public authority to perform its statutory tasks</li><li>Processing necessary for national security or public order purposes</li><li>Processing without consent in the banking and financial sector as permitted by law</li><li>Processing by security services for national interest objectives</li></ul>"
+    "message": "<ul><li>純粋に個人的な目的のために自然人が個人データを処理すること</li><li>権限のある公的機関が法定の任務を遂行するために直接行う処理</li><li>国家安全保障または公共の秩序を目的とするために必要な処理</li><li>法律で認められる範囲で銀行・金融部門において同意なく行われる処理</li><li>国益に係る目的のためにセキュリティ機関が行う処理</li></ul>"
   },
   "request.next.declinePIPEDA": {
     "message": "<ul><li>アクセス要件の例外は、限定的かつ具体的でなければなりません。</li><li>アクセスを拒否の理由は、リクエストごとに、依頼者に対して説明する必要があります。</li><li>例外には、情報の提供に法外な費用や労力がかかる場合、他の個人への言及を含む情報、法律上・セキュリティ上・営業上の理由で開示できない情報、および弁護士の秘匿特権または訴訟特権の対象となる情報が含ます。</li></ul>"
@@ -813,13 +813,13 @@
     "message": "個人情報を取り扱う者が個人情報を処理する際に、法律や行政法規によって秘密にする義務があるまたは通知する必要がないとされている場合には、個人に対して前条第1項の事項を通知しないことができます。"
   },
   "request.next.declinePOPIA": {
-    "message": "<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+    "message": "<ul><li>個人または家庭での活動</li><li>完全に匿名化されたデータ</li><li>国家安全保障</li><li>法執行</li><li>内閣およびその委員会、または州の行政評議会によるもの</li><li>憲法第166条に規定される裁判所の司法機能に関するもの</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "州や地方自治体、非営利団体、高等教育機関、特定の国債協会、金融機関など。 特定の行為に基づいて対象とされている主体は、例えばグラムリーチブライリー法や健康保険の可搬性と説明責任に関する法律です。 免除されています"
   },
   "request.next.declineTIPA": {
-    "message": "<ul><li>Government entities and political subdivisions</li><li>Covered entities and business associates subject to HIPAA/HITECH</li><li>Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutions of higher education</li><li>Non‑profit organizations</li><li>Insurance companies licensed under Tennessee law</li><li>Personal data regulated by the Fair Credit Reporting Act (FCRA)</li><li>Employment‑related or commercial‑context personal data</li><li>Publicly available, aggregated or de‑identified data</li><li>Personal data regulated by FERPA or COPPA</li><li>Patient safety work product and other health data exempted under federal law</li><li>Scientific or statistical research data meeting statutory safeguards</li></ul>"
+    "message": "<ul><li>政府機関および政治的下部組織</li><li>HIPAA/HITECHの対象となる事業体およびビジネスアソシエイト</li><li>グラム・リーチ・ブライリー法 (GLBA) の対象となる金融機関および関連企業</li><li>高等教育機関</li><li>非営利組織</li><li>テネシー州法の下で認可された保険会社</li><li>公正信用報告法 (FCRA) により規制される個人データ</li><li>雇用関連または商業的文脈における個人データ</li><li>公開されている、集計された、または匿名化されたデータ</li><li>FERPAまたはCOPPAにより規制される個人データ</li><li>連邦法で免除された患者の安全に関する業務成果物およびその他の医療データ</li><li>法的保護措置を満たす科学的または統計的研究データ</li></ul>"
   },
   "request.next.declineUCPA": {
     "message": "<ul><li>国や州及び地方自治体、非営利団体、高等教育機関、特定の全国証券協会、金融機関、及びグラム・リーチ・ブライリー法や医療保険の携行性と責任に関する法律等の特定の法令の対象となる組織・団体は除かれます。</li><li>保護対象保健情報</li><li>従業員情報（求職者情報を含む）</li><li>非特定化データ</li><li>公開されている情報</li><li>統計的に集計された情報</li><li>人間を対象とする研究または臨床試験の一環として収集された個人情報</li></ul>"
