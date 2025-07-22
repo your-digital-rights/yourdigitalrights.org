@@ -891,22 +891,22 @@
     "message": "Eskalerings-e-mail sendt"
   },
   "request.timeline.sendEscalationDays": {
-    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+    "message": "{days, plural, =0 {i dag} one {i morgen} other {om # dage}}"
   },
   "request.timeline.sendReminder": {
     "message": "Send en påmindelse"
   },
   "request.timeline.sendReminderDays": {
-    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+    "message": "{days, plural, =0 {i dag} one {i morgen} other {om # dage}}"
   },
   "request.timeline.sinceEscalationDays": {
-    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
   },
   "request.timeline.sinceReminderDays": {
-    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
   },
   "request.timeline.sinceRequestDays": {
-    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
   },
   "request.title": {
     "message": "Detaljer for din {regulationType}-anmodning"
