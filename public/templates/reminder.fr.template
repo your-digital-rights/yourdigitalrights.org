@@ -1,25 +1,25 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+À l'attention du service confidentialité / du délégué à la protection des données / du service juridique de {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
 
-On {{ requestSentDate }} I have sent you a Data {{ requestType.name | capitalize  }} Request via email, pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+Le {{ requestSentDate }}, je vous ai envoyé par courriel une demande de {{ requestType.name | capitalize  }} de données, conformément à {{ requestType.article }} du {{ regulation.longName }} ({{ regulation.displayName }}). 
 
 {% if status === 'PARTIAL' %}
-So far you have failed to fully comply with my request. 
+À ce jour, vous n'avez pas satisfait entièrement à ma demande. 
 {% elif status === 'DECLINED' %}
-So far you have refused to comply with my request.
+À ce jour, vous avez refusé de satisfaire à ma demande.
 {% elif status === 'NO_REPLY' %}
-So far I did not receive a reply to my request.
+À ce jour, vous n'avez pas donné suite à ma demande.
 {% endif %}
 
 {% if daysSinceRequest > regulation.timeLimit %}
-Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+Il convient de noter que {{ daysSinceRequest }} jours se sont écoulés depuis l'envoi de la demande initiale, et vous êtes actuellement en infraction avec {{ requestType.article }} du {{ regulation.displayName }}. 
 {% endif %}
 
-I am sending this email to remind you of my request and reserve the right to escalate the matter to the {{ regulation.dpa.longName }} if you do not fully comply with it. 
+Je vous envoie ce courriel afin de vous rappeler ma demande et me réserve le droit de saisir {{ regulation.dpa.longName }} en cas de non-respect intégral de celle-ci. 
 
-Kind regards,
+Cordialement,
 
 {{ requestItem.name.S }}
 
-Powered by YourDigitalRights.org
+Propulsé par YourDigitalRights.org
 
 {{ previousEmails }}

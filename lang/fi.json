@@ -1,900 +1,900 @@
 {
   "about.aboutTitle": {
-    "message": "Our mission"
+    "message": "Meid\\u00E4n missiomme"
   },
   "about.consciousDigital": {
-    "message": "Who we are"
+    "message": "Keitä olemme"
   },
   "about.consciousDigital1": {
-    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+    "message": "YourDigitalRights.org on {cd}-järjestön luomus. Kyseessä on rekisteröity hyväntekeväisyysjärjestö, joka luo ihmiskeskeisiä digitaalisia aloitteita edistäen digitaalisia ihmisoikeuksia."
   },
   "about.contact": {
-    "message": "Contact"
+    "message": "Yhteydenotto"
   },
   "about.contactText": {
-    "message": "Contact us at {email}."
+    "message": "Ota meihin yhteyttä osoitteessa {email}."
   },
   "about.contributors": {
-    "message": "Contributors"
+    "message": "Avustajat"
   },
   "about.contributorsBody1": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "{linkedin} – Frontend-verkkokehittäjä."
   },
   "about.contributorsBody3": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "{linkedin} – Frontend-verkkokehittäjä."
   },
   "about.contributorsBody4": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "{linkedin} – Frontend-verkkokehittäjä."
   },
   "about.contributorsBody5": {
-    "message": "{linkedin} - Infrastructure Engineer."
+    "message": "{linkedin} – infrastruktuuri-insinööri."
   },
   "about.contributorsBody6": {
-    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+    "message": "{link} - Full stack -kehittäjä, joka osallistui APPI-tuen toteuttamiseen ja sivuston japaninkieliseen käännökseen."
   },
   "about.createdByBody2": {
-    "message": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+    "message": "{linkedin} – Frontend-verkkokehittäjä, mobiilisovelluskehittäjä sekä AR-lentoseurantapelin Skyjackerin luoja."
   },
   "about.description": {
-    "message": "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."
+    "message": "Your Digital Rights luotiin, koska uskomme, että sinulla on oikeus yksityisyyteen ja että tämän oikeuden käyttäminen tulisi olla helppoa."
   },
   "about.funding": {
-    "message": "Funding"
+    "message": "Rahoitus"
   },
   "about.fundingBody1": {
-    "message": "This project is funded by its creators, and with the help of your donations."
+    "message": "Tämä hanke rahoitetaan sen luojien toimesta ja teidän lahjoitustenne avulla."
   },
   "about.missionBody1": {
-    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+    "message": "Uskomme, että yksityisyys on perustavanlaatuinen ihmisoikeus ja että tämän oikeuden käyttäminen tulisi olla helposti kaikkien ulottuvilla. Tietosuojalainsäädäntö, kuten {GDPR} (EU), {CCPA} (Kalifornia) ja {LGPD} (Brasilia), luo oikeudellisen perustan ihmisten yksityisoikeuksien suojaamiselle verkossa."
   },
   "about.missionBody2": {
-    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+    "message": "Tietosuojamääräykset ovat askel oikeaan suuntaan, mutta näiden säädösten mukaisten oikeuksien käyttäminen on silti tarpeeksi hankalaa, jotta useimmat eivät vaivaudu yrittämään. Tilannetta pahentaa se, että monet organisaatiot tekevät tietopyyntöjen esittämisen vaikeaksi (esimerkiksi eivät julkaise yrityksen sähköpostiosoitteita verkkosivuillaan). Tavoitteenamme on tehdä näiden säädösten tarjoamat oikeudet kaikkien saataville."
   },
   "about.missionBody3": {
-    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+    "message": "Tämä on ilmainen palvelu. Emme ole liikeyritys, emmekä toimi liiketoimintamallin mukaisesti. Emme tarjoa mitään palveluja luettelossa oleville organisaatioille. Emme kerää emmekä kauppaa henkilötietoja. Tämä palvelu on <a>avointa lähdekoodia</a>."
   },
   "about.sponsors": {
-    "message": "Supporting Organizations"
+    "message": "Tukiorganisaatiot"
   },
   "about.sponsorsBody2": {
-    "message": "{crunchbase} - for providing a snapshot of their company database which we use to enrich our list of organizations."
+    "message": "{crunchbase} – kiitämme yritystietokannasta, jota käytämme organisaatioluettelomme rikastamiseen."
   },
   "about.sponsorsBody3": {
-    "message": "{featureupvote} - for providing an effective way to gather community feedback regarding our {roadmap}."
+    "message": "{featureupvote} – kiitämme tehokkaasta tavasta kerätä yhteisön palautetta koskien {roadmap}."
   },
   "about.sponsorsBody4": {
-    "message": "{innocraft} - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+    "message": "{innocraft} – tarjosi isännöidyn version Matomosta (Piwik), avoimen lähdekoodin ja yksityisyyttä painottavasta verkkoanalytiikka-alustasta."
   },
   "about.sponsorsBody6": {
-    "message": "{sws} - for helping us implement an SEO strategy."
+    "message": "{sws} – kiitämme avusta hakukoneoptimointistrategian toteuttamisessa."
   },
   "about.sponsorsBody7": {
-    "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    "message": "{ama} – auttoi meitä ymmärtämään ja tukemaan Brasilian tietosuojalainsäädäntöä, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+    "message": "Haluamme kiittää seuraavia organisaatioita avoimen lähdekoodin projektimme tukemisesta tarjoamalla ilmaisen tai alennetun version palveluistaan:"
   },
   "about.title": {
-    "message": "About Us"
+    "message": "Tietoja meistä"
   },
   "aboutOrg.description": {
-    "message": "In their own words:"
+    "message": "Heidän omin sanoin:"
   },
   "aboutOrg.details": {
-    "message": "About {org}"
+    "message": "Tietoa {org}-organisaatiosta"
   },
   "aboutOrg.email": {
-    "message": "Email:"
+    "message": "Sähköposti:"
   },
   "aboutOrg.founded": {
-    "message": "Founded:"
+    "message": "Perustettu:"
   },
   "aboutOrg.headquarters": {
-    "message": "Headquarters:"
+    "message": "Pääkonttori:"
   },
   "aboutOrg.industry": {
-    "message": "Industry:"
+    "message": "Toimiala:"
   },
   "aboutOrg.privacyPolicy": {
-    "message": "View {org}'s <a>Privacy Policy</a>"
+    "message": "Näytä {org}:n <a>tietosuojakäytäntö</a>"
   },
   "aboutOrg.specialties": {
-    "message": "Company Specialties:"
+    "message": "Yrityksen erikoisalat:"
   },
   "aboutOrg.type": {
-    "message": "Company Type:"
+    "message": "Yrityksen tyyppi:"
   },
   "contribute.creadit": {
-    "message": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
+    "message": "Vaikka emme voi maksaa työstäsi, annamme sinulle mielellämme tunnustusta panoksestasi, olipa se tällä verkkosivustolla, GitHubissa tai muulla tavoin."
   },
   "contribute.creditTitle": {
-    "message": "Credit"
+    "message": "Kunnia"
   },
   "contribute.crowdinStep1": {
-    "message": "Make an account at Crowdin by following this <a>link</a>."
+    "message": "Luo tili Crowdin-palveluun tämän <a>linkin</a> kautta."
   },
   "contribute.crowdinStep2": {
-    "message": "Follow this <a>link</a> to load the translation system."
+    "message": "Lataa käännösjärjestelmä seuraamalla tätä <a>linkkiä</a>."
   },
   "contribute.crowdinStep3": {
-    "message": "Choose a language (you will need to log in to Crowdin to do this)."
+    "message": "Valitse kieli (sinun täytyy kirjautua sisään Crowdin-palveluun voidaksesi tehdä tämän)."
   },
   "contribute.crowdinStep4": {
-    "message": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+    "message": "Nyt näet ruutuja eri tekstikohtien ympärillä, jotka muodostavat verkkosivuston. Vie hiiri käännettävän tekstin päälle ja napsauta kuvaketta, joka ilmestyy tekstin kulmaan."
   },
   "contribute.crowdinStep5": {
-    "message": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+    "message": "Editori avautuu, jossa voit antaa käännöksesi. Älä unohda napsauttaa tallenna, kun olet valmis."
   },
   "contribute.crowdinStep6": {
-    "message": "If you are experiencing any problems please <email>contact us.</email>"
+    "message": "Jos kohtaat ongelmia, <email>ota yhteyttä.</email>"
   },
   "contribute.description": {
-    "message": "Help us improve YourDigitalRights.org."
+    "message": "Auta meitä parantamaan YourDigitalRights.org-palvelua."
   },
   "contribute.dev": {
-    "message": "Our repositories are hosted on GitHub, with the main one being for this <a>website</a>. The best way to start is to get in touch via <email>email</email>. We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
+    "message": "Varastomme sijaitsevat GitHubissa, joista tärkein on tämän <a>verkkosivuston</a> varasto. Paras tapa aloittaa on ottaa yhteyttä <email>sähköpostitse</email>. Lisäämme sinut sitten Slack-kanavallemme ja jaamme käynnissä olevat kehitystoimet. Vaihtoehtoisesti voit kloonata varaston ja lähettää merge-pyyntöjä."
   },
   "contribute.devSkills": {
-    "message": "We are currently looking for Machine Learning, React and AWS engineers."
+    "message": "Etsimme parhaillaan Machine Learning-, React- ja AWS-osaajia."
   },
   "contribute.devTitle": {
-    "message": "Help with Development"
+    "message": "Auta kehitystyössä"
   },
   "contribute.reportAProblem": {
-    "message": "If you experience problems with this site you can report them in the <a1>issue tracker</a1>, or via <a2>email</a2>."
+    "message": "Jos havaitset ongelmia tällä sivustolla, voit ilmoittaa niistä <a1>issue tracker</a1>:ssa tai <a2>sähköpostitse</a2>."
   },
   "contribute.reportAProblemTitle": {
-    "message": "Report a Problem"
+    "message": "Ilmoita ongelmasta"
   },
   "contribute.research": {
-    "message": "We are always looking for better ways to promote Digital Rights and make them more accessible. Whether it's to better understand how people use technology or how organizations abuse it, there are always research projects going on. Please <email>email</email> us if you'd like to get involved."
+    "message": "Etsimme jatkuvasti parempia tapoja edistää digitaalisia oikeuksia ja tehdä niistä helpommin lähestyttäviä. Olipa kyse ihmisten teknologian käytön paremmasta ymmärtämisestä tai siitä, miten organisaatiot väärinkäyttävät sitä, käynnissä on aina tutkimusprojekteja. Ota meihin <email>yhteyttä sähköpostitse</email>, jos haluat osallistua."
   },
   "contribute.researchTitle": {
-    "message": "Help with research"
+    "message": "Auta tutkimuksessa"
   },
   "contribute.subtitle": {
-    "message": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+    "message": "Tätä hanketta kehitetään ja ylläpidetään täysin vapaaehtoisten voimin. Jos olet huolissasi yksityisyyden menettämisestä, holtittomasta valvontakapitalismista, mikrokohdennuksesta ja disinformaatiosta sekä digitaalisten palvelujen koukuttavuudesta, voit auttaa:"
   },
   "contribute.title": {
-    "message": "Contribute"
+    "message": "Osallistu"
   },
   "contribute.translate1": {
-    "message": "We would like this service to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, we would love your help!"
+    "message": "Haluamme tarjota tämän palvelun useilla kielillä. Jos oma kielesi ei ole saatavilla tai se kaipaa päivitystä tai parannusta, arvostamme apuasi!"
   },
   "contribute.translate2": {
-    "message": "We use the online platform <a>Crowdin</a> to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available <b>here</b>. Follow these steps to get started:"
+    "message": "Käytämme <a>Crowdin</a>-verkkopalvelua käännöstekstien laatimiseen. Se helpottaa prosessia huomattavasti, eikä edellytä ohjelmointitaitoja. Lyhyt ohje on saatavilla <b>tästä</b>. Seuraa näitä ohjeita aloittaaksesi:"
   },
   "contribute.translateTitle": {
-    "message": "Translate the website"
+    "message": "Käännä verkkosivusto"
   },
   "dataProcessors": {
-    "message": "Data sharing and processors"
+    "message": "Tietojen jakaminen ja käsittelijät"
   },
   "deletePII.deleteAllPII": {
-    "message": "All requests"
+    "message": "Kaikki pyynnöt"
   },
   "deletePII.deleteSpecificPII": {
-    "message": "This request"
+    "message": "Tämä pyyntö"
   },
   "deletePII.doneAll": {
-    "message": "We have successfully deleted the personal data associated with all of your requests."
+    "message": "Olemme onnistuneesti poistaneet kaikki pyyntöihisi liittyvät henkilötiedot."
   },
   "deletePII.doneRequest": {
-    "message": "We have successfully deleted the personal data associated with this request."
+    "message": "Olemme onnistuneesti poistaneet tähän pyyntöön liittyvät henkilötiedot."
   },
   "deletePII.heading": {
-    "message": "Delete my data"
+    "message": "Poista tietoni"
   },
   "deletePII.intro": {
-    "message": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: {ref}), or with all of your requests?"
+    "message": "Henkilötietosi poistetaan automaattisesti 120 päivää pyynnön tekemisen jälkeen, mutta voit valita poistaa tietosi jo nyt. Haluatko poistaa tämän pyynnön (viite: {ref}) yhteydessä olevat tiedot vai kaikki pyyntösi?"
   },
   "deletemydata.description": {
-    "message": "Delete my data"
+    "message": "Poista tietoni"
   },
   "deletemydata.title": {
-    "message": "Delete my data"
+    "message": "Poista tietoni"
   },
   "donations.donate": {
-    "message": "Donate"
+    "message": "Lahjoita"
   },
   "donations.donateIntro": {
-    "message": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+    "message": "YourDigitalRights.org perustettiin, koska uskomme että yksityisyydellä on merkitystä, ja yksityisyysoikeuksien käyttäminen tulisi olla helppoa. Siksi olemme tehneet palvelusta ilmaisen. Lahjoittamalla tai ryhtymällä tukijäseneksi voit auttaa varmistamaan pitkän aikavälin taloudellisen vakauden ja riippumattomuutemme."
   },
   "donations.headingDonate": {
-    "message": "We need your support"
+    "message": "Tarvitsemme tukeasi"
   },
   "faq.body.YDR.1": {
-    "message": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+    "message": "YourDigitalRights.org on ilmainen palvelu, joka auttaa sinua saamaan takaisin hallinnan verkkoyksityisyyteesi tekemällä organisaatioiden on helppo poistaa tai toimittaa kopio henkilökohtaisista tiedoistasi. Toteutamme tämän automatisoimalla prosessin, joka on kuvattu vahvassa tietosuojalainsäädännössä, joka antaa sinulle oikeuden poistaa tai saada pääsyn tietoihisi. Lähettämällä pyyntöjä organisaatioille voimme lisäksi auttaa varmistamaan, että pyynnöt toteutetaan edukseksesi."
   },
   "faq.body.contact.1": {
-    "message": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+    "message": "Ymmärräthän, ettemme voi tarjota henkilökohtaista tukea koskien yksittäisiä tietopyyntöjä tai kokemustasi tietyistä organisaatioista. Tiedämme, että joissain tapauksissa organisaatiot voivat olla varsin turhauttavia, mutta valitettavasti emme pysty auttamaan emmekä vastaa kyseisiin sähköposteihin."
   },
   "faq.body.contact.2": {
-    "message": "For all other requests, please contact us via <a>email</a>."
+    "message": "Kaikissa muissa pyynnöissä, ota yhteyttä <a>sähköpostilla</a>."
   },
   "faq.body.contribute.1": {
-    "message": "Yes, please!"
+    "message": "Kyllä, mielellään!"
   },
   "faq.body.contribute.2": {
-    "message": "We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
+    "message": "Turvaamme pitkän aikavälin taloudellisen vakautemme ja riippumattomuutemme <a>lahjoitusten</a> kautta. Voit antaa tukesi täällä."
   },
   "faq.body.contribute.3": {
-    "message": "Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+    "message": "Katso <a>tältä sivulta</a> lisätietoa, jos haluat raportoida virheestä, auttaa sivuston kääntämisessä, avustaa kehitystyössä tai tehdä tutkimusta."
   },
   "faq.body.data-protection.1": {
-    "message": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
+    "message": "Tietosuojalait suojaavat yksilöitä organisaatioiden harjoittamalta henkilötietojen käsittelyltä. Ne määrittelevät organisaatioiden vastuut henkilötietojen käsittelyssä ja antavat yksilöille oikeuksia liittyen omiin tietoihinsa. Monissa maissa on tietosuojalakeja; jotkin niistä vievät suojaa pidemmälle kuin toiset."
   },
   "faq.body.escalate.1": {
-    "message": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
+    "message": "Tietosuojalainsäädäntö tarjoaa erilaisia eskalointikeinoja tällaisiin tapauksiin, mukaan lukien mahdollisuuden tehdä kantelu organisaatiosta valtion sääntelyviranomaiselle tai viedä asia oikeuteen (tunnetaan nimellä yksityinen oikeussuojakeino)."
   },
   "faq.body.escalate.2": {
-    "message": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
+    "message": "Jos tämä kuulostaa monimutkaiselta, älä huoli; voimme auttaa. Kun lähetät tietopyynnön tämän palvelun kautta, ota käyttöön \"Älykäs jatkoseuranta\" -vaihtoehto saadaksesi henkilökohtaista neuvontaa, mitä tehdä, jos organisaatio ei ole noudattanut pyyntöäsi. Autamme sinua olemaan yhteydessä organisaatioon ja tarvittaessa viemään asian valtion sääntelyviranomaisen käsiteltäväksi."
   },
   "faq.body.how.1": {
-    "message": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
+    "message": "Kun olet valinnut organisaation ja täyttänyt lyhyen lomakkeen, luomme sinulle pyynnön sähköpostimuodossa, joka on osoitettu valitsemallesi organisaatiolle. Sähköposti avautuu sähköpostiohjelmassasi tarkistusta ja lähetystä varten. Halutessasi voimme ottaa sinuun yhteyttä hetken kuluttua pyynnön lähettämisestä varmistaaksemme, että pyyntö hoidetaan eduksesi. Tämä voi sisältää muistutussähköpostien lähettämistä organisaatiolle tai asian viemistä valtion sääntelyviranomaiselle."
   },
   "faq.body.new-regulation.1": {
-    "message": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please <a>contact us</a> if you would like us to add support for a particular regulation."
+    "message": "Haluaisimme tukea kaikkia tietosuojalakeja, jotka antavat yksilöille oikeuden saada pääsyn omiin henkilötietoihinsa ja pyytää niiden poistamista. <a>Ota yhteyttä</a>, jos haluaisit meidän lisäävän tuen tietylle säädökselle."
   },
   "faq.body.refuse.1": {
-    "message": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
+    "message": "Tietosuojalainsäädäntö sallii organisaatioiden kieltäytyä poistamasta henkilötietojasi tietyissä poikkeustapauksissa. Tässä on joitakin yleisiä esimerkkejä, mutta sinun kannattaa lukea sovellettava lainsäädäntö tarkemmin:"
   },
   "faq.body.refuse.1.1": {
-    "message": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
+    "message": "Kun organisaatiolla on laillinen velvollisuus säilyttää tietosi (esimerkiksi rahoituslaitosten on säilytettävä tietuetta tapahtumistasi noudattaakseen rahanpesun vastaista sääntelyä)"
   },
   "faq.body.refuse.1.2": {
-    "message": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
+    "message": "Kun tietojesi säilyttäminen on tarpeen sananvapauden ja tiedonvälityksen suojaamiseksi (tämä kattaa journalismin sekä tieteelliset, taiteelliset ja kirjalliset tarkoitukset)"
   },
   "faq.body.refuse.1.3": {
-    "message": "When keeping hold of your data is necessary for public health reasons"
+    "message": "Kun tietojesi säilyttäminen on tarpeen kansanterveydellisistä syistä"
   },
   "faq.body.refuse.1.4": {
-    "message": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
+    "message": "Kun tietojen säilyttäminen on tarpeen oikeudellisten vaateiden perustamiseksi, käyttämiseksi tai puolustamiseksi"
   },
   "faq.body.refuse.1.5": {
-    "message": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+    "message": "Kun tietojesi poistaminen haittaisi tieteellistä tai historiallista tutkimusta tai arkistointia, joka on yleisen edun mukaista"
   },
   "faq.body.regulations.1": {
-    "message": "Please <a>contact us</a> if you would like to help us implement support for additional regulations."
+    "message": "<a>Ota yhteyttä</a>, jos haluaisit auttaa meitä lisäämään tukea muille säädöksille."
   },
   "faq.body.regulations.location": {
-    "message": "Location"
+    "message": "Sijainti"
   },
   "faq.body.regulations.name": {
-    "message": "Full Name"
+    "message": "Koko nimi"
   },
   "faq.body.regulations.short-name": {
-    "message": "Abbreviation"
+    "message": "Lyhenne"
   },
   "faq.body.regulations.timelimit": {
-    "message": "Time to Reply"
+    "message": "Vastausaika"
   },
   "faq.body.requests.1": {
-    "message": "We support two types of requests:"
+    "message": "Tuemme kahdenlaisia pyyntöjä:"
   },
   "faq.body.requests.1.1": {
-    "message": "<b>Data Deletion Requests</b> (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+    "message": "<b>Tietojen poistopyynnöt</b> (tunnetaan myös poistopyyntöinä tai oikeutena tulla unohdetuksi) antavat sinulle mahdollisuuden pyytää organisaatiota poistamaan henkilötietosi."
   },
   "faq.body.requests.1.2": {
-    "message": "<b>Access requests</b> (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+    "message": "<b>Tietopyynnöt</b> (tunnetaan myös nimellä Subject Access Request tai SAR) antavat sinulle mahdollisuuden pyytää organisaatiolta kopiota henkilötiedoistasi."
   },
   "faq.body.trust.1": {
-    "message": "We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to various organizations"
+    "message": "Olemme rekisteröity voittoa tavoittelematon organisaatio nimeltään <a>Conscious Digital</a>. Uskomme läpinäkyvyyteen, ja siksi tämän palvelun lähdekoodi on <aa>avoimen lähdekoodin</aa>. Lokakuuhun 2022 mennessä olemme auttaneet yksityishenkilöitä lähettämään yli 100 000 pyyntöä erilaisille organisaatioille"
   },
   "faq.body.trust.2": {
-    "message": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your <a>donations</a>."
+    "message": "Olemme itsenäisiä, emme myy henkilötietojasi emmekä ole kytköksissä mihinkään niistä organisaatioista, joille autamme sinua lähettämään tietopyyntöjä. Emme myöskään tarjoa näille organisaatioille mitään palveluja. Lopuksi meidät rahoitetaan sinun <a>lahjoituksillasi</a>."
   },
   "faq.body.trust.3": {
-    "message": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
+    "message": "Olemme suunnitelleet palvelun siten, ettei se oletusarvoisesti vaadi meitä keräämään henkilötietojasi. Kun jotkin valinnaiset ominaisuudet edellyttävät henkilötietojesi antamista, poistamme nämä tiedot 120 päivän kuluttua. Lisätietoja on <a>tietosuojakäytännössämme</a>."
   },
   "faq.body.verify.1": {
-    "message": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
+    "message": "Tietosuojalait velvoittavat organisaatioita varmistamaan pyynnön tekijän henkilöllisyyden petosten estämiseksi. Useimmat lait myös edellyttävät, että todentamistapa on oikeassa suhteessa pyydettyjen tietojen luonteeseen. Esimerkiksi, jos pyydät kopiota viestihistoriastasi tavanomaiselta internet-foorumilta, riittää yleensä sähköpostiosoitteen omistajuuden varmennus. Toisaalta, jos pyydät taloudellisia tietojasi rahoituslaitokselta, he voivat pyytää sinulta lisätietoja, kuten valokuvallisen henkilöllisyystodistuksen ja todistuksen osoitteesta."
   },
   "faq.body.verify.2": {
-    "message": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
+    "message": "Useimmissa tapauksissa riittää yksinkertainen varmennus siitä, että omistat tiliisi liitetyn sähköpostiosoitteen. Kun käytät tätä palvelua pyynnön lähettämiseen, sähköposti lähetetään sähköpostiohjelmastasi, mikä tarjoaa tämän perusvarmennuksen."
   },
   "faq.body.verify.3": {
-    "message": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+    "message": "Suojataksemme henkilötietojasi entisestään, pyynnöissämme, jotka laadimme puolestasi, kielletään organisaatioita käyttämästä pyyntöön sisältyviä henkilötietoja muuhun kuin pyynnön täyttämiseen."
   },
   "faq.heading.YDR": {
-    "message": "What is YourDigitalRights.org?"
+    "message": "Mikä on YourDigitalRights.org?"
   },
   "faq.heading.contact": {
-    "message": "I have a further question, how can I contact you?"
+    "message": "Minulla on lisäkysymys, miten voin ottaa teihin yhteyttä?"
   },
   "faq.heading.contribute": {
-    "message": "This service is fantastic. Can I help?"
+    "message": "Tämä palvelu on upea. Voinko olla avuksi?"
   },
   "faq.heading.data-protection": {
-    "message": "What are data protection laws?"
+    "message": "Mitä tietosuojalait ovat?"
   },
   "faq.heading.escalate": {
-    "message": "What should I do if an organization does not fully comply with my request?"
+    "message": "Mitä minun pitäisi tehdä, jos organisaatio ei noudata pyyntöäni täysimääräisesti?"
   },
   "faq.heading.how": {
-    "message": "How does the service work?"
+    "message": "Miten palvelu toimii?"
   },
   "faq.heading.new-regulation": {
-    "message": "My country has a new data protection law. Will you support it?"
+    "message": "Kotimaassani on uusi tietosuojalaki. Aiotteko tukea sitä?"
   },
   "faq.heading.refuse": {
-    "message": "Can organizations say no?"
+    "message": "Voivatko organisaatiot kieltäytyä?"
   },
   "faq.heading.regulations": {
-    "message": "What countries, states, or regulations are supported?"
+    "message": "Mitä maita, osavaltioita tai säännöksiä tuetaan?"
   },
   "faq.heading.requests": {
-    "message": "What kind of requests can I make using this service?"
+    "message": "Millaisia pyyntöjä voin tehdä tämän palvelun avulla?"
   },
   "faq.heading.trust": {
-    "message": "Who is operating this service? Can I trust you?"
+    "message": "Kuka ylläpitää tätä palvelua? Voinko luottaa teihin?"
   },
   "faq.heading.verify": {
-    "message": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+    "message": "Organisaatio on pyytänyt minulta lisätietoja henkilöllisyyden varmistamiseksi. Onko tämä laillista? Voivatko he käyttää näitä tietoja muihin tarkoituksiin?"
   },
   "faq.title": {
-    "message": "Frequently Asked Questions"
+    "message": "Usein kysytyt kysymykset"
   },
   "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
+    "message": "© Tekijänoikeus 2019 - 2022"
   },
   "footer.disclaimer": {
-    "message": "<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+    "message": "<span>Vastuuvapauslauseke:</span> Tämä palvelu tarjotaan sellaisenaan, ilman minkäänlaista takuuta. Palvelun käyttö on täysin omalla vastuullasi. Emme vastaa mistään suorista tai epäsuorista vahingoista, jotka johtuvat tämän palvelun käytöstä. Tämän palvelun antamat tiedot sekä verkkosivustomme oikeudelliseen sisältöön liittyvä aineisto on tarkoitettu henkilökohtaiseen käyttöön, eikä se ole oikeudellista neuvontaa. Jos tarvitset oikeudellista neuvontaa tiettyyn ongelmaan, sinun tulisi kääntyä pätevän asianajajan puoleen."
   },
   "footer.madeBy": {
-    "message": "<a>Made by Conscious Digital</a>"
+    "message": "<a>Conscious Digitalin tekemä</a>"
   },
   "footer.poweredBy": {
-    "message": "Powered by Vercel"
+    "message": "Vercelin toteuttama"
   },
   "footer.privacyPolicy": {
-    "message": "<a>Privacy Policy</a>"
+    "message": "<a>Tietosuojakäytäntö</a>"
   },
   "footer.stats": {
-    "message": "<a>Statistics</a>"
+    "message": "<a>Tilastot</a>"
   },
   "footer.wishList": {
-    "message": "make a wish on our roadmap"
+    "message": "Jätä toive etenemissuunnitelmaamme"
   },
   "hero.headerText": {
-    "message": "Get organizations to delete your account or provide a copy of your personal information."
+    "message": "Pyydä organisaatioita poistamaan tilisi tai toimittamaan kopio henkilötiedoistasi."
   },
   "hero.heading": {
-    "message": "Own Your Data"
+    "message": "Omista tietosi"
   },
   "hero.intro": {
-    "message": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+    "message": "Monet organisaatiot keräävät ja myyvät henkilötietojasi usein ilman suostumustasi. Käytä tätä maksutonta palvelua lähettääksesi niille tietojen poistamis- tai käyttöpääsypyynnön. Aloita etsimällä organisaatio alla."
   },
   "howItWorks.followUp": {
-    "message": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+    "message": "käyttämällä älykästä seurantatoimintoamme varmistaaksesi, että organisaatio noudattaa pyyntöäsi, ja auttaaksesi sinua jopa viemään pyyntösi eteenpäin asianmukaiselle viranomaiselle."
   },
   "howItWorks.followUpTitle": {
-    "message": "Follow-up"
+    "message": "Jatkotoimet"
   },
   "howItWorks.imgAlt": {
-    "message": "A graphic representing the user interface"
+    "message": "Käyttöliittymää kuvastava grafiikka"
   },
   "howItWorks.search": {
-    "message": "for an organization using the search box at the top of this page."
+    "message": "organisaatiolle sivun ylälaidassa olevaa hakukenttää käyttäen."
   },
   "howItWorks.searchTitle": {
-    "message": "Search"
+    "message": "Hae"
   },
   "howItWorks.send": {
-    "message": "the organization a request to delete, or provide a copy of your data."
+    "message": "organisaatiolle pyynnön poistaa tai toimittaa kopio tiedoistasi."
   },
   "howItWorks.sendTitle": {
-    "message": "Send"
+    "message": "Lähetä"
   },
   "howItWorks.title": {
-    "message": "How it works"
+    "message": "Miten se toimii"
   },
   "howItWorks.whyBody": {
-    "message": "We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
+    "message": "Olemme rekisteröity hyväntekeväisyysjärjestö nimeltä <cd>Conscious Digital</cd>. Loimme tämän palvelun, koska arvostamme yksityisyyttä ja haluamme, että oikeuttasi yksityisyyteen on helppo sekä maksuton käyttää. Emme kerää tai myy henkilötietoja. Palvelu rahoitetaan sen luojien ja sinun <donations>lahjoitustesi</donations> avulla."
   },
   "howItWorks.whyTitle": {
-    "message": "Why Trust Us?"
+    "message": "Miksi luottaa meihin?"
   },
   "howItWorks.yourData": {
-    "message": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+    "message": "Tietosuojalait velvoittavat organisaatioita poistamaan tai toimittamaan sinulle kopion tiedoistasi pyynnöstä. Organisaatioilla on vain vähän aikaa noudattaa pyyntöä, tai ne voivat kohdata merkittäviä sakkoja. Tavoitteenamme on tehdä näiden oikeuksien käyttämisestä helppoa."
   },
   "howItWorks.yourDataTitle": {
-    "message": "You have the right to privacy!"
+    "message": "Sinulla on oikeus yksityisyyteen!"
   },
   "index.description": {
-    "message": "Delete your account or access the personal data organizations have on you using this free service."
+    "message": "Poista tilisi tai pyydä pääsyä tietoihin, joita organisaatiot ovat sinusta keränneet, tämän ilmaisen palvelun avulla."
   },
   "nav.about": {
-    "message": "About"
+    "message": "Tietoja"
   },
   "nav.blog": {
-    "message": "Blog"
+    "message": "Blogi"
   },
   "nav.contact": {
-    "message": "Contact Us"
+    "message": "Ota yhteyttä"
   },
   "nav.contribute": {
-    "message": "Contribute"
+    "message": "Osallistu"
   },
   "nav.data-brokers": {
-    "message": "Data Brokers"
+    "message": "Tietovälittäjät"
   },
   "nav.donate": {
-    "message": "Make a Donation"
+    "message": "Lahjoita"
   },
   "nav.donation": {
-    "message": "Make a Donation"
+    "message": "Lahjoita"
   },
   "nav.faq": {
-    "message": "FAQ"
+    "message": "UKK"
   },
   "nav.helpTranslate": {
-    "message": "Help translate"
+    "message": "Auta kääntämään"
   },
   "nav.howItWorks": {
-    "message": "How it works"
+    "message": "Miten se toimii"
   },
   "nav.privacyPoilcy": {
-    "message": "Privacy Policy"
+    "message": "Tietosuojakäytäntö"
   },
   "nav.stats": {
-    "message": "Stats"
+    "message": "Tilastot"
   },
   "nav.twitterHastag": {
     "message": "#ownyourdata"
   },
   "org.DescriptionNewOrg": {
-    "message": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
+    "message": "Lähetä GDPR-, CCPA- ja LGPD-pohjaiset tietojen poistamis- ja käyttöpyynnöt mille tahansa organisaatiolle nopeasti ja vaivattomasti."
   },
   "org.descriptionExistingOrg": {
-    "message": "Request account deletion or a copy of your personal data from {org} quickly and easily."
+    "message": "Pyydä tilin poistamista tai kopiota henkilötiedoistasi organisaatiolta {org} nopeasti ja vaivattomasti."
   },
   "org.titleExistingOrg": {
-    "message": "Delete Your {org} Account or Get a Copy of Your Data"
+    "message": "Poista {org}-tilisi tai pyydä kopio tiedoistasi"
   },
   "org.titleNewOrg": {
-    "message": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
+    "message": "Lähetä GDPR-, CCPA- ja LGPD-tietojen poistamis- ja käyttöpyyntöjä"
   },
   "orgHero.newOrgTitle": {
-    "message": "Send a data deletion or access request."
+    "message": "Lähetä tietojen poistamis- tai käyttöpyyntö."
   },
   "orgHero.subTitle2": {
-    "message": "Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+    "message": "Lähetä {name}-yritykselle tietojen poistamis- tai käyttöpyyntö tällä <disclamer>maksuttomalla ja riippumattomalla</disclamer> palvelulla."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+    "message": "Pyydä organisaatioita poistamaan tai lähettämään kopio henkilötiedoistasi tämän <disclamer>maksuttoman ja riippumattoman</disclamer> palvelun avulla."
   },
   "orgHero.title": {
-    "message": "Delete your {domain} account or request your data."
+    "message": "Poista {domain}-tilisi tai pyydä tietojasi."
   },
   "personalInfoForm.FollowUpDetails": {
-    "message": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+    "message": "Varmistaaksemme, että organisaatio noudattaa pyyntöäsi, lähetämme sinulle sähköpostia, kun on aika toimia. Voit tällöin lähettää organisaatiolle muistutusviestin tai ilmoittaa asiasta paikalliselle tietosuojavirastolle."
   },
   "personalInfoForm.FollowUpDetailsWarning": {
-    "message": "<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
+    "message": "<strong>Valitsemalla tämän vaihtoehdon hyväksyt, että käsittelemme ja tallennamme seuraavat henkilötiedot: sähköpostiosoitteesi, nimesi ja pyyntösi sähköpostien tekstin. Kaikki tähän pyyntöön liittyvät henkilötiedot poistetaan automaattisesti järjestelmistämme 120 päivän kuluessa, ellet toisin ilmoita, ja sinulla on aina mahdollisuus pyytää tietojen välitöntä poistamista. Keräämme nämä tiedot automaattisesti lisäämällä erityisen sähköpostiosoitteen pyynnön sähköpostin kopio-kenttään.</strong>"
   },
   "personalInfoForm.FollowUpLabel": {
-    "message": "Turn on Smart Follow-up Assistance"
+    "message": "Ota älykäs jatkoseuranta käyttöön"
   },
   "personalInfoForm.IdentifyingInfoHelper": {
-    "message": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
+    "message": "Voit halutessasi antaa lisätietoja, jotka auttavat organisaatiota löytämään tietosi heidän järjestelmistään, kuten käyttäjänimi, asiakasnumero tai tilinumero. <strong>Älä kuitenkaan anna salasanaasi tai henkilötietoja, joita organisaatiolla ei vielä ole.</strong>"
   },
   "personalInfoForm.NoFollowUpLabel": {
-    "message": "No, I can manage on my own"
+    "message": "Ei, pärjään itse"
   },
   "personalInfoForm.YesFollowUpLabel": {
-    "message": "Yes, email me follow-up instructions"
+    "message": "Kyllä, lähettäkää minulle jatkotoimintaohjeet sähköpostitse"
   },
   "personalInfoForm.accessRequestLabelText": {
-    "message": "Send me a copy of my data"
+    "message": "Lähetä minulle kopio tiedoistani"
   },
   "personalInfoForm.companyDomainHelper": {
-    "message": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+    "message": "Anna organisaation verkkotunnus (esimerkiksi: google.co.uk tai facebook.com)."
   },
   "personalInfoForm.companyDomainLabel": {
-    "message": "Organization domain"
+    "message": "Organisaation verkkotunnus"
   },
   "personalInfoForm.companyEmailLabel": {
-    "message": "Organization email address"
+    "message": "Organisaation sähköpostiosoite"
   },
   "personalInfoForm.companyNameHelper": {
-    "message": "Please enter the name of the organization you would like to contact."
+    "message": "Anna sen organisaation nimi, johon haluat ottaa yhteyttä."
   },
   "personalInfoForm.companyNameLabel": {
-    "message": "Organization name"
+    "message": "Organisaation nimi"
   },
   "personalInfoForm.compnayEmailHelper": {
-    "message": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+    "message": "Anna sen henkilön tai osaston sähköpostiosoite, joka vastaa GDPR- / CCPA- / tietosuoja- / oikeudellisten pyyntöjen käsittelystä. Löydät nämä tiedot yleensä organisaation verkkosivuston tietosuojakäytäntö-, käyttöehdot- tai yhteystietosivulta."
   },
   "personalInfoForm.deletionRequestLabelText": {
-    "message": "Delete my data"
+    "message": "Poista tietoni"
   },
   "personalInfoForm.headline": {
-    "message": "Fill in the form to create a request email which you can then review and send."
+    "message": "Täytä lomake luodaksesi pyyntöviestin, jonka voit sen jälkeen tarkistaa ja lähettää."
   },
   "personalInfoForm.identifyingInfoLabel": {
-    "message": "Additional identifying information (optional)"
+    "message": "Lisätietoja tunnistautumiseen (valinnainen)"
   },
   "personalInfoForm.nameHelper": {
-    "message": "This will be used by the organization to identify you."
+    "message": "Organisaatio käyttää tätä tietoa tunnistaakseen sinut."
   },
   "personalInfoForm.nameLabel": {
-    "message": "Full name"
+    "message": "Koko nimi"
   },
   "personalInfoForm.regulationType": {
-    "message": "Regulation"
+    "message": "Säännös"
   },
   "personalInfoForm.regulationTypeHelper": {
-    "message": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+    "message": "Valitse säännös asuinpaikkasi perusteella, ellei sinulla ole erityistä syytä valita toisin."
   },
   "personalInfoForm.requestTypeLabelText": {
-    "message": "Request type"
+    "message": "Pyynnön tyyppi"
   },
   "personalInfoForm.sendButton": {
-    "message": "Review and Send"
+    "message": "Tarkista ja lähetä"
   },
   "personalInfoForm.supportButtonCTA": {
-    "message": "Support"
+    "message": "Tuki"
   },
   "personalInfoForm.validEmail": {
-    "message": "Please enter a valid email."
+    "message": "Anna kelvollinen sähköpostiosoite."
   },
   "pressIntro.title": {
-    "message": "As featured on"
+    "message": "Esillä mm."
   },
   "privacy.additionalPersonalData": {
-    "message": "Request Follow Ups"
+    "message": "Pyynnön seuranta"
   },
   "privacy.additionalPersonalDataBody1": {
-    "message": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+    "message": "Käyttäessäsi tätä Palvelua voit lähettämäsi tietopyynnön jälkeen valita vastaanottaa meiltä lisätukea sähköpostitse. Jos päätät käyttää tätä valinnaista toimintoa, keräämme seuraavia lisähenkilötietoja:"
   },
   "privacy.additionalPersonalDataBodyOneA": {
-    "message": "Your email address"
+    "message": "Sähköpostiosoitteesi"
   },
   "privacy.additionalPersonalDataBodyOneB": {
-    "message": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+    "message": "Lähettämiesi tietopyyntösähköpostien sisältö organisaatioille ja tietosuojaviranomaisille (DPAs)"
   },
   "privacy.additionalPersonalDataBodyOneC": {
-    "message": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
+    "message": "Lähettämiisi tietopyyntösähköposteihin liittyvät metatiedot organisaatioille ja tietosuojaviranomaisille (DPA), kuten sähköpostin lähetysaika sekä vastaanottajan ja lähettäjän osoitteet"
   },
   "privacy.additionalPersonalDataBodyOneE": {
-    "message": "We keep Extended Personal Data for a maximum of 120 days."
+    "message": "Säilytämme laajennettuja henkilötietoja enintään 120 päivää."
   },
   "privacy.additionalPersonalDataBodyOneF": {
-    "message": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+    "message": "Antamalla meille vapaaehtoisesti henkilötietoja hyväksyt, että käytämme niitä tämän tietosuojaselosteen mukaisesti. Jos annat henkilötietoja tälle sivustolle, ymmärrät ja hyväksyt, että kyseiset henkilötiedot voidaan siirtää nykyisestä sijainnistasi YourDigitalRights.org -palvelun toimistojen ja palvelimien sekä tämän selosteen mainitsemien valtuutettujen kolmansien osapuolten käyttöön."
   },
   "privacy.contact": {
-    "message": "Contact"
+    "message": "Yhteydenotto"
   },
   "privacy.contactBody": {
-    "message": "If you have questions or concerns about this Privacy Policy, please contact us at {mail}."
+    "message": "Jos sinulla on kysyttävää tai huolenaiheita tästä tietosuojakäytännöstä, ota meihin yhteyttä osoitteessa {mail}."
   },
   "privacy.cookies": {
-    "message": "Cookies and Tracking"
+    "message": "Evästeet ja seuranta"
   },
   "privacy.cookiesBody": {
-    "message": "We only use cookies to save the choices you make on the website so that it is easier for you to use the service next time. A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service."
+    "message": "Käytämme evästeitä vain tallentamaan valintojasi sivustolla, jotta palvelun käyttö olisi sinulle helpompaa seuraavalla kerralla. Eväste on tieto, jonka tämän palvelun palvelintietokone antaa selaimellesi, kun käytät palvelua."
   },
   "privacy.description": {
-    "message": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
+    "message": "Sinä omistat tietosi, ja olemme olemassa auttaaksemme sinua hallitsemaan, kenellä on niihin pääsy. Tämä on tietosuojakäytäntömme sivu."
   },
   "privacy.lastUpdated": {
-    "message": "Last updated:"
+    "message": "Viimeksi päivitetty:"
   },
   "privacy.personalData": {
-    "message": "Sending Requests"
+    "message": "Pyyntöjen lähettäminen"
   },
   "privacy.personalDataBody1": {
-    "message": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
+    "message": "Pyyntöjä lähettäessäsi (ilman valinnaista seurantatoimintoa) pyydämme sinua antamaan meille seuraavat henkilötiedot:"
   },
   "privacy.personalDataBodyOneA": {
-    "message": "Your name"
+    "message": "Nimesi"
   },
   "privacy.personalDataBodyOneB": {
-    "message": "Additional information needed to identify you with the organizations you choose to contact (such as a Username, Customer ID or Account Number)"
+    "message": "Lisätietoja, joita tarvitaan henkilöllisyytesi todentamiseen niiden organisaatioiden kanssa, joihin päätät ottaa yhteyttä (kuten käyttäjänimi, asiakasnumero tai tilinumero)"
   },
   "privacy.personalDataBodyOneE": {
-    "message": "We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers."
+    "message": "Käytämme lähettämiisi pyyntöihin liittyviä henkilötietoja vain sähköpostin luomiseen emmekä tallenna niitä palvelimillemme."
   },
   "privacy.privacyTitle": {
-    "message": "Privacy Policy"
+    "message": "Tietosuojakäytäntö"
   },
   "privacy.processorsA": {
-    "message": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their { matomo } page."
+    "message": "Matomo: Innocraftin tarjoama yksityisyyttä kunnioittava verkkoanalytiikkapalvelu. Käytämme Matomoa kerätäksemme anonymisoitua tietoa Palvelun käytöstä (\"käyttötiedot\"). Voit tutustua heidän { matomo } -sivuunsa."
   },
   "privacy.processorsB": {
-    "message": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their { matomo } page."
+    "message": "Amazon AWS: pilvi-infrastruktuuripalvelujen tarjoaja. Jos päätät ottaa pyynnön seurannan käyttöön, käytämme AWS:ää sähköpostiesi käsittelyyn, tallentamiseen ja muistutussähköpostien lähettämiseen. Voit tutustua heidän { matomo } -sivuun."
   },
   "privacy.promise": {
-    "message": "Our Promise"
+    "message": "Lupauksemme"
   },
   "privacy.promiseBody": {
-    "message": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+    "message": "Omistat omat tietosi. Autamme sinua hallitsemaan, kenellä on pääsy niihin. Uskomme vahvasti siihen, että henkilötietosi pysyvät henkilökohtaisina, yksityisinä ja turvallisina. Emme käytä muita kuin välttämättömiä evästeitä, ja rajoitamme keräämiemme henkilötietojen määrän vain niihin, jotka ovat välttämättömiä tämän Palvelun (YourDigitalRights.org) tarjoamiseksi. Joissakin tapauksissa voit ottaa käyttöön lisätoimintoja, jotka edellyttävät sinulta enemmän henkilötietoja. Tällaisissa tapauksissa sinun on annettava nimenomainen suostumus, ja toiminnot on merkitty selkeästi. Emme koskaan myy tai vuokraa henkilötietojasi kenellekään emmekä säilytä niitä palvelimillamme yli 120 päivää. Jaamme henkilötietojasi vain, kun se on tarpeen palvelun tarjoamiseksi tai kuten tämä seloste muuten määrää."
   },
   "privacy.title": {
-    "message": "Privacy Policy"
+    "message": "Tietosuojakäytäntö"
   },
   "privacy.usageDataBody": {
-    "message": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
+    "message": "Teemme yhteistyötä seuraavien kolmansien osapuolten kanssa suorittaaksemme tiettyjä tietojenkäsittelytehtäviä puolestamme. Olemme solmineet näiden palveluntarjoajien kanssa sopimukset, jotka varmistavat tietojesi luottamuksellisuuden ja turvallisuuden."
   },
   "privacyAlerts.description1": {
-    "message": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+    "message": "Kuukausittainen sähköposti, joka listaa kolme tutkimustiimimme tunnistamaa pahinta yksityisyyttä loukkaavaa yritystä. Paranna yksityisyyttäsi ja ota henkilötietosi takaisin hallintaan käyttämällä viisi minuuttia kuukaudessa kieltäytyäksesi näistä yrityksistä."
   },
   "privacyAlerts.seoDescription": {
-    "message": "Subscribe to our monthly privacy alerts"
+    "message": "Tilaa kuukausittaiset yksityisyysvaroituksemme"
   },
   "privacyAlerts.seoTitle": {
-    "message": "Privacy Alerts"
+    "message": "Yksityisyysvaroitukset"
   },
   "privacyAlerts.title": {
-    "message": "Privacy Alerts"
+    "message": "Yksityisyysvaroitukset"
   },
   "privacyAlerts.whyPrivacy": {
-    "message": "Why you should invest in your privacy?"
+    "message": "Miksi sinun pitäisi panostaa yksityisyyteesi?"
   },
   "privacyAlerts.whyPrivacyBody1": {
-    "message": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+    "message": "Jokainen verkossa tekemämme vuorovaikutus jättää jälkeensä henkilökohtaisia tietoja. Yritykset, datavälittäjät, hallitukset ja pahantahtoiset tahot ovat kaikki kiinnostuneita tiedoistamme."
   },
   "privacyAlerts.whyPrivacyBody2": {
-    "message": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+    "message": "Tämä tilanne altistaa meidät monenlaisille vaikutuskampanjoille, kuten kohdennetulle mainonnalle, poliittiselle ja sosiaaliselle manipuloinnille valetiedon avulla, erilaisille petoksille, kuten identiteettivarkauksille, sekä addiktoiville sovelluksille ja verkkopalveluille. Kaikki tämä on mahdollista jättämiemme runsaiden henkilötietojen vuoksi."
   },
   "privacyAlerts.whyPrivacyBody3": {
-    "message": "So how do we get it back under control?"
+    "message": "Miten voimme saada tämän takaisin hallintaan?"
   },
   "privacyAlerts.whyPrivacyBody4": {
-    "message": "We have designed Privacy Alerts based on feedback from the people using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+    "message": "Olemme suunnitelleet Privacy Alerts -ominaisuuden palveluidemme käyttäjiltä saadun palautteen perusteella. Se on yksinkertainen tapa parantaa yksityisyyttäsi verkossa ajan mittaan käyttämällä vain viisi minuuttia kuukaudessa luopumalla tutkimiemme pahimpien yritysten palveluista."
   },
   "redirect.continueText": {
-    "message": "Continue"
+    "message": "Jatka"
   },
   "redirect.headingText": {
-    "message": "opt-out.eu is now yourdigitalrights.org"
+    "message": "opt-out.eu on nyt yourdigitalrights.org"
   },
   "redirect.text": {
-    "message": "Great news, this service is growing! We have recently launched support for the California Consumer Privacy Act (CCPA), and will soon launch support for additional request types beyond erasure. As a result we feel that the domain name ‘opt-out.eu’ is too limiting. We are more committed than ever to help you exercise your digital rights, welcome to our new home @ <style>yourdigitalrights.org</style>!"
+    "message": "Hyviä uutisia, tämä palvelu kasvaa! Olemme hiljattain julkaisseet tuen California Consumer Privacy Act (CCPA) -pyynnöille, ja pian tarjoamme tukea myös muille pyynnöille poistopyyntöjen lisäksi. Tämän seurauksena koemme, että verkkotunnus \"opt-out.eu\" on liian rajoittava. Olemme sitoutuneempia kuin koskaan auttamaan sinua käyttämään digitaalisia oikeuksiasi, tervetuloa uuteen kotiimme @ <style>yourdigitalrights.org</style>!"
   },
   "request.description": {
-    "message": "View details about a {regulationType} request submitted with this free service."
+    "message": "Tarkastele lisätietoja {regulationType}-pyynnöstä, joka on lähetetty tämän ilmaisen palvelun kautta."
   },
   "request.details.date": {
-    "message": "Request email date:"
+    "message": "Pyynnön sähköpostipäivämäärä:"
   },
   "request.details.escalationDate": {
-    "message": "Escalation email date:"
+    "message": "Eskaloinnin sähköpostipäivämäärä:"
   },
   "request.details.header": {
-    "message": "Request details"
+    "message": "Pyyntötiedot"
   },
   "request.details.hide.escalation": {
-    "message": "Hide escalation email"
+    "message": "Piilota eskalointisähköposti"
   },
   "request.details.hide.reminder": {
-    "message": "Hide reminder email"
+    "message": "Piilota muistutussähköposti"
   },
   "request.details.hide.request": {
-    "message": "Hide request email"
+    "message": "Piilota pyyntösähköposti"
   },
   "request.details.name": {
-    "message": "Requested by:"
+    "message": "Pyynnön tekijä:"
   },
   "request.details.nowDetails": {
-    "message": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
+    "message": "Pyyntötietoja ei ole tällä hetkellä saatavilla, päivitä sivu, kun olet lähettänyt sähköpostin."
   },
   "request.details.organization": {
-    "message": "Recipient:"
+    "message": "Vastaanottaja:"
   },
   "request.details.regulation": {
-    "message": "Regulation:"
+    "message": "Säädös:"
   },
   "request.details.reminderDate": {
-    "message": "Reminder email date:"
+    "message": "Muistutussähköpostipäivämäärä:"
   },
   "request.details.sentTo": {
-    "message": "Recipient email address:"
+    "message": "Vastaanottajan sähköpostiosoite:"
   },
   "request.details.show.escalation": {
-    "message": "View escalation email"
+    "message": "Näytä eskalointisähköposti"
   },
   "request.details.show.reminder": {
-    "message": "View reminder email"
+    "message": "Näytä muistutussähköposti"
   },
   "request.details.show.request": {
-    "message": "View request email"
+    "message": "Näytä pyyntösähköposti"
   },
   "request.details.type": {
-    "message": "Request type:"
+    "message": "Pyyntötyyppi:"
   },
   "request.hero.declined": {
-    "message": "Declined"
+    "message": "Hylätty"
   },
   "request.hero.declinedRequest": {
-    "message": "{companyName} declined your request."
+    "message": "{companyName} hylkäsi pyyntösi."
   },
   "request.hero.didNotReply": {
-    "message": "{companyName} did not reply yet."
+    "message": "{companyName} ei ole vielä vastannut."
   },
   "request.hero.domainTitle": {
-    "message": "Domain:"
+    "message": "Verkkotunnus:"
   },
   "request.hero.handledPartially": {
-    "message": "Handled partially"
+    "message": "Käsitelty osittain"
   },
   "request.hero.handledRequest": {
-    "message": "{companyName} handled your request successfuly."
+    "message": "{companyName} käsitteli pyyntösi onnistuneesti."
   },
   "request.hero.handledSuccessfully": {
-    "message": "Handled successfully"
+    "message": "Käsitelty onnistuneesti"
   },
   "request.hero.header": {
-    "message": "Your data {requestType} request to {companyName}"
+    "message": "Tietojesi {requestType}-pyyntö kohteelle {companyName}"
   },
   "request.hero.noReply": {
-    "message": "No reply"
+    "message": "Ei vastausta"
   },
   "request.hero.partiallyHandled": {
-    "message": "{companyName} handled your request partially."
+    "message": "{companyName} käsitteli pyyntösi osittain."
   },
   "request.hero.reference": {
     "message": "{ref}"
   },
   "request.hero.referenceTitle": {
-    "message": "Reference:"
+    "message": "Viite:"
   },
   "request.hero.requestNotSent": {
-    "message": "please send the request email, then refresh this page."
+    "message": "Ole hyvä ja lähetä pyyntösähköposti ja päivitä sitten tämä sivu."
   },
   "request.hero.requestStatus": {
-    "message": "Request Status:"
+    "message": "Pyynnön tila:"
   },
   "request.next.circumstancesToDecline": {
-    "message": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
+    "message": "On olemassa tiettyjä poikkeuksellisia olosuhteita, jolloin organisaatiolla on laillinen oikeus kieltäytyä noudattamasta pyyntöäsi."
   },
   "request.next.declineAPPI": {
-    "message": "<ul><li>Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;</li><li>Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;</li><li>Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;</li><li>Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order.</li></ul>"
+    "message": "<ul><li>Henkilötiedot, joiden tietokannassa oletettava olemassaolo tai puuttuminen voi todennäköisesti uhata henkilön henkeä, kehoa tai omaisuutta;</li><li>Henkilötiedot, joiden tietokannassa oletettava olemassaolo tai puuttuminen voi todennäköisesti yllyttää tai edesauttaa laitonta tai epäasiallista toimintaa;</li><li>Henkilötiedot, joiden tietokannassa oletettava olemassaolo tai puuttuminen voi todennäköisesti heikentää kansallista turvallisuutta, vahingoittaa luottamussuhdetta vieraaseen valtioon tai kansainväliseen järjestöön tai asettaa maan epäedulliseen asemaan neuvotteluissa toisen valtion tai kansainvälisen järjestön kanssa;</li><li>Henkilötiedot, joiden tietokannassa oletettava olemassaolo tai puuttuminen voi todennäköisesti haitata rikosten ehkäisyä, rikostorjuntaa tai rikostutkintaa taikka yleisen turvallisuuden ja järjestyksen ylläpitoa.</li></ul>"
   },
   "request.next.declineCCPA": {
-    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+    "message": "<ul><li>Sananvapaus tai jokin muu lain sallima oikeus.</li><li>Tietojen käsittely tutkimustarkoituksiin, jos henkilötietojen poistaminen tekee tutkimuksen toteuttamisen mahdottomaksi tai vakavasti haittaa sitä.</li><li>Henkilötietojen käsittely on välttämätöntä laittoman toiminnan estämiseksi tai kyseisestä toiminnasta vastuussa olevien henkilöiden syytteeseen asettamiseksi.</li><li>Lain velvoitteiden noudattamiseksi.</li><li>Sopimuksen täytäntöön panemiseksi yrityksen ja kuluttajan välillä.</li><li>Tunnistaa ja suojata tietoturvaloukkauksilta, petollisilta tai laittomilta toimilta tai asettaa vastuuseen näistä toimista vastaavat tahot.</li><li>Virheiden tunnistaminen ja korjaaminen, jotka heikentävät olemassa olevaa ja tarkoitettua toiminnallisuutta.</li><li>Sallia pelkästään sisäiset käyttötarkoitukset, jotka ovat kohtuullisella tavalla kuluttajan odotuksia vastaavia perustuen kuluttajan ja yrityksen väliseen suhteeseen.</li><li>Muuten käyttää kuluttajan henkilötietoja laillisesti tavalla, joka on yhteensopiva sen kontekstin kanssa, jossa kuluttaja antoi tiedot.</li></ul>"
   },
   "request.next.declineCPA": {
-    "message": "<ul><li>Financial institutions and affiliates subject to the Gramm-Leach-Bliley Act</li><li>Air carriers subject to Federal Aviation Administration regulation</li><li>National securities associations registered under the Securities Exchange Act</li><li>Certain types of personal data maintained in compliance with specific federal privacy laws, such the Health Insurance Portability and Accountability Act and the Fair Credit Reporting Act, or for certain governmental purposes.</li></ul>"
+    "message": "<ul><li>Rahoituslaitokset ja niiden tytäryhtiöt, joihin sovelletaan Gramm-Leach-Bliley Act -lakia</li><li>Liittovaltion ilmailuviranomaisen sääntelemät lentoyhtiöt</li><li>Kansalliset arvopaperiyhdistykset, jotka on rekisteröity Securities Exchange Act -lain mukaisesti</li><li>Tietyt henkilötietotyypit, joita ylläpidetään Yhdysvaltain liittovaltion yksityisyydensuojalakien, kuten Health Insurance Portability and Accountability Actin ja Fair Credit Reporting Actin, tai valtion viranomaisten asettamien velvoitteiden nojalla.</li></ul>"
   },
   "request.next.declineCTDPA": {
-    "message": "<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+    "message": "<ul><li>Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakouluopilaitokset, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja</li><li>Suojatut terveystiedot</li><li>Työntekijätiedot, mukaan lukien työnhakijatiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Kootut tiedot</li><li>Henkilötiedot, jotka on kerätty ihmisaiheisissa tutkimuksissa tai kliinisen kokeen yhteydessä</li></ul>"
   },
   "request.next.declineDPDP": {
-    "message": "<ul><li>Provide a product or service specifically requested by the consumer.</li><li>Perform certain internal operations that reasonably align with consumer expectations.</li><li>Issue a product recall or repair technical errors.</li><li>Respond to and prevent security incidents, identity theft, and fraud.</li><li>Comply with federal, state, or local law.</li><li>Pseudonymous data.</li><li>De-identified data.</li><li>Publicly available information.</li><li>Public or peer-reviewed scientific research.</li></ul>"
+    "message": "<ul><li>Tarjoa kuluttajan nimenomaisesti pyytämä tuote tai palvelu.</li><li>Suorita tietyt sisäiset toimet, jotka kohtuudella vastaavat kuluttajan odotuksia.</li><li>Suorita tuote- tai laitetakaisinveto tai korjaa teknisiä virheitä.</li><li>Vastaa ja estä tietoturvaloukkauksia, henkilöllisyysvarkauksia ja petoksia.</li><li>Noudatetaan liittovaltion, osavaltion tai paikallisviranomaisten lakeja.</li><li>Pseudonymisoidut tiedot.</li><li>De-identifioidut tiedot.</li><li>Julkisesti saatavilla olevat tiedot.</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus.</li></ul>"
   },
   "request.next.declineDPDPA": {
-    "message": "<ul><li>(a) the processing of personal data is necessary for enforcing any legal right or claim;</li><li>(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;</li><li>(c) personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India;</li><li>(d) personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India;</li><li>(e) the processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force; and</li><li>(f) the processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force.</li></ul>"
+    "message": "<ul><li>(a) henkilötietojen käsittely on tarpeen minkä tahansa laillisen oikeuden tai vaateen täytäntöön panemiseksi;</li><li>(b) henkilötietojen käsittely tuomioistuimessa tai muussa Intian lakiin perustuvassa elimessä, joka hoitaa oikeudellisia, puoliksi oikeudellisia, sääntelyyn tai valvontaan liittyviä tehtäviä, kun käsittely on tarpeen kyseisen toiminnon suorittamiseksi;</li><li>(c) henkilötietojen käsittely on Intian voimassa olevan lain rikkomuksen tai rikoksen estämisen, havaitsemisen, tutkinnan tai syyttämisen kannalta välttämätöntä;</li><li>(d) sellaisten tietojen käsittely, jotka koskevat Intian alueen ulkopuolella olevia rekisteröityjä, johtuen siitä, että Intiassa toimiva taho on tehnyt sopimuksen jonkun kanssa, joka sijaitsee Intian ulkopuolella;</li><li>(e) käsittely on tarpeen kompromissin, järjestelyn, fuusion tai sulautumisen taikka yritysten jakautumisen tai muulla tavalla tapahtuvan uudelleenjärjestelyn toteuttamiseksi, jos se on tuomioistuimen tai muun toimivaltaisen viranomaisen hyväksymä ja siihen sovelletaan Intian voimassa olevaa lakia; ja</li><li>(f) henkilötietojen käsittely on tarpeen taloustietojen sekä velallisten varojen ja velkojen selvittämiseksi siinä tapauksessa, että henkilöllä on maksulaiminlyöntejä rahoituslaitokselle, edellyttäen että käsittely tapahtuu voimassa olevan lain tietojen luovutusta tai tietojen käsittelyä koskevien säännösten mukaisesti.</li></ul>"
   },
   "request.next.declineFADP": {
-    "message": "The controller may refuse to provide information, or restrict or delay the provision of information if:<ul><li>a. a formal law so provides, in particular in order to preserve professional secrecy;</li><li>b. this is required to safeguard overriding third-party interests; or</li><li>c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous.</li></ul><br/>Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:<ul><li>a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties.</li><li>b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings.</li></ul>"
+    "message": "Rekisterinpitäjä voi kieltäytyä antamasta tietoja tai rajoittaa tai viivyttää tietojen antamista, jos:<ul><li>a. laissa on määrätty niin, erityisesti ammatillisen salassapidon suojaamiseksi;</li><li>b. tämä on tarpeen ylivoimaisten kolmannen osapuolen etujen suojaamiseksi; tai</li><li>c. tietopyyntö on selvästi perusteeton, erityisesti jos se ei palvele tietosuojatarkoitusta tai on selvästi asiaton.</li></ul><br/>Lisäksi tietojen antamisesta voidaan kieltäytyä, sitä voidaan rajoittaa tai viivyttää seuraavissa tapauksissa:<ul><li>a. Rekisterinpitäjä on yksityishenkilö, ja seuraavat vaatimukset täyttyvät: 1. Rekisterinpitäjän omat ylivoimaiset edut edellyttävät toimenpidettä. 2. Rekisterinpitäjä ei aio luovuttaa henkilötietoja kolmansille osapuolille.</li><li>b. Rekisterinpitäjä on liittovaltion viranomainen, ja jokin seuraavista vaatimuksista täyttyy: 1. Toimenpide on tarpeen ylivoimaisten yleisten etujen, erityisesti Sveitsin sisäisen tai ulkoisen turvallisuuden, turvaamiseksi. 2. Tietojen antaminen saattaa vaarantaa tutkinnan, selvityksen tai hallinnollisen tai oikeudellisen menettelyn.</li></ul>"
   },
   "request.next.declineFDBR": {
-    "message": "<ul><il>(a) Comply with federal or state laws, rules, or regulations.</il><il>(b) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities.</il><il>(c) Investigate, establish, exercise, prepare for, or defend legal claims.</il><il>(d) Provide a product or service specifically requested by a consumer or the parent or guardian of a child, perform a contract to which the consumer is a party, including fulfilling the terms of a written warranty, or take steps at the request of the consumer before entering into a contract.</il><il>(e) Take immediate steps to protect an interest that is essential for the life or physical safety of the consumer or of another individual and in which the processing cannot be manifestly based on another legal basis.</il><il>(f) Prevent, detect, protect against, or respond to security incidents, identity theft, fraud, harassment, malicious or deceptive activities, or any illegal activity.</il><il>(g) Preserve the integrity or security of systems or investigate, report, or prosecute those responsible for breaches of system security.</il><il>(h) Engage in public or peer-reviewed scientific or statistical research in the public interest which adheres to all other applicable ethics and privacy laws and is approved, monitored, and governed by an institutional review board or similar independent oversight entity that determines: 1. Whether the deletion of the information is likely to provide substantial benefits that do not exclusively accrue to the controller; 2. Whether the expected benefits of the research outweigh the privacy risks; and 3. Whether the controller has implemented reasonable safeguards to mitigate privacy risks associated with research, including any risks associated with reidentification.</il><il>(i) Assist another controller, processor, or third party in complying with the requirements of this part.</il><il>(j) Disclose personal data disclosed when a consumer uses or directs the controller to intentionally disclose information to a third party or uses the controller to intentionally interact with a third party. An intentional interaction occurs when the consumer intends to interact with the third party, by one or more deliberate interactions. Hovering over, muting, pausing, or closing a given piece of content does not constitute a consumer’s intent to interact with a third party.</il><il>(k) Transfer personal data to a third party as an asset that is part of a merger, an acquisition, a bankruptcy, or other transaction in which the third party assumes control of all or part of the controller, provided that the information is used or shared in a manner consistent with this part. If a third party materially alters how it uses or shares the personal data of a consumer in a manner that is materially inconsistent with the commitments or promises made at the time of collection, it must provide prior notice of the new or changed practice to the consumer. The notice must be sufficiently prominent and robust to ensure that consumers can easily exercise choices consistent with this part.</il></ul>"
+    "message": "<ul><il>(a) Noudata liittovaltion tai osavaltion lakeja, sääntöjä tai määräyksiä.</il><il>(b) Noudata siviili-, rikos- tai hallinnollista tutkimusta, tutkintaa, haasteita tai kutsua liittovaltion, osavaltion, paikallisten tai muiden viranomaisten taholta.</il><il>(c) Tutki, vahvista, käytä, valmistaudu tai puolusta oikeudellisia vaateita.</il><il>(d) Tarjoa tuote tai palvelu, jota kuluttaja tai huoltaja nimenomaisesti pyytää, toteuta sopimus, jonka osapuolena kuluttaja on, mukaan lukien kirjallisen takuuehdon täyttäminen, tai ryhdy toimiin kuluttajan pyynnöstä ennen sopimuksen tekemistä.</il><il>(e) Toteuta välittömiä toimia kuluttajan tai toisen henkilön elämän tai fyysisen turvallisuuden kannalta olennaisen edun suojaamiseksi, jos käsittely ei ilmiselvästi perustu muuhun lailliseen perustaan.</il><il>(f) Estä, havaitse, suojaa tai vastaa tietoturvaloukkauksiin, identiteettivarkauksiin, petoksiin, häirintään, haitalliseen tai harhaanjohtavaan toimintaan tai muuhun laittomaan toimintaan.</il><il>(g) Säilytä järjestelmien eheys tai turvallisuus tai tutki, raportoi tai syytteeseen aseta niitä, jotka ovat vastuussa järjestelmän tietoturvaloukkauksista.</il><il>(h) Osallistu julkiseen tai vertaisarvioituun tieteelliseen tai tilastolliseen tutkimukseen, joka on yleisen edun mukaista, noudattaa kaikkia muita sovellettavia eettisiä ja tietosuojalakeja ja jonka hyväksyy, seuraa ja valvoo asianmukainen riippumaton toimielin, joka määrittää: 1. Onko tietojen poistamatta jättäminen todennäköisesti merkittävän hyödyn kannalta oleellista, joka ei koidu yksinomaan rekisterinpitäjälle; 2. Ylittävätkö tutkimuksen odotetut hyödyt tietosuojariskit; ja 3. Onko rekisterinpitäjä toteuttanut kohtuulliset suojatoimet tietosuojariskeihin nähden, mukaan lukien mahdolliset uudelleentunnistamiseen liittyvät riskit.</il><il>(i) Auta toista rekisterinpitäjää, käsittelijää tai kolmatta osapuolta noudattamaan tämän osaston vaatimuksia.</il><il>(j) Paljasta henkilötietoja, kun kuluttaja käyttää tai ohjaa rekisterinpitäjää tarkoituksellisesti paljastamaan tietoja kolmannelle osapuolelle tai vuorovaikutuksessa kolmannen osapuolen kanssa. Tarkoituksellinen vuorovaikutus tapahtuu, kun kuluttaja aikoo olla vuorovaikutuksessa kolmannen osapuolen kanssa yhdellä tai useammalla tietoisella toiminnolla. Sisällön ylittäminen, mykistäminen, pysäyttäminen tai sulkeminen ei merkitse kuluttajan aikomusta olla vuorovaikutuksessa kolmannen osapuolen kanssa.</il><il>(k) Siirrä henkilötietoja kolmannelle osapuolelle osana fuusiota, yrityskauppaa, konkurssia tai muuta liiketoimea, jossa kolmas osapuoli saa hallintaansa rekisterinpitäjän koko tai osan toiminnasta, edellyttäen että tietoja käytetään tai jaetaan tämän osaston mukaisella tavalla. Jos kolmas osapuoli muuttaa olennaisesti tapaa, jolla se käyttää tai jakaa kuluttajan henkilötietoja, eikä se enää vastaa keräämishetkellä annettuja sitoumuksia, sen on annettava kuluttajalle ennakkoilmoitus uudesta tai muuttuneesta käytännöstä. Ilmoituksen on oltava riittävän näkyvä ja kattava, jotta kuluttaja voi helposti käyttää tämän osaston mukaisia valintoja.</il></ul>"
   },
   "request.next.declineGDPR": {
-    "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
+    "message": "<ul><li>Kun tietojesi säilyttäminen on välttämätöntä sananvapauden ja tiedonvälityksen kannalta (tämä sisältää journalismin sekä akateemiset, taiteelliset ja kirjalliset tarkoitukset).</li><li>Kun organisaatiolla on laillinen velvoite säilyttää tietosi.</li><li>Kun tietojesi säilyttäminen on välttämätöntä kansanterveydellisistä syistä.</li><li>Kun tietojesi säilyttäminen on välttämätöntä oikeudellisten vaateiden laatimiseksi, esittämiseksi tai puolustamiseksi.</li><li>Kun tietojesi poistaminen haittaisi tieteellistä tai historiallista tutkimusta taikka yleishyödyllistä arkistointia.</li><li>Jos organisaatio katsoo, ettei tietoja ole tarpeen poistaa, sen on silti vastattava sinulle. Sen tulee selittää, miksi se katsoo, ettei tietoja tarvitse poistaa, ja kertoa sinulle oikeudestasi valittaa tästä päätöksestä tietosuojaviranomaiselle tai oikeusteitse.</li></ul>"
   },
   "request.next.declineICDPA": {
-    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li></ul>"
+    "message": "<ul><li>Pseudonymisoidut tiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus</li></ul>"
   },
   "request.next.declineLGPD": {
-    "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
+    "message": "<ul><li>Sananvapaus tai jokin muu lain sallima oikeus.</li><li>Tietojen käsittely tutkimustarkoituksiin, jos henkilötietojen poistaminen tekee tutkimuksen toteuttamisen mahdottomaksi tai vakavasti haittaa sitä.</li><li>Henkilötietojen käsittely on välttämätöntä laittoman toiminnan estämiseksi tai kyseisestä toiminnasta vastuussa olevien henkilöiden syytteeseen asettamiseksi.</li><li>Lain velvoitteiden noudattamiseksi.</li><li>Sopimuksen täytäntöön panemiseksi yrityksen ja kuluttajan välillä.</li><li>Tunnistaa ja suojata tietoturvaloukkauksilta, petollisilta tai laittomilta toimilta tai asettaa vastuuseen näistä toimista vastaavat tahot.</li><li>Virheiden tunnistaminen ja korjaaminen, jotka heikentävät olemassa olevaa ja tarkoitettua toiminnallisuutta.</li><li>Sallia pelkästään sisäiset käyttötarkoitukset, jotka ovat kohtuullisella tavalla kuluttajan odotuksia vastaavia perustuen kuluttajan ja yrityksen väliseen suhteeseen.</li><li>Muuten käyttää kuluttajan henkilötietoja laillisesti tavalla, joka on yhteensopiva sen kontekstin kanssa, jossa kuluttaja antoi tiedot.</li></ul>"
   },
   "request.next.declineMCDPA": {
-    "message": "<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+    "message": "<ul><li>Valtion viranomaiset</li><li>Liittovaltion tunnustamat intiaaniheimot</li><li>HIPAA-lain soveltamisalan piiriin kuuluvat toimijat ja liikekumppanit</li><li>Liittovaltion tai osavaltion myöntämän toimiluvan saaneet pankit tai luotto-osuuskunnat</li><li>Vakuutusyhtiöt</li><li>Pienyritykset, sellaisina kuin ne on määritelty Yhdysvaltain pienyrityshallinnon toimesta</li><li>Voittoa tavoittelemattomat organisaatiot, joiden ainoa tarkoitus on havaita tai estää vakuutuspetoksia</li><li>GLBA- tai FCRA-lainsäädännön alaiset henkilötiedot</li><li>Työhön liittyvät tai työnhakijoiden henkilötiedot, etuustiedot ja hätäyhteystiedot</li><li>De-identifioidut tai julkisesti saatavilla olevat tiedot</li></ul>"
   },
   "request.next.declineMTCDPA": {
-    "message": "<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+    "message": "<ul><li>Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakouluopilaitokset, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja</li><li>Suojatut terveystiedot</li><li>Työntekijätiedot, mukaan lukien työnhakijatiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Kootut tiedot</li><li>Henkilötiedot, jotka on kerätty ihmisaiheisissa tutkimuksissa tai kliinisen kokeen yhteydessä</li></ul>"
   },
   "request.next.declineNDPA": {
-    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+    "message": "<ul><li>Pseudonymisoidut tiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus</li><li>Suojatut terveystiedot</li></ul>"
   },
   "request.next.declineNHDPA": {
-    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+    "message": "<ul><li>Pseudonymisoidut tiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus</li><li>Suojatut terveystiedot</li></ul>"
   },
   "request.next.declineNJDPL": {
-    "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li><li>Protected health data</li></ul>"
+    "message": "<ul><li>Pseudonymisoidut tiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus</li><li>Suojatut terveystiedot</li></ul>"
   },
   "request.next.declineOPCA": {
-    "message": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:<ul><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+    "message": "Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakoulut, tietyt kansalliset arvopaperiyhdistykset ja rahoituslaitokset ovat vapautettuja. Lisäksi jotkin tietotyypit ovat vapautettuja:<ul><li>Suojatut terveystiedot</li><li>Työntekijätiedot mukaan lukien työnhakijatiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Kootut tiedot</li><li>Henkilötiedot, jotka on kerätty ihmisaiheisissa tutkimuksissa tai kliinisen kokeen yhteydessä</li></ul>"
   },
   "request.next.declinePDPA": {
-    "message": "<ul><li>Personal data processed for personal or household activities</li><li>Processing by state authorities related to national security, public safety or taxation</li><li>Processing for journalistic, artistic or literary purposes in the public interest</li><li>Processing by the House of Representatives, Senate, Parliament or their committees</li><li>Processing by courts and judicial officers within their duties</li><li>Processing by credit bureaus and their members under the Credit Information Business Act</li></ul>"
+    "message": "<ul><li>Henkilötiedot, joita käsitellään henkilökohtaista tai kotitalouteen liittyvää toimintaa varten</li><li>Valtion viranomaisten suorittama käsittely, joka liittyy kansalliseen turvallisuuteen, yleiseen turvallisuuteen tai verotukseen</li><li>Toimittaminen journalistisiin, taiteellisiin tai kirjallisiin tarkoituksiin yleisen edun nimissä</li><li>Käsittely edustajainhuoneessa, senaatissa, parlamentissa tai näiden valiokunnissa</li><li>Tuomioistuinten ja oikeudellisten virkailijoiden harjoittama käsittely heidän tehtäviensä puitteissa</li><li>Luottotietotoimistojen ja niiden jäsenten suorittama käsittely luottotietoliiketoimintaa koskevan lain mukaisesti</li></ul>"
   },
   "request.next.declinePDPL": {
-    "message": "<ul><li>Processing of personal data by a natural person for purely personal purposes</li><li>Processing carried out directly by a competent public authority to perform its statutory tasks</li><li>Processing necessary for national security or public order purposes</li><li>Processing without consent in the banking and financial sector as permitted by law</li><li>Processing by security services for national interest objectives</li></ul>"
+    "message": "<ul><li>Luonnollisen henkilön suorittama henkilötietojen käsittely puhtaasti henkilökohtaisiin tarkoituksiin</li><li>Pätevä julkinen viranomainen käsittelee tietoja suoraan lakisääteisten tehtäviensä suorittamiseksi</li><li>Käsittely, joka on tarpeen kansallisen turvallisuuden tai yleisen järjestyksen vuoksi</li><li>Lain sallima suostumukseton käsittely pankki- ja rahoitusalalla</li><li>Turvallisuuspalveluiden suorittama käsittely kansallisten etujen turvaamiseksi</li></ul>"
   },
   "request.next.declinePIPEDA": {
-    "message": "<ul><li>Exceptions to the access requirement should be limited and specific.</li><li>The reasons for denying access should be provided to the individual upon request.</li><li>Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege.</li></ul>"
+    "message": "<ul><li>Poikkeusten oikeus saada tieto tulisi olla rajattu ja tarkasti määritelty.</li><li>Syyt tiedon epäämiseen tulisi ilmoittaa yksilölle pyynnöstä.</li><li>Poikkeuksiin voi sisältyä tietoja, joiden toimittaminen on kohtuuttoman kallista, tietoja, jotka sisältävät viittauksia muihin henkilöihin, tietoja, joita ei voida paljastaa laillisista, turvallisuuteen liittyvistä tai liikesalaisuusperusteisista syistä, ja tietoja, joihin liittyy asianajajan ja asiakkaan välinen tai oikeudellinen privilegio.</li></ul>"
   },
   "request.next.declinePIPL": {
-    "message": "个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
+    "message": "当 henkilötietojen käsittelijä käsittelee henkilötietoja, eikä niistä tarvitse ilmoittaa tai ne on pidettävä salassa lain tai hallinnollisten säännösten mukaisesti, ei yksityishenkilöille tarvitse ilmoittaa edellisen kohdan第一款:ssa mainituista seikoista。"
   },
   "request.next.declinePOPIA": {
-    "message": "<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+    "message": "<ul><li>Henkilökohtaisia tai kotiin liittyviä tarkoituksia varten suoritettu toiminta</li><li>Täysin de-identifioidut tiedot</li><li>Kansallinen turvallisuus</li><li>Lainvalvonta</li><li>Ministerineuvosto ja sen valiokunnat tai maakunnan toimeenpaneva neuvosto</li><li>Tuomioistuinten oikeudelliset tehtävät, jotka mainitaan perustuslain pykälässä 166.</li></ul>"
   },
   "request.next.declineTDPSA": {
-    "message": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
+    "message": "Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakoulut, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja."
   },
   "request.next.declineTIPA": {
-    "message": "<ul><li>Government entities and political subdivisions</li><li>Covered entities and business associates subject to HIPAA/HITECH</li><li>Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutions of higher education</li><li>Non‑profit organizations</li><li>Insurance companies licensed under Tennessee law</li><li>Personal data regulated by the Fair Credit Reporting Act (FCRA)</li><li>Employment‑related or commercial‑context personal data</li><li>Publicly available, aggregated or de‑identified data</li><li>Personal data regulated by FERPA or COPPA</li><li>Patient safety work product and other health data exempted under federal law</li><li>Scientific or statistical research data meeting statutory safeguards</li></ul>"
+    "message": "<ul><li>Valtion viranomaiset ja hallinnolliset yksiköt</li><li>HIPAA/HITECH-lainsäädännön piiriin kuuluvat tahot ja liikealan kumppanit</li><li>Rahoituslaitokset ja niiden tytäryhtiöt, joihin sovelletaan Gramm‑Leach‑Bliley Actia (GLBA)</li><li>Korkeakoulut</li><li>Voittoa tavoittelemattomat organisaatiot</li><li>Tennesseen lainsäädännön alaiset vakuutusyhtiöt</li><li>Fair Credit Reporting Actin (FCRA) sääntelemät henkilötiedot</li><li>Työsuhteisiin tai kaupalliseen kontekstiin liittyvät henkilötiedot</li><li>Julkisesti saatavilla olevat, yhteen kootut tai anonymisoidut tiedot</li><li>FERPAn tai COPPAn sääntelemät henkilötiedot</li><li>Potilasturvallisuustyön tuotokset ja muut terveysdata, jotka on vapautettu liittovaltion lain nojalla</li><li>Tieteellinen tai tilastollinen tutkimusaineisto, joka täyttää lakisääteiset turvatoimet</li></ul>"
   },
   "request.next.declineUCPA": {
-    "message": "<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
+    "message": "<ul><li>Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakouluopilaitokset, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja</li><li>Suojatut terveystiedot</li><li>Työntekijätiedot, mukaan lukien työnhakijatiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Kootut tiedot</li><li>Henkilötiedot, jotka on kerätty ihmisaiheisissa tutkimuksissa tai kliinisen kokeen yhteydessä</li></ul>"
   },
   "request.next.declineVCDPA": {
-    "message": "<ul><li>Protected health information under HIPAA;</li><li>Health records for purposes of Title 32.1;</li><li>Patient identifying information for purposes of 42 U.S.C. § 290dd-2;</li><li>Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;</li> <li>Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);</li><li>Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;</li><li>Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;</li><li>Information used only for public health activities and purposes as authorized by HIPAA;</li><li>The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);</li><li>Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li> <li>Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits.</li></ul>"
+    "message": "<ul><li>HIPAA:n alainen suojattu terveyteen liittyvä tieto;</li><li>Title 32.1:n mukaiset terveystiedot;</li><li>Potilaan tunnistetiedot 42 U.S.C. § 290dd-2:n nojalla;</li><li>Tunnistettavissa olevat yksityiset tiedot, joihin sovelletaan liittovaltion ihmiskoehenkilöiden suojaa koskevaa 45 C.F.R. Part 46 -sääntöä; tunnistettavissa olevat yksityiset tiedot, joita kerätään hyvässä kliinisessä tutkimuskäytännössä The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use -suositusten mukaisesti; liittovaltion lakien mukainen ihmiskoehenkilöiden suoja 21 C.F.R. Parts 6, 50 ja 56; tai henkilötiedot, joita käytetään tai jaetaan tässä luvussa vahvistettujen vaatimusten mukaisesti taikka muussa soveltuvassa laissa sallitussa tutkimuksessa;</li> <li>Tiedot ja asiakirjat, jotka on luotu liittovaltion Health Care Quality Improvement Act of 1986:n (42 U.S.C. § 11101 et seq.) pohjalta;</li><li>Potilasturvallisuuteen liittyvät tiedot liittovaltion Patient Safety and Quality Improvement Actin (42 U.S.C. § 299b-21 et seq.) mukaisesti;</li><li>Terveydenhuoltoon liittyvistä tiedoista peräisin olevat tiedot, jotka on anonymisoitu HIPAA:n vaatimusten mukaisesti;</li><li>Tiedot, jotka ovat peräisin tai sekoittuneet erottamattomiksi edellä mainittujen tietojen kanssa, tai joita käsittelee HIPAA:n mukainen covered entity tai business associate, tai 42 U.S.C. § 290dd-2:n mukainen ohjelma tai qualified service organization;</li><li>Tiedot, joita käytetään pelkästään kansanterveyden edistämiseen ja jotka ovat HIPAA:n sallimia;</li><li>Kaikki henkilötiedot, jotka liittyvät kuluttajan luottokelpoisuuteen, luottomaineeseen, luottokapasiteettiin, luonteeseen, yleiseen maineeseen, henkilökohtaisiin ominaisuuksiin tai elämäntapaan, joita kuluttajaraportteja varten toimittaa kuluttajatietotoimisto tai tiedontuottaja, sekä kuluttajaraportin käyttäjä, mutta vain siltä osin kuin tätä toimintaa valvoo ja sallii liittovaltion Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li> <li>Henkilötiedot, joita kerätään, käsitellään, myydään tai luovutetaan liittovaltion Driver's Privacy Protection Act of 1994:n (18 U.S.C. § 2721 et seq.) mukaisesti;</li><li>Liittovaltion Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.) -lain alaiset henkilötiedot;</li> <li>Henkilötiedot, joita kerätään, käsitellään, myydään tai luovutetaan liittovaltion Farm Credit Actin (12 U.S.C. § 2001 et seq.) mukaisesti;</li><li>Tiedot, joita käsitellään tai ylläpidetään (i) kun yksilö hakee tai on työsuhteessa controlleriin, prosessoriin tai kolmanteen osapuoleen taikka toimii agenttina tai itsenäisenä urakoitsijana, siltä osin kuin tiedot kerätään ja niitä käytetään kyseisessä roolissa; (ii) yksilön hätänumerotietona, jota käytetään hätäyhteydenottoon; tai (iii) joita on tarpeen säilyttää etujen hallinnointia varten toisen henkilön suhteen kohtaan (i) liittyen ja joita käytetään noiden etujen hallinnointiin.</li></ul>"
   },
   "request.next.escalateToAuthorityNoReply": {
-    "message": "Recommendation: escalate your request to your { authorityLong } ({authorityShort})."
+    "message": "Suositus: vie pyyntösi eteenpäin { authorityLong }:lle ({authorityShort})."
   },
   "request.next.escalateToAuthorityPartial": {
-    "message": "Recommendation: if you believe { companyName } should have fully complied with your request, then we recommend that you escalate your request to the { authorityLong } ({authorityShort})."
+    "message": "Suositus: jos uskot, että { companyName } olisi pitänyt noudattaa pyyntöäsi täysin, suosittelemme viemään asian eteenpäin { authorityLong }:lle ({authorityShort})."
   },
   "request.next.escalatedAndNoSuccess": {
-    "message": "You have escalated your request to the {dpaLong} ({dpaShort}), please continue to communicate with them directly. There's nothing else that we can do to help."
+    "message": "Olet vienyt pyyntösi eteenpäin taholle {dpaLong} ({dpaShort}); jatka yhteydenpitoa suoraan heidän kanssaan. Emme voi enää auttaa tässä asiassa."
   },
   "request.next.esclateButton": {
-    "message": "Escalate to the { authority }"
+    "message": "Eskaloi { authority } -taholle"
   },
   "request.next.findOutMore": {
-    "message": "Find out more about these exceptions"
+    "message": "Lue lisää näistä poikkeuksista"
   },
   "request.next.organizationsHaveXDays": {
-    "message": "According to the {regulationType} organizations have { timeLimit } days to reply to your request."
+    "message": "{regulationType} mukaisesti organisaatioilla on { timeLimit } päivää aikaa vastata pyyntöösi."
   },
   "request.next.reminderButton": {
-    "message": "Send the organization a reminder email"
+    "message": "Lähetä organisaatiolle muistutussähköposti"
   },
   "request.next.selectTheOptions1": {
-    "message": "Please select from the following options:"
+    "message": "Valitse jokin seuraavista vaihtoehdoista:"
   },
   "request.next.selectTheOptions2": {
-    "message": "If you wish to take further action then please select from the following options:"
+    "message": "Jos haluat tehdä jatkotoimia, valitse jokin seuraavista vaihtoehdoista:"
   },
   "request.next.selectTheOptions3": {
-    "message": "If you do not wish to wait then please select from the following options:"
+    "message": "Jos et halua odottaa, valitse jokin seuraavista vaihtoehdoista:"
   },
   "request.next.sendAReminderEmail": {
-    "message": "Recommendation: send the organization a reminder email."
+    "message": "Suositus: lähetä organisaatiolle muistutussähköposti."
   },
   "request.next.waitUntilXDays": {
-    "message": "Recommendation: wait until { timeLimit } days have passed to give the company time to process your request."
+    "message": "Suositus: odota, kunnes { timeLimit } päivää on kulunut, jotta yrityksellä on aikaa käsitellä pyyntösi."
   },
   "request.next.waitUntilXDaysAfterReminder": {
-    "message": "Recommendation: wait until { timeLimit } days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+    "message": "Suositus: odota, kunnes { timeLimit } päivää on kulunut pyynnön lähettämisestä, jotta organisaatiolla on aikaa käsitellä pyyntösi muistutussähköpostin jälkeen."
   },
   "request.next.whatsNext": {
-    "message": "What's next"
+    "message": "Mitä seuraavaksi"
   },
   "request.success": {
-    "message": "Congratulations, { companyName } successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can <a>delete your personal data now</a>."
+    "message": "Onneksi olkoon, { companyName } noudatti pyyntöäsi onnistuneesti. Henkilötietosi poistetaan automaattisesti tältä sivustolta 120 päivän kuluttua alkuperäisestä pyynnöstäsi. Vaihtoehtoisesti voit <a>poistaa henkilötietosi nyt</a>."
   },
   "request.timeline.esclateTo": {
-    "message": "Escalate your request"
+    "message": "Eskaloi pyyntösi"
   },
   "request.timeline.reminderSent": {
-    "message": "Reminder sent"
+    "message": "Muistutus lähetetty"
   },
   "request.timeline.requestNotSent": {
-    "message": "Request not sent"
+    "message": "Pyyntöä ei lähetetty"
   },
   "request.timeline.requestSent": {
-    "message": "Request sent"
+    "message": "Pyyntö lähetetty"
   },
   "request.timeline.requestTimeline": {
-    "message": "Your request timeline"
+    "message": "Pyyntösi aikajana"
   },
   "request.timeline.sendEscalation": {
-    "message": "Escalation sent"
+    "message": "Eskalointi lähetetty"
   },
   "request.timeline.sendEscalationDays": {
     "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
   },
   "request.timeline.sendReminder": {
-    "message": "Send a reminder"
+    "message": "Lähetä muistutus"
   },
   "request.timeline.sendReminderDays": {
     "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
@@ -909,171 +909,171 @@
     "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
   },
   "request.title": {
-    "message": "Details for your {regulationType} request"
+    "message": "Pyyntösi {regulationType} -tiedot"
   },
   "requestEscalation.complaint": {
-    "message": "Additional details"
+    "message": "Lisätiedot"
   },
   "requestEscalation.complaintText": {
-    "message": "Please explain why you are not satisfied with how the organization has dealt with your request"
+    "message": "Kerro, miksi et ole tyytyväinen organisaation tapaan käsitellä pyyntöäsi"
   },
   "requestEscalation.esclateButtonForm": {
-    "message": "Open Escalation Form"
+    "message": "Avaa eskalointilomake"
   },
   "requestEscalation.formDisclamer": {
-    "message": "In order to escalate your request you will need to complete a form on the {authority} website. Click the button bellow to open the form in a new tab."
+    "message": "Jotta voit viedä pyyntöäsi eteenpäin, sinun tulee täyttää lomake {authority}-verkkosivulla. Napsauta alla olevaa painiketta avataksesi lomakkeen uuteen välilehteen."
   },
   "requestEscalation.geography": {
-    "message": "Location"
+    "message": "Sijainti"
   },
   "requestEscalation.geographyText ": {
-    "message": "Please select your place of residence"
+    "message": "Valitse asuinpaikkasi"
   },
   "requestEscalation.phoneDisclamer": {
-    "message": "In order to escalate your request please call the {authority} on {phone}."
+    "message": "Viedäksesi pyyntöäsi eteenpäin, soita {authority}-viranomaiselle numeroon {phone}."
   },
   "requestEscalation.submit": {
-    "message": "Review and Send"
+    "message": "Tarkista ja lähetä"
   },
   "search.companyPlaceholder": {
-    "message": "Search for an organization"
+    "message": "Hae organisaatiota"
   },
   "search.noResults": {
-    "message": "Can't find an organization?"
+    "message": "Etkö löydä organisaatiota?"
   },
   "search.noResultsMore": {
-    "message": "Click here to add one"
+    "message": "Napsauta tästä lisätäksesi sellaisen"
   },
   "sendEmailButton.copy": {
-    "message": "Copy email text to clipboard"
+    "message": "Kopioi sähköpostiteksti leikepöydälle"
   },
   "sendEmailButton.default": {
-    "message": "Open in your default email client"
+    "message": "Avaa oletussähköpostiohjelmassa"
   },
   "sendEmailButton.gmail": {
-    "message": "Open in Gmail"
+    "message": "Avaa Gmailissa"
   },
   "sendEmailButton.yahoo": {
-    "message": "Open in Yahoo Mail"
+    "message": "Avaa Yahoo Mailissa"
   },
   "social.chromeCTA": {
-    "message": "Download it for Chrome"
+    "message": "Lataa se Chromeen"
   },
   "social.chromeTitle": {
-    "message": "Google Chrome Extension"
+    "message": "Google Chrome -laajennus"
   },
   "social.emailBody": {
-    "message": "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it."
+    "message": "Tutustu YourDigitalRights.org-sivustoon, ilmaiseen palveluun, joka helpottaa selvittämään, mitä henkilökohtaisia tietoja tuhansilla organisaatioilla on sinusta, ja pyytämään niiden poistamista."
   },
   "social.emailSubject": {
-    "message": "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights"
+    "message": "Ota selvää, mitä henkilökohtaisia tietoja tuhansilla organisaatioilla on sinusta, ja pyydä niiden poistamista | Your Digital Rights"
   },
   "social.extensionHeadline": {
-    "message": "Opt out directly from your browser"
+    "message": "Kieltäydy suoraan selaimestasi"
   },
   "social.extensionText": {
-    "message": "Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button."
+    "message": "Haluatko parempaa hallintaa siihen, kenellä on pääsy henkilötietoihisi? Selaimen laajennuksemme avulla voit kieltäytyä vierailemistasi sivustoista yhdellä napsautuksella."
   },
   "social.facebookQuote": {
-    "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+    "message": "Ota selvää, mitä henkilökohtaisia tietoja tuhansilla organisaatioilla on sinusta, ja pyydä niiden poistamista. Tutustu yourdigitalrights.org-sivustoon."
   },
   "social.firefoxCTA": {
-    "message": "Download it for Firefox"
+    "message": "Lataa se Firefoxiin"
   },
   "social.frefoxTitle": {
-    "message": "FireFox Extention"
+    "message": "Firefox-laajennus"
   },
   "social.shareHeading": {
-    "message": "If you find this service useful, please spread the word"
+    "message": "Jos koet tämän palvelun hyödylliseksi, jaa tieto eteenpäin"
   },
   "social.twitterTitle": {
-    "message": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+    "message": "Ota selvää, mitä henkilökohtaisia tietoja tuhansilla organisaatioilla on sinusta, ja pyydä niiden poistamista. Tutustu yourdigitalrights.org-sivustoon."
   },
   "stats.description": {
-    "message": "Data protection request statistics."
+    "message": "Tietosuojapyyntöjen tilastot."
   },
   "stats.statsSubTitle": {
-    "message": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+    "message": "Missiomme on auttaa ihmisiä saamaan takaisin verkkoyksityisyytensä hallinnan antamalla heille mahdollisuuden pyytää organisaatioita poistamaan tai toimittamaan kopion heidän henkilötiedoistaan. Seuraavat tilastot osoittavat, mitkä organisaatiot ovat saaneet eniten pyyntöjä eri ajanjaksoina."
   },
   "stats.statsTitle": {
-    "message": "Request Statistics"
+    "message": "Pyyntöjen tilastot"
   },
   "stats.title": {
-    "message": "Request Statistics"
+    "message": "Pyyntöjen tilastot"
   },
   "stats.titleAlltime": {
-    "message": "Top all-time requests"
+    "message": "Eniten pyyntöjä koko aikana"
   },
   "stats.titleMonth": {
-    "message": "Top requests this month"
+    "message": "Kuukauden suosituimmat pyynnöt"
   },
   "stats.titleWeek": {
-    "message": "Top requests this week"
+    "message": "Viikon suosituimmat pyynnöt"
   },
   "stats.titleYear": {
-    "message": "Top requests this year"
+    "message": "Vuoden suosituimmat pyynnöt"
   },
   "stats.total": {
-    "message": "Total requests sent: {requestCount, number}"
+    "message": "Lähetettyjen pyyntöjen kokonaismäärä: {requestCount, number}"
   },
   "subscribe.alertsOneLiner1": {
-    "message": "Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
+    "message": "Ole askeleen edellä verkon uhkia ja hallitse henkilötietojasi Privacy Alerts -palvelun avulla! Uutiskirjeemme tarjoaa tuoreimmat asiantuntijaneuvot, vinkit ja niksit yksityisyyden suojaamiseksi digitaalisessa maailmassa. Tilaa nyt pysyäksesi ajan tasalla ja vahvistaaksesi asemaasi!"
   },
   "subscribe.title": {
-    "message": "Subscribe To Privacy Alerts!"
+    "message": "Tilaa Privacy Alerts!"
   },
   "support.description1": {
-    "message": "We understand that getting companies to delete your data can sometimes be frustrating."
+    "message": "Ymmärrämme, että yritysten saaminen poistamaan tietosi voi joskus olla turhauttavaa."
   },
   "support.description2": {
-    "message": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+    "message": "Maksullinen tukipalvelumme tarjoaa sinulle suoran yhteyden tiimimme jäseneen, joka auttaa sinua mielellään tietojesi poistamis- tai käyttöpyynnössä."
   },
   "support.posPaidtitle": {
-    "message": "Thank you!"
+    "message": "Kiitos!"
   },
   "support.postPaidDescription1": {
-    "message": "Please contact us via the following email address to access paid support:"
+    "message": "Ota meihin yhteyttä seuraavaan sähköpostiosoitteeseen, jotta saat käyttöösi maksullisen tukipalvelun:"
   },
   "support.postPaidDescription2": {
     "message": "{email}."
   },
   "support.seoDescription": {
-    "message": "Paid support service gives you direct access to one of our staff members"
+    "message": "Maksullinen tukipalvelu tarjoaa sinulle suoran yhteyden yhteen henkilökuntamme jäseneen"
   },
   "support.seoTitle": {
-    "message": "Support"
+    "message": "Tuki"
   },
   "support.title": {
-    "message": "Paid Support"
+    "message": "Maksullinen tuki"
   },
   "thankyou.copyPart1Copy": {
-    "message": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+    "message": "on kopioitu leikepöydälle, sinun tarvitsee vain liittää se sähköpostiin, tarkistaa se ja napsauttaa Lähetä."
   },
   "thankyou.copyPart1Email": {
-    "message": "email should have opened in your email application, all you need to do is review it and click Send."
+    "message": "sähköpostin pitäisi olla avautunut sähköpostiohjelmassasi, sinun tarvitsee vain tarkistaa se ja napsauttaa Lähetä."
   },
   "thankyou.description": {
-    "message": "Thank you"
+    "message": "Kiitos"
   },
   "thankyou.donation": {
-    "message": "Help us keep this service free by <a>making a donation</a> to help ensure our long-term financial stability and independence."
+    "message": "Autat meitä pitämään tämän palvelun maksuttomana <a>tekemällä lahjoituksen</a>, joka auttaa varmistamaan pitkän aikavälin taloudellisen vakauden ja riippumattomuuden."
   },
   "thankyou.findCompany": {
-    "message": "Find another organization"
+    "message": "Etsi toinen organisaatio"
   },
   "thankyou.howLongToReply": {
-    "message": "Organizations have {days} to comply, and may request additional information in order to verify your identity."
+    "message": "Organisaatioilla on {days} aikaa vastata, ja ne voivat pyytää lisätietoja henkilöllisyytesi varmistamiseksi."
   },
   "thankyou.requestTypeAccess": {
-    "message": "An access request"
+    "message": "Pyyntö saada pääsy tietoihin"
   },
   "thankyou.requestTypeDelete": {
-    "message": "A deletion request"
+    "message": "Tietojen poistopyyntö"
   },
   "thankyou.seotitle": {
-    "message": "Thank You"
+    "message": "Kiitos"
   },
   "thankyou.title": {
-    "message": "Thank You!"
+    "message": "Kiitos!"
   }
 }
