@@ -98,7 +98,7 @@
     },
     {
       "type": 0,
-      "value": " - Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
+      "value": " - Ingénieur full stack, a contribué à la prise en charge d'APPI et à la traduction complète du site web en japonais."
     }
   ],
   "about.createdByBody2": [
@@ -114,7 +114,7 @@
   "about.description": [
     {
       "type": 0,
-      "value": "Vos droits numériques ont été créés parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
+      "value": "Your Digital Rights a été créé parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
     }
   ],
   "about.funding": [
@@ -132,7 +132,7 @@
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Réglementation de la protection des données telles que le "
+      "value": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Des réglementation de la protection des données telles que le "
     },
     {
       "type": 1,
@@ -264,19 +264,23 @@
   "aboutOrg.description": [
     {
       "type": 0,
-      "value": "Dans leurs propres mots:"
+      "value": "En leurs propres termes :"
     }
   ],
   "aboutOrg.details": [
     {
       "type": 0,
-      "value": "Information additionnelle:"
+      "value": "À propos de "
+    },
+    {
+      "type": 1,
+      "value": "org"
     }
   ],
   "aboutOrg.email": [
     {
       "type": 0,
-      "value": "Email:"
+      "value": "Courriel :"
     }
   ],
   "aboutOrg.founded": [
@@ -300,13 +304,31 @@
   "aboutOrg.privacyPolicy": [
     {
       "type": 0,
-      "value": "Politique de confidentialité:"
+      "value": "Consulter la "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "politique de confidentialité"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " de "
+    },
+    {
+      "type": 1,
+      "value": "org"
     }
   ],
   "aboutOrg.specialties": [
     {
       "type": 0,
-      "value": "Spécialités de l'entreprise:"
+      "value": "Spécialités de l'entreprise :"
     }
   ],
   "aboutOrg.type": [
@@ -318,7 +340,7 @@
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus que heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur github, ou par d'autres moyens."
+      "value": "Bien que nous ne puissions pas nous permettre de vous payer pour votre travail, nous sommes plus qu’heureux de vous accorder du crédit pour vos contributions, que ce soit sur ce site Web, sur GitHub, ou par d'autres moyens."
     }
   ],
   "contribute.creditTitle": [
@@ -420,17 +442,21 @@
     },
     {
       "type": 0,
-      "value": ". La meilleure façon de commencer est de nous contacter par e-mail "
+      "value": ". La meilleure façon de commencer est de nous contacter par "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "courriel"
+        }
       ],
       "type": 8,
       "value": "email"
     },
     {
       "type": 0,
-      "value": ". Nous vous ajouterons ensuite à notre chaîne Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
+      "value": ". Nous vous ajouterons ensuite à notre canal Slack et partagerons les efforts de développement en cours. Sinon, n'hésitez pas à cloner le référentiel et à soumettre des demandes de fusion."
     }
   ],
   "contribute.devSkills": [
@@ -448,13 +474,13 @@
   "contribute.reportAProblem": [
     {
       "type": 0,
-      "value": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans le "
+      "value": "Si vous rencontrez des problèmes avec ce site, vous pouvez les signaler dans l’"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "issue tracker"
+          "value": "outil de suivi des incidents"
         }
       ],
       "type": 8,
@@ -468,7 +494,7 @@
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "courriel"
         }
       ],
       "type": 8,
@@ -488,13 +514,13 @@
   "contribute.research": [
     {
       "type": 0,
-      "value": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez "
+      "value": "Nous sommes toujours à la recherche de meilleures façons de promouvoir les droits numériques et de les rendre plus accessibles. Que ce soit pour mieux comprendre comment les gens utilisent la technologie ou comment les organisations en abusent, il y a toujours des projets de recherche en cours. Veuillez nous envoyer un "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "e-mail"
+          "value": "courriel"
         }
       ],
       "type": 8,
@@ -502,7 +528,7 @@
     },
     {
       "type": 0,
-      "value": "  si vous souhaitez vous impliquer."
+      "value": " si vous souhaitez vous impliquer."
     }
   ],
   "contribute.researchTitle": [
@@ -608,7 +634,7 @@
   "deletePII.intro": [
     {
       "type": 0,
-      "value": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (ref: "
+      "value": "Vos données personnelles seront automatiquement supprimées 120 jours après qu'une demande ait été faite, cependant vous pouvez choisir de supprimer vos données maintenant. Voulez-vous supprimer les données qui sont associées à cette requête (réf : "
     },
     {
       "type": 1,
@@ -652,7 +678,7 @@
   "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "Vos droits numériques. rg est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
+      "value": "YourDigitalRights.org est un service gratuit qui vous aide à reprendre le contrôle de votre vie privée en ligne en permettant aux organisations de supprimer ou de fournir une copie des renseignements personnels qu'elles ont sur vous. Nous le faisons en automatisant le processus décrit dans de puissantes lois sur la protection des données qui vous donnent le droit de supprimer ou d'accéder à vos données. En plus d'envoyer des demandes à des organisations, nous pouvons vous aider à vous assurer que les demandes sont résolues en votre faveur."
     }
   ],
   "faq.body.contact.1": [
@@ -664,13 +690,13 @@
   "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "Pour toute autre demande, veuillez nous contacter via "
+      "value": "Pour toute autre demande, veuillez nous contacter par "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "courriel"
         }
       ],
       "type": 8,
@@ -684,7 +710,7 @@
   "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "Oui, s'il vous plaît!"
+      "value": "Oui, s'il vous plaît !"
     }
   ],
   "faq.body.contribute.2": [
@@ -854,7 +880,7 @@
   "faq.body.requests.1": [
     {
       "type": 0,
-      "value": "Nous soutenons deux types de demandes:"
+      "value": "Nous gérons deux types de demandes :"
     }
   ],
   "faq.body.requests.1.1": [
@@ -1020,7 +1046,7 @@
   "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir?"
+      "value": "Mon pays a une nouvelle loi sur la protection des données. Allez-vous la soutenir ?"
     }
   ],
   "faq.heading.refuse": [
@@ -1038,7 +1064,7 @@
   "faq.heading.requests": [
     {
       "type": 0,
-      "value": "Quels types de demandes puis-je faire à l'aide de ce service?"
+      "value": "Quels types de demandes puis-je faire à l'aide de ce service ?"
     }
   ],
   "faq.heading.trust": [
@@ -1256,13 +1282,13 @@
   "nav.about": [
     {
       "type": 0,
-      "value": "Sur"
+      "value": "À propos"
     }
   ],
   "nav.blog": [
     {
       "type": 0,
-      "value": "Blogue"
+      "value": "Blog"
     }
   ],
   "nav.contact": [
@@ -1488,13 +1514,13 @@
   "personalInfoForm.YesFollowUpLabel": [
     {
       "type": 0,
-      "value": "Oui, envoyez-moi des instructions de suivi par e-mail"
+      "value": "Oui, envoyez-moi des instructions de suivi par courriel"
     }
   ],
   "personalInfoForm.accessRequestLabelText": [
     {
       "type": 0,
-      "value": "Envoyez-moi une copie de mes données"
+      "value": "M’envoyer une copie de mes données"
     }
   ],
   "personalInfoForm.companyDomainHelper": [
@@ -1918,7 +1944,7 @@
   "request.details.name": [
     {
       "type": 0,
-      "value": "Demandé par:"
+      "value": "Demandé par :"
     }
   ],
   "request.details.nowDetails": [
@@ -1936,7 +1962,7 @@
   "request.details.regulation": [
     {
       "type": 0,
-      "value": "Réglement:"
+      "value": "Règlement :"
     }
   ],
   "request.details.reminderDate": [
@@ -2004,7 +2030,7 @@
   "request.hero.domainTitle": [
     {
       "type": 0,
-      "value": "Domaine:"
+      "value": "Domaine :"
     }
   ],
   "request.hero.handledPartially": [
@@ -2060,7 +2086,7 @@
     },
     {
       "type": 0,
-      "value": " a traité votre demande partiellement."
+      "value": " a partiellement traité votre demande."
     }
   ],
   "request.hero.reference": [
@@ -2072,13 +2098,13 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Référence:"
+      "value": "Référence :"
     }
   ],
   "request.hero.requestNotSent": [
     {
       "type": 0,
-      "value": "veuillez envoyer l'e-mail de la demande, puis actualiser cette page."
+      "value": "veuillez envoyer le courriel de la demande, puis actualiser cette page."
     }
   ],
   "request.hero.requestStatus": [
@@ -2946,7 +2972,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities"
+              "value": "Entités gouvernementales"
             }
           ],
           "type": 8,
@@ -2956,7 +2982,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Federally recognised Indian tribes"
+              "value": "Tribus indiennes reconnues fédéralement"
             }
           ],
           "type": 8,
@@ -2966,7 +2992,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates under HIPAA"
+              "value": "Entités couvertes et partenaires commerciaux relevant de la loi HIPAA"
             }
           ],
           "type": 8,
@@ -2976,7 +3002,7 @@
           "children": [
             {
               "type": 0,
-              "value": "State or federally chartered banks or credit unions"
+              "value": "Banques ou coopératives de crédit constituées au niveau de l’État ou au niveau fédéral"
             }
           ],
           "type": 8,
@@ -2986,7 +3012,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies"
+              "value": "Compagnies d’assurance"
             }
           ],
           "type": 8,
@@ -2996,7 +3022,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Small businesses as defined by the U.S. Small Business Administration"
+              "value": "Petites entreprises au sens de la U.S. Small Business Administration"
             }
           ],
           "type": 8,
@@ -3006,7 +3032,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profits established solely to detect or prevent insurance fraud"
+              "value": "Organisations à but non lucratif établies uniquement pour détecter ou prévenir la fraude à l’assurance"
             }
           ],
           "type": 8,
@@ -3016,7 +3042,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by GLBA or FCRA"
+              "value": "Données personnelles régies par la GLBA ou la FCRA"
             }
           ],
           "type": 8,
@@ -3026,7 +3052,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑context or job‑applicant personal data, benefits and emergency contact data"
+              "value": "Données personnelles liées à l’emploi ou à la candidature, prestations et coordonnées d’urgence"
             }
           ],
           "type": 8,
@@ -3036,7 +3062,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De‑identified or publicly available data"
+              "value": "Données désidentifiées ou publiquement disponibles"
             }
           ],
           "type": 8,
@@ -3378,7 +3404,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data processed for personal or household activities"
+              "value": "Les données personnelles traitées à des fins personnelles ou domestiques"
             }
           ],
           "type": 8,
@@ -3388,7 +3414,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by state authorities related to national security, public safety or taxation"
+              "value": "Traitement par les autorités de l’État concernant la sécurité nationale, la sûreté publique ou la fiscalité"
             }
           ],
           "type": 8,
@@ -3398,7 +3424,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for journalistic, artistic or literary purposes in the public interest"
+              "value": "Traitement à des fins journalistiques, artistiques ou littéraires dans l’intérêt public"
             }
           ],
           "type": 8,
@@ -3408,7 +3434,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by the House of Representatives, Senate, Parliament or their committees"
+              "value": "Traitement par la Chambre des représentants, le Sénat, le Parlement ou leurs comités"
             }
           ],
           "type": 8,
@@ -3418,7 +3444,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by courts and judicial officers within their duties"
+              "value": "Traitement par les tribunaux et les officiers de justice dans le cadre de leurs fonctions"
             }
           ],
           "type": 8,
@@ -3428,7 +3454,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by credit bureaus and their members under the Credit Information Business Act"
+              "value": "Traitement par les agences de crédit et leurs membres en vertu de la Credit Information Business Act"
             }
           ],
           "type": 8,
@@ -3446,7 +3472,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of personal data by a natural person for purely personal purposes"
+              "value": "Traitement de données personnelles par une personne physique à des fins purement personnelles"
             }
           ],
           "type": 8,
@@ -3456,7 +3482,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing carried out directly by a competent public authority to perform its statutory tasks"
+              "value": "Traitement effectué directement par une autorité publique compétente pour remplir ses missions légales"
             }
           ],
           "type": 8,
@@ -3466,7 +3492,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing necessary for national security or public order purposes"
+              "value": "Traitement nécessaire à la sécurité nationale ou à l’ordre public"
             }
           ],
           "type": 8,
@@ -3476,7 +3502,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing without consent in the banking and financial sector as permitted by law"
+              "value": "Traitement sans consentement dans le secteur bancaire et financier comme autorisé par la loi"
             }
           ],
           "type": 8,
@@ -3486,7 +3512,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by security services for national interest objectives"
+              "value": "Traitement par les services de sécurité pour des objectifs d’intérêt national"
             }
           ],
           "type": 8,
@@ -3548,7 +3574,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal or household activity"
+              "value": "Activité personnelle ou domestique"
             }
           ],
           "type": 8,
@@ -3558,7 +3584,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Fully de-identified data"
+              "value": "Données entièrement désidentifiées"
             }
           ],
           "type": 8,
@@ -3568,7 +3594,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National-security"
+              "value": "Sécurité nationale"
             }
           ],
           "type": 8,
@@ -3578,7 +3604,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Law-enforcement"
+              "value": "Application de la loi"
             }
           ],
           "type": 8,
@@ -3588,7 +3614,7 @@
           "children": [
             {
               "type": 0,
-              "value": "By the Cabinet and its committees or the Executive Council of a province"
+              "value": "Par le Cabinet et ses comités ou le Conseil exécutif d’une province"
             }
           ],
           "type": 8,
@@ -3598,7 +3624,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Relating to the judicial functions of a court referred to in section 166 of the Constitution."
+              "value": "Relatif aux fonctions judiciaires d’un tribunal visé à la section 166 de la Constitution."
             }
           ],
           "type": 8,
@@ -3622,7 +3648,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities and political subdivisions"
+              "value": "Entités gouvernementales et subdivisions politiques"
             }
           ],
           "type": 8,
@@ -3632,7 +3658,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates subject to HIPAA/HITECH"
+              "value": "Entités couvertes et partenaires commerciaux soumises à HIPAA/HITECH"
             }
           ],
           "type": 8,
@@ -3642,7 +3668,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)"
+              "value": "Institutions financières et affiliées soumises à la loi Gramm‑Leach‑Bliley (GLBA)"
             }
           ],
           "type": 8,
@@ -3652,7 +3678,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Institutions of higher education"
+              "value": "Établissements d’enseignement supérieur"
             }
           ],
           "type": 8,
@@ -3662,7 +3688,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profit organizations"
+              "value": "Organisations à but non lucratif"
             }
           ],
           "type": 8,
@@ -3672,7 +3698,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies licensed under Tennessee law"
+              "value": "Compagnies d’assurance autorisées en vertu de la loi du Tennessee"
             }
           ],
           "type": 8,
@@ -3682,7 +3708,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the Fair Credit Reporting Act (FCRA)"
+              "value": "Données personnelles régies par le Fair Credit Reporting Act (FCRA)"
             }
           ],
           "type": 8,
@@ -3692,7 +3718,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑related or commercial‑context personal data"
+              "value": "Données personnelles liées à l’emploi ou à un contexte commercial"
             }
           ],
           "type": 8,
@@ -3702,7 +3728,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available, aggregated or de‑identified data"
+              "value": "Données publiquement accessibles, agrégées ou désidentifiées"
             }
           ],
           "type": 8,
@@ -3712,7 +3738,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by FERPA or COPPA"
+              "value": "Données personnelles régies par la FERPA ou la COPPA"
             }
           ],
           "type": 8,
@@ -3722,7 +3748,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product and other health data exempted under federal law"
+              "value": "Produits de travail sur la sécurité des patients et autres données de santé exemptées en vertu de la loi fédérale"
             }
           ],
           "type": 8,
@@ -3732,7 +3758,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Scientific or statistical research data meeting statutory safeguards"
+              "value": "Données de recherche scientifique ou statistique répondant aux garanties légales"
             }
           ],
           "type": 8,
@@ -4535,7 +4561,7 @@
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copier le texte du mail dans le presse-papiers"
+      "value": "Copier le texte du courriel dans le presse-papiers"
     }
   ],
   "sendEmailButton.default": [
@@ -4577,7 +4603,7 @@
   "social.emailSubject": [
     {
       "type": 0,
-      "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Vos droits numériques"
+      "value": "Découvrez les données personnelles que des milliers d'organisations détiennent sur vous et demandez-leur de les supprimer | Your Digital Rights"
     }
   ],
   "social.extensionHeadline": [
@@ -4684,7 +4710,7 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et enrichi !"
+      "value": "Restez en avance sur les menaces en ligne et prenez le contrôle de vos données personnelles avec les alertes de confidentialité! Notre lettre d'information fournit les conseils les plus récents d'experts, conseils et astuces pour protéger votre vie privée dans le monde numérique. Abonnez-vous dès maintenant pour rester informé et capable d'agir !"
     }
   ],
   "subscribe.title": [
@@ -4748,13 +4774,13 @@
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "a été copié dans le presse-papiers, il vous suffit de le coller dans le mail, le relire et de cliquer sur Envoyer."
+      "value": "a été copié(e) dans le presse-papiers, il vous suffit de le coller dans le courriel, de le relire et de cliquer sur Envoyer."
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "Le courriel devrait être ouvert dans votre application de messagerie, il ne vous reste plus qu'à vérifier et cliquer sur Envoyer."
+      "value": "dans un courriel devrait être ouverte dans votre application de messagerie, il ne vous reste plus qu'à vérifier et à cliquer sur Envoyer."
     }
   ],
   "thankyou.description": [
@@ -4792,7 +4818,7 @@
   "thankyou.howLongToReply": [
     {
       "type": 0,
-      "value": "Les organisations ont "
+      "value": "Les organisations un délai de "
     },
     {
       "type": 1,

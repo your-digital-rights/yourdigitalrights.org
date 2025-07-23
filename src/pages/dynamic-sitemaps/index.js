@@ -1,4 +1,4 @@
-import { getServerSideSitemapIndex } from "next-sitemap";
+import { getServerSideSitemapIndexLegacy } from "next-sitemap";
 import { fetchDomains } from "../../utils/domains";
 import { DOMAIN_URL } from "../../utils/domain";
 
@@ -14,6 +14,6 @@ export const getServerSideProps = async (ctx) => {
   const sitemaps = Array(amountOfSitemapFiles)
     .fill('')
     .map((v, index) => `${DOMAIN_URL}/sitemaps-${index}.xml`);
-  return getServerSideSitemapIndex(ctx, sitemaps);
+  return getServerSideSitemapIndexLegacy(ctx, sitemaps);
 };
 export default function SitemapIndex() {}

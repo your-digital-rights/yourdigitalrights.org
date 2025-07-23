@@ -1,4 +1,4 @@
-import { getServerSideSitemap } from "next-sitemap";
+import { getServerSideSitemapLegacy } from "next-sitemap";
 import { fetchDomains } from "../../utils/domains";
 import { DOMAIN } from "../../utils/domain";
 import { ALT_LANGUAGES } from "../../utils/langUtils";
@@ -35,7 +35,7 @@ export const getServerSideProps = async ctx => {
                 hreflang: locale,
             }))
     }));
-    return getServerSideSitemap(ctx, fields);
+    return getServerSideSitemapLegacy(ctx, fields);
 };
 
 // Default export to prevent next.js errors
