@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Vores mission"
+  },
+  "about.consciousDigital": {
+    "message": "Hvem vi er"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org er skabt af {cd}, en registreret velgørende organisation, der skaber brugervenlige digitale initiativer, som fremmer og styrker digitale menneskerettigheder."
+  },
+  "about.contact": {
+    "message": "Kontakt"
+  },
+  "about.contactText": {
+    "message": "Kontakt os på {email}."
+  },
+  "about.contributors": {
+    "message": "Bidragydere"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontend-webudvikler."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontend-webudvikler."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontend-webudvikler."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Infrastrukturingeniør."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - Full stack-ingeniør, bidraget med APPI-support og generel japansk oversættelse af websitet."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Frontend-webudvikler, mobilapp-udvikler og skaber af Skyjacker, AR-flyspillet."
+  },
+  "about.description": {
+    "message": "Your Digital Rights blev skabt, fordi vi mener, at du har ret til privatliv, og at det skal være nemt at udøve denne ret."
+  },
+  "about.funding": {
+    "message": "Finansiering"
+  },
+  "about.fundingBody1": {
+    "message": "Dette projekt finansieres af sine skabere og med hjælp fra dine donationer."
+  },
+  "about.missionBody1": {
+    "message": "Vi mener, at privatliv er en grundlæggende menneskerettighed, og at det skal være let for alle at udøve denne ret. Databeskyttelsesregler som {GDPR} (EU), {CCPA} (Californien) og {LGPD} (Brasilien) udgør den juridiske infrastruktur til at beskytte folks fundamentale ret til privatliv online."
+  },
+  "about.missionBody2": {
+    "message": "Privatlivsregler er et skridt i den rigtige retning, men det er stadig svært for de fleste at udøve deres rettigheder i henhold til disse love. Situationen forværres af, at mange organisationer gør det svært at indsende dataanmodninger (f.eks. ved ikke at offentliggøre nogen virksomheds-e-mailadresser på deres hjemmeside). Vores mål er at gøre de rettigheder, som disse love giver, tilgængelige for alle."
+  },
+  "about.missionBody3": {
+    "message": "Dette er en gratis tjeneste. Vi er ikke en virksomhed og har ikke en forretningsmodel. Vi tilbyder ikke nogen tjenester til organisationerne på listen. Vi indsamler eller handler ikke med personlige data. Denne tjeneste er <a>Open Source</a>."
+  },
+  "about.sponsors": {
+    "message": "Støttende organisationer"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - for at give et øjebliksbillede af deres virksomhedsdatabase, som vi bruger til at udvide vores liste over organisationer."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - for at give en effektiv måde at indsamle feedback fra fællesskabet om vores {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - for at stille en hostet version af Matomo (Piwik) til rådighed, den open-source og privatlivsorienterede webanalyseplatform."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - for at hjælpe os med at implementere en SEO-strategi."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - for at hjælpe os med at forstå og understøtte den brasilianske databeskyttelseslov, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Vi vil gerne takke følgende organisationer for at støtte vores open source-indsats ved at tilbyde en gratis eller nedsat version af deres tjenester:"
+  },
+  "about.title": {
+    "message": "Om os"
+  },
+  "aboutOrg.description": {
+    "message": "I deres egne ord:"
+  },
+  "aboutOrg.details": {
+    "message": "Om {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-mail:"
+  },
+  "aboutOrg.founded": {
+    "message": "Grundlagt:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Hovedkvarter:"
+  },
+  "aboutOrg.industry": {
+    "message": "Branche:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Vis {org}s <a>Privatlivspolitik</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Virksomhedens specialer:"
+  },
+  "aboutOrg.type": {
+    "message": "Virksomhedstype:"
+  },
+  "contribute.creadit": {
+    "message": "Selvom vi ikke har råd til at betale dig for dit arbejde, vil vi meget gerne give dig anerkendelse for dine bidrag, uanset om det er på dette website, på GitHub eller på anden vis."
+  },
+  "contribute.creditTitle": {
+    "message": "Kredit"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Opret en konto på Crowdin ved at følge dette <a>link</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Følg dette <a>link</a> for at indlæse oversættelsessystemet."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Vælg et sprog (du skal logge ind på Crowdin for at gøre dette)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Du bør nu se bokse omkring de forskellige tekststykker, der udgør websitet. Hold markøren over den tekst, du vil oversætte, og klik på ikonet, der vises i hjørnet af teksten."
+  },
+  "contribute.crowdinStep5": {
+    "message": "Der åbnes en editor, hvor du kan angive din oversættelse. Glem ikke at klikke på gem, når du er færdig."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Hvis du oplever problemer, bedes du <email>kontakte os.</email>"
+  },
+  "contribute.description": {
+    "message": "Hjælp os med at forbedre YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Vores arkiver er hostet på GitHub, hvor det vigtigste er for dette <a>website</a>. Den bedste måde at starte på er at kontakte os via <email>email</email>. Vi tilføjer dig derefter til vores Slack-kanal og deler igangværende udviklingsinitiativer. Alternativt er du velkommen til at klone arkivet og indsende merge requests."
+  },
+  "contribute.devSkills": {
+    "message": "Vi leder i øjeblikket efter ingeniører med kompetencer inden for Machine Learning, React og AWS."
+  },
+  "contribute.devTitle": {
+    "message": "Hjælp med udvikling"
+  },
+  "contribute.reportAProblem": {
+    "message": "Hvis du oplever problemer med dette site, kan du rapportere dem i <a1>issue trackeren</a1> eller via <a2>email</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Rapportér et problem"
+  },
+  "contribute.research": {
+    "message": "Vi leder altid efter bedre måder at promovere digitale rettigheder og gøre dem mere tilgængelige. Uanset om det handler om at forstå bedre, hvordan folk bruger teknologi, eller hvordan organisationer misbruger den, er der altid igangværende forskningsprojekter. Send os venligst en <email>email</email>, hvis du vil være med."
+  },
+  "contribute.researchTitle": {
+    "message": "Hjælp med forskning"
+  },
+  "contribute.subtitle": {
+    "message": "Dette projekt er udviklet og vedligeholdt udelukkende af frivillige. Hvis du er bekymret over tab af privatliv, udbredt overvågningskapitalisme, mikromålretning og misinformation samt den afhængighedsskabende karakter af digitale tjenester, kan du hjælpe:"
+  },
+  "contribute.title": {
+    "message": "Bidrag"
+  },
+  "contribute.translate1": {
+    "message": "Vi vil gerne have, at denne tjeneste er tilgængelig på mange sprog. Hvis dit ikke er blandt de nuværende, eller hvis det har brug for opdateringer eller forbedringer, vil vi meget gerne have din hjælp!"
+  },
+  "contribute.translate2": {
+    "message": "Vi bruger onlineplatformen <a>Crowdin</a> til nemt at lave oversættelsestekster. Det gør processen meget lettere og kræver ikke, at du ved noget om programmering. Der er en kort vejledning tilgængelig <b>her</b>. Følg disse trin for at komme i gang:"
+  },
+  "contribute.translateTitle": {
+    "message": "Oversæt websitet"
+  },
+  "dataProcessors": {
+    "message": "Datadeling og databehandlere"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Alle anmodninger"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "Denne anmodning"
+  },
+  "deletePII.doneAll": {
+    "message": "Vi har med succes slettet de personlige data, der er tilknyttet alle dine anmodninger."
+  },
+  "deletePII.doneRequest": {
+    "message": "Vi har med succes slettet de personlige data, der er tilknyttet denne anmodning."
+  },
+  "deletePII.heading": {
+    "message": "Slet mine data"
+  },
+  "deletePII.intro": {
+    "message": "Dine personlige data vil automatisk blive slettet 120 dage efter, at en anmodning blev foretaget, men du kan vælge at slette dine data nu. Ønsker du at slette de data, der er tilknyttet denne anmodning (ref: {ref}), eller alle dine anmodninger?"
+  },
+  "deletemydata.description": {
+    "message": "Slet mine data"
+  },
+  "deletemydata.title": {
+    "message": "Slet mine data"
+  },
+  "donations.donate": {
+    "message": "Donér"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.org blev skabt, fordi vi mener, at privatliv har betydning, og at det skal være nemt at udøve din ret til privatliv. Derfor har vi gjort den gratis. Ved at donere eller blive støttemedlem kan du hjælpe med at sikre vores langsigtede økonomiske stabilitet og uafhængighed."
+  },
+  "donations.headingDonate": {
+    "message": "Vi har brug for din støtte"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org er en gratis tjeneste, der hjælper dig med at genvinde kontrol over dit online-privatliv ved at gøre det nemt for organisationer at slette eller levere en kopi af de personlige oplysninger, de har om dig. Vi gør dette ved at automatisere den proces, der er beskrevet i stærke databeskyttelseslove, som giver dig ret til at slette eller få adgang til dine data. Ud over at sende anmodninger til organisationer kan vi hjælpe med at sikre, at anmodningerne løses til din fordel."
+  },
+  "faq.body.contact.1": {
+    "message": "Bemærk venligst, at vi ikke kan yde personlig support om specifikke dataanmodninger eller din oplevelse med en bestemt organisation. Vi ved, at organisationer i nogle tilfælde kan være ret frustrerende, men desværre kan vi ikke hjælpe og besvarer ikke sådanne e-mails."
+  },
+  "faq.body.contact.2": {
+    "message": "For alle andre henvendelser, kontakt os venligst via <a>e-mail</a>."
+  },
+  "faq.body.contribute.1": {
+    "message": "Ja, tak!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Vi er afhængige af <a>donationer</a> for at sikre vores langsigtede økonomiske stabilitet og uafhængighed. Du kan bidrage her."
+  },
+  "faq.body.contribute.3": {
+    "message": "Se venligst oplysningerne på <a>denne side</a>, hvis du vil rapportere en fejl, hjælpe med at oversætte websitet, bistå med udvikling eller udføre forskning."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Databeskyttelseslove beskytter enkeltpersoner, når organisationer behandler deres personlige oplysninger. De definerer de forpligtelser, organisationer har ved behandling af personlige oplysninger, og giver enkeltpersoner visse rettigheder i relation til deres data. Mange lande har databeskyttelseslove; nogle går længere i den beskyttelse, de giver, end andre."
+  },
+  "faq.body.escalate.1": {
+    "message": "Databeskyttelseslove giver forskellige eskaleringsmekanismer i sådanne tilfælde, herunder muligheden for at indgive en klage mod organisationen til en offentlig tilsynsmyndighed eller sagsøge organisationen (kaldet et privat søgsmål)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Hvis dette lyder kompliceret, skal du ikke bekymre dig; vi kan hjælpe. Når du sender en dataanmodning via denne tjeneste, kan du aktivere \"Smart Opfølgning\" for at få personlig rådgivning om, hvad du skal gøre, hvis en organisation ikke efterkommer din anmodning. Vi hjælper dig med at kommunikere med organisationen og om nødvendigt eskalere til den offentlig tilsynsmyndighed."
+  },
+  "faq.body.how.1": {
+    "message": "Når du har valgt en organisation og udfyldt en kort formular, genererer vi en anmodnings-e-mail stilet til den valgte organisation. E-mailen åbnes i dit e-mailprogram, så du kan gennemgå og sende den. Valgfrit kan vi følge op på dig kort tid efter, at en anmodning er blevet sendt, for at sikre, at anmodningen løses til din fordel. Dette kan omfatte at sende påmindelses-e-mails til organisationen eller eskalere til den offentlige tilsynsmyndighed."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Vi vil gerne understøtte alle databeskyttelseslove, der giver enkeltpersoner ret til at få adgang til og slette deres personlige oplysninger. Kontakt os venligst via <a>e-mail</a>, hvis du ønsker, at vi tilføjer support til en bestemt lovgivning."
+  },
+  "faq.body.refuse.1": {
+    "message": "Databeskyttelseslove giver organisationer mulighed for at nægte at slette dine personlige oplysninger under visse ekstraordinære omstændigheder. Her er nogle generelle eksempler, men du bør læse den relevante lovgivning for nærmere detaljer:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "Når organisationen er lovligt forpligtet til at opbevare dine data (for eksempel skal finansielle institutioner gemme dine transaktioner for at overholde hvidvaskningsregler)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "Når opbevaring af dine data er nødvendig af hensyn til ytrings- og informationsfriheden (dette omfatter journalistiske, akademiske, kunstneriske og litterære formål)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "Når det er nødvendigt at opbevare dine data af hensyn til folkesundheden"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "Når opbevaring af dine data er nødvendig for at fastlægge, udøve eller forsvare retskrav"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "Når sletning af dine data ville skade videnskabelig eller historisk forskning eller arkivering af offentlig interesse"
+  },
+  "faq.body.regulations.1": {
+    "message": "Kontakt os venligst via <a>e-mail</a>, hvis du vil hjælpe os med at implementere support til yderligere lovgivning."
+  },
+  "faq.body.regulations.location": {
+    "message": "Beliggenhed"
+  },
+  "faq.body.regulations.name": {
+    "message": "Fulde navn"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Forkortelse"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Svarfrist"
+  },
+  "faq.body.requests.1": {
+    "message": "Vi understøtter to typer anmodninger:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Anmodninger om datasletning</b> (også kendt som anmodninger om sletning eller retten til at blive glemt) giver dig mulighed for at bede en organisation om at slette dine personlige oplysninger."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Adgangsanmodninger</b> (også kendt som \"Subject Access Requests\" eller SAR) giver dig mulighed for at bede en organisation om at levere en kopi af dine personlige oplysninger."
+  },
+  "faq.body.trust.1": {
+    "message": "Vi er en registreret nonprofitorganisation kaldet <a>Conscious Digital</a>. Vi mener, at gennemsigtighed er vigtigt, og derfor er kildekoden til denne tjeneste <aa>open source</aa>. Fra og med oktober 2022 har vi hjulpet enkeltpersoner med at indsende mere end 100.000 anmodninger til forskellige organisationer"
+  },
+  "faq.body.trust.2": {
+    "message": "Vi er uafhængige, sælger ikke dine personlige oplysninger og er ikke tilknyttet nogen af de organisationer, som vi hjælper dig med at sende dataanmodninger til. Vi tilbyder heller ikke nogen tjenester til disse organisationer. Endelig er vi finansieret af dine <a>donationer</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Vi har designet denne tjeneste, så den som standard ikke kræver, at vi indsamler nogen af dine personlige oplysninger. Når visse valgfrie funktioner kræver, at du angiver personlige oplysninger, sletter vi disse data efter 120 dage. Se venligst vores <a>privatlivspolitik</a> for flere detaljer."
+  },
+  "faq.body.verify.1": {
+    "message": "Databeskyttelseslove kræver, at organisationer verificerer identiteten på den person, der indsender en anmodning, for at forhindre svindel. De fleste love angiver også, at bekræftelsesmetoden skal stå i forhold til karakteren af de involverede data. For eksempel, hvis du anmoder om en kopi af din beskedhistorik fra et typisk internetforum, burde det være nok med en simpel bekræftelse af, at du ejer den e-mailadresse, der er knyttet til din konto. Omvendt, hvis du anmoder om din transaktionshistorik fra en finansiel institution, er det rimeligt, at de anmoder om yderligere oplysninger som billed-id og bevis på adresse."
+  },
+  "faq.body.verify.2": {
+    "message": "I de fleste tilfælde er en simpel bekræftelse af, at du ejer den e-mailadresse, der er tilknyttet din konto, tilstrækkelig. Når du bruger denne tjeneste til at sende en anmodning, sendes en e-mail fra dit e-mailprogram, hvilket giver denne grundlæggende bekræftelse."
+  },
+  "faq.body.verify.3": {
+    "message": "For yderligere at beskytte dine personlige oplysninger forbyder de anmodninger, vi genererer på dine vegne, eksplicit organisationer at bruge de personlige oplysninger, der er inkluderet som en del af anmodningen, til andre formål end at opfylde anmodningen."
+  },
+  "faq.heading.YDR": {
+    "message": "Hvad er YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Jeg har et yderligere spørgsmål, hvordan kan jeg kontakte jer?"
+  },
+  "faq.heading.contribute": {
+    "message": "Denne tjeneste er fantastisk. Kan jeg hjælpe?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Hvad er databeskyttelseslove?"
+  },
+  "faq.heading.escalate": {
+    "message": "Hvad skal jeg gøre, hvis en organisation ikke fuldt ud efterkommer min anmodning?"
+  },
+  "faq.heading.how": {
+    "message": "Hvordan fungerer tjenesten?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "Mit land har en ny databeskyttelseslov. Vil I understøtte den?"
+  },
+  "faq.heading.refuse": {
+    "message": "Kan organisationer sige nej?"
+  },
+  "faq.heading.regulations": {
+    "message": "Hvilke lande, stater eller lovgivninger understøttes?"
+  },
+  "faq.heading.requests": {
+    "message": "Hvilke typer anmodninger kan jeg foretage med denne tjeneste?"
+  },
+  "faq.heading.trust": {
+    "message": "Hvem driver denne tjeneste? Kan jeg have tillid til jer?"
+  },
+  "faq.heading.verify": {
+    "message": "En organisation har bedt mig om at give yderligere personlige oplysninger for at verificere min identitet. Er det lovligt? Kan de bruge disse oplysninger til andre formål?"
+  },
+  "faq.title": {
+    "message": "Ofte Stillede Spørgsmål"
+  },
+  "footer.contact": {
+    "message": "© Ophavsret 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Ansvarsfraskrivelse:</span> Denne tjeneste stilles til rådighed som den er, uden nogen form for garanti. Brug af denne tjeneste sker helt på eget ansvar. Vi kan ikke påtage os ansvar for direkte eller indirekte skader, der måtte opstå ved brug af tjenesten. De oplysninger, der leveres via denne tjeneste, samt indholdet på vores hjemmeside vedrørende juridiske spørgsmål, er kun til privat brug og udgør ikke juridisk rådgivning. Hvis du har brug for juridisk rådgivning i en specifik sag, bør du kontakte en advokat."
+  },
+  "footer.madeBy": {
+    "message": "<a>Lavet af Conscious Digital</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Drevet af Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Privatlivspolitik</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistik</a>"
+  },
+  "footer.wishList": {
+    "message": "Kom med et ønske på vores roadmap"
+  },
+  "hero.headerText": {
+    "message": "Få organisationer til at slette din konto eller give dig en kopi af dine personlige oplysninger."
+  },
+  "hero.heading": {
+    "message": "Tag ejerskab over dine data"
+  },
+  "hero.intro": {
+    "message": "Mange organisationer indsamler og sælger dine personlige data, ofte uden dit samtykke. Brug denne gratis tjeneste til at sende dem en anmodning om sletning eller adgang. Start med at søge efter en organisation herunder."
+  },
+  "howItWorks.followUp": {
+    "message": "ved at bruge vores smarte opfølgning for at sikre, at organisationen efterkommer din anmodning, og endda hjælpe dig med at eskalere din anmodning til den relevante myndighed."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Opfølgning"
+  },
+  "howItWorks.imgAlt": {
+    "message": "En grafik, der repræsenterer brugergrænsefladen"
+  },
+  "howItWorks.search": {
+    "message": "til en organisation ved at bruge søgefeltet øverst på denne side."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Søg"
+  },
+  "howItWorks.send": {
+    "message": "til organisationen om at slette eller give en kopi af dine data."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Send"
+  },
+  "howItWorks.title": {
+    "message": "Sådan fungerer det"
+  },
+  "howItWorks.whyBody": {
+    "message": "Vi er en registreret velgørende organisation kaldet <cd>Conscious Digital</cd>. Vi skabte denne tjeneste, fordi vi mener, at privatliv betyder noget, og at det skal være nemt og gratis at udøve din ret til privatliv. Vi indsamler eller sælger ikke personlige data. Tjenesten finansieres af dens skabere og ved hjælp af dine <donations>donationer</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Hvorfor stole på os?"
+  },
+  "howItWorks.yourData": {
+    "message": "Databeskyttelseslove kræver, at organisationer sletter eller giver dig en kopi af dine data på anmodning. Organisationer har en kort periode til at efterkomme, ellers kan de stå over for store bøder. Vores mission er at gøre det nemt for dig at udøve dine lovmæssige rettigheder."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Du har ret til privatliv!"
+  },
+  "index.description": {
+    "message": "Slet din konto eller få adgang til de personlige data, som organisationer har om dig, ved hjælp af denne gratis tjeneste."
+  },
+  "nav.about": {
+    "message": "Om"
+  },
+  "nav.blog": {
+    "message": "Blog"
+  },
+  "nav.contact": {
+    "message": "Kontakt os"
+  },
+  "nav.contribute": {
+    "message": "Bidrag"
+  },
+  "nav.data-brokers": {
+    "message": "Datamæglere"
+  },
+  "nav.donate": {
+    "message": "Donér"
+  },
+  "nav.donation": {
+    "message": "Donér"
+  },
+  "nav.faq": {
+    "message": "FAQ"
+  },
+  "nav.helpTranslate": {
+    "message": "Hjælp med at oversætte"
+  },
+  "nav.howItWorks": {
+    "message": "Sådan fungerer det"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Privatlivspolitik"
+  },
+  "nav.stats": {
+    "message": "Statistik"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Send GDPR, CCPA og LGPD dataanmodninger om sletning og adgang til enhver organisation hurtigt og nemt."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Anmod om sletning af din {org}-konto eller bed om en kopi af dine data hurtigt og nemt."
+  },
+  "org.titleExistingOrg": {
+    "message": "Slet din {domain}-konto eller anmod om dine data."
+  },
+  "org.titleNewOrg": {
+    "message": "Send anmodninger om sletning og adgang til data i henhold til GDPR, CCPA og LGPD"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Send en dataanmodning om sletning eller adgang."
+  },
+  "orgHero.subTitle2": {
+    "message": "Send {name} en dataanmodning om sletning eller adgang ved hjælp af denne <disclamer>gratis og uafhængige</disclamer> tjeneste."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Få organisationer til at slette eller sende dig en kopi af dine personlige data ved hjælp af denne <disclamer>gratis og uafhængige</disclamer> tjeneste."
+  },
+  "orgHero.title": {
+    "message": "Slet din {domain}-konto eller anmod om dine data."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "For at sikre, at organisationen efterlever din anmodning, sender vi dig en e-mail, når det er tid til at tage yderligere skridt. Du får valget mellem at sende organisationen en påmindelsesmail eller at eskalere til den lokale databeskyttelsesmyndighed."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Ved at vælge denne mulighed accepterer du, at vi behandler og gemmer følgende personlige oplysninger: din e-mailadresse, dit navn og teksten i dine anmodnings-e-mails. Alle personlige oplysninger i forbindelse med denne anmodning vil automatisk blive slettet fra vores systemer inden for 120 dage, medmindre du angiver andet, og du har altid mulighed for at få disse data slettet straks. Vi indsamler disse oplysninger automatisk ved at tilføje en særlig e-mailadresse til feltet CC i anmodnings-e-mailen.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Aktivér Smart Opfølgning"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Angiv eventuelt yderligere oplysninger, der kan hjælpe organisationen med at finde dine data i deres systemer, f.eks. brugernavn, kunde-ID eller kontonummer. <strong>Angiv venligst ikke din adgangskode eller personlige oplysninger, som organisationen ikke allerede har.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Nej, jeg kan klare mig selv"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Ja, send mig opfølgningsinstruktioner via e-mail"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Send mig en kopi af mine data"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Indtast venligst organisationens domænenavn (f.eks.: google.co.uk eller facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organisationens domæne"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "Organisationens e-mailadresse"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Indtast venligst navnet på den organisation, du gerne vil kontakte."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Organisationens navn"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Indtast venligst e-mailadressen på den person eller afdeling, der er ansvarlig for at håndtere GDPR-/CCPA-/privatlivs-/juridiske anmodninger. Du kan normalt finde disse oplysninger på organisationens hjemmeside under privatlivspolitik, vilkår og betingelser eller kontakt-side."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Slet mine data"
+  },
+  "personalInfoForm.headline": {
+    "message": "Udfyld formularen for at oprette en anmodnings-e-mail, som du derefter kan gennemgå og sende."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Yderligere identificerende oplysninger (valgfrit)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Dette vil blive brugt af organisationen til at identificere dig."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Fulde navn"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Lovgivning"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Vælg lovgivning baseret på dit bopælsland, medmindre du har en særlig grund til at vælge noget andet."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Anmodningstype"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Gennemse og send"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Angiv venligst en gyldig e-mailadresse."
+  },
+  "pressIntro.title": {
+    "message": "Som omtalt i"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Opfølgende anmodninger"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Når du bruger denne tjeneste, kan du efter at have indsendt en dataanmodning vælge at modtage yderligere støtte fra os via e-mail. Hvis du vælger at bruge denne valgfrie funktion, vil vi indsamle følgende yderligere personlige data:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Din e-mailadresse"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Indholdet af de dataanmodnings-e-mails, du sender til organisationer og databeskyttelsesmyndigheder (DPA’er)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadata om dataanmodnings-e-mails, du sender til organisationer og databeskyttelsesmyndigheder (DPA’er), f.eks. tidspunktet for afsendelse samt til- og fra-adresser."
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Vi opbevarer udvidede personlige data i højst 120 dage."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Ved frivilligt at give os personoplysninger accepterer du vores brug af dem i overensstemmelse med denne privatlivspolitik. Hvis du giver personoplysninger til dette website, anerkender og accepterer du, at disse personoplysninger kan blive overført fra din nuværende placering til YourDigitalRights.orgs kontorer og servere samt de autoriserede tredjepartnere, der er omtalt i denne politik."
+  },
+  "privacy.contact": {
+    "message": "Kontakt"
+  },
+  "privacy.contactBody": {
+    "message": "Hvis du har spørgsmål eller bekymringer om denne privatlivspolitik, så kontakt os på {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Cookies og sporing"
+  },
+  "privacy.cookiesBody": {
+    "message": "Vi bruger kun cookies til at gemme de valg, du foretager på hjemmesiden, så det er lettere for dig at bruge tjenesten næste gang. En cookie er et stykke information, som den computer, der hoster vores tjeneste, giver din browser, når du tilgår tjenesten."
+  },
+  "privacy.description": {
+    "message": "Du ejer dine data, og vi eksisterer for at hjælpe dig med at kontrollere, hvem der har adgang til dem. Dette er vores side om privatlivspolitik."
+  },
+  "privacy.lastUpdated": {
+    "message": "Sidst opdateret:"
+  },
+  "privacy.personalData": {
+    "message": "Afsendelse af anmodninger"
+  },
+  "privacy.personalDataBody1": {
+    "message": "Når du sender anmodninger (uden at aktivere den valgfrie opfølgningsfunktion), beder vi dig om at give os følgende personlige data:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Dit navn"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Yderligere oplysninger, der er nødvendige for at identificere dig over for de organisationer, du vælger at kontakte (f.eks. brugernavn, kunde-ID eller kontonummer)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Vi bruger kun de personoplysninger, der indsamles, når du sender anmodninger, til at generere en e-mail, og vi gemmer dem ikke på vores servere."
+  },
+  "privacy.privacyTitle": {
+    "message": "Privatlivspolitik"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: en privatlivsorienteret webanalysetjeneste fra Innocraft. Vi bruger Matomo til at indsamle anonymiserede oplysninger om, hvordan tjenesten tilgås og bruges (\"Brugsdata\"). Du kan besøge deres { matomo }-side."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: en udbyder af cloud-infrastruktur. Når du vælger at aktivere opfølgende anmodninger, bruger vi AWS til at behandle de e-mails, du sender, gemme relaterede oplysninger og sende dig påmindelses-e-mails. Du kan besøge deres { matomo }-side."
+  },
+  "privacy.promise": {
+    "message": "Vores løfte"
+  },
+  "privacy.promiseBody": {
+    "message": "Du ejer dine data. Vi eksisterer for at hjælpe dig med at styre, hvem der har adgang til dem. Vi mener stærkt, at dine personlige oplysninger skal forblive personlige, private og sikre. Vi bruger ikke unødvendige cookies og begrænser de personlige data, vi indsamler fra dig, til det absolutte minimum, der kræves for at levere denne tjeneste (YourDigitalRights.org). I nogle tilfælde kan du aktivere valgfrie funktioner, som kræver, at du giver yderligere personlige data. I sådanne tilfælde skal du eksplicit vælge det, og de er tydeligt markeret. Vi sælger eller udlejer aldrig dine personlige oplysninger til nogen og opbevarer dem ikke på vores servere i mere end 120 dage. Vi deler kun dine personlige oplysninger, når det er nødvendigt for at levere tjenesten, eller som beskrevet i denne politik."
+  },
+  "privacy.title": {
+    "message": "Privatlivspolitik"
+  },
+  "privacy.usageDataBody": {
+    "message": "Vi samarbejder med følgende tredjepartsleverandører om at udføre visse databehandlingsopgaver på vores vegne. Vi indgår aftaler med disse leverandører på vilkår, der sikrer fortrolighed og sikkerhed for dine data."
+  },
+  "privacyAlerts.description1": {
+    "message": "En månedlig e-mail, der viser de tre værste privatlivskrænkende virksomheder, som vores forskningsteam har identificeret. Forbedr dit privatliv og tag kontrol over dine personlige oplysninger ved at bruge fem minutter om måneden på at fravælge disse virksomheder."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Abonner på vores månedlige privatlivsalarmer"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Privatlivsalarmer"
+  },
+  "privacyAlerts.title": {
+    "message": "Privatlivsalarmer"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Hvorfor du bør investere i dit privatliv?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Hver online interaktion, vi foretager, efterlader spor af vores personlige oplysninger. Virksomheder, vi interagerer med, datamæglere, regeringer og ondsindede aktører er alle interesserede i vores data."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Denne virkelighed efterlader os sårbare over for forskellige manipulationskampagner. Dette inkluderer målrettet onlineannoncering, politisk og social manipulation via falske nyheder, forskellige former for svindel såsom identitetstyveri og vanedannende apps og onlinetjenester. Alt dette muliggøres af den overflod af personlige oplysninger, vi efterlader os."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Så hvordan får vi kontrol over det igen?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Vi har designet Privacy Alerts baseret på feedback fra de mennesker, der bruger vores tjenester. Det er en enkel måde at forbedre dit online-privatliv over tid ved kun at bruge fem minutter om måneden på at fravælge de værste overtrædere, som vores forskningsteam udvælger."
+  },
+  "redirect.continueText": {
+    "message": "Fortsæt"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu er nu yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Gode nyheder, denne tjeneste vokser! Vi har for nylig lanceret support til California Consumer Privacy Act (CCPA), og vi vil snart lancere support til yderligere anmodningstyper ud over sletning. Som følge heraf synes vi, at domænenavnet \"opt-out.eu\" er for begrænsende. Vi er mere engagerede end nogensinde i at hjælpe dig med at udøve dine digitale rettigheder, velkommen til vores nye hjem @ <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Se detaljer om en {regulationType}-anmodning, der er sendt via denne gratis tjeneste."
+  },
+  "request.details.date": {
+    "message": "Dato for anmodnings-e-mail:"
+  },
+  "request.details.escalationDate": {
+    "message": "Dato for eskalerings-e-mail:"
+  },
+  "request.details.header": {
+    "message": "Anmodningsoplysninger"
+  },
+  "request.details.hide.escalation": {
+    "message": "Skjul eskalerings-e-mail"
+  },
+  "request.details.hide.reminder": {
+    "message": "Skjul påmindelses-e-mail"
+  },
+  "request.details.hide.request": {
+    "message": "Skjul anmodnings-e-mail"
+  },
+  "request.details.name": {
+    "message": "Anmodet af:"
+  },
+  "request.details.nowDetails": {
+    "message": "Anmodningsoplysninger er ikke tilgængelige i øjeblikket. Opdater siden, når du har sendt e-mailen."
+  },
+  "request.details.organization": {
+    "message": "Modtager:"
+  },
+  "request.details.regulation": {
+    "message": "Lovgivning:"
+  },
+  "request.details.reminderDate": {
+    "message": "Dato for påmindelses-e-mail:"
+  },
+  "request.details.sentTo": {
+    "message": "Modtagers e-mailadresse:"
+  },
+  "request.details.show.escalation": {
+    "message": "Vis eskalerings-e-mail"
+  },
+  "request.details.show.reminder": {
+    "message": "Vis påmindelses-e-mail"
+  },
+  "request.details.show.request": {
+    "message": "Vis anmodnings-e-mail"
+  },
+  "request.details.type": {
+    "message": "Anmodningstype:"
+  },
+  "request.hero.declined": {
+    "message": "Afvist"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} har afvist din anmodning."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} har endnu ikke svaret."
+  },
+  "request.hero.domainTitle": {
+    "message": "Domæne:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Delvist håndteret"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} har behandlet din anmodning med succes."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Håndteret med succes"
+  },
+  "request.hero.header": {
+    "message": "Din {requestType}-anmodning om dine data til {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Intet svar"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} har delvist behandlet din anmodning."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Reference:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "Send venligst anmodnings-e-mailen, og opdater derefter denne side."
+  },
+  "request.hero.requestStatus": {
+    "message": "Anmodningsstatus:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "Der er visse ekstraordinære omstændigheder, hvor en organisation er lovligt berettiget til at afvise at efterkomme din anmodning."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Alle personlige data, hvis kendte tilstedeværelse eller fravær i en database sandsynligvis vil true en identificerbar persons liv, krop eller ejendom;</li><li>Alle personlige data, hvis kendte tilstedeværelse eller fravær i en database sandsynligvis vil tilskynde til eller udløse en ulovlig aktivitet eller et forkert forhold;</li><li>Alle personlige data, hvis kendte tilstedeværelse eller fravær i en database sandsynligvis vil underminere national sikkerhed, skade et tillidsforhold til et fremmed land eller en international organisation eller sætte landet i en ugunstig position i forhandlinger med et andet land eller en international organisation;</li><li>Alle personlige data, hvis kendte tilstedeværelse eller fravær i en database sandsynligvis vil forstyrre forebyggelse af kriminalitet, kriminalitetskontrol eller kriminelle efterforskninger eller på anden måde påvirke opretholdelse af offentlig sikkerhed og orden.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Ytringsfrihed eller en anden rettighed, der er sikret ved lov.</li><li>Behandling til forskningsformål, hvis sletning af personlige oplysninger vil gøre det umuligt eller alvorligt hindre gennemførelsen af sådan forskning.</li><li>Behandling af disse personlige oplysninger er nødvendig for at beskytte mod ulovlig aktivitet eller retsforfølge dem, der er ansvarlige for aktiviteten.</li><li>For at overholde en retlig forpligtelse.</li><li>For at opfylde en kontrakt mellem virksomheden og forbrugeren.</li><li>Registrere sikkerhedshændelser, beskytte mod ondsindet, vildledende, bedragerisk eller ulovlig aktivitet eller retsforfølge dem, der er ansvarlige for den pågældende aktivitet.</li><li>Fejlfinding for at identificere og rette fejl, der forringer eksisterende tilsigtet funktion.</li><li>For at muliggøre udelukkende interne anvendelser, der er rimeligt i overensstemmelse med forbrugerens forventninger baseret på forbrugerens forhold til virksomheden.</li><li>Anden lovlig brug af forbrugerens personlige oplysninger, internt på en måde, der er forenelig med den sammenhæng, hvori forbrugeren gav oplysningerne.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finansielle institutioner og tilknyttede selskaber underlagt Gramm-Leach-Bliley-loven</li><li>Luftfartsselskaber underlagt Federal Aviation Administration-regulering</li><li>Nationale værdipapirforeninger registreret i henhold til Securities Exchange Act</li><li>Visse typer personlige data, der opbevares i overensstemmelse med specifikke føderale privatlivslove, såsom Health Insurance Portability and Accountability Act og Fair Credit Reporting Act, eller til visse statslige formål.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Enheder, herunder statslige og lokale myndigheder, nonprofitorganisationer, videregående uddannelsesinstitutioner, visse nationale værdipapirforeninger, finansielle institutioner og omfattet af specifikke love som Gramm-Leach-Bliley Act og Health Insurance Portability and Accountability Act, er undtaget</li><li>Beskyttede sundhedsdata</li><li>Medarbejderdata inklusive jobansøgerdata</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Aggregerede oplysninger</li><li>Personlige oplysninger indsamlet til forskning i menneskelige forsøg eller som en del af et klinisk forsøg</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Lever et produkt eller en tjeneste, der specifikt anmodes af forbrugeren.</li><li>Udfør visse interne processer, der med rimelighed stemmer overens med forbrugerens forventninger.</li><li>Udfør et produkttilbagekald eller reparer tekniske fejl.</li><li>Reagér på og forebyg sikkerhedshændelser, identitetstyveri og svig.</li><li>Overhold føderale, statslige eller lokale love.</li><li>Pseudonyme data.</li><li>Afidentificerede data.</li><li>Offentligt tilgængelige oplysninger.</li><li>Offentlig eller fagfællebedømt videnskabelig forskning.</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) behandling af personoplysninger er nødvendig for at håndhæve enhver lovlig ret eller krav;</li><li>(b) behandling af personoplysninger af en domstol eller et tribunal eller et andet organ i Indien, som ved lov er betroet udførelsen af en judiciel eller quasi-judiciel eller regulatorisk eller tilsynsmæssig funktion, når en sådan behandling er nødvendig for udførelsen af en sådan funktion;</li><li>(c) personoplysninger behandles med henblik på at forebygge, opdage, efterforske eller retsforfølge enhver lovovertrædelse eller overtrædelse af gældende lovgivning i Indien;</li><li>(d) personoplysninger om registrerede, der ikke befinder sig i Indiens territorium, behandles i henhold til enhver kontrakt indgået med en person uden for Indiens territorium af en person med base i Indien;</li><li>(e) behandlingen er nødvendig for en ordning om forlig eller arrangement eller fusion eller sammenslutning af to eller flere selskaber eller en rekonstruktion ved spaltning eller på anden måde af et selskab eller overførsel af et selskabs aktiviteter til et andet selskab, eller som indebærer deling af et eller flere selskaber, godkendt af en domstol eller et tribunal eller en anden myndighed, der er kompetent hertil i henhold til gældende lovgivning; og</li><li>(f) behandlingen sker med det formål at fastlægge økonomiske oplysninger samt aktiver og passiver for enhver person, der er misligholdt betaling på grund af lån eller forskud fra en finansiel institution, forudsat at en sådan behandling sker i overensstemmelse med bestemmelserne om videregivelse af oplysninger eller data i enhver anden gældende lov.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Den dataansvarlige kan afvise at give oplysninger eller begrænse eller forsinke udlevering af oplysninger, hvis:<ul><li>a. en formel lov foreskriver dette, især for at sikre tavshedspligt;</li><li>b. det er nødvendigt for at varetage overordnede tredjepartsinteresser; eller</li><li>c. anmodningen om oplysninger åbenlyst er uberettiget, især hvis den ikke tjener databeskyttelsesformål eller er åbenlyst useriøs.</li></ul><br/>Desuden er det muligt at afvise, begrænse eller forsinke udlevering af oplysninger i følgende tilfælde:<ul><li>a. Den dataansvarlige er en privatperson, og følgende betingelser er opfyldt: 1. Den dataansvarliges egne væsentlige interesser kræver foranstaltningen. 2. Den dataansvarlige har ikke til hensigt at videregive personoplysninger til tredjemand.</li><li>b. Den dataansvarlige er et føderalt organ, og et af følgende krav er opfyldt: 1. Foranstaltningen er nødvendig for at beskytte væsentlige offentlige interesser, især Schweiz&#39; interne eller eksterne sikkerhed. 2. Videregivelse af informationerne kan bringe en forespørgsel, en efterforskning eller administrative eller retlige procedurer i fare.</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Overholde føderale eller statslige love, regler eller bestemmelser.</il><il>(b) Overholde en civil-, strafferetslig eller reguleringsmæssig forespørgsel, undersøgelse, stævning eller indkaldelse fra føderale, statslige, lokale eller andre offentlige myndigheder.</il><il>(c) Undersøge, fastslå, udøve, forberede eller forsvare juridiske krav.</il><il>(d) Levere et produkt eller en tjeneste, som specifikt anmodes af en forbruger eller af en forældremyndighed eller værge for et barn, udføre en kontrakt, hvor forbrugeren er part, herunder opfyldelse af vilkårene i en skriftlig garanti, eller træffe foranstaltninger på forbrugerens anmodning inden indgåelse af en kontrakt.</il><il>(e) Tage øjeblikkelige skridt til at beskytte en interesse, der er afgørende for forbrugerens eller en anden persons liv eller fysiske sikkerhed, og hvor behandlingen ikke åbenlyst kan baseres på et andet lovgrundlag.</il><il>(f) Forebygge, opdage, beskytte mod eller reagere på sikkerhedshændelser, identitetstyveri, svig, chikane, ondsindede eller vildledende aktiviteter eller anden ulovlig aktivitet.</il><il>(g) Opretholde systemernes integritet eller sikkerhed eller undersøge, rapportere eller retsforfølge dem, der er ansvarlige for brud på systemsikkerheden.</il><il>(h) Deltage i offentlig eller fagfællebedømt videnskabelig eller statistisk forskning i almenhedens interesse, der overholder alle andre gældende etiske og privatlivsrelaterede love og er godkendt, overvåget og styret af et institutionelt review board eller en lignende uafhængig tilsynsinstans, som fastlægger: 1. Om sletning af oplysningerne sandsynligvis vil give betydelige fordele, der ikke udelukkende tilfalder den dataansvarlige. 2. Om de forventede fordele ved forskningen opvejer privatlivsrisiciene. 3. Om den dataansvarlige har gennemført rimelige sikkerhedsforanstaltninger for at mindske privatlivsrisici forbundet med forskningen, herunder eventuelle risici forbundet med re-identifikation.</il><il>(i) Bistå en anden dataansvarlig, databehandler eller tredjepart med at overholde kravene i denne del.</il><il>(j) Videregive personoplysninger, der afsløres, når en forbruger bruger eller instruerer den dataansvarlige i bevidst at videregive oplysninger til en tredjepart eller bruger den dataansvarlige til bevidst at interagere med en tredjepart. En bevidst interaktion finder sted, når forbrugeren har til hensigt at interagere med tredjeparten gennem en eller flere bevidste handlinger. At føre musen over, slå lyden fra, sætte på pause eller lukke et stykke indhold udgør ikke en forbrugers hensigt om at interagere med en tredjepart.</il><il>(k) Overføre personoplysninger til en tredjepart som et aktiv, der er en del af en fusion, en overtagelse, en konkurs eller en anden transaktion, hvor tredjeparten overtager kontrollen over hele eller dele af den dataansvarlige, forudsat at oplysningerne anvendes eller deles på en måde, der er i overensstemmelse med denne del. Hvis en tredjepart væsentligt ændrer, hvordan den bruger eller deler en forbrugers personoplysninger på en måde, der er væsentligt uforenelig med de forpligtelser eller løfter, der blev givet på indsamlingstidspunktet, skal den give forbrugeren forudgående meddelelse om den nye eller ændrede praksis. Meddelelsen skal være tilstrækkelig iøjnefaldende og gennemgribende til at sikre, at forbrugerne let kan udøve valg i overensstemmelse med denne del.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>Når det er nødvendigt at beholde dine data af hensyn til ytrings- og informationsfriheden (herunder journalistiske, akademiske, kunstneriske og litterære formål).</li><li>Når organisationen er lovmæssigt forpligtet til at opbevare dine data.</li><li>Når det er nødvendigt at beholde dine data af hensyn til folkesundheden.</li><li>Når det er nødvendigt at beholde dine data for at fastlægge, udøve eller forsvare retskrav.</li><li>Når sletning af dine data vil være til skade for videnskabelig eller historisk forskning eller arkivering, der er af offentlig interesse.</li><li>Hvis organisationen efter at have vurderet din anmodning beslutter, at den ikke er forpligtet til at slette dine data, skal den stadig svare dig. Den skal forklare, hvorfor den mener, den ikke behøver at slette dine data, og informere dig om din ret til at klage over denne beslutning til datatilsynet eller via domstolene.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseudonyme data</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Offentlig eller fagfællebedømt videnskabelig forskning</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Ytringsfrihed eller en anden rettighed, der er sikret ved lov.</li><li>Behandling til forskningsformål, hvis sletning af personlige oplysninger vil gøre det umuligt eller alvorligt hindre gennemførelsen af sådan forskning.</li><li>Behandling af disse personlige oplysninger er nødvendig for at beskytte mod ulovlig aktivitet eller retsforfølge dem, der er ansvarlige for aktiviteten.</li><li>For at overholde en retlig forpligtelse.</li><li>For at opfylde en kontrakt mellem virksomheden og forbrugeren.</li><li>Registrere sikkerhedshændelser, beskytte mod ondsindet, vildledende, bedragerisk eller ulovlig aktivitet eller retsforfølge dem, der er ansvarlige for den pågældende aktivitet.</li><li>Fejlfinding for at identificere og rette fejl, der forringer eksisterende tilsigtet funktion.</li><li>For at muliggøre udelukkende interne anvendelser, der er rimeligt i overensstemmelse med forbrugerens forventninger baseret på forbrugerens forhold til virksomheden.</li><li>Anden lovlig brug af forbrugerens personlige oplysninger, internt på en måde, der er forenelig med den sammenhæng, hvori forbrugeren gav oplysningerne.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Offentlige myndigheder</li><li>Føderalt anerkendte indianske stammer</li><li>Dækkede enheder og samarbejdspartnere under HIPAA</li><li>Statligt eller føderalt godkendte banker eller kreditforeninger</li><li>Forsikringsselskaber</li><li>Små virksomheder som defineret af U.S. Small Business Administration</li><li>Nonprofitorganisationer, der udelukkende er oprettet for at opdage eller forhindre forsikringssvig</li><li>Personoplysninger reguleret af GLBA eller FCRA</li><li>Personoplysninger i ansættelsessammenhæng eller jobansøgerdata, fordele og kontaktoplysninger til nødstilfælde</li><li>Afidentificerede eller offentligt tilgængelige data</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Enheder, herunder statslige og lokale myndigheder, nonprofitorganisationer, videregående uddannelsesinstitutioner, visse nationale værdipapirforeninger, finansielle institutioner og omfattet af specifikke love som Gramm-Leach-Bliley Act og Health Insurance Portability and Accountability Act, er undtaget</li><li>Beskyttede sundhedsdata</li><li>Medarbejderdata inklusive jobansøgerdata</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Aggregerede oplysninger</li><li>Personlige oplysninger indsamlet til forskning i menneskelige forsøg eller som en del af et klinisk forsøg</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseudonyme data</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Offentlig eller fagfællebedømt videnskabelig forskning</li><li>Beskyttede sundhedsdata</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseudonyme data</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Offentlig eller fagfællebedømt videnskabelig forskning</li><li>Beskyttede sundhedsdata</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseudonyme data</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Offentlig eller fagfællebedømt videnskabelig forskning</li><li>Beskyttede sundhedsdata</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Institutioner, herunder statslige og lokale myndigheder, nonprofitorganisationer, videregående uddannelsesinstitutioner, visse nationale værdipapirforeninger og finansielle institutioner er fritaget. Derudover er visse typer data undtaget: <ul><li>Beskyttede sundhedsdata</li><li>Medarbejderdata, herunder data om jobansøgere</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Opsummerede oplysninger</li><li>Personlige oplysninger indsamlet til forskning i menneskelige forsøg eller som del af et klinisk forsøg</li></ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Personoplysninger behandlet til personlige eller huslige aktiviteter</li><li>Behandling af statslige myndigheder i forbindelse med national sikkerhed, offentlig sikkerhed eller beskatning</li><li>Behandling til journalistiske, kunstneriske eller litterære formål i offentlighedens interesse</li><li>Behandling i Repræsentanternes Hus, Senatet, Parlamentet eller deres udvalg</li><li>Behandling af domstole og retslige embedsmænd inden for deres ansvarsområder</li><li>Behandling af kreditbureauer og deres medlemmer i henhold til Credit Information Business Act</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Behandling af personoplysninger af en fysisk person til rent private formål</li><li>Behandling, der udføres direkte af en kompetent offentlig myndighed for at udføre dens lovpligtige opgaver</li><li>Behandling, der er nødvendig af hensyn til national sikkerhed eller offentlig orden</li><li>Behandling uden samtykke inden for bank- og finanssektoren, hvor det er tilladt ved lov</li><li>Behandling af sikkerhedstjenester for formål, der vedrører nationale interesser</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Undtagelser til adgangskravet bør være begrænsede og specifikke.</li><li>Årsagerne til at nægte adgang skal oplyses til den enkelte efter anmodning.</li><li>Undtagelser kan omfatte oplysninger, hvor det er urimeligt omkostningsfuldt at give adgang, oplysninger der indeholder henvisninger til andre individer, oplysninger der ikke kan videregives af juridiske, sikkerheds- eller forretningsmæssige årsager, og oplysninger der er underlagt advokat-klient privilegium eller retstvistprivilegium.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": "Når en behandler af personoplysninger behandler personoplysninger, og loven eller administrative bestemmelser kræver fortrolighed eller ikke kræver underretning, kan den undlade at underrette den enkelte om de i det foregående artikels første stykke fastsatte forhold."
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Personlige eller huslige aktiviteter</li><li>Fuldt afidentificerede data</li><li>National sikkerhed</li><li>Retshåndhævelse</li><li>Af Kabinettet og dets udvalg eller den udøvende provinsregering</li><li>Vedrørende de dømmende funktioner for en domstol, der er nævnt i forfatningens sektion 166.</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Institutioner, herunder statslige og lokale myndigheder, nonprofitorganisationer, videregående uddannelsesinstitutioner, visse nationale værdipapirforeninger, finansielle institutioner samt dækkede enheder under specifikke love, såsom Gramm-Leach-Bliley Act og Health Insurance Portability and Accountability Act, er undtaget."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Offentlige enheder og politiske underafdelinger</li><li>Dækkede enheder og samarbejdspartnere under HIPAA/HITECH</li><li>Finansielle institutioner og tilknyttede selskaber underlagt Gramm-Leach-Bliley Act (GLBA)</li><li>Videregående uddannelsesinstitutioner</li><li>Nonprofitorganisationer</li><li>Forsikringsselskaber med licens i Tennessee</li><li>Personoplysninger reguleret af Fair Credit Reporting Act (FCRA)</li><li>Arbejdsmæssige eller kommercielle personoplysninger</li><li>Offentligt tilgængelige, aggregerede eller afidentificerede data</li><li>Personoplysninger reguleret af FERPA eller COPPA</li><li>Arbejdsprodukter til patientsikkerhed og andre sundhedsdata, der er undtaget i henhold til føderal lov</li><li>Videnskabelige eller statistiske forskningsdata, der opfylder lovmæssige sikkerhedsforanstaltninger</li></ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Enheder, herunder statslige og lokale myndigheder, nonprofitorganisationer, videregående uddannelsesinstitutioner, visse nationale værdipapirforeninger, finansielle institutioner og omfattet af specifikke love som Gramm-Leach-Bliley Act og Health Insurance Portability and Accountability Act, er undtaget</li><li>Beskyttede sundhedsdata</li><li>Medarbejderdata inklusive jobansøgerdata</li><li>Afidentificerede data</li><li>Offentligt tilgængelige oplysninger</li><li>Aggregerede oplysninger</li><li>Personlige oplysninger indsamlet til forskning i menneskelige forsøg eller som en del af et klinisk forsøg</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Beskyttede sundhedsoplysninger under HIPAA;</li><li>Sundhedsoptegnelser ifølge Title 32.1;</li><li>Patientidentificerende oplysninger for formål i henhold til 42 U.S.C. § 290dd-2;</li><li>Identificerbare private oplysninger for formålene i den føderale politik for beskyttelse af menneskelige forsøgspersoner under 45 C.F.R. Part 46; identificerbare private oplysninger, der ellers indsamles som en del af forskning med menneskelige forsøgspersoner i henhold til de gode kliniske praksisretningslinjer fra The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; beskyttelse af menneskelige forsøgspersoner under 21 C.F.R. Parts 6, 50 og 56 eller personlige data brugt eller delt i forskning, der udføres i overensstemmelse med gældende lovgivning;</li><li>Oplysninger og dokumenter oprettet med henblik på den føderale Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 ff.);</li><li>Patient safety work product som defineret af den føderale Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 ff.);</li><li>Oplysninger, der stammer fra nogen af de sundhedsrelaterede oplysninger, der er nævnt i dette afsnit, og som er anonymiseret i overensstemmelse med kravene i HIPAA;</li><li>Oplysninger, der ikke kan skelnes fra, sammenblandet med eller behandles på samme måde som oplysninger, der er undtaget efter dette afsnit, og som opbevares af en covered entity eller business associate som defineret af HIPAA eller et program eller en kvalificeret serviceorganisation som defineret i 42 U.S.C. § 290dd-2;</li><li>Oplysninger, der kun bruges til folkesundhedsaktiviteter og -formål, som godkendt af HIPAA;</li><li>Indsamling, opbevaring, videregivelse, salg, kommunikation eller brug af personlige oplysninger, der påvirker en forbrugers kreditværdighed, kreditstatus, kreditkapacitet, karakter, generelle omdømme, personlige karakteristika eller levevis af et forbrugerrapporteringsbureau eller en dataindgiver, der leverer oplysninger til brug i en forbrugeroplysning, og af en bruger af en forbrugeroplysning, men kun i det omfang, at en sådan aktivitet er reguleret af og godkendt i henhold til den føderale Fair Credit Reporting Act (15 U.S.C. § 1681 ff.);</li><li>Personlige data indsamlet, behandlet, solgt eller videregivet i overensstemmelse med den føderale Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 ff.);</li><li>Personlige data reguleret af den føderale Family Educational Rights and Privacy Act (20 U.S.C. § 1232g ff.);</li><li>Personlige data indsamlet, behandlet, solgt eller videregivet i overensstemmelse med den føderale Farm Credit Act (12 U.S.C. § 2001 ff.);</li><li>Data behandlet eller opbevaret (i) i forbindelse med en persons ansøgning eller ansættelse hos eller virke som agent eller uafhængig entreprenør for en dataansvarlig, databehandler eller tredjepart, i det omfang data indsamles og bruges i forbindelse med den rolle; (ii) som nødkontaktoplysninger for en person i henhold til denne lovgivning, hvis det udelukkende bruges til nødkontaktformål; eller (iii) hvis det er nødvendigt at opbevare for at administrere fordele for en anden person vedrørende personen under pkt. (i) og bruges til at administrere disse fordele.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Anbefaling: eskaler din anmodning til din { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Anbefaling: Hvis du mener, at { companyName } burde have imødekommet din anmodning fuldstændigt, anbefaler vi, at du eskalerer din anmodning til { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Du har eskaleret din anmodning til {dpaLong} ({dpaShort}), fortsæt venligst med at kommunikere direkte med dem. Der er ikke mere, vi kan gøre for at hjælpe."
+  },
+  "request.next.esclateButton": {
+    "message": "Eskaler til { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Læs mere om disse undtagelser"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "Ifølge {regulationType} har organisationer { timeLimit } dage til at svare på din anmodning."
+  },
+  "request.next.reminderButton": {
+    "message": "Send organisationen en påmindelses-e-mail"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Vælg venligst blandt følgende muligheder:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Hvis du ønsker at tage yderligere skridt, så vælg venligst blandt følgende muligheder:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Hvis du ikke ønsker at vente, så vælg venligst blandt følgende muligheder:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Anbefaling: Send en påmindelses-e-mail til organisationen."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Anbefaling: vent, indtil der er gået { timeLimit } dage, så virksomheden har tid til at behandle din anmodning."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Anbefaling: vent, indtil der er gået { timeLimit } dage fra den dato, anmodningen blev sendt, så organisationen har tid til at behandle din anmodning efter din påmindelses-e-mail."
+  },
+  "request.next.whatsNext": {
+    "message": "Hvad nu"
+  },
+  "request.success": {
+    "message": "Tillykke, { companyName } har efterkommet din anmodning med succes. Dine personlige data vil automatisk blive slettet fra dette website inden for 120 dage fra den oprindelige anmodningsdato. Alternativt kan du <a>slette dine personlige data nu</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Eskaler din anmodning"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Påmindelse sendt"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Anmodning ikke sendt"
+  },
+  "request.timeline.requestSent": {
+    "message": "Anmodning sendt"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Din anmodnings tidslinje"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Eskalerings-e-mail sendt"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {i dag} one {i morgen} other {om # dage}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Send en påmindelse"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {i dag} one {i morgen} other {om # dage}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {i dag} one {i går} other {for # dage siden}}"
+  },
+  "request.title": {
+    "message": "Detaljer for din {regulationType}-anmodning"
+  },
+  "requestEscalation.complaint": {
+    "message": "Yderligere detaljer"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Forklar venligst, hvorfor du ikke er tilfreds med, hvordan organisationen har håndteret din anmodning"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Åbn eskaleringsformular"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "For at eskalere din anmodning skal du udfylde en formular på {authority}-websitet. Klik på knappen herunder for at åbne formularen i en ny fane."
+  },
+  "requestEscalation.geography": {
+    "message": "Beliggenhed"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Vælg venligst, hvor du bor"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "For at eskalere din anmodning skal du ringe til {authority} på {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Gennemse og send"
+  },
+  "search.companyPlaceholder": {
+    "message": "Søg efter en organisation"
+  },
+  "search.noResults": {
+    "message": "Kan du ikke finde en organisation?"
+  },
+  "search.noResultsMore": {
+    "message": "Klik her for at tilføje en"
+  },
+  "sendEmailButton.copy": {
+    "message": "Kopiér e-mailtekst til udklipsholderen"
+  },
+  "sendEmailButton.default": {
+    "message": "Åbn i dit standard e-mailprogram"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Åbn i Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Åbn i Yahoo Mail"
+  },
+  "social.chromeCTA": {
+    "message": "Download den til Chrome"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome-udvidelse"
+  },
+  "social.emailBody": {
+    "message": "Tag et kig på YourDigitalRights.org, en gratis tjeneste, der gør det nemt at finde ud af, hvilke personlige data tusindvis af organisationer har om dig, og få dem til at slette det."
+  },
+  "social.emailSubject": {
+    "message": "Find ud af, hvilke personlige data tusindvis af organisationer har om dig, og få dem til at slette det | Dine digitale rettigheder"
+  },
+  "social.extensionHeadline": {
+    "message": "Fravælg direkte fra din browser"
+  },
+  "social.extensionText": {
+    "message": "Ønsker du bedre kontrol over, hvem der har adgang til dine personlige data? Vores browserudvidelse giver dig mulighed for at fravælge de websteder, du besøger, med ét klik."
+  },
+  "social.facebookQuote": {
+    "message": "Find ud af, hvilke personlige data tusindvis af organisationer har om dig, og få dem til at slette det. Prøv yourdigitalrights.org."
+  },
+  "social.firefoxCTA": {
+    "message": "Download den til Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "Firefox-udvidelse"
+  },
+  "social.shareHeading": {
+    "message": "Hvis du finder denne tjeneste nyttig, så del den gerne"
+  },
+  "social.twitterTitle": {
+    "message": "Find ud af, hvilke personlige data tusindvis af organisationer har om dig, og få dem til at slette det. Prøv yourdigitalrights.org."
+  },
+  "stats.description": {
+    "message": "Statistikker for databeskyttelsesanmodninger."
+  },
+  "stats.statsSubTitle": {
+    "message": "Vores mission er at hjælpe enkeltpersoner med at genvinde kontrollen over deres online-privatliv ved at give dem mulighed for at anmode organisationer om at slette eller udlevere en kopi af deres personlige oplysninger. De følgende statistikker viser, hvilke organisationer der har modtaget flest anmodninger inden for forskellige tidsperioder."
+  },
+  "stats.statsTitle": {
+    "message": "Anmodningsstatistik"
+  },
+  "stats.title": {
+    "message": "Anmodningsstatistik"
+  },
+  "stats.titleAlltime": {
+    "message": "Topanmodninger samlet set"
+  },
+  "stats.titleMonth": {
+    "message": "Topanmodninger denne måned"
+  },
+  "stats.titleWeek": {
+    "message": "Topanmodninger denne uge"
+  },
+  "stats.titleYear": {
+    "message": "Topanmodninger dette år"
+  },
+  "stats.total": {
+    "message": "Samlede anmodninger sendt: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Vær på forkant med online trusler og tag kontrol over dine personlige data med Privacy Alerts! Vores nyhedsbrev giver dig de nyeste ekspertråd, tips og tricks til at beskytte dit privatliv i den digitale verden. Abonner nu for at holde dig orienteret og oplyst!"
+  },
+  "subscribe.title": {
+    "message": "Abonner på Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "Vi forstår, at det kan være frustrerende at få virksomheder til at slette dine data."
+  },
+  "support.description2": {
+    "message": "Vores betalte supporttjeneste giver dig direkte adgang til en af vores medarbejdere, som gerne vil hjælpe dig med din anmodning om sletning eller adgang til data."
+  },
+  "support.posPaidtitle": {
+    "message": "Tak!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Kontakt os venligst via følgende e-mailadresse for at få adgang til betalt support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Betalt supporttjeneste giver dig direkte adgang til en af vores medarbejdere"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Betalt Support"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "er blevet kopieret til udklipsholderen; alt du behøver at gøre er at indsætte det i en e-mail, gennemgå det og klikke på Send."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "e-mailen bør være åbnet i dit e-mailprogram, og du skal bare gennemgå den og klikke på Send."
+  },
+  "thankyou.description": {
+    "message": "Tak"
+  },
+  "thankyou.donation": {
+    "message": "Hjælp os med at holde denne tjeneste gratis ved <a>at give en donation</a> for at sikre vores langsigtede økonomiske stabilitet og uafhængighed."
+  },
+  "thankyou.findCompany": {
+    "message": "Find en anden organisation"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organisationer har {days} til at imødekomme anmodningen og kan anmode om yderligere oplysninger for at bekræfte din identitet."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "En adgangsanmodning"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "En sletningsanmodning"
+  },
+  "thankyou.seotitle": {
+    "message": "Tak"
+  },
+  "thankyou.title": {
+    "message": "Tak!"
+  }
+}

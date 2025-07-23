@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Naša misija"
+  },
+  "about.consciousDigital": {
+    "message": "Tko smo mi"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org je kreacija {cd}, registrirane humanitarne udruge koja stvara digitalne inicijative usmjerene na ljude i promiče digitalna ljudska prava."
+  },
+  "about.contact": {
+    "message": "Kontakt"
+  },
+  "about.contactText": {
+    "message": "Kontaktirajte nas na {email}."
+  },
+  "about.contributors": {
+    "message": "Suradnici"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontend web programer."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontend web programer."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontend web programer."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Inženjer infrastrukture."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - Full stack inženjer, pridonio APPI podršci i cjelovitom japanskom prijevodu web stranice."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Frontend web programer, programer mobilnih aplikacija i kreator Skyjackera, AR igre za praćenje letova."
+  },
+  "about.description": {
+    "message": "Your Digital Rights je stvoren jer vjerujemo da imate pravo na privatnost i da bi korištenje tog prava trebalo biti jednostavno."
+  },
+  "about.funding": {
+    "message": "Financiranje"
+  },
+  "about.fundingBody1": {
+    "message": "Ovaj projekt financiraju njegovi tvorci, kao i vaše donacije."
+  },
+  "about.missionBody1": {
+    "message": "Vjerujemo da je privatnost osnovno ljudsko pravo i da bi ostvarivanje toga prava trebalo biti lako dostupno svima. Propisi o zaštiti podataka, poput {GDPR} (EU), {CCPA} (Kalifornija) i {LGPD} (Brazil), pružaju pravni okvir za zaštitu temeljnih prava na privatnost na internetu."
+  },
+  "about.missionBody2": {
+    "message": "Propisi o zaštiti podataka dobar su korak naprijed, ali provođenje tih prava i dalje je dovoljno složeno da mnogi ljudi ni ne pokušavaju. Situaciju dodatno otežava to što mnoge organizacije otežavaju podnošenje zahtjeva za podatke (primjerice ne objavljuju nikakve korporativne adrese e-pošte na svojim web stranicama). Naš cilj je učiniti prava koja ti propisi garantiraju dostupnima svima."
+  },
+  "about.missionBody3": {
+    "message": "Ovo je besplatna usluga. Mi nismo tvrtka i nemamo poslovni model. Ne nudimo nikakve usluge organizacijama na popisu. Ne prikupljamo niti razmjenjujemo osobne podatke. Ova usluga je <a>open source</a>."
+  },
+  "about.sponsors": {
+    "message": "Organizacije koje podržavaju"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - za omogućavanje uvida u njihovu bazu podataka tvrtki, što koristimo za poboljšanje našeg popisa organizacija."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - za osiguravanje učinkovitog načina prikupljanja povratnih informacija zajednice o našem {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - za pružanje hostane verzije Matoma (Piwika), open-source platforme za web analitiku usmjerene na zaštitu privatnosti."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - za pomoć u provedbi SEO strategije."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - za pomoć u razumijevanju i podršci za brazilski zakon o zaštiti podataka, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Želimo zahvaliti sljedećim organizacijama na podršci našem open-source naporu tako što nam pružaju besplatnu ili sniženu verziju svojih usluga:"
+  },
+  "about.title": {
+    "message": "O nama"
+  },
+  "aboutOrg.description": {
+    "message": "U njihovim vlastitim riječima:"
+  },
+  "aboutOrg.details": {
+    "message": "O {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-pošta:"
+  },
+  "aboutOrg.founded": {
+    "message": "Osnovano:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Sjedište:"
+  },
+  "aboutOrg.industry": {
+    "message": "Industrija:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Pogledajte {org}-ova <a>Pravila o privatnosti</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Specijalizacije tvrtke:"
+  },
+  "aboutOrg.type": {
+    "message": "Vrsta tvrtke:"
+  },
+  "contribute.creadit": {
+    "message": "Iako vas ne možemo platiti za vaš rad, rado ćemo vam iskazati priznanje za vaš doprinos, bilo na ovoj web stranici, GitHubu ili na druge načine."
+  },
+  "contribute.creditTitle": {
+    "message": "Zasluge"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Napravite račun na Crowdin pomoću ove <a>poveznice</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Slijedite ovu <a>poveznicu</a> da biste učitali sustav za prevođenje."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Odaberite jezik (morat ćete se prijaviti na Crowdin da biste to učinili)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Sada biste trebali vidjeti okvire oko različitih dijelova teksta koji čine web stranicu. Zadržite pokazivač iznad teksta koji želite prevesti i kliknite na ikonu koja će se pojaviti u kutu teksta."
+  },
+  "contribute.crowdinStep5": {
+    "message": "Otvorit će se uređivač u kojem možete unijeti svoj prijevod. Ne zaboravite spremiti kada završite."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Ako imate bilo kakvih problema, <email>kontaktirajte nas</email>."
+  },
+  "contribute.description": {
+    "message": "Pomozite nam poboljšati YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Naša spremišta objavljena su na GitHubu, a glavno je za ovu <a>web stranicu</a>. Najbolji način za početak je stupiti s nama u kontakt putem <email>e-pošte</email>. Tada ćemo vas dodati u naš Slack kanal i podijeliti aktualne razvojne napore. Alternativno, slobodno klonirajte spremište i pošaljite merge zahtjeve."
+  },
+  "contribute.devSkills": {
+    "message": "Trenutačno tražimo inženjere s iskustvom u strojnom učenju, Reactu i AWS-u."
+  },
+  "contribute.devTitle": {
+    "message": "Pomozite u razvoju"
+  },
+  "contribute.reportAProblem": {
+    "message": "Ako naiđete na probleme s ovom stranicom, možete ih prijaviti u <a1>issue trackeru</a1> ili putem <a2>e-pošte</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Prijavite problem"
+  },
+  "contribute.research": {
+    "message": "Uvijek tražimo bolje načine za promicanje digitalnih prava i njihovu veću dostupnost. Bilo da se radi o boljem razumijevanju kako ljudi koriste tehnologiju ili o tome kako je organizacije zloupotrebljavaju, uvijek se provode istraživački projekti. Molimo <email>pošaljite nam e-poštu</email> ako se želite uključiti."
+  },
+  "contribute.researchTitle": {
+    "message": "Pomozite u istraživanju"
+  },
+  "contribute.subtitle": {
+    "message": "Ovaj projekt u potpunosti razvijaju i održavaju volonteri. Ako ste zabrinuti zbog gubitka privatnosti, sveprisutnog nadzornog kapitalizma, mikrociljanog oglašavanja i dezinformacija te ovisničke prirode digitalnih usluga, možete pomoći:"
+  },
+  "contribute.title": {
+    "message": "Doprinesite"
+  },
+  "contribute.translate1": {
+    "message": "Željeli bismo da ova usluga bude dostupna na mnogim jezicima. Ako vaš jezik još nije dostupan ili treba ažuriranje ili poboljšanje, bili bismo zahvalni na vašoj pomoći!"
+  },
+  "contribute.translate2": {
+    "message": "Koristimo internetsku platformu <a>Crowdin</a> za lakše kreiranje prijevodnih nizova. Time je proces mnogo jednostavniji i ne zahtijeva poznavanje programiranja. Kratki vodič dostupan je <b>ovdje</b>. Slijedite ove korake kako biste započeli:"
+  },
+  "contribute.translateTitle": {
+    "message": "Prijevod web stranice"
+  },
+  "dataProcessors": {
+    "message": "Dijeljenje podataka i procesori"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Svi zahtjevi"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "Ovaj zahtjev"
+  },
+  "deletePII.doneAll": {
+    "message": "Uspješno smo izbrisali osobne podatke povezane sa svim vašim zahtjevima."
+  },
+  "deletePII.doneRequest": {
+    "message": "Uspješno smo izbrisali osobne podatke povezane s ovim zahtjevom."
+  },
+  "deletePII.heading": {
+    "message": "Izbriši moje podatke"
+  },
+  "deletePII.intro": {
+    "message": "Vaši će se osobni podaci automatski izbrisati 120 dana nakon što je podnesen zahtjev, ali možete odmah odlučiti obrisati svoje podatke. Želite li obrisati podatke koji su povezani s ovim zahtjevom (ref: {ref}), ili sa svim vašim zahtjevima?"
+  },
+  "deletemydata.description": {
+    "message": "Izbriši moje podatke"
+  },
+  "deletemydata.title": {
+    "message": "Izbriši moje podatke"
+  },
+  "donations.donate": {
+    "message": "Donirajte"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.org je stvoren jer vjerujemo da je privatnost važna i da ostvarivanje vašeg prava na privatnost treba biti jednostavno. Zato smo ga učinili besplatnim. Svojom donacijom ili time da postanete član koji pomaže možete osigurati našu dugoročnu financijsku stabilnost i neovisnost."
+  },
+  "donations.headingDonate": {
+    "message": "Treba nam vaša podrška"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org je besplatna usluga koja vam pomaže ponovno steći kontrolu nad svojom internetskom privatnošću tako što olakšava dobivanje od organizacija da obrišu ili vam dostave kopiju osobnih podataka koje imaju o vama. To činimo automatiziranjem procesa definiranog snažnim zakonima o zaštiti podataka koji vam daju pravo na brisanje ili pristup vašim podacima. Osim slanja zahtjeva organizacijama, možemo vam pomoći i kako biste bili sigurni da će zahtjevi biti riješeni u vašu korist."
+  },
+  "faq.body.contact.1": {
+    "message": "Molimo shvatite da ne možemo pružiti osobnu podršku u vezi s određenim zahtjevima za podatke ili vašim iskustvom s određenom organizacijom. Znamo da organizacije ponekad mogu biti vrlo frustrirajuće, ali nažalost ne možemo pomoći i nećemo odgovoriti na takve e-poruke."
+  },
+  "faq.body.contact.2": {
+    "message": "Za sve ostale upite, molimo kontaktirajte nas putem <a>e-pošte</a>."
+  },
+  "faq.body.contribute.1": {
+    "message": "Da, molimo!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Ovisimo o <a>donacijama</a> kako bismo osigurali svoju dugoročnu financijsku stabilnost i neovisnost. Ovdje možete dati svoj doprinos."
+  },
+  "faq.body.contribute.3": {
+    "message": "Molimo pogledajte informacije na <a>ovoj stranici</a> ako želite prijaviti grešku, pomoći prevesti web stranicu, sudjelovati u razvoju ili provoditi istraživanje."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Zakoni o zaštiti podataka štite pojedince u vezi s obradom njihovih osobnih podataka od strane organizacija. Definiraju odgovornosti organizacija pri obradi osobnih informacija i daju pojedincima određena prava u vezi s njihovim podacima. Mnoge države imaju zakone o zaštiti podataka; neki od njih idu i dalje u zaštiti nego drugi."
+  },
+  "faq.body.escalate.1": {
+    "message": "Zakoni o zaštiti podataka nude različite mehanizme eskalacije za takve slučajeve, uključujući mogućnost podnošenja pritužbe protiv organizacije vladinoj agenciji za nadzor ili pokretanje sudskog postupka protiv organizacije (poznato i kao privatno pravo na tužbu)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Ako vam to zvuči komplicirano, ne brinite; mi možemo pomoći. Kada podnosite zahtjev za podatke putem ove usluge, uključite opciju \"Smart Follow-up Assistance\" kako biste dobili personalizirane savjete što učiniti ako organizacija ne udovolji vašem zahtjevu. Pomoći ćemo vam komunicirati s organizacijom i, ako bude potrebno, eskalirati vaš zahtjev regulatornoj agenciji."
+  },
+  "faq.body.how.1": {
+    "message": "Nakon što odaberete organizaciju i ispunite kratki obrazac, generirat ćemo zahtjevnu e-poštu upućenu organizaciji koju ste odabrali. E-pošta će se otvoriti u vašoj aplikaciji za e-poštu kako biste je mogli pregledati i poslati. Opcionalno, možemo vas kontaktirati neko vrijeme nakon što je zahtjev poslan kako bismo se uvjerili da je zahtjev riješen u vašu korist. To može uključivati slanje podsjetničkih poruka organizaciji ili eskalaciju regulatornoj agenciji."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Želimo podržati sve zakone o zaštiti podataka koji pojedincima daju pravo na pristup i brisanje osobnih informacija. Molimo <a>kontaktirajte nas</a> ako biste željeli da podržimo određenu uredbu."
+  },
+  "faq.body.refuse.1": {
+    "message": "Zakoni o zaštiti podataka omogućuju organizacijama da odbiju izbrisati vaše osobne podatke u određenim iznimnim okolnostima. Ovo su neki općeniti primjeri, ali trebali biste pročitati konkretne odredbe koje se na vas odnose za detalje:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "Kada je organizacija zakonski obvezna zadržati vaše podatke (na primjer, financijske institucije moraju čuvati zapise o vašim transakcijama da bi ispunile propise protiv pranja novca)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "Kada je čuvanje vaših podataka nužno radi slobode izražavanja i informacija (što uključuje novinarstvo te akademske, umjetničke i književne svrhe)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "Kada je zadržavanje vaših podataka nužno iz javnozdravstvenih razloga"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "Kada je zadržavanje vaših podataka nužno za utvrđivanje, ostvarivanje ili obranu pravnih zahtjeva"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "Kada bi se brisanjem vaših podataka ugrozila znanstvena ili povijesna istraživanja, ili arhiviranje u javnom interesu"
+  },
+  "faq.body.regulations.1": {
+    "message": "Molimo <a>kontaktirajte nas</a> ako želite pomoći u implementaciji podrške za dodatne zakone."
+  },
+  "faq.body.regulations.location": {
+    "message": "Lokacija"
+  },
+  "faq.body.regulations.name": {
+    "message": "Puno ime"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Kratica"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Rok za odgovor"
+  },
+  "faq.body.requests.1": {
+    "message": "Podržavamo dvije vrste zahtjeva:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Zahtjevi za brisanje podataka</b> (poznati i kao zahtjevi za brisanje ili pravo na zaborav) omogućuju vam da zatražite od organizacije brisanje vaših osobnih informacija."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Zahtjevi za pristup</b> (također poznati kao Zahtjevi za pristup ispitanika ili SAR) omogućuju vam da od organizacije zatražite kopiju vaših osobnih informacija."
+  },
+  "faq.body.trust.1": {
+    "message": "Mi smo registrirana neprofitna organizacija pod nazivom <a>Conscious Digital</a>. Vjerujemo u transparentnost, stoga je izvorni kôd ove usluge <aa>otvorenog koda</aa>. Od listopada 2022. pomogli smo pojedincima poslati više od 100.000 zahtjeva raznim organizacijama"
+  },
+  "faq.body.trust.2": {
+    "message": "Neovisni smo, ne prodajemo vaše osobne podatke i nismo povezani ni s jednom od organizacija kojima pomažemo poslati zahtjeve za podatke. Također, ne pružamo tim organizacijama nikakve usluge. Na kraju, financiramo se vašim <a>donacijama</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Ovu smo uslugu dizajnirali tako da, prema zadanim postavkama, ne zahtijeva prikupljanje bilo kakvih vaših osobnih informacija. Kada neke dodatne značajke zahtijevaju da navedete osobne podatke, te podatke brišemo nakon 120 dana. Molimo pogledajte naša <a>pravila o privatnosti</a> za detalje."
+  },
+  "faq.body.verify.1": {
+    "message": "Zakoni o zaštiti podataka obvezuju organizacije da provjere identitet pojedinca koji podnosi zahtjev kako bi se spriječile prijevare. Većina zakona također navodi da metoda provjere treba biti razmjerna prirodi traženih podataka. Primjerice, ako tražite kopiju povijesti poruka s tipičnog internetskog foruma, jednostavna provjera da ste vlasnik adrese e-pošte pridružene vašem računu trebala bi biti dovoljna. S druge strane, ako tražite povijest transakcija od financijske institucije, ona ima pravo tražiti dodatne informacije poput osobne iskaznice i dokaza o adresi."
+  },
+  "faq.body.verify.2": {
+    "message": "U većini slučajeva jednostavna provjera da posjedujete adresu e-pošte pridruženu vašem računu trebala bi biti dovoljna. Kada putem ove usluge šaljete zahtjev, e-pošta se šalje iz vaše aplikacije za e-poštu, što osigurava ovu osnovnu provjeru."
+  },
+  "faq.body.verify.3": {
+    "message": "Kako bismo dodatno zaštitili vaše osobne podatke, zahtjevi koje generiramo u vaše ime izričito zabranjuju organizacijama da koriste dostavljene osobne podatke u bilo koje svrhe osim ispunjavanja zahtjeva."
+  },
+  "faq.heading.YDR": {
+    "message": "Što je YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Imam dodatno pitanje, kako vas mogu kontaktirati?"
+  },
+  "faq.heading.contribute": {
+    "message": "Ova je usluga fantastična. Mogu li pomoći?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Što su zakoni o zaštiti podataka?"
+  },
+  "faq.heading.escalate": {
+    "message": "Što bih trebao učiniti ako organizacija ne ispuni u potpunosti moj zahtjev?"
+  },
+  "faq.heading.how": {
+    "message": "Kako funkcionira usluga?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "Moja zemlja ima novi zakon o zaštiti podataka. Hoćete li ga podržati?"
+  },
+  "faq.heading.refuse": {
+    "message": "Mogu li organizacije odbiti?"
+  },
+  "faq.heading.regulations": {
+    "message": "Koje zemlje, države ili propisi su podržani?"
+  },
+  "faq.heading.requests": {
+    "message": "Kakve zahtjeve mogu podnijeti ovom uslugom?"
+  },
+  "faq.heading.trust": {
+    "message": "Tko upravlja ovom uslugom? Mogu li vam vjerovati?"
+  },
+  "faq.heading.verify": {
+    "message": "Organizacija me tražila da pružim dodatne osobne podatke za provjeru identiteta. Je li to legalno? Mogu li te informacije koristiti u druge svrhe?"
+  },
+  "faq.title": {
+    "message": "Često postavljana pitanja"
+  },
+  "footer.contact": {
+    "message": "© Copyright 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Odricanje od odgovornosti:</span> Ova usluga se pruža \"kakva jest\", bez ikakvog jamstva. Korištenje ove usluge u potpunosti je na vlastitu odgovornost. Ne možemo snositi odgovornost za bilo kakvu izravnu ili neizravnu štetu nastalu uporabom ove usluge. Informacije koje pruža ova usluga, zajedno sa sadržajem na našoj internetskoj stranici vezanim uz pravna pitanja, dostupne su isključivo za vašu osobnu upotrebu i ne predstavljaju pravni savjet. Ako vam je potreban pravni savjet za konkretan problem, trebali biste se obratiti ovlaštenom odvjetniku."
+  },
+  "footer.madeBy": {
+    "message": "<a>Izradio Conscious Digital</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Pogoni ga Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Pravila o privatnosti</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistika</a>"
+  },
+  "footer.wishList": {
+    "message": "Poželite nešto na našem planu (roadmapu)"
+  },
+  "hero.headerText": {
+    "message": "Neka organizacije obrišu vaš račun ili vam pruže kopiju vaših osobnih informacija."
+  },
+  "hero.heading": {
+    "message": "Preuzmite kontrolu nad svojim podacima"
+  },
+  "hero.intro": {
+    "message": "Mnoge organizacije prikupljaju i prodaju vaše osobne podatke, često bez vašeg pristanka. Upotrijebite ovu besplatnu uslugu kako biste im poslali zahtjev za brisanje ili pristup podacima. Počnite pretraživanjem organizacije u nastavku."
+  },
+  "howItWorks.followUp": {
+    "message": "koristeći našu pametnu pomoć pri praćenju kako biste bili sigurni da se organizacija pridržava vašeg zahtjeva i čak vam pomogli eskalirati zahtjev nadležnom državnom tijelu."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Praćenje"
+  },
+  "howItWorks.imgAlt": {
+    "message": "Grafički prikaz korisničkog sučelja"
+  },
+  "howItWorks.search": {
+    "message": "za organizaciju pomoću okvira za pretraživanje na vrhu ove stranice."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Pretraži"
+  },
+  "howItWorks.send": {
+    "message": "organizaciji zahtjev za brisanje ili kopiju vaših podataka."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Pošalji"
+  },
+  "howItWorks.title": {
+    "message": "Kako funkcionira"
+  },
+  "howItWorks.whyBody": {
+    "message": "Mi smo registrirana humanitarna organizacija nazvana <cd>Conscious Digital</cd>. Stvorili smo ovu uslugu jer vjerujemo da je privatnost važna te da ostvarivanje prava na privatnost treba biti jednostavno i besplatno. Ne prikupljamo ni prodajemo osobne podatke. Usluga se financira od strane njenih kreatora i uz pomoć vaših <donations>donacija</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Zašto nam vjerovati?"
+  },
+  "howItWorks.yourData": {
+    "message": "Zakoni o zaštiti podataka obvezuju organizacije da izbrišu ili vam omoguće kopiju vaših podataka na zahtjev. Organizacije imaju kratak rok da ispune te zahtjeve, inače se suočavaju s visokim kaznama. Naša misija je olakšati vam korištenje tih zakonskih prava."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Imate pravo na privatnost!"
+  },
+  "index.description": {
+    "message": "Izbrišite svoj račun ili pristupite osobnim podacima koje organizacije čuvaju o vama putem ove besplatne usluge."
+  },
+  "nav.about": {
+    "message": "O nama"
+  },
+  "nav.blog": {
+    "message": "Blog"
+  },
+  "nav.contact": {
+    "message": "Kontaktirajte nas"
+  },
+  "nav.contribute": {
+    "message": "Doprinesite"
+  },
+  "nav.data-brokers": {
+    "message": "Posrednici s podacima"
+  },
+  "nav.donate": {
+    "message": "Donirajte"
+  },
+  "nav.donation": {
+    "message": "Donirajte"
+  },
+  "nav.faq": {
+    "message": "Često postavljana pitanja"
+  },
+  "nav.helpTranslate": {
+    "message": "Pomozite prevesti"
+  },
+  "nav.howItWorks": {
+    "message": "Kako funkcionira"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Pravila o privatnosti"
+  },
+  "nav.stats": {
+    "message": "Statistika"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Pošaljite zahtjeve za brisanje i pristup osobnim podacima prema GDPR, CCPA i LGPD zakonima bilo kojoj organizaciji brzo i jednostavno."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Zatražite brisanje vašeg {org} računa ili kopiju vaših podataka brzo i jednostavno."
+  },
+  "org.titleExistingOrg": {
+    "message": "Izbrišite svoj {domain} račun ili zatražite svoje podatke."
+  },
+  "org.titleNewOrg": {
+    "message": "Pošaljite zahtjeve za brisanje i pristup osobnim podacima prema GDPR, CCPA i LGPD zakonima"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Pošaljite zahtjev za brisanje ili pristup podacima."
+  },
+  "orgHero.subTitle2": {
+    "message": "Pošaljite {name} zahtjev za brisanje ili pristup podacima koristeći ovu <disclamer>besplatnu i neovisnu</disclamer> uslugu."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Natjerajte organizacije da izbrišu ili vam pošalju kopiju vaših osobnih podataka putem ove <disclamer>besplatne i neovisne</disclamer> usluge."
+  },
+  "orgHero.title": {
+    "message": "Izbrišite svoj {domain} račun ili zatražite kopiju svojih podataka."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "Kako biste bili sigurni da se organizacija pridržava vašeg zahtjeva, obavijestit ćemo vas kada bude vrijeme za daljnje postupanje. Moći ćete odabrati slanje podsjetničke e-pošte organizaciji ili podnošenje pritužbe lokalnoj agenciji za zaštitu podataka."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Odabirom ove opcije prihvaćate da ćemo obrađivati i pohraniti sljedeće osobne podatke: vašu adresu e-pošte, ime i tekst vaših zahtjeva e-poštom. Svi osobni podaci vezani uz ovaj zahtjev bit će automatski izbrisani iz naših sustava u roku od 120 dana, osim ako ne naznačite drukčije, a uvijek imate mogućnost odmah obrisati te podatke. Te podatke prikupljamo automatski tako što dodajemo posebnu adresu e-pošte u polje CC u zahtjevu.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Uključite pametnu pomoć pri praćenju"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Neobavezno navedite sve dodatne informacije koje će pomoći organizaciji da pronađe vaše podatke u njihovim sustavima, kao što su Korisničko ime, ID korisnika ili Broj računa. <strong>Molimo nemojte davati svoju lozinku ili bilo kakve osobne podatke koje organizacija već ne posjeduje.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Ne, mogu samostalno upravljati"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Da, pošaljite mi upute za daljnje postupanje e-poštom"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Pošaljite mi kopiju mojih podataka"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Molimo unesite naziv domene organizacije (primjer: google.co.uk ili facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Domena organizacije"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "Adresa e-pošte organizacije"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Molimo unesite naziv organizacije s kojom želite stupiti u kontakt."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Naziv organizacije"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Molimo unesite adresu e-pošte osobe ili odjela odgovornog za rješavanje GDPR / CCPA / zahtjeva vezanih uz privatnost / pravnih zahtjeva. Obično ove podatke možete pronaći na mrežnoj stranici organizacije u pravilima o privatnosti, uvjetima i odredbama ili na stranici za kontakt."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Izbriši moje podatke"
+  },
+  "personalInfoForm.headline": {
+    "message": "Ispunite obrazac za stvaranje zahtjeva putem e-pošte koji zatim možete pregledati i poslati."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Dodatne informacije za identifikaciju (opcionalno)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Ove informacije organizacija će koristiti kako bi vas identificirala."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Puno ime i prezime"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Uredba"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Odaberite uredbu na temelju mjesta prebivališta, osim ako nemate poseban razlog za odabrati drugu."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Vrsta zahtjeva"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Pregledajte i pošaljite"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Podrška"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Molimo unesite valjanu adresu e-pošte."
+  },
+  "pressIntro.title": {
+    "message": "Istaknuto u"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Praćenje zahtjeva"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Tijekom korištenja ove Usluge, nakon predaje zahtjeva za pristup ili brisanje podataka, možete odabrati opciju da primate daljnju podršku od nas putem e-pošte. Ako se odlučite za ovu dodatnu značajku, prikupit ćemo sljedeće dodatne osobne podatke:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Vaša adresa e-pošte"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Sadržaj e-poruka zahtjeva za podacima koje šaljete organizacijama i agencijama za zaštitu podataka (DPA)."
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Meta-podaci o e-porukama zahtjeva za podacima koje šaljete organizacijama i agencijama za zaštitu podataka (DPA), poput vremena slanja i adrese pošiljatelja i primatelja."
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Proširene osobne podatke čuvamo najdulje 120 dana."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Dobrovoljnim pružanjem osobnih podataka dajete privolu za njihovo korištenje u skladu s ovim Pravilima o privatnosti. Ako date osobne podatke na ovoj web stranici, potvrđujete i slažete se da se takvi osobni podaci mogu prenijeti s vaše trenutne lokacije na poslužitelje YourDigitalRights.org te ovlaštenih trećih strana navedenih u ovim Pravilima."
+  },
+  "privacy.contact": {
+    "message": "Kontakt"
+  },
+  "privacy.contactBody": {
+    "message": "Ako imate pitanja ili nedoumice u vezi s ovim Pravilima o privatnosti, molimo kontaktirajte nas na {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Kolačići i praćenje"
+  },
+  "privacy.cookiesBody": {
+    "message": "Kolačiće koristimo samo za spremanje vaših izbora na web stranici kako bi vam sljedeći put bilo jednostavnije koristiti uslugu. Kolačić je podatak koji računalo koje hosta našu Uslugu daje vašem pregledniku kada pristupate Usluzi."
+  },
+  "privacy.description": {
+    "message": "Vi posjedujete svoje podatke, a mi postojimo kako bismo vam pomogli kontrolirati tko im pristupa. Ovo je naša stranica s pravilima o privatnosti."
+  },
+  "privacy.lastUpdated": {
+    "message": "Posljednje ažuriranje:"
+  },
+  "privacy.personalData": {
+    "message": "Slanje zahtjeva"
+  },
+  "privacy.personalDataBody1": {
+    "message": "Prilikom slanja zahtjeva (bez uključivanja opcionalne značajke praćenja zahtjeva) od vas tražimo sljedeće osobne podatke:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Vaše ime"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Dodatne informacije potrebne za vašu identifikaciju kod organizacija koje kontaktirate (poput korisničkog imena, ID-a korisnika ili broja računa)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Osobne podatke prikupljene prilikom slanja zahtjeva koristimo samo za generiranje e-pošte, a ne pohranjujemo ih na našim poslužiteljima."
+  },
+  "privacy.privacyTitle": {
+    "message": "Pravila o privatnosti"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: usluga za web analitiku s naglaskom na privatnost, koju pruža Innocraft. Koristimo Matomo za prikupljanje anonimiziranih informacija o načinu pristupa i korištenja usluge (\"Podaci o korištenju\"). Više o tome možete pročitati na njihovoj stranici { matomo }."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: pružatelj usluga infrastrukture u oblaku. Kada uključite praćenje zahtjeva, koristimo AWS za obradu e-pošte koju šaljete, pohranu povezanih informacija i slanje podsjetničkih poruka e-pošte. Više možete pročitati na njihovoj stranici { matomo }."
+  },
+  "privacy.promise": {
+    "message": "Naše obećanje"
+  },
+  "privacy.promiseBody": {
+    "message": "Vi posjedujete svoje podatke. Mi postojimo kako bismo vam pomogli kontrolirati tko ima pristup vašim podacima. Čvrsto vjerujemo u zaštitu vaše privatnosti. Ne koristimo nebitne kolačiće i svodimo prikupljanje osobnih podataka na apsolutni minimum potreban za funkcioniranje ove Usluge (YourDigitalRights.org). U nekim situacijama možete uključiti dodatne značajke koje zahtijevaju dodatne osobne podatke, no one uvijek zahtijevaju vašu izričitu privolu. Nikada nećemo prodavati ili iznajmljivati vaše osobne podatke i nećemo ih čuvati duže od 120 dana. Vaše osobne podatke dijelit ćemo samo kada je to potrebno za pružanje usluge ili kako je inače navedeno u ovim Pravilima."
+  },
+  "privacy.title": {
+    "message": "Pravila o privatnosti"
+  },
+  "privacy.usageDataBody": {
+    "message": "Suradjujemo sa sljedećim vanjskim pružateljima usluga kako bi za nas obavljali određene zadatke obrade podataka. S tim pružateljima surađujemo pod uvjetima koji osiguravaju povjerljivost i sigurnost vaših podataka."
+  },
+  "privacyAlerts.description1": {
+    "message": "Mjesečna e-poruka u kojoj navodimo tri tvrtke koje, po našem istraživanju, najviše krše privatnost. Poboljšajte svoju privatnost i vratite kontrolu nad svojim osobnim informacijama ulažući pet minuta mjesečno kako biste se odjavili od ovih tvrtki."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Pretplatite se na naše mjesečne obavijesti o privatnosti"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Obavijesti o privatnosti"
+  },
+  "privacyAlerts.title": {
+    "message": "Obavijesti o privatnosti"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Zašto biste trebali ulagati u svoju privatnost?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Svaka naša interakcija na internetu ostavlja tragove naših osobnih podataka. Tvrtke s kojima komuniciramo, brokeri podataka, vlade i osobe sa zlom namjerom svi su zainteresirani za naše podatke."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Ova nas stvarnost izlaže raznim kampanjama utjecaja. One uključuju ciljani internetski marketing, političku i društvenu manipulaciju putem lažnih vijesti, razne prijevare poput krađe identiteta te aplikacije i online usluge koje izazivaju ovisnost. Sve je to omogućeno velikom količinom osobnih informacija koje ostavljamo iza sebe."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Kako to ponovno staviti pod svoju kontrolu?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Obavijesti o privatnosti osmislili smo na temelju povratnih informacija korisnika. To je jednostavan način da poboljšate svoju internetsku privatnost tijekom vremena, posvećujući samo pet minuta mjesečno za odjavu od najgorih tvrtki koje je odabrao naš istraživački tim."
+  },
+  "redirect.continueText": {
+    "message": "Nastavi"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu je sada yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Sjajne vijesti, ova usluga raste! Nedavno smo pokrenuli podršku za Zakon o privatnosti potrošača Kalifornije (CCPA), i uskoro ćemo uvesti podršku za dodatne vrste zahtjeva osim brisanja. Zbog toga smatramo da je naziv domene 'opt-out.eu' previše ograničavajući. Posvećeniji smo nego ikada pomoći vam u ostvarivanju vaših digitalnih prava, dobrodošli u naš novi dom @ <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Pogledajte detalje o zahtjevu {regulationType} podnesenom putem ove besplatne usluge."
+  },
+  "request.details.date": {
+    "message": "Datum zahtjeva putem e-pošte:"
+  },
+  "request.details.escalationDate": {
+    "message": "Datum eskalacijske e-pošte:"
+  },
+  "request.details.header": {
+    "message": "Pojedinosti zahtjeva"
+  },
+  "request.details.hide.escalation": {
+    "message": "Sakrij eskalacijsku e-poštu"
+  },
+  "request.details.hide.reminder": {
+    "message": "Sakrij podsjetničku e-poštu"
+  },
+  "request.details.hide.request": {
+    "message": "Sakrij zahtjevnu e-poštu"
+  },
+  "request.details.name": {
+    "message": "Zahtjev poslao/poslala:"
+  },
+  "request.details.nowDetails": {
+    "message": "Detalji zahtjeva trenutačno nisu dostupni, molimo osvježite stranicu nakon što pošaljete e-poštu."
+  },
+  "request.details.organization": {
+    "message": "Primatelj:"
+  },
+  "request.details.regulation": {
+    "message": "Uredba:"
+  },
+  "request.details.reminderDate": {
+    "message": "Datum podsjetničke e-pošte:"
+  },
+  "request.details.sentTo": {
+    "message": "Adresa e-pošte primatelja:"
+  },
+  "request.details.show.escalation": {
+    "message": "Prikaži eskalacijsku e-poštu"
+  },
+  "request.details.show.reminder": {
+    "message": "Prikaži podsjetničku e-poštu"
+  },
+  "request.details.show.request": {
+    "message": "Prikaži zahtjevnu e-poštu"
+  },
+  "request.details.type": {
+    "message": "Vrsta zahtjeva:"
+  },
+  "request.hero.declined": {
+    "message": "Odbijeno"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} je odbio/la vaš zahtjev."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} još nije odgovorio/la."
+  },
+  "request.hero.domainTitle": {
+    "message": "Domena:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Djelomično riješeno"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} je uspješno obradio/la vaš zahtjev."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Uspješno riješeno"
+  },
+  "request.hero.header": {
+    "message": "Vaš zahtjev za {requestType} podacima upućen {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Nema odgovora"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} je djelomično obradio/la vaš zahtjev."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Referenca:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "molimo pošaljite zahtjev putem e-pošte, a zatim osvježite ovu stranicu."
+  },
+  "request.hero.requestStatus": {
+    "message": "Status zahtjeva:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "Postoje određene iznimne okolnosti kada je organizacija zakonski ovlaštena odbiti ispuniti vaš zahtjev."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Bilo koji osobni podaci čije bi otkrivanje ili postojanje u bazi podataka moglo ugroziti život, tijelo ili imovinu dotične osobe;</li><li>Bilo koji osobni podaci čije bi otkrivanje ili postojanje u bazi podataka moglo potaknuti ili omogućiti nezakonitu aktivnost ili neprikladno ponašanje;</li><li>Bilo koji osobni podaci čije bi otkrivanje ili postojanje u bazi podataka moglo ugroziti nacionalnu sigurnost, narušiti povjerenje s inozemnom državom ili međunarodnom organizacijom ili staviti zemlju u nepovoljan položaj u pregovorima s drugom državom ili međunarodnom organizacijom;</li><li>Bilo koji osobni podaci čije bi otkrivanje ili postojanje u bazi podataka moglo ometati sprječavanje kriminala, kontrolu kriminala ili kaznena istraživanja ili pak narušiti javnu sigurnost i red.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Sloboda govora ili neko drugo zakonsko pravo.</li><li>Obrada u istraživačke svrhe, ako bi brisanje osobnih podataka onemogućilo ili ozbiljno ugrozilo postizanje rezultata takvog istraživanja.</li><li>Obrada tih osobnih podataka neophodna je za zaštitu od nezakonitih radnji ili za pokretanje postupaka protiv odgovornih za takve radnje.</li><li>Radi poštivanja zakonske obveze.</li><li>Za izvršenje ugovora između organizacije i potrošača.</li><li>Za otkrivanje sigurnosnih incidenata, zaštitu od zlonamjernih, obmanjujućih, prijevarnih ili nezakonitih radnji, ili za pokretanje postupaka protiv odgovornih za takve radnje.</li><li>Otkrivanje grešaka radi prepoznavanja i ispravljanja pogrešaka koje ometaju postojeće zamišljene funkcionalnosti.</li><li>Omogućavanje isključivo interne upotrebe koja je razumno usklađena s očekivanjima potrošača na temelju potrošačeva odnosa s poslovnim subjektom.</li><li>Inače korištenje osobnih podataka potrošača, interno, na zakonit način koji je u skladu s kontekstom u kojem je potrošač dao te podatke.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Financijske institucije i podružnice koje podliježu Gramm-Leach-Bliley Actu</li><li>Zračni prijevoznici pod nadzorom Federalne uprave za zrakoplovstvo</li><li>Nacionalne burze vrijednosnih papira registrirane prema Zakonu o vrijednosnim papirima</li><li>Određene vrste osobnih podataka obrađivanih u skladu s posebnim saveznim zakonima o privatnosti, poput Zakona o prenosivosti i odgovornosti zdravstvenog osiguranja (HIPAA) i Zakona o poštenom kreditnom izvješćivanju (FCRA), ili za određene vladine svrhe.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Subjekti uključujući državne i lokalne vlasti, neprofitne organizacije, ustanove visokog obrazovanja, određene nacionalne burze vrijednosnih papira, financijske institucije i subjekte pokrivene posebnim zakonima, poput Gramm-Leach-Bliley Acta i Zakona o prenosivosti i odgovornosti zdravstvenog osiguranja (HIPAA)., oslobođeni su</li><li>Zaštićeni zdravstveni podaci</li><li>Podaci zaposlenika uključujući podatke o kandidatima za posao</li><li>Deidentificirani podaci</li><li>Javno dostupne informacije</li><li>Agrerirani podaci</li><li>Osobni podaci prikupljeni za istraživanje ljudskih subjekata ili kao dio kliničkih ispitivanja</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Osigurati proizvod ili uslugu koju je potrošač izričito zatražio.</li><li>Izvršiti određene interne operacije koje su razumno u skladu s očekivanjima potrošača.</li><li>Provesti opoziv proizvoda ili otkloniti tehničke pogreške.</li><li>Odgovoriti na sigurnosne incidente, krađu identiteta i prijevaru te ih spriječiti.</li><li>Pridržavati se saveznog, državnog ili lokalnog zakona.</li><li>Pseudonimizirani podaci.</li><li>De-identificirani podaci.</li><li>Javno dostupne informacije.</li><li>Javno ili recenzirano znanstveno istraživanje.</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) obrada osobnih podataka nužna je za ostvarenje nekog zakonskog prava ili zahtjeva;</li><li>(b) obrada osobnih podataka od strane bilo kojeg suda ili tribunala ili drugog tijela u Indiji koje je zakonom ovlašteno za obavljanje bilo koje sudske, kvazisudske, regulatorne ili nadzorne funkcije, kada je takva obrada nužna za izvršavanje te funkcije;</li><li>(c) osobni podaci obrađuju se radi sprječavanja, otkrivanja, istrage ili kaznenog progona bilo kojeg prekršaja ili kršenja zakona koji je trenutačno na snazi u Indiji;</li><li>(d) osobni podaci nositelja prava izvan teritorija Indije obrađuju se u skladu s bilo kojim ugovorom sklopljenim s osobom izvan Indije od strane osobe sa sjedištem u Indiji;</li><li>(e) obrada je nužna za program nagodbe, spajanja ili pripajanja dviju ili više tvrtki ili rekonstrukciju putem podjele ili na drugi način neke tvrtke, ili prijenos poslovanja jedne ili više tvrtki na drugu tvrtku, ili ako uključuje podjelu jedne ili više tvrtki, odobrenu od strane suda ili drugog nadležnog tijela;</li><li>(f) obrada se vrši radi utvrđivanja financijskih informacija i imovine i obveza bilo koje osobe koja je u zaostatku s plaćanjem zajma ili kredita dobivenog od financijske institucije, pod uvjetom da se takva obrada provodi u skladu s odredbama o otkrivanju informacija ili podataka iz bilo kojeg drugog važećeg zakona.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Voditelj obrade može odbiti dati informacije ili ograničiti ili odgoditi njihovo pružanje ako:<ul><li>a. to propisuje poseban zakon, osobito radi očuvanja profesionalne tajne;</li><li>b. to je potrebno radi zaštite nadređenih interesa treće strane; ili</li><li>c. zahtjev za informacijom je očito neutemeljen, posebno ako ne služi svrsi zaštite podataka ili je očito neozbiljan.</li></ul><br/>Nadalje, moguće je odbiti, ograničiti ili odgoditi pružanje informacija u sljedećim slučajevima:<ul><li>a. Voditelj obrade je privatna osoba i ispunjeni su sljedeći uvjeti: 1. Vlastiti prevladavajući interesi voditelja obrade zahtijevaju takvu mjeru. 2. Voditelj obrade ne namjerava otkriti osobne podatke trećim stranama.</li><li>b. Voditelj obrade je savezno tijelo i ispunjen je jedan od sljedećih uvjeta: 1. Mjera je potrebna kako bi se zadovoljili nadređeni javni interesi, osobito unutarnja ili vanjska sigurnost Švicarske. 2. Davanje informacije može ugroziti istragu, ispitivanje ili upravni ili sudski postupak.</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Ispuniti savezne ili državne zakone, pravila ili propise.</il><il>(b) Udovoljiti građanskoj, kaznenoj ili regulatornoj istrazi, istrazi, sudskom ili upravnom pozivu od strane saveznih, državnih, lokalnih ili drugih vladinih tijela.</il><il>(c) Istražiti, utvrditi, provesti, pripremiti ili braniti pravne zahtjeve.</il><il>(d) Pružiti proizvod ili uslugu koju je potrošač ili roditelj ili skrbnik djeteta izričito zatražio, ispuniti ugovor čija je stranka potrošač, uključujući ispunjavanje odredbi pismenog jamstva, ili poduzeti korake na zahtjev potrošača prije sklapanja ugovora.</il><il>(e) Poduzeti hitne korake radi zaštite interesa koji je ključan za život ili fizičku sigurnost potrošača ili druge osobe, a za koji obrada očito ne može biti temeljena na drugoj pravnoj osnovi.</il><il>(f) Spriječiti, otkriti, zaštititi ili odgovoriti na sigurnosne incidente, krađu identiteta, prijevaru, uznemiravanje, zlonamjerne ili varljive aktivnosti ili bilo koju nezakonitu djelatnost.</il><il>(g) Očuvati integritet ili sigurnost sustava ili istražiti, prijaviti ili procesuirati odgovorne za kršenje sigurnosti sustava.</il><il>(h) Sudjelovati u javnom ili recenziranom znanstvenom ili statističkom istraživanju od javnog interesa koje se pridržava svih ostalih važećih etičkih i privatnosnih zakona te koje odobrava, nadzire i regulira institucionalni odbor za pregled ili slično neovisno nadzorno tijelo koje utvrđuje: 1. Je li vjerojatno da će brisanje informacija donijeti znatne koristi koje se ne odnose isključivo na voditelja obrade; 2. Nadmašuju li očekivane koristi istraživanja rizike za privatnost; i 3. Je li voditelj obrade uveo razumne mjere zaštite za ublažavanje rizika za privatnost povezanih s istraživanjem, uključujući sve rizike povezane s ponovnom identifikacijom.</il><il>(i) Pomoći drugom voditelju obrade, obrađivaču ili trećoj strani u ispunjavanju zahtjeva ovog dijela.</il><il>(j) Otkriti osobne podatke otkrivene kada potrošač koristi ili upućuje voditelja obrade da namjerno otkrije informacije trećoj strani ili koristi voditelja obrade za namjeru interakciju s trećom stranom. Namjerna interakcija se događa kada potrošač želi stupiti u interakciju s trećom stranom kroz jednu ili više namjernih radnji. Zadržavanje pokazivača iznad, utišavanje, pauziranje ili zatvaranje određenog sadržaja ne predstavlja namjeru potrošača za interakciju s trećom stranom.</il><il>(k) Prenijeti osobne podatke trećoj strani kao sredstvo koje je dio spajanja, akvizicije, stečaja ili druge transakcije u kojoj treća strana preuzima kontrolu nad cijelim ili dijelom voditelja obrade, pod uvjetom da se informacije koriste ili dijele na način koji je u skladu s ovim dijelom. Ako treća strana bitno promijeni način na koji koristi ili dijeli osobne podatke potrošača na način koji je u bitnoj suprotnosti s obvezama ili obećanjima danim u trenutku prikupljanja, mora prethodno obavijestiti potrošača o novoj ili promijenjenoj praksi. Obavijest mora biti dovoljno istaknuta i snažna kako bi se osiguralo da potrošači mogu lako ostvariti izbore u skladu s ovim dijelom.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>Kada je zadržavanje vaših podataka nužno iz razloga slobode izražavanja i informiranja (što uključuje novinarstvo i akademske, umjetničke i književne svrhe).</li><li>Kada je organizacija zakonski obvezna zadržati vaše podatke.</li><li>Kada je čuvanje vaših podataka nužno zbog javnog zdravlja.</li><li>Kada je čuvanje vaših podataka potrebno za uspostavu, izvršenje ili obranu pravnih zahtjeva.</li><li>Kada bi brisanje vaših podataka ugrozilo znanstvena ili povijesna istraživanja ili arhiviranje koje je u javnom interesu.</li><li>Ako, nakon razmatranja vašeg zahtjeva, organizacija zaključi da ne treba brisati vaše podatke, i dalje vam mora odgovoriti. Trebala bi vam objasniti zašto smatra da ne mora obrisati vaše podatke te vas obavijestiti o pravu na podnošenje pritužbe nadležnom tijelu ili sudu.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseudonimizirani podaci</li><li>De-identificirani podaci</li><li>Javno dostupne informacije</li><li>Javno ili recenzirano znanstveno istraživanje</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Sloboda govora ili neko drugo zakonsko pravo.</li><li>Obrada u istraživačke svrhe, ako bi brisanje osobnih podataka onemogućilo ili ozbiljno ugrozilo postizanje rezultata takvog istraživanja.</li><li>Obrada tih osobnih podataka neophodna je za zaštitu od nezakonitih radnji ili za pokretanje postupaka protiv odgovornih za takve radnje.</li><li>Radi poštivanja zakonske obveze.</li><li>Za izvršenje ugovora između organizacije i potrošača.</li><li>Za otkrivanje sigurnosnih incidenata, zaštitu od zlonamjernih, obmanjujućih, prijevarnih ili nezakonitih radnji, ili za pokretanje postupaka protiv odgovornih za takve radnje.</li><li>Otkrivanje grešaka radi prepoznavanja i ispravljanja pogrešaka koje ometaju postojeće zamišljene funkcionalnosti.</li><li>Omogućavanje isključivo interne upotrebe koja je razumno usklađena s očekivanjima potrošača na temelju potrošačeva odnosa s poslovnim subjektom.</li><li>Inače korištenje osobnih podataka potrošača, interno, na zakonit način koji je u skladu s kontekstom u kojem je potrošač dao te podatke.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Vladina tijela</li><li>Federalno priznana indijanska plemena</li><li>Obuhvaćeni subjekti i poslovni suradnici u skladu s HIPAA</li><li>Državne ili savezne banke ili kreditne unije</li><li>Osiguravajuća društva</li><li>Mala poduzeća kako ih definira Američka uprava za malo gospodarstvo (SBA)</li><li>Neprofitne organizacije osnovane isključivo za otkrivanje ili sprječavanje prijevare u osiguranju</li><li>Osobni podaci regulirani GLBA ili FCRA-om</li><li>Osobni podaci u radnom kontekstu ili podaci kandidata za posao, beneficije i podaci za hitne kontakte</li><li>Deidentificirani ili javno dostupni podaci</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Subjekti uključujući državne i lokalne vlasti, neprofitne organizacije, ustanove visokog obrazovanja, određene nacionalne burze vrijednosnih papira, financijske institucije i subjekte pokrivene posebnim zakonima, poput Gramm-Leach-Bliley Acta i Zakona o prenosivosti i odgovornosti zdravstvenog osiguranja (HIPAA)., oslobođeni su</li><li>Zaštićeni zdravstveni podaci</li><li>Podaci zaposlenika uključujući podatke o kandidatima za posao</li><li>Deidentificirani podaci</li><li>Javno dostupne informacije</li><li>Agrerirani podaci</li><li>Osobni podaci prikupljeni za istraživanje ljudskih subjekata ili kao dio kliničkih ispitivanja</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseudonimizirani podaci</li><li>De-identificirani podaci</li><li>Javno dostupne informacije</li><li>Javno ili recenzirano znanstveno istraživanje</li><li>Zaštićeni zdravstveni podaci</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseudonimizirani podaci</li><li>De-identificirani podaci</li><li>Javno dostupne informacije</li><li>Javno ili recenzirano znanstveno istraživanje</li><li>Zaštićeni zdravstveni podaci</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseudonimizirani podaci</li><li>De-identificirani podaci</li><li>Javno dostupne informacije</li><li>Javno ili recenzirano znanstveno istraživanje</li><li>Zaštićeni zdravstveni podaci</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Subjekti, uključujući državna i lokalna tijela, neprofitne organizacije, institucije visokog obrazovanja, određene nacionalne udruge za vrijednosne papire i financijske institucije, izuzeti su. Osim toga, neke vrste podataka su izuzete:<ul><li>Zaštićeni zdravstveni podaci</li><li>Podaci zaposlenika uključujući podatke kandidata za posao</li><li>De-identificirani podaci</li><li>Javno dostupne informacije</li><li>Kumulativne informacije</li><li>Osobni podaci prikupljeni za istraživanje ljudskih subjekata ili kao dio kliničkog ispitivanja</li></ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Osobni podaci obrađeni za osobne ili kućanske aktivnosti</li><li>Obrada od strane državnih tijela u vezi s nacionalnom sigurnošću, javnom sigurnošću ili oporezivanjem</li><li>Obrada u novinarske, umjetničke ili književne svrhe u javnom interesu</li><li>Obrada od strane Zastupničkog doma, Senata, Parlamenta ili njihovih odbora</li><li>Obrada od strane sudova i pravosudnih dužnosnika u okviru njihovih dužnosti</li><li>Obrada od strane kreditnih biroa i njihovih članova prema Zakonu o poslovanju s kreditnim informacijama</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Obrada osobnih podataka od strane fizičke osobe u isključivo osobne svrhe</li><li>Obrada koju izravno provodi nadležno javno tijelo za obavljanje svojih zakonskih zadaća</li><li>Obrada potrebna za potrebe nacionalne sigurnosti ili javnog reda</li><li>Obrada bez pristanka u bankarskom i financijskom sektoru kada je dopušteno zakonom</li><li>Obrada od strane sigurnosnih službi radi ostvarivanja ciljeva od nacionalnog interesa</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Iznimke u vezi sa zahtjevom za pristup trebale bi biti ograničene i specifične.</li><li>Razlozi za odbijanje pristupa trebaju biti navedeni osobi na njezin zahtjev.</li><li>Iznimke mogu uključivati informacije čije bi pružanje bilo iznimno skupo, informacije koje sadrže reference na druge osobe, informacije koje se ne mogu otkriti iz pravnih, sigurnosnih ili komercijalnih razloga te informacije zaštićene odvjetničkom tajnom ili privilegijom u sudskom postupku.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": "U slučajevima kada obrađivač osobnih podataka obrađuje osobne podatke, a prema zakonu ili administrativnim propisima postoji obveza čuvanja tajnosti ili nije potrebno obavijestiti, nije potrebno obavijestiti osobu o stavkama navedenim u prvom stavku prethodnog članka."
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Osobna ili kućanska aktivnost</li><li>Potpuno deidentificirani podaci</li><li>Nacionalna sigurnost</li><li>Provedba zakona</li><li>Kabinet i njegovi odbori ili Izvršno vijeće pokrajine</li><li>U vezi sa sudskom funkcijom suda iz članka 166. Ustava.</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Subjekti, uključujući državna i lokalna tijela, neprofitne organizacije, institucije visokog obrazovanja, određene nacionalne udruge za vrijednosne papire, financijske institucije te subjekti pokriveni posebnim zakonima poput Gramm-Leach-Bliley Act i Health Insurance Portability and Accountability Act, izuzeti su."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Vladina tijela i političke podjedinice</li><li>Subjekti i poslovni suradnici koji podliježu HIPAA/HITECH</li><li>Financijske institucije i povezani subjekti koji podliježu Gramm-Leach-Bliley Act (GLBA)</li><li>Visokoobrazovne ustanove</li><li>Neprofitne organizacije</li><li>Osiguravajuća društva licencirana prema zakonima savezne države Tennessee</li><li>Osobni podaci regulirani Zakonom o poštenom kreditnom izvješćivanju (FCRA)</li><li>Osobni podaci u radnom ili komercijalnom kontekstu</li><li>Javno dostupni, objedinjeni ili deidentificirani podaci</li><li>Osobni podaci regulirani FERPA ili COPPA</li><li>Radni proizvodi za sigurnost pacijenata i drugi zdravstveni podaci izuzeti prema saveznom zakonu</li><li>Znanstveni ili statistički istraživački podaci koji udovoljavaju zakonskim mjerama zaštite</li></ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Subjekti uključujući državne i lokalne vlasti, neprofitne organizacije, ustanove visokog obrazovanja, određene nacionalne burze vrijednosnih papira, financijske institucije i subjekte pokrivene posebnim zakonima, poput Gramm-Leach-Bliley Acta i Zakona o prenosivosti i odgovornosti zdravstvenog osiguranja (HIPAA)., oslobođeni su</li><li>Zaštićeni zdravstveni podaci</li><li>Podaci zaposlenika uključujući podatke o kandidatima za posao</li><li>Deidentificirani podaci</li><li>Javno dostupne informacije</li><li>Agrerirani podaci</li><li>Osobni podaci prikupljeni za istraživanje ljudskih subjekata ili kao dio kliničkih ispitivanja</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Zaštićeni zdravstveni podaci prema HIPAA-i;</li><li>Zdravstveni zapisi u svrhu Naslova 32.1;</li><li>Identificirajući podaci o pacijentu u svrhu 42 U.S.C. § 290dd-2;</li><li>Prepoznatljivi privatni podaci u svrhu federalne politike zaštite ljudskih subjekata prema 45 C.F.R. Dijelu 46; prepoznatljivi privatni podaci koji se inače prikupljaju kao dio istraživanja ljudskih subjekata u skladu s dobrim praksama kliničkog ispitivanja koje je izdala Međunarodna konferencija za usklađivanje; zaštita ljudskih subjekata prema 21 C.F.R. Dijelovima 6, 50 i 56 ili osobni podaci korišteni ili dijeljeni u istraživanju provedenom u skladu s odredbama ovog poglavlja ili drugim istraživanjem provedenim u skladu s važećim zakonom;</li> <li>Informacije i dokumenti stvoreni u svrhu saveznog zakona o kvaliteti poboljšanja zdravstvene skrbi iz 1986. (42 U.S.C. § 11101 i dalje);</li><li>Podaci o sigurnosti pacijenata u svrhu saveznog zakona o sigurnosti i kvaliteti poboljšanja (42 U.S.C. § 299b-21 i dalje);</li><li>Podaci proizišli iz bilo kojih gore navedenih zdravstvenih podataka koji su deidentificirani u skladu s HIPAA zahtjevima;</li><li>Informacije koje potječu iz ili su pomiješane do neprepoznatljivosti s podacima izuzetim ovom točkom, a koje održava subjekti obuhvaćeni HIPAA-om ili programi ili kvalificirane organizacije kako je definirano s 42 U.S.C. § 290dd-2;</li><li>Podaci korišteni samo za javnozdravstvene aktivnosti i svrhe ovlaštene HIPAA-om;</li><li>Prikupljanje, održavanje, otkrivanje, prodaja, komunikacija ili korištenje bilo kojih osobnih podataka koji utječu na kreditnu sposobnost potrošača, kreditni rejting ili slične karakteristike od strane agencije za izvješćivanje o kreditima ili drugih subjekata u mjeri u kojoj je takva aktivnost regulirana i dopuštena prema federalnom Zakonu o poštenom izvješćivanju o kreditima (15 U.S.C. § 1681 i dalje);</li> <li>Osobni podaci prikupljeni, obrađeni, prodani ili otkriveni u skladu sa saveznim Zakonom o zaštiti privatnosti vozača iz 1994. (18 U.S.C. § 2721 i dalje);</li><li>Osobni podaci regulirani federalnim Zakonom o pravima i privatnosti u obrazovanju (20 U.S.C. § 1232g i dalje);</li> <li>Osobni podaci prikupljeni, obrađeni, prodani ili otkriveni u skladu sa saveznim Zakonom o kreditiranju poljoprivrede (12 U.S.C. § 2001 i dalje);</li><li>Podaci obrađeni ili održavani (i) u postupku prijave za posao, zapošljavanja ili djelovanja u ulozi agenta ili neovisnog suradnika kontrolora, procesora ili treće strane, u mjeri u kojoj su podaci prikupljeni i korišteni u tom kontekstu; (ii) kao podaci za hitni kontakt i korišteni samo u svrhu hitnog kontaktiranja; ili (iii) koji su nužni za administraciju beneficija za drugu osobu povezanu s pojedincem navedenim u točki (i) i korišteni samo za tu svrhu.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Preporuka: eskalirajte svoj zahtjev svom { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Preporuka: ako smatrate da je { companyName } trebao u potpunosti ispuniti vaš zahtjev, preporučujemo da eskalirate zahtjev svom { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Eskalirali ste svoj zahtjev prema {dpaLong} ({dpaShort}), molimo nastavite komunicirati izravno s njima. Ne možemo učiniti više kako bismo vam pomogli."
+  },
+  "request.next.esclateButton": {
+    "message": "Eskalirajte nadležnom tijelu { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Saznajte više o tim iznimkama"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "Prema {regulationType} organizacije imaju { timeLimit } dana za odgovor na vaš zahtjev."
+  },
+  "request.next.reminderButton": {
+    "message": "Pošaljite organizaciji podsjetnički e-mail"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Molimo odaberite jednu od sljedećih mogućnosti:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Ako želite poduzeti daljnje korake, odaberite jednu od sljedećih mogućnosti:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Ako ne želite čekati, odaberite jednu od sljedećih mogućnosti:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Preporuka: pošaljite organizaciji podsjetnički e-mail."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Preporuka: pričekajte dok ne prođe { timeLimit } dana kako biste dali tvrtki vremena da obradi vaš zahtjev."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Preporuka: pričekajte dok ne prođe { timeLimit } dana od datuma slanja zahtjeva kako biste organizaciji dali vremena za obradu vašeg zahtjeva, nakon podsjetnika."
+  },
+  "request.next.whatsNext": {
+    "message": "Što dalje"
+  },
+  "request.success": {
+    "message": "Čestitamo, { companyName } je uspješno udovoljio vašem zahtjevu. Vaši osobni podaci bit će automatski izbrisani s ove web stranice u roku od 120 dana od datuma kada je zahtjev prvi put poslan. Alternativno, možete <a>odmah izbrisati svoje osobne podatke</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Eskalirajte svoj zahtjev"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Podsjetnik poslan"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Zahtjev nije poslan"
+  },
+  "request.timeline.requestSent": {
+    "message": "Zahtjev poslan"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Vremenska crta vašeg zahtjeva"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Eskalacijski e-mail poslan"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {danas} one {sutra} few {za # dana} other {za # dana}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Pošaljite podsjetnik"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {danas} one {sutra} few {za # dana} other {za # dana}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {danas} one {jučer} few {prije # dana} other {prije # dana}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {danas} one {jučer} few {prije # dana} other {prije # dana}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {danas} one {jučer} few {prije # dana} other {prije # dana}}"
+  },
+  "request.title": {
+    "message": "Detalji za vaš {regulationType} zahtjev"
+  },
+  "requestEscalation.complaint": {
+    "message": "Dodatni detalji"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Molimo objasnite zašto niste zadovoljni načinom na koji je organizacija riješila vaš zahtjev"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Otvori obrazac za eskalaciju"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "Kako biste eskalirali svoj zahtjev, trebat ćete ispuniti obrazac na stranici {authority}. Kliknite gumb ispod da otvorite obrazac u novoj kartici."
+  },
+  "requestEscalation.geography": {
+    "message": "Lokacija"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Molimo odaberite mjesto svog prebivališta"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "Kako biste eskalirali svoj zahtjev, nazovite {authority} na {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Pregledajte i pošaljite"
+  },
+  "search.companyPlaceholder": {
+    "message": "Pretražite organizaciju"
+  },
+  "search.noResults": {
+    "message": "Ne možete pronaći organizaciju?"
+  },
+  "search.noResultsMore": {
+    "message": "Kliknite ovdje kako biste dodali organizaciju"
+  },
+  "sendEmailButton.copy": {
+    "message": "Kopirajte tekst e-pošte u međuspremnik"
+  },
+  "sendEmailButton.default": {
+    "message": "Otvori u zadanom klijentu e-pošte"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Otvori u Gmailu"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Otvori u Yahoo Mailu"
+  },
+  "social.chromeCTA": {
+    "message": "Preuzmite za Chrome"
+  },
+  "social.chromeTitle": {
+    "message": "Proširenje za Google Chrome"
+  },
+  "social.emailBody": {
+    "message": "Pogledajte YourDigitalRights.org, besplatnu uslugu koja olakšava otkrivanje koje osobne podatke tisuće organizacija imaju o vama i omogućuje vam da zatražite njihovo brisanje."
+  },
+  "social.emailSubject": {
+    "message": "Saznajte koje sve osobne podatke tisuće organizacija imaju o vama i zatražite njihovo brisanje | Vaša digitalna prava"
+  },
+  "social.extensionHeadline": {
+    "message": "Isključite se izravno iz preglednika"
+  },
+  "social.extensionText": {
+    "message": "Želite li bolju kontrolu nad time tko ima pristup vašim osobnim podacima? Naše proširenje za preglednik omogućuje vam da se odjavite s web-lokacija koje posjećujete jednim klikom."
+  },
+  "social.facebookQuote": {
+    "message": "Saznajte koje sve osobne podatke tisuće organizacija imaju o vama i zatražite njihovo brisanje. Provjerite yourdigitalrights.org."
+  },
+  "social.firefoxCTA": {
+    "message": "Preuzmite za Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "Proširenje za Firefox"
+  },
+  "social.shareHeading": {
+    "message": "Ako smatrate da je ova usluga korisna, molimo širite riječ"
+  },
+  "social.twitterTitle": {
+    "message": "Saznajte koje sve osobne podatke tisuće organizacija imaju o vama i zatražite njihovo brisanje. Provjerite yourdigitalrights.org."
+  },
+  "stats.description": {
+    "message": "Statistika zahtjeva za zaštitu osobnih podataka."
+  },
+  "stats.statsSubTitle": {
+    "message": "Naša je misija pomoći pojedincima da ponovno steknu kontrolu nad svojom internetskom privatnošću tako što će tražiti od organizacija brisanje ili pružanje kopije njihovih osobnih podataka. Sljedeće statistike prikazuju koje su organizacije primile najviše zahtjeva u različitim vremenskim razdobljima."
+  },
+  "stats.statsTitle": {
+    "message": "Statistika zahtjeva"
+  },
+  "stats.title": {
+    "message": "Statistika zahtjeva"
+  },
+  "stats.titleAlltime": {
+    "message": "Najtraženiji zahtjevi svih vremena"
+  },
+  "stats.titleMonth": {
+    "message": "Najtraženiji zahtjevi ovog mjeseca"
+  },
+  "stats.titleWeek": {
+    "message": "Najtraženiji zahtjevi ovog tjedna"
+  },
+  "stats.titleYear": {
+    "message": "Najtraženiji zahtjevi ove godine"
+  },
+  "stats.total": {
+    "message": "Ukupno poslanih zahtjeva: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Budite korak ispred internetskih prijetnji i preuzmite kontrolu nad svojim osobnim podacima uz Privacy Alerts! Naš newsletter donosi najnovije stručne savjete, upute i trikove za zaštitu vaše privatnosti u digitalnom svijetu. Pretplatite se sada da biste ostali informirani i osnaženi!"
+  },
+  "subscribe.title": {
+    "message": "Prijavite se na Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "Razumijemo da može biti frustrirajuće natjerati tvrtke da izbrišu vaše podatke."
+  },
+  "support.description2": {
+    "message": "Naša plaćena usluga podrške pruža vam izravan pristup jednom od naših članova tima, koji će vam rado pomoći oko zahtjeva za brisanje ili pristup podacima."
+  },
+  "support.posPaidtitle": {
+    "message": "Hvala vam!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Molimo kontaktirajte nas putem sljedeće adrese e-pošte kako biste ostvarili plaćenu podršku:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Plaćena usluga podrške omogućuje vam izravan pristup jednom od naših članova tima"
+  },
+  "support.seoTitle": {
+    "message": "Podrška"
+  },
+  "support.title": {
+    "message": "Plaćena podrška"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "je kopiran u međuspremnik, sve što trebate je zalijepiti ga u e-poštu, pregledati i kliknuti Pošalji."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "e-pošta bi se trebala otvoriti u vašem e-mail programu, sve što trebate je pregledati je i kliknuti Pošalji."
+  },
+  "thankyou.description": {
+    "message": "Hvala vam"
+  },
+  "thankyou.donation": {
+    "message": "Pomozite nam održati ovu uslugu besplatnom tako što ćete <a>donirati</a> i osigurati našu dugoročnu financijsku stabilnost i neovisnost."
+  },
+  "thankyou.findCompany": {
+    "message": "Pronađite drugu organizaciju"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organizacije imaju {days, plural, one{# dan} few{# dana} other{# dana}} da se usklade i mogu zatražiti dodatne informacije za potvrdu vašeg identiteta."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "Zahtjev za pristup"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "Zahtjev za brisanje"
+  },
+  "thankyou.seotitle": {
+    "message": "Hvala Vam"
+  },
+  "thankyou.title": {
+    "message": "Hvala!"
+  }
+}

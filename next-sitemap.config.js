@@ -23,7 +23,8 @@ module.exports = {
     exclude: [
         "/sitemaps",
         "/privacy-alerts",
-        "/thankyou"
+        "/thankyou",
+        "/support"
     ],
     alternateRefs: LOCALES.map((locale) => ({
           href: `https://yourdigitalrights.org/${locale}`,

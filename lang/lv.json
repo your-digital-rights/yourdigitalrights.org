@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Mūsu misija"
+  },
+  "about.consciousDigital": {
+    "message": "Kas mēs esam"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org ir {cd} radīts projekts, kas ir reģistrēta labdarības organizācija, veidojot uz cilvēku vērstas digitālās iniciatīvas, kas veicina un attīsta digitālās cilvēktiesības."
+  },
+  "about.contact": {
+    "message": "Kontakti"
+  },
+  "about.contactText": {
+    "message": "Sazinieties ar mums pa e-pastu {email}."
+  },
+  "about.contributors": {
+    "message": "Līdzautori"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Front-end tīmekļa izstrādātājs."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Front-end tīmekļa izstrādātājs."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Front-end tīmekļa izstrādātājs."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Infrastruktūras inženieris."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - Pilna spektra izstrādātājs, kurš sniedza ieguldījumu APPI atbalsta izstrādē un veica tīmekļa vietnes vispārējo tulkojumu japāņu valodā."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Front-end tīmekļa izstrādātājs, mobilās lietotnes izstrādātājs un Skyjacker, AR lidojumu izsekošanas spēles, radītājs."
+  },
+  "about.description": {
+    "message": "Your Digital Rights tika izveidots, jo mēs uzskatām, ka jums ir tiesības uz privātumu un ka šo tiesību īstenošanai jābūt vienkāršai."
+  },
+  "about.funding": {
+    "message": "Finansējums"
+  },
+  "about.fundingBody1": {
+    "message": "Šis projekts tiek finansēts no tā veidotāju līdzekļiem un ar jūsu ziedojumu palīdzību."
+  },
+  "about.missionBody1": {
+    "message": "Mēs uzskatām, ka privātums ir pamattiesības un ka šo tiesību īstenošanai jābūt viegli pieejamai ikvienam. Tādi datu aizsardzības normatīvie akti kā {GDPR} (ES), {CCPA} (Kalifornija) un {LGPD} (Brazīlija) nodrošina juridisko pamatu, lai aizsargātu cilvēku pamattiesības uz privātumu tiešsaistē."
+  },
+  "about.missionBody2": {
+    "message": "Privātuma regulas ir solis pareizajā virzienā, taču savu tiesību īstenošana saskaņā ar šiem normatīvajiem aktiem joprojām ir pietiekami sarežģīta, lai lielākā daļa cilvēku to neizmantotu. Situāciju pasliktina tas, ka daudzas organizācijas apgrūtina datu pieprasījumu iesniegšanu (piemēram, nepublicējot nekādus uzņēmuma e-pasta adreses savā tīmekļa vietnē). Mūsu mērķis ir padarīt šajos normatīvajos aktos paredzētās tiesības pieejamas ikvienam."
+  },
+  "about.missionBody3": {
+    "message": "Šis ir bezmaksas pakalpojums. Mēs neesam uzņēmums un mums nav biznesa modeļa. Mēs nepiedāvājam nekādus pakalpojumus sarakstā iekļautajām organizācijām. Mēs neiegūstam un netirgojam nekādus personas datus. Šis pakalpojums ir <a>atvērtā pirmkoda</a>."
+  },
+  "about.sponsors": {
+    "message": "Atbalstošās organizācijas"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - par viņu uzņēmumu datubāzes momentuzņēmuma nodrošināšanu, ko izmantojam, lai papildinātu mūsu organizāciju sarakstu."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - par efektīvu veidu, kā apkopot kopienas atsauksmes par mūsu {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - par hostētas Matomo (Piwik) versijas nodrošināšanu, kas ir atvērtā pirmkoda un privātumu veicinoša tīmekļa analīzes platforma."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - par palīdzību mums ieviest SEO stratēģiju."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - paldies par palīdzību izprast un atbalstīt Brazīlijas datu privātuma regulu Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Vēlamies pateikties šādām organizācijām par mūsu atvērtā pirmkoda iniciatīvas atbalstīšanu, piedāvājot bezmaksas vai ar atlaidi nodrošinātas versijas saviem pakalpojumiem:"
+  },
+  "about.title": {
+    "message": "Par mums"
+  },
+  "aboutOrg.description": {
+    "message": "Viņu pašu vārdiem:"
+  },
+  "aboutOrg.details": {
+    "message": "Par {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-pasts:"
+  },
+  "aboutOrg.founded": {
+    "message": "Dibināts:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Galvenais birojs:"
+  },
+  "aboutOrg.industry": {
+    "message": "Nozare:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Skatīt {org} <a>Privātuma politiku</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Uzņēmuma specializācijas jomas:"
+  },
+  "aboutOrg.type": {
+    "message": "Uzņēmuma veids:"
+  },
+  "contribute.creadit": {
+    "message": "Lai gan mēs nevaram atļauties samaksāt par jūsu darbu, mēs ar prieku norādīsim jūsu ieguldījumu, vai nu šajā vietnē, GitHub vai citos veidos."
+  },
+  "contribute.creditTitle": {
+    "message": "Atsauce"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Izveidojiet kontu pakalpojumā Crowdin, sekojot šai <a>saitei</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Sekojiet šai <a>saitei</a>, lai ielādētu tulkošanas sistēmu."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Izvēlieties valodu (lai to izdarītu, jums būs jāpiesakās Crowdin)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Tagad jūs redzēsiet lodziņus ap dažādiem tīmekļa vietnes teksta elementiem. Novietojiet peles kursoru virs teksta, kuru vēlaties tulkot, un noklikšķiniet uz ikonas, kas parādīsies teksta stūrī."
+  },
+  "contribute.crowdinStep5": {
+    "message": "Tiks atvērts redaktors, kurā varēsiet ievadīt savu tulkojumu. Neaizmirstiet noklikšķināt uz saglabāšanas pogas pēc tam, kad esat pabeiguši."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Ja rodas kādas problēmas, lūdzu, <email>sazinieties ar mums.</email>"
+  },
+  "contribute.description": {
+    "message": "Palīdziet uzlabot YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Mūsu repozitoriji ir izvietoti GitHub, galvenais no tiem ir paredzēts šai <a>vietnei</a>. Labākais veids, kā sākt, ir sazināties, izmantojot <email>e-pastu</email>. Tad mēs pievienosim jūs mūsu Slack kanālam un dalīsimies ar aktuālajiem izstrādes darbiem. Alternatīvi, droši klonējiet repozitoriju un iesniedziet apvienošanas pieprasījumus."
+  },
+  "contribute.devSkills": {
+    "message": "Pašlaik mēs meklējam mašīnmācīšanās, React un AWS inženierus."
+  },
+  "contribute.devTitle": {
+    "message": "Palīdzība izstrādē"
+  },
+  "contribute.reportAProblem": {
+    "message": "Ja rodas problēmas ar šo vietni, varat ziņot par tām <a1>problēmu izsekotājā</a1> vai pa <a2>e-pastu</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Ziņot par problēmu"
+  },
+  "contribute.research": {
+    "message": "Mēs vienmēr meklējam veidus, kā labāk popularizēt Digitālās Tiesības un padarīt tās pieejamākas. Neatkarīgi no tā, vai tas ir, lai labāk izprastu, kā cilvēki izmanto tehnoloģijas, vai kā organizācijas tās ļaunprātīgi izmanto, vienmēr notiek pētniecības projekti. Lūdzu, <email>rakstiet mums</email>, ja vēlaties iesaistīties."
+  },
+  "contribute.researchTitle": {
+    "message": "Palīdzēt pētniecībā"
+  },
+  "contribute.subtitle": {
+    "message": "Šo projektu pilnībā izstrādā un uztur brīvprātīgie. Ja jūs uztrauc privātuma zudums, plaša mēroga uzraudzības kapitālisms, mikromērķēšana un dezinformācija, kā arī digitālo pakalpojumu atkarību izraisošais raksturs, tad jūs varat palīdzēt:"
+  },
+  "contribute.title": {
+    "message": "Sniegt ieguldījumu"
+  },
+  "contribute.translate1": {
+    "message": "Mēs vēlētos, lai šis pakalpojums būtu pieejams daudzās valodās. Ja jūsu valoda pašlaik nav pieejama vai tai nepieciešami uzlabojumi, mēs ar prieku uzklausīsim jūsu palīdzību!"
+  },
+  "contribute.translate2": {
+    "message": "Mēs izmantojam tiešsaistes platformu <a>Crowdin</a>, lai ērti veidotu tulkojumu virknes. Tas padara procesu daudz vienkāršāku un neprasa nekādas programmēšanas zināšanas. Ir pieejama ātrā pamācība <b>šeit</b>. Lai sāktu lietot, sekojiet šīm darbībām:"
+  },
+  "contribute.translateTitle": {
+    "message": "Tulkot vietni"
+  },
+  "dataProcessors": {
+    "message": "Datu koplietošana un apstrādātāji"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Visi pieprasījumi"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "Šis pieprasījums"
+  },
+  "deletePII.doneAll": {
+    "message": "Mēs sekmīgi esam dzēsuši personiskos datus, kas saistīti ar visiem jūsu pieprasījumiem."
+  },
+  "deletePII.doneRequest": {
+    "message": "Mēs sekmīgi esam dzēsuši personiskos datus, kas saistīti ar šo pieprasījumu."
+  },
+  "deletePII.heading": {
+    "message": "Dzēsiet manus datus"
+  },
+  "deletePII.intro": {
+    "message": "Jūsu personas dati tiks automātiski dzēsti 120 dienas pēc pieprasījuma iesniegšanas, tomēr jūs varat izvēlēties tos dzēst jau tagad. Vai vēlaties dzēst datus, kas saistīti ar šo pieprasījumu (atsauce: {ref}), vai arī visus savus pieprasījumus?"
+  },
+  "deletemydata.description": {
+    "message": "Dzēsiet manus datus"
+  },
+  "deletemydata.title": {
+    "message": "Dzēsiet manus datus"
+  },
+  "donations.donate": {
+    "message": "Ziedot"
+  },
+  "donations.donateIntro": {
+    "message": "Vietne YourDigitalRights.org tika izveidota, jo mēs uzskatām, ka privātums ir svarīgs un ka savas privātuma tiesības vajadzētu izmantot vienkārši. Tāpēc mēs piedāvājam pakalpojumu bez maksas. Ziedojot vai kļūstot par atbalstītāju, jūs varat palīdzēt nodrošināt mūsu ilgtermiņa finansiālo stabilitāti un neatkarību."
+  },
+  "donations.headingDonate": {
+    "message": "Mums ir nepieciešams jūsu atbalsts"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org ir bezmaksas pakalpojums, kas palīdz jums atgūt kontroli pār savu tiešsaistes privātumu, atvieglojot organizāciju iesniegto lūgumu dzēst vai sniegt jūsu rīcībā esošo personisko informāciju. Mēs to panākam, automatizējot procesu, kas aprakstīts spēcīgos datu aizsardzības likumos, kas piešķir jums tiesības dzēst vai piekļūt saviem datiem. Papildus pieprasījumu nosūtīšanai organizācijām, mēs varam palīdzēt nodrošināt, ka pieprasījumi tiek atrisināti jūsu labā."
+  },
+  "faq.body.contact.1": {
+    "message": "Lūdzu, ņemiet vērā, ka mēs nevaram sniegt personisku atbalstu saistībā ar konkrētiem datu pieprasījumiem vai jūsu pieredzi ar kādu noteiktu organizāciju. Mēs saprotam, ka dažos gadījumos organizācijas var būt diezgan kaitinošas, taču diemžēl mēs nevaram palīdzēt un neatbildēsim uz šādiem e-pastiem."
+  },
+  "faq.body.contact.2": {
+    "message": "Visu citu pieprasījumu gadījumā, lūdzu, sazinieties ar mums, izmantojot <a>e-pastu</a>."
+  },
+  "faq.body.contribute.1": {
+    "message": "Jā, lūdzu!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Mēs paļaujamies uz <a>ziedojumiem</a>, lai nodrošinātu mūsu ilgtermiņa finansiālo stabilitāti un neatkarību. Jūs varat sniegt savu ieguldījumu šeit."
+  },
+  "faq.body.contribute.3": {
+    "message": "Lūdzu, skatiet informāciju <a>šajā lapā</a>, ja vēlaties ziņot par kļūdu, palīdzēt vietnes tulkošanā, atbalstīt izstrādi vai veikt pētījumus."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Datu aizsardzības likumi aizsargā indivīdus attiecībā uz viņu personiskās informācijas apstrādi organizācijās. Tie definē organizāciju atbildību, apstrādājot personisko informāciju, un piešķir indivīdiem noteiktas tiesības attiecībā uz viņu datiem. Daudzās valstīs ir pieņemti datu aizsardzības likumi; daži no tiem nodrošina plašāku aizsardzību nekā citi."
+  },
+  "faq.body.escalate.1": {
+    "message": "Datu aizsardzības likumi paredz dažādus eskalācijas mehānismus šādiem gadījumiem, tostarp iespēju iesniegt sūdzību valsts uzraudzības iestādē vai vērsties tiesā pret organizāciju (to sauc par privātpersonas tiesību aizsardzības iespēju)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Ja tas šķiet sarežģīti, neuztraucieties; mēs varam palīdzēt. Iesniedzot datu pieprasījumu, izmantojot šo pakalpojumu, aktivizējiet \"Viedo sekošanas atbalstu\", lai saņemtu personalizētus norādījumus par turpmāko rīcību gadījumā, ja organizācija nav izpildījusi jūsu pieprasījumu. Mēs palīdzēsim jums sazināties ar organizāciju un, ja nepieciešams, eskalēt jautājumu valsts uzraudzības iestādē."
+  },
+  "faq.body.how.1": {
+    "message": "Pēc organizācijas izvēles un īsas veidlapas aizpildīšanas mēs ģenerēsim pieprasījuma e-pastu izvēlētajai organizācijai. E-pasts atvērsies jūsu e-pasta lietotnē, lai jūs to varētu pārskatīt un nosūtīt. Papildus tam mēs varam ar jums sazināties neilgu laiku pēc pieprasījuma nosūtīšanas, lai pārliecinātos, ka pieprasījums tiek atrisināts jums labvēlīgi. Tas var ietvert atgādinājuma e-pastu nosūtīšanu organizācijai vai eskalāciju valsts uzraudzības iestādē."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Mēs vēlētos atbalstīt visus datu aizsardzības likumus, kas nodrošina indivīdiem tiesības piekļūt viņu personiskajai informācijai un to dzēst. Lūdzu, <a>sazinieties ar mums</a>, ja vēlaties, lai mēs pievienotu atbalstu kādai konkrētai regulai."
+  },
+  "faq.body.refuse.1": {
+    "message": "Datu aizsardzības likumi dažos izņēmuma gadījumos ļauj organizācijām atteikt jūsu personas informācijas dzēšanu. Šeit ir daži vispārīgi piemēri, taču jums vajadzētu izlasīt konkrēto likumu, kas uz jums attiecas, lai iegūtu detalizētu informāciju:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "Ja organizācijai ir juridisks pienākums saglabāt jūsu datus (piemēram, finanšu iestādēm ir jāsaglabā jūsu darījumu uzskaites, lai ievērotu naudas atmazgāšanas novēršanas noteikumus)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "Ja jūsu datu saglabāšana ir nepieciešama vārda un informācijas brīvības apsvērumu dēļ (tas ietver žurnālistiku un akadēmiskas, mākslinieciskas, kā arī literāras vajadzības)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "Ja jūsu datu saglabāšana ir nepieciešama sabiedrības veselības apsvērumu dēļ"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "Ja jūsu datu saglabāšana ir nepieciešama juridisko prasību noteikšanai, īstenošanai vai aizstāvēšanai"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "Ja jūsu datu dzēšana kaitētu zinātniskai vai vēsturiskai pētniecībai vai arhivēšanai, kas ir sabiedrības interesēs"
+  },
+  "faq.body.regulations.1": {
+    "message": "Lūdzu, <a>sazinieties ar mums</a>, ja vēlaties palīdzēt mums ieviest papildu regulu atbalstu."
+  },
+  "faq.body.regulations.location": {
+    "message": "Atrašanās vieta"
+  },
+  "faq.body.regulations.name": {
+    "message": "Pilns vārds"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Saīsinājums"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Atbildes termiņš"
+  },
+  "faq.body.requests.1": {
+    "message": "Mēs atbalstām divu veidu pieprasījumus:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Datu dzēšanas pieprasījumi</b> (zināmi arī kā dzēšanas pieprasījumi vai tiesības tikt aizmirstam) ļauj jums lūgt organizācijai dzēst jūsu personas informāciju."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Piekļuves pieprasījumi</b> (tiek dēvēti arī par Subjekta piekļuves pieprasījumiem jeb SAR) ļauj jums lūgt organizācijai sniegt jūsu personas datu kopiju."
+  },
+  "faq.body.trust.1": {
+    "message": "Mēs esam reģistrēta bezpeļņas organizācija ar nosaukumu <a>Conscious Digital</a>. Mēs ticam caurspīdīgumam, tāpēc šī pakalpojuma avota kods ir <aa>atvērtā koda</aa>. Kopš 2022. gada oktobra mēs esam palīdzējuši cilvēkiem iesniegt vairāk nekā 100 000 pieprasījumu dažādām organizācijām."
+  },
+  "faq.body.trust.2": {
+    "message": "Mēs esam neatkarīgi, nepārdodam jūsu personas informāciju un neesam saistīti ar nevienu no organizācijām, kurām mēs palīdzam jums nosūtīt datu pieprasījumus. Tāpat mēs šīm organizācijām nesniedzam nekādus pakalpojumus. Visbeidzot, mūsu darbību finansē jūsu <a>ziedojumi</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Mēs esam izveidojuši šo pakalpojumu tā, lai pēc noklusējuma mums nebūtu jāievāc nekādi jūsu personas dati. Ja atsevišķas izvēles funkcijas prasa sniegt personas informāciju, mēs šo informāciju dzēšam pēc 120 dienām. Plašāku informāciju skatiet mūsu <a>privātuma politikā</a>."
+  },
+  "faq.body.verify.1": {
+    "message": "Datu aizsardzības likumi prasa organizācijām pārbaudīt pieprasījuma iesniedzēja identitāti, lai novērstu krāpniecību. Lielākā daļa likumu arī nosaka, ka pārbaudes metodei jābūt samērīgai ar pieprasīto datu veidu. Piemēram, ja jūs pieprasāt sava ziņojumu vēstures kopiju parastā interneta forumā, pietiek ar vienkāršu pārbaudi, vai jums pieder e-pasta adrese, kas saistīta ar jūsu kontu. Savukārt, ja jūs pieprasāt savu darījumu vēsturi no finanšu iestādes, tai ir tiesības lūgt papildu informāciju, piemēram, personas apliecību un adreses apliecinājumu."
+  },
+  "faq.body.verify.2": {
+    "message": "Vairumā gadījumu pietiek ar vienkāršu pārbaudi, ka jūs esat kontam piesaistītās e-pasta adreses īpašnieks. Kad izmantojat šo pakalpojumu, lai nosūtītu pieprasījumu, no jūsu e-pasta lietotnes tiek nosūtīts e-pasts, kas nodrošina šo pamata pārbaudi."
+  },
+  "faq.body.verify.3": {
+    "message": "Lai vēl vairāk aizsargātu jūsu personas informāciju, mūsu ģenerētie pieprasījumi jūsu vārdā skaidri aizliedz organizācijām izmantot pieprasījumā iekļauto personas informāciju jebkādiem citiem mērķiem, izņemot pieprasījuma izpildi."
+  },
+  "faq.heading.YDR": {
+    "message": "Kas ir YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Man ir vēl viens jautājums, kā es varu ar jums sazināties?"
+  },
+  "faq.heading.contribute": {
+    "message": "Šis pakalpojums ir lielisks. Vai varu palīdzēt?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Kas ir datu aizsardzības likumi?"
+  },
+  "faq.heading.escalate": {
+    "message": "Ko darīt, ja organizācija neizpilda manu pieprasījumu pilnībā?"
+  },
+  "faq.heading.how": {
+    "message": "Kā šis pakalpojums darbojas?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "Manā valstī ir pieņemts jauns datu aizsardzības likums. Vai jūs to atbalstīsiet?"
+  },
+  "faq.heading.refuse": {
+    "message": "Vai organizācijas var atteikt?"
+  },
+  "faq.heading.regulations": {
+    "message": "Kuras valstis, štati vai tiesiskais regulējums tiek atbalstīts?"
+  },
+  "faq.heading.requests": {
+    "message": "Kādus pieprasījumus es varu iesniegt, izmantojot šo pakalpojumu?"
+  },
+  "faq.heading.trust": {
+    "message": "Kas nodrošina šo pakalpojumu? Vai varu jums uzticēties?"
+  },
+  "faq.heading.verify": {
+    "message": "Kāda organizācija man lūdz sniegt papildu personas informāciju, lai pārbaudītu manu identitāti. Vai tas ir likumīgi? Vai viņi drīkst šo informāciju izmantot citiem nolūkiem?"
+  },
+  "faq.title": {
+    "message": "Biežāk uzdotie jautājumi"
+  },
+  "footer.contact": {
+    "message": "© Autortiesības 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Atruna:</span> Šis pakalpojums tiek nodrošināts 'kā ir', bez jebkādām garantijām. Pakalpojuma izmantošana ir pilnībā uz jūsu pašu risku. Mēs nevaram uzņemties atbildību par jebkādiem tiešiem vai netiešiem zaudējumiem, kas radušies, izmantojot šo pakalpojumu. Informācija, ko sniedz šis pakalpojums, kā arī saturs mūsu vietnē par juridiskiem jautājumiem, ir paredzēti tikai jūsu personīgai lietošanai un netiek uzskatīti par juridisku padomu. Ja jums ir nepieciešams juridisks padoms konkrētas problēmas risināšanai, lūdzu, konsultējieties ar licencētu advokātu."
+  },
+  "footer.madeBy": {
+    "message": "<a>Veidojis Conscious Digital</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Darbojas ar Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Privātuma politika</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistika</a>"
+  },
+  "footer.wishList": {
+    "message": "Izsakiet vēlēšanos mūsu ceļvedī"
+  },
+  "hero.headerText": {
+    "message": "Palūdziet organizācijām dzēst jūsu kontu vai sniegt jūsu personas datu kopiju."
+  },
+  "hero.heading": {
+    "message": "Pārvaldiet savus datus"
+  },
+  "hero.intro": {
+    "message": "Daudzas organizācijas vāc un pārdod jūsu personas datus, nereti bez jūsu piekrišanas. Izmantojiet šo bezmaksas pakalpojumu, lai nosūtītu tām datu dzēšanas vai piekļuves pieprasījumu. Sāciet, meklējot organizāciju zemāk."
+  },
+  "howItWorks.followUp": {
+    "message": "izmantojot mūsu viedo turpinājuma palīgu, lai palīdzētu nodrošināt jūsu pieprasījuma izpildi un pat palīdzētu jums iesniegt sūdzību attiecīgajai valsts uzraudzības iestādei."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Turpinājums"
+  },
+  "howItWorks.imgAlt": {
+    "message": "Grafiska ilustrācija, kas attēlo lietotāja interfeisu"
+  },
+  "howItWorks.search": {
+    "message": "organizācijai, izmantojot meklēšanas lodziņu šīs lapas augšpusē."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Meklēt"
+  },
+  "howItWorks.send": {
+    "message": "organizācijai pieprasīt jūsu datu dzēšanu vai kopijas sniegšanu."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Sūtīt"
+  },
+  "howItWorks.title": {
+    "message": "Kā tas darbojas"
+  },
+  "howItWorks.whyBody": {
+    "message": "Mēs esam reģistrēta labdarības organizācija ar nosaukumu <cd>Conscious Digital</cd>. Mēs izveidojām šo pakalpojumu, jo uzskatām, ka privātumam ir nozīme un ka tiesību uz privātumu īstenošana ir jāpadara vienkārša un bez maksas. Mēs nevācam un nepārdodam personas datus. Pakalpojumu finansē tā veidotāji un jūsu <donations>ziedojumi</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Kāpēc mums uzticēties?"
+  },
+  "howItWorks.yourData": {
+    "message": "Datu aizsardzības likumi uzliek organizācijām pienākumu pēc pieprasījuma dzēst jūsu datus vai sniegt jums to kopiju. Organizācijām ir noteikts īss termiņš, kurā jāizpilda pieprasījums, pretējā gadījumā tās var saskarties ar lieliem naudas sodiem. Mūsu misija ir padarīt jūsu tiesību īstenošanu vienkāršu."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Jums ir tiesības uz privātumu!"
+  },
+  "index.description": {
+    "message": "Dzēsiet savu kontu vai pieprasiet piekļuvi personas datiem, kas par jums ir organizācijām, izmantojot šo bezmaksas pakalpojumu."
+  },
+  "nav.about": {
+    "message": "Par"
+  },
+  "nav.blog": {
+    "message": "Blogs"
+  },
+  "nav.contact": {
+    "message": "Sazinieties ar mums"
+  },
+  "nav.contribute": {
+    "message": "Sniegt ieguldījumu"
+  },
+  "nav.data-brokers": {
+    "message": "Datu brokeri"
+  },
+  "nav.donate": {
+    "message": "Ziedojiet"
+  },
+  "nav.donation": {
+    "message": "Ziedojiet"
+  },
+  "nav.faq": {
+    "message": "BUJ"
+  },
+  "nav.helpTranslate": {
+    "message": "Palīdziet tulkot"
+  },
+  "nav.howItWorks": {
+    "message": "Kā tas darbojas"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Privātuma politika"
+  },
+  "nav.stats": {
+    "message": "Statistika"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Nosūtiet GDPR, CCPA un LGPD datu dzēšanas un piekļuves pieprasījumus jebkurai organizācijai ātri un vienkārši."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Pieprasiet konta dzēšanu vai jūsu personas datu kopiju no {org} ātri un vienkārši."
+  },
+  "org.titleExistingOrg": {
+    "message": "Dzēsiet savu {org} kontu vai saņemiet savu datu kopiju"
+  },
+  "org.titleNewOrg": {
+    "message": "Nosūtiet GDPR, CCPA un LGPD datu dzēšanas un piekļuves pieprasījumus"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Nosūtiet datu dzēšanas vai piekļuves pieprasījumu."
+  },
+  "orgHero.subTitle2": {
+    "message": "Nosūtiet {name} datu dzēšanas vai piekļuves pieprasījumu, izmantojot šo <disclamer>bezmaksas un neatkarīgo</disclamer> pakalpojumu."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Panāciet, lai organizācijas dzēš vai nosūta jums jūsu personas datu kopiju, izmantojot šo <disclamer>bezmaksas un neatkarīgo</disclamer> pakalpojumu."
+  },
+  "orgHero.title": {
+    "message": "Dzēsiet savu {domain} kontu vai pieprasiet savus datus."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "Lai nodrošinātu, ka organizācija izpilda jūsu pieprasījumu, mēs jums nosūtīsim e-pastu, kad pienāks laiks veikt turpmākās darbības. Jums būs iespēja nosūtīt organizācijai atgādinājuma e-pastu vai vērsties vietējā datu aizsardzības iestādē."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Izvēloties šo opciju, jūs piekrītat, ka mēs apstrādājam un glabājam šādu personisko informāciju: jūsu e-pasta adresi, vārdu un jūsu pieprasījuma e-pastu saturu. Visa ar šo pieprasījumu saistītā personiskā informācija tiks automātiski dzēsta no mūsu sistēmām 120 dienu laikā, ja vien nenorādīsiet citādi, un jūs vienmēr varat pieprasīt šos datus nekavējoties dzēst. Mēs apkopojam šo informāciju automātiski, pievienojot īpašu e-pasta adresi pieprasījuma e-pasta CC laukā.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Ieslēgt viedo turpinājuma palīdzību"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Pēc izvēles norādiet jebkādu papildu informāciju, kas palīdzēs organizācijai atrast jūsu datus viņu informācijas sistēmās, piemēram, lietotājvārdu, klienta ID vai konta numuru. <strong>Lūdzu, nesniedziet savu paroli vai jebkādu personīgu informāciju, kas organizācijai jau nav zināma.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Nē, es varu tikt galā pats"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Jā, sūtiet man turpmākās darbības norādījumus pa e-pastu"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Sūtiet man manas informācijas kopiju"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Lūdzu, ievadiet organizācijas domēna nosaukumu (piemēram: google.co.uk vai facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organizācijas domēns"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "Organizācijas e-pasta adrese"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Lūdzu, ievadiet tās organizācijas nosaukumu, ar kuru vēlaties sazināties."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Organizācijas nosaukums"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Lūdzu, ievadiet tās personas vai nodaļas e-pasta adresi, kura atbild par GDPR / CCPA / privātuma / juridisko pieprasījumu apstrādi. Jūs parasti varat atrast šo informāciju organizācijas tīmekļa vietnē zem privātuma politikas, noteikumiem un nosacījumiem vai sadaļā 'Sazinieties ar mums'."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Dzēsiet manus datus"
+  },
+  "personalInfoForm.headline": {
+    "message": "Aizpildiet veidlapu, lai izveidotu pieprasījuma e-pastu, kuru vēlāk varēsiet pārskatīt un nosūtīt."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Papildu identificējoša informācija (pēc izvēles)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Organizācija izmantos to, lai identificētu jūs."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Pilns vārds un uzvārds"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Regula"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Izvēlieties regulu, pamatojoties uz savu dzīvesvietu, ja vien jums nav kāda īpaša iemesla izvēlēties citādi."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Pieprasījuma veids"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Pārskatīt un Nosūtīt"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Atbalsts"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Lūdzu, ievadiet derīgu e-pasta adresi."
+  },
+  "pressIntro.title": {
+    "message": "Kā redzams"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Papildu pieprasījumu darbības"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "Izmantojot šo Pakalpojumu, pēc datu pieprasījuma iesniegšanas jūs varat izvēlēties saņemt no mums papildu atbalstu pa e-pastu. Ja izvēlaties izmantot šo izvēles funkciju, mēs apkoposim šādus papildu personas datus:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Jūsu e-pasta adrese"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "E-pasta ziņojumu saturs, ko nosūtāt organizācijām un datu aizsardzības iestādēm (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadati par e-pasta ziņojumiem, kurus nosūtāt organizācijām un datu aizsardzības iestādēm (DPA), piemēram, e-pasta nosūtīšanas laiks, kā arī sūtītāja un saņēmēja adreses"
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Mēs glabājam paplašinātos personas datus ne ilgāk kā 120 dienas."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Sniegdami mums personas datus pēc savas brīvas gribas, jūs piekrītat, ka mēs tos varam izmantot saskaņā ar šo Privātuma politiku. Ja jūs sniedzat personas datus šajā tīmekļa vietnē, jūs apstiprināt un piekrītat, ka šie personas dati var tikt pārsūtīti no jūsu pašreizējās atrašanās vietas uz YourDigitalRights.org birojiem un serveriem, kā arī pilnvarotajām trešajām pusēm, kas minētas šajā politikā."
+  },
+  "privacy.contact": {
+    "message": "Kontakti"
+  },
+  "privacy.contactBody": {
+    "message": "Ja jums ir jautājumi vai neskaidrības par šo privātuma politiku, lūdzu, sazinieties ar mums pa {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Sīkdatnes un izsekošana"
+  },
+  "privacy.cookiesBody": {
+    "message": "Mēs izmantojam sīkfailus tikai, lai saglabātu jūsu izvēles tīmekļa vietnē, lai nākamreiz būtu ērtāk lietot pakalpojumu. Sīkfails ir informācija, ko mūsu pakalpojuma nodrošinātājs nosūta jūsu pārlūkprogrammai, kad piekļūstat pakalpojumam."
+  },
+  "privacy.description": {
+    "message": "Jums pieder jūsu dati, un mēs pastāvam, lai palīdzētu jums kontrolēt, kam tiem ir piekļuve. Šī ir mūsu privātuma politikas lapa."
+  },
+  "privacy.lastUpdated": {
+    "message": "Pēdējoreiz atjaunināts:"
+  },
+  "privacy.personalData": {
+    "message": "Pieprasījumu nosūtīšana"
+  },
+  "privacy.personalDataBody1": {
+    "message": "Sūtot pieprasījumus (neieslēdzot papildu pieprasījuma turpināšanas funkciju), mēs lūdzam jūs sniegt šādus personas datus:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Jūsu vārds"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Papildu informācija, kas nepieciešama, lai jūs identificētu organizācijās, ar kurām nolēmāt sazināties (piemēram, lietotājvārds, klienta ID vai konta numurs)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Mēs izmantojam tikai tieši to personas datu apjomu, kas iegūts, kad jūs iesniedzat pieprasījumus, lai izveidotu e-pastu, un mēs to neglabājam savos serveros."
+  },
+  "privacy.privacyTitle": {
+    "message": "Privātuma politika"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: privātumam draudzīgs tīmekļa analītikas pakalpojums no Innocraft. Mēs izmantojam Matomo, lai apkopotu anonimizētu informāciju par to, kā tiek piekļūts Pakalpojumam un kā tas tiek izmantots ('Usage Data'). Varat apmeklēt viņu { matomo } lapu."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: mākoņinfrastruktūras pakalpojumu sniedzējs. Kad izvēlaties iespēju Papildu pieprasījumu darbības, mēs izmantojam AWS, lai apstrādātu jūsu sūtītos e-pasta ziņojumus, saglabātu saistīto informāciju un nosūtītu jums atgādinājuma e-pastus. Jūs varat apmeklēt viņu { matomo } lapu."
+  },
+  "privacy.promise": {
+    "message": "Mūsu solījums"
+  },
+  "privacy.promiseBody": {
+    "message": "Jūs esat savu datu īpašnieks. Mēs pastāvam, lai palīdzētu jums kontrolēt, kam ir piekļuve jūsu datiem. Mēs stingri ievērojam principu, ka jūsu personiskā informācija paliek personiska, konfidenciāla un droša. Mēs neizmantojam nebūtiskus sīkfailus un ierobežojam no jums ievāktos personas datus līdz absolūtajam minimumam, kas nepieciešams šī Pakalpojuma (YourDigitalRights.org) nodrošināšanai. Dažos gadījumos varat aktivizēt papildu funkcijas, kurām nepieciešams norādīt papildu personas datus. Šādos gadījumos no jums tiek prasīta nepārprotama piekrišana, un tas ir skaidri norādīts. Mēs nekad nepārdodam un neizīrējam jūsu personisko informāciju citiem un neglabājam to savos serveros ilgāk par 120 dienām. Mēs kopīgosim jūsu personisko informāciju tikai tad, ja tas ir nepieciešams, lai nodrošinātu Pakalpojumu, vai citādi, kā norādīts šajā politikā."
+  },
+  "privacy.title": {
+    "message": "Privātuma politika"
+  },
+  "privacy.usageDataBody": {
+    "message": "Mēs sadarbojamies ar šādiem trešo pušu pakalpojumu sniedzējiem, lai mūsu vārdā veiktu noteiktas datu apstrādes darbības. Mēs slēdzam līgumus ar šiem pakalpojumu sniedzējiem, lai nodrošinātu jūsu datu konfidencialitāti un drošību."
+  },
+  "privacyAlerts.description1": {
+    "message": "Ikmēneša e-pasts, kurā uzskaitīti trīs privātuma ziņā vissliktākās kompānijas, ko atklājusi mūsu pētniecības komanda. Uzlabojiet savu privātumu un atgūstiet kontroli pār saviem personas datiem, veltot piecas minūtes mēnesī, lai atteiktos no šo uzņēmumu pakalpojumiem."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Abonējiet mūsu ikmēneša paziņojumus par privātumu"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Privātuma paziņojumi"
+  },
+  "privacyAlerts.title": {
+    "message": "Privātuma paziņojumi"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Kāpēc jums vajadzētu ieguldīt savā privātumā?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Katrs mūsu tiešsaistes mijiedarbības solis atstāj pēdas par mūsu personas informāciju. Uzņēmumi, ar kuriem sazināmies, datu brokeri, valdības un ļaunprātīgi noskaņotas personas — visi ir ieinteresēti mūsu datos."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Šī situācija padara mūs ievainojamus dažāda veida ietekmes kampaņām. Tajās ietilpst mērķtiecīga tiešsaistes reklāma, politiska un sociāla manipulācija, izmantojot viltus ziņas, dažādi krāpšanas veidi, piemēram, identitātes zādzība, kā arī atkarību izraisošas lietotnes un tiešsaistes pakalpojumi. To visu iespējo pārpilnība personas informācijas, ko mēs atstājam aiz sevis."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Kā mēs to atgūstam savā kontrolē?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Mēs esam izstrādājuši brīdinājumus par privātumu, balstoties uz atsauksmēm no cilvēkiem, kas izmanto mūsu pakalpojumus. Tas ir vienkāršs veids laika gaitā uzlabot savu privātumu, veltot tikai piecas minūtes mēnesī, lai atteiktos no vissliktākajiem uzņēmumiem, kurus izvēlas mūsu pētniecības komanda."
+  },
+  "redirect.continueText": {
+    "message": "Turpināt"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu tagad ir yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Lieliskas ziņas, šis pakalpojums paplašinās! Mēs nesen ieviesām atbalstu Kalifornijas Patērētāju privātuma likumam (CCPA), un drīzumā piedāvāsim atbalstu papildu pieprasījumu veidiem, kas pārsniedz dzēšanu. Tāpēc uzskatām, ka domēna nosaukums 'opt-out.eu' ir pārāk ierobežojošs. Mēs esam vairāk apņēmības pilni nekā jebkad, lai palīdzētu jums īstenot jūsu digitālās tiesības, laipni lūgti mūsu jaunajās mājās @ <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Skatiet detalizētu informāciju par {regulationType} pieprasījumu, kas iesniegts, izmantojot šo bezmaksas pakalpojumu."
+  },
+  "request.details.date": {
+    "message": "Pieprasījuma e-pasta datums:"
+  },
+  "request.details.escalationDate": {
+    "message": "Eskalācijas e-pasta datums:"
+  },
+  "request.details.header": {
+    "message": "Pieprasījuma detaļas"
+  },
+  "request.details.hide.escalation": {
+    "message": "Slēpt eskalācijas e-pastu"
+  },
+  "request.details.hide.reminder": {
+    "message": "Slēpt atgādinājuma e-pastu"
+  },
+  "request.details.hide.request": {
+    "message": "Slēpt pieprasījuma e-pastu"
+  },
+  "request.details.name": {
+    "message": "Pieprasījumu iesniedza:"
+  },
+  "request.details.nowDetails": {
+    "message": "Pieprasījuma detaļas pašlaik nav pieejamas. Lūdzu, atjauniniet lapu pēc tam, kad esat nosūtījis e-pastu."
+  },
+  "request.details.organization": {
+    "message": "Saņēmējs:"
+  },
+  "request.details.regulation": {
+    "message": "Regula:"
+  },
+  "request.details.reminderDate": {
+    "message": "Atgādinājuma e-pasta datums:"
+  },
+  "request.details.sentTo": {
+    "message": "Saņēmēja e-pasta adrese:"
+  },
+  "request.details.show.escalation": {
+    "message": "Skatīt eskalācijas e-pastu"
+  },
+  "request.details.show.reminder": {
+    "message": "Skatīt atgādinājuma e-pastu"
+  },
+  "request.details.show.request": {
+    "message": "Skatīt pieprasījuma e-pastu"
+  },
+  "request.details.type": {
+    "message": "Pieprasījuma veids:"
+  },
+  "request.hero.declined": {
+    "message": "Noraidīts"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} noraidīja jūsu pieprasījumu."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} vēl nav atbildējis."
+  },
+  "request.hero.domainTitle": {
+    "message": "Domēns:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Daļēji izpildīts"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} sekmīgi izpildīja jūsu pieprasījumu."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Pilnībā izpildīts"
+  },
+  "request.hero.header": {
+    "message": "Jūsu datu {requestType} pieprasījums uzņēmumam {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Nav atbildes"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} daļēji izpildīja jūsu pieprasījumu."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Atsauce:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "lūdzu, nosūtiet pieprasījuma e-pastu un pēc tam atjauniniet šo lapu."
+  },
+  "request.hero.requestStatus": {
+    "message": "Pieprasījuma statuss:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "Pastāv noteikti izņēmuma gadījumi, kad organizācijai ir likumīgas tiesības noraidīt jūsu pieprasījumu."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>Jebkuri personas dati, kuru esamība vai neesamība datubāzē, visticamāk, apdraud identificējamās personas dzīvību, veselību vai īpašumu;</li><li>Jebkuri personas dati, kuru esamība vai neesamība datubāzē, visticamāk, pamudinās vai izraisīs nelikumīgu darbību vai prettiesisku rīcību;</li><li>Jebkuri personas dati, kuru esamība vai neesamība datubāzē, visticamāk, ietekmēs valsts drošību, apdraudēs uzticības attiecības ar ārvalsti vai starptautisku organizāciju vai radīs valsts nelabvēlīgu stāvokli sarunās ar citu valsti vai starptautisku organizāciju;</li><li>Jebkuri personas dati, kuru esamība vai neesamība datubāzē, visticamāk, traucēs noziedzības novēršanai, kontrolei vai izmeklēšanai, vai citādi apdraudēs sabiedrisko drošību un kārtību.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Vārda brīvība vai citas tiesības, ko garantē likums.</li><li>Datu apstrāde pētniecības nolūkos, ja personas datu dzēšana padarītu to neiespējamu vai būtiski apgrūtinātu šādas pētniecības īstenošanu.</li><li>Šo personas datu apstrāde ir nepieciešama, lai aizsargātu pret nelikumīgām darbībām vai sauktu pie atbildības par tām atbildīgās personas.</li><li>Lai izpildītu juridisko pienākumu.</li><li>Lai izpildītu līgumu starp uzņēmumu un patērētāju.</li><li>Drošības incidentu atklāšana, aizsardzība pret ļaunprātīgām, maldinošām, krāpnieciskām vai nelikumīgām darbībām, vai atbildīgo personu saukšana pie atbildības.</li><li>Kļūdu novēršana, lai identificētu un labotu kļūdas, kas traucē esošo paredzēto funkcionalitāti.</li><li>Tikai iekšējai izmantošanai, kas pamatoti atbilst patērētāja gaidām, pamatojoties uz patērētāja attiecībām ar uzņēmumu.</li><li>Pretējā gadījumā patērētāja personas datu iekšēja izmantošana likumīgā veidā, kas atbilst kontekstam, kurā patērētājs sniedza šo informāciju.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finanšu iestādes un filiāles, kas pakļautas Gramm-Leach-Bliley Act;</li><li>Gaisa pārvadātāji, kas pakļauti Federālās aviācijas administrācijas regulējumam;</li><li>Nacionālās vērtspapīru asociācijas, kas reģistrētas saskaņā ar Vērtspapīru biržas likumu;</li><li>Noteiktu veidu personas dati, kas tiek uzturēti, ievērojot konkrētus federālos privātuma likumus, piemēram, Health Insurance Portability and Accountability Act un Fair Credit Reporting Act, vai noteiktiem valsts mērķiem.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Valsts un pašvaldību iestādes, bezpeļņas organizācijas, augstākās izglītības iestādes, noteiktas valsts vērtspapīru asociācijas, finanšu iestādes un subjekti, uz kuriem attiecas konkrēti tiesību akti, piemēram, Gramm-Leach-Bliley likums un Veselības apdrošināšanas pārnesamības un atbildības likums, ir atbrīvoti.</li><li>Aizsargāti veselības dati</li><li>Darbinieku dati, tostarp darba pretendentu dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Apkopota informācija</li><li>Personas dati, kas apkopoti, lai veiktu pētījumu ar cilvēkiem vai klīnisko pētījumu</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Nodrošināt patērētāja īpaši pieprasītu produktu vai pakalpojumu.</li><li>Veikt noteiktas iekšējas darbības, kas saprātīgi atbilst patērētāju gaidām.</li><li>Sākt produkta atsaukšanu vai novērst tehniskas kļūmes.</li><li>Reaģēt uz drošības incidentiem, identitātes zādzību un krāpšanu, kā arī novērst tos.</li><li>Ievērot federālos, štata vai vietējos likumus.</li><li>Pseidonimizēti dati.</li><li>De-identificēti dati.</li><li>Publiski pieejama informācija.</li><li>Publisks vai recenzēts zinātniskais pētījums.</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) personas datu apstrāde ir nepieciešama, lai īstenotu jebkādas tiesības vai prasības;</li><li>(b) personas datu apstrādi veic jebkura Indijas tiesa vai tribunāls, vai jebkura cita iestāde, kurai ar likumu ir uzticēts tiesu vai kvazitiesas, vai regulatīvu vai uzraudzības funkciju veikšana, ja šāda apstrāde ir nepieciešama šīs funkcijas veikšanai;</li><li>(c) personas dati tiek apstrādāti noziedzīgu nodarījumu vai jebkura spēkā esoša Indijas likuma pārkāpumu novēršanas, atklāšanas, izmeklēšanas vai kriminālvajāšanas interesēs;</li><li>(d) personas dati par datu subjektu, kas neatrodas Indijas teritorijā, tiek apstrādāti saskaņā ar jebkuru līgumu, ko ar jebkuru personu ārpus Indijas teritorijas ir noslēgusi persona, kas atrodas Indijā;</li><li>(e) apstrāde ir nepieciešama kompromisa vai vienošanās shēmai vai divu vai vairāku uzņēmumu apvienošanai vai saplūšanai, vai uzņēmuma reorganizācijai, tostarp sadalīšanai vai citā veidā, vai arī viena vai vairāku uzņēmumu darbības nodošanai citam uzņēmumam vai iesaistot viena vai vairāku uzņēmumu sadalīšanu, ko apstiprinājusi attiecīgā tiesa vai cita kompetenta iestāde atbilstoši spēkā esošajiem likumiem; un</li><li>(f) apstrāde tiek veikta, lai noteiktu jebkuras personas finanšu informāciju, aktīvus vai saistības, kurai ir izveidojies maksājuma kavējums saistībā ar finanšu iestādes izsniegtu aizdevumu vai avansu, ievērojot, ka šāda apstrāde atbilst spēkā esošajiem noteikumiem par informācijas vai datu izpaušanu atbilstoši spēkā esošajiem likumiem.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Atbildīgā persona var atteikt informācijas sniegšanu vai ierobežot vai aizkavēt tās sniegšanu, ja:<ul><li>a. to paredz formāls likums, jo īpaši, lai aizsargātu profesionālo noslēpumu;</li><li>b. tas ir nepieciešams, lai aizsargātu noteicošās trešo personu intereses; vai</li><li>c. pieprasījums pēc informācijas ir acīmredzami nepamatots, īpaši, ja tas nesasniedz datu aizsardzības mērķi vai ir acīmredzami vieglprātīgs.</li></ul><br/>Turklāt informācijas sniegšanu var atteikt, ierobežot vai aizkavēt šādos gadījumos:<ul><li>a. Atbildīgā persona ir privātpersona un ir izpildīti šādi nosacījumi: 1. Atbildīgās personas pašu noteicošās intereses prasa šādu pasākumu. 2. Atbildīgā persona neplāno izpaust personas datus trešajām personām.</li><li>b. Atbildīgā persona ir federāla iestāde, un ir izpildīts kāds no šiem nosacījumiem: 1. Pasākums ir nepieciešams, lai nodrošinātu noteicošas sabiedrības intereses, īpaši Šveices iekšējo vai ārējo drošību. 2. Informācijas izpaušana var apdraudēt izmeklēšanu, izmeklēšanu vai administratīvos vai tiesu procesus.</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Ievērot federālos vai štata likumus, noteikumus vai regulējumus.</il><il>(b) Ievērot federālo, štata, vietējo vai citu valsts iestāžu veiktu civillietu, krimināllietu vai regulatīvu izmeklēšanu, izmeklēšanu, pavēsti vai uzaicinājumu.</il><il>(c) Izmeklēt, noteikt, īstenot, sagatavoties vai aizstāvēt juridiskās pretenzijas.</il><il>(d) Nodrošināt patērētāja vai bērna vecāka vai aizbildņa īpaši pieprasītu produktu vai pakalpojumu, izpildīt līgumu, kurā patērētājs ir puse, tostarp izpildīt rakstiskas garantijas noteikumus, vai veikt darbības pēc patērētāja lūguma pirms līguma noslēgšanas.</il><il>(e) Nekavējoties veikt pasākumus, lai aizsargātu interesi, kas ir būtiska patērētāja vai citas personas dzīvībai vai fiziskajai drošībai un kuras apstrādi acīmredzami nevar balstīt uz citu tiesisku pamatu.</il><il>(f) Novērst, atklāt, aizsargāt pret vai reaģēt uz drošības incidentiem, identitātes zādzību, krāpšanu, uzmākšanos, ļaunprātīgām vai maldinošām darbībām vai jebkuru nelikumīgu darbību.</il><il>(g) Saglabāt sistēmu integritāti vai drošību vai izmeklēt, ziņot vai saukt pie atbildības personas, kas ir atbildīgas par sistēmas drošības pārkāpumiem.</il><il>(h) Veikt publiski vai recenzētā zinātniskā vai statistikas pētījumā sabiedrības interesēs, kas atbilst visiem citiem piemērojamiem ētikas un privātuma likumiem un kuru ir apstiprinājusi, uzraudzījusi un regulējusi institucionāla pārskata padome vai līdzīga neatkarīga uzraudzības vienība, kas nosaka: 1. Vai informācijas dzēšana, visticamāk, sniegs būtiskus ieguvumus, kas nepienākas tikai pārzinim; 2. Vai gaidāmie pētījuma ieguvumi atsver privātuma riskus; un 3. Vai pārzinis ir ieviesis saprātīgus drošības pasākumus, lai mazinātu ar pētījumu saistītos privātuma riskus, tostarp jebkurus riskus, kas saistīti ar atkārtotu identifikāciju.</il><il>(i) Palīdzēt citam pārzinim, apstrādātājam vai trešajai pusei ievērot šīs daļas prasības.</il><il>(j) Izpaust personas datus, kas tiek atklāti, ja patērētājs izmanto vai norāda pārzinim apzināti atklāt informāciju trešajai pusei vai izmanto pārziņa pakalpojumus, lai apzināti mijiedarbotos ar trešo pusi. Apzināta mijiedarbība notiek, ja patērētājs paredz mijiedarbību ar trešo pusi, veicot vienu vai vairākas apzinātas darbības. Ja kursoru tikai uzliek virs satura, to izslēdz, aptur vai aizver, tas netiek uzskatīts par patērētāja nodomu mijiedarboties ar trešo pusi.</il><il>(k) Pārsūtīt personas datus trešajai pusei kā aktīvu, kas ir daļa no apvienošanās, iegādes, bankrota vai cita darījuma, kura rezultātā trešā puse pārņem daļu vai visu pārziņa kontroli, ar nosacījumu, ka informācija tiek izmantota vai kopīgota veidā, kas atbilst šīs daļas prasībām. Ja trešā puse būtiski maina to, kā tā izmanto vai kopīgo patērētāja personas datus, un tas ir materiāli pretrunā ar saistībām vai solījumiem, kas doti datu vākšanas brīdī, tai pirms jaunās vai mainītās prakses piemērošanas ir iepriekš jāinformē patērētājs. Šim paziņojumam jābūt pietiekami uzskatāmam un skaidram, lai nodrošinātu, ka patērētāji var viegli īstenot izvēles, kas atbilst šīs daļas prasībām.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>Ja jūsu datu saglabāšana ir nepieciešama vārda un informācijas brīvības apsvērumu dēļ (tas ietver žurnālistiku, akadēmiskus, mākslinieciskus un literārus nolūkus).</li><li>Ja organizācijai ir juridisks pienākums saglabāt jūsu datus.</li><li>Ja jūsu datu saglabāšana ir nepieciešama sabiedrības veselības apsvērumu dēļ.</li><li>Ja jūsu datu saglabāšana ir nepieciešama, lai izvirzītu, īstenotu vai aizstāvētu juridiskas prasības.</li><li>Ja jūsu datu dzēšana kavētu zinātniskus vai vēsturiskus pētījumus, vai arhivēšanu, kas ir sabiedrības interesēs.</li><li>Ja, izskatot jūsu pieprasījumu, organizācija nolemj, ka nav nepieciešams dzēst jūsu datus, tai tomēr ir jāsniedz atbilde. Tai vajadzētu paskaidrot, kāpēc tā uzskata, ka nav jādzēš jūsu dati, un informēt jūs par tiesībām iesniegt sūdzību par šo lēmumu datu aizsardzības iestādei vai tiesā.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseidonimizēti dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Publisks vai recenzēts zinātniskais pētījums</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Vārda brīvība vai citas tiesības, ko garantē likums.</li><li>Datu apstrāde pētniecības nolūkos, ja personas datu dzēšana padarītu to neiespējamu vai būtiski apgrūtinātu šādas pētniecības īstenošanu.</li><li>Šo personas datu apstrāde ir nepieciešama, lai aizsargātu pret nelikumīgām darbībām vai sauktu pie atbildības par tām atbildīgās personas.</li><li>Lai izpildītu juridisko pienākumu.</li><li>Lai izpildītu līgumu starp uzņēmumu un patērētāju.</li><li>Drošības incidentu atklāšana, aizsardzība pret ļaunprātīgām, maldinošām, krāpnieciskām vai nelikumīgām darbībām, vai atbildīgo personu saukšana pie atbildības.</li><li>Kļūdu novēršana, lai identificētu un labotu kļūdas, kas traucē esošo paredzēto funkcionalitāti.</li><li>Tikai iekšējai izmantošanai, kas pamatoti atbilst patērētāja gaidām, pamatojoties uz patērētāja attiecībām ar uzņēmumu.</li><li>Pretējā gadījumā patērētāja personas datu iekšēja izmantošana likumīgā veidā, kas atbilst kontekstam, kurā patērētājs sniedza šo informāciju.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Valsts iestādes</li><li>Federāli atzītas indiāņu ciltis</li><li>Subjekti un biznesa partneri, uz kuriem attiecas HIPAA</li><li>Štata vai federāli licencētas bankas vai krājaizdevu sabiedrības</li><li>Apdrošināšanas sabiedrības</li><li>Mazie uzņēmumi, kā to definējusi ASV Mazo uzņēmumu administrācija</li><li>Bezpeļņas organizācijas, kas izveidotas vienīgi, lai atklātu vai novērstu apdrošināšanas krāpšanu</li><li>Personas dati, uz kuriem attiecas GLBA vai FCRA</li><li>Darba vai darba pretendenta personas dati, pabalsti un ārkārtas kontaktinformācija</li><li>De-identificēti vai publiski pieejami dati</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Valsts un pašvaldību iestādes, bezpeļņas organizācijas, augstākās izglītības iestādes, noteiktas valsts vērtspapīru asociācijas, finanšu iestādes un subjekti, uz kuriem attiecas konkrēti tiesību akti, piemēram, Gramm-Leach-Bliley likums un Veselības apdrošināšanas pārnesamības un atbildības likums, ir atbrīvoti.</li><li>Aizsargāti veselības dati</li><li>Darbinieku dati, tostarp darba pretendentu dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Apkopota informācija</li><li>Personas dati, kas apkopoti, lai veiktu pētījumu ar cilvēkiem vai klīnisko pētījumu</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseidonimizēti dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Publisks vai recenzēts zinātniskais pētījums</li><li>Aizsargāti veselības dati</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseidonimizēti dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Publisks vai recenzēts zinātniskais pētījums</li><li>Aizsargāti veselības dati</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseidonimizēti dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Publisks vai recenzēts zinātniskais pētījums</li><li>Aizsargāti veselības dati</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Valsts un pašvaldību iestādes, bezpeļņas organizācijas, augstākās izglītības iestādes, noteiktas valsts vērtspapīru asociācijas un finanšu iestādes ir atbrīvotas. Turklāt daži datu veidi ir atbrīvoti:<ul><li>Aizsargāti veselības dati</li><li>Darbinieku dati, tostarp darba pretendentu dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Apkopota informācija</li><li>Personas dati, kas ievākti cilvēku subjektu pētījumos vai klīniskajā pētījumā</li></ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Personas dati, kas tiek apstrādāti personīgām vai mājsaimniecības vajadzībām</li><li>Valsts iestāžu veikta apstrāde, kas saistīta ar nacionālo drošību, sabiedrisko drošību vai nodokļiem</li><li>Apstrāde žurnālistiskiem, mākslinieciskiem vai literāriem nolūkiem sabiedrības interesēs</li><li>Pārstāvju palātas, Senāta, Parlamenta vai to komiteju veikta apstrāde</li><li>Tiesu un tiesu amatpersonu veikta apstrāde viņu pienākumu ietvaros</li><li>Kredīta informācijas uzņēmumu un to dalībnieku veikta apstrāde saskaņā ar Kredītu informācijas biznesa likumu</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Personas datu apstrāde, ko fiziska persona veic tikai personīgiem mērķiem</li><li>Apstrāde, ko tieši veic kompetenta valsts iestāde, lai pildītu savus likumīgos pienākumus</li><li>Apstrāde, kas nepieciešama nacionālās drošības vai sabiedriskās kārtības nolūkiem</li><li>Apstrāde bez piekrišanas banku un finanšu sektorā, ja to atļauj likums</li><li>Drošības dienestu veikta apstrāde nacionālo interešu mērķiem</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Izņēmumiem piekļuves prasībai vajadzētu būt ierobežotiem un precīzi noteiktiem.</li><li>Iemesli piekļuves liegšanai pēc pieprasījuma ir jāpaskaidro personai.</li><li>Izņēmumi var ietvert informāciju, kuras nodrošināšana ir pārmērīgi dārga, informāciju, kurā ir atsauces uz citiem indivīdiem, informāciju, kuru nedrīkst atklāt juridisku, drošības vai komerciālu īpašumtiesību apsvērumu dēļ, vai informāciju, uz kuru attiecas advokāta-klienta vai tiesvedības privilēģija.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": "如果法律、行政法规规定需要保密或者不需要通知的，个人信息处理者处理个人信息时，可以不向个人通知前条第一款规定的事项。"
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Personīgi vai mājsaimniecības nolūki</li><li>Pilnībā de-identificēti dati</li><li>Nacionālā drošība</li><li>Tiesībaizsardzība</li><li>Ministru kabinets un tā komitejas vai provinces Izpildpadome</li><li>Saistībā ar tiesas funkcijām, kas minētas Konstitūcijas 166. pantā.</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Valsts un pašvaldību iestādes, bezpeļņas organizācijas, augstākās izglītības iestādes, noteiktas valsts vērtspapīru asociācijas, finanšu iestādes un subjekti, uz kuriem attiecas konkrēti tiesību akti, piemēram, Gramm-Leach-Bliley likums un Veselības apdrošināšanas pārnesamības un atbildības likums, ir atbrīvoti."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Valsts iestādes un politiskās apakšvienības</li><li>Uz HIPAA/HITECH attiecināmie subjekti un biznesa partneri</li><li>Finanšu iestādes un saistītās organizācijas, uz kurām attiecas Gramm-Leach-Bliley likums (GLBA)</li><li>Augstākās izglītības iestādes</li><li>Bezpeļņas organizācijas</li><li>Apdrošināšanas sabiedrības, kas licencētas saskaņā ar Tenesī likumiem</li><li>Personas dati, kurus regulē Godīgās kredītziņošanas likums (FCRA)</li><li>Ar nodarbinātību vai komerciālo kontekstu saistīti personas dati</li><li>Publiski pieejami, apkopoti vai deidentificēti dati</li><li>Personas dati, kurus regulē FERPA vai COPPA</li><li>Pacientu drošības darba produkti un citi veselības dati, kas ir atbrīvoti saskaņā ar federālajiem tiesību aktiem</li><li>Zinātniskie vai statistikas pētījumu dati, kas atbilst likumā noteiktajiem drošības pasākumiem</li></ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Valsts un pašvaldību iestādes, bezpeļņas organizācijas, augstākās izglītības iestādes, noteiktas valsts vērtspapīru asociācijas, finanšu iestādes un subjekti, uz kuriem attiecas konkrēti tiesību akti, piemēram, Gramm-Leach-Bliley likums un Veselības apdrošināšanas pārnesamības un atbildības likums, ir atbrīvoti.</li><li>Aizsargāti veselības dati</li><li>Darbinieku dati, tostarp darba pretendentu dati</li><li>De-identificēti dati</li><li>Publiski pieejama informācija</li><li>Apkopota informācija</li><li>Personas dati, kas apkopoti, lai veiktu pētījumu ar cilvēkiem vai klīnisko pētījumu</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Aizsargāta veselības informācija saskaņā ar HIPAA;</li><li>Veselības ieraksti saskaņā ar Title 32.1;</li><li>Pacienta identifikācijas informācija atbilstoši 42 U.S.C. § 290dd-2;</li><li>Identificējama privātā informācija saskaņā ar federālo politiku cilvēku pētījumu aizsardzībai atbilstoši 45 C.F.R. Part 46; identificējama privātā informācija, kas ir citādi apkopota cilvēku pētījumu ietvaros, ievērojot Starptautiskās Harmonizācijas padomes izdotās labas klīniskās prakses vadlīnijas; cilvēku pētījumu aizsardzība atbilstoši 21 C.F.R. Parts 6, 50 un 56, vai personas dati, kas tiek lietoti vai kopīgoti pētījumos, kas tiek veikti saskaņā ar šajā nodaļā izklāstītajām prasībām, vai citi pētījumi, kas tiek veikti atbilstoši piemērojamajiem tiesību aktiem;</li><li>Informācija un dokumenti, kas radīti atbilstoši federālajam 1986. gada Health Care Quality Improvement Act (42 U.S.C. § 11101 et seq.);</li><li>Pacientu drošības darbam paredzētie dati saskaņā ar federālo Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);</li><li>Informācija, kas iegūta no jebkuras šajā apakšpunktā minētās veselības aprūpes informācijas, kas ir deidentificēta atbilstoši HIPAA deidentificēšanas prasībām;</li><li>Informācija, kas izriet no vai ir sapludināta tā, ka to nav iespējams atšķirt no šajā apakšpunktā izslēgtās informācijas un ko uztur iestāde vai uzņēmējs, kas definēts atbilstoši HIPAA vai programmā vai piesaistītā pakalpojumu organizācijā, kā definēts 42 U.S.C. § 290dd-2;</li><li>Informācija, ko izmanto tikai sabiedrības veselības aktivitātēm un mērķiem, kā to atļauj HIPAA;</li><li>Jebkādas personas informācijas vākšana, uzturēšana, izpaušana, pārdošana, komunikācija vai izmantošana, kas skar patērētāja kredītspēju, kredītvēsturi, kredītspēju, raksturu, vispārējo reputāciju, personiskās īpašības vai dzīvesveidu, ko veic patērētāju ziņošanas aģentūra vai datu sniedzējs, kas sniedz informāciju patērētāja pārskatam, un kāds, kurš to izmanto – tikai tad, ja šī darbība ir regulēta un atļauta saskaņā ar federālo Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);</li><li>Personas dati, kas tiek apkopoti, apstrādāti, pārdoti vai izpausti, ievērojot federālo 1994. gada Driver's Privacy Protection Act (18 U.S.C. § 2721 et seq.);</li><li>Personas dati, uz ko attiecas federālais Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);</li><li>Personas dati, kas tiek apkopoti, apstrādāti, pārdoti vai izpausti, ievērojot federālo Farm Credit Act (12 U.S.C. § 2001 et seq.);</li><li>Dati, kas tiek apstrādāti vai uzturēti (i) indivīda pieteikšanās, nodarbinātības vai darbības kā aģenta vai neatkarīga līgumslēdzēja laikā pie pārziņa, apstrādātāja vai trešās puses, tiktāl cik dati tiek vākti un izmantoti šajā kontekstā; (ii) kā indivīda ārkārtas kontaktinformācija saskaņā ar šo nodaļu, ko izmanto ārkārtas situācijās; vai (iii) kas ir nepieciešami, lai administrētu pabalstus citam indivīdam saistībā ar indivīdu, kas minēts (i) punktā, un tiek izmantoti šo pabalstu administrēšanai.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Ieteikums: eskalējiet savu pieprasījumu savai { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Ieteikums: ja uzskatāt, ka { companyName } vajadzēja pilnībā izpildīt jūsu pieprasījumu, mēs iesakām eskalēt jūsu pieprasījumu { authorityLong } ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Jūs esat eskalējis savu pieprasījumu {dpaLong} ({dpaShort}), lūdzu, turpiniet saziņu ar viņiem tieši. Mēs nevaram palīdzēt nekā citādi."
+  },
+  "request.next.esclateButton": {
+    "message": "Eskalēt uz { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Uzziniet vairāk par šiem izņēmumiem"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "Atbilstoši {regulationType} organizācijām ir { timeLimit } dienas, lai atbildētu uz jūsu pieprasījumu."
+  },
+  "request.next.reminderButton": {
+    "message": "Nosūtiet organizācijai atgādinājuma e-pastu"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Lūdzu, izvēlieties kādu no šīm opcijām:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Ja vēlaties veikt turpmākas darbības, lūdzu, izvēlieties kādu no šīm opcijām:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Ja nevēlaties gaidīt, lūdzu, izvēlieties kādu no šīm opcijām:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Ieteikums: nosūtiet organizācijai atgādinājuma e-pastu."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Ieteikums: pagaidiet, līdz būs pagājušas { timeLimit } dienas, lai uzņēmumam būtu laiks apstrādāt jūsu pieprasījumu."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Ieteikums: pagaidiet, līdz no pieprasījuma nosūtīšanas dienas būs pagājušas { timeLimit } dienas, lai organizācijai būtu laiks apstrādāt jūsu pieprasījumu pēc jūsu atgādinājuma e-pasta."
+  },
+  "request.next.whatsNext": {
+    "message": "Kas tālāk"
+  },
+  "request.success": {
+    "message": "Apsveicam, { companyName } ir veiksmīgi izpildījis jūsu pieprasījumu. Jūsu personas dati tiks automātiski dzēsti no šīs tīmekļa vietnes 120 dienu laikā no jūsu sākotnējā pieprasījuma datuma. Alternatīvi, jūs varat <a>dzēst savus personas datus tagad</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Eskalēt jūsu pieprasījumu"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Atgādinājums nosūtīts"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Pieprasījums nav nosūtīts"
+  },
+  "request.timeline.requestSent": {
+    "message": "Pieprasījums nosūtīts"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Jūsu pieprasījuma laika grafiks"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Eskalācija nosūtīta"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Nosūtīt atgādinājumu"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.title": {
+    "message": "Detaļas par jūsu {regulationType} pieprasījumu"
+  },
+  "requestEscalation.complaint": {
+    "message": "Papildu detaļas"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Lūdzu, izskaidrojiet, kāpēc jūs neapmierina veids, kā organizācija rīkojusies ar jūsu pieprasījumu"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Atvērt eskalācijas veidlapu"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "Lai eskalētu savu pieprasījumu, jums būs jāaizpilda veidlapa {authority} tīmekļa vietnē. Noklikšķiniet uz zemāk redzamās pogas, lai atvērtu veidlapu jaunā cilnē."
+  },
+  "requestEscalation.geography": {
+    "message": "Atrašanās vieta"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Lūdzu, atlasiet savu dzīvesvietu"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "Lai paātrinātu jūsu pieprasījuma izskatīšanu, lūdzu, zvaniet {authority} pa tālruni {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Pārskatīt un Nosūtīt"
+  },
+  "search.companyPlaceholder": {
+    "message": "Meklējiet organizāciju"
+  },
+  "search.noResults": {
+    "message": "Nevarat atrast organizāciju?"
+  },
+  "search.noResultsMore": {
+    "message": "Noklikšķiniet šeit, lai to pievienotu"
+  },
+  "sendEmailButton.copy": {
+    "message": "Kopēt e-pasta tekstu starpliktuvē"
+  },
+  "sendEmailButton.default": {
+    "message": "Atvērt noklusējuma e-pasta programmā"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Atvērt Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Atvērt Yahoo Mail"
+  },
+  "social.chromeCTA": {
+    "message": "Lejupielādējiet to Chrome"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome paplašinājums"
+  },
+  "social.emailBody": {
+    "message": "Iepazīstieties ar YourDigitalRights.org – bezmaksas pakalpojumu, kas ļauj viegli uzzināt, kādi personas dati par jums ir tūkstošiem organizāciju, un panākt to dzēšanu."
+  },
+  "social.emailSubject": {
+    "message": "Noskaidrojiet, kādi personas dati par jums ir tūkstošiem organizāciju, un panāciet to dzēšanu | Your Digital Rights"
+  },
+  "social.extensionHeadline": {
+    "message": "Atsakieties tieši no sava pārlūka"
+  },
+  "social.extensionText": {
+    "message": "Vai vēlaties labāku kontroli par to, kam ir piekļuve jūsu personas datiem? Mūsu pārlūka paplašinājums ļauj jums atteikties no vietnēm, kuras apmeklējat, ar vienu klikšķi."
+  },
+  "social.facebookQuote": {
+    "message": "Noskaidrojiet, kādi personas dati par jums ir tūkstošiem organizāciju, un panāciet to dzēšanu. Apskatiet yourdigitalrights.org."
+  },
+  "social.firefoxCTA": {
+    "message": "Lejupielādējiet to Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "Firefox paplašinājums"
+  },
+  "social.shareHeading": {
+    "message": "Ja uzskatāt šo pakalpojumu par noderīgu, lūdzu, pastāstiet par to citiem"
+  },
+  "social.twitterTitle": {
+    "message": "Noskaidrojiet, kādi personas dati par jums ir tūkstošiem organizāciju, un panāciet to dzēšanu. Apskatiet yourdigitalrights.org."
+  },
+  "stats.description": {
+    "message": "Datu aizsardzības pieprasījumu statistika."
+  },
+  "stats.statsSubTitle": {
+    "message": "Mūsu misija ir palīdzēt cilvēkiem atgūt kontroli pār savu tiešsaistes privātumu, ļaujot tiem pieprasīt, lai organizācijas dzēš vai nodrošina viņu personas datu kopiju. Turpmāk redzamā statistika rāda, kuras organizācijas ir saņēmušas visvairāk pieprasījumu dažādos laika periodos."
+  },
+  "stats.statsTitle": {
+    "message": "Pieprasījumu statistika"
+  },
+  "stats.title": {
+    "message": "Pieprasījumu statistika"
+  },
+  "stats.titleAlltime": {
+    "message": "Visu laiku populārākie pieprasījumi"
+  },
+  "stats.titleMonth": {
+    "message": "Šomēnes populārākie pieprasījumi"
+  },
+  "stats.titleWeek": {
+    "message": "Šonedēļ populārākie pieprasījumi"
+  },
+  "stats.titleYear": {
+    "message": "Šogad populārākie pieprasījumi"
+  },
+  "stats.total": {
+    "message": "Kopā nosūtīti pieprasījumi: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Esi soli priekšā tiešsaistes draudiem un pārvaldi savus personas datus ar Privacy Alerts! Mūsu jaunumu izdevums piedāvā jaunākos ekspertu padomus, ieteikumus un paņēmienus, lai aizsargātu tavu privātumu digitālajā vidē. Abonē tūlīt, lai būtu informēts un varētu rīkoties!"
+  },
+  "subscribe.title": {
+    "message": "Abonējiet Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "Mēs saprotam, ka panākt, lai uzņēmumi dzēš jūsu datus, reizēm var būt nomācoši."
+  },
+  "support.description2": {
+    "message": "Mūsu maksas atbalsta pakalpojums nodrošina tiešu saziņu ar kādu no mūsu darbiniekiem, kurš ar prieku palīdzēs jums ar datu dzēšanas vai piekļuves pieprasījumu."
+  },
+  "support.posPaidtitle": {
+    "message": "Paldies!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Lūdzu, sazinieties ar mums, izmantojot šo e-pasta adresi, lai piekļūtu maksas atbalstam:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Maksas atbalsta pakalpojums nodrošina tiešu saziņu ar kādu no mūsu darbiniekiem"
+  },
+  "support.seoTitle": {
+    "message": "Atbalsts"
+  },
+  "support.title": {
+    "message": "Maksas atbalsts"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "ir nokopēts starpliktuvē, viss, kas jums jādara, ir jāielīmē tas e-pastā, jāpārskata un jānoklikšķina uz Nosūtīt."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "e-pastam vajadzētu atvērties jūsu e-pasta programmā, viss, kas jums jādara, ir jāpārskata un jānoklikšķina uz Nosūtīt."
+  },
+  "thankyou.description": {
+    "message": "Paldies"
+  },
+  "thankyou.donation": {
+    "message": "Palīdziet mums saglabāt šo pakalpojumu bez maksas, <a>veicot ziedojumu</a>, lai nodrošinātu mūsu ilgtermiņa finansiālo stabilitāti un neatkarību."
+  },
+  "thankyou.findCompany": {
+    "message": "Meklēt citu organizāciju"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organizācijām ir {days} lai izpildītu pieprasījumu, un tās var pieprasīt papildinformāciju, lai pārbaudītu jūsu identitāti."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "Piekļuves pieprasījums"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "Dzēšanas pieprasījums"
+  },
+  "thankyou.seotitle": {
+    "message": "Paldies"
+  },
+  "thankyou.title": {
+    "message": "Paldies!"
+  }
+}

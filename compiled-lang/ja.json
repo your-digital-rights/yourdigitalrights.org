@@ -2934,7 +2934,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities"
+              "value": "政府機関"
             }
           ],
           "type": 8,
@@ -2944,7 +2944,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Federally recognised Indian tribes"
+              "value": "連邦政府が承認するインディアン部族"
             }
           ],
           "type": 8,
@@ -2954,7 +2954,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates under HIPAA"
+              "value": "HIPAAの対象事業体およびビジネスアソシエイト"
             }
           ],
           "type": 8,
@@ -2964,7 +2964,7 @@
           "children": [
             {
               "type": 0,
-              "value": "State or federally chartered banks or credit unions"
+              "value": "州または連邦政府が認可する銀行や信用組合"
             }
           ],
           "type": 8,
@@ -2974,7 +2974,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies"
+              "value": "保険会社"
             }
           ],
           "type": 8,
@@ -2984,7 +2984,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Small businesses as defined by the U.S. Small Business Administration"
+              "value": "米国中小企業庁が定義する中小企業"
             }
           ],
           "type": 8,
@@ -2994,7 +2994,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profits established solely to detect or prevent insurance fraud"
+              "value": "保険詐欺の発見または防止のみを目的として設立された非営利団体"
             }
           ],
           "type": 8,
@@ -3004,7 +3004,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by GLBA or FCRA"
+              "value": "GLBAまたはFCRAにより規制される個人データ"
             }
           ],
           "type": 8,
@@ -3014,7 +3014,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑context or job‑applicant personal data, benefits and emergency contact data"
+              "value": "雇用に関連するまたは応募者の個人データ、福利厚生および緊急連絡先に関するデータ"
             }
           ],
           "type": 8,
@@ -3024,7 +3024,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De‑identified or publicly available data"
+              "value": "匿名化または一般公開されているデータ"
             }
           ],
           "type": 8,
@@ -3366,7 +3366,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data processed for personal or household activities"
+              "value": "個人または家庭での活動のために処理される個人データ"
             }
           ],
           "type": 8,
@@ -3376,7 +3376,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by state authorities related to national security, public safety or taxation"
+              "value": "国家安全保障、公共の安全、または課税に関連する州当局による処理"
             }
           ],
           "type": 8,
@@ -3386,7 +3386,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for journalistic, artistic or literary purposes in the public interest"
+              "value": "公共の利益のための報道、芸術、または文学的目的での処理"
             }
           ],
           "type": 8,
@@ -3396,7 +3396,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by the House of Representatives, Senate, Parliament or their committees"
+              "value": "代議院、上院、議会、またはその委員会による処理"
             }
           ],
           "type": 8,
@@ -3406,7 +3406,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by courts and judicial officers within their duties"
+              "value": "裁判所および司法担当官がその職務の範囲内で行う処理"
             }
           ],
           "type": 8,
@@ -3416,7 +3416,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by credit bureaus and their members under the Credit Information Business Act"
+              "value": "与信情報事業法の下で行われる信用情報機関およびその会員による処理"
             }
           ],
           "type": 8,
@@ -3434,7 +3434,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of personal data by a natural person for purely personal purposes"
+              "value": "純粋に個人的な目的のために自然人が個人データを処理すること"
             }
           ],
           "type": 8,
@@ -3444,7 +3444,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing carried out directly by a competent public authority to perform its statutory tasks"
+              "value": "権限のある公的機関が法定の任務を遂行するために直接行う処理"
             }
           ],
           "type": 8,
@@ -3454,7 +3454,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing necessary for national security or public order purposes"
+              "value": "国家安全保障または公共の秩序を目的とするために必要な処理"
             }
           ],
           "type": 8,
@@ -3464,7 +3464,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing without consent in the banking and financial sector as permitted by law"
+              "value": "法律で認められる範囲で銀行・金融部門において同意なく行われる処理"
             }
           ],
           "type": 8,
@@ -3474,7 +3474,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by security services for national interest objectives"
+              "value": "国益に係る目的のためにセキュリティ機関が行う処理"
             }
           ],
           "type": 8,
@@ -3536,7 +3536,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal or household activity"
+              "value": "個人または家庭での活動"
             }
           ],
           "type": 8,
@@ -3546,7 +3546,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Fully de-identified data"
+              "value": "完全に匿名化されたデータ"
             }
           ],
           "type": 8,
@@ -3556,7 +3556,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National-security"
+              "value": "国家安全保障"
             }
           ],
           "type": 8,
@@ -3566,7 +3566,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Law-enforcement"
+              "value": "法執行"
             }
           ],
           "type": 8,
@@ -3576,7 +3576,7 @@
           "children": [
             {
               "type": 0,
-              "value": "By the Cabinet and its committees or the Executive Council of a province"
+              "value": "内閣およびその委員会、または州の行政評議会によるもの"
             }
           ],
           "type": 8,
@@ -3586,7 +3586,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Relating to the judicial functions of a court referred to in section 166 of the Constitution."
+              "value": "憲法第166条に規定される裁判所の司法機能に関するもの"
             }
           ],
           "type": 8,
@@ -3610,7 +3610,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities and political subdivisions"
+              "value": "政府機関および政治的下部組織"
             }
           ],
           "type": 8,
@@ -3620,7 +3620,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates subject to HIPAA/HITECH"
+              "value": "HIPAA/HITECHの対象となる事業体およびビジネスアソシエイト"
             }
           ],
           "type": 8,
@@ -3630,7 +3630,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)"
+              "value": "グラム・リーチ・ブライリー法 (GLBA) の対象となる金融機関および関連企業"
             }
           ],
           "type": 8,
@@ -3640,7 +3640,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Institutions of higher education"
+              "value": "高等教育機関"
             }
           ],
           "type": 8,
@@ -3650,7 +3650,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profit organizations"
+              "value": "非営利組織"
             }
           ],
           "type": 8,
@@ -3660,7 +3660,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies licensed under Tennessee law"
+              "value": "テネシー州法の下で認可された保険会社"
             }
           ],
           "type": 8,
@@ -3670,7 +3670,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the Fair Credit Reporting Act (FCRA)"
+              "value": "公正信用報告法 (FCRA) により規制される個人データ"
             }
           ],
           "type": 8,
@@ -3680,7 +3680,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑related or commercial‑context personal data"
+              "value": "雇用関連または商業的文脈における個人データ"
             }
           ],
           "type": 8,
@@ -3690,7 +3690,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available, aggregated or de‑identified data"
+              "value": "公開されている、集計された、または匿名化されたデータ"
             }
           ],
           "type": 8,
@@ -3700,7 +3700,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by FERPA or COPPA"
+              "value": "FERPAまたはCOPPAにより規制される個人データ"
             }
           ],
           "type": 8,
@@ -3710,7 +3710,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product and other health data exempted under federal law"
+              "value": "連邦法で免除された患者の安全に関する業務成果物およびその他の医療データ"
             }
           ],
           "type": 8,
@@ -3720,7 +3720,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Scientific or statistical research data meeting statutory safeguards"
+              "value": "法的保護措置を満たす科学的または統計的研究データ"
             }
           ],
           "type": 8,

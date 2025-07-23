@@ -1,0 +1,1079 @@
+{
+  "about.aboutTitle": {
+    "message": "Vårt uppdrag"
+  },
+  "about.consciousDigital": {
+    "message": "Vilka vi är"
+  },
+  "about.consciousDigital1": {
+    "message": "YourDigitalRights.org är en skapelse av {cd}, en registrerad välgörenhetsorganisation som skapar människocentrerade digitala initiativ för att främja och utveckla digitala mänskliga rättigheter."
+  },
+  "about.contact": {
+    "message": "Kontakt"
+  },
+  "about.contactText": {
+    "message": "Kontakta oss på {email}."
+  },
+  "about.contributors": {
+    "message": "Medverkande"
+  },
+  "about.contributorsBody1": {
+    "message": "{linkedin} - Frontend-webbutvecklare."
+  },
+  "about.contributorsBody3": {
+    "message": "{linkedin} - Frontend-webbutvecklare."
+  },
+  "about.contributorsBody4": {
+    "message": "{linkedin} - Frontend-webbutvecklare."
+  },
+  "about.contributorsBody5": {
+    "message": "{linkedin} - Infrastrukturingenjör."
+  },
+  "about.contributorsBody6": {
+    "message": "{link} - Fullstack-utvecklare, bidrog med APPI-stöd och den övergripande japanska översättningen av webbplatsen."
+  },
+  "about.createdByBody2": {
+    "message": "{linkedin} - Frontend-webbutvecklare, mobilapputvecklare och skapare av Skyjacker, AR-spelet för flygspårning."
+  },
+  "about.description": {
+    "message": "Your Digital Rights skapades eftersom vi anser att du har rätt till integritet, och att det ska vara enkelt att utöva den rätten."
+  },
+  "about.funding": {
+    "message": "Finansiering"
+  },
+  "about.fundingBody1": {
+    "message": "Detta projekt finansieras av sina skapare och med hjälp av dina donationer."
+  },
+  "about.missionBody1": {
+    "message": "Vi anser att integritet är en grundläggande mänsklig rättighet och att utövandet av denna rättighet bör vara lättillgängligt för alla. Dataskyddsförordningar såsom {GDPR} (EU), {CCPA} (Kalifornien) och {LGPD} (Brasilien) utgör den rättsliga infrastrukturen för att skydda människors grundläggande rätt till integritet online."
+  },
+  "about.missionBody2": {
+    "message": "Dataskyddsregler är ett steg i rätt riktning, men att utöva dina rättigheter enligt dessa lagar är fortfarande så pass svårt att de flesta inte bryr sig om det. Situationen förvärras av att många organisationer gör det svårt att skicka in databegräranden (till exempel genom att inte publicera några företagsmejladresser på sin webbplats). Vårt mål är att göra de rättigheter som dessa lagar ger tillgängliga för alla."
+  },
+  "about.missionBody3": {
+    "message": "Detta är en kostnadsfri tjänst. Vi är inget företag och har ingen affärsmodell. Vi erbjuder inga tjänster till organisationerna i listan. Vi samlar inte in eller handlar med några personuppgifter. Denna tjänst är <a>Open Source</a>."
+  },
+  "about.sponsors": {
+    "message": "Stödjande organisationer"
+  },
+  "about.sponsorsBody2": {
+    "message": "{crunchbase} - för att de tillhandahåller en ögonblicksbild av deras företagsdatabas som vi använder för att berika vår lista över organisationer."
+  },
+  "about.sponsorsBody3": {
+    "message": "{featureupvote} - för att de tillhandahåller ett effektivt sätt att samla in feedback från communityn gällande vår {roadmap}."
+  },
+  "about.sponsorsBody4": {
+    "message": "{innocraft} - för tillhandahållandet av en värdbaserad version av Matomo (Piwik), den öppna och integritetsfokuserade webbanalysplattformen."
+  },
+  "about.sponsorsBody6": {
+    "message": "{sws} - för att hjälpa oss implementera en SEO-strategi."
+  },
+  "about.sponsorsBody7": {
+    "message": "{ama} - för att hjälpa oss att förstå och stödja den brasilianska dataskyddsförordningen, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+  },
+  "about.sponsorsTitle": {
+    "message": "Vi vill tacka följande organisationer för att de stödjer vårt open source-arbete genom att erbjuda en kostnadsfri eller rabatterad version av sina tjänster:"
+  },
+  "about.title": {
+    "message": "Om oss"
+  },
+  "aboutOrg.description": {
+    "message": "Med deras egna ord:"
+  },
+  "aboutOrg.details": {
+    "message": "Om {org}"
+  },
+  "aboutOrg.email": {
+    "message": "E-post:"
+  },
+  "aboutOrg.founded": {
+    "message": "Grundat:"
+  },
+  "aboutOrg.headquarters": {
+    "message": "Huvudkontor:"
+  },
+  "aboutOrg.industry": {
+    "message": "Bransch:"
+  },
+  "aboutOrg.privacyPolicy": {
+    "message": "Visa {org}:s <a>Integritetspolicy</a>"
+  },
+  "aboutOrg.specialties": {
+    "message": "Företagsspecialiteter:"
+  },
+  "aboutOrg.type": {
+    "message": "Företagstyp:"
+  },
+  "contribute.creadit": {
+    "message": "Även om vi inte har råd att betala dig för ditt arbete, är vi mer än glada att ge dig erkännande för dina bidrag, vare sig det är på den här webbplatsen, på GitHub eller på annat sätt."
+  },
+  "contribute.creditTitle": {
+    "message": "Krediter"
+  },
+  "contribute.crowdinStep1": {
+    "message": "Skapa ett konto på Crowdin genom att följa denna <a>länk</a>."
+  },
+  "contribute.crowdinStep2": {
+    "message": "Följ denna <a>länk</a> för att ladda översättningssystemet."
+  },
+  "contribute.crowdinStep3": {
+    "message": "Välj ett språk (du måste logga in på Crowdin för att göra detta)."
+  },
+  "contribute.crowdinStep4": {
+    "message": "Du bör nu se rutor som omger de olika textbitarna på webbplatsen. För markören över den text du vill översätta och klicka på ikonen som visas i hörnet av texten."
+  },
+  "contribute.crowdinStep5": {
+    "message": "En redigerare öppnas där du kan ange din översättning. Glöm inte att klicka på spara när du är klar."
+  },
+  "contribute.crowdinStep6": {
+    "message": "Om du upplever några problem vänligen <email>kontakta oss.</email>"
+  },
+  "contribute.description": {
+    "message": "Hjälp oss att förbättra YourDigitalRights.org."
+  },
+  "contribute.dev": {
+    "message": "Våra arkiv finns på GitHub, där den främsta är för denna <a>webbplats</a>. Det bästa sättet att börja är att kontakta oss via <email>e-post</email>. Då lägger vi till dig i vår Slack-kanal och delar pågående utvecklingsarbete. Alternativt kan du fritt klona arkivet och skicka in merge-förfrågningar."
+  },
+  "contribute.devSkills": {
+    "message": "Vi letar för närvarande efter ingenjörer inom maskininlärning, React och AWS."
+  },
+  "contribute.devTitle": {
+    "message": "Hjälp till med utvecklingen"
+  },
+  "contribute.reportAProblem": {
+    "message": "Om du upplever problem med den här webbplatsen kan du rapportera dem i <a1>issue trackern</a1>, eller via <a2>e-post</a2>."
+  },
+  "contribute.reportAProblemTitle": {
+    "message": "Rapportera ett problem"
+  },
+  "contribute.research": {
+    "message": "Vi letar alltid efter bättre sätt att främja digitala rättigheter och göra dem mer tillgängliga. Oavsett om det handlar om att bättre förstå hur människor använder teknik eller hur organisationer missbrukar den, pågår det alltid forskningsprojekt. Vänligen <email>maila</email> oss om du vill engagera dig."
+  },
+  "contribute.researchTitle": {
+    "message": "Hjälp till med forskning"
+  },
+  "contribute.subtitle": {
+    "message": "Detta projekt utvecklas och underhålls helt av volontärer. Om du är oroad över förlust av integritet, utbredd övervakningskapitalism, mikromålning och desinformation samt den beroendeframkallande karaktären hos digitala tjänster, kan du hjälpa till:"
+  },
+  "contribute.title": {
+    "message": "Bidra"
+  },
+  "contribute.translate1": {
+    "message": "Vi vill att den här tjänsten ska vara tillgänglig på många språk. Om ditt språk inte är bland de som redan finns eller behöver uppdateras eller förbättras, är vi tacksamma för din hjälp!"
+  },
+  "contribute.translate2": {
+    "message": "Vi använder onlineplattformen <a>Crowdin</a> för att enkelt skapa översättningssträngarna. Det gör processen mycket enklare och kräver inte att du kan något om programmering. Det finns en snabb handledning <b>här</b>. Följ dessa steg för att komma igång:"
+  },
+  "contribute.translateTitle": {
+    "message": "Översätt webbplatsen"
+  },
+  "dataProcessors": {
+    "message": "Delning av data och databehandlare"
+  },
+  "deletePII.deleteAllPII": {
+    "message": "Alla förfrågningar"
+  },
+  "deletePII.deleteSpecificPII": {
+    "message": "Denna förfrågan"
+  },
+  "deletePII.doneAll": {
+    "message": "Vi har framgångsrikt raderat de personuppgifter som är kopplade till alla dina förfrågningar."
+  },
+  "deletePII.doneRequest": {
+    "message": "Vi har framgångsrikt raderat de personuppgifter som är kopplade till denna förfrågan."
+  },
+  "deletePII.heading": {
+    "message": "Radera mina data"
+  },
+  "deletePII.intro": {
+    "message": "Dina personuppgifter raderas automatiskt 120 dagar efter att en förfrågan gjorts, men du kan välja att radera dina uppgifter nu. Vill du radera uppgifterna som är kopplade till denna förfrågan (ref: {ref}), eller för alla dina förfrågningar?"
+  },
+  "deletemydata.description": {
+    "message": "Radera mina data"
+  },
+  "deletemydata.title": {
+    "message": "Radera mina data"
+  },
+  "donations.donate": {
+    "message": "Donera"
+  },
+  "donations.donateIntro": {
+    "message": "YourDigitalRights.org skapades eftersom vi anser att integritet är viktigt och att det ska vara enkelt att utöva din rätt till integritet. Därför har vi gjort den kostnadsfri. Genom att donera eller bli en stödmedlem kan du hjälpa oss att säkerställa vår långsiktiga finansiella stabilitet och oberoende."
+  },
+  "donations.headingDonate": {
+    "message": "Vi behöver ditt stöd"
+  },
+  "faq.body.YDR.1": {
+    "message": "YourDigitalRights.org är en kostnadsfri tjänst som hjälper dig att återfå kontroll över din personliga integritet på nätet genom att göra det enkelt att få organisationer att radera eller ge dig en kopia av den personliga information de har om dig. Vi gör detta genom att automatisera den process som beskrivs i kraftfulla dataskyddslagar som ger dig rätten att radera eller få åtkomst till dina data. Utöver att skicka begäranden till organisationer kan vi hjälpa till att säkerställa att begäranden löses till din fördel."
+  },
+  "faq.body.contact.1": {
+    "message": "Vänligen förstå att vi inte kan erbjuda personlig support för specifika databegräranden eller din upplevelse av en viss organisation. Vi vet att organisationer ibland kan vara mycket frustrerande, men tyvärr kan vi inte hjälpa till och kommer inte att svara på sådana e-postmeddelanden."
+  },
+  "faq.body.contact.2": {
+    "message": "För alla andra förfrågningar, vänligen kontakta oss via <a>e-post</a>."
+  },
+  "faq.body.contribute.1": {
+    "message": "Ja, gärna!"
+  },
+  "faq.body.contribute.2": {
+    "message": "Vi förlitar oss på <a>donationer</a> för att säkerställa vår långsiktiga finansiella stabilitet och vårt oberoende. Du kan ge ett bidrag här."
+  },
+  "faq.body.contribute.3": {
+    "message": "Läs informationen på <a>denna sida</a> om du vill rapportera ett fel, hjälpa till att översätta webbplatsen, bidra till utvecklingen eller bedriva forskning."
+  },
+  "faq.body.data-protection.1": {
+    "message": "Dataskyddslagar skyddar individer när det gäller organisationers behandling av deras personliga information. De definierar organisationers ansvar vid behandling av personlig information och ger individer vissa rättigheter i relation till deras data. Många länder har dataskyddslagar; vissa går längre i det skydd de erbjuder än andra."
+  },
+  "faq.body.escalate.1": {
+    "message": "Dataskyddslagar tillhandahåller olika eskaleringsmekanismer för sådana fall, inklusive möjligheten att lämna in ett klagomål mot organisationen till en statlig tillsynsmyndighet eller att stämma organisationen (kallat en privat rätt att agera)."
+  },
+  "faq.body.escalate.2": {
+    "message": "Om detta låter komplicerat, oroa dig inte; vi kan hjälpa till. När du skickar in en databegräran via denna tjänst slår du på alternativet \"Smart uppföljningshjälp\" för att få personliga råd om vad du ska göra om en organisation inte har uppfyllt din begäran. Vi hjälper dig att kommunicera med organisationen och eskalerar vid behov till den statliga tillsynsmyndigheten."
+  },
+  "faq.body.how.1": {
+    "message": "Efter att du valt en organisation och fyllt i ett kort formulär genererar vi ett begärande e-postmeddelande adresserat till den valda organisationen. E-postmeddelandet öppnas i din e-postapp för att du ska kunna granska och skicka det. Om du vill kan vi följa upp med dig en tid efter att en begäran skickats för att säkerställa att den löses till din fördel. Detta kan innebära att man skickar påminnelsemejl till organisationen eller eskalerar till den statliga tillsynsmyndigheten."
+  },
+  "faq.body.new-regulation.1": {
+    "message": "Vi vill stödja alla dataskyddslagar som ger individer rätt att få åtkomst till och radera sin personliga information. Vänligen <a>kontakta oss</a> om du vill att vi lägger till stöd för en viss förordning."
+  },
+  "faq.body.refuse.1": {
+    "message": "Dataskyddslagar tillåter organisationer att vägra radera din personliga information under vissa exceptionella omständigheter. Här är några generella exempel, men du bör läsa den specifika förordning som gäller dig för detaljer:"
+  },
+  "faq.body.refuse.1.1": {
+    "message": "När organisationen är juridiskt skyldig att behålla dina data (till exempel måste finansiella institutioner spara dina transaktionsuppgifter för att följa penningtvättsregler)"
+  },
+  "faq.body.refuse.1.2": {
+    "message": "När det är nödvändigt att behålla dina data av yttrandefrihets- och informationsskäl (detta inkluderar journalistik samt akademiska, konstnärliga och litterära ändamål)"
+  },
+  "faq.body.refuse.1.3": {
+    "message": "När det är nödvändigt att behålla dina data av folkhälsoskäl"
+  },
+  "faq.body.refuse.1.4": {
+    "message": "När det är nödvändigt att behålla dina data för att fastställa, göra gällande eller försvara rättsliga anspråk"
+  },
+  "faq.body.refuse.1.5": {
+    "message": "När radering av dina data skulle skada vetenskaplig eller historisk forskning eller arkivering som är av allmänintresse"
+  },
+  "faq.body.regulations.1": {
+    "message": "Vänligen <a>kontakta oss</a> om du vill hjälpa oss att implementera stöd för ytterligare förordningar."
+  },
+  "faq.body.regulations.location": {
+    "message": "Plats"
+  },
+  "faq.body.regulations.name": {
+    "message": "Fullständigt namn"
+  },
+  "faq.body.regulations.short-name": {
+    "message": "Förkortning"
+  },
+  "faq.body.regulations.timelimit": {
+    "message": "Tidsfrist för svar"
+  },
+  "faq.body.requests.1": {
+    "message": "Vi stödjer två typer av förfrågningar:"
+  },
+  "faq.body.requests.1.1": {
+    "message": "<b>Begäran om dataradering</b> (även kallad raderingsbegäran eller rätten att bli bortglömd) gör det möjligt för dig att be en organisation radera din personliga information."
+  },
+  "faq.body.requests.1.2": {
+    "message": "<b>Begäran om tillgång</b> (även känd som subjektbegäran om tillgång eller SAR) gör det möjligt för dig att be en organisation tillhandahålla en kopia av din personliga information."
+  },
+  "faq.body.trust.1": {
+    "message": "Vi är en registrerad ideell organisation som heter <a>Conscious Digital</a>. Vi tror på öppenhet och därför är källkoden för denna tjänst <aa>open source</aa>. Sedan oktober 2022 har vi hjälpt individer att skicka in över 100 000 begäranden till olika organisationer"
+  },
+  "faq.body.trust.2": {
+    "message": "Vi är oberoende, säljer inte din personliga information, och är inte anslutna till någon av de organisationer som vi hjälper dig att skicka förfrågningar om data till. Vi tillhandahåller inte heller några tjänster åt dessa organisationer. Slutligen finansieras vi av dina <a>donationer</a>."
+  },
+  "faq.body.trust.3": {
+    "message": "Vi har utformat den här tjänsten så att den som standard inte kräver att vi samlar in någon av din personliga information. När vissa valfria funktioner kräver att du tillhandahåller personlig information raderar vi dessa uppgifter efter 120 dagar. Se vår <a>sekretesspolicy</a> för mer information."
+  },
+  "faq.body.verify.1": {
+    "message": "Dataskyddslagar kräver att organisationer verifierar identiteten på den person som lämnar in en förfrågan för att förhindra bedrägeri. De flesta lagar anger också att verifieringsmetoden ska vara proportionerlig mot arten av de uppgifter som berörs. Om du till exempel begär en kopia av din meddelandehistorik från ett vanligt internetforum bör det räcka med en enkel verifiering av att du äger den e-postadress som är kopplad till ditt konto. Å andra sidan, om du begär din transaktionshistorik från en finansiell institution, är det motiverat att be dig tillhandahålla ytterligare information såsom en fotolegitimation och bevis på adress."
+  },
+  "faq.body.verify.2": {
+    "message": "I de flesta fall bör en enkel verifiering av att du äger den e-postadress som är kopplad till ditt konto räcka. När du använder den här tjänsten för att skicka en förfrågan skickas ett e-postmeddelande från din e-postapp, vilket ger denna grundläggande verifiering."
+  },
+  "faq.body.verify.3": {
+    "message": "För att ytterligare skydda din personliga information, förbjuder de förfrågningar vi genererar å dina vägnar uttryckligen organisationer från att använda den personliga information som ingår i förfrågan för något annat syfte än att uppfylla den."
+  },
+  "faq.heading.YDR": {
+    "message": "Vad är YourDigitalRights.org?"
+  },
+  "faq.heading.contact": {
+    "message": "Jag har ytterligare en fråga, hur kan jag kontakta er?"
+  },
+  "faq.heading.contribute": {
+    "message": "Den här tjänsten är fantastisk. Kan jag hjälpa till?"
+  },
+  "faq.heading.data-protection": {
+    "message": "Vad är dataskyddslagar?"
+  },
+  "faq.heading.escalate": {
+    "message": "Vad ska jag göra om en organisation inte följer min förfrågan fullt ut?"
+  },
+  "faq.heading.how": {
+    "message": "Hur fungerar tjänsten?"
+  },
+  "faq.heading.new-regulation": {
+    "message": "Mitt land har en ny dataskyddslag. Kommer ni att stödja den?"
+  },
+  "faq.heading.refuse": {
+    "message": "Kan organisationer säga nej?"
+  },
+  "faq.heading.regulations": {
+    "message": "Vilka länder, delstater eller regelverk stöds?"
+  },
+  "faq.heading.requests": {
+    "message": "Vilken typ av förfrågningar kan jag göra med den här tjänsten?"
+  },
+  "faq.heading.trust": {
+    "message": "Vem driver den här tjänsten? Kan jag lita på er?"
+  },
+  "faq.heading.verify": {
+    "message": "En organisation har bett mig att ge ytterligare personlig information för att verifiera min identitet. Är detta lagligt? Kan de använda informationen för andra ändamål?"
+  },
+  "faq.title": {
+    "message": "Vanliga frågor och svar"
+  },
+  "footer.contact": {
+    "message": "© Upphovsrätt 2019 - 2022"
+  },
+  "footer.disclaimer": {
+    "message": "<span>Ansvarsfriskrivning:</span> Denna tjänst tillhandahålls i befintligt skick, utan någon form av garanti. Användningen av denna tjänst sker helt på egen risk. Vi tar inget ansvar för direkta eller indirekta skador till följd av användningen av denna tjänst. Informationen som tillhandahålls av denna tjänst och innehållet på vår webbplats relaterat till juridiska frågor är endast för privat bruk och utgör inte juridisk rådgivning. Om du behöver juridisk rådgivning för ett specifikt problem bör du kontakta en licensierad advokat."
+  },
+  "footer.madeBy": {
+    "message": "<a>Skapad av Conscious Digital</a>"
+  },
+  "footer.poweredBy": {
+    "message": "Drivs av Vercel"
+  },
+  "footer.privacyPolicy": {
+    "message": "<a>Integritetspolicy</a>"
+  },
+  "footer.stats": {
+    "message": "<a>Statistik</a>"
+  },
+  "footer.wishList": {
+    "message": "Lämna ett önskemål i vår färdplan"
+  },
+  "hero.headerText": {
+    "message": "Be organisationer att radera ditt konto eller ge dig en kopia av din personliga information."
+  },
+  "hero.heading": {
+    "message": "Äg dina data"
+  },
+  "hero.intro": {
+    "message": "Många organisationer samlar in och säljer din personliga data, ofta utan ditt samtycke. Använd den här kostnadsfria tjänsten för att skicka en begäran om dataradering eller tillgång. Börja med att söka efter en organisation nedan."
+  },
+  "howItWorks.followUp": {
+    "message": "genom att använda vår smarta uppföljningsassistent för att hjälpa till att säkerställa att organisationen uppfyller din förfrågan, och även hjälpa dig att eskalera din förfrågan till relevant myndighet."
+  },
+  "howItWorks.followUpTitle": {
+    "message": "Uppföljning"
+  },
+  "howItWorks.imgAlt": {
+    "message": "En grafisk representation av användargränssnittet"
+  },
+  "howItWorks.search": {
+    "message": "för en organisation genom att använda sökrutan högst upp på den här sidan."
+  },
+  "howItWorks.searchTitle": {
+    "message": "Sök"
+  },
+  "howItWorks.send": {
+    "message": "organisationen en förfrågan om att radera eller tillhandahålla en kopia av dina data."
+  },
+  "howItWorks.sendTitle": {
+    "message": "Skicka"
+  },
+  "howItWorks.title": {
+    "message": "Hur det fungerar"
+  },
+  "howItWorks.whyBody": {
+    "message": "Vi är en registrerad välgörenhetsorganisation som heter <cd>Conscious Digital</cd>. Vi skapade den här tjänsten eftersom vi anser att integritet är viktigt och att det ska vara enkelt och kostnadsfritt att utöva sin rätt till integritet. Vi samlar inte in eller säljer personuppgifter. Tjänsten finansieras av dess skapare och med hjälp av dina <donations>donationer</donations>."
+  },
+  "howItWorks.whyTitle": {
+    "message": "Varför lita på oss?"
+  },
+  "howItWorks.yourData": {
+    "message": "Dataskyddslagar kräver att organisationer raderar eller tillhandahåller dig en kopia av dina data på begäran. Organisationer har en kort tidsperiod att uppfylla detta, annars riskerar de höga böter. Vårt uppdrag är att göra det enkelt för dig att utöva dina lagliga rättigheter."
+  },
+  "howItWorks.yourDataTitle": {
+    "message": "Du har rätt till integritet!"
+  },
+  "index.description": {
+    "message": "Radera ditt konto eller få tillgång till de personuppgifter organisationer har om dig med den här kostnadsfria tjänsten."
+  },
+  "nav.about": {
+    "message": "Om"
+  },
+  "nav.blog": {
+    "message": "Blogg"
+  },
+  "nav.contact": {
+    "message": "Kontakta oss"
+  },
+  "nav.contribute": {
+    "message": "Bidra"
+  },
+  "nav.data-brokers": {
+    "message": "Datamäklare"
+  },
+  "nav.donate": {
+    "message": "Ge en donation"
+  },
+  "nav.donation": {
+    "message": "Ge en donation"
+  },
+  "nav.faq": {
+    "message": "Vanliga frågor"
+  },
+  "nav.helpTranslate": {
+    "message": "Hjälp översätta"
+  },
+  "nav.howItWorks": {
+    "message": "Hur det fungerar"
+  },
+  "nav.privacyPoilcy": {
+    "message": "Integritetspolicy"
+  },
+  "nav.stats": {
+    "message": "Statistik"
+  },
+  "nav.twitterHastag": {
+    "message": "#ownyourdata"
+  },
+  "org.DescriptionNewOrg": {
+    "message": "Skicka GDPR-, CCPA- och LGPD-begäranden om radering och åtkomst av data till vilken organisation som helst snabbt och enkelt."
+  },
+  "org.descriptionExistingOrg": {
+    "message": "Begär kontoradering eller en kopia av dina personuppgifter från {org} snabbt och enkelt."
+  },
+  "org.titleExistingOrg": {
+    "message": "Radera ditt {org}-konto eller få en kopia av dina uppgifter"
+  },
+  "org.titleNewOrg": {
+    "message": "Skicka GDPR-, CCPA- och LGPD-begäranden om radering och åtkomst"
+  },
+  "orgHero.newOrgTitle": {
+    "message": "Skicka en begäran om radering eller åtkomst av data."
+  },
+  "orgHero.subTitle2": {
+    "message": "Skicka en begäran om dataradering eller åtkomst till {name} med denna <disclamer>kostnadsfria och oberoende</disclamer> tjänst."
+  },
+  "orgHero.subTitleNewOrg": {
+    "message": "Få organisationer att radera eller skicka dig en kopia av dina personuppgifter via denna <disclamer>kostnadsfria och oberoende</disclamer> tjänst."
+  },
+  "orgHero.title": {
+    "message": "Radera ditt {domain}-konto eller begär dina uppgifter."
+  },
+  "personalInfoForm.FollowUpDetails": {
+    "message": "För att säkerställa att organisationen uppfyller din förfrågan, kommer vi att skicka e-post när det är dags att vidta ytterligare åtgärder. Du får då välja att skicka en påminnelse via e-post till organisationen eller att eskalera ärendet till den lokala dataskyddsmyndigheten."
+  },
+  "personalInfoForm.FollowUpDetailsWarning": {
+    "message": "<strong>Genom att välja detta alternativ godkänner du att vi behandlar och lagrar följande personuppgifter: din e-postadress, ditt namn och texten i dina begärande e-postmeddelanden. All personlig information som rör denna begäran kommer automatiskt att raderas från våra system inom 120 dagar, såvida du inte anger annat, och du har alltid möjlighet att få dessa uppgifter raderade omedelbart. Vi samlar in denna information automatiskt genom att lägga till en särskild e-postadress i fältet CC i begärans e-postmeddelande.</strong>"
+  },
+  "personalInfoForm.FollowUpLabel": {
+    "message": "Aktivera smart uppföljningsassistans"
+  },
+  "personalInfoForm.IdentifyingInfoHelper": {
+    "message": "Valfritt: ange ytterligare information som hjälper organisationen att hitta dina uppgifter i deras datasystem, t.ex. användarnamn, kund-ID eller kontonummer. <strong>Lämna inte ut ditt lösenord eller någon personlig information som organisationen inte redan har.</strong>"
+  },
+  "personalInfoForm.NoFollowUpLabel": {
+    "message": "Nej, jag kan hantera det själv"
+  },
+  "personalInfoForm.YesFollowUpLabel": {
+    "message": "Ja, skicka uppföljningsinstruktioner via e-post"
+  },
+  "personalInfoForm.accessRequestLabelText": {
+    "message": "Skicka mig en kopia av mina data"
+  },
+  "personalInfoForm.companyDomainHelper": {
+    "message": "Ange domännamnet för den organisationen (exempel: google.co.uk eller facebook.com)."
+  },
+  "personalInfoForm.companyDomainLabel": {
+    "message": "Organisationens domän"
+  },
+  "personalInfoForm.companyEmailLabel": {
+    "message": "Organisationens e-postadress"
+  },
+  "personalInfoForm.companyNameHelper": {
+    "message": "Ange namnet på den organisation du vill kontakta."
+  },
+  "personalInfoForm.companyNameLabel": {
+    "message": "Organisationens namn"
+  },
+  "personalInfoForm.compnayEmailHelper": {
+    "message": "Ange e-postadressen till den person eller avdelning som ansvarar för GDPR / CCPA / integritet / juridiska förfrågningar. Du hittar vanligtvis denna information på organisationens webbplats under integritetspolicyn, användarvillkoren eller kontaktsidan."
+  },
+  "personalInfoForm.deletionRequestLabelText": {
+    "message": "Radera mina data"
+  },
+  "personalInfoForm.headline": {
+    "message": "Fyll i formuläret för att skapa en begäran via e-post som du sedan kan granska och skicka."
+  },
+  "personalInfoForm.identifyingInfoLabel": {
+    "message": "Ytterligare identifierande information (valfritt)"
+  },
+  "personalInfoForm.nameHelper": {
+    "message": "Detta används av organisationen för att identifiera dig."
+  },
+  "personalInfoForm.nameLabel": {
+    "message": "Fullständigt namn"
+  },
+  "personalInfoForm.regulationType": {
+    "message": "Förordning"
+  },
+  "personalInfoForm.regulationTypeHelper": {
+    "message": "Välj förordning baserat på din bostadsort, om du inte har en specifik anledning att välja något annat."
+  },
+  "personalInfoForm.requestTypeLabelText": {
+    "message": "Typ av förfrågan"
+  },
+  "personalInfoForm.sendButton": {
+    "message": "Granska och skicka"
+  },
+  "personalInfoForm.supportButtonCTA": {
+    "message": "Support"
+  },
+  "personalInfoForm.validEmail": {
+    "message": "Ange en giltig e-postadress."
+  },
+  "pressIntro.title": {
+    "message": "Som presenterats på"
+  },
+  "privacy.additionalPersonalData": {
+    "message": "Uppföljning av förfrågningar"
+  },
+  "privacy.additionalPersonalDataBody1": {
+    "message": "När du använder denna tjänst, efter att du skickat in en förfrågan om data, kan du välja att få ytterligare support från oss via mejl. Om du väljer att använda denna valfria funktion samlar vi in följande ytterligare personuppgifter:"
+  },
+  "privacy.additionalPersonalDataBodyOneA": {
+    "message": "Din mejladress"
+  },
+  "privacy.additionalPersonalDataBodyOneB": {
+    "message": "Innehållet i de förfrågningsmejl du skickar till organisationer och dataskyddsmyndigheter (DPA)"
+  },
+  "privacy.additionalPersonalDataBodyOneC": {
+    "message": "Metadata gällande de förfrågningsmejl du skickar till organisationer och dataskyddsmyndigheter (DPA), till exempel tiden då ett mejl skickades samt avsändar- och mottagaradresser."
+  },
+  "privacy.additionalPersonalDataBodyOneE": {
+    "message": "Vi lagrar utökade personuppgifter i högst 120 dagar."
+  },
+  "privacy.additionalPersonalDataBodyOneF": {
+    "message": "Genom att frivilligt förse oss med personuppgifter godkänner du vår användning av dem i enlighet med denna integritetspolicy. Om du lämnar personuppgifter till denna webbplats, bekräftar och accepterar du att sådana personuppgifter kan överföras från din nuvarande plats till YourDigitalRights.orgs kontor och servrar, samt de auktoriserade tredje parter som nämns i denna policy."
+  },
+  "privacy.contact": {
+    "message": "Kontakt"
+  },
+  "privacy.contactBody": {
+    "message": "Om du har frågor eller funderingar kring denna Integritetspolicy, vänligen kontakta oss på {mail}."
+  },
+  "privacy.cookies": {
+    "message": "Kakor och spårning"
+  },
+  "privacy.cookiesBody": {
+    "message": "Vi använder endast cookies för att spara de val du gör på webbplatsen så att det är enklare för dig att använda tjänsten nästa gång. En cookie är en informationsbit som datorn som är värd för vår tjänst ger till din webbläsare när du öppnar tjänsten."
+  },
+  "privacy.description": {
+    "message": "Du äger dina data, vi finns för att hjälpa dig att kontrollera vem som har åtkomst till dem. Detta är vår integritetspolicysida."
+  },
+  "privacy.lastUpdated": {
+    "message": "Senast uppdaterad:"
+  },
+  "privacy.personalData": {
+    "message": "Skicka förfrågningar"
+  },
+  "privacy.personalDataBody1": {
+    "message": "När du skickar förfrågningar (utan att aktivera den valfria uppföljningsfunktionen för förfrågningar) ber vi dig att ge oss följande personuppgifter:"
+  },
+  "privacy.personalDataBodyOneA": {
+    "message": "Ditt namn"
+  },
+  "privacy.personalDataBodyOneB": {
+    "message": "Ytterligare information som behövs för att identifiera dig mot de organisationer du väljer att kontakta (till exempel ett användarnamn, kund-ID eller kontonummer)"
+  },
+  "privacy.personalDataBodyOneE": {
+    "message": "Vi använder endast personuppgifter som samlas in när du skickar förfrågningar för att generera ett mejl och lagrar dem inte på våra servrar."
+  },
+  "privacy.privacyTitle": {
+    "message": "Integritetspolicy"
+  },
+  "privacy.processorsA": {
+    "message": "Matomo: en integritetsinriktad webbanalystjänst från Innocraft. Vi använder Matomo för att samla in anonymiserad information om hur tjänsten nås och används (\"användningsdata\"). Du kan besöka deras { matomo } sida."
+  },
+  "privacy.processorsB": {
+    "message": "Amazon AWS: en leverantör av molninfrastrukturtjänster. När du väljer att aktivera uppföljningar av förfrågningar använder vi AWS för att behandla de mejl du skickar, lagra relaterad information och skicka påminnelsemejl till dig. Du kan besöka deras { matomo } sida."
+  },
+  "privacy.promise": {
+    "message": "Vårt löfte"
+  },
+  "privacy.promiseBody": {
+    "message": "Du äger dina uppgifter. Vi finns för att hjälpa dig kontrollera vem som har åtkomst till dem. Vi anser starkt att din personliga information ska förbli personlig, privat och säker. Vi använder inte icke-nödvändiga cookies och begränsar de personuppgifter vi samlar in från dig till det absolut minimum som krävs för att tillhandahålla denna tjänst (YourDigitalRights.org). I vissa fall kan du aktivera valfria funktioner som kräver att du lämnar ytterligare personuppgifter. Sådana fall kräver att du uttryckligen samtycker och är tydligt markerade. Vi kommer aldrig att sälja eller hyra ut din personliga information till någon och behåller den inte på våra servrar i mer än 120 dagar. Vi delar endast din personliga information när det krävs för att tillhandahålla tjänsten eller enligt vad som framgår i denna policy."
+  },
+  "privacy.title": {
+    "message": "Integritetspolicy"
+  },
+  "privacy.usageDataBody": {
+    "message": "Vi arbetar med följande tredjepartsleverantörer för att utföra vissa databehandlingsuppgifter för vår räkning. Vi anlitar dessa leverantörer på villkor som säkerställer sekretessen och säkerheten för dina uppgifter."
+  },
+  "privacyAlerts.description1": {
+    "message": "Ett månatligt e-postmeddelande som listar de tre värsta integritetsbrottsliga företagen som identifierats av vårt forskningsteam. Förbättra din integritet och återta kontrollen över din personliga information genom att lägga fem minuter i månaden på att välja bort dessa företag."
+  },
+  "privacyAlerts.seoDescription": {
+    "message": "Prenumerera på våra månatliga integritetsvarningar"
+  },
+  "privacyAlerts.seoTitle": {
+    "message": "Integritetsvarningar"
+  },
+  "privacyAlerts.title": {
+    "message": "Integritetsvarningar"
+  },
+  "privacyAlerts.whyPrivacy": {
+    "message": "Varför du bör investera i din integritet?"
+  },
+  "privacyAlerts.whyPrivacyBody1": {
+    "message": "Varje onlineinteraktion vi gör lämnar spår av vår personliga information. Företag vi interagerar med, databrokers, regeringar och individer med onda avsikter är alla intresserade av våra data."
+  },
+  "privacyAlerts.whyPrivacyBody2": {
+    "message": "Denna verklighet lämnar oss utsatta för en rad påverkanskampanjer. Dessa inkluderar riktad onlineannonsering, politisk och social manipulation via falska nyheter, olika typer av bedrägerier såsom identitetsstöld och beroendeframkallande appar och nättjänster. Allt detta blir möjligt genom den överflöd av personlig information vi lämnar efter oss."
+  },
+  "privacyAlerts.whyPrivacyBody3": {
+    "message": "Så hur återtar vi kontrollen?"
+  },
+  "privacyAlerts.whyPrivacyBody4": {
+    "message": "Vi har utformat Privacy Alerts baserat på feedback från de som använder våra tjänster. Det är ett enkelt sätt att förbättra din onlineintegritet över tid genom att lägga endast fem minuter i månaden på att välja bort de värsta företagen, noggrant utvalda av vårt forskningsteam."
+  },
+  "redirect.continueText": {
+    "message": "Fortsätt"
+  },
+  "redirect.headingText": {
+    "message": "opt-out.eu är nu yourdigitalrights.org"
+  },
+  "redirect.text": {
+    "message": "Fantastiska nyheter, den här tjänsten växer! Vi har nyligen lanserat stöd för California Consumer Privacy Act (CCPA), och kommer snart att lansera stöd för ytterligare förfrågningstyper utöver radering. Därför tycker vi att domännamnet 'opt-out.eu' är för begränsande. Vi är mer engagerade än någonsin i att hjälpa dig utöva dina digitala rättigheter, välkommen till vårt nya hem @ <style>yourdigitalrights.org</style>!"
+  },
+  "request.description": {
+    "message": "Visa detaljer om en {regulationType}-förfrågan som skickats in via denna kostnadsfria tjänst."
+  },
+  "request.details.date": {
+    "message": "Datum för förfrågningsmejl:"
+  },
+  "request.details.escalationDate": {
+    "message": "Datum för eskaleringsmejl:"
+  },
+  "request.details.header": {
+    "message": "Förfrågningsdetaljer"
+  },
+  "request.details.hide.escalation": {
+    "message": "Dölj eskaleringsmejl"
+  },
+  "request.details.hide.reminder": {
+    "message": "Dölj påminnelsemejl"
+  },
+  "request.details.hide.request": {
+    "message": "Dölj förfrågningsmejl"
+  },
+  "request.details.name": {
+    "message": "Begärd av:"
+  },
+  "request.details.nowDetails": {
+    "message": "Förfrågningsdetaljer är inte tillgängliga för närvarande, vänligen uppdatera sidan när du har skickat mejlet."
+  },
+  "request.details.organization": {
+    "message": "Mottagare:"
+  },
+  "request.details.regulation": {
+    "message": "Förordning:"
+  },
+  "request.details.reminderDate": {
+    "message": "Datum för påminnelsemejl:"
+  },
+  "request.details.sentTo": {
+    "message": "Mottagarens mejladress:"
+  },
+  "request.details.show.escalation": {
+    "message": "Visa eskaleringsmejl"
+  },
+  "request.details.show.reminder": {
+    "message": "Visa påminnelsemejl"
+  },
+  "request.details.show.request": {
+    "message": "Visa förfrågningsmejl"
+  },
+  "request.details.type": {
+    "message": "Typ av förfrågan:"
+  },
+  "request.hero.declined": {
+    "message": "Avböjd"
+  },
+  "request.hero.declinedRequest": {
+    "message": "{companyName} avböjde din förfrågan."
+  },
+  "request.hero.didNotReply": {
+    "message": "{companyName} har inte svarat ännu."
+  },
+  "request.hero.domainTitle": {
+    "message": "Domän:"
+  },
+  "request.hero.handledPartially": {
+    "message": "Delvis hanterad"
+  },
+  "request.hero.handledRequest": {
+    "message": "{companyName} hanterade din förfrågan framgångsrikt."
+  },
+  "request.hero.handledSuccessfully": {
+    "message": "Hanterad framgångsrikt"
+  },
+  "request.hero.header": {
+    "message": "Din {requestType}-förfrågan till {companyName}"
+  },
+  "request.hero.noReply": {
+    "message": "Inget svar"
+  },
+  "request.hero.partiallyHandled": {
+    "message": "{companyName} hanterade din förfrågan delvis."
+  },
+  "request.hero.reference": {
+    "message": "{ref}"
+  },
+  "request.hero.referenceTitle": {
+    "message": "Referens:"
+  },
+  "request.hero.requestNotSent": {
+    "message": "vänligen skicka förfrågningsmejlet och uppdatera sedan den här sidan."
+  },
+  "request.hero.requestStatus": {
+    "message": "Förfrågningsstatus:"
+  },
+  "request.next.circumstancesToDecline": {
+    "message": "Det finns vissa exceptionella omständigheter när en organisation enligt lag har rätt att avböja att uppfylla din begäran."
+  },
+  "request.next.declineAPPI": {
+    "message": "<ul><li>All personuppgifter vars kända närvaro eller frånvaro i en databas sannolikt skulle hota en identifierbar persons liv, kropp eller egendom;</li><li>All personuppgifter vars kända närvaro eller frånvaro i en databas sannolikt skulle föranleda eller trigga en olaglig aktivitet eller felaktigt beteende;</li><li>All personuppgifter vars kända närvaro eller frånvaro i en databas sannolikt skulle undergräva nationell säkerhet, skada förtroendet i relationen med ett främmande land eller en internationell organisation, eller försätta landet i ett sämre förhandlingsläge med ett annat land eller en internationell organisation;</li><li>All personuppgifter vars kända närvaro eller frånvaro i en databas sannolikt skulle störa brottsbekämpning, brottskontroll eller brottsutredningar eller på annat sätt upprätthållandet av allmän säkerhet och ordning.</li></ul>"
+  },
+  "request.next.declineCCPA": {
+    "message": "<ul><li>Yttrandefrihet eller någon annan rätt som är skyddad av lag.</li><li>Behandling för forskningsändamål, om radering av personuppgifter skulle göra det omöjligt eller allvarligt hindra genomförandet av sådan forskning.</li><li>Behandling av dessa personuppgifter är nödvändig för att skydda mot olaglig verksamhet eller åtala dem som är ansvariga för verksamheten.</li><li>För att uppfylla en rättslig skyldighet.</li><li>För att fullgöra ett avtal mellan företaget och konsumenten.</li><li>Upptäcka säkerhetsincidenter, skydda mot illvillig, vilseledande, bedräglig eller olaglig aktivitet, eller åtala de ansvariga för sådana aktiviteter.</li><li>Felsöka för att identifiera och åtgärda fel som påverkar befintlig avsedd funktionalitet.</li><li>Möjliggöra enbart interna användningar som rimligen överensstämmer med konsumentens förväntningar utifrån konsumentens relation till företaget.</li><li>Använda konsumentens personliga information internt på ett lagligt sätt som är förenligt med det sammanhang i vilket konsumenten tillhandahöll informationen.</li></ul>"
+  },
+  "request.next.declineCPA": {
+    "message": "<ul><li>Finansiella institutioner och partners som omfattas av Gramm-Leach-Bliley Act</li><li>Flygbolag som omfattas av Federal Aviation Administrations reglering</li><li>Nationella värdepappersföreningar registrerade enligt Securities Exchange Act</li><li>Vissa typer av personuppgifter som hanteras i enlighet med specifika federala integritetslagar, såsom Health Insurance Portability and Accountability Act och Fair Credit Reporting Act, eller för vissa statliga ändamål.</li></ul>"
+  },
+  "request.next.declineCTDPA": {
+    "message": "<ul><li>Organisationer, såsom statliga och lokala myndigheter, ideella organisationer, lärosäten, vissa nationella värdepappersföreningar, finansiella institutioner och omfattade enheter enligt specifika lagar, exempelvis Gramm-Leach-Bliley Act och Health Insurance Portability and Accountability Act, är undantagna</li><li>Skyddad hälsodata</li><li>Anställdas data, inklusive data om arbetssökande</li><li>Avidentifierade uppgifter</li><li>Offentligt tillgänglig information</li><li>Aggregerad information</li><li>Personuppgifter som samlats in för forskning på människor eller som del av en klinisk prövning</li></ul>"
+  },
+  "request.next.declineDPDP": {
+    "message": "<ul><li>Tillhandahålla en produkt eller tjänst som uttryckligen begärts av konsumenten.</li><li>Utföra vissa interna verksamheter som rimligen överensstämmer med konsumentens förväntningar.</li><li>Genomföra en produktåterkallelse eller åtgärda tekniska fel.</li><li>Svara på och förhindra säkerhetsincidenter, identitetsstöld och bedrägeri.</li><li>Följa federal, statlig eller lokal lag.</li><li>Pseudonymiserade data.</li><li>Avidentifierade data.</li><li>Offentligt tillgänglig information.</li><li>Offentlig eller peer-granskad vetenskaplig forskning.</li></ul>"
+  },
+  "request.next.declineDPDPA": {
+    "message": "<ul><li>(a) behandlingen av personuppgifter är nödvändig för att upprätthålla en laglig rättighet eller fordran;</li><li>(b) behandlingen av personuppgifter utförs av en domstol eller tribunal eller annan myndighet i Indien som genom lag fått i uppdrag att utföra rättsliga eller kvasi-rättsliga eller tillsynsfunktioner, när sådan behandling är nödvändig för utförandet av dessa funktioner;</li><li>(c) personuppgifter behandlas i syfte att förebygga, upptäcka, utreda eller lagföra brott eller överträdelse av en gällande lag i Indien;</li><li>(d) personuppgifter om Dataprincipaler utanför Indiens territorium behandlas enligt ett avtal som ingåtts med en person utanför Indiens territorium av någon person baserad i Indien;</li><li>(e) behandlingen är nödvändig för ett förliknings- eller sammanslagningsförfarande av två eller flera företag eller en rekonstruktion genom exempelvis uppdelning eller annat av ett företag, eller överföring av verksamhet från ett eller flera företag till ett annat företag, eller involverar uppdelning av ett eller flera företag, som godkänts av en domstol eller annan behörig myndighet enligt gällande lag; och</li><li>(f) behandlingen syftar till att fastställa ekonomisk information samt tillgångar och skulder för en person som inte har fullgjort en betalningsförpliktelse för ett lån eller en kredit som tagits från en finansiell institution, under förutsättning att behandlingen sker i enlighet med bestämmelserna om informations- eller uppgiftsutlämnande i tillämplig lag.</li></ul>"
+  },
+  "request.next.declineFADP": {
+    "message": "Personuppgiftsansvarig kan vägra att lämna ut information eller begränsa eller fördröja utlämnandet av information om:<ul><li>a. en formell lag så föreskriver, särskilt för att upprätthålla yrkesmässig sekretess;</li><li>b. detta krävs för att skydda överordnade intressen för tredje part; eller</li><li>c. begäran om information uppenbart är ogrundad, särskilt om den inte tjänar syftet för dataskydd eller är uppenbart meningslös.</li></ul><br/>Vidare är det möjligt att vägra, begränsa eller fördröja utlämnande av information i följande fall:<ul><li>a. Personuppgiftsansvarig är en privatperson och följande krav är uppfyllda: 1. Personuppgiftsansvarigs egna överordnade intressen kräver åtgärden. 2. Personuppgiftsansvarig inte har för avsikt att lämna ut personuppgifterna till tredje part.</li><li>b. Personuppgiftsansvarig är ett federalt organ, och ett av följande krav är uppfyllt: 1. Åtgärden krävs för att tillgodose överordnade allmänna intressen, särskilt Schweiz interna eller externa säkerhet. 2. Utlämnandet av information kan äventyra en utredning, en undersökning eller ett administrativt eller rättsligt förfarande.</li></ul>"
+  },
+  "request.next.declineFDBR": {
+    "message": "<ul><il>(a) Följa federala eller statliga lagar, regler eller föreskrifter.</il><il>(b) Följa en civilrättslig, straffrättslig eller tillsynsrelaterad utredning, förhör, stämning eller kallelse från federala, statliga, lokala eller andra myndigheter.</il><il>(c) Undersöka, upprätta, utöva, förbereda för eller försvara rättsliga anspråk.</il><il>(d) Tillhandahålla en produkt eller tjänst som uttryckligen begärts av en konsument eller en förälder eller vårdnadshavare till ett barn, fullgöra ett avtal där konsumenten är part, inklusive att uppfylla villkoren i en skriftlig garanti, eller vidta åtgärder på konsumentens begäran innan ett avtal ingås.</il><il>(e) Omedelbart skydda ett intresse som är avgörande för konsumentens eller en annan persons liv eller fysiska säkerhet och där behandlingen inte uppenbart kan baseras på en annan rättslig grund.</il><il>(f) Förhindra, upptäcka, skydda mot eller reagera på säkerhetsincidenter, identitetsstöld, bedrägeri, trakasserier, skadlig eller vilseledande verksamhet eller annan olaglig aktivitet.</il><il>(g) Bevara integriteten eller säkerheten för system eller undersöka, rapportera eller lagföra de ansvariga för intrång i systemets säkerhet.</il><il>(h) Delta i offentlig eller peer-granskad vetenskaplig eller statistisk forskning av allmänt intresse som följer alla andra tillämpliga etiska och sekretesslagar och som godkänts, övervakas och styrs av en institutionell granskningsnämnd eller liknande oberoende tillsynsorgan som avgör: 1. Om radering av informationen sannolikt ger betydande fördelar som inte enbart tillfaller personuppgiftsansvarig; 2. Om de förväntade fördelarna av forskningen överväger sekretessriskerna; och 3. Om personuppgiftsansvarig har infört rimliga skyddsåtgärder för att minska sekretessrisker i samband med forskningen, inklusive eventuella risker förenade med återidentifiering.</il><il>(i) Hjälpa en annan personuppgiftsansvarig, personuppgiftsbiträde eller tredje part att uppfylla kraven i denna del.</il><il>(j) Lämna ut personuppgifter när en konsument använder eller instruerar personuppgiftsansvarig att avsiktligt lämna ut information till en tredje part eller använder personuppgiftsansvarig för att avsiktligt interagera med en tredje part. En avsiktlig interaktion uppstår när konsumenten avser att interagera med tredje part genom en eller flera avsiktliga handlingar. Att hovra över, stänga av ljud eller pausa eller stänga innehåll innebär inte att konsumenten avser att interagera med en tredje part.</il><il>(k) Överföra personuppgifter till en tredje part som en tillgång i samband med en sammanslagning, förvärv, konkurs eller annan transaktion där tredje parten övertar kontroll över hela eller delar av personuppgiftsansvarig, under förutsättning att informationen används eller delas på ett sätt som är förenligt med denna del. Om en tredje part väsentligt ändrar hur den använder eller delar en konsuments personuppgifter på ett sätt som väsentligt strider mot de åtaganden eller löften som gjordes vid insamlingstillfället, måste den i förväg ge konsumenten meddelande om den nya eller ändrade praxisen. Meddelandet måste vara tillräckligt framträdande och omfattande för att konsumenter enkelt ska kunna utöva valmöjligheter i enlighet med denna del.</il></ul>"
+  },
+  "request.next.declineGDPR": {
+    "message": "<ul><li>När det är nödvändigt att behålla dina uppgifter av skäl som rör yttrandefrihet och information (detta inkluderar journalistiska och akademiska, konstnärliga och litterära ändamål).</li><li>När organisationen enligt lag är skyldig att behålla dina uppgifter.</li><li>När det är nödvändigt att behålla dina uppgifter av folkhälsoskäl.</li><li>När det är nödvändigt att behålla dina uppgifter för att fastställa, göra gällande eller försvara rättsliga anspråk.</li><li>När radering av dina uppgifter skulle skada vetenskaplig eller historisk forskning, eller arkivering som är i allmänhetens intresse.</li><li>Om organisationen, efter att ha övervägt din begäran, beslutar att de inte behöver radera dina uppgifter, måste den ändå svara dig. Den bör förklara varför den anser att den inte behöver radera dina uppgifter, och informera dig om din rätt att klaga på detta beslut till tillsynsmyndigheten eller genom domstol.</li></ul>"
+  },
+  "request.next.declineICDPA": {
+    "message": "<ul><li>Pseudonymiserade data</li><li>Avidentifierade data</li><li>Offentligt tillgänglig information</li><li>Offentlig eller peer-granskad vetenskaplig forskning</li></ul>"
+  },
+  "request.next.declineLGPD": {
+    "message": "<ul><li>Yttrandefrihet eller någon annan rätt som är skyddad av lag.</li><li>Behandling för forskningsändamål, om radering av personuppgifter skulle göra det omöjligt eller allvarligt hindra genomförandet av sådan forskning.</li><li>Behandling av dessa personuppgifter är nödvändig för att skydda mot olaglig verksamhet eller åtala dem som är ansvariga för verksamheten.</li><li>För att uppfylla en rättslig skyldighet.</li><li>För att fullgöra ett avtal mellan företaget och konsumenten.</li><li>Upptäcka säkerhetsincidenter, skydda mot illvillig, vilseledande, bedräglig eller olaglig aktivitet, eller åtala de ansvariga för sådana aktiviteter.</li><li>Felsöka för att identifiera och åtgärda fel som påverkar befintlig avsedd funktionalitet.</li><li>Möjliggöra enbart interna användningar som rimligen överensstämmer med konsumentens förväntningar utifrån konsumentens relation till företaget.</li><li>Använda konsumentens personliga information internt på ett lagligt sätt som är förenligt med det sammanhang i vilket konsumenten tillhandahöll informationen.</li></ul>"
+  },
+  "request.next.declineMCDPA": {
+    "message": "<ul><li>Offentliga myndigheter</li><li>Federalt erkända indianstammar</li><li>Enheter som omfattas av HIPAA och deras affärspartners</li><li>Statligt eller federalt charterade banker eller kreditföreningar</li><li>Försäkringsbolag</li><li>Småföretag enligt definitionen från U.S. Small Business Administration</li><li>Ideella organisationer som enbart inrättats för att upptäcka eller förhindra försäkringsbedrägerier</li><li>Personuppgifter som regleras av GLBA eller FCRA</li><li>Personuppgifter i anställningskontext eller jobbansökandekontext, förmåner och kontaktuppgifter för nödsituationer</li><li>Avidentifierade eller offentligt tillgängliga data</li></ul>"
+  },
+  "request.next.declineMTCDPA": {
+    "message": "<ul><li>Organisationer, såsom statliga och lokala myndigheter, ideella organisationer, lärosäten, vissa nationella värdepappersföreningar, finansiella institutioner och omfattade enheter enligt specifika lagar, exempelvis Gramm-Leach-Bliley Act och Health Insurance Portability and Accountability Act, är undantagna</li><li>Skyddad hälsodata</li><li>Anställdas data, inklusive data om arbetssökande</li><li>Avidentifierade uppgifter</li><li>Offentligt tillgänglig information</li><li>Aggregerad information</li><li>Personuppgifter som samlats in för forskning på människor eller som del av en klinisk prövning</li></ul>"
+  },
+  "request.next.declineNDPA": {
+    "message": "<ul><li>Pseudonymiserade data</li><li>Avidentifierade data</li><li>Offentligt tillgänglig information</li><li>Offentlig eller peer-granskad vetenskaplig forskning</li><li>Skyddad hälsodata</li></ul>"
+  },
+  "request.next.declineNHDPA": {
+    "message": "<ul><li>Pseudonymiserade data</li><li>Avidentifierade data</li><li>Offentligt tillgänglig information</li><li>Offentlig eller peer-granskad vetenskaplig forskning</li><li>Skyddad hälsodata</li></ul>"
+  },
+  "request.next.declineNJDPL": {
+    "message": "<ul><li>Pseudonymiserade data</li><li>Avidentifierade data</li><li>Offentligt tillgänglig information</li><li>Offentlig eller peer-granskad vetenskaplig forskning</li><li>Skyddad hälsodata</li></ul>"
+  },
+  "request.next.declineOPCA": {
+    "message": "Organisationer, inklusive delstats- och lokala myndigheter, ideella organisationer, lärosäten, vissa nationella värdepappersföreningar och finansiella institutioner är undantagna. Dessutom är vissa typer av data undantagna:<ul><li>Skyddad hälsodata</li><li>Anställdas data, inklusive data om arbetssökande</li><li>Avidentifierade uppgifter</li><li>Offentligt tillgänglig information</li><li>Aggregerad information</li><li>Personuppgifter som samlats in för forskning på människor eller som del av en klinisk prövning</li></ul>"
+  },
+  "request.next.declinePDPA": {
+    "message": "<ul><li>Personuppgifter som behandlas för personliga eller hushållsrelaterade ändamål</li><li>Behandling av statliga myndigheter relaterad till nationell säkerhet, allmän ordning eller beskattning</li><li>Behandling för journalistiska, konstnärliga eller litterära ändamål i allmänhetens intresse</li><li>Behandling av underhuset, senaten, parlamentet eller deras utskott</li><li>Behandling av domstolar och rättsliga tjänstemän inom ramen för deras uppgifter</li><li>Behandling av kreditupplysningsföretag och deras medlemmar enligt Credit Information Business Act</li></ul>"
+  },
+  "request.next.declinePDPL": {
+    "message": "<ul><li>Behandling av personuppgifter av en fysisk person för rent personliga ändamål</li><li>Behandling som utförs direkt av en behörig offentlig myndighet för att utföra dess lagstadgade uppgifter</li><li>Behandling som är nödvändig för nationella säkerhets- eller allmänordningsändamål</li><li>Behandling utan samtycke inom bank- och finanssektorn när det är tillåtet enligt lag</li><li>Behandling av säkerhetstjänster för nationella intressen</li></ul>"
+  },
+  "request.next.declinePIPEDA": {
+    "message": "<ul><li>Undantag från kravet på tillgång bör vara begränsade och specifika.</li><li>Skälen för att neka tillgång bör anges för individen på begäran.</li><li>Undantag kan inkludera information som är extremt kostsam att tillhandahålla, information som innehåller referenser till andra individer, information som inte kan lämnas ut av juridiska, säkerhetsmässiga eller kommersiella skäl, och information som omfattas av advokatklientprivilegium eller rättegångsprivilegium.</li></ul>"
+  },
+  "request.next.declinePIPL": {
+    "message": " när en personuppgiftsansvarig behandlar personuppgifter och det enligt lag eller administrativa förordningar krävs sekretess eller inte är nödvändigt att informera, kan den ansvariga parten avstå från att underrätta den registrerade om de ärenden som anges i första stycket av föregående artikel."
+  },
+  "request.next.declinePOPIA": {
+    "message": "<ul><li>Personliga eller hushållsrelaterade ändamål</li><li>Fullständigt avidentifierade data</li><li>Nationell säkerhet</li><li>Rättsvårdande myndigheter</li><li>Regeringen och dess kommittéer eller den verkställande rådet i en provins</li><li>Avser domstolens rättsliga funktioner som anges i avsnitt 166 i konstitutionen.</li></ul>"
+  },
+  "request.next.declineTDPSA": {
+    "message": "Organisationer, inklusive delstats- och lokala myndigheter, ideella organisationer, lärosäten, vissa nationella värdepappersföreningar, finansiella institutioner och omfattade enheter enligt specifika lagar, såsom Gramm-Leach-Bliley Act och Health Insurance Portability and Accountability Act, är undantagna."
+  },
+  "request.next.declineTIPA": {
+    "message": "<ul><li>Statliga myndigheter och politiska underavdelningar</li><li>Organisationer och affärspartner som omfattas av HIPAA/HITECH</li><li>Finansiella institutioner och närstående som omfattas av Gramm‑Leach‑Bliley Act (GLBA)</li><li>Institutioner för högre utbildning</li><li>Ideella organisationer</li><li>Försäkringsbolag licensierade enligt Tennessee-lag</li><li>Personuppgifter som regleras av Fair Credit Reporting Act (FCRA)</li><li>Anställningsrelaterade eller personuppgifter i kommersiella sammanhang</li><li>Offentligt tillgängliga, aggregerade eller avidentifierade uppgifter</li><li>Personuppgifter som regleras av FERPA eller COPPA</li><li>Arbetsprodukter för patientsäkerhet och annan hälsodata som är undantagen enligt federal lag</li><li>Vetenskaplig eller statistisk forskningsdata som uppfyller lagstadgade skyddsåtgärder</li></ul>"
+  },
+  "request.next.declineUCPA": {
+    "message": "<ul><li>Organisationer, såsom statliga och lokala myndigheter, ideella organisationer, lärosäten, vissa nationella värdepappersföreningar, finansiella institutioner och omfattade enheter enligt specifika lagar, exempelvis Gramm-Leach-Bliley Act och Health Insurance Portability and Accountability Act, är undantagna</li><li>Skyddad hälsodata</li><li>Anställdas data, inklusive data om arbetssökande</li><li>Avidentifierade uppgifter</li><li>Offentligt tillgänglig information</li><li>Aggregerad information</li><li>Personuppgifter som samlats in för forskning på människor eller som del av en klinisk prövning</li></ul>"
+  },
+  "request.next.declineVCDPA": {
+    "message": "<ul><li>Skyddad hälsoinformation under HIPAA;</li><li>Hälsoregister i syfte enligt avsnitt 32.1;</li><li>Information som identifierar patient för ändamål enligt 42 U.S.C. § 290dd-2;</li><li>Identifierbar privat information enligt den federala policyn för skydd av mänskliga forskningsobjekt under 45 C.F.R. Part 46; identifierbar privat information som annars samlas in som en del av mänsklig forskningsverksamhet i enlighet med riktlinjerna för god klinisk sed utfärdade av The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; skyddet av mänskliga forskningsobjekt under 21 C.F.R. Parts 6, 50 och 56, eller personuppgifter som används eller delas i forskning som utförs i enlighet med kraven i detta kapitel, eller annan forskning som utförs i enlighet med tillämplig lagstiftning;</li> <li>Information och dokument som skapas för ändamål enligt den federala Health Care Quality Improvement Act från 1986 (42 U.S.C. § 11101 ff.);</li><li>Arbetsprodukter för patientsäkerhet enligt den federala Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 ff.);</li><li>Information som härrör från någon av de hälso- och sjukvårdsrelaterade uppgifter som anges i denna underrubrik och som avidentifierats i enlighet med kraven för avidentifiering enligt HIPAA;</li><li>Information som härrör från och har sammanblandats så att den inte går att skilja åt, eller information som behandlas på samma sätt som information som är undantagen enligt denna underrubrik och som underhålls av en omfattad enhet eller en affärspartner enligt definitionerna i HIPAA eller ett program eller en kvalificerad tjänsteorganisation enligt 42 U.S.C. § 290dd-2;</li><li>Information som enbart används för folkhälsoaktiviteter och syften enligt vad som godkänts av HIPAA;</li><li>Insamling, underhåll, utlämnande, försäljning, kommunikation eller användning av all personlig information som rör en konsuments kreditvärdighet, kreditstatus, kreditförmåga, karaktär, allmänna rykte, personliga egenskaper eller levnadssätt av ett konsumentkreditupplysningsföretag eller en uppgiftslämnare som tillhandahåller information för användning i en konsumentrapport, och av en användare av en konsumentrapport, men endast i den utsträckning som sådan aktivitet regleras och är tillåten enligt den federala Fair Credit Reporting Act (15 U.S.C. § 1681 ff.);</li> <li>Personuppgifter som samlas in, behandlas, säljs eller lämnas ut i enlighet med den federala Driver's Privacy Protection Act från 1994 (18 U.S.C. § 2721 ff.);</li><li>Personuppgifter som regleras av den federala Family Educational Rights and Privacy Act (20 U.S.C. § 1232g ff.);</li> <li>Personuppgifter som samlas in, behandlas, säljs eller lämnas ut i enlighet med den federala Farm Credit Act (12 U.S.C. § 2001 ff.);</li><li>Data som behandlas eller underhålls (i) i samband med att en individ ansöker hos, är anställd av eller agerar som ombud eller oberoende entreprenör åt en personuppgiftsansvarig, personuppgiftsbiträde eller tredje part, i den utsträckning som uppgifterna används i den rollen; (ii) som nöd-kontaktinformation för en individ enligt detta kapitel som används för nödkontaktändamål; eller (iii) som är nödvändigt att behålla för att hantera förmåner för en annan individ relaterad till individen enligt (i) och används för syftet att administrera dessa förmåner.</li></ul>"
+  },
+  "request.next.escalateToAuthorityNoReply": {
+    "message": "Rekommendation: eskalera din begäran till din {authorityLong} ({authorityShort})."
+  },
+  "request.next.escalateToAuthorityPartial": {
+    "message": "Rekommendation: om du anser att {companyName} borde ha uppfyllt din begäran helt, rekommenderar vi att du eskalerar din begäran till {authorityLong} ({authorityShort})."
+  },
+  "request.next.escalatedAndNoSuccess": {
+    "message": "Du har eskalerat din begäran till {dpaLong} ({dpaShort}), vänligen fortsätt att kommunicera direkt med dem. Det finns inget mer vi kan göra för att hjälpa."
+  },
+  "request.next.esclateButton": {
+    "message": "Eskalera till { authority }"
+  },
+  "request.next.findOutMore": {
+    "message": "Läs mer om dessa undantag"
+  },
+  "request.next.organizationsHaveXDays": {
+    "message": "Enligt {regulationType} har organisationer { timeLimit } dagar på sig att svara på din begäran."
+  },
+  "request.next.reminderButton": {
+    "message": "Skicka en påminnelsemejl till organisationen"
+  },
+  "request.next.selectTheOptions1": {
+    "message": "Vänligen välj från följande alternativ:"
+  },
+  "request.next.selectTheOptions2": {
+    "message": "Om du vill gå vidare, välj ett av följande alternativ:"
+  },
+  "request.next.selectTheOptions3": {
+    "message": "Om du inte vill vänta, välj ett av följande alternativ:"
+  },
+  "request.next.sendAReminderEmail": {
+    "message": "Rekommendation: skicka en påminnelsemejl till organisationen."
+  },
+  "request.next.waitUntilXDays": {
+    "message": "Rekommendation: vänta tills { timeLimit } dagar har gått så att företaget får tid att behandla din begäran."
+  },
+  "request.next.waitUntilXDaysAfterReminder": {
+    "message": "Rekommendation: vänta tills { timeLimit } dagar har gått från datumet då begäran skickades, så att organisationen får tid att behandla din begäran, efter din påminnelsemejl."
+  },
+  "request.next.whatsNext": {
+    "message": "Vad händer nu"
+  },
+  "request.success": {
+    "message": "Grattis, {companyName} har framgångsrikt uppfyllt din begäran. Dina personuppgifter kommer automatiskt att raderas från denna webbplats inom 120 dagar från datumet för din ursprungliga begäran. Alternativt kan du <a>ta bort dina personuppgifter nu</a>."
+  },
+  "request.timeline.esclateTo": {
+    "message": "Eskalera din begäran"
+  },
+  "request.timeline.reminderSent": {
+    "message": "Påminnelse skickad"
+  },
+  "request.timeline.requestNotSent": {
+    "message": "Förfrågan har inte skickats"
+  },
+  "request.timeline.requestSent": {
+    "message": "Förfrågan skickad"
+  },
+  "request.timeline.requestTimeline": {
+    "message": "Din förfrågnings tidslinje"
+  },
+  "request.timeline.sendEscalation": {
+    "message": "Eskalering skickad"
+  },
+  "request.timeline.sendEscalationDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sendReminder": {
+    "message": "Skicka en påminnelse"
+  },
+  "request.timeline.sendReminderDays": {
+    "message": "{days, plural, =0 {today} one {tommorow} other {in # days}}"
+  },
+  "request.timeline.sinceEscalationDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceReminderDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.timeline.sinceRequestDays": {
+    "message": "{days, plural, =0 {today} one {yesterday} other {# days ago}}"
+  },
+  "request.title": {
+    "message": "Detaljer för din {regulationType}-begäran"
+  },
+  "requestEscalation.complaint": {
+    "message": "Ytterligare detaljer"
+  },
+  "requestEscalation.complaintText": {
+    "message": "Förklara gärna varför du inte är nöjd med hur organisationen har hanterat din begäran"
+  },
+  "requestEscalation.esclateButtonForm": {
+    "message": "Öppna eskaleringsformulär"
+  },
+  "requestEscalation.formDisclamer": {
+    "message": "För att eskalera din begäran måste du fylla i ett formulär på {authority}s webbplats. Klicka på knappen nedan för att öppna formuläret i en ny flik."
+  },
+  "requestEscalation.geography": {
+    "message": "Plats"
+  },
+  "requestEscalation.geographyText ": {
+    "message": "Vänligen ange var du är bosatt"
+  },
+  "requestEscalation.phoneDisclamer": {
+    "message": "För att eskalera din förfrågan, vänligen ring {authority} på {phone}."
+  },
+  "requestEscalation.submit": {
+    "message": "Granska och skicka"
+  },
+  "search.companyPlaceholder": {
+    "message": "Sök efter en organisation"
+  },
+  "search.noResults": {
+    "message": "Hittar du inte en organisation?"
+  },
+  "search.noResultsMore": {
+    "message": "Klicka här för att lägga till en"
+  },
+  "sendEmailButton.copy": {
+    "message": "Kopiera e-posttext till urklipp"
+  },
+  "sendEmailButton.default": {
+    "message": "Öppna i ditt standardprogram för e-post"
+  },
+  "sendEmailButton.gmail": {
+    "message": "Öppna i Gmail"
+  },
+  "sendEmailButton.yahoo": {
+    "message": "Öppna i Yahoo Mail"
+  },
+  "social.chromeCTA": {
+    "message": "Ladda ner den för Chrome"
+  },
+  "social.chromeTitle": {
+    "message": "Google Chrome-tillägg"
+  },
+  "social.emailBody": {
+    "message": "Kolla in YourDigitalRights.org, en kostnadsfri tjänst som gör det enkelt att ta reda på vilken personlig data tusentals organisationer har om dig och se till att de raderar den."
+  },
+  "social.emailSubject": {
+    "message": "Ta reda på vilken personlig data tusentals organisationer har om dig och få dem att radera den | Your Digital Rights"
+  },
+  "social.extensionHeadline": {
+    "message": "Avregistrera dig direkt från din webbläsare"
+  },
+  "social.extensionText": {
+    "message": "Vill du ha bättre kontroll över vem som har åtkomst till dina personuppgifter? Vårt webbläsartillägg låter dig avregistrera dig från de webbplatser du besöker med ett klick på en knapp."
+  },
+  "social.facebookQuote": {
+    "message": "Ta reda på vilken personlig data tusentals organisationer har om dig och få dem att radera den. Kolla in yourdigitalrights.org."
+  },
+  "social.firefoxCTA": {
+    "message": "Ladda ner den för Firefox"
+  },
+  "social.frefoxTitle": {
+    "message": "Firefox-tillägg"
+  },
+  "social.shareHeading": {
+    "message": "Om du tycker att den här tjänsten är användbar, sprid den gärna vidare."
+  },
+  "social.twitterTitle": {
+    "message": "Ta reda på vilken personlig data tusentals organisationer har om dig och få dem att radera den. Kolla in yourdigitalrights.org."
+  },
+  "stats.description": {
+    "message": "Statistik om dataskyddsförfrågningar."
+  },
+  "stats.statsSubTitle": {
+    "message": "Vårt uppdrag är att hjälpa individer att återta kontrollen över sin onlineintegritet genom att ge dem möjlighet att begära att organisationer raderar eller förser dem med en kopia av deras personliga information. Följande statistik visar vilka organisationer som har fått flest förfrågningar under olika tidsperioder."
+  },
+  "stats.statsTitle": {
+    "message": "Förfrågningsstatistik"
+  },
+  "stats.title": {
+    "message": "Förfrågningsstatistik"
+  },
+  "stats.titleAlltime": {
+    "message": "Toppförfrågningar genom tiderna"
+  },
+  "stats.titleMonth": {
+    "message": "Toppförfrågningar denna månad"
+  },
+  "stats.titleWeek": {
+    "message": "Toppförfrågningar denna vecka"
+  },
+  "stats.titleYear": {
+    "message": "Toppförfrågningar detta år"
+  },
+  "stats.total": {
+    "message": "Totalt antal skickade förfrågningar: {requestCount, number}"
+  },
+  "subscribe.alertsOneLiner1": {
+    "message": "Håll dig före onlinhot och ta kontroll över dina personuppgifter med Privacy Alerts! Vårt nyhetsbrev ger de senaste expertråden, tipsen och knepen för att skydda din integritet i den digitala världen. Prenumerera nu för att hålla dig informerad och stärkt!"
+  },
+  "subscribe.title": {
+    "message": "Prenumerera på Privacy Alerts!"
+  },
+  "support.description1": {
+    "message": "Vi förstår att det ibland kan vara frustrerande att få företag att radera dina uppgifter."
+  },
+  "support.description2": {
+    "message": "Vår betalda supporttjänst ger dig direkt tillgång till en av våra medarbetare, som gärna hjälper dig med din begäran om radering eller åtkomst av dina uppgifter."
+  },
+  "support.posPaidtitle": {
+    "message": "Tack!"
+  },
+  "support.postPaidDescription1": {
+    "message": "Vänligen kontakta oss via följande e-postadress för att få tillgång till betald support:"
+  },
+  "support.postPaidDescription2": {
+    "message": "{email}."
+  },
+  "support.seoDescription": {
+    "message": "Betald supporttjänst ger dig direkt tillgång till en av våra medarbetare"
+  },
+  "support.seoTitle": {
+    "message": "Support"
+  },
+  "support.title": {
+    "message": "Betald support"
+  },
+  "thankyou.copyPart1Copy": {
+    "message": "har kopierats till urklippet, allt du behöver göra är att klistra in den i ett e-postmeddelande, granska den och klicka på Skicka."
+  },
+  "thankyou.copyPart1Email": {
+    "message": "E-posten borde ha öppnats i ditt e-postprogram, allt du behöver göra är att granska den och klicka på Skicka."
+  },
+  "thankyou.description": {
+    "message": "Tack"
+  },
+  "thankyou.donation": {
+    "message": "Hjälp oss att hålla denna tjänst kostnadsfri genom att <a>göra en donation</a> för att säkerställa vår långsiktiga ekonomiska stabilitet och oberoende."
+  },
+  "thankyou.findCompany": {
+    "message": "Hitta en annan organisation"
+  },
+  "thankyou.howLongToReply": {
+    "message": "Organisationer har {days} på sig att följa begäran och kan be om ytterligare information för att verifiera din identitet."
+  },
+  "thankyou.requestTypeAccess": {
+    "message": "En begäran om åtkomst"
+  },
+  "thankyou.requestTypeDelete": {
+    "message": "En begäran om radering"
+  },
+  "thankyou.seotitle": {
+    "message": "Tack"
+  },
+  "thankyou.title": {
+    "message": "Tack!"
+  }
+}
