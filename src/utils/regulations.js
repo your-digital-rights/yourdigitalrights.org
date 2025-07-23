@@ -262,7 +262,7 @@ const Regulations = {
         {
           name: 'United Kingdom',
           countryCode: 'UK',
-          email: 'dpo@ico.org.uk',
+          email: 'icocasework@ico.og.uk',
           website: 'https://ico.org.uk/',
           chairman: 'John Edwards'
         },
