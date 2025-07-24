@@ -89,10 +89,14 @@ const Footer = ({ showRoadmap=true }) => {
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
-            <S.VercelLogo 
-              src={Vercel}
-              alt="Powered by Vercel"
-            />
+            <S.VercelLogo>
+              <Image 
+                src={Vercel}
+                alt="Powered by Vercel"
+                height={29}
+                width={116}
+              />
+            </S.VercelLogo>
           </a>
         </S.InnerLeft>
         <S.InnerRight>

@@ -1,0 +1,4935 @@
+{
+  "about.aboutTitle": [
+    {
+      "type": 0,
+      "value": "Misiunea noastră"
+    }
+  ],
+  "about.consciousDigital": [
+    {
+      "type": 0,
+      "value": "Cine suntem"
+    }
+  ],
+  "about.consciousDigital1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org este o creație a "
+    },
+    {
+      "type": 1,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ", o organizație caritabilă înregistrată care dezvoltă inițiative digitale centrate pe oameni, promovând și avansând drepturile omului în mediul digital."
+    }
+  ],
+  "about.contact": [
+    {
+      "type": 0,
+      "value": "Contact"
+    }
+  ],
+  "about.contactText": [
+    {
+      "type": 0,
+      "value": "Contactați-ne la "
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.contributors": [
+    {
+      "type": 0,
+      "value": "Contribuitori"
+    }
+  ],
+  "about.contributorsBody1": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Dezvoltator web frontend."
+    }
+  ],
+  "about.contributorsBody3": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Dezvoltator web frontend."
+    }
+  ],
+  "about.contributorsBody4": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Dezvoltator web frontend."
+    }
+  ],
+  "about.contributorsBody5": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Inginer de infrastructură."
+    }
+  ],
+  "about.contributorsBody6": [
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " - Inginer Full Stack, a contribuit la asistența APPI și la traducerea generală în limba japoneză a site-ului."
+    }
+  ],
+  "about.createdByBody2": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Dezvoltator web frontend, dezvoltator de aplicații mobile și creator al Skyjacker, jocul AR de urmărire a zborurilor."
+    }
+  ],
+  "about.description": [
+    {
+      "type": 0,
+      "value": "Your Digital Rights a fost creat deoarece credem că aveți dreptul la confidențialitate și că exercitarea dreptului la confidențialitate trebuie să fie ușoară."
+    }
+  ],
+  "about.funding": [
+    {
+      "type": 0,
+      "value": "Finanțare"
+    }
+  ],
+  "about.fundingBody1": [
+    {
+      "type": 0,
+      "value": "Acest proiect este finanțat de creatorii săi și cu ajutorul donațiilor voastre."
+    }
+  ],
+  "about.missionBody1": [
+    {
+      "type": 0,
+      "value": "Noi credem că confidențialitatea este un drept uman fundamental și că exercitarea acestui drept ar trebui să fie ușor accesibilă tuturor. Reglementările privind protecția datelor, precum "
+    },
+    {
+      "type": 1,
+      "value": "GDPR"
+    },
+    {
+      "type": 0,
+      "value": " (UE), "
+    },
+    {
+      "type": 1,
+      "value": "CCPA"
+    },
+    {
+      "type": 0,
+      "value": " (California) și "
+    },
+    {
+      "type": 1,
+      "value": "LGPD"
+    },
+    {
+      "type": 0,
+      "value": " (Brazilia), furnizează infrastructura legală pentru protejarea dreptului fundamental al oamenilor la confidențialitate online."
+    }
+  ],
+  "about.missionBody2": [
+    {
+      "type": 0,
+      "value": "Reglementările privind confidențialitatea reprezintă un pas în direcția corectă, dar exercitarea drepturilor prevăzute de aceste legislații este încă suficient de dificilă încât majoritatea persoanelor să nu se mai ocupe de aceasta. Situația este agravată de faptul că multe organizații îngreunează trimiterea de cereri de date (de exemplu, prin nepublicarea adreselor de email corporative pe site-ul lor). Scopul nostru este să facem accesibile tuturor drepturile acordate de aceste legislații."
+    }
+  ],
+  "about.missionBody3": [
+    {
+      "type": 0,
+      "value": "Acesta este un serviciu gratuit. Nu suntem o afacere și nu avem un model de afaceri. Nu oferim niciun serviciu organizațiilor din listă. Nu colectăm și nu comercializăm date personale. Acest serviciu este "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Open Source"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsors": [
+    {
+      "type": 0,
+      "value": "Organizații care ne susțin"
+    }
+  ],
+  "about.sponsorsBody2": [
+    {
+      "type": 1,
+      "value": "crunchbase"
+    },
+    {
+      "type": 0,
+      "value": " - pentru că oferă o imagine de ansamblu a bazei lor de date despre companii, pe care o folosim pentru a îmbogăți lista noastră de organizații."
+    }
+  ],
+  "about.sponsorsBody3": [
+    {
+      "type": 1,
+      "value": "featureupvote"
+    },
+    {
+      "type": 0,
+      "value": " - pentru că oferă o modalitate eficientă de a colecta feedback din partea comunității privind "
+    },
+    {
+      "type": 1,
+      "value": "roadmap"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsorsBody4": [
+    {
+      "type": 1,
+      "value": "innocraft"
+    },
+    {
+      "type": 0,
+      "value": " - pentru furnizarea unei versiuni găzduite a Matomo (Piwik), platforma open-source de analiză web care respectă confidențialitatea."
+    }
+  ],
+  "about.sponsorsBody6": [
+    {
+      "type": 1,
+      "value": "sws"
+    },
+    {
+      "type": 0,
+      "value": " - pentru că ne-a ajutat să implementăm o strategie SEO."
+    }
+  ],
+  "about.sponsorsBody7": [
+    {
+      "type": 1,
+      "value": "ama"
+    },
+    {
+      "type": 0,
+      "value": " - pentru că ne-a ajutat să înțelegem și să susținem legislația braziliană de confidențialitate a datelor, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    }
+  ],
+  "about.sponsorsTitle": [
+    {
+      "type": 0,
+      "value": "Dorim să mulțumim următoarelor organizații pentru că ne susțin efortul open-source oferind o versiune gratuită sau cu reducere a serviciilor lor:"
+    }
+  ],
+  "about.title": [
+    {
+      "type": 0,
+      "value": "Despre noi"
+    }
+  ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "În cuvintele lor:"
+    }
+  ],
+  "aboutOrg.details": [
+    {
+      "type": 0,
+      "value": "Despre "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    }
+  ],
+  "aboutOrg.email": [
+    {
+      "type": 0,
+      "value": "E-mail:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "Fondată:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "Sediul central:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "Industrie:"
+    }
+  ],
+  "aboutOrg.privacyPolicy": [
+    {
+      "type": 0,
+      "value": "Vizualizați "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Politica de confidențialitate"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " a "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "Specializări ale companiei:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "Tipul companiei:"
+    }
+  ],
+  "contribute.creadit": [
+    {
+      "type": 0,
+      "value": "Chiar dacă nu ne permitem să vă plătim pentru munca depusă, suntem bucuroși să vă oferim recunoaștere pentru contribuțiile dvs., fie pe acest site, pe GitHub sau în alte moduri."
+    }
+  ],
+  "contribute.creditTitle": [
+    {
+      "type": 0,
+      "value": "Credit"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Faceți-vă un cont pe Crowdin accesând acest "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "link"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Accesați acest "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "link"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pentru a încărca sistemul de traducere."
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Alegeți o limbă (va trebui să vă conectați în Crowdin pentru a face acest lucru)."
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Ar trebui să vedeți acum casete care încadrează diversele fragmente de text care alcătuiesc site-ul. Treceți cursorul peste textul pe care doriți să îl traduceți și faceți clic pe pictograma care va apărea în colțul textului."
+    }
+  ],
+  "contribute.crowdinStep5": [
+    {
+      "type": 0,
+      "value": "Se va deschide un editor în care puteți furniza traducerea. Nu uitați să faceți clic pe salvare când ați terminat."
+    }
+  ],
+  "contribute.crowdinStep6": [
+    {
+      "type": 0,
+      "value": "Dacă întâmpinați probleme, vă rugăm să "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "ne contactați."
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    }
+  ],
+  "contribute.description": [
+    {
+      "type": 0,
+      "value": "Ajutați-ne să îmbunătățim YourDigitalRights.org."
+    }
+  ],
+  "contribute.dev": [
+    {
+      "type": 0,
+      "value": "Repozitoarele noastre sunt găzduite pe GitHub, principalul fiind pentru acest "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "site web"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". Cea mai bună modalitate de a începe este să ne contactați prin "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": ". Ulterior, vă vom adăuga pe canalul nostru Slack și vom împărtăși eforturile de dezvoltare în curs. Alternativ, puteți clona depozitul și trimite cereri de fuziune."
+    }
+  ],
+  "contribute.devSkills": [
+    {
+      "type": 0,
+      "value": "În prezent, căutăm ingineri specializați în Machine Learning, React și AWS."
+    }
+  ],
+  "contribute.devTitle": [
+    {
+      "type": 0,
+      "value": "Ajutor cu dezvoltarea"
+    }
+  ],
+  "contribute.reportAProblem": [
+    {
+      "type": 0,
+      "value": "Dacă întâmpinați probleme cu acest site, le puteți raporta în "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "issue tracker"
+        }
+      ],
+      "type": 8,
+      "value": "a1"
+    },
+    {
+      "type": 0,
+      "value": " sau prin "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "a2"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.reportAProblemTitle": [
+    {
+      "type": 0,
+      "value": "Raportați o problemă"
+    }
+  ],
+  "contribute.research": [
+    {
+      "type": 0,
+      "value": "Căutăm mereu modalități mai bune de a promova drepturile digitale și de a le face mai accesibile. Fie că este vorba de a înțelege mai bine modul în care oamenii utilizează tehnologia sau de a analiza cum o abuzează organizațiile, există întotdeauna proiecte de cercetare în desfășurare. Vă rugăm să ne "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "trimiteți un email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": " dacă doriți să vă implicați."
+    }
+  ],
+  "contribute.researchTitle": [
+    {
+      "type": 0,
+      "value": "Ajutor cu cercetarea"
+    }
+  ],
+  "contribute.subtitle": [
+    {
+      "type": 0,
+      "value": "Acest proiect este dezvoltat și întreținut în totalitate de voluntari. Dacă sunteți îngrijorat de pierderea confidențialității, de capitalismul de supraveghere excesiv, de micro-țintire și de dezinformare, precum și de natura adictivă a serviciilor digitale, atunci puteți ajuta:"
+    }
+  ],
+  "contribute.title": [
+    {
+      "type": 0,
+      "value": "Contribuiți"
+    }
+  ],
+  "contribute.translate1": [
+    {
+      "type": 0,
+      "value": "Ne dorim ca acest serviciu să fie disponibil în multe limbi. Dacă limba dumneavoastră nu se află printre cele disponibile în prezent sau are nevoie de actualizări sau îmbunătățiri, ne-ar face plăcere să ne ajutați!"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "Folosim platforma online "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Crowdin"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pentru a pregăti cu ușurință șirurile de traducere. Acest lucru face procesul mult mai simplu și nu necesită cunoștințe de programare. Există un tutorial rapid disponibil "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "aici"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ". Urmați acești pași pentru a începe:"
+    }
+  ],
+  "contribute.translateTitle": [
+    {
+      "type": 0,
+      "value": "Traduceți site-ul"
+    }
+  ],
+  "dataProcessors": [
+    {
+      "type": 0,
+      "value": "Partajarea datelor și împuterniciți"
+    }
+  ],
+  "deletePII.deleteAllPII": [
+    {
+      "type": 0,
+      "value": "Toate cererile"
+    }
+  ],
+  "deletePII.deleteSpecificPII": [
+    {
+      "type": 0,
+      "value": "Această cerere"
+    }
+  ],
+  "deletePII.doneAll": [
+    {
+      "type": 0,
+      "value": "Am șters cu succes datele personale asociate tuturor solicitărilor dvs."
+    }
+  ],
+  "deletePII.doneRequest": [
+    {
+      "type": 0,
+      "value": "Am șters cu succes datele personale asociate acestei solicitări."
+    }
+  ],
+  "deletePII.heading": [
+    {
+      "type": 0,
+      "value": "Ștergeți-mi datele"
+    }
+  ],
+  "deletePII.intro": [
+    {
+      "type": 0,
+      "value": "Datele dvs. personale vor fi șterse automat la 120 de zile după ce a fost făcută o cerere, însă puteți alege să vă ștergeți datele chiar acum. Doriți să ștergeți datele asociate acestei cereri (ref: "
+    },
+    {
+      "type": 1,
+      "value": "ref"
+    },
+    {
+      "type": 0,
+      "value": ") sau tuturor cererilor dvs.?"
+    }
+  ],
+  "deletemydata.description": [
+    {
+      "type": 0,
+      "value": "Ștergeți-mi datele"
+    }
+  ],
+  "deletemydata.title": [
+    {
+      "type": 0,
+      "value": "Ștergeți-mi datele"
+    }
+  ],
+  "donations.donate": [
+    {
+      "type": 0,
+      "value": "Donează"
+    }
+  ],
+  "donations.donateIntro": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org a fost creat deoarece credem că protecția vieții private contează și că exercitarea dreptului la confidențialitate ar trebui să fie ușoară. De aceea am făcut acest serviciu gratuit. Prin donații sau devenind membru susținător, puteți ajuta la asigurarea stabilității noastre financiare pe termen lung și a independenței noastre."
+    }
+  ],
+  "donations.headingDonate": [
+    {
+      "type": 0,
+      "value": "Avem nevoie de sprijinul dumneavoastră"
+    }
+  ],
+  "faq.body.YDR.1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org este un serviciu gratuit care vă ajută să recăpătați controlul asupra confidențialității online, facilitând solicitarea către organizații pentru a șterge sau pentru a vă furniza o copie a informațiilor personale pe care le dețin despre dvs. Facem acest lucru prin automatizarea procesului descris în puternicele legi de protecție a datelor care vă oferă dreptul de a vă șterge sau accesa datele. Pe lângă trimiterea cererilor către organizații, vă putem ajuta să vă asigurați că cererile sunt rezolvate în favoarea dvs."
+    }
+  ],
+  "faq.body.contact.1": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să înțelegeți că nu putem oferi asistență personală cu privire la cereri de date specifice sau la experiența dvs. cu o anumită organizație. Știm că, în unele cazuri, organizațiile pot fi destul de frustrante, dar, din păcate, nu putem ajuta și nu vom răspunde la astfel de emailuri."
+    }
+  ],
+  "faq.body.contact.2": [
+    {
+      "type": 0,
+      "value": "Pentru toate celelalte solicitări, vă rugăm să ne contactați prin "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.contribute.1": [
+    {
+      "type": 0,
+      "value": "Da, vă rugăm!"
+    }
+  ],
+  "faq.body.contribute.2": [
+    {
+      "type": 0,
+      "value": "Ne bazăm pe "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "donații"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pentru a ne asigura stabilitatea financiară pe termen lung și independența. Puteți face o contribuție aici."
+    }
+  ],
+  "faq.body.contribute.3": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să consultați informațiile de pe "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "această pagină"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " dacă doriți să raportați o eroare, să ajutați la traducerea site-ului, să contribuiți la dezvoltare sau să efectuați cercetare."
+    }
+  ],
+  "faq.body.data-protection.1": [
+    {
+      "type": 0,
+      "value": "Legile privind protecția datelor protejează persoanele în ceea ce privește prelucrarea informațiilor lor personale de către organizații. Ele definesc responsabilitățile organizațiilor atunci când procesează informații personale și acordă indivizilor anumite drepturi în relație cu datele lor. Multe țări au legi privind protecția datelor; unele merg mai departe în ceea ce privește nivelul de protecție oferit."
+    }
+  ],
+  "faq.body.escalate.1": [
+    {
+      "type": 0,
+      "value": "Legile privind protecția datelor prevăd diverse mecanisme de escaladare pentru astfel de situații, inclusiv posibilitatea de a depune o plângere împotriva organizației la o agenție guvernamentală de reglementare sau de a acționa organizația în instanță (denumit drept privat de acțiune)."
+    }
+  ],
+  "faq.body.escalate.2": [
+    {
+      "type": 0,
+      "value": "Dacă vi se pare complicat, nu vă faceți griji; vă putem ajuta. Când trimiteți o cerere de date prin acest serviciu, activați opțiunea \"Asistență inteligentă de urmărire\" pentru a primi sfaturi personalizate cu privire la ce trebuie făcut în cazul în care o organizație nu v-a îndeplinit cererea. Vă vom ajuta să comunicați cu organizația și, dacă este necesar, să escaladăm la agenția guvernamentală de reglementare."
+    }
+  ],
+  "faq.body.how.1": [
+    {
+      "type": 0,
+      "value": "După ce selectați o organizație și completați un formular scurt, vom genera un email de cerere adresat organizației alese. Emailul se va deschide în aplicația dvs. de email pentru a-l revizui și trimite. Opțional, putem reveni la dvs. la scurt timp după ce a fost trimisă o cerere pentru a ne asigura că cererea este rezolvată în favoarea dvs. Acest lucru poate include trimiterea de emailuri de reamintire către organizație sau escaladarea la agenția guvernamentală de reglementare."
+    }
+  ],
+  "faq.body.new-regulation.1": [
+    {
+      "type": 0,
+      "value": "Ne-am dori să sprijinim toate legile privind protecția datelor care acordă persoanelor dreptul de a-și accesa și șterge informațiile personale. Vă rugăm să ne "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contactați"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " dacă doriți să adăugăm suport pentru un anumit regulament."
+    }
+  ],
+  "faq.body.refuse.1": [
+    {
+      "type": 0,
+      "value": "Legile privind protecția datelor permit organizațiilor să refuze ștergerea informațiilor dvs. personale în anumite circumstanțe excepționale. Iată câteva exemple generale, dar ar trebui să citiți reglementarea specifică care vi se aplică pentru detalii:"
+    }
+  ],
+  "faq.body.refuse.1.1": [
+    {
+      "type": 0,
+      "value": "Când organizația este obligată prin lege să păstreze datele dvs. (de exemplu, instituțiile financiare trebuie să păstreze evidența tranzacțiilor dvs. pentru a respecta reglementările împotriva spălării banilor)"
+    }
+  ],
+  "faq.body.refuse.1.2": [
+    {
+      "type": 0,
+      "value": "Când păstrarea datelor dvs. este necesară din motive ce țin de libertatea de exprimare și de informare (acest lucru include jurnalismul și scopuri academice, artistice și literare)"
+    }
+  ],
+  "faq.body.refuse.1.3": [
+    {
+      "type": 0,
+      "value": "Când păstrarea datelor dvs. este necesară din motive de sănătate publică"
+    }
+  ],
+  "faq.body.refuse.1.4": [
+    {
+      "type": 0,
+      "value": "Când păstrarea datelor dvs. este necesară pentru stabilirea, exercitarea sau apărarea unor pretenții legale"
+    }
+  ],
+  "faq.body.refuse.1.5": [
+    {
+      "type": 0,
+      "value": "Când ștergerea datelor dvs. ar prejudicia cercetarea științifică sau istorică ori arhivarea în interes public"
+    }
+  ],
+  "faq.body.regulations.1": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să ne "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contactați"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " dacă doriți să ne ajutați să implementăm suport pentru reglementări suplimentare."
+    }
+  ],
+  "faq.body.regulations.location": [
+    {
+      "type": 0,
+      "value": "Locație"
+    }
+  ],
+  "faq.body.regulations.name": [
+    {
+      "type": 0,
+      "value": "Nume complet"
+    }
+  ],
+  "faq.body.regulations.short-name": [
+    {
+      "type": 0,
+      "value": "Abreviere"
+    }
+  ],
+  "faq.body.regulations.timelimit": [
+    {
+      "type": 0,
+      "value": "Timp de răspuns"
+    }
+  ],
+  "faq.body.requests.1": [
+    {
+      "type": 0,
+      "value": "Acceptăm două tipuri de solicitări:"
+    }
+  ],
+  "faq.body.requests.1.1": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Cererile de ștergere a datelor"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " (cunoscute și ca cereri de ștergere sau dreptul de a fi uitat) vă permit să solicitați unei organizații să vă șteargă informațiile personale."
+    }
+  ],
+  "faq.body.requests.1.2": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Cererile de acces"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " (cunoscute și ca Cereri de acces la date sau SAR) vă permit să solicitați unei organizații să vă furnizeze o copie a informațiilor dvs. personale."
+    }
+  ],
+  "faq.body.trust.1": [
+    {
+      "type": 0,
+      "value": "Suntem o organizație nonprofit înregistrată, numită "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". Credem în transparență, iar prin urmare, codul sursă al acestui serviciu este "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "open source"
+        }
+      ],
+      "type": 8,
+      "value": "aa"
+    },
+    {
+      "type": 0,
+      "value": ". Până în octombrie 2022, am ajutat persoane să trimită peste 100.000 de cereri către diferite organizații"
+    }
+  ],
+  "faq.body.trust.2": [
+    {
+      "type": 0,
+      "value": "Suntem independenți, nu vă vindem informațiile personale, nu suntem afiliați cu nicio organizație căreia vă ajutăm să trimiteți cereri de date. De asemenea, nu furnizăm niciun serviciu acestor organizații. În cele din urmă, suntem finanțați prin "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "donațiile"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " dumneavoastră."
+    }
+  ],
+  "faq.body.trust.3": [
+    {
+      "type": 0,
+      "value": "Am conceput acest serviciu astfel încât, în mod implicit, nu necesită colectarea niciunei informații personale. Atunci când anumite funcționalități opționale vă solicită să furnizați informații personale, noi ștergem aceste date după 120 de zile. Vă rugăm să consultați "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "politica noastră de confidențialitate"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pentru detalii."
+    }
+  ],
+  "faq.body.verify.1": [
+    {
+      "type": 0,
+      "value": "Legile privind protecția datelor solicită organizațiilor să verifice identitatea persoanei care trimite o cerere pentru a preveni frauda. Majoritatea legilor prevăd, de asemenea, că metoda de verificare trebuie să fie proporțională cu natura datelor implicate. De exemplu, dacă solicitați o copie a istoricului dvs. de mesaje de la un forum tipic de internet, o verificare simplă că dețineți adresa de e-mail asociată contului ar trebui să fie suficientă. Pe de altă parte, dacă solicitați istoricul tranzacțiilor de la o instituție financiară, aceasta este îndreptățită să vă ceară informații suplimentare, cum ar fi un act de identitate cu fotografie și o dovadă de adresă."
+    }
+  ],
+  "faq.body.verify.2": [
+    {
+      "type": 0,
+      "value": "În majoritatea cazurilor, o verificare simplă că dețineți adresa de e-mail asociată contului ar trebui să fie suficientă. Când utilizați acest serviciu pentru a trimite o cerere, un e-mail este trimis din aplicația dvs. de e-mail, oferind această verificare de bază."
+    }
+  ],
+  "faq.body.verify.3": [
+    {
+      "type": 0,
+      "value": "Pentru a vă proteja și mai mult informațiile personale, cererile pe care le generăm în numele dvs. interzic în mod explicit organizațiilor să utilizeze informațiile personale incluse în cerere în orice alt scop decât îndeplinirea cererii."
+    }
+  ],
+  "faq.heading.YDR": [
+    {
+      "type": 0,
+      "value": "Ce este YourDigitalRights.org?"
+    }
+  ],
+  "faq.heading.contact": [
+    {
+      "type": 0,
+      "value": "Am o altă întrebare, cum pot să vă contactez?"
+    }
+  ],
+  "faq.heading.contribute": [
+    {
+      "type": 0,
+      "value": "Acest serviciu este fantastic. Pot să ajut?"
+    }
+  ],
+  "faq.heading.data-protection": [
+    {
+      "type": 0,
+      "value": "Ce sunt legile privind protecția datelor?"
+    }
+  ],
+  "faq.heading.escalate": [
+    {
+      "type": 0,
+      "value": "Ce ar trebui să fac dacă o organizație nu respectă pe deplin cererea mea?"
+    }
+  ],
+  "faq.heading.how": [
+    {
+      "type": 0,
+      "value": "Cum funcționează acest serviciu?"
+    }
+  ],
+  "faq.heading.new-regulation": [
+    {
+      "type": 0,
+      "value": "Țara mea are o nouă lege privind protecția datelor. O veți susține?"
+    }
+  ],
+  "faq.heading.refuse": [
+    {
+      "type": 0,
+      "value": "Pot organizațiile să refuze?"
+    }
+  ],
+  "faq.heading.regulations": [
+    {
+      "type": 0,
+      "value": "Ce țări, state sau reglementări sunt acceptate?"
+    }
+  ],
+  "faq.heading.requests": [
+    {
+      "type": 0,
+      "value": "Ce fel de cereri pot face folosind acest serviciu?"
+    }
+  ],
+  "faq.heading.trust": [
+    {
+      "type": 0,
+      "value": "Cine administrează acest serviciu? Pot să am încredere în voi?"
+    }
+  ],
+  "faq.heading.verify": [
+    {
+      "type": 0,
+      "value": "O organizație mi-a cerut să furnizez informații personale suplimentare pentru a-mi verifica identitatea. Este acest lucru legal? Pot folosi aceste informații în alte scopuri?"
+    }
+  ],
+  "faq.title": [
+    {
+      "type": 0,
+      "value": "Întrebări frecvente"
+    }
+  ],
+  "footer.contact": [
+    {
+      "type": 0,
+      "value": "© Drepturi de autor 2019 - 2022"
+    }
+  ],
+  "footer.disclaimer": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Declinarea răspunderii:"
+        }
+      ],
+      "type": 8,
+      "value": "span"
+    },
+    {
+      "type": 0,
+      "value": " Acest serviciu este furnizat ca atare, fără nicio garanție de orice fel. Utilizarea acestui serviciu se face în totalitate pe propriul risc. Nu ne asumăm responsabilitatea pentru eventualele daune directe sau indirecte care rezultă din utilizarea acestui serviciu. Informațiile furnizate de acest serviciu, împreună cu conținutul de pe site-ul nostru referitor la aspecte juridice, sunt oferite pentru uzul dumneavoastră privat și nu constituie consiliere juridică. Dacă aveți nevoie de asistență juridică pentru o problemă specifică, trebuie să consultați un avocat licențiat."
+    }
+  ],
+  "footer.madeBy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Realizat de Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.poweredBy": [
+    {
+      "type": 0,
+      "value": "Oferit de Vercel"
+    }
+  ],
+  "footer.privacyPolicy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Politica de confidențialitate"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.stats": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Statistici"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.wishList": [
+    {
+      "type": 0,
+      "value": "Faceți o dorință în roadmap-ul nostru"
+    }
+  ],
+  "hero.headerText": [
+    {
+      "type": 0,
+      "value": "Determinați organizațiile să vă șteargă contul sau să vă furnizeze o copie a informațiilor personale."
+    }
+  ],
+  "hero.heading": [
+    {
+      "type": 0,
+      "value": "Dețineți-vă datele"
+    }
+  ],
+  "hero.intro": [
+    {
+      "type": 0,
+      "value": "Multe organizații colectează și vând datele dvs. personale, de multe ori fără consimțământul dvs. Folosiți acest serviciu gratuit pentru a le trimite o cerere de ștergere sau de acces la date. Începeți prin a căuta o organizație mai jos."
+    }
+  ],
+  "howItWorks.followUp": [
+    {
+      "type": 0,
+      "value": "utilizând asistentul nostru inteligent de urmărire pentru a vă asigura că organizația se conformează cererii dvs. și chiar vă ajută să vă escaladați cererea către autoritatea guvernamentală relevantă."
+    }
+  ],
+  "howItWorks.followUpTitle": [
+    {
+      "type": 0,
+      "value": "Urmărire"
+    }
+  ],
+  "howItWorks.imgAlt": [
+    {
+      "type": 0,
+      "value": "O imagine care reprezintă interfața utilizatorului"
+    }
+  ],
+  "howItWorks.search": [
+    {
+      "type": 0,
+      "value": "pentru o organizație folosind caseta de căutare din partea de sus a acestei pagini."
+    }
+  ],
+  "howItWorks.searchTitle": [
+    {
+      "type": 0,
+      "value": "Căutare"
+    }
+  ],
+  "howItWorks.send": [
+    {
+      "type": 0,
+      "value": "organizației o cerere de a șterge sau de a furniza o copie a datelor dvs."
+    }
+  ],
+  "howItWorks.sendTitle": [
+    {
+      "type": 0,
+      "value": "Trimiteți"
+    }
+  ],
+  "howItWorks.title": [
+    {
+      "type": 0,
+      "value": "Cum funcționează"
+    }
+  ],
+  "howItWorks.whyBody": [
+    {
+      "type": 0,
+      "value": "Suntem o organizație caritabilă înregistrată, numită "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ". Am creat acest serviciu deoarece credem că confidențialitatea este importantă și că exercitarea dreptului la confidențialitate ar trebui să fie ușoară și gratuită. Nu colectăm sau vindem date personale. Serviciul este finanțat de către creatorii săi și cu ajutorul "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "donațiilor"
+        }
+      ],
+      "type": 8,
+      "value": "donations"
+    },
+    {
+      "type": 0,
+      "value": " dumneavoastră."
+    }
+  ],
+  "howItWorks.whyTitle": [
+    {
+      "type": 0,
+      "value": "De ce să ne aveți încredere?"
+    }
+  ],
+  "howItWorks.yourData": [
+    {
+      "type": 0,
+      "value": "Legile privind protecția datelor cer organizațiilor să vă șteargă datele sau să vă furnizeze o copie a datelor la cerere. Organizațiile au la dispoziție un timp scurt pentru a se conforma, în caz contrar riscă amenzi mari. Misiunea noastră este să vă facilităm exercitarea drepturilor legale."
+    }
+  ],
+  "howItWorks.yourDataTitle": [
+    {
+      "type": 0,
+      "value": "Aveți dreptul la confidențialitate!"
+    }
+  ],
+  "index.description": [
+    {
+      "type": 0,
+      "value": "Ștergeți contul dvs. sau accesați datele personale pe care organizațiile le dețin despre dvs. folosind acest serviciu gratuit."
+    }
+  ],
+  "nav.about": [
+    {
+      "type": 0,
+      "value": "Despre"
+    }
+  ],
+  "nav.blog": [
+    {
+      "type": 0,
+      "value": "Blog"
+    }
+  ],
+  "nav.contact": [
+    {
+      "type": 0,
+      "value": "Contactați-ne"
+    }
+  ],
+  "nav.contribute": [
+    {
+      "type": 0,
+      "value": "Contribuiți"
+    }
+  ],
+  "nav.data-brokers": [
+    {
+      "type": 0,
+      "value": "Brokeri de date"
+    }
+  ],
+  "nav.donate": [
+    {
+      "type": 0,
+      "value": "Faceți o donație"
+    }
+  ],
+  "nav.donation": [
+    {
+      "type": 0,
+      "value": "Faceți o donație"
+    }
+  ],
+  "nav.faq": [
+    {
+      "type": 0,
+      "value": "Întrebări frecvente"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Ajutați la traducere"
+    }
+  ],
+  "nav.howItWorks": [
+    {
+      "type": 0,
+      "value": "Cum funcționează"
+    }
+  ],
+  "nav.privacyPoilcy": [
+    {
+      "type": 0,
+      "value": "Politica de confidențialitate"
+    }
+  ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Statistici"
+    }
+  ],
+  "nav.twitterHastag": [
+    {
+      "type": 0,
+      "value": "#ownyourdata"
+    }
+  ],
+  "org.DescriptionNewOrg": [
+    {
+      "type": 0,
+      "value": "Trimiteți cereri de ștergere și acces la date în temeiul GDPR, CCPA și LGPD către orice organizație rapid și ușor."
+    }
+  ],
+  "org.descriptionExistingOrg": [
+    {
+      "type": 0,
+      "value": "Solicitați ștergerea contului sau o copie a datelor dvs. personale de la "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": ", rapid și ușor."
+    }
+  ],
+  "org.titleExistingOrg": [
+    {
+      "type": 0,
+      "value": "Ștergeți-vă contul "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " sau obțineți o copie a datelor dvs."
+    }
+  ],
+  "org.titleNewOrg": [
+    {
+      "type": 0,
+      "value": "Trimiteți cereri de ștergere și acces la date GDPR, CCPA și LGPD"
+    }
+  ],
+  "orgHero.newOrgTitle": [
+    {
+      "type": 0,
+      "value": "Trimiteți o cerere de ștergere a datelor sau de acces."
+    }
+  ],
+  "orgHero.subTitle2": [
+    {
+      "type": 0,
+      "value": "Trimiteți lui "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " o cerere de ștergere a datelor sau de acces folosind acest serviciu "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "gratuit și independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "orgHero.subTitleNewOrg": [
+    {
+      "type": 0,
+      "value": "Determinați organizațiile să vă șteargă sau să vă trimită o copie a datelor personale folosind acest serviciu "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "gratuit și independent"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "orgHero.title": [
+    {
+      "type": 0,
+      "value": "Ștergeți-vă contul "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " sau solicitați datele dvs."
+    }
+  ],
+  "personalInfoForm.FollowUpDetails": [
+    {
+      "type": 0,
+      "value": "Pentru a vă asigura că organizația respectă cererea dvs., vă vom trimite un email când va fi momentul să luați măsuri suplimentare. Veți avea posibilitatea de a trimite un email de reamintire organizației sau de a escalada situația la agenția locală de protecție a datelor."
+    }
+  ],
+  "personalInfoForm.FollowUpDetailsWarning": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Selectând această opțiune, sunteți de acord să ne permiteți să procesăm și să stocăm următoarele informații personale: adresa de email, numele dvs. și textul emailurilor de solicitare. Toate informațiile personale referitoare la această cerere vor fi șterse automat din sistemele noastre în termen de 120 de zile, cu excepția cazului în care specificați altfel, iar dumneavoastră aveți întotdeauna posibilitatea de a solicita ștergerea imediată a acestor date. Colectăm aceste informații în mod automat prin adăugarea unei adrese de email speciale în câmpul CC al emailului de solicitare."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.FollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Activați asistența inteligentă de urmărire"
+    }
+  ],
+  "personalInfoForm.IdentifyingInfoHelper": [
+    {
+      "type": 0,
+      "value": "Furnizați opțional orice informații suplimentare care vor ajuta organizația să vă localizeze datele în sistemele lor de informații, cum ar fi numele de utilizator, ID-ul de client sau numărul de cont. "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Vă rugăm să nu furnizați parola sau alte informații personale pe care organizația nu le deține deja."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.NoFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Nu, mă descurc singur"
+    }
+  ],
+  "personalInfoForm.YesFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Da, trimiteți-mi instrucțiuni de urmărire prin email"
+    }
+  ],
+  "personalInfoForm.accessRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Trimiteți-mi o copie a datelor mele"
+    }
+  ],
+  "personalInfoForm.companyDomainHelper": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să introduceți numele de domeniu al organizației (exemplu: google.co.uk sau facebook.com)."
+    }
+  ],
+  "personalInfoForm.companyDomainLabel": [
+    {
+      "type": 0,
+      "value": "Domeniul organizației"
+    }
+  ],
+  "personalInfoForm.companyEmailLabel": [
+    {
+      "type": 0,
+      "value": "Adresa de email a organizației"
+    }
+  ],
+  "personalInfoForm.companyNameHelper": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să introduceți numele organizației cu care doriți să luați legătura."
+    }
+  ],
+  "personalInfoForm.companyNameLabel": [
+    {
+      "type": 0,
+      "value": "Numele organizației"
+    }
+  ],
+  "personalInfoForm.compnayEmailHelper": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să introduceți adresa de email a persoanei sau departamentului responsabil cu gestionarea cererilor GDPR / CCPA / de confidențialitate / juridice. De obicei, puteți găsi aceste informații pe site-ul organizației, în secțiunea dedicată politicii de confidențialitate, termenilor și condițiilor sau pagina de contact."
+    }
+  ],
+  "personalInfoForm.deletionRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Ștergeți-mi datele"
+    }
+  ],
+  "personalInfoForm.headline": [
+    {
+      "type": 0,
+      "value": "Completați formularul pentru a crea un e-mail de cerere pe care îl puteți apoi revizui și trimite."
+    }
+  ],
+  "personalInfoForm.identifyingInfoLabel": [
+    {
+      "type": 0,
+      "value": "Informații suplimentare de identificare (opțional)"
+    }
+  ],
+  "personalInfoForm.nameHelper": [
+    {
+      "type": 0,
+      "value": "Acestea vor fi folosite de organizație pentru a vă identifica."
+    }
+  ],
+  "personalInfoForm.nameLabel": [
+    {
+      "type": 0,
+      "value": "Nume complet"
+    }
+  ],
+  "personalInfoForm.regulationType": [
+    {
+      "type": 0,
+      "value": "Regulament"
+    }
+  ],
+  "personalInfoForm.regulationTypeHelper": [
+    {
+      "type": 0,
+      "value": "Alegeți regulamentul în funcție de locul în care locuiți, cu excepția cazului în care aveți un motiv specific să alegeți altceva."
+    }
+  ],
+  "personalInfoForm.requestTypeLabelText": [
+    {
+      "type": 0,
+      "value": "Tipul cererii"
+    }
+  ],
+  "personalInfoForm.sendButton": [
+    {
+      "type": 0,
+      "value": "Revizuiește și trimite"
+    }
+  ],
+  "personalInfoForm.supportButtonCTA": [
+    {
+      "type": 0,
+      "value": "Asistență"
+    }
+  ],
+  "personalInfoForm.validEmail": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să introduceți o adresă de email validă."
+    }
+  ],
+  "pressIntro.title": [
+    {
+      "type": 0,
+      "value": "Prezentat în"
+    }
+  ],
+  "privacy.additionalPersonalData": [
+    {
+      "type": 0,
+      "value": "Urmărirea solicitărilor"
+    }
+  ],
+  "privacy.additionalPersonalDataBody1": [
+    {
+      "type": 0,
+      "value": "În timpul utilizării acestui Serviciu, după trimiterea unei solicitări de date, puteți alege să primiți asistență suplimentară din partea noastră prin email. Dacă alegeți să utilizați această caracteristică opțională, vom colecta următoarele date personale suplimentare:"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Adresa dvs. de email"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Conținutul emailurilor de solicitare a datelor pe care le trimiteți organizațiilor și autorităților pentru protecția datelor (DPA)"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneC": [
+    {
+      "type": 0,
+      "value": "Metadate referitoare la emailurile de solicitare a datelor pe care le trimiteți organizațiilor și autorităților pentru protecția datelor (DPA), precum momentul trimiterii emailului și adresele destinatar și expeditor"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Păstrăm Datele Personale Extinse pentru maximum 120 de zile."
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneF": [
+    {
+      "type": 0,
+      "value": "Furnizându-ne în mod voluntar Date Personale, vă exprimați consimțământul pentru utilizarea acestora, în conformitate cu această Politică de Confidențialitate. Dacă furnizați Date Personale pe acest site web, recunoașteți și sunteți de acord că acestea pot fi transferate din locația dvs. actuală la birourile și serverele YourDigitalRights.org și ale terților autorizați menționați în această Politică."
+    }
+  ],
+  "privacy.contact": [
+    {
+      "type": 0,
+      "value": "Contact"
+    }
+  ],
+  "privacy.contactBody": [
+    {
+      "type": 0,
+      "value": "Dacă aveți întrebări sau nelămuriri cu privire la această politică de confidențialitate, vă rugăm să ne contactați la "
+    },
+    {
+      "type": 1,
+      "value": "mail"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.cookies": [
+    {
+      "type": 0,
+      "value": "Cookie-uri și urmărire"
+    }
+  ],
+  "privacy.cookiesBody": [
+    {
+      "type": 0,
+      "value": "Folosim cookie-uri doar pentru a salva alegerile pe care le faceți pe site, astfel încât să vă fie mai ușor să utilizați serviciul data viitoare. Un cookie este o informație pe care computerul care găzduiește Serviciul nostru o transmite browserului dvs. atunci când accesați Serviciul."
+    }
+  ],
+  "privacy.description": [
+    {
+      "type": 0,
+      "value": "Datele vă aparțin, noi existăm pentru a vă ajuta să controlați cine are acces la ele. Aceasta este pagina noastră despre politica de confidențialitate."
+    }
+  ],
+  "privacy.lastUpdated": [
+    {
+      "type": 0,
+      "value": "Ultima actualizare:"
+    }
+  ],
+  "privacy.personalData": [
+    {
+      "type": 0,
+      "value": "Trimiterea solicitărilor"
+    }
+  ],
+  "privacy.personalDataBody1": [
+    {
+      "type": 0,
+      "value": "În timpul trimiterii solicitărilor (fără a activa caracteristica opțională de urmărire a solicitării) vă rugăm să ne furnizați următoarele date personale:"
+    }
+  ],
+  "privacy.personalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Numele dumneavoastră"
+    }
+  ],
+  "privacy.personalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Informații suplimentare necesare pentru a vă identifica în raport cu organizațiile pe care alegeți să le contactați (cum ar fi un nume de utilizator, un ID de client sau un număr de cont)"
+    }
+  ],
+  "privacy.personalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Utilizăm Datele Personale colectate doar atunci când trimiteți solicitări pentru a genera un email și nu le stocăm pe serverele noastre."
+    }
+  ],
+  "privacy.privacyTitle": [
+    {
+      "type": 0,
+      "value": "Politica de confidențialitate"
+    }
+  ],
+  "privacy.processorsA": [
+    {
+      "type": 0,
+      "value": "Matomo: un serviciu de analiză web orientat spre confidențialitate de la Innocraft. Folosim Matomo pentru a colecta informații anonimizate privind modul în care Serviciul este accesat și utilizat (\"Date de utilizare\"). Puteți vizita pagina lor "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.processorsB": [
+    {
+      "type": 0,
+      "value": "Amazon AWS: un furnizor de servicii de infrastructură cloud. Când optați pentru Urmărirea solicitărilor, folosim AWS pentru a procesa emailurile pe care le trimiteți, pentru a stoca informațiile aferente și pentru a vă trimite emailuri de reamintire. Puteți vizita pagina lor "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.promise": [
+    {
+      "type": 0,
+      "value": "Promisiunea noastră"
+    }
+  ],
+  "privacy.promiseBody": [
+    {
+      "type": 0,
+      "value": "Datele vă aparțin. Noi existăm pentru a vă ajuta să controlați cine are acces la ele. Credem cu tărie în păstrarea informațiilor dvs. personale private și în siguranță. Nu folosim cookie-uri neesențiale și limităm Datele Personale pe care le colectăm de la dvs. la minimul absolut necesar pentru a oferi acest Serviciu (YourDigitalRights.org). În unele cazuri puteți activa caracteristici opționale care necesită furnizarea unor Date Personale suplimentare. Astfel de cazuri necesită să vă dați consimțământul explicit și sunt marcate clar. Nu vom vinde sau închiria informațiile dvs. personale nimănui și nu le vom păstra pe serverele noastre mai mult de 120 de zile. Vom partaja informațiile dvs. personale doar atunci când este necesar pentru a furniza serviciul sau în alte situații descrise în prezenta Politică."
+    }
+  ],
+  "privacy.title": [
+    {
+      "type": 0,
+      "value": "Politica de confidențialitate"
+    }
+  ],
+  "privacy.usageDataBody": [
+    {
+      "type": 0,
+      "value": "Colaborăm cu următorii furnizori terți pentru a efectua unele activități de prelucrare a datelor în numele nostru. Încheiem contracte cu acești furnizori în condiții care asigură confidențialitatea și securitatea datelor dvs."
+    }
+  ],
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "Un e-mail lunar care enumeră cele mai grave trei companii care încalcă confidențialitatea, identificate de echipa noastră de cercetare. Îmbunătățiți-vă confidențialitatea și recâștigați controlul asupra informațiilor dvs. personale, dedicând cinci minute pe lună pentru a renunța la aceste companii."
+    }
+  ],
+  "privacyAlerts.seoDescription": [
+    {
+      "type": 0,
+      "value": "Abonați-vă la alertele noastre lunare despre confidențialitate"
+    }
+  ],
+  "privacyAlerts.seoTitle": [
+    {
+      "type": 0,
+      "value": "Alerte de confidențialitate"
+    }
+  ],
+  "privacyAlerts.title": [
+    {
+      "type": 0,
+      "value": "Alerte de confidențialitate"
+    }
+  ],
+  "privacyAlerts.whyPrivacy": [
+    {
+      "type": 0,
+      "value": "De ce ar trebui să investiți în confidențialitatea dvs.?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody1": [
+    {
+      "type": 0,
+      "value": "Fiecare interacțiune online pe care o facem lasă în urmă urme ale informațiilor noastre personale. Companiile cu care interacționăm, brokerii de date, guvernele și persoanele cu intenții rele sunt toate interesate de datele noastre."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody2": [
+    {
+      "type": 0,
+      "value": "Această realitate ne lasă expuși la diverse campanii de influență. Acestea includ publicitate online direcționată, manipulare politică și socială prin știri false, diferite tipuri de fraudă, precum furtul de identitate, și aplicații și servicii online care creează dependență. Toate acestea sunt posibile datorită abundenței de informații personale pe care le lăsăm în urmă."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody3": [
+    {
+      "type": 0,
+      "value": "Așadar, cum le putem recâștiga controlul?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody4": [
+    {
+      "type": 0,
+      "value": "Am conceput Alertele de Confidențialitate pe baza feedback-ului primit de la persoanele care utilizează serviciile noastre. Este o modalitate simplă de a vă îmbunătăți confidențialitatea online, petrecând doar cinci minute pe lună pentru a renunța la companiile cu cele mai grave încălcări, selectate de echipa noastră de cercetare."
+    }
+  ],
+  "redirect.continueText": [
+    {
+      "type": 0,
+      "value": "Continuați"
+    }
+  ],
+  "redirect.headingText": [
+    {
+      "type": 0,
+      "value": "opt-out.eu este acum yourdigitalrights.org"
+    }
+  ],
+  "redirect.text": [
+    {
+      "type": 0,
+      "value": "Vești bune, acest serviciu este în creștere! Am lansat recent suport pentru Legea privind confidențialitatea consumatorilor din California (CCPA) și în curând vom lansa suport pentru tipuri suplimentare de cereri, dincolo de ștergere. Ca urmare, considerăm că numele de domeniu „opt-out.eu” este prea restrictiv. Suntem mai dedicați decât oricând să vă ajutăm să vă exercitați drepturile digitale, bun venit la noua noastră casă @ "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "yourdigitalrights.org"
+        }
+      ],
+      "type": 8,
+      "value": "style"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "request.description": [
+    {
+      "type": 0,
+      "value": "Vizualizați detalii despre o cerere "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " trimisă prin acest serviciu gratuit."
+    }
+  ],
+  "request.details.date": [
+    {
+      "type": 0,
+      "value": "Data emailului de solicitare:"
+    }
+  ],
+  "request.details.escalationDate": [
+    {
+      "type": 0,
+      "value": "Data emailului de escaladare:"
+    }
+  ],
+  "request.details.header": [
+    {
+      "type": 0,
+      "value": "Detalii solicitare"
+    }
+  ],
+  "request.details.hide.escalation": [
+    {
+      "type": 0,
+      "value": "Ascunde emailul de escaladare"
+    }
+  ],
+  "request.details.hide.reminder": [
+    {
+      "type": 0,
+      "value": "Ascunde emailul de reamintire"
+    }
+  ],
+  "request.details.hide.request": [
+    {
+      "type": 0,
+      "value": "Ascunde emailul de solicitare"
+    }
+  ],
+  "request.details.name": [
+    {
+      "type": 0,
+      "value": "Solicitat de:"
+    }
+  ],
+  "request.details.nowDetails": [
+    {
+      "type": 0,
+      "value": "Detaliile solicitării nu sunt disponibile în acest moment, vă rugăm să reîmprospătați pagina după ce ați trimis emailul."
+    }
+  ],
+  "request.details.organization": [
+    {
+      "type": 0,
+      "value": "Destinatar:"
+    }
+  ],
+  "request.details.regulation": [
+    {
+      "type": 0,
+      "value": "Regulament:"
+    }
+  ],
+  "request.details.reminderDate": [
+    {
+      "type": 0,
+      "value": "Data emailului de reamintire:"
+    }
+  ],
+  "request.details.sentTo": [
+    {
+      "type": 0,
+      "value": "Adresa de email a destinatarului:"
+    }
+  ],
+  "request.details.show.escalation": [
+    {
+      "type": 0,
+      "value": "Vizualizați emailul de escaladare"
+    }
+  ],
+  "request.details.show.reminder": [
+    {
+      "type": 0,
+      "value": "Vizualizați emailul de reamintire"
+    }
+  ],
+  "request.details.show.request": [
+    {
+      "type": 0,
+      "value": "Vizualizați emailul de solicitare"
+    }
+  ],
+  "request.details.type": [
+    {
+      "type": 0,
+      "value": "Tipul solicitării:"
+    }
+  ],
+  "request.hero.declined": [
+    {
+      "type": 0,
+      "value": "Refuzat"
+    }
+  ],
+  "request.hero.declinedRequest": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " a refuzat solicitarea dvs."
+    }
+  ],
+  "request.hero.didNotReply": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " nu a răspuns încă."
+    }
+  ],
+  "request.hero.domainTitle": [
+    {
+      "type": 0,
+      "value": "Domeniu:"
+    }
+  ],
+  "request.hero.handledPartially": [
+    {
+      "type": 0,
+      "value": "Procesat parțial"
+    }
+  ],
+  "request.hero.handledRequest": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " v-a soluționat solicitarea cu succes."
+    }
+  ],
+  "request.hero.handledSuccessfully": [
+    {
+      "type": 0,
+      "value": "Soluționat cu succes"
+    }
+  ],
+  "request.hero.header": [
+    {
+      "type": 0,
+      "value": "Solicitarea dvs. de tip "
+    },
+    {
+      "type": 1,
+      "value": "requestType"
+    },
+    {
+      "type": 0,
+      "value": " către "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    }
+  ],
+  "request.hero.noReply": [
+    {
+      "type": 0,
+      "value": "Niciun răspuns"
+    }
+  ],
+  "request.hero.partiallyHandled": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " v-a soluționat solicitarea parțial."
+    }
+  ],
+  "request.hero.reference": [
+    {
+      "type": 1,
+      "value": "ref"
+    }
+  ],
+  "request.hero.referenceTitle": [
+    {
+      "type": 0,
+      "value": "Referință:"
+    }
+  ],
+  "request.hero.requestNotSent": [
+    {
+      "type": 0,
+      "value": "vă rugăm să trimiteți emailul de solicitare, apoi reîmprospătați această pagină."
+    }
+  ],
+  "request.hero.requestStatus": [
+    {
+      "type": 0,
+      "value": "Starea solicitării:"
+    }
+  ],
+  "request.next.circumstancesToDecline": [
+    {
+      "type": 0,
+      "value": "Există anumite circumstanțe excepționale când unei organizații i se permite legal să refuze să dea curs solicitării dvs."
+    }
+  ],
+  "request.next.declineAPPI": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Orice date personale a căror prezență sau absență cunoscută într-o bază de date ar putea amenința viața, integritatea corporală sau proprietatea persoanei identificabile;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Orice date personale a căror prezență sau absență cunoscută într-o bază de date ar putea determina sau declanșa o activitate ilegală sau un comportament necorespunzător;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Orice date personale a căror prezență sau absență cunoscută într-o bază de date ar putea submina securitatea națională, afecta o relație de încredere cu o țară străină sau organizație internațională ori ar putea dezavantaja țara în negocieri cu o altă țară sau o organizație internațională;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Orice date personale a căror prezență sau absență cunoscută într-o bază de date ar putea interfera cu prevenirea infracțiunilor, controlul infracțiunilor sau investigațiile penale ori cu menținerea ordinii și siguranței publice."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Libertatea de exprimare sau un alt drept prevăzut de lege."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea în scopuri de cercetare, dacă ștergerea informațiilor personale ar face imposibilă ori ar afecta grav realizarea unei astfel de cercetări."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea acelor informații personale este necesară pentru a proteja împotriva activității ilegale sau pentru a urmări persoanele responsabile de aceasta."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a respecta o obligație legală."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a executa un contract între companie și consumator."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a detecta incidente de securitate, a proteja împotriva activității rău intenționate, înșelătoare, frauduloase sau ilegale ori pentru a urmări persoanele responsabile de o astfel de activitate."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Depanare (debugging) pentru a identifica și repara erorile care afectează funcționalitatea intenționată existentă."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a permite doar utilizări interne care se aliniază în mod rezonabil așteptărilor consumatorului bazate pe relația consumatorului cu compania."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Să folosească altfel informațiile personale ale consumatorului, intern, într-un mod legal care să fie compatibil cu contextul în care consumatorul a furnizat informațiile."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Instituții financiare și afiliați supuși Legii Gramm-Leach-Bliley"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Transportatori aerieni supuși reglementărilor Administrației Federale a Aviației"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Asociații naționale de valori mobiliare înregistrate în temeiul Legii privind schimbul de valori mobiliare"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anumite tipuri de date personale menținute în conformitate cu anumite legi federale privind confidențialitatea, precum Legea privind portabilitatea și responsabilitatea asigurărilor de sănătate (HIPAA) și Legea privind raportarea corectă a creditului (FCRA), sau în anumite scopuri guvernamentale."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCTDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități precum guverne de stat și locale, organizații nonprofit, instituții de învățământ superior, anumite asociații naționale de valori mobiliare, instituții financiare și entități acoperite de acte specifice, precum Gramm-Leach-Bliley Act și Health Insurance Portability and Accountability Act, sunt exceptate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date despre angajați, inclusiv date despre candidați la un loc de muncă"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații agregate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații personale colectate pentru cercetarea subiecților umani sau ca parte a unui studiu clinic"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineDPDP": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Furnizarea unui produs sau serviciu solicitat în mod specific de consumator."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Efectuarea anumitor operațiuni interne care se aliniază în mod rezonabil așteptărilor consumatorului."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Emiterea unui recall pentru produs sau rezolvarea erorilor tehnice."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Răspunsul la și prevenirea incidentelor de securitate, a furtului de identitate și a fraudei."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Respectarea legilor federale, de stat sau locale."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date pseudonime."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Cercetare științifică publică sau evaluată de colegi."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineDPDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(a) procesarea datelor personale este necesară pentru punerea în aplicare a oricărui drept sau pretenție legală;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(b) procesarea datelor personale de către orice instanță sau tribunal ori orice alt organism din India, care este însărcinat prin lege cu îndeplinirea oricărei funcții judiciare, cvasi-judiciare, de reglementare sau de supraveghere, atunci când o astfel de procesare este necesară pentru îndeplinirea acelei funcții;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(c) datele personale sunt prelucrate în interesul prevenirii, depistării, investigării sau urmăririi oricărei infracțiuni sau încălcări a vreunei legi în vigoare în India;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(d) datele personale ale Principiilor Datelor care nu se află pe teritoriul Indiei sunt prelucrate în baza oricărui contract încheiat cu o persoană din afara teritoriului Indiei de către oricine se află în India;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(e) procesarea este necesară pentru un plan de compromis sau aranjament ori pentru o fuziune sau amalgamare a două ori mai multe companii sau pentru o restructurare prin divizare sau prin alt mod a unei companii, ori pentru transferul activității uneia sau mai multor companii la o altă companie, sau implică divizarea uneia ori mai multor companii, fiind aprobată de un tribunal ori altă autoritate competentă conform legii în vigoare; și"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(f) procesarea are ca scop stabilirea informațiilor financiare și a activelor și pasivelor oricărei persoane care a intrat în incapacitate de plată a unei datorii, în urma unui împrumut sau a unui avans obținut de la o instituție financiară, cu condiția ca această prelucrare să fie în conformitate cu dispozițiile privind divulgarea informațiilor sau datelor din orice altă lege în vigoare."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineFADP": [
+    {
+      "type": 0,
+      "value": "Operatorul poate refuza să furnizeze informații sau poate restricționa ori amâna furnizarea de informații dacă:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "a. o lege formală prevede acest lucru, în special pentru a menține secretul profesional;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "b. acest lucru este necesar pentru a proteja interesele superioare ale terților; sau"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "c. cererea de informații este în mod evident nejustificată, în special dacă nu servește scopului protecției datelor sau este evident frivolă."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    },
+    {
+      "type": 0,
+      "value": "<br/>"
+    },
+    {
+      "type": 0,
+      "value": "În plus, se poate refuza, restricționa sau amâna furnizarea de informații în următoarele cazuri:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "a. Operatorul este o persoană privată și sunt îndeplinite următoarele condiții: 1. Propriile interese superioare ale operatorului necesită măsura respectivă. 2. Operatorul nu intenționează să divulge datele personale unor terți."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "b. Operatorul este un organ federal și este îndeplinită una dintre următoarele condiții: 1. Măsura este necesară pentru protejarea unor interese publice superioare, în special pentru securitatea internă sau externă a Elveției. 2. Comunicarea informațiilor poate compromite o anchetă, o investigație sau o procedură administrativă ori judiciară."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineFDBR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(a) Respectarea legilor, regulilor sau reglementărilor federale ori de stat."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(b) Respectarea unei anchete, investigații, citații sau cereri de informații civile, penale ori de reglementare din partea autorităților guvernamentale federale, de stat, locale sau de altă natură."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(c) Investigarea, stabilirea, exercitarea, pregătirea sau apărarea pretențiilor legale."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(d) Furnizarea unui produs sau serviciu solicitat în mod specific de un consumator sau de părintele sau tutorele unui copil, îndeplinirea unui contract la care consumatorul este parte, inclusiv îndeplinirea condițiilor unei garanții scrise, ori luarea de măsuri la cererea consumatorului înainte de încheierea unui contract."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(e) Luarea de măsuri imediate pentru protejarea unui interes esențial pentru viața sau siguranța fizică a consumatorului ori a altui individ, în situația în care prelucrarea nu se poate întemeia în mod evident pe alt temei legal."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(f) Prevenirea, detectarea, protejarea împotriva sau reacția la incidente de securitate, furt de identitate, fraudă, hărțuire, activități rău intenționate sau înșelătoare ori orice activitate ilegală."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(g) Menținerea integrității sau securității sistemelor ori investigarea, raportarea sau urmărirea penală a celor responsabili de încălcarea securității sistemului."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(h) Participarea la cercetări științifice sau statistice publice ori evaluate de colegi, în interes public, care respectă toate celelalte legi aplicabile privind etica și confidențialitatea și care sunt aprobate, monitorizate și gestionate de un consiliu de revizuire instituțională sau de o entitate independentă de supraveghere similară care stabilește: 1. Dacă ștergerea informațiilor este probabil să ofere beneficii substanțiale care nu revin exclusiv operatorului; 2. Dacă beneficiile estimate ale cercetării depășesc riscurile la adresa confidențialității; și 3. Dacă operatorul a implementat măsuri de protecție rezonabile pentru a atenua riscurile de confidențialitate asociate cercetării, inclusiv orice riscuri asociate reidentificării."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(i) Asistarea unui alt operator, procesator sau terț în îndeplinirea cerințelor prezentei părți."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(j) Divulgarea datelor personale atunci când un consumator folosește sau cere în mod intenționat operatorului divulgarea informațiilor către un terț ori folosește operatorul pentru a interacționa în mod intenționat cu un terț. O interacțiune intenționată are loc atunci când consumatorul urmărește să interacționeze cu terțul prin una sau mai multe acțiuni deliberate. Plasarea cursorului deasupra, dezactivarea sunetului, punerea pe pauză sau închiderea unui anumit conținut nu constituie intenția consumatorului de a interacționa cu acel terț."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(k) Transferul datelor personale către un terț ca un activ care face parte dintr-o fuziune, o achiziție, un faliment sau altă tranzacție prin care terțul preia controlul total ori parțial al operatorului, cu condiția ca informațiile să fie folosite sau partajate în conformitate cu prezenta parte. Dacă un terț modifică în mod substanțial modul în care utilizează sau partajează datele personale ale unui consumator într-un mod care contravine semnificativ angajamentelor sau promisiunilor făcute la momentul colectării, acesta trebuie să furnizeze consumatorului un aviz prealabil despre noua practică ori practica modificată. Notificarea trebuie să fie suficient de vizibilă și solidă pentru a asigura că consumatorii pot exercita cu ușurință opțiuni în conformitate cu această parte."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineGDPR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Când păstrarea datelor dvs. este necesară din motive de libertate de exprimare și informare (aceasta include jurnalism și scopuri academice, artistice și literare)."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Când organizația are obligația legală de a păstra datele dvs."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Când păstrarea datelor dvs. este necesară din motive de sănătate publică."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Când păstrarea datelor dvs. este necesară pentru constatarea, exercitarea sau apărarea unor pretenții legale."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Când ștergerea datelor dvs. ar prejudicia cercetarea științifică sau istorică, ori arhivarea care este de interes public."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Dacă, după ce a analizat solicitarea dvs., organizația decide că nu este necesar să vă șteargă datele, tot trebuie să vă răspundă. Ar trebui să vă explice de ce consideră că nu este obligată să vă șteargă datele și să vă informeze cu privire la dreptul dvs. de a reclama această decizie la autoritatea pentru protecția datelor sau prin instanțe."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineICDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date pseudonime"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Cercetare științifică publică sau evaluată de colegi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineLGPD": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Libertatea de exprimare sau un alt drept prevăzut de lege."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea în scopuri de cercetare, dacă ștergerea informațiilor personale ar face imposibilă ori ar afecta grav realizarea unei astfel de cercetări."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea acelor informații personale este necesară pentru a proteja împotriva activității ilegale sau pentru a urmări persoanele responsabile de aceasta."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a respecta o obligație legală."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a executa un contract între companie și consumator."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a detecta incidente de securitate, a proteja împotriva activității rău intenționate, înșelătoare, frauduloase sau ilegale ori pentru a urmări persoanele responsabile de o astfel de activitate."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Depanare (debugging) pentru a identifica și repara erorile care afectează funcționalitatea intenționată existentă."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pentru a permite doar utilizări interne care se aliniază în mod rezonabil așteptărilor consumatorului bazate pe relația consumatorului cu compania."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Să folosească altfel informațiile personale ale consumatorului, intern, într-un mod legal care să fie compatibil cu contextul în care consumatorul a furnizat informațiile."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineMCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități guvernamentale"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Triburi indiene recunoscute la nivel federal"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități acoperite și asociații de afaceri în temeiul HIPAA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Bănci sau cooperative de credit înființate la nivel de stat sau federal"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Companii de asigurări"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Întreprinderi mici definite de Administrația SUA pentru Întreprinderi Mici"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Organizații nonprofit înființate exclusiv pentru depistarea sau prevenirea fraudei în asigurări"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale reglementate de GLBA sau FCRA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale în context de angajare ori de candidatură, beneficii și date de contact de urgență"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate sau disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineMTCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități precum guverne de stat și locale, organizații nonprofit, instituții de învățământ superior, anumite asociații naționale de valori mobiliare, instituții financiare și entități acoperite de acte specifice, precum Gramm-Leach-Bliley Act și Health Insurance Portability and Accountability Act, sunt exceptate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date despre angajați, inclusiv date despre candidați la un loc de muncă"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații agregate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații personale colectate pentru cercetarea subiecților umani sau ca parte a unui studiu clinic"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date pseudonime"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Cercetare științifică publică sau evaluată de colegi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNHDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date pseudonime"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Cercetare științifică publică sau evaluată de colegi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNJDPL": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date pseudonime"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Cercetare științifică publică sau evaluată de colegi"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineOPCA": [
+    {
+      "type": 0,
+      "value": "Entități precum guvernele de stat și locale, organizații nonprofit, instituții de învățământ superior, anumite asociații naționale de valori mobiliare și instituții financiare sunt exceptate. În plus, unele tipuri de date sunt exceptate:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date despre angajați, inclusiv date despre candidați la un loc de muncă"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații agregate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații personale colectate pentru cercetarea subiecților umani sau ca parte a unui studiu clinic"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea datelor personale în scopuri pur personale sau de familie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea de către autoritățile de stat în legătură cu securitatea națională, siguranța publică sau impozitarea"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea în scopuri jurnalistice, artistice sau literare, în interes public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea de către Camera Reprezentanților, Senat, Parlament sau comisiile acestora"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea de către instanțe și magistrați în exercitarea atribuțiilor lor"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea de către birourile de credit și membrii acestora, în conformitate cu Legea privind activitatea de Credit Information Business"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePDPL": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea datelor personale de către o persoană fizică exclusiv în scopuri personale"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea efectuată direct de o autoritate publică competentă pentru îndeplinirea sarcinilor sale prevăzute de lege"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea necesară în scopuri de securitate națională sau ordine publică"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea fără consimțământ în sectorul bancar și financiar, așa cum permite legea"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prelucrarea de către serviciile de securitate în scopuri de interes național"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePIPEDA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Excepțiile de la cerința de acces ar trebui să fie limitate și specifice."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Motivele pentru refuzarea accesului ar trebui furnizate persoanei la cerere."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Excepțiile pot include informații a căror furnizare este excesiv de costisitoare, informații care conțin referințe la alte persoane, informații care nu pot fi divulgate din motive legale, de securitate sau drepturi comerciale, precum și informații supuse confidențialității avocat-client sau privilegiului de litigiu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePIPL": [
+    {
+      "type": 0,
+      "value": "个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
+    }
+  ],
+  "request.next.declinePOPIA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Activități personale sau familiale"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date complet deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Securitate națională"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aplicarea legii"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De către Cabinetul și comitetele sale sau de Consiliul Executiv al unei provincii"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Referitoare la funcțiile judiciare ale unei instanțe menționate în secțiunea 166 din Constituție."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineTDPSA": [
+    {
+      "type": 0,
+      "value": "Entități precum guvernele de stat și locale, organizații nonprofit, instituții de învățământ superior, anumite asociații naționale de valori mobiliare, instituții financiare și entități acoperite de acte specifice, precum Gramm-Leach-Bliley Act și Health Insurance Portability and Accountability Act, sunt exceptate."
+    }
+  ],
+  "request.next.declineTIPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități guvernamentale și subdiviziuni politice"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități acoperite și asociați de afaceri supuși HIPAA/HITECH"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Instituții financiare și afiliați supuși Legii Gramm‑Leach‑Bliley (GLBA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Instituții de învățământ superior"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Organizații non‑profit"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Companii de asigurări licențiate conform legislației statului Tennessee"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale reglementate de Fair Credit Reporting Act (FCRA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale legate de angajare sau în context comercial"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date disponibile public, agregate sau de‑identificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale reglementate de FERPA sau COPPA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Material privind siguranța pacienților și alte date de sănătate exceptate prin lege federală"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date de cercetare științifică sau statistică ce îndeplinesc garanțiile stabilite prin lege"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineUCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Entități precum guverne de stat și locale, organizații nonprofit, instituții de învățământ superior, anumite asociații naționale de valori mobiliare, instituții financiare și entități acoperite de acte specifice, precum Gramm-Leach-Bliley Act și Health Insurance Portability and Accountability Act, sunt exceptate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date medicale protejate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date despre angajați, inclusiv date despre candidați la un loc de muncă"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date deidentificate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații disponibile public"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații agregate"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații personale colectate pentru cercetarea subiecților umani sau ca parte a unui studiu clinic"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineVCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații medicale protejate în temeiul HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Dosare medicale în scopurile Titlului 32.1;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații de identificare a pacientului în scopurile 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații private identificabile în scopul politicii federale de protecție a subiecților umani în conformitate cu 45 C.F.R. Partea 46; informații private identificabile care, altfel, sunt colectate ca parte a cercetărilor pe subiecți umani în conformitate cu ghidurile de bună practică clinică emise de Consiliul Internațional pentru Armonizarea Cerințelor Tehnice pentru Produse Farmaceutice de Uz Uman; protecția subiecților umani în temeiul 21 C.F.R. Părțile 6, 50 și 56 sau date personale utilizate sau partajate în cadrul cercetărilor efectuate în conformitate cu cerințele stabilite în acest capitol sau alte cercetări efectuate în conformitate cu legea aplicabilă;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații și documente create în scopurile Legii federale privind îmbunătățirea calității îngrijirilor medicale din 1986 (42 U.S.C. § 11101 și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Rezultatele activităților de siguranță a pacienților în scopurile Legii federale privind siguranța și îmbunătățirea calității pacienților (42 U.S.C. § 299b-21 și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații derivate din oricare dintre informațiile legate de îngrijirea sănătății enumerate în această subsecțiune, care sunt de-identificate în conformitate cu cerințele de de-identificare în temeiul HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații provenite de la și combinate astfel încât să fie indistincte de, sau informații tratate în același mod ca informațiile exceptate în această subsecțiune, deținute de o entitate acoperită sau un asociat de afaceri, așa cum sunt definite de HIPAA sau de un program sau o organizație de servicii calificate definite de 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informații utilizate numai în scopuri și activități de sănătate publică, așa cum sunt autorizate de HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Colectarea, întreținerea, divulgarea, vânzarea, comunicarea sau utilizarea oricărei informații personale legate de bonitatea unui consumator, poziția lui de credit, capacitatea de credit, caracterul, reputația generală, caracteristicile personale sau modul de viață de către o agenție de raportare a creditului sau un furnizor care oferă informații spre utilizare într-un raport de credit, și de către un utilizator al unui raport de credit, dar numai în măsura în care această activitate este reglementată și autorizată în temeiul Legii federale privind raportarea corectă a creditului (15 U.S.C. § 1681 și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale colectate, procesate, vândute sau divulgate în conformitate cu Legea federală privind protecția confidențialității datelor din 1994 pentru șoferi (18 U.S.C. § 2721 și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale reglementate de Legea federală privind drepturile și confidențialitatea educației familiei (20 U.S.C. § 1232g și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date personale colectate, procesate, vândute sau divulgate în conformitate cu Legea federală privind creditele agricole (12 U.S.C. § 2001 și urm.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Date procesate sau menținute (i) în timpul solicitării, angajării sau acțiunii în calitate de agent sau contractant independent al unui operator, procesator sau terță parte, în măsura în care datele sunt colectate și utilizate în contextul acelui rol; (ii) ca informații de contact de urgență ale unei persoane în temeiul acestui capitol, utilizate în scopuri de contact de urgență; sau (iii) care sunt necesare pentru a fi păstrate pentru a administra beneficii pentru o altă persoană legate de persoana menționată la punctul (i) și utilizate în scopul administrării acestor beneficii."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.escalateToAuthorityNoReply": [
+    {
+      "type": 0,
+      "value": "Recomandare: escaladați cererea dvs. către "
+    },
+    {
+      "type": 1,
+      "value": "authorityLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
+    }
+  ],
+  "request.next.escalateToAuthorityPartial": [
+    {
+      "type": 0,
+      "value": "Recomandare: dacă considerați că "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " ar fi trebuit să vă respecte pe deplin cererea, vă recomandăm să escaladați cererea dvs. către "
+    },
+    {
+      "type": 1,
+      "value": "authorityLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
+    }
+  ],
+  "request.next.escalatedAndNoSuccess": [
+    {
+      "type": 0,
+      "value": "Ați escaladat cererea dvs. la "
+    },
+    {
+      "type": 1,
+      "value": "dpaLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "dpaShort"
+    },
+    {
+      "type": 0,
+      "value": "), vă rugăm să continuați să comunicați direct cu ei. Nu mai există nimic altceva ce putem face pentru a vă ajuta."
+    }
+  ],
+  "request.next.esclateButton": [
+    {
+      "type": 0,
+      "value": "Escalați către "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.next.findOutMore": [
+    {
+      "type": 0,
+      "value": "Aflați mai multe despre aceste excepții"
+    }
+  ],
+  "request.next.organizationsHaveXDays": [
+    {
+      "type": 0,
+      "value": "Conform "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": ", organizațiile au "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " zile pentru a răspunde la solicitarea dvs."
+    }
+  ],
+  "request.next.reminderButton": [
+    {
+      "type": 0,
+      "value": "Trimiteți organizației un email de reamintire"
+    }
+  ],
+  "request.next.selectTheOptions1": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să selectați din următoarele opțiuni:"
+    }
+  ],
+  "request.next.selectTheOptions2": [
+    {
+      "type": 0,
+      "value": "Dacă doriți să luați măsuri suplimentare, vă rugăm să selectați din următoarele opțiuni:"
+    }
+  ],
+  "request.next.selectTheOptions3": [
+    {
+      "type": 0,
+      "value": "Dacă nu doriți să așteptați, vă rugăm să selectați din următoarele opțiuni:"
+    }
+  ],
+  "request.next.sendAReminderEmail": [
+    {
+      "type": 0,
+      "value": "Recomandare: trimiteți organizației un email de reamintire."
+    }
+  ],
+  "request.next.waitUntilXDays": [
+    {
+      "type": 0,
+      "value": "Recomandare: așteptați până trec "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " zile pentru a oferi companiei timp să vă proceseze solicitarea."
+    }
+  ],
+  "request.next.waitUntilXDaysAfterReminder": [
+    {
+      "type": 0,
+      "value": "Recomandare: așteptați până trec "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " zile de la data trimiterii solicitării pentru a oferi organizației timp să vă proceseze solicitarea, în urma emailului de reamintire."
+    }
+  ],
+  "request.next.whatsNext": [
+    {
+      "type": 0,
+      "value": "Ce urmează"
+    }
+  ],
+  "request.success": [
+    {
+      "type": 0,
+      "value": "Felicitări, "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " a respectat cu succes cererea dvs. Datele dvs. personale vor fi șterse automat de pe acest site în termen de 120 de zile de la data cererii inițiale. Alternativ, puteți "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "șterge acum datele dvs. personale"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.timeline.esclateTo": [
+    {
+      "type": 0,
+      "value": "Escalați-vă solicitarea"
+    }
+  ],
+  "request.timeline.reminderSent": [
+    {
+      "type": 0,
+      "value": "Email de reamintire trimis"
+    }
+  ],
+  "request.timeline.requestNotSent": [
+    {
+      "type": 0,
+      "value": "Solicitare netrimisă"
+    }
+  ],
+  "request.timeline.requestSent": [
+    {
+      "type": 0,
+      "value": "Solicitare trimisă"
+    }
+  ],
+  "request.timeline.requestTimeline": [
+    {
+      "type": 0,
+      "value": "Cronologia solicitării dvs."
+    }
+  ],
+  "request.timeline.sendEscalation": [
+    {
+      "type": 0,
+      "value": "Escaladare trimisă"
+    }
+  ],
+  "request.timeline.sendEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "astăzi"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "peste "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "mâine"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "peste "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "Trimiteți un reminder"
+    }
+  ],
+  "request.timeline.sendReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "astăzi"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "peste "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "mâine"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "peste "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "astăzi"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "ieri"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "astăzi"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "ieri"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceRequestDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "astăzi"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "ieri"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "acum "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " zile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.title": [
+    {
+      "type": 0,
+      "value": "Detalii pentru solicitarea dvs. "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    }
+  ],
+  "requestEscalation.complaint": [
+    {
+      "type": 0,
+      "value": "Detalii suplimentare"
+    }
+  ],
+  "requestEscalation.complaintText": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să explicați de ce nu sunteți mulțumit de modul în care organizația a tratat solicitarea dvs."
+    }
+  ],
+  "requestEscalation.esclateButtonForm": [
+    {
+      "type": 0,
+      "value": "Deschideți Formularul de Escaladare"
+    }
+  ],
+  "requestEscalation.formDisclamer": [
+    {
+      "type": 0,
+      "value": "Pentru a vă escalada cererea, va trebui să completați un formular pe site-ul "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": ". Faceți clic pe butonul de mai jos pentru a deschide formularul într-o filă nouă."
+    }
+  ],
+  "requestEscalation.geography": [
+    {
+      "type": 0,
+      "value": "Locație"
+    }
+  ],
+  "requestEscalation.geographyText ": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să selectați locul de reședință"
+    }
+  ],
+  "requestEscalation.phoneDisclamer": [
+    {
+      "type": 0,
+      "value": "Pentru a vă escalada cererea, vă rugăm să apelați "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " la numărul "
+    },
+    {
+      "type": 1,
+      "value": "phone"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "requestEscalation.submit": [
+    {
+      "type": 0,
+      "value": "Revizuiește și trimite"
+    }
+  ],
+  "search.companyPlaceholder": [
+    {
+      "type": 0,
+      "value": "Căutați o organizație"
+    }
+  ],
+  "search.noResults": [
+    {
+      "type": 0,
+      "value": "Nu găsiți o organizație?"
+    }
+  ],
+  "search.noResultsMore": [
+    {
+      "type": 0,
+      "value": "Faceți clic aici pentru a adăuga una"
+    }
+  ],
+  "sendEmailButton.copy": [
+    {
+      "type": 0,
+      "value": "Copiați textul emailului în clipboard"
+    }
+  ],
+  "sendEmailButton.default": [
+    {
+      "type": 0,
+      "value": "Deschideți în clientul de email implicit"
+    }
+  ],
+  "sendEmailButton.gmail": [
+    {
+      "type": 0,
+      "value": "Deschideți în Gmail"
+    }
+  ],
+  "sendEmailButton.yahoo": [
+    {
+      "type": 0,
+      "value": "Deschideți în Yahoo Mail"
+    }
+  ],
+  "social.chromeCTA": [
+    {
+      "type": 0,
+      "value": "Descărcați-l pentru Chrome"
+    }
+  ],
+  "social.chromeTitle": [
+    {
+      "type": 0,
+      "value": "Extensie Google Chrome"
+    }
+  ],
+  "social.emailBody": [
+    {
+      "type": 0,
+      "value": "Aruncați o privire la YourDigitalRights.org, un serviciu gratuit care vă permite să aflați cu ușurință ce date personale dețin mii de organizații despre dvs. și să le cereți să le șteargă."
+    }
+  ],
+  "social.emailSubject": [
+    {
+      "type": 0,
+      "value": "Aflați ce date personale dețin mii de organizații despre dvs. și cereți-le să le șteargă | Your Digital Rights"
+    }
+  ],
+  "social.extensionHeadline": [
+    {
+      "type": 0,
+      "value": "Renunțați direct din browserul dvs."
+    }
+  ],
+  "social.extensionText": [
+    {
+      "type": 0,
+      "value": "Vreți un control mai bun asupra celor care au acces la datele dvs. personale? Extensia noastră de browser vă permite să renunțați la site-urile pe care le vizitați cu un singur clic."
+    }
+  ],
+  "social.facebookQuote": [
+    {
+      "type": 0,
+      "value": "Aflați ce date personale dețin mii de organizații despre dvs. și cereți-le să le șteargă. Vizitați yourdigitalrights.org."
+    }
+  ],
+  "social.firefoxCTA": [
+    {
+      "type": 0,
+      "value": "Descărcați-l pentru Firefox"
+    }
+  ],
+  "social.frefoxTitle": [
+    {
+      "type": 0,
+      "value": "Extensie Firefox"
+    }
+  ],
+  "social.shareHeading": [
+    {
+      "type": 0,
+      "value": "Dacă considerați acest serviciu util, vă rugăm să dați vestea mai departe"
+    }
+  ],
+  "social.twitterTitle": [
+    {
+      "type": 0,
+      "value": "Aflați ce date personale dețin mii de organizații despre dvs. și cereți-le să le șteargă. Vizitați yourdigitalrights.org."
+    }
+  ],
+  "stats.description": [
+    {
+      "type": 0,
+      "value": "Statistici ale cererilor de protecție a datelor."
+    }
+  ],
+  "stats.statsSubTitle": [
+    {
+      "type": 0,
+      "value": "Misiunea noastră este să îi ajutăm pe oameni să recâștige controlul confidențialității lor online, oferindu-le posibilitatea să solicite organizațiilor să șteargă sau să furnizeze o copie a informațiilor lor personale. Statisticile următoare arată care organizații au primit cele mai multe cereri pentru diferite perioade de timp."
+    }
+  ],
+  "stats.statsTitle": [
+    {
+      "type": 0,
+      "value": "Statistici privind cererile"
+    }
+  ],
+  "stats.title": [
+    {
+      "type": 0,
+      "value": "Statistici privind cererile"
+    }
+  ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Cele mai multe cereri din toate timpurile"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Cele mai multe cereri în această lună"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Cele mai multe cereri în această săptămână"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Cele mai multe cereri în acest an"
+    }
+  ],
+  "stats.total": [
+    {
+      "type": 0,
+      "value": "Total cereri trimise: "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
+    }
+  ],
+  "subscribe.alertsOneLiner1": [
+    {
+      "type": 0,
+      "value": "Fiți cu un pas înaintea amenințărilor online și preluați controlul asupra datelor dvs. personale cu Privacy Alerts! Newsletterul nostru oferă cele mai recente sfaturi și recomandări de la experți, pentru a vă proteja confidențialitatea în lumea digitală. Abonați-vă acum și rămâneți informați și încrezători!"
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "Abonați-vă la Privacy Alerts!"
+    }
+  ],
+  "support.description1": [
+    {
+      "type": 0,
+      "value": "Înțelegem că, uneori, poate fi frustrant să obțineți ștergerea datelor dvs. de către companii."
+    }
+  ],
+  "support.description2": [
+    {
+      "type": 0,
+      "value": "Serviciul nostru de asistență plătită vă oferă acces direct la unul dintre membrii echipei noastre, care vă va ajuta cu cererea de ștergere sau acces la date."
+    }
+  ],
+  "support.posPaidtitle": [
+    {
+      "type": 0,
+      "value": "Vă mulțumim!"
+    }
+  ],
+  "support.postPaidDescription1": [
+    {
+      "type": 0,
+      "value": "Vă rugăm să ne contactați prin următoarea adresă de e-mail pentru a beneficia de asistență plătită:"
+    }
+  ],
+  "support.postPaidDescription2": [
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "support.seoDescription": [
+    {
+      "type": 0,
+      "value": "Serviciul de asistență plătită vă oferă acces direct la unul dintre membrii echipei noastre"
+    }
+  ],
+  "support.seoTitle": [
+    {
+      "type": 0,
+      "value": "Asistență"
+    }
+  ],
+  "support.title": [
+    {
+      "type": 0,
+      "value": "Asistență Plătită"
+    }
+  ],
+  "thankyou.copyPart1Copy": [
+    {
+      "type": 0,
+      "value": "a fost copiat în clipboard, tot ce trebuie să faceți este să îl lipiți într-un email, să îl revizuiți și să faceți clic pe Trimite."
+    }
+  ],
+  "thankyou.copyPart1Email": [
+    {
+      "type": 0,
+      "value": "emailul ar fi trebuit să se deschidă în aplicația dvs. de email, tot ce trebuie să faceți este să îl revizuiți și să faceți clic pe Trimite."
+    }
+  ],
+  "thankyou.description": [
+    {
+      "type": 0,
+      "value": "Vă mulțumim"
+    }
+  ],
+  "thankyou.donation": [
+    {
+      "type": 0,
+      "value": "Ajutați-ne să menținem acest serviciu gratuit prin "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "făcând o donație"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ", pentru a ne asigura stabilitatea financiară și independența pe termen lung."
+    }
+  ],
+  "thankyou.findCompany": [
+    {
+      "type": 0,
+      "value": "Găsiți o altă organizație"
+    }
+  ],
+  "thankyou.howLongToReply": [
+    {
+      "type": 0,
+      "value": "Organizațiile au "
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": " pentru a da curs solicitării și pot cere informații suplimentare pentru a vă verifica identitatea."
+    }
+  ],
+  "thankyou.requestTypeAccess": [
+    {
+      "type": 0,
+      "value": "O cerere de acces"
+    }
+  ],
+  "thankyou.requestTypeDelete": [
+    {
+      "type": 0,
+      "value": "O cerere de ștergere"
+    }
+  ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "Vă mulțumim"
+    }
+  ],
+  "thankyou.title": [
+    {
+      "type": 0,
+      "value": "Vă mulțumim!"
+    }
+  ]
+}

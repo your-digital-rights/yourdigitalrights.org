@@ -133,7 +133,7 @@ class Form extends Component {
         dense={true}
         {...itemProps}
       >
-        <Link href="/d/[domain]" as="/d/result.url" legacyBehavior>
+        <Link href="/d/[domain]" as={`/d/${result.url}`} legacyBehavior>
           <>
             <ImageWithFallback
               role="presentation"

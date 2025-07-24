@@ -333,19 +333,31 @@ class Nav extends Component {
       <div data-nosnippet>
         <S.StyledNav ref={this.toggleMenu}>
           <S.StyledLogoLink href="/">
-            <S.StyledLogo alt="YourDigitalRights.org" src={Logo} tabIndex={0} />
+            <S.StyledLogo tabIndex={0}>
+              <Image 
+                alt="YourDigitalRights.org" 
+                src={Logo} 
+                width={90}
+                height={30}
+              />
+            </S.StyledLogo>
           </S.StyledLogoLink>
           <NavListDesktop 
             router={this.props.router} 
             handleLangChange={this.handleLangChange} 
           />
           <S.StyledHamburgerButton
-            src={menuIcon}
             onBlur={this.onBlurHandler}
             onClick={this.toggleMobileNav}
             tabIndex={0}
-            alt="Menu"
-          />
+          >
+            <Image
+              src={menuIcon}
+              alt="Menu"
+              width={50}
+              height={50}
+            />
+          </S.StyledHamburgerButton>
         </S.StyledNav>
         <S.StyledNavChildren>{children}</S.StyledNavChildren>
 

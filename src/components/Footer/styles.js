@@ -70,8 +70,12 @@ export const DisclaimerLink = styled('a')(() => ({
   },
 }));
 
-export const VercelLogo = styled('img')(() => ({
+export const VercelLogo = styled('div')(() => ({
   height: "1.8em",
-  width: "auto",
-  marginTop: "5px",   
+  marginTop: "5px",
+  display: "inline-block",
+  '& img': {
+    height: "1.8em !important",
+    width: "auto !important",
+  }
 }));

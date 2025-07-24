@@ -79,7 +79,7 @@ export async function getStaticProps({ params }) {
       }
     }
   } 
- 
+  
   const data = await fetchDomainDetails(params.domain); 
   
   if (typeof data == 'undefined') {

@@ -1,0 +1,4998 @@
+{
+  "about.aboutTitle": [
+    {
+      "type": 0,
+      "value": "Naše poslání"
+    }
+  ],
+  "about.consciousDigital": [
+    {
+      "type": 0,
+      "value": "Kdo jsme"
+    }
+  ],
+  "about.consciousDigital1": [
+    {
+      "type": 0,
+      "value": "Služba YourDigitalRights.org je projektem organizace "
+    },
+    {
+      "type": 1,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ", registrované charity, jež tvoří projekty zaměřené na posílení digitálních lidských práv."
+    }
+  ],
+  "about.contact": [
+    {
+      "type": 0,
+      "value": "Kontakt"
+    }
+  ],
+  "about.contactText": [
+    {
+      "type": 0,
+      "value": "Kontaktujte nás na adrese "
+    },
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.contributors": [
+    {
+      "type": 0,
+      "value": "Přispěvatelé"
+    }
+  ],
+  "about.contributorsBody1": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Frontendový webový vývojář."
+    }
+  ],
+  "about.contributorsBody3": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Frontendový webový vývojář."
+    }
+  ],
+  "about.contributorsBody4": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Frontendový webový vývojář."
+    }
+  ],
+  "about.contributorsBody5": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Infrastrukturní inženýr."
+    }
+  ],
+  "about.contributorsBody6": [
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " - Full stack vývojář, podílel se na podpoře APPI a na celkovém japonském překladu webu."
+    }
+  ],
+  "about.createdByBody2": [
+    {
+      "type": 1,
+      "value": "linkedin"
+    },
+    {
+      "type": 0,
+      "value": " - Frontendový webový vývojář, vývojář mobilních aplikací a tvůrce Skyjacker, AR hry pro sledování letů."
+    }
+  ],
+  "about.description": [
+    {
+      "type": 0,
+      "value": "Služba Your Digital Rights byla vytvořena, protože věříme, že máte právo na soukromí a že uplatňování tohoto práva by mělo být snadné."
+    }
+  ],
+  "about.funding": [
+    {
+      "type": 0,
+      "value": "Financování"
+    }
+  ],
+  "about.fundingBody1": [
+    {
+      "type": 0,
+      "value": "Tento projekt je financován samotnými tvůrci a také s pomocí vašich darů."
+    }
+  ],
+  "about.missionBody1": [
+    {
+      "type": 0,
+      "value": "Věříme, že soukromí je základní lidské právo a že jeho uplatňování by mělo být snadno dostupné pro každého. Data protection regulations such as the "
+    },
+    {
+      "type": 1,
+      "value": "GDPR"
+    },
+    {
+      "type": 0,
+      "value": " (EU), the "
+    },
+    {
+      "type": 1,
+      "value": "CCPA"
+    },
+    {
+      "type": 0,
+      "value": " (California), and the "
+    },
+    {
+      "type": 1,
+      "value": "LGPD"
+    },
+    {
+      "type": 0,
+      "value": " (Brazil) poskytují právní rámec pro ochranu základního práva na soukromí online."
+    }
+  ],
+  "about.missionBody2": [
+    {
+      "type": 0,
+      "value": "Předpisy na ochranu osobních údajů jsou krokem správným směrem, avšak jejich uplatnění je i nadále pro většinu lidí příliš obtížné. Situaci zhoršuje, že mnoho organizací ztěžuje odesílání žádostí o data (např. nezveřejněním e-mailových adres). Naším cílem je zpřístupnit práva garantovaná těmito předpisy všem."
+    }
+  ],
+  "about.missionBody3": [
+    {
+      "type": 0,
+      "value": "Toto je bezplatná služba. Nejsme podnik a nemáme obchodní model. Nenabízíme žádné služby organizacím uvedeným v seznamu. Neshromažďujeme ani neobchodujeme s osobními údaji. Tato služba je "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "open source"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsors": [
+    {
+      "type": 0,
+      "value": "Podporující organizace"
+    }
+  ],
+  "about.sponsorsBody2": [
+    {
+      "type": 1,
+      "value": "crunchbase"
+    },
+    {
+      "type": 0,
+      "value": " - za poskytnutí přehledu jejich firemní databáze, kterou využíváme k rozšíření našeho seznamu organizací."
+    }
+  ],
+  "about.sponsorsBody3": [
+    {
+      "type": 1,
+      "value": "featureupvote"
+    },
+    {
+      "type": 0,
+      "value": " - za poskytnutí efektivní cesty ke sběru zpětné vazby od komunity ohledně naší "
+    },
+    {
+      "type": 1,
+      "value": "roadmap"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "about.sponsorsBody4": [
+    {
+      "type": 1,
+      "value": "innocraft"
+    },
+    {
+      "type": 0,
+      "value": " - za poskytnutí hostované verze Matomo (Piwik), open-source a na soukromí zaměřené platformy pro webovou analytiku."
+    }
+  ],
+  "about.sponsorsBody6": [
+    {
+      "type": 1,
+      "value": "sws"
+    },
+    {
+      "type": 0,
+      "value": " - za pomoc při implementaci naší SEO strategie."
+    }
+  ],
+  "about.sponsorsBody7": [
+    {
+      "type": 1,
+      "value": "ama"
+    },
+    {
+      "type": 0,
+      "value": " - za pomoc při pochopení a podpoře brazilské datové legislativy Lei Geral de Proteção de Dados Pessoais (LGPD)."
+    }
+  ],
+  "about.sponsorsTitle": [
+    {
+      "type": 0,
+      "value": "Rádi bychom poděkovali následujícím organizacím za podporu našeho open-source úsilí poskytováním bezplatné nebo zlevněné verze svých služeb:"
+    }
+  ],
+  "about.title": [
+    {
+      "type": 0,
+      "value": "O nás"
+    }
+  ],
+  "aboutOrg.description": [
+    {
+      "type": 0,
+      "value": "Jejich vlastními slovy:"
+    }
+  ],
+  "aboutOrg.details": [
+    {
+      "type": 0,
+      "value": "O organizaci "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    }
+  ],
+  "aboutOrg.email": [
+    {
+      "type": 0,
+      "value": "E-mail:"
+    }
+  ],
+  "aboutOrg.founded": [
+    {
+      "type": 0,
+      "value": "Založeno:"
+    }
+  ],
+  "aboutOrg.headquarters": [
+    {
+      "type": 0,
+      "value": "Sídlo:"
+    }
+  ],
+  "aboutOrg.industry": [
+    {
+      "type": 0,
+      "value": "Odvětví:"
+    }
+  ],
+  "aboutOrg.privacyPolicy": [
+    {
+      "type": 0,
+      "value": "Zobrazit "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Zásady ochrany osobních údajů"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " organizace "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    }
+  ],
+  "aboutOrg.specialties": [
+    {
+      "type": 0,
+      "value": "Specializace společnosti:"
+    }
+  ],
+  "aboutOrg.type": [
+    {
+      "type": 0,
+      "value": "Typ společnosti:"
+    }
+  ],
+  "contribute.creadit": [
+    {
+      "type": 0,
+      "value": "I když vám za vaši práci nemůžeme zaplatit, rádi vám připíšeme zásluhy za váš přínos, ať už na tomto webu, na GitHubu, nebo jinde."
+    }
+  ],
+  "contribute.creditTitle": [
+    {
+      "type": 0,
+      "value": "Poděkování"
+    }
+  ],
+  "contribute.crowdinStep1": [
+    {
+      "type": 0,
+      "value": "Vytvořte si účet na Crowdin pomocí tohoto "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "odkazu"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.crowdinStep2": [
+    {
+      "type": 0,
+      "value": "Následujte tento "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "odkaz"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " pro načtení překladatelského systému."
+    }
+  ],
+  "contribute.crowdinStep3": [
+    {
+      "type": 0,
+      "value": "Vyberte jazyk (k tomu se musíte přihlásit do Crowdin)."
+    }
+  ],
+  "contribute.crowdinStep4": [
+    {
+      "type": 0,
+      "value": "Nyní byste měli vidět rámečky obklopující různé části textu, které tvoří web. Přejeďte myší nad text, který chcete přeložit, a klikněte na ikonu, jež se objeví v rohu textu."
+    }
+  ],
+  "contribute.crowdinStep5": [
+    {
+      "type": 0,
+      "value": "Otevře se editor, ve kterém můžete zadat svůj překlad. Nezapomeňte po dokončení kliknout na Uložit."
+    }
+  ],
+  "contribute.crowdinStep6": [
+    {
+      "type": 0,
+      "value": "Pokud narazíte na potíže, "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "kontaktujte nás."
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    }
+  ],
+  "contribute.description": [
+    {
+      "type": 0,
+      "value": "Pomozte nám vylepšit YourDigitalRights.org."
+    }
+  ],
+  "contribute.dev": [
+    {
+      "type": 0,
+      "value": "Naše repozitáře jsou hostovány na GitHubu, z nichž hlavní je tento "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "web"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". Nejlepší je začít tím, že nás kontaktujete přes "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": ". Poté vás přidáme do našeho Slack kanálu a podělíme se o aktuální vývoj. Případně můžete repozitář naklonovat a poslat merge request."
+    }
+  ],
+  "contribute.devSkills": [
+    {
+      "type": 0,
+      "value": "Aktuálně hledáme inženýry specializované na strojové učení, React a AWS."
+    }
+  ],
+  "contribute.devTitle": [
+    {
+      "type": 0,
+      "value": "Pomáhejte s vývojem"
+    }
+  ],
+  "contribute.reportAProblem": [
+    {
+      "type": 0,
+      "value": "Pokud narazíte na problémy s tímto webem, můžete je nahlásit v "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "issue trackeru"
+        }
+      ],
+      "type": 8,
+      "value": "a1"
+    },
+    {
+      "type": 0,
+      "value": " nebo prostřednictvím "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "emailu"
+        }
+      ],
+      "type": 8,
+      "value": "a2"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.reportAProblemTitle": [
+    {
+      "type": 0,
+      "value": "Nahlásit problém"
+    }
+  ],
+  "contribute.research": [
+    {
+      "type": 0,
+      "value": "Vždy hledáme lepší způsoby, jak prosazovat digitální práva a zpřístupnit je více lidem. Ať už jde o lepší pochopení toho, jak lidé používají technologie, nebo o to, jak je organizace zneužívají, neustále probíhají výzkumné projekty. Pokud se chcete zapojit, pošlete nám "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "email"
+        }
+      ],
+      "type": 8,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "contribute.researchTitle": [
+    {
+      "type": 0,
+      "value": "Pomáhejte s výzkumem"
+    }
+  ],
+  "contribute.subtitle": [
+    {
+      "type": 0,
+      "value": "Tento projekt je vyvíjen a udržován výhradně dobrovolníky. Pokud vám vadí ztráta soukromí, bující dohledový kapitalismus, mikrocílení a dezinformace a návykovost digitálních služeb, můžete nám pomoci:"
+    }
+  ],
+  "contribute.title": [
+    {
+      "type": 0,
+      "value": "Přispět"
+    }
+  ],
+  "contribute.translate1": [
+    {
+      "type": 0,
+      "value": "Rádi bychom, aby tato služba byla dostupná v mnoha jazycích. Pokud ta vaše mezi nimi chybí anebo potřebuje aktualizaci či vylepšení, oceníme vaši pomoc!"
+    }
+  ],
+  "contribute.translate2": [
+    {
+      "type": 0,
+      "value": "K vytváření překladů používáme online platformu "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Crowdin"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". Výrazně nám to usnadňuje práci a nevyžaduje žádné programátorské dovednosti. Krátký návod je k dispozici "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zde"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ". Chcete-li začít, postupujte takto:"
+    }
+  ],
+  "contribute.translateTitle": [
+    {
+      "type": 0,
+      "value": "Přeložit web"
+    }
+  ],
+  "dataProcessors": [
+    {
+      "type": 0,
+      "value": "Sdílení dat a zpracovatelé"
+    }
+  ],
+  "deletePII.deleteAllPII": [
+    {
+      "type": 0,
+      "value": "Všechny žádosti"
+    }
+  ],
+  "deletePII.deleteSpecificPII": [
+    {
+      "type": 0,
+      "value": "Tato žádost"
+    }
+  ],
+  "deletePII.doneAll": [
+    {
+      "type": 0,
+      "value": "Úspěšně jsme vymazali osobní údaje spojené se všemi vašimi žádostmi."
+    }
+  ],
+  "deletePII.doneRequest": [
+    {
+      "type": 0,
+      "value": "Úspěšně jsme vymazali osobní údaje spojené s touto žádostí."
+    }
+  ],
+  "deletePII.heading": [
+    {
+      "type": 0,
+      "value": "Odstraňte mé údaje"
+    }
+  ],
+  "deletePII.intro": [
+    {
+      "type": 0,
+      "value": "Vaše osobní údaje budou automaticky vymazány 120 dní po odeslání žádosti, můžete je však smazat i nyní. Přejete si smazat údaje spojené s touto žádostí (ref: "
+    },
+    {
+      "type": 1,
+      "value": "ref"
+    },
+    {
+      "type": 0,
+      "value": "), nebo se všemi vašimi žádostmi?"
+    }
+  ],
+  "deletemydata.description": [
+    {
+      "type": 0,
+      "value": "Odstraňte mé údaje"
+    }
+  ],
+  "deletemydata.title": [
+    {
+      "type": 0,
+      "value": "Odstraňte mé údaje"
+    }
+  ],
+  "donations.donate": [
+    {
+      "type": 0,
+      "value": "Přispět"
+    }
+  ],
+  "donations.donateIntro": [
+    {
+      "type": 0,
+      "value": "Služba YourDigitalRights.org byla vytvořena, protože věříme, že na soukromí záleží a že jeho uplatňování by mělo být snadné. Proto je nabízíme zdarma. Přispějte nebo se staňte podporujícím členem a pomozte nám zajistit naši dlouhodobou finanční stabilitu a nezávislost."
+    }
+  ],
+  "donations.headingDonate": [
+    {
+      "type": 0,
+      "value": "Potřebujeme vaši podporu"
+    }
+  ],
+  "faq.body.YDR.1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org je bezplatná služba, která vám pomáhá znovu získat kontrolu nad vaším online soukromím tím, že usnadňuje požádat společnosti o smazání nebo poskytnutí kopie vašich osobních údajů. Dosahujeme toho zjednodušením procesu stanoveného silnými zákony na ochranu osobních údajů, které vám dávají právo nechat si smazat nebo získat kopii svých dat. Kromě odesílání žádostí organizacím vám můžeme pomoci zajistit, aby byly žádosti vyřešeny ve váš prospěch."
+    }
+  ],
+  "faq.body.contact.1": [
+    {
+      "type": 0,
+      "value": "Vezměte prosím na vědomí, že nemůžeme poskytovat osobní podporu týkající se konkrétních datových žádostí nebo vaší zkušenosti s konkrétní organizací. Uvědomujeme si, že někteří poskytovatelé mohou být frustrující, ale bohužel s tím nemůžeme pomoci a na takové e-maily nebudeme reagovat."
+    }
+  ],
+  "faq.body.contact.2": [
+    {
+      "type": 0,
+      "value": "Ohledně všech ostatních dotazů nás prosím kontaktujte prostřednictvím "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "emailu"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.contribute.1": [
+    {
+      "type": 0,
+      "value": "Ano, prosím!"
+    }
+  ],
+  "faq.body.contribute.2": [
+    {
+      "type": 0,
+      "value": "Spoléháme na "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "dary"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " k zajištění naší dlouhodobé finanční stability a nezávislosti. Přispět můžete zde."
+    }
+  ],
+  "faq.body.contribute.3": [
+    {
+      "type": 0,
+      "value": "Informace o tom, jak nahlásit chybu, pomoci s překladem webu, přispět k vývoji nebo se zapojit do výzkumu, najdete na "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "této stránce"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.data-protection.1": [
+    {
+      "type": 0,
+      "value": "Zákony na ochranu osobních údajů chrání jednotlivce při zpracování jejich osobních informací organizacemi. Definují povinnosti organizací při zpracování osobních informací a poskytují jednotlivcům určitá práva týkající se jejich dat. Mnoho zemí má své předpisy na ochranu osobních údajů; některé z nich jdou dále ohledně ochrany, kterou poskytují, než jiné."
+    }
+  ],
+  "faq.body.escalate.1": [
+    {
+      "type": 0,
+      "value": "Zákony na ochranu osobních údajů stanovují různé mechanismy eskalace, včetně možnosti podat stížnost na organizaci u vládní regulační agentury nebo ji žalovat (tzv. právo na soukromou žalobu)."
+    }
+  ],
+  "faq.body.escalate.2": [
+    {
+      "type": 0,
+      "value": "Pokud vám to zní složitě, nemusíte se bát; můžeme vám pomoci. Když při odesílání datové žádosti prostřednictvím této služby zapnete volitelnou funkci „Chytrá následná asistence“, poskytneme vám individuální rady ohledně kroků v případě, že organizace vaší žádosti nevyhoví. Pomůžeme vám komunikovat s organizací a v případě potřeby eskalovat na vládní regulační úřad."
+    }
+  ],
+  "faq.body.how.1": [
+    {
+      "type": 0,
+      "value": "Po výběru organizace a vyplnění krátkého formuláře vám vygenerujeme žádost, která je adresována vámi zvolené organizaci. E-mail se otevře ve vaší e-mailové aplikaci, kde ho můžete zkontrolovat a odeslat. Volitelně vás můžeme po odeslání žádosti za nějaký čas znovu kontaktovat, abychom se ujistili, že byla vyřešena ve váš prospěch. To může zahrnovat zaslání připomínkových e-mailů organizaci nebo eskalaci na vládní regulační úřad."
+    }
+  ],
+  "faq.body.new-regulation.1": [
+    {
+      "type": 0,
+      "value": "Rádi bychom podporovali všechny zákony na ochranu osobních údajů, které poskytují jednotlivcům právo na přístup k jejich osobním informacím a jejich vymazání. Pokud byste rádi, abychom přidali podporu pro konkrétní legislativu, "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "kontaktujte nás"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.refuse.1": [
+    {
+      "type": 0,
+      "value": "Zákony na ochranu osobních údajů umožňují organizacím odmítnout vymazání vašich osobních informací za určitých výjimečných okolností. Níže uvádíme obecné příklady, ale konkrétní detaily byste měli hledat v příslušném právním předpisu:"
+    }
+  ],
+  "faq.body.refuse.1.1": [
+    {
+      "type": 0,
+      "value": "Pokud je organizace povinna vaše údaje uchovávat ze zákona (například finanční instituce musí uchovávat záznamy o vašich transakcích kvůli dodržování zákonů proti praní špinavých peněz)"
+    }
+  ],
+  "faq.body.refuse.1.2": [
+    {
+      "type": 0,
+      "value": "Pokud je uchování vašich údajů nezbytné z důvodu svobody projevu a informací (včetně novinářských a akademických, uměleckých a literárních účelů)"
+    }
+  ],
+  "faq.body.refuse.1.3": [
+    {
+      "type": 0,
+      "value": "Pokud je uchování vašich údajů nezbytné z důvodů veřejného zdraví"
+    }
+  ],
+  "faq.body.refuse.1.4": [
+    {
+      "type": 0,
+      "value": "Pokud je nezbytné uchovat vaše data pro založení, výkon nebo obhajobu právních nároků"
+    }
+  ],
+  "faq.body.refuse.1.5": [
+    {
+      "type": 0,
+      "value": "Pokud by vymazání vašich dat bránilo vědeckému nebo historickému výzkumu či archivaci ve veřejném zájmu"
+    }
+  ],
+  "faq.body.regulations.1": [
+    {
+      "type": 0,
+      "value": "Pokud nám chcete pomoci s implementací podpory dalších předpisů, "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "kontaktujte nás"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.regulations.location": [
+    {
+      "type": 0,
+      "value": "Umístění"
+    }
+  ],
+  "faq.body.regulations.name": [
+    {
+      "type": 0,
+      "value": "Celé jméno"
+    }
+  ],
+  "faq.body.regulations.short-name": [
+    {
+      "type": 0,
+      "value": "Zkratka"
+    }
+  ],
+  "faq.body.regulations.timelimit": [
+    {
+      "type": 0,
+      "value": "Čas na odpověď"
+    }
+  ],
+  "faq.body.requests.1": [
+    {
+      "type": 0,
+      "value": "Podporujeme dva typy žádostí:"
+    }
+  ],
+  "faq.body.requests.1.1": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Žádosti o vymazání dat"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " (také známé jako žádosti o výmaz nebo právo být zapomenut) vám umožňují požádat organizaci o vymazání vašich osobních údajů."
+    }
+  ],
+  "faq.body.requests.1.2": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Žádosti o přístup"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " (také známé jako žádosti o přístup k subjektním údajům neboli SAR) vám umožňují požádat organizaci o kopii vašich osobních údajů."
+    }
+  ],
+  "faq.body.trust.1": [
+    {
+      "type": 0,
+      "value": "Jsme registrovaná nezisková organizace nazvaná "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ". Věříme v transparentnost, a proto je zdrojový kód této služby "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "open source"
+        }
+      ],
+      "type": 8,
+      "value": "aa"
+    },
+    {
+      "type": 0,
+      "value": ". K říjnu 2022 jsme pomohli lidem odeslat přes 100 000 žádostí různým organizacím"
+    }
+  ],
+  "faq.body.trust.2": [
+    {
+      "type": 0,
+      "value": "Jsme nezávislí, neprodáváme vaše osobní informace, nejsme propojeni s žádnou z organizací, kterým pomáháme odesílat datové žádosti, ani jim neposkytujeme žádné služby. Jsme financováni z vašich "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "dárcovských příspěvků"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.trust.3": [
+    {
+      "type": 0,
+      "value": "Tuto službu jsme navrhli tak, aby od vás ve výchozím nastavení nevyžadovala žádné osobní údaje. Pokud některé volitelné funkce vyžadují poskytnutí osobních informací, po 120 dnech je mažeme. Podrobnosti naleznete v našich "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zásadách ochrany osobních údajů"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "faq.body.verify.1": [
+    {
+      "type": 0,
+      "value": "Zákony na ochranu osobních údajů vyžadují, aby organizace ověřily totožnost osoby, která žádost podává, aby se zabránilo podvodům. Většina zákonů také uvádí, že metoda ověření by měla být přiměřená povaze daných dat. Například pokud žádáte o kopii své historii zpráv na běžném internetovém fóru, mělo by stačit jednoduché ověření, že vlastníte e-mailovou adresu spojenou s vaším účtem. Pokud ovšem žádáte o historii transakcí u finanční instituce, je oprávněná žádat o další informace, například kopii dokladu totožnosti a potvrzení adresy."
+    }
+  ],
+  "faq.body.verify.2": [
+    {
+      "type": 0,
+      "value": "Ve většině případů stačí jednoduché ověření vlastnictví e-mailu spojeného s vaším účtem. Když pomocí této služby odesíláte žádost, pošle se e-mail z vaší e-mailové aplikace, což poskytuje toto základní ověření."
+    }
+  ],
+  "faq.body.verify.3": [
+    {
+      "type": 0,
+      "value": "Abychom dále chránili vaše osobní údaje, žádosti, které za vás generujeme, výslovně zakazují organizacím používat osobní údaje z žádosti k jiným účelům než k jejímu vyřízení."
+    }
+  ],
+  "faq.heading.YDR": [
+    {
+      "type": 0,
+      "value": "Co je YourDigitalRights.org?"
+    }
+  ],
+  "faq.heading.contact": [
+    {
+      "type": 0,
+      "value": "Mám další dotaz, jak vás mohu kontaktovat?"
+    }
+  ],
+  "faq.heading.contribute": [
+    {
+      "type": 0,
+      "value": "Tato služba je skvělá. Mohu pomoci?"
+    }
+  ],
+  "faq.heading.data-protection": [
+    {
+      "type": 0,
+      "value": "Co jsou zákony na ochranu osobních údajů?"
+    }
+  ],
+  "faq.heading.escalate": [
+    {
+      "type": 0,
+      "value": "Co mám dělat, pokud organizace zcela nevyhoví mé žádosti?"
+    }
+  ],
+  "faq.heading.how": [
+    {
+      "type": 0,
+      "value": "Jak tato služba funguje?"
+    }
+  ],
+  "faq.heading.new-regulation": [
+    {
+      "type": 0,
+      "value": "V mé zemi platí nový zákon o ochraně osobních údajů. Budete ho podporovat?"
+    }
+  ],
+  "faq.heading.refuse": [
+    {
+      "type": 0,
+      "value": "Mohou organizace říci ne?"
+    }
+  ],
+  "faq.heading.regulations": [
+    {
+      "type": 0,
+      "value": "Které země, státy nebo předpisy jsou podporovány?"
+    }
+  ],
+  "faq.heading.requests": [
+    {
+      "type": 0,
+      "value": "Jaké typy žádostí mohu prostřednictvím této služby podávat?"
+    }
+  ],
+  "faq.heading.trust": [
+    {
+      "type": 0,
+      "value": "Kdo tuto službu provozuje? Mohu vám důvěřovat?"
+    }
+  ],
+  "faq.heading.verify": [
+    {
+      "type": 0,
+      "value": "Organizace mě požádala o poskytnutí dalších osobních údajů k ověření totožnosti. Je to legální? Mohou tyto informace používat k jiným účelům?"
+    }
+  ],
+  "faq.title": [
+    {
+      "type": 0,
+      "value": "Často kladené dotazy"
+    }
+  ],
+  "footer.contact": [
+    {
+      "type": 0,
+      "value": "© Copyright 2019 - 2022"
+    }
+  ],
+  "footer.disclaimer": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Upozornění:"
+        }
+      ],
+      "type": 8,
+      "value": "span"
+    },
+    {
+      "type": 0,
+      "value": " Tato služba je poskytována tak, jak je, bez záruky jakéhokoli druhu. Použití této služby je zcela na vaše vlastní riziko. Nemůžeme nést odpovědnost za jakékoli přímé nebo nepřímé škody vyplývající z použití této služby. Informace poskytované touto službou spolu s obsahem na našich webových stránkách týkajícími se právních záležitostí slouží pouze pro vaše soukromé použití a nepředstavují právní poradenství. Pokud potřebujete právní radu pro konkrétní problém, měli byste se obrátit na licencovaného právníka."
+    }
+  ],
+  "footer.madeBy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Vytvořeno společností Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.poweredBy": [
+    {
+      "type": 0,
+      "value": "Provozuje Vercel"
+    }
+  ],
+  "footer.privacyPolicy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Zásady ochrany osobních údajů"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.stats": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Statistiky"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    }
+  ],
+  "footer.wishList": [
+    {
+      "type": 0,
+      "value": "napište nám přání do našeho plánu"
+    }
+  ],
+  "hero.headerText": [
+    {
+      "type": 0,
+      "value": "Donuťte organizace vymazat váš účet nebo vám poskytnout kopii vašich osobních údajů."
+    }
+  ],
+  "hero.heading": [
+    {
+      "type": 0,
+      "value": "Vlastněte svá data"
+    }
+  ],
+  "hero.intro": [
+    {
+      "type": 0,
+      "value": "Mnoho organizací shromažďuje a prodává vaše osobní údaje, často bez vašeho souhlasu. Pomocí této bezplatné služby jim můžete poslat žádost o výmaz nebo přístup k vašim údajům. Začněte vyhledáním organizace níže."
+    }
+  ],
+  "howItWorks.followUp": [
+    {
+      "type": 0,
+      "value": "použitím naší chytré asistence následných kroků, která zajistí, že organizace vyhoví vaší žádosti, a v případě potřeby vám pomůže eskalovat žádost k příslušnému státnímu orgánu."
+    }
+  ],
+  "howItWorks.followUpTitle": [
+    {
+      "type": 0,
+      "value": "Následné kroky"
+    }
+  ],
+  "howItWorks.imgAlt": [
+    {
+      "type": 0,
+      "value": "Grafika znázorňující uživatelské rozhraní"
+    }
+  ],
+  "howItWorks.search": [
+    {
+      "type": 0,
+      "value": "pro organizaci pomocí vyhledávacího pole v horní části této stránky."
+    }
+  ],
+  "howItWorks.searchTitle": [
+    {
+      "type": 0,
+      "value": "Vyhledávání"
+    }
+  ],
+  "howItWorks.send": [
+    {
+      "type": 0,
+      "value": "organizaci žádost o vymazání nebo poskytnutí kopie vašich dat."
+    }
+  ],
+  "howItWorks.sendTitle": [
+    {
+      "type": 0,
+      "value": "Odeslat"
+    }
+  ],
+  "howItWorks.title": [
+    {
+      "type": 0,
+      "value": "Jak to funguje"
+    }
+  ],
+  "howItWorks.whyBody": [
+    {
+      "type": 0,
+      "value": "Jsme registrovaná charitativní organizace "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ". Tuto službu jsme vytvořili, protože věříme, že na soukromí záleží a že by uplatnění vašeho práva na soukromí mělo být jednoduché a bezplatné. Neshromažďujeme ani neprodáváme osobní údaje. Provoz služby je financován jejími tvůrci a s pomocí vašich "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "darů"
+        }
+      ],
+      "type": 8,
+      "value": "donations"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "howItWorks.whyTitle": [
+    {
+      "type": 0,
+      "value": "Proč nám věřit?"
+    }
+  ],
+  "howItWorks.yourData": [
+    {
+      "type": 0,
+      "value": "Zákony na ochranu osobních údajů vyžadují, aby organizace na vaši žádost vymazaly nebo poskytly kopii vašich dat. Organizace mají na vyhovění relativně krátkou lhůtu a v případě neplnění jim hrozí vysoké pokuty. Naším cílem je usnadnit vám uplatnění vašich zákonných práv."
+    }
+  ],
+  "howItWorks.yourDataTitle": [
+    {
+      "type": 0,
+      "value": "Máte právo na soukromí!"
+    }
+  ],
+  "index.description": [
+    {
+      "type": 0,
+      "value": "Vymažte svůj účet nebo získejte přístup k osobním údajům, které o vás organizace mají, pomocí této bezplatné služby."
+    }
+  ],
+  "nav.about": [
+    {
+      "type": 0,
+      "value": "O projektu"
+    }
+  ],
+  "nav.blog": [
+    {
+      "type": 0,
+      "value": "Blog"
+    }
+  ],
+  "nav.contact": [
+    {
+      "type": 0,
+      "value": "Kontaktujte nás"
+    }
+  ],
+  "nav.contribute": [
+    {
+      "type": 0,
+      "value": "Přispět"
+    }
+  ],
+  "nav.data-brokers": [
+    {
+      "type": 0,
+      "value": "Zprostředkovatelé dat"
+    }
+  ],
+  "nav.donate": [
+    {
+      "type": 0,
+      "value": "Přispět"
+    }
+  ],
+  "nav.donation": [
+    {
+      "type": 0,
+      "value": "Přispět"
+    }
+  ],
+  "nav.faq": [
+    {
+      "type": 0,
+      "value": "FAQ"
+    }
+  ],
+  "nav.helpTranslate": [
+    {
+      "type": 0,
+      "value": "Pomozte s překladem"
+    }
+  ],
+  "nav.howItWorks": [
+    {
+      "type": 0,
+      "value": "Jak to funguje"
+    }
+  ],
+  "nav.privacyPoilcy": [
+    {
+      "type": 0,
+      "value": "Zásady ochrany osobních údajů"
+    }
+  ],
+  "nav.stats": [
+    {
+      "type": 0,
+      "value": "Statistiky"
+    }
+  ],
+  "nav.twitterHastag": [
+    {
+      "type": 0,
+      "value": "#ownyourdata"
+    }
+  ],
+  "org.DescriptionNewOrg": [
+    {
+      "type": 0,
+      "value": "Odesílejte žádosti o smazání a přístup k datům dle GDPR, CCPA a LGPD jakékoliv organizaci rychle a snadno."
+    }
+  ],
+  "org.descriptionExistingOrg": [
+    {
+      "type": 0,
+      "value": "Požádejte "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " o vymazání účtu nebo kopii vašich osobních údajů rychle a snadno."
+    }
+  ],
+  "org.titleExistingOrg": [
+    {
+      "type": 0,
+      "value": "Vymažte svůj účet u "
+    },
+    {
+      "type": 1,
+      "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " nebo si vyžádejte kopii svých údajů"
+    }
+  ],
+  "org.titleNewOrg": [
+    {
+      "type": 0,
+      "value": "Odesílejte žádosti o výmaz a přístup k údajům dle GDPR, CCPA a LGPD"
+    }
+  ],
+  "orgHero.newOrgTitle": [
+    {
+      "type": 0,
+      "value": "Odešlete žádost o výmaz nebo přístup k údajům."
+    }
+  ],
+  "orgHero.subTitle2": [
+    {
+      "type": 0,
+      "value": "Pošlete "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " žádost o vymazání nebo přístup k údajům pomocí této "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "bezplatné a nezávislé"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " služby."
+    }
+  ],
+  "orgHero.subTitleNewOrg": [
+    {
+      "type": 0,
+      "value": "Přimějte organizace, aby vymazaly nebo vám poslalY kopii vašich osobních údajů pomocí této "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "bezplatné a nezávislé"
+        }
+      ],
+      "type": 8,
+      "value": "disclamer"
+    },
+    {
+      "type": 0,
+      "value": " služby."
+    }
+  ],
+  "orgHero.title": [
+    {
+      "type": 0,
+      "value": "Vymažte svůj účet u "
+    },
+    {
+      "type": 1,
+      "value": "domain"
+    },
+    {
+      "type": 0,
+      "value": " nebo si vyžádejte svá data."
+    }
+  ],
+  "personalInfoForm.FollowUpDetails": [
+    {
+      "type": 0,
+      "value": "Abychom zajistili, že organizace splní vaši žádost, pošleme vám e-mail, až přijde čas podniknout další kroky. Budete mít možnost poslat organizaci připomínku, nebo žádost postoupit místnímu úřadu na ochranu osobních údajů."
+    }
+  ],
+  "personalInfoForm.FollowUpDetailsWarning": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Výběrem této možnosti souhlasíte, že nám dovolujete zpracovat a uložit následující osobní údaje: vaši e-mailovou adresu, jméno a text vašich e-mailů se žádostmi. Veškeré osobní údaje týkající se této žádosti budou po 120 dnech automaticky vymazány z našich systémů, pokud neurčíte jinak, a vždy máte možnost nechat tato data okamžitě vymazat. Tyto informace shromažďujeme automaticky tím, že do pole CC v e-mailu přidáme speciální adresu."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.FollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Zapnout chytrou asistenci následných kroků"
+    }
+  ],
+  "personalInfoForm.IdentifyingInfoHelper": [
+    {
+      "type": 0,
+      "value": "Volitelně uveďte další informace, které pomohou organizaci vyhledat vaše údaje v jejich systémech, například uživatelské jméno, ID zákazníka nebo číslo účtu. "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Prosím neposkytujte své heslo ani žádné osobní údaje, které organizace ještě nemá."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "personalInfoForm.NoFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Ne, zvládnu to sám"
+    }
+  ],
+  "personalInfoForm.YesFollowUpLabel": [
+    {
+      "type": 0,
+      "value": "Ano, pošlete mi pokyny k dalším krokům e-mailem"
+    }
+  ],
+  "personalInfoForm.accessRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Pošlete mi kopii mých údajů"
+    }
+  ],
+  "personalInfoForm.companyDomainHelper": [
+    {
+      "type": 0,
+      "value": "Zadejte prosím doménové jméno organizace (např. google.co.uk nebo facebook.com)."
+    }
+  ],
+  "personalInfoForm.companyDomainLabel": [
+    {
+      "type": 0,
+      "value": "Doména organizace"
+    }
+  ],
+  "personalInfoForm.companyEmailLabel": [
+    {
+      "type": 0,
+      "value": "E-mailová adresa organizace"
+    }
+  ],
+  "personalInfoForm.companyNameHelper": [
+    {
+      "type": 0,
+      "value": "Zadejte prosím název organizace, se kterou se chcete spojit."
+    }
+  ],
+  "personalInfoForm.companyNameLabel": [
+    {
+      "type": 0,
+      "value": "Název organizace"
+    }
+  ],
+  "personalInfoForm.compnayEmailHelper": [
+    {
+      "type": 0,
+      "value": "Zadejte prosím e-mailovou adresu osoby nebo oddělení odpovědného za zpracování žádostí GDPR/CCPA/ochrany osobních údajů/právních záležitostí. Tyto informace obvykle najdete na webu organizace v zásadách ochrany osobních údajů, v obchodních podmínkách nebo na stránce kontaktů."
+    }
+  ],
+  "personalInfoForm.deletionRequestLabelText": [
+    {
+      "type": 0,
+      "value": "Odstraňte mé údaje"
+    }
+  ],
+  "personalInfoForm.headline": [
+    {
+      "type": 0,
+      "value": "Vyplňte formulář, abyste vytvořili žádost v podobě e-mailu, který pak můžete zkontrolovat a odeslat."
+    }
+  ],
+  "personalInfoForm.identifyingInfoLabel": [
+    {
+      "type": 0,
+      "value": "Další identifikační informace (volitelně)"
+    }
+  ],
+  "personalInfoForm.nameHelper": [
+    {
+      "type": 0,
+      "value": "Organizace to použije k vaší identifikaci."
+    }
+  ],
+  "personalInfoForm.nameLabel": [
+    {
+      "type": 0,
+      "value": "Celé jméno"
+    }
+  ],
+  "personalInfoForm.regulationType": [
+    {
+      "type": 0,
+      "value": "Regulace"
+    }
+  ],
+  "personalInfoForm.regulationTypeHelper": [
+    {
+      "type": 0,
+      "value": "Vyberte regulaci podle místa svého bydliště, pokud nemáte konkrétní důvod vybrat jinou."
+    }
+  ],
+  "personalInfoForm.requestTypeLabelText": [
+    {
+      "type": 0,
+      "value": "Typ žádosti"
+    }
+  ],
+  "personalInfoForm.sendButton": [
+    {
+      "type": 0,
+      "value": "Zkontrolovat a odeslat"
+    }
+  ],
+  "personalInfoForm.supportButtonCTA": [
+    {
+      "type": 0,
+      "value": "Podpora"
+    }
+  ],
+  "personalInfoForm.validEmail": [
+    {
+      "type": 0,
+      "value": "Zadejte prosím platnou e-mailovou adresu."
+    }
+  ],
+  "pressIntro.title": [
+    {
+      "type": 0,
+      "value": "Uvádí se v"
+    }
+  ],
+  "privacy.additionalPersonalData": [
+    {
+      "type": 0,
+      "value": "Následné sledování žádostí"
+    }
+  ],
+  "privacy.additionalPersonalDataBody1": [
+    {
+      "type": 0,
+      "value": "Při používání této služby, po odeslání žádosti o data, se můžete rozhodnout pro další podporu formou e-mailu. Pokud se rozhodnete tuto volitelnou funkci použít, budeme shromažďovat následující dodatečné osobní údaje:"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Vaše e-mailová adresa"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Obsah e-mailů se žádostmi o data, které odesíláte organizacím a úřadům pro ochranu osobních údajů (DPA)"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneC": [
+    {
+      "type": 0,
+      "value": "Metadata týkající se e-mailů se žádostmi o data, které odesíláte organizacím a úřadům pro ochranu osobních údajů (DPA), například čas odeslání e-mailu a adresy odesílatele a příjemce"
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Rozšířené osobní údaje uchováváme maximálně 120 dní."
+    }
+  ],
+  "privacy.additionalPersonalDataBodyOneF": [
+    {
+      "type": 0,
+      "value": "Tím, že nám dobrovolně poskytnete osobní údaje, souhlasíte s jejich použitím v souladu s těmito Zásadami ochrany osobních údajů. Pokud poskytnete osobní údaje tomuto webu, berete na vědomí a souhlasíte s tím, že tyto osobní údaje mohou být přeneseny z vaší aktuální polohy na servery YourDigitalRights.org a k autorizovaným třetím stranám uvedeným v těchto zásadách."
+    }
+  ],
+  "privacy.contact": [
+    {
+      "type": 0,
+      "value": "Kontakt"
+    }
+  ],
+  "privacy.contactBody": [
+    {
+      "type": 0,
+      "value": "Pokud máte dotazy nebo připomínky k těmto Zásadám ochrany osobních údajů, kontaktujte nás na adrese "
+    },
+    {
+      "type": 1,
+      "value": "mail"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.cookies": [
+    {
+      "type": 0,
+      "value": "Cookies a sledování"
+    }
+  ],
+  "privacy.cookiesBody": [
+    {
+      "type": 0,
+      "value": "Cookies používáme pouze k uložení voleb, které na webu provedete, aby pro vás bylo příště snazší službu použít. Cookie je kousek informace, který počítač hostující naši Službu předá vašemu prohlížeči při přístupu ke Službě."
+    }
+  ],
+  "privacy.description": [
+    {
+      "type": 0,
+      "value": "Vlastníte svá data a my existujeme proto, abychom vám pomohli kontrolovat, kdo k nim má přístup. Toto je stránka s našimi zásadami ochrany soukromí."
+    }
+  ],
+  "privacy.lastUpdated": [
+    {
+      "type": 0,
+      "value": "Naposledy aktualizováno:"
+    }
+  ],
+  "privacy.personalData": [
+    {
+      "type": 0,
+      "value": "Odesílání žádostí"
+    }
+  ],
+  "privacy.personalDataBody1": [
+    {
+      "type": 0,
+      "value": "Při odesílání žádostí (bez zapnutí volitelné funkce následného sledování žádostí) vás žádáme o poskytnutí následujících osobních údajů:"
+    }
+  ],
+  "privacy.personalDataBodyOneA": [
+    {
+      "type": 0,
+      "value": "Vaše jméno"
+    }
+  ],
+  "privacy.personalDataBodyOneB": [
+    {
+      "type": 0,
+      "value": "Další informace potřebné k tomu, aby si vás mohly organizace spojit (např. uživatelské jméno, ID zákazníka nebo číslo účtu)."
+    }
+  ],
+  "privacy.personalDataBodyOneE": [
+    {
+      "type": 0,
+      "value": "Osobní údaje shromážděné při odesílání žádostí používáme pouze k vygenerování e-mailu a neukládáme je na naše servery."
+    }
+  ],
+  "privacy.privacyTitle": [
+    {
+      "type": 0,
+      "value": "Zásady ochrany osobních údajů"
+    }
+  ],
+  "privacy.processorsA": [
+    {
+      "type": 0,
+      "value": "Matomo: služba webové analýzy orientovaná na soukromí od společnosti Innocraft. K shromažďování anonymizovaných informací o způsobu, jakým je Služba přistupována a využívána (\"Usage Data\"), používáme Matomo. Navštivte jejich stránku "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.processorsB": [
+    {
+      "type": 0,
+      "value": "Amazon AWS: poskytovatel cloudových infrastrukturních služeb. Pokud se rozhodnete zapnout následné sledování žádostí, používáme AWS ke zpracování e-mailů, které odešlete, k ukládání souvisejících informací a k odesílání připomínek e-mailem. Více informací najdete na stránce "
+    },
+    {
+      "type": 1,
+      "value": "matomo"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "privacy.promise": [
+    {
+      "type": 0,
+      "value": "Náš slib"
+    }
+  ],
+  "privacy.promiseBody": [
+    {
+      "type": 0,
+      "value": "Vlastníte svá data. Naším posláním je pomoci vám kontrolovat, kdo k nim má přístup. Silně věříme v zachování osobních informací jako osobních, soukromých a bezpečných. Nepoužíváme nepotřebné soubory cookies a omezujeme shromažďované osobní údaje pouze na minimum nezbytné k poskytování této Služby (YourDigitalRights.org). V některých případech můžete zapnout volitelné funkce, které vyžadují zadání dalších osobních údajů. V takových případech je vyžadován váš výslovný souhlas. Nikdy neprodáme ani nepronajmeme vaše osobní údaje nikomu a na našich serverech je nebudeme uchovávat déle než 120 dní. Vaše osobní údaje sdílíme pouze v případě, že je to nutné k poskytování služby, nebo jak je jinak uvedeno v těchto Zásadách."
+    }
+  ],
+  "privacy.title": [
+    {
+      "type": 0,
+      "value": "Zásady ochrany osobních údajů"
+    }
+  ],
+  "privacy.usageDataBody": [
+    {
+      "type": 0,
+      "value": "Spolupracujeme s následujícími poskytovateli služeb, kteří za nás provádějí některé úkony zpracování dat. Jednáme s nimi za podmínek, které zajišťují důvěrnost a bezpečnost vašich údajů."
+    }
+  ],
+  "privacyAlerts.description1": [
+    {
+      "type": 0,
+      "value": "Měsíční e-mail, v němž představíme tři nejhorší společnosti porušující soukromí, identifikované naším výzkumným týmem. Zlepšete své soukromí a získejte kontrolu nad svými osobními informacemi tím, že měsíčně strávíte pět minut odhlašováním z těchto společností."
+    }
+  ],
+  "privacyAlerts.seoDescription": [
+    {
+      "type": 0,
+      "value": "Přihlaste se k odběru našich měsíčních upozornění na ochranu soukromí"
+    }
+  ],
+  "privacyAlerts.seoTitle": [
+    {
+      "type": 0,
+      "value": "Upozornění na ochranu soukromí"
+    }
+  ],
+  "privacyAlerts.title": [
+    {
+      "type": 0,
+      "value": "Upozornění na ochranu soukromí"
+    }
+  ],
+  "privacyAlerts.whyPrivacy": [
+    {
+      "type": 0,
+      "value": "Proč byste měli investovat do svého soukromí?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody1": [
+    {
+      "type": 0,
+      "value": "Každá naše interakce online zanechává stopy našich osobních informací. Společnosti, se kterými přicházíme do styku, datoví zprostředkovatelé, vlády i podvodníci mají o naše data zájem."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody2": [
+    {
+      "type": 0,
+      "value": "Tato realita nás vystavuje různým formám manipulace. Patří sem cílená online reklama, politická a sociální manipulace prostřednictvím falešných zpráv, různé druhy podvodů, jako je krádež identity, a návykové aplikace a online služby. To vše umožňuje nadbytek osobních údajů, které po sobě zanecháváme."
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody3": [
+    {
+      "type": 0,
+      "value": "Jak to tedy můžeme dostat zpět pod kontrolu?"
+    }
+  ],
+  "privacyAlerts.whyPrivacyBody4": [
+    {
+      "type": 0,
+      "value": "Službu Privacy Alerts jsme navrhli na základě zpětné vazby od uživatelů našich služeb. Je to jednoduchý způsob, jak zlepšit své online soukromí postupně tím, že strávíte pouze pět minut měsíčně odhlašováním od nejhorších společností, které pro vás náš výzkumný tým vybral."
+    }
+  ],
+  "redirect.continueText": [
+    {
+      "type": 0,
+      "value": "Pokračovat"
+    }
+  ],
+  "redirect.headingText": [
+    {
+      "type": 0,
+      "value": "opt-out.eu je nyní yourdigitalrights.org"
+    }
+  ],
+  "redirect.text": [
+    {
+      "type": 0,
+      "value": "Skvělá zpráva, tato služba roste! Nedávno jsme spustili podporu zákona o ochraně soukromí (CCPA) v Kalifornii a brzy přidáme podporu dalších typů žádostí kromě odstranění osobních údajů. Proto se domníváme, že doména ‚opt-out.eu‘ je příliš omezující. Jsme více než kdy jindy odhodláni pomoci vám uplatnit vaše digitální práva, vítejte v našem novém domově @ "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "yourdigitalrights.org"
+        }
+      ],
+      "type": 8,
+      "value": "style"
+    },
+    {
+      "type": 0,
+      "value": "!"
+    }
+  ],
+  "request.description": [
+    {
+      "type": 0,
+      "value": "Zobrazit podrobnosti o žádosti podle "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": ", která byla odeslána prostřednictvím této bezplatné služby."
+    }
+  ],
+  "request.details.date": [
+    {
+      "type": 0,
+      "value": "Datum odeslání žádosti e-mailem:"
+    }
+  ],
+  "request.details.escalationDate": [
+    {
+      "type": 0,
+      "value": "Datum e-mailu s eskalací:"
+    }
+  ],
+  "request.details.header": [
+    {
+      "type": 0,
+      "value": "Podrobnosti žádosti"
+    }
+  ],
+  "request.details.hide.escalation": [
+    {
+      "type": 0,
+      "value": "Skrýt e-mail s eskalací"
+    }
+  ],
+  "request.details.hide.reminder": [
+    {
+      "type": 0,
+      "value": "Skrýt e-mail s připomínkou"
+    }
+  ],
+  "request.details.hide.request": [
+    {
+      "type": 0,
+      "value": "Skrýt e-mail s žádostí"
+    }
+  ],
+  "request.details.name": [
+    {
+      "type": 0,
+      "value": "Žádost podal:"
+    }
+  ],
+  "request.details.nowDetails": [
+    {
+      "type": 0,
+      "value": "Podrobnosti žádosti nejsou momentálně k dispozici, prosím obnovte stránku poté, co odešlete e-mail."
+    }
+  ],
+  "request.details.organization": [
+    {
+      "type": 0,
+      "value": "Příjemce:"
+    }
+  ],
+  "request.details.regulation": [
+    {
+      "type": 0,
+      "value": "Regulace:"
+    }
+  ],
+  "request.details.reminderDate": [
+    {
+      "type": 0,
+      "value": "Datum e-mailu s připomínkou:"
+    }
+  ],
+  "request.details.sentTo": [
+    {
+      "type": 0,
+      "value": "E-mailová adresa příjemce:"
+    }
+  ],
+  "request.details.show.escalation": [
+    {
+      "type": 0,
+      "value": "Zobrazit e-mail s eskalací"
+    }
+  ],
+  "request.details.show.reminder": [
+    {
+      "type": 0,
+      "value": "Zobrazit e-mail s připomínkou"
+    }
+  ],
+  "request.details.show.request": [
+    {
+      "type": 0,
+      "value": "Zobrazit e-mail s žádostí"
+    }
+  ],
+  "request.details.type": [
+    {
+      "type": 0,
+      "value": "Typ žádosti:"
+    }
+  ],
+  "request.hero.declined": [
+    {
+      "type": 0,
+      "value": "Odmítnuto"
+    }
+  ],
+  "request.hero.declinedRequest": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " odmítla vaši žádost."
+    }
+  ],
+  "request.hero.didNotReply": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " dosud neodpověděla."
+    }
+  ],
+  "request.hero.domainTitle": [
+    {
+      "type": 0,
+      "value": "Doména:"
+    }
+  ],
+  "request.hero.handledPartially": [
+    {
+      "type": 0,
+      "value": "Částečně vyřešeno"
+    }
+  ],
+  "request.hero.handledRequest": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " úspěšně vyřešila vaši žádost."
+    }
+  ],
+  "request.hero.handledSuccessfully": [
+    {
+      "type": 0,
+      "value": "Úspěšně vyřešeno"
+    }
+  ],
+  "request.hero.header": [
+    {
+      "type": 0,
+      "value": "Vaše žádost o "
+    },
+    {
+      "type": 1,
+      "value": "requestType"
+    },
+    {
+      "type": 0,
+      "value": " dat směrem k "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    }
+  ],
+  "request.hero.noReply": [
+    {
+      "type": 0,
+      "value": "Žádná odpověď"
+    }
+  ],
+  "request.hero.partiallyHandled": [
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " částečně vyřešila vaši žádost."
+    }
+  ],
+  "request.hero.reference": [
+    {
+      "type": 1,
+      "value": "ref"
+    }
+  ],
+  "request.hero.referenceTitle": [
+    {
+      "type": 0,
+      "value": "Reference:"
+    }
+  ],
+  "request.hero.requestNotSent": [
+    {
+      "type": 0,
+      "value": "prosím odešlete žádost e-mailem a poté obnovte tuto stránku."
+    }
+  ],
+  "request.hero.requestStatus": [
+    {
+      "type": 0,
+      "value": "Stav žádosti:"
+    }
+  ],
+  "request.next.circumstancesToDecline": [
+    {
+      "type": 0,
+      "value": "Existují určité výjimečné okolnosti, kdy je organizace ze zákona oprávněna odmítnout vaší žádosti vyhovět."
+    }
+  ],
+  "request.next.declineAPPI": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jakékoli osobní údaje, jejichž zjištění v databázi nebo její absence je pravděpodobně hrozbou pro život, zdraví nebo majetek identifikovatelné osoby;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi pravděpodobně podnítí nebo umožní nezákonné jednání či protiprávní činnost;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi může ohrozit národní bezpečnost, poškodit důvěru ve vztahu se zahraniční zemí nebo mezinárodní organizací anebo znevýhodnit zemi při jednání s jinou zemí či mezinárodní organizací;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jakékoli osobní údaje, jejichž zjištění o přítomnosti či nepřítomnosti v databázi by pravděpodobně narušilo prevenci, odhalování, vyšetřování nebo stíhání trestné činnosti nebo jinak ohrozilo veřejnou bezpečnost a pořádek."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Svoboda projevu nebo jiné zákonné právo."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování pro účely výzkumu, pokud by odstranění osobních údajů znemožnilo nebo vážně ztížilo dosažení účelu takového výzkumu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování těchto osobních údajů je nezbytné k ochraně proti nezákonným činnostem nebo k postihu odpovědných osob."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Ke splnění právní povinnosti."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pro splnění smlouvy mezi společností a spotřebitelem."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Detekce bezpečnostních incidentů, ochrana před zlovolnou, klamavou, podvodnou nebo nezákonnou činností nebo stíhání osob odpovědných za tuto činnost."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vyhledávání a oprava chyb, které narušují stávající funkcionalitu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Využití pouze pro interní účely, které jsou v rozumném souladu s očekáváními spotřebitelů na základě jejich vztahu k této společnosti."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jinak využít osobní informace spotřebitele v souladu se zákonem způsobem, který je slučitelný se souvislostí, v níž spotřebitel tyto informace poskytl."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Finanční instituce a přidružené subjekty podléhající zákonu Gramm-Leach-Bliley Act"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Letečtí dopravci podléhající předpisům Federálního leteckého úřadu (FAA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Národní burzovní asociace registrované podle zákona The Securities Exchange Act"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Některé typy osobních údajů uchovávané v souladu s konkrétními federálními zákony o ochraně soukromí, jako je Zákon o přenositelnosti a odpovědnosti v oblasti zdravotního pojištění (HIPAA) a Zákon o spravedlivém úvěrovém zpravodajství (FCRA), nebo pro určité vládní účely."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineCTDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identifikovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Agregované informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineDPDP": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Poskytnout produkt nebo službu, které spotřebitel výslovně požaduje."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Provádět určité interní činnosti, které odpovídají očekáváním spotřebitele."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Provést stažení produktu z trhu nebo opravit technické chyby."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Reagovat na a předcházet bezpečnostním incidentům, krádeži identity a podvodům."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Plnit federální, státní nebo místní zákony."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pseudonymizovaná data."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná data."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejný či recenzovaný vědecký výzkum."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineDPDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(a) zpracování osobních údajů je nezbytné pro uplatnění jakéhokoli zákonného práva nebo nároku;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(b) zpracování osobních údajů soudem, tribunálem nebo jiným orgánem v Indii, který je pověřen zákonem výkonem soudní, kvazi-soudní nebo regulační či dozorové funkce, pokud je takové zpracování nezbytné pro výkon této funkce;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(c) osobní údaje jsou zpracovávány v zájmu předcházení, odhalování, vyšetřování nebo stíhání jakéhokoli trestného činu nebo porušení práva platného v Indii;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(d) osobní údaje subjektů údajů, které se nenacházejí na území Indie, jsou zpracovávány na základě smlouvy uzavřené s jakoukoli osobou mimo území Indie osobou se sídlem v Indii;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(e) zpracování je nezbytné pro účely akvizice, fúze, rozdělení či jiného uspořádání podniků schváleného soudem nebo jiným příslušným orgánem podle platného práva; a"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(f) zpracování slouží k zjištění finanční situace a majetku či závazků jakékoli osoby, která je v prodlení s platbou úvěru či zálohy poskytnuté finanční institucí, za předpokladu, že toto zpracování je v souladu s ustanoveními o zveřejňování informací nebo údajů v souladu s platnými zákony v Indii."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineFADP": [
+    {
+      "type": 0,
+      "value": "Správce může odmítnout poskytnout informace, nebo omezit či oddálit jejich poskytnutí, pokud:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "a. tak stanoví formální zákon, zejména za účelem zachování profesního tajemství;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "b. je to nezbytné k ochraně převažujících zájmů třetích stran; nebo"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "c. žádost o informace je zjevně neopodstatněná, zejména pokud neslouží účelu ochrany osobních údajů nebo je zjevně nepatřičná."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    },
+    {
+      "type": 0,
+      "value": "<br/>"
+    },
+    {
+      "type": 0,
+      "value": "Dále je možné odmítnout, omezit nebo oddálit poskytnutí informací v následujících případech:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "a. Správce je soukromá osoba a jsou splněny následující požadavky: 1. Vlastní převažující zájmy správce toto opatření vyžadují. 2. Správce nemá v úmyslu předávat osobní údaje třetím stranám."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "b. Správce je federální subjekt a je splněna jedna z následujících podmínek: 1. Opatření je nezbytné pro zajištění převažujícího veřejného zájmu, zejména vnitřní nebo vnější bezpečnosti Švýcarska. 2. Poskytnutí informací může ohrozit vyšetřování, šetření nebo správní či soudní řízení."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineFDBR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(a) Splnit federální nebo státní zákony, pravidla či předpisy."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(b) Splnit občanské, trestní či regulační šetření, vyšetřování, předvolání nebo příkaz k soudu vydaný federálními, státními, místními či jinými vládními orgány."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(c) Prošetřit, založit, uplatnit, připravit se na nebo hájit právní nároky."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(d) Poskytnout produkt nebo službu výslovně požadovanou spotřebitelem nebo rodičem či opatrovníkem dítěte, splnit smlouvu, jejíž je spotřebitel stranou, včetně splnění podmínek písemné záruky, nebo podniknout kroky na žádost spotřebitele před uzavřením smlouvy."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(e) Přijmout okamžitá opatření k ochraně zájmu, který je zásadní pro život nebo fyzickou bezpečnost spotřebitele či jiné osoby a pro které zpracování zjevně nemůže spočívat na jiném právním základě."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(f) Zabránit, odhalit, chránit před nebo reagovat na bezpečnostní incidenty, krádež identity, podvod, obtěžování, škodlivé či klamavé aktivity nebo jakoukoli nezákonnou činnost."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(g) Zachovat integritu či bezpečnost systémů nebo prošetřit, nahlásit či stíhat osoby odpovědné za prolomení bezpečnosti systému."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(h) Zapojit se do veřejného nebo recenzovaného vědeckého či statistického výzkumu ve veřejném zájmu, který dodržuje všechny ostatní příslušné etické a soukromé předpisy a je schválen, monitorován a řízen institucionální radou pro hodnocení nebo obdobným nezávislým kontrolním orgánem, který určí: 1. Zda je pravděpodobné, že vymazání informací poskytne významné přínosy, které nepřipadají výlučně správci; 2. Zda očekávané přínosy výzkumu převažují nad riziky pro soukromí; a 3. Zda správce zavedl přiměřená ochranná opatření ke zmírnění rizik pro soukromí spojených s výzkumem, včetně jakýchkoli rizik spojených s opětovnou identifikací."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(i) Pomáhat jinému správci, zpracovateli nebo třetí straně při dodržování požadavků této části."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(j) Zveřejnit osobní údaje zveřejněné, když spotřebitel použije nebo uloží správci záměrné poskytnutí informací třetí straně, nebo použije správce k záměrné interakci s třetí stranou. Záměrná interakce nastává, když spotřebitel zamýšlí komunikovat s touto třetí stranou prostřednictvím jedné či více cílených interakcí. Najetí myší, ztišení, pauza nebo zavření určitého obsahu nepředstavují spotřebitelův záměr komunikovat s třetí stranou."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(k) Předat osobní údaje třetí straně jako aktivum, které je součástí fúze, akvizice, konkurzu nebo jiné transakce, v rámci níž třetí strana přebírá kontrolu nad celým nebo částí správce, pokud jsou informace používány či sdíleny způsobem, který je v souladu s touto částí. Pokud třetí strana podstatně změní způsob, jakým používá nebo sdílí osobní údaje spotřebitele, a to významně v rozporu se závazky nebo sliby učiněnými v době shromažďování, musí spotřebiteli předem oznámit novou či změněnou praxi. Toto oznámení musí být dostatečně výrazné a silné, aby spotřebitelé mohli snadno uplatnit volby v souladu s touto částí."
+            }
+          ],
+          "type": 8,
+          "value": "il"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineGDPR": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud je uchování vašich údajů nezbytné z důvodu svobody projevu a informace (což zahrnuje novinářské a akademické, umělecké a literární účely)."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud má organizace zákonnou povinnost si vaše údaje ponechat."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud je uchování vašich údajů nezbytné z důvodů veřejného zdraví."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud je nezbytné uchovat vaše data pro uplatnění, výkon nebo obhajobu právních nároků."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud by vymazání vašich údajů narušilo vědecký nebo historický výzkum nebo archivaci ve veřejném zájmu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pokud si organizace po zvážení vaší žádosti myslí, že vaše data vymazávat nemusí, musí vám to oznámit a vysvětlit, proč se domnívá, že není povinna vaše data vymazat, a poučit vás o vašem právu podat stížnost u dozorového úřadu nebo soudu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineICDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pseudonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejný nebo recenzovaný vědecký výzkum"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineLGPD": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Svoboda projevu nebo jiné zákonné právo."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování pro účely výzkumu, pokud by odstranění osobních údajů znemožnilo nebo vážně ztížilo dosažení účelu takového výzkumu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování těchto osobních údajů je nezbytné k ochraně proti nezákonným činnostem nebo k postihu odpovědných osob."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Ke splnění právní povinnosti."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pro splnění smlouvy mezi společností a spotřebitelem."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Detekce bezpečnostních incidentů, ochrana před zlovolnou, klamavou, podvodnou nebo nezákonnou činností nebo stíhání osob odpovědných za tuto činnost."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vyhledávání a oprava chyb, které narušují stávající funkcionalitu."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Využití pouze pro interní účely, které jsou v rozumném souladu s očekáváními spotřebitelů na základě jejich vztahu k této společnosti."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Jinak využít osobní informace spotřebitele v souladu se zákonem způsobem, který je slučitelný se souvislostí, v níž spotřebitel tyto informace poskytl."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineMCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vládní subjekty"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Federálně uznávané indiánské kmeny"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Subjekty a obchodní partneři krytí zákonem HIPAA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Státní nebo federálně registrované banky nebo družstevní záložny"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pojišťovny"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Malé podniky, jak je definuje americká správa pro malé podniky (SBA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Neziskové organizace zřízené výhradně za účelem odhalování nebo předcházení pojistného podvodu"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje upravené zákony GLBA nebo FCRA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje v kontextu zaměstnání nebo uchazečů o zaměstnání, údaje pro výhody a údaje nouzových kontaktů"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná nebo veřejně dostupná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineMTCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identifikovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Agregované informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pseudonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejný nebo recenzovaný vědecký výzkum"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNHDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pseudonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejný nebo recenzovaný vědecký výzkum"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineNJDPL": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pseudonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejný nebo recenzovaný vědecký výzkum"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineOPCA": [
+    {
+      "type": 0,
+      "value": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, určitých národních asociací pro cenné papíry a finančních institucí jsou vyňaty. Kromě toho jsou vyňaty některé typy údajů:"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Údaje o zaměstnancích včetně údajů o uchazečích o zaměstnání"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Anonymizované (de-identifikované) údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Souhrnné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní informace shromažďované pro výzkum lidských subjektů nebo jako součást klinické studie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje zpracovávané pro osobní nebo domácí účely"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování státními orgány související s národní bezpečností, veřejnou bezpečností nebo zdaněním"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování pro novinářské, umělecké nebo literární účely ve veřejném zájmu"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování Poslaneckou sněmovnou, Senátem, Parlamentem nebo jejich výbory"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování soudy a soudními úředníky v rámci jejich povinností"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování úvěrovými společnostmi a jejich členy podle zákona o úvěrových informacích (Credit Information Business Act)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePDPL": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování osobních údajů fyzickou osobou pro ryze osobní účely"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování prováděné přímo příslušným veřejným orgánem za účelem plnění zákonných úkolů"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování nezbytné z důvodu národní bezpečnosti nebo veřejného pořádku"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování bez souhlasu v bankovním a finančním sektoru, pokud to umožňuje zákon"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zpracování bezpečnostními službami pro účely národních zájmů"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePIPEDA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Výjimky z povinnosti poskytnout přístup by měly být omezené a konkrétní."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Důvody pro zamítnutí přístupu by měly být na vyžádání jednotlivci poskytnuty."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Výjimky mohou zahrnovat informace, jejichž poskytnutí by bylo neúměrně nákladné, informace obsahující odkazy na jiné osoby, informace, které nelze zveřejnit z právních, bezpečnostních nebo komerčně důvěrných důvodů, a informace chráněné advokátsko-klientským nebo soudním privilegem."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declinePIPL": [
+    {
+      "type": 0,
+      "value": "Pokud zpracovatel osobních údajů zpracovává osobní údaje a zákony či správní předpisy stanoví, že by tyto informace měly zůstat důvěrné nebo není nutné o nich informovat, pak není nutné oznámit jednotlivci skutečnosti stanovené v první větě předchozího článku."
+    }
+  ],
+  "request.next.declinePOPIA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní nebo domácí činnost"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Plně anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Národní bezpečnost"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vymáhání práva"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Činnost kabinetu a jeho výborů nebo výkonné rady provincie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Týkající se soudní funkce soudu podle sekce 166 Ústavy."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineTDPSA": [
+    {
+      "type": 0,
+      "value": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, určitých národních asociací pro cenné papíry, finančních institucí a subjektů podléhajících konkrétním zákonům, jako je zákon Gramm-Leach-Bliley Act a zákon o přenositelnosti a odpovědnosti v oblasti zdravotního pojištění (HIPAA), jsou vyňaty."
+    }
+  ],
+  "request.next.declineTIPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vládní subjekty a politické celky"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Subjekty a obchodní partneři krytí HIPAA/HITECH"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Finanční instituce a přidružené subjekty podléhající zákonu Gramm‑Leach‑Bliley (GLBA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Instituce vyššího vzdělávání"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Neziskové organizace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Pojišťovny registrované podle zákonů státu Tennessee"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje regulované zákonem o spravedlivém úvěrovém reportování (FCRA)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje v kontextu zaměstnání nebo obchodu"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupná, agregovaná nebo anonymizovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje regulované zákonem FERPA nebo COPPA"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Výrobky pro zajištění bezpečnosti pacientů a jiné zdravotní údaje osvobozené dle federálního práva"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Vědecká či statistická data výzkumu splňující zákonné záruky"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineUCPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Subjekty, včetně státních a místních vlád, neziskových organizací, institucí vyššího vzdělávání, některých národních burzovních asociací, finančních institucí a subjektů spadajících pod specifické federální zákony, jako je Gramm-Leach-Bliley Act a Health Insurance Portability and Accountability Act, jsou vyňaty."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní údaje"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Údaje zaměstnanců, včetně údajů uchazečů o zaměstnání"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identifikovaná data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Veřejně dostupné informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Agregované informace"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje shromažďované za účelem výzkumu na lidských subjektech nebo jako součást klinické studie"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineVCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Chráněné zdravotní informace podle HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Zdravotní záznamy pro účely hlavy 32.1;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Identifikovatelné údaje o pacientech pro účely 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Identifikovatelné soukromé informace pro účely federální politiky ochrany lidských subjektů podle 45 C.F.R. Část 46; identifikovatelné soukromé informace, které jsou jinak shromažďovány jako součást výzkumu s lidskými subjekty v souladu s pokyny pro správnou klinickou praxi Mezinárodní rady pro harmonizaci technických požadavků na farmaceutické přípravky pro lidské použití; ochrany lidských subjektů podle 21 C.F.R. Část 6, 50 a 56 nebo osobní údaje použité nebo sdílené ve výzkumu prováděném v souladu s požadavky stanovenými v této kapitole nebo jiném výzkumu prováděném v souladu s platným právem;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informace a dokumenty vytvořené pro účely federálního zákona o zlepšování kvality zdravotní péče z roku 1986 (42 U.S.C. § 11101 a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Práce týkající se bezpečnosti pacientů pro účely federálního zákona o bezpečnosti pacientů a zlepšování kvality (42 U.S.C. § 299b-21 a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informace odvozené z jakýchkoli informací souvisejících se zdravotní péčí uvedených v tomto odstavci, které jsou de-identifikovány v souladu s požadavky na odstranění identifikátorů podle HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informace pocházející z nebo spojené s informacemi, jež jsou vyňaty z tohoto odstavce a které jsou uchovávány subjektem spadajícím pod HIPAA nebo programem či kvalifikovanou servisní organizací podle 42 U.S.C. § 290dd-2;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Informace použité pouze pro veřejné zdravotní aktivity a účely povolené HIPAA;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Shromažďování, uchovávání, zveřejňování, prodej, komunikace nebo použití osobních informací, které se týkají úvěrové způsobilosti, stavu, kapacity, povahy, pověsti nebo způsobu života spotřebitele úvěrovou zpravodajskou agenturou nebo subjektem poskytujícím informace pro účely využití v úvěrové zprávě a uživatelem úvěrové zprávy, avšak pouze v rozsahu, ve kterém je tato činnost upravena a povolena podle federálního zákona o spravedlivém úvěrovém zpravodajství (15 U.S.C. § 1681 a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje shromažďované, zpracovávané, prodávané nebo zveřejňované v souladu s federálním zákonem o ochraně údajů z registru řidičů z roku 1994 (18 U.S.C. § 2721 a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje upravené federálním zákonem o právech a soukromí ve vzdělávání (20 U.S.C. § 1232g a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Osobní údaje shromažďované, zpracovávané, prodávané nebo zveřejňované v souladu s federálním zákonem o farmářském úvěru (12 U.S.C. § 2001 a násl.);"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Údaje zpracovávané nebo uchovávané (i) v rámci žádosti jednotlivce, který se uchází, je zaměstnán nebo působí jako zástupce, nezávislý dodavatel nebo jiná strana vůči správci, zpracovateli nebo třetí straně, pokud jsou údaje shromažďovány a používány v souvislosti s touto rolí; (ii) jako informace o nouzovém kontaktu jednotlivce dle tohoto zákona, používané pouze pro účely nouzového kontaktu; nebo (iii) které je nezbytné uchovat pro správu výhod pro jiného jednotlivce spojeného s osobou podle bodu (i) a je použito pouze pro účely poskytování těchto výhod."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.escalateToAuthorityNoReply": [
+    {
+      "type": 0,
+      "value": "Doporučení: eskalujte svou žádost na "
+    },
+    {
+      "type": 1,
+      "value": "authorityLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
+    }
+  ],
+  "request.next.escalateToAuthorityPartial": [
+    {
+      "type": 0,
+      "value": "Doporučení: pokud se domníváte, že "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " měla vaší žádosti zcela vyhovět, doporučujeme eskalovat žádost na "
+    },
+    {
+      "type": 1,
+      "value": "authorityLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "authorityShort"
+    },
+    {
+      "type": 0,
+      "value": ")."
+    }
+  ],
+  "request.next.escalatedAndNoSuccess": [
+    {
+      "type": 0,
+      "value": "Svoji žádost jste eskalovali k "
+    },
+    {
+      "type": 1,
+      "value": "dpaLong"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "dpaShort"
+    },
+    {
+      "type": 0,
+      "value": "), prosím pokračujte v komunikaci přímo s nimi. My už vám zde více pomoci nemůžeme."
+    }
+  ],
+  "request.next.esclateButton": [
+    {
+      "type": 0,
+      "value": "Eskalovat na "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    }
+  ],
+  "request.next.findOutMore": [
+    {
+      "type": 0,
+      "value": "Více informací o těchto výjimkách"
+    }
+  ],
+  "request.next.organizationsHaveXDays": [
+    {
+      "type": 0,
+      "value": "Podle "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    },
+    {
+      "type": 0,
+      "value": " mají organizace "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " dní na odpověď na vaši žádost."
+    }
+  ],
+  "request.next.reminderButton": [
+    {
+      "type": 0,
+      "value": "Pošlete připomínkový e-mail organizaci"
+    }
+  ],
+  "request.next.selectTheOptions1": [
+    {
+      "type": 0,
+      "value": "Vyberte prosím z následujících možností:"
+    }
+  ],
+  "request.next.selectTheOptions2": [
+    {
+      "type": 0,
+      "value": "Pokud chcete podniknout další kroky, vyberte prosím z následujících možností:"
+    }
+  ],
+  "request.next.selectTheOptions3": [
+    {
+      "type": 0,
+      "value": "Pokud nechcete čekat, vyberte prosím z následujících možností:"
+    }
+  ],
+  "request.next.sendAReminderEmail": [
+    {
+      "type": 0,
+      "value": "Doporučení: pošlete organizaci připomínkový e-mail."
+    }
+  ],
+  "request.next.waitUntilXDays": [
+    {
+      "type": 0,
+      "value": "Doporučení: počkejte, dokud neuplyne "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " dnů, aby společnosti zbyl čas na zpracování vaší žádosti."
+    }
+  ],
+  "request.next.waitUntilXDaysAfterReminder": [
+    {
+      "type": 0,
+      "value": "Doporučení: počkejte, dokud neuplyne "
+    },
+    {
+      "type": 1,
+      "value": "timeLimit"
+    },
+    {
+      "type": 0,
+      "value": " dnů od data odeslání žádosti, abyste organizaci dali čas na její zpracování po vaší připomínce."
+    }
+  ],
+  "request.next.whatsNext": [
+    {
+      "type": 0,
+      "value": "Co dál"
+    }
+  ],
+  "request.success": [
+    {
+      "type": 0,
+      "value": "Gratulujeme, "
+    },
+    {
+      "type": 1,
+      "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " úspěšně vyhověla vaší žádosti. Vaše osobní údaje budou automaticky vymazány z tohoto webu do 120 dnů od data vaší původní žádosti. Případně můžete "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "odstranit své osobní údaje ihned"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "request.timeline.esclateTo": [
+    {
+      "type": 0,
+      "value": "Eskalovat vaši žádost"
+    }
+  ],
+  "request.timeline.reminderSent": [
+    {
+      "type": 0,
+      "value": "Připomínka odeslána"
+    }
+  ],
+  "request.timeline.requestNotSent": [
+    {
+      "type": 0,
+      "value": "Žádost nebyla odeslána"
+    }
+  ],
+  "request.timeline.requestSent": [
+    {
+      "type": 0,
+      "value": "Žádost odeslána"
+    }
+  ],
+  "request.timeline.requestTimeline": [
+    {
+      "type": 0,
+      "value": "Časová osa vaší žádosti"
+    }
+  ],
+  "request.timeline.sendEscalation": [
+    {
+      "type": 0,
+      "value": "Eskalace odeslána"
+    }
+  ],
+  "request.timeline.sendEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "dnes"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dní"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "zítra"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dní"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sendReminder": [
+    {
+      "type": 0,
+      "value": "Poslat připomínku"
+    }
+  ],
+  "request.timeline.sendReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "dnes"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dní"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "zítra"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "za "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dní"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceEscalationDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "dnes"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "včera"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceReminderDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "dnes"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "včera"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.timeline.sinceRequestDays": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "dnes"
+            }
+          ]
+        },
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "včera"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "před "
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " dny"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "days"
+    }
+  ],
+  "request.title": [
+    {
+      "type": 0,
+      "value": "Podrobnosti o vaší žádosti podle "
+    },
+    {
+      "type": 1,
+      "value": "regulationType"
+    }
+  ],
+  "requestEscalation.complaint": [
+    {
+      "type": 0,
+      "value": "Další podrobnosti"
+    }
+  ],
+  "requestEscalation.complaintText": [
+    {
+      "type": 0,
+      "value": "Vysvětlete prosím, proč nejste spokojeni se způsobem, jakým organizace vyřídila vaši žádost"
+    }
+  ],
+  "requestEscalation.esclateButtonForm": [
+    {
+      "type": 0,
+      "value": "Otevřít formulář eskalace"
+    }
+  ],
+  "requestEscalation.formDisclamer": [
+    {
+      "type": 0,
+      "value": "Pro eskalaci vaší žádosti budete muset vyplnit formulář na webu "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": ". Kliknutím na tlačítko níže otevřete formulář v novém panelu."
+    }
+  ],
+  "requestEscalation.geography": [
+    {
+      "type": 0,
+      "value": "Umístění"
+    }
+  ],
+  "requestEscalation.geographyText ": [
+    {
+      "type": 0,
+      "value": "Vyberte prosím své místo bydliště"
+    }
+  ],
+  "requestEscalation.phoneDisclamer": [
+    {
+      "type": 0,
+      "value": "Chcete-li eskalovat svou žádost, zavolejte prosím na "
+    },
+    {
+      "type": 1,
+      "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " na čísle "
+    },
+    {
+      "type": 1,
+      "value": "phone"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "requestEscalation.submit": [
+    {
+      "type": 0,
+      "value": "Zkontrolovat a odeslat"
+    }
+  ],
+  "search.companyPlaceholder": [
+    {
+      "type": 0,
+      "value": "Vyhledejte organizaci"
+    }
+  ],
+  "search.noResults": [
+    {
+      "type": 0,
+      "value": "Nemůžete najít organizaci?"
+    }
+  ],
+  "search.noResultsMore": [
+    {
+      "type": 0,
+      "value": "Klikněte sem a přidejte ji"
+    }
+  ],
+  "sendEmailButton.copy": [
+    {
+      "type": 0,
+      "value": "Zkopírovat text e-mailu do schránky"
+    }
+  ],
+  "sendEmailButton.default": [
+    {
+      "type": 0,
+      "value": "Otevřít ve výchozím e-mailovém klientu"
+    }
+  ],
+  "sendEmailButton.gmail": [
+    {
+      "type": 0,
+      "value": "Otevřít v Gmailu"
+    }
+  ],
+  "sendEmailButton.yahoo": [
+    {
+      "type": 0,
+      "value": "Otevřít v Yahoo Mail"
+    }
+  ],
+  "social.chromeCTA": [
+    {
+      "type": 0,
+      "value": "Stáhnout pro Chrome"
+    }
+  ],
+  "social.chromeTitle": [
+    {
+      "type": 0,
+      "value": "Doplněk pro Google Chrome"
+    }
+  ],
+  "social.emailBody": [
+    {
+      "type": 0,
+      "value": "Mrkněte na YourDigitalRights.org, bezplatnou službu, která vám umožňuje zjistit, jaké osobní údaje o vás tisíce organizací mají, a vyžádat si jejich smazání."
+    }
+  ],
+  "social.emailSubject": [
+    {
+      "type": 0,
+      "value": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a nechte je odstranit | Your Digital Rights"
+    }
+  ],
+  "social.extensionHeadline": [
+    {
+      "type": 0,
+      "value": "Odhlaste se přímo z prohlížeče"
+    }
+  ],
+  "social.extensionText": [
+    {
+      "type": 0,
+      "value": "Chcete mít lepší kontrolu nad tím, kdo má přístup k vašim osobním údajům? Náš doplněk do prohlížeče vám umožňuje odhlásit se z webových stránek, které navštěvujete, jediným kliknutím."
+    }
+  ],
+  "social.facebookQuote": [
+    {
+      "type": 0,
+      "value": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a přimějte je k jejich smazání. Podívejte se na yourdigitalrights.org."
+    }
+  ],
+  "social.firefoxCTA": [
+    {
+      "type": 0,
+      "value": "Stáhnout pro Firefox"
+    }
+  ],
+  "social.frefoxTitle": [
+    {
+      "type": 0,
+      "value": "Doplněk pro Firefox"
+    }
+  ],
+  "social.shareHeading": [
+    {
+      "type": 0,
+      "value": "Pokud shledáváte tuto službu užitečnou, prosím šiřte ji dál"
+    }
+  ],
+  "social.twitterTitle": [
+    {
+      "type": 0,
+      "value": "Zjistěte, jaké osobní údaje o vás tisíce organizací mají, a přimějte je k jejich smazání. Podívejte se na yourdigitalrights.org."
+    }
+  ],
+  "stats.description": [
+    {
+      "type": 0,
+      "value": "Statistiky žádostí o ochranu osobních údajů."
+    }
+  ],
+  "stats.statsSubTitle": [
+    {
+      "type": 0,
+      "value": "Naším posláním je pomoci jednotlivcům znovu získat kontrolu nad jejich online soukromím, tím, že jim umožníme požádat organizace o vymazání či poskytnutí kopie osobních údajů. Níže uvedené statistiky ukazují, které organizace obdržely nejvíc žádostí v různých časových obdobích."
+    }
+  ],
+  "stats.statsTitle": [
+    {
+      "type": 0,
+      "value": "Statistiky žádostí"
+    }
+  ],
+  "stats.title": [
+    {
+      "type": 0,
+      "value": "Statistiky žádostí"
+    }
+  ],
+  "stats.titleAlltime": [
+    {
+      "type": 0,
+      "value": "Nejvíce žádostí za celou dobu"
+    }
+  ],
+  "stats.titleMonth": [
+    {
+      "type": 0,
+      "value": "Nejvíce žádostí tento měsíc"
+    }
+  ],
+  "stats.titleWeek": [
+    {
+      "type": 0,
+      "value": "Nejvíce žádostí tento týden"
+    }
+  ],
+  "stats.titleYear": [
+    {
+      "type": 0,
+      "value": "Nejvíce žádostí tento rok"
+    }
+  ],
+  "stats.total": [
+    {
+      "type": 0,
+      "value": "Celkově odeslaných žádostí: "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "requestCount"
+    }
+  ],
+  "subscribe.alertsOneLiner1": [
+    {
+      "type": 0,
+      "value": "Buďte o krok napřed před online hrozbami a získejte kontrolu nad svými osobními údaji s Privacy Alerts! Náš newsletter vám poskytne nejnovější odborné rady, tipy a triky, jak chránit vaše soukromí v digitálním světě. Přihlaste se hned a zůstaňte v obraze i v bezpečí!"
+    }
+  ],
+  "subscribe.title": [
+    {
+      "type": 0,
+      "value": "Přihlaste se k odběru Privacy Alerts!"
+    }
+  ],
+  "support.description1": [
+    {
+      "type": 0,
+      "value": "Chápeme, že přimět společnosti k vymazání vašich údajů může být někdy frustrující."
+    }
+  ],
+  "support.description2": [
+    {
+      "type": 0,
+      "value": "Naše placená podpora vám poskytne přímý kontakt s některým z našich zaměstnanců, který vám rád pomůže s žádostí o vymazání nebo přístup k údajům."
+    }
+  ],
+  "support.posPaidtitle": [
+    {
+      "type": 0,
+      "value": "Děkujeme!"
+    }
+  ],
+  "support.postPaidDescription1": [
+    {
+      "type": 0,
+      "value": "Pro využití placené podpory nás prosím kontaktujte na následující e-mailové adrese:"
+    }
+  ],
+  "support.postPaidDescription2": [
+    {
+      "type": 1,
+      "value": "email"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "support.seoDescription": [
+    {
+      "type": 0,
+      "value": "Placená podpora vám poskytne přímý přístup k jednomu z našich zaměstnanců"
+    }
+  ],
+  "support.seoTitle": [
+    {
+      "type": 0,
+      "value": "Podpora"
+    }
+  ],
+  "support.title": [
+    {
+      "type": 0,
+      "value": "Placená podpora"
+    }
+  ],
+  "thankyou.copyPart1Copy": [
+    {
+      "type": 0,
+      "value": "byl zkopírován do schránky, stačí jej vložit do e-mailu, zkontrolovat a kliknout na Odeslat."
+    }
+  ],
+  "thankyou.copyPart1Email": [
+    {
+      "type": 0,
+      "value": "e-mail by se měl otevřít ve vaší e-mailové aplikaci, stačí jej zkontrolovat a kliknout na Odeslat."
+    }
+  ],
+  "thankyou.description": [
+    {
+      "type": 0,
+      "value": "Děkujeme"
+    }
+  ],
+  "thankyou.donation": [
+    {
+      "type": 0,
+      "value": "Pomozte nám udržet tuto službu zdarma tím, že "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "přispějete finančním darem"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": ", abyste podpořili naši dlouhodobou finanční stabilitu a nezávislost."
+    }
+  ],
+  "thankyou.findCompany": [
+    {
+      "type": 0,
+      "value": "Najít další organizaci"
+    }
+  ],
+  "thankyou.howLongToReply": [
+    {
+      "type": 0,
+      "value": "Organizace mají "
+    },
+    {
+      "type": 1,
+      "value": "days"
+    },
+    {
+      "type": 0,
+      "value": " na vyhovění a mohou požádat o dodatečné informace k ověření vaší identity."
+    }
+  ],
+  "thankyou.requestTypeAccess": [
+    {
+      "type": 0,
+      "value": "Žádost o přístup"
+    }
+  ],
+  "thankyou.requestTypeDelete": [
+    {
+      "type": 0,
+      "value": "Žádost o odstranění"
+    }
+  ],
+  "thankyou.seotitle": [
+    {
+      "type": 0,
+      "value": "Děkujeme"
+    }
+  ],
+  "thankyou.title": [
+    {
+      "type": 0,
+      "value": "Děkujeme!"
+    }
+  ]
+}

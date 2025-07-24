@@ -20,12 +20,16 @@ export const StyledLogoLink = styled('a')(({ theme }) => ({
     justifyContent: "center",
 }));
 
-export const StyledLogo = styled('img')(({ theme }) => ({
-    width: "90px",
+export const StyledLogo = styled('div')(({ theme }) => ({
+    display: "flex",
+    alignItems: "center",
     outlineColor: "#e8f4f8",
-    height: "auto",
-    [theme.breakpoints.down('sm')]: {
-        width: "80px",
+    '& img': {
+        width: "90px !important",
+        height: "auto !important",
+        [theme.breakpoints.down('sm')]: {
+            width: "80px !important",
+        },
     },
 }));
 
@@ -61,14 +65,17 @@ export const StyledLinkButton = styled('span')(({ theme }) => ({
     textTransform: "uppercase",
 }));
 
-export const StyledHamburgerButton = styled('img')(({ theme }) => ({
+export const StyledHamburgerButton = styled('div')(({ theme }) => ({
     display: "none",
-    height: "50px",
     cursor: "pointer",
     outlineColor: "#e8f4f8",
     marginRight: "-45px",
     [theme.breakpoints.down('md')]: {
         display: "block",
+    },
+    '& img': {
+        height: "50px !important",
+        width: "auto !important",
     },
 }));
 
