@@ -1,24 +1,21 @@
-import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
 import { FormattedMessage } from "react-intl";
 import { useState } from "react";
+import * as S from "./styles";
 
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const AboutOrg = ({ classes, selectedCompany }) => {
+const AboutOrg = ({ selectedCompany }) => {
   const [showMore, setShowMore] = useState(false);  
   return (
-    <div className={classes.about}>
-      <div id="about-org" className={classes.container}>
-        <div id="about-org-text" className={classes.aboutText}>
-          <div id="about-org-heading" className={classes.heading}>
-            <Typography
+    <S.StyledAbout>
+      <S.StyledContainer id="about-org">
+        <S.StyledAboutText id="about-org-text">
+          <S.StyledHeading id="about-org-heading">
+            <S.StyledTitle
               variant={"h4"}
-              className={classes.title}
               gutterBottom={true}
               component={"h3"}
             >
@@ -29,9 +26,9 @@ const AboutOrg = ({ classes, selectedCompany }) => {
                   org: selectedCompany.name
                 }}
               />
-            </Typography>
-          </div>
-          <div id="about-detail-text" className={classes.detailText}>
+            </S.StyledTitle>
+          </S.StyledHeading>
+          <S.StyledDetailText id="about-detail-text">
             { (selectedCompany.slogan.length > 0 || (selectedCompany.description.length > 0)) && (
               <strong>
                 <FormattedMessage id="aboutOrg.description" defaultMessage="In their own words:" />
@@ -48,9 +45,9 @@ const AboutOrg = ({ classes, selectedCompany }) => {
               <>
                 {showMore ? selectedCompany.description.substring(0, 2000) : `${selectedCompany.description.substring(0, 300)}`}
                 <br/>
-                <a className={classes.showMore} onClick={() => setShowMore(!showMore)}>
+                <S.StyledShowMore onClick={() => setShowMore(!showMore)}>
                   {showMore ? "Show less" : "Show more"}
-                </a>
+                </S.StyledShowMore>
                 <br/>
               </>
             )}
@@ -102,14 +99,13 @@ const AboutOrg = ({ classes, selectedCompany }) => {
             <strong>
               <FormattedMessage id="aboutOrg.email" defaultMessage="Email:" />{" "}
             </strong>
-            <a
+            <S.StyledLink
               target="_blank"
               rel="noreferrer noopener"
               href={`mailto:${selectedCompany.email}`}
-              className={classes.link}
             >
               {selectedCompany.email}
-            </a>
+            </S.StyledLink>
             <br />
             {selectedCompany.privacyPolicy.length > 0 && (
               <strong>
@@ -118,15 +114,16 @@ const AboutOrg = ({ classes, selectedCompany }) => {
                   defaultMessage="View {org}'s <a>Privacy Policy</a>"
                   values={{
                     org: selectedCompany.name,
-                    a: txt => (<a target="_blank" rel="nofollow noreferrer noopener" href={selectedCompany.privacyPolicy} className={classes.link} ><strong>{txt}</strong></a>),
+                    a: txt => (<S.StyledLink target="_blank" rel="nofollow noreferrer noopener" href={selectedCompany.privacyPolicy}><strong>{txt}</strong></S.StyledLink>),
                   }}  
                 />
               </strong>
             )}            
-          </div>
-        </div>
-      </div>
-    </div>
+          </S.StyledDetailText>
+        </S.StyledAboutText>
+      </S.StyledContainer>
+    </S.StyledAbout>
   );
 };
-export default withStyles(styles)(AboutOrg);
+
+export default AboutOrg;

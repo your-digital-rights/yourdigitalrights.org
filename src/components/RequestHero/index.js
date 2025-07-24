@@ -1,9 +1,8 @@
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
 import fetch from "isomorphic-fetch";
-import withStyles from '@mui/styles/withStyles';
 import Button from "@mui/material/Button";
-import styles from "./styles";
+import * as S from "./styles";
 import tracking from "../../utils/tracking";
 import Regulations from "../../utils/regulations";
 
@@ -31,12 +30,12 @@ class Hero extends Component {
   }
   
   render() {
-    const {classes, requestItem, selectedCompany, status} = this.props;
+    const { requestItem, selectedCompany, status } = this.props;
     const requestType = Regulations[requestItem.regulationType].requestTypes[requestItem.requestType].name;
     return (
-      <div className={classes.root} id="requestHero">
-        <div className={classes.container}>
-          <h1 className={classes.header}>
+      <S.Root id="requestHero">
+        <S.Container>
+          <S.Header>
             <FormattedMessage
               id="request.hero.header"
               defaultMessage="Your data {requestType} request to {companyName} "
@@ -45,8 +44,8 @@ class Hero extends Component {
                 companyName: selectedCompany.name,
               }}
             />
-          </h1>
-          <h2 className={classes.status}>
+          </S.Header>
+          <S.Status>
           <strong>
             <FormattedMessage 
               id="request.hero.domainTitle" 
@@ -119,14 +118,42 @@ class Hero extends Component {
                 )
               )
             )}
-          </h2>
-          <ul className={classes.buttons}>
+          </S.Status>
+          <S.Buttons>
             <li>
               <Button
                 variant="contained"
                 color="primary"
                 type="submit"
-                className={status === "SUCCESS" ? classes.primaryButton : classes.button}
+                sx={(theme) => status === "SUCCESS" ? {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#fff",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#00ae8d",
+                  "&:hover": {
+                    background: "#00ae8d",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                } : {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#858585",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#e0e0e0",
+                  "&:hover": {
+                    background: "#fff",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                }}
                 onClick={() => this.updateStatus('SUCCESS')}
               >
                 <FormattedMessage id="request.hero.handledSuccessfully" defaultMessage="Handled successfully" />
@@ -137,7 +164,35 @@ class Hero extends Component {
                 variant="contained"
                 color="primary"
                 type="submit"
-                className={status === "PARTIAL" ? classes.primaryButton : classes.button}
+                sx={(theme) => status === "PARTIAL" ? {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#fff",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#00ae8d",
+                  "&:hover": {
+                    background: "#00ae8d",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                } : {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#858585",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#e0e0e0",
+                  "&:hover": {
+                    background: "#fff",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                }}
                 onClick={() => this.updateStatus('PARTIAL')}
               >
                 <FormattedMessage id="request.hero.handledPartially" defaultMessage="Handled partially" />
@@ -148,7 +203,35 @@ class Hero extends Component {
                 variant="contained"
                 color="primary"
                 type="submit"
-                className={status === "DECLINED" ? classes.primaryButton : classes.button}
+                sx={(theme) => status === "DECLINED" ? {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#fff",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#00ae8d",
+                  "&:hover": {
+                    background: "#00ae8d",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                } : {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#858585",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#e0e0e0",
+                  "&:hover": {
+                    background: "#fff",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                }}
                 onClick={() => this.updateStatus('DECLINED')}
               >
                 <FormattedMessage id="request.hero.declined" defaultMessage="Declined" />
@@ -159,16 +242,44 @@ class Hero extends Component {
                 variant="contained"
                 color="primary"
                 type="submit"
-                className={status === "NO_REPLY" ? classes.primaryButton : classes.button}
+                sx={(theme) => status === "NO_REPLY" ? {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#fff",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#00ae8d",
+                  "&:hover": {
+                    background: "#00ae8d",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                } : {
+                  margin: "0 10px 10px 0",
+                  borderRadius: "24px 24px 24px 24px",
+                  color: "#858585",
+                  fontWeight: "600",
+                  padding: "10px 20px",
+                  background: "#e0e0e0",
+                  "&:hover": {
+                    background: "#fff",
+                  },
+                  [theme.breakpoints.down('md')]: {
+                    padding: "10px",
+                    fontSize: "12px",
+                  },
+                }}
                 onClick={() => this.updateStatus('NO_REPLY')}
               >
                 <FormattedMessage id="request.hero.noReply" defaultMessage="No reply" />
               </Button>
             </li>
-          </ul>
-        </div>
-      </div>
+          </S.Buttons>
+        </S.Container>
+      </S.Root>
     );
   }
 };
-export default withStyles(styles)(Hero);
+export default Hero;

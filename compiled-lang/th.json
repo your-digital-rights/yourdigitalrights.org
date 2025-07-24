@@ -2980,7 +2980,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities"
+              "value": "หน่วยงานของรัฐบาล"
             }
           ],
           "type": 8,
@@ -2990,7 +2990,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Federally recognised Indian tribes"
+              "value": "ชนเผ่าอินเดียนที่ได้รับการยอมรับจากรัฐบาลกลาง"
             }
           ],
           "type": 8,
@@ -3000,7 +3000,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates under HIPAA"
+              "value": "หน่วยงานที่ได้รับความคุ้มครองและผู้ร่วมธุรกิจภายใต้ HIPAA"
             }
           ],
           "type": 8,
@@ -3010,7 +3010,7 @@
           "children": [
             {
               "type": 0,
-              "value": "State or federally chartered banks or credit unions"
+              "value": "ธนาคารหรือสหกรณ์เครดิตที่ได้รับการอนุญาตจากรัฐหรือรัฐบาลกลาง"
             }
           ],
           "type": 8,
@@ -3020,7 +3020,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies"
+              "value": "บริษัทประกันภัย"
             }
           ],
           "type": 8,
@@ -3030,7 +3030,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Small businesses as defined by the U.S. Small Business Administration"
+              "value": "ธุรกิจขนาดเล็กตามที่กำหนดโดยสำนักงานวิสาหกิจขนาดกลางและขนาดย่อมของสหรัฐฯ"
             }
           ],
           "type": 8,
@@ -3040,7 +3040,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profits established solely to detect or prevent insurance fraud"
+              "value": "องค์กรไม่แสวงหากำไรที่จัดตั้งขึ้นโดยเฉพาะเพื่อสืบสวนหรือป้องกันการฉ้อโกงประกันภัย"
             }
           ],
           "type": 8,
@@ -3050,7 +3050,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by GLBA or FCRA"
+              "value": "ข้อมูลส่วนบุคคลที่ถูกควบคุมโดย GLBA หรือ FCRA"
             }
           ],
           "type": 8,
@@ -3060,7 +3060,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑context or job‑applicant personal data, benefits and emergency contact data"
+              "value": "ข้อมูลส่วนบุคคลในบริบทการจ้างงานหรือผู้สมัครงาน สวัสดิการ และข้อมูลติดต่อฉุกเฉิน"
             }
           ],
           "type": 8,
@@ -3070,7 +3070,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De‑identified or publicly available data"
+              "value": "ข้อมูลที่ถูกลบการระบุตัวตนหรือข้อมูลที่เปิดเผยต่อสาธารณะ"
             }
           ],
           "type": 8,
@@ -3412,7 +3412,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data processed for personal or household activities"
+              "value": "ข้อมูลส่วนบุคคลที่ดำเนินการเพื่อกิจกรรมส่วนตัวหรือในครัวเรือน"
             }
           ],
           "type": 8,
@@ -3422,7 +3422,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by state authorities related to national security, public safety or taxation"
+              "value": "การดำเนินการโดยหน่วยงานของรัฐที่เกี่ยวข้องกับความมั่นคงแห่งชาติ ความปลอดภัยสาธารณะ หรือการจัดเก็บภาษี"
             }
           ],
           "type": 8,
@@ -3432,7 +3432,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for journalistic, artistic or literary purposes in the public interest"
+              "value": "การดำเนินการเพื่อวัตถุประสงค์ทางสื่อสารมวลชน ศิลปะ หรือวรรณกรรมเพื่อประโยชน์สาธารณะ"
             }
           ],
           "type": 8,
@@ -3442,7 +3442,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by the House of Representatives, Senate, Parliament or their committees"
+              "value": "การดำเนินการโดยสภาผู้แทนราษฎร วุฒิสภา รัฐสภา หรือคณะกรรมาธิการของพวกเขา"
             }
           ],
           "type": 8,
@@ -3452,7 +3452,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by courts and judicial officers within their duties"
+              "value": "การดำเนินการโดยศาลและเจ้าหน้าที่ตุลาการในขอบเขตอำนาจหน้าที่"
             }
           ],
           "type": 8,
@@ -3462,7 +3462,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by credit bureaus and their members under the Credit Information Business Act"
+              "value": "การดำเนินการโดยสำนักข้อมูลเครดิตและสมาชิกของพวกเขาภายใต้พระราชบัญญัติธุรกิจข้อมูลเครดิต"
             }
           ],
           "type": 8,
@@ -3480,7 +3480,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of personal data by a natural person for purely personal purposes"
+              "value": "การประมวลผลข้อมูลส่วนบุคคลโดยบุคคลธรรมดาเพื่อวัตถุประสงค์ส่วนบุคคลเท่านั้น"
             }
           ],
           "type": 8,
@@ -3490,7 +3490,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing carried out directly by a competent public authority to perform its statutory tasks"
+              "value": "การประมวลผลที่ดำเนินการโดยตรงโดยหน่วยงานของรัฐที่มีอำนาจเพื่อปฏิบัติหน้าที่ตามกฎหมาย"
             }
           ],
           "type": 8,
@@ -3500,7 +3500,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing necessary for national security or public order purposes"
+              "value": "การประมวลผลที่จำเป็นเพื่อความมั่นคงของชาติหรือเพื่อความสงบเรียบร้อยของสังคม"
             }
           ],
           "type": 8,
@@ -3510,7 +3510,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing without consent in the banking and financial sector as permitted by law"
+              "value": "การประมวลผลโดยไม่ต้องได้รับความยินยอมในภาคธนาคารและการเงินตามที่กฎหมายอนุญาต"
             }
           ],
           "type": 8,
@@ -3520,7 +3520,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by security services for national interest objectives"
+              "value": "การประมวลผลโดยหน่วยงานความมั่นคงเพื่อบรรลุเป้าหมายประโยชน์แห่งชาติ"
             }
           ],
           "type": 8,
@@ -3582,7 +3582,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal or household activity"
+              "value": "กิจกรรมส่วนบุคคลหรือในครัวเรือน"
             }
           ],
           "type": 8,
@@ -3592,7 +3592,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Fully de-identified data"
+              "value": "ข้อมูลที่ถูกลบการระบุตัวตนอย่างสมบูรณ์"
             }
           ],
           "type": 8,
@@ -3602,7 +3602,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National-security"
+              "value": "ความมั่นคงแห่งชาติ"
             }
           ],
           "type": 8,
@@ -3612,7 +3612,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Law-enforcement"
+              "value": "การบังคับใช้กฎหมาย"
             }
           ],
           "type": 8,
@@ -3622,7 +3622,7 @@
           "children": [
             {
               "type": 0,
-              "value": "By the Cabinet and its committees or the Executive Council of a province"
+              "value": "โดยคณะรัฐมนตรีและคณะกรรมการของคณะรัฐมนตรีหรือสภาบริหารของจังหวัด"
             }
           ],
           "type": 8,
@@ -3632,7 +3632,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Relating to the judicial functions of a court referred to in section 166 of the Constitution."
+              "value": "เกี่ยวข้องกับอำนาจหน้าที่ฝ่ายตุลาการของศาลตามที่ระบุไว้ในมาตรา 166 ของรัฐธรรมนูญ"
             }
           ],
           "type": 8,
@@ -3656,7 +3656,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities and political subdivisions"
+              "value": "หน่วยงานรัฐบาลและหน่วยงานทางการเมือง"
             }
           ],
           "type": 8,
@@ -3666,7 +3666,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates subject to HIPAA/HITECH"
+              "value": "หน่วยงานที่ได้รับความคุ้มครองและผู้ร่วมธุรกิจที่อยู่ภายใต้ HIPAA/HITECH"
             }
           ],
           "type": 8,
@@ -3676,7 +3676,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)"
+              "value": "สถาบันการเงินและบริษัทในเครือที่อยู่ภายใต้กฎหมาย Gramm‑Leach‑Bliley (GLBA)"
             }
           ],
           "type": 8,
@@ -3686,7 +3686,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Institutions of higher education"
+              "value": "สถาบันอุดมศึกษา"
             }
           ],
           "type": 8,
@@ -3696,7 +3696,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profit organizations"
+              "value": "องค์กรไม่แสวงหากำไร"
             }
           ],
           "type": 8,
@@ -3706,7 +3706,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies licensed under Tennessee law"
+              "value": "บริษัทประกันภัยที่ได้รับใบอนุญาตภายใต้กฎหมายรัฐเทนเนสซี"
             }
           ],
           "type": 8,
@@ -3716,7 +3716,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the Fair Credit Reporting Act (FCRA)"
+              "value": "ข้อมูลส่วนบุคคลที่ถูกกำกับดูแลโดยพระราชบัญญัติรายงานเครดิตที่เป็นธรรม (FCRA)"
             }
           ],
           "type": 8,
@@ -3726,7 +3726,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑related or commercial‑context personal data"
+              "value": "ข้อมูลส่วนบุคคลที่เกี่ยวข้องกับการจ้างงานหรือในบริบททางการค้า"
             }
           ],
           "type": 8,
@@ -3736,7 +3736,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available, aggregated or de‑identified data"
+              "value": "ข้อมูลที่เปิดเผยต่อสาธารณะ ข้อมูลที่ถูกรวบรวม หรือข้อมูลที่ลบการระบุตัวตน"
             }
           ],
           "type": 8,
@@ -3746,7 +3746,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by FERPA or COPPA"
+              "value": "ข้อมูลส่วนบุคคลที่ถูกกำกับดูแลโดย FERPA หรือ COPPA"
             }
           ],
           "type": 8,
@@ -3756,7 +3756,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product and other health data exempted under federal law"
+              "value": "ข้อมูลด้านความปลอดภัยของผู้ป่วยและข้อมูลสุขภาพอื่น ๆ ที่ได้รับการยกเว้นตามกฎหมายของรัฐบาลกลาง"
             }
           ],
           "type": 8,
@@ -3766,7 +3766,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Scientific or statistical research data meeting statutory safeguards"
+              "value": "ข้อมูลการวิจัยทางวิทยาศาสตร์หรือสถิติที่เป็นไปตามข้อกำหนดทางกฎหมาย"
             }
           ],
           "type": 8,

@@ -11,12 +11,11 @@ import MenuItem from "@mui/material/MenuItem";
 import MenuList from "@mui/material/MenuList";
 import Paper from "@mui/material/Paper";
 import { fetchDomains } from "../../utils/domains";
-import styles from "./styles";
 import tracker from "../../utils/tracking";
-import withStyles from '@mui/styles/withStyles';
 import Link from "next/link";
 import Router from "next/router";
 import ImageWithFallback from '../../utils/image';
+import * as S from "./styles";
 
 
 class Form extends Component {
@@ -81,7 +80,7 @@ class Form extends Component {
   }
 
   renderInput = (InputProps) => {
-    const { classes, companies, intl } = this.props;
+    const { companies, intl } = this.props;
     const label = this.props.intl.formatMessage({
       id: "search.companyPlaceholder",
       defaultMessage: "Search for an organization"
@@ -95,20 +94,22 @@ class Form extends Component {
               onInput={this.handleInput}
               value={this.state.companyNameSearch}
               startAdornment={
-                <InputAdornment position="start" className={classes.searchIcon}>
+                <InputAdornment position="start" component={S.StyledSearchIcon}>
                   <Search/>
                 </InputAdornment>
               }
               endAdornment={
                 this.state.companyNameSearch && !this.state.companiesLoaded ? (
-                  <CircularProgress className={classes.progress} size={24} />
+                  <CircularProgress size={24} />
                 ) : null
               }
               disableUnderline={true}
               placeholder={label}
               label={label}
               fullWidth={true}
-              className={classes.searchInputWrapper}
+              sx={{
+                padding: "6px 16px",
+              }}
               autoComplete="off"
             />
           </div>
@@ -121,7 +122,6 @@ class Form extends Component {
     highlightedIndex,
     selectedItem,
     itemProps,
-    classes,
   }) => {
     const isHighlighted = highlightedIndex === i;
     var src = `https://logo.uplead.com/${result.url}`;
@@ -144,7 +144,7 @@ class Form extends Component {
             />
             <ListItemText
               disableTypography={true}
-              className={classes.searchItem}
+              component={S.StyledSearchItem}
               primary={`${result.name} (${result.url})`}
               id={`search-result-${result.url}`}
             />
@@ -155,9 +155,8 @@ class Form extends Component {
   };
 
   render() {
-    const { classes } = this.props;
     return (
-      <form id="searchForm" className={classes.form}>
+      <S.StyledForm id="searchForm">
         <Downshift
           onSelect={this.onItemSelected}
           itemToString={(result) => result && result.name}
@@ -172,10 +171,10 @@ class Form extends Component {
             highlightedIndex,
           }) => (
             <div>
-              <Paper className={classes.results} elevation={2} >
+              <Paper component={S.StyledResults} elevation={2} >
                 {this.renderInput(getInputProps())}
                 {isOpen && (
-                  <MenuList className={classes.list}>
+                  <MenuList component={S.StyledList}>
                     {!!this.state.searchResults.length &&
                       this.state.searchResults.map((result, i) =>
                         this.renderSuggestion({
@@ -184,7 +183,6 @@ class Form extends Component {
                           itemProps: getItemProps({ item: result }),
                           highlightedIndex,
                           selectedItem,
-                          classes,
                         })
                       )}
                     <MenuItem
@@ -215,8 +213,8 @@ class Form extends Component {
             </div>
           )}
         </Downshift>
-      </form>
+      </S.StyledForm>
     );
   }
 }
-export default injectIntl(withStyles(styles)(Form));
+export default injectIntl(Form);

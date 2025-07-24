@@ -5,8 +5,7 @@ import AccordionDetails from "@mui/material/AccordionActions";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 
 class FAQ extends Component {
   state = {
@@ -20,20 +19,18 @@ class FAQ extends Component {
   };
 
   renderItemBody = (body) => {
-    const { classes } = this.props;
-
     return (
       <div>
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography component="div" className={classes.list}>
+              <Typography component={S.StyledList}>
                 {text.item || text}
               </Typography>
               {text.subItems && (
                 <>
                   <br />
-                  <ul className={classes.list}>
+                  <S.StyledUList>
                     {text.subItems.map((subItemText, index) => (
                       <li key={index}>
                         <Typography>
@@ -41,7 +38,7 @@ class FAQ extends Component {
                         </Typography>
                       </li>
                     ))}
-                  </ul>
+                  </S.StyledUList>
                 </>
               )}
               <br />
@@ -54,7 +51,6 @@ class FAQ extends Component {
 
   renderItem = ({ heading, body }, index) => {
     const { expanded } = this.state;
-    const { classes } = this.props;
 
     return (
       <Accordion
@@ -68,7 +64,7 @@ class FAQ extends Component {
         >
           <Typography variant={"body2"}>{heading}</Typography>
         </AccordionSummary>
-        <AccordionDetails className={classes.accordionBody}>
+        <AccordionDetails component={S.StyledAccordionBody}>
           {this.renderItemBody(body)}
         </AccordionDetails>
       </Accordion>
@@ -76,21 +72,19 @@ class FAQ extends Component {
   };
 
   render() {
-    const { classes } = this.props;
     return (
-      <div className={classes.container} id="faq">
+      <S.StyledContainer id="faq">
         <Typography
           variant={"h5"}
-          className={classes.title}
+          component={S.StyledTitle}
           gutterBottom={true}
-          component={"h2"}
         >
           {Title}
         </Typography>
         {Text.map(this.renderItem)}
-      </div>
+      </S.StyledContainer>
     );
   }
 }
 
-export default withStyles(styles)(FAQ);
+export default FAQ;

@@ -4,25 +4,24 @@ import Nav from "../components/Nav";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Donations from "../components/Donations";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
 
-const styles = (theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
-  },
-  inner: {
-    padding: 30,
-  },
-});
+const StyledContainer = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
 
-const Privacy = ({ classes, router }) => {
+const StyledPaper = styled(Paper)(({ theme }) => ({
+  padding: 30,
+}));
+
+const Privacy = ({ router }) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "privacy.description", defaultMessage: "You own your data, we exist to help you control who has access to it. This is our privay policy page."});
   const BaseURL = "/privacy";
@@ -39,8 +38,8 @@ const Privacy = ({ classes, router }) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />    
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <StyledContainer>
+        <StyledPaper elevation={2} >
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="privacy.privacyTitle"
@@ -204,12 +203,12 @@ const Privacy = ({ classes, router }) => {
               }}
             />
           </Typography>
-        </Paper>
-      </div>
+        </StyledPaper>
+      </StyledContainer>
       <Donations />
       <Footer />
     </div>
   );
 };
 
-export default withStyles(styles)(withRouter(Privacy));
+export default withRouter(Privacy);

@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Subscribe from "../components/Subscribe";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
@@ -18,61 +18,65 @@ import { withRouter } from "next/router";
 import useSwr from 'swr'
 import CircularProgress from "@mui/material/CircularProgress";
 
-const styles = (theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
-  },
-  inner: {
-    padding: 30,
-  },
-  columns: {
-    marginTop: "2em",
-    display: "flex",
-    [theme.breakpoints.down('md')]: {
-      flexDirection: "column",
-    },
-  },
-  column: {
-    width: "100%",
-    margin: "10px",
-    textAlign: "center",
-    [theme.breakpoints.down('md')]: {
-      width: "100%",
-    },    
-  },
-  subscribeContainer: {
-    backgroundColor: theme.palette.primary.main,
-    marginTop: "-145px",
-    paddingTop: "200px",
-    paddingBottom: "30px",
-  }, 
-  table: {
-    marginTop: "10px",
-    fontSize: "16px"
-  },
-  progress: {
-    width: "100%",
-    height: "520px",
-    justifyContent: "center",
-    alignItems: "center",
-    display: "flex",
-    [theme.breakpoints.down('md')]: {
-      height: "200px",
-    },     
-  },
-});
+const StyledContainer = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
 
-function getTable(data, bucket, classes, message) {
+const StyledPaper = styled(Paper)(({ theme }) => ({
+  padding: 30,
+}));
+
+const StyledColumns = styled('div')(({ theme }) => ({
+  marginTop: "2em",
+  display: "flex",
+  [theme.breakpoints.down('md')]: {
+    flexDirection: "column",
+  },
+}));
+
+const StyledColumn = styled('div')(({ theme }) => ({
+  width: "100%",
+  margin: "10px",
+  textAlign: "center",
+  [theme.breakpoints.down('md')]: {
+    width: "100%",
+  },    
+}));
+
+const StyledSubscribeContainer = styled('div')(({ theme }) => ({
+  backgroundColor: theme.palette.primary.main,
+  marginTop: "-145px",
+  paddingTop: "200px",
+  paddingBottom: "30px",
+}));
+
+const StyledTable = styled(TableContainer)(({ theme }) => ({
+  marginTop: "10px",
+  fontSize: "16px"
+}));
+
+const StyledProgress = styled('div')(({ theme }) => ({
+  width: "100%",
+  height: "520px",
+  justifyContent: "center",
+  alignItems: "center",
+  display: "flex",
+  [theme.breakpoints.down('md')]: {
+    height: "200px",
+  },     
+}));
+
+function getTable(data, bucket, message) {
   if (bucket in data) {
     return (
-      <div className={classes.column}>
-        <Typography gutterBottom={true} variant="h7" className={classes.tableTitle}>
+      <StyledColumn>
+        <Typography gutterBottom={true} variant="h7">
           {message}
         </Typography>
-        <TableContainer component={Paper} className={classes.table} >
+        <StyledTable component={Paper} >
           <Table size="small" >
             <TableBody>           
               {data[bucket].map((row) => (
@@ -83,8 +87,8 @@ function getTable(data, bucket, classes, message) {
               ))}
             </TableBody>
           </Table>
-        </TableContainer>
-      </div>
+        </StyledTable>
+      </StyledColumn>
       );
     } else {
       return;
@@ -93,7 +97,7 @@ function getTable(data, bucket, classes, message) {
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
-const Stats = ({ classes, router}) => {
+const Stats = ({ router}) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "stats.description", defaultMessage: "Data protection request statistics."});
   const BaseURL = "/stats";
@@ -112,8 +116,8 @@ const Stats = ({ classes, router}) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />    
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <StyledContainer>
+        <StyledPaper elevation={2} >
           <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="stats.statsTitle"
@@ -128,11 +132,10 @@ const Stats = ({ classes, router}) => {
           </Typography>
           { data && (
             <>
-              <div className={classes.columns}>
+              <StyledColumns>
                 {getTable(
                   data, 
                   'week', 
-                  classes,
                   <FormattedMessage 
                     id="stats.titleWeek" 
                     defaultMessage="Top requests this week" 
@@ -141,7 +144,6 @@ const Stats = ({ classes, router}) => {
                 {getTable(
                   data, 
                   'month', 
-                  classes,
                   <FormattedMessage 
                     id="stats.titleMonth" 
                     defaultMessage="Top requests this month" 
@@ -150,7 +152,6 @@ const Stats = ({ classes, router}) => {
                 {getTable(
                   data, 
                   'year', 
-                  classes,
                   <FormattedMessage 
                     id="stats.titleYear" 
                     defaultMessage="Top requests this year" 
@@ -159,13 +160,12 @@ const Stats = ({ classes, router}) => {
                 {getTable(
                   data, 
                   'alltime', 
-                  classes,
                   <FormattedMessage 
                     id="stats.titleAlltime" 
                     defaultMessage="Top all-time requests" 
                   />
                 )}                                                
-              </div>
+              </StyledColumns>
               <br/>
               <Typography gutterBottom={true} variant="h5">
                 <FormattedMessage 
@@ -177,18 +177,18 @@ const Stats = ({ classes, router}) => {
             </>
           )}
           { !data && (
-            <div className={classes.progress}>
-              <CircularProgress className={classes.progress} size={48} />
-            </div>
+            <StyledProgress>
+              <CircularProgress size={48} />
+            </StyledProgress>
           )}
-        </Paper>
-      </div>
-      <div className={classes.subscribeContainer}>
+        </StyledPaper>
+      </StyledContainer>
+      <StyledSubscribeContainer>
             <Subscribe page="org"/>
-      </div>
+      </StyledSubscribeContainer>
       <Footer showRoadmap={false} />
     </div>
   );
 };
 
-export default withStyles(styles)(withRouter(Stats));
+export default withRouter(Stats);

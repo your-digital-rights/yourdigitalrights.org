@@ -1,7 +1,6 @@
 import { useRef, useState, useEffect } from 'react';
 import { FormattedMessage } from "react-intl";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import Paper from "@mui/material/Paper";
 import Regulations from "../../utils/regulations";
 import {getCountryCode} from "../../utils/geolocation";
@@ -11,7 +10,7 @@ import EmailSendButton from "../EmailSendButton";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-const RequestEscalation = ({ classes, intl, requestItem, status }) => {
+const RequestEscalation = ({ intl, requestItem, status }) => {
   const form = useRef();
   const regulation = Regulations[requestItem.regulationType];
   const defaultDPAAction = regulation.dpa.defaultAction;
@@ -100,12 +99,17 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
   }
 
   return (
-    <div className={classes.root} id="escalationForm">
-      <div className={classes.container}>
+    <S.Root id="escalationForm">
+      <S.Container>
         { defaultDPAAction === "email" && (
           <Paper
             component="form"
-            className={classes.formContainer}
+            sx={{ 
+              maxWidth: "860px",
+              padding: "30px",
+              display: "flex",
+              flexDirection: "column",
+            }}
             onSubmit={handleFormSubmit}
             elevation={10}
             ref={form}
@@ -118,15 +122,11 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
                 id: "requestEscalation.geography",
                 defaultMessage: "Location",
               })}
-              className={classes.textField}
               required
               value={geograpghy}
               onChange={e => setGeograpghy(e.target.value)}
               SelectProps={{
                 native: true,
-                MenuProps: {
-                  className: classes.menu,
-                },
               }}
               helperText={intl.formatMessage({
                 id: "requestEscalation.geographyText ",
@@ -159,7 +159,10 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
               <EmailSendButton
                 emailType="ESCALATION"
                 onClick={handleEscalationEmailClick}
-                className={classes.formButton}
+                sx={{
+                  marginTop: "2rem",
+                  borderRadius: "24px 24px 24px 24px",
+                }}
               >
                 <FormattedMessage id="requestEscalation.submit" defaultMessage="Review and Send" /> 
               </EmailSendButton>            
@@ -169,7 +172,12 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
         { defaultDPAAction === "form" && (
           <Paper
             component="form"
-            className={classes.formContainer}
+            sx={{ 
+              maxWidth: "860px",
+              padding: "30px",
+              display: "flex",
+              flexDirection: "column",
+            }}
             onSubmit={handleFormSubmit}
             elevation={10}
             ref={form}
@@ -178,7 +186,14 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
                 id="orgName"
                 color="inherit"
                 component="p"
-                className={classes.disclamer}
+                sx={(theme) => ({
+                  margin: "30px",
+                  [theme.breakpoints.down('md')]: {
+                    marginTop: "10px",
+                    marginLeft: "0px",
+                    marginRight: "0px", 
+                  }, 
+                })}
             >
               <FormattedMessage
                 id="requestEscalation.formDisclamer"
@@ -192,7 +207,17 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
               variant="contained"
               color="primary"
               type="submit"
-              className={classes.button}
+              sx={(theme) => ({
+                width: "200px",
+                margin: "0 10px 10px 30px",
+                borderRadius: "24px 24px 24px 24px",
+                color: "white",
+                background: theme.palette.primary.main,
+                [theme.breakpoints.down('md')]: {
+                  marginTop: "10px",
+                  marginLeft: "0px",
+                },
+              })}
               href={regulation.dpa.requestFormURL}
               onClick={handleEscalationFormClick}
               target="_blank"
@@ -207,7 +232,12 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
         { defaultDPAAction === "phone" && (
           <Paper
             component="form"
-            className={classes.formContainer}
+            sx={{ 
+              maxWidth: "860px",
+              padding: "30px",
+              display: "flex",
+              flexDirection: "column",
+            }}
             onSubmit={handleFormSubmit}
             elevation={10}
             ref={form}
@@ -216,7 +246,14 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
                 id="orgName"
                 color="inherit"
                 component="p"
-                className={classes.disclamer}
+                sx={(theme) => ({
+                  margin: "30px",
+                  [theme.breakpoints.down('md')]: {
+                    marginTop: "10px",
+                    marginLeft: "0px",
+                    marginRight: "0px", 
+                  },
+                })}
             >
               <FormattedMessage
                 id="requestEscalation.phoneDisclamer"
@@ -229,8 +266,8 @@ const RequestEscalation = ({ classes, intl, requestItem, status }) => {
             </Typography>
           </Paper>
         )}        
-      </div>
-    </div>
+      </S.Container>
+    </S.Root>
   );
 };
-export default withStyles(styles)(RequestEscalation);
+export default RequestEscalation;

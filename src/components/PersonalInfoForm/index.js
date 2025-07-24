@@ -28,9 +28,7 @@ import Paper from "@mui/material/Paper";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import fetch from "isomorphic-fetch";
-import styles from "./styles";
 import tracking from "../../utils/tracking";
-import withStyles from '@mui/styles/withStyles';
 import FormControlLabel from "@mui/material/FormControlLabel";
 import FormControl from "@mui/material/FormControl";
 import FormHelperText from '@mui/material/FormHelperText';
@@ -43,6 +41,7 @@ import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
 import { withRouter } from 'next/router'
 import isEmail from 'validator/lib/isEmail';
+import * as S from "./styles";
 
 
 const screenHeightBreakpoint = 560;
@@ -237,29 +236,27 @@ class Form extends Component {
 
   render() {
     const { screenHeight } = this.state;
-    const { classes, selectedCompany } = this.props;
+    const { selectedCompany } = this.props;
 
     return (
       <div data-nosnippet id="Form">
         <Paper
-          component="form"
-          className={classes.formContainer}
+          component={S.StyledFormContainer}
           onSubmit={this.handleFormSubmit}
           id="personalInfoForm"
           elevation={10}
           ref={this.form}
         >
 {/*
-          <div className={classes.support}>
-              <Button 
+          <S.Support>
+              <S.SupportButton 
                 variant="contained" 
                 startIcon={<SupportAgentIcon />} 
-                className={classes.supportButton}
                 onClick={this.onSupportButtonClick}
               >
                 {supportButtonCTA}
-              </Button>
-          </div>
+              </S.SupportButton>
+          </S.Support>
 */}          
           <Typography gutterBottom={true} variant={"body1"}>
             <span>
@@ -270,13 +267,15 @@ class Form extends Component {
             variant="outlined"
             required={true}
             focused={true}
-            component="fieldset"
-            className={classes.formControl}
+            component={S.StyledFormControl}
           >
             <FormLabel>{RequestTypeLabelText}</FormLabel>
             <RadioGroup
               name="request1"
-              className={classes.group}
+              sx={{
+                margin: (theme) => theme.spacing(1),
+                flexDirection: "row",
+              }}
               onChange={this.handleInput("requestType")}
               value={this.state.requestType}
             >
@@ -347,15 +346,11 @@ class Form extends Component {
             id="regulationType"
             select
             label={RegulationTypeText}
-            className={classes.textField}
             onChange={this.handleInput("regulationType")}
             required
             value = {this.state.regulationType}
             SelectProps={{
               native: true,
-              MenuProps: {
-                className: classes.menu,
-              },
             }}
             helperText={RegulationTypeHelperText}
             margin="normal"
@@ -388,13 +383,15 @@ class Form extends Component {
           <FormControl
             variant="outlined"
             focused={true}
-            component="fieldset"
-            className={classes.formControl}
+            component={S.StyledFormControl}
           >
             <FormLabel>{FollowUpLabelText}</FormLabel>
             <RadioGroup
               name="followup1"
-              className={classes.group}
+              sx={{
+                margin: (theme) => theme.spacing(1),
+                flexDirection: "row",
+              }}
               onChange={this.handleInput("followUp")}
               value={this.state.followUp}
             >
@@ -416,7 +413,7 @@ class Form extends Component {
               {FollowUpDetailsTextWarning}
             </FormHelperText>
           </FormControl>
-          <div className={classes.formButton}>
+          <S.StyledFormButton>
             <EmailSendButton
               id="EmailSendButton"
               emailType={this.state.requestType}
@@ -424,10 +421,10 @@ class Form extends Component {
             >
               {SubmitButtonText}
             </EmailSendButton>
-          </div>
+          </S.StyledFormButton>
         </Paper>
       </div>
     )
   }
 }
-export default withRouter(injectIntl(withStyles(styles)(Form)));
+export default withRouter(injectIntl(Form));

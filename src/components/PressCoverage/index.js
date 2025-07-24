@@ -1,7 +1,6 @@
 import { Title } from "./text";
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import { ImageList } from '@mui/material';
 import { ImageListItem } from '@mui/material';
 import Image from "next/legacy/image";
@@ -22,41 +21,40 @@ const items = [
 ];
 
 
-const PressCoverage = ({ classes }) => {
+const PressCoverage = () => {
 
   const theme = useTheme();
   const slicedItems = useMediaQuery(theme.breakpoints.up('md')) ? items : items.slice(0,4);
   return (
-    <div className={classes.container}>
+    <S.Container>
         <Typography
           variant={"h5"}
-          className={classes.title}
           gutterBottom={true}
           component={"h2"}
         >
         {Title}
       </Typography>
-      <div className={classes.inner}>
-        <ImageList className={classes.gridList} cols={slicedItems.length} rowHeight={50} gap={50}>
+      <S.Inner>
+        <S.GridList>
           {slicedItems.map((item) => (
-            <ImageListItem
-              button="true"
-              component="a"
-              target="_blank"
-              href={item.url}
+            <S.GridListItem
               key={item.url}
             >
-              <Image
-              className={classes.pressLogo}
-              src={item.image}
-              alt={item.name}
-              layout='fill'
-            />  
-            </ImageListItem>
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <S.PressLogo
+                  src={item.image}
+                  alt={item.name}
+                />
+              </a>
+            </S.GridListItem>
           ))}
-        </ImageList>
-      </div>
-    </div>
+        </S.GridList>
+      </S.Inner>
+    </S.Container>
   );
 };
-export default withStyles(styles)(PressCoverage);
+export default PressCoverage;

@@ -1,79 +1,12 @@
 import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
-import { container } from "../../styles/layout";
-import withStyles from '@mui/styles/withStyles';
 import tracking from "../../utils/tracking";
 import Link from 'next/link';
 import Image from 'next/image';
 import Vercel from "../../../public/images/powered-by-vercel.svg";
+import * as S from "./styles";
 
-const styles = (theme) => ({
-  root: {
-    ...container,
-  },
-  inner: {
-    // borderTop: "2px solid #005ea5",
-    marginTop: 30,
-    paddingTop: 30,
-    paddingBottom: 30,
-    [theme.breakpoints.up("md")]: {
-      paddingRight: 30,
-      paddingLeft: 30,
-    },
-  },
-  innerLeft: {
-    // borderTop: "2px solid #005ea5",
-    width: "20%",
-    float: "left",
-    marginBottom: 30,
-    [theme.breakpoints.down('md')]: {
-      width: "100%",
-      textAlign: "center",
-    },
-  },
-  innerRight: {
-    // borderTop: "2px solid #005ea5",
-    width: "75%",
-    float: "right",
-    marginBottom: 60,
-    fontSize: '14px',
-    fontWeight: "400",
-    [theme.breakpoints.down('md')]: {
-      width: "100%",
-      fontSize: '10px',
-    },
-  },
-  Copyright: {
-    textAlign: "center",
-  },
-  WishList: {
-    textAlign: "center",
-  },
-  wishButton: {
-    marginTop: "-25px",
-    borderRadius: "24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
-    padding: "10px 20px",
-    "&:hover": {
-      background: "#cf8600",
-    },
-  },
-  DisclaimerLink: {
-    color: "#005ea5",
-    fontWeight: "600",
-    textDecoration: "none",
-    "&:hover": {
-      textDecoration: "underline",
-    },
-  },
-  VercelLogo: {
-    height: "1.8em",
-    width: "auto",
-    marginTop: "5px",   
-  }
-});
 
 const WishButtonText = (
   <FormattedMessage id="footer.wishList" defaultMessage="make a wish on our roadmap" />
@@ -100,35 +33,34 @@ const QueryText = (
   />
 );
 
-const Footer = ({ classes, showRoadmap=true }) => {
+const Footer = ({ showRoadmap=true }) => {
   const trackWishlist = () => {
     tracking.trackWishlist();
   };
 
   return (
-    <div className={classes.root}>
+    <S.Root>
       {showRoadmap && (
-        <div className={classes.WishList}>
-          <Button
+        <S.WishList>
+          <S.WishButton
             onClick={() => trackWishlist()}
             variant="contained"
             href="https://wishlist.yourdigitalrights.org/"
             color="secondary"
             type="submit"
-            className={classes.wishButton}
           >
             {WishButtonText}
-          </Button>
-        </div>
+          </S.WishButton>
+        </S.WishList>
       )}
-      <div className={classes.inner}>
-        <div className={classes.innerLeft}>
+      <S.Inner>
+        <S.InnerLeft>
           <Typography component="p" variant="subtitle2">
             <FormattedMessage
               id="footer.madeBy"
               defaultMessage="<a>Made by Conscious Digital</a>"
               values={{
-                a: txt=> (<a target="_blank" href="https://consciousdigital.org" className={classes.DisclaimerLink}>{txt}</a>)
+                a: txt=> (<S.DisclaimerLink target="_blank" href="https://consciousdigital.org">{txt}</S.DisclaimerLink>)
               }}
             />
           </Typography>   
@@ -137,7 +69,7 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.stats"
               defaultMessage="<a>Statistics</a>"
               values={{
-                a: txt=> (<Link href="/stats" className={classes.DisclaimerLink}>{txt}</Link>)
+                a: txt=> (<Link href="/stats" legacyBehavior><S.DisclaimerLink>{txt}</S.DisclaimerLink></Link>)
               }}
             />
           </Typography>                          
@@ -146,32 +78,31 @@ const Footer = ({ classes, showRoadmap=true }) => {
               id="footer.privacyPolicy"
               defaultMessage="<a>Privacy Policy</a>"
               values={{
-                a: txt=> (<Link href="/privacy" className={classes.DisclaimerLink}>{txt}</Link>)
+                a: txt=> (<Link href="/privacy" legacyBehavior><S.DisclaimerLink>{txt}</S.DisclaimerLink></Link>)
               }}
             />
           </Typography>
 
           <Typography component="p" variant="subtitle2">
-            <a className={classes.DisclaimerLink} target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</a>
+            <S.DisclaimerLink target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</S.DisclaimerLink>
           </Typography> 
           <a            
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
-            <Image 
+            <S.VercelLogo 
               src={Vercel}
-              alt={PoweredBy}
-              className={classes.VercelLogo}
+              alt="Powered by Vercel"
             />
           </a>
-        </div>
-        <div className={classes.innerRight}>
+        </S.InnerLeft>
+        <S.InnerRight>
           <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">
             {DisclaimerText}
           </Typography>
-        </div>
-      </div>
-    </div>
+        </S.InnerRight>
+      </S.Inner>
+    </S.Root>
   );
 };
 
-export default withStyles(styles)(Footer);
+export default Footer;

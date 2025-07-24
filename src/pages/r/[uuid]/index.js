@@ -4,7 +4,7 @@ import { DynamoDBClient } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, GetCommand } from "@aws-sdk/lib-dynamodb";
 import { NextSeo } from 'next-seo';
 import { withRouter } from "next/router";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import Subscribe from "../../../components/Subscribe";
 import Footer from "../../../components/Footer";
 import Nav from "../../../components/Nav";
@@ -37,38 +37,14 @@ async function getRequest(id) {
   return await dynamodb.send(new GetCommand(params));
 }
 
-const styles = (theme) => ({
-  root: {
-    maxWidth: "780px",
-    margin: "auto",
-    marginTop: "30px",
-    marginBottom: "30px",
-    textAlign: "center",
-    position: "relative",
-  },
-  content: {
-    padding: "60px 77px 0 77px",
+const StyledSubscribeContainer = styled('div')(({ theme }) => ({
+  backgroundColor: theme.palette.primary.main,
+  marginTop: "-145px",
+  paddingTop: "150px",
+  paddingBottom: "30px",
+}));
 
-    [theme.breakpoints.down('md')]: {
-      padding: "60px 25px 0 25px",
-    },
-  },
-  title: {
-    marginBottom: "20px",
-  },
-  text: {
-    marginBottom: "30px",
-    textAlign: "left",
-  },
-  subscribeContainer: {
-    backgroundColor: theme.palette.primary.main,
-    marginTop: "-145px",
-    paddingTop: "150px",
-    paddingBottom: "30px",
-  },  
-});
-
-const Uuid = ({classes, data, router, intl}) => {
+const Uuid = ({data, router, intl}) => {
   const requestItem = data.item;
   const [status, setStatus] = React.useState(requestItem.status || "NO_REPLY");
   const { uuid } = router.query;
@@ -145,9 +121,9 @@ const Uuid = ({classes, data, router, intl}) => {
               status={status}
             />
           </RequestWhatsNext>
-          <div className={classes.subscribeContainer}>
+          <StyledSubscribeContainer>
             <Subscribe page="requests"/>
-          </div>
+          </StyledSubscribeContainer>
         </>
       )}
       <Footer showRoadmap={false}/>
@@ -184,4 +160,4 @@ export async function getServerSideProps(context) {
   }
 }
 
-export default withStyles(styles)(withRouter(injectIntl(Uuid)));
+export default withRouter(injectIntl(Uuid));
