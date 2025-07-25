@@ -35,7 +35,7 @@ const Subscribe = ({ children, page="thank-you"}) => {
 
               </S.StyledIntro> 
             </S.StyledText>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="150" frameBorder="0" scrolling="no"></iframe>
+            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="330" height="150" frameBorder="0" scrolling="no"></iframe>
           </S.StyledHeading>
         </div>
       </S.StyledContainer>

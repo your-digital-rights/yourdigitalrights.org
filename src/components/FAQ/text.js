@@ -50,28 +50,30 @@ export default [
       />
     ),
     body: [
-      <TableContainer component={Paper} >
-        <Table size="small" aria-label="regulation table" style={{fontSize: "16px"}}>
-          <TableHead>
-            <TableRow>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.location" defaultMessage="Location"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Abbreviation"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.name" defaultMessage="Full Name"/></TableCell>
-              <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.timelimit" defaultMessage="Time to Reply"/></TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>           
-            { Object.keys(Regulations).sort().map((key) => 
-              <TableRow key={key}>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].geography}</TableCell>
-                <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
-                <TableCell style={{fontWeight: "500"}}>{Regulations[key].timeLimit} days</TableCell>
+      <div key="table" style={{overflow: "auto", margin: "0 -24px", display: "flex", justifyContent: "center"}}>
+        <TableContainer component={Paper} style={{minWidth: "100%", maxWidth: "fit-content"}} >
+          <Table size="small" aria-label="regulation table" style={{fontSize: "16px", minWidth: "100%"}}>
+            <TableHead>
+              <TableRow>
+                <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.location" defaultMessage="Location"/></TableCell>
+                <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.short-name" defaultMessage="Abbreviation"/></TableCell>
+                <TableCell style={{fontWeight: "600"}}><FormattedMessage id="faq.body.regulations.name" defaultMessage="Full Name"/></TableCell>
+                <TableCell sx={{fontWeight: "600", display: { xs: "none", sm: "none", md: "table-cell" }}}><FormattedMessage id="faq.body.regulations.timelimit" defaultMessage="Time to Reply"/></TableCell>
               </TableRow>
-            )}
-          </TableBody>
-        </Table>
-      </TableContainer>,
+            </TableHead>
+            <TableBody>           
+              { Object.keys(Regulations).sort().map((key) => 
+                <TableRow key={key}>
+                  <TableCell style={{fontWeight: "500"}}>{Regulations[key].geography}</TableCell>
+                  <TableCell style={{fontWeight: "500"}}><a rel="noreferrer noopener" href={Regulations[key].regulationURL} target="_blank" >{Regulations[key].displayName}</a></TableCell>
+                  <TableCell style={{fontWeight: "500"}}>{Regulations[key].longName}</TableCell>
+                  <TableCell sx={{fontWeight: "500", display: { xs: "none", sm: "none", md: "table-cell" }}}>{Regulations[key].timeLimit} days</TableCell>
+                </TableRow>
+              )}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </div>,
       <FormattedMessage
         id="faq.body.regulations.1"
         defaultMessage="Please <a>contact us</a> if you would like to help us implement support for additional regulations."

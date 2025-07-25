@@ -18,6 +18,7 @@ export const Root = styled(Paper)(({ theme }) => ({
 export const Content = styled('div')(({ theme }) => ({
   padding: "60px 77px 15px 77px",
   [theme.breakpoints.down('md')]: {
+    marginBottom: "20px",
     padding: "60px 25px 0 25px",
   },
 }));
