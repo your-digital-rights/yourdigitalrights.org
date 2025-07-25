@@ -50,7 +50,7 @@ export const StyledItem = styled('li')(({ theme }) => ({
 
 export const StyledLink = styled('a')(({ theme, $subsection }) => ({
     color: $subsection ? "#bebebe" : "#f6f7fa",
-    fontWeight: "bolder",
+    fontWeight: "700",
     fontSize: "15px",
     textDecoration: "none",
     outlineColor: "#e8f4f8",
@@ -69,7 +69,7 @@ export const StyledHamburgerButton = styled('div')(({ theme }) => ({
     display: "none",
     cursor: "pointer",
     outlineColor: "#e8f4f8",
-    marginRight: "-45px",
+    marginRight: "0px",
     [theme.breakpoints.down('md')]: {
         display: "block",
     },
@@ -144,12 +144,26 @@ export const StyledDonateRedButtonDesktop = styled('a')(({ theme }) => ({
     width: "160px",
     display: "flex",
     alignItems: "center",
+    justifyContent: "center",
     height: "40px",
     backgroundColor: "#ef6a6e",
     borderRadius: "25px",
-    paddingLeft: "20px",
-    paddingRight: "20px",
+    padding: "0 20px",
     textDecoration: "none",
+    color: "#ffffff",
+    fontWeight: "500",
+    fontSize: "14px",
+    textTransform: "uppercase",
+    cursor: "pointer",
+    border: "none",
+    boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+    transition: "all 0.2s ease",
+    '&:hover': {
+        backgroundColor: "#d94448",
+        textDecoration: "none",
+        boxShadow: "0 4px 8px rgba(0,0,0,0.15)",
+        transform: "translateY(-1px)",
+    },
 }));
 
 export const StyledFadeBackground = styled('div')(({ theme }) => ({

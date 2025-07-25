@@ -24,9 +24,9 @@ class FAQ extends Component {
         {body.map((text, index) => {
           return (
             <div key={index}>
-              <Typography component={S.StyledList}>
+              <S.StyledList>
                 {text.item || text}
-              </Typography>
+              </S.StyledList>
               {text.subItems && (
                 <>
                   <br />
@@ -74,13 +74,9 @@ class FAQ extends Component {
   render() {
     return (
       <S.StyledContainer id="faq">
-        <Typography
-          variant={"h5"}
-          component={S.StyledTitle}
-          gutterBottom={true}
-        >
+        <S.StyledTitle>
           {Title}
-        </Typography>
+        </S.StyledTitle>
         {Text.map(this.renderItem)}
       </S.StyledContainer>
     );

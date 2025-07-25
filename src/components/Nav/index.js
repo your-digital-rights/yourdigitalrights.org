@@ -1,5 +1,4 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@mui/material/Typography";
 import React, { Component } from "react";
 import tracking from "../../utils/tracking";
 import classNames from "classnames";
@@ -35,13 +34,12 @@ const NavItem = ({
   return (
     <S.StyledItem onClick={onClickHandler}>
       <Link href={href} passHref legacyBehavior>
-        <Typography
-          component={S.StyledLink}
+        <S.StyledLink
           target={target}
           $subsection={subsection}
         >
           {text}
-        </Typography>
+        </S.StyledLink>
       </Link>
     </S.StyledItem>
   );
@@ -111,16 +109,13 @@ const NavListDesktop = ({ router, handleLangChange }) => {
       </li>
 
       <li>
-        <Button
+        <S.StyledDonateRedButtonDesktop
           onClick={() => trackDonateButtonLinkClick("nav desktop")}
           href="https://opencollective.com/consciousdigital"
           target="_blank"
-          component={S.StyledDonateRedButtonDesktop}
         >
-          <S.StyledLinkButton>
-            <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
-          </S.StyledLinkButton>
-        </Button>        
+          <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
+        </S.StyledDonateRedButtonDesktop>        
       </li>
 
     </S.StyledContainer>
