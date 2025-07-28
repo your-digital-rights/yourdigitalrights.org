@@ -1,30 +1,29 @@
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import { FormattedMessage, FormattedDate} from 'react-intl'
 
-const Timeline = ({ classes, requestItem, days }) => {
+const Timeline = ({ requestItem, days }) => {
   const completionRatio = Math.min(days.sinceRequest / (days.reminderTimeLimit * 2), 1);
   const timelineTrackerStyle = {
     left: `calc(${Math.floor(completionRatio * 200 - 50)}% - 17px)`,
   };
   
   return (
-    <div className={classes.root} id="requestTimeline">
-      <div className={classes.container}>
-        <h2 className={classes.header}>
+    <S.StyledRoot id="requestTimeline">
+      <S.StyledContainer>
+        <S.StyledHeader>
           <FormattedMessage 
             id="request.timeline.requestTimeline" 
             defaultMessage="Your request timeline" 
           />
-        </h2>
-        <ul className={classes.timeline}>
+        </S.StyledHeader>
+        <S.StyledTimeline>
           {typeof requestItem.requestEmailSentAt === 'undefined' && (
-            <li className={classes.timelineItem}>
+            <S.StyledTimelineItem>
               <FormattedMessage id="request.timeline.requestNotSent" defaultMessage="Request not sent" />
-            </li> 
+            </S.StyledTimelineItem> 
           )}
           {typeof requestItem.requestEmailSentAt !== 'undefined' && (
-          <li className={classes.timelineItem}>
+          <S.StyledTimelineItem>
             <FormattedMessage id="request.timeline.requestSent" defaultMessage="Request sent" />
             <br />
             <FormattedMessage 
@@ -32,11 +31,11 @@ const Timeline = ({ classes, requestItem, days }) => {
                 defaultMessage="{days, plural, =0 {today} one {yesterday} other {# days ago}}"
                 values={{ days: days.sinceRequest }}
             />
-          </li>
+          </S.StyledTimelineItem>
           )}
           {typeof days.sinceReminder === 'number' && (
-            <li className={classes.timelineItem}>
-              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
+            <S.StyledTimelineItem>
+              <S.StyledTimelineTracker style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></S.StyledTimelineTracker>
               <FormattedMessage 
                 id="request.timeline.reminderSent" 
                 defaultMessage="Reminder sent" 
@@ -47,11 +46,11 @@ const Timeline = ({ classes, requestItem, days }) => {
                 defaultMessage="{days, plural, =0 {today} one {yesterday} other {# days ago}}"
                 values={{ days: days.sinceReminder }} 
               />              
-            </li>
+            </S.StyledTimelineItem>
           )}
           {typeof days.sinceReminder !== 'number' && days.toReminder >= 0 && (
-            <li className={classes.timelineItem}>
-              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
+            <S.StyledTimelineItem>
+              <S.StyledTimelineTracker style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></S.StyledTimelineTracker>
               <FormattedMessage 
                 id="request.timeline.sendReminder" 
                 defaultMessage="Send a reminder"
@@ -62,19 +61,19 @@ const Timeline = ({ classes, requestItem, days }) => {
                 defaultMessage="{days, plural, =0 {today} one {tommorow} other {in # days}}"
                 values={{ days: days.toReminder }} 
               />
-            </li>
+            </S.StyledTimelineItem>
           )}
           {typeof days.sinceReminder !== 'number' && days.toReminder < 0 && (
-            <li className={classes.timelineItem}>
-              <div className={classes.timelineTracker} style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></div>
+            <S.StyledTimelineItem>
+              <S.StyledTimelineTracker style={timelineTrackerStyle}><span>{ days.sinceRequest }</span></S.StyledTimelineTracker>
               <FormattedMessage 
                 id="request.timeline.sendReminder" 
                 defaultMessage="Send a reminder"
               />
-            </li>
+            </S.StyledTimelineItem>
           )}          
           {typeof days.sinceEscalation === 'number' && (
-            <li className={classes.timelineItem}>
+            <S.StyledTimelineItem>
               <FormattedMessage 
                 id="request.timeline.sendEscalation" 
                 defaultMessage="Escalation sent" 
@@ -85,10 +84,10 @@ const Timeline = ({ classes, requestItem, days }) => {
                 defaultMessage="{days, plural, =0 {today} one {yesterday} other {# days ago}}"
                 values={{ days: days.sinceEscalation }} 
               />  
-            </li>
+            </S.StyledTimelineItem>
           )}
           {typeof days.sinceEscalation !== 'number' && days.toEscalation >= 0 && (
-            <li className={classes.timelineItem}>
+            <S.StyledTimelineItem>
               <FormattedMessage 
                 id="request.timeline.esclateTo" 
                 defaultMessage="Escalate your request" 
@@ -99,19 +98,19 @@ const Timeline = ({ classes, requestItem, days }) => {
                 defaultMessage="{days, plural, =0 {today} one {tommorow} other {in # days}}"
                 values={{ days: days.toEscalation }} 
               />
-            </li>
+            </S.StyledTimelineItem>
           )}
           {typeof days.sinceEscalation !== 'number' && days.toEscalation < 0 && (
-            <li className={classes.timelineItem}>
+            <S.StyledTimelineItem>
               <FormattedMessage 
                 id="request.timeline.esclateTo" 
                 defaultMessage="Escalate your request" 
               />
-            </li>
+            </S.StyledTimelineItem>
           )}          
-        </ul>
-      </div>
-    </div>
+        </S.StyledTimeline>
+      </S.StyledContainer>
+    </S.StyledRoot>
   );
 };
-export default withStyles(styles)(Timeline);
+export default Timeline;

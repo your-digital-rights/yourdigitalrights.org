@@ -112,7 +112,7 @@ class Page {
         return this.linkButton.getText();
       },
       async triggerMobileMenuToggle() {
-        await $("nav ul + img").click();
+        await $("nav ul + div").click();
         await $(".mob-navbar ul li").waitForClickable();
       },
       mobLink(num) {

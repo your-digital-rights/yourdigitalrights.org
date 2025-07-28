@@ -1,10 +1,9 @@
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 
-const Subscribe = ({ classes, children, page="thank-you"}) => {
+const Subscribe = ({ children, page="thank-you"}) => {
   
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
@@ -12,10 +11,10 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
 
   return (
     <>
-      <div className={classes.container}>
-        <div className={classes.subscribe}>
-          <div id="subscribe" className={classes.heading}>
-          <div className={classes.text}>
+      <S.StyledContainer>
+        <div className="subscribe">
+          <S.StyledHeading id="subscribe">
+          <S.StyledText>
             <Typography
                 color="inherit" 
                 variant="h3"
@@ -24,9 +23,9 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
               >
                 <FormattedMessage id="subscribe.title" defaultMessage="Subscribe To Privacy Alerts!" />
               </Typography>          
-              <Typography 
+              <S.StyledIntro 
+                as={Typography}
                 color="inherit" 
-                className={classes.intro} 
                 gutterBottom={true}
               >
                 <FormattedMessage
@@ -34,13 +33,13 @@ const Subscribe = ({ classes, children, page="thank-you"}) => {
                   defaultMessage="Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
                 />
 
-              </Typography> 
-            </div>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="350" height="150" frameborder="0" scrolling="no"></iframe>
-          </div>
+              </S.StyledIntro> 
+            </S.StyledText>
+            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="330" height="150" frameBorder="0" scrolling="no"></iframe>
+          </S.StyledHeading>
         </div>
-      </div>
+      </S.StyledContainer>
     </>
   );
 };
-export default withStyles(styles)(Subscribe);
+export default Subscribe;

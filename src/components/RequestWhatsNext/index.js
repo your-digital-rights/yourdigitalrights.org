@@ -1,8 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import { FormattedMessage } from "react-intl";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import Button from "@mui/material/Button";
 import Regulations from "../../utils/regulations";
 import RequestEscalation from "../RequestEscalation";
@@ -44,31 +43,31 @@ class WhatsNext extends Component {
     );  
   }
 
-  buttons(classes) {
+  buttons() {
     const { requestItem } = this.props;
     const authority = Regulations[requestItem.regulationType].dpa.longName;
     return (
-      <ul className={classes.buttons}>
+      <S.StyledButtons>
         <li>
           <form onSubmit={this.handleReminderFormSubmit} ref={this.reminderForm}>
-            <EmailSendButton
-              emailType="REMINDER"
-              onClick={this.handleReminderEmailSendClick}
-              className={classes.button}
-            >
-              <FormattedMessage
-                id="request.next.reminderButton"
-                defaultMessage="Send the organization a reminder email"
-              />
-            </EmailSendButton>
+            <S.StyledButton>
+              <EmailSendButton
+                emailType="REMINDER"
+                onClick={this.handleReminderEmailSendClick}
+              >
+                <FormattedMessage
+                  id="request.next.reminderButton"
+                  defaultMessage="Send the organization a reminder email"
+                />
+              </EmailSendButton>
+            </S.StyledButton>
           </form>
         </li>
         <li>
-          <Button
+          <S.StyledEscalateButton
             variant="contained"
             color="primary"
             type="submit"
-            className={classes.button}
             onClick={e => this.setState({showEscalation: true})}
           >
             <FormattedMessage
@@ -78,18 +77,18 @@ class WhatsNext extends Component {
                 authority: authority,
               }}
             />
-          </Button>
+          </S.StyledEscalateButton>
         </li>
-      </ul>
+      </S.StyledButtons>
     )
   }
 
   render() {
-    const { classes, requestItem, days, selectedCompany, intl, status, children} = this.props;
+    const { requestItem, days, selectedCompany, intl, status, children} = this.props;
     return (
-      <div className={classes.root} id="whatsNext">
-        <div className={classes.container}>
-          <h2 className={classes.header}><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></h2>
+      <S.StyledRoot id="whatsNext">
+        <S.StyledContainer>
+          <S.StyledHeader><FormattedMessage id="request.next.whatsNext" defaultMessage="What's next" /></S.StyledHeader>
           <Recommendations 
             requestItem={requestItem} 
             days={days} 
@@ -97,7 +96,7 @@ class WhatsNext extends Component {
             status={status}
           />
           { this.props.status !== 'SUCCESS' && (
-            this.buttons(classes)
+            this.buttons()
           )}
           { this.state.showEscalation && (
             <RequestEscalation 
@@ -107,9 +106,9 @@ class WhatsNext extends Component {
             />
           )}
           {children}
-        </div>
-      </div>
+        </S.StyledContainer>
+      </S.StyledRoot>
     );
   }
 };
-export default withStyles(styles)(WhatsNext);
+export default WhatsNext;

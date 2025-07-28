@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 import Paper from "@mui/material/Paper";
 import Typography from "@mui/material/Typography";
 import { container } from "../styles/layout";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
@@ -13,66 +13,45 @@ import { useEffect } from "react";
 import tracking from "../utils/tracking";
 import Script from 'next/script'
 
-const styles = (theme) => ({
-  container: {
-    position: "relative",
-    ...container,
-    paddingTop: "50px",
-    marginTop: "60px",
+const StyledContainer = styled('div')(({ theme }) => ({
+  position: "relative",
+  ...container,
+  paddingTop: "50px",
+  marginTop: "60px",
+}));
+
+const StyledPaper = styled(Paper)(({ theme }) => ({
+  borderRadius: "20px",
+  color: "black",
+  backgroundColor: "white",
+  paddingLeft: 120,
+  paddingRight: 120,
+  paddingTop: 30,
+  paddingBottom: 50,
+  [theme.breakpoints.down('md')]: {
+    paddingLeft: 30,
+    paddingRight: 30,
   },
-  inner: {
-    borderRadius: "20px",
-    color: "black",
-    backgroundColor: "white",
-    paddingLeft: 120,
-    paddingRight: 120,
-    paddingTop: 30,
-    paddingBottom: 50,
-    [theme.breakpoints.down('md')]: {
-      paddingLeft: 30,
-      paddingRight: 30,
-    },
-  },
-  columns: {
-    marginTop: "2em",
-    display: "flex",
-    [theme.breakpoints.down('md')]: {
-      flexDirection: "column",
-    },
-  },
-  descriptionColumn: {
-    width: "60%",   
-    [theme.breakpoints.down('md')]: {
-      width: "100%",    
-    }
-  },
-  mainDescription: {
-    fontSize: "1.65rem",
-    [theme.breakpoints.down('md')]: {
-      fontSize: "18px",
-    }
-  },
-  substack: {
-    marginTop: "40px",
-    marginBottom: "40px",
-    display: "flex",
-    flexDirection: "row ",
-    alignItems: "center",
-    justifyContent: "center",
-  },  
-  list: {
-      fontWeight: 400,
-  },
-  pricing: {
-      marginLeft: "40px",
-      [theme.breakpoints.down('md')]: {
-        marginTop: "20px",    
-      }      
+}));
+
+const StyledMainDescription = styled(Typography)(({ theme }) => ({
+  fontSize: "1.65rem",
+  [theme.breakpoints.down('md')]: {
+    fontSize: "18px",
   }
-});
+}));
+
+const StyledSubstack = styled('div')(({ theme }) => ({
+  marginTop: "40px",
+  marginBottom: "40px",
+  display: "flex",
+  flexDirection: "row ",
+  alignItems: "center",
+  justifyContent: "center",
+}));
 
 
-const PrivacyAlerts = ({ classes, router }) => {
+const PrivacyAlerts = ({ router }) => {
   const intl = useIntl();
   const Description = intl.formatMessage({id: "privacyAlerts.seoDescription", defaultMessage: "Subscribe to our monthly privacy alerts"});
   const BaseURL = "/privacy-alerts";
@@ -108,18 +87,18 @@ const PrivacyAlerts = ({ classes, router }) => {
         languageAlternates = {generateLangLinks(BaseURL)}
       />   
       <Nav />
-      <div className={classes.container}>
-        <Paper className={classes.inner} elevation={2} >
+      <StyledContainer>
+        <StyledPaper elevation={2} >
          <Typography component="h1" variant="h4" gutterBottom={true}>
             <FormattedMessage
               id="privacyAlerts.title"
               defaultMessage="Privacy Alerts"
             />
           </Typography>            
-          <Typography component="h2" variant="h6" className={classes.mainDescription}>
+          <StyledMainDescription component="h2" variant="h6">
             <FormattedMessage id="privacyAlerts.description1" defaultMessage="A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies." />
-          </Typography>
-          <div id="custom-substack-embed" className={classes.substack}/>
+          </StyledMainDescription>
+          <StyledSubstack id="custom-substack-embed"/>
           <Script id="substack-embed-external" src={`https://substackapi.com/widget.js?foo=${Math.round(Math.random() * 100)}`}/>      
           <Typography component="h3" variant="h5" gutterBottom={true} >
             <FormattedMessage
@@ -153,12 +132,12 @@ const PrivacyAlerts = ({ classes, router }) => {
             <br/>
             <br/>
           </Typography>                
-        </Paper>
-      </div>
+        </StyledPaper>
+      </StyledContainer>
       <Social sourcePage="priceAlerts"/>
       <Footer showRoadmap={false} />
     </div>
   );
 };
 
-export default withStyles(styles)(withRouter(PrivacyAlerts));
+export default withRouter(PrivacyAlerts);
