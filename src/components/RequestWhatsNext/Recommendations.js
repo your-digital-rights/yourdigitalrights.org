@@ -1,6 +1,4 @@
 import { FormattedMessage } from "react-intl";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
 import Regulations from "../../utils/regulations";
 import capitalize from "../../utils/capitalize";
 
@@ -163,4 +161,4 @@ const Recommendations = ({  requestItem, days, selectedCompany, status }) => {
     </div>
   );
 };
-export default withStyles(styles)(Recommendations);
+export default Recommendations;

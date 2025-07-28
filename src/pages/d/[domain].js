@@ -9,22 +9,20 @@ import { fetchDomainDetails } from "../../utils/domains";
 import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../../utils/langUtils";
 import { withRouter } from "next/router";
-import withStyles from '@mui/styles/withStyles';
+import { styled } from '@mui/material/styles';
 
-const styles = (theme) => ({
-  subscribeContainer: {
-    backgroundColor: theme.palette.primary.main,
-    marginTop: "-145px",
-    paddingTop: "150px",
-    paddingBottom: "30px",
-  },
-});
+const SubscribeContainer = styled('div')(({ theme }) => ({
+  backgroundColor: theme.palette.primary.main,
+  marginTop: "-145px",
+  paddingTop: "150px",
+  paddingBottom: "30px",
+}));
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
 
-const Org = ({ classes, organization, router, newOrg }) => {
+const Org = ({ organization, router, newOrg }) => {
   const intl = useIntl();
   const Title = organization ? 
     intl.formatMessage({id: "org.titleExistingOrg", defaultMessage: "Delete Your {org} Account or Get a Copy of Your Data"},{org: Capitalize(organization.url)}) : 
@@ -59,9 +57,9 @@ const Org = ({ classes, organization, router, newOrg }) => {
           selectedCompany={organization}
         />
       )}
-      <div className={classes.subscribeContainer}>
+      <SubscribeContainer>
         <Subscribe page="org"/>
-      </div>
+      </SubscribeContainer>
       <Footer/>
     </div>
   )
@@ -81,7 +79,7 @@ export async function getStaticProps({ params }) {
       }
     }
   } 
- 
+  
   const data = await fetchDomainDetails(params.domain); 
   
   if (typeof data == 'undefined') {
@@ -99,4 +97,4 @@ export async function getStaticProps({ params }) {
   }
 }
 
-export default withStyles(styles)(withRouter(Org));
+export default withRouter(Org);

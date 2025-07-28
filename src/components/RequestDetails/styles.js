@@ -1,57 +1,59 @@
-import { container } from "../../styles/layout";
-import { theme } from "../../styles/theme";
+import { styled } from '@mui/material/styles';
 
-const Style = (theme) => ({
-  root: {
-    marginBottom: "40px",
-    display: "flex",
-    flexDirection: "column",
-    backgroundColor: "#FFF",
-    textAlign: "left",
-  },
-  container: {
-    maxWidth: "860px",
-    boxSizing: "border-box",
-    [theme.breakpoints.down('md')]: {
-      padding: "30px 30px 0px",
-      width: "100%",
-    },
-  },
-  header: {
-    fontSize: "38px",
-    color: theme.palette.primary.main,
-  },
-  details: {
-    padding: "28px 50px",
-    color: theme.palette.primary.main,
-    fontWeight: "normal",
-  },
-  detailsList: {
-    fontSize: "18px",
-    lineHeight: "24px",
-    "& dt": {
-      float: "left",
-      clear: "left",
-      fontWeight: "bold",
-      padding: "0 0.5em 15px 0",
-    },
-    "& dd": {
-      margin: "0",
-      paddingBottom: "15px",
-    },
-  },
-  showEmail: {
-    textDecoration: "underline",
-    cursor: "pointer",
-  },
-  showFullEmail: {
-    clear: "left",
-  },
-  hideFullEmail: {
-    height: "0",
-    overflow: "hidden",
-    clear: "left",
-  },
-});
+export const Root = styled('div')(({ theme }) => ({
+  marginBottom: "40px",
+  display: "flex",
+  flexDirection: "column",
+  backgroundColor: "#FFF",
+  textAlign: "left",
+}));
 
-export default Style;
+export const Container = styled('div')(({ theme }) => ({
+  maxWidth: "860px",
+  boxSizing: "border-box",
+  [theme.breakpoints.down('md')]: {
+    padding: "30px 30px 0px",
+    width: "100%",
+  },
+}));
+
+export const Header = styled('h2')(({ theme }) => ({
+  fontSize: "38px",
+  color: theme.palette.primary.main,
+}));
+
+export const Details = styled('div')(({ theme }) => ({
+  padding: "28px 50px",
+  color: theme.palette.primary.main,
+  fontWeight: "normal",
+}));
+
+export const DetailsList = styled('dl')(({ theme }) => ({
+  fontSize: "18px",
+  lineHeight: "24px",
+  "& dt": {
+    float: "left",
+    clear: "left",
+    fontWeight: "bold",
+    padding: "0 0.5em 15px 0",
+  },
+  "& dd": {
+    margin: "0",
+    paddingBottom: "15px",
+  },
+}));
+
+export const ShowEmail = styled('a')(({ theme }) => ({
+  textDecoration: "underline",
+  cursor: "pointer",
+}));
+
+export const ShowFullEmail = styled('dd')(({ theme }) => ({
+  clear: "left",
+}));
+
+export const HideFullEmail = styled('dd')(({ theme }) => ({
+  height: "0",
+  overflow: "hidden",
+  clear: "left",
+}));

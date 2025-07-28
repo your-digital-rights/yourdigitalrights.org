@@ -1,7 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
-import styles from "./styles";
-import withStyles from '@mui/styles/withStyles';
+import * as S from "./styles";
 import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){
@@ -9,23 +8,21 @@ function Capitalize(str){
 };
 
 
-const Hero = ({ classes, selectedCompany }) => {
+const Hero = ({ selectedCompany }) => {
   return (
-    <div className={classes.hero} id="hero">
-      <div className={classes.container}>
+    <S.Hero id="hero">
+      <S.Container>
         {selectedCompany && (
-          <div id="org-logo" className={classes.orgLogo}>
-            <ImageWithFallback
-              className={classes.logo}
+          <S.OrgLogo id="org-logo">
+            <S.Logo
               src={`https://logo.uplead.com/${selectedCompany.url}`}
               width={44}
               height={44}
-              fallbackSrc="/images/Keep-it-private.png"
               alt="Organization logo"
             />
-          </div>
+          </S.OrgLogo>
         )}
-        <div id="hero-text" className={classes.heroText}>
+        <S.HeroText id="hero-text">
           {selectedCompany && (
             <>
               <Typography
@@ -33,7 +30,15 @@ const Hero = ({ classes, selectedCompany }) => {
                 variant="h4"
                 color="inherit"
                 component="p"
-                className={classes.heading}
+                sx={{ 
+                  maxWidth: "100%",
+                  marginBottom: "5px",
+                  lineHeight: "1em",
+                  '@media (max-width: 900px)': {
+                    margin: "auto 0px 0px",
+                    maxWidth: "100%",
+                  }
+                }}
               >
                 {Capitalize(selectedCompany.url)}
               </Typography>      
@@ -41,7 +46,13 @@ const Hero = ({ classes, selectedCompany }) => {
                 color="inherit"
                 component="h1"
                 gutterBottom={true}
-                className={classes.title}
+                sx={{
+                  fontWeight: "600",
+                  color: "white",
+                  fontSize: "1.7rem",
+                  paddingTop: "10px",
+                  lineHeight: "1.13333em",
+                }}
               >
                 <FormattedMessage
                   id="orgHero.title"
@@ -68,7 +79,7 @@ const Hero = ({ classes, selectedCompany }) => {
             </>
           )}
           {!selectedCompany && (
-            <div id="add-org" className={classes.addOrg}>
+            <S.AddOrg id="add-org">
               <Typography
                 variant="h3"
                 color="inherit"
@@ -92,11 +103,11 @@ const Hero = ({ classes, selectedCompany }) => {
                   }}
                 />
               </Typography>
-            </div>
+            </S.AddOrg>
           )}
-        </div>
-      </div>
-    </div>
+        </S.HeroText>
+      </S.Container>
+    </S.Hero>
   );
 };
-export default withStyles(styles)(Hero);
+export default Hero;
