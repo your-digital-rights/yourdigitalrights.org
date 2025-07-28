@@ -1,7 +1,4 @@
 import { FormattedMessage } from "react-intl";
-import Typography from "@mui/material/Typography";
-import Paper from "@mui/material/Paper";
-import withStyles from '@mui/styles/withStyles';
 import Subscribe from "../Subscribe";
 import tracking from "../../utils/tracking";
 import { 
@@ -13,55 +10,11 @@ import {
 } from "./text";
 import {useIntl} from 'react-intl';
 import Regulations from "../../utils/regulations";
-
-const styles = (theme) => ({
-  root: {
-    borderRadius: "20px",
-    maxWidth: "1000px",
-    margin: "auto",
-    marginBottom: "30px",
-    textAlign: "center",
-    position: "relative",
-    [theme.breakpoints.down('md')]: {
-      marginTop: "-120px",
-    },
-  },
-  content: {
-    padding: "60px 77px 15px 77px",
-    [theme.breakpoints.down('md')]: {
-      padding: "60px 25px 0 25px",
-    },
-  },
-  title: {
-    marginBottom: "20px",
-  },
-  text: {
-    textAlign: "left",
-  },
-  donateButton: {
-    marginBottom: "30px",
-    borderRadius: "24px 24px 24px 24px",
-    color: "white",
-    fontWeight: "600",
-    padding: "10px 20px",
-    "&:hover": {
-      background: "#04487B",
-    },
-  },
-  startAgainBtn: {
-    borderRadius: "24px 24px 24px 24px",
-    position: "absolute",
-    left: "50%",
-    bottom: 0,
-    transform: "translate(-50%,50%)",
-    color: "white",
-    fontWeight: 800,
-  },
-});
+import * as S from "./styles";
 
 const ThanksMessage = (props) => {
   const intl = useIntl();
-  let { classes, requestType, regulationType, selectedActionName } = props;
+  let { requestType, regulationType, selectedActionName } = props;
   let requestTypeText = (requestType == "DELETION") ? ThanksRequestTypeDelete : ThanksRequestTypeAccess;
   let ThanksCopyPart1 = (selectedActionName == "Copy") ? ThanksCopyPart1Copy : ThanksCopyPart1Email;
   let replyTimeText = regulationType ? intl.formatMessage({
@@ -87,35 +40,30 @@ const ThanksMessage = (props) => {
   };
 
   return (
-    <Paper
-      component="div"
-      className={classes.root}
+    <S.Root
       elevation={10}
       id="ThanksMessage"
     >
-      <div className={classes.content}>
-        <Typography
+      <S.Content>
+        <S.Title
           variant="h4"
           gutterBottom={true}
-          className={classes.title}
           id="ThanksMessageTitle"
         >
           {ThanksTitleText}
-        </Typography>
-        <Typography
+        </S.Title>
+        <S.Text
           component="p"
           gutterBottom={true}
-          className={classes.text}
           id="ThanksMessageText"
         >
           {requestTypeText}{" "}{ThanksCopyPart1}{" "}{replyTimeText}
-        </Typography>
+        </S.Text>
         <br/>
-        <Typography
+        <S.Text
           component="p"
           variant="h5"
           gutterBottom={false}
-          className={classes.text}
         >      
           <FormattedMessage
             id="thankyou.donation"
@@ -124,22 +72,21 @@ const ThanksMessage = (props) => {
               a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
             }}
           />
-        </Typography>
-      </div>
+        </S.Text>
+      </S.Content>
       <Subscribe/>
-{/*      <Button
+{/*      <S.StartAgainBtn
           variant="contained"
           color="secondary"
           type="submit"
-          className={classes.startAgainBtn}
           id="ThanksMessageBtn"
           onClick={hide}
         >
           {FindCompanyText}
-      </Button>      
+      </S.StartAgainBtn>      
 */}      
-    </Paper>
+    </S.Root>
   );
 };
 
-export default withStyles(styles)(ThanksMessage);
+export default ThanksMessage;

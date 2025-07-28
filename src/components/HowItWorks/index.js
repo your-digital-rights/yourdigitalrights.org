@@ -13,39 +13,34 @@ import {
   YourDataTitle,
 } from "./text";
 import LowerSection from "./LowerSection";
-import Typography from "@mui/material/Typography";
 import UpperSection from "./UpperSection";
-import { indexStyles as styles } from "./styles";
-import withStyles from '@mui/styles/withStyles';
-import Image from 'next/image';
+import * as S from "./styles";
 import HowItWorksImage from "../../../public/images/img-howto.svg";
 import ICHappy from "../../../public/images/ic-happy.svg";
 import ICVerified from "../../../public/images/ic-verified-user.svg";
 
-const HowItWorks = ({ classes }) => {
+const HowItWorks = () => {
   return (
-    <div className={classes.root} id="howItWorks">
-      <div className={classes.upperContainer}>
-        <Image
+    <S.StyledRoot id="howItWorks">
+      <S.StyledUpperContainer>
+        <S.StyledTitleImg
           src={HowItWorksImage}
           alt={TitleImgAlt}
-          className={classes.titleImg}
         />
-        <div className={classes.upperContent}>
-          <Typography
+        <S.StyledUpperContent>
+          <S.StyledTitle
             variant="h4"
             component="h2"
-            className={classes.title}
             gutterBottom={true}
           >
             {Title}
-          </Typography>
+          </S.StyledTitle>
           <UpperSection title={SearchTitle} body={SearchBody} />
           <UpperSection title={FillInTitle} body={FillInBody} />
           <UpperSection title={SendTitle} body={SendBody} />
-        </div>
-      </div>
-      <div className={classes.lowerContainer}>
+        </S.StyledUpperContent>
+      </S.StyledUpperContainer>
+      <S.StyledLowerContainer>
         <LowerSection
           title={YourDataTitle}
           body={YourDataBody}
@@ -56,8 +51,9 @@ const HowItWorks = ({ classes }) => {
           body={WhyBody}
           imgSrc={ICVerified}
         />
-      </div>
-    </div>
+      </S.StyledLowerContainer>
+    </S.StyledRoot>
   );
 };
-export default withStyles(styles)(HowItWorks);
+
+export default HowItWorks;

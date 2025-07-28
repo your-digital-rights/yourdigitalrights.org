@@ -1,33 +1,36 @@
+import { styled } from '@mui/material/styles';
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
 import Image from 'next/image';
 
-const styles = (theme) => ({
-  root: {
-    textAlign: "center",
-    margin: "32px 16px",
-    flex: 1,
-    [theme.breakpoints.up("md")]: {
-      margin: "32px",
-    },
+const StyledRoot = styled('div')(({ theme }) => ({
+  textAlign: "center",
+  margin: "32px 16px",
+  flex: 1,
+  [theme.breakpoints.up("md")]: {
+    margin: "32px",
   },
-  img: {
-    display: "block",
-    margin: "0 auto 16px",
-    height: "70px",
-  },
-});
+}));
 
-const LowerSection = ({ title, body, imgSrc, classes }) => {
+const StyledImg = styled(Image)(({ theme }) => ({
+  display: "block",
+  margin: "0 auto 16px",
+  height: "70px",
+}));
+
+const StyledTitle = styled(Typography)(({ theme }) => ({}));
+
+const StyledBody = styled(Typography)(({ theme }) => ({}));
+
+const LowerSection = ({ title, body, imgSrc }) => {
   return (
-    <div className={classes.root}>
-      <Image src={imgSrc} role="presentation" className={classes.img} />
-      <Typography component="h3" variant="h5" gutterBottom={true}>
+    <StyledRoot>
+      <StyledImg src={imgSrc} role="presentation" />
+      <StyledTitle component="h3" variant="h5" gutterBottom={true}>
         {title}
-      </Typography>
-      <Typography component="p">{body}</Typography>
-    </div>
+      </StyledTitle>
+      <StyledBody component="p">{body}</StyledBody>
+    </StyledRoot>
   );
 };
 
-export default withStyles(styles)(LowerSection);
+export default LowerSection;

@@ -1,13 +1,9 @@
 import React from 'react';
-import Button from '@mui/material/Button';
-import ButtonGroup from '@mui/material/ButtonGroup';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 import Grow from '@mui/material/Grow';
 import Paper from '@mui/material/Paper';
-import Popper from '@mui/material/Popper';
 import MenuItem from '@mui/material/MenuItem';
 import MenuList from '@mui/material/MenuList';
-import withStyles from '@mui/styles/withStyles';
 import erasureEmail from "../../email-templates/erasure";
 import sarEmail from "../../email-templates/sar";
 import reminderEmail from "../../email-templates/reminder";
@@ -19,19 +15,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import EmailIcon from '@mui/icons-material/Email';
 import AssignmentIcon from '@mui/icons-material/Assignment';
 import Image from "next/legacy/image"
-
-
-const Style = (theme) => ({
-    border: {
-      borderRadius: "24px 24px 24px 24px",
-    },
-    menueItemIcon: {
-        marginRight: "10px",
-    },
-    popper: {
-        zIndex: "5",
-    }
-});
+import * as S from "./styles";
 
 function defaultAction(to, cc, subject, body) {
     return function() {
@@ -69,7 +53,7 @@ function copyAction(to, cc, subject, body) {
     };
 }
 
-const EmailSendButton = ({ classes, children, emailType, onClick}) => {
+const EmailSendButton = ({ children, emailType, onClick}) => {
     const intl = useIntl();
     const [open, setOpen] = React.useState(false);
     const anchorRef = React.useRef(null);
@@ -80,22 +64,22 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
         {
             name: 'Default',
             text: intl.formatMessage({id: "sendEmailButton.default", defaultMessage: "Open in your default email client"}), 
-            icon: <EmailIcon className={classes.menueItemIcon}/>, 
+            icon: <S.MenuItemIcon><EmailIcon /></S.MenuItemIcon>, 
             run: defaultAction},
         {
             name: 'Gmail',
             text: intl.formatMessage({id: "sendEmailButton.gmail", defaultMessage: "Open in Gmail"}), 
-            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            icon: <S.MenuItemIcon><Image src="/images/sh/gmail-logo.png" alt="gmail" width={24} height={24} /></S.MenuItemIcon>, 
             run: gmailAction}, 
         {
             name: 'Yahoo mail',
             text: intl.formatMessage({id: "sendEmailButton.yahoo", defaultMessage: "Open in Yahoo Mail"}), 
-            icon: <div className={classes.menueItemIcon}><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></div>, 
+            icon: <S.MenuItemIcon><Image src="/images/sh/yahoo-mail-logo.png" alt="gmail" width={24} height={24} /></S.MenuItemIcon>, 
             run: yahooAction}, 
         {
             name: 'Copy',
             text: intl.formatMessage({id: "sendEmailButton.copy", defaultMessage: "Copy email text to clipboard"}), 
-            icon: <AssignmentIcon className={classes.menueItemIcon} />, 
+            icon: <S.MenuItemIcon><AssignmentIcon /></S.MenuItemIcon>, 
             run: copyAction},
     ];
     
@@ -151,16 +135,15 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
 
     return (
         <>
-            <ButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button" className={classes.border}>
-                <Button 
+            <S.BorderButtonGroup variant="contained" color="primary" ref={anchorRef} aria-label="split button">
+                <S.BorderButton 
                     onClick={handleClick} 
-                    className={classes.border} 
                     ref={buttonRef}
                     type="submit"
                 >
                     {children}
-                </Button>
-                <Button
+                </S.BorderButton>
+                <S.BorderButton
                     color="primary"
                     size="small"
                     aria-controls={open ? 'split-button-menu' : undefined}
@@ -168,12 +151,11 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
                     aria-label="Review & Send"
                     aria-haspopup="menu"
                     onClick={handleToggle}
-                    className={classes.border}
                 >
                     <ArrowDropDownIcon />
-                </Button>
-            </ButtonGroup>
-            <Popper open={open} className={classes.popper} anchorEl={anchorRef.current} role={undefined} transition disablePortal >
+                </S.BorderButton>
+            </S.BorderButtonGroup>
+            <S.StyledPopper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal >
                 {({ TransitionProps, placement }) => (
                     <Grow
                         {...TransitionProps}
@@ -198,9 +180,9 @@ const EmailSendButton = ({ classes, children, emailType, onClick}) => {
                         </Paper>
                     </Grow>
                 )}
-            </Popper>
+            </S.StyledPopper>
         </>
     );
 }
 
-export default withStyles(Style)(EmailSendButton);
+export default EmailSendButton;

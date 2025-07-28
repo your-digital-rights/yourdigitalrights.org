@@ -1,29 +1,31 @@
+import { styled } from '@mui/material/styles';
 import Typography from "@mui/material/Typography";
-import withStyles from '@mui/styles/withStyles';
-const styles = (theme) => ({
-  root: {
-    marginBottom: 16,
-  },
-  heading: {
-    display: "inline",
-    color: "#005ea5",
-    fontWeight: "600",
-  },
-  inline: {
-    display: "inline",
-  },
-});
-const UpperSection = ({ title, body, classes }) => {
+
+const StyledRoot = styled('div')(({ theme }) => ({
+  marginBottom: 16,
+}));
+
+const StyledHeading = styled(Typography)(({ theme }) => ({
+  display: "inline",
+  color: "#005ea5",
+  fontWeight: "600",
+}));
+
+const StyledInline = styled(Typography)(({ theme }) => ({
+  display: "inline",
+}));
+
+const UpperSection = ({ title, body }) => {
   return (
-    <div className={classes.root}>
-      <Typography component="h3" className={classes.heading} variant="h6">
+    <StyledRoot>
+      <StyledHeading component="h3" variant="h6">
         {title}{" "}
-      </Typography>
-      <Typography component="p" className={classes.inline}>
+      </StyledHeading>
+      <StyledInline component="p">
         {body}
-      </Typography>
-    </div>
+      </StyledInline>
+    </StyledRoot>
   );
 };
 
-export default withStyles(styles)(UpperSection);
+export default UpperSection;
