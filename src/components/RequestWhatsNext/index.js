@@ -64,22 +64,20 @@ class WhatsNext extends Component {
           </form>
         </li>
         <li>
-          <S.StyledButton>
-            <Button
-              variant="contained"
-              color="primary"
-              type="submit"
-              onClick={e => this.setState({showEscalation: true})}
-            >
-              <FormattedMessage
-                id="request.next.esclateButton"
-                defaultMessage="Escalate to the { authority }"
-                values={{
-                  authority: authority,
-                }}
-              />
-            </Button>
-          </S.StyledButton>
+          <S.StyledEscalateButton
+            variant="contained"
+            color="primary"
+            type="submit"
+            onClick={e => this.setState({showEscalation: true})}
+          >
+            <FormattedMessage
+              id="request.next.esclateButton"
+              defaultMessage="Escalate to the { authority }"
+              values={{
+                authority: authority,
+              }}
+            />
+          </S.StyledEscalateButton>
         </li>
       </S.StyledButtons>
     )

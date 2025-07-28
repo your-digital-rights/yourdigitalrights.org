@@ -1,4 +1,5 @@
 import { styled } from '@mui/material/styles';
+import Button from '@mui/material/Button';
 
 export const StyledRoot = styled('div')(({ theme }) => ({
   paddingBottom: "0px",
@@ -48,4 +49,8 @@ export const StyledButton = styled('div')(({ theme }) => ({
     marginTop: "10px",
     marginLeft: "0px",
   },
+}));
+
+export const StyledEscalateButton = styled(Button)(() => ({
+  borderRadius: "24px 24px 24px 24px",
 }));
