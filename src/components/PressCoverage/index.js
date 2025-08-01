@@ -16,7 +16,8 @@ const items = [
   //{ name: "MSN", image: "/images/press/msn.png", url: "https://www.msn.com/en-us/news/technology/how-to-delete-yourself-from-the-internet-with-5-different-methods/ar-BB1aZJ4A?li=BBnb7Kz" },
   { name: "The Sun", image: "/images/press/the-sun.png", url: "https://www.the-sun.com/tech/7794302/billions-facebook-photos-scraped-ai-police-lineup/" },
   { name: "Vanity Fair", image: "/images/press/vanity-fair.png", url: "https://www.vanityfair.fr/article/6-facons-de-disparaitre-internet-pour-toujours" },
-  { name: "Bed Credit", image: "/images/press/bc-logo-2x.png", url: "https://www.badcredit.org/news/yourdigitalrights-offers-digital-privacy-resources/" },
+  //{ name: "Bed Credit", image: "/images/press/bc-logo-2x.png", url: "https://www.badcredit.org/news/yourdigitalrights-offers-digital-privacy-resources/" },
+  { name: "Norton", image: "/images/press/norton-logo.png", url: "https://us.norton.com/blog/how-to/how-to-remove-personal-information-from-internet" },
   
 ];
 
