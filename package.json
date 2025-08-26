@@ -23,8 +23,6 @@
     "compile:i18n": "formatjs compile-folder --ast --format crowdin lang compiled-lang"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.0.0",
-    "@aws-sdk/lib-dynamodb": "^3.0.0",
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
@@ -44,6 +42,8 @@
     "@mui/material-nextjs": "^7.2.0",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.850.0",
     "clean-css": "^5.3.3",
     "cookie-cutter": "^0.2.0",
     "downshift": "^9.0.9",
