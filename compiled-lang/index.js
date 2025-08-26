@@ -24,6 +24,7 @@ import * as lt from './lt';
 import * as sl from './sl';
 import * as lv from './lv';
 import * as et from './et';
+import * as hi from './hi';
 
 
-export {en, it, es, pt, de, fr, az, ja, zh, th, pl, ro, nl, el, cs, hu, sv, bg, da, sk, fi, hr, lt, sl, lv, et};
+export {en, it, es, pt, de, fr, az, ja, zh, th, pl, ro, nl, el, cs, hu, sv, bg, da, sk, fi, hr, lt, sl, lv, et, hi};

@@ -96,11 +96,13 @@ const NavListDesktop = ({ router, handleLangChange }) => {
             outlineColor: "#e8f4f8",
           }}
         >
-          {Object.keys(ALT_LANGUAGES).map((locale) => (
-            <MenuItem key={locale} value={locale}>
-              {ALT_LANGUAGES[locale]}
-            </MenuItem>
-          ))}
+          {Object.keys(ALT_LANGUAGES)
+            .sort((a, b) => ALT_LANGUAGES[a].localeCompare(ALT_LANGUAGES[b]))
+            .map((locale) => (
+              <MenuItem key={locale} value={locale}>
+                {ALT_LANGUAGES[locale]}
+              </MenuItem>
+            ))}
           <hr/>
           <MenuItem key="help_translate" value="contribute">  
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
@@ -175,11 +177,13 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
             outlineColor: "#e8f4f8",
           }}
         >
-          {Object.keys(ALT_LANGUAGES).map((locale) => (
-            <MenuItem key={locale} value={locale}>
-              {ALT_LANGUAGES[locale]}
-            </MenuItem>
-          ))}
+          {Object.keys(ALT_LANGUAGES)
+            .sort((a, b) => ALT_LANGUAGES[a].localeCompare(ALT_LANGUAGES[b]))
+            .map((locale) => (
+              <MenuItem key={locale} value={locale}>
+                {ALT_LANGUAGES[locale]}
+              </MenuItem>
+            ))}
           <hr/>
           <MenuItem key="help_translate" value="contribute">  
             <FormattedMessage id="nav.helpTranslate" defaultMessage="Help translate" />
