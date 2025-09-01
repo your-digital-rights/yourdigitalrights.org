@@ -2,19 +2,19 @@
   "about.aboutTitle": [
     {
       "type": 0,
-      "value": "Our mission"
+      "value": "हमारा मिशन"
     }
   ],
   "about.consciousDigital": [
     {
       "type": 0,
-      "value": "Who we are"
+      "value": "हम कौन हैं"
     }
   ],
   "about.consciousDigital1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a creation of "
+      "value": "YourDigitalRights.org "
     },
     {
       "type": 1,
@@ -22,19 +22,19 @@
     },
     {
       "type": 0,
-      "value": ", a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
+      "value": " की रचना है, एक पंजीकृत चैरिटी जो केंद्रित डिजिटल पहल बनाती है, जो डिजिटल मानवाधिकारों को बढ़ावा देती और आगे बढ़ाती है।"
     }
   ],
   "about.contact": [
     {
       "type": 0,
-      "value": "Contact"
+      "value": "संपर्क"
     }
   ],
   "about.contactText": [
     {
       "type": 0,
-      "value": "Contact us at "
+      "value": "हमें "
     },
     {
       "type": 1,
@@ -42,13 +42,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " पर संपर्क करें।"
     }
   ],
   "about.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "सहयोगी"
     }
   ],
   "about.contributorsBody1": [
@@ -58,7 +58,7 @@
     },
     {
       "type": 0,
-      "value": " - Frontend web developer."
+      "value": " - फ्रंटएंड वेब डेवलपर।"
     }
   ],
   "about.contributorsBody3": [
@@ -68,7 +68,7 @@
     },
     {
       "type": 0,
-      "value": " - Frontend web developer."
+      "value": " - फ्रंटएंड वेब डेवलपर।"
     }
   ],
   "about.contributorsBody4": [
@@ -78,7 +78,7 @@
     },
     {
       "type": 0,
-      "value": " - Frontend web developer."
+      "value": " - फ्रंटएंड वेब डेवलपर।"
     }
   ],
   "about.contributorsBody5": [
@@ -88,7 +88,7 @@
     },
     {
       "type": 0,
-      "value": " - Infrastructure Engineer."
+      "value": " - इन्फ्रास्ट्रक्चर इंजीनियर।"
     }
   ],
   "about.contributorsBody6": [
@@ -98,7 +98,7 @@
     },
     {
       "type": 0,
-      "value": " - Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+      "value": " - फुल स्टैक इंजीनियर, जिन्होंने APPI सहायता और वेबसाइट के समग्र जापानी अनुवाद में योगदान दिया।"
     }
   ],
   "about.createdByBody2": [
@@ -108,31 +108,31 @@
     },
     {
       "type": 0,
-      "value": " - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+      "value": " - फ्रंटएंड वेब डेवलपर, मोबाइल ऐप डेवलपर और Skyjacker, AR फ्लाइट ट्रैकिंग गेम के निर्माता।"
     }
   ],
   "about.description": [
     {
       "type": 0,
-      "value": "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."
+      "value": "Your Digital Rights इसलिये बनाया गया क्योंकि हमें विश्वास है कि आपकी निजता का अधिकार है, और इस अधिकार का उपयोग करना आसान होना चाहिए।"
     }
   ],
   "about.funding": [
     {
       "type": 0,
-      "value": "Funding"
+      "value": "फंडिंग"
     }
   ],
   "about.fundingBody1": [
     {
       "type": 0,
-      "value": "This project is funded by its creators, and with the help of your donations."
+      "value": "यह परियोजना अपने निर्माताओं द्वारा और आपके दान की मदद से वित्त पोषित है।"
     }
   ],
   "about.missionBody1": [
     {
       "type": 0,
-      "value": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the "
+      "value": "हमें विश्वास है कि निजता एक मूल मानव अधिकार है और इसका उपयोग सभी के लिए आसानी से उपलब्ध होना चाहिए। "
     },
     {
       "type": 1,
@@ -140,7 +140,7 @@
     },
     {
       "type": 0,
-      "value": " (EU), the "
+      "value": " (EU), "
     },
     {
       "type": 1,
@@ -148,7 +148,7 @@
     },
     {
       "type": 0,
-      "value": " (California), and the "
+      "value": " (कैलिफ़ोर्निया), और "
     },
     {
       "type": 1,
@@ -156,25 +156,25 @@
     },
     {
       "type": 0,
-      "value": " (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+      "value": " (ब्राज़ील) नियमावली ऑनलाइन निजता के लिए कानूनी आधार प्रदान करती हैं।"
     }
   ],
   "about.missionBody2": [
     {
       "type": 0,
-      "value": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+      "value": "गोपनीयता नियमावली सही दिशा में एक कदम हैं, लेकिन अधिकांश लोगों के लिए इन नियमों के तहत अधिकारों का प्रयोग करना इतना कठिन होता है कि वे प्रयास नहीं करते। स्थिति और खराब होती है क्योंकि कई संगठन डेटा अनुरोध दाखिल करना कठिन बनाते हैं (जैसे कि किसी कॉर्पोरेट ईमेल पते को वेबसाइट पर प्रकाशित न करना)। हमारा लक्ष्य इन नियमों द्वारा प्रदान किए गए अधिकारों को सभी के लिए सुलभ बनाना है।"
     }
   ],
   "about.missionBody3": [
     {
       "type": 0,
-      "value": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is "
+      "value": "यह एक मुफ्त सेवा है। हम व्यापार नहीं हैं और हमारा कोई व्यापार मॉडल नहीं है। हम न तो सूचीबद्ध संगठनों को कोई सेवाएं प्रदान करते हैं और न ही किसी भी व्यक्तिगत डेटा को इकट्ठा या व्यापार करते हैं। यह सेवा "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Open Source"
+          "value": "ओपन सोर्स"
         }
       ],
       "type": 8,
@@ -182,13 +182,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " है।"
     }
   ],
   "about.sponsors": [
     {
       "type": 0,
-      "value": "Supporting Organizations"
+      "value": "समर्थन करने वाले संगठन"
     }
   ],
   "about.sponsorsBody2": [
@@ -198,7 +198,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a snapshot of their company database which we use to enrich our list of organizations."
+      "value": " - उनकी कंपनी डेटाबेस का स्नैपशॉट प्रदान करने के लिए, जिसका उपयोग हम अपनी संगठनों की सूची को समृद्ध करने के लिए करते हैं।"
     }
   ],
   "about.sponsorsBody3": [
@@ -208,7 +208,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing an effective way to gather community feedback regarding our "
+      "value": " - हमारे "
     },
     {
       "type": 1,
@@ -216,7 +216,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " संबंधी समुदाय की प्रतिक्रिया प्राप्त करने का प्रभावी तरीका प्रदान करने के लिए।"
     }
   ],
   "about.sponsorsBody4": [
@@ -226,7 +226,7 @@
     },
     {
       "type": 0,
-      "value": " - for providing a hosted version of Matomo (Piwik), the open-source and privacy-minded web analytics platform."
+      "value": " - Matomo (Piwik) के होस्टेड संस्करण के लिए, जो एक ओपन-सोर्स और गोपनीयता-केंद्रित वेब एनालिटिक्स प्लेटफ़ॉर्म है।"
     }
   ],
   "about.sponsorsBody6": [
@@ -236,7 +236,7 @@
     },
     {
       "type": 0,
-      "value": " - for helping us implement an SEO strategy."
+      "value": " - हमें SEO रणनीति लागू करने में सहायता करने के लिए।"
     }
   ],
   "about.sponsorsBody7": [
@@ -246,119 +246,119 @@
     },
     {
       "type": 0,
-      "value": " - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
+      "value": " - ब्राज़ील के डेटा गोपनीयता नियम, Lei Geral de Proteção de Dados Pessoais (LGPD) को समझने और समर्थन करने के लिए।"
     }
   ],
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+      "value": "हम नीचे दिए गए संगठनों का धन्यवाद करते हैं जिन्होंने अपनी सेवाओं का मुफ्त या छूट वाली संस्करण प्रदान करके हमारे ओपन-सोर्स प्रयास का समर्थन किया है:"
     }
   ],
   "about.title": [
     {
       "type": 0,
-      "value": "About Us"
+      "value": "हमारे बारे में"
     }
   ],
   "aboutOrg.description": [
     {
       "type": 0,
-      "value": "In their own words:"
+      "value": "उनके अपने शब्दों में:"
     }
   ],
   "aboutOrg.details": [
     {
-      "type": 0,
-      "value": "About "
-    },
-    {
       "type": 1,
       "value": "org"
+    },
+    {
+      "type": 0,
+      "value": " के बारे में"
     }
   ],
   "aboutOrg.email": [
     {
       "type": 0,
-      "value": "Email:"
+      "value": "ईमेल:"
     }
   ],
   "aboutOrg.founded": [
     {
       "type": 0,
-      "value": "Founded:"
+      "value": "संस्थापित:"
     }
   ],
   "aboutOrg.headquarters": [
     {
       "type": 0,
-      "value": "Headquarters:"
+      "value": "मुख्यालय:"
     }
   ],
   "aboutOrg.industry": [
     {
       "type": 0,
-      "value": "Industry:"
+      "value": "उद्योग:"
     }
   ],
   "aboutOrg.privacyPolicy": [
-    {
-      "type": 0,
-      "value": "View "
-    },
     {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": "'s "
+      "value": " की "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Privacy Policy"
+          "value": "गोपनीयता नीति"
         }
       ],
       "type": 8,
       "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " देखें"
     }
   ],
   "aboutOrg.specialties": [
     {
       "type": 0,
-      "value": "Company Specialties:"
+      "value": "कंपनी की विशेषज्ञताएँ:"
     }
   ],
   "aboutOrg.type": [
     {
       "type": 0,
-      "value": "Company Type:"
+      "value": "कंपनी प्रकार:"
     }
   ],
   "contribute.creadit": [
     {
       "type": 0,
-      "value": "While we cannot afford to pay you for your work, we are more than happy to give you credit for your contributions, whether it's on this website, on github, or in other ways."
+      "value": "हालांकि हम आपके कार्य के लिए आपको भुगतान करने में सक्षम नहीं हैं, हम आपके योगदान के लिए आपको क्रेडिट देने के लिए तैयार हैं, चाहे वह वेबसाइट पर हो, GitHub पर या अन्य तरीकों से।"
     }
   ],
   "contribute.creditTitle": [
     {
       "type": 0,
-      "value": "Credit"
+      "value": "क्रेडिट"
     }
   ],
   "contribute.crowdinStep1": [
     {
       "type": 0,
-      "value": "Make an account at Crowdin by following this "
+      "value": "इस "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "link"
+          "value": "लिंक"
         }
       ],
       "type": 8,
@@ -366,19 +366,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " का पालन करके Crowdin में एक खाता बनाएं।"
     }
   ],
   "contribute.crowdinStep2": [
     {
       "type": 0,
-      "value": "Follow this "
+      "value": "अनुवाद प्रणाली लोड करने के लिए इस "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "link"
+          "value": "लिंक"
         }
       ],
       "type": 8,
@@ -386,37 +386,37 @@
     },
     {
       "type": 0,
-      "value": " to load the translation system."
+      "value": " का पालन करें।"
     }
   ],
   "contribute.crowdinStep3": [
     {
       "type": 0,
-      "value": "Choose a language (you will need to log in to Crowdin to do this)."
+      "value": "भाषा चुनें (इसके लिए आपको Crowdin में लॉग इन करना होगा)।"
     }
   ],
   "contribute.crowdinStep4": [
     {
       "type": 0,
-      "value": "You should now see boxes surrounding the various bits of text that make up the website. Hover over the text you wish to translate and click on the icon which will appear at the corner of the text."
+      "value": "अब आप वेबसाइट बनाते विभिन्न टेक्स्ट के आसपास बक्से देखेंगे। जिसे अनुवादना है उस टेक्स्ट पर होवर करें और आइकन पर क्लिक करें जो दिखाई देगा।"
     }
   ],
   "contribute.crowdinStep5": [
     {
       "type": 0,
-      "value": "An editor will open up where you can provide your translation. Don't forget to click save when done."
+      "value": "एक संपादक खुल जाएगा जहाँ आप अपना अनुवाद प्रदान कर सकते हैं। समाप्त होने पर सेव करना न भूलें।"
     }
   ],
   "contribute.crowdinStep6": [
     {
       "type": 0,
-      "value": "If you are experiencing any problems please "
+      "value": "यदि आपको कोई समस्या हो रही है, तो कृपया "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us."
+          "value": "संपर्क करें।"
         }
       ],
       "type": 8,
@@ -426,27 +426,13 @@
   "contribute.description": [
     {
       "type": 0,
-      "value": "Help us improve YourDigitalRights.org."
+      "value": "हमें YourDigitalRights.org को बेहतर बनाने में मदद करें।"
     }
   ],
   "contribute.dev": [
     {
       "type": 0,
-      "value": "Our repositories are hosted on GitHub, with the main one being for this "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "website"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": ". The best way to start is to get in touch via "
+      "value": "हमारे रिपॉजिटरी GitHub पर होस्ट हैं, मुख्य वेबसाइट के लिए। शुरू करने का सबसे अच्छा तरीका है "
     },
     {
       "children": [
@@ -460,25 +446,25 @@
     },
     {
       "type": 0,
-      "value": ". We will then add you to our slack channel and share ongoing development efforts. Alternatively, feel free to clone the repository and submit merge requests."
+      "value": " के माध्यम से हमसे संपर्क करना। हम आपको हमारे स्लैक चैनल में जोड़ेंगे और विकास के प्रयास साझा करेंगे। वैकल्पिक रूप से, आप रिपॉजिटरी क्लोन कर सकते हैं और मर्ज रिक्वेस्ट भेज सकते हैं।"
     }
   ],
   "contribute.devSkills": [
     {
       "type": 0,
-      "value": "We are currently looking for Machine Learning, React and AWS engineers."
+      "value": "हम वर्तमान में मशीन लर्निंग, React और AWS इंजीनियर ढूंढ रहे हैं।"
     }
   ],
   "contribute.devTitle": [
     {
       "type": 0,
-      "value": "Help with Development"
+      "value": "डेवलपमेंट में मदद करें"
     }
   ],
   "contribute.reportAProblem": [
     {
       "type": 0,
-      "value": "If you experience problems with this site you can report them in the "
+      "value": "यदि आप इस साइट में समस्याएं अनुभव करते हैं, तो आप उन्हें "
     },
     {
       "children": [
@@ -492,7 +478,7 @@
     },
     {
       "type": 0,
-      "value": ", or via "
+      "value": " या "
     },
     {
       "children": [
@@ -506,19 +492,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " के माध्यम से रिपोर्ट कर सकते हैं।"
     }
   ],
   "contribute.reportAProblemTitle": [
     {
       "type": 0,
-      "value": "Report a Problem"
+      "value": "समस्या रिपोर्ट करें"
     }
   ],
   "contribute.research": [
     {
       "type": 0,
-      "value": "We are always looking for better ways to promote Digital Rights and make them more accessible. Whether it's to better understand how people use technology or how organizations abuse it, there are always research projects going on. Please "
+      "value": "हम हमेशा डिजिटल अधिकारों को बढ़ावा देने और उन्हें अधिक सुलभ बनाने के बेहतर तरीकों की खोज में हैं। चाहे यह यह समझने के लिए कि लोग तकनीक का उपयोग कैसे करते हैं या संगठनों द्वारा दुरुपयोग कैसे होता है, हमेशा अनुसंधान परियोजनाएं चल रही हैं। यदि आप शामिल होना चाहते हैं, तो कृपया "
     },
     {
       "children": [
@@ -532,37 +518,37 @@
     },
     {
       "type": 0,
-      "value": " us if you'd like to get involved."
+      "value": " करें।"
     }
   ],
   "contribute.researchTitle": [
     {
       "type": 0,
-      "value": "Help with research"
+      "value": "अनुसंधान में मदद करें"
     }
   ],
   "contribute.subtitle": [
     {
       "type": 0,
-      "value": "This project is developed and maintained entirely by volunteers. If you are concerned about the loss of privacy, rampant surveillance capitalism, micro-targeting and misinformation and the addictive nature of digital services then you can help:"
+      "value": "यह परियोजना पूरी तरह से स्वयंसेवकों द्वारा विकसित और रखरखाव किया जाता है। यदि आप निजता के नुकसान, व्यापक निगरानी पूंजीवाद, माइक्रो-टारगेटिंग, गलत सूचना और डिजिटल सेवाओं की व्यसनी प्रकृति को लेकर चिंतित हैं, तो आप मदद कर सकते हैं:"
     }
   ],
   "contribute.title": [
     {
       "type": 0,
-      "value": "Contribute"
+      "value": "योगदान करें"
     }
   ],
   "contribute.translate1": [
     {
       "type": 0,
-      "value": "We would like this service to be available in many languages. Should yours not be among the ones currently available, or be in need of updates or improvement, we would love your help!"
+      "value": "हम चाहते हैं कि यह सेवा कई भाषाओं में उपलब्ध हो। यदि आपकी भाषा इनमें से नहीं है, या अपडेट या सुधार की आवश्यकता है, तो हमें आपकी मदद की आवश्यकता है!"
     }
   ],
   "contribute.translate2": [
     {
       "type": 0,
-      "value": "We use the online platform "
+      "value": "हम ऑनलाइन प्लेटफ़ॉर्म "
     },
     {
       "children": [
@@ -576,13 +562,13 @@
     },
     {
       "type": 0,
-      "value": " to easily craft the translation strings. It makes the process much easier, and doesn't require you to know anything about programming. There is a quick tutorial available "
+      "value": " का उपयोग करते हैं ताकि अनुवाद प्रक्रिया आसान हो। इसमें प्रोग्रामिंग ज्ञान की आवश्यकता नहीं है। यहां "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "here"
+          "value": "एक त्वरित ट्यूटोरियल"
         }
       ],
       "type": 8,
@@ -590,55 +576,55 @@
     },
     {
       "type": 0,
-      "value": ". Follow these steps to get started:"
+      "value": " उपलब्ध है। शुरू करने के लिए इन चरणों का पालन करें:"
     }
   ],
   "contribute.translateTitle": [
     {
       "type": 0,
-      "value": "Translate the website"
+      "value": "वेबसाइट का अनुवाद करें"
     }
   ],
   "dataProcessors": [
     {
       "type": 0,
-      "value": "Data sharing and processors"
+      "value": "डेटा साझा करना और प्रोसेसर"
     }
   ],
   "deletePII.deleteAllPII": [
     {
       "type": 0,
-      "value": "All requests"
+      "value": "सभी अनुरोध"
     }
   ],
   "deletePII.deleteSpecificPII": [
     {
       "type": 0,
-      "value": "This request"
+      "value": "यह अनुरोध"
     }
   ],
   "deletePII.doneAll": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with all of your requests."
+      "value": "हमने आपके सभी अनुरोधों से जुड़े व्यक्तिगत डेटा को सफलतापूर्वक हटा दिया है।"
     }
   ],
   "deletePII.doneRequest": [
     {
       "type": 0,
-      "value": "We have successfully deleted the personal data associated with this request."
+      "value": "हमने इस अनुरोध से जुड़े व्यक्तिगत डेटा को सफलतापूर्वक हटा दिया है।"
     }
   ],
   "deletePII.heading": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "मेरा डेटा हटाएं"
     }
   ],
   "deletePII.intro": [
     {
       "type": 0,
-      "value": "Your personal data will be automatically deleted 120 days after a request was made, however you can choose to delete your data now. Do you wish to delete the data which is associated with this request (ref: "
+      "value": "आपका व्यक्तिगत डेटा अनुरोध किए जाने के 120 दिनों बाद स्वचालित रूप से हटा दिया जाएगा, हालांकि आप अभी अपना डेटा हटाने का विकल्प चुन सकते हैं। क्या आप उस डेटा को हटाना चाहते हैं जो इस अनुरोध (संदर्भ: "
     },
     {
       "type": 1,
@@ -646,61 +632,61 @@
     },
     {
       "type": 0,
-      "value": "), or with all of your requests?"
+      "value": ") से जुड़ा है, या सभी अनुरोधों से?"
     }
   ],
   "deletemydata.description": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "मेरा डेटा हटाएं"
     }
   ],
   "deletemydata.title": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "मेरा डेटा हटाएं"
     }
   ],
   "donations.donate": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "दान करें"
     }
   ],
   "donations.donateIntro": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org was created because we believe that privacy matters, and that exercising your right to privacy should be easy. That's why we've made it free. By donating, or becoming a supporting member you can help ensure our long-term financial stability and independence."
+      "value": "YourDigitalRights.org इसलिए बनाया गया क्योंकि हमें विश्वास है कि निजता महत्वपूर्ण है, और इसका अभ्यास सरल और मुफ्त होना चाहिए। दान या सदस्य बनकर आप इसकी वित्तीय स्थिरता में मदद कर सकते हैं।"
     }
   ],
   "donations.headingDonate": [
     {
       "type": 0,
-      "value": "We need your support"
+      "value": "हमें आपका समर्थन चाहिए"
     }
   ],
   "faq.body.YDR.1": [
     {
       "type": 0,
-      "value": "YourDigitalRights.org is a free service that helps you regain control of your online privacy by making it easy to get organizations to delete or provide a copy of the personal information that they have on you. We do this by automating the process outlined in powerful data protection laws that give you the right to delete or access your data. In addition to sending requests to organizations, we can help ensure that requests are resolved in your favor."
+      "value": "YourDigitalRights.org एक मुफ्त सेवा है जो आपकी ऑनलाइन निजता पर नियंत्रण वापस पाने में मदद करती है, जिससे आप संगठनों से अपने व्यक्तिगत डेटा को हटाने या उसकी प्रति प्रदान करने के लिए अनुरोध कर सकते हैं। हम यह प्रक्रिया अपने अधिकारों के तहत स्वचालित करते हैं। हम सुनिश्चित करते हैं कि अनुरोध आपकी पक्ष में सही ढंग से पूरे हों।"
     }
   ],
   "faq.body.contact.1": [
     {
       "type": 0,
-      "value": "Please understand that we cannot provide personal support regarding specific data requests or your experience with a particular organization. We know that, in some cases, organizations can be pretty frustrating, but unfortunately, we cannot help and will not reply to such emails."
+      "value": "कृपया समझें कि हम आपके विशिष्ट डेटा अनुरोधों या किसी विशिष्ट संगठन के साथ आपके अनुभव के बारे में व्यक्तिगत सहायता प्रदान नहीं कर सकते। हमें पता है कि कभी-कभी संगठन काफी निराशाजनक हो सकते हैं, लेकिन दुर्भाग्य से, हम इस तरह के ईमेल्स का जवाब नहीं देंगे।"
     }
   ],
   "faq.body.contact.2": [
     {
       "type": 0,
-      "value": "For all other requests, please contact us via "
+      "value": "अन्य सभी अनुरोधों के लिए, कृपया "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "email"
+          "value": "ईमेल"
         }
       ],
       "type": 8,
@@ -708,25 +694,25 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " के माध्यम से संपर्क करें।"
     }
   ],
   "faq.body.contribute.1": [
     {
       "type": 0,
-      "value": "Yes, please!"
+      "value": "हाँ, कृपया!"
     }
   ],
   "faq.body.contribute.2": [
     {
       "type": 0,
-      "value": "We rely on "
+      "value": "हम अपनी लंबी अवधि की वित्तीय स्थिरता और स्वतंत्रता सुनिश्चित करने के लिए "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "दानों"
         }
       ],
       "type": 8,
@@ -734,19 +720,19 @@
     },
     {
       "type": 0,
-      "value": " to ensure our long-term financial stability and independence. You can make a contribution here."
+      "value": " पर निर्भर हैं। आप यहां योगदान कर सकते हैं।"
     }
   ],
   "faq.body.contribute.3": [
     {
       "type": 0,
-      "value": "Please see the information on "
+      "value": "यदि आप बग रिपोर्ट करना चाहते हैं, वेबसाइट का अनुवाद करना चाहते हैं, विकास में मदद करना चाहते हैं, या अनुसंधान करना चाहते हैं, तो कृपया "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "this page"
+          "value": "इस पृष्ठ"
         }
       ],
       "type": 8,
@@ -754,43 +740,43 @@
     },
     {
       "type": 0,
-      "value": " if you would like to report a bug, help translate the website, assist with the development, or conduct research."
+      "value": " पर जानकारी देखें।"
     }
   ],
   "faq.body.data-protection.1": [
     {
       "type": 0,
-      "value": "Data protection laws protect individuals with regard to the processing of their personal information by organizations. They define the responsibilities organizations have when processing personal information and grant individuals certain rights in relation to their data. Many countries have data protection laws; some go further in terms of the protection they provide than others."
+      "value": "डेटा संरक्षण कानून व्यक्तियों को उनके व्यक्तिगत डेटा के प्रसंस्करण के संदर्भ में सुरक्षा प्रदान करते हैं। ये कानून संगठनों की जिम्मेदारियों को परिभाषित करते हैं और व्यक्तियों को उनके डेटा से संबंधित अधिकार प्रदान करते हैं। कई देशों के पास डेटा संरक्षण कानून हैं, कुछ दूसरों की तुलना में अधिक सुरक्षा प्रदान करते हैं।"
     }
   ],
   "faq.body.escalate.1": [
     {
       "type": 0,
-      "value": "Data protection laws provide various escalation mechanisms for such cases, including the possibility of filing a complaint against the organization with a government regulatory agency or taking the organization to court (called a private right of action)."
+      "value": "डेटा संरक्षण कानून ऐसे मामलों के लिए विभिन्न अपील तंत्र प्रदान करते हैं, जिसमें संगठन के खिलाफ सरकारी नियामक एजेंसी में शिकायत दाखिल करना या संगठन के विरुद्ध अदालत जाना शामिल है (जिसे निजी कानूनी कार्रवाई कहा जाता है)।"
     }
   ],
   "faq.body.escalate.2": [
     {
       "type": 0,
-      "value": "If this sounds complicated, please don't worry; we can help. When submitting a data request via this service, turn on the “Smart Follow-up Assistance” option to get personalized advice on what to do in case an organization has not complied with your request. We will help you communicate with the organization and if needed, escalate to the government regulatory agency."
+      "value": "यदि यह जटिल लगता है, तो चिंता न करें; हम मदद कर सकते हैं। जब आप इस सेवा के माध्यम से डेटा अनुरोध भेजते हैं, तो \"स्मार्ट फॉलो-अप सहायता\" विकल्प चालू करें ताकि यदि संगठन ने आपका अनुरोध पूरा न किया हो तो आपको व्यक्तिगत सलाह मिल सके। हम आपको संगठन के साथ संवाद करने में मदद करेंगे और यदि आवश्यक हो, तो सरकारी नियामक एजेंसी तक अपील करेंगे।"
     }
   ],
   "faq.body.how.1": [
     {
       "type": 0,
-      "value": "After selecting an organization and filling in a short form, we will generate a request email addressed to the organization you have chosen. The email will open up in your email app for you to review and send. Optionally, we can follow up with you a short while after a request has been sent to ensure that the request is resolved in your favor. This can include sending the organization reminder emails or escalating to the government regulatory agency."
+      "value": "संगठन चुनने और एक छोटा फॉर्म भरने के बाद, हम उस संगठन को संबोधित एक अनुरोध ईमेल बनाएंगे। ईमेल आपके ऐप में खुल जाएगा ताकि आप उसे समीक्षा कर सकें और भेज सकें। विकल्पस्वरूप, हम आपको अनुरोध भेजने के बाद कुछ समय में फॉलो-अप के लिए संपर्क कर सकते हैं ताकि यह सुनिश्चित किया जा सके कि अनुरोध आपके पक्ष में निपटाया गया है। इसमें रिमाइंडर ईमेल भेजना या सरकारी एजेंसी को अपील करना शामिल हो सकता है।"
     }
   ],
   "faq.body.new-regulation.1": [
     {
       "type": 0,
-      "value": "We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please "
+      "value": "हम उन सभी डेटा संरक्षण कानूनों को समर्थन देना चाहते हैं जो व्यक्तियों को उनके व्यक्तिगत डेटा तक पहुँच और हटाने का अधिकार देते हैं। यदि आप चाहते हैं कि हम किसी विशेष नियम का समर्थन जोड़ें, तो कृपया हमें "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us"
+          "value": "संपर्क करें"
         }
       ],
       "type": 8,
@@ -798,55 +784,55 @@
     },
     {
       "type": 0,
-      "value": " if you would like us to add support for a particular regulation."
+      "value": "।"
     }
   ],
   "faq.body.refuse.1": [
     {
       "type": 0,
-      "value": "Data protection laws allow organizations to refuse to delete your personal information in certain exceptional circumstances. Here are some general examples, but you should read the specific regulation that applies to you for details:"
+      "value": "डेटा संरक्षण कानून संगठनों को विशिष्ट परिस्थितियों में आपका व्यक्तिगत डेटा हटाने से इंकार करने की अनुमति देते हैं। यहां कुछ सामान्य उदाहरण हैं, लेकिन कृपया अपने नियम के लिए विशिष्ट विवरण पढ़ें:"
     }
   ],
   "faq.body.refuse.1.1": [
     {
       "type": 0,
-      "value": "When the organization is legally obliged to keep hold of your data (for example, financial institutions must keep records of your transactions in order to comply with anti-money laundering regulations)"
+      "value": "जब संगठन कानूनी रूप से आपका डेटा रखने के लिए बाध्य हो (उदा., वित्तीय संस्थानों को AML नियमों के तहत लेन-देन के रिकॉर्ड रखना पड़ता है)"
     }
   ],
   "faq.body.refuse.1.2": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic, and literary purposes)"
+      "value": "जब व्यक्तिगत डेटा अभिव्यक्ति और सूचना की स्वतंत्रता के लिए आवश्यक हो (जिसमें पत्रकारिता, अकादमिक, कला और साहित्यिक कार्य शामिल हैं)"
     }
   ],
   "faq.body.refuse.1.3": [
     {
       "type": 0,
-      "value": "When keeping hold of your data is necessary for public health reasons"
+      "value": "जब सार्वजनिक स्वास्थ्य कारणों के लिए डेटा रखना आवश्यक हो"
     }
   ],
   "faq.body.refuse.1.4": [
     {
       "type": 0,
-      "value": "When keeping your data is necessary for establishing, exercising, or defending legal claims"
+      "value": "जब कानूनी दावे स्थापित करने, अभ्यास करने या रक्षा करने के लिए डेटा रखना आवश्यक हो"
     }
   ],
   "faq.body.refuse.1.5": [
     {
       "type": 0,
-      "value": "When erasing your data would prejudice scientific or historical research or archiving that is in the public interest"
+      "value": "जब डेटा मिटाने से वैज्ञानिक या ऐतिहासिक अनुसंधान या सार्वजनिक हित के अभिलेखन को नुकसान पहुंचे"
     }
   ],
   "faq.body.regulations.1": [
     {
       "type": 0,
-      "value": "Please "
+      "value": "यदि आप अतिरिक्त नियमों के समर्थन में मदद करना चाहते हैं, तो कृपया "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "contact us"
+          "value": "संपर्क करें"
         }
       ],
       "type": 8,
@@ -854,37 +840,37 @@
     },
     {
       "type": 0,
-      "value": " if you would like to help us implement support for additional regulations."
+      "value": "।"
     }
   ],
   "faq.body.regulations.location": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "स्थान"
     }
   ],
   "faq.body.regulations.name": [
     {
       "type": 0,
-      "value": "Full Name"
+      "value": "पूरा नाम"
     }
   ],
   "faq.body.regulations.short-name": [
     {
       "type": 0,
-      "value": "Abbreviation"
+      "value": "संक्षेप"
     }
   ],
   "faq.body.regulations.timelimit": [
     {
       "type": 0,
-      "value": "Time to Reply"
+      "value": "उत्तर देने का समय"
     }
   ],
   "faq.body.requests.1": [
     {
       "type": 0,
-      "value": "We support two types of requests:"
+      "value": "हम दो प्रकार के अनुरोधों का समर्थन करते हैं:"
     }
   ],
   "faq.body.requests.1.1": [
@@ -892,7 +878,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Data Deletion Requests"
+          "value": "डेटा हटाने के अनुरोध"
         }
       ],
       "type": 8,
@@ -900,7 +886,7 @@
     },
     {
       "type": 0,
-      "value": " (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
+      "value": " (जिसे मिटाने का अनुरोध या भूल जाने के अधिकार भी कहा जाता है) आपको संगठन से अपनी व्यक्तिगत जानकारी हटाने का मार्ग देता है।"
     }
   ],
   "faq.body.requests.1.2": [
@@ -908,7 +894,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Access requests"
+          "value": "पहुँच के अनुरोध"
         }
       ],
       "type": 8,
@@ -916,13 +902,13 @@
     },
     {
       "type": 0,
-      "value": " (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
+      "value": " (जिसे विषय पहुँच अनुरोध या SAR कहा जाता है) आपको संगठन से अपनी व्यक्तिगत जानकारी की प्रति प्राप्त करने का अधिकार देता है।"
     }
   ],
   "faq.body.trust.1": [
     {
       "type": 0,
-      "value": "We are a registered nonprofit organization called "
+      "value": "हम एक पंजीकृत गैर-लाभकारी संगठन हैं जिसे "
     },
     {
       "children": [
@@ -936,13 +922,13 @@
     },
     {
       "type": 0,
-      "value": ". We believe in transparency, and therefore the source code for this service is "
+      "value": " कहा जाता है। हम पारदर्शिता में विश्वास करते हैं, इसलिए इस सेवा का स्रोत कोड "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "open source"
+          "value": "खुला स्रोत"
         }
       ],
       "type": 8,
@@ -950,19 +936,19 @@
     },
     {
       "type": 0,
-      "value": ". As for October 2022, we have helped individuals submit more than 100,000 requests to various organizations"
+      "value": " है। अक्टूबर 2022 तक, हमने विभिन्न संगठनों को 100,000 से अधिक अनुरोध प्रस्तुत करने में व्यक्तियों की मदद की है।"
     }
   ],
   "faq.body.trust.2": [
     {
       "type": 0,
-      "value": "We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your "
+      "value": "हम स्वतंत्र हैं, आपका व्यक्तिगत डेटा नहीं बेचते, और जिन संगठनों को हम डेटा अनुरोध भेजने में आपकी मदद करते हैं उनसे संबद्ध नहीं हैं। हम उन्हें कोई सेवा भी प्रदान नहीं करते। हम आपकी "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "donations"
+          "value": "दानों"
         }
       ],
       "type": 8,
@@ -970,19 +956,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " द्वारा वित्त पोषित हैं।"
     }
   ],
   "faq.body.trust.3": [
     {
       "type": 0,
-      "value": "We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our "
+      "value": "हमने यह सेवा इस तरह बनाई है कि डिफ़ॉल्ट रूप से हमें आपकी कोई व्यक्तिगत जानकारी संग्रहित करने की आवश्यकता नहीं है। जब वैकल्पिक सुविधाएं व्यक्तिगत जानकारी मांगती हैं, तो हम इसे 120 दिनों के बाद हटा देते हैं। कृपया हमारी "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "privacy policy"
+          "value": "गोपनीयता नीति"
         }
       ],
       "type": 8,
@@ -990,109 +976,109 @@
     },
     {
       "type": 0,
-      "value": " for details."
+      "value": " देखें।"
     }
   ],
   "faq.body.verify.1": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to verify the identity of the individual submitting a request to prevent fraud. Most laws also state that the verification method should be proportional to the nature of the data involved. For example, if you request a copy of your message history from a typical internet forum a simple verification that you own the email address associated with your account should be enough. On the other hand, if you request your transaction history from a financial institution, they are justified in asking you to provide additional information such as a photo ID and proof of address."
+      "value": "डेटा संरक्षण कानून संगठन को अनुरोध करने वाले व्यक्ति की पहचान सत्यापित करने के लिए बाध्य करते हैं ताकि धोखाधड़ी रोकी जा सके। अधिकतर कानून बताते हैं कि सत्यापन विधि डेटा के प्रकार के अनुसार संगत होनी चाहिए। उदाहरण के लिए, अगर आप इंटरनेट फ़ोरम से अपना संदेश इतिहास माँग रहे हैं, तो आपका ईमेल पता प्रमाण पर्याप्त होता है। परंतु यदि आप वित्तीय संस्थान से लेन-देन इतिहास मांगते हैं, तो वे फोटो आईडी और पते का प्रमाण माँगने के लिए उचित ठहराए जाते हैं।"
     }
   ],
   "faq.body.verify.2": [
     {
       "type": 0,
-      "value": "In most cases, a simple verification that you own the email address associated with your account should be enough. When you use this service to send a request, an email is sent from your email app, which provides this basic verification."
+      "value": "अधिकांश मामलों में, आपका खाता संबंधित ईमेल पते का सत्यापन पर्याप्त होता है। जब आप इस सेवा से अनुरोध भेजते हैं, तो आपका ईमेल ऐप एक ईमेल भेजता है जो यह बुनियादी सत्यापन प्रदान करता है।"
     }
   ],
   "faq.body.verify.3": [
     {
       "type": 0,
-      "value": "To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+      "value": "आपकी अतिरिक्त सुरक्षा के लिए, हम आपके लिए बनाए गए अनुरोध स्पष्ट रूप से कहते हैं कि संगठन अनुरोध के अलावा किसी अन्य उद्देश्य के लिए आपकी व्यक्तिगत जानकारी का उपयोग न करें।"
     }
   ],
   "faq.heading.YDR": [
     {
       "type": 0,
-      "value": "What is YourDigitalRights.org?"
+      "value": "YourDigitalRights.org क्या है?"
     }
   ],
   "faq.heading.contact": [
     {
       "type": 0,
-      "value": "I have a further question, how can I contact you?"
+      "value": "मेरे पास और प्रश्न हैं, मैं आपसे कैसे संपर्क करूं?"
     }
   ],
   "faq.heading.contribute": [
     {
       "type": 0,
-      "value": "This service is fantastic. Can I help?"
+      "value": "यह सेवा शानदार है। क्या मैं मदद कर सकता हूँ?"
     }
   ],
   "faq.heading.data-protection": [
     {
       "type": 0,
-      "value": "What are data protection laws?"
+      "value": "डेटा संरक्षण कानून क्या हैं?"
     }
   ],
   "faq.heading.escalate": [
     {
       "type": 0,
-      "value": "What should I do if an organization does not fully comply with my request?"
+      "value": "यदि कोई संगठन मेरे अनुरोध का पूरी तरह पालन न करे तो मैं क्या करूं?"
     }
   ],
   "faq.heading.how": [
     {
       "type": 0,
-      "value": "How does the service work?"
+      "value": "यह सेवा कैसे काम करती है?"
     }
   ],
   "faq.heading.new-regulation": [
     {
       "type": 0,
-      "value": "My country has a new data protection law. Will you support it?"
+      "value": "मेरे देश में नया डेटा संरक्षण कानून आया है। क्या आप इसे समर्थन करेंगे?"
     }
   ],
   "faq.heading.refuse": [
     {
       "type": 0,
-      "value": "Can organizations say no?"
+      "value": "क्या संगठन मना कर सकते हैं?"
     }
   ],
   "faq.heading.regulations": [
     {
       "type": 0,
-      "value": "What countries, states, or regulations are supported?"
+      "value": "कौन से देश, राज्य, या नियम समर्थित हैं?"
     }
   ],
   "faq.heading.requests": [
     {
       "type": 0,
-      "value": "What kind of requests can I make using this service?"
+      "value": "मैं इस सेवा का उपयोग करके किस तरह के अनुरोध कर सकता हूँ?"
     }
   ],
   "faq.heading.trust": [
     {
       "type": 0,
-      "value": "Who is operating this service? Can I trust you?"
+      "value": "यह सेवा कौन चला रहा है? क्या मैं आप पर भरोसा कर सकता हूँ?"
     }
   ],
   "faq.heading.verify": [
     {
       "type": 0,
-      "value": "An organization has asked me to provide further personal information to verify my identity. Is this legal? Can they use this information for other purposes?"
+      "value": "कोई संगठन मुझसे मेरी पहचान सत्यापित करने के लिए अतिरिक्त व्यक्तिगत जानकारी माँग रहा है। क्या यह कानूनी है? क्या वे इस जानकारी का अन्य प्रयोजनों के लिए उपयोग कर सकते हैं?"
     }
   ],
   "faq.title": [
     {
       "type": 0,
-      "value": "Frequently Asked Questions"
+      "value": "अक्सर पूछे जाने वाले प्रश्न"
     }
   ],
   "footer.contact": [
     {
       "type": 0,
-      "value": "© Copyright 2019 - 2022"
+      "value": "© कॉपीराइट 2019 - 2022"
     }
   ],
   "footer.disclaimer": [
@@ -1100,7 +1086,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Disclaimer:"
+          "value": "अस्वीकरण:"
         }
       ],
       "type": 8,
@@ -1108,7 +1094,7 @@
     },
     {
       "type": 0,
-      "value": " This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
+      "value": " यह सेवा जैसा है, बिना किसी वारंटी के प्रदान की जाती है। इस सेवा का उपयोग पूरी तरह से आपकी अपनी जोखिम पर है। हम इस सेवा के उपयोग से होने वाले किसी भी सीधे या अप्रत्यक्ष नुकसान के लिए जिम्मेदार नहीं होंगे। इस सेवा द्वारा प्रदान की गई जानकारी और हमारी वेबसाइट पर कानूनी मामलों से संबंधित सामग्री आपका निजी उपयोग के लिए है और कानूनी सलाह नहीं है। यदि आपको किसी विशिष्ट समस्या के लिए कानूनी सलाह चाहिए, तो आपको एक लाइसेंस प्राप्त वकील से संपर्क करना चाहिए।"
     }
   ],
   "footer.madeBy": [
@@ -1116,7 +1102,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Made by Conscious Digital"
+          "value": "Conscious Digital द्वारा निर्मित"
         }
       ],
       "type": 8,
@@ -1126,7 +1112,7 @@
   "footer.poweredBy": [
     {
       "type": 0,
-      "value": "Powered by Vercel"
+      "value": "Vercel द्वारा संचालित"
     }
   ],
   "footer.privacyPolicy": [
@@ -1134,7 +1120,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Privacy Policy"
+          "value": "गोपनीयता नीति"
         }
       ],
       "type": 8,
@@ -1146,7 +1132,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Statistics"
+          "value": "सांख्यिकी"
         }
       ],
       "type": 8,
@@ -1156,99 +1142,85 @@
   "footer.wishList": [
     {
       "type": 0,
-      "value": "make a wish on our roadmap"
+      "value": "हमारे रोडमैप पर एक इच्छा बनाएं"
     }
   ],
   "hero.headerText": [
     {
       "type": 0,
-      "value": "Get organizations to delete your account or provide a copy of your personal information."
+      "value": "संगठनों को आपका खाता हटाने या आपकी व्यक्तिगत जानकारी की प्रति प्रदान करने के लिए कहें।"
     }
   ],
   "hero.heading": [
     {
       "type": 0,
-      "value": "Own Your Data"
+      "value": "अपना डेटा स्वामित्व रखें"
     }
   ],
   "hero.intro": [
     {
       "type": 0,
-      "value": "Many organizations collect and sell your personal data, often without your consent. Use this free service to send them a data deletion or access request. Start by searching for an organization below."
+      "value": "कई संगठन आपकी व्यक्तिगत जानकारी आपके सहमति के बिना एकत्र और बेचते हैं। इस मुफ्त सेवा का उपयोग करके उन्हें डेटा हटाने या पहुँच अनुरोध भेजें। नीचे एक संगठन खोज कर शुरू करें।"
     }
   ],
   "howItWorks.followUp": [
     {
       "type": 0,
-      "value": "using our smart follow-up assistant to help ensure that the organization complies with your request, and even help you escalate your request to the relevant government regulator."
+      "value": "हमारे स्मार्ट फॉलो-अप सहायक का उपयोग करके सुनिश्चित करें कि संगठन आपके अनुरोध का पालन करे, और यदि आवश्यक हो तो संबंधित सरकारी नियामक तक अपील करें।"
     }
   ],
   "howItWorks.followUpTitle": [
     {
       "type": 0,
-      "value": "Follow-up"
+      "value": "फॉलो-अप"
     }
   ],
   "howItWorks.imgAlt": [
     {
       "type": 0,
-      "value": "A graphic representing the user interface"
+      "value": "एक ग्राफिक जो उपयोगकर्ता इंटरफ़ेस का प्रतिनिधित्व करता है"
     }
   ],
   "howItWorks.search": [
     {
       "type": 0,
-      "value": "for an organization using the search box at the top of this page."
+      "value": "इस पृष्ठ के शीर्ष पर खोज बॉक्स का उपयोग करके एक संगठन के लिए।"
     }
   ],
   "howItWorks.searchTitle": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "खोजें"
     }
   ],
   "howItWorks.send": [
     {
       "type": 0,
-      "value": "the organization a request to delete, or provide a copy of your data."
+      "value": "संगठन को डेटा हटाने या आपकी जानकारी की प्रति प्राप्त करने का अनुरोध भेजें।"
     }
   ],
   "howItWorks.sendTitle": [
     {
       "type": 0,
-      "value": "Send"
+      "value": "भेजें"
     }
   ],
   "howItWorks.title": [
     {
       "type": 0,
-      "value": "How it works"
+      "value": "यह कैसे काम करता है"
     }
   ],
   "howItWorks.whyBody": [
     {
       "type": 0,
-      "value": "We are a registered charity called "
+      "value": "हम Conscious Digital नामक एक पंजीकृत चैरिटी हैं। हमने यह सेवा इसलिए बनाई क्योंकि हमें विश्वास है कि निजता महत्वपूर्ण है, और इसका अभ्यास सरल और मुफ्त होना चाहिए। हम व्यक्तिगत डेटा एकत्र या बेचते नहीं हैं। सेवा उसके निर्माताओं द्वारा और आपके "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Conscious Digital"
-        }
-      ],
-      "type": 8,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ". We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "donations"
+          "value": "दानों"
         }
       ],
       "type": 8,
@@ -1256,103 +1228,103 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " की मदद से वित्त पोषित होती है।"
     }
   ],
   "howItWorks.whyTitle": [
     {
       "type": 0,
-      "value": "Why Trust Us?"
+      "value": "हमें क्यों भरोसा करें?"
     }
   ],
   "howItWorks.yourData": [
     {
       "type": 0,
-      "value": "Data protection laws require organizations to delete or provide you with a copy of your data upon request. Organizations have a short time period to comply, otherwise, they can face steep fines. Our mission is to make it easy for you to exercise your legal rights."
+      "value": "डेटा संरक्षण कानून संगठन को आपके अनुरोध पर आपका डेटा हटाने या एक प्रति प्रदान करने के लिए बाध्य करते हैं। संगठनों के पास पालन के लिए सीमित समय होता है, अन्यथा उन्हें भारी जुर्माना भुगतना पड़ सकता है। हमारा मिशन आपके कानूनी अधिकारों का उपयोग करना आसान बनाना है।"
     }
   ],
   "howItWorks.yourDataTitle": [
     {
       "type": 0,
-      "value": "You have the right to privacy!"
+      "value": "आपका अधिकार है कि आपकी निजता हो!"
     }
   ],
   "index.description": [
     {
       "type": 0,
-      "value": "Delete your account or access the personal data organizations have on you using this free service."
+      "value": "इस मुफ्त सेवा का उपयोग करते हुए अपने खाते को हटाएं या संगठनों से आपकी व्यक्तिगत जानकारी की पहुँच प्राप्त करें।"
     }
   ],
   "nav.about": [
     {
       "type": 0,
-      "value": "About"
+      "value": "हमारे बारे में"
     }
   ],
   "nav.blog": [
     {
       "type": 0,
-      "value": "Blog"
+      "value": "ब्लॉग"
     }
   ],
   "nav.contact": [
     {
       "type": 0,
-      "value": "Contact Us"
+      "value": "संपर्क करें"
     }
   ],
   "nav.contribute": [
     {
       "type": 0,
-      "value": "Contribute"
+      "value": "योगदान करें"
     }
   ],
   "nav.data-brokers": [
     {
       "type": 0,
-      "value": "Data Brokers"
+      "value": "डेटा ब्रोकर"
     }
   ],
   "nav.donate": [
     {
       "type": 0,
-      "value": "Make a Donation"
+      "value": "दान करें"
     }
   ],
   "nav.donation": [
     {
       "type": 0,
-      "value": "Make a Donation"
+      "value": "दान करें"
     }
   ],
   "nav.faq": [
     {
       "type": 0,
-      "value": "FAQ"
+      "value": "अक्सर पूछे जाने वाले प्रश्न"
     }
   ],
   "nav.helpTranslate": [
     {
       "type": 0,
-      "value": "Help translate"
+      "value": "अनुवाद में मदद करें"
     }
   ],
   "nav.howItWorks": [
     {
       "type": 0,
-      "value": "How it works"
+      "value": "यह कैसे काम करता है"
     }
   ],
   "nav.privacyPoilcy": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "गोपनीयता नीति"
     }
   ],
   "nav.stats": [
     {
       "type": 0,
-      "value": "Stats"
+      "value": "सांख्यिकी"
     }
   ],
   "nav.twitterHastag": [
@@ -1364,27 +1336,23 @@
   "org.DescriptionNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR, CCPA and LGPD data deletion and access requests to any organization quickly and easily."
+      "value": "किसी भी संगठन को GDPR, CCPA और LGPD डेटा हटाने और पहुँच अनुरोध तेज़ी से और आसानी से भेजें।"
     }
   ],
   "org.descriptionExistingOrg": [
-    {
-      "type": 0,
-      "value": "Request account deletion or a copy of your personal data from "
-    },
     {
       "type": 1,
       "value": "org"
     },
     {
       "type": 0,
-      "value": " quickly and easily."
+      "value": " से खाता हटाने या अपने व्यक्तिगत डेटा की प्रति का अनुरोध तेज़ी से और आसानी से करें।"
     }
   ],
   "org.titleExistingOrg": [
     {
       "type": 0,
-      "value": "Delete Your "
+      "value": "अपना "
     },
     {
       "type": 1,
@@ -1392,39 +1360,35 @@
     },
     {
       "type": 0,
-      "value": " Account or Get a Copy of Your Data"
+      "value": " खाता हटाएं या अपने डेटा की एक प्रति प्राप्त करें"
     }
   ],
   "org.titleNewOrg": [
     {
       "type": 0,
-      "value": "Send GDPR, CCPA and LGPD Data Deletion and Access Requests"
+      "value": "GDPR, CCPA और LGPD डेटा मिटाने और पहुँच अनुरोध भेजें"
     }
   ],
   "orgHero.newOrgTitle": [
     {
       "type": 0,
-      "value": "Send a data deletion or access request."
+      "value": "डेटा हटाने या पहुँच अनुरोध भेजें।"
     }
   ],
   "orgHero.subTitle2": [
-    {
-      "type": 0,
-      "value": "Send "
-    },
     {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": " a data deletion or access request using this "
+      "value": " को डेटा हटाने या पहुँच अनुरोध भेजें इस "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "मुफ्त और स्वतंत्र"
         }
       ],
       "type": 8,
@@ -1432,19 +1396,19 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": " सेवा का उपयोग करके।"
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Get organizations to delete or send you a copy of your personal data using this "
+      "value": "इस "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "free and independent"
+          "value": "मुफ्त और स्वतंत्र"
         }
       ],
       "type": 8,
@@ -1452,13 +1416,13 @@
     },
     {
       "type": 0,
-      "value": " service."
+      "value": " सेवा का उपयोग करके संगठनों को आपका व्यक्तिगत डेटा हटाने या उसकी एक प्रति भेजने के लिए कहें।"
     }
   ],
   "orgHero.title": [
     {
       "type": 0,
-      "value": "Delete your "
+      "value": "अपना "
     },
     {
       "type": 1,
@@ -1466,13 +1430,13 @@
     },
     {
       "type": 0,
-      "value": " account or request your data."
+      "value": " खाता हटाएं या अपने डेटा का अनुरोध करें।"
     }
   ],
   "personalInfoForm.FollowUpDetails": [
     {
       "type": 0,
-      "value": "To ensure that the organization complies with your request, we will email you when it’s time to take further action. You will be given the choice to send the organization a reminder email, or to escalate to the local data protection agency."
+      "value": "सुनिश्चित करने के लिए कि संगठन आपके अनुरोध का पालन करता है, हम आपको ईमेल करेंगे जब आगे की कार्रवाई का समय होगा। आपको विकल्प दिया जाएगा कि संगठन को रिमाइंडर ईमेल भेजा जाए, या स्थानीय डेटा संरक्षण एजेंसी को बढ़ावा दिया जाए।"
     }
   ],
   "personalInfoForm.FollowUpDetailsWarning": [
@@ -1480,7 +1444,7 @@
       "children": [
         {
           "type": 0,
-          "value": "By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email."
+          "value": "यह विकल्प चुनकर आप सहमति देते हैं कि हम निम्न व्यक्तिगत जानकारी को संसाधित और संग्रहीत करें: आपका ईमेल पता, नाम और आपके अनुरोध ईमेल का टेक्स्ट। इस अनुरोध से जुड़ी सभी व्यक्तिगत जानकारी 120 दिनों के भीतर हमारे सिस्टम से स्वतः हटाई जाएगी, जब तक आप अन्यथा निर्दिष्ट न करें। आप हमेशा इसे तुरंत हटाने का विकल्प चुन सकते हैं। हम यह जानकारी उस विशेष ईमेल पते को CC में जोड़कर अपने आप एकत्र करते हैं।"
         }
       ],
       "type": 8,
@@ -1490,19 +1454,19 @@
   "personalInfoForm.FollowUpLabel": [
     {
       "type": 0,
-      "value": "Turn on Smart Follow-up Assistance"
+      "value": "स्मार्ट फॉलो-अप सहायता चालू करें"
     }
   ],
   "personalInfoForm.IdentifyingInfoHelper": [
     {
       "type": 0,
-      "value": "Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. "
+      "value": "वैकल्पिक रूप से कोई भी अतिरिक्त जानकारी प्रदान करें जो संगठन को उनके सूचना प्रणालियों में आपका डेटा खोजने में मदद करे जैसे कि उपयोगकर्ता नाम, ग्राहक आईडी या खाता संख्या। "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Please do not provide your password or any personal information which the organization does not already have."
+          "value": "कृपया अपना पासवर्ड या कोई भी व्यक्तिगत जानकारी जो संगठन के पास पहले से नहीं है, न दें।"
         }
       ],
       "type": 8,
@@ -1512,181 +1476,181 @@
   "personalInfoForm.NoFollowUpLabel": [
     {
       "type": 0,
-      "value": "No, I can manage on my own"
+      "value": "नहीं, मैं खुद ही प्रबंधित कर सकता हूँ"
     }
   ],
   "personalInfoForm.YesFollowUpLabel": [
     {
       "type": 0,
-      "value": "Yes, email me follow-up instructions"
+      "value": "हाँ, मुझे फॉलो-अप निर्देश ईमेल करें"
     }
   ],
   "personalInfoForm.accessRequestLabelText": [
     {
       "type": 0,
-      "value": "Send me a copy of my data"
+      "value": "मुझे मेरा डेटा भेजें"
     }
   ],
   "personalInfoForm.companyDomainHelper": [
     {
       "type": 0,
-      "value": "Please enter the domain name of the organization (example: google.co.uk or facebook.com)."
+      "value": "कृपया संगठन का डोमेन नाम दर्ज करें (उदाहरण: google.co.uk या facebook.com)।"
     }
   ],
   "personalInfoForm.companyDomainLabel": [
     {
       "type": 0,
-      "value": "Organization domain"
+      "value": "संगठन डोमेन"
     }
   ],
   "personalInfoForm.companyEmailLabel": [
     {
       "type": 0,
-      "value": "Organization email address"
+      "value": "संगठन का ईमेल पता"
     }
   ],
   "personalInfoForm.companyNameHelper": [
     {
       "type": 0,
-      "value": "Please enter the name of the organization you would like to contact."
+      "value": "कृपया उस संगठन का नाम दर्ज करें जिससे आप संपर्क करना चाहते हैं।"
     }
   ],
   "personalInfoForm.companyNameLabel": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "संगठन का नाम"
     }
   ],
   "personalInfoForm.compnayEmailHelper": [
     {
       "type": 0,
-      "value": "Please enter the email address of the person or department responsible for handling GDPR / CCPA / privacy / legal requests. You can usually find this information on the organization’s website under the privacy policy, terms and conditions or contact us page."
+      "value": "कृपया उस व्यक्ति या विभाग का ईमेल पता दर्ज करें जो GDPR / CCPA / गोपनीयता / कानूनी अनुरोधों को संभालता हो। यह जानकारी आप आमतौर पर संगठन की वेबसाइट पर गोपनीयता नीति, नियम और शर्तें या संपर्क पृष्ठ पर पा सकते हैं।"
     }
   ],
   "personalInfoForm.deletionRequestLabelText": [
     {
       "type": 0,
-      "value": "Delete my data"
+      "value": "मेरा डेटा हटाएं"
     }
   ],
   "personalInfoForm.headline": [
     {
       "type": 0,
-      "value": "Fill in the form to create a request email which you can then review and send."
+      "value": "फॉर्म भरें ताकि अनुरोध ईमेल बनाएँ जिसे आप बाद में समीक्षा करके भेज सकें।"
     }
   ],
   "personalInfoForm.identifyingInfoLabel": [
     {
       "type": 0,
-      "value": "Additional identifying information (optional)"
+      "value": "अतिरिक्त पहचान जानकारी (वैकल्पिक)"
     }
   ],
   "personalInfoForm.nameHelper": [
     {
       "type": 0,
-      "value": "This will be used by the organization to identify you."
+      "value": "यह जानकारी संगठन द्वारा आपकी पहचान के लिए उपयोग की जाएगी।"
     }
   ],
   "personalInfoForm.nameLabel": [
     {
       "type": 0,
-      "value": "Full name"
+      "value": "पूरा नाम"
     }
   ],
   "personalInfoForm.regulationType": [
     {
       "type": 0,
-      "value": "Regulation"
+      "value": "नियमावली"
     }
   ],
   "personalInfoForm.regulationTypeHelper": [
     {
       "type": 0,
-      "value": "Choose regulation based on your place of residence, unless you have a specific reason to choose otherwise."
+      "value": "अपने निवास स्थान के आधार पर नियमावली चुनें, जब तक आपके पास विशेष कारण न हो।"
     }
   ],
   "personalInfoForm.requestTypeLabelText": [
     {
       "type": 0,
-      "value": "Request type"
+      "value": "अनुरोध प्रकार"
     }
   ],
   "personalInfoForm.sendButton": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "समीक्षा करें और भेजें"
     }
   ],
   "personalInfoForm.supportButtonCTA": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "सहायता"
     }
   ],
   "personalInfoForm.validEmail": [
     {
       "type": 0,
-      "value": "Please enter a valid email."
+      "value": "कृपया मान्य ईमेल दर्ज करें।"
     }
   ],
   "pressIntro.title": [
     {
       "type": 0,
-      "value": "As featured on"
+      "value": "जहां प्रदर्शित किया गया"
     }
   ],
   "privacy.additionalPersonalData": [
     {
       "type": 0,
-      "value": "Request Follow Ups"
+      "value": "अनुरोध फॉलो-अप"
     }
   ],
   "privacy.additionalPersonalDataBody1": [
     {
       "type": 0,
-      "value": "While using this Service, following the submission of a data request, you may opt-in to receive further support from us via email. If you choose to use this optional feature we will collect the the following additional personal data:"
+      "value": "इस सेवा का उपयोग करते समय, डेटा अनुरोध सबमिट करने के बाद, आप ईमेल के माध्यम से हमें अतिरिक्त सहायता प्राप्त करने के लिए विकल्प चुन सकते हैं। यदि आप यह विकल्प चुनते हैं, तो हम निम्न अतिरिक्त व्यक्तिगत डेटा एकत्र करेंगे:"
     }
   ],
   "privacy.additionalPersonalDataBodyOneA": [
     {
       "type": 0,
-      "value": "Your email address"
+      "value": "आपका ईमेल पता"
     }
   ],
   "privacy.additionalPersonalDataBodyOneB": [
     {
       "type": 0,
-      "value": "The content of the data request emails you send to organizations and Data Protection Agencies (DPAs)"
+      "value": "जो डेटा अनुरोध ईमेल आप संगठनों और डेटा संरक्षण एजेंसी (DPA) को भेजते हैं, उनकी सामग्री"
     }
   ],
   "privacy.additionalPersonalDataBodyOneC": [
     {
       "type": 0,
-      "value": "Metadata regarding the data request emails you send to organizations and Data Protection Agencies (DPA), such as the time an email was sent and the to and from addresses"
+      "value": "डेटा अनुरोध ईमेल के मेटाडेटा जैसे भेजने का समय, प्रेषक और प्राप्तकर्ता विवरण"
     }
   ],
   "privacy.additionalPersonalDataBodyOneE": [
     {
       "type": 0,
-      "value": "We keep Extended Personal Data for a maximum of 120 days."
+      "value": "हम एक्सटेंडेड पर्सनल डेटा अधिकतम 120 दिनों तक रखते हैं।"
     }
   ],
   "privacy.additionalPersonalDataBodyOneF": [
     {
       "type": 0,
-      "value": "By voluntarily providing us with Personal Data, you are consenting to our use of it in accordance with this Privacy Policy. If you provide Personal Data to this website, you acknowledge and agree that such Personal Data may be transferred from your current location to the offices and servers of YourDigitalRights.org and the authorized third parties referred to in this Policy."
+      "value": "जब आप स्वेच्छा से हमें व्यक्तिगत डेटा प्रदान करते हैं, तो आप इस गोपनीयता नीति के अनुसार इसके उपयोग की सहमति देते हैं। यदि आप व्यक्तिगत डेटा प्रदान करते हैं, तो आप सहमत हैं कि यह डेटा आपके वर्तमान स्थान से YourDigitalRights.org कार्यालयों और सर्वरों तथा इस नीति में उल्लिखित अधिकृत तीसरे पक्षों को स्थानांतरित किया जा सकता है।"
     }
   ],
   "privacy.contact": [
     {
       "type": 0,
-      "value": "Contact"
+      "value": "संपर्क"
     }
   ],
   "privacy.contactBody": [
     {
       "type": 0,
-      "value": "If you have questions or concerns about this Privacy Policy, please contact us at "
+      "value": "यदि आपके पास इस गोपनीयता नीति के संबंध में प्रश्न या चिंता है, तो कृपया हमें "
     },
     {
       "type": 1,
@@ -1694,73 +1658,73 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " पर संपर्क करें।"
     }
   ],
   "privacy.cookies": [
     {
       "type": 0,
-      "value": "Cookies and Tracking"
+      "value": "कुकीज़ और ट्रैकिंग"
     }
   ],
   "privacy.cookiesBody": [
     {
       "type": 0,
-      "value": "We only use cookies to save the choices you make on the website so that it is easier for you to use the service next time. A cookie is a piece of information that the computer hosting our Service gives to your browser when you access the Service."
+      "value": "हम केवल आपकी वेबसाइट पर बनाई गई पसंदों को सहेजने के लिए कुकीज़ का उपयोग करते हैं ताकि अगली बार सेवा का उपयोग करना आसान हो। कुकी वह जानकारी होती है जो हमारी सेवा कंप्यूटर आपके ब्राउज़र को देता है।"
     }
   ],
   "privacy.description": [
     {
       "type": 0,
-      "value": "You own your data, we exist to help you control who has access to it. This is our privay policy page."
+      "value": "आप अपना डेटा स्वामित्व रखते हैं, हम आपकी मदद के लिए हैं कि कौन इसे एक्सेस कर सकता है। यह हमारी गोपनीयता नीति पृष्ठ है।"
     }
   ],
   "privacy.lastUpdated": [
     {
       "type": 0,
-      "value": "Last updated:"
+      "value": "अंतिम अपडेट:"
     }
   ],
   "privacy.personalData": [
     {
       "type": 0,
-      "value": "Sending Requests"
+      "value": "अनुरोध भेजना"
     }
   ],
   "privacy.personalDataBody1": [
     {
       "type": 0,
-      "value": "While sending requests (without turning on the optional request follow up feature) we ask that you to provide us with the following personal data:"
+      "value": "अनुरोध भेजते समय (वैकल्पिक फॉलो-अप सुविधा चालू न होने पर), हम आपसे निम्न व्यक्तिगत डेटा माँगते हैं:"
     }
   ],
   "privacy.personalDataBodyOneA": [
     {
       "type": 0,
-      "value": "Your name"
+      "value": "आपका नाम"
     }
   ],
   "privacy.personalDataBodyOneB": [
     {
       "type": 0,
-      "value": "Additional information needed to identify you with the organizations you choose to contact (such as a Username, Customer ID or Account Number)"
+      "value": "अतिरिक्त जानकारी जो आपको चुने हुए संगठनों के साथ पहचानने में मदद करती है (जैसे उपयोगकर्ता नाम, ग्राहक आईडी या खाता संख्या)"
     }
   ],
   "privacy.personalDataBodyOneE": [
     {
       "type": 0,
-      "value": "We only use Personal Data collected when you send requests to generate an email, and do not store it on our servers."
+      "value": "हम केवल व्यक्तिगत डेटा का उपयोग करते हैं जो आप अनुरोध भेजते समय जनरेट होता है, और इसे हमारे सर्वरों पर संग्रहित नहीं करते।"
     }
   ],
   "privacy.privacyTitle": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "गोपनीयता नीति"
     }
   ],
   "privacy.processorsA": [
     {
       "type": 0,
-      "value": "Matomo: a privacy minded web analytics service by Innocraft. We use Matomo to collect anonymized information on how the Service is accessed and used ('Usage Data'). You can visit their "
+      "value": "Matomo: Innocraft द्वारा एक गोपनीयता-केंद्रित वेब विश्लेषण सेवा। हम उपयोग डेटा एकत्र करने के लिए Matomo का उपयोग करते हैं। आप उनकी "
     },
     {
       "type": 1,
@@ -1768,13 +1732,13 @@
     },
     {
       "type": 0,
-      "value": " page."
+      "value": " पृष्ठ देख सकते हैं।"
     }
   ],
   "privacy.processorsB": [
     {
       "type": 0,
-      "value": "Amazon AWS: a provider of cloud infrastructure services. When you opt-in to Request Follow Ups we use AWS to process the emails you send, store related information and send you reminder emails. You can visit their "
+      "value": "Amazon AWS: क्लाउड इंफ्रास्ट्रक्चर सेवा प्रदाता। जब आप अनुरोध फॉलो-अप चुनते हैं, तो हम AWS का उपयोग ईमेल प्रोसेसिंग, संबंधित जानकारी संग्रहीत करने और आपको रिमाइंडर ईमेल भेजने के लिए करते हैं। आप उनकी "
     },
     {
       "type": 1,
@@ -1782,103 +1746,103 @@
     },
     {
       "type": 0,
-      "value": " page."
+      "value": " पृष्ठ देख सकते हैं।"
     }
   ],
   "privacy.promise": [
     {
       "type": 0,
-      "value": "Our Promise"
+      "value": "हमारा वादा"
     }
   ],
   "privacy.promiseBody": [
     {
       "type": 0,
-      "value": "You own your data. We exist to help you control who has access to it. We strongly believe in keeping your personal information personal, private and secure. We do not use non essential cookies and limit the Personal Data we collect from you to the absolute minimum required to deliver this Service (YourDigitalRights.org). In some cases you can turn on optional features which require you to provide additional Personal Data. Such cases require you to explicitly opt-in, and are clearly labeled. We will never sell or rent your personal information to anyone and will not retain it on our servers for more than 120 days. We will only share your personal information when it is required to provide the service or as otherwise outlined in this Policy."
+      "value": "आपका डेटा आपका है। हम आपकी सहायता करते हैं कि कौन इसका उपयोग कर सकता है। हम आपकी व्यक्तिगत जानकारी को निजी, सुरक्षित और गोपनीय रखने में विश्वास करते हैं। हम गैर-ज़रूरी कुकीज़ का उपयोग नहीं करते और जितना आवश्यक हो केवल व्यक्तिगत डेटा संग्रह करते हैं। कुछ मामलों में वैकल्पिक सुविधाएँ अतिरिक्त डेटा माँगती हैं, जो चुनी जाती हैं और स्पष्ट रूप से चिह्नित हैं। हम कभी भी आपका डेटा किसी को बेचेंगे या 120 दिनों से अधिक नहीं रखेंगे। हम आपकी जानकारी केवल सेवा देने या नीति में बताई गई स्थितियों में साझा करेंगे।"
     }
   ],
   "privacy.title": [
     {
       "type": 0,
-      "value": "Privacy Policy"
+      "value": "गोपनीयता नीति"
     }
   ],
   "privacy.usageDataBody": [
     {
       "type": 0,
-      "value": "We work with the following third party providers to perform some data processing tasks on our behalf. We engage these providers on terms that ensure the confidentiality and security of your data."
+      "value": "हम कुछ डेटा प्रसंस्करण कार्यों के लिए निम्न तीसरे पक्ष प्रदाताओं के साथ काम करते हैं। हम इन प्रदाताओं के साथ गोपनीयता और सुरक्षा सुनिश्चित करने वाले शर्तों पर काम करते हैं।"
     }
   ],
   "privacyAlerts.description1": [
     {
       "type": 0,
-      "value": "A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies."
+      "value": "एक मासिक ईमेल जिसमें हमारी अनुसंधान टीम द्वारा पहचानी गई तीन सबसे अधिक गोपनीयता का उल्लंघन करने वाली कंपनियां सूचीबद्ध होती हैं। अपनी गोपनीयता को बेहतर बनाएं और पाँच मिनट हर महीने ऐसे कंपनियों से बाहर निकलने में लगाएं।"
     }
   ],
   "privacyAlerts.seoDescription": [
     {
       "type": 0,
-      "value": "Subscribe to our monthly privacy alerts"
+      "value": "हमारे मासिक गोपनीयता अलर्ट की सदस्यता लें"
     }
   ],
   "privacyAlerts.seoTitle": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "गोपनीयता अलर्ट"
     }
   ],
   "privacyAlerts.title": [
     {
       "type": 0,
-      "value": "Privacy Alerts"
+      "value": "गोपनीयता अलर्ट"
     }
   ],
   "privacyAlerts.whyPrivacy": [
     {
       "type": 0,
-      "value": "Why you should invest in your privacy?"
+      "value": "आपको अपनी गोपनीयता में निवेश क्यों करना चाहिए?"
     }
   ],
   "privacyAlerts.whyPrivacyBody1": [
     {
       "type": 0,
-      "value": "Every online interaction we make leaves behind traces of our personal information. Companies we interact with, data brokers, governments, and individuals who are up to no good are all interested in our data."
+      "value": "हमारी हर ऑनलाइन बातचीत हमारी व्यक्तिगत जानकारी के निशान छोड़ती है। जिन कंपनियों से हम संपर्क करते हैं, डेटा ब्रोकर, सरकारें, और वे व्यक्ति जो गलत इरादों वाले हैं, सभी हमारी जानकारी में रुचि रखते हैं।"
     }
   ],
   "privacyAlerts.whyPrivacyBody2": [
     {
       "type": 0,
-      "value": "This reality leaves us exposed to a variety of influence campaigns. These include targeted online advertising, political and social manipulation via fake news, various types of fraud such as identity theft, and addictive apps and online services. All of which are made possible by the abundance of personal information we leave behind."
+      "value": "यह वास्तविकता हमें विभिन्न प्रभाव अभियानों के लिए उजागर करती है। इनमें लक्षित ऑनलाइन विज्ञापन, नकली समाचार के माध्यम से राजनीतिक और सामाजिक मनिपुलेशन, पहचान चोरी जैसे विभिन्न प्रकार के धोखा, और व्यसनी एप्लिकेशन और ऑनलाइन सेवाएं शामिल हैं। ये सब संभव होते हैं हमारी छोड़ी गई अत्यधिक व्यक्तिगत जानकारी की वजह से।"
     }
   ],
   "privacyAlerts.whyPrivacyBody3": [
     {
       "type": 0,
-      "value": "So how do we get it back under control?"
+      "value": "तो हम इसे कैसे नियंत्रण में लाएं?"
     }
   ],
   "privacyAlerts.whyPrivacyBody4": [
     {
       "type": 0,
-      "value": "We have designed Privacy Alerts based on feedback from the people using our services. It is a simple way to improve your online privacy over time by spending only five minutes a month opting out of the worst-offending companies hand-picked by our research team."
+      "value": "हमने Privacy Alerts को हमारी सेवाओं का उपयोग करने वाले लोगों की प्रतिक्रिया के आधार पर डिजाइन किया है। यह एक आसान तरीका है अपनी ऑनलाइन गोपनीयता को समय के साथ बेहतर बनाने का, केवल पाँच मिनट मासिक समय निकालकर हमारी अनुसंधान टीम द्वारा चुनी गई सबसे खराब उल्लंघन करने वाली कंपनियों से बाहर निकलने का।"
     }
   ],
   "redirect.continueText": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "जारी रखें"
     }
   ],
   "redirect.headingText": [
     {
       "type": 0,
-      "value": "opt-out.eu is now yourdigitalrights.org"
+      "value": "opt-out.eu अब yourdigitalrights.org है"
     }
   ],
   "redirect.text": [
     {
       "type": 0,
-      "value": "Great news, this service is growing! We have recently launched support for the California Consumer Privacy Act (CCPA), and will soon launch support for additional request types beyond erasure. As a result we feel that the domain name ‘opt-out.eu’ is too limiting. We are more committed than ever to help you exercise your digital rights, welcome to our new home @ "
+      "value": "शुभ समाचार, यह सेवा बढ़ रही है! हमने हाल ही में कैलिफोर्निया उपभोक्ता गोपनीयता अधिनियम (CCPA) के लिए समर्थन लॉन्च किया है, और जल्द ही हटाने के अलावा अन्य अनुरोध प्रकारों के लिए भी समर्थन लॉन्च करेंगे। इसलिए हमें लगता है कि डोमेन नाम ‘opt-out.eu’ सीमित है। हम आपकी डिजिटल अधिकारों का उपयोग करने में आपकी मदद के लिए पहले से अधिक प्रतिबद्ध हैं, हमारी नई वेबसाइट पर आपका स्वागत है: "
     },
     {
       "children": [
@@ -1898,7 +1862,7 @@
   "request.description": [
     {
       "type": 0,
-      "value": "View details about a "
+      "value": "इस मुफ्त सेवा के साथ प्रस्तुत किए गए "
     },
     {
       "type": 1,
@@ -1906,109 +1870,109 @@
     },
     {
       "type": 0,
-      "value": " request submitted with this free service."
+      "value": " अनुरोध के बारे में विवरण देखें।"
     }
   ],
   "request.details.date": [
     {
       "type": 0,
-      "value": "Request email date:"
+      "value": "अनुरोध ईमेल तिथि:"
     }
   ],
   "request.details.escalationDate": [
     {
       "type": 0,
-      "value": "Escalation email date:"
+      "value": "बढ़ावा ईमेल तिथि:"
     }
   ],
   "request.details.header": [
     {
       "type": 0,
-      "value": "Request details"
+      "value": "अनुरोध विवरण"
     }
   ],
   "request.details.hide.escalation": [
     {
       "type": 0,
-      "value": "Hide escalation email"
+      "value": "बढ़ावा ईमेल छुपाएं"
     }
   ],
   "request.details.hide.reminder": [
     {
       "type": 0,
-      "value": "Hide reminder email"
+      "value": "रिमाइंडर ईमेल छुपाएं"
     }
   ],
   "request.details.hide.request": [
     {
       "type": 0,
-      "value": "Hide request email"
+      "value": "अनुरोध ईमेल छुपाएं"
     }
   ],
   "request.details.name": [
     {
       "type": 0,
-      "value": "Requested by:"
+      "value": "अनुरोधकर्ता:"
     }
   ],
   "request.details.nowDetails": [
     {
       "type": 0,
-      "value": "Request details are not avaialble at this time, please refresh the page once you have sent the email."
+      "value": "इन समयों पर अनुरोध विवरण उपलब्ध नहीं हैं, कृपया ईमेल भेजने के बाद पृष्ठ रीफ़्रेश करें।"
     }
   ],
   "request.details.organization": [
     {
       "type": 0,
-      "value": "Recipient:"
+      "value": "प्राप्तकर्ता:"
     }
   ],
   "request.details.regulation": [
     {
       "type": 0,
-      "value": "Regulation:"
+      "value": "नियमावली:"
     }
   ],
   "request.details.reminderDate": [
     {
       "type": 0,
-      "value": "Reminder email date:"
+      "value": "रिमाइंडर ईमेल तिथि:"
     }
   ],
   "request.details.sentTo": [
     {
       "type": 0,
-      "value": "Recipient email address:"
+      "value": "प्राप्तकर्ता ईमेल पता:"
     }
   ],
   "request.details.show.escalation": [
     {
       "type": 0,
-      "value": "View escalation email"
+      "value": "बढ़ावा ईमेल देखें"
     }
   ],
   "request.details.show.reminder": [
     {
       "type": 0,
-      "value": "View reminder email"
+      "value": "रिमाइंडर ईमेल देखें"
     }
   ],
   "request.details.show.request": [
     {
       "type": 0,
-      "value": "View request email"
+      "value": "अनुरोध ईमेल देखें"
     }
   ],
   "request.details.type": [
     {
       "type": 0,
-      "value": "Request type:"
+      "value": "अनुरोध प्रकार:"
     }
   ],
   "request.hero.declined": [
     {
       "type": 0,
-      "value": "Declined"
+      "value": "अस्वीकृत"
     }
   ],
   "request.hero.declinedRequest": [
@@ -2018,7 +1982,7 @@
     },
     {
       "type": 0,
-      "value": " declined your request."
+      "value": " ने आपका अनुरोध अस्वीकार कर दिया।"
     }
   ],
   "request.hero.didNotReply": [
@@ -2028,19 +1992,19 @@
     },
     {
       "type": 0,
-      "value": " did not reply yet."
+      "value": " ने अभी तक जवाब नहीं दिया।"
     }
   ],
   "request.hero.domainTitle": [
     {
       "type": 0,
-      "value": "Domain:"
+      "value": "डोमेन:"
     }
   ],
   "request.hero.handledPartially": [
     {
       "type": 0,
-      "value": "Handled partially"
+      "value": "आंशिक रूप से संभाला गया"
     }
   ],
   "request.hero.handledRequest": [
@@ -2050,19 +2014,19 @@
     },
     {
       "type": 0,
-      "value": " handled your request successfuly."
+      "value": " ने आपका अनुरोध सफलतापूर्वक संभाला।"
     }
   ],
   "request.hero.handledSuccessfully": [
     {
       "type": 0,
-      "value": "Handled successfully"
+      "value": "सफलतापूर्वक संभाला गया"
     }
   ],
   "request.hero.header": [
     {
       "type": 0,
-      "value": "Your data "
+      "value": "आपका डेटा "
     },
     {
       "type": 1,
@@ -2070,17 +2034,21 @@
     },
     {
       "type": 0,
-      "value": " request to "
+      "value": " अनुरोध "
     },
     {
       "type": 1,
       "value": "companyName"
+    },
+    {
+      "type": 0,
+      "value": " को"
     }
   ],
   "request.hero.noReply": [
     {
       "type": 0,
-      "value": "No reply"
+      "value": "कोई उत्तर नहीं"
     }
   ],
   "request.hero.partiallyHandled": [
@@ -2090,7 +2058,7 @@
     },
     {
       "type": 0,
-      "value": " handled your request partially."
+      "value": " ने आपका अनुरोध आंशिक रूप से संभाला।"
     }
   ],
   "request.hero.reference": [
@@ -2102,25 +2070,25 @@
   "request.hero.referenceTitle": [
     {
       "type": 0,
-      "value": "Reference:"
+      "value": "संदर्भ:"
     }
   ],
   "request.hero.requestNotSent": [
     {
       "type": 0,
-      "value": "please send the request email, then refresh this page."
+      "value": "कृपया अनुरोध ईमेल भेजें, फिर इस पृष्ठ को रीफ़्रेश करें।"
     }
   ],
   "request.hero.requestStatus": [
     {
       "type": 0,
-      "value": "Request Status:"
+      "value": "अनुरोध की स्थिति:"
     }
   ],
   "request.next.circumstancesToDecline": [
     {
       "type": 0,
-      "value": "There are certain exceptional circumstances when an organization is legally permitted to decline to comply with your request."
+      "value": "ऐसे कुछ विशेष परिस्थितियाँ हैं जब संगठन कानूनी रूप से आपके अनुरोध का पालन करने से इंकार कर सकता है।"
     }
   ],
   "request.next.declineAPPI": [
@@ -2130,7 +2098,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to threaten the life, body, or property of the identifiable person;"
+              "value": "कोई भी व्यक्तिगत डेटा जिसकी डेटाबेस में मौजूदगी या गैर-मौजूदगी से पहचान योग्य व्यक्ति के जीवन, शरीर, या संपत्ति को खतरा हो सकता है;"
             }
           ],
           "type": 8,
@@ -2140,7 +2108,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to prompt or trigger an illegal activity or wrongful conduct;"
+              "value": "कोई भी व्यक्तिगत डेटा जिसकी डेटाबेस में मौजूदगी या गैर-मौजूदगी से किसी अवैध गतिविधि या गलत आचरण को प्रेरित या प्रारंभ करने की संभावना हो;"
             }
           ],
           "type": 8,
@@ -2150,7 +2118,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to undermine national security, damage a relationship of confidence with a foreign country or international organization, or put the country at a disadvantage in negotiations with another country or with an international organization;"
+              "value": "कोई भी व्यक्तिगत डेटा जिसकी डेटाबेस में मौजूदगी या गैर-मौजूदगी से राष्ट्रीय सुरक्षा को कमजोर करने, किसी विदेशी देश या अंतरराष्ट्रीय संगठन के साथ विश्वास संबंधों को नुकसान पहुंचाने, या किसी देश को अन्य देश या अंतरराष्ट्रीय संगठन के साथ बातचीत में नुकसान में डालने की संभावना हो;"
             }
           ],
           "type": 8,
@@ -2160,7 +2128,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Any personal data whose known presence or absence of a database is likely to interfere with crime prevention, crime control, or criminal investigations or with otherwise upholding public safety and order."
+              "value": "कोई भी व्यक्तिगत डेटा जिसकी डेटाबेस में मौजूदगी या गैर-मौजूदगी से अपराध रोकथाम, अपराध नियंत्रण, या आपराधिक जांचों में बाधा डालने या सार्वजनिक सुरक्षा और व्यवस्था को कायम रखने में दिक्कत हो।"
             }
           ],
           "type": 8,
@@ -2178,7 +2146,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Free speech or another right provided by law."
+              "value": "मुक्त अभिव्यक्ति या कोई अन्य कानूनी अधिकार।"
             }
           ],
           "type": 8,
@@ -2188,7 +2156,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
+              "value": "अनुसंधान के उद्देश्यों के लिए प्रसंस्करण, यदि व्यक्तिगत जानकारी को हटाने से अनुसंधान पूर्ण या गंभीर रूप से प्रभावित हो।"
             }
           ],
           "type": 8,
@@ -2198,7 +2166,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
+              "value": "अवैध गतिविधि से सुरक्षा या अपराधियों को दंडित करने के लिए आवश्यक जानकारी का प्रसंस्करण।"
             }
           ],
           "type": 8,
@@ -2208,7 +2176,7 @@
           "children": [
             {
               "type": 0,
-              "value": "For complying with a legal obligation."
+              "value": "कानूनी बाध्यता का पालन।"
             }
           ],
           "type": 8,
@@ -2218,7 +2186,7 @@
           "children": [
             {
               "type": 0,
-              "value": "To perform a contract between the business and the consumer."
+              "value": "व्यवसाय और उपभोक्ता के बीच अनुबंध को निभाना।"
             }
           ],
           "type": 8,
@@ -2228,7 +2196,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
+              "value": "सुरक्षा घटनाओं का पता लगाना, धोखाधड़ी या अवैध गतिविधि से सुरक्षा, या अपराधियों को दंडित करना।"
             }
           ],
           "type": 8,
@@ -2238,7 +2206,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Debug to identify and repair errors that impair existing intended functionality."
+              "value": "त्रुटियों को पहचानने और ठीक करने के लिए डिबगिंग।"
             }
           ],
           "type": 8,
@@ -2248,7 +2216,7 @@
           "children": [
             {
               "type": 0,
-              "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+              "value": "भीतरी उपयोग जो उपभोक्ता की अपेक्षाओं के अनुरूप हो।"
             }
           ],
           "type": 8,
@@ -2258,7 +2226,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+              "value": "कानूनी, संगत उपयोग।"
             }
           ],
           "type": 8,
@@ -2276,7 +2244,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm-Leach-Bliley Act"
+              "value": "ग्राम-लीच-ब्लाइली एक्ट के अंतर्गत वित्तीय संस्थान और संबद्ध संगठन"
             }
           ],
           "type": 8,
@@ -2286,7 +2254,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Air carriers subject to Federal Aviation Administration regulation"
+              "value": "फेडरल एविएशन एडमिनिस्ट्रेशन के नियमन के अधीन एयर कैरियर्स"
             }
           ],
           "type": 8,
@@ -2296,7 +2264,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National securities associations registered under the Securities Exchange Act"
+              "value": "नेशनल सिक्योरिटीज एसोसिएशंस जो सिक्योरिटीज एक्सचेंज एक्ट के तहत पंजीकृत हैं"
             }
           ],
           "type": 8,
@@ -2306,7 +2274,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Certain types of personal data maintained in compliance with specific federal privacy laws, such the Health Insurance Portability and Accountability Act and the Fair Credit Reporting Act, or for certain governmental purposes."
+              "value": "कुछ प्रकार के व्यक्तिगत डेटा जो विशिष्ट संघीय गोपनीयता कानूनों के अनुपालन में रखे गए हैं, जैसे हेल्थ इंश्योरेंस पोर्टेबिलिटी एंड अकाउंटेबिलिटी एक्ट और फेयर क्रेडिट रिपोर्टिंग एक्ट, या कुछ सरकारी उद्देश्यों के लिए।"
             }
           ],
           "type": 8,
@@ -2324,7 +2292,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt"
+              "value": "राज्य और स्थानीय सरकारें, गैर-लाभकारी संस्थान, उच्च शिक्षा संस्थान, कुछ राष्ट्रीय सिक्योरिटीज एसोसिएशंस, वित्तीय संस्थान, और विशिष्ट अधिनियमों के अंतर्गत कवरेज प्राप्त संस्थाएँ, जैसे ग्राम-लीच-ब्लाइली एक्ट और हेल्थ इंश्योरेंस पोर्टेबिलिटी और अकाउंटेबिलिटी एक्ट, छूट प्राप्त हैं;"
             }
           ],
           "type": 8,
@@ -2334,7 +2302,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा;"
             }
           ],
           "type": 8,
@@ -2344,7 +2312,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employee data including job applicant data"
+              "value": "कर्मी डेटा जिसमें नौकरी आवेदक डेटा शामिल है;"
             }
           ],
           "type": 8,
@@ -2354,7 +2322,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "डी-आइडेंटिफाइड डेटा;"
             }
           ],
           "type": 8,
@@ -2364,7 +2332,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी;"
             }
           ],
           "type": 8,
@@ -2374,7 +2342,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Aggregate information"
+              "value": "समग्रहित जानकारी;"
             }
           ],
           "type": 8,
@@ -2384,7 +2352,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
+              "value": "मानव विषयों के अनुसंधान के लिए या एक क्लिनिकल ट्रायल के हिस्से के रूप में एकत्र की गई व्यक्तिगत जानकारी;"
             }
           ],
           "type": 8,
@@ -2402,7 +2370,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Provide a product or service specifically requested by the consumer."
+              "value": "उपभोक्ता द्वारा विशेष रूप से अनुरोधित उत्पाद या सेवा प्रदान करें।"
             }
           ],
           "type": 8,
@@ -2412,7 +2380,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Perform certain internal operations that reasonably align with consumer expectations."
+              "value": "कुछ आंतरिक क्रियाएं करें जो उपभोक्ता की अपेक्षाओं के अनुरूप हों।"
             }
           ],
           "type": 8,
@@ -2422,7 +2390,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Issue a product recall or repair technical errors."
+              "value": "उत्पाद की वापसी जारी करें या तकनीकी त्रुटियों की मरम्मत करें।"
             }
           ],
           "type": 8,
@@ -2432,7 +2400,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Respond to and prevent security incidents, identity theft, and fraud."
+              "value": "सुरक्षा घटनाओं, पहचान चोरी, और धोखाधड़ी का जवाब दें और उन्हें रोकें।"
             }
           ],
           "type": 8,
@@ -2442,7 +2410,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Comply with federal, state, or local law."
+              "value": "संघीय, राज्य, या स्थानीय कानूनों का अनुपालन करें।"
             }
           ],
           "type": 8,
@@ -2452,7 +2420,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Pseudonymous data."
+              "value": "छद्मनाम डेटा।"
             }
           ],
           "type": 8,
@@ -2462,7 +2430,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data."
+              "value": "पहचान रहित डेटा।"
             }
           ],
           "type": 8,
@@ -2472,7 +2440,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information."
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी।"
             }
           ],
           "type": 8,
@@ -2482,7 +2450,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Public or peer-reviewed scientific research."
+              "value": "सार्वजनिक या सहयोगी समीक्षा किए गए वैज्ञानिक अनुसंधान।"
             }
           ],
           "type": 8,
@@ -2500,7 +2468,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(a) the processing of personal data is necessary for enforcing any legal right or claim;"
+              "value": "(a) किसी भी कानूनी अधिकार या दावा को लागू करने के लिए व्यक्तिगत डेटा का प्रसंस्करण आवश्यक है;"
             }
           ],
           "type": 8,
@@ -2510,7 +2478,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(b) the processing of personal data by any court or tribunal or any other body in India which is entrusted by law with the performance of any judicial or quasi-judicial or regulatory or supervisory function, where such processing is necessary for the performance of such function;"
+              "value": "(b) किसी भी न्यायालय या त्रिब्यूनल या भारत में किसी अन्य निकाय द्वारा किया गया व्यक्तिगत डेटा का प्रसंस्करण जो कानून द्वारा किसी न्यायिक, अर्ध-न्यायिक, नियामक या पर्यवेक्षी कार्य का पालन करने का दायित्व सौंपा गया है, जहां ऐसा प्रसंस्करण उक्त कार्य के पालन के लिए आवश्यक हो;"
             }
           ],
           "type": 8,
@@ -2520,7 +2488,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(c) personal data is processed in the interest of prevention, detection, investigation or prosecution of any offence or contravention of any law for the time being in force in India;"
+              "value": "(c) भारत में किसी भी कानून के तहत अपराध की रोकथाम, पता लगाने, जांच या अभियोजन के हित में व्यक्तिगत डेटा का प्रसंस्करण;"
             }
           ],
           "type": 8,
@@ -2530,7 +2498,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(d) personal data of Data Principals not within the territory of India is processed pursuant to any contract entered into with any person outside the territory of India by any person based in India;"
+              "value": "(d) भारत क्षेत्र के बाहर किसी व्यक्ति के साथ किसी अनुबंध के अनुसार आधारित व्यक्ति द्वारा भारत से बाहर स्थिति वाले डेटा सिद्धांतों की व्यक्तिगत डेटा का प्रसंस्करण;"
             }
           ],
           "type": 8,
@@ -2540,7 +2508,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(e) the processing is necessary for a scheme of compromise or arrangement or merger or amalgamation of two or more companies or a reconstruction by way of demerger or otherwise of a company, or transfer of undertaking of one or more company to another company, or involving division of one or more companies, approved by a court or tribunal or other authority competent to do so by any law for the time being in force; and"
+              "value": "(e) समझौता या व्यवस्था या कंपनियों के विलय, पुनर्गठन के लिए आवश्यक व्यक्तिगत डेटा का प्रसंस्करण, जिसे किसी सक्षम न्यायालय या त्रिब्यूनल या अन्य प्राधिकारी द्वारा अनुमोदित किया गया हो;"
             }
           ],
           "type": 8,
@@ -2550,7 +2518,7 @@
           "children": [
             {
               "type": 0,
-              "value": "(f) the processing is for the purpose of ascertaining the financial information and assets and liabilities of any person who has defaulted in payment due on account of a loan or advance taken from a financial institution, subject to such processing being in accordance with the provisions regarding disclosure of information or data in any other law for the time being in force."
+              "value": "(f) किसी व्यक्ति की वित्तीय जानकारी और संपत्तियां तथा देनदारियां निर्धारित करने के लिए आवश्यक प्रसंस्करण, जो वित्तीय संस्था से लिए गए ऋण या अग्रिम राशि की भुगतान में डिफ़ॉल्ट कर चुका हो, बशर्ते यह प्रसंस्करण लागू कानून के अनुसार हो।"
             }
           ],
           "type": 8,
@@ -2564,7 +2532,7 @@
   "request.next.declineFADP": [
     {
       "type": 0,
-      "value": "The controller may refuse to provide information, or restrict or delay the provision of information if:"
+      "value": "नियंत्रक जानकारी प्रदान करने से इनकार कर सकता है, या जानकारी की आपूर्ति को सीमित या विलंबित कर सकता है यदि:"
     },
     {
       "children": [
@@ -2572,7 +2540,7 @@
           "children": [
             {
               "type": 0,
-              "value": "a. a formal law so provides, in particular in order to preserve professional secrecy;"
+              "value": "क. कोई औपचारिक कानून ऐसा प्रावधान करता हो, विशेष रूप से व्यावसायिक गोपनीयता को बनाए रखने के लिए;"
             }
           ],
           "type": 8,
@@ -2582,7 +2550,7 @@
           "children": [
             {
               "type": 0,
-              "value": "b. this is required to safeguard overriding third-party interests; or"
+              "value": "ख. यह तृतीय पक्ष के सर्वोच्च हितों की रक्षा के लिए आवश्यक हो; या"
             }
           ],
           "type": 8,
@@ -2592,7 +2560,7 @@
           "children": [
             {
               "type": 0,
-              "value": "c. the request for information is obviously unjustified, in particular if does not serve the purpose of data protection or is clearly frivolous."
+              "value": "ग. सूचना का अनुरोध स्पष्ट रूप से अनुचित हो, विशेष रूप से यदि यह डेटा सुरक्षा के उद्देश्य की सेवा नहीं करता है या स्पष्ट रूप से निराधार हो।"
             }
           ],
           "type": 8,
@@ -2608,7 +2576,7 @@
     },
     {
       "type": 0,
-      "value": "Furthermore, it is possible to refuse, restrict or delay the provision of information in the following cases:"
+      "value": "इसके अतिरिक्त, निम्नलिखित मामलों में जानकारी प्रदान करने से इनकार, सीमित या विलंबित किया जा सकता है:"
     },
     {
       "children": [
@@ -2616,7 +2584,7 @@
           "children": [
             {
               "type": 0,
-              "value": "a. The controller is a private person and the following requirements are satisfied: 1. The controller's own overriding interests require the measure. 2. The controller does not intend to disclose the personal data to third parties."
+              "value": "क. नियंत्रक एक निजी व्यक्ति हो और निम्नलिखित आवश्यकताएँ पूरी हों: 1. नियंत्रक के अपने सर्वोच्च हित इस उपाय की मांग करते हैं। 2. नियंत्रक का इरादा व्यक्तिगत डेटा को तृतीय पक्षों को प्रकट करने का नहीं है।"
             }
           ],
           "type": 8,
@@ -2626,7 +2594,7 @@
           "children": [
             {
               "type": 0,
-              "value": "b. The controller is a federal body, and one of the following requirements is satisfied: 1. The measure is required to satisfy overriding public interests, in particular Switzerland's internal or external security. 2. The communication of the information may compromise an enquiry, an investigation or administrative or judicial proceedings."
+              "value": "ख. नियंत्रक एक संघीय निकाय हो, और निम्नलिखित आवश्यकताओं में से कोई एक पूरी हो: 1. यह उपाय सर्वोच्च सार्वजनिक हितों को पूरा करने के लिए आवश्यक है, विशेष रूप से स्विट्ज़रलैंड की आंतरिक या बाहरी सुरक्षा। 2. जानकारी का संप्रेषण किसी जांच, प्रशासनिक या न्यायिक कार्यवाही को प्रभावित कर सकता है।"
             }
           ],
           "type": 8,
@@ -2644,111 +2612,111 @@
           "children": [
             {
               "type": 0,
-              "value": "(a) Comply with federal or state laws, rules, or regulations."
+              "value": "(क) संघीय या राज्य कानूनों, नियमों, या विनियमों का पालन करें।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(b) Comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by federal, state, local, or other governmental authorities."
+              "value": "(ख) संघीय, राज्य, स्थानीय, या अन्य सरकारी प्राधिकरणों द्वारा नागरिक, आपराधिक, या नियामक जांच, अन्वेषण, सम्मन, या समन के अनुपालन में।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(c) Investigate, establish, exercise, prepare for, or defend legal claims."
+              "value": "(ग) कानूनी दावों की जांच, स्थापना, अभ्यास, तैयारी, या रक्षा करें।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(d) Provide a product or service specifically requested by a consumer or the parent or guardian of a child, perform a contract to which the consumer is a party, including fulfilling the terms of a written warranty, or take steps at the request of the consumer before entering into a contract."
+              "value": "(घ) उपभोक्ता या बच्चे के अभिभावक द्वारा विशेष रूप से अनुरोध किए गए उत्पाद या सेवा प्रदान करें, जिसमें अनुबंध की शर्तों को पूरा करना शामिल है, या अनुबंध में प्रवेश करने से पहले उपभोक्ता के अनुरोध पर कदम उठाएं।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(e) Take immediate steps to protect an interest that is essential for the life or physical safety of the consumer or of another individual and in which the processing cannot be manifestly based on another legal basis."
+              "value": "(ङ) उपभोक्ता अथवा किसी अन्य व्यक्ति के जीवन या शारीरिक सुरक्षा के लिए आवश्यक हित की तुरंत रक्षा के लिए कदम उठाएं और जिसमें संसाधन का आधार किसी अन्य कानूनी आधार पर स्पष्ट रूप से न हो।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(f) Prevent, detect, protect against, or respond to security incidents, identity theft, fraud, harassment, malicious or deceptive activities, or any illegal activity."
+              "value": "(च) सुरक्षा घटनाओं, पहचान चोरी, धोखाधड़ी, उत्पीड़न, दुर्भावनापूर्ण या भ्रामक गतिविधियों, या किसी भी अवैध गतिविधि को रोकने, पता लगाने, संरक्षण करने, या प्रतिक्रिया देने के लिए।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(g) Preserve the integrity or security of systems or investigate, report, or prosecute those responsible for breaches of system security."
+              "value": "(छ) प्रणालियों की अखंडता या सुरक्षा बनाए रखें या प्रणाली सुरक्षा उल्लंघनों के लिए जिम्मेदारों की जांच, रिपोर्ट या अभियोजन करें।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(h) Engage in public or peer-reviewed scientific or statistical research in the public interest which adheres to all other applicable ethics and privacy laws and is approved, monitored, and governed by an institutional review board or similar independent oversight entity that determines: 1. Whether the deletion of the information is likely to provide substantial benefits that do not exclusively accrue to the controller; 2. Whether the expected benefits of the research outweigh the privacy risks; and 3. Whether the controller has implemented reasonable safeguards to mitigate privacy risks associated with research, including any risks associated with reidentification."
+              "value": "(ज) सार्वजनिक या सहकर्मी-समीक्षित वैज्ञानिक या सांख्यिकीय अनुसंधान में संलग्न हों जो सार्वजनिक हित में हो, जिसमें सभी अन्य लागू नैतिक और गोपनीयता कानूनों का पालन हो और जिसे एक संस्थागत समीक्षा बोर्ड या समान स्वतंत्र निरीक्षण निकाय द्वारा मंजूरी, निगरानी, और शासित किया जाता हो जो निम्न बातें निर्धारित करता हो: 1. क्या सूचना हटाने से नियंत्रक कोविशेष रूप से लाभ नहीं होने वाले महत्वपूर्ण लाभ मिलेंगे; 2. क्या अनुसंधान के अपेक्षित लाभ गोपनीयता जोखिमों से अधिक हैं; और 3. क्या नियंत्रक ने अनुसंधान से जुड़े गोपनीयता जोखिमों को कम करने के लिए उचित सुरक्षा उपाय लागू किए हैं, जिसमें पुनःपहचान के जोखिम भी शामिल हैं।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(i) Assist another controller, processor, or third party in complying with the requirements of this part."
+              "value": "(झ) इस भाग की आवश्यकताओं का पालन करने में अन्य नियंत्रक, प्रोसेसर, या तृतीय पक्ष की सहायता करें।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(j) Disclose personal data disclosed when a consumer uses or directs the controller to intentionally disclose information to a third party or uses the controller to intentionally interact with a third party. An intentional interaction occurs when the consumer intends to interact with the third party, by one or more deliberate interactions. Hovering over, muting, pausing, or closing a given piece of content does not constitute a consumer’s intent to interact with a third party."
+              "value": "(ञ) जब उपभोक्ता नियंत्रक को जानबूझकर तृतीय पक्ष के साथ जानकारी साझा करने या तृतीय पक्ष के साथ जानबूझकर संपर्क करने के लिए निर्देश देता है, तो प्रकट किए गए व्यक्तिगत डेटा का खुलासा करें। जानबूझकर संपर्क तब होता है जब उपभोक्ता एक या अधिक जानबूझकर संपर्क द्वारा तृतीय पक्ष के साथ संवाद करना चाहता है। किसी सामग्री पर होवरिंग, म्यूटिंग, पॉजिंग, या बंद करना तृतीय पक्ष के साथ उपभोक्ता की संपर्क इच्छा नहीं दर्शाता।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "(k) Transfer personal data to a third party as an asset that is part of a merger, an acquisition, a bankruptcy, or other transaction in which the third party assumes control of all or part of the controller, provided that the information is used or shared in a manner consistent with this part. If a third party materially alters how it uses or shares the personal data of a consumer in a manner that is materially inconsistent with the commitments or promises made at the time of collection, it must provide prior notice of the new or changed practice to the consumer. The notice must be sufficiently prominent and robust to ensure that consumers can easily exercise choices consistent with this part."
+              "value": "(ट) एक विलय, अधिग्रहण, दिवालियापन, या अन्य लेनदेन में एक संपत्ति के रूप में व्यक्तिगत डेटा को तृतीय पक्ष को स्थानांतरित करें जिसमें तृतीय पक्ष नियंत्रक के पूर्ण या आंशिक नियंत्रण को स्वीकार करता है, बशर्ते कि सूचना का उपयोग या साझाकरण इस भाग के अनुरूप हो। यदि तृतीय पक्ष डेटा उपयोग या साझाकरण का तरीका उल्लेखनीय रूप से बदलता है जो संग्रह के समय किए गए वादों के अनुरूप नहीं है, तो उसे उपभोक्ता को नए या परिवर्तित अभ्यास की पूर्व सूचना देनी चाहिए। सूचना इतनी प्रमुख और प्रभावी होनी चाहिए कि उपभोक्ता आसानी से इस भाग के अनुरूप विकल्पों का अभ्यास कर सकें।"
             }
           ],
           "type": 8,
-          "value": "il"
+          "value": "li"
         }
       ],
       "type": 8,
@@ -2762,7 +2730,7 @@
           "children": [
             {
               "type": 0,
-              "value": "When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes)."
+              "value": "जब अभिव्यक्ति और सूचना की स्वतंत्रता आवश्यक हो।"
             }
           ],
           "type": 8,
@@ -2772,7 +2740,7 @@
           "children": [
             {
               "type": 0,
-              "value": "When the organization is legally obliged to keep hold of your data."
+              "value": "जब संगठन कानूनी रूप से आपका डेटा रखने का बाध्य हो।"
             }
           ],
           "type": 8,
@@ -2782,7 +2750,7 @@
           "children": [
             {
               "type": 0,
-              "value": "When keeping hold of your data is necessary for reasons of public health."
+              "value": "जब सार्वजनिक स्वास्थ्य के कारण डेटा रखना आवश्यक हो।"
             }
           ],
           "type": 8,
@@ -2792,7 +2760,7 @@
           "children": [
             {
               "type": 0,
-              "value": "When keeping your data is necessary for establishing, exercising or defending legal claims."
+              "value": "जब कानूनी दावा करने, उपयोग या रक्षा के लिए डेटा रखना आवश्यक हो।"
             }
           ],
           "type": 8,
@@ -2802,7 +2770,7 @@
           "children": [
             {
               "type": 0,
-              "value": "When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest."
+              "value": "जब डेटा मिटाने से वैज्ञानिक या ऐतिहासिक अनुसंधान प्रभावित हो।"
             }
           ],
           "type": 8,
@@ -2812,7 +2780,7 @@
           "children": [
             {
               "type": 0,
-              "value": "If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts."
+              "value": "यदि संगठन निर्णय ले कि डेटा मिटाना आवश्यक नहीं है, तो इसे बताना चाहिए और आपकी शिकायत का अधिकार बताना चाहिए।"
             }
           ],
           "type": 8,
@@ -2830,7 +2798,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Pseudonymous data"
+              "value": "छद्मनाम डेटा"
             }
           ],
           "type": 8,
@@ -2840,7 +2808,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -2850,7 +2818,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी"
             }
           ],
           "type": 8,
@@ -2860,7 +2828,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Public or peer-reviewed scientific research"
+              "value": "सार्वजनिक या सहयोगी समीक्षा किए गए वैज्ञानिक अनुसंधान"
             }
           ],
           "type": 8,
@@ -2878,7 +2846,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Free speech or another right provided by law."
+              "value": "मुक्त अभिव्यक्ति या कोई अन्य कानूनी अधिकार।"
             }
           ],
           "type": 8,
@@ -2888,7 +2856,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research."
+              "value": "अनुसंधान के उद्देश्यों के लिए प्रसंस्करण, यदि व्यक्तिगत जानकारी को हटाने से अनुसंधान पूर्ण या गंभीर रूप से प्रभावित हो।"
             }
           ],
           "type": 8,
@@ -2898,7 +2866,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity."
+              "value": "अवैध गतिविधि से सुरक्षा या अपराधियों को दंडित करने के लिए आवश्यक जानकारी का प्रसंस्करण।"
             }
           ],
           "type": 8,
@@ -2908,7 +2876,7 @@
           "children": [
             {
               "type": 0,
-              "value": "For complying with a legal obligation."
+              "value": "कानूनी बाध्यता का पालन।"
             }
           ],
           "type": 8,
@@ -2918,7 +2886,7 @@
           "children": [
             {
               "type": 0,
-              "value": "To perform a contract between the business and the consumer."
+              "value": "व्यवसाय और उपभोक्ता के बीच अनुबंध को निभाना।"
             }
           ],
           "type": 8,
@@ -2928,7 +2896,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity."
+              "value": "सुरक्षा घटनाओं का पता लगाना, धोखाधड़ी या अवैध गतिविधि से सुरक्षा, या अपराधियों को दंडित करना।"
             }
           ],
           "type": 8,
@@ -2938,7 +2906,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Debug to identify and repair errors that impair existing intended functionality."
+              "value": "त्रुटियों को पहचानने और ठीक करने के लिए डिबगिंग।"
             }
           ],
           "type": 8,
@@ -2948,7 +2916,7 @@
           "children": [
             {
               "type": 0,
-              "value": "To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business."
+              "value": "भीतरी उपयोग जो उपभोक्ता की अपेक्षाओं के अनुरूप हो।"
             }
           ],
           "type": 8,
@@ -2958,7 +2926,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information."
+              "value": "कानूनी, संगत उपयोग।"
             }
           ],
           "type": 8,
@@ -2976,7 +2944,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities"
+              "value": "सरकारी संस्थाएं"
             }
           ],
           "type": 8,
@@ -2986,7 +2954,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Federally recognised Indian tribes"
+              "value": "संघीय मान्यता प्राप्त भारतीय जनजातियां"
             }
           ],
           "type": 8,
@@ -2996,7 +2964,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates under HIPAA"
+              "value": "HIPAA के तहत आवृत संस्थाएं और व्यावसायिक सहयोगी"
             }
           ],
           "type": 8,
@@ -3006,7 +2974,7 @@
           "children": [
             {
               "type": 0,
-              "value": "State or federally chartered banks or credit unions"
+              "value": "राज्य या संघीय चार्टर्ड बैंक या क्रेडिट यूनियंस"
             }
           ],
           "type": 8,
@@ -3016,7 +2984,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies"
+              "value": "बीमा कंपनियां"
             }
           ],
           "type": 8,
@@ -3026,7 +2994,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Small businesses as defined by the U.S. Small Business Administration"
+              "value": "संयुक्त राज्य लघु व्यवसाय प्रशासन द्वारा परिभाषित लघु व्यवसाय"
             }
           ],
           "type": 8,
@@ -3036,7 +3004,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profits established solely to detect or prevent insurance fraud"
+              "value": "बीमा धोखाधड़ी का पता लगाने या रोकने के लिए स्थापित गैर-लाभकारी संस्थाएं"
             }
           ],
           "type": 8,
@@ -3046,7 +3014,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by GLBA or FCRA"
+              "value": "GLBA या FCRA द्वारा नियंत्रित व्यक्तिगत डेटा"
             }
           ],
           "type": 8,
@@ -3056,7 +3024,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑context or job‑applicant personal data, benefits and emergency contact data"
+              "value": "रोजगार-संदर्भ या नौकरी-आवेदक व्यक्तिगत डेटा, लाभ और आपातकालीन संपर्क डेटा"
             }
           ],
           "type": 8,
@@ -3066,7 +3034,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De‑identified or publicly available data"
+              "value": "पहचान रहित या सार्वजनिक रूप से उपलब्ध डेटा"
             }
           ],
           "type": 8,
@@ -3084,7 +3052,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt"
+              "value": "राज्य और स्थानीय सरकारें, गैर-लाभकारी संस्थान, उच्च शिक्षा संस्थान, कुछ राष्ट्रीय सिक्योरिटीज एसोसिएशंस, वित्तीय संस्थान, और विशिष्ट अधिनियमों के अंतर्गत कवरेज प्राप्त संस्थाएँ, जैसे ग्राम-लीच-ब्लाइली एक्ट और हेल्थ इंश्योरेंस पोर्टेबिलिटी और अकाउंटेबिलिटी एक्ट, छूट प्राप्त हैं;"
             }
           ],
           "type": 8,
@@ -3094,7 +3062,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा;"
             }
           ],
           "type": 8,
@@ -3104,7 +3072,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employee data including job applicant data"
+              "value": "कर्मी डेटा जिसमें नौकरी आवेदक डेटा शामिल है;"
             }
           ],
           "type": 8,
@@ -3114,7 +3082,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "डी-आइडेंटिफाइड डेटा;"
             }
           ],
           "type": 8,
@@ -3124,7 +3092,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी;"
             }
           ],
           "type": 8,
@@ -3134,7 +3102,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Aggregate information"
+              "value": "समग्रहित जानकारी;"
             }
           ],
           "type": 8,
@@ -3144,7 +3112,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
+              "value": "मानव विषयों के अनुसंधान के लिए या एक क्लिनिकल ट्रायल के हिस्से के रूप में एकत्र की गई व्यक्तिगत जानकारी;"
             }
           ],
           "type": 8,
@@ -3162,7 +3130,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Pseudonymous data"
+              "value": "छद्मनाम डेटा"
             }
           ],
           "type": 8,
@@ -3172,7 +3140,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3182,7 +3150,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी"
             }
           ],
           "type": 8,
@@ -3192,7 +3160,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Public or peer-reviewed scientific research"
+              "value": "सार्वजनिक या सहयोगी समीक्षा किए गए वैज्ञानिक अनुसंधान"
             }
           ],
           "type": 8,
@@ -3202,7 +3170,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा"
             }
           ],
           "type": 8,
@@ -3220,7 +3188,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Pseudonymous data"
+              "value": "छद्मनाम डेटा"
             }
           ],
           "type": 8,
@@ -3230,7 +3198,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3240,7 +3208,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी"
             }
           ],
           "type": 8,
@@ -3250,7 +3218,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Public or peer-reviewed scientific research"
+              "value": "सार्वजनिक या सहयोगी समीक्षा किए गए वैज्ञानिक अनुसंधान"
             }
           ],
           "type": 8,
@@ -3260,7 +3228,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा"
             }
           ],
           "type": 8,
@@ -3278,7 +3246,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Pseudonymous data"
+              "value": "छद्मनाम डेटा"
             }
           ],
           "type": 8,
@@ -3288,7 +3256,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3298,7 +3266,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी"
             }
           ],
           "type": 8,
@@ -3308,7 +3276,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Public or peer-reviewed scientific research"
+              "value": "सार्वजनिक या सहयोगी समीक्षा किए गए वैज्ञानिक अनुसंधान"
             }
           ],
           "type": 8,
@@ -3318,7 +3286,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा"
             }
           ],
           "type": 8,
@@ -3332,7 +3300,7 @@
   "request.next.declineOPCA": [
     {
       "type": 0,
-      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations and financial institutions are exempt. In addition, some types of data are exempt:"
+      "value": "राज्य और स्थानीय सरकारों, गैर-लाभकारी संस्थाओं, उच्च शिक्षा संस्थानों, कुछ राष्ट्रीय प्रतिभूति संघों और वित्तीय संस्थानों सहित संस्थाएं छूटप्राप्त हैं। इसके अतिरिक्त, कुछ प्रकार के डेटा छूट में शामिल हैं:"
     },
     {
       "children": [
@@ -3340,7 +3308,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा"
             }
           ],
           "type": 8,
@@ -3350,7 +3318,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employee data including job applicant data"
+              "value": "कर्मचारी डेटा जिसमें नौकरी के आवेदक डेटा शामिल है"
             }
           ],
           "type": 8,
@@ -3360,7 +3328,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3370,7 +3338,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी"
             }
           ],
           "type": 8,
@@ -3380,7 +3348,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Aggregate information"
+              "value": "संकलित जानकारी"
             }
           ],
           "type": 8,
@@ -3390,7 +3358,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
+              "value": "मानव विषयों पर किए गए अनुसंधान या क्लीनिकल परीक्षण के हिस्से के रूप में एकत्रित व्यक्तिगत जानकारी"
             }
           ],
           "type": 8,
@@ -3408,7 +3376,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data processed for personal or household activities"
+              "value": "व्यक्तिगत या घरेलू गतिविधियों के लिए संसाधित व्यक्तिगत डेटा"
             }
           ],
           "type": 8,
@@ -3418,7 +3386,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by state authorities related to national security, public safety or taxation"
+              "value": "राष्ट्रीय सुरक्षा, सार्वजनिक सुरक्षा या कराधान से संबंधित राज्य प्राधिकरणों द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3428,7 +3396,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing for journalistic, artistic or literary purposes in the public interest"
+              "value": "सार्वजनिक हित में पत्रकारिता, कलात्मक या साहित्यिक उद्देश्यों के लिए संसाधन"
             }
           ],
           "type": 8,
@@ -3438,7 +3406,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by the House of Representatives, Senate, Parliament or their committees"
+              "value": "प्रतिनिधि सभा, सीनेट, संसद या उनके समितियों द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3448,7 +3416,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by courts and judicial officers within their duties"
+              "value": "अपनी जिम्मेदारियों के भीतर न्यायालयों और न्यायिक अधिकारियों द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3458,7 +3426,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by credit bureaus and their members under the Credit Information Business Act"
+              "value": "क्रेडिट सूचना व्यवसाय अधिनियम के तहत क्रेडिट ब्यूरो और उनके सदस्यों द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3476,7 +3444,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing of personal data by a natural person for purely personal purposes"
+              "value": "पूरी तरह से व्यक्तिगत उद्देश्यों के लिए प्राकृतिक व्यक्ति द्वारा व्यक्तिगत डेटा संसाधन"
             }
           ],
           "type": 8,
@@ -3486,7 +3454,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing carried out directly by a competent public authority to perform its statutory tasks"
+              "value": "अपनी वैधानिक कर्तव्यों का निर्वहन करने के लिए सीधे एक सक्षम सार्वजनिक प्राधिकरण द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3496,7 +3464,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing necessary for national security or public order purposes"
+              "value": "राष्ट्रीय सुरक्षा या सार्वजनिक व्यवस्था के उद्देश्यों के लिए आवश्यक संसाधन"
             }
           ],
           "type": 8,
@@ -3506,7 +3474,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing without consent in the banking and financial sector as permitted by law"
+              "value": "कानून द्वारा अनुमति प्राप्त बैंकिंग और वित्तीय क्षेत्र में सहमति के बिना संसाधन"
             }
           ],
           "type": 8,
@@ -3516,7 +3484,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Processing by security services for national interest objectives"
+              "value": "राष्ट्रीय हित के उद्देश्यों के लिए सुरक्षा सेवाओं द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3534,7 +3502,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Exceptions to the access requirement should be limited and specific."
+              "value": "पहुँच आवश्यकता से अपवाद सीमित और विशिष्ट होने चाहिए।"
             }
           ],
           "type": 8,
@@ -3544,7 +3512,7 @@
           "children": [
             {
               "type": 0,
-              "value": "The reasons for denying access should be provided to the individual upon request."
+              "value": "प्रवेश अस्वीकार करने के कारण व्यक्ति को अनुरोध पर प्रदान किए जाने चाहिए।"
             }
           ],
           "type": 8,
@@ -3554,7 +3522,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Exceptions may include information that is prohibitively costly to provide, information that contains references to other individuals, information that cannot be disclosed for legal, security, or commercial proprietary reasons, and information that is subject to solicitor-client or litigation privilege."
+              "value": "अपवादों में शामिल हो सकते हैं ऐसी जानकारी जिसे प्रदान करना अत्यधिक महंगा हो, जानकारी जिसमें अन्य व्यक्तियों के संदर्भ शामिल हों, जानकारी जिसे कानूनी, सुरक्षा, या व्यावसायिक गोपनीय कारणों से प्रकट नहीं किया जा सकता, और ऐसी जानकारी जो सॉलिसिटर-क्लाइंट या मुकदमेबाजी विशेषाधिकार के अंतर्गत हो।"
             }
           ],
           "type": 8,
@@ -3568,7 +3536,7 @@
   "request.next.declinePIPL": [
     {
       "type": 0,
-      "value": "个人信息处理者处理个人信息的，在法律、行政法规规定应当保密或者不需要通知的情况下，可以不向个人通知前条第一款规定的事项。"
+      "value": "वैयक्तिक सूचना प्रसंस्करणकर्ता वैधता और प्रशासनिक नियमों के तहत गुप्त रखने या सूचना देने की आवश्यकता न होने की स्थिति में पहले अनुच्छेद के पहले उपखंड में बताए गए मामलों के बारे में व्यक्तिगत को सूचित नहीं कर सकता।"
     }
   ],
   "request.next.declinePOPIA": [
@@ -3578,7 +3546,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal or household activity"
+              "value": "व्यक्तिगत या घरेलू गतिविधि"
             }
           ],
           "type": 8,
@@ -3588,7 +3556,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Fully de-identified data"
+              "value": "पूर्ण रूप से पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3598,7 +3566,7 @@
           "children": [
             {
               "type": 0,
-              "value": "National-security"
+              "value": "राष्ट्रीय सुरक्षा"
             }
           ],
           "type": 8,
@@ -3608,7 +3576,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Law-enforcement"
+              "value": "कानून प्रवर्तन"
             }
           ],
           "type": 8,
@@ -3618,7 +3586,7 @@
           "children": [
             {
               "type": 0,
-              "value": "By the Cabinet and its committees or the Executive Council of a province"
+              "value": "कैबिनेट और उसके समितियों या प्रांत की कार्यकारी परिषद द्वारा संसाधन"
             }
           ],
           "type": 8,
@@ -3628,7 +3596,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Relating to the judicial functions of a court referred to in section 166 of the Constitution."
+              "value": "संविधान के अनुभाग 166 में संदर्भित न्यायालय के न्यायिक कार्यों से संबंधित संसाधन।"
             }
           ],
           "type": 8,
@@ -3642,7 +3610,7 @@
   "request.next.declineTDPSA": [
     {
       "type": 0,
-      "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
+      "value": "राज्य और स्थानीय सरकारों, गैर-लाभकारी संस्थाओं, उच्च शिक्षा संस्थानों, कुछ राष्ट्रीय प्रतिभूति संघों, वित्तीय संस्थानों, और कुछ विशिष्ट अधिनियमों के तहत आच्छादित संस्थाएं, जैसे कि ग्राम-लीच-बलीली अधिनियम और स्वास्थ्य बीमा पोर्टेबिलिटी और जवाबदेही अधिनियम, छूटप्राप्त हैं।"
     }
   ],
   "request.next.declineTIPA": [
@@ -3652,7 +3620,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Government entities and political subdivisions"
+              "value": "सरकारी संस्थाएं और राजनीतिक उपविभाग"
             }
           ],
           "type": 8,
@@ -3662,7 +3630,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Covered entities and business associates subject to HIPAA/HITECH"
+              "value": "HIPAA/HITECH के अधीन आवृत संस्थाएं और व्यावसायिक सहयोगी"
             }
           ],
           "type": 8,
@@ -3672,7 +3640,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Financial institutions and affiliates subject to the Gramm‑Leach‑Bliley Act (GLBA)"
+              "value": "ग्राम-लीच-ब्लाइली अधिनियम (GLBA) के अधीन वित्तीय संस्थाएं और संबद्ध संस्थाएं"
             }
           ],
           "type": 8,
@@ -3682,7 +3650,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Institutions of higher education"
+              "value": "उच्च शिक्षा संस्थान"
             }
           ],
           "type": 8,
@@ -3692,7 +3660,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Non‑profit organizations"
+              "value": "गैर-लाभकारी संगठन"
             }
           ],
           "type": 8,
@@ -3702,7 +3670,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Insurance companies licensed under Tennessee law"
+              "value": "टेनेसी कानून के तहत लाइसेंस प्राप्त बीमा कंपनियां"
             }
           ],
           "type": 8,
@@ -3712,7 +3680,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the Fair Credit Reporting Act (FCRA)"
+              "value": "फेयर क्रेडिट रिपोर्टिंग अधिनियम (FCRA) द्वारा नियंत्रित व्यक्तिगत डेटा"
             }
           ],
           "type": 8,
@@ -3722,7 +3690,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employment‑related or commercial‑context personal data"
+              "value": "रोजगार-संबंधित या वाणिज्यिक संदर्भ का व्यक्तिगत डेटा"
             }
           ],
           "type": 8,
@@ -3732,7 +3700,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available, aggregated or de‑identified data"
+              "value": "सार्वजनिक रूप से उपलब्ध, संकलित या पहचान रहित डेटा"
             }
           ],
           "type": 8,
@@ -3742,7 +3710,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by FERPA or COPPA"
+              "value": "FERPA या COPPA द्वारा नियंत्रित व्यक्तिगत डेटा"
             }
           ],
           "type": 8,
@@ -3752,7 +3720,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product and other health data exempted under federal law"
+              "value": "मरीज सुरक्षा कार्य उत्पाद और अन्य स्वास्थ्य डेटा जो संघीय कानून के तहत छूट प्राप्त हैं"
             }
           ],
           "type": 8,
@@ -3762,7 +3730,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Scientific or statistical research data meeting statutory safeguards"
+              "value": "वैधानिक सुरक्षा से मिलने वाले वैज्ञानिक या सांख्यिकीय अनुसंधान डेटा"
             }
           ],
           "type": 8,
@@ -3780,7 +3748,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt"
+              "value": "राज्य और स्थानीय सरकारें, गैर-लाभकारी संस्थान, उच्च शिक्षा संस्थान, कुछ राष्ट्रीय सिक्योरिटीज एसोसिएशंस, वित्तीय संस्थान, और विशिष्ट अधिनियमों के अंतर्गत कवरेज प्राप्त संस्थाएँ, जैसे ग्राम-लीच-ब्लाइली एक्ट और हेल्थ इंश्योरेंस पोर्टेबिलिटी और अकाउंटेबिलिटी एक्ट, छूट प्राप्त हैं;"
             }
           ],
           "type": 8,
@@ -3790,7 +3758,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health data"
+              "value": "संरक्षित स्वास्थ्य डेटा;"
             }
           ],
           "type": 8,
@@ -3800,7 +3768,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Employee data including job applicant data"
+              "value": "कर्मी डेटा जिसमें नौकरी आवेदक डेटा शामिल है;"
             }
           ],
           "type": 8,
@@ -3810,7 +3778,7 @@
           "children": [
             {
               "type": 0,
-              "value": "De-identified data"
+              "value": "डी-आइडेंटिफाइड डेटा;"
             }
           ],
           "type": 8,
@@ -3820,7 +3788,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Publicly available information"
+              "value": "सार्वजनिक रूप से उपलब्ध जानकारी;"
             }
           ],
           "type": 8,
@@ -3830,7 +3798,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Aggregate information"
+              "value": "समग्रहित जानकारी;"
             }
           ],
           "type": 8,
@@ -3840,7 +3808,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal information collected for research of human subjects or as part of a clinical trial"
+              "value": "मानव विषयों के अनुसंधान के लिए या एक क्लिनिकल ट्रायल के हिस्से के रूप में एकत्र की गई व्यक्तिगत जानकारी;"
             }
           ],
           "type": 8,
@@ -3858,7 +3826,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Protected health information under HIPAA;"
+              "value": "HIPAA के तहत संरक्षित स्वास्थ्य जानकारी;"
             }
           ],
           "type": 8,
@@ -3868,7 +3836,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Health records for purposes of Title 32.1;"
+              "value": "टाइटल 32.1 के उद्देश्यों के लिए स्वास्थ्य रिकॉर्ड;"
             }
           ],
           "type": 8,
@@ -3878,7 +3846,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient identifying information for purposes of 42 U.S.C. § 290dd-2;"
+              "value": "42 U.S.C. § 290dd-2 के उद्देश्यों के लिए रोगी पहचान योग्य जानकारी;"
             }
           ],
           "type": 8,
@@ -3888,21 +3856,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Identifiable private information for purposes of the federal policy for the protection of human subjects under 45 C.F.R. Part 46; identifiable private information that is otherwise information collected as part of human subjects research pursuant to the good clinical practice guidelines issued by The International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use; the protection of human subjects under 21 C.F.R. Parts 6, 50, and 56, or personal data used or shared in research conducted in accordance with the requirements set forth in this chapter, or other research conducted in accordance with applicable law;"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Information and documents created for purposes of the federal Health Care Quality Improvement Act of 1986 (42 U.S.C. § 11101 et seq.);"
+              "value": "45 C.F.R. पार्ट 46 के तहत मानव विषयों की सुरक्षा के लिए संघीय नीति के उद्देश्यों के लिए पहचान योग्य निजी जानकारी; पहचान योग्य निजी जानकारी जो अन्यथा मानव विषयों के अनुसंधान के हिस्से के रूप में इकठ्ठा की गई जानकारी है, जो फार्मास्यूटिकल्स के लिए तकनीकी आवश्यकताओं के अंतर्राष्ट्रीय परिषद द्वारा जारी अच्छे क्लिनिकल अभ्यास दिशानिर्देशों के अनुसार है; 21 C.F.R. पार्ट 6, 50, और 56 के तहत मानव विषयों की सुरक्षा, या इस अध्याय में निर्धारित आवश्यकताओं के अनुसार किए गए अनुसंधान में उपयोग या साझा किया गया व्यक्तिगत डेटा, या लागू कानून के अनुसार किए गए अन्य अनुसंधान;"
             }
           ],
           "type": 8,
@@ -3912,7 +3866,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Patient safety work product for purposes of the federal Patient Safety and Quality Improvement Act (42 U.S.C. § 299b-21 et seq.);"
+              "value": "1986 के संघीय हेल्थ केयर क्वालिटी इम्प्रूवमेंट एक्ट (42 U.S.C. § 11101 आदि) के उद्देश्यों के लिए बनाए गए सूचना और दस्तावेज़;"
             }
           ],
           "type": 8,
@@ -3922,7 +3876,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Information derived from any of the health care-related information listed in this subsection that is de-identified in accordance with the requirements for de-identification pursuant to HIPAA;"
+              "value": "संघीय पेशेंट सेफ्टी एंड क्वालिटी इम्प्रूवमेंट एक्ट (42 U.S.C. § 299b-21 आदि) के उद्देश्यों के लिए पेशेंट सुरक्षा कार्य उत्पाद;"
             }
           ],
           "type": 8,
@@ -3932,7 +3886,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Information originating from, and intermingled to be indistinguishable with, or information treated in the same manner as information exempt under this subsection that is maintained by a covered entity or business associate as defined by HIPAA or a program or a qualified service organization as defined by 42 U.S.C. § 290dd-2;"
+              "value": "इस उपखंड में सूचीबद्ध किसी भी स्वास्थ्य देखभाल-संबंधित जानकारी से व्युत्पन्न जानकारी जिसे HIPAA के अनुसार गुमनाम बनाने के नियमों के अनुसार डी-आइडेंटिफाइड किया गया हो;"
             }
           ],
           "type": 8,
@@ -3942,7 +3896,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Information used only for public health activities and purposes as authorized by HIPAA;"
+              "value": "सूचना जो किसी कवर किए गए संस्थान या व्यवसाय सहयोगी द्वारा रखी गई हो जैसा कि HIPAA द्वारा परिभाषित है, या 42 U.S.C. § 290dd-2 द्वारा परिभाषित एक कार्यक्रम या योग्य सेवा संगठन द्वारा रखी गई हो, और जो इस उपखंड के तहत छूट प्राप्त सूचना के समान रूप से व्यवहार की जाती हो;"
             }
           ],
           "type": 8,
@@ -3952,21 +3906,7 @@
           "children": [
             {
               "type": 0,
-              "value": "The collection, maintenance, disclosure, sale, communication, or use of any personal information bearing on a consumer's credit worthiness, credit standing, credit capacity, character, general reputation, personal characteristics, or mode of living by a consumer reporting agency or furnisher that provides information for use in a consumer report, and by a user of a consumer report, but only to the extent that such activity is regulated by and authorized under the federal Fair Credit Reporting Act (15 U.S.C. § 1681 et seq.);"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Driver's Privacy Protection Act of 1994 (18 U.S.C. § 2721 et seq.);"
+              "value": "केवल सार्वजनिक स्वास्थ्य गतिविधियों और उद्देश्यों के लिए उपयोग की गई सूचना, जो HIPAA द्वारा अधिकृत हो;"
             }
           ],
           "type": 8,
@@ -3976,21 +3916,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Personal data regulated by the federal Family Educational Rights and Privacy Act (20 U.S.C. § 1232g et seq.);"
-            }
-          ],
-          "type": 8,
-          "value": "li"
-        },
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "children": [
-            {
-              "type": 0,
-              "value": "Personal data collected, processed, sold, or disclosed in compliance with the federal Farm Credit Act (12 U.S.C. § 2001 et seq.);"
+              "value": "ग्राहक रिपोर्टिंग एजेंसी या जानकारी प्रदान करने वाले द्वारा उपभोक्ता की क्रेडिट योग्यता, क्रेडिट स्थिति, क्रेडिट क्षमता, चरित्र, सामान्य प्रतिष्ठा, व्यक्तिगत विशेषताएं, या जीवनशैली पर किसी भी व्यक्तिगत जानकारी का संग्रह, रखरखाव, प्रकटीकरण, बिक्री, संचार, या उपयोग, और उपभोक्ता रिपोर्ट उपयोगकर्ता द्वारा, लेकिन केवल जब ऐसी गतिविधि संघीय फेयर क्रेडिट रिपोर्टिंग एक्ट (15 U.S.C. § 1681 आदि) द्वारा नियंत्रित और अधिकृत हो;"
             }
           ],
           "type": 8,
@@ -4000,7 +3926,37 @@
           "children": [
             {
               "type": 0,
-              "value": "Data processed or maintained (i) in the course of an individual applying to, employed by, or acting as an agent or independent contractor of a controller, processor, or third party, to the extent that the data is collected and used within the context of that role; (ii) as the emergency contact information of an individual under this chapter used for emergency contact purposes; or (iii) that is necessary to retain to administer benefits for another individual relating to the individual under clause (i) and used for the purposes of administering those benefits."
+              "value": "संघीय ड्राइवर प्राइवसी प्रोटेक्शन एक्ट ऑफ 1994 (18 U.S.C. § 2721 आदि) के अनुपालन में संगृहीत, संसाधित, बेचा गया, या प्रकटीकृत व्यक्तिगत डेटा;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "संघीय फैमिली एजुकेशनल राइट्स एंड प्राइवेसी एक्ट (20 U.S.C. § 1232g आदि) द्वारा नियंत्रित व्यक्तिगत डेटा;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "संघीय फार्म क्रेडिट एक्ट (12 U.S.C. § 2001 आदि) के अनुपालन में संगृहीत, संसाधित, बेचा गया, या प्रकटीकृत व्यक्तिगत डेटा;"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "(i) एक व्यक्ति के रूप में नियंत्रक, प्रोसेसर या तीसरे पक्ष के एजेंट या स्वतंत्र संविदाकर्ता के रूप में आवेदन करने, रोजगार पाने या कार्य करने के दौरान संसाधित या रखरखाव किए गए डेटा, यदि डेटा उस भूमिका के संदर्भ में एकत्र और उपयोग किए गए हों; (ii) इस अध्याय के तहत एक व्यक्ति की आपातकालीन संपर्क जानकारी जिसे आपातकालीन संपर्क उद्देश्यों के लिए उपयोग किया गया हो; या (iii) उक्त अनुच्छेद (i) के अंतर्गत व्यक्ति से संबंधित लाभों को प्रबंधित करने के लिए आवश्यक डेटा जिसे उस लाभ प्रशासन के उद्देश्यों के लिए उपयोग किया गया हो।"
             }
           ],
           "type": 8,
@@ -4014,7 +3970,7 @@
   "request.next.escalateToAuthorityNoReply": [
     {
       "type": 0,
-      "value": "Recommendation: escalate your request to your "
+      "value": "सिफारिश: अपने अनुरोध को आपके "
     },
     {
       "type": 1,
@@ -4030,13 +3986,13 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": ") को बढ़ावा दें।"
     }
   ],
   "request.next.escalateToAuthorityPartial": [
     {
       "type": 0,
-      "value": "Recommendation: if you believe "
+      "value": "सिफारिश: यदि आप विश्वास करते हैं कि "
     },
     {
       "type": 1,
@@ -4044,7 +4000,7 @@
     },
     {
       "type": 0,
-      "value": " should have fully complied with your request, then we recommend that you escalate your request to the "
+      "value": " ने आपका अनुरोध पूरी तरह से पूरा किया होगा, तो हम सुझाव देते हैं कि आप इसे "
     },
     {
       "type": 1,
@@ -4060,13 +4016,13 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": ") को बढ़ावा दें।"
     }
   ],
   "request.next.escalatedAndNoSuccess": [
     {
       "type": 0,
-      "value": "You have escalated your request to the "
+      "value": "आप ने अपना अनुरोध "
     },
     {
       "type": 1,
@@ -4082,37 +4038,33 @@
     },
     {
       "type": 0,
-      "value": "), please continue to communicate with them directly. There's nothing else that we can do to help."
+      "value": ") को बढ़ा दिया है, कृपया उनसे सीधे संपर्क जारी रखें। हम आपकी और सहायता नहीं कर सकते।"
     }
   ],
   "request.next.esclateButton": [
     {
-      "type": 0,
-      "value": "Escalate to the "
-    },
-    {
       "type": 1,
       "value": "authority"
+    },
+    {
+      "type": 0,
+      "value": " को बढ़ावा दें"
     }
   ],
   "request.next.findOutMore": [
     {
       "type": 0,
-      "value": "Find out more about these exceptions"
+      "value": "इन अपवादों के बारे में अधिक जानें"
     }
   ],
   "request.next.organizationsHaveXDays": [
-    {
-      "type": 0,
-      "value": "According to the "
-    },
     {
       "type": 1,
       "value": "regulationType"
     },
     {
       "type": 0,
-      "value": " organizations have "
+      "value": " के अनुसार, संगठनों के पास आपके अनुरोध का जवाब देने के लिए "
     },
     {
       "type": 1,
@@ -4120,43 +4072,43 @@
     },
     {
       "type": 0,
-      "value": " days to reply to your request."
+      "value": " दिन हैं।"
     }
   ],
   "request.next.reminderButton": [
     {
       "type": 0,
-      "value": "Send the organization a reminder email"
+      "value": "संगठन को रिमाइंडर ईमेल भेजें"
     }
   ],
   "request.next.selectTheOptions1": [
     {
       "type": 0,
-      "value": "Please select from the following options:"
+      "value": "कृपया निम्न विकल्पों में से चुनें:"
     }
   ],
   "request.next.selectTheOptions2": [
     {
       "type": 0,
-      "value": "If you wish to take further action then please select from the following options:"
+      "value": "यदि आप आगे कार्रवाई करना चाहते हैं, तो कृपया निम्न विकल्पों में से चुनें:"
     }
   ],
   "request.next.selectTheOptions3": [
     {
       "type": 0,
-      "value": "If you do not wish to wait then please select from the following options:"
+      "value": "यदि आप प्रतीक्षा नहीं करना चाहते हैं, तो कृपया निम्न विकल्पों में से चुनें:"
     }
   ],
   "request.next.sendAReminderEmail": [
     {
       "type": 0,
-      "value": "Recommendation: send the organization a reminder email."
+      "value": "सिफारिश: संगठन को रिमाइंडर ईमेल भेजें।"
     }
   ],
   "request.next.waitUntilXDays": [
     {
       "type": 0,
-      "value": "Recommendation: wait until "
+      "value": "सिफारिश: कंपनी को आपके अनुरोध को संसाधित करने का समय देने के लिए "
     },
     {
       "type": 1,
@@ -4164,13 +4116,13 @@
     },
     {
       "type": 0,
-      "value": " days have passed to give the company time to process your request."
+      "value": " दिन प्रतीक्षा करें।"
     }
   ],
   "request.next.waitUntilXDaysAfterReminder": [
     {
       "type": 0,
-      "value": "Recommendation: wait until "
+      "value": "सिफारिश: रिमाइंडर ईमेल के बाद "
     },
     {
       "type": 1,
@@ -4178,19 +4130,19 @@
     },
     {
       "type": 0,
-      "value": " days have passed from the date the request was sent to give the organization time to preocess your request, following your reminder email."
+      "value": " दिन प्रतीक्षा करें।"
     }
   ],
   "request.next.whatsNext": [
     {
       "type": 0,
-      "value": "What's next"
+      "value": "अगले कदम"
     }
   ],
   "request.success": [
     {
       "type": 0,
-      "value": "Congratulations, "
+      "value": "बधाई हो, "
     },
     {
       "type": 1,
@@ -4198,13 +4150,13 @@
     },
     {
       "type": 0,
-      "value": " successfully complied with your request. Your personal data will be automatically deleted from this website within 120 days from the date of your original request. Alternatively you can "
+      "value": " ने आपका अनुरोध सफलतापूर्वक पूरा किया है। आपकी व्यक्तिगत जानकारी मूल अनुरोध की तारीख से 120 दिनों में इस वेबसाइट से स्वतः हटा दी जाएगी। आप "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "delete your personal data now"
+          "value": "अभी अपनी व्यक्तिगत जानकारी हटा सकते हैं"
         }
       ],
       "type": 8,
@@ -4212,43 +4164,43 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "।"
     }
   ],
   "request.timeline.esclateTo": [
     {
       "type": 0,
-      "value": "Escalate your request"
+      "value": "अपने अनुरोध को उच्च प्राथमिकता दें"
     }
   ],
   "request.timeline.reminderSent": [
     {
       "type": 0,
-      "value": "Reminder sent"
+      "value": "रिमाइंडर भेजा गया"
     }
   ],
   "request.timeline.requestNotSent": [
     {
       "type": 0,
-      "value": "Request not sent"
+      "value": "अनुरोध भेजा नहीं गया"
     }
   ],
   "request.timeline.requestSent": [
     {
       "type": 0,
-      "value": "Request sent"
+      "value": "अनुरोध भेजा गया"
     }
   ],
   "request.timeline.requestTimeline": [
     {
       "type": 0,
-      "value": "Your request timeline"
+      "value": "आपका अनुरोध समयरेखा"
     }
   ],
   "request.timeline.sendEscalation": [
     {
       "type": 0,
-      "value": "Escalation sent"
+      "value": "बढ़ावा भेजा गया"
     }
   ],
   "request.timeline.sendEscalationDays": [
@@ -4259,7 +4211,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "आज"
             }
           ]
         },
@@ -4267,22 +4219,18 @@
           "value": [
             {
               "type": 0,
-              "value": "tommorow"
+              "value": "कल"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 0,
-              "value": "in "
-            },
-            {
               "type": 7
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " दिनों में"
             }
           ]
         }
@@ -4295,7 +4243,7 @@
   "request.timeline.sendReminder": [
     {
       "type": 0,
-      "value": "Send a reminder"
+      "value": "रिमाइंडर भेजें"
     }
   ],
   "request.timeline.sendReminderDays": [
@@ -4306,7 +4254,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "आज"
             }
           ]
         },
@@ -4314,22 +4262,18 @@
           "value": [
             {
               "type": 0,
-              "value": "tommorow"
+              "value": "कल"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 0,
-              "value": "in "
-            },
-            {
               "type": 7
             },
             {
               "type": 0,
-              "value": " days"
+              "value": " दिनों में"
             }
           ]
         }
@@ -4347,7 +4291,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "आज"
             }
           ]
         },
@@ -4355,7 +4299,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "कल"
             }
           ]
         },
@@ -4366,7 +4310,7 @@
             },
             {
               "type": 0,
-              "value": " days ago"
+              "value": " दिन पहले"
             }
           ]
         }
@@ -4384,7 +4328,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "आज"
             }
           ]
         },
@@ -4392,7 +4336,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "कल"
             }
           ]
         },
@@ -4403,7 +4347,7 @@
             },
             {
               "type": 0,
-              "value": " days ago"
+              "value": " दिन पहले"
             }
           ]
         }
@@ -4421,7 +4365,7 @@
           "value": [
             {
               "type": 0,
-              "value": "today"
+              "value": "आज"
             }
           ]
         },
@@ -4429,7 +4373,7 @@
           "value": [
             {
               "type": 0,
-              "value": "yesterday"
+              "value": "कल"
             }
           ]
         },
@@ -4440,7 +4384,7 @@
             },
             {
               "type": 0,
-              "value": " days ago"
+              "value": " दिन पहले"
             }
           ]
         }
@@ -4453,7 +4397,7 @@
   "request.title": [
     {
       "type": 0,
-      "value": "Details for your "
+      "value": "आपके "
     },
     {
       "type": 1,
@@ -4461,31 +4405,31 @@
     },
     {
       "type": 0,
-      "value": " request"
+      "value": " अनुरोध के विवरण"
     }
   ],
   "requestEscalation.complaint": [
     {
       "type": 0,
-      "value": "Additional details"
+      "value": "अतिरिक्त विवरण"
     }
   ],
   "requestEscalation.complaintText": [
     {
       "type": 0,
-      "value": "Please explain why you are not satisfied with how the organization has dealt with your request"
+      "value": "कृपया बताएं कि आप संगठन द्वारा आपके अनुरोध के निपटान से असंतुष्ट क्यों हैं"
     }
   ],
   "requestEscalation.esclateButtonForm": [
     {
       "type": 0,
-      "value": "Open Escalation Form"
+      "value": "ओपन एस्केलेशन फॉर्म"
     }
   ],
   "requestEscalation.formDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request you will need to complete a form on the "
+      "value": "अपने अनुरोध को बढ़ावा देने के लिए आपको "
     },
     {
       "type": 1,
@@ -4493,25 +4437,25 @@
     },
     {
       "type": 0,
-      "value": " website. Click the button bellow to open the form in a new tab."
+      "value": " वेबसाइट पर एक फॉर्म भरना होगा। नया टैब खोलने के लिए नीचे दिए गए बटन पर क्लिक करें।"
     }
   ],
   "requestEscalation.geography": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "स्थान"
     }
   ],
   "requestEscalation.geographyText ": [
     {
       "type": 0,
-      "value": "Please select your place of residence"
+      "value": "कृपया अपना निवास स्थान चुनें"
     }
   ],
   "requestEscalation.phoneDisclamer": [
     {
       "type": 0,
-      "value": "In order to escalate your request please call the "
+      "value": "अपने अनुरोध को बढ़ाने के लिए कृपया "
     },
     {
       "type": 1,
@@ -4519,7 +4463,7 @@
     },
     {
       "type": 0,
-      "value": " on "
+      "value": " पर "
     },
     {
       "type": 1,
@@ -4527,175 +4471,175 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " पर कॉल करें।"
     }
   ],
   "requestEscalation.submit": [
     {
       "type": 0,
-      "value": "Review and Send"
+      "value": "समीक्षा करें और भेजें"
     }
   ],
   "search.companyPlaceholder": [
     {
       "type": 0,
-      "value": "Search for an organization"
+      "value": "किसी संगठन को खोजें"
     }
   ],
   "search.noResults": [
     {
       "type": 0,
-      "value": "Can't find an organization?"
+      "value": "क्या कोई संगठन नहीं मिल रहा?"
     }
   ],
   "search.noResultsMore": [
     {
       "type": 0,
-      "value": "Click here to add one"
+      "value": "एक जोड़ने के लिए यहां क्लिक करें"
     }
   ],
   "sendEmailButton.copy": [
     {
       "type": 0,
-      "value": "Copy email text to clipboard"
+      "value": "ईमेल पाठ क्लिपबोर्ड पर कॉपी करें"
     }
   ],
   "sendEmailButton.default": [
     {
       "type": 0,
-      "value": "Open in your default email client"
+      "value": "अपने डिफ़ॉल्ट ईमेल क्लाइंट में खोलें"
     }
   ],
   "sendEmailButton.gmail": [
     {
       "type": 0,
-      "value": "Open in Gmail"
+      "value": "Gmail में खोलें"
     }
   ],
   "sendEmailButton.yahoo": [
     {
       "type": 0,
-      "value": "Open in Yahoo Mail"
+      "value": "Yahoo मेल में खोलें"
     }
   ],
   "social.chromeCTA": [
     {
       "type": 0,
-      "value": "Download it for Chrome"
+      "value": "क्रोम के लिए डाउनलोड करें"
     }
   ],
   "social.chromeTitle": [
     {
       "type": 0,
-      "value": "Google Chrome Extension"
+      "value": "गूगल क्रोम एक्सटेंशन"
     }
   ],
   "social.emailBody": [
     {
       "type": 0,
-      "value": "Check out YourDigitalRights.org, a free service which makes it easy to find out what personal data thousands of organizations have on you, and get them to delete it."
+      "value": "YourDigitalRights.org देखें, एक मुफ्त सेवा जो यह आसानी से बताती है कि आपके बारे में हजारों संगठनों के पास कौन सी व्यक्तिगत जानकारी है, और उन्हें इसे हटाने के लिए कहती है।"
     }
   ],
   "social.emailSubject": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it | Your Digital Rights"
+      "value": "जानें कि आपके बारे में हजारों संगठनों के पास कौन सी व्यक्तिगत जानकारी है, और उन्हें इसे हटाने के लिए कहें | Your Digital Rights"
     }
   ],
   "social.extensionHeadline": [
     {
       "type": 0,
-      "value": "Opt out directly from your browser"
+      "value": "अपने ब्राउज़र से सीधे बाहर निकलें"
     }
   ],
   "social.extensionText": [
     {
       "type": 0,
-      "value": "Do you want better control over who has access to your personal data? Our browser extension allows you to opt out of the websites you visit with a click of a button."
+      "value": "क्या आप बेहतर नियंत्रण चाहते हैं कि आपकी व्यक्तिगत जानकारी तक कौन पहुँच सकता है? हमारा ब्राउज़र एक्सटेंशन आपको उन वेबसाइटों से बाहर निकलने की अनुमति देता है जिन्हें आप एक बटन के क्लिक से विजिट करते हैं।"
     }
   ],
   "social.facebookQuote": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+      "value": "जानें कि आपके बारे में हजारों संगठनों के पास कौन सी व्यक्तिगत जानकारी है, और उन्हें इसे हटाने के लिए कहें। yourdigitalrights.org देखें।"
     }
   ],
   "social.firefoxCTA": [
     {
       "type": 0,
-      "value": "Download it for Firefox"
+      "value": "फ़ायरफ़ॉक्स के लिए डाउनलोड करें"
     }
   ],
   "social.frefoxTitle": [
     {
       "type": 0,
-      "value": "FireFox Extention"
+      "value": "फ़ायरफ़ॉक्स एक्सटेंशन"
     }
   ],
   "social.shareHeading": [
     {
       "type": 0,
-      "value": "If you find this service useful, please spread the word"
+      "value": "यदि आपको यह सेवा उपयोगी लगी, तो कृपया इसे दूसरों तक फैलाएं"
     }
   ],
   "social.twitterTitle": [
     {
       "type": 0,
-      "value": "Find out what personal data thousands of organizations have on you, and get them to delete it. Check out yourdigitalrights.org."
+      "value": "जानें कि आपके बारे में हजारों संगठनों के पास कौन सी व्यक्तिगत जानकारी है, और उन्हें इसे हटाने के लिए कहें। yourdigitalrights.org देखें।"
     }
   ],
   "stats.description": [
     {
       "type": 0,
-      "value": "Data protection request statistics."
+      "value": "डेटा संरक्षण अनुरोध के सांख्यिकी।"
     }
   ],
   "stats.statsSubTitle": [
     {
       "type": 0,
-      "value": "Our mission is to help individuals regain control of their online privacy by empowering them to request that organizations delete or provide a copy of their personal information. The following statistics show which organizations have received the most requests for different time periods."
+      "value": "हमारा मिशन व्यक्तियों को उनकी ऑनलाइन गोपनीयता पर नियंत्रण पुनः प्राप्त करने में मदद करना है, जिससे वे संगठनों से अनुरोध कर सकें कि वे उनकी व्यक्तिगत जानकारी को हटा दें या उसकी एक प्रति प्रदान करें। निम्नलिखित सांख्यिकियाँ दिखाती हैं कि किन संगठनों ने विभिन्न समय अवधि के लिए सबसे अधिक अनुरोध प्राप्त किए हैं।"
     }
   ],
   "stats.statsTitle": [
     {
       "type": 0,
-      "value": "Request Statistics"
+      "value": "अनुरोध सांख्यिकी"
     }
   ],
   "stats.title": [
     {
       "type": 0,
-      "value": "Request Statistics"
+      "value": "अनुरोध सांख्यिकी"
     }
   ],
   "stats.titleAlltime": [
     {
       "type": 0,
-      "value": "Top all-time requests"
+      "value": "सभी समय के शीर्ष अनुरोध"
     }
   ],
   "stats.titleMonth": [
     {
       "type": 0,
-      "value": "Top requests this month"
+      "value": "इस महीने के शीर्ष अनुरोध"
     }
   ],
   "stats.titleWeek": [
     {
       "type": 0,
-      "value": "Top requests this week"
+      "value": "इस सप्ताह के शीर्ष अनुरोध"
     }
   ],
   "stats.titleYear": [
     {
       "type": 0,
-      "value": "Top requests this year"
+      "value": "इस वर्ष के शीर्ष अनुरोध"
     }
   ],
   "stats.total": [
     {
       "type": 0,
-      "value": "Total requests sent: "
+      "value": "कुल अनुरोध भेजे गए: "
     },
     {
       "style": null,
@@ -4706,37 +4650,37 @@
   "subscribe.alertsOneLiner1": [
     {
       "type": 0,
-      "value": "Stay ahead of online threats and take control of your personal data with Privacy Alerts! Our newsletter provides the latest expert advice, tips, and tricks to safeguard your privacy in the digital world. Subscribe now to stay informed and empowered!"
+      "value": "ऑनलाइन खतरों से आगे रहें और अपनी व्यक्तिगत डेटा पर नियंत्रण रखें Privacy Alerts के साथ! हमारा न्यूज़लेटर डिजिटल दुनिया में आपकी गोपनीयता की रक्षा के लिए नवीनतम विशेषज्ञ सलाह, टिप्स, और ट्रिक्स प्रदान करता है। अब सब्सक्राइब करें ताकि आप सूचित और सशक्त बने रहें!"
     }
   ],
   "subscribe.title": [
     {
       "type": 0,
-      "value": "Subscribe To Privacy Alerts!"
+      "value": "Privacy Alerts के लिए सदस्यता लें!"
     }
   ],
   "support.description1": [
     {
       "type": 0,
-      "value": "We understand that getting companies to delete your data can sometimes be frustrating."
+      "value": "हम समझते हैं कि कंपनियों से आपका डेटा हटवाना कभी-कभी निराशाजनक हो सकता है।"
     }
   ],
   "support.description2": [
     {
       "type": 0,
-      "value": "Our paid support service gives you direct access to one of our staff members, who will be happy to assist you with your data deletion or access request."
+      "value": "हमारी पैड सहायता सेवा आपको हमारे एक कर्मचारी से सीधे संपर्क का अवसर देती है, जो आपकी डेटा हटाने या पहुँच अनुरोध में आपकी सहायता करने के लिए उपलब्ध रहेगा।"
     }
   ],
   "support.posPaidtitle": [
     {
       "type": 0,
-      "value": "Thank you!"
+      "value": "धन्यवाद!"
     }
   ],
   "support.postPaidDescription1": [
     {
       "type": 0,
-      "value": "Please contact us via the following email address to access paid support:"
+      "value": "कृपया हमारे साथ सीधे संपर्क करें निम्न ईमेल पते पर पहुंच के लिए:"
     }
   ],
   "support.postPaidDescription2": [
@@ -4752,49 +4696,49 @@
   "support.seoDescription": [
     {
       "type": 0,
-      "value": "Paid support service gives you direct access to one of our staff members"
+      "value": "पेड सपोर्ट सेवा आपको हमारे एक कर्मचारी से सीधे संपर्क देती है"
     }
   ],
   "support.seoTitle": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "सहायता"
     }
   ],
   "support.title": [
     {
       "type": 0,
-      "value": "Paid Support"
+      "value": "पेड सपोर्ट"
     }
   ],
   "thankyou.copyPart1Copy": [
     {
       "type": 0,
-      "value": "has been copied to the clipboard, all you need to do is paste it in an email, reivew it, and click Send."
+      "value": "यह क्लिपबोर्ड में कॉपी कर दिया गया है, बस इसे ईमेल में पेस्ट करें, समीक्षा करें और भेजें।"
     }
   ],
   "thankyou.copyPart1Email": [
     {
       "type": 0,
-      "value": "email should have opened in your email application, all you need to do is review it and click Send."
+      "value": "ईमेल आपके ईमेल ऐप में खुला होगा, बस उसे समीक्षा करें और भेजें।"
     }
   ],
   "thankyou.description": [
     {
       "type": 0,
-      "value": "Thank you"
+      "value": "धन्यवाद"
     }
   ],
   "thankyou.donation": [
     {
       "type": 0,
-      "value": "Help us keep this service free by "
+      "value": "इस सेवा को मुक्त रखने में मदद करें "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "making a donation"
+          "value": "दान करके"
         }
       ],
       "type": 8,
@@ -4802,19 +4746,19 @@
     },
     {
       "type": 0,
-      "value": " to help ensure our long-term financial stability and independence."
+      "value": " जो हमारी दीर्घकालिक वित्तीय स्थिरता और स्वतंत्रता सुनिश्चित करने में मदद करेगा।"
     }
   ],
   "thankyou.findCompany": [
     {
       "type": 0,
-      "value": "Find another organization"
+      "value": "कोई और संगठन खोजें"
     }
   ],
   "thankyou.howLongToReply": [
     {
       "type": 0,
-      "value": "Organizations have "
+      "value": "संगठन के पास अनुपालन के लिए "
     },
     {
       "type": 1,
@@ -4822,31 +4766,31 @@
     },
     {
       "type": 0,
-      "value": " to comply, and may request additional information in order to verify your identity."
+      "value": " दिन होते हैं, और आपकी पहचान सत्यापित करने के लिए अतिरिक्त जानकारी का अनुरोध कर सकते हैं।"
     }
   ],
   "thankyou.requestTypeAccess": [
     {
       "type": 0,
-      "value": "An access request"
+      "value": "एक पहुँच अनुरोध"
     }
   ],
   "thankyou.requestTypeDelete": [
     {
       "type": 0,
-      "value": "A deletion request"
+      "value": "एक हटाने का अनुरोध"
     }
   ],
   "thankyou.seotitle": [
     {
       "type": 0,
-      "value": "Thank You"
+      "value": "धन्यवाद"
     }
   ],
   "thankyou.title": [
     {
       "type": 0,
-      "value": "Thank You!"
+      "value": "धन्यवाद!"
     }
   ]
 }
