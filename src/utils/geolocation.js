@@ -1,11 +1,18 @@
 import fetch from "isomorphic-fetch";
 var regulation = null;
 
-async function getRegulationbyGeolocation() {
-  const url = `/api/geolocation`;
+async function getGeo() {
+  const cached = sessionStorage.getItem('ydr_geo');
+  if (cached) return JSON.parse(cached);
+  const res = await fetch('/api/geolocation', { cache: 'no-store', credentials: 'omit' });
+  const data = await res.json();
+  sessionStorage.setItem('ydr_geo', JSON.stringify(data));
+  return data;
+}
 
+async function getRegulationbyGeolocation() {
   if (regulation == null) {
-    regulation = fetch(url)
+    regulation = getGeo() 
       .then((response) => {
         if (response.ok) {
           return response.json();
@@ -81,10 +88,8 @@ async function getRegulationbyGeolocation() {
 var countryCode = null;
 
 async function getCountryCode() {
-  const url = `/api/geolocation`;
-
   if (countryCode == null) {
-    countryCode = fetch(url)
+    regulation = getGeo() 
       .then((response) => {
         if (response.ok) {
           return response.json();
