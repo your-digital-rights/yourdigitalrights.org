@@ -1,108 +1,93 @@
 import fetch from "isomorphic-fetch";
-var regulation = null;
 
 async function getGeo() {
-  const cached = sessionStorage.getItem('ydr_geo');
-  if (cached) return JSON.parse(cached);
-  const res = await fetch('/api/geolocation', { cache: 'no-store', credentials: 'omit' });
-  const data = await res.json();
-  sessionStorage.setItem('ydr_geo', JSON.stringify(data));
-  return data;
+  try {
+    if (typeof window !== 'undefined') {
+      const cached = sessionStorage.getItem('ydr_geo');
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && typeof parsed === 'object') {
+          return parsed;
+        }
+      }
+    }
+    
+    const res = await fetch('/api/geolocation');
+    
+    if (!res.ok) {
+      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+    }
+    
+    const data = await res.json();
+    
+    if (typeof window !== 'undefined' && data && typeof data === 'object') {
+      sessionStorage.setItem('ydr_geo', JSON.stringify(data));
+    }
+    
+    return data;
+  } catch (error) {
+    console.warn('Failed to get geolocation:', error);
+    return { country: null, region: null, city: null, latitude: null, longitude: null, timezone: null };
+  }
 }
 
 async function getRegulationbyGeolocation() {
-  if (regulation == null) {
-    regulation = getGeo() 
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        }
-        throw new Error(`HTTP error ${response.status} from ${url}`);
-      })
-      .then((resultJson) => {
-        if (resultJson['country'] === 'US') {
-            if (resultJson['region'] === 'VA') {
-              return 'VCDPA';
-            } else if (resultJson['region'] === 'CO') {
-              return 'CPA';
-            } else if (resultJson['region'] === 'CT') {
-              return 'CTDPA';   
-            } else if (resultJson['region'] === 'UT') {
-              return 'UCPA';       
-            } else if (resultJson['region'] === 'TX') {
-              return 'TDPSA';      
-            } else if (resultJson['region'] === 'OR') {
-              return 'OPCA';      
-            } else if (resultJson['region'] === 'FL') {
-              return 'FDBR';                                                                              
-            } else if (resultJson['region'] === 'MT') {
-              return 'MTCDPA';                  
-            } else if (resultJson['region'] === 'IA') {
-              return 'ICDPA';    
-            } else if (resultJson['region'] === 'DE') {
-              return 'DPDPA';    
-            } else if (resultJson['region'] === 'NH') {
-              return 'NHDPA';    
-            } else if (resultJson['region'] === 'NE') {
-              return 'NDPA';            
-            } else if (resultJson['region'] === 'NJ') {
-              return 'NJDPL';                          
-            } else if (resultJson['region'] === 'TN') {
-              return 'TIPA';   
-            } else if (resultJson['region'] === 'MN') {
-              return 'MCDPA';                               
-            } else {
-              return 'CCPA';
-            }
-        } else if (resultJson['country'] === 'GB') {
-          return 'GDPRUK';
-        } else if (resultJson['country'] === 'BR') {
-          return 'LGPD';     
-        } else if (resultJson['country'] === 'CA') {
-          return 'PIPEDA';                        
-        } else if (resultJson['country'] === 'JP') {
-          return 'APPI';       
-        } else if (resultJson['country'] === 'IN') {
-          return 'DPDPA';             
-        } else if (resultJson['country'] === 'CH') {
-          return 'FADP';   
-        } else if (resultJson['country'] === 'CN') {
-          return 'PIPL';                 
-        } else if (resultJson['country'] === 'ZA') {
-          return 'POPIA';                 
-        } else if (resultJson['country'] === 'JO') {
-          return 'PDPL';                 
-        } else if (resultJson['country'] === 'TH') {
-          return 'PDPA';                           
-        } else {
-          return 'GDPR';
-        }
-      }).catch(function(err){
-        return "GDPR"
-      });
+  try {
+    const resultJson = await getGeo();
+    
+    if (!resultJson || !resultJson.country) {
+      return 'GDPR';
+    }
+    
+    if (resultJson.country === 'US') {
+      const region = resultJson.region;
+      switch (region) {
+        case 'VA': return 'VCDPA';
+        case 'CO': return 'CPA';
+        case 'CT': return 'CTDPA';
+        case 'UT': return 'UCPA';
+        case 'TX': return 'TDPSA';
+        case 'OR': return 'OPCA';
+        case 'FL': return 'FDBR';
+        case 'MT': return 'MTCDPA';
+        case 'IA': return 'ICDPA';
+        case 'DE': return 'DPDPA';
+        case 'NH': return 'NHDPA';
+        case 'NE': return 'NDPA';
+        case 'NJ': return 'NJDPL';
+        case 'TN': return 'TIPA';
+        case 'MN': return 'MCDPA';
+        default: return 'CCPA';
+      }
+    }
+    
+    switch (resultJson.country) {
+      case 'GB': return 'GDPRUK';
+      case 'BR': return 'LGPD';
+      case 'CA': return 'PIPEDA';
+      case 'JP': return 'APPI';
+      case 'IN': return 'DPDPA';
+      case 'CH': return 'FADP';
+      case 'CN': return 'PIPL';
+      case 'ZA': return 'POPIA';
+      case 'JO': return 'PDPL';
+      case 'TH': return 'PDPA';
+      default: return 'GDPR';
+    }
+  } catch (error) {
+    console.warn('Failed to get regulation by geolocation:', error);
+    return 'GDPR';
   }
-
-  return regulation;
-};
-
-var countryCode = null;
+}
 
 async function getCountryCode() {
-  if (countryCode == null) {
-    regulation = getGeo() 
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        }
-        throw new Error(`HTTP error ${response.status} from ${url}`);
-      })
-      .then((resultJson) => {
-        return resultJson['country'];
-      }).catch(function(err){
-        return null;
-      });
+  try {
+    const resultJson = await getGeo();
+    return resultJson?.country || null;
+  } catch (error) {
+    console.warn('Failed to get country code:', error);
+    return null;
   }
-  return countryCode;
-};
+}
 
 export {getRegulationbyGeolocation, getCountryCode};
