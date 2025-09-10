@@ -93,7 +93,7 @@ export async function getStaticProps({ params }) {
     props: {
       organization: data['Domain'],
     },
-    revalidate: 60*60*24*7 // 7 days
+    revalidate:  30 * 24 * 60 * 60, // 30 days
   }
 }
 

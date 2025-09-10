@@ -73,6 +73,14 @@ module.exports = {
           },            
         ],
       },
+      {
+        // Domains
+        source: '/d/:slug*', // auto-applies to all locales
+        headers: [
+          // CDN-friendly caching for HTML
+          { key: 'Cache-Control', value: 'public, max-age=3600, s-maxage=2592000, stale-while-revalidate=86400, stale-if-error=604800' },
+        ],
+      },
     ]
   },
 };
