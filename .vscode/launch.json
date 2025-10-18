@@ -16,6 +16,13 @@
       "cwd": "${workspaceFolder}/ydr",
     },
     {
+      "name": "Next.js: debug production client-side",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://yourdigitalrights.org",
+      "cwd": "${workspaceFolder}/ydr",
+    },    
+    {
       "name": "Next.js: debug full stack",
       "type": "node-terminal",
       "request": "launch",
