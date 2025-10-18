@@ -262,7 +262,7 @@ const Regulations = {
         {
           name: 'United Kingdom',
           countryCode: 'UK',
-          email: 'icocasework@ico.og.uk',
+          email: 'icocasework@ico.org.uk',
           website: 'https://ico.org.uk/',
           chairman: 'John Edwards'
         },
@@ -1397,7 +1397,183 @@ const Regulations = {
         "article": "Section 30"
       }
     }
-  }
+  },
+  "MODPA": {
+    "displayName": "MODPA",
+    "geography": "Maryland",
+    "longName": "Maryland Online Data Privacy Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "MD AG",
+      "longName": "Attorney General of Maryland",
+      "requestFormURL": "https://www.marylandattorneygeneral.gov/Pages/CPD/Complaint.aspx",
+      "defaultAction": "form",
+      "geographies": [
+        {
+          "name": "Maryland",
+          "countryCode": "MD",
+          "email": "consumer@oag.state.md.us",
+          "website": "https://www.marylandattorneygeneral.gov/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_454_hb0567e.pdf",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "§ 14-4605(b)(4)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineMODPA"
+            defaultMessage="<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),
+        "exceptionURL": "https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_454_hb0567e.pdf"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "§ 14-4605(b)(1)"
+      }
+    }
+  },
+  "ICDP": {
+    "displayName": "ICDP",
+    "geography": "Indiana",
+    "longName": "Indiana Consumer Data Protection Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "IN AG",
+      "longName": "Attorney General of Indiana",
+      "requestFormURL": "https://www.in.gov/attorneygeneral/consumer-protection-division/file-a-complaint/",
+      "defaultAction": "form",
+      "geographies": [
+        {
+          "name": "Indiana",
+          "countryCode": "IN",
+          "email": "",
+          "website": "https://www.in.gov/attorneygeneral/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://iga.in.gov/legislative/2023/bills/senate/5/details",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "§ 24-15-7-1(3)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineICDP"
+            defaultMessage="<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),        
+        "exceptionURL": "https://iga.in.gov/ic/2024/Title_24/Article_15.pdf"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "§ 24-15-7-1(1)"
+      }
+    }
+  },
+  "KCDPA": {
+    "displayName": "KCDPA",
+    "geography": "Kentucky",
+    "longName": "Kentucky Consumer Data Protection Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "KY AG",
+      "longName": "Attorney General of Kentucky",
+      "requestFormURL": "https://ag.ky.gov/Resources/Consumer-Resources/Consumers/Pages/Consumer-Complaints.aspx",
+      "defaultAction": "form",
+      "geographies": [
+        {
+          "name": "Kentucky",
+          "countryCode": "KY",
+          "email": "",
+          "website": "https://ag.ky.gov/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://apps.legislature.ky.gov/law/acts/24RS/documents/0072.pdf",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "§ 2(1)(c)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineKCDPA"
+            defaultMessage="<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),                
+        "exceptionURL": "https://apps.legislature.ky.gov/law/acts/24RS/documents/0072.pdf"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "§ 2(1)(a)"
+      }
+    }
+  },
+  "RIDTPPA": {
+    "displayName": "RIDTPPA",
+    "geography": "Rhode Island",
+    "longName": "Rhode Island Data Transparency and Privacy Protection Act",
+    "timeLimit": 45,
+    "escalation_timeLimit": 90,
+    "dpa": {
+      "shortName": "RI AG",
+      "longName": "Attorney General of Rhode Island",
+      "requestFormURL": "https://riag.ri.gov/forms/consumer-complaint",
+      "defaultAction": "form",
+      "geographies": [
+        {
+          "name": "Rhode Island",
+          "countryCode": "RI",
+          "email": "consumers@riag.ri.gov",
+          "website": "https://riag.ri.gov/",
+          "chairman": ""
+        }
+      ]
+    },
+    "regulationURL": "https://webserver.rilegislature.gov/BillText24/HouseText24/H7787A.htm",
+    "requestTypes": {
+      "DELETION": {
+        "name": "deletion",
+        "article": "§ 6-48.1-5(4)",
+        "exceptions": (
+          <FormattedMessage
+            id="request.next.declineRIDTPPA"
+            defaultMessage="<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+            values={{
+              ul: txt => (<ul>{txt}</ul>),
+              li: txt => (<li>{txt}</li>),
+            }}
+          />
+        ),                        
+        "exceptionURL": "https://webserver.rilegislature.gov/BillText24/HouseText24/H7787A.htm"
+      },
+      "ACCESS": {
+        "name": "access",
+        "article": "§ 6-48.1-5(1)"
+      }
+    }
+  }  
 };
 
 export default Regulations;
