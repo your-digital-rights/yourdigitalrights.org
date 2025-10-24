@@ -1,57 +1,84 @@
 {
-  "about.aboutTitle": {
-    "message": "crwdns2239:0crwdne2239:0"
-  },
-  "about.consciousDigital": {
-    "message": "crwdns2241:0crwdne2241:0"
-  },
-  "about.consciousDigital1": {
-    "message": "crwdns3566:0{cd}crwdne3566:0"
-  },
-  "about.contact": {
-    "message": "crwdns3568:0crwdne3568:0"
-  },
-  "about.contactText": {
-    "message": "crwdns3570:0{email}crwdne3570:0"
+  "about.consciousDigitalLink": {
+    "message": "crwdns5992:0crwdne5992:0"
   },
   "about.contributors": {
     "message": "crwdns2245:0crwdne2245:0"
   },
   "about.contributorsBody1": {
-    "message": "crwdns2247:0{linkedin}crwdne2247:0"
+    "message": "crwdns5994:0crwdne5994:0"
   },
   "about.contributorsBody3": {
-    "message": "crwdns2737:0{linkedin}crwdne2737:0"
+    "message": "crwdns5996:0crwdne5996:0"
   },
   "about.contributorsBody4": {
-    "message": "crwdns2739:0{linkedin}crwdne2739:0"
+    "message": "crwdns5998:0crwdne5998:0"
   },
   "about.contributorsBody5": {
-    "message": "crwdns2741:0{linkedin}crwdne2741:0"
+    "message": "crwdns6000:0crwdne6000:0"
   },
   "about.contributorsBody6": {
-    "message": "crwdns5830:0{link}crwdne5830:0"
+    "message": "crwdns6002:0crwdne6002:0"
+  },
+  "about.contributorsSubtitle": {
+    "message": "crwdns6004:0crwdne6004:0"
   },
   "about.createdByBody2": {
-    "message": "crwdns2743:0{linkedin}crwdne2743:0"
+    "message": "crwdns6006:0crwdne6006:0"
   },
-  "about.description": {
-    "message": "crwdns2253:0crwdne2253:0"
+  "about.founder1Name": {
+    "message": "crwdns6008:0crwdne6008:0"
   },
-  "about.funding": {
-    "message": "crwdns2255:0crwdne2255:0"
+  "about.founder1Role": {
+    "message": "crwdns6010:0crwdne6010:0"
   },
-  "about.fundingBody1": {
-    "message": "crwdns3572:0crwdne3572:0"
+  "about.founder2Name": {
+    "message": "crwdns6012:0crwdne6012:0"
   },
-  "about.missionBody1": {
-    "message": "crwdns3574:0{GDPR}crwdnd3574:0{CCPA}crwdnd3574:0{LGPD}crwdne3574:0"
+  "about.founder2Role": {
+    "message": "crwdns6014:0crwdne6014:0"
   },
-  "about.missionBody2": {
-    "message": "crwdns3576:0crwdne3576:0"
+  "about.foundersSubtitle": {
+    "message": "crwdns6016:0crwdne6016:0"
   },
-  "about.missionBody3": {
-    "message": "crwdns3578:0crwdne3578:0"
+  "about.foundersTitle": {
+    "message": "crwdns6018:0crwdne6018:0"
+  },
+  "about.globalText": {
+    "message": "crwdns6020:0crwdne6020:0"
+  },
+  "about.globalTitle": {
+    "message": "crwdns6022:0crwdne6022:0"
+  },
+  "about.heroSubtitle": {
+    "message": "crwdns6024:0crwdne6024:0"
+  },
+  "about.heroTitle": {
+    "message": "crwdns6026:0crwdne6026:0"
+  },
+  "about.impactTitle": {
+    "message": "crwdns6028:0crwdne6028:0"
+  },
+  "about.introText": {
+    "message": "crwdns6030:0crwdne6030:0"
+  },
+  "about.newDescription": {
+    "message": "crwdns6032:0crwdne6032:0"
+  },
+  "about.openSourceText": {
+    "message": "crwdns6034:0crwdne6034:0"
+  },
+  "about.openSourceTitle": {
+    "message": "crwdns6036:0crwdne6036:0"
+  },
+  "about.ourApproach": {
+    "message": "crwdns6038:0crwdne6038:0"
+  },
+  "about.privacyFirstText": {
+    "message": "crwdns6040:0crwdne6040:0"
+  },
+  "about.privacyFirstTitle": {
+    "message": "crwdns6042:0crwdne6042:0"
   },
   "about.sponsors": {
     "message": "crwdns3440:0crwdne3440:0"
@@ -72,10 +99,49 @@
     "message": "crwdns3442:0{ama}crwdne3442:0"
   },
   "about.sponsorsTitle": {
-    "message": "crwdns3582:0crwdne3582:0"
+    "message": "crwdns6044:0crwdne6044:0"
+  },
+  "about.stat1Number": {
+    "message": "crwdns6046:0crwdne6046:0"
+  },
+  "about.stat1Text": {
+    "message": "crwdns6048:0crwdne6048:0"
+  },
+  "about.stat2Number": {
+    "message": "crwdns6050:0crwdne6050:0"
+  },
+  "about.stat2Text": {
+    "message": "crwdns6052:0crwdne6052:0"
+  },
+  "about.stat3Number": {
+    "message": "crwdns6054:0crwdne6054:0"
+  },
+  "about.stat3Text": {
+    "message": "crwdns6056:0crwdne6056:0"
+  },
+  "about.stat4Number": {
+    "message": "crwdns6058:0crwdne6058:0"
+  },
+  "about.stat4Text": {
+    "message": "crwdns6060:0crwdne6060:0"
+  },
+  "about.supportText": {
+    "message": "crwdns6062:0crwdne6062:0"
+  },
+  "about.supportTitle": {
+    "message": "crwdns6064:0crwdne6064:0"
   },
   "about.title": {
     "message": "crwdns2285:0crwdne2285:0"
+  },
+  "about.whyWeExist": {
+    "message": "crwdns6066:0crwdne6066:0"
+  },
+  "about.whyWeExistText1": {
+    "message": "crwdns6068:0crwdne6068:0"
+  },
+  "about.whyWeExistText2": {
+    "message": "crwdns6070:0{cd}crwdne6070:0"
   },
   "aboutOrg.description": {
     "message": "crwdns5832:0crwdne5832:0"
@@ -193,6 +259,102 @@
   },
   "deletemydata.title": {
     "message": "crwdns2781:0crwdne2781:0"
+  },
+  "donate.closing.subtitle": {
+    "message": "crwdns6072:0crwdne6072:0"
+  },
+  "donate.closing.thanks": {
+    "message": "crwdns6074:0crwdne6074:0"
+  },
+  "donate.closing.title": {
+    "message": "crwdns6076:0crwdne6076:0"
+  },
+  "donate.description": {
+    "message": "crwdns6078:0crwdne6078:0"
+  },
+  "donate.hero.subtitle": {
+    "message": "crwdns6080:0crwdne6080:0"
+  },
+  "donate.hero.title": {
+    "message": "crwdns6082:0crwdne6082:0"
+  },
+  "donate.institutional.paragraph1": {
+    "message": "crwdns6084:0crwdne6084:0"
+  },
+  "donate.institutional.paragraph2": {
+    "message": "crwdns6086:0crwdne6086:0"
+  },
+  "donate.institutional.title": {
+    "message": "crwdns6088:0crwdne6088:0"
+  },
+  "donate.intro.paragraph1": {
+    "message": "crwdns6090:0crwdne6090:0"
+  },
+  "donate.intro.paragraph2": {
+    "message": "crwdns6092:0crwdne6092:0"
+  },
+  "donate.title": {
+    "message": "crwdns6094:0crwdne6094:0"
+  },
+  "donate.waysToGive.github.button": {
+    "message": "crwdns6096:0crwdne6096:0"
+  },
+  "donate.waysToGive.github.description": {
+    "message": "crwdns6098:0crwdne6098:0"
+  },
+  "donate.waysToGive.github.title": {
+    "message": "crwdns6100:0crwdne6100:0"
+  },
+  "donate.waysToGive.liberapay.button": {
+    "message": "crwdns6102:0crwdne6102:0"
+  },
+  "donate.waysToGive.liberapay.description": {
+    "message": "crwdns6104:0crwdne6104:0"
+  },
+  "donate.waysToGive.liberapay.title": {
+    "message": "crwdns6106:0crwdne6106:0"
+  },
+  "donate.waysToGive.openCollective.button": {
+    "message": "crwdns6108:0crwdne6108:0"
+  },
+  "donate.waysToGive.openCollective.description": {
+    "message": "crwdns6110:0crwdne6110:0"
+  },
+  "donate.waysToGive.openCollective.title": {
+    "message": "crwdns6112:0crwdne6112:0"
+  },
+  "donate.waysToGive.subtitle": {
+    "message": "crwdns6114:0crwdne6114:0"
+  },
+  "donate.waysToGive.title": {
+    "message": "crwdns6116:0crwdne6116:0"
+  },
+  "donate.whyDonate.change.description": {
+    "message": "crwdns6118:0crwdne6118:0"
+  },
+  "donate.whyDonate.change.title": {
+    "message": "crwdns6120:0crwdne6120:0"
+  },
+  "donate.whyDonate.impact.description": {
+    "message": "crwdns6122:0crwdne6122:0"
+  },
+  "donate.whyDonate.impact.title": {
+    "message": "crwdns6124:0crwdne6124:0"
+  },
+  "donate.whyDonate.privacy.description": {
+    "message": "crwdns6126:0crwdne6126:0"
+  },
+  "donate.whyDonate.privacy.title": {
+    "message": "crwdns6128:0crwdne6128:0"
+  },
+  "donate.whyDonate.title": {
+    "message": "crwdns6130:0crwdne6130:0"
+  },
+  "donate.whyDonate.transparent.description": {
+    "message": "crwdns6132:0crwdne6132:0"
+  },
+  "donate.whyDonate.transparent.title": {
+    "message": "crwdns6134:0crwdne6134:0"
   },
   "donations.donate": {
     "message": "crwdns3477:0crwdne3477:0"
