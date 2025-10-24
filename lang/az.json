@@ -776,14 +776,23 @@
   "request.next.declineGDPR": {
     "message": "crwdns2877:0crwdne2877:0"
   },
+  "request.next.declineICDP": {
+    "message": "crwdns5984:0crwdne5984:0"
+  },
   "request.next.declineICDPA": {
     "message": "crwdns5955:0crwdne5955:0"
+  },
+  "request.next.declineKCDPA": {
+    "message": "crwdns5986:0crwdne5986:0"
   },
   "request.next.declineLGPD": {
     "message": "crwdns3420:0crwdne3420:0"
   },
   "request.next.declineMCDPA": {
     "message": "crwdns5973:0crwdne5973:0"
+  },
+  "request.next.declineMODPA": {
+    "message": "crwdns5988:0crwdne5988:0"
   },
   "request.next.declineMTCDPA": {
     "message": "crwdns5957:0crwdne5957:0"
@@ -814,6 +823,9 @@
   },
   "request.next.declinePOPIA": {
     "message": "crwdns5979:0crwdne5979:0"
+  },
+  "request.next.declineRIDTPPA": {
+    "message": "crwdns5990:0crwdne5990:0"
   },
   "request.next.declineTDPSA": {
     "message": "crwdns5945:0crwdne5945:0"
