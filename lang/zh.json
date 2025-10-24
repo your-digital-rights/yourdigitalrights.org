@@ -776,14 +776,23 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>出于言论自由和信息自由的理由保存您的数据是必要的(这包括新闻和学术界)； 艺术和文学目的）。</li><li>组织在法律上有义务保存您的数据。</li><li>为了公共健康而保留数据是必要的。</li><li>保存数据对于建立、行使或维护法律权利主张是必要的。</li><li>删除数据会损害科学或历史研究或符合公众利益的归档。</li><li>如果考虑到你的请求，组织决定不需要删除你的数据，它仍然必须回复你。 它应该向你解释它为什么认为它不必清除你的数据。 并让你知道你有权就此决定向政治部投诉，或通过法院投诉。</li></ul>"
   },
+  "request.next.declineICDP": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+  },
   "request.next.declineICDPA": {
     "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li></ul>"
+  },
+  "request.next.declineKCDPA": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>言论自由或法律规定的其他权利。</li><li>出于研究目的而处理个人信息，如果删除个人信息会导致研究无法进行或严重影响研究成果。</li><li>为防止非法活动或起诉非法活动责任人而必须处理该个人信息。</li><li>履行法律义务。</li><li>履行企业与消费者之间的合同。</li><li>检测安全事故，防止恶意、欺骗、欺诈或非法活动，或起诉该活动的责任人。</li><li>调试以识别和修复损害现有预期功能的错误。</li><li>根据消费者与企业的关系，仅用于与消费者期望合理一致的内部用途。</li><li>以其他合法方式在内部使用消费者的个人信息，并与消费者提供信息的背景相符。</li></ul>"
   },
   "request.next.declineMCDPA": {
     "message": "<ul><li>政府机构</li><li>联邦认可的印第安部落</li><li>HIPAA规范下的受规管实体和商业合作伙伴</li><li>由州或联邦特许的银行或信用合作社</li><li>保险公司</li><li>依据美国小企业管理局定义的小型企业</li><li>仅为侦测或预防保险欺诈而设立的非营利组织</li><li>受GLBA或FCRA管辖的个人数据</li><li>就业背景或求职者的个人数据、福利和紧急联系人信息</li><li>去身份化或公开可获得的数据</li></ul>"
+  },
+  "request.next.declineMODPA": {
+    "message": "<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
@@ -814,6 +823,9 @@
   },
   "request.next.declinePOPIA": {
     "message": "<ul><li>个人或家庭活动</li><li>完全去身份化数据</li><li>国家安全</li><li>执法</li><li>由内阁及其委员会或省级执行委员会</li><li>与宪法第166条中提及的法院司法职能相关</li></ul>"
+  },
+  "request.next.declineRIDTPPA": {
+    "message": "<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "各实体，包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会、金融机构； 《格拉姆-莱克-布莱利法》和《健康保险可移植性和问责制法》等具体法案涵盖的实体。 免责。"
