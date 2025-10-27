@@ -341,7 +341,18 @@ const About = ({ router }) => {
           >
             <FounderCard elevation={0}>
               <CardContent sx={{ p: 4 }}>
-                <PersonIcon sx={{ fontSize: 64, color: "white" }} />
+                <Box sx={{ mb: 3, display: "flex", justifyContent: "center" }}>
+                  <img
+                    src="/images/yoav.png"
+                    alt="Yoav Aviram"
+                    style={{
+                      width: "150px",
+                      height: "150px",
+                      borderRadius: "50%",
+                      objectFit: "cover"
+                    }}
+                  />
+                </Box>
                 <Typography variant="h5" gutterBottom fontWeight="600">
                   <FormattedMessage id="about.founder1Name" defaultMessage="Yoav Aviram" />
                 </Typography>
@@ -356,7 +367,18 @@ const About = ({ router }) => {
 
             <FounderCard elevation={0}>
               <CardContent sx={{ p: 4 }}>
-                <PersonIcon sx={{ fontSize: 64, color: "white" }} />
+                <Box sx={{ mb: 3, display: "flex", justifyContent: "center" }}>
+                  <img
+                    src="/images/rafa.png"
+                    alt="Rafa Prada"
+                    style={{
+                      width: "150px",
+                      height: "150px",
+                      borderRadius: "50%",
+                      objectFit: "cover"
+                    }}
+                  />
+                </Box>
                 <Typography variant="h5" gutterBottom fontWeight="600">
                   <FormattedMessage id="about.founder2Name" defaultMessage="Rafa Prada" />
                 </Typography>
@@ -557,7 +579,14 @@ const About = ({ router }) => {
             }}
           >
             <SectionCard elevation={0}>
-              <CardContent sx={{ p: 3 }}>
+              <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
+                <Box sx={{ flexShrink: 0 }}>
+                  <img
+                    src="/images/sponsors/crunchbase.png"
+                    alt="Crunchbase"
+                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                  />
+                </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
                   <FormattedMessage
                     id="about.sponsorsBody2"
@@ -575,7 +604,14 @@ const About = ({ router }) => {
             </SectionCard>
 
             <SectionCard elevation={0}>
-              <CardContent sx={{ p: 3 }}>
+              <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
+                <Box sx={{ flexShrink: 0 }}>
+                  <img
+                    src="/images/sponsors/featureupvote.png"
+                    alt="FeatureUpvote"
+                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                  />
+                </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
                   <FormattedMessage
                     id="about.sponsorsBody3"
@@ -598,7 +634,14 @@ const About = ({ router }) => {
             </SectionCard>
 
             <SectionCard elevation={0}>
-              <CardContent sx={{ p: 3 }}>
+              <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
+                <Box sx={{ flexShrink: 0 }}>
+                  <img
+                    src="/images/sponsors/innocraft.png"
+                    alt="Innocraft"
+                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                  />
+                </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
                   <FormattedMessage
                     id="about.sponsorsBody4"
@@ -616,7 +659,14 @@ const About = ({ router }) => {
             </SectionCard>
 
             <SectionCard elevation={0}>
-              <CardContent sx={{ p: 3 }}>
+              <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
+                <Box sx={{ flexShrink: 0 }}>
+                  <img
+                    src="/images/sponsors/smoothwebsites.png"
+                    alt="Smooth Websites"
+                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                  />
+                </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
                   <FormattedMessage
                     id="about.sponsorsBody6"
@@ -634,7 +684,14 @@ const About = ({ router }) => {
             </SectionCard>
 
             <SectionCard elevation={0}>
-              <CardContent sx={{ p: 3 }}>
+              <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
+                <Box sx={{ flexShrink: 0 }}>
+                  <img
+                    src="/images/sponsors/assisemendes.png"
+                    alt="Assis e Mendes Advogados"
+                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                  />
+                </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
                   <FormattedMessage
                     id="about.sponsorsBody7"
