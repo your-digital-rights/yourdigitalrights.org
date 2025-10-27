@@ -710,6 +710,7 @@ const About = ({ router }) => {
           </Box>
         </Container>
       </Box>
+      
 
       <Box sx={{ py: 10, px: 2, bgcolor: "action.hover" }}>
         <Container maxWidth="lg">

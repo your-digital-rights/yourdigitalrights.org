@@ -8,6 +8,9 @@
   "about.consciousDigital1": {
     "message": "YourDigitalRights.org on {cd}-järjestön luomus. Kyseessä on rekisteröity hyväntekeväisyysjärjestö, joka luo ihmiskeskeisiä digitaalisia aloitteita edistäen digitaalisia ihmisoikeuksia."
   },
+  "about.consciousDigitalLink": {
+    "message": "Conscious Digital"
+  },
   "about.contact": {
     "message": "Yhteydenotto"
   },
@@ -18,31 +21,70 @@
     "message": "Avustajat"
   },
   "about.contributorsBody1": {
-    "message": "{linkedin} – Frontend-verkkokehittäjä."
+    "message": "Frontend-verkkokehittäjä."
   },
   "about.contributorsBody3": {
-    "message": "{linkedin} – Frontend-verkkokehittäjä."
+    "message": "Frontend-verkkokehittäjä."
   },
   "about.contributorsBody4": {
-    "message": "{linkedin} – Frontend-verkkokehittäjä."
+    "message": "Frontend-verkkokehittäjä."
   },
   "about.contributorsBody5": {
-    "message": "{linkedin} – infrastruktuuri-insinööri."
+    "message": "infrastruktuuri-insinööri."
   },
   "about.contributorsBody6": {
     "message": "Full stack -kehittäjä, joka osallistui APPI-tuen toteuttamiseen ja sivuston japaninkieliseen käännökseen."
   },
+  "about.contributorsSubtitle": {
+    "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
+  },
   "about.createdByBody2": {
-    "message": "{linkedin} – Frontend-verkkokehittäjä, mobiilisovelluskehittäjä sekä AR-lentoseurantapelin Skyjackerin luoja."
+    "message": "Frontend-verkkokehittäjä, mobiilisovelluskehittäjä sekä AR-lentoseurantapelin Skyjackerin luoja."
   },
   "about.description": {
     "message": "Your Digital Rights luotiin, koska uskomme, että sinulla on oikeus yksityisyyteen ja että tämän oikeuden käyttäminen tulisi olla helppoa."
+  },
+  "about.founder1Name": {
+    "message": "Yoav Aviram"
+  },
+  "about.founder1Role": {
+    "message": "Human Rights Activist, Author, Philosopher"
+  },
+  "about.founder2Name": {
+    "message": "Rafa Prada"
+  },
+  "about.founder2Role": {
+    "message": "Design Consultant and Visiting Lecturer at UCL and UAL"
+  },
+  "about.foundersSubtitle": {
+    "message": "YourDigitalRights.org was founded by two passionate advocates for digital rights and human-centered design."
+  },
+  "about.foundersTitle": {
+    "message": "Our Founders"
   },
   "about.funding": {
     "message": "Rahoitus"
   },
   "about.fundingBody1": {
     "message": "Tämä hanke rahoitetaan sen luojien toimesta ja teidän lahjoitustenne avulla."
+  },
+  "about.globalText": {
+    "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
+  },
+  "about.globalTitle": {
+    "message": "Global & Inclusive"
+  },
+  "about.heroSubtitle": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy. We make it simple to exercise your legal rights over your personal data — to ask companies to delete it, access it, or stop selling it — under privacy laws like the GDPR, CCPA, and dozens more around the world."
+  },
+  "about.heroTitle": {
+    "message": "Taking Back Control of Your Personal Data"
+  },
+  "about.impactTitle": {
+    "message": "Real-World Impact"
+  },
+  "about.introText": {
+    "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
   },
   "about.missionBody1": {
     "message": "Uskomme, että yksityisyys on perustavanlaatuinen ihmisoikeus ja että tämän oikeuden käyttäminen tulisi olla helposti kaikkien ulottuvilla. Tietosuojalainsäädäntö, kuten {GDPR} (EU), {CCPA} (Kalifornia) ja {LGPD} (Brasilia), luo oikeudellisen perustan ihmisten yksityisoikeuksien suojaamiselle verkossa."
@@ -52,6 +94,24 @@
   },
   "about.missionBody3": {
     "message": "Tämä on ilmainen palvelu. Emme ole liikeyritys, emmekä toimi liiketoimintamallin mukaisesti. Emme tarjoa mitään palveluja luettelossa oleville organisaatioille. Emme kerää emmekä kauppaa henkilötietoja. Tämä palvelu on <a>avointa lähdekoodia</a>."
+  },
+  "about.newDescription": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
+  },
+  "about.openSourceText": {
+    "message": "All code, data, and methods are public and free to reuse."
+  },
+  "about.openSourceTitle": {
+    "message": "Open Source & Transparent"
+  },
+  "about.ourApproach": {
+    "message": "Our Approach"
+  },
+  "about.privacyFirstText": {
+    "message": "We collect no personal data by default, run no ads, and never sell user information."
+  },
+  "about.privacyFirstTitle": {
+    "message": "Privacy-First by Design"
   },
   "about.sponsors": {
     "message": "Tukiorganisaatiot"
@@ -74,8 +134,47 @@
   "about.sponsorsTitle": {
     "message": "Haluamme kiittää seuraavia organisaatioita avoimen lähdekoodin projektimme tukemisesta tarjoamalla ilmaisen tai alennetun version palveluistaan:"
   },
+  "about.stat1Number": {
+    "message": "410,000+"
+  },
+  "about.stat1Text": {
+    "message": "Data requests submitted to organizations worldwide"
+  },
+  "about.stat2Number": {
+    "message": "1,800+"
+  },
+  "about.stat2Text": {
+    "message": "Complaints filed with regulators"
+  },
+  "about.stat3Number": {
+    "message": "41,000+"
+  },
+  "about.stat3Text": {
+    "message": "Companies in our database"
+  },
+  "about.stat4Number": {
+    "message": "1,000+"
+  },
+  "about.stat4Text": {
+    "message": "Data brokers tracked through DataBrokersWatch.org"
+  },
+  "about.supportText": {
+    "message": "From sending your first request to filing a complaint with a regulator, our tools help you every step of the way."
+  },
+  "about.supportTitle": {
+    "message": "End-to-End Support"
+  },
   "about.title": {
     "message": "Tietoja meistä"
+  },
+  "about.whyWeExist": {
+    "message": "Why We Exist"
+  },
+  "about.whyWeExistText1": {
+    "message": "The internet was built for people — but today, most of it is powered by the trade in our personal information. We believe everyone deserves digital privacy by default, not just by law. YourDigitalRights.org was created to make those rights practical, simple, and enforceable."
+  },
+  "about.whyWeExistText2": {
+    "message": "We are part of {cd}, a nonprofit organization advancing digital human rights worldwide. Together, we build open, people-centered tools that empower individuals — not corporations or governments — to be first-class citizens in the digital world."
   },
   "aboutOrg.description": {
     "message": "Heidän omin sanoin:"
@@ -193,6 +292,102 @@
   },
   "deletemydata.title": {
     "message": "Poista tietoni"
+  },
+  "donate.closing.subtitle": {
+    "message": "Your support keeps YourDigitalRights.org free, open, and independent. Whether it's €5 or €500, every donation makes a difference."
+  },
+  "donate.closing.thanks": {
+    "message": "Thank you for standing up for privacy and empowering people everywhere."
+  },
+  "donate.closing.title": {
+    "message": "Every Bit Helps"
+  },
+  "donate.description": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.subtitle": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.institutional.paragraph1": {
+    "message": "<a>Conscious Digital</a> is a registered nonprofit organization in Estonia (Reg. 80600079). We welcome support from foundations, companies, and philanthropic organizations."
+  },
+  "donate.institutional.paragraph2": {
+    "message": "Please <a>contact us</a> to discuss grants, matching donations, or custom sponsorships."
+  },
+  "donate.institutional.title": {
+    "message": "Institutional Support"
+  },
+  "donate.intro.paragraph1": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people reclaim their privacy online. It is maintained by Conscious Digital, a nonprofit organization building people-centered digital initiatives to advance digital human rights."
+  },
+  "donate.intro.paragraph2": {
+    "message": "We do not show ads, sell data, or rely on invasive tech. Instead, we rely on the support of a global community. Your donation directly powers the tools that let people everywhere request their data, delete their profiles, and stand up to surveillance."
+  },
+  "donate.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.waysToGive.github.button": {
+    "message": "Sponsor"
+  },
+  "donate.waysToGive.github.description": {
+    "message": "Direct support for our developers and infrastructure. Easy for GitHub users."
+  },
+  "donate.waysToGive.github.title": {
+    "message": "GitHub Sponsors"
+  },
+  "donate.waysToGive.liberapay.button": {
+    "message": "Support"
+  },
+  "donate.waysToGive.liberapay.description": {
+    "message": "A community-driven platform for weekly or monthly giving."
+  },
+  "donate.waysToGive.liberapay.title": {
+    "message": "Liberapay"
+  },
+  "donate.waysToGive.openCollective.button": {
+    "message": "Donate"
+  },
+  "donate.waysToGive.openCollective.description": {
+    "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
+  },
+  "donate.waysToGive.openCollective.title": {
+    "message": "Open Collective"
+  },
+  "donate.waysToGive.subtitle": {
+    "message": "Choose a method that works for you:"
+  },
+  "donate.waysToGive.title": {
+    "message": "Ways to Give"
+  },
+  "donate.whyDonate.change.description": {
+    "message": "Every donation helps hold data brokers, tech giants and other organizations accountable."
+  },
+  "donate.whyDonate.change.title": {
+    "message": "Real-world change"
+  },
+  "donate.whyDonate.impact.description": {
+    "message": "With your help, we've supported 400,000+ privacy requests, 1,800+ regulatory complaints, and reached <strong>4+ billion individuals</strong> across supported jurisdictions."
+  },
+  "donate.whyDonate.impact.title": {
+    "message": "Proven impact"
+  },
+  "donate.whyDonate.privacy.description": {
+    "message": "No ads. No tracking. No profit motives."
+  },
+  "donate.whyDonate.privacy.title": {
+    "message": "Privacy-first, always"
+  },
+  "donate.whyDonate.title": {
+    "message": "Why Donate?"
+  },
+  "donate.whyDonate.transparent.description": {
+    "message": "All our code and data are public. You can review our work at any time."
+  },
+  "donate.whyDonate.transparent.title": {
+    "message": "Open and transparent"
   },
   "donations.donate": {
     "message": "Lahjoita"
@@ -776,14 +971,23 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>Kun tietojesi säilyttäminen on välttämätöntä sananvapauden ja tiedonvälityksen kannalta (tämä sisältää journalismin sekä akateemiset, taiteelliset ja kirjalliset tarkoitukset).</li><li>Kun organisaatiolla on laillinen velvoite säilyttää tietosi.</li><li>Kun tietojesi säilyttäminen on välttämätöntä kansanterveydellisistä syistä.</li><li>Kun tietojesi säilyttäminen on välttämätöntä oikeudellisten vaateiden laatimiseksi, esittämiseksi tai puolustamiseksi.</li><li>Kun tietojesi poistaminen haittaisi tieteellistä tai historiallista tutkimusta taikka yleishyödyllistä arkistointia.</li><li>Jos organisaatio katsoo, ettei tietoja ole tarpeen poistaa, sen on silti vastattava sinulle. Sen tulee selittää, miksi se katsoo, ettei tietoja tarvitse poistaa, ja kertoa sinulle oikeudestasi valittaa tästä päätöksestä tietosuojaviranomaiselle tai oikeusteitse.</li></ul>"
   },
+  "request.next.declineICDP": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+  },
   "request.next.declineICDPA": {
     "message": "<ul><li>Pseudonymisoidut tiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Julkinen tai vertaisarvioitu tieteellinen tutkimus</li></ul>"
+  },
+  "request.next.declineKCDPA": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>Sananvapaus tai jokin muu lain sallima oikeus.</li><li>Tietojen käsittely tutkimustarkoituksiin, jos henkilötietojen poistaminen tekee tutkimuksen toteuttamisen mahdottomaksi tai vakavasti haittaa sitä.</li><li>Henkilötietojen käsittely on välttämätöntä laittoman toiminnan estämiseksi tai kyseisestä toiminnasta vastuussa olevien henkilöiden syytteeseen asettamiseksi.</li><li>Lain velvoitteiden noudattamiseksi.</li><li>Sopimuksen täytäntöön panemiseksi yrityksen ja kuluttajan välillä.</li><li>Tunnistaa ja suojata tietoturvaloukkauksilta, petollisilta tai laittomilta toimilta tai asettaa vastuuseen näistä toimista vastaavat tahot.</li><li>Virheiden tunnistaminen ja korjaaminen, jotka heikentävät olemassa olevaa ja tarkoitettua toiminnallisuutta.</li><li>Sallia pelkästään sisäiset käyttötarkoitukset, jotka ovat kohtuullisella tavalla kuluttajan odotuksia vastaavia perustuen kuluttajan ja yrityksen väliseen suhteeseen.</li><li>Muuten käyttää kuluttajan henkilötietoja laillisesti tavalla, joka on yhteensopiva sen kontekstin kanssa, jossa kuluttaja antoi tiedot.</li></ul>"
   },
   "request.next.declineMCDPA": {
     "message": "<ul><li>Valtion viranomaiset</li><li>Liittovaltion tunnustamat intiaaniheimot</li><li>HIPAA-lain soveltamisalan piiriin kuuluvat toimijat ja liikekumppanit</li><li>Liittovaltion tai osavaltion myöntämän toimiluvan saaneet pankit tai luotto-osuuskunnat</li><li>Vakuutusyhtiöt</li><li>Pienyritykset, sellaisina kuin ne on määritelty Yhdysvaltain pienyrityshallinnon toimesta</li><li>Voittoa tavoittelemattomat organisaatiot, joiden ainoa tarkoitus on havaita tai estää vakuutuspetoksia</li><li>GLBA- tai FCRA-lainsäädännön alaiset henkilötiedot</li><li>Työhön liittyvät tai työnhakijoiden henkilötiedot, etuustiedot ja hätäyhteystiedot</li><li>De-identifioidut tai julkisesti saatavilla olevat tiedot</li></ul>"
+  },
+  "request.next.declineMODPA": {
+    "message": "<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakouluopilaitokset, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja</li><li>Suojatut terveystiedot</li><li>Työntekijätiedot, mukaan lukien työnhakijatiedot</li><li>De-identifioidut tiedot</li><li>Julkisesti saatavilla olevat tiedot</li><li>Kootut tiedot</li><li>Henkilötiedot, jotka on kerätty ihmisaiheisissa tutkimuksissa tai kliinisen kokeen yhteydessä</li></ul>"
@@ -814,6 +1018,9 @@
   },
   "request.next.declinePOPIA": {
     "message": "<ul><li>Henkilökohtaisia tai kotiin liittyviä tarkoituksia varten suoritettu toiminta</li><li>Täysin de-identifioidut tiedot</li><li>Kansallinen turvallisuus</li><li>Lainvalvonta</li><li>Ministerineuvosto ja sen valiokunnat tai maakunnan toimeenpaneva neuvosto</li><li>Tuomioistuinten oikeudelliset tehtävät, jotka mainitaan perustuslain pykälässä 166.</li></ul>"
+  },
+  "request.next.declineRIDTPPA": {
+    "message": "<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "Valtion ja paikallishallinnon toimijat, voittoa tavoittelemattomat organisaatiot, korkeakoulut, tietyt kansalliset arvopaperiyhdistykset, rahoituslaitokset sekä tietyillä laeilla (kuten Gramm-Leach-Bliley Act ja Health Insurance Portability and Accountability Act) säännellyt tahot ovat vapautettuja."
