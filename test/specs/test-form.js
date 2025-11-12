@@ -1,6 +1,7 @@
 import { setupPageInDesktopView, setDataOpenUrlAttributeOnWindowOpen, initializeWindowPaqArray } from "../pageobjects/page";
 
-describe("When I visit the home page", () => {
+describe("When I visit the home page", function() {
+  this.timeout(180000); // Nested describes with multiple beforeEach hooks need extra time in CI
   let page;
 
   beforeEach(async () => {
