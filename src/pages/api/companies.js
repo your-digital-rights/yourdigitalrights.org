@@ -22,6 +22,12 @@ async function fetchCompanies() {
       `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/Domains!A2:F?key=${API_KEY}`
     );
     orgs = await orgs.json();
+
+    if (!orgs || !orgs['values']) {
+      console.error('No values returned from Google Sheets API');
+      return {"License": "GNU General Public License v3.0", "Organizations": []};
+    }
+
     orgs = orgs['values'].sort(compare).map(company => {
       return {
         name: company[DISPLAY_NAME].trim(),
@@ -31,9 +37,10 @@ async function fetchCompanies() {
       };
     });
     return {"License": "GNU General Public License v3.0", "Organizations": orgs};
-  } 
+  }
   catch (e) {
     console.error(e);
+    return {"License": "GNU General Public License v3.0", "Organizations": []};
   }
 };
 

@@ -27,7 +27,9 @@ describe("When I visit the Home page in Desktop view", () => {
   });
 });
 
-describe("When I visit the Home page in Mobile view", () => {
+describe("When I visit the Home page in Mobile view", function() {
+  this.timeout(90000); // Mobile tests can be slower in CI
+
   it("shows mobile navigation", async () => {
     const page = await setupPageInMobileView("/", true);
 
@@ -62,7 +64,9 @@ describe("When I visit the Home page in Mobile view", () => {
   });
 });
 
-describe("When I visit the Home page in Mobile view", () => {
+describe("When I visit the Home page in Mobile view", function() {
+  this.timeout(90000); // Mobile tests can be slower in CI
+
   it("focuses the Search input field", async () => {
     const page = await setupPageInMobileView("/", false);
 
