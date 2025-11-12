@@ -112,6 +112,10 @@ exports.config = {
     // Default request retries count
     connectionRetryCount: 3,
     //
+    // Default timeout for page loads (in milliseconds)
+    // Increase this for slow CI environments where SSG pages take time to generate
+    pageLoadTimeout: 180000,
+    //
     // Test runner services
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
