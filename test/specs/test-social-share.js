@@ -2,7 +2,7 @@ import { setupPageInDesktopView, setDataOpenUrlAttributeOnWindowOpen } from "../
 
 describe("When I view social sharing", () => {
   it("should show facebook, twitter, email and linkedin share links", async () => {
-    const page = await setupPageInDesktopView("/about", false);
+    const page = await setupPageInDesktopView("/contribute", false);
     await setDataOpenUrlAttributeOnWindowOpen();
 
     await page.socialShare.linkedIn.click();
