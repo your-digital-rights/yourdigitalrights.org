@@ -193,13 +193,10 @@ exports.config = {
      * @param {Array.<String>} specs        List of spec file paths that are to be run
      * @param {Object}         browser      instance of created browser/device session
      */
-    before: async function (capabilities, specs) {
+    before: function (capabilities, specs) {
       const chai = require('chai');
       expect = chai.expect;
       chai.Should();
-
-      // Set page load timeout to 3 minutes for slow CI environments
-      await browser.setTimeout({ 'pageLoad': 180000 });
     },
     /**
      * Runs before a WebdriverIO command gets executed.
