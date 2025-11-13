@@ -1,6 +1,8 @@
 import { setupPageInDesktopView } from "../pageobjects/page";
 
-describe("When I visit an org page", () => {
+describe("When I visit an org page", function() {
+  this.timeout(120000); // Increase timeout for page load
+
   it("displays the org name in the page", async () => {
     const page = await setupPageInDesktopView("/d/slack.com", false);
 

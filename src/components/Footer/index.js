@@ -85,19 +85,19 @@ const Footer = ({ showRoadmap=true }) => {
 
           <Typography component="p" variant="subtitle2">
             <S.DisclaimerLink target="_blank" rel="nofollow" href="https://www.uplead.com">Logos by UpLead</S.DisclaimerLink>
-          </Typography> 
-          <a            
+          </Typography>
+          {/* <a
             href="https://vercel.com?utm_source=Conscious%20Digital&utm_campaign=oss"
           >
             <S.VercelLogo>
-              <Image 
+              <Image
                 src={Vercel}
                 alt="Powered by Vercel"
                 height={29}
                 width={116}
               />
             </S.VercelLogo>
-          </a>
+          </a> */}
         </S.InnerLeft>
         <S.InnerRight>
           <Typography gutterBottom={true} color="textSecondary" variant="subtitle2">

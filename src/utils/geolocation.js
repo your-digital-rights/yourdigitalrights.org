@@ -57,6 +57,10 @@ async function getRegulationbyGeolocation() {
         case 'NJ': return 'NJDPL';
         case 'TN': return 'TIPA';
         case 'MN': return 'MCDPA';
+        case 'MD': return 'MODPA';
+        case 'IN': return 'ICDP';
+        case 'KY': return 'KCDPA';
+        case 'RI': return 'RIDTPPA';
         default: return 'CCPA';
       }
     }

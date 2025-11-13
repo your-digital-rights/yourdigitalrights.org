@@ -8,6 +8,9 @@
   "about.consciousDigital1": {
     "message": "YourDigitalRights.org由 {cd}创建，这是一家注册慈善机构，旨在创建以人为本的数字倡议，促进和推动数字人权。"
   },
+  "about.consciousDigitalLink": {
+    "message": "Conscious Digital"
+  },
   "about.contact": {
     "message": "聯繫人"
   },
@@ -18,31 +21,70 @@
     "message": "贡献者"
   },
   "about.contributorsBody1": {
-    "message": "{linkedin} ——前端网络开发人员。"
+    "message": "——前端网络开发人员。"
   },
   "about.contributorsBody3": {
-    "message": "{linkedin} ——前端网络开发人员。"
+    "message": "——前端网络开发人员。"
   },
   "about.contributorsBody4": {
-    "message": "{linkedin} ——前端网络开发人员。"
+    "message": "——前端网络开发人员。"
   },
   "about.contributorsBody5": {
-    "message": "{linkedin} - 基础设施工程师。"
+    "message": "基础设施工程师。"
   },
   "about.contributorsBody6": {
-    "message": "{link} - 全栈工程师，负责 APPI 支持和网站的整体日语翻译。"
+    "message": "全栈工程师，负责 APPI 支持和网站的整体日语翻译。"
+  },
+  "about.contributorsSubtitle": {
+    "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
   },
   "about.createdByBody2": {
-    "message": "{linkedin} - 前端网络开发人员、移动应用开发人员，AR 飞行追踪游戏 Skyjacker 的创造者。"
+    "message": "前端网络开发人员、移动应用开发人员，AR 飞行追踪游戏 Skyjacker 的创造者。"
   },
   "about.description": {
     "message": "你的数字权利之所以创立，是因为我们认为你有隐私权，而行使你的隐私权应该是容易的。"
+  },
+  "about.founder1Name": {
+    "message": "Yoav Aviram"
+  },
+  "about.founder1Role": {
+    "message": "Human Rights Activist, Author, Philosopher"
+  },
+  "about.founder2Name": {
+    "message": "Rafa Prada"
+  },
+  "about.founder2Role": {
+    "message": "Design Consultant and Visiting Lecturer at UCL and UAL"
+  },
+  "about.foundersSubtitle": {
+    "message": "YourDigitalRights.org was founded by two passionate advocates for digital rights and human-centered design."
+  },
+  "about.foundersTitle": {
+    "message": "Our Founders"
   },
   "about.funding": {
     "message": "B. 供资"
   },
   "about.fundingBody1": {
     "message": "这个项目由其创作者提供资金，并得到您的捐助。"
+  },
+  "about.globalText": {
+    "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
+  },
+  "about.globalTitle": {
+    "message": "Global & Inclusive"
+  },
+  "about.heroSubtitle": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy. We make it simple to exercise your legal rights over your personal data — to ask companies to delete it, access it, or stop selling it — under privacy laws like the GDPR, CCPA, and dozens more around the world."
+  },
+  "about.heroTitle": {
+    "message": "Taking Back Control of Your Personal Data"
+  },
+  "about.impactTitle": {
+    "message": "Real-World Impact"
+  },
+  "about.introText": {
+    "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
   },
   "about.missionBody1": {
     "message": "我们认为，隐私权是一项基本人权，每个人都应能方便地行使这项权利。 {GDPR} （欧盟）、 {CCPA} （加利福尼亚）和 {LGPD} （巴西）等数据保护法规为保护人们的基本网络隐私权提供了法律基础。"
@@ -52,6 +94,24 @@
   },
   "about.missionBody3": {
     "message": "这是一种免费服务。我们不是一个企业，也没有一个业务模式。 我们没有向名单上的组织提供任何服务。 我们不收集或交易任何个人数据。此服务是 <a>开源</a>。"
+  },
+  "about.newDescription": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
+  },
+  "about.openSourceText": {
+    "message": "All code, data, and methods are public and free to reuse."
+  },
+  "about.openSourceTitle": {
+    "message": "Open Source & Transparent"
+  },
+  "about.ourApproach": {
+    "message": "Our Approach"
+  },
+  "about.privacyFirstText": {
+    "message": "We collect no personal data by default, run no ads, and never sell user information."
+  },
+  "about.privacyFirstTitle": {
+    "message": "Privacy-First by Design"
   },
   "about.sponsors": {
     "message": "支助组织"
@@ -74,8 +134,47 @@
   "about.sponsorsTitle": {
     "message": "我们要感谢下列组织通过提供免费或折扣版本的服务支持我们的开放源码努力："
   },
+  "about.stat1Number": {
+    "message": "410,000+"
+  },
+  "about.stat1Text": {
+    "message": "Data requests submitted to organizations worldwide"
+  },
+  "about.stat2Number": {
+    "message": "1,800+"
+  },
+  "about.stat2Text": {
+    "message": "Complaints filed with regulators"
+  },
+  "about.stat3Number": {
+    "message": "41,000+"
+  },
+  "about.stat3Text": {
+    "message": "Companies in our database"
+  },
+  "about.stat4Number": {
+    "message": "1,000+"
+  },
+  "about.stat4Text": {
+    "message": "Data brokers tracked through DataBrokersWatch.org"
+  },
+  "about.supportText": {
+    "message": "From sending your first request to filing a complaint with a regulator, our tools help you every step of the way."
+  },
+  "about.supportTitle": {
+    "message": "End-to-End Support"
+  },
   "about.title": {
     "message": "关于我们"
+  },
+  "about.whyWeExist": {
+    "message": "Why We Exist"
+  },
+  "about.whyWeExistText1": {
+    "message": "The internet was built for people — but today, most of it is powered by the trade in our personal information. We believe everyone deserves digital privacy by default, not just by law. YourDigitalRights.org was created to make those rights practical, simple, and enforceable."
+  },
+  "about.whyWeExistText2": {
+    "message": "We are part of {cd}, a nonprofit organization advancing digital human rights worldwide. Together, we build open, people-centered tools that empower individuals — not corporations or governments — to be first-class citizens in the digital world."
   },
   "aboutOrg.description": {
     "message": "用他们自己的话说："
@@ -193,6 +292,102 @@
   },
   "deletemydata.title": {
     "message": "删除我的数据"
+  },
+  "donate.closing.subtitle": {
+    "message": "Your support keeps YourDigitalRights.org free, open, and independent. Whether it's €5 or €500, every donation makes a difference."
+  },
+  "donate.closing.thanks": {
+    "message": "Thank you for standing up for privacy and empowering people everywhere."
+  },
+  "donate.closing.title": {
+    "message": "Every Bit Helps"
+  },
+  "donate.description": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.subtitle": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.institutional.paragraph1": {
+    "message": "<a>Conscious Digital</a> is a registered nonprofit organization in Estonia (Reg. 80600079). We welcome support from foundations, companies, and philanthropic organizations."
+  },
+  "donate.institutional.paragraph2": {
+    "message": "Please <a>contact us</a> to discuss grants, matching donations, or custom sponsorships."
+  },
+  "donate.institutional.title": {
+    "message": "Institutional Support"
+  },
+  "donate.intro.paragraph1": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people reclaim their privacy online. It is maintained by Conscious Digital, a nonprofit organization building people-centered digital initiatives to advance digital human rights."
+  },
+  "donate.intro.paragraph2": {
+    "message": "We do not show ads, sell data, or rely on invasive tech. Instead, we rely on the support of a global community. Your donation directly powers the tools that let people everywhere request their data, delete their profiles, and stand up to surveillance."
+  },
+  "donate.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.waysToGive.github.button": {
+    "message": "Sponsor"
+  },
+  "donate.waysToGive.github.description": {
+    "message": "Direct support for our developers and infrastructure. Easy for GitHub users."
+  },
+  "donate.waysToGive.github.title": {
+    "message": "GitHub Sponsors"
+  },
+  "donate.waysToGive.liberapay.button": {
+    "message": "Support"
+  },
+  "donate.waysToGive.liberapay.description": {
+    "message": "A community-driven platform for weekly or monthly giving."
+  },
+  "donate.waysToGive.liberapay.title": {
+    "message": "Liberapay"
+  },
+  "donate.waysToGive.openCollective.button": {
+    "message": "Donate"
+  },
+  "donate.waysToGive.openCollective.description": {
+    "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
+  },
+  "donate.waysToGive.openCollective.title": {
+    "message": "Open Collective"
+  },
+  "donate.waysToGive.subtitle": {
+    "message": "Choose a method that works for you:"
+  },
+  "donate.waysToGive.title": {
+    "message": "Ways to Give"
+  },
+  "donate.whyDonate.change.description": {
+    "message": "Every donation helps hold data brokers, tech giants and other organizations accountable."
+  },
+  "donate.whyDonate.change.title": {
+    "message": "Real-world change"
+  },
+  "donate.whyDonate.impact.description": {
+    "message": "With your help, we've supported 400,000+ privacy requests, 1,800+ regulatory complaints, and reached <strong>4+ billion individuals</strong> across supported jurisdictions."
+  },
+  "donate.whyDonate.impact.title": {
+    "message": "Proven impact"
+  },
+  "donate.whyDonate.privacy.description": {
+    "message": "No ads. No tracking. No profit motives."
+  },
+  "donate.whyDonate.privacy.title": {
+    "message": "Privacy-first, always"
+  },
+  "donate.whyDonate.title": {
+    "message": "Why Donate?"
+  },
+  "donate.whyDonate.transparent.description": {
+    "message": "All our code and data are public. You can review our work at any time."
+  },
+  "donate.whyDonate.transparent.title": {
+    "message": "Open and transparent"
   },
   "donations.donate": {
     "message": "捐助"
@@ -776,14 +971,23 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>出于言论自由和信息自由的理由保存您的数据是必要的(这包括新闻和学术界)； 艺术和文学目的）。</li><li>组织在法律上有义务保存您的数据。</li><li>为了公共健康而保留数据是必要的。</li><li>保存数据对于建立、行使或维护法律权利主张是必要的。</li><li>删除数据会损害科学或历史研究或符合公众利益的归档。</li><li>如果考虑到你的请求，组织决定不需要删除你的数据，它仍然必须回复你。 它应该向你解释它为什么认为它不必清除你的数据。 并让你知道你有权就此决定向政治部投诉，或通过法院投诉。</li></ul>"
   },
+  "request.next.declineICDP": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+  },
   "request.next.declineICDPA": {
     "message": "<ul><li>伪匿名数据</li><li>隐名数据</li><li>可公开获得的信息</li><li>公共或同行审查的科学研究</li></ul>"
+  },
+  "request.next.declineKCDPA": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>言论自由或法律规定的其他权利。</li><li>出于研究目的而处理个人信息，如果删除个人信息会导致研究无法进行或严重影响研究成果。</li><li>为防止非法活动或起诉非法活动责任人而必须处理该个人信息。</li><li>履行法律义务。</li><li>履行企业与消费者之间的合同。</li><li>检测安全事故，防止恶意、欺骗、欺诈或非法活动，或起诉该活动的责任人。</li><li>调试以识别和修复损害现有预期功能的错误。</li><li>根据消费者与企业的关系，仅用于与消费者期望合理一致的内部用途。</li><li>以其他合法方式在内部使用消费者的个人信息，并与消费者提供信息的背景相符。</li></ul>"
   },
   "request.next.declineMCDPA": {
     "message": "<ul><li>政府机构</li><li>联邦认可的印第安部落</li><li>HIPAA规范下的受规管实体和商业合作伙伴</li><li>由州或联邦特许的银行或信用合作社</li><li>保险公司</li><li>依据美国小企业管理局定义的小型企业</li><li>仅为侦测或预防保险欺诈而设立的非营利组织</li><li>受GLBA或FCRA管辖的个人数据</li><li>就业背景或求职者的个人数据、福利和紧急联系人信息</li><li>去身份化或公开可获得的数据</li></ul>"
+  },
+  "request.next.declineMODPA": {
+    "message": "<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>包括州和地方政府、非营利机构、高等教育机构、某些国家证券协会在内的实体 《格拉姆-莱奇-布莱利法》和《健康保险可移植性和问责制法》等特定法案所涵盖的实体。 被免除</li><li>受保护的健康数据</li><li>雇员数据，包括求职者的数据</li><li>被取消的数据</li><li>可公开获得的资料</li><li>综合资料</li><li>为研究人体科目的或作为临床试验的一部分收集的个人资料</li></ul>"
@@ -814,6 +1018,9 @@
   },
   "request.next.declinePOPIA": {
     "message": "<ul><li>个人或家庭活动</li><li>完全去身份化数据</li><li>国家安全</li><li>执法</li><li>由内阁及其委员会或省级执行委员会</li><li>与宪法第166条中提及的法院司法职能相关</li></ul>"
+  },
+  "request.next.declineRIDTPPA": {
+    "message": "<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "各实体，包括国家和地方政府、非营利机构、高等教育机构、某些国家证券协会、金融机构； 《格拉姆-莱克-布莱利法》和《健康保险可移植性和问责制法》等具体法案涵盖的实体。 免责。"

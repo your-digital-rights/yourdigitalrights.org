@@ -1,57 +1,84 @@
 {
-  "about.aboutTitle": {
-    "message": "Our mission"
-  },
-  "about.consciousDigital": {
-    "message": "Who we are"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org is a creation of {cd}, a registered charity creating people-centered digital initiatives promoting and advancing digital human rights."
-  },
-  "about.contact": {
-    "message": "Contact"
-  },
-  "about.contactText": {
-    "message": "Contact us at {email}."
+  "about.consciousDigitalLink": {
+    "message": "Conscious Digital"
   },
   "about.contributors": {
     "message": "Contributors"
   },
   "about.contributorsBody1": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "{linkedin} - Frontend web developer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "{linkedin} - Infrastructure Engineer."
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
-    "message": "{link} - Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+    "message": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
+  },
+  "about.contributorsSubtitle": {
+    "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
   },
   "about.createdByBody2": {
-    "message": "{linkedin} - Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
+    "message": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
   },
-  "about.description": {
-    "message": "Your Digital Rights was created because we believe that you have the right to privacy, and that exercising your right to privacy should be easy."
+  "about.founder1Name": {
+    "message": "Yoav Aviram"
   },
-  "about.funding": {
-    "message": "Funding"
+  "about.founder1Role": {
+    "message": "Human Rights Activist, Author, Philosopher"
   },
-  "about.fundingBody1": {
-    "message": "This project is funded by its creators, and with the help of your donations."
+  "about.founder2Name": {
+    "message": "Rafa Prada"
   },
-  "about.missionBody1": {
-    "message": "We believe that privacy is a basic human right and that exercising this right should be easily accessible to everyone. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) provide the legal infrastructure to protect people's fundamental right to privacy online."
+  "about.founder2Role": {
+    "message": "Design Consultant and Visiting Lecturer at UCL and UAL"
   },
-  "about.missionBody2": {
-    "message": "Privacy regulations are a step in the right direction, but exercising your rights under these legislations is still hard enough for most people not to bother with it. The situation is made worse because many organizations make it hard to file data requests (for example by not publishing any corporate email addresses on their website). Our aim is to make the rights granted by these legislations accessible to everyone."
+  "about.foundersSubtitle": {
+    "message": "YourDigitalRights.org was founded by two passionate advocates for digital rights and human-centered design."
   },
-  "about.missionBody3": {
-    "message": "This is a free service. We are not a business and do not have a business model. We do not offer any services to the organizations on the list. We do not collect or trade any personal data. This service is <a>Open Source</a>."
+  "about.foundersTitle": {
+    "message": "Our Founders"
+  },
+  "about.globalText": {
+    "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
+  },
+  "about.globalTitle": {
+    "message": "Global & Inclusive"
+  },
+  "about.heroSubtitle": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy. We make it simple to exercise your legal rights over your personal data — to ask companies to delete it, access it, or stop selling it — under privacy laws like the GDPR, CCPA, and dozens more around the world."
+  },
+  "about.heroTitle": {
+    "message": "Taking Back Control of Your Personal Data"
+  },
+  "about.impactTitle": {
+    "message": "Real-World Impact"
+  },
+  "about.introText": {
+    "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
+  },
+  "about.newDescription": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
+  },
+  "about.openSourceText": {
+    "message": "All code, data, and methods are public and free to reuse."
+  },
+  "about.openSourceTitle": {
+    "message": "Open Source & Transparent"
+  },
+  "about.ourApproach": {
+    "message": "Our Approach"
+  },
+  "about.privacyFirstText": {
+    "message": "We collect no personal data by default, run no ads, and never sell user information."
+  },
+  "about.privacyFirstTitle": {
+    "message": "Privacy-First by Design"
   },
   "about.sponsors": {
     "message": "Supporting Organizations"
@@ -72,10 +99,49 @@
     "message": "{ama} - for helping us understand, and support the Brazilian data privacy regulation, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "We’d like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
+  },
+  "about.stat1Number": {
+    "message": "410,000+"
+  },
+  "about.stat1Text": {
+    "message": "Data requests submitted to organizations worldwide"
+  },
+  "about.stat2Number": {
+    "message": "1,800+"
+  },
+  "about.stat2Text": {
+    "message": "Complaints filed with regulators"
+  },
+  "about.stat3Number": {
+    "message": "41,000+"
+  },
+  "about.stat3Text": {
+    "message": "Companies in our database"
+  },
+  "about.stat4Number": {
+    "message": "1,000+"
+  },
+  "about.stat4Text": {
+    "message": "Data brokers tracked through DataBrokersWatch.org"
+  },
+  "about.supportText": {
+    "message": "From sending your first request to filing a complaint with a regulator, our tools help you every step of the way."
+  },
+  "about.supportTitle": {
+    "message": "End-to-End Support"
   },
   "about.title": {
     "message": "About Us"
+  },
+  "about.whyWeExist": {
+    "message": "Why We Exist"
+  },
+  "about.whyWeExistText1": {
+    "message": "The internet was built for people — but today, most of it is powered by the trade in our personal information. We believe everyone deserves digital privacy by default, not just by law. YourDigitalRights.org was created to make those rights practical, simple, and enforceable."
+  },
+  "about.whyWeExistText2": {
+    "message": "We are part of {cd}, a nonprofit organization advancing digital human rights worldwide. Together, we build open, people-centered tools that empower individuals — not corporations or governments — to be first-class citizens in the digital world."
   },
   "aboutOrg.description": {
     "message": "In their own words:"
@@ -193,6 +259,102 @@
   },
   "deletemydata.title": {
     "message": "Delete my data"
+  },
+  "donate.closing.subtitle": {
+    "message": "Your support keeps YourDigitalRights.org free, open, and independent. Whether it's €5 or €500, every donation makes a difference."
+  },
+  "donate.closing.thanks": {
+    "message": "Thank you for standing up for privacy and empowering people everywhere."
+  },
+  "donate.closing.title": {
+    "message": "Every Bit Helps"
+  },
+  "donate.description": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.subtitle": {
+    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+  },
+  "donate.hero.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.institutional.paragraph1": {
+    "message": "<a>Conscious Digital</a> is a registered nonprofit organization in Estonia (Reg. 80600079). We welcome support from foundations, companies, and philanthropic organizations."
+  },
+  "donate.institutional.paragraph2": {
+    "message": "Please <a>contact us</a> to discuss grants, matching donations, or custom sponsorships."
+  },
+  "donate.institutional.title": {
+    "message": "Institutional Support"
+  },
+  "donate.intro.paragraph1": {
+    "message": "YourDigitalRights.org is a free, open-source service that helps people reclaim their privacy online. It is maintained by Conscious Digital, a nonprofit organization building people-centered digital initiatives to advance digital human rights."
+  },
+  "donate.intro.paragraph2": {
+    "message": "We do not show ads, sell data, or rely on invasive tech. Instead, we rely on the support of a global community. Your donation directly powers the tools that let people everywhere request their data, delete their profiles, and stand up to surveillance."
+  },
+  "donate.title": {
+    "message": "Support Our Mission"
+  },
+  "donate.waysToGive.github.button": {
+    "message": "Sponsor"
+  },
+  "donate.waysToGive.github.description": {
+    "message": "Direct support for our developers and infrastructure. Easy for GitHub users."
+  },
+  "donate.waysToGive.github.title": {
+    "message": "GitHub Sponsors"
+  },
+  "donate.waysToGive.liberapay.button": {
+    "message": "Support"
+  },
+  "donate.waysToGive.liberapay.description": {
+    "message": "A community-driven platform for weekly or monthly giving."
+  },
+  "donate.waysToGive.liberapay.title": {
+    "message": "Liberapay"
+  },
+  "donate.waysToGive.openCollective.button": {
+    "message": "Donate"
+  },
+  "donate.waysToGive.openCollective.description": {
+    "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
+  },
+  "donate.waysToGive.openCollective.title": {
+    "message": "Open Collective"
+  },
+  "donate.waysToGive.subtitle": {
+    "message": "Choose a method that works for you:"
+  },
+  "donate.waysToGive.title": {
+    "message": "Ways to Give"
+  },
+  "donate.whyDonate.change.description": {
+    "message": "Every donation helps hold data brokers, tech giants and other organizations accountable."
+  },
+  "donate.whyDonate.change.title": {
+    "message": "Real-world change"
+  },
+  "donate.whyDonate.impact.description": {
+    "message": "With your help, we've supported 400,000+ privacy requests, 1,800+ regulatory complaints, and reached <strong>4+ billion individuals</strong> across supported jurisdictions."
+  },
+  "donate.whyDonate.impact.title": {
+    "message": "Proven impact"
+  },
+  "donate.whyDonate.privacy.description": {
+    "message": "No ads. No tracking. No profit motives."
+  },
+  "donate.whyDonate.privacy.title": {
+    "message": "Privacy-first, always"
+  },
+  "donate.whyDonate.title": {
+    "message": "Why Donate?"
+  },
+  "donate.whyDonate.transparent.description": {
+    "message": "All our code and data are public. You can review our work at any time."
+  },
+  "donate.whyDonate.transparent.title": {
+    "message": "Open and transparent"
   },
   "donations.donate": {
     "message": "Donate"
@@ -776,14 +938,23 @@
   "request.next.declineGDPR": {
     "message": "<ul><li>When keeping your data is necessary for reasons of freedom of expression and information (this includes journalism and academic, artistic and literary purposes).</li><li>When the organization is legally obliged to keep hold of your data.</li><li>When keeping hold of your data is necessary for reasons of public health.</li><li>When keeping your data is necessary for establishing, exercising or defending legal claims.</li><li>When erasing your data would prejudice scientific or historical research, or archiving that is in the public interest.</li><li>If, having considered your request, the organization decides it does not need to erase your data, it must still respond to you. It should explain to you why it believes it does not have to erase your data, and let you know about your right to complain about this decision to the DPA, or through the courts.</li></ul>"
   },
+  "request.next.declineICDP": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+  },
   "request.next.declineICDPA": {
     "message": "<ul><li>Pseudonymous data</li><li>De-identified data</li><li>Publicly available information</li><li>Public or peer-reviewed scientific research</li></ul>"
+  },
+  "request.next.declineKCDPA": {
+    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>Free speech or another right provided by law.</li><li>Processing for research purposes, if the deletion of personal information would render impossible or seriously impair the achievement of such research.</li><li>Processing of that personal information is necessary to protect against illegal activity or prosecute those responsible for the activity.</li><li>For complying with a legal obligation.</li><li>To perform a contract between the business and the consumer.</li><li>Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for that activity.</li><li>Debug to identify and repair errors that impair existing intended functionality.</li><li>To enable solely internal uses that are reasonably aligned with the expectations of the consumer based on the consumer’s relationship with the business.</li><li>Otherwise use the consumer’s personal information, internally, in a lawful manner that is compatible with the context in which the consumer provided the information.</li></ul>"
   },
   "request.next.declineMCDPA": {
     "message": "<ul><li>Government entities</li><li>Federally recognised Indian tribes</li><li>Covered entities and business associates under HIPAA</li><li>State or federally chartered banks or credit unions</li><li>Insurance companies</li><li>Small businesses as defined by the U.S. Small Business Administration</li><li>Non‑profits established solely to detect or prevent insurance fraud</li><li>Personal data regulated by GLBA or FCRA</li><li>Employment‑context or job‑applicant personal data, benefits and emergency contact data</li><li>De‑identified or publicly available data</li></ul>"
+  },
+  "request.next.declineMODPA": {
+    "message": "<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt</li><li>Protected health data</li><li>Employee data including job applicant data</li><li>De-identified data</li><li>Publicly available information</li><li>Aggregate information</li><li>Personal information collected for research of human subjects or as part of a clinical trial</li></ul>"
@@ -814,6 +985,9 @@
   },
   "request.next.declinePOPIA": {
     "message": "<ul><li>Personal or household activity</li><li>Fully de-identified data</li><li>National-security</li><li>Law-enforcement</li><li>By the Cabinet and its committees or the Executive Council of a province</li><li>Relating to the judicial functions of a court referred to in section 166 of the Constitution.</li></ul>"
+  },
+  "request.next.declineRIDTPPA": {
+    "message": "<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "Entities including state and local governments, nonprofits, higher education institutions, certain national securities associations, financial institutions, and covered entities under specific acts, such as the Gramm-Leach-Bliley Act and the Health Insurance Portability and Accountability Act. are exempt."
