@@ -28,11 +28,10 @@ const Donations = ({ children }) => {
           <S.StyledButtons>
             <S.StyledDonateLPButton
               variant="contained"
-              href="https://opencollective.com/consciousdigital"
+              href="/donate"
               color="primary"
               type="submit"
-              target="_blank"
-              onClick={() => trackDonate("Donation - Open Collective")}
+              onClick={() => trackDonate("Donation - Donate Page")}
             >
               <FormattedMessage id="donations.donate" defaultMessage="Donate" />
             </S.StyledDonateLPButton>                          
