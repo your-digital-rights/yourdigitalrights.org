@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 import { visuallyHidden } from "../../styles/layout";
 
 export const StyledSearchInputWrapper = styled('div')(({ theme }) => ({
