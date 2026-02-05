@@ -25,6 +25,12 @@
       "value": ", en registreret velgørende organisation, der skaber brugervenlige digitale initiativer, som fremmer og styrker digitale menneskerettigheder."
     }
   ],
+  "about.consciousDigitalLink": [
+    {
+      "type": 0,
+      "value": "Conscious Digital"
+    }
+  ],
   "about.contact": [
     {
       "type": 0,
@@ -53,68 +59,86 @@
   ],
   "about.contributorsBody1": [
     {
-      "type": 1,
-      "value": "linkedin"
-    },
-    {
       "type": 0,
-      "value": " - Frontend-webudvikler."
+      "value": "Frontend-webudvikler."
     }
   ],
   "about.contributorsBody3": [
     {
-      "type": 1,
-      "value": "linkedin"
-    },
-    {
       "type": 0,
-      "value": " - Frontend-webudvikler."
+      "value": "Frontend-webudvikler."
     }
   ],
   "about.contributorsBody4": [
     {
-      "type": 1,
-      "value": "linkedin"
-    },
-    {
       "type": 0,
-      "value": " - Frontend-webudvikler."
+      "value": "Frontend-webudvikler."
     }
   ],
   "about.contributorsBody5": [
     {
-      "type": 1,
-      "value": "linkedin"
-    },
-    {
       "type": 0,
-      "value": " - Infrastrukturingeniør."
+      "value": "Infrastrukturingeniør."
     }
   ],
   "about.contributorsBody6": [
     {
-      "type": 1,
-      "value": "link"
-    },
+      "type": 0,
+      "value": "Full stack-ingeniør, bidraget med APPI-support og generel japansk oversættelse af websitet."
+    }
+  ],
+  "about.contributorsSubtitle": [
     {
       "type": 0,
-      "value": " - Full stack-ingeniør, bidraget med APPI-support og generel japansk oversættelse af websitet."
+      "value": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
     }
   ],
   "about.createdByBody2": [
     {
-      "type": 1,
-      "value": "linkedin"
-    },
-    {
       "type": 0,
-      "value": " - Frontend-webudvikler, mobilapp-udvikler og skaber af Skyjacker, AR-flyspillet."
+      "value": "Frontend-webudvikler, mobilapp-udvikler og skaber af Skyjacker, AR-flyspillet."
     }
   ],
   "about.description": [
     {
       "type": 0,
       "value": "Your Digital Rights blev skabt, fordi vi mener, at du har ret til privatliv, og at det skal være nemt at udøve denne ret."
+    }
+  ],
+  "about.founder1Name": [
+    {
+      "type": 0,
+      "value": "Yoav Aviram"
+    }
+  ],
+  "about.founder1Role": [
+    {
+      "type": 0,
+      "value": "Human Rights Activist, Author, Philosopher"
+    }
+  ],
+  "about.founder2Name": [
+    {
+      "type": 0,
+      "value": "Rafa Prada"
+    }
+  ],
+  "about.founder2Role": [
+    {
+      "type": 0,
+      "value": "Design Consultant and Visiting Lecturer at UCL and UAL"
+    }
+  ],
+  "about.foundersSubtitle": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org was founded by two passionate advocates for digital rights and human-centered design."
+    }
+  ],
+  "about.foundersTitle": [
+    {
+      "type": 0,
+      "value": "Our Founders"
     }
   ],
   "about.funding": [
@@ -127,6 +151,42 @@
     {
       "type": 0,
       "value": "Dette projekt finansieres af sine skabere og med hjælp fra dine donationer."
+    }
+  ],
+  "about.globalText": [
+    {
+      "type": 0,
+      "value": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
+    }
+  ],
+  "about.globalTitle": [
+    {
+      "type": 0,
+      "value": "Global & Inclusive"
+    }
+  ],
+  "about.heroSubtitle": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy. We make it simple to exercise your legal rights over your personal data — to ask companies to delete it, access it, or stop selling it — under privacy laws like the GDPR, CCPA, and dozens more around the world."
+    }
+  ],
+  "about.heroTitle": [
+    {
+      "type": 0,
+      "value": "Taking Back Control of Your Personal Data"
+    }
+  ],
+  "about.impactTitle": [
+    {
+      "type": 0,
+      "value": "Real-World Impact"
+    }
+  ],
+  "about.introText": [
+    {
+      "type": 0,
+      "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
     }
   ],
   "about.missionBody1": [
@@ -183,6 +243,42 @@
     {
       "type": 0,
       "value": "."
+    }
+  ],
+  "about.newDescription": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
+    }
+  ],
+  "about.openSourceText": [
+    {
+      "type": 0,
+      "value": "All code, data, and methods are public and free to reuse."
+    }
+  ],
+  "about.openSourceTitle": [
+    {
+      "type": 0,
+      "value": "Open Source & Transparent"
+    }
+  ],
+  "about.ourApproach": [
+    {
+      "type": 0,
+      "value": "Our Approach"
+    }
+  ],
+  "about.privacyFirstText": [
+    {
+      "type": 0,
+      "value": "We collect no personal data by default, run no ads, and never sell user information."
+    }
+  ],
+  "about.privacyFirstTitle": [
+    {
+      "type": 0,
+      "value": "Privacy-First by Design"
     }
   ],
   "about.sponsors": [
@@ -255,10 +351,96 @@
       "value": "Vi vil gerne takke følgende organisationer for at støtte vores open source-indsats ved at tilbyde en gratis eller nedsat version af deres tjenester:"
     }
   ],
+  "about.stat1Number": [
+    {
+      "type": 0,
+      "value": "410,000+"
+    }
+  ],
+  "about.stat1Text": [
+    {
+      "type": 0,
+      "value": "Data requests submitted to organizations worldwide"
+    }
+  ],
+  "about.stat2Number": [
+    {
+      "type": 0,
+      "value": "1,800+"
+    }
+  ],
+  "about.stat2Text": [
+    {
+      "type": 0,
+      "value": "Complaints filed with regulators"
+    }
+  ],
+  "about.stat3Number": [
+    {
+      "type": 0,
+      "value": "41,000+"
+    }
+  ],
+  "about.stat3Text": [
+    {
+      "type": 0,
+      "value": "Companies in our database"
+    }
+  ],
+  "about.stat4Number": [
+    {
+      "type": 0,
+      "value": "1,000+"
+    }
+  ],
+  "about.stat4Text": [
+    {
+      "type": 0,
+      "value": "Data brokers tracked through DataBrokersWatch.org"
+    }
+  ],
+  "about.supportText": [
+    {
+      "type": 0,
+      "value": "From sending your first request to filing a complaint with a regulator, our tools help you every step of the way."
+    }
+  ],
+  "about.supportTitle": [
+    {
+      "type": 0,
+      "value": "End-to-End Support"
+    }
+  ],
   "about.title": [
     {
       "type": 0,
       "value": "Om os"
+    }
+  ],
+  "about.whyWeExist": [
+    {
+      "type": 0,
+      "value": "Why We Exist"
+    }
+  ],
+  "about.whyWeExistText1": [
+    {
+      "type": 0,
+      "value": "The internet was built for people — but today, most of it is powered by the trade in our personal information. We believe everyone deserves digital privacy by default, not just by law. YourDigitalRights.org was created to make those rights practical, simple, and enforceable."
+    }
+  ],
+  "about.whyWeExistText2": [
+    {
+      "type": 0,
+      "value": "We are part of "
+    },
+    {
+      "type": 1,
+      "value": "cd"
+    },
+    {
+      "type": 0,
+      "value": ", a nonprofit organization advancing digital human rights worldwide. Together, we build open, people-centered tools that empower individuals — not corporations or governments — to be first-class citizens in the digital world."
     }
   ],
   "aboutOrg.description": [
@@ -659,6 +841,236 @@
     {
       "type": 0,
       "value": "Slet mine data"
+    }
+  ],
+  "donate.closing.subtitle": [
+    {
+      "type": 0,
+      "value": "Your support keeps YourDigitalRights.org free, open, and independent. Whether it's €5 or €500, every donation makes a difference."
+    }
+  ],
+  "donate.closing.thanks": [
+    {
+      "type": 0,
+      "value": "Thank you for standing up for privacy and empowering people everywhere."
+    }
+  ],
+  "donate.closing.title": [
+    {
+      "type": 0,
+      "value": "Every Bit Helps"
+    }
+  ],
+  "donate.description": [
+    {
+      "type": 0,
+      "value": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+    }
+  ],
+  "donate.hero.subtitle": [
+    {
+      "type": 0,
+      "value": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+    }
+  ],
+  "donate.hero.title": [
+    {
+      "type": 0,
+      "value": "Support Our Mission"
+    }
+  ],
+  "donate.institutional.paragraph1": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Conscious Digital"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " is a registered nonprofit organization in Estonia (Reg. 80600079). We welcome support from foundations, companies, and philanthropic organizations."
+    }
+  ],
+  "donate.institutional.paragraph2": [
+    {
+      "type": 0,
+      "value": "Please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "contact us"
+        }
+      ],
+      "type": 8,
+      "value": "a"
+    },
+    {
+      "type": 0,
+      "value": " to discuss grants, matching donations, or custom sponsorships."
+    }
+  ],
+  "donate.institutional.title": [
+    {
+      "type": 0,
+      "value": "Institutional Support"
+    }
+  ],
+  "donate.intro.paragraph1": [
+    {
+      "type": 0,
+      "value": "YourDigitalRights.org is a free, open-source service that helps people reclaim their privacy online. It is maintained by Conscious Digital, a nonprofit organization building people-centered digital initiatives to advance digital human rights."
+    }
+  ],
+  "donate.intro.paragraph2": [
+    {
+      "type": 0,
+      "value": "We do not show ads, sell data, or rely on invasive tech. Instead, we rely on the support of a global community. Your donation directly powers the tools that let people everywhere request their data, delete their profiles, and stand up to surveillance."
+    }
+  ],
+  "donate.title": [
+    {
+      "type": 0,
+      "value": "Support Our Mission"
+    }
+  ],
+  "donate.waysToGive.github.button": [
+    {
+      "type": 0,
+      "value": "Sponsor"
+    }
+  ],
+  "donate.waysToGive.github.description": [
+    {
+      "type": 0,
+      "value": "Direct support for our developers and infrastructure. Easy for GitHub users."
+    }
+  ],
+  "donate.waysToGive.github.title": [
+    {
+      "type": 0,
+      "value": "GitHub Sponsors"
+    }
+  ],
+  "donate.waysToGive.liberapay.button": [
+    {
+      "type": 0,
+      "value": "Support"
+    }
+  ],
+  "donate.waysToGive.liberapay.description": [
+    {
+      "type": 0,
+      "value": "A community-driven platform for weekly or monthly giving."
+    }
+  ],
+  "donate.waysToGive.liberapay.title": [
+    {
+      "type": 0,
+      "value": "Liberapay"
+    }
+  ],
+  "donate.waysToGive.openCollective.button": [
+    {
+      "type": 0,
+      "value": "Donate"
+    }
+  ],
+  "donate.waysToGive.openCollective.description": [
+    {
+      "type": 0,
+      "value": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
+    }
+  ],
+  "donate.waysToGive.openCollective.title": [
+    {
+      "type": 0,
+      "value": "Open Collective"
+    }
+  ],
+  "donate.waysToGive.subtitle": [
+    {
+      "type": 0,
+      "value": "Choose a method that works for you:"
+    }
+  ],
+  "donate.waysToGive.title": [
+    {
+      "type": 0,
+      "value": "Ways to Give"
+    }
+  ],
+  "donate.whyDonate.change.description": [
+    {
+      "type": 0,
+      "value": "Every donation helps hold data brokers, tech giants and other organizations accountable."
+    }
+  ],
+  "donate.whyDonate.change.title": [
+    {
+      "type": 0,
+      "value": "Real-world change"
+    }
+  ],
+  "donate.whyDonate.impact.description": [
+    {
+      "type": 0,
+      "value": "With your help, we've supported 400,000+ privacy requests, 1,800+ regulatory complaints, and reached "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "4+ billion individuals"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " across supported jurisdictions."
+    }
+  ],
+  "donate.whyDonate.impact.title": [
+    {
+      "type": 0,
+      "value": "Proven impact"
+    }
+  ],
+  "donate.whyDonate.privacy.description": [
+    {
+      "type": 0,
+      "value": "No ads. No tracking. No profit motives."
+    }
+  ],
+  "donate.whyDonate.privacy.title": [
+    {
+      "type": 0,
+      "value": "Privacy-first, always"
+    }
+  ],
+  "donate.whyDonate.title": [
+    {
+      "type": 0,
+      "value": "Why Donate?"
+    }
+  ],
+  "donate.whyDonate.transparent.description": [
+    {
+      "type": 0,
+      "value": "All our code and data are public. You can review our work at any time."
+    }
+  ],
+  "donate.whyDonate.transparent.title": [
+    {
+      "type": 0,
+      "value": "Open and transparent"
     }
   ],
   "donations.donate": [
@@ -2823,6 +3235,224 @@
       "value": "ul"
     }
   ],
+  "request.next.declineICDP": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "State agencies and political subdivisions"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Financial institutions data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient substance use treatment information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Human subjects research"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health care quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient safety and quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Consumer report data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Motor vehicle records information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Education records"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Farm credit system information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Nonprofit organizations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Institutions of higher education"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Employment and applicant data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Contractor data in the work context"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Emergency contact information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Benefits administration data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Publicly available information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
   "request.next.declineICDPA": [
     {
       "children": [
@@ -2861,6 +3491,284 @@
             {
               "type": 0,
               "value": "Offentlig eller fagfællebedømt videnskabelig forskning"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineKCDPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "State agencies and political subdivisions"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Financial institutions data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Nonprofit organizations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Institutions of higher education"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Organizations assisting investigations or first responders as specified"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Small telecommunications and certain municipal utilities data restrictions"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient substance use treatment information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Human subjects research"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health care quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient safety and quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Intermingled data maintained by covered service organizations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Public health activities data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Consumer report data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Motor vehicle records information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Education records"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Farm credit system information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Employment and applicant data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Contractor data in the work context"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Emergency contact information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Benefits administration data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Utility sector operational data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Combat methamphetamine compliance data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Publicly available information"
             }
           ],
           "type": 8,
@@ -3067,6 +3975,224 @@
             {
               "type": 0,
               "value": "Afidentificerede eller offentligt tilgængelige data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineMODPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "State and local government entities"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "National securities associations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Financial institutions data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Consumer report data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Motor vehicle records information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Education records"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Nonprofit organizations assisting public safety"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Human subjects research"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient safety and quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health care quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Publicly available information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Employment and applicant data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Contractor data in the work context"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Emergency contact information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Benefits administration data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Security and fraud prevention"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Legal compliance"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Product recalls and service functionality"
             }
           ],
           "type": 8,
@@ -3629,6 +4755,254 @@
             {
               "type": 0,
               "value": "Vedrørende de dømmende funktioner for en domstol, der er nævnt i forfatningens sektion 166."
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    }
+  ],
+  "request.next.declineRIDTPPA": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "State and local government entities"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Nonprofit organizations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Institutions of higher education"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "National securities associations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Financial institutions data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient substance use treatment information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Human subjects research"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Health care quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Patient safety and quality improvement information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified health information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Intermingled data maintained by covered service organizations"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Public health activities data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Consumer report data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Motor vehicle records information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Education records"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Farm credit system information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Employment and applicant data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Contractor data in the work context"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Emergency contact information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Benefits administration data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "De-identified data"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Aggregate information"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Publicly available information"
             }
           ],
           "type": 8,

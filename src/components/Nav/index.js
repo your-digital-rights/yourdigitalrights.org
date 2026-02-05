@@ -113,11 +113,10 @@ const NavListDesktop = ({ router, handleLangChange }) => {
       <li>
         <S.StyledDonateRedButtonDesktop
           onClick={() => trackDonateButtonLinkClick("nav desktop")}
-          href="https://opencollective.com/consciousdigital"
-          target="_blank"
+          href="/donate"
         >
           <FormattedMessage id="nav.donate" defaultMessage="Make a Donation"/>
-        </S.StyledDonateRedButtonDesktop>        
+        </S.StyledDonateRedButtonDesktop>
       </li>
 
     </S.StyledContainer>
@@ -197,8 +196,7 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           }}
           variant="contained"
           color="secondary"
-          href="https://opencollective.com/consciousdigital"
-          target="_blank"
+          href="/donate"
           sx={{
             backgroundColor: "#ef6a6e",
             fontSize: "14px",
@@ -233,7 +231,7 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
 
         <NavItem
           onClickHandler={toggleMobileNav}
-          href="https://opencollective.com/consciousdigital"
+          href="/donate"
           subsection={true}
           text={
             <FormattedMessage id="nav.donation" defaultMessage="Make a Donation" />

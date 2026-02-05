@@ -94,7 +94,7 @@ class Page {
   get navigationBar() {
     return {
       get nav() {
-        return $("#nav");
+        return $("nav");
       },
       link(num) {
         return $(`nav li:nth-child(${num})`);
@@ -260,13 +260,17 @@ class Form {
 
   async openGmailDropdown() {
     const button = await this.dropdownButton;
-    await button.waitForDisplayed();
-    await button.waitForClickable();
+    await button.waitForDisplayed({ timeout: 60000 });
+    await button.waitForClickable({ timeout: 60000 });
     await button.click();
 
-    const menuItem = await $("li.MuiButtonBase-root:nth-child(2)");
-    await menuItem.waitForDisplayed();
-    await menuItem.waitForClickable();
+    // Wait for dropdown animation and menu to appear
+    await browser.pause(1000);
+
+    // Find Gmail menu item by text content
+    const menuItem = await $("//li[contains(., 'Open in Gmail')]");
+    await menuItem.waitForDisplayed({ timeout: 60000 });
+    await menuItem.waitForClickable({ timeout: 60000 });
     await menuItem.click();
   }
 }
