@@ -1,48 +1,30 @@
 {
-  "about.aboutTitle": {
-    "message": "Naše poslání"
-  },
-  "about.consciousDigital": {
-    "message": "Kdo jsme"
-  },
-  "about.consciousDigital1": {
-    "message": "Služba YourDigitalRights.org je projektem organizace {cd}, registrované charity, jež tvoří projekty zaměřené na posílení digitálních lidských práv."
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "Kontakt"
-  },
-  "about.contactText": {
-    "message": "Kontaktujte nás na adrese {email}."
   },
   "about.contributors": {
     "message": "Přispěvatelé"
   },
   "about.contributorsBody1": {
-    "message": "Frontendový webový vývojář."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "Frontendový webový vývojář."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "Frontendový webový vývojář."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "Infrastrukturní inženýr."
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
-    "message": "Full stack vývojář, podílel se na podpoře APPI a na celkovém japonském překladu webu."
+    "message": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
   },
   "about.contributorsSubtitle": {
     "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
   },
   "about.createdByBody2": {
-    "message": "Frontendový webový vývojář, vývojář mobilních aplikací a tvůrce Skyjacker, AR hry pro sledování letů."
-  },
-  "about.description": {
-    "message": "Služba Your Digital Rights byla vytvořena, protože věříme, že máte právo na soukromí a že uplatňování tohoto práva by mělo být snadné."
+    "message": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
   },
   "about.founder1Name": {
     "message": "Yoav Aviram"
@@ -62,12 +44,6 @@
   "about.foundersTitle": {
     "message": "Our Founders"
   },
-  "about.funding": {
-    "message": "Financování"
-  },
-  "about.fundingBody1": {
-    "message": "Tento projekt je financován samotnými tvůrci a také s pomocí vašich darů."
-  },
   "about.globalText": {
     "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
   },
@@ -85,15 +61,6 @@
   },
   "about.introText": {
     "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "Věříme, že soukromí je základní lidské právo a že jeho uplatňování by mělo být snadno dostupné pro každého. Data protection regulations such as the {GDPR} (EU), the {CCPA} (California), and the {LGPD} (Brazil) poskytují právní rámec pro ochranu základního práva na soukromí online."
-  },
-  "about.missionBody2": {
-    "message": "Předpisy na ochranu osobních údajů jsou krokem správným směrem, avšak jejich uplatnění je i nadále pro většinu lidí příliš obtížné. Situaci zhoršuje, že mnoho organizací ztěžuje odesílání žádostí o data (např. nezveřejněním e-mailových adres). Naším cílem je zpřístupnit práva garantovaná těmito předpisy všem."
-  },
-  "about.missionBody3": {
-    "message": "Toto je bezplatná služba. Nejsme podnik a nemáme obchodní model. Nenabízíme žádné služby organizacím uvedeným v seznamu. Neshromažďujeme ani neobchodujeme s osobními údaji. Tato služba je <a>open source</a>."
   },
   "about.newDescription": {
     "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
@@ -132,7 +99,7 @@
     "message": "{ama} - za pomoc při pochopení a podpoře brazilské datové legislativy Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Rádi bychom poděkovali následujícím organizacím za podporu našeho open-source úsilí poskytováním bezplatné nebo zlevněné verze svých služeb:"
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.stat1Number": {
     "message": "410,000+"
@@ -339,7 +306,7 @@
     "message": "GitHub Sponsors"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "Podpora"
   },
   "donate.waysToGive.liberapay.description": {
     "message": "A community-driven platform for weekly or monthly giving."
@@ -348,7 +315,7 @@
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "Přispět"
   },
   "donate.waysToGive.openCollective.description": {
     "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."

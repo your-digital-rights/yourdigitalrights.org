@@ -1,36 +1,21 @@
 {
-  "about.aboutTitle": {
-    "message": "Nossa missão"
-  },
-  "about.consciousDigital": {
-    "message": "Quem somos"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org é uma criação de {cd}, uma instituição de caridade registrada que cria iniciativas digitais centradas em pessoas promovendo e promovendo os direitos humanos digitais."
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "Contato"
-  },
-  "about.contactText": {
-    "message": "Contate-nos em {email}."
   },
   "about.contributors": {
     "message": "Contribuidores"
   },
   "about.contributorsBody1": {
-    "message": "Desenvolvedor web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "Desenvolvedor web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "Desenvolvedor web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "Engenheiro de Infraestrutura."
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
     "message": "Full stack engineer, contributed APPI support and overall Japanese translation to YourDigitalRights.org."
@@ -40,9 +25,6 @@
   },
   "about.createdByBody2": {
     "message": "Desenvolvedor web front-end, desenvolvedor de aplicativos móveis e criador do Skyjacker, um jogo de pilotagem com realidade aumentada."
-  },
-  "about.description": {
-    "message": "A Your Digital Rights foi criada porque acreditamos que você tem direito à privacidade e que praticar este direito deve ser algo simples."
   },
   "about.founder1Name": {
     "message": "Yoav Aviram"
@@ -62,12 +44,6 @@
   "about.foundersTitle": {
     "message": "Our Founders"
   },
-  "about.funding": {
-    "message": "Financiamento"
-  },
-  "about.fundingBody1": {
-    "message": "Este projeto é financiado por seus criadores e com a ajuda de suas doações."
-  },
   "about.globalText": {
     "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
   },
@@ -85,15 +61,6 @@
   },
   "about.introText": {
     "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "Acreditamos que a privacidade é um direito humano básico e que o exercício deste direito deve ser facilmente acessível a todos. Regulamentos de proteção de dados como {GDPR} (UE), {CCPA} (California), e {LGPD} (Brasil) fornecem a infraestrutura legal para proteger o direito fundamental das pessoas à privacidade on-line."
-  },
-  "about.missionBody2": {
-    "message": "Os regulamentos relativos à privacidade são um passo na direcção certa. mas exercer os seus direitos ao abrigo destas legislações é ainda suficientemente difícil para que a maioria das pessoas não se preocupe com isso. A situação é agravada porque muitas organizações tornam difícil arquivar as solicitações de dados (por exemplo, não publicando nenhum endereço de e-mail corporativo em seu site). O nosso objectivo é tornar acessíveis a todos os direitos conferidos por estas legislações."
-  },
-  "about.missionBody3": {
-    "message": "Isto é um serviço gratuito. Não somos uma empresa e não temos um modelo de negócios. Não oferecemos qualquer serviço às organizações da lista. Nós não coletamos ou trocamos nenhum dado pessoal. Este serviço é <a>de código aberto</a>."
   },
   "about.newDescription": {
     "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
@@ -132,7 +99,7 @@
     "message": "{ama} - para nos ajudar a entender e apoiar o regulamento brasileiro em matéria de privacidade de dados, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Gostaríamos de agradecer às seguintes organizações por apoiarem o nosso esforço em código aberto, fornecendo uma versão gratuita ou com desconto de seus serviços:"
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.stat1Number": {
     "message": "410,000+"
@@ -339,7 +306,7 @@
     "message": "GitHub Sponsors"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "SUPORTE"
   },
   "donate.waysToGive.liberapay.description": {
     "message": "A community-driven platform for weekly or monthly giving."
@@ -348,7 +315,7 @@
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "Doar"
   },
   "donate.waysToGive.openCollective.description": {
     "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
