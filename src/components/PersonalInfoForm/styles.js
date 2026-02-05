@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 
 export const StyledFormContainer = styled('form')(({ theme }) => ({
   position: "relative",

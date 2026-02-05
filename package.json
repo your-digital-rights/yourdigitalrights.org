@@ -23,6 +23,8 @@
     "compile:i18n": "formatjs compile-folder --ast --format crowdin lang compiled-lang"
   },
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.983.0",
+    "@aws-sdk/lib-dynamodb": "^3.983.0",
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/server": "^11.11.0",
@@ -42,15 +44,13 @@
     "@mui/material-nextjs": "^7.2.0",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
-    "@aws-sdk/client-dynamodb": "^3.0.0",
-    "@aws-sdk/lib-dynamodb": "^3.850.0",
     "clean-css": "^5.3.3",
     "cookie-cutter": "^0.2.0",
     "downshift": "^9.0.9",
     "isomorphic-fetch": "^3.0.0",
     "luxon": "^3.6.1",
     "mailto-link": "^2.0.0",
-    "next": "^15.5.2",
+    "next": "^16.1.6",
     "next-seo": "^6.6.0",
     "next-sitemap": "^4.2.3",
     "nunjucks": "^3.2.4",
@@ -61,8 +61,7 @@
     "react-share": "^5.2.2",
     "swr": "^2.3.3",
     "uuid": "^11.1.0",
-    "validator": "^13.15.15",
-    "vercel": "^44.6.6"
+    "validator": "^13.15.15"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
@@ -70,10 +69,10 @@
     "@babel/preset-env": "^7.27.1",
     "@babel/register": "^7.27.1",
     "@babel/runtime-corejs2": "^7.27.1",
-    "@wdio/cli": "^9.16.2",
-    "@wdio/local-runner": "^9.15.0",
-    "@wdio/mocha-framework": "^9.16.2",
-    "@wdio/spec-reporter": "^9.15.0",
+    "@wdio/cli": "^9.23.3",
+    "@wdio/local-runner": "^9.23.3",
+    "@wdio/mocha-framework": "^9.23.3",
+    "@wdio/spec-reporter": "^9.23.3",
     "babel-plugin-formatjs": "^10.5.38",
     "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
     "chai": "^5.2.0",
@@ -82,7 +81,10 @@
     "npm-check-updates": "^18.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.6.2",
-    "webdriverio": "^9.18.4"
+    "webdriverio": "^9.23.3"
+  },
+  "overrides": {
+    "diff": "8.0.3"
   },
   "prettier": {
     "singleQuote": true,
