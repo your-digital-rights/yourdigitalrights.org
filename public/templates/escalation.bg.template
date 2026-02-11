@@ -1,32 +1,32 @@
-Dear {{ regulation.dpa.longName }},
+Уважаеми {{ regulation.dpa.longName }},
 
-On {{ requestSentDate }}, I sent {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) a Data {{ requestType.name | capitalize }} Request pursuant to pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}).
+На {{ requestSentDate }}изпратих {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}) Заявка за данни {{ requestType.name | capitalize }} съгласно {{ requestType.article }} от {{ regulation.longName }} ({{ regulation.displayName }}).
 
 {% if status === 'PARTIAL' %}
-I would like to submit a formal complaint because the organization failed to comply with my request fully.
+Желая да подам официална жалба, тъй като организацията не е изпълнила изцяло искането ми.
 {% elif status === 'DECLINED' %}
-I would like to submit a formal complaint because the organization declined to comply with my request.
+Бих искал/а да подам официална жалба, тъй като организацията отказа да изпълни искането ми.
 {% elif status === 'NO_REPLY' %}
-I would like to submit a formal complaint because the organization did not reply to my request, which I sent {{ daysSinceRequest }} days ago.
+Бих искал/а да подам официална жалба, тъй като организацията не отговори на моето запитване, което изпратих преди {{ daysSinceRequest }} дни.
 {% endif %}
 
 {% if complaintText %}
-Additional details: 
+Допълнителни подробности: 
 {{ complaintText }}
 {% endif %}
 
 {% if reminderSentDate %}
-On {{ reminderSentDate }} I have sent the organization a reminder email which you can see below.
+На {{ reminderSentDate }} изпратих на организацията имейл с напомняне, който можете да видите по-долу.
 {% endif %}
 
-Please keep me updated as to the status of your investigation. Please let me know if you would like me to provide any additional information. My preferred method of communication is email. 
+Моля, дръжте ме в течение за състоянието на разследването ви. Моля, уведомете ме, ако желаете да ви предоставя допълнителна информация. Предпочитаният от мен метод за комуникация е имейл. 
 
-Please note that I have copied {{ requestItem.companyName.S }} to this email.
+Моля, обърнете внимание, че копирах {{ requestItem.companyName.S }} към този имейл.
 
-Kind regards,
+С уважение,
 
 {{ requestItem.name.S }}
 
-Powered by YourDigitalRights.org
+С подкрепата на YourDigitalRights.org
 
 {{ previousEmails }}
