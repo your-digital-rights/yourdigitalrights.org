@@ -1,25 +1,25 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
+До вниманието на отдела за поверителност / длъжностното лице по защита на данните / правния отдел на {{ requestItem.companyName.S }} ({{ requestItem.companyUrl.S }}),
 
-On {{ requestSentDate }} I have sent you a Data {{ requestType.name | capitalize  }} Request via email, pursuant to {{ requestType.article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+На {{ requestSentDate }} Ви изпратих Заявка за данни {{ requestType.name | capitalize  }} по имейл, съгласно {{ requestType.article }} от {{ regulation.longName }} ({{ regulation.displayName }}). 
 
 {% if status === 'PARTIAL' %}
-So far you have failed to fully comply with my request. 
+Досега не успяхте да изпълните напълно молбата ми. 
 {% elif status === 'DECLINED' %}
-So far you have refused to comply with my request.
+Досега отказвате да изпълните молбата ми.
 {% elif status === 'NO_REPLY' %}
-So far I did not receive a reply to my request.
+Досега не получих отговор на молбата си.
 {% endif %}
 
 {% if daysSinceRequest > regulation.timeLimit %}
-Please note that it has been {{ daysSinceRequest }} days since the request was first sent, and you are now in violation of {{ requestType.article }} of the {{ regulation.displayName }}. 
+Моля, обърнете внимание, че са минали {{ daysSinceRequest }} дни от първоначалното изпращане на заявката и вече нарушавате {{ requestType.article }} от {{ regulation.displayName }}. 
 {% endif %}
 
-I am sending this email to remind you of my request and reserve the right to escalate the matter to the {{ regulation.dpa.longName }} if you do not fully comply with it. 
+Изпращам този имейл, за да Ви напомня за молбата ми и си запазвам правото да ескалирам въпроса до {{ regulation.dpa.longName }} , ако не я изпълните напълно. 
 
-Kind regards,
+С уважение,
 
 {{ requestItem.name.S }}
 
-Powered by YourDigitalRights.org
+С подкрепата на YourDigitalRights.org
 
 {{ previousEmails }}
