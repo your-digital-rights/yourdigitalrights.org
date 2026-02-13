@@ -71,11 +71,15 @@ export async function getStaticPaths() {
   return { paths: [], fallback: 'blocking' }
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, locale }) {
+  const { getLocaleMessages } = await import('../../utils/localeMessages');
+  const messages = await getLocaleMessages(locale);
+
   if (params.domain == 'add') {
     return {
       props: {
         newOrg: true,
+        messages,
       }
     }
   } 
@@ -92,6 +96,7 @@ export async function getStaticProps({ params }) {
     notFound: data.statusCode > 400,
     props: {
       organization: data['Domain'],
+      messages,
     },
     revalidate:  30 * 24 * 60 * 60, // 30 days
   }

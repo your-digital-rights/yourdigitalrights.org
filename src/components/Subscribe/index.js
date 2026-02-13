@@ -1,13 +1,45 @@
+import { useEffect, useRef, useState } from "react";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 
 const Subscribe = ({ children, page="thank-you"}) => {
+  const embedContainerRef = useRef(null);
+  const [shouldLoadEmbed, setShouldLoadEmbed] = useState(false);
   
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
   };
+
+  useEffect(() => {
+    if (shouldLoadEmbed || typeof window === "undefined") {
+      return;
+    }
+
+    const target = embedContainerRef.current;
+    if (!target || !("IntersectionObserver" in window)) {
+      setShouldLoadEmbed(true);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        if (entries.some(entry => entry.isIntersecting)) {
+          setShouldLoadEmbed(true);
+          observer.disconnect();
+        }
+      },
+      {
+        rootMargin: "250px 0px",
+      }
+    );
+
+    observer.observe(target);
+    return () => {
+      observer.disconnect();
+    };
+  }, [shouldLoadEmbed]);
 
   return (
     <>
@@ -35,7 +67,22 @@ const Subscribe = ({ children, page="thank-you"}) => {
 
               </S.StyledIntro> 
             </S.StyledText>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="330" height="150" frameBorder="0" scrolling="no"></iframe>
+            <div ref={embedContainerRef}>
+              {shouldLoadEmbed ? (
+                <iframe
+                  src="https://newsletter.yourdigitalrights.org/embed"
+                  width="330"
+                  height="150"
+                  frameBorder="0"
+                  scrolling="no"
+                  loading="lazy"
+                  title="Privacy alerts signup form"
+                  onLoad={trackSubscribe}
+                ></iframe>
+              ) : (
+                <S.StyledEmbedPlaceholder />
+              )}
+            </div>
           </S.StyledHeading>
         </div>
       </S.StyledContainer>

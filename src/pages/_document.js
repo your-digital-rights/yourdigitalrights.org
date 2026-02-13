@@ -7,7 +7,6 @@ import {
 import theme from '../styles/theme';
 import React from "react";
 import { DOMAIN } from "../utils/domain";
-import Script from 'next/script';
 import {
   DocumentHeadTags,
   documentGetInitialProps,
@@ -27,12 +26,37 @@ export default function MyDocument(props) {
         <script
           id="matomo"
           dangerouslySetInnerHTML={{
-            __html:
-              "var _paq = _paq || [];_paq.push(['setDocumentTitle', document.domain + '/' + document.title]); _paq.push(['setCookieDomain', '*." +
-              DOMAIN +
-              "']); _paq.push(['setDomains', ['*." +
-              DOMAIN +
-              "']]); _paq.push(['alwaysUseSendBeacon']); _paq.push(['disableCookies']); _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u='https://optout.innocraft.cloud/'; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '2']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.defer=true; g.src='//cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js'; s.parentNode.insertBefore(g,s); })();",
+            __html: `
+              (function() {
+                function initMatomo() {
+                  var _paq = (window._paq = window._paq || []);
+                  _paq.push(['setDocumentTitle', document.domain + '/' + document.title]);
+                  _paq.push(['setCookieDomain', '*.${DOMAIN}']);
+                  _paq.push(['setDomains', ['*.${DOMAIN}']]);
+                  _paq.push(['alwaysUseSendBeacon']);
+                  _paq.push(['disableCookies']);
+                  _paq.push(['HeatmapSessionRecording::disable']);
+                  _paq.push(['trackPageView']);
+                  _paq.push(['enableLinkTracking']);
+                  var d = document;
+                  var g = d.createElement('script');
+                  var s = d.getElementsByTagName('script')[0];
+                  g.type = 'text/javascript';
+                  g.async = true;
+                  g.defer = true;
+                  g.src = 'https://cdn.innocraft.cloud/optout.innocraft.cloud/matomo.js';
+                  s.parentNode.insertBefore(g, s);
+                }
+
+                if ('requestIdleCallback' in window) {
+                  window.requestIdleCallback(initMatomo, {timeout: 3000});
+                } else {
+                  window.addEventListener('load', function() {
+                    setTimeout(initMatomo, 1500);
+                  }, {once: true});
+                }
+              })();
+            `,
           }}
         />        
         <noscript>

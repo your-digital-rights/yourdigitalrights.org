@@ -1,7 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
-import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);

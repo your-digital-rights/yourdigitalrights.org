@@ -132,6 +132,8 @@ const Uuid = ({data, router, intl}) => {
 };
 
 export async function getServerSideProps(context) {
+  const { getLocaleMessages } = await import('../../../utils/localeMessages');
+  const messages = await getLocaleMessages(context.locale);
   const { uuid } = context.params;
   const requestDetails = await getRequest(uuid);
 
@@ -156,6 +158,7 @@ export async function getServerSideProps(context) {
         item: requestDetails.Item,
         organization: data['Domain'],
       },
+      messages,
     },
   }
 }

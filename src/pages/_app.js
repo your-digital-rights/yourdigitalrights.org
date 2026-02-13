@@ -7,7 +7,6 @@ import { IntlProvider } from "react-intl"
 import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
-import * as locales from "../../compiled-lang";
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
 import { Analytics } from '@vercel/analytics/react';
 import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
@@ -16,8 +15,8 @@ import PropTypes from 'prop-types';
 export default function MyApp(props) {
   const { Component, pageProps } = props;
   const router = useRouter();
-  const { locale, defaultLocale, pathname } = router;
-  const messages = locales[locale];
+  const { locale, defaultLocale } = router;
+  const messages = pageProps.messages || {};
 
   return (
       <AppCacheProvider {...props}>

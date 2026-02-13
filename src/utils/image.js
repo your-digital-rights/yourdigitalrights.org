@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 const ImageWithFallback = (props) => {
     const { src, fallbackSrc, ...rest } = props;
@@ -8,10 +8,13 @@ const ImageWithFallback = (props) => {
     return (
         <Image
             {...rest}
-            unoptimized
             src={imgSrc}
+            alt={rest.alt || ""}
+            sizes={rest.sizes || "24px"}
             onError={() => {
-                setImgSrc(fallbackSrc);
+                if (imgSrc !== fallbackSrc) {
+                    setImgSrc(fallbackSrc);
+                }
             }}
         />
     );
