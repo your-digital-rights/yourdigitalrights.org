@@ -18,6 +18,11 @@ const SubscribeContainer = styled('div')(({ theme }) => ({
   paddingBottom: "30px",
 }));
 
+const DeferredSection = styled('section')(() => ({
+  contentVisibility: "auto",
+  containIntrinsicSize: "1px 900px",
+}));
+
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
 };
@@ -53,14 +58,20 @@ const Org = ({ organization, router, newOrg }) => {
         selectedCompany={organization}
       />
       { !newOrg && (
-        <AboutOrg  
-          selectedCompany={organization}
-        />
+        <DeferredSection>
+          <AboutOrg  
+            selectedCompany={organization}
+          />
+        </DeferredSection>
       )}
-      <SubscribeContainer>
-        <Subscribe page="org"/>
-      </SubscribeContainer>
-      <Footer/>
+      <DeferredSection>
+        <SubscribeContainer>
+          <Subscribe page="org"/>
+        </SubscribeContainer>
+      </DeferredSection>
+      <DeferredSection>
+        <Footer/>
+      </DeferredSection>
     </div>
   )
 }

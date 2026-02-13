@@ -8,9 +8,9 @@ import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
-import { Analytics } from '@vercel/analytics/react';
 import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
 import PropTypes from 'prop-types';
+import LazyAnalytics from '../components/LazyAnalytics';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
@@ -56,7 +56,7 @@ export default function MyApp(props) {
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
           <Component {...pageProps} />
-          <Analytics />
+          <LazyAnalytics />
         </ThemeProvider>
       </IntlProvider>
     </AppCacheProvider>

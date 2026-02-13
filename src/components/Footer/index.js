@@ -1,19 +1,12 @@
-import Button from "@mui/material/Button";
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
 import tracking from "../../utils/tracking";
 import Link from 'next/link';
-import Image from 'next/image';
-import Vercel from "../../../public/images/powered-by-vercel.svg";
 import * as S from "./styles";
 
 
 const WishButtonText = (
   <FormattedMessage id="footer.wishList" defaultMessage="make a wish on our roadmap" />
-);
-
-const PoweredBy = (
-  <FormattedMessage id="footer.poweredBy" defaultMessage="Powered by Vercel" />
 );
 
 const DisclaimerText = (
@@ -23,13 +16,6 @@ const DisclaimerText = (
     values={{
       span: txt => (<span style={{ fontWeight: "bold", color: "black" }}>{txt}</span>)
     }}
-  />
-);
-
-const QueryText = (
-  <FormattedMessage
-    id="footer.contact"
-    defaultMessage="© Copyright 2019 - 2022"
   />
 );
 

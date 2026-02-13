@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Нашата мисия"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Кои сме ние"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org е създаден от "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ", регистрирана благотворителна организация, която създава инициативи, ориентирани към хората, за насърчаване и защита на дигиталните човешки права."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Контакт"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Свържете се с нас на "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Frontend уеб разработчик."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Frontend уеб разработчик."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Frontend уеб разработчик."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Инженер по инфраструктура."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Full stack инженер, допринесе за поддръжката на APPI и цялостния японски превод на уебсайта."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Frontend уеб разработчик, мобилен разработчик и създател на Skyjacker, AR игра за проследяване на полети."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Your Digital Rights беше създаден, защото вярваме, че вие имате право на поверителност и че упражняването на това право трябва да бъде лесно."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Финансиране"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Този проект се финансира от своите създатели и с помощта на вашите дарения."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Ние вярваме, че поверителността е основно човешко право и че упражняването на това право трябва да бъде лесно достъпно за всички. Регулации за защита на данните като "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (ЕС), "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Калифорния) и "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Бразилия) предоставят правната рамка, за да защитят фундаменталното право на хората на поверителност онлайн."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Регулациите за поверителност са стъпка в правилната посока, но упражняването на правата, гарантирани от тези закони, все още е достатъчно трудно, за да обезкуражи повечето хора да го направят. Ситуацията се влошава, защото много организации затрудняват подаването на заявки за данни (например, като не публикуват никакви корпоративни имейл адреси на уебсайта си). Ние се стремим да направим правата, предоставени от тези регулации, достъпни за всеки."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Това е безплатна услуга. Ние не сме бизнес и нямаме бизнес модел. Не предлагаме никакви услуги на организациите от списъка. Не събираме или търгуваме с лични данни. Тази услуга е "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "с отворен код"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Бихме искали да благодарим на следните организации за тяхната подкрепа на нашите усилия с отворен код чрез предоставяне на безплатна или отстъпна версия на техните услуги:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -964,7 +844,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Поддръжка"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -982,7 +862,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Дарете"
     }
   ],
   "donate.waysToGive.openCollective.description": [
@@ -1804,7 +1684,7 @@
     },
     {
       "type": 1,
-      "value": "org"
+      "value": "domain"
     },
     {
       "type": 0,

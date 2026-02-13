@@ -18,6 +18,9 @@ const Hero = ({ selectedCompany }) => {
               width={44}
               height={44}
               alt="Organization logo"
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
             />
           </S.OrgLogo>
         )}

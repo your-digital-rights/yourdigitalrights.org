@@ -35,7 +35,6 @@ import FormHelperText from '@mui/material/FormHelperText';
 import FormLabel from "@mui/material/FormLabel";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
-import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
@@ -45,6 +44,20 @@ import * as S from "./styles";
 
 
 const screenHeightBreakpoint = 560;
+const GEOLOCATION_IDLE_TIMEOUT_MS = 2000;
+const REGULATION_OPTIONS = Object.entries(Regulations)
+  .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
+  .map(([value, regulation]) => ({
+    value,
+    label: `${regulation.geography} (${regulation.displayName})`,
+  }));
+
+function createRequestUuid() {
+  if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
+    return crypto.randomUUID();
+  }
+  return `${Date.now()}-${Math.random().toString(16).slice(2)}`;
+}
 
 class Form extends Component {
   constructor(props) {
@@ -69,26 +82,44 @@ class Form extends Component {
     this.handlers = {};
     this.companyEmail = React.createRef();
     this.form = React.createRef();
+    this.geolocationIdleHandle = null;
+    this.geolocationTimeoutHandle = null;
+    this.isUnmounted = false;
   }
 
-  async componentDidMount() {
+  componentDidMount() {
     if (typeof window !== "undefined") {
       this.setState({ screenHeight: window.innerHeight });
-      window.addEventListener("resize", this.onScreenResize);
     }
-    const regulation = await getRegulationbyGeolocation();
-    this.setState({ regulationType: regulation });
+
+    const setRegulationFromGeolocation = async () => {
+      const regulation = await getRegulationbyGeolocation();
+      if (!this.isUnmounted && regulation) {
+        this.setState({ regulationType: regulation });
+      }
+    };
+
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      this.geolocationIdleHandle = window.requestIdleCallback(() => {
+        void setRegulationFromGeolocation();
+      }, { timeout: GEOLOCATION_IDLE_TIMEOUT_MS });
+      return;
+    }
+
+    this.geolocationTimeoutHandle = window.setTimeout(() => {
+      void setRegulationFromGeolocation();
+    }, 0);
   }
 
   componentWillUnmount() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("resize", this.onScreenResize);
+    this.isUnmounted = true;
+    if (typeof window !== "undefined" && this.geolocationIdleHandle && "cancelIdleCallback" in window) {
+      window.cancelIdleCallback(this.geolocationIdleHandle);
+    }
+    if (this.geolocationTimeoutHandle) {
+      window.clearTimeout(this.geolocationTimeoutHandle);
     }
   }
-
-  onScreenResize = () => {
-    this.setState({ screenHeight: window.innerHeight });
-  };
 
   handleInput = (name) => {
     if (!this.handlers[name]) {
@@ -126,8 +157,8 @@ class Form extends Component {
     if (!status) return;
     
 
-    const uuid = uuidv4();
-    this.setState({ uuid: uuid });
+    const uuid = createRequestUuid();
+    this.setState({ uuid });
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
     const regulationType = this.state.regulationType;
@@ -169,24 +200,23 @@ class Form extends Component {
     selectedAction.run();
 
     this.saveRequest(data);
-    this.setState({ selectedActionName: selectedAction.name });
-    this.setState({ hasSubmit: true });
-    if (this.state.followUp === "YES") {
+    this.setState({ selectedActionName: selectedAction.name, hasSubmit: true });
+    if (followUp === "YES") {
       tracking.trackFollwups(
-        this.state.regulationType,
-        this.state.requestType
+        regulationType,
+        requestType
       );
     }
     if (this.state.companyEmail) {
       this.addNewCompany();
-    } else {
+    } else if (selectedCompany) {
       tracking.trackRequestComplete(
-        this.props.selectedCompany.url,
-        this.state.regulationType,
-        this.state.requestType
+        selectedCompany.url,
+        regulationType,
+        requestType
       );
     }
-    let thankYouUrl = `/thankyou?regulationType=${this.state.regulationType}&requestType=${this.state.requestType}&selectedActionName=${selectedAction.name}`
+    const thankYouUrl = `/thankyou?regulationType=${regulationType}&requestType=${requestType}&selectedActionName=${selectedAction.name}`;
     this.props.router.push(thankYouUrl, "/thankyou");
   }
 
@@ -212,7 +242,7 @@ class Form extends Component {
 */
   async addNewCompany() {
     try {
-      const response = await fetch(
+      await fetch(
         "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
         {
           method: "POST",
@@ -351,12 +381,11 @@ class Form extends Component {
             helperText={RegulationTypeHelperText}
             margin="normal"
           >
-            { Object.entries(Regulations)
-                .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
-                .map(([key, value]) => 
-                  <option key={key} value={key}>{`${value.geography} (${value.displayName})`}</option>
-                )
-            }
+            {REGULATION_OPTIONS.map(option => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
           </TextField>
           <TextField
             variant="outlined"

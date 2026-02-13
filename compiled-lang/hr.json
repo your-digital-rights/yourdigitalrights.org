@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Naša misija"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Tko smo mi"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org je kreacija "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ", registrirane humanitarne udruge koja stvara digitalne inicijative usmjerene na ljude i promiče digitalna ljudska prava."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Kontakt"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Kontaktirajte nas na "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Frontend web programer."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Frontend web programer."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Frontend web programer."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Inženjer infrastrukture."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Full stack inženjer, pridonio APPI podršci i cjelovitom japanskom prijevodu web stranice."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Frontend web programer, programer mobilnih aplikacija i kreator Skyjackera, AR igre za praćenje letova."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Your Digital Rights je stvoren jer vjerujemo da imate pravo na privatnost i da bi korištenje tog prava trebalo biti jednostavno."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Financiranje"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Ovaj projekt financiraju njegovi tvorci, kao i vaše donacije."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Vjerujemo da je privatnost osnovno ljudsko pravo i da bi ostvarivanje toga prava trebalo biti lako dostupno svima. Propisi o zaštiti podataka, poput "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (EU), "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Kalifornija) i "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brazil), pružaju pravni okvir za zaštitu temeljnih prava na privatnost na internetu."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Propisi o zaštiti podataka dobar su korak naprijed, ali provođenje tih prava i dalje je dovoljno složeno da mnogi ljudi ni ne pokušavaju. Situaciju dodatno otežava to što mnoge organizacije otežavaju podnošenje zahtjeva za podatke (primjerice ne objavljuju nikakve korporativne adrese e-pošte na svojim web stranicama). Naš cilj je učiniti prava koja ti propisi garantiraju dostupnima svima."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Ovo je besplatna usluga. Mi nismo tvrtka i nemamo poslovni model. Ne nudimo nikakve usluge organizacijama na popisu. Ne prikupljamo niti razmjenjujemo osobne podatke. Ova usluga je "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "open source"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Želimo zahvaliti sljedećim organizacijama na podršci našem open-source naporu tako što nam pružaju besplatnu ili sniženu verziju svojih usluga:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -964,7 +844,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Podrška"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -982,7 +862,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Donirajte"
     }
   ],
   "donate.waysToGive.openCollective.description": [
@@ -1804,7 +1684,7 @@
     },
     {
       "type": 1,
-      "value": "org"
+      "value": "domain"
     },
     {
       "type": 0,
