@@ -13,6 +13,15 @@ export default {
   track(...args) {
     let tracker = this.tracker;
 
+    // Keep a normalized in-browser event buffer for integration tests and diagnostics,
+    // even if third-party scripts replace window._paq with a non-Array object.
+    if (typeof window !== 'undefined') {
+      if (!Array.isArray(window.__ydrTrackedEvents)) {
+        window.__ydrTrackedEvents = [];
+      }
+      window.__ydrTrackedEvents.push(args);
+    }
+
     if (tracker) {
       tracker.push(args);
     }

@@ -165,15 +165,36 @@ class Page {
 
   async hasTracked(...row) {
     const result = await browser.execute(function (row) {
-      const paq = window._paq;
+      var paq = window._paq;
+      var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
+        ? window.__ydrTrackedEvents
+        : ((paq instanceof Array) ? paq : []);
+      var hasMatch = false;
+
+      for (var i = 0; i < trackedEvents.length; i++) {
+        var tracked = trackedEvents[i];
+        var rowMatch = true;
+
+        if (!(tracked instanceof Array)) {
+          continue;
+        }
+
+        for (var j = 0; j < row.length; j++) {
+          if (tracked.indexOf(row[j]) === -1) {
+            rowMatch = false;
+            break;
+          }
+        }
+
+        if (rowMatch) {
+          hasMatch = true;
+          break;
+        }
+      }
 
       return {
-        result: paq.some(function (tracked) {
-          return row.every(function (r) {
-            return tracked.includes(r);
-          });
-        }),
-        paq,
+        result: hasMatch,
+        trackedEvents,
       };
     }, row);
 
@@ -348,6 +369,7 @@ const initializeWindowPaqArray = async () => {
     if (!(window._paq instanceof Array)) {
       window._paq = [];
     }
+    window.__ydrTrackedEvents = [];
   });
 };
 
