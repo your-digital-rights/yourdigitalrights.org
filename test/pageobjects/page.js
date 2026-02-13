@@ -164,41 +164,50 @@ class Page {
   }
 
   async hasTracked(...row) {
-    const result = await browser.execute(function (row) {
-      var paq = window._paq;
-      var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
-        ? window.__ydrTrackedEvents
-        : ((paq instanceof Array) ? paq : []);
-      var hasMatch = false;
+    const hasMatch = async () => {
+      const result = await browser.execute(function (row) {
+        var paq = window._paq;
+        var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
+          ? window.__ydrTrackedEvents
+          : ((paq instanceof Array) ? paq : []);
+        var eventMatch = false;
 
-      for (var i = 0; i < trackedEvents.length; i++) {
-        var tracked = trackedEvents[i];
-        var rowMatch = true;
+        for (var i = 0; i < trackedEvents.length; i++) {
+          var tracked = trackedEvents[i];
+          var rowMatch = true;
 
-        if (!(tracked instanceof Array)) {
-          continue;
-        }
+          if (!(tracked instanceof Array)) {
+            continue;
+          }
 
-        for (var j = 0; j < row.length; j++) {
-          if (tracked.indexOf(row[j]) === -1) {
-            rowMatch = false;
+          for (var j = 0; j < row.length; j++) {
+            if (tracked.indexOf(row[j]) === -1) {
+              rowMatch = false;
+              break;
+            }
+          }
+
+          if (rowMatch) {
+            eventMatch = true;
             break;
           }
         }
 
-        if (rowMatch) {
-          hasMatch = true;
-          break;
-        }
-      }
+        return eventMatch;
+      }, row);
 
-      return {
-        result: hasMatch,
-        trackedEvents,
-      };
-    }, row);
+      return result;
+    };
 
-    return result.result;
+    try {
+      await browser.waitUntil(async () => await hasMatch(), {
+        timeout: 8000,
+        interval: 150,
+      });
+      return true;
+    } catch (e) {
+      return await hasMatch();
+    }
   }
 }
 

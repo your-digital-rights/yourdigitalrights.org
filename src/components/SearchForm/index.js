@@ -12,7 +12,6 @@ import MenuList from "@mui/material/MenuList";
 import Paper from "@mui/material/Paper";
 import { fetchDomains } from "../../utils/domains";
 import tracker from "../../utils/tracking";
-import Link from "next/link";
 import Router from "next/router";
 import ImageWithFallback from '../../utils/image';
 import * as S from "./styles";
@@ -213,25 +212,21 @@ class Form extends Component {
         dense={true}
         {...itemProps}
       >
-        <Link href="/d/[domain]" as={`/d/${result.url}`} legacyBehavior>
-          <>
-            <ImageWithFallback
-              role="presentation"
-              src={src}
-              width={24}
-              height={24}
-              sizes="24px"
-              alt=""
-              fallbackSrc="/images/Keep-it-private.png"
-            />
-            <ListItemText
-              disableTypography={true}
-              component={S.StyledSearchItem}
-              primary={`${result.name} (${result.url})`}
-              id={`search-result-${result.url}`}
-            />
-          </>
-        </Link>
+        <ImageWithFallback
+          role="presentation"
+          src={src}
+          width={24}
+          height={24}
+          sizes="24px"
+          alt=""
+          fallbackSrc="/images/Keep-it-private.png"
+        />
+        <ListItemText
+          disableTypography={true}
+          component={S.StyledSearchItem}
+          primary={`${result.name} (${result.url})`}
+          id={`search-result-${result.url}`}
+        />
       </MenuItem>
     );
   };
@@ -274,20 +269,18 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add/" legacyBehavior>
-                        <ListItemText>
-                          <strong>
-                            <FormattedMessage
-                              id="search.noResults"
-                              defaultMessage="Can't find an organization?"
-                            />
-                          </strong>{" "}
+                      <ListItemText>
+                        <strong>
                           <FormattedMessage
-                            id="search.noResultsMore"
-                            defaultMessage="Click here to add one"
+                            id="search.noResults"
+                            defaultMessage="Can't find an organization?"
                           />
-                        </ListItemText>
-                      </Link>
+                        </strong>{" "}
+                        <FormattedMessage
+                          id="search.noResultsMore"
+                          defaultMessage="Click here to add one"
+                        />
+                      </ListItemText>
                     </MenuItem>
                   </MenuList>
                 )}
