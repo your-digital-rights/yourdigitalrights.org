@@ -184,6 +184,19 @@ class Page {
         var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
           ? window.__ydrTrackedEvents
           : ((paq instanceof Array) ? paq : []);
+
+        if (!(trackedEvents instanceof Array) || trackedEvents.length === 0) {
+          try {
+            var serializedEvents = window.sessionStorage.getItem("__ydrTrackedEvents");
+            if (serializedEvents) {
+              var persistedEvents = JSON.parse(serializedEvents);
+              if (persistedEvents instanceof Array) {
+                trackedEvents = persistedEvents;
+              }
+            }
+          } catch (e) {}
+        }
+
         var eventMatch = false;
 
         for (var i = 0; i < trackedEvents.length; i++) {
@@ -401,6 +414,9 @@ const initializeWindowPaqArray = async () => {
       window._paq = [];
     }
     window.__ydrTrackedEvents = [];
+    try {
+      window.sessionStorage.removeItem("__ydrTrackedEvents");
+    } catch (e) {}
   });
 };
 
