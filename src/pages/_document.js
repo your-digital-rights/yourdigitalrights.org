@@ -28,7 +28,24 @@ export default function MyDocument(props) {
           dangerouslySetInnerHTML={{
             __html: `
               (function() {
+                var initialized = false;
+                var idleHandle = null;
+                var timeoutHandle = null;
+                var interactionEvents = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
+
                 function initMatomo() {
+                  if (initialized) {
+                    return;
+                  }
+                  initialized = true;
+
+                  if (idleHandle && 'cancelIdleCallback' in window) {
+                    window.cancelIdleCallback(idleHandle);
+                  }
+                  if (timeoutHandle) {
+                    clearTimeout(timeoutHandle);
+                  }
+
                   var _paq = (window._paq = window._paq || []);
                   _paq.push(['setDocumentTitle', document.domain + '/' + document.title]);
                   _paq.push(['setCookieDomain', '*.${DOMAIN}']);
@@ -48,13 +65,15 @@ export default function MyDocument(props) {
                   s.parentNode.insertBefore(g, s);
                 }
 
+                interactionEvents.forEach(function(eventName) {
+                  window.addEventListener(eventName, initMatomo, { once: true, passive: true });
+                });
+
                 if ('requestIdleCallback' in window) {
-                  window.requestIdleCallback(initMatomo, {timeout: 3000});
-                } else {
-                  window.addEventListener('load', function() {
-                    setTimeout(initMatomo, 1500);
-                  }, {once: true});
+                  idleHandle = window.requestIdleCallback(initMatomo, { timeout: 15000 });
                 }
+
+                timeoutHandle = window.setTimeout(initMatomo, 15000);
               })();
             `,
           }}

@@ -1,45 +1,15 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
 import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
 
 const Subscribe = ({ children, page="thank-you"}) => {
-  const embedContainerRef = useRef(null);
   const [shouldLoadEmbed, setShouldLoadEmbed] = useState(false);
   
   const trackSubscribe = () => {
     tracking.trackSubscribe(page);
   };
-
-  useEffect(() => {
-    if (shouldLoadEmbed || typeof window === "undefined") {
-      return;
-    }
-
-    const target = embedContainerRef.current;
-    if (!target || !("IntersectionObserver" in window)) {
-      setShouldLoadEmbed(true);
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      entries => {
-        if (entries.some(entry => entry.isIntersecting)) {
-          setShouldLoadEmbed(true);
-          observer.disconnect();
-        }
-      },
-      {
-        rootMargin: "250px 0px",
-      }
-    );
-
-    observer.observe(target);
-    return () => {
-      observer.disconnect();
-    };
-  }, [shouldLoadEmbed]);
 
   return (
     <>
@@ -67,7 +37,7 @@ const Subscribe = ({ children, page="thank-you"}) => {
 
               </S.StyledIntro> 
             </S.StyledText>
-            <div ref={embedContainerRef}>
+            <div>
               {shouldLoadEmbed ? (
                 <iframe
                   src="https://newsletter.yourdigitalrights.org/embed"
@@ -80,7 +50,14 @@ const Subscribe = ({ children, page="thank-you"}) => {
                   onLoad={trackSubscribe}
                 ></iframe>
               ) : (
-                <S.StyledEmbedPlaceholder />
+                <S.StyledEmbedPlaceholder>
+                  <S.StyledLoadEmbedButton
+                    type="button"
+                    onClick={() => setShouldLoadEmbed(true)}
+                  >
+                    Load signup form
+                  </S.StyledLoadEmbedButton>
+                </S.StyledEmbedPlaceholder>
               )}
             </div>
           </S.StyledHeading>
