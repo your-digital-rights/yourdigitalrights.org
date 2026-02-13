@@ -16,6 +16,8 @@ export default {
     // Keep a normalized in-browser event buffer for integration tests and diagnostics.
     // Persist to sessionStorage so events survive route transitions that trigger a full reload.
     if (typeof window !== 'undefined') {
+      const bufferedArgs = args.slice();
+
       if (!Array.isArray(window.__ydrTrackedEvents)) {
         let persistedEvents = [];
 
@@ -32,7 +34,7 @@ export default {
         window.__ydrTrackedEvents = persistedEvents;
       }
 
-      window.__ydrTrackedEvents.push(args);
+      window.__ydrTrackedEvents.push(bufferedArgs);
 
       try {
         window.sessionStorage.setItem(
@@ -43,7 +45,7 @@ export default {
     }
 
     if (tracker) {
-      tracker.push(args);
+      tracker.push(args.slice());
     }
   },
 

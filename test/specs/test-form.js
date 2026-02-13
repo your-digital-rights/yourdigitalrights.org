@@ -25,8 +25,9 @@ describe("When I visit the home page", () => {
   describe("and select an organization", () => {
     beforeEach(async () => {
       await page.searchForm.fillInSearch("Slack");
-      const searchResult = $("div=Slack (slack.com)");
-      await searchResult.waitForDisplayed();
+      const searchResult = $("li*=Slack (slack.com)");
+      await searchResult.waitForDisplayed({ timeout: 60000 });
+      await searchResult.waitForClickable({ timeout: 60000 });
       await searchResult.click();
     });
 

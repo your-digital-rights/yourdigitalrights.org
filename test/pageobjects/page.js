@@ -180,22 +180,25 @@ class Page {
 
           return false;
         };
-        var paq = window._paq;
-        var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
-          ? window.__ydrTrackedEvents
-          : ((paq instanceof Array) ? paq : []);
+        var trackedEvents = [];
+        var appendEvents = function (sourceEvents) {
+          if (!(sourceEvents instanceof Array)) {
+            return;
+          }
+          for (var n = 0; n < sourceEvents.length; n++) {
+            trackedEvents.push(sourceEvents[n]);
+          }
+        };
+        appendEvents(window.__ydrTrackedEvents);
+        appendEvents(window._paq);
 
-        if (!(trackedEvents instanceof Array) || trackedEvents.length === 0) {
-          try {
-            var serializedEvents = window.sessionStorage.getItem("__ydrTrackedEvents");
-            if (serializedEvents) {
-              var persistedEvents = JSON.parse(serializedEvents);
-              if (persistedEvents instanceof Array) {
-                trackedEvents = persistedEvents;
-              }
-            }
-          } catch (e) {}
-        }
+        try {
+          var serializedEvents = window.sessionStorage.getItem("__ydrTrackedEvents");
+          if (serializedEvents) {
+            var persistedEvents = JSON.parse(serializedEvents);
+            appendEvents(persistedEvents);
+          }
+        } catch (e) {}
 
         var eventMatch = false;
 
