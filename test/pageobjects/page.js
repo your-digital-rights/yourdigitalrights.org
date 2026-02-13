@@ -166,6 +166,20 @@ class Page {
   async hasTracked(...row) {
     const hasMatch = async () => {
       const result = await browser.execute(function (row) {
+        var valuesMatch = function (expected, actual) {
+          if (expected === actual) {
+            return true;
+          }
+
+          if (
+            typeof expected === "string" &&
+            typeof actual === "string"
+          ) {
+            return actual.indexOf(expected) !== -1 || expected.indexOf(actual) !== -1;
+          }
+
+          return false;
+        };
         var paq = window._paq;
         var trackedEvents = (window.__ydrTrackedEvents instanceof Array)
           ? window.__ydrTrackedEvents
@@ -181,7 +195,15 @@ class Page {
           }
 
           for (var j = 0; j < row.length; j++) {
-            if (tracked.indexOf(row[j]) === -1) {
+            var rowValueFound = false;
+            for (var k = 0; k < tracked.length; k++) {
+              if (valuesMatch(row[j], tracked[k])) {
+                rowValueFound = true;
+                break;
+              }
+            }
+
+            if (!rowValueFound) {
               rowMatch = false;
               break;
             }

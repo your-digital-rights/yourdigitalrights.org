@@ -111,7 +111,10 @@ describe("When I visit the home page", () => {
   describe("and perform a search with no results", () => {
     beforeEach(async () => {
       await page.searchForm.fillInSearch("abcxyz123");
-      await $("li*=Can't find an organization?").click();
+      const addOrgResult = $("li*=Can't find an organization?");
+      await addOrgResult.waitForDisplayed({ timeout: 60000 });
+      await addOrgResult.click();
+      await browser.waitUntil(async () => (await browser.getUrl()).indexOf("/d/add") > -1);
     });
 
     describe("and fill in the form with valid data and submit and click open in Gmail", () => {
