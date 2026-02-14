@@ -1,16 +1,9 @@
-import { useState } from "react";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
-import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
+import NewsletterSignupForm from "../NewsletterSignupForm";
 
-const Subscribe = ({ children, page="thank-you"}) => {
-  const [shouldLoadEmbed, setShouldLoadEmbed] = useState(false);
-  
-  const trackSubscribe = () => {
-    tracking.trackSubscribe(page);
-  };
-
+const Subscribe = () => {
   return (
     <>
       <S.StyledContainer>
@@ -38,27 +31,10 @@ const Subscribe = ({ children, page="thank-you"}) => {
               </S.StyledIntro> 
             </S.StyledText>
             <div>
-              {shouldLoadEmbed ? (
-                <iframe
-                  src="https://newsletter.yourdigitalrights.org/embed"
-                  width="330"
-                  height="150"
-                  frameBorder="0"
-                  scrolling="no"
-                  loading="lazy"
-                  title="Privacy alerts signup form"
-                  onLoad={trackSubscribe}
-                ></iframe>
-              ) : (
-                <S.StyledEmbedPlaceholder>
-                  <S.StyledLoadEmbedButton
-                    type="button"
-                    onClick={() => setShouldLoadEmbed(true)}
-                  >
-                    Load signup form
-                  </S.StyledLoadEmbedButton>
-                </S.StyledEmbedPlaceholder>
-              )}
+              <NewsletterSignupForm
+                layout="compact"
+                tone="inverted"
+              />
             </div>
           </S.StyledHeading>
         </div>

@@ -62,24 +62,3 @@ export const StyledSignUpButton = styled('div')(() => ({
 export const StyledIntro = styled('div')(() => ({
   marginBottom: "20px",
 }));
-
-export const StyledEmbedPlaceholder = styled('div')(() => ({
-  width: "330px",
-  height: "150px",
-  backgroundColor: "rgba(255, 255, 255, 0.18)",
-  borderRadius: "8px",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-}));
-
-export const StyledLoadEmbedButton = styled('button')(() => ({
-  border: 0,
-  borderRadius: "999px",
-  padding: "10px 16px",
-  cursor: "pointer",
-  backgroundColor: "#fff",
-  color: "#005ea5",
-  fontWeight: 700,
-  fontSize: "14px",
-}));
