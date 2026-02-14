@@ -205,7 +205,7 @@ class Form extends Component {
     const selectedAction = generateEmailFields(data);    
     selectedAction.run();
 
-    await this.saveRequest(data);
+    void this.saveRequest(data);
     this.setState({ selectedActionName: selectedAction.name, hasSubmit: true });
     if (followUp === "YES") {
       tracking.trackFollwups(
