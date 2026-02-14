@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Korduma kippuvad küsimused"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Lahtiütlus:</span> Seda teenust pakutakse \"nagu on\" ilma igasuguse garantiita. Teenuse kasutamine toimub täielikult omal vastutusel. Me ei võta endale vastutust mis tahes otseste või kaudsete kahjude eest, mis tulenevad selle teenuse kasutamisest. Selle teenuse kaudu edastatud teave koos meie veebisaidi juriidilisi küsimusi käsitleva sisuga on esitatud teie isiklikuks kasutamiseks ega kujuta endast juriidilist nõu. Kui vajate konkreetse probleemi korral juriidilist nõu, pidage nõu litsentseeritud advokaadiga."
   },
   "footer.madeBy": {
     "message": "<a>Conscious Digitali loodud</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Toetab Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privaatsuspoliitika</a>"
@@ -621,10 +615,10 @@
     "message": "Saatke andmete kustutamise või juurdepääsu päring."
   },
   "orgHero.subTitle2": {
-    "message": "Saatke {name} andmete kustutamise või juurdepääsu päring, kasutades seda <disclamer>tasuta ja sõltumatut</disclamer> teenust."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Saatke GDPR-i, CCPA või LGPD andmete kustutamise või juurdepääsu päring mis tahes organisatsioonile, kasutades seda <disclamer>tasuta ja sõltumatut</disclamer> teenust."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Kustutage oma {domain} konto või taotlege oma andmeid."
