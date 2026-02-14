@@ -60,7 +60,7 @@ const Hero = ({ selectedCompany }) => {
                   id="orgHero.title"
                   defaultMessage="Delete your {domain} account or request your data."
                   values={{ 
-                    domain: <strong>{selectedCompany.url}</strong> 
+                    domain: selectedCompany.url,
                   }}
                 />
               </Typography>
@@ -71,10 +71,9 @@ const Hero = ({ selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitle2"
-                  defaultMessage="Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+                  defaultMessage="Send {name} a data deletion or access request using this free and independent service."
                   values={{
-                    disclamer: txt =>(<strong>{txt}</strong>),
-                    name: <strong>{selectedCompany.name}</strong>,
+                    name: selectedCompany.name,
                   }}
                 />
               </Typography>                           
@@ -99,10 +98,7 @@ const Hero = ({ selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitleNewOrg"
-                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
-                  values={{
-                    disclamer: txt =>(<strong>{txt}</strong>),
-                  }}
+                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this free and independent service."
                 />
               </Typography>
             </S.AddOrg>

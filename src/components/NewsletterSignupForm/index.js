@@ -3,6 +3,12 @@ import * as S from "./styles";
 
 const SUBSTACK_PAID_SUBSCRIBE_URL =
   "https://newsletter.yourdigitalrights.org/subscribe?utm_source=embed&utm_content=consciousdigital";
+const SUBSTACK_TERMS_OF_USE_URL =
+  "https://newsletter.yourdigitalrights.org/tos?utm_source=embed_publication";
+const SUBSTACK_PRIVACY_POLICY_URL =
+  "https://newsletter.yourdigitalrights.org/privacy?utm_source=embed_publication";
+const SUBSTACK_INFORMATION_COLLECTION_NOTICE_URL =
+  "https://substack.com/ccpa?utm_source=embed_publication#personal-data-collected";
 
 const NewsletterSignupForm = ({
   layout = "compact",
@@ -140,6 +146,26 @@ const NewsletterSignupForm = ({
           <S.StyledSkeletonButton tone={tone} />
         </S.StyledSkeleton>
       )}
+      <S.StyledDisclaimer tone={tone}>
+        By subscribing you agree to{" "}
+        <S.StyledDisclaimerLink href={SUBSTACK_TERMS_OF_USE_URL} target="_blank" rel="noopener noreferrer">
+          Substack&apos;s Terms of Use
+        </S.StyledDisclaimerLink>
+        ,{" "}
+        their{" "}
+        <S.StyledDisclaimerLink href={SUBSTACK_PRIVACY_POLICY_URL} target="_blank" rel="noopener noreferrer">
+          Privacy Policy
+        </S.StyledDisclaimerLink>{" "}
+        and their{" "}
+        <S.StyledDisclaimerLink
+          href={SUBSTACK_INFORMATION_COLLECTION_NOTICE_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Information collection notice
+        </S.StyledDisclaimerLink>
+        .
+      </S.StyledDisclaimer>
     </S.StyledContainer>
   );
 };

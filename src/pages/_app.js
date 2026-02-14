@@ -8,7 +8,7 @@ import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
-import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
+import { AppCacheProvider } from '@mui/material-nextjs/v16-pagesRouter';
 import PropTypes from 'prop-types';
 import LazyAnalytics from '../components/LazyAnalytics';
 
@@ -44,6 +44,7 @@ export default function MyApp(props) {
           locale={locale}
           defaultLocale={defaultLocale}
           messages={messages}
+          wrapRichTextChunksInFragment
           onError={(err) => {
             if (err.code === "MISSING_TRANSLATION") {
               console.warn("Missing translation", err.message);

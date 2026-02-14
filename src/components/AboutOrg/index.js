@@ -114,7 +114,16 @@ const AboutOrg = ({ selectedCompany }) => {
                   defaultMessage="View {org}'s <a>Privacy Policy</a>"
                   values={{
                     org: selectedCompany.name,
-                    a: txt => (<S.StyledLink target="_blank" rel="nofollow noreferrer noopener" href={selectedCompany.privacyPolicy}><strong>{txt}</strong></S.StyledLink>),
+                    a: txt => (
+                      <S.StyledLink
+                        key="about-org-privacy-policy-link"
+                        target="_blank"
+                        rel="nofollow noreferrer noopener"
+                        href={selectedCompany.privacyPolicy}
+                      >
+                        <strong>{txt}</strong>
+                      </S.StyledLink>
+                    ),
                   }}  
                 />
               </strong>

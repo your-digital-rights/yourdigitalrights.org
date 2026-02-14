@@ -109,3 +109,22 @@ export const StyledSkeletonButton = styled("div", {
     width: "100%",
   },
 }));
+
+export const StyledDisclaimer = styled("p", {
+  shouldForwardProp: prop => prop !== "tone",
+})(({ tone }) => ({
+  marginTop: "10px",
+  marginBottom: 0,
+  textAlign: "center",
+  fontSize: "12px",
+  lineHeight: 1.35,
+  color: tone === "inverted" ? "rgba(255, 255, 255, 0.82)" : "rgba(0, 0, 0, 0.62)",
+}));
+
+export const StyledDisclaimerLink = styled("a")(() => ({
+  color: "inherit",
+  textDecoration: "underline",
+  "&:hover": {
+    textDecoration: "none",
+  },
+}));

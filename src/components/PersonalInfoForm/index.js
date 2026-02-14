@@ -43,7 +43,6 @@ import isEmail from 'validator/lib/isEmail';
 import * as S from "./styles";
 
 
-const screenHeightBreakpoint = 560;
 const GEOLOCATION_IDLE_TIMEOUT_MS = 2000;
 const REGULATION_OPTIONS = Object.entries(Regulations)
   .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
@@ -88,7 +87,6 @@ class Form extends Component {
       regulationType: "GDPR",
       requestType: "DELETION",
       followUp: "NO",
-      screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
     this.handlers = {};
@@ -100,10 +98,6 @@ class Form extends Component {
   }
 
   componentDidMount() {
-    if (typeof window !== "undefined") {
-      this.setState({ screenHeight: window.innerHeight });
-    }
-
     const setRegulationFromGeolocation = async () => {
       const regulation = await getRegulationbyGeolocation();
       if (!this.isUnmounted && regulation) {
@@ -163,7 +157,7 @@ class Form extends Component {
     e.preventDefault();
   };
 
-  handleEmailSendClick = (generateEmailFields) => {
+  handleEmailSendClick = async (generateEmailFields) => {
 
     const status  = this.form.current.reportValidity();
     if (!status) return;
@@ -211,7 +205,7 @@ class Form extends Component {
     const selectedAction = generateEmailFields(data);    
     selectedAction.run();
 
-    this.saveRequest(data);
+    await this.saveRequest(data);
     this.setState({ selectedActionName: selectedAction.name, hasSubmit: true });
     if (followUp === "YES") {
       tracking.trackFollwups(
@@ -232,17 +226,22 @@ class Form extends Component {
     this.props.router.push(thankYouUrl, "/thankyou");
   }
 
-  saveRequest = (data) => {
-    fetch(
-      "/api/save",
-      {
-        method: "POST",
-        body: JSON.stringify(data),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
+  saveRequest = async (data) => {
+    try {
+      await fetch(
+        "/api/save",
+        {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+          keepalive: true,
+        }
+      );
+    } catch (error) {
+      console.error("Failed to persist request record", error);
+    }
   }
 
 /*  onSupportButtonClick = (e) => {
@@ -273,7 +272,6 @@ class Form extends Component {
   }
 
   render() {
-    const { screenHeight } = this.state;
     const { selectedCompany } = this.props;
 
     return (
@@ -341,7 +339,7 @@ class Form extends Component {
                 margin="normal"
                 required
                 helperText={CompanyNameHelperText}
-                autoFocus={screenHeight > screenHeightBreakpoint}
+                autoFocus={!selectedCompany}
               />
               <TextField
                 variant="outlined"
@@ -375,9 +373,7 @@ class Form extends Component {
             margin="normal"
             required
             helperText={NameHelperText}
-            autoFocus={
-              !!selectedCompany && screenHeight > screenHeightBreakpoint
-            }
+            autoFocus={!!selectedCompany}
           />
           <TextField
             variant="outlined"

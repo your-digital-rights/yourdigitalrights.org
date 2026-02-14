@@ -146,7 +146,7 @@ const Social = ({
           className="ss-btn SocialMediaShareButton--facebook"
           quote={facebookQuote}
         >
-          <Image src={FBIcon} />
+          <Image src={FBIcon} alt="Share on Facebook" />
         </FacebookShareButton>
       </S.ShareButton>
       <S.ShareButton>
@@ -159,7 +159,7 @@ const Social = ({
           }
           className="ss-btn SocialMediaShareButton--linkedin"
         >
-          <Image src={LinkedInIcon} />
+          <Image src={LinkedInIcon} alt="Share on LinkedIn" />
         </LinkedinShareButton>
       </S.ShareButton>
       <S.ShareButton>
@@ -182,7 +182,7 @@ const Social = ({
           ]}
           className="ss-btn SocialMediaShareButton--twitter"
         >
-          <Image src={TwitterIcon} />
+          <Image src={TwitterIcon} alt="Share on X" />
         </TwitterShareButton>
       </S.ShareButton>
       <a
@@ -190,7 +190,7 @@ const Social = ({
         onClick={handleEmailClick}
         className="ss-btn SocialMediaShareButton--email"
       >
-        <Image src={EmailIcon} />
+        <Image src={EmailIcon} alt="Share by email" />
       </a>
     </RootComponent>
   );

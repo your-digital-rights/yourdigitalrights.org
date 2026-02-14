@@ -16,11 +16,26 @@ const SubscribeContainer = styled('div')(({ theme }) => ({
   marginTop: "-145px",
   paddingTop: "150px",
   paddingBottom: "30px",
+  position: "relative",
+  zIndex: 1,
+  overflow: "visible",
 }));
 
 const DeferredSection = styled('section')(() => ({
   contentVisibility: "auto",
   containIntrinsicSize: "1px 900px",
+}));
+
+const SubscribeSection = styled('section')(() => ({
+  position: "relative",
+  zIndex: 1,
+  overflow: "visible",
+}));
+
+const FooterSection = styled('section')(() => ({
+  position: "relative",
+  zIndex: 3,
+  overflow: "visible",
 }));
 
 function Capitalize(str){
@@ -64,14 +79,14 @@ const Org = ({ organization, router, newOrg }) => {
           />
         </DeferredSection>
       )}
-      <DeferredSection>
+      <SubscribeSection>
         <SubscribeContainer>
           <Subscribe page="org"/>
         </SubscribeContainer>
-      </DeferredSection>
-      <DeferredSection>
+      </SubscribeSection>
+      <FooterSection>
         <Footer/>
-      </DeferredSection>
+      </FooterSection>
     </div>
   )
 }
