@@ -9,9 +9,7 @@ import { NextSeo } from 'next-seo';
 import {generateCanonical, generateLangLinks} from "../utils/langUtils";
 import { withRouter } from "next/router";
 import Social from "../components/Social";
-import { useEffect } from "react";
-import tracking from "../utils/tracking";
-import Script from 'next/script'
+import NewsletterSignupForm from "../components/NewsletterSignupForm";
 
 const StyledContainer = styled('div')(({ theme }) => ({
   position: "relative",
@@ -56,25 +54,6 @@ const PrivacyAlerts = ({ router }) => {
   const Description = intl.formatMessage({id: "privacyAlerts.seoDescription", defaultMessage: "Subscribe to our monthly privacy alerts"});
   const BaseURL = "/privacy-alerts";
 
-  const trackSubscribe = () => {
-    tracking.trackSubscribe('Privacy Alerts Page');
-  };
-
-  useEffect(() => {
-    window.CustomSubstackWidget = {
-      substackUrl: "consciousdigital.substack.com",
-      placeholder: "you@example.com",
-      buttonText: "Subscribe",
-      theme: "custom",
-      colors: {
-        primary: "#005EA5",
-        input: "#FFFFFF",
-        email: "#000000",
-        text: "#FFFFFF",
-      }
-    };
-  }, []);
-
   return (
     <div>
       <NextSeo
@@ -98,8 +77,11 @@ const PrivacyAlerts = ({ router }) => {
           <StyledMainDescription component="h2" variant="h6">
             <FormattedMessage id="privacyAlerts.description1" defaultMessage="A monthly email listing the three worst privacy-offending companies identified by our research team. Improve your privacy and take back control of your personal information by spending five minutes a month opting out of these companies." />
           </StyledMainDescription>
-          <StyledSubstack id="custom-substack-embed"/>
-          <Script id="substack-embed-external" src={`https://substackapi.com/widget.js?foo=${Math.round(Math.random() * 100)}`}/>      
+          <StyledSubstack>
+            <NewsletterSignupForm
+              layout="wide"
+            />
+          </StyledSubstack>
           <Typography component="h3" variant="h5" gutterBottom={true} >
             <FormattedMessage
               id="privacyAlerts.whyPrivacy"
@@ -139,5 +121,14 @@ const PrivacyAlerts = ({ router }) => {
     </div>
   );
 };
+
+export async function getStaticProps({ locale }) {
+  const { getLocaleMessages } = await import('../utils/localeMessages');
+  return {
+    props: {
+      messages: await getLocaleMessages(locale),
+    },
+  };
+}
 
 export default withRouter(PrivacyAlerts);

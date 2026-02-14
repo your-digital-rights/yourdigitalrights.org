@@ -13,8 +13,39 @@ export default {
   track(...args) {
     let tracker = this.tracker;
 
+    // Keep a normalized in-browser event buffer for integration tests and diagnostics.
+    // Persist to sessionStorage so events survive route transitions that trigger a full reload.
+    if (typeof window !== 'undefined') {
+      const bufferedArgs = args.slice();
+
+      if (!Array.isArray(window.__ydrTrackedEvents)) {
+        let persistedEvents = [];
+
+        try {
+          const serializedEvents = window.sessionStorage.getItem("__ydrTrackedEvents");
+          if (serializedEvents) {
+            const parsedEvents = JSON.parse(serializedEvents);
+            if (Array.isArray(parsedEvents)) {
+              persistedEvents = parsedEvents;
+            }
+          }
+        } catch (e) {}
+
+        window.__ydrTrackedEvents = persistedEvents;
+      }
+
+      window.__ydrTrackedEvents.push(bufferedArgs);
+
+      try {
+        window.sessionStorage.setItem(
+          "__ydrTrackedEvents",
+          JSON.stringify(window.__ydrTrackedEvents)
+        );
+      } catch (e) {}
+    }
+
     if (tracker) {
-      tracker.push(args);
+      tracker.push(args.slice());
     }
   },
 

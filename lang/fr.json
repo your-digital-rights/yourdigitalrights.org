@@ -1,36 +1,21 @@
 {
-  "about.aboutTitle": {
-    "message": "Notre mission"
-  },
-  "about.consciousDigital": {
-    "message": "Qui nous sommes"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org est une création de {cd}, un organisme de bienfaisance enregistré qui crée des initiatives numériques centrées sur les personnes et qui promeut et fait progresser les droits de l'homme numériques."
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "Contact"
-  },
-  "about.contactText": {
-    "message": "Contactez-nous à l'adresse {email}."
   },
   "about.contributors": {
     "message": "Contributeurs"
   },
   "about.contributorsBody1": {
-    "message": "Développeur web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "Développeur web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "Développeur web front-end."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "Ingénieur Infrastructures."
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
     "message": "Ingénieur full stack, a contribué à la prise en charge d'APPI et à la traduction complète du site web en japonais."
@@ -40,9 +25,6 @@
   },
   "about.createdByBody2": {
     "message": "Développeur web frontend, développeur d'applications mobiles et créateur de Skyjacker, le jeu de suivi de vol AR."
-  },
-  "about.description": {
-    "message": "Your Digital Rights a été créé parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
   },
   "about.founder1Name": {
     "message": "Yoav Aviram"
@@ -62,12 +44,6 @@
   "about.foundersTitle": {
     "message": "Our Founders"
   },
-  "about.funding": {
-    "message": "Financement"
-  },
-  "about.fundingBody1": {
-    "message": "Ce projet est financé par ses créateurs, et avec l'aide de vos dons."
-  },
   "about.globalText": {
     "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
   },
@@ -85,15 +61,6 @@
   },
   "about.introText": {
     "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Des réglementation de la protection des données telles que le {GDPR} (UE), le {CCPA} (Californie), et le {LGPD} (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
-  },
-  "about.missionBody2": {
-    "message": "La réglementation en matière de protection de la vie privée est un pas dans la bonne direction. mais l'exercice de vos droits en vertu de ces lois est encore assez difficile pour la plupart des gens de ne pas s'en occuper. La situation est aggravée parce que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Notre objectif est de rendre les droits conférés par ces législations accessibles à tous."
-  },
-  "about.missionBody3": {
-    "message": "Nous ne sommes pas une entreprise et nous n'avons pas de modèle commercial. Nous n'offrons aucun service aux organisations figurant sur la liste. Nous ne collectons ni n'échangeons aucune donnée personnelle. Ce service est <a>Open Source</a>."
   },
   "about.newDescription": {
     "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
@@ -132,7 +99,7 @@
     "message": "{ama} - pour nous aider à comprendre et soutenir la réglementation brésilienne en matière de confidentialité des données, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Nous aimerions remercier les organisations suivantes pour avoir soutenu notre effort open-source en fournissant une version gratuite ou à prix réduit de leurs services :"
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.stat1Number": {
     "message": "410,000+"
@@ -339,7 +306,7 @@
     "message": "GitHub Sponsors"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "Soutien"
   },
   "donate.waysToGive.liberapay.description": {
     "message": "A community-driven platform for weekly or monthly giving."
@@ -348,7 +315,7 @@
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "Faire un don"
   },
   "donate.waysToGive.openCollective.description": {
     "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."

@@ -63,8 +63,16 @@ const WhyBody = (
     id="howItWorks.whyBody"
     defaultMessage="We are a registered charity called <cd>Conscious Digital</cd>. We created this service because we believe that privacy matters, and that exercising your right to privacy should be easy and free. We do not collect or sell personal data. The service is funded by its creators and with the help of your <donations>donations</donations>."
     values={{
-      cd: txt=> (<a target="_blank" href="https://consciousdigital.org">{txt}</a>),
-      donations: txt=>(<a href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
+      cd: txt => (
+        <a key="howitworks-conscious-digital-link" target="_blank" href="https://consciousdigital.org">
+          {txt}
+        </a>
+      ),
+      donations: txt => (
+        <a key="howitworks-donations-link" href="https://opencollective.com/consciousdigital" target="_blank">
+          {txt}
+        </a>
+      ),
     }}
   />
 );

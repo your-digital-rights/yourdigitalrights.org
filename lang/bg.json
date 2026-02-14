@@ -1,117 +1,84 @@
 {
-  "about.aboutTitle": {
-    "message": "Нашата мисия"
-  },
-  "about.consciousDigital": {
-    "message": "Кои сме ние"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org е създаден от {cd}, регистрирана благотворителна организация, която създава инициативи, ориентирани към хората, за насърчаване и защита на дигиталните човешки права."
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "Контакт"
-  },
-  "about.contactText": {
-    "message": "Свържете се с нас на {email}."
   },
   "about.contributors": {
     "message": "Сътрудници"
   },
   "about.contributorsBody1": {
-    "message": "Frontend уеб разработчик."
+    "message": "Фронтенд уеб разработчик."
   },
   "about.contributorsBody3": {
-    "message": "Frontend уеб разработчик."
+    "message": "Фронтенд уеб разработчик."
   },
   "about.contributorsBody4": {
-    "message": "Frontend уеб разработчик."
+    "message": "Фронтенд уеб разработчик."
   },
   "about.contributorsBody5": {
     "message": "Инженер по инфраструктура."
   },
   "about.contributorsBody6": {
-    "message": "Full stack инженер, допринесе за поддръжката на APPI и цялостния японски превод на уебсайта."
+    "message": "Full stack инженер, допринесъл за поддръжката на APPI и цялостния превод на уебсайта на японски."
   },
   "about.contributorsSubtitle": {
-    "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
+    "message": "Благодарни сме на талантливите разработчици и инженери, които са отделили своето време и експертиза, за да направят YourDigitalRights.org по-добър за всички."
   },
   "about.createdByBody2": {
-    "message": "Frontend уеб разработчик, мобилен разработчик и създател на Skyjacker, AR игра за проследяване на полети."
-  },
-  "about.description": {
-    "message": "Your Digital Rights беше създаден, защото вярваме, че вие имате право на поверителност и че упражняването на това право трябва да бъде лесно."
+    "message": "Фронтенд разработчик, разработчик на мобилни приложения и създател на Skyjacker, играта за проследяване на полети с добавена реалност."
   },
   "about.founder1Name": {
-    "message": "Yoav Aviram"
+    "message": "Йоав Авирам"
   },
   "about.founder1Role": {
-    "message": "Human Rights Activist, Author, Philosopher"
+    "message": "Активист за човешки права, автор, философ"
   },
   "about.founder2Name": {
-    "message": "Rafa Prada"
+    "message": "Рафа Прада"
   },
   "about.founder2Role": {
-    "message": "Design Consultant and Visiting Lecturer at UCL and UAL"
+    "message": "Консултант по дизайн и гостуващ лектор в UCL и UAL"
   },
   "about.foundersSubtitle": {
-    "message": "YourDigitalRights.org was founded by two passionate advocates for digital rights and human-centered design."
+    "message": "YourDigitalRights.org е основан от двама страстни защитници на дигиталните права и дизайна, ориентиран към човека."
   },
   "about.foundersTitle": {
-    "message": "Our Founders"
-  },
-  "about.funding": {
-    "message": "Финансиране"
-  },
-  "about.fundingBody1": {
-    "message": "Този проект се финансира от своите създатели и с помощта на вашите дарения."
+    "message": "Нашите основатели"
   },
   "about.globalText": {
-    "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
+    "message": "Ние подкрепяме над 25 закона за защита на данните, обхващащи повече от четири милиарда души, а нашата платформа е достъпна на множество езици благодарение на нарастващата общност от доброволци."
   },
   "about.globalTitle": {
-    "message": "Global & Inclusive"
+    "message": "Глобален и приобщаващ"
   },
   "about.heroSubtitle": {
-    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy. We make it simple to exercise your legal rights over your personal data — to ask companies to delete it, access it, or stop selling it — under privacy laws like the GDPR, CCPA, and dozens more around the world."
+    "message": "YourDigitalRights.org е безплатна услуга с отворен код, която помага на хората да си върнат контрола върху онлайн поверителността си. Ние улесняваме упражняването на вашите законни права върху личните ви данни – да поискате от компаниите да ги изтрият, да имат достъп до тях или да спрат да ги продават – съгласно законите за поверителност като GDPR, CCPA и десетки други по света."
   },
   "about.heroTitle": {
-    "message": "Taking Back Control of Your Personal Data"
+    "message": "Възвръщане на контрола над личните ви данни"
   },
   "about.impactTitle": {
-    "message": "Real-World Impact"
+    "message": "Въздействие върху реалния свят"
   },
   "about.introText": {
-    "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "Ние вярваме, че поверителността е основно човешко право и че упражняването на това право трябва да бъде лесно достъпно за всички. Регулации за защита на данните като {GDPR} (ЕС), {CCPA} (Калифорния) и {LGPD} (Бразилия) предоставят правната рамка, за да защитят фундаменталното право на хората на поверителност онлайн."
-  },
-  "about.missionBody2": {
-    "message": "Регулациите за поверителност са стъпка в правилната посока, но упражняването на правата, гарантирани от тези закони, все още е достатъчно трудно, за да обезкуражи повечето хора да го направят. Ситуацията се влошава, защото много организации затрудняват подаването на заявки за данни (например, като не публикуват никакви корпоративни имейл адреси на уебсайта си). Ние се стремим да направим правата, предоставени от тези регулации, достъпни за всеки."
-  },
-  "about.missionBody3": {
-    "message": "Това е безплатна услуга. Ние не сме бизнес и нямаме бизнес модел. Не предлагаме никакви услуги на организациите от списъка. Не събираме или търгуваме с лични данни. Тази услуга е <a>с отворен код</a>."
+    "message": "Само с няколко кликвания можете да намерите хиляди компании, които съхраняват вашите данни, и да им изпратите правно обвързващо искане. Нашата вградена система за последващи действия следи вашите искания и ви помага да ескалирате случаите до правилния регулаторен орган, когато организациите не спазват изискванията."
   },
   "about.newDescription": {
-    "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
+    "message": "YourDigitalRights.org е безплатна услуга с отворен код, която помага на хората да си възвърнат контрола върху онлайн поверителността си."
   },
   "about.openSourceText": {
-    "message": "All code, data, and methods are public and free to reuse."
+    "message": "Целият код, данни и методи са публични и безплатни за повторна употреба."
   },
   "about.openSourceTitle": {
-    "message": "Open Source & Transparent"
+    "message": "Отворен код и прозрачност"
   },
   "about.ourApproach": {
-    "message": "Our Approach"
+    "message": "Нашият подход"
   },
   "about.privacyFirstText": {
-    "message": "We collect no personal data by default, run no ads, and never sell user information."
+    "message": "По подразбиране не събираме лични данни, не показваме реклами и никога не продаваме потребителска информация."
   },
   "about.privacyFirstTitle": {
-    "message": "Privacy-First by Design"
+    "message": "Поверителността е на първо място по дизайн"
   },
   "about.sponsors": {
     "message": "Подкрепящи организации"
@@ -132,49 +99,49 @@
     "message": "{ama} - за това, че ни помогнаха да разберем и подкрепим бразилския закон за поверителност на данните, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Бихме искали да благодарим на следните организации за тяхната подкрепа на нашите усилия с отворен код чрез предоставяне на безплатна или отстъпна версия на техните услуги:"
+    "message": "Бихме искали да благодарим на следните организации за подкрепата на нашите усилия за отворен код, като предоставят безплатна или с отстъпка версия на своите услуги:"
   },
   "about.stat1Number": {
-    "message": "410,000+"
+    "message": "410 000+"
   },
   "about.stat1Text": {
-    "message": "Data requests submitted to organizations worldwide"
+    "message": "Заявки за данни, подадени до организации по целия свят"
   },
   "about.stat2Number": {
-    "message": "1,800+"
+    "message": "1800+"
   },
   "about.stat2Text": {
-    "message": "Complaints filed with regulators"
+    "message": "Жалби, подадени до регулаторните органи"
   },
   "about.stat3Number": {
-    "message": "41,000+"
+    "message": "41 000+"
   },
   "about.stat3Text": {
-    "message": "Companies in our database"
+    "message": "Фирми в нашата база данни"
   },
   "about.stat4Number": {
-    "message": "1,000+"
+    "message": "1000+"
   },
   "about.stat4Text": {
-    "message": "Data brokers tracked through DataBrokersWatch.org"
+    "message": "Брокери на данни, проследявани чрез DataBrokersWatch.org"
   },
   "about.supportText": {
-    "message": "From sending your first request to filing a complaint with a regulator, our tools help you every step of the way."
+    "message": "От изпращането на първото ви искане до подаването на жалба до регулаторния орган, нашите инструменти ви помагат на всяка стъпка от пътя."
   },
   "about.supportTitle": {
-    "message": "End-to-End Support"
+    "message": "Цялостна поддръжка"
   },
   "about.title": {
     "message": "За нас"
   },
   "about.whyWeExist": {
-    "message": "Why We Exist"
+    "message": "Защо съществуваме"
   },
   "about.whyWeExistText1": {
-    "message": "The internet was built for people — but today, most of it is powered by the trade in our personal information. We believe everyone deserves digital privacy by default, not just by law. YourDigitalRights.org was created to make those rights practical, simple, and enforceable."
+    "message": "Интернет е създаден за хората, но днес по-голямата част от него се захранва от търговията с нашата лична информация. Вярваме, че всеки заслужава дигитална поверителност по подразбиране, не само по закон. YourDigitalRights.org е създаден, за да направи тези права практични, прости и приложими."
   },
   "about.whyWeExistText2": {
-    "message": "We are part of {cd}, a nonprofit organization advancing digital human rights worldwide. Together, we build open, people-centered tools that empower individuals — not corporations or governments — to be first-class citizens in the digital world."
+    "message": "Ние сме част от {cd}, организация с нестопанска цел, която утвърждава цифровите човешки права по целия свят. Заедно изграждаме отворени, ориентирани към хората инструменти, които дават възможност на отделните хора – а не на корпорации или правителства – да бъдат първокласни граждани в дигиталния свят."
   },
   "aboutOrg.description": {
     "message": "Техни думи:"
@@ -294,100 +261,100 @@
     "message": "Изтрийте данните ми"
   },
   "donate.closing.subtitle": {
-    "message": "Your support keeps YourDigitalRights.org free, open, and independent. Whether it's €5 or €500, every donation makes a difference."
+    "message": "Вашата подкрепа прави YourDigitalRights.org безплатен, отворен и независим. Независимо дали е 5 или 500 евро, всяко дарение е от значение."
   },
   "donate.closing.thanks": {
-    "message": "Thank you for standing up for privacy and empowering people everywhere."
+    "message": "Благодарим ви, че отстоявате неприкосновеността на личния живот и овластявате хората навсякъде."
   },
   "donate.closing.title": {
-    "message": "Every Bit Helps"
+    "message": "Всяка помощ е от полза"
   },
   "donate.description": {
-    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+    "message": "Помогнете ни да защитим онлайн поверителността за всички. Вашето дарение помага да се гарантира нашата дългосрочна финансова стабилност и независимост."
   },
   "donate.hero.subtitle": {
-    "message": "Help us protect online privacy for everyone. Your donation helps ensure our long-term financial stability and independence."
+    "message": "Помогнете ни да защитим онлайн поверителността за всички. Вашето дарение помага да се гарантира нашата дългосрочна финансова стабилност и независимост."
   },
   "donate.hero.title": {
-    "message": "Support Our Mission"
+    "message": "Подкрепете нашата мисия"
   },
   "donate.institutional.paragraph1": {
-    "message": "<a>Conscious Digital</a> is a registered nonprofit organization in Estonia (Reg. 80600079). We welcome support from foundations, companies, and philanthropic organizations."
+    "message": "<a>Conscious Digital</a> е регистрирана организация с нестопанска цел в Естония (рег. № 80600079). Приветстваме подкрепа от фондации, компании и филантропски организации."
   },
   "donate.institutional.paragraph2": {
-    "message": "Please <a>contact us</a> to discuss grants, matching donations, or custom sponsorships."
+    "message": "Моля, <a>свържете се с нас</a> , за да обсъдим безвъзмездни средства, съфинансиране или персонализирани спонсорства."
   },
   "donate.institutional.title": {
-    "message": "Institutional Support"
+    "message": "Институционална подкрепа"
   },
   "donate.intro.paragraph1": {
-    "message": "YourDigitalRights.org is a free, open-source service that helps people reclaim their privacy online. It is maintained by Conscious Digital, a nonprofit organization building people-centered digital initiatives to advance digital human rights."
+    "message": "YourDigitalRights.org е безплатна услуга с отворен код, която помага на хората да си възвърнат поверителността онлайн. Тя се поддържа от Conscious Digital, организация с нестопанска цел, която изгражда ориентирани към хората дигитални инициативи за утвърждаване на цифровите човешки права."
   },
   "donate.intro.paragraph2": {
-    "message": "We do not show ads, sell data, or rely on invasive tech. Instead, we rely on the support of a global community. Your donation directly powers the tools that let people everywhere request their data, delete their profiles, and stand up to surveillance."
+    "message": "Ние не показваме реклами, не продаваме данни и не разчитаме на инвазивни технологии. Вместо това, ние разчитаме на подкрепата на глобална общност. Вашето дарение директно захранва инструментите, които позволяват на хората навсякъде да изискват данните си, да изтриват профилите си и да се противопоставят на наблюдение."
   },
   "donate.title": {
-    "message": "Support Our Mission"
+    "message": "Подкрепете нашата мисия"
   },
   "donate.waysToGive.github.button": {
-    "message": "Sponsor"
+    "message": "Спонсориране"
   },
   "donate.waysToGive.github.description": {
-    "message": "Direct support for our developers and infrastructure. Easy for GitHub users."
+    "message": "Директна поддръжка за нашите разработчици и инфраструктура. Лесно за потребителите на GitHub."
   },
   "donate.waysToGive.github.title": {
-    "message": "GitHub Sponsors"
+    "message": "Спонсори на GitHub"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "Поддръжка"
   },
   "donate.waysToGive.liberapay.description": {
-    "message": "A community-driven platform for weekly or monthly giving."
+    "message": "Обществена платформа за седмични или месечни дарения."
   },
   "donate.waysToGive.liberapay.title": {
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "Дарете"
   },
   "donate.waysToGive.openCollective.description": {
-    "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
+    "message": "Поддържа еднократни или повтарящи се дарения. Идеално за физически лица, фондации или компании. Средствата отиват за Conscious Digital, нашата родителска организация с нестопанска цел."
   },
   "donate.waysToGive.openCollective.title": {
-    "message": "Open Collective"
+    "message": "Отворен колектив"
   },
   "donate.waysToGive.subtitle": {
-    "message": "Choose a method that works for you:"
+    "message": "Изберете метод, който работи за вас:"
   },
   "donate.waysToGive.title": {
-    "message": "Ways to Give"
+    "message": "Начини за даряване"
   },
   "donate.whyDonate.change.description": {
-    "message": "Every donation helps hold data brokers, tech giants and other organizations accountable."
+    "message": "Всяко дарение помага за държането на брокерите на данни, технологичните гиганти и други организации отговорни."
   },
   "donate.whyDonate.change.title": {
-    "message": "Real-world change"
+    "message": "Промяна в реалния свят"
   },
   "donate.whyDonate.impact.description": {
-    "message": "With your help, we've supported 400,000+ privacy requests, 1,800+ regulatory complaints, and reached <strong>4+ billion individuals</strong> across supported jurisdictions."
+    "message": "С ваша помощ подкрепихме над 400 000 заявки за поверителност, над 1800 жалби до регулаторни органи и достигнахме до <strong>над 4 милиарда души</strong> в поддържаните юрисдикции."
   },
   "donate.whyDonate.impact.title": {
-    "message": "Proven impact"
+    "message": "Доказано въздействие"
   },
   "donate.whyDonate.privacy.description": {
-    "message": "No ads. No tracking. No profit motives."
+    "message": "Без реклами. Без проследяване. Без цели за печалба."
   },
   "donate.whyDonate.privacy.title": {
-    "message": "Privacy-first, always"
+    "message": "Поверителността е винаги на първо място"
   },
   "donate.whyDonate.title": {
-    "message": "Why Donate?"
+    "message": "Защо да дарявате?"
   },
   "donate.whyDonate.transparent.description": {
-    "message": "All our code and data are public. You can review our work at any time."
+    "message": "Целият ни код и данни са публични. Можете да прегледате работата ни по всяко време."
   },
   "donate.whyDonate.transparent.title": {
-    "message": "Open and transparent"
+    "message": "Отворено и прозрачно"
   },
   "donations.donate": {
     "message": "Дарете"
@@ -645,7 +612,7 @@
     "message": "Поискайте изтриване на акаунта си или копие от вашите лични данни от {org} бързо и лесно."
   },
   "org.titleExistingOrg": {
-    "message": "Изтрийте вашия {org} акаунт или поискайте вашите данни."
+    "message": "Изтрийте вашия {domain} акаунт или поискайте вашите данни."
   },
   "org.titleNewOrg": {
     "message": "Изпращайте заявки за изтриване и достъп до данни по GDPR, CCPA и LGPD"
@@ -972,13 +939,13 @@
     "message": "<ul><li>Когато съхраняването на данните е необходимо по причини, свързани със свобода на изразяване и информация (това включва журналистически, академични, артистични и литературни цели).</li><li>Когато организацията е законово задължена да пази вашите данни.</li><li>Когато съхраняването на вашите данни е необходимо по причини на общественото здраве.</li><li>Когато съхраняването на вашите данни е необходимо за установяване, упражняване или защита на правни претенции.</li><li>Когато изтриването на вашите данни би ощетило научни или исторически изследвания или архивиране, което е в обществен интерес.</li><li>Ако, след като разгледа вашата заявка, организацията реши, че не е необходимо да изтрива вашите данни, тя все пак трябва да ви отговори. Тя трябва да ви обясни защо смята, че не е задължена да изтрие вашите данни, и да ви информира за вашето право да подадете жалба в надзорния орган или да заведете дело в съда.</li></ul>"
   },
   "request.next.declineICDP": {
-    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>De-identified health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+    "message": "<ul><li>Държавни агенции и политически подразделения</li><li>Данни за финансови институции</li><li>Здравна информация</li><li>Анонимизирана здравна информация</li><li>Информация за лечение на употреба на вещества от пациенти</li><li>Изследвания върху хора</li><li>Информация за подобряване на качеството на здравеопазването</li><li>Информация за безопасността на пациентите и подобряване на качеството</li><li>Данни от потребителски отчети</li><li>Информация за регистрите на моторни превозни средства</li><li>Образователни документи</li><li>Информация за системата за фермерски кредити</li><li>Организации с нестопанска цел</li><li>Висши учебни заведения</li><li>Данни за заетостта и кандидатите</li><li>Данни за изпълнителя в работния контекст</li><li>Информация за контакт при спешни случаи</li><li>Данни за администриране на обезщетения</li><li>Анонимизирани данни</li><li>Обобщена информация</li><li>Публично достъпна информация</li></ul>"
   },
   "request.next.declineICDPA": {
     "message": "<ul><li>Псевдонимизирани данни</li><li>Деидентифицирани данни</li><li>Публично достъпна информация</li><li>Публични или партньорско оценени научни изследвания</li></ul>"
   },
   "request.next.declineKCDPA": {
-    "message": "<ul><li>State agencies and political subdivisions</li><li>Financial institutions data</li><li>Health information</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>Organizations assisting investigations or first responders as specified</li><li>Small telecommunications and certain municipal utilities data restrictions</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Utility sector operational data</li><li>Combat methamphetamine compliance data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+    "message": "<ul><li>Държавни агенции и политически подразделения</li><li>Данни за финансови институции</li><li>Здравна информация</li><li>Организации с нестопанска цел</li><li>Висши учебни заведения</li><li>Организации, подпомагащи разследвания или първи реагиращи, както е посочено</li><li>Ограничения за данни за малки телекомуникации и някои общински комунални услуги</li><li>Информация за лечение на употреба на вещества от пациенти</li><li>Изследвания върху хора</li><li>Информация за подобряване на качеството на здравеопазването</li><li>Информация за безопасността на пациентите и подобряване на качеството</li><li>Анонимизирана здравна информация</li><li>Смесени данни, поддържани от организации, обхванати от услугите</li><li>Данни за дейностите в общественото здравеопазване</li><li>Данни от потребителски отчети</li><li>Информация за регистрите на моторни превозни средства</li><li>Образователни записи</li><li>Информация за системата за фермерски кредити</li><li>Данни за заетостта и кандидатите</li><li>Данни за изпълнители в работния контекст</li><li>Информация за контакт при спешни случаи</li><li>Данни за администриране на обезщетения</li><li>Оперативни данни от сектора на комуналните услуги</li><li>Данни за съответствие с изискванията за борба с метамфетамина</li><li>Анонимизирани данни</li><li>Обобщена информация</li><li>Публично достъпна информация</li></ul>"
   },
   "request.next.declineLGPD": {
     "message": "<ul><li>Свобода на словото или друго право, предвидено от закона.</li><li>Обработване за изследователски цели, ако изтриването на лична информация би направило невъзможно или сериозно би попречило на постигането на целите на такова изследване.</li><li>Обработване на лична информация е необходимо за защита от незаконни дейности или за преследване на лицата, отговорни за дейността.</li><li>За спазване на правно задължение.</li><li>За изпълнение на договор между бизнеса и потребителя.</li><li>Откриване на инциденти със сигурността, защита от злонамерена, измамна или незаконна дейност или преследване на лицата, отговорни за такава дейност.</li><li>Отстраняване на грешки за идентифициране и поправяне на грешки, които възпрепятстват съществуващата предназначена функционалност.</li><li>За да се позволи стриктно вътрешно използване, което е разумно съобразено с очакванията на потребителя, базирани на взаимоотношението му с бизнеса.</li><li>Или друг вид законно използване на лична информация, във вътрешен план, съвместимо с контекста, в който потребителят е предоставил информацията.</li></ul>"
@@ -987,7 +954,7 @@
     "message": "<ul><li>Правителствени органи</li><li>Федерално признати индиански племена</li><li>Обхванати субекти и бизнес асоциирани лица съгласно HIPAA</li><li>Държавни или федерално регистрирани банки или кредитни кооперации</li><li>Застрахователни компании</li><li>Малки предприятия, както са определени от Американската администрация за малкия бизнес</li><li>Нестопански организации, създадени изключително за откриване или предотвратяване на застрахователни измами</li><li>Лични данни, регулирани от GLBA или FCRA</li><li>Лични данни в трудовия контекст или на кандидати за работа, данни за обезщетения и данни за спешен контакт</li><li>Деидентифицирани или публично достъпни данни</li></ul>"
   },
   "request.next.declineMODPA": {
-    "message": "<ul><li>State and local government entities</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Nonprofit organizations assisting public safety</li><li>Human subjects research</li><li>Patient safety and quality improvement information</li><li>Health care quality improvement information</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>Security and fraud prevention</li><li>Legal compliance</li><li>Product recalls and service functionality</li></ul>"
+    "message": "<ul><li>Държавни и местни правителствени органи</li><li>Национални асоциации за ценни книжа</li><li>Данни за финансови институции</li><li>Здравна информация</li><li>Данни от потребителски отчети</li><li>Информация за регистрите на моторни превозни средства</li><li>Образователни записи</li><li>Организации с нестопанска цел, подпомагащи обществената безопасност</li><li>Изследвания върху хора</li><li>Информация за безопасността на пациентите и подобряване на качеството</li><li>Информация за подобряване на качеството на здравеопазването</li><li>Анонимизирани данни</li><li>Обобщена информация</li><li>Публично достъпна информация</li><li>Данни за заетостта и кандидатите</li><li>Данни за изпълнителя в работния контекст</li><li>Информация за контакт при спешни случаи</li><li>Данни за администриране на обезщетения</li><li>Сигурност и предотвратяване на измами</li><li>Спазване на законовите изисквания</li><li>Изтегляне на продукти и функционалност на услугите</li></ul>"
   },
   "request.next.declineMTCDPA": {
     "message": "<ul><li>Субекти, включително щатски и местни правителства, нестопански организации, висши учебни заведения, определени национални асоциации за ценни книжа, финансови институции и защитени лица по специфични закони, като Gramm-Leach-Bliley Act и Health Insurance Portability and Accountability Act, са освободени</li><li>Защитени здравни данни</li><li>Служебни данни, включително данни за кандидат за работа</li><li>Деидентифицирани данни</li><li>Публично достъпна информация</li><li>Агрегирана информация</li><li>Лична информация, събрана за изследване на човешки субекти или като част от клинично изпитване</li></ul>"
@@ -1020,7 +987,7 @@
     "message": "<ul><li>Лични или битови дейности</li><li>Напълно деидентифицирани данни</li><li>Национална сигурност</li><li>Правоприлагане</li><li>От Кабинета и неговите комитети или Изпълнителния съвет на провинция</li><li>Свързани със съдебните функции на съд, посочен в член 166 от Конституцията.</li></ul>"
   },
   "request.next.declineRIDTPPA": {
-    "message": "<ul><li>State and local government entities</li><li>Nonprofit organizations</li><li>Institutions of higher education</li><li>National securities associations</li><li>Financial institutions data</li><li>Health information</li><li>Patient substance use treatment information</li><li>Human subjects research</li><li>Health care quality improvement information</li><li>Patient safety and quality improvement information</li><li>De-identified health information</li><li>Intermingled data maintained by covered service organizations</li><li>Public health activities data</li><li>Consumer report data</li><li>Motor vehicle records information</li><li>Education records</li><li>Farm credit system information</li><li>Employment and applicant data</li><li>Contractor data in the work context</li><li>Emergency contact information</li><li>Benefits administration data</li><li>De-identified data</li><li>Aggregate information</li><li>Publicly available information</li></ul>"
+    "message": "<ul><li>Държавни и местни правителствени организации</li><li>Организации с нестопанска цел</li><li>Висши учебни заведения</li><li>Национални асоциации за ценни книжа</li><li>Данни за финансови институции</li><li>Здравна информация</li><li>Информация за лечение на употребата на вещества при пациенти</li><li>Изследвания върху хора</li><li>Информация за подобряване на качеството на здравеопазването</li><li>Информация за безопасността на пациентите и подобряване на качеството</li><li>Анонимизирана здравна информация</li><li>Смесени данни, поддържани от обхванати сервизни организации</li><li>Данни за дейности в общественото здравеопазване</li><li>Данни от потребителски отчети</li><li>Информация за регистрите на моторни превозни средства</li><li>Образователни записи</li><li>Информация за системата за фермерски кредити</li><li>Данни за заетостта и кандидатите</li><li>Данни за изпълнителя в контекста на работата</li><li>Информация за контакт при спешни случаи</li><li>Данни за администриране на обезщетения</li><li>Анонимизирани данни</li><li>Обобщена информация</li><li>Публично достъпна информация</li></ul>"
   },
   "request.next.declineTDPSA": {
     "message": "Правни субекти, включително държавни и местни власти, организации с нестопанска цел, висши учебни заведения, определени национални асоциации по ценни книжа, финансови институции и обхванати субекти съгласно конкретни закони, като Gramm-Leach-Bliley Act и Закона за преносимост и отчетност на здравното осигуряване (HIPAA), са изключени."

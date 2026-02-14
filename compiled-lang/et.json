@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Meie missioon"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Kes me oleme"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org on loodud organisatsiooni "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": " poolt, mis on registreeritud heategevuslikuks ühinguks ning arendab inimestekeskseid digialgatusi, et edendada ja edastada digitaalseid inimõigusi."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Kontakt"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Võtke meiega ühendust aadressil "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Frontendi veebiarendaja."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Frontendi veebiarendaja."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Frontendi veebiarendaja."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "infrastruktuuriinsener."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "täislaotusega insener, panustas APPI toetuse ja kogu veebisaidi jaapani keelde tõlkimisega."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Frontendi veebiarendaja, mobiilirakenduse arendaja ja Skyjackeri, AR-lennujälgimismängu looja."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Lõime portaali Your Digital Rights, sest usume, et teil on õigus privaatsusele ja et selle õiguse kasutamine peaks olema lihtne."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Rahastamine"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Selle projekti rahastavad selle loojad ja teie annetused."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Usume, et privaatsus on põhiline inimõigus ja et see peaks olema kõigile kättesaadav. Andmekaitsemäärused nagu "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (EL), "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (California) ja "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brasiilia) tagavad õigusraamistiku inimeste põhiõigusele privaatsusele veebis."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Kuigi privaatsusreeglid on samm õiges suunas, on oma õiguste kasutamine nende alusel endiselt piisavalt keeruline, et paljud inimesed loobuksid sellest. Probleemi süvendavad organisatsioonid, kes teevad andmepäringu esitamise meelega raskeks (näiteks ei avaldata oma veebisaidil ühtegi e-posti aadressi). Meie eesmärk on muuta nende seadustega antud õigused kõigile kättesaadavaks."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "See on tasuta teenus. Me ei ole äriettevõte ja meil puudub ärimudel. Me ei paku loendis olevatele organisatsioonidele mingeid teenuseid. Me ei kogu ega kauple isikuandmetega. See teenus on "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "avatud lähtekoodiga"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Täname järgmisi organisatsioone, kes on toetanud meie avatud lähtekoodiga püüdlusi, pakkudes tasuta või soodustariifiga versiooni oma teenustest:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -960,7 +840,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Tugi"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -978,7 +858,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Annetus"
     }
   ],
   "donate.waysToGive.openCollective.description": [

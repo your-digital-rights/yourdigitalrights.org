@@ -1,32 +1,32 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+До вниманието на отдела за поверителност / длъжностното лице по защита на данните / правния отдел на {{ companyName }} ({{ companyUrl }}),
 
-I am writing to request that you delete my personal data from all of your paper and/or computer records pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+Пиша Ви, за да поискам да изтриете личните ми данни от всички Ваши хартиени и/или компютърни записи съгласно {{ regulation.requestTypes[requestType].article }} от {{ regulation.longName }} ({{ regulation.displayName }}). 
 
-To the extent that you rely on consent to process my personal data, I withdraw that consent. To the extent that you rely on your 'legitimate interest' to process my personal data, I object to the processing as there are no overriding legitimate grounds.
+Доколкото разчитате на съгласие за обработка на личните ми данни, аз оттеглям това съгласие. Доколкото се позовавате на Вашия „легитимен интерес“ да обработвате личните ми данни, аз възразявам срещу обработването, тъй като няма преобладаващи легитимни основания.
 
-If you are selling my personal data to third parties, please consider this email as my direction to you not to sell my personal data to third parties.
+Ако продавате личните ми данни на трети страни, моля, считайте този имейл като мое указание към Вас да не продавате личните ми данни на трети страни.
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+Моля, не ме молете да извършвам процеси на самообслужване, като например намиране на информацията ми на вашия уебсайт, попълване на формуляр или предоставяне на мобилен рекламен идентификатор. Тези искания са прекомерна тежест за мен. 
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
+Моля, използвайте следната информация, за да ме идентифицирате във вашите записи:
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request to delete all of my personal data, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please delete all my personal data which does not fall under these exceptions.
+Ако не сте в състояние да изпълните искането ми за изтриване на всички мои лични данни, моля, уведомете ме за конкретната причина, поради която това искане не може да бъде изпълнено. Моля, посочете на кои раздели и подраздели от закона се позовавате и посочете конкретната причина, поради която се позовавате на тези изключения, като например кое правно задължение или вътрешна цел или употреба. Моля, изтрийте всички мои лични данни, които не попадат в обхвата на тези изключения.
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+Това имейл съобщение беше изпратено от моя личен имейл акаунт (както можете да видите в заглавките на имейла). Моля, използвайте този факт, за да потвърдите самоличността ми. Моля, не ме молете да предоставям допълнителна информация, която да ви идентифицира, тъй като това е прекомерна тежест за мен. Ако сте законово задължени да изисквате допълнителна идентификационна информация, за да потвърдите самоличността ми, моля, уведомете ме възможно най-скоро. 
 
-Please confirm that you have deleted my personal data from your paper and/or computer records and that you have followed up with any third-party organization with whom my information has been shared to ensure that they deleted their copy of the data. 
+Моля, потвърдете, че сте изтрили личните ми данни от вашите хартиени и/или компютърни записи и че сте се свързали с всяка трета страна, с която е била споделена моята информация, за да се уверите, че те са изтрили своето копие от данните. 
 
-My preferred method of contact is email. 
+Предпочитаният от мен метод за контакт е имейл. 
 
-Please note that I do not consent to any personal data which is part of this request to be used for any purpose other than fulfilling this request, except in the case of a suppression list, which you may keep in order to ensure that you do not collect any of my personal data in the future.
+Моля, обърнете внимание, че не давам съгласието си каквито и да е лични данни, които са част от това искане, да бъдат използвани за каквато и да е цел, различна от изпълнението му, освен в случай на списък за премахване на данни, който можете да запазите, за да гарантирате, че няма да събирате мои лични данни в бъдеще.
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+Моля, обърнете внимание, че имате {{ regulation.timeLimit }} дни, за да изпълните това искане. 
 
-Kind regards,
+С уважение,
 
 {{ name }}
 
-Powered by YourDigitalRights.org
+С подкрепата на YourDigitalRights.org

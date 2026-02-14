@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Vårt uppdrag"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Vilka vi är"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org är en skapelse av "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ", en registrerad välgörenhetsorganisation som skapar människocentrerade digitala initiativ för att främja och utveckla digitala mänskliga rättigheter."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Kontakt"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Kontakta oss på "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Frontend-webbutvecklare."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Frontend-webbutvecklare."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Frontend-webbutvecklare."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Infrastrukturingenjör."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Fullstack-utvecklare, bidrog med APPI-stöd och den övergripande japanska översättningen av webbplatsen."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Frontend-webbutvecklare, mobilapputvecklare och skapare av Skyjacker, AR-spelet för flygspårning."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Your Digital Rights skapades eftersom vi anser att du har rätt till integritet, och att det ska vara enkelt att utöva den rätten."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Finansiering"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Detta projekt finansieras av sina skapare och med hjälp av dina donationer."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Vi anser att integritet är en grundläggande mänsklig rättighet och att utövandet av denna rättighet bör vara lättillgängligt för alla. Dataskyddsförordningar såsom "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (EU), "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Kalifornien) och "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brasilien) utgör den rättsliga infrastrukturen för att skydda människors grundläggande rätt till integritet online."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Dataskyddsregler är ett steg i rätt riktning, men att utöva dina rättigheter enligt dessa lagar är fortfarande så pass svårt att de flesta inte bryr sig om det. Situationen förvärras av att många organisationer gör det svårt att skicka in databegräranden (till exempel genom att inte publicera några företagsmejladresser på sin webbplats). Vårt mål är att göra de rättigheter som dessa lagar ger tillgängliga för alla."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Detta är en kostnadsfri tjänst. Vi är inget företag och har ingen affärsmodell. Vi erbjuder inga tjänster till organisationerna i listan. Vi samlar inte in eller handlar med några personuppgifter. Denna tjänst är "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Open Source"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Vi vill tacka följande organisationer för att de stödjer vårt open source-arbete genom att erbjuda en kostnadsfri eller rabatterad version av sina tjänster:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -978,7 +858,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Donera"
     }
   ],
   "donate.waysToGive.openCollective.description": [

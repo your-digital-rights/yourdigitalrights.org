@@ -1,9 +1,6 @@
 import { Title } from "./text";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
-import { ImageList } from '@mui/material';
-import { ImageListItem } from '@mui/material';
-import Image from "next/legacy/image";
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 

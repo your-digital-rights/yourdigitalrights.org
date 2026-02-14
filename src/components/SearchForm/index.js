@@ -12,7 +12,6 @@ import MenuList from "@mui/material/MenuList";
 import Paper from "@mui/material/Paper";
 import { fetchDomains } from "../../utils/domains";
 import tracker from "../../utils/tracking";
-import Link from "next/link";
 import Router from "next/router";
 import ImageWithFallback from '../../utils/image';
 import * as S from "./styles";
@@ -22,25 +21,79 @@ class Form extends Component {
   state = {
     searchResults: [],
     companyNameSearch: "",
+    companies: null,
     companiesLoaded: false,
+    loadingCompanies: false,
   };
 
   constructor(props) {
     super(props);
+    this.searchTimeout = null;
+    this.companiesPromise = null;
   }
 
-  async componentDidMount() {
-    const companies = fetchDomains();
-    this.setState({ companies });
-    await companies;
-    this.setState({ companiesLoaded: true });
+  componentWillUnmount() {
+    if (this.searchTimeout) {
+      clearTimeout(this.searchTimeout);
+    }
   }
 
-  handleInput = (e) => {
-    this.searchCompanies(e.target.value);
+  ensureCompaniesLoaded = async () => {
+    if (this.state.companiesLoaded && this.state.companies) {
+      return this.state.companies;
+    }
+
+    if (!this.companiesPromise) {
+      this.setState({ loadingCompanies: true });
+      this.companiesPromise = fetchDomains()
+        .then(companies => {
+          if (!companies || !companies.Domains) {
+            return null;
+          }
+
+          const normalizedDomains = companies.Domains.map(company => ({
+            ...company,
+            searchTermsLower: String(company.searchTerms || '').toLowerCase(),
+            urlLower: String(company.url || '').toLowerCase(),
+          }));
+          const normalizedCompanies = {
+            ...companies,
+            Domains: normalizedDomains,
+          };
+
+          this.setState({
+            companies: normalizedCompanies,
+            companiesLoaded: true,
+            loadingCompanies: false,
+          });
+          return normalizedCompanies;
+        })
+        .catch(error => {
+          console.error(error);
+          this.setState({
+            loadingCompanies: false,
+          });
+          this.companiesPromise = null;
+          return null;
+        });
+    }
+
+    return this.companiesPromise;
+  };
+
+  handleInput = async (e) => {
+    const searchValue = e.target.value;
     this.setState({
-      companyNameSearch: e.target.value,
+      companyNameSearch: searchValue,
     });
+
+    if (this.searchTimeout) {
+      clearTimeout(this.searchTimeout);
+    }
+
+    this.searchTimeout = setTimeout(() => {
+      this.searchCompanies(searchValue);
+    }, 100);
   };
 
   onItemSelected = (org) => {
@@ -53,34 +106,60 @@ class Form extends Component {
   };
 
   async searchCompanies(search) {
-    let searchResults = [];
-
-    if (search) {
-      const companies = await this.state.companies;
-      searchResults = companies['Domains']
-        .filter((company) => {
-          return company.searchTerms
-            .toLowerCase()
-            .match("^" + search.toLowerCase() + "|, *" + search.toLowerCase());
-        }).concat(
-          companies['Domains'].filter((company) => {
-            return company.url
-              .toLowerCase()
-              .match("^" + search.toLowerCase());
-          }
-        )).filter(
-          (v, i, a) => a.indexOf(v) === i
-        ).slice(0, 5);
-    } else {
-      searchResults = [];
+    const normalizedSearch = search.trim().toLowerCase();
+    if (!normalizedSearch) {
+      this.setState({
+        searchResults: [],
+      });
+      return;
     }
+
+    const companies = this.state.companies || await this.ensureCompaniesLoaded();
+    if (!companies || !companies.Domains) {
+      this.setState({
+        searchResults: [],
+      });
+      return;
+    }
+
+    const addResult = (result, collection, seenUrls) => {
+      if (!seenUrls.has(result.url)) {
+        seenUrls.add(result.url);
+        collection.push(result);
+      }
+    };
+    const searchResults = [];
+    const seenUrls = new Set();
+
+    for (const company of companies.Domains) {
+      if (
+        company.searchTermsLower.startsWith(normalizedSearch) ||
+        company.searchTermsLower.includes(`, ${normalizedSearch}`)
+      ) {
+        addResult(company, searchResults, seenUrls);
+      }
+      if (searchResults.length === 5) {
+        break;
+      }
+    }
+
+    if (searchResults.length < 5) {
+      for (const company of companies.Domains) {
+        if (company.urlLower.startsWith(normalizedSearch)) {
+          addResult(company, searchResults, seenUrls);
+        }
+        if (searchResults.length === 5) {
+          break;
+        }
+      }
+    }
+
     this.setState({
       searchResults,
     });
   }
 
   renderInput = (InputProps) => {
-    const { companies, intl } = this.props;
     const label = this.props.intl.formatMessage({
       id: "search.companyPlaceholder",
       defaultMessage: "Search for an organization"
@@ -88,7 +167,6 @@ class Form extends Component {
     return (
           <div>
             <Input
-              autoFocus
               {...InputProps}
               id="companyNameSearch"
               onInput={this.handleInput}
@@ -99,7 +177,7 @@ class Form extends Component {
                 </InputAdornment>
               }
               endAdornment={
-                this.state.companyNameSearch && !this.state.companiesLoaded ? (
+                this.state.companyNameSearch && this.state.loadingCompanies ? (
                   <CircularProgress size={24} />
                 ) : null
               }
@@ -111,6 +189,7 @@ class Form extends Component {
                 padding: "6px 16px",
               }}
               autoComplete="off"
+              autoFocus
             />
           </div>
     );
@@ -133,23 +212,21 @@ class Form extends Component {
         dense={true}
         {...itemProps}
       >
-        <Link href="/d/[domain]" as={`/d/${result.url}`} legacyBehavior>
-          <>
-            <ImageWithFallback
-              role="presentation"
-              src={src}
-              width={24}
-              height={24}
-              fallbackSrc="/images/Keep-it-private.png"
-            />
-            <ListItemText
-              disableTypography={true}
-              component={S.StyledSearchItem}
-              primary={`${result.name} (${result.url})`}
-              id={`search-result-${result.url}`}
-            />
-          </>
-        </Link>
+        <ImageWithFallback
+          role="presentation"
+          src={src}
+          width={24}
+          height={24}
+          sizes="24px"
+          alt=""
+          fallbackSrc="/images/Keep-it-private.png"
+        />
+        <ListItemText
+          disableTypography={true}
+          component={S.StyledSearchItem}
+          primary={`${result.name} (${result.url})`}
+          id={`search-result-${result.url}`}
+        />
       </MenuItem>
     );
   };
@@ -192,20 +269,18 @@ class Form extends Component {
                       }
                       {...getItemProps({ item: {} })}
                     >
-                      <Link href="/d/[domain]" as="/d/add/" legacyBehavior>
-                        <ListItemText>
-                          <strong>
-                            <FormattedMessage
-                              id="search.noResults"
-                              defaultMessage="Can't find an organization?"
-                            />
-                          </strong>{" "}
+                      <ListItemText>
+                        <strong>
                           <FormattedMessage
-                            id="search.noResultsMore"
-                            defaultMessage="Click here to add one"
+                            id="search.noResults"
+                            defaultMessage="Can't find an organization?"
                           />
-                        </ListItemText>
-                      </Link>
+                        </strong>{" "}
+                        <FormattedMessage
+                          id="search.noResultsMore"
+                          defaultMessage="Click here to add one"
+                        />
+                      </ListItemText>
                     </MenuItem>
                   </MenuList>
                 )}

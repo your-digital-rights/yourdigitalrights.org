@@ -16,6 +16,26 @@ const SubscribeContainer = styled('div')(({ theme }) => ({
   marginTop: "-145px",
   paddingTop: "150px",
   paddingBottom: "30px",
+  position: "relative",
+  zIndex: 1,
+  overflow: "visible",
+}));
+
+const DeferredSection = styled('section')(() => ({
+  contentVisibility: "auto",
+  containIntrinsicSize: "1px 900px",
+}));
+
+const SubscribeSection = styled('section')(() => ({
+  position: "relative",
+  zIndex: 1,
+  overflow: "visible",
+}));
+
+const FooterSection = styled('section')(() => ({
+  position: "relative",
+  zIndex: 3,
+  overflow: "visible",
 }));
 
 function Capitalize(str){
@@ -53,14 +73,20 @@ const Org = ({ organization, router, newOrg }) => {
         selectedCompany={organization}
       />
       { !newOrg && (
-        <AboutOrg  
-          selectedCompany={organization}
-        />
+        <DeferredSection>
+          <AboutOrg  
+            selectedCompany={organization}
+          />
+        </DeferredSection>
       )}
-      <SubscribeContainer>
-        <Subscribe page="org"/>
-      </SubscribeContainer>
-      <Footer/>
+      <SubscribeSection>
+        <SubscribeContainer>
+          <Subscribe page="org"/>
+        </SubscribeContainer>
+      </SubscribeSection>
+      <FooterSection>
+        <Footer/>
+      </FooterSection>
     </div>
   )
 }
@@ -71,11 +97,15 @@ export async function getStaticPaths() {
   return { paths: [], fallback: 'blocking' }
 }
 
-export async function getStaticProps({ params }) {
+export async function getStaticProps({ params, locale }) {
+  const { getLocaleMessages } = await import('../../utils/localeMessages');
+  const messages = await getLocaleMessages(locale);
+
   if (params.domain == 'add') {
     return {
       props: {
         newOrg: true,
+        messages,
       }
     }
   } 
@@ -92,6 +122,7 @@ export async function getStaticProps({ params }) {
     notFound: data.statusCode > 400,
     props: {
       organization: data['Domain'],
+      messages,
     },
     revalidate:  30 * 24 * 60 * 60, // 30 days
   }

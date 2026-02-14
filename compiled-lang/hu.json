@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Küldetésünk"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Kik vagyunk"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "A YourDigitalRights.org a(z) "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": " alkotása, amely egy bejegyzett jótékonysági szervezet, és emberközpontú digitális kezdeményezéseket hoz létre és támogat a digitális emberi jogok előmozdítása érdekében."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Kapcsolat"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Lépjen kapcsolatba velünk a(z) "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": " címen."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Frontend webfejlesztő."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Frontend webfejlesztő."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Frontend webfejlesztő."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Infrastruktúra-mérnök."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Full stack fejlesztő, aki hozzájárult az APPI támogatásához és a weboldal teljes japán fordításához."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Frontend webfejlesztő, mobilalkalmazás-fejlesztő és a Skyjacker, az AR repüléskövető játék készítője."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "A Your Digital Rights azért jött létre, mert hisszük, hogy jogod van a magánélethez, és egyszerűvé szeretnénk tenni e jog gyakorlását."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Finanszírozás"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Ezt a projektet alkotói finanszírozzák, valamint az Önök adományai segítik."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Úgy véljük, hogy a magánélet alapvető emberi jog, és hogy ennek érvényesítése mindenki számára könnyen elérhető kell legyen. Az olyan adatvédelmi törvények, mint a "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (EU), a "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Kalifornia) és a "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brazília) jogi keretet biztosítanak az emberek alapvető online adatvédelmi jogainak védelméhez."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Az adatvédelmi szabályozások jó irányba tett lépést jelentenek, de ezen jogok érvényesítése még mindig elég nehéz ahhoz, hogy sokan ne éljenek vele. A helyzetet rontja, hogy sok szervezet megnehezíti az adatigénylések benyújtását (például nem tüntetnek fel semmilyen vállalati e-mail-címet a weboldalukon). Célunk, hogy ezeket a jogokat mindenki számára elérhetővé tegyük."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Ez egy ingyenes szolgáltatás. Nem vagyunk üzleti vállalkozás, és nincs üzleti modellünk. Nem kínálunk szolgáltatásokat a listán szereplő szervezeteknek, és nem gyűjtünk vagy kereskedünk személyes adatokkal. Ez a szolgáltatás "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "nyílt forráskódú"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -352,7 +232,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Köszönetet szeretnénk mondani a következő szervezeteknek, hogy ingyenesen vagy kedvezményesen biztosítják szolgáltatásaikat az open-source erőfeszítéseink támogatásához:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -968,7 +848,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Támogatás"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -986,7 +866,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Adományozzon"
     }
   ],
   "donate.waysToGive.openCollective.description": [

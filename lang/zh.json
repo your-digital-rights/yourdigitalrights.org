@@ -1,48 +1,30 @@
 {
-  "about.aboutTitle": {
-    "message": "我们的任务"
-  },
-  "about.consciousDigital": {
-    "message": "我们是谁的"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org由 {cd}创建，这是一家注册慈善机构，旨在创建以人为本的数字倡议，促进和推动数字人权。"
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "聯繫人"
-  },
-  "about.contactText": {
-    "message": "请通过 {email}与我们联系。"
   },
   "about.contributors": {
     "message": "贡献者"
   },
   "about.contributorsBody1": {
-    "message": "——前端网络开发人员。"
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "——前端网络开发人员。"
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "——前端网络开发人员。"
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "基础设施工程师。"
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
-    "message": "全栈工程师，负责 APPI 支持和网站的整体日语翻译。"
+    "message": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
   },
   "about.contributorsSubtitle": {
     "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
   },
   "about.createdByBody2": {
-    "message": "前端网络开发人员、移动应用开发人员，AR 飞行追踪游戏 Skyjacker 的创造者。"
-  },
-  "about.description": {
-    "message": "你的数字权利之所以创立，是因为我们认为你有隐私权，而行使你的隐私权应该是容易的。"
+    "message": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
   },
   "about.founder1Name": {
     "message": "Yoav Aviram"
@@ -62,12 +44,6 @@
   "about.foundersTitle": {
     "message": "Our Founders"
   },
-  "about.funding": {
-    "message": "B. 供资"
-  },
-  "about.fundingBody1": {
-    "message": "这个项目由其创作者提供资金，并得到您的捐助。"
-  },
   "about.globalText": {
     "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
   },
@@ -85,15 +61,6 @@
   },
   "about.introText": {
     "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "我们认为，隐私权是一项基本人权，每个人都应能方便地行使这项权利。 {GDPR} （欧盟）、 {CCPA} （加利福尼亚）和 {LGPD} （巴西）等数据保护法规为保护人们的基本网络隐私权提供了法律基础。"
-  },
-  "about.missionBody2": {
-    "message": "隐私条例是朝正确方向迈出的一步。 但在这些立法下行使你的权利仍然很难让大多数人不屈服。 这种情况更加恶化，因为许多组织难以提交数据请求（例如不在其网站上发布任何公司电子邮件地址）。 我们的目标是使每个人都能享有这些立法赋予的权利。"
-  },
-  "about.missionBody3": {
-    "message": "这是一种免费服务。我们不是一个企业，也没有一个业务模式。 我们没有向名单上的组织提供任何服务。 我们不收集或交易任何个人数据。此服务是 <a>开源</a>。"
   },
   "about.newDescription": {
     "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
@@ -132,7 +99,7 @@
     "message": "{ama} - 帮助我们了解并支持巴西数据隐私法规 Lei Geral de Proteção de Dados Pessoais (LGPD)。"
   },
   "about.sponsorsTitle": {
-    "message": "我们要感谢下列组织通过提供免费或折扣版本的服务支持我们的开放源码努力："
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.stat1Number": {
     "message": "410,000+"
@@ -339,7 +306,7 @@
     "message": "GitHub Sponsors"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "支持"
   },
   "donate.waysToGive.liberapay.description": {
     "message": "A community-driven platform for weekly or monthly giving."
@@ -348,7 +315,7 @@
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "捐助"
   },
   "donate.waysToGive.openCollective.description": {
     "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."

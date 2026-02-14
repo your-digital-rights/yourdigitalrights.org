@@ -1,48 +1,30 @@
 {
-  "about.aboutTitle": {
-    "message": "Naša misija"
-  },
-  "about.consciousDigital": {
-    "message": "Tko smo mi"
-  },
-  "about.consciousDigital1": {
-    "message": "YourDigitalRights.org je kreacija {cd}, registrirane humanitarne udruge koja stvara digitalne inicijative usmjerene na ljude i promiče digitalna ljudska prava."
-  },
   "about.consciousDigitalLink": {
     "message": "Conscious Digital"
-  },
-  "about.contact": {
-    "message": "Kontakt"
-  },
-  "about.contactText": {
-    "message": "Kontaktirajte nas na {email}."
   },
   "about.contributors": {
     "message": "Suradnici"
   },
   "about.contributorsBody1": {
-    "message": "Frontend web programer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody3": {
-    "message": "Frontend web programer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody4": {
-    "message": "Frontend web programer."
+    "message": "Frontend web developer."
   },
   "about.contributorsBody5": {
-    "message": "Inženjer infrastrukture."
+    "message": "Infrastructure Engineer."
   },
   "about.contributorsBody6": {
-    "message": "Full stack inženjer, pridonio APPI podršci i cjelovitom japanskom prijevodu web stranice."
+    "message": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
   },
   "about.contributorsSubtitle": {
     "message": "We're grateful to the talented developers and engineers who have contributed their time and expertise to make YourDigitalRights.org better for everyone."
   },
   "about.createdByBody2": {
-    "message": "Frontend web programer, programer mobilnih aplikacija i kreator Skyjackera, AR igre za praćenje letova."
-  },
-  "about.description": {
-    "message": "Your Digital Rights je stvoren jer vjerujemo da imate pravo na privatnost i da bi korištenje tog prava trebalo biti jednostavno."
+    "message": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
   },
   "about.founder1Name": {
     "message": "Yoav Aviram"
@@ -62,12 +44,6 @@
   "about.foundersTitle": {
     "message": "Our Founders"
   },
-  "about.funding": {
-    "message": "Financiranje"
-  },
-  "about.fundingBody1": {
-    "message": "Ovaj projekt financiraju njegovi tvorci, kao i vaše donacije."
-  },
   "about.globalText": {
     "message": "We support 25+ data protection laws, covering more than four billion people, and our platform is available in multiple languages thanks to a growing volunteer community."
   },
@@ -85,15 +61,6 @@
   },
   "about.introText": {
     "message": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-  },
-  "about.missionBody1": {
-    "message": "Vjerujemo da je privatnost osnovno ljudsko pravo i da bi ostvarivanje toga prava trebalo biti lako dostupno svima. Propisi o zaštiti podataka, poput {GDPR} (EU), {CCPA} (Kalifornija) i {LGPD} (Brazil), pružaju pravni okvir za zaštitu temeljnih prava na privatnost na internetu."
-  },
-  "about.missionBody2": {
-    "message": "Propisi o zaštiti podataka dobar su korak naprijed, ali provođenje tih prava i dalje je dovoljno složeno da mnogi ljudi ni ne pokušavaju. Situaciju dodatno otežava to što mnoge organizacije otežavaju podnošenje zahtjeva za podatke (primjerice ne objavljuju nikakve korporativne adrese e-pošte na svojim web stranicama). Naš cilj je učiniti prava koja ti propisi garantiraju dostupnima svima."
-  },
-  "about.missionBody3": {
-    "message": "Ovo je besplatna usluga. Mi nismo tvrtka i nemamo poslovni model. Ne nudimo nikakve usluge organizacijama na popisu. Ne prikupljamo niti razmjenjujemo osobne podatke. Ova usluga je <a>open source</a>."
   },
   "about.newDescription": {
     "message": "YourDigitalRights.org is a free, open-source service that helps people take back control of their online privacy."
@@ -132,7 +99,7 @@
     "message": "{ama} - za pomoć u razumijevanju i podršci za brazilski zakon o zaštiti podataka, Lei Geral de Proteção de Dados Pessoais (LGPD)."
   },
   "about.sponsorsTitle": {
-    "message": "Želimo zahvaliti sljedećim organizacijama na podršci našem open-source naporu tako što nam pružaju besplatnu ili sniženu verziju svojih usluga:"
+    "message": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
   },
   "about.stat1Number": {
     "message": "410,000+"
@@ -339,7 +306,7 @@
     "message": "GitHub Sponsors"
   },
   "donate.waysToGive.liberapay.button": {
-    "message": "Support"
+    "message": "Podrška"
   },
   "donate.waysToGive.liberapay.description": {
     "message": "A community-driven platform for weekly or monthly giving."
@@ -348,7 +315,7 @@
     "message": "Liberapay"
   },
   "donate.waysToGive.openCollective.button": {
-    "message": "Donate"
+    "message": "Donirajte"
   },
   "donate.waysToGive.openCollective.description": {
     "message": "Supports one-time or recurring donations. Ideal for individuals, foundations, or companies. Funds go to Conscious Digital, our parent nonprofit."
@@ -645,7 +612,7 @@
     "message": "Zatražite brisanje vašeg {org} računa ili kopiju vaših podataka brzo i jednostavno."
   },
   "org.titleExistingOrg": {
-    "message": "Izbrišite svoj {org} račun ili zatražite svoje podatke."
+    "message": "Izbrišite svoj {domain} račun ili zatražite svoje podatke."
   },
   "org.titleNewOrg": {
     "message": "Pošaljite zahtjeve za brisanje i pristup osobnim podacima prema GDPR, CCPA i LGPD zakonima"

@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Η αποστολή μας"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Ποιοι είμαστε"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "Το YourDigitalRights.org είναι δημιουργία της/του "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ", ενός εγγεγραμμένου φιλανθρωπικού οργανισμού που δημιουργεί ψηφιακές πρωτοβουλίες με επίκεντρο τον άνθρωπο, προωθώντας και ενισχύοντας τα ψηφιακά ανθρώπινα δικαιώματα."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Επικοινωνία"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Επικοινωνήστε μαζί μας στο "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Προγραμματιστής ιστοσελίδων frontend."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Προγραμματιστής ιστοσελίδων frontend."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Προγραμματιστής ιστοσελίδων frontend."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Μηχανικός Υποδομών."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Μηχανικός full stack, συνέβαλε στην υποστήριξη του APPI και στη συνολική ιαπωνική μετάφραση του ιστότοπου."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Προγραμματιστής frontend, προγραμματιστής εφαρμογών για κινητά και δημιουργός του Skyjacker, του παιχνιδιού επαυξημένης πραγματικότητας για ιχνηλάτηση πτήσεων."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Το Your Digital Rights δημιουργήθηκε επειδή πιστεύουμε ότι έχετε δικαίωμα στην ιδιωτικότητα και ότι η άσκηση αυτού του δικαιώματος θα πρέπει να είναι εύκολη."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Χρηματοδότηση"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Αυτό το έργο χρηματοδοτείται από τους δημιουργούς του, καθώς και με τη βοήθεια των δωρεών σας."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Πιστεύουμε ότι η ιδιωτικότητα αποτελεί θεμελιώδες ανθρώπινο δικαίωμα και ότι η άσκηση αυτού του δικαιώματος θα πρέπει να είναι εύκολα προσβάσιμη σε όλους. Κανονισμοί προστασίας δεδομένων, όπως ο "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (ΕΕ), ο "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Καλιφόρνια) και ο "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Βραζιλία), παρέχουν το νομικό πλαίσιο για την προστασία του θεμελιώδους δικαιώματος στην ψηφιακή ιδιωτικότητα."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Οι κανονισμοί απορρήτου αποτελούν ένα βήμα προς τη σωστή κατεύθυνση, όμως η άσκηση των δικαιωμάτων σας βάσει αυτών των νομοθεσιών παραμένει αρκετά δύσκολη, ώστε οι περισσότεροι να μην ασχολούνται. Η κατάσταση γίνεται ακόμη χειρότερη διότι πολλές οργανώσεις δυσκολεύουν την υποβολή αιτημάτων δεδομένων (για παράδειγμα, μη δημοσιεύοντας εταιρικές διευθύνσεις email στον ιστότοπό τους). Στόχος μας είναι να καταστήσουμε τα δικαιώματα που παρέχονται από αυτές τις νομοθεσίες προσβάσιμα σε όλους."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Πρόκειται για μια δωρεάν υπηρεσία. Δεν είμαστε επιχείρηση και δεν διαθέτουμε επιχειρηματικό μοντέλο. Δεν προσφέρουμε καμία υπηρεσία στις οργανώσεις της λίστας. Δεν συλλέγουμε ούτε εμπορευόμαστε προσωπικά δεδομένα. Αυτή η υπηρεσία είναι "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ανοιχτού κώδικα"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Θα θέλαμε να ευχαριστήσουμε τις ακόλουθες οργανώσεις που υποστηρίζουν την προσπάθειά μας ανοιχτού κώδικα, παρέχοντας μια δωρεάν ή με έκπτωση έκδοση των υπηρεσιών τους:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -960,7 +840,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Υποστήριξη"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -978,7 +858,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Κάντε δωρεά"
     }
   ],
   "donate.waysToGive.openCollective.description": [

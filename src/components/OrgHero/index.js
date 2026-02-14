@@ -1,7 +1,6 @@
 import { FormattedMessage } from "react-intl";
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
-import ImageWithFallback from '../../utils/image';
 
 function Capitalize(str){
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -19,6 +18,9 @@ const Hero = ({ selectedCompany }) => {
               width={44}
               height={44}
               alt="Organization logo"
+              loading="lazy"
+              decoding="async"
+              fetchPriority="low"
             />
           </S.OrgLogo>
         )}
@@ -58,7 +60,7 @@ const Hero = ({ selectedCompany }) => {
                   id="orgHero.title"
                   defaultMessage="Delete your {domain} account or request your data."
                   values={{ 
-                    domain: <strong>{selectedCompany.url}</strong> 
+                    domain: selectedCompany.url,
                   }}
                 />
               </Typography>
@@ -69,10 +71,9 @@ const Hero = ({ selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitle2"
-                  defaultMessage="Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+                  defaultMessage="Send {name} a data deletion or access request using this free and independent service."
                   values={{
-                    disclamer: txt =>(<strong>{txt}</strong>),
-                    name: <strong>{selectedCompany.name}</strong>,
+                    name: selectedCompany.name,
                   }}
                 />
               </Typography>                           
@@ -97,10 +98,7 @@ const Hero = ({ selectedCompany }) => {
               >
                 <FormattedMessage
                   id="orgHero.subTitleNewOrg"
-                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
-                  values={{
-                    disclamer: txt =>(<strong>{txt}</strong>),
-                  }}
+                  defaultMessage="Get organizations to delete or send you a copy of your personal data using this free and independent service."
                 />
               </Typography>
             </S.AddOrg>

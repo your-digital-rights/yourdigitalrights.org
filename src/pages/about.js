@@ -24,6 +24,7 @@ import BusinessIcon from "@mui/icons-material/Business"
 import VerifiedUserIcon from "@mui/icons-material/VerifiedUser"
 import PersonIcon from "@mui/icons-material/Person"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import Image from "next/image"
 
 const HeroSection = styled(Box)(({ theme }) => ({
   background: theme.palette.primary.main,
@@ -154,7 +155,13 @@ const About = ({ router }) => {
       <HeroSection>
         <Container maxWidth="md">
           <Box sx={{ mb: 3, display: "flex", justifyContent: "center" }}>
-            <img src="/images/mascot.svg" alt="YourDigitalRights.org" style={{ height: "100px" }} />
+            <Image
+              src="/images/mascot.svg"
+              alt="YourDigitalRights.org"
+              width={100}
+              height={100}
+              priority
+            />
           </Box>
           <Typography variant="h2" component="h1" gutterBottom fontWeight="bold">
             <FormattedMessage id="about.heroTitle" defaultMessage="Taking Back Control of Your Personal Data" />
@@ -342,12 +349,13 @@ const About = ({ router }) => {
             <FounderCard elevation={0}>
               <CardContent sx={{ p: 4 }}>
                 <Box sx={{ mb: 3, display: "flex", justifyContent: "center" }}>
-                  <img
-                    src="/images/yoav.png"
+                  <Image
+                    src="/images/yoav.webp"
                     alt="Yoav Aviram"
+                    width={150}
+                    height={150}
+                    sizes="150px"
                     style={{
-                      width: "150px",
-                      height: "150px",
                       borderRadius: "50%",
                       objectFit: "cover"
                     }}
@@ -368,12 +376,13 @@ const About = ({ router }) => {
             <FounderCard elevation={0}>
               <CardContent sx={{ p: 4 }}>
                 <Box sx={{ mb: 3, display: "flex", justifyContent: "center" }}>
-                  <img
-                    src="/images/rafa.png"
+                  <Image
+                    src="/images/rafa.webp"
                     alt="Rafa Prada"
+                    width={150}
+                    height={150}
+                    sizes="150px"
                     style={{
-                      width: "150px",
-                      height: "150px",
                       borderRadius: "50%",
                       objectFit: "cover"
                     }}
@@ -581,10 +590,13 @@ const About = ({ router }) => {
             <SectionCard elevation={0}>
               <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
                 <Box sx={{ flexShrink: 0 }}>
-                  <img
+                  <Image
                     src="/images/sponsors/crunchbase.png"
                     alt="Crunchbase"
-                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                    width={64}
+                    height={64}
+                    sizes="64px"
+                    style={{ objectFit: "contain" }}
                   />
                 </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
@@ -606,10 +618,13 @@ const About = ({ router }) => {
             <SectionCard elevation={0}>
               <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
                 <Box sx={{ flexShrink: 0 }}>
-                  <img
+                  <Image
                     src="/images/sponsors/featureupvote.png"
                     alt="FeatureUpvote"
-                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                    width={64}
+                    height={64}
+                    sizes="64px"
+                    style={{ objectFit: "contain" }}
                   />
                 </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
@@ -636,10 +651,13 @@ const About = ({ router }) => {
             <SectionCard elevation={0}>
               <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
                 <Box sx={{ flexShrink: 0 }}>
-                  <img
+                  <Image
                     src="/images/sponsors/innocraft.png"
                     alt="Innocraft"
-                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                    width={64}
+                    height={64}
+                    sizes="64px"
+                    style={{ objectFit: "contain" }}
                   />
                 </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
@@ -661,10 +679,13 @@ const About = ({ router }) => {
             <SectionCard elevation={0}>
               <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
                 <Box sx={{ flexShrink: 0 }}>
-                  <img
+                  <Image
                     src="/images/sponsors/smoothwebsites.png"
                     alt="Smooth Websites"
-                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                    width={64}
+                    height={64}
+                    sizes="64px"
+                    style={{ objectFit: "contain" }}
                   />
                 </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
@@ -686,10 +707,13 @@ const About = ({ router }) => {
             <SectionCard elevation={0}>
               <CardContent sx={{ p: 3, display: "flex", gap: 3, alignItems: "center" }}>
                 <Box sx={{ flexShrink: 0 }}>
-                  <img
+                  <Image
                     src="/images/sponsors/assisemendes.png"
                     alt="Assis e Mendes Advogados"
-                    style={{ width: "64px", height: "64px", objectFit: "contain" }}
+                    width={64}
+                    height={64}
+                    sizes="64px"
+                    style={{ objectFit: "contain" }}
                   />
                 </Box>
                 <Typography variant="body1" color="text.secondary" sx={{ lineHeight: 1.7 }}>
@@ -789,6 +813,15 @@ const About = ({ router }) => {
       <Footer />
     </div>
   )
+}
+
+export async function getStaticProps({ locale }) {
+  const { getLocaleMessages } = await import('../utils/localeMessages');
+  return {
+    props: {
+      messages: await getLocaleMessages(locale),
+    },
+  };
 }
 
 export default withRouter(About)

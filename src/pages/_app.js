@@ -7,17 +7,16 @@ import { IntlProvider } from "react-intl"
 import { useRouter } from "next/router"
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
-import * as locales from "../../compiled-lang";
 import { TRANSLATION_PSEUDO_LOCAL } from '../utils/langUtils';
-import { Analytics } from '@vercel/analytics/react';
-import { AppCacheProvider } from '@mui/material-nextjs/v14-pagesRouter';
+import { AppCacheProvider } from '@mui/material-nextjs/v16-pagesRouter';
 import PropTypes from 'prop-types';
+import LazyAnalytics from '../components/LazyAnalytics';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
   const router = useRouter();
-  const { locale, defaultLocale, pathname } = router;
-  const messages = locales[locale];
+  const { locale, defaultLocale } = router;
+  const messages = pageProps.messages || {};
 
   return (
       <AppCacheProvider {...props}>
@@ -45,6 +44,7 @@ export default function MyApp(props) {
           locale={locale}
           defaultLocale={defaultLocale}
           messages={messages}
+          wrapRichTextChunksInFragment
           onError={(err) => {
             if (err.code === "MISSING_TRANSLATION") {
               console.warn("Missing translation", err.message);
@@ -57,7 +57,7 @@ export default function MyApp(props) {
           {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
           <CssBaseline />
           <Component {...pageProps} />
-          <Analytics />
+          <LazyAnalytics />
         </ThemeProvider>
       </IntlProvider>
     </AppCacheProvider>

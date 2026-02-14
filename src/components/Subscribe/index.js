@@ -1,14 +1,9 @@
 import Typography from "@mui/material/Typography";
 import * as S from "./styles";
-import tracking from "../../utils/tracking";
 import { FormattedMessage } from "react-intl";
+import NewsletterSignupForm from "../NewsletterSignupForm";
 
-const Subscribe = ({ children, page="thank-you"}) => {
-  
-  const trackSubscribe = () => {
-    tracking.trackSubscribe(page);
-  };
-
+const Subscribe = () => {
   return (
     <>
       <S.StyledContainer>
@@ -35,7 +30,12 @@ const Subscribe = ({ children, page="thank-you"}) => {
 
               </S.StyledIntro> 
             </S.StyledText>
-            <iframe src="https://newsletter.yourdigitalrights.org/embed" width="330" height="150" frameBorder="0" scrolling="no"></iframe>
+            <div>
+              <NewsletterSignupForm
+                layout="compact"
+                tone="inverted"
+              />
+            </div>
           </S.StyledHeading>
         </div>
       </S.StyledContainer>

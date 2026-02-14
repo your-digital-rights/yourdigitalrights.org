@@ -1,7 +1,8 @@
-import styled from '@emotion/styled';
+import { styled } from '@mui/material/styles';
 
 export const StyledFormContainer = styled('form')(({ theme }) => ({
   position: "relative",
+  zIndex: 2,
   maxWidth: "777px",
   margin: "-130px auto 60px",
   padding: "30px",

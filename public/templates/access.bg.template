@@ -1,67 +1,67 @@
-To the Attention of the Privacy Department / Data Protection Officer / Legal Department of {{ companyName }} ({{ companyUrl }}),
+До вниманието на отдела за поверителност / длъжностното лице по защита на данните / правния отдел на {{ companyName }} ({{ companyUrl }}),
 
-I am writing to obtain the following personal information that I am entitled to receive pursuant to {{ regulation.requestTypes[requestType].article }} of the {{ regulation.longName }} ({{ regulation.displayName }}). 
+Пиша Ви, за да получа следната лична информация, която имам право да получа съгласно {{ regulation.requestTypes[requestType].article }} от {{ regulation.longName }} ({{ regulation.displayName }}). 
 
-Please confirm whether or not my personal data has been collected, sold, or disclosed, and, where that is the case, please provide the following information:
+Моля, потвърдете дали личните ми данни са били събирани, продавани или разкривани и, ако случаят е такъв, моля, предоставете следната информация:
 
-1. A copy of my personal data that you have collected, sold, or disclosed
+1. Копие от личните ми данни, които сте събрали, продали или разкрили
 
-2. A detailed accounting of the specific business or commercial purposes for which you are collecting, selling, or disclosing my personal data
+2. Подробно отчитане на конкретните бизнес или търговски цели, за които събирате, продавате или разкривате моите лични данни
 
-3. The categories of personal data concerned
+3. Категориите лични данни, които са засегнати
 
-4. A list of all third parties with whom you have (or may have) shared my personal data, and an account of which specific personal data, and which categories of data you have shared with each third party
+4. Списък на всички трети страни, с които сте споделили (или е възможно да сте споделили) моите лични данни, както и описание на конкретните лични данни и категориите данни, които сте споделили с всяка трета страна
 
-5. Where possible, the envisaged period for which the personal data will be stored, or, if not possible, the criteria used to determine that period
+5. Когато е възможно, предвиденият период, за който ще се съхраняват личните данни, или, ако това не е възможно, критериите, използвани за определяне на този период
 
-6. What sources were used to obtain my personal data
+6. Какви източници са използвани за получаване на личните ми данни
 
-7. The existence of automated decision-making, including profiling, and at least in those cases, meaningful information about the logic involved, as well as the significance and the envisaged consequences of such processing for me
+7. Съществуването на автоматизирано вземане на решения, включително профилиране, и поне в тези случаи, смислена информация за използваната логика, както и значението и предвидените последици от такова обработване за мен
 
-8. Please advise in which countries my personal information is stored, or accessible from. In case you make use of cloud services to store or process my data, please include the countries in which the servers are located where my data are or were (in the past 12 months) stored
+8. Моля, уведомете ме в кои държави се съхранява или от кои държави е достъпна моята лична информация. В случай че използвате облачни услуги за съхранение или обработка на моите данни, моля, посочете държавите, в които се намират сървърите, където се съхраняват или са се съхранявали (през последните 12 месеца) моите данни
 
-9. Please describe the safeguards you provide when transferring my personal data to a third country or international organization
+9. Моля, опишете гаранциите, които предоставяте при прехвърляне на личните ми данни към трета държава или международна организация
 
-10. In addition, I would like to know whether or not my personal data has been disclosed inadvertently by your organization in the past, or as a result of a security or privacy breach:
+10. Освен това бих искал/а да знам дали личните ми данни са били разкривани неволно от вашата организация в миналото или в резултат на нарушение на сигурността или поверителността:
 
-    10.1 A general description of what occurred
+    10.1 Общо описание на случилото се
 
-    10.2 The date and time of the breach (or the best possible estimate)
+    10.2 Датата и часът на нарушението (или най-добрата възможна оценка)
 
-    10.3 The date and time the breach was discovered
+    10.3 Датата и часът на откриване на нарушението
 
-    10.4 The source of the breach (either your own organization or a third party to whom you have transferred my personal data)
+    10.4 Източникът на нарушението (вашата собствена организация или трета страна, на която сте прехвърлили личните ми данни)
 
-    10.5 Details of my personal data that was disclosed
+    10.5 Подробности за моите лични данни, които бяха разкрити
 
-    10.6 Your company’s assessment of the risk of harm to myself, as a result of the breach
+    10.6 Оценка на Вашата компания за риска от вреда за мен в резултат на нарушението
 
-    10.7 A description of the measures taken or that will be taken to prevent further unauthorized access to my personal data
+    10.7 Описание на предприетите или предстоящи мерки за предотвратяване на по-нататъшен неоторизиран достъп до личните ми данни
 
-    10.8 Contact information so that I can obtain more information and assistance in relation to such a breach
+    10.8 Данни за контакт, за да мога да получа повече информация и съдействие във връзка с подобно нарушение
 
-    10.9 Information and advice on what I can do to protect myself against any harm, including identity theft and fraud
+    10.9 Информация и съвети за това какво мога да направя, за да се защитя от всякаква вреда, включително кражба на самоличност и измама
 
-My preferred method of contact is email. 
+Предпочитаният от мен метод за контакт е имейл. 
 
-Please don’t ask me to perform a self-service process such as locating my information on your website, filling out a form, or providing a mobile advertising ID. These requests place an undue burden on my side. 
+Моля, не ме молете да извършвам процеси на самообслужване, като например намиране на информацията ми на вашия уебсайт, попълване на формуляр или предоставяне на мобилен рекламен идентификатор. Тези искания са прекомерна тежест за мен. 
 
 {% if identifyingInfo %}
-Please use the following information to identify me in your records:
+Моля, използвайте следната информация, за да ме идентифицирате във вашите записи:
 {{ identifyingInfo }}
 {% endif %}
 
-If you are not able to comply with my request, please advise as to the specific reason for which this request cannot be acted on. Please advise which sections and subsections of the law you are relying upon, and identify the specific reason for which you are relying on those exceptions, such as which legal obligation, or internal purpose or use. Please provide a copy and all the other information requested above, for my personal data which does not fall under these exceptions.
+Ако не сте в състояние да изпълните искането ми, моля, уведомете ме за конкретната причина, поради която то не може да бъде удовлетворено. Моля, посочете на кои раздели и подраздели от закона се позовавате и посочете конкретната причина, поради която се позовавате на тези изключения, като например кое правно задължение или вътрешна цел или употреба. Моля, предоставете копие и цялата друга информация, поискана по-горе, за моите лични данни, които не попадат в обхвата на тези изключения.
 
-This email message was sent from my personal email account (as you can see in the email headers). Please use this fact to verify my identity. Please do not ask me to provide any further identifying information, as this places an undue burden on my side. If you are legally obligated to require additional identifying information in order to verify my identity, please let me know as soon as possible. 
+Това имейл съобщение беше изпратено от моя личен имейл акаунт (както можете да видите в заглавките на имейла). Моля, използвайте този факт, за да потвърдите самоличността ми. Моля, не ме молете да предоставям допълнителна информация, която да ви идентифицира, тъй като това е прекомерна тежест за мен. Ако сте законово задължени да изисквате допълнителна идентификационна информация, за да потвърдите самоличността ми, моля, уведомете ме възможно най-скоро. 
 
-Please note that I do not consent to any personal information which is part of this request and that you do not already possess, to be used for any purpose other than fulfilling this request.
+Моля, обърнете внимание, че не давам съгласието си каквато и да е лична информация, която е част от това искане и която Вие не притежавате, да бъде използвана за каквато и да е цел, различна от изпълнението на това искане.
 
-Please note that you have {{ regulation.timeLimit }} days to comply with this request. 
+Моля, обърнете внимание, че имате {{ regulation.timeLimit }} дни, за да изпълните това искане. 
 
-Kind regards,
+С уважение,
 
 {{ name }}
 
-Powered by YourDigitalRights.org
+С подкрепата на YourDigitalRights.org
 
