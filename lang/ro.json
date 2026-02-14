@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Întrebări frecvente"
   },
-  "footer.contact": {
-    "message": "© Drepturi de autor 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Declinarea răspunderii:</span> Acest serviciu este furnizat ca atare, fără nicio garanție de orice fel. Utilizarea acestui serviciu se face în totalitate pe propriul risc. Nu ne asumăm responsabilitatea pentru eventualele daune directe sau indirecte care rezultă din utilizarea acestui serviciu. Informațiile furnizate de acest serviciu, împreună cu conținutul de pe site-ul nostru referitor la aspecte juridice, sunt oferite pentru uzul dumneavoastră privat și nu constituie consiliere juridică. Dacă aveți nevoie de asistență juridică pentru o problemă specifică, trebuie să consultați un avocat licențiat."
   },
   "footer.madeBy": {
     "message": "<a>Realizat de Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Oferit de Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Politica de confidențialitate</a>"
@@ -621,10 +615,10 @@
     "message": "Trimiteți o cerere de ștergere a datelor sau de acces."
   },
   "orgHero.subTitle2": {
-    "message": "Trimiteți lui {name} o cerere de ștergere a datelor sau de acces folosind acest serviciu <disclamer>gratuit și independent</disclamer>."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Determinați organizațiile să vă șteargă sau să vă trimită o copie a datelor personale folosind acest serviciu <disclamer>gratuit și independent</disclamer>."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Ștergeți-vă contul {domain} sau solicitați datele dvs."
