@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Често задавани въпроси"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Уведомление:</span> Тази услуга се предоставя \"както е\", без никаква гаранция. Използването на тази услуга е изцяло на ваш собствен риск. Ние не можем да поемем отговорност за никакви преки или косвени щети в резултат от използването на тази услуга. Информацията, предоставена от тази услуга, заедно със съдържанието на нашия уебсайт, свързано с правни въпроси, се предоставя само за лично ползване и не представлява правен съвет. Ако имате нужда от правен съвет за конкретен проблем, трябва да се консултирате с лицензиран адвокат."
   },
   "footer.madeBy": {
     "message": "<a>Създадено от Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Задвижвано от Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Политика за поверителност</a>"
@@ -621,10 +615,10 @@
     "message": "Изпратете заявка за изтриване или достъп до данни."
   },
   "orgHero.subTitle2": {
-    "message": "Изпратете на {name} заявка за изтриване или достъп до данни, използвайки тази <disclamer>безплатна и независима</disclamer> услуга."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Накарайте организациите да изтрият или да ви предоставят копие от вашите лични данни, използвайки тази <disclamer>безплатна и независима</disclamer> услуга."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Изтрийте вашия {domain} акаунт или поискайте данните си."
