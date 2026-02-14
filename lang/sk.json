@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Často kladené otázky"
   },
-  "footer.contact": {
-    "message": "© Autorské práva 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Disclaimer:</span> Táto služba je poskytovaná „tak ako je“, bez záruky akéhokoľvek druhu. Používanie tejto služby je výhradne na vaše vlastné riziko. Nemôžeme niesť zodpovednosť za žiadne priame alebo nepriame škody vyplývajúce z používania tejto služby. Informácie, ktoré táto služba poskytuje, spolu s obsahom na našej webovej stránke, ktorý sa týka právnych záležitostí, sú poskytované pre vaše súkromné použitie a nepredstavujú právne poradenstvo. Ak potrebujete právne poradenstvo pre konkrétny problém, mali by ste sa obrátiť na licencovaného advokáta."
   },
   "footer.madeBy": {
     "message": "<a>Vytvorené spoločnosťou Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Používa technológiu Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Zásady ochrany osobných údajov</a>"
@@ -621,10 +615,10 @@
     "message": "Pošlite žiadosť o vymazanie alebo sprístupnenie údajov."
   },
   "orgHero.subTitle2": {
-    "message": "Pošlite {name} žiadosť o vymazanie alebo sprístupnenie údajov prostredníctvom tejto <disclamer>bezplatnej a nezávislej</disclamer> služby."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Prinúťte organizácie, aby vymazali alebo poslali kópiu Vašich osobných údajov, a to prostredníctvom tejto <disclamer>bezplatnej a nezávislej</disclamer> služby."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Vymažte svoj účet {domain} alebo požiadajte o Vaše údaje."
