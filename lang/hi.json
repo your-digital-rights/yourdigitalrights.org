@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "अक्सर पूछे जाने वाले प्रश्न"
   },
-  "footer.contact": {
-    "message": "© कॉपीराइट 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>अस्वीकरण:</span> यह सेवा जैसा है, बिना किसी वारंटी के प्रदान की जाती है। इस सेवा का उपयोग पूरी तरह से आपकी अपनी जोखिम पर है। हम इस सेवा के उपयोग से होने वाले किसी भी सीधे या अप्रत्यक्ष नुकसान के लिए जिम्मेदार नहीं होंगे। इस सेवा द्वारा प्रदान की गई जानकारी और हमारी वेबसाइट पर कानूनी मामलों से संबंधित सामग्री आपका निजी उपयोग के लिए है और कानूनी सलाह नहीं है। यदि आपको किसी विशिष्ट समस्या के लिए कानूनी सलाह चाहिए, तो आपको एक लाइसेंस प्राप्त वकील से संपर्क करना चाहिए।"
   },
   "footer.madeBy": {
     "message": "<a>Conscious Digital द्वारा निर्मित</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Vercel द्वारा संचालित"
   },
   "footer.privacyPolicy": {
     "message": "<a>गोपनीयता नीति</a>"
@@ -621,10 +615,10 @@
     "message": "डेटा हटाने या पहुँच अनुरोध भेजें।"
   },
   "orgHero.subTitle2": {
-    "message": "{name} को डेटा हटाने या पहुँच अनुरोध भेजें इस <disclamer>मुफ्त और स्वतंत्र</disclamer> सेवा का उपयोग करके।"
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "इस <disclamer>मुफ्त और स्वतंत्र</disclamer> सेवा का उपयोग करके संगठनों को आपका व्यक्तिगत डेटा हटाने या उसकी एक प्रति भेजने के लिए कहें।"
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "अपना {domain} खाता हटाएं या अपने डेटा का अनुरोध करें।"
