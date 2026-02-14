@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Häufig gestellte Fragen"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Haftungsausschluss:</span> Dieser Service wird ohne jegliche Gewährleistung bereitgestellt. Die Nutzung dieses Dienstes erfolgt ausschließlich auf eigene Gefahr. Wir übernehmen keine Verantwortung für direkte oder indirekte Schäden, die sich aus der Nutzung dieses Dienstes ergeben. Die von diesem Dienst bereitgestellten Informationen sowie die Inhalte unserer Website zu Rechtsfragen werden für Ihren privaten Gebrauch bereitgestellt und stellen keine Rechtsberatung dar. Wenn Sie für ein bestimmtes Problem Rechtsberatung benötigen, sollten Sie sich an einen zugelassenen Anwalt wenden."
   },
   "footer.madeBy": {
     "message": "<a>Hergestellt von Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Unterstützt von Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Datenschutzerklärung</a>"
@@ -621,10 +615,10 @@
     "message": "Senden Sie eine Datenlöschung oder Zugriffsanfrage."
   },
   "orgHero.subTitle2": {
-    "message": "Senden Sie {name} eine Datenlöschung oder Zugriffsanfrage mit diesem <disclamer>kostenlosen und unabhängigen</disclamer> Service."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Holen Sie sich Organisationen, Ihre persönlichen Daten mit diesem <disclamer>kostenlosen und unabhängigen</disclamer> Service zu löschen oder Ihnen eine Kopie Ihrer Daten zu senden."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Löschen Sie Ihr {domain} Konto oder fordern Sie Ihre Daten an."
