@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Usein kysytyt kysymykset"
   },
-  "footer.contact": {
-    "message": "© Tekijänoikeus 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Vastuuvapauslauseke:</span> Tämä palvelu tarjotaan sellaisenaan, ilman minkäänlaista takuuta. Palvelun käyttö on täysin omalla vastuullasi. Emme vastaa mistään suorista tai epäsuorista vahingoista, jotka johtuvat tämän palvelun käytöstä. Tämän palvelun antamat tiedot sekä verkkosivustomme oikeudelliseen sisältöön liittyvä aineisto on tarkoitettu henkilökohtaiseen käyttöön, eikä se ole oikeudellista neuvontaa. Jos tarvitset oikeudellista neuvontaa tiettyyn ongelmaan, sinun tulisi kääntyä pätevän asianajajan puoleen."
   },
   "footer.madeBy": {
     "message": "<a>Conscious Digitalin tekemä</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Vercelin toteuttama"
   },
   "footer.privacyPolicy": {
     "message": "<a>Tietosuojakäytäntö</a>"
@@ -621,10 +615,10 @@
     "message": "Lähetä tietojen poistamis- tai käyttöpyyntö."
   },
   "orgHero.subTitle2": {
-    "message": "Lähetä {name}-yritykselle tietojen poistamis- tai käyttöpyyntö tällä <disclamer>maksuttomalla ja riippumattomalla</disclamer> palvelulla."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Pyydä organisaatioita poistamaan tai lähettämään kopio henkilötiedoistasi tämän <disclamer>maksuttoman ja riippumattoman</disclamer> palvelun avulla."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Poista {domain}-tilisi tai pyydä tietojasi."
