@@ -15,16 +15,17 @@ const StyledImg = styled(Image)(({ theme }) => ({
   display: "block",
   margin: "0 auto 16px",
   height: "70px",
+  width: "auto",
 }));
 
 const StyledTitle = styled(Typography)(({ theme }) => ({}));
 
 const StyledBody = styled(Typography)(({ theme }) => ({}));
 
-const LowerSection = ({ title, body, imgSrc }) => {
+const LowerSection = ({ title, body, imgSrc, imgAlt = "" }) => {
   return (
     <StyledRoot>
-      <StyledImg src={imgSrc} role="presentation" />
+      <StyledImg src={imgSrc} alt={imgAlt} role="presentation" />
       <StyledTitle component="h3" variant="h5" gutterBottom={true}>
         {title}
       </StyledTitle>
