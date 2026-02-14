@@ -39,9 +39,9 @@ const DeleteComponent = styled('div')(() => ({
 }));
 
 
-const DeleteData = () => {
+const DeleteData = ({ initialUuid }) => {
   const router = useRouter();
-  const { uuid } = router.query;
+  const uuid = router.query.uuid || initialUuid;
   const intl = useIntl();
   const Description = intl.formatMessage({id: "deletemydata.description", defaultMessage: "Delete my data"});
   const BaseURL = "/r/" + uuid + "/delete";
@@ -69,5 +69,15 @@ const DeleteData = () => {
     </div>
   );
 };
+
+export async function getServerSideProps(context) {
+  const { getLocaleMessages } = await import('../../../utils/localeMessages');
+  return {
+    props: {
+      initialUuid: context.params.uuid,
+      messages: await getLocaleMessages(context.locale),
+    },
+  };
+}
 
 export default DeleteData;

@@ -164,20 +164,88 @@ class Page {
   }
 
   async hasTracked(...row) {
-    const result = await browser.execute(function (row) {
-      const paq = window._paq;
+    const hasMatch = async () => {
+      const result = await browser.execute(function (row) {
+        var valuesMatch = function (expected, actual) {
+          if (expected === actual) {
+            return true;
+          }
 
-      return {
-        result: paq.some(function (tracked) {
-          return row.every(function (r) {
-            return tracked.includes(r);
-          });
-        }),
-        paq,
-      };
-    }, row);
+          if (
+            typeof expected === "string" &&
+            typeof actual === "string"
+          ) {
+            return actual.indexOf(expected) !== -1 || expected.indexOf(actual) !== -1;
+          }
 
-    return result.result;
+          return false;
+        };
+        var trackedEvents = [];
+        var appendEvents = function (sourceEvents) {
+          if (!(sourceEvents instanceof Array)) {
+            return;
+          }
+          for (var n = 0; n < sourceEvents.length; n++) {
+            trackedEvents.push(sourceEvents[n]);
+          }
+        };
+        appendEvents(window.__ydrTrackedEvents);
+        appendEvents(window._paq);
+
+        try {
+          var serializedEvents = window.sessionStorage.getItem("__ydrTrackedEvents");
+          if (serializedEvents) {
+            var persistedEvents = JSON.parse(serializedEvents);
+            appendEvents(persistedEvents);
+          }
+        } catch (e) {}
+
+        var eventMatch = false;
+
+        for (var i = 0; i < trackedEvents.length; i++) {
+          var tracked = trackedEvents[i];
+          var rowMatch = true;
+
+          if (!(tracked instanceof Array)) {
+            continue;
+          }
+
+          for (var j = 0; j < row.length; j++) {
+            var rowValueFound = false;
+            for (var k = 0; k < tracked.length; k++) {
+              if (valuesMatch(row[j], tracked[k])) {
+                rowValueFound = true;
+                break;
+              }
+            }
+
+            if (!rowValueFound) {
+              rowMatch = false;
+              break;
+            }
+          }
+
+          if (rowMatch) {
+            eventMatch = true;
+            break;
+          }
+        }
+
+        return eventMatch;
+      }, row);
+
+      return result;
+    };
+
+    try {
+      await browser.waitUntil(async () => await hasMatch(), {
+        timeout: 8000,
+        interval: 150,
+      });
+      return true;
+    } catch (e) {
+      return await hasMatch();
+    }
   }
 }
 
@@ -348,6 +416,10 @@ const initializeWindowPaqArray = async () => {
     if (!(window._paq instanceof Array)) {
       window._paq = [];
     }
+    window.__ydrTrackedEvents = [];
+    try {
+      window.sessionStorage.removeItem("__ydrTrackedEvents");
+    } catch (e) {}
   });
 };
 

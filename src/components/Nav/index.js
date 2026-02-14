@@ -33,9 +33,13 @@ const NavItem = ({
 }) => {
   return (
     <S.StyledItem onClick={onClickHandler}>
-      <Link href={href} passHref legacyBehavior>
+      <Link
+        href={href}
+        target={target}
+        rel={target === "_blank" ? "noopener noreferrer" : undefined}
+      >
         <S.StyledLink
-          target={target}
+          as="span"
           $subsection={subsection}
         >
           {text}
@@ -263,7 +267,7 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
           href="https://twitter.com/search?q=ownyourdata&src=typeahead_click"
           text={
             <S.StyledTwitterHandle>
-              <Image src={TWGrey} />
+              <Image src={TWGrey} alt="" aria-hidden="true" />
               <FormattedMessage
                 id="nav.twitterHastag"
                 defaultMessage="#ownyourdata"
@@ -331,9 +335,9 @@ class Nav extends Component {
         <S.StyledNav ref={this.toggleMenu}>
           <S.StyledLogoLink href="/">
             <S.StyledLogo tabIndex={0}>
-              <Image 
-                alt="YourDigitalRights.org" 
-                src={Logo} 
+              <img
+                alt="YourDigitalRights.org"
+                src={Logo.src}
                 width={90}
                 height={30}
               />

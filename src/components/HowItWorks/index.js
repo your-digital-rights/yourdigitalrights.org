@@ -45,11 +45,13 @@ const HowItWorks = () => {
           title={YourDataTitle}
           body={YourDataBody}
           imgSrc={ICHappy}
+          imgAlt=""
         />
         <LowerSection
           title={WhyTitle}
           body={WhyBody}
           imgSrc={ICVerified}
+          imgAlt=""
         />
       </S.StyledLowerContainer>
     </S.StyledRoot>

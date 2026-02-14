@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Notre mission"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Qui nous sommes"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org est une création de "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": ", un organisme de bienfaisance enregistré qui crée des initiatives numériques centrées sur les personnes et qui promeut et fait progresser les droits de l'homme numériques."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Contact"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Contactez-nous à l'adresse "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,25 +14,25 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Développeur web front-end."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Développeur web front-end."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Développeur web front-end."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Ingénieur Infrastructures."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
@@ -97,12 +51,6 @@
     {
       "type": 0,
       "value": "Développeur web frontend, développeur d'applications mobiles et créateur de Skyjacker, le jeu de suivi de vol AR."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Your Digital Rights a été créé parce que nous croyons que vous avez le droit à la vie privée et que l'exercice de votre droit à la vie privée devrait être facile."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Financement"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Ce projet est financé par ses créateurs, et avec l'aide de vos dons."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Nous pensons que la vie privée est un droit humain fondamental et que l'exercice de ce droit doit être facilement accessible à tous. Des réglementation de la protection des données telles que le "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (UE), le "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Californie), et le "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brésil) fournissent l'infrastructure juridique pour protéger le droit fondamental des personnes à la vie privée en ligne."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "La réglementation en matière de protection de la vie privée est un pas dans la bonne direction. mais l'exercice de vos droits en vertu de ces lois est encore assez difficile pour la plupart des gens de ne pas s'en occuper. La situation est aggravée parce que de nombreuses organisations rendent difficile le dépôt de demandes de données (par exemple en ne publiant aucune adresse e-mail d'entreprise sur leur site Web). Notre objectif est de rendre les droits conférés par ces législations accessibles à tous."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Nous ne sommes pas une entreprise et nous n'avons pas de modèle commercial. Nous n'offrons aucun service aux organisations figurant sur la liste. Nous ne collectons ni n'échangeons aucune donnée personnelle. Ce service est "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Open Source"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Nous aimerions remercier les organisations suivantes pour avoir soutenu notre effort open-source en fournissant une version gratuite ou à prix réduit de leurs services :"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -956,7 +836,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Soutien"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -974,7 +854,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Faire un don"
     }
   ],
   "donate.waysToGive.openCollective.description": [

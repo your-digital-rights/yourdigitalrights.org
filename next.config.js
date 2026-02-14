@@ -69,7 +69,7 @@ module.exports = {
           },             
           {
             key: 'Content-Security-Policy',
-            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud js.stripe.com substackapi.com static.cloudflareinsights.com ajax.cloudflare.com *.vercel-scripts.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com; frame-src newsletter.yourdigitalrights.org 'self' js.stripe.com"
+            value: "upgrade-insecure-requests ; default-src * 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.innocraft.cloud js.stripe.com static.cloudflareinsights.com ajax.cloudflare.com *.vercel-scripts.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com; img-src 'self' data: logo.uplead.com; frame-src 'self' js.stripe.com"
           },            
         ],
       },

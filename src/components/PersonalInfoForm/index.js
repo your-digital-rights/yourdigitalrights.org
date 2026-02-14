@@ -35,7 +35,6 @@ import FormHelperText from '@mui/material/FormHelperText';
 import FormLabel from "@mui/material/FormLabel";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
-import { v4 as uuidv4 } from 'uuid';
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
@@ -44,7 +43,32 @@ import isEmail from 'validator/lib/isEmail';
 import * as S from "./styles";
 
 
-const screenHeightBreakpoint = 560;
+const GEOLOCATION_IDLE_TIMEOUT_MS = 2000;
+const REGULATION_OPTIONS = Object.entries(Regulations)
+  .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
+  .map(([value, regulation]) => ({
+    value,
+    label: `${regulation.geography} (${regulation.displayName})`,
+  }));
+
+function createRequestUuid() {
+  if (typeof crypto !== "undefined" && typeof crypto.randomUUID === "function") {
+    return crypto.randomUUID();
+  }
+  if (typeof crypto !== "undefined" && typeof crypto.getRandomValues === "function") {
+    const bytes = new Uint8Array(16);
+    crypto.getRandomValues(bytes);
+
+    // Generate a RFC4122-compliant v4 UUID from secure random bytes.
+    bytes[6] = (bytes[6] & 0x0f) | 0x40;
+    bytes[8] = (bytes[8] & 0x3f) | 0x80;
+
+    const hex = Array.from(bytes, byte => byte.toString(16).padStart(2, "0")).join("");
+    return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-${hex.slice(12, 16)}-${hex.slice(16, 20)}-${hex.slice(20, 32)}`;
+  }
+
+  throw new Error("Secure random UUID API is unavailable");
+}
 
 class Form extends Component {
   constructor(props) {
@@ -63,32 +87,45 @@ class Form extends Component {
       regulationType: "GDPR",
       requestType: "DELETION",
       followUp: "NO",
-      screenHeight: typeof window !== "undefined" ? window.innerHeight : null,
     };
 
     this.handlers = {};
     this.companyEmail = React.createRef();
     this.form = React.createRef();
+    this.geolocationIdleHandle = null;
+    this.geolocationTimeoutHandle = null;
+    this.isUnmounted = false;
   }
 
-  async componentDidMount() {
-    if (typeof window !== "undefined") {
-      this.setState({ screenHeight: window.innerHeight });
-      window.addEventListener("resize", this.onScreenResize);
+  componentDidMount() {
+    const setRegulationFromGeolocation = async () => {
+      const regulation = await getRegulationbyGeolocation();
+      if (!this.isUnmounted && regulation) {
+        this.setState({ regulationType: regulation });
+      }
+    };
+
+    if (typeof window !== "undefined" && "requestIdleCallback" in window) {
+      this.geolocationIdleHandle = window.requestIdleCallback(() => {
+        void setRegulationFromGeolocation();
+      }, { timeout: GEOLOCATION_IDLE_TIMEOUT_MS });
+      return;
     }
-    const regulation = await getRegulationbyGeolocation();
-    this.setState({ regulationType: regulation });
+
+    this.geolocationTimeoutHandle = window.setTimeout(() => {
+      void setRegulationFromGeolocation();
+    }, 0);
   }
 
   componentWillUnmount() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("resize", this.onScreenResize);
+    this.isUnmounted = true;
+    if (typeof window !== "undefined" && this.geolocationIdleHandle && "cancelIdleCallback" in window) {
+      window.cancelIdleCallback(this.geolocationIdleHandle);
+    }
+    if (this.geolocationTimeoutHandle) {
+      window.clearTimeout(this.geolocationTimeoutHandle);
     }
   }
-
-  onScreenResize = () => {
-    this.setState({ screenHeight: window.innerHeight });
-  };
 
   handleInput = (name) => {
     if (!this.handlers[name]) {
@@ -120,14 +157,14 @@ class Form extends Component {
     e.preventDefault();
   };
 
-  handleEmailSendClick = (generateEmailFields) => {
+  handleEmailSendClick = async (generateEmailFields) => {
 
     const status  = this.form.current.reportValidity();
     if (!status) return;
     
 
-    const uuid = uuidv4();
-    this.setState({ uuid: uuid });
+    const uuid = createRequestUuid();
+    this.setState({ uuid });
     const { selectedCompany } = this.props;
     const requestType = this.state.requestType;
     const regulationType = this.state.regulationType;
@@ -168,39 +205,43 @@ class Form extends Component {
     const selectedAction = generateEmailFields(data);    
     selectedAction.run();
 
-    this.saveRequest(data);
-    this.setState({ selectedActionName: selectedAction.name });
-    this.setState({ hasSubmit: true });
-    if (this.state.followUp === "YES") {
+    void this.saveRequest(data);
+    this.setState({ selectedActionName: selectedAction.name, hasSubmit: true });
+    if (followUp === "YES") {
       tracking.trackFollwups(
-        this.state.regulationType,
-        this.state.requestType
+        regulationType,
+        requestType
       );
     }
     if (this.state.companyEmail) {
       this.addNewCompany();
-    } else {
+    } else if (selectedCompany) {
       tracking.trackRequestComplete(
-        this.props.selectedCompany.url,
-        this.state.regulationType,
-        this.state.requestType
+        selectedCompany.url,
+        regulationType,
+        requestType
       );
     }
-    let thankYouUrl = `/thankyou?regulationType=${this.state.regulationType}&requestType=${this.state.requestType}&selectedActionName=${selectedAction.name}`
+    const thankYouUrl = `/thankyou?regulationType=${regulationType}&requestType=${requestType}&selectedActionName=${selectedAction.name}`;
     this.props.router.push(thankYouUrl, "/thankyou");
   }
 
-  saveRequest = (data) => {
-    fetch(
-      "/api/save",
-      {
-        method: "POST",
-        body: JSON.stringify(data),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }
-    );
+  saveRequest = async (data) => {
+    try {
+      await fetch(
+        "/api/save",
+        {
+          method: "POST",
+          body: JSON.stringify(data),
+          headers: {
+            "Content-Type": "application/json",
+          },
+          keepalive: true,
+        }
+      );
+    } catch (error) {
+      console.error("Failed to persist request record", error);
+    }
   }
 
 /*  onSupportButtonClick = (e) => {
@@ -212,7 +253,7 @@ class Form extends Component {
 */
   async addNewCompany() {
     try {
-      const response = await fetch(
+      await fetch(
         "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
         {
           method: "POST",
@@ -231,7 +272,6 @@ class Form extends Component {
   }
 
   render() {
-    const { screenHeight } = this.state;
     const { selectedCompany } = this.props;
 
     return (
@@ -299,7 +339,7 @@ class Form extends Component {
                 margin="normal"
                 required
                 helperText={CompanyNameHelperText}
-                autoFocus={screenHeight > screenHeightBreakpoint}
+                autoFocus={!selectedCompany}
               />
               <TextField
                 variant="outlined"
@@ -333,9 +373,7 @@ class Form extends Component {
             margin="normal"
             required
             helperText={NameHelperText}
-            autoFocus={
-              !!selectedCompany && screenHeight > screenHeightBreakpoint
-            }
+            autoFocus={!!selectedCompany}
           />
           <TextField
             variant="outlined"
@@ -351,12 +389,11 @@ class Form extends Component {
             helperText={RegulationTypeHelperText}
             margin="normal"
           >
-            { Object.entries(Regulations)
-                .sort((a, b) => a[1].geography.localeCompare(b[1].geography))
-                .map(([key, value]) => 
-                  <option key={key} value={key}>{`${value.geography} (${value.displayName})`}</option>
-                )
-            }
+            {REGULATION_OPTIONS.map(option => (
+              <option key={option.value} value={option.value}>
+                {option.label}
+              </option>
+            ))}
           </TextField>
           <TextField
             variant="outlined"

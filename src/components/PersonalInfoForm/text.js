@@ -69,7 +69,7 @@ export const IdentifyingInfoHelperText = (
     id="personalInfoForm.IdentifyingInfoHelper"
     defaultMessage="Optionally provide any additional information which will help the organization to locate your data in their information systems such as Username, Customer ID or Account Number. <strong>Please do not provide your password or any personal information which the organization does not already have.</strong>"
     values = {{
-      strong: txt => (<strong>{txt}</strong>),
+      strong: txt => (<strong key="identifying-info-warning">{txt}</strong>),
     }}
   />
 );
@@ -107,7 +107,7 @@ export const FollowUpDetailsTextWarning = (
     id="personalInfoForm.FollowUpDetailsWarning"
     defaultMessage="<strong>By selecting this option you are agreeing to let us process and store the following personal information: your email address, name and the text of your request emails. All personal information relating to this request will be automatically deleted from our systems within 120 days, unless you specify otherwise and you always have the choice to have this data deleted immediately. We collect this information automatically by adding a special email address to the CC field of the request email.</strong>"
     values = {{
-      strong: chunks => (<strong>{chunks}</strong>),
+      strong: chunks => (<strong key="followup-details-warning">{chunks}</strong>),
     }}
   />
 );

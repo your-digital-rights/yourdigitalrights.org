@@ -4,6 +4,7 @@ errorShots
 .DS_Store
 src/out
 .env
+.env.local
 .now
 .vercel
 crowdin.yml

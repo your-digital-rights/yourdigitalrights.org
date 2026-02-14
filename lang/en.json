@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Frequently Asked Questions"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Disclaimer:</span> This service is provided as is, without warranty of any kind. Use of this service is entirely at your own risk. We cannot take responsibility for any direct or indirect damages resulting from the use of this service. The information provided by this service along with the content on our website related to legal matters is provided for your private use and does not constitute legal advice. If you need legal advice for a specific problem, you should consult with a licensed attorney."
   },
   "footer.madeBy": {
     "message": "<a>Made by Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Powered by Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privacy Policy</a>"
@@ -621,10 +615,10 @@
     "message": "Send a data deletion or access request."
   },
   "orgHero.subTitle2": {
-    "message": "Send {name} a data deletion or access request using this <disclamer>free and independent</disclamer> service."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Get organizations to delete or send you a copy of your personal data using this <disclamer>free and independent</disclamer> service."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Delete your {domain} account or request your data."

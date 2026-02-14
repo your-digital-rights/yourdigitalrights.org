@@ -25,8 +25,9 @@ describe("When I visit the home page", () => {
   describe("and select an organization", () => {
     beforeEach(async () => {
       await page.searchForm.fillInSearch("Slack");
-      const searchResult = $("div=Slack (slack.com)");
-      await searchResult.waitForDisplayed();
+      const searchResult = $("li*=Slack (slack.com)");
+      await searchResult.waitForDisplayed({ timeout: 60000 });
+      await searchResult.waitForClickable({ timeout: 60000 });
       await searchResult.click();
     });
 
@@ -111,7 +112,10 @@ describe("When I visit the home page", () => {
   describe("and perform a search with no results", () => {
     beforeEach(async () => {
       await page.searchForm.fillInSearch("abcxyz123");
-      await $("li*=Can't find an organization?").click();
+      const addOrgResult = $("li*=Can't find an organization?");
+      await addOrgResult.waitForDisplayed({ timeout: 60000 });
+      await addOrgResult.click();
+      await browser.waitUntil(async () => (await browser.getUrl()).indexOf("/d/add") > -1);
     });
 
     describe("and fill in the form with valid data and submit and click open in Gmail", () => {

@@ -162,4 +162,13 @@ const Support = () => {
   );
 };
 
+export async function getStaticProps({ locale }) {
+  const { getLocaleMessages } = await import('../utils/localeMessages');
+  return {
+    props: {
+      messages: await getLocaleMessages(locale),
+    },
+  };
+}
+
 export default Support;

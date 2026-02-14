@@ -78,7 +78,14 @@ export default [
         id="faq.body.regulations.1"
         defaultMessage="Please <a>contact us</a> if you would like to help us implement support for additional regulations."
         values={{
-          a: txt => ( <a href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation">{txt}</a>),
+          a: txt => (
+            <a
+              key="faq-regulations-contact-link"
+              href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation"
+            >
+              {txt}
+            </a>
+          ),
         }}
     />,
     ],    
@@ -101,14 +108,14 @@ export default [
             id="faq.body.requests.1.1"
             defaultMessage="<b>Data Deletion Requests</b> (also known as erasure requests or the right to be forgotten requests) allow you to ask an organization to delete your personal information."
             values={{
-              b: txt => (<strong>{txt}</strong>),
+              b: txt => (<strong key="faq-requests-delete-strong">{txt}</strong>),
             }}
           />,
           <FormattedMessage
             id="faq.body.requests.1.2"
             defaultMessage="<b>Access requests</b> (also known as Subject Access Requests or SAR for short) allow you to ask an organization to provide a copy of your personal information."
             values={{
-              b: txt => (<strong>{txt}</strong>),
+              b: txt => (<strong key="faq-requests-access-strong">{txt}</strong>),
             }}
           />,
         ],
@@ -220,22 +227,49 @@ export default [
         id="faq.body.trust.1"
         defaultMessage="We are a registered nonprofit organization called <a>Conscious Digital</a>. We believe in transparency, and therefore the source code for this service is <aa>open source</aa>. As for October 2022, we have helped individuals submit more than 100,000 requests to various organizations"
         values={{
-          a: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://consciousdigital.org">{txt}</a>),
-          aa: txt => ( <a rel="noreferrer noopener" target="_blank" href="https://github.com/your-digital-rights">{txt}</a>),
+          a: txt => (
+            <a
+              key="faq-trust-conscious-digital-link"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://consciousdigital.org"
+            >
+              {txt}
+            </a>
+          ),
+          aa: txt => (
+            <a
+              key="faq-trust-github-link"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://github.com/your-digital-rights"
+            >
+              {txt}
+            </a>
+          ),
         }}
       />,
       <FormattedMessage
         id="faq.body.trust.2"
         defaultMessage="We are independent, do not sell your personal information, are not affiliated with any of the organizations which we help you send data requests to. We also do not provide these organizations with any services. Finally, we are funded by your <a>donations</a>."
         values={{
-          a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank" >{txt}</a>),
+          a: txt => (
+            <a
+              key="faq-trust-donations-link"
+              rel="noreferrer noopener"
+              href="https://opencollective.com/consciousdigital"
+              target="_blank"
+            >
+              {txt}
+            </a>
+          ),
         }}        
       />,
       <FormattedMessage
         id="faq.body.trust.3"
         defaultMessage="We have designed this service so that, by default, it does not require us to collect any of your personal information. When certain optional features require you to provide personal information, we delete this data after 120 days. Please see our <a>privacy policy</a> for details."
         values={{
-          a: txt => ( <Link href="/privacy" target="_blank">{txt}</Link>),
+          a: txt => (<Link key="faq-trust-privacy-link" href="/privacy" target="_blank">{txt}</Link>),
         }}
       />,      
     ],
@@ -252,7 +286,14 @@ export default [
         id="faq.body.new-regulation.1"
         defaultMessage="We would like to support all data protection laws which grant individuals the right to access and delete their personal information. Please <a>contact us</a> if you would like us to add support for a particular regulation."
         values={{
-          a: txt => ( <a href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation">{txt}</a>),
+          a: txt => (
+            <a
+              key="faq-new-regulation-contact-link"
+              href="mailto:info@yourdigitalrights.org?subject=I'd like to help implement a new regulation"
+            >
+              {txt}
+            </a>
+          ),
         }}
       />,
     ],
@@ -273,7 +314,11 @@ export default [
         id="faq.body.contact.2"
         defaultMessage="For all other requests, please contact us via <a>email</a>."
         values={{
-          a: txt => ( <a target="_blank" href="mailto:info@yourdigitalrights.org">{txt}</a>),
+          a: txt => (
+            <a key="faq-contact-email-link" target="_blank" href="mailto:info@yourdigitalrights.org">
+              {txt}
+            </a>
+          ),
         }}        
       />,
     ],
@@ -294,14 +339,23 @@ export default [
         id="faq.body.contribute.2"
         defaultMessage="We rely on <a>donations</a> to ensure our long-term financial stability and independence. You can make a contribution here."
         values={{
-          a: txt => ( <a rel="noreferrer noopener" href="https://opencollective.com/consciousdigital" target="_blank">{txt}</a>),
+          a: txt => (
+            <a
+              key="faq-contribute-donations-link"
+              rel="noreferrer noopener"
+              href="https://opencollective.com/consciousdigital"
+              target="_blank"
+            >
+              {txt}
+            </a>
+          ),
         }}                
       />,
       <FormattedMessage
         id="faq.body.contribute.3"
         defaultMessage="Please see the information on <a>this page</a> if you would like to report a bug, help translate the website, assist with the development, or conduct research."
         values={{
-          a: txt => ( <Link href="/contribute" target="_blank">{txt}</Link>),
+          a: txt => (<Link key="faq-contribute-page-link" href="/contribute" target="_blank">{txt}</Link>),
         }}        
       />,              
     ],

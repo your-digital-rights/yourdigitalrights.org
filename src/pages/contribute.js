@@ -273,3 +273,12 @@ export default function Contribute(){
     </div>
   );
 };
+
+export async function getStaticProps({ locale }) {
+  const { getLocaleMessages } = await import('../utils/localeMessages');
+  return {
+    props: {
+      messages: await getLocaleMessages(locale),
+    },
+  };
+}

@@ -1,54 +1,8 @@
 {
-  "about.aboutTitle": [
-    {
-      "type": 0,
-      "value": "Mūsu misija"
-    }
-  ],
-  "about.consciousDigital": [
-    {
-      "type": 0,
-      "value": "Kas mēs esam"
-    }
-  ],
-  "about.consciousDigital1": [
-    {
-      "type": 0,
-      "value": "YourDigitalRights.org ir "
-    },
-    {
-      "type": 1,
-      "value": "cd"
-    },
-    {
-      "type": 0,
-      "value": " radīts projekts, kas ir reģistrēta labdarības organizācija, veidojot uz cilvēku vērstas digitālās iniciatīvas, kas veicina un attīsta digitālās cilvēktiesības."
-    }
-  ],
   "about.consciousDigitalLink": [
     {
       "type": 0,
       "value": "Conscious Digital"
-    }
-  ],
-  "about.contact": [
-    {
-      "type": 0,
-      "value": "Kontakti"
-    }
-  ],
-  "about.contactText": [
-    {
-      "type": 0,
-      "value": "Sazinieties ar mums pa e-pastu "
-    },
-    {
-      "type": 1,
-      "value": "email"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.contributors": [
@@ -60,31 +14,31 @@
   "about.contributorsBody1": [
     {
       "type": 0,
-      "value": "Front-end tīmekļa izstrādātājs."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody3": [
     {
       "type": 0,
-      "value": "Front-end tīmekļa izstrādātājs."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody4": [
     {
       "type": 0,
-      "value": "Front-end tīmekļa izstrādātājs."
+      "value": "Frontend web developer."
     }
   ],
   "about.contributorsBody5": [
     {
       "type": 0,
-      "value": "Infrastruktūras inženieris."
+      "value": "Infrastructure Engineer."
     }
   ],
   "about.contributorsBody6": [
     {
       "type": 0,
-      "value": "Pilna spektra izstrādātājs, kurš sniedza ieguldījumu APPI atbalsta izstrādē un veica tīmekļa vietnes vispārējo tulkojumu japāņu valodā."
+      "value": "Full stack engineer, contributed APPI support and overall Japanese translation of the website."
     }
   ],
   "about.contributorsSubtitle": [
@@ -96,13 +50,7 @@
   "about.createdByBody2": [
     {
       "type": 0,
-      "value": "Front-end tīmekļa izstrādātājs, mobilās lietotnes izstrādātājs un Skyjacker, AR lidojumu izsekošanas spēles, radītājs."
-    }
-  ],
-  "about.description": [
-    {
-      "type": 0,
-      "value": "Your Digital Rights tika izveidots, jo mēs uzskatām, ka jums ir tiesības uz privātumu un ka šo tiesību īstenošanai jābūt vienkāršai."
+      "value": "Frontend web developer, mobile app developer and creator of Skyjacker, the AR flight tracking game."
     }
   ],
   "about.founder1Name": [
@@ -141,18 +89,6 @@
       "value": "Our Founders"
     }
   ],
-  "about.funding": [
-    {
-      "type": 0,
-      "value": "Finansējums"
-    }
-  ],
-  "about.fundingBody1": [
-    {
-      "type": 0,
-      "value": "Šis projekts tiek finansēts no tā veidotāju līdzekļiem un ar jūsu ziedojumu palīdzību."
-    }
-  ],
   "about.globalText": [
     {
       "type": 0,
@@ -187,62 +123,6 @@
     {
       "type": 0,
       "value": "With just a few clicks, you can find thousands of companies that hold your data and send them a legally-binding request. Our built-in follow-up system keeps track of your requests and helps you escalate cases to the right regulator when organizations fail to comply."
-    }
-  ],
-  "about.missionBody1": [
-    {
-      "type": 0,
-      "value": "Mēs uzskatām, ka privātums ir pamattiesības un ka šo tiesību īstenošanai jābūt viegli pieejamai ikvienam. Tādi datu aizsardzības normatīvie akti kā "
-    },
-    {
-      "type": 1,
-      "value": "GDPR"
-    },
-    {
-      "type": 0,
-      "value": " (ES), "
-    },
-    {
-      "type": 1,
-      "value": "CCPA"
-    },
-    {
-      "type": 0,
-      "value": " (Kalifornija) un "
-    },
-    {
-      "type": 1,
-      "value": "LGPD"
-    },
-    {
-      "type": 0,
-      "value": " (Brazīlija) nodrošina juridisko pamatu, lai aizsargātu cilvēku pamattiesības uz privātumu tiešsaistē."
-    }
-  ],
-  "about.missionBody2": [
-    {
-      "type": 0,
-      "value": "Privātuma regulas ir solis pareizajā virzienā, taču savu tiesību īstenošana saskaņā ar šiem normatīvajiem aktiem joprojām ir pietiekami sarežģīta, lai lielākā daļa cilvēku to neizmantotu. Situāciju pasliktina tas, ka daudzas organizācijas apgrūtina datu pieprasījumu iesniegšanu (piemēram, nepublicējot nekādus uzņēmuma e-pasta adreses savā tīmekļa vietnē). Mūsu mērķis ir padarīt šajos normatīvajos aktos paredzētās tiesības pieejamas ikvienam."
-    }
-  ],
-  "about.missionBody3": [
-    {
-      "type": 0,
-      "value": "Šis ir bezmaksas pakalpojums. Mēs neesam uzņēmums un mums nav biznesa modeļa. Mēs nepiedāvājam nekādus pakalpojumus sarakstā iekļautajām organizācijām. Mēs neiegūstam un netirgojam nekādus personas datus. Šis pakalpojums ir "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "atvērtā pirmkoda"
-        }
-      ],
-      "type": 8,
-      "value": "a"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "about.newDescription": [
@@ -348,7 +228,7 @@
   "about.sponsorsTitle": [
     {
       "type": 0,
-      "value": "Vēlamies pateikties šādām organizācijām par mūsu atvērtā pirmkoda iniciatīvas atbalstīšanu, piedāvājot bezmaksas vai ar atlaidi nodrošinātas versijas saviem pakalpojumiem:"
+      "value": "We'd like to thank the following organizations for supporting our open-source effort by providing a free or discounted version of their services:"
     }
   ],
   "about.stat1Number": [
@@ -960,7 +840,7 @@
   "donate.waysToGive.liberapay.button": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Atbalsts"
     }
   ],
   "donate.waysToGive.liberapay.description": [
@@ -978,7 +858,7 @@
   "donate.waysToGive.openCollective.button": [
     {
       "type": 0,
-      "value": "Donate"
+      "value": "Ziedot"
     }
   ],
   "donate.waysToGive.openCollective.description": [
