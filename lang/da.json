@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Ofte Stillede Spørgsmål"
   },
-  "footer.contact": {
-    "message": "© Ophavsret 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Ansvarsfraskrivelse:</span> Denne tjeneste stilles til rådighed som den er, uden nogen form for garanti. Brug af denne tjeneste sker helt på eget ansvar. Vi kan ikke påtage os ansvar for direkte eller indirekte skader, der måtte opstå ved brug af tjenesten. De oplysninger, der leveres via denne tjeneste, samt indholdet på vores hjemmeside vedrørende juridiske spørgsmål, er kun til privat brug og udgør ikke juridisk rådgivning. Hvis du har brug for juridisk rådgivning i en specifik sag, bør du kontakte en advokat."
   },
   "footer.madeBy": {
     "message": "<a>Lavet af Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Drevet af Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privatlivspolitik</a>"
@@ -621,10 +615,10 @@
     "message": "Send en dataanmodning om sletning eller adgang."
   },
   "orgHero.subTitle2": {
-    "message": "Send {name} en dataanmodning om sletning eller adgang ved hjælp af denne <disclamer>gratis og uafhængige</disclamer> tjeneste."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Få organisationer til at slette eller sende dig en kopi af dine personlige data ved hjælp af denne <disclamer>gratis og uafhængige</disclamer> tjeneste."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Slet din {domain}-konto eller anmod om dine data."
