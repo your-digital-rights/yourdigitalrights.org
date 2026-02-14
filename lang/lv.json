@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Biežāk uzdotie jautājumi"
   },
-  "footer.contact": {
-    "message": "© Autortiesības 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Atruna:</span> Šis pakalpojums tiek nodrošināts 'kā ir', bez jebkādām garantijām. Pakalpojuma izmantošana ir pilnībā uz jūsu pašu risku. Mēs nevaram uzņemties atbildību par jebkādiem tiešiem vai netiešiem zaudējumiem, kas radušies, izmantojot šo pakalpojumu. Informācija, ko sniedz šis pakalpojums, kā arī saturs mūsu vietnē par juridiskiem jautājumiem, ir paredzēti tikai jūsu personīgai lietošanai un netiek uzskatīti par juridisku padomu. Ja jums ir nepieciešams juridisks padoms konkrētas problēmas risināšanai, lūdzu, konsultējieties ar licencētu advokātu."
   },
   "footer.madeBy": {
     "message": "<a>Veidojis Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Darbojas ar Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privātuma politika</a>"
@@ -621,10 +615,10 @@
     "message": "Nosūtiet datu dzēšanas vai piekļuves pieprasījumu."
   },
   "orgHero.subTitle2": {
-    "message": "Nosūtiet {name} datu dzēšanas vai piekļuves pieprasījumu, izmantojot šo <disclamer>bezmaksas un neatkarīgo</disclamer> pakalpojumu."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Panāciet, lai organizācijas dzēš vai nosūta jums jūsu personas datu kopiju, izmantojot šo <disclamer>bezmaksas un neatkarīgo</disclamer> pakalpojumu."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Dzēsiet savu {domain} kontu vai pieprasiet savus datus."
