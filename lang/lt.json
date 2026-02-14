@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Dažniausiai užduodami klausimai"
   },
-  "footer.contact": {
-    "message": "© Autorių teisės 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Atsakomybės apribojimas:</span> Ši paslauga teikiama tokia, kokia yra, be jokios garantijos. Naudojatės šia paslauga visiškai savo rizika. Mes neprisiimame atsakomybės už bet kokią tiesioginę ar netiesioginę žalą, patirtą naudojantis šia paslauga. Šios paslaugos teikiama informacija kartu su mūsų svetainėje pateikiamu teisiniu turiniu yra skirta tik jūsų asmeniniam naudojimui ir nelaikoma teisine konsultacija. Jeigu jums reikia teisinės konsultacijos dėl konkrečios situacijos, turėtumėte pasikonsultuoti su licencijuotu teisininku."
   },
   "footer.madeBy": {
     "message": "<a>Sukurta Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Veikia naudojant \"Vercel\""
   },
   "footer.privacyPolicy": {
     "message": "<a>Privatumo politika</a>"
@@ -621,10 +615,10 @@
     "message": "Siųskite duomenų ištrynimo ar prieigos užklausą."
   },
   "orgHero.subTitle2": {
-    "message": "Siųskite {name} duomenų ištrynimo ar prieigos užklausą pasinaudodami šia <disclamer>nemokama ir nepriklausoma</disclamer> paslauga."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Skatinkite organizacijas ištrinti arba atsiųsti jums jūsų asmens duomenų kopiją naudodamiesi šia <disclamer>nemokama ir nepriklausoma</disclamer> paslauga."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Ištrinkite savo {domain} paskyrą arba paprašykite savo duomenų."
