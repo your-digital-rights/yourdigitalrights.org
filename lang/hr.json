@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Često postavljana pitanja"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Odricanje od odgovornosti:</span> Ova usluga se pruža \"kakva jest\", bez ikakvog jamstva. Korištenje ove usluge u potpunosti je na vlastitu odgovornost. Ne možemo snositi odgovornost za bilo kakvu izravnu ili neizravnu štetu nastalu uporabom ove usluge. Informacije koje pruža ova usluga, zajedno sa sadržajem na našoj internetskoj stranici vezanim uz pravna pitanja, dostupne su isključivo za vašu osobnu upotrebu i ne predstavljaju pravni savjet. Ako vam je potreban pravni savjet za konkretan problem, trebali biste se obratiti ovlaštenom odvjetniku."
   },
   "footer.madeBy": {
     "message": "<a>Izradio Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Pogoni ga Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Pravila o privatnosti</a>"
@@ -621,10 +615,10 @@
     "message": "Pošaljite zahtjev za brisanje ili pristup podacima."
   },
   "orgHero.subTitle2": {
-    "message": "Pošaljite {name} zahtjev za brisanje ili pristup podacima koristeći ovu <disclamer>besplatnu i neovisnu</disclamer> uslugu."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Natjerajte organizacije da izbrišu ili vam pošalju kopiju vaših osobnih podataka putem ove <disclamer>besplatne i neovisne</disclamer> usluge."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Izbrišite svoj {domain} račun ili zatražite kopiju svojih podataka."

@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Preguntas frecuentes"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Aviso:</span> Este servicio se proporciona tal cual, sin garantía de ningún tipo. El uso de este servicio es bajo su propio riesgo. No podemos responsabilizarnos por ningún daño directo o indirecto que resulte del uso de este servicio. La información relacionado con asuntos legales proporcionada por este servicio junto con el contenido de esta web, se proporciona para su uso privado y no constituye asesoramiento legal. Si necesita asesoramiento legal específico, debe consultar con un abogado autorizado."
   },
   "footer.madeBy": {
     "message": "<a>Desarrollado por Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Con tecnología de Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Política de privacidad</a>"
@@ -621,10 +615,10 @@
     "message": "Enviar una eliminación de datos o solicitud de acceso."
   },
   "orgHero.subTitle2": {
-    "message": "Enviar a {name} una eliminación de datos o una solicitud de acceso utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Obtén organizaciones que te eliminen o te envíen una copia de tus datos personales utilizando este servicio <disclamer>gratuito e independiente</disclamer>."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Elimina tu cuenta {domain} o solicita tus datos."

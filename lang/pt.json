@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Perguntas Frequentes"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Isenção de responsabilidade:</span> Este serviço é fornecido como está, sem garantia de qualquer tipo. O uso deste serviço é inteiramente sua responsabilidade e risco. Não nos responsabilizamos por quaisquer danos diretos ou indiretos resultantes do uso deste serviço. As informações fornecidas por este serviço, juntamente com o conteúdo do nosso site relacionado a questões jurídicas, são fornecidas para fins informativos e não constituem aconselhamento jurídico. Se você precisar de aconselhamento jurídico para um problema específico, consulte um advogado licenciado."
   },
   "footer.madeBy": {
     "message": "<a>Produzido pela Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Fornecido pela Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Política de Privacidade</a>"
@@ -621,10 +615,10 @@
     "message": "Envie uma solicitação de acesso ou exclusão de dados."
   },
   "orgHero.subTitle2": {
-    "message": "Envie uma exclusão de dados {name} ou uma solicitação de acesso usando este serviço <disclamer>gratuito e independente</disclamer>."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Faça com que as organizações excluam ou enviem uma cópia dos seus dados pessoais usando este serviço <disclamer>gratuito e independente</disclamer>."
+    "message": "Faça com que as organizações excluam ou enviem uma cópia dos seus dados pessoais usando este serviço gratuito e independente."
   },
   "orgHero.title": {
     "message": "Excluir sua conta {domain} ou solicitar seus dados."

@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "常见问题"
   },
-  "footer.contact": {
-    "message": "©️ 版权 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>免责声明：</span> 此服务是按原样提供的，没有任何担保。 使用此服务完全由您自己承担风险。 我们不能对使用这种服务造成的任何直接或间接损害承担责任。 此服务提供的信息以及我们网站上有关法律事项的内容，供您私人使用，并不构成法律咨询。 如果你需要对某个特定问题提供法律咨询，你应该与领有执照的律师协商。"
   },
   "footer.madeBy": {
     "message": "<a>由 Conscious Digital 制作</a>"
-  },
-  "footer.poweredBy": {
-    "message": "由Vercel 支持"
   },
   "footer.privacyPolicy": {
     "message": "<a>隐私政策</a>"
@@ -621,10 +615,10 @@
     "message": "发送数据删除或访问请求。"
   },
   "orgHero.subTitle2": {
-    "message": "使用此 <disclamer>免费且独立的</disclamer> 服务向 {name} 发送数据删除或访问请求。"
+    "message": "使用此 免费且独立的 服务向 {name} 发送数据删除或访问请求。"
   },
   "orgHero.subTitleNewOrg": {
-    "message": "使用此 <disclamer>免费和独立的</disclamer> 服务来删除或向您发送您的个人数据副本。"
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "删除您的 {domain} 帐户或请求您的数据。"

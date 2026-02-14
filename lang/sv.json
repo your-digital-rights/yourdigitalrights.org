@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Vanliga frågor och svar"
   },
-  "footer.contact": {
-    "message": "© Upphovsrätt 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Ansvarsfriskrivning:</span> Denna tjänst tillhandahålls i befintligt skick, utan någon form av garanti. Användningen av denna tjänst sker helt på egen risk. Vi tar inget ansvar för direkta eller indirekta skador till följd av användningen av denna tjänst. Informationen som tillhandahålls av denna tjänst och innehållet på vår webbplats relaterat till juridiska frågor är endast för privat bruk och utgör inte juridisk rådgivning. Om du behöver juridisk rådgivning för ett specifikt problem bör du kontakta en licensierad advokat."
   },
   "footer.madeBy": {
     "message": "<a>Skapad av Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Drivs av Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Integritetspolicy</a>"
@@ -621,10 +615,10 @@
     "message": "Skicka en begäran om radering eller åtkomst av data."
   },
   "orgHero.subTitle2": {
-    "message": "Skicka en begäran om dataradering eller åtkomst till {name} med denna <disclamer>kostnadsfria och oberoende</disclamer> tjänst."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Få organisationer att radera eller skicka dig en kopia av dina personuppgifter via denna <disclamer>kostnadsfria och oberoende</disclamer> tjänst."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Radera ditt {domain}-konto eller begär dina uppgifter."

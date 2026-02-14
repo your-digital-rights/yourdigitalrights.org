@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "คำถามที่พบบ่อย"
   },
-  "footer.contact": {
-    "message": "© ลิขสิทธิ์ 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>คำปฏิเสธ:</span> บริการนี้ให้ตามสภาพที่เป็นอยู่ โดยไม่มีการรับประกันใดๆ ทั้งสิ้น การใช้งานบริการนี้ถือเป็นความเสี่ยงของคุณเอง เราไม่สามารถรับผิดชอบความเสียหายที่เกิดขึ้นทางตรงหรือทางอ้อมจากการใช้บริการนี้ ข้อมูลที่ให้ไว้โดยบริการนี้ รวมทั้งเนื้อหาในเว็บไซต์ของเราที่เกี่ยวข้องกับด้านกฎหมาย เป็นข้อมูลเพื่อการใช้งานส่วนตัวเท่านั้นและไม่ถือเป็นคำแนะนำทางกฎหมาย หากคุณต้องการคำแนะนำทางกฎหมายสำหรับปัญหาใดๆ โปรดปรึกษาทนายความที่มีใบอนุญาต"
   },
   "footer.madeBy": {
     "message": "<a>สร้างโดย Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "ขับเคลื่อนโดย Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>นโยบายความเป็นส่วนตัว</a>"
@@ -621,10 +615,10 @@
     "message": "ส่งคำร้องขอลบหรือขอเข้าถึงข้อมูลส่วนบุคคลของคุณ."
   },
   "orgHero.subTitle2": {
-    "message": "ส่งคำร้อง {name} เพื่อขอลบหรือขอสำเนาข้อมูลโดยใช้บริการ <disclamer>ฟรีและเป็นอิสระ</disclamer> นี้."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "ขอให้ลบหรือส่งสำเนาข้อมูลส่วนบุคคลของคุณโดยใช้บริการ <disclamer>ฟรีและเป็นอิสระ</disclamer> นี้."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "ลบบัญชี {domain} ของคุณหรือขอข้อมูลของคุณ."

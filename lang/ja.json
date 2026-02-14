@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "よく寄せられる質問"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>免責事項:</span> 本サービスは、いかなる保証もなく、現状のまま提供されます。 本サービスの利用は利用者ご自身の責任において行ってください。 本サービスの利用により生じたいかなる直接的または間接的な損害についても、私たちは責任を負いません。 法的事項に関連する私たちのウェブサイト上のコンテンツとともに、このサービスによって提供される情報は、利用者の個人的な使用のために提供され、法的助言を構成するものではありません。 特定の問題について法的助言が必要な場合は、弁護士に相談してください。"
   },
   "footer.madeBy": {
     "message": "<a>運営団体: Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Powered by Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>プライバシーポリシー</a>"
@@ -621,10 +615,10 @@
     "message": "データ削除またはアクセスリクエストを送信します。"
   },
   "orgHero.subTitle2": {
-    "message": "<disclamer>無料・中立</disclamer>の本サービスを使用して、 {name} に対してデータ削除または開示請求を送信します。"
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "この <disclamer>無料で独立した</disclamer> サービスを使用して、組織にあなたの個人データのコピーを削除または送信させます。"
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "{domain} アカウントを削除するか、データをリクエストしてください。"
