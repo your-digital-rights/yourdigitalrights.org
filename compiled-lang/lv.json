@@ -1381,12 +1381,6 @@
       "value": "Biežāk uzdotie jautājumi"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Autortiesības 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Darbojas ar Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1702,7 +1690,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Nosūtiet "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": " datu dzēšanas vai piekļuves pieprasījumu, izmantojot šo "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezmaksas un neatkarīgo"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " pakalpojumu."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Panāciet, lai organizācijas dzēš vai nosūta jums jūsu personas datu kopiju, izmantojot šo "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezmaksas un neatkarīgo"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " pakalpojumu."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

@@ -1355,12 +1355,6 @@
       "value": "Preguntas frecuentes"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Copyright 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1387,12 +1381,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Con tecnología de Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1676,7 +1664,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Enviar a "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1684,41 +1672,13 @@
     },
     {
       "type": 0,
-      "value": " una eliminación de datos o una solicitud de acceso utilizando este servicio "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "gratuito e independiente"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Obtén organizaciones que te eliminen o te envíen una copia de tus datos personales utilizando este servicio "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "gratuito e independiente"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": "."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

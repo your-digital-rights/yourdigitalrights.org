@@ -1381,12 +1381,6 @@
       "value": "Ofte Stillede Spørgsmål"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Ophavsret 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Drevet af Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1680,7 +1668,7 @@
     },
     {
       "type": 1,
-      "value": "domain"
+      "value": "org"
     },
     {
       "type": 0,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": " en dataanmodning om sletning eller adgang ved hjælp af denne "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "gratis og uafhængige"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " tjeneste."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Få organisationer til at slette eller sende dig en kopi af dine personlige data ved hjælp af denne "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "gratis og uafhængige"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " tjeneste."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

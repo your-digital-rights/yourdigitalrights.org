@@ -1381,12 +1381,6 @@
       "value": "Najczęściej zadawane pytania"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Copyright 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Zasilane przez Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1702,7 +1690,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Wyślij do "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": " żądanie usunięcia danych lub żądanie dostępu, korzystając z tej "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezpłatnej i niezależnej"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " usługi."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Poproś organizacje o usunięcie lub przesłanie Ci kopii Twoich danych osobowych za pomocą tej "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezpłatnej i niezależnej"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " usługi."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

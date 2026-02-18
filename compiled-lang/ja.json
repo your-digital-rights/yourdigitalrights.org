@@ -1347,12 +1347,6 @@
       "value": "よく寄せられる質問"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Copyright 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1379,12 +1373,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Powered by Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1663,18 +1651,8 @@
   ],
   "orgHero.subTitle2": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": "無料・中立"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
       "type": 0,
-      "value": "の本サービスを使用して、 "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1682,27 +1660,13 @@
     },
     {
       "type": 0,
-      "value": " に対してデータ削除または開示請求を送信します。"
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "この "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "無料で独立した"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " サービスを使用して、組織にあなたの個人データのコピーを削除または送信させます。"
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

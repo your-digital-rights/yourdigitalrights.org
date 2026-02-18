@@ -1381,12 +1381,6 @@
       "value": "Dažniausiai užduodami klausimai"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Autorių teisės 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Veikia naudojant \"Vercel\""
     }
   ],
   "footer.privacyPolicy": [
@@ -1702,7 +1690,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Siųskite "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": " duomenų ištrynimo ar prieigos užklausą pasinaudodami šia "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "nemokama ir nepriklausoma"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " paslauga."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Skatinkite organizacijas ištrinti arba atsiųsti jums jūsų asmens duomenų kopiją naudodamiesi šia "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "nemokama ir nepriklausoma"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " paslauga."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [
