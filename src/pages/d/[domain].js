@@ -13,29 +13,18 @@ import { styled } from '@mui/material/styles';
 
 const SubscribeContainer = styled('div')(({ theme }) => ({
   backgroundColor: theme.palette.primary.main,
-  marginTop: "-145px",
-  paddingTop: "150px",
-  paddingBottom: "30px",
-  position: "relative",
-  zIndex: 1,
-  overflow: "visible",
+  marginTop: "0px",
+  paddingTop: "30px",
+  paddingBottom: "0px",
+  "& #subscribe": {
+    marginTop: "0px",
+    marginBottom: "30px",
+  },
 }));
 
 const DeferredSection = styled('section')(() => ({
   contentVisibility: "auto",
   containIntrinsicSize: "1px 900px",
-}));
-
-const SubscribeSection = styled('section')(() => ({
-  position: "relative",
-  zIndex: 1,
-  overflow: "visible",
-}));
-
-const FooterSection = styled('section')(() => ({
-  position: "relative",
-  zIndex: 3,
-  overflow: "visible",
 }));
 
 function Capitalize(str){
@@ -79,14 +68,10 @@ const Org = ({ organization, router, newOrg }) => {
           />
         </DeferredSection>
       )}
-      <SubscribeSection>
-        <SubscribeContainer>
-          <Subscribe page="org"/>
-        </SubscribeContainer>
-      </SubscribeSection>
-      <FooterSection>
-        <Footer/>
-      </FooterSection>
+      <SubscribeContainer>
+        <Subscribe page="org"/>
+      </SubscribeContainer>
+      <Footer/>
     </div>
   )
 }

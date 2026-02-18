@@ -5,9 +5,6 @@ import Button from '@mui/material/Button';
 
 export const Root = styled('div')(() => ({
   ...container,
-  position: "relative",
-  zIndex: 2,
-  overflow: "visible",
 }));
 
 export const Inner = styled('div')(({ theme }) => ({
@@ -51,14 +48,10 @@ export const Copyright = styled('div')(() => ({
 
 export const WishList = styled('div')(() => ({
   textAlign: "center",
-  position: "relative",
-  zIndex: 3,
 }));
 
 export const WishButton = styled(Button)(() => ({
   marginTop: "-25px",
-  position: "relative",
-  zIndex: 4,
   borderRadius: "24px 24px 24px 24px",
   color: "white",
   fontWeight: "600",

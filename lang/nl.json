@@ -497,17 +497,11 @@
   "faq.title": {
     "message": "Veelgestelde vragen"
   },
-  "footer.contact": {
-    "message": "© Copyright 2019 - 2022"
-  },
   "footer.disclaimer": {
     "message": "<span>Disclaimer:</span> Deze dienst wordt geleverd zoals hij is, zonder enige vorm van garantie. Het gebruik van deze dienst is volledig op eigen risico. We kunnen geen verantwoordelijkheid nemen voor directe of indirecte schade die voortvloeit uit het gebruik van deze dienst. De informatie die door deze dienst wordt verstrekt, samen met de inhoud op onze website met betrekking tot juridische kwesties, wordt alleen voor uw eigen gebruik verstrekt en vormt geen juridisch advies. Als u juridisch advies nodig heeft voor een specifiek probleem, dient u een erkende advocaat te raadplegen."
   },
   "footer.madeBy": {
     "message": "<a>Gemaakt door Conscious Digital</a>"
-  },
-  "footer.poweredBy": {
-    "message": "Aangedreven door Vercel"
   },
   "footer.privacyPolicy": {
     "message": "<a>Privacybeleid</a>"
@@ -621,10 +615,10 @@
     "message": "Dien een verzoek in tot verwijdering van gegevens of inzageverzoek."
   },
   "orgHero.subTitle2": {
-    "message": "Stuur {name} een verzoek tot gegevensverwijdering of inzage via deze <disclamer>gratis en onafhankelijke</disclamer> service."
+    "message": "Send {name} a data deletion or access request using this free and independent service."
   },
   "orgHero.subTitleNewOrg": {
-    "message": "Laat organisaties uw persoonlijke gegevens verwijderen of u een kopie sturen via deze <disclamer>gratis en onafhankelijke</disclamer> service."
+    "message": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
   },
   "orgHero.title": {
     "message": "Verwijder uw {domain}-account of vraag uw gegevens op."
