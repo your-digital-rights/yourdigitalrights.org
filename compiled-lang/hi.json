@@ -1367,12 +1367,6 @@
       "value": "अक्सर पूछे जाने वाले प्रश्न"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© कॉपीराइट 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1399,12 +1393,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Vercel द्वारा संचालित"
     }
   ],
   "footer.privacyPolicy": [
@@ -1669,46 +1657,22 @@
   ],
   "orgHero.subTitle2": [
     {
+      "type": 0,
+      "value": "Send "
+    },
+    {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": " को डेटा हटाने या पहुँच अनुरोध भेजें इस "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "मुफ्त और स्वतंत्र"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " सेवा का उपयोग करके।"
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "इस "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "मुफ्त और स्वतंत्र"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " सेवा का उपयोग करके संगठनों को आपका व्यक्तिगत डेटा हटाने या उसकी एक प्रति भेजने के लिए कहें।"
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

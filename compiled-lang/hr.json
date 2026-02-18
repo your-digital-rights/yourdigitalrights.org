@@ -1385,12 +1385,6 @@
       "value": "Često postavljana pitanja"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Copyright 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1417,12 +1411,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Pogoni ga Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1684,7 +1672,7 @@
     },
     {
       "type": 1,
-      "value": "domain"
+      "value": "org"
     },
     {
       "type": 0,
@@ -1706,7 +1694,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Pošaljite "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1714,41 +1702,13 @@
     },
     {
       "type": 0,
-      "value": " zahtjev za brisanje ili pristup podacima koristeći ovu "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "besplatnu i neovisnu"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " uslugu."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Natjerajte organizacije da izbrišu ili vam pošalju kopiju vaših osobnih podataka putem ove "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "besplatne i neovisne"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " usluge."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

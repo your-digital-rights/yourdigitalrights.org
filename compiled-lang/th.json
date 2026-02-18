@@ -1385,12 +1385,6 @@
       "value": "คำถามที่พบบ่อย"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© ลิขสิทธิ์ 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1417,12 +1411,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "ขับเคลื่อนโดย Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1706,7 +1694,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "ส่งคำร้อง "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1714,41 +1702,13 @@
     },
     {
       "type": 0,
-      "value": " เพื่อขอลบหรือขอสำเนาข้อมูลโดยใช้บริการ "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ฟรีและเป็นอิสระ"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " นี้."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "ขอให้ลบหรือส่งสำเนาข้อมูลส่วนบุคคลของคุณโดยใช้บริการ "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ฟรีและเป็นอิสระ"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " นี้."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

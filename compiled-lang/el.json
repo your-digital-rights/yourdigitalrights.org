@@ -1381,12 +1381,6 @@
       "value": "Συχνές Ερωτήσεις"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Πνευματικά δικαιώματα 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Υποστηρίζεται από Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1702,7 +1690,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Στείλτε ένα αίτημα διαγραφής ή πρόσβασης δεδομένων στο "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": " χρησιμοποιώντας αυτήν την "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "δωρεάν και ανεξάρτητη"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " υπηρεσία."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Ζητήστε από οργανισμούς να διαγράψουν ή να σας στείλουν ένα αντίγραφο των προσωπικών σας δεδομένων χρησιμοποιώντας αυτήν την "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "δωρεάν και ανεξάρτητη"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " υπηρεσία."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

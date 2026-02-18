@@ -1389,12 +1389,6 @@
       "value": "Gyakran Ismételt Kérdések"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Copyright 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1421,12 +1415,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "A Vercel technológiájával"
     }
   ],
   "footer.privacyPolicy": [
@@ -1710,7 +1698,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Küldjön adat törlési vagy hozzáférési kérelmet "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1718,41 +1706,13 @@
     },
     {
       "type": 0,
-      "value": " részére ezzel a "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ingyenes és független"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " szolgáltatással."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Kérje a szervezetektől, hogy töröljék személyes adatait, vagy küldjenek annak másolatát ezzel a "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "ingyenes és független"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " szolgáltatással."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

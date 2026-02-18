@@ -1389,12 +1389,6 @@
       "value": "Často kladené otázky"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Autorské práva 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1421,12 +1415,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Používa technológiu Vercel"
     }
   ],
   "footer.privacyPolicy": [
@@ -1710,7 +1698,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Pošlite "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1718,41 +1706,13 @@
     },
     {
       "type": 0,
-      "value": " žiadosť o vymazanie alebo sprístupnenie údajov prostredníctvom tejto "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezplatnej a nezávislej"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " služby."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Prinúťte organizácie, aby vymazali alebo poslali kópiu Vašich osobných údajov, a to prostredníctvom tejto "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "bezplatnej a nezávislej"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " služby."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [

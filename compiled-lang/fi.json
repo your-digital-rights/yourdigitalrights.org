@@ -1381,12 +1381,6 @@
       "value": "Usein kysytyt kysymykset"
     }
   ],
-  "footer.contact": [
-    {
-      "type": 0,
-      "value": "© Tekijänoikeus 2019 - 2022"
-    }
-  ],
   "footer.disclaimer": [
     {
       "children": [
@@ -1413,12 +1407,6 @@
       ],
       "type": 8,
       "value": "a"
-    }
-  ],
-  "footer.poweredBy": [
-    {
-      "type": 0,
-      "value": "Vercelin toteuttama"
     }
   ],
   "footer.privacyPolicy": [
@@ -1702,7 +1690,7 @@
   "orgHero.subTitle2": [
     {
       "type": 0,
-      "value": "Lähetä "
+      "value": "Send "
     },
     {
       "type": 1,
@@ -1710,41 +1698,13 @@
     },
     {
       "type": 0,
-      "value": "-yritykselle tietojen poistamis- tai käyttöpyyntö tällä "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "maksuttomalla ja riippumattomalla"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " palvelulla."
+      "value": " a data deletion or access request using this free and independent service."
     }
   ],
   "orgHero.subTitleNewOrg": [
     {
       "type": 0,
-      "value": "Pyydä organisaatioita poistamaan tai lähettämään kopio henkilötiedoistasi tämän "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "maksuttoman ja riippumattoman"
-        }
-      ],
-      "type": 8,
-      "value": "disclamer"
-    },
-    {
-      "type": 0,
-      "value": " palvelun avulla."
+      "value": "Get organizations to delete or send you a copy of your personal data using this free and independent service."
     }
   ],
   "orgHero.title": [
