@@ -93,7 +93,7 @@ class Form extends Component {
 
     this.searchTimeout = setTimeout(() => {
       this.searchCompanies(searchValue);
-    }, 100);
+    }, 300);
   };
 
   onItemSelected = (org) => {

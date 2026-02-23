@@ -68,10 +68,12 @@ const Org = ({ organization, router, newOrg }) => {
           />
         </DeferredSection>
       )}
-      <SubscribeContainer>
-        <Subscribe page="org"/>
-      </SubscribeContainer>
-      <Footer/>
+      <DeferredSection>
+        <SubscribeContainer>
+          <Subscribe page="org"/>
+        </SubscribeContainer>
+        <Footer/>
+      </DeferredSection>
     </div>
   )
 }

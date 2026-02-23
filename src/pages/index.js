@@ -1,5 +1,5 @@
 import { useIntl } from "react-intl";
-import { useRef, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Subscribe from "../components/Subscribe";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -43,25 +43,19 @@ const tabletBreakpoint = 900;
 
 const Index = ({ router }) => {
   const intl = useIntl();
-  const [screenWidth, setScreenWidth] = useState(null);
+  const [isDesktop, setIsDesktop] = useState(null);
   const BaseURL = "";
   const Description = intl.formatMessage({id: "index.description", defaultMessage: "Delete your account or access the personal data organizations have on you using this free service."});
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      setScreenWidth(window.innerWidth);
-      window.addEventListener("resize", onScreenResize);
-    }
-    return () => {
-      if (typeof window !== "undefined") {
-        window.removeEventListener("resize", onScreenResize);
-      }
+      const mql = window.matchMedia(`(min-width: ${tabletBreakpoint}px)`);
+      setIsDesktop(mql.matches);
+      const handler = (e) => setIsDesktop(e.matches);
+      mql.addEventListener('change', handler);
+      return () => mql.removeEventListener('change', handler);
     }
   }, []);
-
-  const onScreenResize = () => {
-    setScreenWidth(window.innerWidth);
-  };
 
   const renderSearchForm = () => {
     return (
@@ -72,8 +66,8 @@ const Index = ({ router }) => {
   return (
     <div>
       <Nav>
-        {screenWidth !== null &&
-          screenWidth < tabletBreakpoint &&
+        {isDesktop !== null &&
+          !isDesktop &&
           renderSearchForm()}
       </Nav>
       <MainContainer>
@@ -88,7 +82,7 @@ const Index = ({ router }) => {
         />
         <TopOfPagePlaceholder />
         <Hero>
-          {screenWidth !== null && screenWidth >= tabletBreakpoint && (
+          {isDesktop && (
             <DesktopSearchbar>
               {renderSearchForm()}
             </DesktopSearchbar>

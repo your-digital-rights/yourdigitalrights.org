@@ -76,13 +76,6 @@ class Form extends Component {
 
     this.state = {
       uuid: null,
-      name: "",
-      email: "",
-      identifyingInfo: "",
-      companyName: "",
-      companyDomain: "",
-      companyEmail: "",
-      companyUrl: "",
       hasSubmit: false,
       regulationType: "GDPR",
       requestType: "DELETION",
@@ -90,10 +83,15 @@ class Form extends Component {
     };
 
     this.handlers = {};
+    this.nameRef = React.createRef();
+    this.identifyingInfoRef = React.createRef();
+    this.companyNameRef = React.createRef();
+    this.companyDomainRef = React.createRef();
     this.companyEmail = React.createRef();
     this.form = React.createRef();
     this.geolocationIdleHandle = null;
     this.geolocationTimeoutHandle = null;
+    this.companyEmailValidationTimeout = null;
     this.isUnmounted = false;
   }
 
@@ -125,33 +123,36 @@ class Form extends Component {
     if (this.geolocationTimeoutHandle) {
       window.clearTimeout(this.geolocationTimeoutHandle);
     }
+    if (this.companyEmailValidationTimeout) {
+      clearTimeout(this.companyEmailValidationTimeout);
+    }
   }
 
   handleInput = (name) => {
     if (!this.handlers[name]) {
       this.handlers[name] = (event) => {
         this.setState({ [name]: event.target.value });
-
-        this.validateInput(name, event.target.value);
-
         return true;
       };
     }
     return this.handlers[name];
   };
 
-  validateInput(inputName, inputValue) {
-    if (inputName === "companyEmail") {
-      const companyEmailError = isEmail(inputValue)
+  handleCompanyEmailInput = (event) => {
+    const value = event.target.value;
+    if (this.companyEmailValidationTimeout) {
+      clearTimeout(this.companyEmailValidationTimeout);
+    }
+    this.companyEmailValidationTimeout = setTimeout(() => {
+      const companyEmailError = isEmail(value)
         ? ""
         : this.props.intl.formatMessage({
           id: "personalInfoForm.validEmail",
           defaultMessage: "Please enter a valid email.",
         });
-
       this.companyEmail.current.setCustomValidity(companyEmailError);
-    }
-  }
+    }, 300);
+  };
 
   handleFormSubmit = (e) => {
     e.preventDefault();
@@ -172,20 +173,20 @@ class Form extends Component {
 
     const companyEmail = selectedCompany
       ? selectedCompany.email
-      : this.state.companyEmail;
+      : this.companyEmail.current.value;
 
     const companyName = selectedCompany
       ? selectedCompany.name
-      : this.state.companyName;
+      : this.companyNameRef.current.value;
 
     const companyUrl = selectedCompany
       ? selectedCompany.url
-      : this.state.companyUrl;
+      : this.companyDomainRef.current.value;
 
     const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
 
-    const identifyingInfo = this.state.identifyingInfo;
-    const name = this.state.name;
+    const identifyingInfo = this.identifyingInfoRef.current.value;
+    const name = this.nameRef.current.value;
     const lang = this.props.intl.locale;
 
     const data = { 
@@ -213,7 +214,7 @@ class Form extends Component {
         requestType
       );
     }
-    if (this.state.companyEmail) {
+    if (!selectedCompany && this.companyEmail.current.value) {
       this.addNewCompany();
     } else if (selectedCompany) {
       tracking.trackRequestComplete(
@@ -252,12 +253,15 @@ class Form extends Component {
   }
 */
   async addNewCompany() {
+    const companyEmail = this.companyEmail.current.value;
+    const companyName = this.companyNameRef.current.value;
+    const companyDomain = this.companyDomainRef.current.value;
     try {
       await fetch(
         "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
         {
           method: "POST",
-          body: `emailAddress=${this.state.companyEmail}&entry.1191326521=${this.state.companyName}&entry.215439629=${this.state.companyDomain}`,
+          body: `emailAddress=${companyEmail}&entry.1191326521=${companyName}&entry.215439629=${companyDomain}`,
           headers: {
             Accept: "application/xml, text/xml, */*; q=0.01",
             "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
@@ -268,7 +272,7 @@ class Form extends Component {
     catch (e) {
       console.error(e)
     }
-    tracking.trackAddNewOrg(this.state.companyDomain, this.state.companyName);  
+    tracking.trackAddNewOrg(companyDomain, companyName);
   }
 
   render() {
@@ -331,33 +335,33 @@ class Form extends Component {
           {!selectedCompany && (
             <Fragment>
               <TextField
+                inputRef={this.companyNameRef}
                 variant="outlined"
                 id="companyName"
                 label={CompanyNameLabelText}
-                value={this.state.companyName}
-                onChange={this.handleInput("companyName")}
+                defaultValue=""
                 margin="normal"
                 required
                 helperText={CompanyNameHelperText}
                 autoFocus={!selectedCompany}
               />
               <TextField
+                inputRef={this.companyDomainRef}
                 variant="outlined"
                 id="companyDomain"
                 label={CompanyDomainLabelText}
-                value={this.state.companyDomain}
-                onChange={this.handleInput("companyDomain")}
+                defaultValue=""
                 margin="normal"
                 required
                 helperText={CompanyDomainHelperText}
-              />              
+              />
               <TextField
                 inputRef={this.companyEmail}
                 variant="outlined"
                 id="companyEmail"
                 label={CompanyEmailLabelText}
-                value={this.state.companyEmail}
-                onChange={this.handleInput("companyEmail")}
+                defaultValue=""
+                onChange={this.handleCompanyEmailInput}
                 margin="normal"
                 required
                 helperText={CompanyEmailHelperText}
@@ -365,11 +369,11 @@ class Form extends Component {
             </Fragment>
           )}
           <TextField
+            inputRef={this.nameRef}
             variant="outlined"
             id="name"
             label={NameLabelText}
-            value={this.state.name}
-            onChange={this.handleInput("name")}
+            defaultValue=""
             margin="normal"
             required
             helperText={NameHelperText}
@@ -396,11 +400,11 @@ class Form extends Component {
             ))}
           </TextField>
           <TextField
+            inputRef={this.identifyingInfoRef}
             variant="outlined"
             id="identifyingInfo"
             label={IdentifyingInfoLabelText}
-            value={this.state.identifyingInfo}
-            onChange={this.handleInput("identifyingInfo")}
+            defaultValue=""
             margin="normal"
             multiline
             minRows={4}

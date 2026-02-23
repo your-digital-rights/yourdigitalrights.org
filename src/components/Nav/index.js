@@ -8,6 +8,9 @@ import MenuItem from '@mui/material/MenuItem';
 import { ALT_LANGUAGES } from '../../utils/langUtils';
 import { withRouter } from 'next/router';
 import Link from 'next/link';
+
+const SORTED_LANGUAGES = Object.keys(ALT_LANGUAGES)
+  .sort((a, b) => ALT_LANGUAGES[a].localeCompare(ALT_LANGUAGES[b]));
 import cookieCutter from 'cookie-cutter';
 import Image from 'next/image';
 import TWGrey from "../../../public/images/sh/tw-grey.svg";
@@ -100,9 +103,7 @@ const NavListDesktop = ({ router, handleLangChange }) => {
             outlineColor: "#e8f4f8",
           }}
         >
-          {Object.keys(ALT_LANGUAGES)
-            .sort((a, b) => ALT_LANGUAGES[a].localeCompare(ALT_LANGUAGES[b]))
-            .map((locale) => (
+          {SORTED_LANGUAGES.map((locale) => (
               <MenuItem key={locale} value={locale}>
                 {ALT_LANGUAGES[locale]}
               </MenuItem>
@@ -180,9 +181,7 @@ const NavListMobile = ({ mobileNavOpen, toggleMobileNav, router, handleLangChang
             outlineColor: "#e8f4f8",
           }}
         >
-          {Object.keys(ALT_LANGUAGES)
-            .sort((a, b) => ALT_LANGUAGES[a].localeCompare(ALT_LANGUAGES[b]))
-            .map((locale) => (
+          {SORTED_LANGUAGES.map((locale) => (
               <MenuItem key={locale} value={locale}>
                 {ALT_LANGUAGES[locale]}
               </MenuItem>
