@@ -456,7 +456,7 @@
     "message": "В повечето случаи, простото удостоверяване, че притежавате имейл адреса, свързан с вашия акаунт, трябва да е достатъчно. Когато използвате тази услуга, за да изпратите заявка, имейл се изпраща от вашето имейл приложение, което осигурява това базово удостоверяване."
   },
   "faq.body.verify.3": {
-    "message": "За да защитим още повече вашата лична информация, заявките, които генерираме от ваше име, изрично забраняват на организациите да използват включената лична информация за каквато и да е цел, различна от изпълнението на заявката."
+    "message": "To further protect your personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
   },
   "faq.heading.YDR": {
     "message": "Какво е YourDigitalRights.org?"
@@ -606,7 +606,7 @@
     "message": "Поискайте изтриване на акаунта си или копие от вашите лични данни от {org} бързо и лесно."
   },
   "org.titleExistingOrg": {
-    "message": "Изтрийте вашия {org} акаунт или поискайте вашите данни."
+    "message": "Изтрийте вашия {domain} акаунт или поискайте вашите данни."
   },
   "org.titleNewOrg": {
     "message": "Изпращайте заявки за изтриване и достъп до данни по GDPR, CCPA и LGPD"
