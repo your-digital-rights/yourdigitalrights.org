@@ -456,7 +456,7 @@
     "message": "U većini slučajeva jednostavna provjera da posjedujete adresu e-pošte pridruženu vašem računu trebala bi biti dovoljna. Kada putem ove usluge šaljete zahtjev, e-pošta se šalje iz vaše aplikacije za e-poštu, što osigurava ovu osnovnu provjeru."
   },
   "faq.body.verify.3": {
-    "message": "Kako bismo dodatno zaštitili vaše osobne podatke, zahtjevi koje generiramo u vaše ime izričito zabranjuju organizacijama da koriste dostavljene osobne podatke u bilo koje svrhe osim ispunjavanja zahtjeva."
+    "message": "To further protect your personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
   },
   "faq.heading.YDR": {
     "message": "Što je YourDigitalRights.org?"
@@ -606,7 +606,7 @@
     "message": "Zatražite brisanje vašeg {org} računa ili kopiju vaših podataka brzo i jednostavno."
   },
   "org.titleExistingOrg": {
-    "message": "Izbrišite svoj {org} račun ili zatražite svoje podatke."
+    "message": "Izbrišite svoj {domain} račun ili zatražite svoje podatke."
   },
   "org.titleNewOrg": {
     "message": "Pošaljite zahtjeve za brisanje i pristup osobnim podacima prema GDPR, CCPA i LGPD zakonima"
