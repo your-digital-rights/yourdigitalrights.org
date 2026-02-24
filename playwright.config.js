@@ -8,7 +8,9 @@ export default defineConfig({
   fullyParallel: false,
   retries: 0,
   workers: 2,
-  reporter: 'list',
+  reporter: process.env.CI
+    ? [['list'], ['html', {open: 'never'}]]
+    : 'list',
   use: {
     baseURL: 'http://localhost:3001',
     headless: true,
