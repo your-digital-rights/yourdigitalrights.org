@@ -211,7 +211,7 @@ export default [
       />,
       <FormattedMessage
         id="faq.body.verify.3"
-        defaultMessage="To further protect you personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
+        defaultMessage="To further protect your personal information, the requests we generate on your behalf explicitly prohibit organizations from using the personal information included as part of the request for any purpose other than fulfilling the request."
       />,      
     ],
   },
