@@ -4,10 +4,8 @@
   "license": "GPL3",
   "private": true,
   "scripts": {
-    "install-selenium": "./node_modules/.bin/selenium-standalone install",
-    "browser-test": "npx wdio run ./test/wdio.conf.js",
-    "test-serve": "npm start -- -p 3001",
-    "test": "npm run build && npm-run-all -p -r test-serve browser-test",
+    "browser-test": "npx playwright test",
+    "test": "npm run build && npx playwright test",
     "setup-local-dynamo": "node setup/dynamo-tables",
     "teardown-local-dynamo": "node setup/teardown-dynamo-tables",
     "dev": "npm run extract:i18n && npm run compile:i18n && next dev --webpack",
@@ -64,24 +62,12 @@
     "validator": "^13.15.15"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.1",
-    "@babel/plugin-transform-runtime": "^7.27.1",
-    "@babel/preset-env": "^7.27.1",
-    "@babel/register": "^7.27.1",
-    "@babel/runtime-corejs2": "^7.27.1",
-    "@wdio/cli": "^9.23.3",
-    "@wdio/local-runner": "^9.23.3",
-    "@wdio/mocha-framework": "^9.23.3",
-    "@wdio/spec-reporter": "^9.23.3",
+    "@playwright/test": "^1.58.2",
     "babel-plugin-formatjs": "^10.5.38",
     "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
-    "chai": "^5.2.0",
     "mailto-parser": "^1.0.1",
-    "mocha": "^11.7.1",
     "npm-check-updates": "^18.0.1",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.6.2",
-    "webdriverio": "^9.23.3"
+    "prettier": "^3.6.2"
   },
   "overrides": {
     "diff": "8.0.3"
