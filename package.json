@@ -21,7 +21,7 @@
     "compile:i18n": "formatjs compile-folder --ast --format crowdin lang compiled-lang"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.983.0",
+    "@aws-sdk/client-dynamodb": "^3.1000.0",
     "@aws-sdk/lib-dynamodb": "^3.983.0",
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
