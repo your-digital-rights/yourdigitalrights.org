@@ -39,8 +39,19 @@ function normalizeDomainInput(domain) {
   }
 
   hostname = hostname.split("?")[0].split("#")[0].split(":")[0].replace(/\.$/, "");
+
+  // The dataset is keyed on the bare hostname -- not one of its ~42k entries
+  // carries a "www." prefix -- so drop it and a stored "www.example.com" still
+  // matches. Only strip when a plausible domain is left behind, since "www.com"
+  // is itself a domain and must survive intact.
+  if (hostname.startsWith("www.") && hostname.split(".").length > 2) {
+    hostname = hostname.slice("www.".length);
+  }
+
   const labels = hostname.split(".");
-  if (!labels.length) {
+  // A single label is never a public domain. This also stops junk entries such
+  // as the literal string "null" from being looked up at all.
+  if (labels.length < 2) {
     return null;
   }
 

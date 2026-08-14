@@ -36,6 +36,7 @@ import FormLabel from "@mui/material/FormLabel";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import {getRegulationbyGeolocation} from "../../utils/geolocation";
+import { normalizeDomainInput } from "../../utils/domains";
 import Regulations from "../../utils/regulations";
 import EmailSendButton from "../EmailSendButton";
 import { withRouter } from 'next/router'
@@ -179,9 +180,16 @@ class Form extends Component {
       ? selectedCompany.name
       : this.companyNameRef.current.value;
 
+    // A company picked from search carries the dataset's own key. A company
+    // typed on the "add a company" form arrives as anything from a bare
+    // hostname to a pasted "https://www.example.com/" address bar, so store the
+    // normalised hostname instead: that is the form the dataset is keyed on, so
+    // the request page will resolve it once the company has been catalogued.
+    // Keep the raw entry if it cannot be parsed, rather than losing it.
     const companyUrl = selectedCompany
       ? selectedCompany.url
-      : this.companyDomainRef.current.value;
+      : normalizeDomainInput(this.companyDomainRef.current.value)
+        || this.companyDomainRef.current.value.trim();
 
     const reference = followUp === "YES" ? `(ref: ${uuid.split("-")[0]})` : "";
 
@@ -255,7 +263,10 @@ class Form extends Component {
   async addNewCompany() {
     const companyEmail = this.companyEmail.current.value;
     const companyName = this.companyNameRef.current.value;
-    const companyDomain = this.companyDomainRef.current.value;
+    // Submit the same normalised hostname that was stored on the request, so the
+    // key that gets catalogued matches the key the request refers to.
+    const rawDomain = this.companyDomainRef.current.value;
+    const companyDomain = normalizeDomainInput(rawDomain) || rawDomain.trim();
     try {
       await fetch(
         "https://docs.google.com/forms/d/1hEsB-dmoqeS6pUbG-ODFxX1vOE__9-z2F5DHb94Dd3s/formResponse",
