@@ -170,7 +170,7 @@ export async function getServerSideProps(context) {
     const data = await fetchDomainDetails(companyUrl);
     organization = (data && data['Domain']) || null;
   } catch (error) {
-    console.error(`Domain lookup failed for '${companyUrl}' on request ${uuid}:`, error);
+    console.error("Domain lookup failed for '%s' on request %s:", companyUrl, uuid, error);
   }
 
   return {
