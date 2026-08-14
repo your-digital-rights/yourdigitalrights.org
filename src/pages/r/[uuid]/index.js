@@ -140,11 +140,9 @@ function organizationFromUrl(companyUrl) {
     return { url: typeof companyUrl === "string" ? companyUrl : "", name: "" };
   }
 
-  const bareHostname = hostname.replace(/^www\./, "");
-
   return {
-    url: bareHostname,
-    name: bareHostname.split(".")[0],
+    url: hostname,
+    name: hostname.split(".")[0],
   };
 }
 
