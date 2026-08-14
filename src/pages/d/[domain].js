@@ -111,7 +111,9 @@ export async function getStaticProps({ params, locale }) {
       organization: data['Domain'],
       messages,
     },
-    revalidate:  30 * 24 * 60 * 60, // 30 days
+    // Domain profiles change infrequently. Refresh them explicitly when the
+    // source data changes instead of letting crawler traffic drive regeneration.
+    revalidate: 365 * 24 * 60 * 60, // 1 year
   }
 }
 
