@@ -26,6 +26,10 @@ jobs:
 
       - run: npm install --legacy-peer-deps
 
+      # Runs before the build, which rewrites lang/en.json, so this checks the
+      # committed translations rather than freshly extracted ones.
+      - run: npm run check:i18n
+
       - run: npx playwright install --with-deps chromium
 
       - run: npm run build
