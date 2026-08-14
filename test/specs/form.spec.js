@@ -148,6 +148,56 @@ test.describe('Form: add new organization', () => {
     expect(mailTo.body).toMatch(/10 Downing Street/);
     expect(mailTo.body).toMatch(/To the Attention of the Privacy Department/);
   });
+
+});
+
+// People paste whatever is in their address bar. The domain has to be reduced to
+// a bare hostname, because that is the form the domains dataset is keyed on, and
+// anything else leaves the request page unable to find the organization.
+test.describe('Form: organization domain normalization', () => {
+  async function openAddOrgForm(page) {
+    await page.setViewportSize({width: 1200, height: 823});
+    const p = await setupPageInDesktopView(page, '/', false);
+
+    await p.searchForm.fillInSearch('abcxyz123');
+    const addOrgResult = page.locator("li:has-text(\"Can't find an organization?\")");
+    await addOrgResult.waitFor({state: 'visible', timeout: 60_000});
+    await addOrgResult.click();
+    await page.waitForURL('**/d/add');
+
+    return p;
+  }
+
+  test('reduces a pasted address to a bare domain', async ({page}) => {
+    const p = await openAddOrgForm(page);
+    const domainField = await p.personalInfoForm.selectElementByLabel(
+      'Organization domain'
+    );
+
+    await p.personalInfoForm.fillIn(
+      'Organization domain',
+      'https://WWW.AbcXyz123.com/privacy?x=1'
+    );
+    await domainField.blur();
+
+    await expect(domainField).toHaveValue('abcxyz123.com');
+  });
+
+  test('refuses a value that is not a domain', async ({page}) => {
+    const p = await openAddOrgForm(page);
+    const domainField = await p.personalInfoForm.selectElementByLabel(
+      'Organization domain'
+    );
+
+    await p.personalInfoForm.fillIn('Organization domain', 'not a domain');
+    // Wait for the 300ms debounced validation to fire.
+    await page.waitForTimeout(500);
+    await domainField.blur();
+
+    expect(
+      await domainField.evaluate(el => el.validationMessage)
+    ).toMatch(/domain only/i);
+  });
 });
 
 test.describe('Form: invalid organization email', () => {

@@ -155,6 +155,45 @@ class Form extends Component {
     }, 300);
   };
 
+  invalidDomainMessage = () =>
+    this.props.intl.formatMessage({
+      id: "personalInfoForm.validDomain",
+      defaultMessage: "Please enter a domain only, for example example.com",
+    });
+
+  handleCompanyDomainInput = (event) => {
+    const value = event.target.value;
+    if (this.companyDomainValidationTimeout) {
+      clearTimeout(this.companyDomainValidationTimeout);
+    }
+    this.companyDomainValidationTimeout = setTimeout(() => {
+      // An empty field is left to the browser's own "required" handling, so that
+      // typing does not immediately complain before anything has been entered.
+      const companyDomainError = !value.trim() || normalizeDomainInput(value)
+        ? ""
+        : this.invalidDomainMessage();
+      this.companyDomainRef.current.setCustomValidity(companyDomainError);
+    }, 300);
+  };
+
+  // Rewrite the field to the bare hostname once the visitor moves on, so that a
+  // pasted "https://www.example.com/" becomes the "example.com" we will store
+  // and submit, and they can see exactly what is being recorded.
+  handleCompanyDomainBlur = () => {
+    const field = this.companyDomainRef.current;
+    if (!field || !field.value.trim()) {
+      return;
+    }
+
+    const normalized = normalizeDomainInput(field.value);
+    if (normalized) {
+      field.value = normalized;
+      field.setCustomValidity("");
+    } else {
+      field.setCustomValidity(this.invalidDomainMessage());
+    }
+  };
+
   handleFormSubmit = (e) => {
     e.preventDefault();
   };
@@ -362,6 +401,8 @@ class Form extends Component {
                 id="companyDomain"
                 label={CompanyDomainLabelText}
                 defaultValue=""
+                onChange={this.handleCompanyDomainInput}
+                onBlur={this.handleCompanyDomainBlur}
                 margin="normal"
                 required
                 helperText={CompanyDomainHelperText}
