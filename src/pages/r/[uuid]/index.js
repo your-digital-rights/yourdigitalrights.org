@@ -13,7 +13,7 @@ import RequestWhatsNext from "../../../components/RequestWhatsNext";
 import RequestHero from "../../../components/RequestHero";
 import RequestTimeline from "../../../components/RequestTimeline";
 import {generateCanonical, generateLangLinks} from "../../../utils/langUtils";
-import { fetchDomainDetails } from "../../../utils/domains";
+import { fetchDomainDetails, normalizeDomainInput } from "../../../utils/domains";
 import Regulations from "../../../utils/regulations";
 import { DateTime } from "luxon";
 
@@ -131,6 +131,23 @@ const Uuid = ({data, router, intl}) => {
   )
 };
 
+// Just enough of an organization record for the page to render when the domains
+// API has nothing for this company, or could not be reached.
+function organizationFromUrl(companyUrl) {
+  const hostname = normalizeDomainInput(companyUrl);
+
+  if (!hostname) {
+    return { url: typeof companyUrl === "string" ? companyUrl : "", name: "" };
+  }
+
+  const bareHostname = hostname.replace(/^www\./, "");
+
+  return {
+    url: bareHostname,
+    name: bareHostname.split(".")[0],
+  };
+}
+
 export async function getServerSideProps(context) {
   const { getLocaleMessages } = await import('../../../utils/localeMessages');
   const messages = await getLocaleMessages(context.locale);
@@ -143,20 +160,24 @@ export async function getServerSideProps(context) {
     }
   }
 
-  const data = await fetchDomainDetails(requestDetails.Item.companyUrl);
+  // The request itself is what this page is about, and we have already confirmed
+  // it exists. Company details are decoration, so a missing or unreachable
+  // domain record must never make us tell the user their request is not found.
+  const companyUrl = requestDetails.Item.companyUrl;
+  let organization = null;
 
-  if (typeof data == 'undefined') {
-    return {
-      notFound: true,
-    }
+  try {
+    const data = await fetchDomainDetails(companyUrl);
+    organization = (data && data['Domain']) || null;
+  } catch (error) {
+    console.error("Domain lookup failed for '%s' on request %s:", companyUrl, uuid, error);
   }
-  
+
   return {
-    notFound: data.statusCode >= 400,
     props: {
       data: {
         item: requestDetails.Item,
-        organization: data['Domain'],
+        organization: organization || organizationFromUrl(companyUrl),
       },
       messages,
     },

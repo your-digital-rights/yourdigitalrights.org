@@ -97,8 +97,11 @@ export async function getStaticProps({ params, locale }) {
     }
   } 
   
-  const data = await fetchDomainDetails(params.domain); 
-  
+  // A lookup failure is deliberately left to propagate. With a one year
+  // revalidate window, caching a notFound for a domain we simply could not
+  // reach would hide it for a year; failing lets the next request retry.
+  const data = await fetchDomainDetails(params.domain);
+
   if (typeof data == 'undefined') {
     return {
       notFound: true,
@@ -106,7 +109,6 @@ export async function getStaticProps({ params, locale }) {
   }
 
   return {
-    notFound: data.statusCode > 400,
     props: {
       organization: data['Domain'],
       messages,

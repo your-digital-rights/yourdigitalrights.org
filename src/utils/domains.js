@@ -6,6 +6,16 @@ var domainDetails = {};
 var dd = null;
 const headers = {'X-API-Key': process.env.NEXT_PUBLIC_DOMAIN_API_KEY};
 
+// "We could not reach the domains API" is not the same answer as "this domain
+// is not in the dataset". Transient failures are raised as this error so that
+// callers never turn one into a 404 for a domain that probably does exist.
+class DomainLookupError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = "DomainLookupError";
+  }
+}
+
 function normalizeDomainInput(domain) {
   if (typeof domain !== "string") {
     return null;
@@ -47,17 +57,19 @@ function normalizeDomainInput(domain) {
 async function fetchDomains() {
   const url = `${DOMAINS_API_URL}/domains`;
   if (allDomains == null) {
+    // Only a successful lookup gets memoised. Caching a rejection would pin the
+    // failure to this process for as long as it stays warm.
     allDomains = fetch(url, {headers: headers})
       .then((response) => {
         if (response.ok) {
           return response.json();
         }
-        throw new Error(`HTTP error ${response.status} from ${url}`);
+        throw new DomainLookupError(`HTTP error ${response.status} from ${url}`);
       })
-      .then((json) => {
-        return json;
-      })
-      .catch(console.error);
+      .catch((error) => {
+        allDomains = null;
+        throw error;
+      });
   }
   return allDomains;
 }
@@ -72,17 +84,23 @@ async function fetchDomainDetails(domain) {
     const url = new URL(`/domains/${encodeURIComponent(normalizedDomain)}`, DOMAINS_API_URL).toString();
     domainDetails[normalizedDomain] = fetch(url, {headers: headers})
       .then((response) => {
-        if (response.status <= 400) {
+        // A 404 is a real answer -- the domain is absent from the dataset -- so
+        // it is safe to remember. Any other non-ok status means we got no answer
+        // at all and must not be cached as one.
+        if (response.status === 404) {
+          return undefined;
+        }
+        if (response.ok) {
           return response.json();
         }
-        throw new Error(`HTTP error ${response.status} from '${url}'`);
+        throw new DomainLookupError(`HTTP error ${response.status} from '${url}'`);
       })
-      .then((json) => {
-        return json;
-      })
-      .catch(console.error);
+      .catch((error) => {
+        delete domainDetails[normalizedDomain];
+        throw error;
+      });
   }
   return domainDetails[normalizedDomain];
 }
 
-export {fetchDomains, fetchDomainDetails}
+export {fetchDomains, fetchDomainDetails, normalizeDomainInput, DomainLookupError}
