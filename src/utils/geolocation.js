@@ -1,5 +1,35 @@
 import fetch from "isomorphic-fetch";
 
+const EMPTY_GEO = { country: null, region: null, city: null, latitude: null, longitude: null, timezone: null };
+
+// Cloudflare answers /cdn-cgi/trace at the edge, so this never reaches our origin.
+// It only exposes the country, which is all we need unless the visitor is in the
+// US -- US regulations are state-level, so those still need the origin lookup.
+async function getCountryFromEdge() {
+  try {
+    const res = await fetch('/cdn-cgi/trace');
+
+    if (!res.ok) {
+      return null;
+    }
+
+    const match = /^loc=([A-Z]{2})$/m.exec(await res.text());
+    return match ? match[1] : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+async function getGeoFromOrigin() {
+  const res = await fetch('/api/geolocation');
+
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+  }
+
+  return res.json();
+}
+
 async function getGeo() {
   try {
     if (typeof window !== 'undefined') {
@@ -11,23 +41,22 @@ async function getGeo() {
         }
       }
     }
-    
-    const res = await fetch('/api/geolocation');
-    
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}: ${res.statusText}`);
-    }
-    
-    const data = await res.json();
-    
+
+    const edgeCountry = typeof window !== 'undefined' ? await getCountryFromEdge() : null;
+
+    // Anything outside the US is decided by country alone, so we can skip the origin.
+    const data = edgeCountry && edgeCountry !== 'US'
+      ? { ...EMPTY_GEO, country: edgeCountry }
+      : await getGeoFromOrigin();
+
     if (typeof window !== 'undefined' && data && typeof data === 'object') {
       sessionStorage.setItem('ydr_geo', JSON.stringify(data));
     }
-    
+
     return data;
   } catch (error) {
     console.warn('Failed to get geolocation:', error);
-    return { country: null, region: null, city: null, latitude: null, longitude: null, timezone: null };
+    return { ...EMPTY_GEO };
   }
 }
 
